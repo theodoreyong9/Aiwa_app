@@ -26,3 +26,6 @@ npm install
 npm test            # le protocole (packages/) et l'application web (web/)
 npm run build:web   # web/dist
 ```
+
+## Publication
+Un push sur une branche `claude/*` suffit : quand le build passe, le workflow Promote la fusionne dans `main` et publie l APK. Personne n a à pousser sur `main`.
