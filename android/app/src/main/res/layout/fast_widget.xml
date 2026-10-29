@@ -10,11 +10,11 @@
 <LinearLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="7" android:orientation="horizontal">
 <FrameLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="7"/>
 <LinearLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="86" android:orientation="horizontal">
+<FrameLayout android:id="@+id/t_settings" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="55"/>
 <FrameLayout android:id="@+id/t_agent" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="100"/>
 <FrameLayout android:id="@+id/t_files" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="100"/>
 <FrameLayout android:id="@+id/t_voir" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="100"/>
 <FrameLayout android:id="@+id/t_upd" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="55"/>
-<FrameLayout android:id="@+id/t_settings" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="55"/>
 </LinearLayout>
 <FrameLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="7"/>
 </LinearLayout>
@@ -39,7 +39,9 @@
 </LinearLayout>
 <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
 <LinearLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="10" android:orientation="horizontal">
-<FrameLayout android:id="@+id/z_f_0_0" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+<FrameLayout android:id="@+id/z_f_0_0" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="2"/>
+<FrameLayout android:id="@+id/z_f_0_1" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+<FrameLayout android:id="@+id/z_f_0_2" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
 </LinearLayout>
 <LinearLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="5" android:orientation="horizontal">
 <FrameLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="7"/>
@@ -56,6 +58,7 @@
 <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
 <LinearLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="10" android:orientation="horizontal">
 <FrameLayout android:id="@+id/z_v_0_0" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+<FrameLayout android:id="@+id/z_v_0_1" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
 </LinearLayout>
 <LinearLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="5" android:orientation="horizontal">
 <FrameLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="7"/>
@@ -63,7 +66,6 @@
 <FrameLayout android:id="@+id/z_v_1_0" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
 <FrameLayout android:id="@+id/z_v_1_1" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
 <FrameLayout android:id="@+id/z_v_1_2" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
-<FrameLayout android:id="@+id/z_v_1_3" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
 </LinearLayout>
 <FrameLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="7"/>
 </LinearLayout>

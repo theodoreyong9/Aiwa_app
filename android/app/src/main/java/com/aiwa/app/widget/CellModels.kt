@@ -39,6 +39,9 @@ object CellModels {
         out["claude"] = CellModel("Claude", if (waiting) "red" else "grey", enabled = hasSession)
         out["listen"] = CellModel(if (ear) "Écoute active" else "Écoute", if (ear) "green" else "grey", on = ear)
         out["plus"] = CellModel(if (attachments > 0) "$attachments jointe(s)" else "Ajouter", if (attachments > 0) "green" else "grey")
+        val single = FilesScope.repo(context, status?.repo) != null
+        out["repoview"] = CellModel("Voir le dépôt", "grey", enabled = single)
+        out["reposession"] = CellModel("Changer de session", "grey", enabled = single)
         out["scope"] = CellModel(FilesScope.label(context, status?.repo) + " ▾", if (FilesScope.repo(context, status?.repo) == null) "green" else "grey")
         for ((kind, label) in listOf("docs" to "Docs", "image" to "Images", "video" to "Vidéos", "app" to "Apps", "page" to "Pages")) {
             val found = (snap.fileCounts[kind] ?: 0) > 0

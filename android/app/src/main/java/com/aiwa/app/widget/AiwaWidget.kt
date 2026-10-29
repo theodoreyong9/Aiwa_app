@@ -29,7 +29,8 @@ import com.aiwa.app.web.WebActivity
  * The widget: five pictures drawn by WidgetArt (one per page, the card included) under invisible touch zones (res/layout/fast_widget.xml, written by scripts/gen-widget-layout.py).
  * A tap on a tab only turns the two ViewFlippers (a partial update): nothing is read, nothing is drawn again, so it is instant. The pictures are drawn again whenever the state changes.
  *
- * Pages: Agent (a Chambre en cours cell at the left of the Super agent while a room is open, Claude; below: Écoute, Ajouter, Scénario, Cast TV) · Files (the repository or all, then docs, images,
+ * The tab strip, from the left: Réglages (opens the settings), Agent, Files, Game, then Mise à jour (only when an update exists).
+ * Pages: Agent (a Chambre en cours cell at the left of the Super agent while a room is open, Claude; below: Écoute, Ajouter, Scénario, Cast TV) · Files (the repository or all, with a button to see it and one to change its session, then docs, images,
  * vidéos, apps, pages) · Game (Wallet; Proximité, Lien, QR code, Favoris). The top bar, at the right of the tabs: Mise à jour (only when an update exists), Réglages.
  * Question (the report is in it) is the last cell of the Agent page.
  * The Chambre has no page here: it lives in the application.
@@ -102,11 +103,11 @@ object AiwaWidget {
         val alert = waiting || agentNeeds || !hasTermuxPermission(context) || brainBad
         // ---- the tabs, then the top bar ----
         val tabs = listOfNotNull(
+            WidgetArt.Tab(R.drawable.fw_i_settings, "Réglages", "grey", weight = 0.55f),
             WidgetArt.Tab(R.drawable.fw_i_build, "Agent", if (alert) "red" else "orange", always = alert, dot = snap.agentOpen || snap.listening),
             WidgetArt.Tab(R.drawable.fw_i_files, "Files", "green"),
             WidgetArt.Tab(R.drawable.fw_i_game, "Game", "violet"),
             if (snap.appUpdateReady) WidgetArt.Tab(R.drawable.fw_i_update, "Mise à jour", "green", weight = 0.55f, always = true) else null,
-            WidgetArt.Tab(R.drawable.fw_i_settings, "Réglages", "grey", weight = 0.55f),
         )
         v.setViewVisibility(R.id.t_upd, if (snap.appUpdateReady) View.VISIBLE else View.GONE)
         WidgetTab.PAGES.forEachIndexed { i, name -> v.setOnClickPendingIntent(id(context, TAB_IDS[i]), broadcast(context, 1 + i, ACTION_TAB, "tab" to name)) }
@@ -144,13 +145,23 @@ object AiwaWidget {
         val kindCells = kinds.mapIndexed { i, (kind, icon) ->
             Cell(btn(icon, kind, iconOnly = true), 1f, activity(context, 20 + i, Intent(context, FilesActivity::class.java).putExtra(FilesActivity.EXTRA_KIND, kind)))
         }
-        val files = listOf(listOf(Cell(btn(R.drawable.fw_i_files, "scope"), 1f, activity(context, 19, RepoPickerActivity::class.java))), kindCells)
+        val scopeRepo = FilesScope.repo(context, status?.repo)
+        val files = listOf(
+            listOf(
+                Cell(btn(R.drawable.fw_i_files, "scope"), 2f, activity(context, 19, RepoPickerActivity::class.java)),
+                Cell(btn(R.drawable.fw_i_link, "repoview", iconOnly = true), 1f, scopeRepo?.let { activity(context, 17, Intent(Intent.ACTION_VIEW, android.net.Uri.parse("https://github.com/$it"))) }),
+                Cell(btn(R.drawable.fw_i_swap, "reposession", iconOnly = true), 1f, scopeRepo?.let { activity(context, 18, Intent(context, RepoSessionActivity::class.java).putExtra(RepoSessionActivity.EXTRA_REPO, it)) }),
+            ),
+            kindCells,
+        )
         // ---- Voir ----
         fun voir(code: Int, mode: String) = activity(context, code, Intent(context, WebActivity::class.java).putExtra(WebActivity.EXTRA_PAGE, "voir").putExtra(WebActivity.EXTRA_MODE, mode))
         val voirPage = listOf(
-            listOf(Cell(btn(R.drawable.fw_i_wallet, "wallet"), 1f, activity(context, 44, Intent(context, WebActivity::class.java).putExtra(WebActivity.EXTRA_PAGE, "wallet")))),
             listOf(
-                Cell(btn(R.drawable.fw_i_pin, "nearby", iconOnly = true), 1f, voir(40, "proche")),
+                Cell(btn(R.drawable.fw_i_wallet, "wallet"), 1f, activity(context, 44, Intent(context, WebActivity::class.java).putExtra(WebActivity.EXTRA_PAGE, "wallet"))),
+                Cell(btn(R.drawable.fw_i_pin, "nearby"), 1f, voir(40, "proche")),
+            ),
+            listOf(
                 Cell(btn(R.drawable.fw_i_link, "link", iconOnly = true), 1f, voir(41, "lien")),
                 Cell(btn(R.drawable.fw_i_qr, "qr", iconOnly = true), 1f, voir(42, "qr")),
                 Cell(btn(R.drawable.fw_i_star, "favorites", iconOnly = true), 1f, voir(43, "favoris")),
@@ -160,7 +171,7 @@ object AiwaWidget {
         // ---- the pictures and the touch zones ----
         val (pw, ph) = sizePx(context)
         pages.forEachIndexed { p, rows ->
-            v.setImageViewBitmap(IMG[p], WidgetArt.full(context, pw, ph, alert, WidgetBackground.res(context), tabs, p, rows.map { row -> row.map { it.btn to it.weight } }))
+            v.setImageViewBitmap(IMG[p], WidgetArt.full(context, pw, ph, alert, WidgetBackground.res(context), tabs, p + 1, rows.map { row -> row.map { it.btn to it.weight } }))
             rows.forEachIndexed { r, row ->
                 row.forEachIndexed { c, cell -> id(context, "z_${LETTER[p]}_${r}_${cell.zone ?: c}").let { zid -> v.setViewVisibility(zid, View.VISIBLE); cell.click?.let { v.setOnClickPendingIntent(zid, it) } } }
             }

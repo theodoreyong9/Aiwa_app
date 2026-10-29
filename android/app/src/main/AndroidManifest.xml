@@ -60,6 +60,7 @@
         <activity android:name=".settings.HealthActivity" android:exported="false" android:theme="@style/Theme.Float" android:windowSoftInputMode="adjustResize" android:taskAffinity="" android:excludeFromRecents="true" />
         <activity android:name=".settings.ClaudeLoginActivity" android:exported="false" android:theme="@style/Theme.Float" android:windowSoftInputMode="adjustResize" android:taskAffinity="" android:excludeFromRecents="true" />
         <activity android:name=".question.AskActivity" android:exported="false" android:theme="@style/Theme.Float" android:windowSoftInputMode="adjustResize" android:taskAffinity="" android:excludeFromRecents="true" />
+        <activity android:name=".widget.RepoSessionActivity" android:exported="false" android:theme="@style/Theme.Float" android:taskAffinity="" android:excludeFromRecents="true" />
         <activity android:name=".widget.RepoPickerActivity" android:exported="false" android:theme="@style/Theme.Float" android:windowSoftInputMode="adjustResize" android:taskAffinity="" android:excludeFromRecents="true" />
         <activity android:name=".widget.AddActivity" android:exported="false" android:theme="@style/Theme.Float" android:windowSoftInputMode="adjustResize" android:taskAffinity="" android:excludeFromRecents="true" />
         <activity android:name=".files.ImageActivity" android:exported="false" />
