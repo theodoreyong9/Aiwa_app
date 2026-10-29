@@ -1,5 +1,6 @@
 """The chamber: the super agent meets the one of someone else, in a room they both pressed the button of. One chamber at a time; the rules and the words are in chamber_lib."""
 import json
+import threading
 import time
 import urllib.parse
 import urllib.request
@@ -51,6 +52,49 @@ def _match(repo):
     return {"ok": True, **score}
 
 
+RANK_MAX = 60       # profiles of a zone noted at most
+RANK_BATCH = 3      # noted at the same time: each note is a question to the person's own model
+_rank = {"queue": [], "scores": {}, "total": 0, "running": False}
+_rank_lock = threading.Lock()
+
+
+def _rank_work():
+    """Notes the queued profiles by small groups, in the background; the ranking known so far can be read at any moment."""
+    from concurrent.futures import ThreadPoolExecutor
+    while True:
+        with _rank_lock:
+            batch, _rank["queue"] = _rank["queue"][:RANK_BATCH], _rank["queue"][RANK_BATCH:]
+            if not batch:
+                _rank["running"] = False
+                return
+        with ThreadPoolExecutor(RANK_BATCH) as pool:
+            for repo, got in zip(batch, pool.map(lambda r: _match(r), batch)):
+                if got.get("ok"):
+                    with _rank_lock:
+                        _rank["scores"][repo] = {"pro": got["pro"], "perso": got["perso"]}
+
+
+def _rank_start(repos):
+    """Queues the profiles of a zone to be noted (those already noted are not asked again). Nothing is ranked on its own: the person asks to see the ranking."""
+    wanted = [r for r in dict.fromkeys(str(x) for x in (repos if isinstance(repos, list) else [])) if chamber_lib.REPO_RE.fullmatch(r) and r != profile_lib.repo()][:RANK_MAX]
+    with _rank_lock:
+        fresh = [r for r in wanted if r not in _rank["scores"] and r not in _rank["queue"]]
+        _rank["queue"] += fresh
+        _rank["total"] = len(set(wanted) | set(_rank["scores"]))
+        launch = bool(_rank["queue"]) and not _rank["running"]
+        if launch:
+            _rank["running"] = True
+    if launch:
+        threading.Thread(target=_rank_work, daemon=True).start()
+    return {"ok": True, "queued": len(fresh)}
+
+
+def _rank_view():
+    with _rank_lock:
+        items = sorted(({"repo": r, **sc} for r, sc in _rank["scores"].items()), key=lambda i: -(i["pro"] + i["perso"]))
+        return {"ok": True, "total": _rank["total"], "done": len(items), "running": _rank["running"], "items": items}
+
+
 def chamber_api(path, body):
     try:
         data = json.loads(body) if body.strip() else {}
@@ -69,6 +113,10 @@ def chamber_api(path, body):
                 if o["id"] == str(data.get("id")):
                     o["state"] = "opened" if data.get("do") == "open" else "dismissed"
         return _chamber_view()
+    if path == "/api/match/batch":
+        return _rank_start(data.get("repos"))
+    if path == "/api/match/ranking":
+        return _rank_view()
     if path == "/api/match":
         return _match(str(data.get("repo") or ""))
     peer = str(data.get("peer") or "")
