@@ -65,15 +65,8 @@ class ProfileActivity : ComponentActivity() {
             background = GradientDrawable().apply { setColor(Color.parseColor("#99000000")); cornerRadius = dp(14).toFloat() }
         }
         root.addView(chip, FrameLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT, Gravity.TOP or Gravity.CENTER_HORIZONTAL).apply { topMargin = dp(8) })
-        bar = ProfileBar.build(this, listOf(
-            ProfileBar.Spec("🤝", "Match", ProfileBar.VIOLET) { match(force = true) },
-            ProfileBar.Spec("🚪", "Chambre", ProfileBar.BLUE) { startActivity(Intent(this, com.aiwa.app.chamber.ChamberActivity::class.java).putExtra(com.aiwa.app.chamber.ChamberActivity.EXTRA_REPO, urls[pager.currentItem])) },
-            ProfileBar.Spec("☕", "Café", ProfileBar.GOLD) { coffee() },
-            ProfileBar.Spec("📍", "Zone", ProfileBar.VIOLET) { WebActivity.zone(this) },
-            ProfileBar.Spec("🏆", "Mur", ProfileBar.GREEN) { wall() },
-            ProfileBar.Spec("✦", "Widget", ProfileBar.WHITE) { pages[pager.currentItem]?.let { HomeRuntime.openPanel(it) } },
-        ) + (if (urls.size > 1) listOf(ProfileBar.Spec("🏅", "Rang", ProfileBar.GOLD) { ranking() }) else emptyList()))
-        root.addView(bar.view, FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT, Gravity.BOTTOM))
+        this.root = root
+        applyBar(BarConfig.last)
         setContentView(root)
         ViewCompat.setOnApplyWindowInsetsListener(root) { view, insets ->
             val bars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
@@ -82,9 +75,34 @@ class ProfileActivity : ComponentActivity() {
         }
         pager.setCurrentItem(start, false)
         pager.registerOnPageChangeCallback(object : ViewPager2.OnPageChangeCallback() { override fun onPageSelected(position: Int) { chip.visibility = android.view.View.GONE; refreshKeys() } })
+        built = true
         refreshKeys()
+        BarConfig.load(ProfileSettings.repo(this), null, builtinKeys().keys) { entries -> runOnUiThread { if (!isFinishing && !isDestroyed) applyBar(entries) } }
         // the profiles of the zone are noted in the background by small groups, nothing is ranked on its own: « Rang » shows what is known
         if (urls.size > 1) CoroutineScope(Dispatchers.IO).launch { try { Aiwa.brain.matchBatch(urls) } catch (err: Exception) { } }
+    }
+
+    private lateinit var root: FrameLayout
+    private var barView: android.view.View? = null
+    private var built = false      // the window is complete: the keys may ask about the profile on the screen
+
+    /** The keys the application has on a visited profile: the person's own file (her profile repository) may reorder, restyle or leave out any of them, and add others. */
+    private fun builtinKeys() = linkedMapOf(
+        "match" to ProfileBar.Spec("🤝", "Match", ProfileBar.VIOLET) { match(force = true) },
+        "chambre" to ProfileBar.Spec("🚪", "Chambre", ProfileBar.BLUE) { startActivity(Intent(this, com.aiwa.app.chamber.ChamberActivity::class.java).putExtra(com.aiwa.app.chamber.ChamberActivity.EXTRA_REPO, urls[pager.currentItem])) },
+        "cafe" to ProfileBar.Spec("☕", "Café", ProfileBar.GOLD) { coffee() },
+        "zone" to ProfileBar.Spec("📍", "Zone", ProfileBar.VIOLET) { WebActivity.zone(this) },
+        "mur" to ProfileBar.Spec("🏆", "Mur", ProfileBar.GREEN) { wall() },
+        "widget" to ProfileBar.Spec("✦", "Widget", ProfileBar.WHITE) { pages[pager.currentItem]?.let { HomeRuntime.openPanel(it) } },
+    ).also { table -> if (urls.size > 1) table["rang"] = ProfileBar.Spec("🏅", "Rang", ProfileBar.GOLD) { ranking() } }
+
+    private fun applyBar(entries: List<com.aiwa.client.BarEntry>?) {
+        val (specs, ids) = BarConfig.resolve(this, entries, builtinKeys())
+        barView?.let { root.removeView(it) }
+        bar = ProfileBar.build(this, specs, ids)
+        barView = bar.view
+        root.addView(bar.view, FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT, Gravity.BOTTOM))
+        if (built) refreshKeys()
     }
 
     /** The ranking known so far, as a list that grows while the profiles are noted; a touch on a line goes to that profile. */
@@ -126,7 +144,7 @@ class ProfileActivity : ComponentActivity() {
     /** The score of the profile on the screen for the person who looks, made by her own super agent (the brain keeps it): it is written on the Match key itself, « Pro 72 · Perso 41 ». */
     private fun match(force: Boolean = false) {
         val repo = urls[pager.currentItem]
-        val key = bar.keys[0]
+        val key = bar.named["match"] ?: return
         scores[repo]?.let { key.label(it); if (!force) return }
         key.label("…")
         CoroutineScope(Dispatchers.Main).launch {
@@ -143,9 +161,9 @@ class ProfileActivity : ComponentActivity() {
     private fun refreshKeys() {
         val i = pager.currentItem
         val pub = pubs.getOrNull(i).orEmpty()
-        bar.keys[0].label(scores[urls[i]] ?: "Match")
-        bar.keys[2].available(CoffeeSettings.walletConnected(this) && pub.isNotEmpty())
-        bar.keys[4].available(pub.isNotEmpty())
+        bar.named["match"]?.label(scores[urls[i]] ?: "Match")
+        bar.named["cafe"]?.available(CoffeeSettings.walletConnected(this) && pub.isNotEmpty())
+        bar.named["mur"]?.available(pub.isNotEmpty())
         if (pub.isEmpty()) findPub(i)
         match()
     }

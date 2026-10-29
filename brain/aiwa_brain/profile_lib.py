@@ -51,6 +51,13 @@ SKILL_URL = "https://raw.githubusercontent.com/theodoreyong9/Aiwa_app/main/skill
 READ_MAX = 2_000_000        # bytes of the page the brain reads to check it (a limit of reading, not of making)
 
 
+UI_FILE = "aiwa-ui.json"
+# What the application's own look may name as an action (keep in step with AgentScreens.TOKENS and the keys of the bar in the Android app).
+UI_KEYS = "match, chambre, cafe, zone, mur, widget, rang"
+UI_SCREENS = ("files_docs, files_image, files_video, files_app, files_page, files, build, scenario, cast, voir, voir_near, voir_link, voir_qr, voir_fav, chambre, settings, update, question, claude, add, "
+              "listen, wallet, report, home, github, health, claude_login, keys, style, wall")
+
+
 def instruction(repo_name=None):
     """What a session is told about the profile folder (and, when a repository is chosen, which one it is). The how-to is the profile skill; here only what must never be missed."""
     text = (
@@ -58,7 +65,11 @@ def instruction(repo_name=None):
         f"Quand elle dit qu'on travaille sur son profil, tu écris `{FOLDER}/index.html` (médias à côté) en suivant le skill {SKILL_URL} : lis-le avant de t'y mettre. "
         "Ce qui ne se négocie pas : son nom en titre (`<h1>`), un `<title>`, la balise viewport, un fond qui vit, des liens, aucune ressource en `http://`, et jamais de défilement bloqué. "
         "Les boutons d'Aiwa ne s'écrivent pas : tu poses des EMPLACEMENTS (`data-aiwa-button=\"widget\"`, `data-aiwa-slot=\"build\"`, `data-aiwa-scenarios`) et l'application y met les vrais boutons. "
-        "La page affichée est celle de la branche par défaut : pousse ou fusionne là."
+        "La page affichée est celle de la branche par défaut : pousse ou fusionne là. "
+        f"L'APPLICATION se personnalise aussi par un fichier : `{FOLDER}/{UI_FILE}` décrit la barre du bas de l'application (et elle seule : le widget n'est jamais touché), par exemple "
+        '`{"v":1,"bar":[{"action":"zone","icon":"📍","label":"Autour","tone":"violet"},{"action":"url:https://…","icon":"🎬","label":"Film"}]}`. '
+        f"Huit touches au plus, dans l'ordre voulu ; `label` : 14 caractères au plus ; `icon` : un emoji ; `tone` : violet, blue, gold, green, white ou #RRGGBB ; `action` : {UI_KEYS}, "
+        f"un écran parmi {UI_SCREENS}, ou `url:https://…`. Une touche absente de la liste disparaît ; sans fichier valide, la barre reste celle de l'application. Le changement apparaît dans les secondes qui suivent ton commit."
     )
     if repo_name:
         text += f" Son dépôt du profil est {repo_name} : c'est là, et seulement là, que va ce dossier ; tu travailles dans ce dépôt quand elle parle de son profil."

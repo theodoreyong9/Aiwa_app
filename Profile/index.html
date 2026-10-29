@@ -33,6 +33,10 @@ a{color:inherit}
 .name .l2{display:block;color:transparent;-webkit-text-stroke:1.5px var(--ink);animation:fill 8s ease-in-out infinite}
 @keyframes fill{0%,100%{color:transparent}50%{color:rgba(246,246,255,.9)}}
 
+/* le cadre du film d'Aiwa : un vrai lecteur, visible, par-dessus le fond qui vit */
+.frame{margin:0;border:1px solid var(--line);border-radius:18px;overflow:hidden;background:rgba(6,8,26,.55);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);box-shadow:0 10px 40px rgba(0,0,0,.45),inset 0 1px 0 rgba(255,255,255,.18)}
+.frame video{display:block;width:100%;aspect-ratio:16/9;background:#06081a;object-fit:cover}
+.frame figcaption{display:flex;justify-content:space-between;gap:12px;padding:8px 12px;color:var(--dim)}
 .info{grid-area:info;display:grid;gap:clamp(8px,.1svh,14px)}
 .say{margin:0;max-width:30em;text-shadow:0 1px 14px rgba(0,0,0,.9),0 0 3px rgba(0,0,0,.6);font-size:clamp(14px,3.6vw,19px);color:#e3e6ff}
 .say b{color:var(--acc)}
@@ -96,14 +100,18 @@ a{color:inherit}
 </style>
 </head>
 <body>
-<video class="bg" poster="media/poster.jpg" autoplay muted loop playsinline preload="auto" aria-hidden="true"><source src="https://github.com/theodoreyong9/Aiwa_app/releases/download/video-film-aiwa/film.mp4" type="video/mp4"><source src="media/loop.mp4" type="video/mp4"></video>
+<video class="bg" src="media/loop.mp4" poster="media/poster.jpg" autoplay muted loop playsinline preload="auto" aria-hidden="true"></video>
 <canvas id="gl" aria-hidden="true"></canvas>
 <div class="veil"></div><div class="grain"></div>
 <main class="stage">
   <div class="bar mono"><span>Aiwa · bureau</span><span>2026 · en ligne</span></div>
   <h1 class="name" aria-label="theodoreyong9"><span data-split data-delay="0">theo</span><br><span data-split data-delay="120">dore</span><span class="l2" data-split data-delay="240">yong9</span></h1>
   <div class="info">
-    <p class="say">Je construis <b>Aiwa</b> : un assistant qui vit sur le téléphone, parle à Claude, et fait des sites, des vidéos, des pages et des apps, à la voix, et qui construit des agents, se construit lui-même et développe une identité et une intimité.</p>
+    <figure class="frame" aria-label="Le film d'Aiwa">
+      <video poster="media/poster.jpg" controls autoplay muted loop playsinline preload="metadata"><source src="https://raw.githubusercontent.com/theodoreyong9/Aiwa_app/HEAD/docs/film.mp4" type="video/mp4"><source src="https://github.com/theodoreyong9/Aiwa_app/releases/download/video-film-aiwa/film.mp4" type="video/mp4"></video>
+      <figcaption class="mono"><span>Le film d'Aiwa</span><span>en boucle</span></figcaption>
+    </figure>
+    <p class="say">Je construis <b>Aiwa</b> : un assistant qui vit sur le téléphone, parle à Claude, et fait des sites, des vidéos, des pages et des apps, à la voix, et qui construit des agents, se construit lui-même et développe une identité et une intimité, grâce à tes boucles.</p>
     <section class="favs" aria-label="Mes favoris" data-aiwa-favorites hidden></section>
     <nav class="dock" aria-label="Mes liens">
       <a class="cell g" style="--i:3" href="https://github.com/theodoreyong9/Aiwa_app"><b>Source</b><span>le dépôt d'Aiwa</span></a>
