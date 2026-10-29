@@ -126,23 +126,55 @@ def connected_user():
         return None
 
 
+_etags = {}              # (path, with a token?) -> (ETag, data): a question GitHub answers « unchanged » to costs nothing against its limit
+_blocked_until = 0.0     # GitHub's limit was reached: no question is asked before this moment (epoch seconds)
+
+
+def limit_wording():
+    """What the person reads when the limit is reached; a connected account has 5 000 questions an hour, an anonymous one 60."""
+    when = time.strftime("%H:%M", time.localtime(_blocked_until))
+    return f"limite de GitHub atteinte jusqu'à {when}" + ("" if token_value() else " (connecte GitHub : 5 000 questions par heure au lieu de 60)")
+
+
 def api(path, method="GET", body=None, timeout=15):
-    """One call to the GitHub API, with the token when there is one. Returns the JSON (None for an empty answer) or raises GithubError."""
+    """One call to the GitHub API, with the token when there is one. Returns the JSON (None for an empty answer) or raises GithubError.
+    A GET sends the ETag it was given last time (GitHub answers « unchanged » for free), and once the limit is reached nothing is asked until it ends."""
+    global _blocked_until
+    if method == "GET" and time.time() < _blocked_until:
+        raise GithubError("GitHub : " + limit_wording(), limited=True)
     headers = {"User-Agent": "aiwa", "Accept": "application/vnd.github+json"}
     token = token_value()
     if token:
         headers["Authorization"] = f"Bearer {token}"
+    key = (path, bool(token))
+    known = _etags.get(key) if method == "GET" else None
+    if known:
+        headers["If-None-Match"] = known[0]
     data = json.dumps(body).encode() if body is not None else None
     request = urllib.request.Request(f"{GITHUB_API}{path}", data=data, method=method, headers=headers)
     try:
         with urllib.request.urlopen(request, timeout=timeout) as reply:
             raw = reply.read()
+            etag = reply.headers.get("ETag")
     except urllib.error.HTTPError as err:
+        if err.code == 304 and known:
+            return known[1]
         limited = err.code in (403, 429) and err.headers.get("X-RateLimit-Remaining") == "0"
-        raise GithubError(f"GitHub {err.code}" + (" (limite atteinte)" if limited else "") + (" : jeton absent ou sans droit" if err.code in (401, 403, 404) and method != "GET" else ""), limited=limited)
+        if limited:
+            try:
+                _blocked_until = max(float(err.headers.get("X-RateLimit-Reset") or 0), time.time() + 60)
+            except ValueError:
+                _blocked_until = time.time() + 600
+            raise GithubError("GitHub : " + limit_wording(), limited=True)
+        raise GithubError(f"GitHub {err.code}" + (" : jeton absent ou sans droit" if err.code in (401, 403, 404) and method != "GET" else ""), limited=False)
     except (OSError, ValueError) as err:
         raise GithubError(f"GitHub injoignable : {err}")
-    return json.loads(raw) if raw else None
+    result = json.loads(raw) if raw else None
+    if method == "GET" and etag:
+        if len(_etags) > 300:
+            _etags.clear()
+        _etags[key] = (etag, result)
+    return result
 
 
 def release_upload(repo, tag, title, notes, path, name, timeout=1800):
