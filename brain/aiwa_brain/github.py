@@ -441,6 +441,34 @@ def default_branch(repo):
     return default_branch_or_none(repo) or "main"
 
 
+def trust_folder(path):
+    """The CLI asks « do you trust the files in this folder? » the first time it is started from a folder, and nobody is there to answer in the terminal Aiwa gives it: the session would wait and never
+    be made. The answer is kept in ~/.claude.json (projects[<folder>]); it is written here, once, for the folder the sessions start from."""
+    config_file = Path.home() / ".claude.json"
+    try:
+        data = json.loads(config_file.read_text(encoding="utf-8"))
+        if not isinstance(data, dict):
+            data = {}
+    except (OSError, ValueError):
+        data = {}
+    projects = data.get("projects")
+    if not isinstance(projects, dict):
+        projects = data["projects"] = {}
+    entry = projects.get(str(path))
+    if not isinstance(entry, dict):
+        entry = projects[str(path)] = {}
+    if entry.get("hasTrustDialogAccepted") is True and entry.get("hasCompletedProjectOnboarding") is True:
+        return
+    entry.update(hasTrustDialogAccepted=True, hasCompletedProjectOnboarding=True)
+    temp = config_file.with_name(config_file.name + ".aiwa")
+    try:
+        temp.write_text(json.dumps(data, indent=2), encoding="utf-8")
+        temp.chmod(0o600)
+        temp.replace(config_file)
+    except OSError:
+        temp.unlink(missing_ok=True)
+
+
 def prepare_repo_dir(repo):
     """The local directory `claude --cloud` is started from. The repository
     is only an address: this directory is an empty stub whose `origin` is
@@ -457,6 +485,7 @@ def prepare_repo_dir(repo):
     branch = default_branch(repo)
     dest = SESSION_DIR
     dest.mkdir(parents=True, exist_ok=True)
+    trust_folder(dest)
     if not (dest / ".git").exists():
         _git(["init", "-q", "-b", branch], cwd=dest)
     try:
