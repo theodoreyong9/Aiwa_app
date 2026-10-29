@@ -7,9 +7,7 @@ import kotlinx.coroutines.launch
 import com.aiwa.app.brain.Aiwa
 import com.aiwa.app.common.FloatActivity
 import com.aiwa.app.common.Palette
-import com.aiwa.app.home.CoffeeSettings
 import com.aiwa.app.home.ProfileSettings
-import com.aiwa.app.voice.AgentToggleActivity
 import com.aiwa.app.voice.ChamberSettings
 import com.aiwa.app.voice.LiveSettings
 import com.aiwa.app.voice.NaturalVoice
@@ -40,7 +38,6 @@ class SettingsActivity : FloatActivity() {
         note("Vie privée", Palette.GOLD)
         switch("Se cacher", "Tes liens ne sont pas montrés aux gens à proximité.", !VoirSettings.on(this)) { VoirSettings.setOn(this, !it) }
         switch("Chambre ouverte écran éteint", "La chambre reste ouverte quand l'écran s'éteint.", ChamberSettings.awake(this)) { ChamberSettings.setAwake(this, it) }
-        switch("Café", "Un bouton ☕ sur les profils que tu visites : envoyer de l'AIWA à la personne.", CoffeeSettings.on(this)) { CoffeeSettings.setOn(this, it) }
 
         note("Moi", Palette.GOLD)
         entry("Ma description", "Ce que ton super agent dit de toi dans une chambre.") { open(DescriptionActivity::class.java) }
@@ -54,7 +51,6 @@ class SettingsActivity : FloatActivity() {
         switch("Voix naturelle", "Sinon, la voix du téléphone parle.", NaturalVoice.enabled(this)) { NaturalVoice.setEnabled(this, it) }
         switch("Création à la volée", "Le super agent suit ce que tu dis pendant que tu construis, sans relecture.", LiveSettings.enabled(this)) { LiveSettings.set(this, it) }
         switch("« C'est prêt »", "Dit à voix haute qu'une production vient d'arriver.", ReadySettings.enabled(this)) { ReadySettings.set(this, it) }
-        entry("Super agent", "Ouvrir ou fermer la conversation.") { open(AgentToggleActivity::class.java) }
 
         note("Comptes", Palette.GOLD)
         entry("Clés et plafonds", "Ta clé Anthropic, son plafond du jour, ton jeton GitHub.") { open(KeysActivity::class.java) }

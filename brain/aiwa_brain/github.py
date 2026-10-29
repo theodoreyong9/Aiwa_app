@@ -101,9 +101,11 @@ def set_token(value):
     if not value:
         TOKEN_FILE.unlink(missing_ok=True)
         USER_FILE.unlink(missing_ok=True)
+        _forget_limits()
         return
     TOKEN_FILE.write_text(value, encoding="utf-8")
     TOKEN_FILE.chmod(0o600)
+    _forget_limits()
     # the account it belongs to: a token GitHub refuses is not kept; GitHub being unreachable keeps it (the account is looked up later)
     try:
         who = api("/user")
@@ -118,17 +120,38 @@ def set_token(value):
 
 
 def connected_user():
-    """The GitHub account of the token, or None without a token."""
+    """The GitHub account of the token, or None without a token. When the token is there but the account was never read (GitHub was unreachable), it is looked up now."""
     if not token_value():
         return None
     try:
-        return USER_FILE.read_text(encoding="utf-8").strip() or None
+        known = USER_FILE.read_text(encoding="utf-8").strip()
     except OSError:
+        known = ""
+    if known:
+        return known
+    try:
+        who = api("/user")
+    except GithubError:
         return None
+    login = who.get("login") if isinstance(who, dict) else None
+    if isinstance(login, str) and REPO_RE.fullmatch(login + "/x"):
+        USER_FILE.write_text(login, encoding="utf-8")
+        return login
+    return None
 
 
 _etags = {}              # (path, with a token?) -> (ETag, data): a question GitHub answers « unchanged » to costs nothing against its limit
 _blocked_until = 0.0     # GitHub's limit was reached: no question is asked before this moment (epoch seconds)
+_failed = {}             # (path, with a token?) -> (moment, error): a question GitHub just refused (404…) is not asked again for a minute, it would only spend the limit
+FAILED_FOR = 60
+
+
+def _forget_limits():
+    """A new token (or none) is a new allowance: what was blocked or refused under the old one is asked again."""
+    global _blocked_until
+    _blocked_until = 0.0
+    _failed.clear()
+    _etags.clear()
 
 
 def limit_wording():
@@ -148,6 +171,10 @@ def api(path, method="GET", body=None, timeout=15):
     if token:
         headers["Authorization"] = f"Bearer {token}"
     key = (path, bool(token))
+    if method == "GET":
+        refused = _failed.get(key)
+        if refused and time.time() - refused[0] < FAILED_FOR:
+            raise refused[1]
     known = _etags.get(key) if method == "GET" else None
     if known:
         headers["If-None-Match"] = known[0]
@@ -172,7 +199,12 @@ def api(path, method="GET", body=None, timeout=15):
             why = str(json.loads(err.read() or b"{}").get("message") or "")[:140]
         except (OSError, ValueError, AttributeError):
             pass
-        raise GithubError(f"GitHub {err.code}" + (f" : {why}" if why else "") + (" (jeton absent ou sans droit)" if err.code in (401, 403, 404) and method != "GET" else "") + ("" if token else " (sans connexion)"), limited=False)
+        failure = GithubError(f"GitHub {err.code}" + (f" : {why}" if why else "") + (" (jeton absent ou sans droit)" if err.code in (401, 403, 404) and method != "GET" else "") + ("" if token else " (sans connexion)"), limited=False)
+        if method == "GET" and err.code in (401, 403, 404, 410, 422):
+            if len(_failed) > 300:
+                _failed.clear()
+            _failed[key] = (time.time(), failure)
+        raise failure
     except (OSError, ValueError) as err:
         raise GithubError(f"GitHub injoignable : {err}")
     result = json.loads(raw) if raw else None
@@ -325,13 +357,22 @@ def latest_run(repo):
     return {"state": verdict, "url": shown.get("html_url"), "detail": f"{shown.get('name') or '?'} — {shown.get('display_title') or '?'}"}
 
 
+_newest = {}   # (repo, branch) -> (moment, epoch): the state page asks often, GitHub is asked at most every two minutes
+
+
 def newest_commit_time(repo, branch):
     """Epoch seconds of the last commit of a branch, 0 when it can't be read."""
+    key = (repo.lower(), branch)
+    seen = _newest.get(key)
+    if seen and time.time() - seen[0] < 120:
+        return seen[1]
     try:
         data = api(f"/repos/{repo}/commits/{urllib.parse.quote(branch, safe='')}")
+        value = _epoch(((data or {}).get("commit") or {}).get("committer", {}).get("date"))
     except GithubError:
-        return 0
-    return _epoch(((data or {}).get("commit") or {}).get("committer", {}).get("date"))
+        value = 0
+    _newest[key] = (time.time(), value)
+    return value
 
 
 # ---------- the releases: where every production lives ----------

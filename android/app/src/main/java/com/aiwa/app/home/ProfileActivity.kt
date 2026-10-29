@@ -101,7 +101,7 @@ class ProfileActivity : ComponentActivity() {
         val i = pager.currentItem
         val pub = pubs.getOrNull(i).orEmpty()
         bar.keys[0].label(scores[urls[i]] ?: "Match")
-        bar.keys[2].available(CoffeeSettings.on(this) && pub.isNotEmpty())
+        bar.keys[2].available(CoffeeSettings.walletConnected(this) && pub.isNotEmpty())
         bar.keys[3].available(pub.isNotEmpty())
         match()
     }
@@ -117,7 +117,7 @@ class ProfileActivity : ComponentActivity() {
         val i = pager.currentItem
         val pub = pubs.getOrNull(i).orEmpty()
         when {
-            !CoffeeSettings.on(this) -> toastOnMain(this, "Le café est éteint : allume-le dans les Réglages (Profil).")
+            !CoffeeSettings.walletConnected(this) -> toastOnMain(this, "Le wallet n'est pas connecté : connecte-le (widget, Wallet) pour offrir un café.")
             pub.isEmpty() -> toastOnMain(this, "Cette personne n'a pas donné sa carte dans « Voir » : pas de café.")
             else -> WebActivity.wallet(this, pub, urls[i])
         }
