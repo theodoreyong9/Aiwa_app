@@ -51,7 +51,7 @@ class HomeActivity : ComponentActivity() {
         }
         HomeRuntime.attach(web, true) { ProfileSettings.repo(this) }
         val root = FrameLayout(this).apply { setBackgroundColor(Color.parseColor("#10132E")) }
-        root.addView(web, FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT).apply { bottomMargin = ProfileBar.height(this) })
+        root.addView(web, FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT).apply { bottomMargin = ProfileBar.height(this@HomeActivity) })
         // her page is the profile and nothing else; the keys under it are the application's: the matches around her, her room, her wallet (the coffees she is offered), the wall of those who offered, the widget
         val bar = ProfileBar.build(this, listOf(
             ProfileBar.Spec("🤝", "Match", ProfileBar.VIOLET) { startActivity(Intent(this, com.aiwa.app.web.WebActivity::class.java).putExtra(com.aiwa.app.web.WebActivity.EXTRA_PAGE, "voir").putExtra(com.aiwa.app.web.WebActivity.EXTRA_MODE, "proche")) },
