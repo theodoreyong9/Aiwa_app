@@ -6,8 +6,8 @@ import com.aiwa.app.common.Prefs
 
 /** The page of the widget that is open. */
 object WidgetTab {
-    val PAGES = listOf("build", "files", "tools", "voir", "chamber")
-    fun get(context: Context): String = Prefs(context, "aiwa_widget_tab").string("tab", "build")?.takeIf { it in PAGES } ?: "build"
+    val PAGES = listOf("agent", "files", "voir")
+    fun get(context: Context): String = Prefs(context, "aiwa_widget_tab").string("tab", "agent")?.takeIf { it in PAGES } ?: "agent"
     fun set(context: Context, tab: String) = Prefs(context, "aiwa_widget_tab").put("tab", tab)
 }
 

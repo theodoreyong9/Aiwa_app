@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>theodoreyong9 · Aiwa</title>
+<meta name="theme-color" content="#06081a">
+<meta name="description" content="Je construis Aiwa. Mes fichiers, ce que je montre, où me trouver.">
+<style>
+/* Cette page est le BUREAU d'Aiwa et en même temps le profil : tout tient dans UN écran, sans défilement, comme un avatar. Un nom, une phrase, les boutons d'Aiwa à portée du pouce, un fond qui vit.
+   Les boutons ne sont pas dessinés ici : l'application les pose dans les EMPLACEMENTS (data-aiwa-slot) avec ce style. Chez quelqu'un qui visite ce profil, ce sont SES boutons à lui ; tout le reste (le nom, la phrase, mes liens) est à moi.
+   Références retenues dans aiwa-design/references.md. Le fond est une boucle de 4 s rendue avec Blender (verre, chrome et lumière devant une ville la nuit), un champ WebGL coule par-dessus. */
+@property --a{syntax:"<angle>";inherits:false;initial-value:0deg}
+:root{color-scheme:dark;--ink:#f6f6ff;--dim:#aeb3e8;--acc:#52d6a0;--blue:#6b9bf5;--violet:#a77bd6;--line:rgba(255,255,255,.24);--mono:ui-monospace,"SFMono-Regular",Menlo,Consolas,monospace}
+*{box-sizing:border-box}
+html,body{margin:0;min-height:100%;overflow-x:hidden}
+body{background:#06081a;color:var(--ink);font:16px/1.4 system-ui,-apple-system,"Segoe UI",sans-serif}
+a{color:inherit}
+.bg{position:fixed;inset:0;width:100%;height:100%;object-fit:cover;z-index:0;background:#06081a url("media/poster.jpg") center/cover no-repeat}
+#gl{position:fixed;inset:0;width:100%;height:100%;z-index:1;pointer-events:none}
+.gl-ok .bg{display:none}
+.veil{position:fixed;inset:0;z-index:2;background:radial-gradient(90% 60% at 50% 42%,transparent,rgba(4,5,16,.55) 100%),linear-gradient(180deg,transparent 55%,rgba(4,5,16,.7))}
+.grain{position:fixed;inset:0;z-index:3;pointer-events:none;opacity:.07;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='120' height='120'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2'/></filter><rect width='120' height='120' filter='url(%23n)'/></svg>")}
+.mono{font-family:var(--mono);text-transform:uppercase;letter-spacing:.08em;font-size:12px}
+
+.stage{position:relative;z-index:4;min-height:100svh;display:grid;grid-template-rows:auto auto 1fr auto;gap:clamp(8px,2svh,20px);padding:max(14px,env(safe-area-inset-top)) clamp(14px,4vw,40px) max(16px,env(safe-area-inset-bottom));
+  grid-template-areas:"bar" "scen" "name" "info"}
+.bar{grid-area:bar;display:flex;justify-content:space-between;gap:16px}
+.bar span:last-child{color:var(--dim);text-align:right}
+
+.name{grid-area:name;align-self:center;margin:0;mix-blend-mode:difference;font-weight:900;line-height:.84;letter-spacing:-.045em;text-transform:uppercase;font-size:clamp(40px,min(21vw,13.5svh),210px);
+  transform:translate(calc(var(--px,0)*-12px),calc(var(--py,0)*-8px));transition:transform .25s ease-out}
+.name .l2{display:block;color:transparent;-webkit-text-stroke:1.5px var(--ink);animation:fill 8s ease-in-out infinite}
+@keyframes fill{0%,100%{color:transparent}50%{color:rgba(246,246,255,.9)}}
+
+.info{grid-area:info;display:grid;gap:clamp(8px,1.6svh,14px)}
+.say{margin:0;max-width:30em;text-shadow:0 1px 14px rgba(0,0,0,.9),0 0 3px rgba(0,0,0,.6);font-size:clamp(14px,3.6vw,19px);color:#e3e6ff}
+.say b{color:var(--acc)}
+/* les fichiers : six cellules taillées comme celles du widget, à portée du pouce */
+.dock{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}
+.cell{--c:var(--blue);position:relative;display:grid;gap:1px;align-content:center;min-height:clamp(46px,8svh,64px);padding:8px 12px 8px 16px;text-decoration:none;
+  background:linear-gradient(180deg,rgba(255,255,255,.22),rgba(255,255,255,.04));backdrop-filter:blur(8px) saturate(1.3);clip-path:polygon(12px 0,100% 0,calc(100% - 12px) 100%,0 100%);transition:filter .2s,transform .2s}
+.cell::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,color-mix(in srgb,var(--c) 62%,transparent),transparent 92%)}
+.cell::after{content:"";position:absolute;inset:0;padding:1px;background:conic-gradient(from var(--a),transparent 0 72%,var(--c) 90%,#fff);-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;animation:spin 7s linear infinite;animation-delay:calc(var(--i)*-1.2s)}
+@keyframes spin{to{--a:360deg}}
+.cell b{font-size:clamp(13px,3.7vw,17px);letter-spacing:-.01em;text-transform:uppercase;line-height:1.1}
+.cell span{font-size:10.5px;color:#d6d9ff;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.cell:hover,.cell:focus-visible{filter:brightness(1.3);transform:translateY(-2px);outline:none}
+.cell:active{filter:brightness(1.5)}
+.g{--c:var(--acc)}.v{--c:var(--violet)}.o{--c:#e09a7c}.y{--c:#e8c14a}
+.me{display:flex;align-items:center;justify-content:space-between;gap:12px;color:var(--dim)}
+.me a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--acc)}
+
+/* les boutons d'Aiwa : l'application les met dans les emplacements ; ici ils prennent la taille des cellules du widget */
+.desk{display:grid;gap:6px;min-width:0}
+.desk [data-aiwa-button]{display:block}
+.desk .aiwa-btn{--c:var(--violet);all:unset;box-sizing:border-box;width:100%;position:relative;display:flex;align-items:center;justify-content:center;gap:10px;min-height:clamp(54px,8svh,70px);padding:8px 14px 8px 20px;cursor:pointer;color:var(--ink);font-size:clamp(15px,4.2vw,20px);font-weight:800;letter-spacing:-.01em;text-transform:uppercase;white-space:nowrap;
+  background:linear-gradient(180deg,rgba(255,255,255,.24),rgba(255,255,255,.05));backdrop-filter:blur(8px) saturate(1.3);clip-path:polygon(12px 0,100% 0,calc(100% - 12px) 100%,0 100%);transition:filter .2s,transform .2s;-webkit-tap-highlight-color:transparent}
+.desk .aiwa-btn::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,color-mix(in srgb,var(--c) 62%,transparent),transparent 92%)}
+.desk .aiwa-btn svg{width:1.4em;height:1.4em;flex:none}
+.desk .aiwa-btn:hover,.desk .aiwa-btn:focus-visible{filter:brightness(1.3);transform:translateY(-2px);outline:none}
+.desk .aiwa-btn:active{filter:brightness(1.5);transform:scale(.97)}
+.js .desk{opacity:0;transform:translateY(14px)}
+.go .desk{opacity:1;transform:none;transition:opacity .5s ease-out 1.7s,transform .6s cubic-bezier(.2,.9,.2,1) 1.7s}
+/* les scénarios de la page, en haut : une rangée de cartes qu'on fait défiler, chacune se lance chez celui qui regarde */
+.scen{grid-area:scen;min-width:0}
+.scen:not([hidden]){display:flex;gap:8px;overflow-x:auto;padding:2px 0 6px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.scen::-webkit-scrollbar{display:none}
+.scen .aiwa-scn{flex:0 0 min(74vw,270px);background:linear-gradient(180deg,rgba(255,255,255,.2),rgba(255,255,255,.05));backdrop-filter:blur(8px);border:0;border-left:3px solid var(--acc);border-radius:4px 14px 14px 4px;padding:9px 12px;gap:3px}
+.scen .aiwa-scn h3{font-size:14px;text-transform:uppercase;letter-spacing:.02em}
+.scen .aiwa-scn p{font-size:12px;color:#d6d9ff;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.scen .aiwa-launch{padding:.35em .9em;font-size:12px}
+.js .scen{opacity:0}.go .scen{opacity:1;transition:opacity .6s ease-out 1.6s}
+
+/* un écran large : le nom à gauche, les fichiers à droite */
+@media (min-aspect-ratio:5/4){
+  .stage{grid-template-columns:1.25fr 1fr;grid-template-rows:auto auto 1fr;grid-template-areas:"bar bar" "scen scen" "name info";column-gap:5vw}
+  .name{font-size:clamp(60px,min(13vw,25svh),260px)}
+  .info{align-self:end;padding-bottom:2svh}
+  .dock{grid-template-columns:repeat(2,1fr)}
+  .cell{min-height:clamp(52px,9svh,78px)}
+  .say{font-size:clamp(16px,1.6vw,22px)}
+}
+/* un écran très bas (un téléphone couché) : on garde le nom et les fichiers */
+@media (max-height:430px){.name{font-size:clamp(40px,26svh,120px)}.stage{min-height:auto}}
+
+/* l'entrée en scène (le script ne fait qu'ajouter des classes et découper le nom en lettres) */
+.curtain{position:fixed;inset:0;z-index:20;background:#02030a;pointer-events:none;display:none}
+.js .curtain{display:block}
+.curtain::after{content:"";position:absolute;left:0;top:50%;height:1px;width:100%;background:var(--acc);transform:scaleX(0);transform-origin:left}
+.go .curtain{animation:curtain 1.5s cubic-bezier(.7,0,.2,1) .15s forwards}
+.go .curtain::after{animation:rule .7s cubic-bezier(.6,0,.2,1) forwards}
+@keyframes rule{to{transform:scaleX(1)}}
+@keyframes curtain{0%,45%{clip-path:inset(0 0 0 0)}100%{clip-path:inset(0 0 100% 0)}}
+.js .ch{display:inline-block;opacity:0;transform:translateY(55%) skewX(-10deg);filter:blur(8px);text-shadow:-14px 0 #6b9bf5,14px 0 #e56ac0}
+.go .ch{opacity:1;transform:none;filter:none;text-shadow:0 0 0 transparent;transition:opacity .5s ease-out var(--d),transform .7s cubic-bezier(.2,.9,.2,1) var(--d),filter .6s ease-out var(--d),text-shadow .9s ease-out var(--d)}
+.js .bar,.js .info{opacity:0}
+.go .bar,.go .info{opacity:1;transition:opacity .8s ease-out 1.5s}
+.js .cell{opacity:0;transform:translateY(14px)}
+.go .cell{opacity:1;transform:none;transition:opacity .5s ease-out calc(1.7s + var(--i)*.09s),transform .6s cubic-bezier(.2,.9,.2,1) calc(1.7s + var(--i)*.09s),filter .2s}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}.name .l2{color:transparent}}
+</style>
+</head>
+<body>
+<video class="bg" src="media/loop.mp4" poster="media/poster.jpg" autoplay muted loop playsinline preload="auto" aria-hidden="true"></video>
+<canvas id="gl" aria-hidden="true"></canvas>
+<div class="veil"></div><div class="grain"></div><div class="curtain" aria-hidden="true"></div>
+<main class="stage">
+  <div class="bar mono"><span>Aiwa · bureau</span><span>2026 · en ligne</span></div>
+  <section class="scen" aria-label="Mes scénarios" data-aiwa-scenarios hidden></section>
+  <h1 class="name" aria-label="theodoreyong9"><span data-split data-delay="1500">theo</span><br><span data-split data-delay="1700">dore</span><span class="l2" data-split data-delay="1900">yong9</span></h1>
+  <div class="info">
+    <p class="say">Je construis <b>Aiwa</b> : un assistant qui vit sur le téléphone, parle à Claude, et fait des sites, des vidéos, des pages et des apps, à la voix, et qui construit des agents, se construit lui-même et développe une identité et une intimité.</p>
+    <section class="desk" aria-label="Aiwa"><span data-aiwa-button="widget"></span><span data-aiwa-button="wallet"></span><span data-aiwa-button="room"></span><span data-aiwa-button="settings"></span></section>
+    <nav class="dock" aria-label="Mes liens">
+      <a class="cell g" style="--i:3" href="https://github.com/theodoreyong9/Aiwa_app"><b>Source</b><span>le dépôt d'Aiwa</span></a>
+      <a class="cell v" style="--i:4" href="https://github.com/theodoreyong9/Aiwa_app/blob/main/docs/yellow-paper.md"><b>Yellow paper</b><span>comment ça marche</span></a>
+      <a class="cell o" style="--i:5" href="https://github.com/theodoreyong9/Aiwa_app/blob/main/docs/film.mp4"><b>Films</b><span>ce que je montre</span></a>
+    </nav>
+    <div class="me mono"><span>Fichier du dépôt : Profile/index.html</span></div>
+  </div>
+</main>
+<script>
+/* Le seul script : il découpe le nom en lettres, ajoute des classes, et fait tourner en direct, dans un shader, un objet de chrome liquide qui reflète une ville au néon (ray marching, sans bibliothèque).
+   Il suit le doigt et l'inclinaison. Aucune donnée lue ni écrite. Sans lui (ou sans WebGL) la page est complète : la vidéo de la même scène, rendue avec Blender, et le CSS. */
+(function () {
+  var root = document.documentElement, reduce = matchMedia('(prefers-reduced-motion:reduce)').matches;
+  document.querySelectorAll('[data-split]').forEach(function (el) {
+    var text = el.textContent, base = parseInt(el.getAttribute('data-delay') || '0', 10); el.textContent = '';
+    Array.from(text).forEach(function (ch, i) { var s = document.createElement('span'); s.className = 'ch'; s.textContent = ch; s.style.setProperty('--d', (base + i * 60) + 'ms'); el.appendChild(s); });
+  });
+  root.classList.add('js');
+  requestAnimationFrame(function () { requestAnimationFrame(function () { root.classList.add('go'); }); });
+
+  var cv = document.getElementById('gl'), gl = null;
+  try { gl = cv.getContext('webgl', { antialias: false, alpha: false, powerPreference: 'high-performance' }); } catch (e) { gl = null; }
+  if (!gl) { if (cv) cv.remove(); return; }
+  var vs = 'attribute vec2 p;void main(){gl_Position=vec4(p,0.,1.);}';
+  var fs = '#ifdef GL_FRAGMENT_PRECISION_HIGH\nprecision highp float;\n#else\nprecision mediump float;\n#endif\n' +
+    'uniform vec2 r;uniform float t;uniform vec2 m;uniform float k;uniform float f;' +
+    'mat2 rot(float a){float c=cos(a),s=sin(a);return mat2(c,-s,s,c);}' +
+    'float smin(float a,float b,float q){float h=max(q-abs(a-b),0.)/q;return min(a,b)-h*h*q*.25;}' +
+    'float map(vec3 p){p.xz*=rot((m.x-.5)*3.2+t*.18);p.yz*=rot((m.y-.5)*2.4);float d=length(p)-.5*k;' +
+    'for(int i=0;i<4;i++){float fi=float(i);vec3 q=p-vec3(sin(t*.7+fi*1.7),cos(t*.9+fi*2.3),sin(t*.55+fi*3.1))*.62*k;d=smin(d,length(q)-.27*k,.42);}' +
+    'vec2 tq=vec2(length(p.xz)-.98*k,p.y);d=smin(d,length(tq)-.065*k,.18);return d;}' +
+    'vec3 nrm(vec3 p){vec2 e=vec2(.003,0.);return normalize(vec3(map(p+e.xyy)-map(p-e.xyy),map(p+e.yxy)-map(p-e.yxy),map(p+e.yyx)-map(p-e.yyx)));}' +
+    'vec3 env(vec3 d){float y=d.y,a=atan(d.z,d.x)+t*.05;vec3 c=mix(vec3(.015,.02,.07),vec3(.1,.08,.26),smoothstep(-.2,.9,y));' +
+    'float bars=smoothstep(.82,1.,sin(a*13.))*smoothstep(-.12,.2,y)*smoothstep(.62,.12,y);c+=vec3(.25,.6,1.)*bars*1.6;' +
+    'c+=vec3(.95,.3,.8)*pow(max(0.,sin(a*5.+1.)),18.)*smoothstep(.45,0.,abs(y-.12))*1.7;' +
+    'c+=vec3(.3,1.,.7)*pow(max(0.,sin(a*3.-1.)),28.)*smoothstep(.35,0.,abs(y+.08))*1.6;' +
+    'c+=vec3(.25,.12,.5)*exp(-abs(y)*7.);c+=vec3(1.,.9,.7)*pow(max(0.,dot(d,normalize(vec3(.3,.8,-.5)))),40.)*1.4;return c;}' +
+    'void main(){vec2 uv=(gl_FragCoord.xy-.5*r)/min(r.x,r.y);uv.y-=.04;vec3 ro=vec3(0.,0.,3.3),rd=normalize(vec3(uv,-1.5));' +
+    'float tt=0.;vec3 p=ro;bool hit=false;for(int i=0;i<60;i++){p=ro+rd*tt;float d=map(p);if(d<.002){hit=true;break;}tt+=d;if(tt>6.)break;}' +
+    'vec3 col=env(rd)*.5;if(hit){vec3 n=nrm(p);float fr=pow(1.-max(dot(-rd,n),0.),3.);vec3 rf=reflect(rd,n);' +
+    'vec3 irid=.5+.5*cos(6.2831*(dot(n,rd)*1.4+vec3(0.,.33,.67)+t*.03));col=env(rf)*(.75+fr)+env(refract(rd,n,.82))*.3+irid*fr*.55;' +
+    'col*=.95+.2*sin(t*2.+p.y*8.)*0.;}' +
+    'col+=f*vec3(.6,.75,1.)*exp(-length(uv)*2.2);col*=smoothstep(1.5,.2,length(uv)*.9);gl_FragColor=vec4(col,1.);}';
+  function shader(type, src) { var o = gl.createShader(type); gl.shaderSource(o, src); gl.compileShader(o); return gl.getShaderParameter(o, gl.COMPILE_STATUS) ? o : null; }
+  var v = shader(gl.VERTEX_SHADER, vs), f = shader(gl.FRAGMENT_SHADER, fs), pg = gl.createProgram();
+  if (!v || !f) { cv.remove(); return; }
+  gl.attachShader(pg, v); gl.attachShader(pg, f); gl.linkProgram(pg);
+  if (!gl.getProgramParameter(pg, gl.LINK_STATUS)) { cv.remove(); return; }
+  gl.useProgram(pg);
+  var buf = gl.createBuffer(); gl.bindBuffer(gl.ARRAY_BUFFER, buf);
+  gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([-1, -1, 3, -1, -1, 3]), gl.STATIC_DRAW);
+  var loc = gl.getAttribLocation(pg, 'p'); gl.enableVertexAttribArray(loc); gl.vertexAttribPointer(loc, 2, gl.FLOAT, false, 0, 0);
+  var U = {}; ['r', 't', 'm', 'k', 'f'].forEach(function (n) { U[n] = gl.getUniformLocation(pg, n); });
+  var mx = .5, my = .5, tx = .5, ty = .5, flash = 1.1, born = performance.now(), t0 = born, last = 0, raf = 0, scale = 1;
+  function size() { var k = Math.min(devicePixelRatio || 1, 2) * scale; cv.width = Math.max(2, Math.round(innerWidth * k)); cv.height = Math.max(2, Math.round(innerHeight * k)); gl.viewport(0, 0, cv.width, cv.height); }
+  function aim(x, y) { tx = x / innerWidth; ty = 1 - y / innerHeight; root.style.setProperty('--px', (tx - .5).toFixed(3)); root.style.setProperty('--py', (.5 - ty).toFixed(3)); }
+  addEventListener('pointermove', function (e) { aim(e.clientX, e.clientY); }, { passive: true });
+  addEventListener('pointerdown', function (e) { aim(e.clientX, e.clientY); flash = Math.max(flash, .8); }, { passive: true });
+  addEventListener('deviceorientation', function (e) { if (e.gamma == null) return; tx = Math.min(1, Math.max(0, .5 + e.gamma / 70)); ty = Math.min(1, Math.max(0, .5 - (e.beta - 40) / 70)); }, { passive: true });
+  addEventListener('resize', size);
+  var slow = 0;
+  function draw(now) {
+    var t = (now - t0) / 1000, grow = Math.min(1, (now - born) / 1800); grow = 1 - Math.pow(1 - grow, 3);
+    mx += (tx - mx) * .07; my += (ty - my) * .07; flash *= .96;
+    gl.uniform2f(U.r, cv.width, cv.height); gl.uniform1f(U.t, t); gl.uniform2f(U.m, mx, my); gl.uniform1f(U.k, .05 + .95 * grow); gl.uniform1f(U.f, flash);
+    gl.drawArrays(gl.TRIANGLES, 0, 3);
+  }
+  function loop(now) {
+    var dt = now - last;
+    if (dt > 24) {
+      last = now; draw(now);
+      if (dt > 90) { slow++; if (slow > 40 && scale > .6) { scale *= .85; slow = 0; size(); } } else if (slow > 0) slow--;      // a slow phone gets a smaller picture, never a slower page
+    }
+    raf = requestAnimationFrame(loop);
+  }
+  size(); root.classList.add('gl-ok');
+  if (reduce) { draw(performance.now() + 2500); } else { raf = requestAnimationFrame(loop); }
+  document.addEventListener('visibilitychange', function () { if (reduce) return; if (document.hidden) cancelAnimationFrame(raf); else raf = requestAnimationFrame(loop); });
+})();
+</script>
+</body>
+</html>

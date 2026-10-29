@@ -1,18 +1,16 @@
 #!/usr/bin/env python3
-"""Writes android/app/src/main/res/layout/fast_widget.xml: five pictures (one per tab) under invisible touch zones of the same proportions.
+"""Writes android/app/src/main/res/layout/fast_widget.xml: three pictures (one per tab) under invisible touch zones of the same proportions.
 Run it again when a page gains or loses a cell: the zones are named z_<page>_<row>_<column>, the tabs t_<name>."""
 import pathlib
 
 OUT = pathlib.Path(__file__).resolve().parent.parent / "android/app/src/main/res/layout/fast_widget.xml"
 # page letter, weights of the cells of the first row, of the second row (None: the page is one row)
 PAGES = [
-    ("b", [3, 1], [1, 1, 1]),          # Build: Super agent | Claude ; Écoute | Ajouter | Rapport
+    ("a", [1, 3, 1], [1, 1, 1, 1]),    # Agent: Chambre en cours (when there is one) | Super agent | Claude ; Écoute | Ajouter | Scénario | Cast TV
     ("f", [1], [1, 1, 1, 1, 1]),       # Files: the repository ; docs | images | vidéos | apps | pages
-    ("o", [1, 1], None),               # Outils: Scénario | Cast TV
     ("v", [1, 1, 1, 1], None),         # Voir: Proximité | Lien | QR code | Favoris
-    ("c", [1], [1, 1, 1, 1]),          # Chambre: Chambre ; Converser | Écouter | Create | Description
 ]
-TABS = [("t_build", 100), ("t_files", 100), ("t_tools", 100), ("t_voir", 100), ("t_chamber", 100), ("t_upd", 55), ("t_ask", 55), ("t_settings", 55)]
+TABS = [("t_agent", 100), ("t_files", 100), ("t_voir", 100), ("t_upd", 55), ("t_ask", 55), ("t_settings", 55)]
 
 
 def build():

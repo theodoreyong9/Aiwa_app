@@ -1,24 +1,34 @@
 package com.aiwa.app.settings
 
+import android.content.Intent
 import com.aiwa.app.common.FloatActivity
 import com.aiwa.app.common.openUrl
+import com.aiwa.app.files.VideoPlayerActivity
 
-/** « Papers »: the texts that say what Aiwa is. They are read on GitHub, in the product's repository. */
+/** « Papers »: the film of Aiwa (played here) and the texts that say what Aiwa is (read on GitHub, in the product's repository). */
 class PapersActivity : FloatActivity() {
     override val title = "Papers"
 
     override fun fill() {
-        note("Ce qu'est Aiwa, par écrit.")
-        for ((label, detail, file) in PAPERS) entry(label, detail) { openUrl(this, "$BASE/$file") }
+        note("Ce qu'est Aiwa, en film et par écrit.")
+        entry("Film", "La dernière version de la vidéo d'Aiwa (51 s).") {
+            startActivity(Intent(this, VideoPlayerActivity::class.java).putExtra(VideoPlayerActivity.EXTRA_URL, "$RAW/film.mp4").putExtra(VideoPlayerActivity.EXTRA_TITLE, "Aiwa"))
+        }
+        for ((label, detail, file) in PAPERS) entry(label, detail) { openUrl(this, "$BLOB/$file") }
     }
 
     companion object {
-        private const val BASE = "https://github.com/theodoreyong9/Aiwa_app/blob/main/docs"
+        private const val RAW = "https://raw.githubusercontent.com/theodoreyong9/Aiwa_app/main/docs"
+        private const val BLOB = "https://github.com/theodoreyong9/Aiwa_app/blob/main/docs"
         private val PAPERS = listOf(
-            Triple("Yellow paper", "Le protocole : comment les super agents se rencontrent et comment l'AIWA est émis.", "yellow-paper.md"),
-            Triple("Valeur", "D'où vient la valeur de l'AIWA et pourquoi elle se brûle.", "valeur.md"),
+            Triple("Yellow paper", "Le protocole : événements signés, minage, conservation, règles formelles.", "yellow-paper.md"),
+            Triple("Explication simple", "La même chose, en mots simples, avec ce qui n'est pas résolu.", "explained.md"),
+            Triple("Valeur", "L'ontologie de la valeur.", "valeur.pdf"),
+            Triple("Société augmentée", "La vision que sert le produit.", "societe-augmentee.md"),
+            Triple("Plan", "Ce qu'est la version 1, et ce qu'elle n'est pas.", "plan.md"),
+            Triple("Business", "Le modèle.", "business.md"),
+            Triple("Carrousel", "Seize pages pour présenter Aiwa.", "carrousel.pdf"),
             Triple("Readme", "Ce que fait le produit, écran par écran.", "readme.md"),
-            Triple("Film", "Le scénario du film de présentation.", "film.md"),
         )
     }
 }

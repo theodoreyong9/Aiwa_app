@@ -11,7 +11,10 @@ import kotlinx.coroutines.launch
 /** The profile: the repository that holds its `Profile/` folder (the phone keeps it too, to show it as the home). The page itself is the work of a session. */
 object ProfileSettings {
     private fun prefs(context: Context) = Prefs(context, "aiwa_profile")
-    fun repo(context: Context): String? = prefs(context).string("repo")
+    fun repo(context: Context): String? = prefs(context).string("repo") ?: DEFAULT_REPO
+
+    /** Until the person chooses another one, the home is the `Profile/` of the product's own repository: a first opening shows a page, not an empty screen. */
+    const val DEFAULT_REPO = "theodoreyong9/Aiwa_app"
 
     /** Sets the repository of the profile and tells the brain (the sessions are told where the `Profile/` folder goes). Reports in a toast. */
     fun set(context: Context, repo: String) {

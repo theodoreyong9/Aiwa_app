@@ -148,7 +148,7 @@ object HomeActions {
             "cast" -> go(context, CastActivity::class.java)
             "nearby" -> go(context, voir(context, "proche")); "link" -> go(context, voir(context, "lien")); "qr" -> go(context, voir(context, "qr")); "favorites" -> go(context, voir(context, "favoris"))
             "room" -> if (own) go(context, com.aiwa.app.chamber.ChamberActivity::class.java) else ChamberActions.visit(context, source)
-            "roomtalk", "roomear", "roomcreate", "roomnote" -> go(context, Intent(context, ChamberPressActivity::class.java).putExtra(ChamberPressActivity.EXTRA_ID, id))
+            "roomtalk", "roomear", "roomcreate" -> go(context, Intent(context, ChamberPressActivity::class.java).putExtra(ChamberPressActivity.EXTRA_ID, id))
             "update" -> go(context, InstallUpdateActivity::class.java)
             "question" -> go(context, AskActivity::class.java)
             "settings" -> go(context, SettingsActivity::class.java)

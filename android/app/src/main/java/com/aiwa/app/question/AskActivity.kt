@@ -7,6 +7,7 @@ import com.aiwa.app.brain.BrainSync
 import com.aiwa.app.common.FloatActivity
 import com.aiwa.app.common.Palette
 import com.aiwa.app.common.toastOnMain
+import com.aiwa.app.widget.ReportActivity
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -43,6 +44,8 @@ class AskActivity : FloatActivity() {
             entry("Envoyer ma réponse") { answer(ask.id, own.text.toString().trim()) }
             if (ask.count > 1) note("${ask.count - 1} autre(s) question(s) attendent.")
         } else note("Aucune session n'attend de réponse.")
+        note("Rapport", Palette.GOLD)
+        entry("Faire le rapport", "Le super agent dit où en sont tes sessions et ce qui attend une réponse.") { startActivity(android.content.Intent(this, ReportActivity::class.java)); finish() }
         note("Une question au super agent", Palette.GOLD)
         val question = field("Ce que tu veux savoir (où en est Claude, ce que j'ai fait aujourd'hui…)")
         add(question)

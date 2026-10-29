@@ -29,16 +29,17 @@ import com.aiwa.app.web.WebActivity
  * The widget: five pictures drawn by WidgetArt (one per page, the card included) under invisible touch zones (res/layout/fast_widget.xml, written by scripts/gen-widget-layout.py).
  * A tap on a tab only turns the two ViewFlippers (a partial update): nothing is read, nothing is drawn again, so it is instant. The pictures are drawn again whenever the state changes.
  *
- * Pages: Build (Super agent, Claude, Écoute, Ajouter, Rapport) · Files (the repository or all, then docs, images, vidéos, apps, pages) · Outils (Scénario, Cast TV) · Voir (Proximité, Lien,
- * QR code, Favoris) · Chambre. The top bar, at the right of the tabs: Mise à jour, Question, Réglages.
+ * Pages: Agent (a Chambre en cours cell at the left of the Super agent while a room is open, Claude; below: Écoute, Ajouter, Scénario, Cast TV) · Files (the repository or all, then docs, images,
+ * vidéos, apps, pages) · Voir (Proximité, Lien, QR code, Favoris). The top bar, at the right of the tabs: Mise à jour (only when an update exists), Question (the report is in it), Réglages.
+ * The Chambre has no page here: it lives in the application.
  */
 object AiwaWidget {
     const val ACTION_TAB = "com.aiwa.app.AW_TAB"
     const val ACTION_BUSY = "com.aiwa.app.AW_BUSY"
     private var lastSignature = ""
-    private val IMG = intArrayOf(R.id.fw_img0, R.id.fw_img1, R.id.fw_img2, R.id.fw_img3, R.id.fw_img4)
-    private val LETTER = listOf("b", "f", "o", "v", "c")
-    private val TAB_IDS = listOf("t_build", "t_files", "t_tools", "t_voir", "t_chamber")
+    private val IMG = intArrayOf(R.id.fw_img0, R.id.fw_img1, R.id.fw_img2)
+    private val LETTER = listOf("a", "f", "v")
+    private val TAB_IDS = listOf("t_agent", "t_files", "t_voir")
 
     fun ids(context: Context): IntArray = AppWidgetManager.getInstance(context).getAppWidgetIds(ComponentName(context, AiwaWidgetProvider::class.java))
 
@@ -64,7 +65,7 @@ object AiwaWidget {
         val signature = listOf(
             tab, snap.link, snap.status?.repo, snap.status?.session, snap.status?.sending, snap.status?.waiting, snap.status?.silenceMinutes, snap.status?.attachments, snap.status?.claudeLogin,
             snap.status?.ask?.id, snap.status?.agent?.say?.id, snap.status?.agent?.proposal?.id, snap.status?.agent?.command?.id, snap.status?.githubError, snap.listening, snap.agentOpen, snap.appUpdateReady,
-            snap.fileCounts, FilesScope.chosen(context), snap.chamberMode, snap.chamberConversing, snap.chamberEar, snap.chamberCreate, snap.chamberPartner, snap.status?.chamber?.active,
+            snap.fileCounts, FilesScope.chosen(context), snap.chamberMode, snap.status?.chamber?.active,
             hasTermuxPermission(context), WidgetBackground.key(context), snap.sessionTitle,
         ).joinToString("|")
         if (!force && signature == lastSignature) return
@@ -86,7 +87,7 @@ object AiwaWidget {
     }
 
     /** One cell of a page: what is drawn, its share of the row, and what a tap does (none = nothing). */
-    private class Cell(val btn: WidgetArt.Btn, val weight: Float, val click: PendingIntent?)
+    private class Cell(val btn: WidgetArt.Btn, val weight: Float, val click: PendingIntent?, val zone: Int? = null)
 
     private fun id(context: Context, name: String): Int = context.resources.getIdentifier(name, "id", context.packageName)
 
@@ -99,16 +100,15 @@ object AiwaWidget {
         val waiting = status?.waiting == true || (status?.silenceMinutes ?: 0) > 0
         val alert = waiting || agentNeeds || !hasTermuxPermission(context) || brainBad
         // ---- the tabs, then the top bar ----
-        val tabs = listOf(
-            WidgetArt.Tab(R.drawable.fw_i_build, "Build", if (alert) "red" else "orange", always = alert, dot = snap.agentOpen || snap.listening),
+        val tabs = listOfNotNull(
+            WidgetArt.Tab(R.drawable.fw_i_build, "Agent", if (alert) "red" else "orange", always = alert, dot = snap.agentOpen || snap.listening),
             WidgetArt.Tab(R.drawable.fw_i_files, "Files", "green"),
-            WidgetArt.Tab(R.drawable.fw_i_tools, "Outils", "blue"),
             WidgetArt.Tab(R.drawable.fw_i_voir, "Voir", "violet"),
-            WidgetArt.Tab(R.drawable.fw_i_room, "Chambre", "violet", dot = snap.chamberMode != "closed"),
-            WidgetArt.Tab(R.drawable.fw_i_update, "Mise à jour", if (snap.appUpdateReady) "green" else "grey", weight = 0.55f, always = snap.appUpdateReady),
+            if (snap.appUpdateReady) WidgetArt.Tab(R.drawable.fw_i_update, "Mise à jour", "green", weight = 0.55f, always = true) else null,
             WidgetArt.Tab(R.drawable.fw_i_question, "Question", if (status?.ask != null) "red" else "grey", weight = 0.55f, always = status?.ask != null),
             WidgetArt.Tab(R.drawable.fw_i_settings, "Réglages", "grey", weight = 0.55f),
         )
+        v.setViewVisibility(R.id.t_upd, if (snap.appUpdateReady) View.VISIBLE else View.GONE)
         WidgetTab.PAGES.forEachIndexed { i, name -> v.setOnClickPendingIntent(id(context, TAB_IDS[i]), broadcast(context, 1 + i, ACTION_TAB, "tab" to name)) }
         v.setOnClickPendingIntent(R.id.t_upd, activity(context, 6, InstallUpdateActivity::class.java))
         v.setOnClickPendingIntent(R.id.t_ask, activity(context, 7, AskActivity::class.java))
@@ -123,15 +123,20 @@ object AiwaWidget {
             else -> AgentToggleActivity::class.java
         }
         val hasSession = snap.sessionId != null || status?.lastSession != null
-        val build = listOf(
-            listOf(
-                Cell(btn(R.drawable.fw_i_robot, "agent"), 3f, activity(context, 10, robotTarget)),
-                Cell(btn(R.drawable.fw_i_claude, "claude", iconOnly = true), 1f, if (hasSession) activity(context, 11, OpenClaudeActivity::class.java) else null),
-            ),
+        val roomOpen = snap.chamberMode != "closed" || status?.chamber?.active == true
+        val firstRow = buildList {
+            // the room in progress, at the left of the Super agent: only while there is one (its touch zone is gone otherwise, the rest keeps its shares)
+            if (roomOpen) add(Cell(WidgetArt.Btn(R.drawable.fw_i_room, "Chambre en cours", "violet", true, true), 1f, activity(context, 15, com.aiwa.app.chamber.ChamberActivity::class.java), zone = 0))
+            add(Cell(btn(R.drawable.fw_i_robot, "agent"), 3f, activity(context, 10, robotTarget), zone = 1))
+            add(Cell(btn(R.drawable.fw_i_claude, "claude", iconOnly = true), 1f, if (hasSession) activity(context, 11, OpenClaudeActivity::class.java) else null, zone = 2))
+        }
+        val agentPage = listOf(
+            firstRow,
             listOf(
                 Cell(btn(R.drawable.fw_i_ear, "listen", iconOnly = true), 1f, activity(context, 12, EarToggleActivity::class.java)),
                 Cell(btn(R.drawable.fw_i_plus, "plus", iconOnly = true), 1f, activity(context, 13, AddActivity::class.java)),
-                Cell(btn(R.drawable.fw_i_report, "report", iconOnly = true), 1f, activity(context, 14, ReportActivity::class.java)),
+                Cell(btn(R.drawable.fw_i_scenario, "scenario", iconOnly = true), 1f, activity(context, 30, ScenariosActivity::class.java)),
+                Cell(btn(R.drawable.fw_i_cast, "cast", iconOnly = true), 1f, activity(context, 31, CastActivity::class.java)),
             ),
         )
         // ---- Files ----
@@ -140,11 +145,6 @@ object AiwaWidget {
             Cell(btn(icon, kind, iconOnly = true), 1f, activity(context, 20 + i, Intent(context, FilesActivity::class.java).putExtra(FilesActivity.EXTRA_KIND, kind)))
         }
         val files = listOf(listOf(Cell(btn(R.drawable.fw_i_files, "scope"), 1f, activity(context, 19, RepoPickerActivity::class.java))), kindCells)
-        // ---- Outils ----
-        val tools = listOf(listOf(
-            Cell(btn(R.drawable.fw_i_scenario, "scenario"), 1f, activity(context, 30, ScenariosActivity::class.java)),
-            Cell(btn(R.drawable.fw_i_cast, "cast"), 1f, activity(context, 31, CastActivity::class.java)),
-        ))
         // ---- Voir ----
         fun voir(code: Int, mode: String) = activity(context, code, Intent(context, WebActivity::class.java).putExtra(WebActivity.EXTRA_PAGE, "voir").putExtra(WebActivity.EXTRA_MODE, mode))
         val voirPage = listOf(listOf(
@@ -153,33 +153,23 @@ object AiwaWidget {
             Cell(btn(R.drawable.fw_i_qr, "qr"), 1f, voir(42, "qr")),
             Cell(btn(R.drawable.fw_i_star, "favorites"), 1f, voir(43, "favoris")),
         ))
-        // ---- Chambre ----
-        fun press(code: Int, key: String) = activity(context, code, Intent(context, com.aiwa.app.chamber.ChamberPressActivity::class.java).putExtra(com.aiwa.app.chamber.ChamberPressActivity.EXTRA_ID, key))
-        val chamber = listOf(
-            listOf(Cell(btn(R.drawable.fw_i_room, "room"), 1f, activity(context, 50, com.aiwa.app.chamber.ChamberActivity::class.java))),
-            listOf(
-                Cell(btn(R.drawable.fw_i_talk, "roomtalk", iconOnly = true), 1f, press(51, "roomtalk")),
-                Cell(btn(R.drawable.fw_i_ear, "roomear", iconOnly = true), 1f, press(52, "roomear")),
-                Cell(btn(R.drawable.fw_i_create, "roomcreate", iconOnly = true), 1f, press(53, "roomcreate")),
-                Cell(btn(R.drawable.fw_i_note, "roomnote", iconOnly = true), 1f, press(54, "roomnote")),
-            ),
-        )
-        val pages = listOf(build, files, tools, voirPage, chamber)
+        val pages = listOf(agentPage, files, voirPage)
         // ---- the pictures and the touch zones ----
         val (pw, ph) = sizePx(context)
         pages.forEachIndexed { p, rows ->
             v.setImageViewBitmap(IMG[p], WidgetArt.full(context, pw, ph, alert, WidgetBackground.res(context), tabs, p, rows.map { row -> row.map { it.btn to it.weight } }))
             rows.forEachIndexed { r, row ->
-                row.forEachIndexed { c, cell -> id(context, "z_${LETTER[p]}_${r}_$c").let { zid -> v.setViewVisibility(zid, View.VISIBLE); cell.click?.let { v.setOnClickPendingIntent(zid, it) } } }
+                row.forEachIndexed { c, cell -> id(context, "z_${LETTER[p]}_${r}_${cell.zone ?: c}").let { zid -> v.setViewVisibility(zid, View.VISIBLE); cell.click?.let { v.setOnClickPendingIntent(zid, it) } } }
             }
         }
+        if (!roomOpen) v.setViewVisibility(id(context, "z_a_0_0"), View.GONE)
         val page = WidgetTab.PAGES.indexOf(tab).coerceAtLeast(0)
         v.setDisplayedChild(R.id.fw_img_flip, page)
         v.setDisplayedChild(R.id.fw_zone_flip, page)
         return v
     }
 
-    /** The size, in pixels, of the pictures: the size of the widget (from its options) and never so many pixels that five of them exceed what a RemoteViews may carry (a fraction of the screen's memory). */
+    /** The size, in pixels, of the pictures: the size of the widget (from its options) and never so many pixels that three of them exceed what a RemoteViews may carry (a fraction of the screen's memory). */
     private fun sizePx(context: Context): Pair<Int, Int> {
         val dm = context.resources.displayMetrics
         val d = dm.density
@@ -195,7 +185,7 @@ object AiwaWidget {
                 if (maxH > 0) h = maxH.toFloat()
             }
         } catch (err: Exception) { /* the default size */ }
-        val budget = dm.widthPixels.toFloat() * dm.heightPixels * 4f * 1.5f * 0.7f / (5f * 4f)   // pixels per picture
+        val budget = dm.widthPixels.toFloat() * dm.heightPixels * 4f * 1.5f * 0.7f / (3f * 4f)   // pixels per picture
         val k = minOf(1f, 900f / (w * d), Math.sqrt((budget / (w * d * h * d)).toDouble()).toFloat())
         return maxOf(150, (w * d * k).toInt()) to maxOf(60, (h * d * k).toInt())
     }

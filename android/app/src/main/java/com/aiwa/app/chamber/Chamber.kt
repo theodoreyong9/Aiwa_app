@@ -126,23 +126,6 @@ object ChamberActions {
                         .show()
                 }
             }
-            "roomnote" -> {
-                if (activity == null) { toastOnMain(context, "Ouvre Aiwa pour écrire ta description."); onDone(); return }
-                Thread {
-                    val current = Aiwa.brain.chamberNote()
-                    activity.runOnUiThread {
-                        val field = android.widget.EditText(activity).apply { setText(current); hint = "Ce que ton super agent peut savoir de toi"; setLines(4); filters = arrayOf(android.text.InputFilter.LengthFilter(400)) }
-                        AlertDialog.Builder(activity)
-                            .setTitle("Description pour la chambre")
-                            .setMessage("Seul le super agent de l'autre la lit, pour mieux t'aider. Il n'est pas autorisé à la répéter, et l'autre personne ne la voit pas.")
-                            .setView(field)
-                            .setPositiveButton("Enregistrer") { _, _ -> Thread { Aiwa.brain.chamberSetNote(field.text.toString()) }.start() }
-                            .setNegativeButton("Annuler", null)
-                            .setOnDismissListener { onDone() }
-                            .show()
-                    }
-                }.start()
-            }
         }
     }
 }

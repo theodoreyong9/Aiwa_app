@@ -39,7 +39,6 @@ object CellModels {
         out["claude"] = CellModel("Claude", if (waiting) "red" else "grey", enabled = hasSession)
         out["listen"] = CellModel(if (ear) "Écoute active" else "Écoute", if (ear) "green" else "grey", on = ear)
         out["plus"] = CellModel(if (attachments > 0) "$attachments jointe(s)" else "Ajouter", if (attachments > 0) "green" else "grey")
-        out["report"] = CellModel("Rapport", "blue")
         out["scope"] = CellModel(FilesScope.label(context, status?.repo) + " ▾", if (FilesScope.repo(context, status?.repo) == null) "green" else "grey")
         for ((kind, label) in listOf("docs" to "Docs", "image" to "Images", "video" to "Vidéos", "app" to "Apps", "page" to "Pages")) {
             val found = (snap.fileCounts[kind] ?: 0) > 0
@@ -52,7 +51,6 @@ object CellModels {
         out["qr"] = CellModel("QR code", "grey")
         out["favorites"] = CellModel("Favoris", "grey")
         for ((id, cell) in ChamberActions.cells(snap)) out[id] = CellModel(cell.label, cell.tone, cell.found, cell.on)
-        out["roomnote"] = CellModel("Description", "grey")
         out["update"] = CellModel("Mise à jour", if (snap.appUpdateReady) "green" else "grey", on = snap.appUpdateReady)
         out["question"] = CellModel("Question", if (status?.ask != null) "red" else "grey", on = status?.ask != null)
         out["settings"] = CellModel("Réglages", "grey")

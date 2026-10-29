@@ -35,7 +35,7 @@ object AgentScreens {
         when (token) {
             "files_docs" -> files(context, "docs"); "files_image" -> files(context, "image"); "files_video" -> files(context, "video"); "files_app" -> files(context, "app"); "files_page" -> files(context, "page")
             "files" -> { WidgetTab.set(context, "files"); AiwaWidget.render(context, force = true) }
-            "build" -> { WidgetTab.set(context, "build"); AiwaWidget.render(context, force = true) }
+            "build" -> { WidgetTab.set(context, "agent"); AiwaWidget.render(context, force = true) }
             "scenario" -> go(context, ScenariosActivity::class.java)
             "cast" -> go(context, CastActivity::class.java)
             "voir" -> voir(context, "proche"); "voir_near" -> voir(context, "proche"); "voir_link" -> voir(context, "lien"); "voir_qr" -> voir(context, "qr"); "voir_fav" -> voir(context, "favoris")

@@ -47,7 +47,7 @@ class ChamberActivity : ComponentActivity() {
             val b = Button(this).apply { isAllCaps = false; textSize = 14f; setOnClickListener { ChamberActions.press(this@ChamberActivity, id); main.postDelayed({ refresh() }, 400) } }
             buttons[id] = b; row.addView(b, LinearLayout.LayoutParams(0, ViewGroup.LayoutParams.WRAP_CONTENT, 1f))
         }
-        button("room", row1); button("roomtalk", row1); button("roomear", row1); button("roomcreate", row2); button("roomnote", row2)
+        button("room", row1); button("roomtalk", row1); button("roomear", row1); button("roomcreate", row2)
         root.addView(row1); root.addView(row2)
         setContentView(root)
         loop()
@@ -71,7 +71,7 @@ class ChamberActivity : ComponentActivity() {
             partner != null -> "$partner est là. « Converser » lance la conversation."
             else -> "Ta chambre est ouverte : en attente."
         }
-        for ((id, b) in buttons) { val e = shown[id]; b.text = e?.label ?: if (id == "roomnote") "Description" else id; b.alpha = if (e?.on == true || id == "roomnote") 1f else .6f }
+        for ((id, b) in buttons) { val e = shown[id]; b.text = e?.label ?: id; b.alpha = if (e?.on == true) 1f else .6f }
         Thread {
             val view = try { Aiwa.brain.chamberCall("/api/chamber", JSONObject()) } catch (err: Exception) { null }
             val offers = view?.optJSONArray("offers")
