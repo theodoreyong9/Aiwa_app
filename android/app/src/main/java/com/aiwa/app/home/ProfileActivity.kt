@@ -59,19 +59,12 @@ class ProfileActivity : ComponentActivity() {
             background = GradientDrawable().apply { setColor(Color.parseColor("#99000000")); cornerRadius = dp(14).toFloat() }
         }
         root.addView(chip, FrameLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT, Gravity.TOP or Gravity.CENTER_HORIZONTAL).apply { topMargin = dp(8) })
-        val bar = LinearLayout(this).apply { orientation = LinearLayout.HORIZONTAL; setPadding(dp(10), dp(8), dp(10), dp(10)) }
-        fun key(label: String, onClick: () -> Unit) {
-            val cell = TextView(this).apply {
-                text = label; setTextColor(Color.WHITE); textSize = 15f; gravity = Gravity.CENTER; setPadding(0, dp(12), 0, dp(12))
-                background = GradientDrawable(GradientDrawable.Orientation.TOP_BOTTOM, intArrayOf(0x66FFFFFF, 0x1AFFFFFF)).apply { cornerRadius = dp(10).toFloat(); setStroke(dp(1), 0x66FFFFFF) }
-                setOnClickListener { onClick() }
-            }
-            bar.addView(cell, LinearLayout.LayoutParams(0, ViewGroup.LayoutParams.WRAP_CONTENT, 1f).apply { setMargins(dp(3), 0, dp(3), 0) })
-        }
-        key("Match") { match() }
-        key("Chambre") { ChamberActions.visit(this, urls[pager.currentItem]) }
-        key("☕") { coffee() }
-        key("Widget") { pages[pager.currentItem]?.let { HomeRuntime.openPanel(it) } }
+        val bar = ProfileBar.build(this, listOf(
+            "Match" to { match() },
+            "Chambre" to { ChamberActions.visit(this, urls[pager.currentItem]) },
+            "☕" to { coffee() },
+            "Widget" to { pages[pager.currentItem]?.let { HomeRuntime.openPanel(it) } },
+        ))
         root.addView(bar, FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT, Gravity.BOTTOM))
         setContentView(root)
         ViewCompat.setOnApplyWindowInsetsListener(root) { view, insets ->
