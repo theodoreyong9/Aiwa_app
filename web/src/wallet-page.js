@@ -8,6 +8,7 @@ import { bootWallet, runWallet, onWalletChange } from './boot.js';
 import { secretsAreSafe, deleteSecret } from './keys.js';
 import { $, short, showError } from './ui.js';
 import { initCoffee } from './coffee.js';
+import { coffeeTarget } from './coffee-core.js';
 
 const ACK = 'aiwa-phrase-written';
 const DEVNET = /devnet/i.test(config.rpc ?? '');
@@ -57,12 +58,13 @@ function row({ badge, label, detail, when }) {
   return el;
 }
 
-let wallMode = false;       // « le mur »: only what others sent (the donors), under the title of the wall
+let wallMode = false;       // « le mur »: only what was received (the donors), under the title of the wall
+let wallCard = '';          // whose wall: the Ed25519 key of a signed card (her own wall when none)
 
 async function renderHistory() {
   const aiwa = session.aiwa;
   if (!aiwa || !aiwa.identity || !$('history-section').open) return;
-  const myId = aiwa.identity.id;
+  const myId = wallMode && wallCard ? (await coffeeTarget(wallCard)) ?? aiwa.identity.id : aiwa.identity.id;
   const events = [];
   for await (const event of aiwa.log.since([])) events.push(event);
   events.sort((a, b) => b.createdAt - a.createdAt);
@@ -76,7 +78,7 @@ async function renderHistory() {
     else if (event.type === 'claim' && p.domain === myId) rows.push({ badge: 'claim', label: 'Réclamé', detail: `${p.amount} AIWA`, when: event.createdAt });
     else if (event.type === 'transfer' && (p.from === myId || p.to === myId)) {
       const out = p.from === myId;
-      if (wallMode && out) continue;
+      if (wallMode && (out || p.to !== myId)) continue;
       rows.push({ badge: out ? 'sent' : 'received', label: out ? 'Envoyé' : 'Reçu', detail: `${amountFor(p.claimId)} AIWA ${out ? 'à ' + short(p.to) : 'de ' + short(p.from)}`, when: event.createdAt });
     }
   }
@@ -178,6 +180,7 @@ async function show(aiwa) {
 
 export async function initWalletPage(params) {
   wallMode = params.get('wall') === '1';
+  wallCard = /^[0-9a-f]{64}$/.test(params.get('card') ?? '') ? params.get('card') : '';
   if (wallMode) { $('history-section').open = true; $('history-section').querySelector('summary').textContent = 'Mur des donateurs'; }
   $('btn-create').addEventListener('click', () => switchWallet(undefined, $('connect-error')));
   $('btn-restore').addEventListener('click', () => {

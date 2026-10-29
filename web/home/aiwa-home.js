@@ -20,7 +20,7 @@
     ['bar', [['update', 'Mise à jour', 'grey'], ['settings', 'Réglages', 'grey']]]
   ];
   var BY = { widget: { id: 'widget', group: 'widget', label: 'Widget', tone: 'violet' } }, GROUPS = {};
-  var TABS = [['build', 'Agent'], ['files', 'Files'], ['voir', 'Game']];
+  var TABS = [['settings', 'Réglages'], ['build', 'Agent'], ['files', 'Files'], ['voir', 'Game']];
   CATALOG.forEach(function (g) { GROUPS[g[0]] = g[1].map(function (b) { return b[0]; }); g[1].forEach(function (b) { BY[b[0]] = { id: b[0], group: g[0], label: b[1], tone: b[2] }; }); });
   var STATE = {};
   var BASE = '.aiwa-btn{all:unset;box-sizing:border-box;display:inline-flex;align-items:center;gap:.55em;padding:.7em 1em;cursor:pointer;font:inherit;color:var(--aiwa-fg,#fff);' +
@@ -53,7 +53,7 @@
     tabs.textContent = ''; body.textContent = '';
     TABS.forEach(function (t) {
       var b = document.createElement('button'); b.type = 'button'; b.className = 'aiwa-tab'; b.textContent = t[1]; b.setAttribute('data-on', t[0] === tab ? '1' : '0');
-      b.addEventListener('click', function () { tab = t[0]; drawPanel(); }); tabs.appendChild(b);
+      b.addEventListener('click', function () { if (t[0] === 'settings') { closePanel(); press('settings'); return; } tab = t[0]; drawPanel(); }); tabs.appendChild(b);
     });
     (GROUPS[tab] || []).forEach(function (id) { var b = make(id, ''); b.addEventListener('click', closePanel); body.appendChild(b); });
   }
