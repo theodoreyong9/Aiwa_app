@@ -15,7 +15,7 @@
   var CATALOG = [
     ['build', [['agent', 'Super agent', 'orange'], ['listen', 'Écoute', 'grey'], ['plus', 'Ajouter', 'grey'], ['claude', 'Claude', 'grey'], ['scenario', 'Scénario', 'grey'], ['cast', 'Cast TV', 'grey'], ['question', 'Question', 'grey']]],
     ['files', [['docs', 'Docs', 'green'], ['image', 'Images', 'green'], ['video', 'Vidéos', 'green'], ['app', 'Apps', 'green'], ['page', 'Pages', 'green']]],
-    ['voir', [['wallet', 'Wallet', 'grey'], ['nearby', 'Proximité', 'violet'], ['link', 'Lien', 'grey'], ['qr', 'QR code', 'grey'], ['favorites', 'Favoris', 'grey']]],
+    ['voir', [['wallet', 'Wallet', 'grey'], ['nearby', 'Zone', 'violet'], ['link', 'Lien', 'grey'], ['qr', 'QR code', 'grey'], ['favorites', 'Favoris', 'grey']]],
     ['chamber', [['room', 'Chambre', 'grey'], ['roomtalk', 'Converser', 'green'], ['roomear', 'Écouter', 'violet'], ['roomcreate', 'Create', 'red']]],
     ['bar', [['update', 'Mise à jour', 'grey'], ['settings', 'Réglages', 'grey']]]
   ];

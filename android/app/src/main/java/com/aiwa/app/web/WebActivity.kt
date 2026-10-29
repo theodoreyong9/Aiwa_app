@@ -197,6 +197,10 @@ class WebActivity : ComponentActivity() {
         const val EXTRA_COFFEE = "coffee"   // wallet: the signed card of the person to send a coffee to
         const val EXTRA_REPO = "repo"
 
+        /** « Zone »: who is around (the Voir page, by proximity). */
+        fun zone(context: android.content.Context) =
+            context.startActivity(Intent(context, WebActivity::class.java).putExtra(EXTRA_PAGE, "voir").putExtra(EXTRA_MODE, "proche").addFlags(Intent.FLAG_ACTIVITY_NEW_TASK))
+
         fun wall(context: android.content.Context, card: String? = null) {
             context.startActivity(Intent(context, WebActivity::class.java).putExtra(EXTRA_PAGE, "wallet").putExtra(EXTRA_WALL, true).apply { if (card != null) putExtra(EXTRA_CARD, card) }.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK))
         }

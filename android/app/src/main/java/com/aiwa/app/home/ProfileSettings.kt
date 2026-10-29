@@ -44,5 +44,12 @@ object ProfileSettings {
 
 /** The coffee button on the profiles one visits works when the wallet is connected: the wallet has derived its address from the 12 words and left it here (it does so at each start). No other switch. */
 object CoffeeSettings {
-    fun walletConnected(context: Context): Boolean = !com.aiwa.app.web.SecretStore(context).get("address").isNullOrEmpty()
+    fun walletPub(context: Context): String? = com.aiwa.app.web.SecretStore(context).get("address")?.takeIf { it.length == 64 }
+    fun walletConnected(context: Context): Boolean = walletPub(context) != null
+
+    /** Leaves the wallet's public key in her profile repository (the brain writes it once), so that whoever visits her can send a coffee. */
+    fun publishPub(context: Context) {
+        val pub = walletPub(context) ?: return
+        CoroutineScope(Dispatchers.IO).launch { try { Aiwa.brain.publishProfilePub(pub) } catch (err: Exception) { } }
+    }
 }

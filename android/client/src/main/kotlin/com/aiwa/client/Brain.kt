@@ -150,6 +150,8 @@ class Brain(private val net: Transport = HttpTransport()) {
     fun profileRepo(): String? = getJson("/api/profile")?.str("repo")
     fun setProfileRepo(repo: String): Outcome = act("/api/profile", JSONObject().put("repo", repo))
     fun profileCheck(): JSONObject? = getJson("/api/profile/check")
+    fun publishProfilePub(pub: String): Outcome = act("/api/profile/pub", JSONObject().put("pub", pub))
+    fun profilePub(repo: String): String? = getJson("/api/profile/pub?repo=" + java.net.URLEncoder.encode(repo, "UTF-8"))?.optString("pub")?.takeIf { it.length == 64 }
 
     // ---------- the studio: the free stock clips and « Film de moi » ----------
     fun stockStatus(): JSONObject? = getJson("/api/stock/status")

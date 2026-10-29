@@ -55,12 +55,13 @@ class HomeActivity : ComponentActivity() {
         // her page is the profile and nothing else; the keys under it are the application's: the matches around her, her room, her wallet (the coffees she is offered), the wall of those who offered, the widget
         val bar = ProfileBar.build(this, listOf(
             ProfileBar.Spec("🤝", "Match", ProfileBar.VIOLET) { com.aiwa.app.common.toastOnMain(this, "Le match se fait sur le profil d'une autre personne : ouvre-en un depuis Voir.") },
+            ProfileBar.Spec("📍", "Zone", ProfileBar.VIOLET) { com.aiwa.app.web.WebActivity.zone(this) },
             ProfileBar.Spec("🚪", "Chambre", ProfileBar.BLUE) { startActivity(Intent(this, com.aiwa.app.chamber.ChamberActivity::class.java)) },
             ProfileBar.Spec("☕", "Café", ProfileBar.GOLD) { com.aiwa.app.common.toastOnMain(this, "Le café s'offre à quelqu'un d'autre : ouvre son profil depuis Voir.") },
             ProfileBar.Spec("🏆", "Mur", ProfileBar.GREEN) { com.aiwa.app.web.WebActivity.wall(this) },
             ProfileBar.Spec("✦", "Widget", ProfileBar.WHITE) { HomeRuntime.openPanel(web) },
         ))
-        bar.keys[0].available(false); bar.keys[2].available(false)   // nobody to match or to offer a coffee to on her own page: they say so instead of opening something else
+        bar.keys[0].available(false); bar.keys[3].available(false)   // nobody to match or to offer a coffee to on her own page: they say so instead of opening something else
         root.addView(bar.view, FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT, android.view.Gravity.BOTTOM))
         setContentView(root)
         ViewCompat.setOnApplyWindowInsetsListener(root) { view, insets ->
@@ -73,6 +74,7 @@ class HomeActivity : ComponentActivity() {
 
     override fun onResume() {
         super.onResume()
+        CoffeeSettings.publishPub(this)
         startWatch()
         startEar()
         // The widget is asked for at every opening while there is none (the system's window, one tap on « Ajouter »), once the screen is really in front and has settled.
