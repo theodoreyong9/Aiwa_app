@@ -80,5 +80,17 @@ class Linked(unittest.TestCase):
         self.assertEqual(sessions.entry_of("session_ZZZ999")["repo"], "me/app")
 
 
+
+class MakeSessionTest(unittest.TestCase):
+    def test_a_failed_creation_is_kept_and_a_good_one_clears_it(self):
+        from unittest import mock
+        from aiwa_brain import state
+        with mock.patch.object(sessions, "cloud_send", return_value={"ok": False, "error": "claude n'est pas connecté"}):
+            sessions.make_session()
+        self.assertEqual(state.session_error, "claude n'est pas connecté")
+        with mock.patch.object(sessions, "cloud_send", return_value={"ok": True}):
+            sessions.make_session()
+        self.assertIsNone(state.session_error)
+
 if __name__ == "__main__":
     unittest.main()

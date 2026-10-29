@@ -29,7 +29,7 @@ data class Status(
     val session: String?, val lastSession: String?, val repo: String?, val pushMain: Boolean, val waiting: Boolean, val attachments: Int, val attachmentFiles: List<String>,
     val selfUpdate: String?, val silenceMinutes: Int, val cast: CastReady?, val githubError: String?, val repoAccessMissing: String?, val githubAppUrl: String?,
     val githubToken: Boolean, val claudeLogin: String, val relayCloud: String, val ask: Ask?, val agent: AgentView, val chamber: ChamberBrief, val llm: LlmView, val voice: String?, val profile: String?,
-    val githubUser: String? = null,
+    val githubUser: String? = null, val sessionError: String? = null,
 ) {
     companion object {
         fun parse(o: JSONObject): Status = Status(
@@ -44,7 +44,7 @@ data class Status(
             agent = parseAgent(o.obj("agent")),
             chamber = o.obj("chamber")?.let { ChamberBrief(it.optBoolean("active"), it.str("peer"), it.str("name")) } ?: ChamberBrief(false, null, null),
             llm = o.obj("llm")?.let { LlmView(it.optString("state", "none"), it.optLong("used"), it.optLong("cap")) } ?: LlmView("none", 0, 0),
-            voice = o.str("voice"), profile = o.str("profile"), githubUser = o.str("github_user"),
+            voice = o.str("voice"), profile = o.str("profile"), githubUser = o.str("github_user"), sessionError = o.str("session_error"),
         )
 
         fun parseAgent(a: JSONObject?): AgentView {
