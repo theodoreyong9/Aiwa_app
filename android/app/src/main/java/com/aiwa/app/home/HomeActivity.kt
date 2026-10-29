@@ -67,6 +67,12 @@ class HomeActivity : ComponentActivity() {
         startEar()
         // The widget is asked for at every opening while there is none (the system's window, one tap on « Ajouter »), once the screen is really in front and has settled.
         window.decorView.postDelayed({ if (!isFinishing && !isDestroyed) WidgetPin.offerOnce(this) }, 800)
+        // GitHub is asked for once, at the first opening (« Plus tard » closes the window; it stays in the settings)
+        val hints = getSharedPreferences("aiwa_hints", MODE_PRIVATE)
+        if (!hints.getBoolean("github_asked", false)) {
+            hints.edit().putBoolean("github_asked", true).apply()
+            window.decorView.postDelayed({ if (!isFinishing && !isDestroyed) startActivity(Intent(this, com.aiwa.app.settings.GithubConnectActivity::class.java)) }, 2500)
+        }
     }
 
     override fun onPause() { watch?.stop(); watch = null; super.onPause() }

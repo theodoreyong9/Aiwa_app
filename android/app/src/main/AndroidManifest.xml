@@ -48,6 +48,7 @@
         <activity android:name=".voice.WordsActivity" android:exported="false" android:theme="@style/Theme.Float" android:windowSoftInputMode="adjustResize" android:taskAffinity="" android:excludeFromRecents="true" />
         <activity android:name=".voice.VoicePrintActivity" android:exported="false" android:theme="@style/Theme.Float" android:windowSoftInputMode="adjustResize" android:taskAffinity="" android:excludeFromRecents="true" />
         <activity android:name=".settings.SettingsActivity" android:exported="false" android:theme="@style/Theme.Float" android:windowSoftInputMode="adjustResize" android:taskAffinity="" android:excludeFromRecents="true" />
+        <activity android:name=".settings.GithubConnectActivity" android:exported="false" android:theme="@style/Theme.Float" android:windowSoftInputMode="adjustResize" android:taskAffinity="" android:excludeFromRecents="true" />
         <activity android:name=".settings.KeysActivity" android:exported="false" android:theme="@style/Theme.Float" android:windowSoftInputMode="adjustResize" android:taskAffinity="" android:excludeFromRecents="true" />
         <activity android:name=".settings.StyleActivity" android:exported="false" android:theme="@style/Theme.Float" android:windowSoftInputMode="adjustResize" android:taskAffinity="" android:excludeFromRecents="true" />
         <activity android:name=".settings.DescriptionActivity" android:exported="false" android:theme="@style/Theme.Float" android:windowSoftInputMode="adjustResize" android:taskAffinity="" android:excludeFromRecents="true" />

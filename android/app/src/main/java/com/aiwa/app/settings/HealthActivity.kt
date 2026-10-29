@@ -37,7 +37,8 @@ class HealthActivity : FloatActivity() {
             if (status.claudeLogin != "ok") entry("Connecter Claude") { startActivity(android.content.Intent(this, ClaudeLoginActivity::class.java)) }
             line(status.llm.state == "ready", "Clé du super agent : " + if (status.llm.state == "ready") "en place" else "absente (il passera par le Claude du téléphone)")
             line(status.relayCloud == "ok", "Relais (Claude te prévient) : " + status.relayCloud)
-            line(status.githubToken, "Jeton GitHub : " + if (status.githubToken) "en place" else "absent (supprimer ne marchera pas)")
+            line(status.githubToken, "GitHub : " + if (status.githubToken) "connecté" + (status.githubUser?.let { " ($it)" } ?: "") else "pas connecté (dépôts publics seulement)")
+            if (!status.githubToken) entry("Connecter GitHub") { startActivity(android.content.Intent(this, GithubConnectActivity::class.java)) }
             line(status.voice == "ready", "Voix naturelle : " + (status.voice ?: "pas installée"))
             status.githubError?.let { line(false, "GitHub : $it") }
             status.repoAccessMissing?.let { line(false, "Claude n'a pas accès à $it") }

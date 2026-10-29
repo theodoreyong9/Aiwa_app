@@ -3,6 +3,7 @@ package com.aiwa.app.settings
 import android.content.Intent
 import android.text.InputType
 import android.widget.EditText
+import com.aiwa.app.brain.Aiwa
 import com.aiwa.app.common.FloatActivity
 import com.aiwa.app.common.Palette
 import com.aiwa.app.home.CoffeeSettings
@@ -51,6 +52,7 @@ class SettingsActivity : FloatActivity() {
 
         note("Comptes", Palette.GOLD)
         entry("Clés et plafonds", "Ta clé Anthropic, son plafond du jour, ton jeton GitHub.") { open(KeysActivity::class.java) }
+        entry("Connecter GitHub", Aiwa.state.value.status?.let { if (it.githubToken) "Connecté" + (it.githubUser?.let { u -> " : $u" } ?: "") else "Pas connecté : seuls tes dépôts publics sont vus." } ?: "Voir tous tes dépôts, privés compris.") { open(GithubConnectActivity::class.java) }
         entry("Connecter Claude", "Relier le Claude du téléphone à ton compte.") { open(ClaudeLoginActivity::class.java) }
 
         note("Aiwa", Palette.GOLD)

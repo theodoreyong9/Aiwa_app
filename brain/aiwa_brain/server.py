@@ -25,7 +25,7 @@ def status():
         "cloud_session": cloud_session, "last_session": last or next((e.get("id") for e in sessions.load_all() if e.get("id")), None),
         "repo": repo, "push_main": direct, "waiting": is_waiting, "attachments": len(state.attachments), "attachment_files": attachments.attach_list(),
         "self_update": dict(state.self_update_last), "alert_last": last_ping, "silence_minutes": relay.silence_minutes(), "cast": cast.ready(),
-        "github_error": problem, "repo_access_missing": missing_access, "github_app_url": config.GITHUB_APP_URL, "github_token": github.token_value() is not None,
+        "github_error": problem, "repo_access_missing": missing_access, "github_app_url": config.GITHUB_APP_URL, "github_token": github.token_value() is not None, "github_user": github.connected_user(),
         "claude_login": claude_cli.login_state(), "relay_cloud": relay.cloud_state(), "ask": asks.snapshot(), "agent": agent.snapshot(),
         "chamber": room, "llm": {"state": state.llm.state, **state.llm.usage()}, "voice": state.voice.state, "profile": profile.profile_state().get("repo"),
     }
@@ -190,7 +190,7 @@ def _github_token(data):
     except github.GithubError as err:
         return {"ok": False, "error": str(err)}
     files.forget()
-    return {"ok": True, "github_token": github.token_value() is not None}
+    return {"ok": True, "github_token": github.token_value() is not None, "user": github.connected_user()}
 
 
 def _relay_test():

@@ -12,7 +12,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 
-/** « Clés et plafonds »: the person's Anthropic key (the super agent speaks through it), the most tokens it may use in a day, and the GitHub token (to delete a production). */
+/** « Clés et plafonds »: the person's Anthropic key (the super agent speaks through it), the most tokens it may use in a day, and the way to the GitHub connection. */
 class KeysActivity : FloatActivity() {
     override val title = "Clés et plafonds"
 
@@ -52,11 +52,6 @@ class KeysActivity : FloatActivity() {
         add(cap, 16)
         entry("Enregistrer le plafond") { run({ Aiwa.brain.llmCap(cap.text.toString().trim().toLongOrNull() ?: 0L) }, "Plafond enregistré") }
 
-        note("GitHub : un jeton personnel (droit « contents » sur tes dépôts) permet de supprimer une production depuis Fichiers.", Palette.TEXT)
-        note(if (status?.githubToken == true) "✓ Jeton en place." else "Pas de jeton : supprimer ne marchera pas.", if (status?.githubToken == true) Palette.GREEN else Palette.DIM)
-        val token = field("github_pat_… ou ghp_…", secret = true)
-        add(token)
-        entry("Enregistrer le jeton") { val t = token.text.toString().trim(); if (t.isNotEmpty()) run({ Aiwa.brain.githubToken(t) }, "Jeton enregistré") }
-        if (status?.githubToken == true) entry("Retirer le jeton") { run({ Aiwa.brain.githubClearToken() }, "Jeton retiré") }
+        entry("GitHub", if (status?.githubToken == true) "Connecté" + (status.githubUser?.let { " : $it" } ?: "") else "Pas connecté") { startActivity(android.content.Intent(this, GithubConnectActivity::class.java)) }
     }
 }

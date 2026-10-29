@@ -31,6 +31,7 @@ GITHUB_API = os.environ.get("AIWA_GITHUB_API", "https://api.github.com")
 GITHUB_BASE = os.environ.get("AIWA_GITHUB_BASE", "https://github.com")
 TOKEN_FILE = DATA / "github_token"
 OWNER_REPOS_FILE = DATA / "owner_repos.json"
+USER_FILE = DATA / "github_user"        # the account the token belongs to (its login), found when the token is kept
 # Runs nobody asked for, which say nothing about the person's work: the ones a workflow schedules for itself and GitHub's own dynamic ones.
 NOT_NEWS_EVENTS = ("schedule", "dynamic")
 OK_CONCLUSIONS = ("success", "skipped", "neutral")
@@ -98,9 +99,31 @@ def set_token(value):
         raise GithubError("jeton invalide")
     if not value:
         TOKEN_FILE.unlink(missing_ok=True)
+        USER_FILE.unlink(missing_ok=True)
         return
     TOKEN_FILE.write_text(value, encoding="utf-8")
     TOKEN_FILE.chmod(0o600)
+    # the account it belongs to: a token GitHub refuses is not kept; GitHub being unreachable keeps it (the account is looked up later)
+    try:
+        who = api("/user")
+    except GithubError as err:
+        if "401" in str(err) or "403" in str(err):
+            TOKEN_FILE.unlink(missing_ok=True)
+            raise GithubError("GitHub refuse ce jeton")
+        return
+    login = who.get("login") if isinstance(who, dict) else None
+    if isinstance(login, str) and REPO_RE.fullmatch(login + "/x"):
+        USER_FILE.write_text(login, encoding="utf-8")
+
+
+def connected_user():
+    """The GitHub account of the token, or None without a token."""
+    if not token_value():
+        return None
+    try:
+        return USER_FILE.read_text(encoding="utf-8").strip() or None
+    except OSError:
+        return None
 
 
 def api(path, method="GET", body=None, timeout=15):
@@ -177,6 +200,9 @@ def checkout_owner():
     override = os.environ.get("AIWA_GITHUB_OWNER", "").strip()
     if override:
         return override
+    me = connected_user()
+    if me:
+        return me
     root = Path(__file__).resolve().parents[2]
     try:
         done = subprocess.run(["git", "-C", str(root), "remote", "get-url", "origin"], capture_output=True, text=True, timeout=5)
