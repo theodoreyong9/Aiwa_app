@@ -74,7 +74,7 @@ class HomeActivity : ComponentActivity() {
 
     override fun onResume() {
         super.onResume()
-        ProfileSettings.publishPub(this)
+        CoffeeSettings.publishPub(this)
         startWatch()
         startEar()
         // The widget is asked for at every opening while there is none (the system's window, one tap on « Ajouter »), once the screen is really in front and has settled.
