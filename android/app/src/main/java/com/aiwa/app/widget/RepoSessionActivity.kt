@@ -39,7 +39,7 @@ class RepoSessionActivity : FloatActivity() {
         val list = sessions
         if (list == null) { note("Je cherche les sessions…"); return }
         val current = Aiwa.state.value.status?.session
-        val mine = list.filter { it.repo == repo }
+        val mine = list.filter { it.repo.equals(repo, ignoreCase = true) }
         if (mine.isEmpty()) note("Aucune session sur ce dépôt pour l'instant.")
         for (s in mine) entry((if (s.id == current) "● " else "○ ") + s.title, if (s.id == current) "en cours" else "Touche pour en faire la session en cours", if (s.id == current) Palette.CARD else Palette.CARD) {
             act("Session : ${s.title}") { Aiwa.brain.select(s.id) }

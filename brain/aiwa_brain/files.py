@@ -62,7 +62,7 @@ def worked_on():
         names = [state.current_repo] if state.current_repo else []
     for entry in sessions.load_all():
         name = entry.get("repo")
-        if isinstance(name, str) and github.REPO_RE.fullmatch(name) and name not in names:
+        if isinstance(name, str) and github.REPO_RE.fullmatch(name) and name.lower() not in [n.lower() for n in names]:
             names.append(name)
     return names
 

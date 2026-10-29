@@ -54,12 +54,13 @@ class HomeActivity : ComponentActivity() {
         root.addView(web, FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT).apply { bottomMargin = ProfileBar.height(this@HomeActivity) })
         // her page is the profile and nothing else; the keys under it are the application's: the matches around her, her room, her wallet (the coffees she is offered), the wall of those who offered, the widget
         val bar = ProfileBar.build(this, listOf(
-            ProfileBar.Spec("🤝", "Match", ProfileBar.VIOLET) { startActivity(Intent(this, com.aiwa.app.web.WebActivity::class.java).putExtra(com.aiwa.app.web.WebActivity.EXTRA_PAGE, "voir").putExtra(com.aiwa.app.web.WebActivity.EXTRA_MODE, "proche")) },
+            ProfileBar.Spec("🤝", "Match", ProfileBar.VIOLET) { com.aiwa.app.common.toastOnMain(this, "Le match se fait sur le profil d'une autre personne : ouvre-en un depuis Voir.") },
             ProfileBar.Spec("🚪", "Chambre", ProfileBar.BLUE) { startActivity(Intent(this, com.aiwa.app.chamber.ChamberActivity::class.java)) },
-            ProfileBar.Spec("☕", "Café", ProfileBar.GOLD) { com.aiwa.app.web.WebActivity.wallet(this) },
+            ProfileBar.Spec("☕", "Café", ProfileBar.GOLD) { com.aiwa.app.common.toastOnMain(this, "Le café s'offre à quelqu'un d'autre : ouvre son profil depuis Voir.") },
             ProfileBar.Spec("🏆", "Mur", ProfileBar.GREEN) { com.aiwa.app.web.WebActivity.wall(this) },
             ProfileBar.Spec("✦", "Widget", ProfileBar.WHITE) { HomeRuntime.openPanel(web) },
         ))
+        bar.keys[0].available(false); bar.keys[2].available(false)   // nobody to match or to offer a coffee to on her own page: they say so instead of opening something else
         root.addView(bar.view, FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT, android.view.Gravity.BOTTOM))
         setContentView(root)
         ViewCompat.setOnApplyWindowInsetsListener(root) { view, insets ->

@@ -40,11 +40,6 @@ class GithubConnectActivity : FloatActivity() {
         }
     }
 
-    override fun onDestroy() {
-        if (isFinishing && Aiwa.state.value.status?.githubToken != true) CoroutineScope(Dispatchers.IO).launch { try { Aiwa.brain.githubLoginCancel() } catch (err: Exception) { } }
-        super.onDestroy()
-    }
-
     private fun begin() {
         busy = true; error = null; reload()
         CoroutineScope(Dispatchers.Main).launch {

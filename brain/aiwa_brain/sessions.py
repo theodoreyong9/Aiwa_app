@@ -63,7 +63,7 @@ def entry_of(session_id):
 
 def session_for_repo(repo):
     """The session linked to a repository: the most recent one that works on it (the list is kept newest first), or None when there is none yet."""
-    return next((e["id"] for e in load_all() if e.get("id") and e.get("repo") == repo), None)
+    return next((e["id"] for e in load_all() if e.get("id") and str(e.get("repo", "")).lower() == str(repo).lower()), None)
 
 
 KICKOFF = "Nouvelle session Aiwa sur ce dépôt. Regarde-le, dis-moi en une phrase ce que tu y vois, puis attends mes consignes."

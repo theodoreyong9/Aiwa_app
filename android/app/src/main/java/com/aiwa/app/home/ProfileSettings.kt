@@ -42,9 +42,7 @@ object ProfileSettings {
     }
 }
 
-/** The coffee button on the profiles one visits (direct send of AIWA to the person, from the wallet): off until the person turns it on in the settings. */
+/** The coffee button on the profiles one visits works when the wallet is connected (its 12 words are kept on this phone): no other switch. */
 object CoffeeSettings {
-    private fun prefs(context: Context) = Prefs(context, "aiwa_coffee")
-    fun on(context: Context): Boolean = prefs(context).bool("on", false)
-    fun setOn(context: Context, value: Boolean) = prefs(context).put("on", value)
+    fun walletConnected(context: Context): Boolean = !com.aiwa.app.web.SecretStore(context).get("phrase").isNullOrEmpty()
 }
