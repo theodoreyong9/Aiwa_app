@@ -6,7 +6,7 @@ import time
 import urllib.parse
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
-from . import agent, agent_lib, asks, attachments, cast, chamber, claude_cli, config, files, github, instructions, live, profile, questions, relay, repos, scenarios, sessions, state, update
+from . import agent, agent_lib, asks, attachments, cast, chamber, claude_cli, config, files, github, github_login, instructions, live, profile, questions, relay, repos, scenarios, sessions, state, update
 
 
 def status():
@@ -217,6 +217,7 @@ GET = {
     "/api/repos": lambda q: {"ok": True, "repos": repos.choices()},
     "/api/instructions": lambda q: {"text": instructions.preview()},
     "/api/claude/login": lambda q: claude_cli.login_snapshot(),
+    "/api/github/login": lambda q: github_login.snapshot(),
     "/api/files": lambda q: files.listing((q.get("repo") or [""])[0] or None),
     "/api/scenarios": lambda q: scenarios.scenario_api("/api/scenarios", ""),
     "/api/chamber": lambda q: chamber.chamber_api("/api/chamber", ""),
@@ -260,6 +261,8 @@ POST = {
     "/api/claude/check": lambda body, data: claude_cli.check_now(),
     "/api/llm/key": lambda body, data: _llm_key(data),
     "/api/github/token": lambda body, data: _github_token(data),
+    "/api/github/login/start": lambda body, data: github_login.start(),
+    "/api/github/login/cancel": lambda body, data: github_login.cancel(),
     "/api/voice/setup": lambda body, data: (state.voice.install(), {"ok": True, "state": state.voice.state})[1],
 }
 POST_PREFIX = (

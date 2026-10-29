@@ -43,6 +43,9 @@ class HealthActivity : FloatActivity() {
             status.githubError?.let { line(false, "GitHub : $it") }
             status.repoAccessMissing?.let { line(false, "Claude n'a pas accès à $it") }
         }
+        line(com.aiwa.app.brain.hasTermuxPermission(this), "Autorisation de lancer le cerveau dans Termux" + if (com.aiwa.app.brain.hasTermuxPermission(this)) "" else " : manquante (c'est ce qui rend le bouton Super agent rouge)")
+        if (!com.aiwa.app.brain.hasTermuxPermission(this)) entry("Autoriser", "Ouvre l'écran qui la demande") { startActivity(android.content.Intent(this, com.aiwa.app.brain.SetupActivity::class.java)) }
+        if (status?.waiting == true || (status?.silenceMinutes ?: 0) > 0) line(false, "Claude attend ta réponse (c'est ce qui rend le bouton Claude rouge) : ouvre-le ou réponds dans Question")
         line(Battery.isExempt(this), "Batterie : " + if (Battery.isExempt(this)) "Aiwa n'est pas endormi" else "Android peut endormir Aiwa")
         if (!Battery.isExempt(this)) entry("Autoriser en arrière-plan") { try { startActivity(Battery.requestIntent(this)) } catch (err: Exception) { toastOnMain(this, "Écran indisponible") } }
         line(!snap.appUpdateReady, "Application : version ${AppUpdater.installedVersion(this) ?: "?"}" + if (snap.appUpdateReady) " (une mise à jour attend)" else "")

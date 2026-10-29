@@ -69,8 +69,8 @@ class HomeActivity : ComponentActivity() {
         window.decorView.postDelayed({ if (!isFinishing && !isDestroyed) WidgetPin.offerOnce(this) }, 800)
         // GitHub is asked for once, at the first opening (« Plus tard » closes the window; it stays in the settings)
         val hints = getSharedPreferences("aiwa_hints", MODE_PRIVATE)
-        if (!hints.getBoolean("github_asked", false)) {
-            hints.edit().putBoolean("github_asked", true).apply()
+        if (!hints.getBoolean("github_asked_v2", false)) {
+            hints.edit().putBoolean("github_asked_v2", true).apply()
             window.decorView.postDelayed({ if (!isFinishing && !isDestroyed) startActivity(Intent(this, com.aiwa.app.settings.GithubConnectActivity::class.java)) }, 2500)
         }
     }

@@ -143,6 +143,10 @@ class Brain(private val net: Transport = HttpTransport()) {
     fun llmCap(tokens: Long): Outcome = act("/api/llm/key", JSONObject().put("cap", tokens))
     fun githubToken(token: String): Outcome = act("/api/github/token", JSONObject().put("token", token))
     fun githubClearToken(): Outcome = act("/api/github/token", JSONObject().put("clear", true))
+    // ---------- GitHub's login on the phone (device flow: a code to type once on github.com) ----------
+    fun githubLoginStart(): Outcome = act("/api/github/login/start", "", 30_000)
+    fun githubLoginState(): JSONObject? = getJson("/api/github/login")
+    fun githubLoginCancel(): Outcome = act("/api/github/login/cancel")
     fun profileRepo(): String? = getJson("/api/profile")?.str("repo")
     fun setProfileRepo(repo: String): Outcome = act("/api/profile", JSONObject().put("repo", repo))
     fun profileCheck(): JSONObject? = getJson("/api/profile/check")
