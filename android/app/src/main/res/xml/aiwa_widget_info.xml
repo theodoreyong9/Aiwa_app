@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- One thin shape, four cells wide; the widget draws its bands in whatever height the launcher gives. `configure` opens the setup window once, when the widget is put on the screen. -->
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android" android:minWidth="250dp" android:minHeight="70dp" android:minResizeHeight="50dp" android:targetCellWidth="4" android:targetCellHeight="1"
+    android:resizeMode="vertical" android:updatePeriodMillis="0" android:initialLayout="@layout/fast_widget" android:previewLayout="@layout/widget_preview" android:description="@string/widget_description"
+    android:configure="com.aiwa.app.brain.SetupActivity" android:widgetFeatures="configuration_optional" android:widgetCategory="home_screen|keyguard" android:initialKeyguardLayout="@layout/widget_placeholder" />

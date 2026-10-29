@@ -23,6 +23,15 @@ data class Snapshot(
     val agentOpen: Boolean = false,    // the super agent has the microphone
     val appUpdateReady: Boolean = false,
     val sessions: List<com.aiwa.client.Session> = emptyList(),
+    val fileCounts: Map<String, Int> = emptyMap(),   // productions per kind in the scope of the Files page, read now and then
+    val chamberMode: String = "closed",             // what the chamber page says: closed / open / visiting
+    val chamberConversing: Boolean = false,
+    val chamberEar: Boolean = false,
+    val chamberCreate: Boolean = false,
+    val chamberCreateThem: Boolean = false,
+    val chamberRoom: String? = null,
+    val chamberRefusedBusy: Boolean = false,
+    val chamberPartner: String? = null,
 ) {
     val repo: String? get() = status?.repo
     val sessionId: String? get() = status?.session

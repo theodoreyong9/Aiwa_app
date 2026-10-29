@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MICROPHONE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+    <!-- Termux's own automation: lets Aiwa start the brain -->
+    <uses-permission android:name="com.termux.permission.RUN_COMMAND" />
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
+    <queries>
+        <intent><action android:name="android.speech.action.RECOGNIZE_SPEECH" /></intent>
+        <intent><action android:name="android.intent.action.TTS_SERVICE" /></intent>
+        <package android:name="com.termux" />
+        <package android:name="com.anthropic.claude" />
+    </queries>
+    <application android:name=".brain.AiwaApp" android:allowBackup="true" android:dataExtractionRules="@xml/data_extraction_rules" android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher" android:roundIcon="@mipmap/ic_launcher_round" android:label="@string/app_name" android:supportsRtl="true" android:theme="@style/Theme.Aiwa"
+        android:networkSecurityConfig="@xml/network_security_config">
+        <provider android:name="androidx.core.content.FileProvider" android:authorities="${applicationId}.updates" android:exported="false" android:grantUriPermissions="true">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/update_paths" />
+        </provider>
+        <!-- The home: the page of the person. -->
+        <activity android:name=".home.HomeActivity" android:exported="true" android:launchMode="singleTask" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".web.WebActivity" android:exported="false" android:windowSoftInputMode="adjustResize" />
+        <!-- Right after the widget is put on the screen, the launcher opens this window to ask what Aiwa needs, once. -->
+        <activity android:name=".brain.SetupActivity" android:exported="true" android:theme="@style/Theme.Float" android:taskAffinity="" android:excludeFromRecents="true">
+            <intent-filter><action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" /></intent-filter>
+        </activity>
+        <activity android:name=".cast.CastActivity" android:exported="false" android:theme="@style/Theme.Float" android:windowSoftInputMode="adjustResize" android:taskAffinity="" android:excludeFromRecents="true" />
+        <activity android:name=".files.FilesActivity" android:exported="false" android:theme="@style/Theme.Float" android:windowSoftInputMode="adjustResize" android:taskAffinity="" android:excludeFromRecents="true" />
+        <activity android:name=".scenario.ScenariosActivity" android:exported="false" android:theme="@style/Theme.Float" android:windowSoftInputMode="adjustResize" android:taskAffinity="" android:excludeFromRecents="true" />
+        <activity android:name=".scenario.ScenarioEditActivity" android:exported="false" android:theme="@style/Theme.Float" android:windowSoftInputMode="adjustResize" android:taskAffinity="" android:excludeFromRecents="true" />
+        <activity android:name=".voice.WordsActivity" android:exported="false" android:theme="@style/Theme.Float" android:windowSoftInputMode="adjustResize" android:taskAffinity="" android:excludeFromRecents="true" />
+        <activity android:name=".voice.VoicePrintActivity" android:exported="false" android:theme="@style/Theme.Float" android:windowSoftInputMode="adjustResize" android:taskAffinity="" android:excludeFromRecents="true" />
+        <activity android:name=".settings.SettingsActivity" android:exported="false" android:theme="@style/Theme.Float" android:windowSoftInputMode="adjustResize" android:taskAffinity="" android:excludeFromRecents="true" />
+        <activity android:name=".settings.KeysActivity" android:exported="false" android:theme="@style/Theme.Float" android:windowSoftInputMode="adjustResize" android:taskAffinity="" android:excludeFromRecents="true" />
+        <activity android:name=".settings.StyleActivity" android:exported="false" android:theme="@style/Theme.Float" android:windowSoftInputMode="adjustResize" android:taskAffinity="" android:excludeFromRecents="true" />
+        <activity android:name=".settings.DescriptionActivity" android:exported="false" android:theme="@style/Theme.Float" android:windowSoftInputMode="adjustResize" android:taskAffinity="" android:excludeFromRecents="true" />
+        <activity android:name=".settings.PapersActivity" android:exported="false" android:theme="@style/Theme.Float" android:windowSoftInputMode="adjustResize" android:taskAffinity="" android:excludeFromRecents="true" />
+        <activity android:name=".settings.HealthActivity" android:exported="false" android:theme="@style/Theme.Float" android:windowSoftInputMode="adjustResize" android:taskAffinity="" android:excludeFromRecents="true" />
+        <activity android:name=".settings.ClaudeLoginActivity" android:exported="false" android:theme="@style/Theme.Float" android:windowSoftInputMode="adjustResize" android:taskAffinity="" android:excludeFromRecents="true" />
+        <activity android:name=".question.AskActivity" android:exported="false" android:theme="@style/Theme.Float" android:windowSoftInputMode="adjustResize" android:taskAffinity="" android:excludeFromRecents="true" />
+        <activity android:name=".widget.RepoPickerActivity" android:exported="false" android:theme="@style/Theme.Float" android:windowSoftInputMode="adjustResize" android:taskAffinity="" android:excludeFromRecents="true" />
+        <activity android:name=".widget.AddActivity" android:exported="false" android:theme="@style/Theme.Float" android:windowSoftInputMode="adjustResize" android:taskAffinity="" android:excludeFromRecents="true" />
+        <activity android:name=".files.ImageActivity" android:exported="false" />
+        <activity android:name=".files.VideoPlayerActivity" android:exported="false" />
+        <activity android:name=".files.PageActivity" android:exported="false" />
+        <activity android:name=".voice.WakeWordEnrollActivity" android:exported="false" android:taskAffinity="" android:excludeFromRecents="true" />
+        <activity android:name=".voice.AgentToggleActivity" android:exported="false" android:theme="@style/Theme.Float" android:taskAffinity="" android:excludeFromRecents="true" />
+        <activity android:name=".voice.EarToggleActivity" android:exported="false" android:theme="@style/Theme.Float" android:taskAffinity="" android:excludeFromRecents="true" />
+        <activity android:name=".update.InstallUpdateActivity" android:exported="false" android:theme="@style/Theme.Float" android:taskAffinity="" android:excludeFromRecents="true" />
+        <activity android:name=".home.ProfileActivity" android:exported="false" />
+        <activity android:name=".brain.InstallHelpActivity" android:exported="false" android:theme="@style/Theme.Float" android:taskAffinity="" android:excludeFromRecents="true" />
+        <activity android:name=".widget.ReportActivity" android:exported="false" android:theme="@style/Theme.Float" android:taskAffinity="" android:excludeFromRecents="true" />
+        <activity android:name=".widget.OpenClaudeActivity" android:exported="false" android:theme="@style/Theme.Float" android:taskAffinity="" android:excludeFromRecents="true" />
+        <activity android:name=".chamber.ChamberActivity" android:exported="false" android:taskAffinity="" android:excludeFromRecents="true" />
+        <activity android:name=".chamber.ChamberPressActivity" android:exported="false" android:theme="@style/Theme.Float" android:taskAffinity="" android:excludeFromRecents="true" />
+        <receiver android:name=".brain.BootReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".widget.AiwaWidgetProvider" android:exported="true">
+            <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE" /></intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/aiwa_widget_info" />
+        </receiver>
+        <service android:name=".brain.KeepAliveService" android:exported="false" android:foregroundServiceType="specialUse">
+            <property android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE" android:value="Garde Aiwa actif pour que le widget reste instantane" />
+        </service>
+        <service android:name=".chamber.ChamberService" android:exported="false" android:foregroundServiceType="specialUse">
+            <property android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE" android:value="Garde la chambre ouverte pour que deux super agents se retrouvent, application fermee" />
+        </service>
+        <service android:name=".cast.CastService" android:exported="false" android:foregroundServiceType="specialUse">
+            <property android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE" android:value="Envoie une video a une television du reseau local et la sert pendant la lecture" />
+        </service>
+        <service android:name=".voice.VoiceService" android:exported="false" android:foregroundServiceType="microphone" />
+    </application>
+</manifest>

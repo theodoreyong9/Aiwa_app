@@ -49,6 +49,7 @@ dependencies {
     implementation("androidx.core:core-ktx:1.17.0")
     implementation("androidx.activity:activity-ktx:1.10.1")
     implementation("androidx.webkit:webkit:1.14.0")
+    implementation("androidx.viewpager2:viewpager2:1.1.0")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.2")
     // The speech recognizer that listens for the wake word on the phone itself: Apache 2.0, offline.
     implementation("com.alphacephei:vosk-android:0.3.47")

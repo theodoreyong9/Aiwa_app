@@ -1,0 +1,59 @@
+name: Android
+# The APK. Built here only (no Android SDK is needed anywhere else): every branch is built, so that a change is known to compile, and from main it is published as the one file of a rolling
+# release, tagged android-latest and recreated at each build, so that the address never changes:
+#   https://github.com/theodoreyong9/Aiwa_app/releases/download/android-latest/Aiwa_app.apk
+on:
+  push:
+    paths: ['android/**', 'web/**', 'packages/**', 'scripts/gen-widget-layout.py', '.github/workflows/android.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# One build publishes at a time: the release below is deleted and recreated.
+concurrency:
+  group: build-apk
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      # the web pages (wallet, voir, chambre, home runtime) go into the APK's assets (android/app/build.gradle.kts copies web/dist)
+      - run: npm install
+      - run: npm run build:web
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.13'
+          cache-read-only: false
+      - run: gradle -p android :client:test
+      - run: gradle -p android :app:assembleDebug
+      - uses: actions/upload-artifact@v4
+        with:
+          name: aiwa-app-debug-apk
+          path: android/app/build/outputs/apk/debug/app-debug.apk
+      - name: Publish the APK to the rolling release
+        if: github.ref == 'refs/heads/main'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          APK="Aiwa_app.apk"
+          cp android/app/build/outputs/apk/debug/app-debug.apk "$APK"
+          # The same files as the build already published are not published again: a new release has a new commit, and the update button of the phone that had just installed the same code came back.
+          TREE=$(git rev-parse HEAD:android HEAD:web HEAD:packages HEAD:package.json HEAD:package-lock.json | sha1sum | cut -d' ' -f1)
+          OLD=$(gh release view android-latest --json body -q .body 2>/dev/null | grep -o 'Tree: [0-9a-f]*' | cut -d' ' -f2 || true)
+          if [ "$OLD" = "$TREE" ]; then echo "Same files as the published build: not published again."; exit 0; fi
+          gh release delete android-latest --cleanup-tag --yes || true
+          gh release create android-latest "$APK" \
+            --target "$GITHUB_SHA" \
+            --title "Debug APK (latest build)" \
+            --notes "Debug build of ${GITHUB_SHA}. Signed with the fixed debug key, so it installs over the previous one. Tree: ${TREE}"
