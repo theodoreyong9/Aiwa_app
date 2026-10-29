@@ -8,9 +8,9 @@ import { session, connected, onSession } from './session.js';
 import { $ } from './ui.js';
 import { hostAvailable, hostPost } from './host.js';
 import { drawQr, scanQr } from './qr.js';
-import { cellsAround, cleanLinks, checkEntry, messageOf, parseCard, cardText, parseRepo, repoLinks, LEVELS, roomName, filterRows, scoreRange, readBlocked, writeBlocked, utf8, PERIOD_MS } from './voir-core.js';
+import { cellsAround, cleanLinks, checkEntry, messageOf, parseCard, cardText, parseRepo, repoLinks, linksFromReleases, LEVELS, roomName, filterRows, scoreRange, readBlocked, writeBlocked, utf8, PERIOD_MS } from './voir-core.js';
 
-const kindName = { docs: 'Docs', media: 'Média', app: 'App', page: 'Page', contract: 'Contrat' };
+const kindName = { docs: 'Docs', image: 'Images', video: 'Vidéos', app: 'Apps', page: 'Pages' };
 const FAVS = 'aiwa-voir-favs';
 const readFavs = () => { try { const v = JSON.parse(localStorage.getItem(FAVS) ?? '[]'); return Array.isArray(v) ? v.slice(0, 200) : []; } catch { return []; } };
 const writeFavs = (list) => { try { localStorage.setItem(FAVS, JSON.stringify(list)); } catch { /* it lasts until the page closes */ } };
@@ -92,13 +92,14 @@ export function initVoirPage(params) {
       const repoName = parseRepo($('voir-owner').value, $('voir-repo').value);
       if (!repoName) { showResult(null, 'Il faut le nom GitHub et le dépôt (ou « nom/dépôt »).'); return; }
       status(`Je regarde ${repoName}…`);
-      // what exists, read without any key (GitHub's public API): the links of what is not there are left out; if GitHub cannot be reached, all five are shown
+      // what exists, read without any key (GitHub's public API): only the kinds the releases hold are shown; if GitHub cannot be reached, the five lists are shown, unchecked
       let links = repoLinks(repoName);
       try {
-        const get = async (path) => (await fetch(`https://api.github.com/repos/${repoName}${path}`, { headers: { Accept: 'application/vnd.github+json' } })).ok;
-        if (!(await get(''))) { showResult(null, `${repoName} : introuvable, ou privé (Aiwa ne lit que les dépôts publics).`); status(''); return; }
-        const [docs, contract, releases] = await Promise.all([get('/contents/docs'), get('/contents/aiwa-apps'), get('/releases')]);
-        links = links.filter((l) => (l.kind === 'docs' ? docs : l.kind === 'contract' ? contract : l.kind === 'app' || l.kind === 'media' ? releases : true));
+        const base = `https://api.github.com/repos/${repoName}`;
+        const head = { headers: { Accept: 'application/vnd.github+json' } };
+        if (!(await fetch(base, head)).ok) { showResult(null, `${repoName} : introuvable, ou privé (Aiwa ne lit que les dépôts publics).`); status(''); return; }
+        const res = await fetch(`${base}/releases?per_page=100`, head);
+        if (res.ok) links = linksFromReleases(repoName, await res.json());
       } catch { /* the five links are shown, unchecked */ }
       status(''); showResult({ repo: repoName, links });
     };

@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { ed25519 } from '@noble/curves/ed25519.js';
-import { geohash, bounds, cellsAround, cleanLinks, checkEntry, parseCard, cardText, parseRepo, repoLinks, LEVELS, roomName, distanceTo, filterRows, scoreRange } from '../src/voir-core.js';
+import { geohash, bounds, cellsAround, cleanLinks, checkEntry, parseCard, cardText, parseRepo, repoLinks, linksFromReleases, LEVELS, roomName, distanceTo, filterRows, scoreRange } from '../src/voir-core.js';
 
 // voir-core.js: the parts of « Voir » that need no page
 const utf8 = new TextEncoder();
@@ -69,11 +69,11 @@ test('a repository from the GitHub name and the name, or from a pasted address',
   assert.equal(parseRepo('a b', 'c'), null);
 });
 
-test('the links of the Files of a repository are the five public ones, all https', () => {
+test('the links of the Files of a repository are the five lists, and the newest release of each kind', () => {
   const links = repoLinks('a/b');
-  assert.deepEqual(links.map((l) => l.kind), ['docs', 'media', 'app', 'page', 'contract']);
-  assert.equal(links[3].url, 'https://a.github.io/b/');
-  assert.equal(repoLinks('a/a.github.io')[3].url, 'https://a.github.io/');
+  assert.deepEqual(links.map((l) => l.kind), ['docs', 'image', 'video', 'app', 'page']);
+  const found = linksFromReleases('a/b', [{ tag_name: 'video-promo-2' }, { tag_name: 'docs-cv-1' }, { tag_name: 'docs-old', draft: false }, { tag_name: 'x-1' }, { tag_name: 'app-z', draft: true }]);
+  assert.deepEqual(found, [{ kind: 'docs', url: 'https://github.com/a/b/releases/tag/docs-cv-1' }, { kind: 'video', url: 'https://github.com/a/b/releases/tag/video-promo-2' }]);
   assert.deepEqual(cleanLinks(links), links);
 });
 

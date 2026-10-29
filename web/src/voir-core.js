@@ -3,7 +3,7 @@ import { verifyHex } from 'aiwa-core';
 
 export const NEAR_LENGTH = 8;                          // a geohash of 8 characters is a cell of about 38 x 19 m: « near » means about 50 m
 const BASE32 = '0123456789bcdefghjkmnpqrstuvwxyz';
-const KINDS = new Set(['docs', 'media', 'app', 'page', 'contract']);
+const KINDS = new Set(['docs', 'image', 'video', 'app', 'page']);
 const MAX_LINKS = 6, MAX_URL = 300, FRESH_MS = 10 * 60_000;
 const BLOCKED = 'aiwa-voir-blocked';
 export const PERIOD_MS = 30_000;
@@ -135,15 +135,20 @@ export function parseRepo(owner, name) {
   return m ? `${m[1]}/${m[2]}` : null;
 }
 
-/** The public web links of the Files of a repository (the same ones the widget publishes): docs, media, app, page, contract. */
+/** The five kinds of production; a release whose tag starts with `<kind>-` belongs to that kind. */
+export const KIND_LIST = ['docs', 'image', 'video', 'app', 'page'];
+
+/** The public links of the productions of a repository when its releases cannot be read: the list of each kind (GitHub filters releases by a word of the tag). */
 export function repoLinks(repo) {
-  const [owner, name] = repo.split('/');
-  const page = name.toLowerCase() === `${owner.toLowerCase()}.github.io` ? `https://${owner}.github.io/` : `https://${owner}.github.io/${name}/`;
-  return [
-    { kind: 'docs', url: `https://github.com/${repo}/tree/HEAD/docs` },
-    { kind: 'media', url: `https://github.com/${repo}/releases/tag/videos` },
-    { kind: 'app', url: `https://github.com/${repo}/releases` },
-    { kind: 'page', url: page },
-    { kind: 'contract', url: `https://github.com/${repo}/tree/HEAD/aiwa-apps` },
-  ];
+  return KIND_LIST.map((kind) => ({ kind, url: `https://github.com/${repo}/releases?q=${kind}-` }));
+}
+
+/** The links of what a repository really holds: for each kind, the page of its newest release (the list GitHub's API gives is newest first). */
+export function linksFromReleases(repo, releases) {
+  const out = [];
+  for (const kind of KIND_LIST) {
+    const newest = (Array.isArray(releases) ? releases : []).find((r) => r && !r.draft && typeof r.tag_name === 'string' && r.tag_name.startsWith(`${kind}-`));
+    if (newest) out.push({ kind, url: `https://github.com/${repo}/releases/tag/${encodeURIComponent(newest.tag_name)}` });
+  }
+  return out;
 }
