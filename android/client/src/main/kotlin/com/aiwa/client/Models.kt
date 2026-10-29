@@ -21,6 +21,8 @@ data class AgentView(val busy: Boolean, val error: String?, val say: Say?, val p
 
 data class CastReady(val tv: String, val name: String, val url: String)
 data class ChamberBrief(val active: Boolean, val peer: String?, val name: String?)
+/** How many questions GitHub still allows, and whether they are asked as the person's own account. */
+data class GithubRate(val limit: Long, val remaining: Long, val account: Boolean)
 data class LlmView(val state: String, val used: Long, val cap: Long)
 
 /** Everything the widget shows, from one `/api/status`. */
@@ -30,6 +32,7 @@ data class Status(
     val selfUpdate: String?, val silenceMinutes: Int, val cast: CastReady?, val githubError: String?, val repoAccessMissing: String?, val githubAppUrl: String?,
     val githubToken: Boolean, val claudeLogin: String, val relayCloud: String, val ask: Ask?, val agent: AgentView, val chamber: ChamberBrief, val llm: LlmView, val voice: String?, val profile: String?,
     val githubUser: String? = null, val sessionError: String? = null,
+    val githubRate: GithubRate? = null,
 ) {
     companion object {
         fun parse(o: JSONObject): Status = Status(
@@ -44,7 +47,7 @@ data class Status(
             agent = parseAgent(o.obj("agent")),
             chamber = o.obj("chamber")?.let { ChamberBrief(it.optBoolean("active"), it.str("peer"), it.str("name")) } ?: ChamberBrief(false, null, null),
             llm = o.obj("llm")?.let { LlmView(it.optString("state", "none"), it.optLong("used"), it.optLong("cap")) } ?: LlmView("none", 0, 0),
-            voice = o.str("voice"), profile = o.str("profile"), githubUser = o.str("github_user"), sessionError = o.str("session_error"),
+            voice = o.str("voice"), profile = o.str("profile"), githubUser = o.str("github_user"), sessionError = o.str("session_error"), githubRate = o.obj("github_rate")?.let { GithubRate(it.optLong("limit"), it.optLong("remaining"), it.optBoolean("account")) },
         )
 
         fun parseAgent(a: JSONObject?): AgentView {

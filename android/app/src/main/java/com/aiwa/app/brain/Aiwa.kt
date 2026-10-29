@@ -7,7 +7,7 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 
 /** Bump together with BACKEND_VERSION in brain/aiwa_brain/config.py whenever the app starts to rely on a new feature of the brain. */
-const val EXPECTED_BRAIN_VERSION = 207
+const val EXPECTED_BRAIN_VERSION = 208
 
 /** Whether the brain answers: unknown (not asked yet), up, down, starting (Termux was asked to start it), or missing (it cannot be there: Termux is absent, or two starts in vain). */
 enum class Link { UNKNOWN, UP, DOWN, STARTING, MISSING }
