@@ -36,7 +36,6 @@ a{color:inherit}
 /* le cadre du film d'Aiwa : un vrai lecteur, visible, par-dessus le fond qui vit */
 .frame{margin:0;border:1px solid var(--line);border-radius:18px;overflow:hidden;background:rgba(6,8,26,.55);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);box-shadow:0 10px 40px rgba(0,0,0,.45),inset 0 1px 0 rgba(255,255,255,.18)}
 .frame video{display:block;width:100%;aspect-ratio:16/9;background:#06081a;object-fit:cover}
-.frame figcaption{display:flex;justify-content:space-between;gap:12px;padding:8px 12px;color:var(--dim)}
 .info{grid-area:info;display:grid;gap:clamp(8px,.1svh,14px)}
 .say{margin:0;max-width:30em;text-shadow:0 1px 14px rgba(0,0,0,.9),0 0 3px rgba(0,0,0,.6);font-size:clamp(14px,3.6vw,19px);color:#e3e6ff}
 .say b{color:var(--acc)}
@@ -108,8 +107,7 @@ a{color:inherit}
   <h1 class="name" aria-label="theodoreyong9"><span data-split data-delay="0">theo</span><br><span data-split data-delay="120">dore</span><span class="l2" data-split data-delay="240">yong9</span></h1>
   <div class="info">
     <figure class="frame" aria-label="Le film d'Aiwa">
-      <video poster="media/poster.jpg" controls autoplay muted loop playsinline preload="metadata"><source src="https://raw.githubusercontent.com/theodoreyong9/Aiwa_app/HEAD/docs/film.mp4" type="video/mp4"><source src="https://github.com/theodoreyong9/Aiwa_app/releases/download/video-film-aiwa/film.mp4" type="video/mp4"></video>
-      <figcaption class="mono"><span>Le film d'Aiwa</span><span>en boucle</span></figcaption>
+      <video id="film" poster="media/poster.jpg" controls autoplay loop playsinline preload="auto"><source src="https://raw.githubusercontent.com/theodoreyong9/Aiwa_app/HEAD/docs/film.mp4" type="video/mp4"><source src="https://github.com/theodoreyong9/Aiwa_app/releases/download/video-film-aiwa/film.mp4" type="video/mp4"></video>
     </figure>
     <p class="say">Je construis <b>Aiwa</b> : un assistant qui vit sur le téléphone, parle à Claude, et fait des sites, des vidéos, des pages et des apps, à la voix, et qui construit des agents, se construit lui-même et développe une identité et une intimité, grâce à tes boucles.</p>
     <section class="favs" aria-label="Mes favoris" data-aiwa-favorites hidden></section>
@@ -190,6 +188,19 @@ a{color:inherit}
   size(); root.classList.add('gl-ok');
   if (reduce) { draw(performance.now() + 2500); } else { raf = requestAnimationFrame(loop); }
   document.addEventListener('visibilitychange', function () { if (reduce) return; if (document.hidden) cancelAnimationFrame(raf); else raf = requestAnimationFrame(loop); });
+})();
+</script>
+<script>
+/* le film : avec le son, tout de suite. Dans l'application l'ouverture est permise ; ailleurs le navigateur peut refuser le son avant un geste : le film part alors muet et prend le son au premier toucher. */
+(function () {
+  var v = document.getElementById('film');
+  if (!v) return;
+  v.muted = false;
+  var p = v.play();
+  if (p && p.catch) p.catch(function () {
+    v.muted = true; v.play();
+    document.addEventListener('pointerdown', function () { v.muted = false; }, { once: true });
+  });
 })();
 </script>
 </body>
