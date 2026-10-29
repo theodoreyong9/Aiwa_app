@@ -1,7 +1,9 @@
 """The chamber's routes: one at a time, Create on both sides, an offer kept for the person, the agent that speaks is the normal one."""
 import json
+import time
 import unittest
 import unittest.mock
+from unittest import mock
 
 from aiwa_brain import chamber, state
 
@@ -78,3 +80,24 @@ class Routes(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class RankingTest(unittest.TestCase):
+    def setUp(self):
+        self.chamber = chamber
+        self.patches = [mock.patch.dict(chamber._rank, {"queue": [], "scores": {}, "total": 0, "running": False}), mock.patch("aiwa_brain.chamber.profile_lib.repo", return_value="me/me")]
+        for p in self.patches:
+            p.start()
+            self.addCleanup(p.stop)
+
+    def test_notes_by_groups_and_ranks_the_known(self):
+        marks = {"a/a": {"pro": 80, "perso": 70}, "b/b": {"pro": 20, "perso": 30}, "c/c": {"pro": 90, "perso": 90}, "d/d": {"ok": False}}
+        with mock.patch("aiwa_brain.chamber._match", side_effect=lambda r: {"ok": True, **marks[r]} if "pro" in marks[r] else {"ok": False}):
+            self.assertEqual(self.chamber._rank_start(["a/a", "b/b", "c/c", "d/d", "me/me", "bad"])["queued"], 4)
+            for _ in range(100):
+                if not self.chamber._rank_view()["running"]:
+                    break
+                time.sleep(0.05)
+        view = self.chamber._rank_view()
+        self.assertEqual([i["repo"] for i in view["items"]], ["c/c", "a/a", "b/b"])
+        self.assertEqual((view["done"], view["total"]), (3, 4))

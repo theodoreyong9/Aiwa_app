@@ -132,6 +132,8 @@ class Brain(private val net: Transport = HttpTransport()) {
     fun chamberNote(): String = chamberCall("/api/chamber/note", JSONObject(), 10_000).optString("text")
     fun chamberSetNote(text: String): Outcome = act("/api/chamber/note", JSONObject().put("text", text))
     fun chamberOffer(id: String, open: Boolean): Outcome = act("/api/chamber/offer", JSONObject().put("id", id).put("do", if (open) "open" else "dismiss"))
+    fun matchBatch(repos: List<String>): Outcome = act("/api/match/batch", JSONObject().put("repos", JSONArray(repos)), 30_000)
+    fun matchRanking(): Outcome = act("/api/match/ranking", "")
     fun match(repo: String): Outcome = act("/api/match", JSONObject().put("repo", repo), 60_000)
 
     // ---------- the settings of the brain ----------

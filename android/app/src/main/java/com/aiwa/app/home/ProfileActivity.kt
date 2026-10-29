@@ -12,7 +12,9 @@ import android.view.ViewGroup
 import android.webkit.WebResourceRequest
 import android.webkit.WebView
 import android.webkit.WebViewClient
+import android.widget.ArrayAdapter
 import android.widget.FrameLayout
+import android.widget.ListView
 import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.activity.ComponentActivity
@@ -27,6 +29,8 @@ import com.aiwa.app.common.toastOnMain
 import com.aiwa.app.web.WebActivity
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.isActive
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import org.json.JSONArray
@@ -68,7 +72,7 @@ class ProfileActivity : ComponentActivity() {
             ProfileBar.Spec("📍", "Zone", ProfileBar.VIOLET) { WebActivity.zone(this) },
             ProfileBar.Spec("🏆", "Mur", ProfileBar.GREEN) { wall() },
             ProfileBar.Spec("✦", "Widget", ProfileBar.WHITE) { pages[pager.currentItem]?.let { HomeRuntime.openPanel(it) } },
-        ))
+        ) + (if (urls.size > 1) listOf(ProfileBar.Spec("🏅", "Rang", ProfileBar.GOLD) { ranking() }) else emptyList()))
         root.addView(bar.view, FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT, Gravity.BOTTOM))
         setContentView(root)
         ViewCompat.setOnApplyWindowInsetsListener(root) { view, insets ->
@@ -79,6 +83,44 @@ class ProfileActivity : ComponentActivity() {
         pager.setCurrentItem(start, false)
         pager.registerOnPageChangeCallback(object : ViewPager2.OnPageChangeCallback() { override fun onPageSelected(position: Int) { chip.visibility = android.view.View.GONE; refreshKeys() } })
         refreshKeys()
+        // the profiles of the zone are noted in the background by small groups, nothing is ranked on its own: « Rang » shows what is known
+        if (urls.size > 1) CoroutineScope(Dispatchers.IO).launch { try { Aiwa.brain.matchBatch(urls) } catch (err: Exception) { } }
+    }
+
+    /** The ranking known so far, as a list that grows while the profiles are noted; a touch on a line goes to that profile. */
+    private fun ranking() {
+        val head = TextView(this).apply { setPadding(dp(20), dp(8), dp(20), dp(4)); text = "…" }
+        val rows = mutableListOf<String>()
+        val repos = mutableListOf<String>()
+        val adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, rows)
+        val list = ListView(this).apply { this.adapter = adapter }
+        val box = LinearLayout(this).apply { orientation = LinearLayout.VERTICAL; addView(head); addView(list) }
+        val dialog = AlertDialog.Builder(this).setTitle("Classement de la zone").setView(box).setNegativeButton("Fermer", null).create()
+        list.setOnItemClickListener { _, _, position, _ ->
+            val at = urls.indexOf(repos.getOrNull(position))
+            if (at >= 0) { pager.currentItem = at; dialog.dismiss() }
+        }
+        dialog.show()
+        val job = CoroutineScope(Dispatchers.Main).launch {
+            withContext(Dispatchers.IO) { try { Aiwa.brain.matchBatch(urls) } catch (err: Exception) { } }
+            while (isActive) {
+                val out = withContext(Dispatchers.IO) { try { Aiwa.brain.matchRanking() } catch (err: Exception) { null } }
+                val items = out?.json?.optJSONArray("items")
+                if (out != null && items != null) {
+                    rows.clear(); repos.clear()
+                    for (i in 0 until items.length()) {
+                        val item = items.getJSONObject(i)
+                        repos.add(item.optString("repo"))
+                        rows.add("${i + 1}. ${item.optString("repo")} : Pro ${item.optInt("pro")} · Perso ${item.optInt("perso")}")
+                    }
+                    adapter.notifyDataSetChanged()
+                    val done = out.json.optInt("done"); val total = out.json.optInt("total")
+                    head.text = if (out.json.optBoolean("running")) "$done profils notés sur $total, la liste se complète…" else if (done == 0) "Aucun profil noté (il faut ta clé Anthropic et des profils lisibles)." else "$done profils notés sur $total."
+                }
+                delay(2000)
+            }
+        }
+        dialog.setOnDismissListener { job.cancel() }
     }
 
     /** The score of the profile on the screen for the person who looks, made by her own super agent (the brain keeps it): it is written on the Match key itself, « Pro 72 · Perso 41 ». */
