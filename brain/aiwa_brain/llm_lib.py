@@ -11,6 +11,8 @@ import threading
 import time
 from pathlib import Path
 
+from .paths import DATA
+
 KEY_RE = re.compile(r"sk-ant-[A-Za-z0-9_\-]{20,}")
 MODEL = "claude-haiku-5-5"   # fast and cheap; the answer of a voice assistant must not wait
 MAX_TOKENS = 700
@@ -20,8 +22,8 @@ class Llm:
     """state: none (no key) / capped (the day's ceiling is reached) / installing (the package is being installed) / ready / error."""
 
     def __init__(self, key_file=None, client_factory=None, usage_file=None):
-        self.key_file = Path(key_file) if key_file else Path.home() / ".aiwa_anthropic_key"
-        self.usage_file = Path(usage_file) if usage_file else Path.home() / ".aiwa_llm_usage.json"
+        self.key_file = Path(key_file) if key_file else DATA / "anthropic_key"
+        self.usage_file = Path(usage_file) if usage_file else DATA / "llm_usage.json"
         self._factory = client_factory
         self._client = None
         self.error = None

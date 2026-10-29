@@ -5,7 +5,9 @@ import json
 import re
 from pathlib import Path
 
-PROFILE_FILE = Path.home() / ".aiwa_profile.json"
+from .paths import DATA
+
+PROFILE_FILE = DATA / "profile.json"
 FOLDER = "Profile"
 REPO_RE = re.compile(r"[A-Za-z0-9_.-]{1,100}/[A-Za-z0-9_.-]{1,100}")
 

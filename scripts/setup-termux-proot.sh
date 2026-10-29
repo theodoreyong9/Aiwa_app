@@ -112,32 +112,32 @@ echo "(By hand, if you ever prefer: proot-distro login $DISTRO -- claude)"
 echo "== Preventing Android from killing Termux in the background =="
 termux-wake-lock || echo "termux-wake-lock did not work (it belongs to Termux itself, no extra app is needed): in Android's settings, turn off the battery optimisation of Termux so it is not stopped in the background."
 
-# A backend started earlier (by the app, or by the last run of this script) still holds port 8787 and still
+# A backend started earlier (by the app, or by the last run of this script) still holds port 8788 and still
 # runs the OLD code, which an update just replaced on disk: starting a second one used to die with
 # "Address already in use" and leave the old one answering. Stop it first, and wait for the port to be free.
 echo "== Stopping a backend that is already running (it would keep the old code) =="
 pkill -f "[a]iwa_brain" >/dev/null 2>&1 || true
 for i in $(seq 1 20); do
-  curl -sf http://127.0.0.1:8787/api/status >/dev/null 2>&1 || break
+  curl -sf http://127.0.0.1:8788/api/status >/dev/null 2>&1 || break
   sleep 0.5
 done
 
 # Something answers again: the app started a backend meanwhile, on the code that is now on disk. Nothing to add.
-if curl -sf http://127.0.0.1:8787/api/status >/dev/null 2>&1; then
-  echo "A backend answers on 127.0.0.1:8787 (started meanwhile, with the updated code): nothing more to start."
-  [ -f "$HOME/.aiwa_apk_last.txt" ] && { echo "== The Aiwa APK (from the step at the start) =="; cat "$HOME/.aiwa_apk_last.txt"; }
+if curl -sf http://127.0.0.1:8788/api/status >/dev/null 2>&1; then
+  echo "A backend answers on 127.0.0.1:8788 (started meanwhile, with the updated code): nothing more to start."
+  [ -f "$HOME/.aiwa_app_apk_last.txt" ] && { echo "== The Aiwa APK (from the step at the start) =="; cat "$HOME/.aiwa_app_apk_last.txt"; }
   exit 0
 fi
 
 # What the APK step said, again: it scrolled away under the long setup above.
-if [ -f "$HOME/.aiwa_apk_last.txt" ]; then
+if [ -f "$HOME/.aiwa_app_apk_last.txt" ]; then
   echo "== The Aiwa APK (from the step at the start) =="
-  cat "$HOME/.aiwa_apk_last.txt"
+  cat "$HOME/.aiwa_app_apk_last.txt"
 fi
 
 # Started in the BACKGROUND, detached from this window (the same start.sh the app uses through Termux's
 # RUN_COMMAND): this window can be closed, and is not needed again — the app starts the backend itself when it
-# is down. start.sh keeps one instance at a time, writes ~/aiwa_backend.log and takes the wake-lock.
+# is down. start.sh keeps one instance at a time, writes ~/aiwa_app_backend.log and takes the wake-lock.
 echo "== Starting the Aiwa backend in the background (inside $DISTRO) =="
 if command -v setsid >/dev/null 2>&1; then
   setsid nohup bash "$REPO_DIR/scripts/start.sh" >/dev/null 2>&1 < /dev/null &
@@ -145,15 +145,15 @@ else
   nohup bash "$REPO_DIR/scripts/start.sh" >/dev/null 2>&1 < /dev/null &
 fi
 for i in $(seq 1 90); do
-  curl -sf http://127.0.0.1:8787/api/status >/dev/null 2>&1 && break
+  curl -sf http://127.0.0.1:8788/api/status >/dev/null 2>&1 && break
   sleep 1
 done
-if curl -sf http://127.0.0.1:8787/api/status >/dev/null 2>&1; then
-  echo "The Aiwa backend is running in the background (log: ~/aiwa_backend.log)."
-  echo "== RUNNING NOW: brain version $(curl -sf http://127.0.0.1:8787/api/status | sed -n 's/.*"version" *: *\([0-9]*\).*/\1/p') =="
+if curl -sf http://127.0.0.1:8788/api/status >/dev/null 2>&1; then
+  echo "The Aiwa backend is running in the background (log: ~/aiwa_app_backend.log)."
+  echo "== RUNNING NOW: brain version $(curl -sf http://127.0.0.1:8788/api/status | sed -n 's/.*"version" *: *\([0-9]*\).*/\1/p') =="
   echo "You can close Termux: the app starts the backend again by itself when it is down."
 else
-  echo "The backend did not answer within 90 seconds. Last lines of ~/aiwa_backend.log:"
-  tail -n 20 "$HOME/aiwa_backend.log" 2>/dev/null || echo "(no log: start.sh never ran)"
+  echo "The backend did not answer within 90 seconds. Last lines of ~/aiwa_app_backend.log:"
+  tail -n 20 "$HOME/aiwa_app_backend.log" 2>/dev/null || echo "(no log: start.sh never ran)"
   exit 1
 fi

@@ -3,26 +3,29 @@ import os
 import re
 from pathlib import Path
 
+from .paths import DATA
+
 HOST = "127.0.0.1"
-PORT = int(os.environ.get("AIWA_PORT", "8787"))
+PORT = int(os.environ.get("AIWA_PORT", "8788"))
 
 # Bumped whenever the app starts depending on a new brain feature; the app compares it (via /api/status) with the version it expects.
 BACKEND_VERSION = 200
 
 HOME = Path.home()
-# The brain's own folder (scenarios, style, the voice) and its files. The names are the ones the first versions used: a phone that already has Aiwa keeps its sessions, its relay topic and its scenarios.
-APP_DIR = HOME / ".aiwa_store_apps"
-STATE_FILE = HOME / ".aiwa_state.json"
-CLOUD_STORE = HOME / ".aiwa_cloud_sessions.json"
-REPOS_STORE = HOME / ".aiwa_repos.json"
+# The brain's own folder (scenarios, style, the voice) and its files: all under ~/.aiwa_app, so that another Aiwa on the same phone (the first one, on port 8787) is never touched.
+APP_DIR = DATA / "apps"
+APP_DIR.mkdir(parents=True, exist_ok=True)
+STATE_FILE = DATA / "state.json"
+CLOUD_STORE = DATA / "cloud_sessions.json"
+REPOS_STORE = DATA / "repos.json"
 SCENARIOS_FILE = APP_DIR / "scenarios.json"
 SCEN_SESSIONS_FILE = APP_DIR / "scenario-sessions.json"
 # The full output of the last `claude --cloud` run, for diagnosing a failure (`cat` it from Termux): the error shown in the app is only the tail.
-CLOUD_LOG = HOME / "aiwa_cloud_last.log"
-CLI_REPO_LOG = HOME / "aiwa_cli_repo_last.log"
+CLOUD_LOG = DATA / "cloud_last.log"
+CLI_REPO_LOG = DATA / "cli_repo_last.log"
 # What the CLI says it decided about the repository, written where Aiwa can read it (its debug log: the terminal is not touched). With no Claude GitHub app on the repository it uploads
 # the (empty) folder instead of naming the repository, and the session starts empty.
-CLI_DEBUG = HOME / ".aiwa_cli_debug.log"
+CLI_DEBUG = DATA / "cli_debug.log"
 # The brain's own folder when it is a git checkout (the brain updates itself from it).
 REPO_ROOT = Path(__file__).resolve().parents[2]
 

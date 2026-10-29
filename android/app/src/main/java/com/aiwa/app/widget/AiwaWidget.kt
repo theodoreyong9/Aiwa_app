@@ -33,8 +33,8 @@ import com.aiwa.app.web.WebActivity
  * QR code, Favoris) · Chambre. The top bar, at the right of the tabs: Mise à jour, Question, Réglages.
  */
 object AiwaWidget {
-    const val ACTION_TAB = "com.aiwa.store.AW_TAB"
-    const val ACTION_BUSY = "com.aiwa.store.AW_BUSY"
+    const val ACTION_TAB = "com.aiwa.app.AW_TAB"
+    const val ACTION_BUSY = "com.aiwa.app.AW_BUSY"
     private var lastSignature = ""
     private val IMG = intArrayOf(R.id.fw_img0, R.id.fw_img1, R.id.fw_img2, R.id.fw_img3, R.id.fw_img4)
     private val LETTER = listOf("b", "f", "o", "v", "c")

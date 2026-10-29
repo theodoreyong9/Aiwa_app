@@ -156,6 +156,6 @@ class ChamberService : Service() {
     companion object {
         private const val CHANNEL = "aiwa_chamber"
         private const val NOTIFICATION = 8301
-        private const val ACTION_CLOSE = "com.aiwa.store.CHAMBER_CLOSE"
+        private const val ACTION_CLOSE = "com.aiwa.app.CHAMBER_CLOSE"
     }
 }

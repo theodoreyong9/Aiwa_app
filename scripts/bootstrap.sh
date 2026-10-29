@@ -69,6 +69,6 @@ fi
 # opening a file from Termux offers Termux itself ("save in ~/downloads"). The Files app opens it with Android's installer; inside Aiwa, « Mettre à jour
 # l'application » does the same without any file. What it said is kept, and repeated at the end of the setup, where it would have scrolled away.
 echo "== Downloading the latest Aiwa APK =="
-bash "$REPO_DIR/scripts/install-apk.sh" 2>&1 | tee "$HOME/.aiwa_apk_last.txt" || true
+bash "$REPO_DIR/scripts/install-apk.sh" 2>&1 | tee "$HOME/.aiwa_app_apk_last.txt" || true
 
 exec bash "$REPO_DIR/scripts/setup-termux-proot.sh"

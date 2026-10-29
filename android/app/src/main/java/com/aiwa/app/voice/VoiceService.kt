@@ -57,8 +57,8 @@ class VoiceService : Service() {
     companion object {
         private const val CHANNEL_ID = "aiwa_listen"
         private const val NOTIFICATION_ID = 7
-        private const val ACTION_STOP = "com.aiwa.store.LISTEN_STOP"
-        private const val ACTION_OPEN_AGENT = "com.aiwa.store.OPEN_AGENT"
+        private const val ACTION_STOP = "com.aiwa.app.LISTEN_STOP"
+        private const val ACTION_OPEN_AGENT = "com.aiwa.app.OPEN_AGENT"
         private const val EXTRA_SCENARIO = "scenario"
         private const val QUIET_MS = 30_000L
 

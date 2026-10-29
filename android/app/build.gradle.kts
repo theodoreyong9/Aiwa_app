@@ -6,8 +6,8 @@ android {
     namespace = "com.aiwa.app"
     compileSdk = 36
     defaultConfig {
-        // The identifier of the first Aiwa: a phone that already has it updates in place and loses nothing.
-        applicationId = "com.aiwa.store"
+        // Its own identifier: it installs BESIDE the first Aiwa (com.aiwa.store), with its own wallet, its own brain (port 8788, folder ~/.aiwa_app) and its own widget.
+        applicationId = "com.aiwa.app"
         minSdk = 26
         targetSdk = 36
         // The CI numbers every build with the time (seconds since 1970: always above any earlier number, so that Android accepts it as an update over the first Aiwa, whose numbers were run counts) and the commit: the person can see which build is installed. A local build stays 1 / "local".

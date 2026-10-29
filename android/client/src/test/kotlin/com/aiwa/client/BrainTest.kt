@@ -60,7 +60,7 @@ class BrainTest {
         assertEquals("https://x/p.mp4", brain.fileShare("me/app", "video-a", "promo.mp4")!!.url)
         net.on("/api/files/share", """{"ok":false,"error":"cette production n'existe plus"}""")
         assertNull(brain.fileShare("me/app", "video-a", "promo.mp4"))
-        assertEquals("http://127.0.0.1:8787/api/files/page?repo=me%2Fapp&tag=page-a", brain.pageAddress("me/app", "page-a"))
+        assertEquals("http://127.0.0.1:8788/api/files/page?repo=me%2Fapp&tag=page-a", brain.pageAddress("me/app", "page-a"))
     }
 
     @Test fun `a spoken answer arrives sentence by sentence`() {

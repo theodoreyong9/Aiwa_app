@@ -1,6 +1,6 @@
 # Le cerveau
 
-Un petit serveur HTTP local (127.0.0.1:8787) qui tient l'état d'Aiwa et pilote Claude. Il tourne dans Termux (Ubuntu via proot).
+Un petit serveur HTTP local (127.0.0.1:8788) qui tient l'état d'Aiwa et pilote Claude. Il tourne dans Termux (Ubuntu via proot).
 
 ```
 python3 -m aiwa_brain        # depuis ce dossier

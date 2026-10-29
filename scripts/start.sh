@@ -11,8 +11,8 @@ set -uo pipefail
 
 DISTRO=ubuntu
 REPO_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-LOG="$HOME/aiwa_backend.log"
-PIDFILE="$HOME/.aiwa_start.pid"
+LOG="$HOME/aiwa_app_backend.log"
+PIDFILE="$HOME/.aiwa_app_start.pid"
 
 # One instance at a time: two servers cannot share the port, and two proot
 # Ubuntu starting together slow each other down badly. The pid file is created
@@ -31,7 +31,7 @@ fi
 trap '[ "$(cat "$PIDFILE" 2>/dev/null)" = "$$" ] && rm -f "$PIDFILE"' EXIT
 
 # This script usually runs with no terminal at all (Termux's RUN_COMMAND), so
-# everything goes to a file: `cat ~/aiwa_backend.log` shows why a start failed.
+# everything goes to a file: `cat ~/aiwa_app_backend.log` shows why a start failed.
 # Written FIRST, so that the file existing proves this script ran.
 {
   echo "=== $(date) — start.sh, checkout $REPO_DIR ==="

@@ -22,13 +22,15 @@ import urllib.request
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
+from .paths import DATA
+
 # The one folder every session starts from: the CLI asks "do you trust the files in this folder?" once per folder, and a single folder is a single answer.
-SESSION_DIR = Path.home() / "chat-cloud"
+SESSION_DIR = DATA / "chat"
 # Overridable so that the lookups can be tested without the network.
 GITHUB_API = os.environ.get("AIWA_GITHUB_API", "https://api.github.com")
 GITHUB_BASE = os.environ.get("AIWA_GITHUB_BASE", "https://github.com")
-TOKEN_FILE = Path.home() / ".aiwa_github_token"
-OWNER_REPOS_FILE = Path.home() / ".aiwa_owner_repos.json"
+TOKEN_FILE = DATA / "github_token"
+OWNER_REPOS_FILE = DATA / "owner_repos.json"
 # Runs nobody asked for, which say nothing about the person's work: the ones a workflow schedules for itself and GitHub's own dynamic ones.
 NOT_NEWS_EVENTS = ("schedule", "dynamic")
 OK_CONCLUSIONS = ("success", "skipped", "neutral")

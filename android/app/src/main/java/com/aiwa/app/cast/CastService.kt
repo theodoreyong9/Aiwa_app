@@ -147,7 +147,7 @@ class CastService : Service() {
         const val EXTRA_URL = "url"
         const val EXTRA_TV = "tv"
         const val EXTRA_NAME = "name"
-        private const val ACTION_STOP = "com.aiwa.store.CAST_STOP"
+        private const val ACTION_STOP = "com.aiwa.app.CAST_STOP"
 
         fun start(context: Context, url: String, tv: String, name: String) {
             context.startForegroundService(Intent(context, CastService::class.java).putExtra(EXTRA_URL, url).putExtra(EXTRA_TV, tv).putExtra(EXTRA_NAME, name))

@@ -59,7 +59,7 @@ Règle de dépendance : `android/app` → `android/client` → (HTTP) → `brain
 
 ### Le cerveau
 
-Un petit serveur HTTP local (port 8787) qui tient l'état et appelle Claude. Un module par domaine ; `server` ne fait que router.
+Un petit serveur HTTP local (port 8788) qui tient l'état et appelle Claude. Un module par domaine ; `server` ne fait que router.
 
 | Module | Rôle |
 |---|---|
@@ -80,7 +80,7 @@ Un petit serveur HTTP local (port 8787) qui tient l'état et appelle Claude. Un 
 Un package par fonction, pas de fichier de plus de 400 lignes :
 `widget`, `home`, `files`, `scenario`, `cast`, `voir`, `chamber`, `settings`, `wallet`, `agent`, `voice`, `update`, `brain` (le lancement du cerveau dans Termux), `common`.
 
-L'identifiant de l'application reste `com.aiwa.store` et la clé de signature de debug reste la même : les téléphones qui ont déjà Aiwa la mettent à jour sans rien perdre. Les classes changent de nom : il faut remettre le widget sur l'écran d'accueil une fois.
+L'application a son propre identifiant, `com.aiwa.app` : elle s'installe À CÔTÉ de la première Aiwa (`com.aiwa.store`) sans la remplacer. Elles ne partagent rien : portefeuille propre (la phrase secrète le restaure), cerveau propre (port 8788, dossier `~/.aiwa_app`, dépôt `~/aiwa_app` dans Termux), widget propre.
 
 ## 3. Ce qui n'y est plus
 

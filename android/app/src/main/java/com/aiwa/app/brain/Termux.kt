@@ -35,12 +35,12 @@ private val START_SCRIPT = listOf(
     // pickers can all ask for a start; while the port is not open yet (10-20 s)
     // each ask used to launch its own proot Ubuntu — several at once made the
     // phone crawl. start.sh records its pid in this file for as long as it runs.
-    "pidfile=\"\$HOME/.aiwa_start.pid\"",
+    "pidfile=\"\$HOME/.aiwa_app_start.pid\"",
     "pid=\$(cat \"\$pidfile\" 2>/dev/null)",
     "running() { [ -n \"\$1\" ] && grep -q start.sh \"/proc/\$1/cmdline\" 2>/dev/null; }",
-    "answers() { curl -sf http://127.0.0.1:8787/api/status >/dev/null 2>&1; }",
+    "answers() { curl -sf http://127.0.0.1:8788/api/status >/dev/null 2>&1; }",
     // A server that is working on a message (creating a cloud session takes up to a few minutes) is not killed under it.
-    "busy() { curl -sf -m 3 http://127.0.0.1:8787/api/status 2>/dev/null | grep -q '\"sending\": *true'; }",
+    "busy() { curl -sf -m 3 http://127.0.0.1:8788/api/status 2>/dev/null | grep -q '\"sending\": *true'; }",
     "if running \"\$pid\" && ! answers; then echo \"a start is already in progress (pid \$pid): nothing to do\"; exit 0; fi",
     "old=\$(git rev-parse HEAD 2>/dev/null)",
     // Bounded: a slow network must not hold the start back for long.
@@ -49,7 +49,7 @@ private val START_SCRIPT = listOf(
     // a history that does not fast-forward). A plain `git pull --ff-only` failed silently in those cases and left the brain old for ever (version 124 for days). A failed or slow fetch
     // changes nothing: only a fetch that worked can move the checkout.
     // ONE update at a time: the app, the keep-alive service and the pickers can ask for a start together, and two fetches at once fail on "cannot lock ref" (seen in the log).
-    "lock=\"\$HOME/.aiwa_pull.lock\"",
+    "lock=\"\$HOME/.aiwa_app_pull.lock\"",
     "[ -d \"\$lock\" ] && [ -n \"\$(find \"\$lock\" -maxdepth 0 -mmin +2 2>/dev/null)\" ] && rmdir \"\$lock\" 2>/dev/null",
     "got=0; for i in \$(seq 1 40); do if mkdir \"\$lock\" 2>/dev/null; then got=1; break; fi; sleep 1; done",
     "if [ \$got = 1 ]; then",
@@ -71,7 +71,7 @@ private val START_SCRIPT = listOf(
     "  for i in 1 2 3 4 5 6; do running \"\$pid\" || break; sleep 0.5; done",
     "fi",
     "if answers; then echo \"already answering\"; exit 0; fi",
-    "echo \"\$(date +%T) starting scripts/start.sh (log: ~/aiwa_backend.log)\"",
+    "echo \"\$(date +%T) starting scripts/start.sh (log: ~/aiwa_app_backend.log)\"",
     "exec bash \"\$HOME/aiwa_app/scripts/start.sh\"",
 ).joinToString("\n")
 
