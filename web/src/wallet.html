@@ -109,7 +109,7 @@
         <h2>Utiliser un contrat dans tes autres fichiers</h2>
         <p class="muted">Le code publié est ton fichier de contrat. Dans un autre fichier de ton application, tu prends sa <code>definition</code> et tu la donnes à <code>Contract</code>, avec ton identité et le journal de ton wallet : tu envoies des actions et tu lis l'état.</p>
         <pre class="code" id="use-code"></pre>
-        <p class="muted">Si le code vient d'un contrat publié par quelqu'un d'autre, ne l'exécute qu'après avoir comparé son empreinte à celle que tu as notée de confiance (<code>verifyContractSource</code>, ou <code>registerVerifiedContract</code> quand le contrat doit déplacer de l'AIWA). Un identifiant ou un nom ne prouvent rien : il n'y a pas de registre central, et chacun choisit à quels contrats il fait confiance. Le protocole ne fournit pas de chargeur : charger le code vérifié est le travail de ton application.</p>
+        <p class="muted">Si le code vient d'un contrat publié par quelqu'un d'autre, ne l'exécute qu'après avoir comparé son empreinte à celle que tu as notée de confiance (<code>verifyContractSource</code>, ou <code>registerVerifiedContract</code> quand le contrat doit déplacer de l'AIWA). Un identifiant ou un nom ne prouvent rien : il n'y a pas de registre central, et chacun choisit à quels contrats il fait confiance. Dans « Contrats », « Lire l'état » charge le code ainsi : seulement s'il a exactement l'empreinte que tu as acceptée, dans un espace isolé sans réseau ni clé, et il lit les événements de ce téléphone.</p>
       </section>
     </div>
 
@@ -124,8 +124,9 @@
     <div id="tab-search" hidden>
       <section class="card">
         <h2>Chercher un contrat</h2>
-        <p class="muted">Par identifiant de contrat, par identifiant de créateur (le début suffit), ou par un mot du nom. Je cherche parmi ce que ce téléphone a reçu : il n'y a pas de registre central.</p>
+        <p class="muted">Par identifiant de contrat, par identifiant de créateur (le début suffit), ou par un mot du nom. Je cherche parmi ce que ce téléphone a reçu. Pour les contrats de quelqu'un d'autre, écris le dépôt de son profil (owner/nom) : je lis les contrats qu'il y a laissés, je vérifie leurs signatures, et « Garder » les ajoute à ce téléphone.</p>
         <input id="search-query" type="search" placeholder="Identifiant du contrat ou du créateur, ou un nom" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Chercher un contrat">
+        <button id="btn-search-profile" type="button" class="light wide" hidden>Chercher chez ce profil (owner/nom)</button>
         <div id="search-list"><p class="hint">Rien pour l'instant.</p></div>
       </section>
     </div>

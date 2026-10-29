@@ -258,6 +258,7 @@ POST = {
     "/api/profile": lambda body, data: profile.profile_apply(data),
     "/api/diagram/set": lambda body, data: {"ok": True, "on": diagram.set_on(data.get("on"))},
     "/api/profile/pub": lambda body, data: profile.publish_pub(data.get("pub")),
+    "/api/profile/contracts": lambda body, data: profile.publish_contracts(data.get("events")),
     "/api/waiting/clear": lambda body, data: (relay.clear_waiting(), {"accepted": True})[1],
     "/api/waiting/test": lambda body, data: _relay_test(),
     "/api/relay/retest": lambda body, data: _retest_relay(),
@@ -431,6 +432,7 @@ def serve():
         state.voice.install()        # the natural voice is installed by default, in the background (about 80 MB, once); the person only switches it on or off
         state.llm.prepare()
         github_login.resume()        # a GitHub code shown before a restart is still waited for
+        relay.resume_mailbox()       # so is what Claude pushed to its branch while the brain restarted
         claude_cli.login_state()     # looks the login up in the background, so the first status already knows
         files.warm()
         threading.Thread(target=live.progress_loop, daemon=True).start()

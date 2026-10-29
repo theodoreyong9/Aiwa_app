@@ -151,6 +151,7 @@ class WebActivity : ComponentActivity() {
                 if (repos.isNotEmpty()) ProfileActivity.open(this, repos, json.optInt("index", 0), pubs)
             }
             "diagram" -> respond(reply, id) { val s = Aiwa.state.value.status; JSONObject().put("id", s?.diagramId ?: 0).put("code", s?.diagramCode.orEmpty()) }
+            "contracts-profile" -> json.optJSONArray("events")?.let { events -> CoroutineScope(Dispatchers.IO).launch { try { Aiwa.brain.publishProfileContracts(events) } catch (err: Exception) { } } }
             "secret-get" -> respond(reply, id) { JSONObject().put("value", secrets.get(secretName(json)) ?: JSONObject.NULL) }
             "secret-set" -> respond(reply, id) { secrets.set(secretName(json), json.getString("value")); JSONObject() }
             "secret-delete" -> respond(reply, id) { secrets.delete(secretName(json)); JSONObject() }

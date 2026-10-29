@@ -127,6 +127,20 @@ def _mailbox_loop(repo, work):
         time.sleep(config.MAILBOX_EVERY)
 
 
+def resume_mailbox():
+    """After a restart (the brain updates itself, and a watch lives only in memory): the session in use is watched again when a message was sent to it less than the watch's length ago,
+    so that what Claude pushed to its branch while the brain was restarting is still read."""
+    with state.lock:
+        current, sent = state.current_cloud, state.last_message_at
+    if not current or not sent or time.time() - sent > config.MAILBOX_WAIT:
+        return False
+    entry = sessions.entry_of(current)
+    if not entry.get("repo") or not entry.get("work"):
+        return False
+    mailbox_watch(entry["repo"], entry["work"])
+    return True
+
+
 def mailbox_watch(repo, work):
     """After a message on a repository session: for a while, look for what Claude pushes to its branch when the relay is blocked (the app, the
     alert, the relay test). Nothing is read unless the repository is public: for a private one nothing comes, and the app is pasted."""
