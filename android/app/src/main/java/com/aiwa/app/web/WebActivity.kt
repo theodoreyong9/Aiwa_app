@@ -126,7 +126,7 @@ class WebActivity : ComponentActivity() {
             }
             else -> {
                 val coffee = intent.getStringExtra(EXTRA_COFFEE)
-                web.loadUrl(WebHost.pageUrl("wallet", if (coffee != null) "coffee=${Uri.encode(coffee)}&repo=${Uri.encode(intent.getStringExtra(EXTRA_REPO).orEmpty())}" else if (intent.getBooleanExtra(EXTRA_WALL, false)) "wall=1" else ""))
+                web.loadUrl(WebHost.pageUrl("wallet", if (coffee != null) "coffee=${Uri.encode(coffee)}&repo=${Uri.encode(intent.getStringExtra(EXTRA_REPO).orEmpty())}" else if (intent.getBooleanExtra(EXTRA_WALL, false)) "wall=1" + (intent.getStringExtra(EXTRA_CARD)?.takeIf { Regex("[0-9a-f]{64}").matches(it) }?.let { "&card=$it" } ?: "") else ""))
             }
         }
     }
@@ -193,11 +193,12 @@ class WebActivity : ComponentActivity() {
         const val EXTRA_PAGE = "page"       // wallet | voir
         const val EXTRA_MODE = "mode"       // voir: proche | lien | qr | favoris
         const val EXTRA_WALL = "wall"       // wallet: the wall of the donors (what others sent)
+        const val EXTRA_CARD = "card"       // wallet: whose wall (the signed card of the person; none: her own)
         const val EXTRA_COFFEE = "coffee"   // wallet: the signed card of the person to send a coffee to
         const val EXTRA_REPO = "repo"
 
-        fun wall(context: android.content.Context) {
-            context.startActivity(Intent(context, WebActivity::class.java).putExtra(EXTRA_PAGE, "wallet").putExtra(EXTRA_WALL, true).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK))
+        fun wall(context: android.content.Context, card: String? = null) {
+            context.startActivity(Intent(context, WebActivity::class.java).putExtra(EXTRA_PAGE, "wallet").putExtra(EXTRA_WALL, true).apply { if (card != null) putExtra(EXTRA_CARD, card) }.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK))
         }
 
         fun wallet(context: android.content.Context, coffee: String? = null, repo: String? = null) {

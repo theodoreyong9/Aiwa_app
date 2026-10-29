@@ -43,6 +43,8 @@ class ProfileActivity : ComponentActivity() {
     private lateinit var urls: List<String>
     private lateinit var pubs: List<String>
     private lateinit var chip: TextView
+    private lateinit var bar: ProfileBar.Bar
+    private val scores = HashMap<String, String>()      // repository -> « Pro 72 · Perso 41 »
 
     @SuppressLint("SetJavaScriptEnabled")
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -53,19 +55,20 @@ class ProfileActivity : ComponentActivity() {
         pubs = try { JSONArray(intent.getStringExtra(EXTRA_PUBS) ?: "[]").let { a -> urls.indices.map { a.optString(it) } } } catch (err: Exception) { urls.map { "" } }
         val root = FrameLayout(this).apply { setBackgroundColor(Color.parseColor("#10132E")) }
         pager = ViewPager2(this).apply { offscreenPageLimit = 1; adapter = Pages() }
-        root.addView(pager, FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT))
+        root.addView(pager, FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT).apply { bottomMargin = ProfileBar.height(this@ProfileActivity) })
         chip = TextView(this).apply {
             setTextColor(Color.WHITE); textSize = 13f; visibility = android.view.View.GONE; setPadding(dp(12), dp(6), dp(12), dp(6))
             background = GradientDrawable().apply { setColor(Color.parseColor("#99000000")); cornerRadius = dp(14).toFloat() }
         }
         root.addView(chip, FrameLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT, Gravity.TOP or Gravity.CENTER_HORIZONTAL).apply { topMargin = dp(8) })
-        val bar = ProfileBar.build(this, listOf(
-            "Match" to { match() },
-            "Chambre" to { ChamberActions.visit(this, urls[pager.currentItem]) },
-            "☕" to { coffee() },
-            "Widget" to { pages[pager.currentItem]?.let { HomeRuntime.openPanel(it) } },
+        bar = ProfileBar.build(this, listOf(
+            ProfileBar.Spec("🤝", "Match", ProfileBar.VIOLET) { match(force = true) },
+            ProfileBar.Spec("🚪", "Chambre", ProfileBar.BLUE) { startActivity(Intent(this, com.aiwa.app.chamber.ChamberActivity::class.java).putExtra(com.aiwa.app.chamber.ChamberActivity.EXTRA_REPO, urls[pager.currentItem])) },
+            ProfileBar.Spec("☕", "Café", ProfileBar.GOLD) { coffee() },
+            ProfileBar.Spec("🏆", "Mur", ProfileBar.GREEN) { wall() },
+            ProfileBar.Spec("✦", "Widget", ProfileBar.WHITE) { pages[pager.currentItem]?.let { HomeRuntime.openPanel(it) } },
         ))
-        root.addView(bar, FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT, Gravity.BOTTOM))
+        root.addView(bar.view, FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT, Gravity.BOTTOM))
         setContentView(root)
         ViewCompat.setOnApplyWindowInsetsListener(root) { view, insets ->
             val bars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
@@ -73,18 +76,40 @@ class ProfileActivity : ComponentActivity() {
             WindowInsetsCompat.CONSUMED
         }
         pager.setCurrentItem(start, false)
-        pager.registerOnPageChangeCallback(object : ViewPager2.OnPageChangeCallback() { override fun onPageSelected(position: Int) { chip.visibility = android.view.View.GONE } })
+        pager.registerOnPageChangeCallback(object : ViewPager2.OnPageChangeCallback() { override fun onPageSelected(position: Int) { chip.visibility = android.view.View.GONE; refreshKeys() } })
+        refreshKeys()
     }
 
-    /** The score of the profile on the screen for the person who looks, made by her own super agent (the brain keeps it): « Pro 72 · Perso 40 ». */
-    private fun match() {
+    /** The score of the profile on the screen for the person who looks, made by her own super agent (the brain keeps it): it is written on the Match key itself, « Pro 72 · Perso 41 ». */
+    private fun match(force: Boolean = false) {
         val repo = urls[pager.currentItem]
-        chip.text = "Je lis les deux pages…"; chip.visibility = android.view.View.VISIBLE
+        val key = bar.keys[0]
+        scores[repo]?.let { key.label(it); if (!force) return }
+        key.label("…")
         CoroutineScope(Dispatchers.Main).launch {
             val out = withContext(Dispatchers.IO) { Aiwa.brain.match(repo) }
-            if (out.ok) chip.text = "Pro ${out.json.optInt("pro")} · Perso ${out.json.optInt("perso")}"
-            else { chip.visibility = android.view.View.GONE; AlertDialog.Builder(this@ProfileActivity).setTitle("Match").setMessage(out.error ?: "Pas de note.").setPositiveButton("Ok", null).show() }
+            if (out.ok) { scores[repo] = "Pro ${out.json.optInt("pro")} · Perso ${out.json.optInt("perso")}" }
+            if (urls.getOrNull(pager.currentItem) == repo) {
+                key.label(scores[repo] ?: "Match")
+                if (!out.ok && force) AlertDialog.Builder(this@ProfileActivity).setTitle("Match").setMessage(out.error ?: "Pas de note.").setPositiveButton("Ok", null).show()
+            }
         }
+    }
+
+    /** What the keys say for the profile on the screen: the score (asked at once), the coffee and the wall only when her card is known (and the coffee turned on). */
+    private fun refreshKeys() {
+        val i = pager.currentItem
+        val pub = pubs.getOrNull(i).orEmpty()
+        bar.keys[0].label(scores[urls[i]] ?: "Match")
+        bar.keys[2].available(CoffeeSettings.on(this) && pub.isNotEmpty())
+        bar.keys[3].available(pub.isNotEmpty())
+        match()
+    }
+
+    /** What the person of this profile received: her wall, read for the identity of her signed card. */
+    private fun wall() {
+        val pub = pubs.getOrNull(pager.currentItem).orEmpty()
+        if (pub.isEmpty()) toastOnMain(this, "Cette personne n'a pas donné sa carte dans « Voir » : pas de mur.") else WebActivity.wall(this, pub)
     }
 
     /** The wallet page with the card « Offrir un café » (two taps to send): the profile says nothing, the key comes from the signed card the person gave out in « Voir ». */
