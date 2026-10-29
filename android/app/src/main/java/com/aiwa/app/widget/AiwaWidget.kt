@@ -65,7 +65,7 @@ object AiwaWidget {
         val snap = Aiwa.state.value
         val tab = WidgetTab.get(context)
         val signature = listOf(
-            tab, snap.link, snap.status?.repo, snap.status?.session, snap.status?.sending, snap.status?.waiting, snap.status?.silenceMinutes, snap.status?.attachments, snap.status?.claudeLogin,
+            tab, snap.link, snap.status?.repo, snap.status?.session, snap.status?.sending, snap.status?.waiting, snap.status?.silenceMinutes, snap.status?.attachments, snap.status?.claudeLogin, snap.status?.githubToken,
             snap.status?.ask?.id, snap.status?.agent?.say?.id, snap.status?.agent?.proposal?.id, snap.status?.agent?.command?.id, snap.status?.githubError, snap.listening, snap.agentOpen, snap.appUpdateReady,
             snap.fileCounts, FilesScope.chosen(context), snap.chamberMode, snap.status?.chamber?.active,
             hasTermuxPermission(context), WidgetBackground.key(context), snap.sessionTitle,
@@ -149,7 +149,7 @@ object AiwaWidget {
         val scopeRepo = FilesScope.repo(context, status?.repo)
         val files = listOf(
             listOf(
-                Cell(btn(R.drawable.fw_i_files, "scope"), 6f, activity(context, 19, RepoPickerActivity::class.java)),
+                Cell(btn(R.drawable.fw_i_files, "scope"), 6f, if (status != null && !status.githubToken) activity(context, 19, com.aiwa.app.settings.GithubConnectActivity::class.java) else activity(context, 19, RepoPickerActivity::class.java)),
                 Cell(btn(R.drawable.fw_i_link, "repoview", iconOnly = true), 1f, scopeRepo?.let { activity(context, 17, Intent(Intent.ACTION_VIEW, android.net.Uri.parse("https://github.com/$it"))) }),
                 Cell(btn(R.drawable.fw_i_swap, "reposession", iconOnly = true), 1f, scopeRepo?.let { activity(context, 18, Intent(context, RepoSessionActivity::class.java).putExtra(RepoSessionActivity.EXTRA_REPO, it)) }),
             ),

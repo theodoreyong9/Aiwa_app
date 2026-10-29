@@ -48,7 +48,7 @@ object CellModels {
         val single = FilesScope.repo(context, status?.repo) != null
         out["repoview"] = CellModel("Voir le dépôt", "grey", enabled = single)
         out["reposession"] = CellModel("Changer de session", "grey", enabled = single)
-        out["scope"] = CellModel(FilesScope.label(context, status?.repo) + " ▾", "green")
+        out["scope"] = if (status != null && !status.githubToken) CellModel("Connecter GitHub", "red") else CellModel(FilesScope.label(context, status?.repo) + " ▾", "green")
         for ((kind, label) in listOf("docs" to "Docs", "image" to "Images", "video" to "Vidéos", "app" to "Apps", "page" to "Pages")) {
             val found = (snap.fileCounts[kind] ?: 0) > 0
             out[kind] = CellModel(label, if (found) "green" else "grey", enabled = found)
