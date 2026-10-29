@@ -11,7 +11,7 @@ class PapersActivity : FloatActivity() {
 
     override fun fill() {
         note("Ce qu'est Aiwa, en film et par écrit.")
-        entry("Film", "La dernière version de la vidéo d'Aiwa (51 s).") {
+        entry("Film", "La dernière version de la vidéo d'Aiwa (1 min 18). Musique : Living Voyage, Kevin MacLeod, CC BY 4.0.") {
             startActivity(Intent(this, VideoPlayerActivity::class.java).putExtra(VideoPlayerActivity.EXTRA_URL, "$RAW/film.mp4").putExtra(VideoPlayerActivity.EXTRA_TITLE, "Aiwa"))
         }
         for ((label, detail, file) in PAPERS) entry(label, detail) { openUrl(this, "$BLOB/$file") }
