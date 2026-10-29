@@ -8,6 +8,7 @@ import com.aiwa.app.brain.isTermuxInstalled
 import com.aiwa.app.common.FloatActivity
 import com.aiwa.app.common.Palette
 import com.aiwa.app.common.copyToClipboard
+import com.aiwa.app.common.openUrl
 import com.aiwa.app.common.toastOnMain
 import com.aiwa.app.update.AppUpdater
 import kotlinx.coroutines.launch
@@ -43,6 +44,13 @@ class HealthActivity : FloatActivity() {
                 "missing" -> "Claude n'a pas répondu : son environnement bloque peut-être ntfy.sh"
                 else -> "pas encore testé"
             })
+            if (status.relayCloud == "missing") {
+                entry("Autoriser ntfy.sh dans ton environnement Claude", "Copie « ntfy.sh » et ouvre claude.ai/code") {
+                    copyToClipboard(this, "ntfy.sh")
+                    if (!openUrl(applicationContext, "https://claude.ai/code")) toastOnMain(this, "Va sur claude.ai/code.") else toastOnMain(this, "« ntfy.sh » est copié : colle-le dans les domaines autorisés.")
+                }
+                note("Sur claude.ai/code : la roue crantée de ton environnement → Accès réseau « Custom » → Domaines autorisés : ajoute ntfy.sh (et coche « Also include default list »). Puis « Retester le relais ». En attendant, Claude passe par un fichier sur GitHub : ça marche, avec quelques secondes de plus.", Palette.DIM)
+            }
             if (status.relayCloud != "ok" && (snap.sessionId != null || status.lastSession != null)) entry("Retester le relais", "Demande à Claude de refaire le test") {
                 kotlinx.coroutines.CoroutineScope(kotlinx.coroutines.Dispatchers.IO).launch { Aiwa.brain.retestRelay(); com.aiwa.app.brain.BrainSync.refresh() }
                 toastOnMain(this, "Test demandé à Claude")
