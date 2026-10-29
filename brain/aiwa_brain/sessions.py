@@ -75,6 +75,8 @@ def start_session(repo, force=False):
     linked = focus(repo)
     if linked and not force:
         return linked
+    if state.cloud_busy:
+        return None      # one is already being made (or a message is going): the same creation is not asked twice
     if force:
         with state.lock:
             state.current_cloud = None
@@ -90,6 +92,8 @@ def make_session():
         result = cloud_send(KICKOFF)
     except Exception as err:      # a bad round must not end silently
         result = {"ok": False, "error": str(err)}
+    if result.get("error") == "busy":
+        return result      # another send holds the CLI: that says nothing about this creation
     with state.lock:
         state.session_error = None if result.get("ok") else (str(result.get("error") or "échec")[:300])
     return result

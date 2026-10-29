@@ -88,6 +88,9 @@ class MakeSessionTest(unittest.TestCase):
         with mock.patch.object(sessions, "cloud_send", return_value={"ok": False, "error": "claude n'est pas connecté"}):
             sessions.make_session()
         self.assertEqual(state.session_error, "claude n'est pas connecté")
+        with mock.patch.object(sessions, "cloud_send", return_value={"ok": False, "error": "busy"}):
+            sessions.make_session()
+        self.assertEqual(state.session_error, "claude n'est pas connecté", "« busy » is another send, not this creation")
         with mock.patch.object(sessions, "cloud_send", return_value={"ok": True}):
             sessions.make_session()
         self.assertIsNone(state.session_error)

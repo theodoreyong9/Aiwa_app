@@ -30,5 +30,21 @@ class GithubAccountTest(unittest.TestCase):
         self.assertIsNone(github.connected_user())
 
 
+
+class TrustFolderTest(unittest.TestCase):
+    def test_the_folder_is_trusted_without_touching_the_rest(self):
+        import json
+        from pathlib import Path
+        config_file = Path.home() / ".claude.json"
+        config_file.write_text(json.dumps({"theme": "dark", "projects": {"/other": {"hasTrustDialogAccepted": True}}}), encoding="utf-8")
+        try:
+            github.trust_folder(Path("/work/chat"))
+            data = json.loads(config_file.read_text(encoding="utf-8"))
+            self.assertTrue(data["projects"]["/work/chat"]["hasTrustDialogAccepted"])
+            self.assertEqual((data["theme"], data["projects"]["/other"]), ("dark", {"hasTrustDialogAccepted": True}))
+            github.trust_folder(Path("/work/chat"))      # twice: nothing changes
+        finally:
+            config_file.unlink(missing_ok=True)
+
 if __name__ == "__main__":
     unittest.main()
