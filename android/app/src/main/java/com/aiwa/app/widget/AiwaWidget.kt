@@ -149,7 +149,7 @@ object AiwaWidget {
         val scopeRepo = FilesScope.repo(context, status?.repo)
         val files = listOf(
             listOf(
-                Cell(btn(R.drawable.fw_i_files, "scope"), 2f, activity(context, 19, RepoPickerActivity::class.java)),
+                Cell(btn(R.drawable.fw_i_files, "scope"), 6f, activity(context, 19, RepoPickerActivity::class.java)),
                 Cell(btn(R.drawable.fw_i_link, "repoview", iconOnly = true), 1f, scopeRepo?.let { activity(context, 17, Intent(Intent.ACTION_VIEW, android.net.Uri.parse("https://github.com/$it"))) }),
                 Cell(btn(R.drawable.fw_i_swap, "reposession", iconOnly = true), 1f, scopeRepo?.let { activity(context, 18, Intent(context, RepoSessionActivity::class.java).putExtra(RepoSessionActivity.EXTRA_REPO, it)) }),
             ),

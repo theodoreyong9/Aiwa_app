@@ -7,7 +7,7 @@ OUT = pathlib.Path(__file__).resolve().parent.parent / "android/app/src/main/res
 # page letter, weights of the cells of the first row, of the second row (None: the page is one row)
 PAGES = [
     ("a", [1, 3, 1], [1, 1, 1, 1, 1]), # Agent: Chambre en cours (when there is one) | Super agent | Claude ; Écoute | Ajouter | Scénario | Cast TV | Question
-    ("f", [2, 1, 1], [1, 1, 1, 1, 1]), # Files: the repository | see it | change its session ; docs | images | vidéos | apps | pages
+    ("f", [6, 1, 1], [1, 1, 1, 1, 1]), # Files: the repository | see it | change its session ; docs | images | vidéos | apps | pages
     ("v", [1, 1], [1, 1, 1]),          # Game: Wallet | Proximité ; Lien | QR code | Favoris
 ]
 TABS = [("t_settings", 55), ("t_agent", 100), ("t_files", 100), ("t_voir", 100), ("t_upd", 55)]
