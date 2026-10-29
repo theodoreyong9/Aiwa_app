@@ -23,8 +23,11 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Brain tests
+      - name: Brain checks
+        working-directory: brain
         env:
           PYTHONDONTWRITEBYTECODE: '1'
         run: |
-          if [ -d brain/tests ]; then python3 -m unittest discover -s brain/tests; else echo "no brain yet"; fi
+          python3 -m pip install pyflakes
+          python3 -m pyflakes aiwa_brain tests | grep -v "'sherpa_onnx' imported but unused\|'anthropic' imported but unused" && exit 1 || true
+          python3 -m unittest discover -s tests -t .
