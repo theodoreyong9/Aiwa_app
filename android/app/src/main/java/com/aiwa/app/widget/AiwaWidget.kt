@@ -65,7 +65,7 @@ object AiwaWidget {
         val snap = Aiwa.state.value
         val tab = WidgetTab.get(context)
         val signature = listOf(
-            tab, snap.link, snap.status?.repo, snap.status?.session, snap.status?.sending, snap.status?.waiting, snap.status?.silenceMinutes, snap.status?.attachments, snap.status?.claudeLogin, snap.status?.githubToken,
+            tab, snap.link, snap.status?.repo, snap.status?.session, snap.status?.sending, snap.status?.waiting, snap.status?.silenceMinutes, snap.status?.attachments, snap.status?.claudeLogin, snap.status?.githubToken, snap.status?.diagramOn,
             snap.status?.ask?.id, snap.status?.agent?.say?.id, snap.status?.agent?.proposal?.id, snap.status?.agent?.command?.id, snap.status?.githubError, snap.listening, snap.agentOpen, snap.appUpdateReady,
             snap.fileCounts, FilesScope.chosen(context), snap.chamberMode, snap.status?.chamber?.active,
             hasTermuxPermission(context), WidgetBackground.key(context), snap.sessionTitle,
@@ -130,6 +130,7 @@ object AiwaWidget {
             if (roomOpen) add(Cell(WidgetArt.Btn(R.drawable.fw_i_room, "Chambre en cours", "violet", true, true), 1f, activity(context, 15, com.aiwa.app.chamber.ChamberActivity::class.java), zone = 0))
             add(Cell(btn(R.drawable.fw_i_robot, "agent"), 3f, activity(context, 10, robotTarget), zone = 1))
             add(Cell(btn(R.drawable.fw_i_claude, "claude", iconOnly = true), 1f, activity(context, 11, OpenClaudeActivity::class.java), zone = 2))
+            add(Cell(btn(R.drawable.fw_i_question, "question", iconOnly = true), 1f, activity(context, 7, AskActivity::class.java), zone = 3))
         }
         val agentPage = listOf(
             firstRow,
@@ -138,7 +139,7 @@ object AiwaWidget {
                 Cell(btn(R.drawable.fw_i_plus, "plus", iconOnly = true), 1f, activity(context, 13, AddActivity::class.java)),
                 Cell(btn(R.drawable.fw_i_scenario, "scenario", iconOnly = true), 1f, activity(context, 30, ScenariosActivity::class.java)),
                 Cell(btn(R.drawable.fw_i_cast, "cast", iconOnly = true), 1f, activity(context, 31, CastActivity::class.java)),
-                Cell(btn(R.drawable.fw_i_question, "question", iconOnly = true), 1f, activity(context, 7, AskActivity::class.java)),
+                Cell(btn(R.drawable.fw_i_diagram, "diagram", iconOnly = true), 1f, activity(context, 32, com.aiwa.app.voice.DiagramToggleActivity::class.java)),
             ),
         )
         // ---- Files ----

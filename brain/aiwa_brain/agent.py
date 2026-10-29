@@ -5,7 +5,7 @@ import subprocess
 import threading
 import time
 
-from . import agent_lib, asks, config, files, github, llm_lib, profile_lib, repos, scen_lib, sessions, state
+from . import agent_lib, asks, config, diagram, files, github, llm_lib, profile_lib, repos, scen_lib, sessions, state
 
 _cache = {}      # ("age", repo, branch) / ("ci", repo) -> (time, value): GitHub is asked at most once in two minutes for the same thing
 CACHE_SECONDS = 120
@@ -96,7 +96,7 @@ def _turn(spoken, report):
         user = agent_lib.user_turn(text, spoken=agent_lib.REPORT_REQUEST if report else spoken, stamp=time.strftime("%H:%M"))
         with state.agent_lock:
             history = list(state.agent_chat[-8:])
-        answer = _model(agent_lib.system(state.style.note()), history, user)
+        answer = _model(agent_lib.system(state.style.note()) + ("\n\n" + diagram.note(live=False) if diagram.is_on() else ""), history, user)
         if answer is None:
             with state.agent_lock:
                 state.agent["error"] = "Claude n'a pas répondu (clé, réseau ou quota)"
@@ -125,6 +125,8 @@ def said(raw):
         print(f"[{state.ts()}] agent: a reply that is not one", flush=True)
         return False
     stamp = time.time()
+    if parsed.get("diagram"):
+        diagram.show(parsed["diagram"])
     with state.agent_lock:
         if parsed["say"]:
             state.agent["say"] = {"id": f"s{int(stamp * 1000)}", "text": parsed["say"], "ts": int(stamp), "spoken": False}

@@ -149,6 +149,7 @@ class Brain(private val net: Transport = HttpTransport()) {
     fun githubLoginCancel(): Outcome = act("/api/github/login/cancel")
     fun profileRepo(): String? = getJson("/api/profile")?.str("repo")
     fun setProfileRepo(repo: String): Outcome = act("/api/profile", JSONObject().put("repo", repo))
+    fun setDiagram(on: Boolean): Outcome = act("/api/diagram/set", JSONObject().put("on", on))
     fun profileCheck(): JSONObject? = getJson("/api/profile/check")
     fun publishProfilePub(pub: String): Outcome = act("/api/profile/pub", JSONObject().put("pub", pub))
     fun profilePub(repo: String): String? = getJson("/api/profile/pub?repo=" + java.net.URLEncoder.encode(repo, "UTF-8"))?.optString("pub")?.takeIf { it.length == 64 }

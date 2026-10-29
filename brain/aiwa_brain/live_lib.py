@@ -7,6 +7,7 @@ import re
 from . import agent_lib
 
 MARK = "@@ACTIONS"
+DIAG, DIAG_END = "@@DIAGRAM", "@@END"     # an optional diagram opens the answer: @@DIAGRAM <mermaid> @@END, then the sentences
 SAY_MAX = 400
 _END = re.compile(r"(.+?[.!?…])(?:\s+|$)", re.S)
 
@@ -18,6 +19,8 @@ class Splitter:
         self.buffer = ""
         self.actions = ""
         self.marked = False
+        self.diagram = None      # the Mermaid text of the diagram that opened the answer (taken once, with take_diagram)
+        self._head = True        # the beginning of the answer is still being read (a diagram may open it)
 
     def feed(self, piece):
         """The complete sentences that the new piece finishes (the rest waits for more)."""
@@ -25,6 +28,18 @@ class Splitter:
             self.actions += piece
             return []
         self.buffer += piece
+        if self._head:
+            lead = self.buffer.lstrip()
+            if lead.startswith(DIAG):
+                end = lead.find(DIAG_END)
+                if end < 0:
+                    return []            # the diagram is not finished: nothing is said yet
+                self.diagram = lead[len(DIAG):end].strip()
+                self.buffer, self._head = lead[end + len(DIAG_END):].lstrip("\n"), False
+            elif len(lead) < len(DIAG) and DIAG.startswith(lead):
+                return []                # it could still become the opening mark
+            else:
+                self._head = False
         at = self.buffer.find(MARK)
         if at >= 0:
             before, self.actions, self.marked = self.buffer[:at], self.buffer[at + len(MARK):], True
@@ -37,6 +52,11 @@ class Splitter:
         out = self._sentences(final=False)
         self.buffer += keep
         return out
+
+    def take_diagram(self):
+        """The diagram once it is complete (then None until another one)."""
+        code, self.diagram = self.diagram, None
+        return code
 
     def _sentences(self, final):
         out, rest = [], self.buffer

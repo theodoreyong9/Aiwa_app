@@ -18,5 +18,7 @@ class AiwaApp : Application() {
         wakeAiwa(this)
         val app = this
         CoroutineScope(Dispatchers.Default).launch { Aiwa.state.sample(300).collect { AiwaWidget.render(app) } }
+        // a diagram the super agent has just drawn (when the person turned the option on) is shown at once
+        CoroutineScope(Dispatchers.Default).launch { Aiwa.state.collect { com.aiwa.app.web.DiagramShow.maybeOpen(app, it.status) } }
     }
 }

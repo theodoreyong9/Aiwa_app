@@ -7,7 +7,7 @@ import time
 import urllib.parse
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
-from . import agent, agent_lib, asks, attachments, cast, chamber, claude_cli, config, files, github, github_login, instructions, studio, live, profile, questions, relay, repos, scenarios, sessions, state, update
+from . import agent, agent_lib, asks, diagram, attachments, cast, chamber, claude_cli, config, files, github, github_login, instructions, studio, live, profile, questions, relay, repos, scenarios, sessions, state, update
 
 
 def status():
@@ -27,7 +27,7 @@ def status():
         "repo": repo, "push_main": direct, "waiting": is_waiting, "attachments": len(state.attachments), "attachment_files": attachments.attach_list(),
         "self_update": dict(state.self_update_last), "alert_last": last_ping, "silence_minutes": relay.silence_minutes(), "cast": cast.ready(),
         "github_error": problem, "repo_access_missing": missing_access, "github_app_url": config.GITHUB_APP_URL, "github_token": github.token_value() is not None, "github_user": github.connected_user(), "session_error": state.session_error, "github_rate": github.rate(),
-        "claude_login": claude_cli.login_state(), "relay_cloud": relay.cloud_state(), "ask": asks.snapshot(), "agent": agent.snapshot(),
+        "claude_login": claude_cli.login_state(), "relay_cloud": relay.cloud_state(), "ask": asks.snapshot(), "agent": agent.snapshot(), "diagram": diagram.snapshot(),
         "chamber": room, "llm": {"state": state.llm.state, **state.llm.usage()}, "voice": state.voice.state, "profile": profile.profile_state().get("repo"),
     }
 
@@ -256,6 +256,7 @@ POST = {
     "/api/style/set": lambda body, data: _style("set", data),
     "/api/style/clear": lambda body, data: _style("clear", data),
     "/api/profile": lambda body, data: profile.profile_apply(data),
+    "/api/diagram/set": lambda body, data: {"ok": True, "on": diagram.set_on(data.get("on"))},
     "/api/profile/pub": lambda body, data: profile.publish_pub(data.get("pub")),
     "/api/waiting/clear": lambda body, data: (relay.clear_waiting(), {"accepted": True})[1],
     "/api/waiting/test": lambda body, data: _relay_test(),
