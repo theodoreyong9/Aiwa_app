@@ -9,6 +9,7 @@ import { secretsAreSafe, deleteSecret } from './keys.js';
 import { $, short, showError } from './ui.js';
 import { initCoffee } from './coffee.js';
 import { coffeeTarget } from './coffee-core.js';
+import { initContracts } from './contracts-page.js';
 
 const ACK = 'aiwa-phrase-written';
 const DEVNET = /devnet/i.test(config.rpc ?? '');
@@ -233,6 +234,7 @@ export async function initWalletPage(params) {
   });
   onWalletChange(() => { refresh().catch(() => {}); });
   window.addEventListener('aiwa:wallet-changed', () => { refresh().catch(() => {}); });
+  initContracts({ wall: wallMode });
   if (params.get('coffee')) initCoffee(params);
 
   // The wallet starts by itself when this phone already has one; a phone that has none makes the person choose once.
