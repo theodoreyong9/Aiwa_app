@@ -33,6 +33,7 @@ data class Status(
     val githubToken: Boolean, val claudeLogin: String, val relayCloud: String, val ask: Ask?, val agent: AgentView, val chamber: ChamberBrief, val llm: LlmView, val voice: String?, val profile: String?,
     val githubUser: String? = null, val sessionError: String? = null,
     val githubRate: GithubRate? = null,
+    val diagramOn: Boolean = false, val diagramId: Long = 0, val diagramCode: String = "",
 ) {
     companion object {
         fun parse(o: JSONObject): Status = Status(
@@ -47,7 +48,7 @@ data class Status(
             agent = parseAgent(o.obj("agent")),
             chamber = o.obj("chamber")?.let { ChamberBrief(it.optBoolean("active"), it.str("peer"), it.str("name")) } ?: ChamberBrief(false, null, null),
             llm = o.obj("llm")?.let { LlmView(it.optString("state", "none"), it.optLong("used"), it.optLong("cap")) } ?: LlmView("none", 0, 0),
-            voice = o.str("voice"), profile = o.str("profile"), githubUser = o.str("github_user"), sessionError = o.str("session_error"), githubRate = o.obj("github_rate")?.let { GithubRate(it.optLong("limit"), it.optLong("remaining"), it.optBoolean("account")) },
+            voice = o.str("voice"), profile = o.str("profile"), githubUser = o.str("github_user"), sessionError = o.str("session_error"), diagramOn = o.obj("diagram")?.optBoolean("on") ?: false, diagramId = o.obj("diagram")?.optLong("id") ?: 0, diagramCode = o.obj("diagram")?.optString("code").orEmpty(), githubRate = o.obj("github_rate")?.let { GithubRate(it.optLong("limit"), it.optLong("remaining"), it.optBoolean("account")) },
         )
 
         fun parseAgent(a: JSONObject?): AgentView {

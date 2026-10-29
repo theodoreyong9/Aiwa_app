@@ -15,7 +15,7 @@ rmSync(out, { recursive: true, force: true });
 mkdirSync(out, { recursive: true });
 
 await build({
-  entryPoints: { wallet: join(here, 'src/main-wallet.js'), voir: join(here, 'src/main-voir.js'), chambre: join(here, 'src/main-chambre.js') },
+  entryPoints: { wallet: join(here, 'src/main-wallet.js'), voir: join(here, 'src/main-voir.js'), chambre: join(here, 'src/main-chambre.js'), diagram: join(here, 'src/main-diagram.js') },
   outdir: out,
   bundle: true,
   splitting: true,
@@ -29,7 +29,7 @@ await build({
   define: { 'process.env.NODE_ENV': '"production"', global: 'globalThis' },
 });
 
-for (const page of ['wallet.html', 'voir.html', 'chambre.html', 'style.css']) copyFileSync(join(here, 'src', page), join(out, page));
+for (const page of ['wallet.html', 'voir.html', 'chambre.html', 'diagram.html', 'style.css']) copyFileSync(join(here, 'src', page), join(out, page));
 cpSync(join(here, 'public'), out, { recursive: true });
 // the home of the application: the runtime that puts the buttons of the application in a profile page, served as an asset
 cpSync(join(here, 'home'), join(out, 'home'), { recursive: true });

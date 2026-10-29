@@ -68,6 +68,7 @@
         <activity android:name=".files.PageActivity" android:exported="false" />
         <activity android:name=".voice.WakeWordEnrollActivity" android:exported="false" android:taskAffinity="" android:excludeFromRecents="true" />
         <activity android:name=".voice.AgentToggleActivity" android:exported="false" android:theme="@style/Theme.Float" android:taskAffinity="" android:excludeFromRecents="true" />
+        <activity android:name=".voice.DiagramToggleActivity" android:exported="false" android:theme="@style/Theme.Float" android:taskAffinity="" android:excludeFromRecents="true" />
         <activity android:name=".voice.EarToggleActivity" android:exported="false" android:theme="@style/Theme.Float" android:taskAffinity="" android:excludeFromRecents="true" />
         <activity android:name=".update.InstallUpdateActivity" android:exported="false" android:theme="@style/Theme.Float" android:taskAffinity="" android:excludeFromRecents="true" />
         <activity android:name=".home.ProfileActivity" android:exported="false" />

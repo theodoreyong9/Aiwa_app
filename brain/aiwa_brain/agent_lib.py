@@ -171,9 +171,10 @@ def parse_message(raw, known_ids):
             valid.append({"session": session or None, "repo": None if session else repo, "message": message})
     proposal = dict(valid[0], more=valid[1:]) if valid else None
     command = parse_command(data.get("do"), known_ids)
-    if not say and proposal is None and command is None:
+    drawing = data.get("diagram") if isinstance(data.get("diagram"), str) else ""
+    if not say and proposal is None and command is None and not drawing:
         return None
-    return {"say": say, "proposal": proposal, "command": command}
+    return {"say": say, "proposal": proposal, "command": command, "diagram": drawing}
 
 
 def parse_command(raw, known_ids):

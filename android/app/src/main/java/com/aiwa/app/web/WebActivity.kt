@@ -124,12 +124,16 @@ class WebActivity : ComponentActivity() {
                     web.loadUrl(WebHost.pageUrl("voir", query))
                 }
             }
+            "diagram" -> web.loadUrl(WebHost.pageUrl("diagram"))
             else -> {
                 val coffee = intent.getStringExtra(EXTRA_COFFEE)
                 web.loadUrl(WebHost.pageUrl("wallet", if (coffee != null) "coffee=${Uri.encode(coffee)}&repo=${Uri.encode(intent.getStringExtra(EXTRA_REPO).orEmpty())}" else if (intent.getBooleanExtra(EXTRA_WALL, false)) "wall=1" + (intent.getStringExtra(EXTRA_CARD)?.takeIf { Regex("[0-9a-f]{64}").matches(it) }?.let { "&card=$it" } ?: "") else ""))
             }
         }
     }
+
+    override fun onResume() { super.onResume(); if (intent.getStringExtra(EXTRA_PAGE) == PAGE_DIAGRAM) DiagramShow.visible = true }
+    override fun onPause() { if (intent.getStringExtra(EXTRA_PAGE) == PAGE_DIAGRAM) DiagramShow.visible = false; super.onPause() }
 
     override fun onDestroy() { web.destroy(); super.onDestroy() }
 
@@ -146,6 +150,7 @@ class WebActivity : ComponentActivity() {
                 val pubs = repos.indices.map { keys?.optString(it).orEmpty().takeIf { k -> Regex("[0-9a-f]{64}").matches(k) } ?: "" }
                 if (repos.isNotEmpty()) ProfileActivity.open(this, repos, json.optInt("index", 0), pubs)
             }
+            "diagram" -> respond(reply, id) { val s = Aiwa.state.value.status; JSONObject().put("id", s?.diagramId ?: 0).put("code", s?.diagramCode.orEmpty()) }
             "secret-get" -> respond(reply, id) { JSONObject().put("value", secrets.get(secretName(json)) ?: JSONObject.NULL) }
             "secret-set" -> respond(reply, id) { secrets.set(secretName(json), json.getString("value")); JSONObject() }
             "secret-delete" -> respond(reply, id) { secrets.delete(secretName(json)); JSONObject() }
@@ -196,6 +201,8 @@ class WebActivity : ComponentActivity() {
         const val EXTRA_CARD = "card"       // wallet: whose wall (the signed card of the person; none: her own)
         const val EXTRA_COFFEE = "coffee"   // wallet: the signed card of the person to send a coffee to
         const val EXTRA_REPO = "repo"
+
+        const val PAGE_DIAGRAM = "diagram"
 
         /** « Zone »: who is around (the Voir page, by proximity). */
         fun zone(context: android.content.Context) =

@@ -5,7 +5,7 @@ import threading
 import time
 import urllib.parse
 
-from . import agent, github, live_lib, questions, sessions, state
+from . import agent, diagram, github, live_lib, questions, sessions, state
 
 
 def _claude_stream(prompt, on_piece, timeout=90):
@@ -56,12 +56,15 @@ def live_stream(text, emit):
     digest, _sig = agent.point()
     with state.live_lock:
         events = "\n".join(state.live["recent"][-5:])
-    system = live_lib.system(digest, events) + ("\n\n" + state.style.note() if state.style.note() else "")
+    system = live_lib.system(digest, events) + ("\n\n" + state.style.note() if state.style.note() else "") + ("\n\n" + diagram.note(live=True) if diagram.is_on() else "")
     talk = questions.conversation_text()
     prompt = system + ("\n\nLa conversation jusqu'ici (continue-la, sans te répéter) :\n" + talk if talk else "") + "\n\nLa personne dit : " + q
     splitter, said = live_lib.Splitter(), []
 
     def speak(sentences):
+        code = splitter.take_diagram()
+        if code:
+            diagram.show(code)          # drawn by the phone while the sentences that follow are said
         for sentence in sentences:
             said.append(sentence)
             emit(sentence)
