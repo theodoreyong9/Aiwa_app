@@ -3,7 +3,6 @@ writes the page there (`Profile/index.html`, as complex as wanted: a video or a 
 repository and tells the sessions what the folder is for. Nothing is published: the app reads `Profile/index.html` from the repository as it is (a public one), and shows it."""
 import json
 import re
-from pathlib import Path
 
 from .paths import DATA
 
