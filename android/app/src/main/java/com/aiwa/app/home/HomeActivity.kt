@@ -46,7 +46,7 @@ class HomeActivity : ComponentActivity() {
             settings.mediaPlaybackRequiresUserGesture = false      // the video behind a profile starts by itself (muted)
             webViewClient = object : WebViewClient() {
                 override fun shouldOverrideUrlLoading(v: WebView, request: WebResourceRequest): Boolean = HomeRuntime.openExternal(this@HomeActivity, request)
-                override fun onPageFinished(v: WebView, url: String?) { HomeRuntime.inject(v); ProfileVideo.inject(v) }
+                override fun onPageFinished(v: WebView, url: String?) { HomeRuntime.inject(v) }
             }
         }
         HomeRuntime.attach(web, true) { ProfileSettings.repo(this) }
@@ -70,13 +70,11 @@ class HomeActivity : ComponentActivity() {
             WindowInsetsCompat.CONSUMED
         }
         ProfileView.load(web, ProfileSettings.repo(this), own = true)
-        ProfileVideo.refresh(web)
     }
 
     override fun onResume() {
         super.onResume()
         CoffeeSettings.publishPub(this)
-        ProfileVideo.refresh(web)
         startWatch()
         startEar()
         // The widget is asked for at every opening while there is none (the system's window, one tap on « Ajouter »), once the screen is really in front and has settled.
