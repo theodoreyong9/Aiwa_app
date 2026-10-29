@@ -15,6 +15,7 @@ import os
 import re
 import subprocess
 import tempfile
+import threading
 import time
 import urllib.error
 import urllib.parse
@@ -166,7 +167,12 @@ def api(path, method="GET", body=None, timeout=15):
             except ValueError:
                 _blocked_until = time.time() + 600
             raise GithubError("GitHub : " + limit_wording(), limited=True)
-        raise GithubError(f"GitHub {err.code}" + (" : jeton absent ou sans droit" if err.code in (401, 403, 404) and method != "GET" else ""), limited=False)
+        why = ""
+        try:
+            why = str(json.loads(err.read() or b"{}").get("message") or "")[:140]
+        except (OSError, ValueError, AttributeError):
+            pass
+        raise GithubError(f"GitHub {err.code}" + (f" : {why}" if why else "") + (" (jeton absent ou sans droit)" if err.code in (401, 403, 404) and method != "GET" else "") + ("" if token else " (sans connexion)"), limited=False)
     except (OSError, ValueError) as err:
         raise GithubError(f"GitHub injoignable : {err}")
     result = json.loads(raw) if raw else None
@@ -175,6 +181,26 @@ def api(path, method="GET", body=None, timeout=15):
             _etags.clear()
         _etags[key] = (etag, result)
     return result
+
+
+_rate = {"at": 0.0, "value": None}
+
+
+def _read_rate():
+    try:
+        core = (api("/rate_limit") or {}).get("resources", {}).get("core", {})
+    except GithubError:
+        return
+    _rate.update(at=time.time(), value={"limit": core.get("limit"), "remaining": core.get("remaining"), "reset": core.get("reset"), "account": token_value() is not None})
+
+
+def rate():
+    """How many questions GitHub still allows, and whether they are asked as the person's own account: {limit, remaining, reset, account} (None until known). Asking GitHub costs nothing and is done in
+    the background, at most once a minute: the state page never waits for it."""
+    if time.time() - _rate["at"] > 60:
+        _rate["at"] = time.time()          # one reader at a time
+        threading.Thread(target=_read_rate, daemon=True).start()
+    return _rate["value"]
 
 
 def release_upload(repo, tag, title, notes, path, name, timeout=1800):

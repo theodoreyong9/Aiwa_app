@@ -35,7 +35,7 @@ class Productions(unittest.TestCase):
         self.assertNotIn("android-latest", str(listing), "the APK is not a production")
 
     def test_all_reads_every_known_repository(self):
-        with unittest.mock.patch("aiwa_brain.repos.names", return_value=["me/app", "me/other"]):
+        with unittest.mock.patch("aiwa_brain.files.worked_on", return_value=["me/app", "me/other"]):
             listing = files.listing(None)
         self.assertIsNone(listing["repo"])
         self.assertEqual(len(listing["items"]["video"]), 1)
@@ -45,7 +45,7 @@ class Productions(unittest.TestCase):
             if repo == "me/bad":
                 raise github.GithubError("GitHub 404")
             return [dict(r) for r in RELEASES]
-        with unittest.mock.patch.object(github, "releases", side_effect=fail), unittest.mock.patch("aiwa_brain.repos.names", return_value=["me/bad", "me/app"]):
+        with unittest.mock.patch.object(github, "releases", side_effect=fail), unittest.mock.patch("aiwa_brain.files.worked_on", return_value=["me/bad", "me/app"]):
             listing = files.listing(None)
         self.assertIn("me/bad", listing["error"])
         self.assertEqual(len(listing["items"]["video"]), 1)

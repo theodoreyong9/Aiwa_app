@@ -50,6 +50,7 @@ class HealthActivity : FloatActivity() {
             line(status.githubToken, "GitHub : " + if (status.githubToken) "connecté" + (status.githubUser?.let { " ($it)" } ?: "") else "pas connecté (dépôts publics seulement)")
             if (!status.githubToken) entry("Connecter GitHub") { startActivity(android.content.Intent(this, GithubConnectActivity::class.java)) }
             line(status.voice == "ready", "Voix naturelle : " + (status.voice ?: "pas installée"))
+            status.githubRate?.let { r -> line(r.remaining > 20, "Questions à GitHub : ${r.remaining} restantes sur ${r.limit} cette heure" + if (r.account) " (avec ton compte)" else " (sans connexion : la limite est basse)") }
             status.githubError?.let { line(false, "GitHub : $it") }
             status.repoAccessMissing?.let { line(false, "Claude n'a pas accès à $it") }
         }

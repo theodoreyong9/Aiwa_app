@@ -77,11 +77,11 @@ class CastWish(unittest.TestCase):
         old = {"id": 1, "tag": "video-a", "name": "Ancienne", "published": 100, "page": "p", "assets": [{"id": 1, "name": "a.mp4", "size": 1, "url": "https://x/a.mp4"}]}
         new = {"id": 2, "tag": "video-b", "name": "Nouvelle", "published": 200, "page": "p", "assets": [{"id": 2, "name": "b.mp4", "size": 1, "url": "https://x/b.mp4"}]}
         files.forget()
-        with unittest.mock.patch("aiwa_brain.repos.names", return_value=["me/app"]), unittest.mock.patch.object(github, "releases", return_value=[old]):
+        with unittest.mock.patch("aiwa_brain.files.worked_on", return_value=["me/app"]), unittest.mock.patch.object(github, "releases", return_value=[old]):
             cast.cast_register("Salon")
             self.assertIsNone(cast.ready())
         files.forget()
-        with unittest.mock.patch("aiwa_brain.repos.names", return_value=["me/app"]), unittest.mock.patch.object(github, "releases", return_value=[new, old]):
+        with unittest.mock.patch("aiwa_brain.files.worked_on", return_value=["me/app"]), unittest.mock.patch.object(github, "releases", return_value=[new, old]):
             self.assertEqual(cast.ready(), {"tv": "Salon", "name": "Nouvelle", "url": "https://x/b.mp4"})
         cast.cast_clear()
         self.assertIsNone(cast.ready())

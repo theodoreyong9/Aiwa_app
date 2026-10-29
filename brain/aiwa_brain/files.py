@@ -5,11 +5,11 @@ import threading
 import time
 from concurrent.futures import ThreadPoolExecutor
 
-from . import config, github, repos, state
+from . import config, github, repos, sessions, state
 
 PAGE_MAX = 3_000_000       # bytes of a page the brain hands to the app
 CACHE_SECONDS = 45
-ALL_REPOS_MAX = 12         # « Tous » reads this many repositories, the most recently used first (fewer without a GitHub connection: its limit is 60 questions an hour)
+ALL_REPOS_MAX = 12         # « Tous » reads at most this many repositories, those with a session first
 _cache = {}                # repo -> (time, items)
 _lock = threading.Lock()
 
@@ -56,10 +56,21 @@ def forget(repo=None):
             _cache.clear()
 
 
+def worked_on():
+    """« Tous »: the repositories that have a session (the most recent first), and the one in use. Not every repository of the account: that would be dozens of questions to GitHub for nothing."""
+    with state.lock:
+        names = [state.current_repo] if state.current_repo else []
+    for entry in sessions.load_all():
+        name = entry.get("repo")
+        if isinstance(name, str) and github.REPO_RE.fullmatch(name) and name not in names:
+            names.append(name)
+    return names
+
+
 def listing(repo=None):
     """{"repo": the repository asked or None for all, "repos": [names], "error": str|None, "items": {kind: [item…]}} with the newest first inside each kind."""
     wanted = repo if repo and github.REPO_RE.fullmatch(repo) else None
-    names = [wanted] if wanted else repos.names()[:ALL_REPOS_MAX if github.token_value() else 5]
+    names = [wanted] if wanted else worked_on()[:ALL_REPOS_MAX]
     items, errors = [], []
 
     def one(name):
