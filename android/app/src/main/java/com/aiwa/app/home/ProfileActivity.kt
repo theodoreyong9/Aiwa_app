@@ -41,7 +41,7 @@ class ProfileActivity : ComponentActivity() {
     private val pages = HashMap<Int, WebView>()
     private lateinit var pager: ViewPager2
     private lateinit var urls: List<String>
-    private lateinit var pubs: List<String>
+    private lateinit var pubs: MutableList<String>
     private lateinit var chip: TextView
     private lateinit var bar: ProfileBar.Bar
     private val scores = HashMap<String, String>()      // repository -> « Pro 72 · Perso 41 »
@@ -52,7 +52,7 @@ class ProfileActivity : ComponentActivity() {
         urls = try { JSONArray(intent.getStringExtra(EXTRA_URLS) ?: "[]").let { a -> (0 until a.length()).map { a.getString(it) } } } catch (err: Exception) { emptyList() }.filter { ProfileView.valid(it) }.take(60)
         if (urls.isEmpty()) { finish(); return }
         val start = intent.getIntExtra(EXTRA_INDEX, 0).coerceIn(0, urls.size - 1)
-        pubs = try { JSONArray(intent.getStringExtra(EXTRA_PUBS) ?: "[]").let { a -> urls.indices.map { a.optString(it) } } } catch (err: Exception) { urls.map { "" } }
+        pubs = try { JSONArray(intent.getStringExtra(EXTRA_PUBS) ?: "[]").let { a -> urls.indices.map { a.optString(it) }.toMutableList() } } catch (err: Exception) { urls.map { "" }.toMutableList() }
         val root = FrameLayout(this).apply { setBackgroundColor(Color.parseColor("#10132E")) }
         pager = ViewPager2(this).apply { offscreenPageLimit = 1; adapter = Pages() }
         root.addView(pager, FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT).apply { bottomMargin = ProfileBar.height(this@ProfileActivity) })
@@ -63,6 +63,7 @@ class ProfileActivity : ComponentActivity() {
         root.addView(chip, FrameLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT, Gravity.TOP or Gravity.CENTER_HORIZONTAL).apply { topMargin = dp(8) })
         bar = ProfileBar.build(this, listOf(
             ProfileBar.Spec("🤝", "Match", ProfileBar.VIOLET) { match(force = true) },
+            ProfileBar.Spec("📍", "Zone", ProfileBar.VIOLET) { WebActivity.zone(this) },
             ProfileBar.Spec("🚪", "Chambre", ProfileBar.BLUE) { startActivity(Intent(this, com.aiwa.app.chamber.ChamberActivity::class.java).putExtra(com.aiwa.app.chamber.ChamberActivity.EXTRA_REPO, urls[pager.currentItem])) },
             ProfileBar.Spec("☕", "Café", ProfileBar.GOLD) { coffee() },
             ProfileBar.Spec("🏆", "Mur", ProfileBar.GREEN) { wall() },
@@ -101,9 +102,19 @@ class ProfileActivity : ComponentActivity() {
         val i = pager.currentItem
         val pub = pubs.getOrNull(i).orEmpty()
         bar.keys[0].label(scores[urls[i]] ?: "Match")
-        bar.keys[2].available(CoffeeSettings.walletConnected(this) && pub.isNotEmpty())
-        bar.keys[3].available(pub.isNotEmpty())
+        bar.keys[3].available(CoffeeSettings.walletConnected(this) && pub.isNotEmpty())
+        bar.keys[4].available(pub.isNotEmpty())
+        if (pub.isEmpty()) findPub(i)
         match()
+    }
+
+    /** Her key, if she left it in her profile (`Profile/aiwa.json`): the coffee and the wall then know where to go, even when she gave no card in « Voir ». */
+    private fun findPub(i: Int) {
+        val repo = urls[i]
+        CoroutineScope(Dispatchers.Main).launch {
+            val found = withContext(Dispatchers.IO) { Aiwa.brain.profilePub(repo) } ?: return@launch
+            if (pubs.getOrNull(i).isNullOrEmpty()) { pubs[i] = found; if (pager.currentItem == i) refreshKeys() }
+        }
     }
 
     /** What the person of this profile received: her wall, read for the identity of her signed card. */

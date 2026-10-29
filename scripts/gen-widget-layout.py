@@ -8,7 +8,7 @@ OUT = pathlib.Path(__file__).resolve().parent.parent / "android/app/src/main/res
 PAGES = [
     ("a", [1, 3, 1], [1, 1, 1, 1, 1]), # Agent: Chambre en cours (when there is one) | Super agent | Claude ; Écoute | Ajouter | Scénario | Cast TV | Question
     ("f", [6, 1, 1], [1, 1, 1, 1, 1]), # Files: the repository | see it | change its session ; docs | images | vidéos | apps | pages
-    ("v", [1, 1], [1, 1, 1]),          # Game: Wallet | Proximité ; Lien | QR code | Favoris
+    ("v", [1, 1], [1, 1, 1]),          # Game: Wallet | Zone ; Lien | QR code | Favoris
 ]
 TABS = [("t_settings", 55), ("t_agent", 100), ("t_files", 100), ("t_voir", 100), ("t_upd", 55)]
 

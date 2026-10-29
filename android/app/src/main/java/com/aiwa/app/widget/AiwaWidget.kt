@@ -31,7 +31,7 @@ import com.aiwa.app.web.WebActivity
  *
  * The tab strip, from the left: Réglages (opens the settings), Agent, Files, Game, then Mise à jour (only when an update exists).
  * Pages: Agent (a Chambre en cours cell at the left of the Super agent while a room is open, Claude; below: Écoute, Ajouter, Scénario, Cast TV) · Files (the repository or all, with a button to see it and one to change its session, then docs, images,
- * vidéos, apps, pages) · Game (Wallet; Proximité, Lien, QR code, Favoris). The top bar, at the right of the tabs: Mise à jour (only when an update exists), Réglages.
+ * vidéos, apps, pages) · Game (Wallet; Zone, Lien, QR code, Favoris). The top bar, at the right of the tabs: Mise à jour (only when an update exists), Réglages.
  * Question (the report is in it) is the last cell of the Agent page.
  * The Chambre has no page here: it lives in the application.
  */

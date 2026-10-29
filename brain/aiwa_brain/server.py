@@ -230,6 +230,7 @@ GET = {
     "/api/style": lambda q: {"ok": True, **state.style.status()},
     "/api/profile": lambda q: profile.profile_state(),
     "/api/profile/check": lambda q: profile.profile_check(),
+    "/api/profile/pub": lambda q: profile.pub_of((q.get("repo") or [""])[0]),
 }
 POST = {
     "/api/cloud/message": lambda body, data: sessions.cloud_send(body),
@@ -255,6 +256,7 @@ POST = {
     "/api/style/set": lambda body, data: _style("set", data),
     "/api/style/clear": lambda body, data: _style("clear", data),
     "/api/profile": lambda body, data: profile.profile_apply(data),
+    "/api/profile/pub": lambda body, data: profile.publish_pub(data.get("pub")),
     "/api/waiting/clear": lambda body, data: (relay.clear_waiting(), {"accepted": True})[1],
     "/api/waiting/test": lambda body, data: _relay_test(),
     "/api/relay/retest": lambda body, data: _retest_relay(),

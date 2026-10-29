@@ -86,7 +86,7 @@ export function initVoirPage(params) {
   let mine = [];
   try { mine = cleanLinks(JSON.parse(params.get('links') ?? '[]')); } catch { mine = []; }
   const status = (text) => { $('voir-status').textContent = text; };
-  $('voir-title').textContent = { lien: 'Voir un dépôt', proche: 'Voir à proximité', qr: 'Voir par QR code', favoris: 'Mes favoris' }[mode];
+  $('voir-title').textContent = { lien: 'Voir un dépôt', proche: 'Voir la zone', qr: 'Voir par QR code', favoris: 'Mes favoris' }[mode];
   $('voir-mine').textContent = mine.length ? `Tes liens (${repo || 'ton dépôt'}) : ${mine.map((l) => kindName[l.kind]).join(', ')}.` : 'Ton dépôt n\'a encore rien à montrer (ou il est privé).';
 
   if (mode === 'favoris') { status('Gardés sur ce téléphone.'); renderFavourites(); return; }

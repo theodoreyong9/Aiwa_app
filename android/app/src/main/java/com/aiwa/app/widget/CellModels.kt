@@ -55,7 +55,7 @@ object CellModels {
         }
         out["scenario"] = CellModel("Scénario", "grey")
         out["cast"] = CellModel("Cast TV", "grey")
-        out["nearby"] = CellModel("Proximité", "violet", on = VoirSettings.on(context))
+        out["nearby"] = CellModel("Zone", "violet", on = VoirSettings.on(context))
         out["link"] = CellModel("Lien", "grey")
         out["qr"] = CellModel("QR code", "grey")
         out["favorites"] = CellModel("Favoris", "grey")
