@@ -1,0 +1,3122 @@
+{
+  "url": "https://lorenzolottici.it/en",
+  "at": "2026-10-29T13:04:37.546Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 114357,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 494,
+      "typography": {
+        "families": [
+          [
+            "archivo",
+            57
+          ],
+          [
+            "jetbrainsMono",
+            2
+          ]
+        ],
+        "weights": [
+          [
+            "500",
+            40
+          ],
+          [
+            "600",
+            17
+          ],
+          [
+            "400",
+            2
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            59
+          ]
+        ],
+        "sizeMin": 14.016,
+        "sizeMedian": 16.608,
+        "sizeMax": 61.92,
+        "sizeMaxVw": 4.3,
+        "scaleRatio": 3.7,
+        "letterSpacingMean": 0.004,
+        "loadedFonts": [
+          {
+            "family": "archivo",
+            "weight": "100 900",
+            "style": "normal"
+          },
+          {
+            "family": "jetbrainsMono",
+            "weight": "400 800",
+            "style": "normal"
+          }
+        ],
+        "variableFont": true,
+        "textElements": 59
+      },
+      "color": {
+        "background": "rgb(7, 7, 7)",
+        "backgroundLuminance": 0.0021246888848418626,
+        "backgrounds": [
+          [
+            "rgb(7, 7, 7)",
+            5500
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(240, 237, 232)",
+            206
+          ],
+          [
+            "rgba(0, 0, 0, 0)",
+            58
+          ]
+        ],
+        "meanSaturation": 0,
+        "rootVars": {
+          "--z-banda": "8000",
+          "--z-parliamone": "9000",
+          "--z-voce-cabina": "9100",
+          "--z-passaggio": "10000",
+          "--z-velo-scritta": "10001",
+          "--z-indice": "2147480000",
+          "--z-salta": "2147480000",
+          "--gutter": "clamp(1.25rem,3.4vw,4rem)",
+          "--corsia-bordo": "4rem",
+          "--tipo-marchio": "clamp(6rem,calc(1.3958rem + 20.463vw),19.8125rem)",
+          "--tipo-display": "clamp(2.75rem,calc(1.2708rem + 6.5741vw),7.1875rem)",
+          "--tipo-titolo": "clamp(2.125rem,calc(1.3125rem + 3.6111vw),4.5625rem)",
+          "--tipo-sottotitolo": "clamp(1.625rem,calc(.8542rem + 3.4259vw),3.9375rem)",
+          "--tipo-servizio": "clamp(1.25rem,calc(1.1042rem + .6481vw),1.6875rem)",
+          "--tipo-lead": "var(--tipo-corpo)",
+          "--tipo-corpo": "clamp(1rem,calc(.9792rem + .0926vw),1.0625rem)",
+          "--tipo-nota": "var(--tipo-corpo)",
+          "--tipo-label": "clamp(.75rem,calc(.7083rem + .1852vw),.875rem)",
+          "--tipo-micro": "var(--tipo-label)",
+          "--lh-hero": "1.04",
+          "--lh-display": ".98",
+          "--lh-titolo": "1.02",
+          "--lh-scheda": "1.06",
+          "--lh-riga": "1.2",
+          "--lh-voce": "1.35",
+          "--lh-corpo": "1.6",
+          "--lh-label": "1.4",
+          "--ls-hero": "-.02em",
+          "--ls-display": "-.03em",
+          "--ls-titolo": "-.025em",
+          "--ls-scheda": "-.02em",
+          "--ls-riga": "-.015em",
+          "--ls-testo": "0",
+          "--ls-label": ".18em",
+          "--wdth-display": "92",
+          "--wdth-titolo": "94",
+          "--wdth-scheda": "96",
+          "--wdth-testo": "100",
+          "--peso-hero": "600",
+          "--peso-display": "600"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 2,
+        "sticky": 6,
+        "fixed": 12,
+        "grid": 1,
+        "flex": 76,
+        "absolute": 76,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 27021,
+        "pages": 30,
+        "spacing": [
+          [
+            12,
+            42
+          ],
+          [
+            1,
+            14
+          ],
+          [
+            4,
+            9
+          ],
+          [
+            16,
+            7
+          ],
+          [
+            26,
+            4
+          ],
+          [
+            149,
+            2
+          ],
+          [
+            79,
+            2
+          ],
+          [
+            23,
+            2
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 1,
+        "animationKinds": [
+          "Animation"
+        ],
+        "infiniteAnimations": 1,
+        "animationDurations": [
+          13000
+        ],
+        "easings": [
+          "cubic-bezier(0.16, 1, 0.3, 1)"
+        ],
+        "transitionDurationsMs": [
+          [
+            100,
+            39
+          ],
+          [
+            450,
+            6
+          ],
+          [
+            900,
+            6
+          ],
+          [
+            520,
+            2
+          ],
+          [
+            600,
+            1
+          ]
+        ],
+        "keyframes": [
+          "shimmer",
+          "revealUp",
+          "v2-parte",
+          "v2-arriva",
+          "segno-sorge",
+          "segno-orbita",
+          "segno-scarica",
+          "segno-gira",
+          "segno-segnale",
+          "segno-accende",
+          "segno-blocco",
+          "ic-appare",
+          "ic-cursore",
+          "ic-disegna",
+          "ic-posa",
+          "v2-ricompone",
+          "v2-centro-posa",
+          "v2-scopre",
+          "v2-posa",
+          "invito-filo"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": true
+      },
+      "hiddenElements": 15,
+      "media": {
+        "canvases": [
+          {
+            "w": 1440,
+            "h": 900,
+            "area": 1
+          },
+          {
+            "w": 96,
+            "h": 107,
+            "area": 0.01
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0
+          },
+          {
+            "w": 88,
+            "h": 88,
+            "area": 0.01
+          },
+          {
+            "w": 1,
+            "h": 1,
+            "area": 0
+          }
+        ],
+        "videos": [],
+        "svg": 23,
+        "images": 9,
+        "iframes": 0,
+        "customCursor": true
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 4,
+          "2d": 18,
+          "webgl": 1
+        },
+        "raf": 356,
+        "io": 5,
+        "ro": 13,
+        "mo": 7,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Lorenzo Lottici · Order in chaos",
+      "lang": "en",
+      "description": "I bring order to the chaos in your business. Outside, a site people recognize at first glance. Inside, automations and AI agents that work quietly."
+    },
+    "featuresBeforeScroll": {
+      "elements": 535,
+      "canvases": 4,
+      "animations": 27,
+      "hidden": 16
+    },
+    "scrollReveal": 1,
+    "hover": {
+      "probed": 6,
+      "changed": 0
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 18794680,
+        "layoutCount": 200,
+        "recalcStyleCount": 693,
+        "scriptDuration": 0.965626,
+        "taskDuration": 112.113623,
+        "nodes": 1296
+      },
+      "timing": {
+        "domContentLoaded": 1161,
+        "load": 1224,
+        "first-paint": 1168,
+        "first-contentful-paint": 1168
+      }
+    },
+    "network": [
+      {
+        "url": "https://lorenzolottici.it/en",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 18301
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/static/immutable/media/archivo_latin_var-s.p.3b1_7etm2gpf5.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 90654
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/static/immutable/media/jetbrains_mono_latin_var.p.0gbvn7yk5tf9v.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 31724
+      },
+      {
+        "url": "https://lorenzolottici.it/texture/polvere-carta.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 17278
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/static/immutable/chunks/0yz1adrezafvk.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1108
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/static/immutable/chunks/1bbgaqffb9rse.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 15575
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/static/immutable/chunks/33o4a1f1rfzk7.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1119
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/static/immutable/chunks/3v3za497oeewj.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1243
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/static/immutable/chunks/3es_0wixtz65o.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 3342
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/static/immutable/chunks/429azrqi6eh1c.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 10970
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/static/immutable/chunks/044b6rqb_e7d1.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1355
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/static/immutable/chunks/2e-texpxcq76-.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 3062
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/static/immutable/chunks/3i59u1ayz_1_5.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 10434
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/static/immutable/chunks/2cqpgzyskv0br.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 2525
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/static/immutable/chunks/3szvxbz_vr0ko.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1160
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/static/immutable/chunks/1w8kl1k4x9xas.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 2829
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/static/immutable/chunks/2cj8v9a8yhtw_.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 3242
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/static/immutable/chunks/420u9fgvjqgpl.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 9294
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/static/immutable/chunks/2ejcwld8lkjv6.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 46365
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/static/immutable/chunks/0wu125n_sd2fl.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 75600
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/static/immutable/chunks/turbopack-1byz1flvc-bu1.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 5078
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/static/immutable/chunks/00z4pmesk2f4f.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3834
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/static/immutable/chunks/10d4iqocz-85a.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3656
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/static/immutable/chunks/3hu24sq6cphbr.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 7534
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/static/immutable/chunks/3_ay9n8i9hg8z.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 12725
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/static/immutable/chunks/16o750w81zg1e.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 14124
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/static/immutable/chunks/058d0rpxg751f.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 13801
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/static/immutable/chunks/34m7-chountum.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 12604
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/static/immutable/chunks/1xz-ids8pd5c2.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 957
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/static/immutable/chunks/1fypa_gr8ex-j.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 9311
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/static/immutable/chunks/3hbscpxiy1_24.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1125
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/static/immutable/chunks/3s_ti2c11wv5m.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1188
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/static/immutable/chunks/1mbvby06oaifg.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 14134
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/static/immutable/chunks/2iqex8iuyeofj.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 10674
+      },
+      {
+        "url": "https://lorenzolottici.it/cursori/freccia-piccolo.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 2568
+      },
+      {
+        "url": "https://lorenzolottici.it/cursori/mano-piccolo.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 2639
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/static/immutable/chunks/3lm_nmjmn9fbn.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 14430
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/static/immutable/chunks/0obp5lrxd20nb.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 12568
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/static/immutable/chunks/41ysw5cbj0c7i.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 11627
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/static/immutable/chunks/2raminlsz09qv.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 12615
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/static/immutable/chunks/020ky38apuk7y.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 25511
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/static/immutable/chunks/1_sv_-kt2ce7l.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 189613
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/static/immutable/chunks/1aht2zhfbl996.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 79957
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/static/immutable/chunks/091_docivf2vv.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 22895
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/static/immutable/chunks/0bo6ux5rd72qx.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 74422
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/static/immutable/chunks/2449owjxm_et2.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 21889
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/static/immutable/chunks/1j1iawclssd-g.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 78328
+      },
+      {
+        "url": "https://lorenzolottici.it/noise.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 796
+      },
+      {
+        "url": "https://lorenzolottici.it/banda/occhio.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 155413
+      },
+      {
+        "url": "https://lorenzolottici.it/banda/mano.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 69421
+      },
+      {
+        "url": "https://lorenzolottici.it/banda/volto.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 62249
+      },
+      {
+        "url": "https://lorenzolottici.it/banda/visione/raggi.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 25844
+      },
+      {
+        "url": "https://lorenzolottici.it/banda/visione/eclissi.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 83924
+      },
+      {
+        "url": "https://lorenzolottici.it/banda/visione/mani.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 40138
+      },
+      {
+        "url": "https://lorenzolottici.it/banda/visione/figura-sospesa.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 145161
+      },
+      {
+        "url": "https://lorenzolottici.it/banda/visione/figura-polvere.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 161202
+      },
+      {
+        "url": "https://lorenzolottici.it/banda/visione/vortice.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 107549
+      },
+      {
+        "url": "https://lorenzolottici.it/banda/visione/via-lattea.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 87997
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/static/immutable/chunks/2ud7zbphpc8fj.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 486
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/image?url=%2Fprojects%2Froxam-ripresa.webp&w=828&q=75&dpl=dpl_9SFirkrBmP24UxKe5PyEe8HEtrJC",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 15815
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/static/immutable/chunks/0u_gos6jf6gvh.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2552
+      },
+      {
+        "url": "https://lorenzolottici.it/modelli/omino-in-piedi-0.bin.gz?v=6",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/gzip",
+        "fromCache": false,
+        "bytes": 284048
+      },
+      {
+        "url": "https://lorenzolottici.it/modelli/omino-in-piedi-1.bin.gz?v=6",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/gzip",
+        "fromCache": false,
+        "bytes": 248926
+      },
+      {
+        "url": "https://lorenzolottici.it/modelli/omino-in-piedi-2.bin.gz?v=6",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/gzip",
+        "fromCache": false,
+        "bytes": 530630
+      },
+      {
+        "url": "https://lorenzolottici.it/modelli/omino-in-piedi.json?v=6",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 673
+      },
+      {
+        "url": "https://lorenzolottici.it/modelli/omino-scheletro.glb?v=6",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "model/gltf-binary",
+        "fromCache": false,
+        "bytes": 17661
+      },
+      {
+        "url": "https://lorenzolottici.it/modelli/omino-in-piedi-0.bin.gz?v=6",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/gzip",
+        "fromCache": false,
+        "bytes": 98
+      },
+      {
+        "url": "https://lorenzolottici.it/modelli/omino-in-piedi-1.bin.gz?v=6",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/gzip",
+        "fromCache": false,
+        "bytes": 72
+      },
+      {
+        "url": "https://lorenzolottici.it/modelli/omino-in-piedi.json?v=6",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://lorenzolottici.it/banda/visione/raggi.webp",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://lorenzolottici.it/banda/visione/eclissi.webp",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://lorenzolottici.it/banda/visione/mani.webp",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://lorenzolottici.it/banda/visione/figura-sospesa.webp",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://lorenzolottici.it/banda/visione/figura-polvere.webp",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://lorenzolottici.it/banda/visione/vortice.webp",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://lorenzolottici.it/banda/visione/via-lattea.webp",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://lorenzolottici.it/logos/stack/next.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 512
+      },
+      {
+        "url": "https://lorenzolottici.it/logos/stack/react.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1588
+      },
+      {
+        "url": "https://lorenzolottici.it/logos/stack/tailwind.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 804
+      },
+      {
+        "url": "https://lorenzolottici.it/logos/stack/framer.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 353
+      },
+      {
+        "url": "https://lorenzolottici.it/logos/stack/supabase.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 837
+      },
+      {
+        "url": "https://lorenzolottici.it/logos/stack/typescript.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1204
+      },
+      {
+        "url": "https://lorenzolottici.it/logos/stack/n8n.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1022
+      },
+      {
+        "url": "https://lorenzolottici.it/logos/stack/openai.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1279
+      },
+      {
+        "url": "https://lorenzolottici.it/logos/stack/claude.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1191
+      },
+      {
+        "url": "https://lorenzolottici.it/logos/stack/googlesheets.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 644
+      },
+      {
+        "url": "https://lorenzolottici.it/logos/stack/pgvector.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 2706
+      },
+      {
+        "url": "https://lorenzolottici.it/logos/stack/shopify.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1200
+      },
+      {
+        "url": "https://lorenzolottici.it/logos/stack/gsap.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 4088
+      },
+      {
+        "url": "https://lorenzolottici.it/logos/stack/three.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1094
+      },
+      {
+        "url": "https://lorenzolottici.it/logos/stack/vercel.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 325
+      },
+      {
+        "url": "https://lorenzolottici.it/logos/stack/javascript.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 747
+      },
+      {
+        "url": "https://lorenzolottici.it/logos/stack/webgl.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1466
+      },
+      {
+        "url": "https://lorenzolottici.it/logos/stack/zod.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1028
+      },
+      {
+        "url": "https://lorenzolottici.it/logos/stack/reacthookform.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 999
+      },
+      {
+        "url": "https://lorenzolottici.it/logos/stack/resend.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 551
+      },
+      {
+        "url": "https://lorenzolottici.it/logos/stack/shadcnui.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 937
+      },
+      {
+        "url": "https://lorenzolottici.it/logos/stack/lucide.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1152
+      },
+      {
+        "url": "https://lorenzolottici.it/logos/stack/postgresql.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 2736
+      },
+      {
+        "url": "https://lorenzolottici.it/logos/stack/puppeteer.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 3353
+      },
+      {
+        "url": "https://lorenzolottici.it/logos/stack/sharp.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 693
+      },
+      {
+        "url": "https://lorenzolottici.it/banda/entropia.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 198785
+      },
+      {
+        "url": "https://lorenzolottici.it/banda/occhio.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://lorenzolottici.it/banda/mano.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://lorenzolottici.it/banda/cervello.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 149322
+      },
+      {
+        "url": "https://lorenzolottici.it/banda/ordine.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 44089
+      },
+      {
+        "url": "https://lorenzolottici.it/journal/covers/visione-800.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 48763
+      },
+      {
+        "url": "https://lorenzolottici.it/journal/covers/caos-800.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 56398
+      },
+      {
+        "url": "https://lorenzolottici.it/journal/covers/cubi-800.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 127918
+      },
+      {
+        "url": "https://lorenzolottici.it/en/lets-talk?_rsc=ry-B8umWgNEV4JR9",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 886
+      },
+      {
+        "url": "https://lorenzolottici.it/en/pensiero?_rsc=ry-B8umWgNEV4JR9",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 1162
+      },
+      {
+        "url": "https://lorenzolottici.it/en/path?_rsc=ry-B8umWgNEV4JR9",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 1327
+      },
+      {
+        "url": "https://lorenzolottici.it/en/work?_rsc=ry-B8umWgNEV4JR9",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 848
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/static/immutable/chunks/2i1hwp65cwsr5.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 5802
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/static/immutable/chunks/42oe8ju3w8pah.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 12438
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/static/immutable/chunks/1gmglumju9ymi.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1153
+      },
+      {
+        "url": "https://lorenzolottici.it/en/services?_rsc=ry-B8umWgNEV4JR9",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 1295
+      },
+      {
+        "url": "https://lorenzolottici.it/en?_rsc=ry-B8umWgNEV4JR9",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 827
+      },
+      {
+        "url": "https://lorenzolottici.it/en/lets-talk?_rsc=FUh3Gxqryw1dTRX2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 8298
+      },
+      {
+        "url": "https://lorenzolottici.it/en/lets-talk?_rsc=AeKWYAtDmJSARIyw",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 2742
+      },
+      {
+        "url": "https://lorenzolottici.it/en/pensiero?_rsc=IB7Q_JfXSf5uWPlM",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 5895
+      },
+      {
+        "url": "https://lorenzolottici.it/en/path?_rsc=HWM2cvwG-CFq79xI",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 3092
+      },
+      {
+        "url": "https://lorenzolottici.it/en/work?_rsc=Cm0na6dPBmneR3xZ",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 5100
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/static/immutable/chunks/117mn1rvfxal1.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 6032
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/static/immutable/chunks/1osnyysrv-ku3.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 9574
+      },
+      {
+        "url": "https://lorenzolottici.it/en/services?_rsc=pXWfHm1dXEel9wg2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 3216
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/static/immutable/chunks/3t7pjnpmcuewy.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 7594
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/static/immutable/chunks/1kbku7q86o177.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 7879
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/static/immutable/chunks/3h1dpwh880p6b.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 21932
+      },
+      {
+        "url": "https://lorenzolottici.it/en?_rsc=PcxwSUR8uWMyjqUR",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 5021
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/static/immutable/chunks/0u9x6z1j07vhz.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 9674
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/static/immutable/chunks/1zsrrfzlngivk.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 13175
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/static/immutable/chunks/2y5tayzz_gce7.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 841
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/static/immutable/chunks/1gj1otict3byu.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 5179
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/static/immutable/chunks/2eabkp4l-3ige.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 7402
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/static/immutable/chunks/3y6z3q70va9p7.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1056
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/static/immutable/chunks/3qn1-n41uzuir.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 10845
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/static/immutable/chunks/42646h6tmeznv.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 8454
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/static/immutable/chunks/04qjnc-dx9wks.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 21063
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/static/immutable/chunks/406-up7r5jfvq.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 10213
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/static/immutable/chunks/33u9vahov8dz1.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 33897
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/static/immutable/chunks/0kciryhki1-9j.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 8301
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/static/immutable/chunks/16e_9sr-ef0sf.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 10285
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/static/immutable/chunks/0bralwrpa5f37.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 19119
+      },
+      {
+        "url": "https://lorenzolottici.it/lavori/roxam/tela/copertina-ripresa.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 15240
+      },
+      {
+        "url": "https://lorenzolottici.it/lavori/roxam/tela/s2.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 22827
+      },
+      {
+        "url": "https://lorenzolottici.it/lavori/roxam/tela/s5.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 17211
+      },
+      {
+        "url": "https://lorenzolottici.it/lavori/roxam/tela/d0.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 32129
+      },
+      {
+        "url": "https://lorenzolottici.it/lavori/roxam/tela/d2.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 31599
+      },
+      {
+        "url": "https://lorenzolottici.it/lavori/roxam/tela/d4.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 19380
+      },
+      {
+        "url": "https://lorenzolottici.it/lavori/roxam/tela/d6.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 21145
+      },
+      {
+        "url": "https://lorenzolottici.it/lavori/roxam/tela/d9.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 18325
+      },
+      {
+        "url": "https://lorenzolottici.it/lavori/roxam/tela/m0.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 20799
+      },
+      {
+        "url": "https://lorenzolottici.it/lavori/roxam/tela/m2.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 15753
+      },
+      {
+        "url": "https://lorenzolottici.it/lavori/nottiamo/tela/copertina-ripresa.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 27835
+      },
+      {
+        "url": "https://lorenzolottici.it/lavori/nottiamo/tela/s2.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 14147
+      },
+      {
+        "url": "https://lorenzolottici.it/lavori/nottiamo/tela/s5.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 21582
+      },
+      {
+        "url": "https://lorenzolottici.it/lavori/nottiamo/tela/s9.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 5052
+      },
+      {
+        "url": "https://lorenzolottici.it/lavori/nottiamo/tela/d0.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 13872
+      },
+      {
+        "url": "https://lorenzolottici.it/lavori/nottiamo/tela/d2.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 11410
+      },
+      {
+        "url": "https://lorenzolottici.it/lavori/nottiamo/tela/d4.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 15455
+      },
+      {
+        "url": "https://lorenzolottici.it/lavori/nottiamo/tela/d6.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 15698
+      },
+      {
+        "url": "https://lorenzolottici.it/_next/image?url=%2Fprojects%2Froxam-ripresa.webp&w=828&q=75&dpl=dpl_9SFirkrBmP24UxKe5PyEe8HEtrJC",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 73
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 13000,
+        "delay": 2000,
+        "iterations": null,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ic-appare",
+        "duration": 1,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ic-appare",
+        "duration": 1,
+        "delay": 594.0000000000001,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ic-appare",
+        "duration": 1,
+        "delay": 429.00000000000006,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ic-appare",
+        "duration": 1,
+        "delay": 231,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ic-appare",
+        "duration": 1,
+        "delay": 99,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ic-appare",
+        "duration": 1,
+        "delay": 363,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ic-appare",
+        "duration": 1,
+        "delay": 165,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ic-appare",
+        "duration": 1,
+        "delay": 66,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ic-appare",
+        "duration": 1,
+        "delay": 297.00000000000006,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ic-appare",
+        "duration": 1,
+        "delay": 528,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ic-appare",
+        "duration": 1,
+        "delay": 264,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ic-appare",
+        "duration": 1,
+        "delay": 132,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ic-appare",
+        "duration": 1,
+        "delay": 495,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ic-appare",
+        "duration": 1,
+        "delay": 462,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ic-appare",
+        "duration": 1,
+        "delay": 561,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ic-posa",
+        "duration": 700,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ic-appare",
+        "duration": 1,
+        "delay": 660,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ic-appare",
+        "duration": 1,
+        "delay": 198,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ic-appare",
+        "duration": 1,
+        "delay": 33,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ic-disegna",
+        "duration": 1100,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ic-appare",
+        "duration": 1,
+        "delay": 330,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ic-appare",
+        "duration": 1,
+        "delay": 627,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ic-cursore",
+        "duration": 726,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ic-appare",
+        "duration": 1,
+        "delay": 693.0000000000001,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ic-posa",
+        "duration": 700,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ic-appare",
+        "duration": 1,
+        "delay": 396,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 450,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.55, 0, 0.75, 0.2)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 900,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.2, 0.8, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 900,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 900,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 450,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 520,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 450,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 450,
+        "delay": 160,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 450,
+        "delay": 160,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 450,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 520,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.55, 0, 0.75, 0.2)"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "v2-centro-posa",
+        "duration": 700,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 450,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 520,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A07020003C2B0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0xc400153200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0xc400153200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0xc400153200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0xc400153200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0B07B103C2B0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0E07B103C2B0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0E0181A3C2B0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://lorenzolottici.it/_next/static/immutable/chunks/1gmglumju9ymi.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure"
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://lorenzolottici.it/_next/static/immutable/chunks/1gmglumju9ymi.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure"
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://lorenzolottici.it/_next/static/immutable/chunks/1gmglumju9ymi.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure"
+      }
+    ],
+    "exceptions": [],
+    "failed": [],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 63261,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 529,
+      "typography": {
+        "families": [
+          [
+            "archivo",
+            41
+          ],
+          [
+            "jetbrainsMono",
+            8
+          ]
+        ],
+        "weights": [
+          [
+            "500",
+            24
+          ],
+          [
+            "600",
+            17
+          ],
+          [
+            "400",
+            8
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            49
+          ]
+        ],
+        "sizeMin": 13,
+        "sizeMedian": 15,
+        "sizeMax": 42.9,
+        "sizeMaxVw": 11,
+        "scaleRatio": 2.9,
+        "letterSpacingMean": 0.011,
+        "loadedFonts": [
+          {
+            "family": "archivo",
+            "weight": "100 900",
+            "style": "normal"
+          },
+          {
+            "family": "jetbrainsMono",
+            "weight": "400 800",
+            "style": "normal"
+          }
+        ],
+        "variableFont": true,
+        "textElements": 49
+      },
+      "color": {
+        "background": "rgb(7, 7, 7)",
+        "backgroundLuminance": 0.0021246888848418626,
+        "backgrounds": [
+          [
+            "rgb(7, 7, 7)",
+            1498
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(240, 237, 232)",
+            185
+          ],
+          [
+            "rgba(0, 0, 0, 0)",
+            52
+          ]
+        ],
+        "meanSaturation": 0,
+        "rootVars": {
+          "--z-banda": "8000",
+          "--z-parliamone": "9000",
+          "--z-voce-cabina": "9100",
+          "--z-passaggio": "10000",
+          "--z-velo-scritta": "10001",
+          "--z-indice": "2147480000",
+          "--z-salta": "2147480000",
+          "--gutter": "clamp(1.25rem,3.4vw,4rem)",
+          "--corsia-bordo": "4rem",
+          "--tipo-marchio": "clamp(6rem,calc(1.3958rem + 20.463vw),19.8125rem)",
+          "--tipo-display": "clamp(2.75rem,calc(1.2708rem + 6.5741vw),7.1875rem)",
+          "--tipo-titolo": "clamp(2.125rem,calc(1.3125rem + 3.6111vw),4.5625rem)",
+          "--tipo-sottotitolo": "clamp(1.625rem,calc(.8542rem + 3.4259vw),3.9375rem)",
+          "--tipo-servizio": "clamp(1.25rem,calc(1.1042rem + .6481vw),1.6875rem)",
+          "--tipo-lead": "var(--tipo-corpo)",
+          "--tipo-corpo": "clamp(1rem,calc(.9792rem + .0926vw),1.0625rem)",
+          "--tipo-nota": "var(--tipo-corpo)",
+          "--tipo-label": "clamp(.75rem,calc(.7083rem + .1852vw),.875rem)",
+          "--tipo-micro": "var(--tipo-label)",
+          "--lh-hero": "1.04",
+          "--lh-display": ".98",
+          "--lh-titolo": "1.02",
+          "--lh-scheda": "1.06",
+          "--lh-riga": "1.2",
+          "--lh-voce": "1.35",
+          "--lh-corpo": "1.6",
+          "--lh-label": "1.4",
+          "--ls-hero": "-.02em",
+          "--ls-display": "-.03em",
+          "--ls-titolo": "-.025em",
+          "--ls-scheda": "-.02em",
+          "--ls-riga": "-.015em",
+          "--ls-testo": "0",
+          "--ls-label": ".18em",
+          "--wdth-display": "92",
+          "--wdth-titolo": "94",
+          "--wdth-scheda": "96",
+          "--wdth-testo": "100",
+          "--peso-hero": "600",
+          "--peso-display": "600"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 4,
+        "sticky": 6,
+        "fixed": 14,
+        "grid": 4,
+        "flex": 85,
+        "absolute": 62,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 26690,
+        "pages": 31.6,
+        "spacing": [
+          [
+            12,
+            58
+          ],
+          [
+            1,
+            21
+          ],
+          [
+            16,
+            5
+          ],
+          [
+            8,
+            4
+          ],
+          [
+            20,
+            3
+          ],
+          [
+            24,
+            3
+          ],
+          [
+            14,
+            2
+          ],
+          [
+            76,
+            2
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 1,
+        "animationKinds": [
+          "Animation"
+        ],
+        "infiniteAnimations": 1,
+        "animationDurations": [
+          13000
+        ],
+        "easings": [
+          "cubic-bezier(0.16, 1, 0.3, 1)"
+        ],
+        "transitionDurationsMs": [
+          [
+            100,
+            52
+          ],
+          [
+            900,
+            6
+          ],
+          [
+            450,
+            5
+          ],
+          [
+            520,
+            2
+          ],
+          [
+            360,
+            1
+          ]
+        ],
+        "keyframes": [
+          "shimmer",
+          "revealUp",
+          "v2-parte",
+          "v2-arriva",
+          "segno-sorge",
+          "segno-orbita",
+          "segno-scarica",
+          "segno-gira",
+          "segno-segnale",
+          "segno-accende",
+          "segno-blocco",
+          "ic-appare",
+          "ic-cursore",
+          "ic-disegna",
+          "ic-posa",
+          "v2-ricompone",
+          "v2-centro-posa",
+          "v2-scopre",
+          "v2-posa",
+          "invito-filo"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": true
+      },
+      "hiddenElements": 12,
+      "media": {
+        "canvases": [
+          {
+            "w": 682,
+            "h": 1477,
+            "area": 1
+          },
+          {
+            "w": 135,
+            "h": 151,
+            "area": 0.01
+          },
+          {
+            "w": 144,
+            "h": 144,
+            "area": 0.02
+          },
+          {
+            "w": 1,
+            "h": 1,
+            "area": 0
+          }
+        ],
+        "videos": [],
+        "svg": 29,
+        "images": 6,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 4,
+          "2d": 18,
+          "webgl": 1
+        },
+        "raf": 371,
+        "io": 5,
+        "ro": 12,
+        "mo": 6,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Lorenzo Lottici · Order in chaos",
+      "lang": "en",
+      "description": "I bring order to the chaos in your business. Outside, a site people recognize at first glance. Inside, automations and AI agents that work quietly."
+    },
+    "featuresBeforeScroll": {
+      "elements": 566,
+      "canvases": 2,
+      "animations": 27,
+      "hidden": 13
+    },
+    "scrollReveal": 1,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 18249368,
+        "layoutCount": 139,
+        "recalcStyleCount": 398,
+        "scriptDuration": 0.67112,
+        "taskDuration": 62.183557,
+        "nodes": 1154
+      },
+      "timing": {
+        "domContentLoaded": 489,
+        "load": 503,
+        "first-paint": 464,
+        "first-contentful-paint": 464
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 13000,
+        "delay": 2000,
+        "iterations": null,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ic-appare",
+        "duration": 1,
+        "delay": 330,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ic-cursore",
+        "duration": 726,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ic-appare",
+        "duration": 1,
+        "delay": 495,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ic-appare",
+        "duration": 1,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ic-appare",
+        "duration": 1,
+        "delay": 165,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ic-posa",
+        "duration": 700,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ic-appare",
+        "duration": 1,
+        "delay": 594.0000000000001,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ic-appare",
+        "duration": 1,
+        "delay": 561,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ic-disegna",
+        "duration": 1100,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ic-appare",
+        "duration": 1,
+        "delay": 297.00000000000006,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ic-appare",
+        "duration": 1,
+        "delay": 627,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ic-appare",
+        "duration": 1,
+        "delay": 429.00000000000006,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ic-appare",
+        "duration": 1,
+        "delay": 231,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ic-appare",
+        "duration": 1,
+        "delay": 264,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ic-appare",
+        "duration": 1,
+        "delay": 198,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ic-appare",
+        "duration": 1,
+        "delay": 66,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ic-appare",
+        "duration": 1,
+        "delay": 99,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ic-posa",
+        "duration": 700,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ic-appare",
+        "duration": 1,
+        "delay": 33,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ic-appare",
+        "duration": 1,
+        "delay": 462,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ic-appare",
+        "duration": 1,
+        "delay": 660,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ic-appare",
+        "duration": 1,
+        "delay": 363,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ic-appare",
+        "duration": 1,
+        "delay": 396,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ic-appare",
+        "duration": 1,
+        "delay": 693.0000000000001,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ic-appare",
+        "duration": 1,
+        "delay": 132,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ic-appare",
+        "duration": 1,
+        "delay": 528,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.55, 0, 0.75, 0.2)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 450,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 900,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.2, 0.8, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 450,
+        "delay": 160,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 450,
+        "delay": 160,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 450,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 450,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 520,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 450,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.55, 0, 0.75, 0.2)"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0807A113C2B0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0E0390B3C2B0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0501C1A3C2B0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0B02C153C2B0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://lorenzolottici.it/_next/static/immutable/chunks/1gmglumju9ymi.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure"
+      }
+    ],
+    "exceptions": [],
+    "failed": [],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  }
+}

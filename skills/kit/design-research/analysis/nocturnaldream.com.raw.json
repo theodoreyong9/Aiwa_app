@@ -1,0 +1,1599 @@
+{
+  "url": "https://www.nocturnaldream.com/",
+  "at": "2026-10-29T13:10:00.016Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 63018,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 33,
+      "typography": {
+        "families": [
+          [
+            "PP Supply Mono",
+            2
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            2
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            2
+          ]
+        ],
+        "sizeMin": 7.5,
+        "sizeMedian": 7.5,
+        "sizeMax": 7.5,
+        "sizeMaxVw": 0.5,
+        "scaleRatio": 1,
+        "letterSpacingMean": 0,
+        "loadedFonts": [
+          {
+            "family": "PP Supply Mono",
+            "weight": "normal",
+            "style": "normal"
+          },
+          {
+            "family": "PP Formula Condensed Black",
+            "weight": "normal",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 2
+      },
+      "color": {
+        "background": "rgb(2, 2, 3)",
+        "backgroundLuminance": 0.000628968615309901,
+        "backgrounds": [],
+        "texts": [
+          [
+            "rgb(207, 216, 222)",
+            3
+          ],
+          [
+            "rgb(218, 206, 176)",
+            2
+          ]
+        ],
+        "meanSaturation": 0,
+        "rootVars": {
+          "--k": "1"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 3,
+        "sticky": 0,
+        "fixed": 3,
+        "grid": 2,
+        "flex": 3,
+        "absolute": 9,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 900,
+        "pages": 1,
+        "spacing": [
+          [
+            8,
+            2
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            12,
+            1
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 3,
+        "animationKinds": [
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 2,
+        "animationDurations": [
+          600,
+          1800,
+          1800
+        ],
+        "easings": [
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            450,
+            3
+          ]
+        ],
+        "keyframes": [
+          "ldrb",
+          "ldrin",
+          "mzrun"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 2,
+      "media": {
+        "canvases": [
+          {
+            "w": 300,
+            "h": 150,
+            "area": 1
+          },
+          {
+            "w": 1440,
+            "h": 900,
+            "area": 1
+          }
+        ],
+        "videos": [],
+        "svg": 1,
+        "images": 0,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 2,
+          "2d": 81
+        },
+        "raf": 46,
+        "io": 0,
+        "ro": 0,
+        "mo": 1,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "NOCTURNAL — Do you remember your last dream?",
+      "lang": "uk",
+      "description": "Wake up, you're dreaming. An interactive lucid dream: scroll deeper, look closer."
+    },
+    "featuresBeforeScroll": {
+      "elements": 33,
+      "canvases": 2,
+      "animations": 3,
+      "hidden": 2
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 2,
+      "changed": 0
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 47634644,
+        "layoutCount": 61,
+        "recalcStyleCount": 83,
+        "scriptDuration": 3.455017,
+        "taskDuration": 57.487351,
+        "nodes": 2175
+      },
+      "timing": {
+        "domContentLoaded": 182,
+        "load": 240,
+        "first-paint": 192,
+        "first-contentful-paint": 192
+      }
+    },
+    "network": [
+      {
+        "url": "https://www.nocturnaldream.com/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 4889
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 577
+      },
+      {
+        "url": "https://www.nocturnaldream.com/assets/fonts/PPSupplyMono-Regular.woff",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff",
+        "fromCache": false,
+        "bytes": 16667
+      },
+      {
+        "url": "https://www.nocturnaldream.com/js/loader.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4401
+      },
+      {
+        "url": "https://www.nocturnaldream.com/vendor/three.webgpu.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 368574
+      },
+      {
+        "url": "https://www.nocturnaldream.com/js/titles.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 17356
+      },
+      {
+        "url": "https://www.nocturnaldream.com/js/params.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 18869
+      },
+      {
+        "url": "https://www.nocturnaldream.com/js/sound.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 6203
+      },
+      {
+        "url": "https://www.nocturnaldream.com/js/badge.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3742
+      },
+      {
+        "url": "https://www.nocturnaldream.com/js/cursorfx.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4141
+      },
+      {
+        "url": "https://www.nocturnaldream.com/vendor/addons/utils/BufferGeometryUtils.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 7598
+      },
+      {
+        "url": "https://www.nocturnaldream.com/js/soothe.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3709
+      },
+      {
+        "url": "https://www.nocturnaldream.com/js/screenfx.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2071
+      },
+      {
+        "url": "https://www.nocturnaldream.com/assets/fonts/PPFormula-CondensedBlack.otf",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/otf",
+        "fromCache": false,
+        "bytes": 52545
+      },
+      {
+        "url": "https://www.nocturnaldream.com/assets/ui/logo-box.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 7149
+      },
+      {
+        "url": "https://www.nocturnaldream.com/js/main.js?v=1793279335993",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 33428
+      },
+      {
+        "url": "https://www.nocturnaldream.com/js/crow.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4482
+      },
+      {
+        "url": "https://www.nocturnaldream.com/js/dust.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2054
+      },
+      {
+        "url": "https://www.nocturnaldream.com/js/lines.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 868
+      },
+      {
+        "url": "https://www.nocturnaldream.com/js/palette.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3206
+      },
+      {
+        "url": "https://www.nocturnaldream.com/js/painterly.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1602
+      },
+      {
+        "url": "https://www.nocturnaldream.com/js/leaves.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2490
+      },
+      {
+        "url": "https://www.nocturnaldream.com/js/world.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 8142
+      },
+      {
+        "url": "https://www.nocturnaldream.com/js/ball.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 12986
+      },
+      {
+        "url": "https://www.nocturnaldream.com/js/room.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 12718
+      },
+      {
+        "url": "https://www.nocturnaldream.com/js/post.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 7360
+      },
+      {
+        "url": "https://www.nocturnaldream.com/js/console.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 11305
+      },
+      {
+        "url": "https://www.nocturnaldream.com/js/invcursor.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1272
+      },
+      {
+        "url": "https://www.nocturnaldream.com/js/modules.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 18364
+      },
+      {
+        "url": "https://www.nocturnaldream.com/js/crown.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1997
+      },
+      {
+        "url": "https://www.nocturnaldream.com/js/hud.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4674
+      },
+      {
+        "url": "https://www.nocturnaldream.com/js/props.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 10017
+      },
+      {
+        "url": "https://www.nocturnaldream.com/js/decal.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2141
+      },
+      {
+        "url": "https://www.nocturnaldream.com/js/graffiti.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 7773
+      },
+      {
+        "url": "https://www.nocturnaldream.com/vendor/addons/loaders/GLTFLoader.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 25258
+      },
+      {
+        "url": "https://www.nocturnaldream.com/js/church.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 21432
+      },
+      {
+        "url": "https://www.nocturnaldream.com/js/town.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 28702
+      },
+      {
+        "url": "https://www.nocturnaldream.com/js/city.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 12021
+      },
+      {
+        "url": "https://www.nocturnaldream.com/js/pagefx.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4176
+      },
+      {
+        "url": "https://www.nocturnaldream.com/js/micro.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 5334
+      },
+      {
+        "url": "https://www.nocturnaldream.com/assets/crow.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "model/gltf-binary",
+        "fromCache": false,
+        "bytes": 1185748
+      },
+      {
+        "url": "blob:https://www.nocturnaldream.com/9db384e0-811a-4bc2-a05a-9328cff47079",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://www.nocturnaldream.com/6d410e56-dc34-4aa8-87a2-5868f71db8d4",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.nocturnaldream.com/assets/leaves.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "model/gltf-binary",
+        "fromCache": false,
+        "bytes": 227683
+      },
+      {
+        "url": "blob:https://www.nocturnaldream.com/f10f316b-1e3e-4210-98c3-6769a9faac1a",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://www.nocturnaldream.com/b7794145-a8ab-4191-849b-893487983458",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.nocturnaldream.com/assets/table.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "model/gltf-binary",
+        "fromCache": false,
+        "bytes": 1481284
+      },
+      {
+        "url": "https://www.nocturnaldream.com/assets/birch_leaf.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "model/gltf-binary",
+        "fromCache": false,
+        "bytes": 111033
+      },
+      {
+        "url": "https://www.nocturnaldream.com/assets/bush.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "model/gltf-binary",
+        "fromCache": false,
+        "bytes": 92999
+      },
+      {
+        "url": "https://www.nocturnaldream.com/assets/car_old.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "model/gltf-binary",
+        "fromCache": false,
+        "bytes": 810093
+      },
+      {
+        "url": "https://www.nocturnaldream.com/assets/car_low.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "model/gltf-binary",
+        "fromCache": false,
+        "bytes": 337556
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/sedgwickavedisplay/v23/xfuu0XPgU3jZPUoUo3ScvmPi-NapQ8OxM2cz.ttf",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/ttf",
+        "fromCache": false,
+        "bytes": 67853
+      },
+      {
+        "url": "https://www.nocturnaldream.com/js/badge.js",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.nocturnaldream.com/js/ball.js",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.nocturnaldream.com/js/church.js",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.nocturnaldream.com/js/city.js",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.nocturnaldream.com/js/console.js",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.nocturnaldream.com/js/crow.js",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.nocturnaldream.com/js/crown.js",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.nocturnaldream.com/js/cursorfx.js",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.nocturnaldream.com/js/decal.js",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.nocturnaldream.com/js/dust.js",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.nocturnaldream.com/js/graffiti.js",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.nocturnaldream.com/js/hud.js",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.nocturnaldream.com/js/invcursor.js",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.nocturnaldream.com/js/leaves.js",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.nocturnaldream.com/js/lines.js",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.nocturnaldream.com/js/loader.js",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.nocturnaldream.com/js/main.js?v=1793279335993",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.nocturnaldream.com/js/micro.js",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.nocturnaldream.com/js/modules.js",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.nocturnaldream.com/js/pagefx.js",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.nocturnaldream.com/js/painterly.js",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.nocturnaldream.com/js/palette.js",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.nocturnaldream.com/js/params.js",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.nocturnaldream.com/js/post.js",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.nocturnaldream.com/js/props.js",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.nocturnaldream.com/js/room.js",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.nocturnaldream.com/js/screenfx.js",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.nocturnaldream.com/js/soothe.js",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.nocturnaldream.com/js/sound.js",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.nocturnaldream.com/js/titles.js",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.nocturnaldream.com/js/town.js",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.nocturnaldream.com/js/world.js",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.nocturnaldream.com/",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.nocturnaldream.com/assets/ui/words.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 104802
+      },
+      {
+        "url": "https://www.nocturnaldream.com/assets/fonts/PPFormula-CondensedBlack.otf",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 304,
+        "mime": "font/otf",
+        "fromCache": false,
+        "bytes": 105
+      },
+      {
+        "url": "blob:https://www.nocturnaldream.com/e01b1f96-3d9d-4f13-836f-cd4c7372c95a",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://www.nocturnaldream.com/60fce9b4-aaba-481d-b93a-41508085cde1",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://www.nocturnaldream.com/38b9667f-9254-4c22-b12b-3ead1bb2357f",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://www.nocturnaldream.com/8933baa2-b9ea-43e4-b570-66a6512c6b78",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://www.nocturnaldream.com/5a18ae68-fb8e-4bba-828a-2f9e68a27bda",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://www.nocturnaldream.com/81b04c11-9877-48e5-a620-16e3d1aa6377",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://www.nocturnaldream.com/0e6fef41-7c0e-4bbc-8c37-58a1bfde0882",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://www.nocturnaldream.com/4e74a555-939b-4e0d-b4c9-db6680d74630",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://www.nocturnaldream.com/60d628d6-c290-40a6-b227-b0ce1e30e8d2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://www.nocturnaldream.com/41da5bd4-2cd6-41bb-9ce0-09231f5b3c11",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "mzrun",
+        "duration": 1800,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ldrin",
+        "duration": 600,
+        "delay": 900,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "mzrun",
+        "duration": 1800,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "mzrun",
+        "duration": 1800,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "mzrun",
+        "duration": 1800,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A07020003C2E0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x314400128e00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x314400128e00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x314400128e00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x314400128e00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+      },
+      {
+        "level": "warning",
+        "text": "Failed to create WebGPU Context Provider"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0A020003C2E0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read"
+      },
+      {
+        "level": "warning",
+        "text": "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read"
+      },
+      {
+        "level": "warning",
+        "text": "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read"
+      },
+      {
+        "level": "warning",
+        "text": "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read"
+      },
+      {
+        "level": "warning",
+        "text": "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read"
+      },
+      {
+        "level": "warning",
+        "text": "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x3144014bf000] GL_INVALID_OPERATION: glDrawElements: Active draw buffers with missing fragment shader outputs."
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x3144014bf000] GL_INVALID_OPERATION: glDrawElements: Active draw buffers with missing fragment shader outputs."
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x3144014bf000] GL_INVALID_OPERATION: glDrawElements: Active draw buffers with missing fragment shader outputs."
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x3144014bf000] GL_INVALID_OPERATION: glDrawElements: Active draw buffers with missing fragment shader outputs."
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x3144014bf000] GL_INVALID_OPERATION: glDrawElements: Active draw buffers with missing fragment shader outputs."
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x3144014bf000] GL_INVALID_OPERATION: glDrawElements: Active draw buffers with missing fragment shader outputs."
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x3144014bf000] GL_INVALID_OPERATION: glDrawElements: Active draw buffers with missing fragment shader outputs."
+      }
+    ],
+    "exceptions": [],
+    "failed": [],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 3542,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 16,
+      "typography": {
+        "families": [
+          [
+            "PP Supply Mono",
+            2
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            2
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            2
+          ]
+        ],
+        "sizeMin": 10,
+        "sizeMedian": 10,
+        "sizeMax": 10,
+        "sizeMaxVw": 2.6,
+        "scaleRatio": 1,
+        "letterSpacingMean": 0,
+        "loadedFonts": [
+          {
+            "family": "PP Supply Mono",
+            "weight": "normal",
+            "style": "normal"
+          },
+          {
+            "family": "PP Formula Condensed Black",
+            "weight": "normal",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 2
+      },
+      "color": {
+        "background": "rgb(2, 2, 3)",
+        "backgroundLuminance": 0.000628968615309901,
+        "backgrounds": [
+          [
+            "rgb(205, 196, 169)",
+            329
+          ],
+          [
+            "rgb(10, 9, 8)",
+            15
+          ],
+          [
+            "rgb(253, 244, 223)",
+            1
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(207, 216, 222)",
+            7
+          ],
+          [
+            "rgb(253, 244, 223)",
+            3
+          ]
+        ],
+        "meanSaturation": 0.16,
+        "rootVars": {
+          "--k": "1"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 4,
+        "sticky": 0,
+        "fixed": 3,
+        "grid": 0,
+        "flex": 2,
+        "absolute": 3,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 844,
+        "pages": 1,
+        "spacing": [
+          [
+            5,
+            2
+          ],
+          [
+            3,
+            1
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 0,
+        "animationKinds": [],
+        "infiniteAnimations": 0,
+        "animationDurations": [],
+        "easings": [],
+        "transitionDurationsMs": [],
+        "keyframes": [
+          "ldrb",
+          "ldrin",
+          "mzrun"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 0,
+      "media": {
+        "canvases": [
+          {
+            "w": 300,
+            "h": 150,
+            "area": 1
+          },
+          {
+            "w": 780,
+            "h": 1688,
+            "area": 1
+          }
+        ],
+        "videos": [
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://www.nocturnaldream.com/assets/video/crow-mobile.mp4"
+          }
+        ],
+        "svg": 0,
+        "images": 1,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 1,
+          "2d": 81
+        },
+        "raf": 47,
+        "io": 0,
+        "ro": 0,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "NOCTURNAL — Do you remember your last dream?",
+      "lang": "uk",
+      "description": "Wake up, you're dreaming. An interactive lucid dream: scroll deeper, look closer."
+    },
+    "featuresBeforeScroll": {
+      "elements": 16,
+      "canvases": 2,
+      "animations": 0,
+      "hidden": 0
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 16243524,
+        "layoutCount": 9,
+        "recalcStyleCount": 16,
+        "scriptDuration": 0.302108,
+        "taskDuration": 3.245725,
+        "nodes": 367
+      },
+      "timing": {
+        "domContentLoaded": 96,
+        "load": 161,
+        "first-paint": 96,
+        "first-contentful-paint": 400
+      }
+    },
+    "animationsReported": [],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A07020003C2E0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      }
+    ],
+    "exceptions": [],
+    "failed": [],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  }
+}

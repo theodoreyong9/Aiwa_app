@@ -1,0 +1,1639 @@
+{
+  "url": "https://www.janzkak.com/",
+  "at": "2026-10-29T13:01:39.777Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 24378,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 592,
+      "typography": {
+        "families": [
+          [
+            "IBM Plex Mono",
+            66
+          ],
+          [
+            "Righteous",
+            42
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            99
+          ],
+          [
+            "500",
+            9
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            87
+          ]
+        ],
+        "sizeMin": 8.2,
+        "sizeMedian": 12.24,
+        "sizeMax": 306.67,
+        "sizeMaxVw": 21.3,
+        "scaleRatio": 25.1,
+        "letterSpacingMean": 0.134,
+        "loadedFonts": [
+          {
+            "family": "Righteous",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "500",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 108
+      },
+      "color": {
+        "background": "rgb(20, 20, 20)",
+        "backgroundLuminance": 0.006995410187265386,
+        "backgrounds": [
+          [
+            "rgb(17, 17, 17)",
+            20180
+          ],
+          [
+            "rgba(0, 0, 0, 0.25)",
+            3888
+          ],
+          [
+            "rgb(20, 20, 20)",
+            3888
+          ],
+          [
+            "rgb(11, 10, 9)",
+            648
+          ],
+          [
+            "rgb(243, 240, 232)",
+            159
+          ],
+          [
+            "rgb(255, 87, 34)",
+            8
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(238, 243, 246)",
+            219
+          ],
+          [
+            "rgb(29, 28, 26)",
+            42
+          ],
+          [
+            "rgb(156, 176, 191)",
+            33
+          ],
+          [
+            "rgb(255, 87, 34)",
+            21
+          ],
+          [
+            "rgba(29, 28, 26, 0.6)",
+            16
+          ]
+        ],
+        "meanSaturation": 0.18,
+        "rootVars": {
+          "--ink": "#141414",
+          "--slate": "#111111",
+          "--snow": "#eef3f6",
+          "--frost": "#9cb0bf",
+          "--line": "rgba(238, 243, 246, .18)",
+          "--signal": "#ff5722",
+          "--on-signal": "#000000",
+          "--f-display": "\"Righteous\", \"Arial Black\", sans-serif",
+          "--f-body": "var(--f-mono)",
+          "--f-mono": "\"IBM Plex Mono\", ui-monospace, \"SFMono-Regular\", Menlo, monospace",
+          "--gutter": "clamp(16px, 4vw, 64px)",
+          "--t-h2": "clamp(36px, 6.8vw, 130px)",
+          "--t-h2xl": "clamp(40px, 8.4vw, 165px)",
+          "--t-h3": "clamp(26px, 2.8vw, 46px)",
+          "--t-body": "clamp(16px, 1.1vw, 18px)"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 15,
+        "sticky": 26,
+        "fixed": 13,
+        "grid": 20,
+        "flex": 81,
+        "absolute": 84,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 39690,
+        "pages": 44.1,
+        "spacing": [
+          [
+            10,
+            19
+          ],
+          [
+            16,
+            19
+          ],
+          [
+            110,
+            17
+          ],
+          [
+            14,
+            12
+          ],
+          [
+            28,
+            11
+          ],
+          [
+            20,
+            8
+          ],
+          [
+            37,
+            8
+          ],
+          [
+            18,
+            7
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 15,
+        "animationKinds": [
+          "CSSTransition",
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 14,
+        "animationDurations": [
+          1400,
+          1000,
+          9000,
+          900,
+          1000,
+          1200,
+          1000,
+          1000,
+          1000,
+          1000,
+          1000,
+          1000,
+          1000,
+          1200,
+          1200
+        ],
+        "easings": [
+          "ease",
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            300,
+            18
+          ],
+          [
+            250,
+            14
+          ],
+          [
+            350,
+            9
+          ],
+          [
+            600,
+            8
+          ],
+          [
+            400,
+            7
+          ]
+        ],
+        "keyframes": [
+          "grain",
+          "scrollhint-spin",
+          "scrollhint-bob",
+          "rew-blink",
+          "rotate-hint",
+          "eq",
+          "caret",
+          "kenburns",
+          "blink"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 55,
+      "media": {
+        "canvases": [
+          {
+            "w": 320,
+            "h": 200,
+            "area": 1
+          },
+          {
+            "w": 1440,
+            "h": 900,
+            "area": 1
+          },
+          {
+            "w": 1440,
+            "h": 900,
+            "area": 1
+          },
+          {
+            "w": 1440,
+            "h": 900,
+            "area": 1
+          }
+        ],
+        "videos": [
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://www.janzkak.com/assets/video/pov.mp4?v=58ed723651"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          }
+        ],
+        "svg": 11,
+        "images": 23,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl": 1,
+          "2d": 5
+        },
+        "raf": 262,
+        "io": 3,
+        "ro": 2,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": true,
+        "ScrollTrigger": true,
+        "THREE": false,
+        "Lenis": true,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Jani Kurtti (@janzkak) – Mountain Snowmobiler & Content Creator | The Sidewinder Guy",
+      "lang": "en",
+      "description": "Real mountain sledding and adventures straight from Canada's deep snow and the Nordic fells. Follow my journey, my gear and the ride!"
+    },
+    "featuresBeforeScroll": {
+      "elements": 606,
+      "canvases": 4,
+      "animations": 14,
+      "hidden": 59
+    },
+    "scrollReveal": 4,
+    "hover": {
+      "probed": 6,
+      "changed": 0
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 4115300,
+        "layoutCount": 815,
+        "recalcStyleCount": 1011,
+        "scriptDuration": 0.187146,
+        "taskDuration": 1.418525,
+        "nodes": 2456
+      },
+      "timing": {
+        "domContentLoaded": 520,
+        "load": 681,
+        "first-paint": 448,
+        "first-contentful-paint": 448
+      }
+    },
+    "network": [
+      {
+        "url": "https://www.janzkak.com/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 10697
+      },
+      {
+        "url": "https://www.janzkak.com/assets/fonts/righteous-400.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 13063
+      },
+      {
+        "url": "https://www.janzkak.com/assets/fonts/ibm-plex-mono-400.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 15069
+      },
+      {
+        "url": "https://www.janzkak.com/assets/img/hero-helmet.webp?v=60e2702397",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 60003
+      },
+      {
+        "url": "https://www.janzkak.com/assets/css/style.css?v=1f475a22dd",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 11763
+      },
+      {
+        "url": "https://www.janzkak.com/assets/img/logo-jk.png?v=efb1143f2d",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 5561
+      },
+      {
+        "url": "https://www.janzkak.com/assets/img/pov-poster.webp?v=3a6a329b4f",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 164692
+      },
+      {
+        "url": "https://www.janzkak.com/assets/img/signature.png?v=a8adeede6e",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 10240
+      },
+      {
+        "url": "https://www.janzkak.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1026
+      },
+      {
+        "url": "https://www.janzkak.com/assets/js/vendor/gsap-3.12.5.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 29798
+      },
+      {
+        "url": "https://www.janzkak.com/assets/js/vendor/ScrollTrigger-3.12.5.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 18649
+      },
+      {
+        "url": "https://www.janzkak.com/assets/js/vendor/lenis-1.1.13.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4534
+      },
+      {
+        "url": "https://www.janzkak.com/assets/js/i18n.js?v=85f22135ae",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4355
+      },
+      {
+        "url": "https://www.janzkak.com/assets/js/main.js?v=bed49da390",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 16908
+      },
+      {
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 10478
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.janzkak.com/assets/img/logo-jk.png?v=efb1143f2d",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='g'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 .32 0 0 0 0 .25 0 0 0 0 .16 0 0 0 .22 0'/></filter><rect width='100%' height='100%' filter='url(%23g)'/></svg>",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='400'><filter id='f'><feTurbulence type='fractalNoise' baseFrequency='.07 .45' numOctaves='2' seed='9' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 .38 0 0 0 0 .3 0 0 0 0 .19 0 0 0 .34 -.17'/></filter><rect width='100%' height='100%' filter='url(%23f)'/></svg>",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='600' height='600'><filter id='m'><feTurbulence type='fractalNoise' baseFrequency='.008 .02' numOctaves='3' seed='4' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 .45 0 0 0 0 .36 0 0 0 0 .22 0 0 0 .26 -.04'/></filter><rect width='100%' height='100%' filter='url(%23m)'/></svg>",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.janzkak.com/assets/fonts/ibm-plex-mono-500.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 15493
+      },
+      {
+        "url": "https://www.janzkak.com/assets/img/who-poster.webp?v=2c5b336aae",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 108815
+      },
+      {
+        "url": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='480 226 405 247' preserveAspectRatio='none'><filter id='f' x='-10%' y='-10%' width='120%' height='120%'><feGaussianBlur stdDeviation='2'/></filter><path filter='url(%23f)' d='M490 292L492 274L497 262L505 254L518 249L540 246L565 242L640 240L690 238L740 239L790 243L815 245L836 250L857 252L866 256L872 263L875 275L876 290L876 350L875 386L872 404L867 417L859 429L846 440L829 450L810 458L789 463L765 465L748 459L736 451L727 440L717 423L709 409L701 400L685 396L665 400L653 414L644 433L633 448L615 458L590 461L555 456L522 438L500 414L491 390L489 325Z'/></svg>",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.janzkak.com/assets/video/intro.mp4?v=3640fe0902",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://www.janzkak.com/cdn-cgi/rum?",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 451
+      },
+      {
+        "url": "https://www.janzkak.com/assets/video/pov.mp4?v=58ed723651",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "blink",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "grain",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "rew-blink",
+        "duration": 900,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "blink",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "blink",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "width",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.2, 0.8, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "scrollhint-spin",
+        "duration": 9000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "caret",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "caret",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "caret",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "caret",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "caret",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "caret",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "caret",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "caret",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "caret",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0702000FC240000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x2fc0013dc00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x2fc0013dc00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://www.janzkak.com/assets/video/intro.mp4?v=3640fe0902",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.janzkak.com/assets/video/pov.mp4?v=58ed723651",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 7540,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 589,
+      "typography": {
+        "families": [
+          [
+            "IBM Plex Mono",
+            64
+          ],
+          [
+            "Righteous",
+            42
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            97
+          ],
+          [
+            "500",
+            9
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            86
+          ]
+        ],
+        "sizeMin": 8.2,
+        "sizeMedian": 12,
+        "sizeMax": 93.6,
+        "sizeMaxVw": 24,
+        "scaleRatio": 7.8,
+        "letterSpacingMean": 0.134,
+        "loadedFonts": [
+          {
+            "family": "Righteous",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "500",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 106
+      },
+      "color": {
+        "background": "rgb(20, 20, 20)",
+        "backgroundLuminance": 0.006995410187265386,
+        "backgrounds": [
+          [
+            "rgb(17, 17, 17)",
+            5123
+          ],
+          [
+            "rgb(20, 20, 20)",
+            1316
+          ],
+          [
+            "rgba(0, 0, 0, 0.25)",
+            987
+          ],
+          [
+            "rgb(11, 10, 9)",
+            248
+          ],
+          [
+            "rgb(243, 240, 232)",
+            85
+          ],
+          [
+            "rgb(255, 87, 34)",
+            8
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(238, 243, 246)",
+            217
+          ],
+          [
+            "rgb(29, 28, 26)",
+            42
+          ],
+          [
+            "rgb(156, 176, 191)",
+            28
+          ],
+          [
+            "rgb(255, 87, 34)",
+            24
+          ],
+          [
+            "rgba(29, 28, 26, 0.6)",
+            16
+          ]
+        ],
+        "meanSaturation": 0.18,
+        "rootVars": {
+          "--ink": "#141414",
+          "--slate": "#111111",
+          "--snow": "#eef3f6",
+          "--frost": "#9cb0bf",
+          "--line": "rgba(238, 243, 246, .18)",
+          "--signal": "#ff5722",
+          "--on-signal": "#000000",
+          "--f-display": "\"Righteous\", \"Arial Black\", sans-serif",
+          "--f-body": "var(--f-mono)",
+          "--f-mono": "\"IBM Plex Mono\", ui-monospace, \"SFMono-Regular\", Menlo, monospace",
+          "--gutter": "clamp(16px, 4vw, 64px)",
+          "--t-h2": "clamp(36px, 6.8vw, 130px)",
+          "--t-h2xl": "clamp(40px, 8.4vw, 165px)",
+          "--t-h3": "clamp(26px, 2.8vw, 46px)",
+          "--t-body": "clamp(16px, 1.1vw, 18px)"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 15,
+        "sticky": 26,
+        "fixed": 11,
+        "grid": 20,
+        "flex": 82,
+        "absolute": 85,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 37220,
+        "pages": 44.1,
+        "spacing": [
+          [
+            10,
+            31
+          ],
+          [
+            96,
+            18
+          ],
+          [
+            2,
+            17
+          ],
+          [
+            14,
+            14
+          ],
+          [
+            8,
+            14
+          ],
+          [
+            18,
+            11
+          ],
+          [
+            20,
+            6
+          ],
+          [
+            13,
+            6
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 15,
+        "animationKinds": [
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 15,
+        "animationDurations": [
+          1000,
+          9000,
+          1600,
+          900,
+          1000,
+          1200,
+          1000,
+          1000,
+          1000,
+          1000,
+          1000,
+          1000,
+          1000,
+          1200,
+          1200
+        ],
+        "easings": [
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            300,
+            17
+          ],
+          [
+            250,
+            14
+          ],
+          [
+            600,
+            8
+          ],
+          [
+            350,
+            8
+          ],
+          [
+            400,
+            7
+          ]
+        ],
+        "keyframes": [
+          "grain",
+          "scrollhint-spin",
+          "scrollhint-bob",
+          "rew-blink",
+          "rotate-hint",
+          "eq",
+          "caret",
+          "kenburns",
+          "blink"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 53,
+      "media": {
+        "canvases": [
+          {
+            "w": 320,
+            "h": 693,
+            "area": 1
+          },
+          {
+            "w": 585,
+            "h": 1266,
+            "area": 1
+          },
+          {
+            "w": 780,
+            "h": 1688,
+            "area": 1
+          },
+          {
+            "w": 780,
+            "h": 1688,
+            "area": 1
+          }
+        ],
+        "videos": [
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://www.janzkak.com/assets/video/pov-m.mp4?v=23fac512e7"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          }
+        ],
+        "svg": 11,
+        "images": 22,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl": 1,
+          "2d": 5
+        },
+        "raf": 1159,
+        "io": 3,
+        "ro": 2,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": true,
+        "ScrollTrigger": true,
+        "THREE": false,
+        "Lenis": true,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Jani Kurtti (@janzkak) – Mountain Snowmobiler & Content Creator | The Sidewinder Guy",
+      "lang": "en",
+      "description": "Real mountain sledding and adventures straight from Canada's deep snow and the Nordic fells. Follow my journey, my gear and the ride!"
+    },
+    "featuresBeforeScroll": {
+      "elements": 603,
+      "canvases": 4,
+      "animations": 15,
+      "hidden": 60
+    },
+    "scrollReveal": 7,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 3100924,
+        "layoutCount": 978,
+        "recalcStyleCount": 1549,
+        "scriptDuration": 0.246433,
+        "taskDuration": 1.911157,
+        "nodes": 2335
+      },
+      "timing": {
+        "domContentLoaded": 470,
+        "load": 590,
+        "first-paint": 392,
+        "first-contentful-paint": 392
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "blink",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "grain",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "scrollhint-spin",
+        "duration": 9000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "kenburns",
+        "duration": 14000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "rew-blink",
+        "duration": 900,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "blink",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "blink",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "scrollhint-bob",
+        "duration": 1600,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "caret",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "caret",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "caret",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "caret",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "caret",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "caret",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "caret",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "caret",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "caret",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0702000FC240000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x2fc0137d800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x2fc0137d800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://www.janzkak.com/assets/video/intro-m.mp4?v=2c51b66810",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.janzkak.com/assets/video/pov-m.mp4?v=23fac512e7",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  }
+}

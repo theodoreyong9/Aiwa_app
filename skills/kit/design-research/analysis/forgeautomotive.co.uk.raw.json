@@ -1,0 +1,1609 @@
+{
+  "url": "https://forgeautomotive.co.uk/",
+  "at": "2026-10-29T12:56:08.379Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 15531,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 806,
+      "typography": {
+        "families": [
+          [
+            "GeistSans",
+            32
+          ],
+          [
+            "editorial",
+            10
+          ],
+          [
+            "Times New Roman",
+            6
+          ]
+        ],
+        "weights": [
+          [
+            "300",
+            20
+          ],
+          [
+            "600",
+            17
+          ],
+          [
+            "400",
+            7
+          ],
+          [
+            "200",
+            4
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            17
+          ],
+          [
+            "capitalize",
+            6
+          ]
+        ],
+        "sizeMin": 10,
+        "sizeMedian": 18,
+        "sizeMax": 80,
+        "sizeMaxVw": 5.6,
+        "scaleRatio": 4.4,
+        "letterSpacingMean": 0.107,
+        "loadedFonts": [
+          {
+            "family": "GeistSans",
+            "weight": "100 900",
+            "style": "normal"
+          },
+          {
+            "family": "editorial",
+            "weight": "300",
+            "style": "normal"
+          },
+          {
+            "family": "editorial",
+            "weight": "200",
+            "style": "normal"
+          }
+        ],
+        "variableFont": true,
+        "textElements": 48
+      },
+      "color": {
+        "background": "rgb(0, 0, 0)",
+        "backgroundLuminance": 0,
+        "backgrounds": [
+          [
+            "rgb(0, 0, 0)",
+            16016
+          ],
+          [
+            "rgb(12, 12, 12)",
+            13387
+          ],
+          [
+            "rgb(22, 22, 22)",
+            3888
+          ],
+          [
+            "rgb(242, 241, 237)",
+            5
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(255, 255, 255)",
+            488
+          ],
+          [
+            "rgba(0, 0, 0, 0)",
+            23
+          ],
+          [
+            "color(srgb 0.94902 0.945098 0.929412 / 0.8)",
+            13
+          ],
+          [
+            "color(srgb 0.94902 0.945098 0.929412 / 0.55)",
+            6
+          ],
+          [
+            "rgb(12, 12, 12)",
+            1
+          ]
+        ],
+        "meanSaturation": 0.01,
+        "rootVars": {
+          "--page-beat-dur": "1.2s",
+          "--page-leave-dur": "var(--page-beat-dur)",
+          "--page-enter-dur": "var(--page-beat-dur)",
+          "--page-enter-ease": "cubic-bezier(.2, .7, .2, 1)",
+          "--black": "var(--global-black)",
+          "--white": "var(--global-white)",
+          "--bezzy": "var(--easing-bezzy)",
+          "--bezzy2": "var(--easing-bezzy2)",
+          "--bezzy3": "var(--easing-bezzy3)",
+          "--brand-bc1": "#0C0C0C",
+          "--brand-bc2": "#161616",
+          "--brand-bc3": "#410306",
+          "--brand-bc4": "#C5A064",
+          "--brand-bc5": "#F2F1ED",
+          "--global-white": "#ffffff",
+          "--global-black": "#000000",
+          "--feedback-positive": "#3adb76",
+          "--feedback-negative": "#cc4b37",
+          "--feedback-warning": "#face10",
+          "--space-s": "4.8rem",
+          "--space-m": "6rem",
+          "--space-l": "10rem",
+          "--space-xl": "12rem",
+          "--space-col": "calc(8.333vw + 1.8rem)",
+          "--gap-xxs": "0.2rem",
+          "--gap-xs": "0.4rem",
+          "--gap-s": "0.8rem",
+          "--gap-sm": "1.6rem",
+          "--gap-m": "2.4rem",
+          "--gap-l": "3.2rem",
+          "--gap-xl": "4rem",
+          "--gap-xxl": "6.4rem",
+          "--gap-huge": "8rem",
+          "--gap-uber": "9.6rem",
+          "--gap-massive": "12.8rem",
+          "--gap-col": "calc(8.333vw + 1.6rem)",
+          "--br-xs": "0.3rem",
+          "--br-s": "0.6rem",
+          "--br-m": "1.2rem",
+          "--br-l": "1.8rem"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 6,
+        "sticky": 6,
+        "fixed": 7,
+        "grid": 35,
+        "flex": 50,
+        "absolute": 92,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 900,
+        "pages": 1,
+        "spacing": [
+          [
+            16,
+            21
+          ],
+          [
+            8,
+            16
+          ],
+          [
+            1,
+            14
+          ],
+          [
+            24,
+            12
+          ],
+          [
+            32,
+            11
+          ],
+          [
+            11,
+            4
+          ],
+          [
+            136,
+            3
+          ],
+          [
+            64,
+            3
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 16,
+        "animationKinds": [
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 16,
+        "animationDurations": [
+          20000,
+          20000,
+          4500,
+          4500,
+          4500,
+          4500,
+          4500,
+          4500,
+          4500,
+          4500,
+          4500,
+          4500,
+          4500,
+          4500,
+          4500,
+          4500
+        ],
+        "easings": [
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            500,
+            319
+          ],
+          [
+            600,
+            23
+          ],
+          [
+            300,
+            19
+          ],
+          [
+            1000,
+            4
+          ],
+          [
+            250,
+            1
+          ]
+        ],
+        "keyframes": [
+          "page-fade-in",
+          "next-build-dim",
+          "next-build-rise",
+          "next-build-dim-lite",
+          "next-build-fade-out",
+          "next-build-fade-in",
+          "gradient-angle",
+          "shimmer",
+          "logoMarquee"
+        ],
+        "viewTransitionCss": true,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 19,
+      "media": {
+        "canvases": [],
+        "videos": [],
+        "svg": 11,
+        "images": 61,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {},
+        "raf": 304,
+        "io": 49,
+        "ro": 23,
+        "mo": 20,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Bespoke Vehicle Builds & Styling | Forge Automotive",
+      "lang": "en-GB",
+      "description": "A luxury automotive atelier for bespoke styling, performance and craftsmanship — one-off Defender, G63, Range Rover, Urus and 911 builds."
+    },
+    "featuresBeforeScroll": {
+      "elements": 806,
+      "canvases": 0,
+      "animations": 16,
+      "hidden": 23
+    },
+    "scrollReveal": 4,
+    "hover": {
+      "probed": 6,
+      "changed": 0
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 9898396,
+        "layoutCount": 87,
+        "recalcStyleCount": 589,
+        "scriptDuration": 0.215244,
+        "taskDuration": 0.766576,
+        "nodes": 1776
+      },
+      "timing": {
+        "domContentLoaded": 2580,
+        "load": 2737,
+        "first-paint": 2440,
+        "first-contentful-paint": 2440
+      }
+    },
+    "network": [
+      {
+        "url": "https://forgeautomotive.co.uk/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 50948
+      },
+      {
+        "url": "https://forgeautomotive.co.uk/_next/static/media/Geist_Variable-s.p.0mrjj4bg00-he.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 69785
+      },
+      {
+        "url": "https://forgeautomotive.co.uk/_next/static/media/light-s.p.1q4b3b-dtiu5n.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 24446
+      },
+      {
+        "url": "https://forgeautomotive.co.uk/_next/static/media/ultralight-s.p.0zgba-tqx_tb1.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 24505
+      },
+      {
+        "url": "https://forgeautomotive.co.uk/_next/static/media/ultralight_italic-s.p.2aups5f54pqez.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 38676
+      },
+      {
+        "url": "https://cdn.forgeautomotive.media/images/ed72g2cx/production/1ebe90ab77d2912275ef15f9ba86fe2fea1f451f-2880x3600.jpg?auto=format&fit=max&w=1920",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 118738
+      },
+      {
+        "url": "https://forgeautomotive.co.uk/_next/static/chunks/2fdd_lc5jd195.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 513
+      },
+      {
+        "url": "https://forgeautomotive.co.uk/_next/static/chunks/19rhlcx2srev9.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 644
+      },
+      {
+        "url": "https://forgeautomotive.co.uk/_next/static/chunks/2cf1_565uvy1t.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1657
+      },
+      {
+        "url": "https://forgeautomotive.co.uk/_next/static/chunks/431bw722fec3m.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3882
+      },
+      {
+        "url": "https://forgeautomotive.co.uk/_next/static/chunks/1y75lk0sxsiyl.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 7007
+      },
+      {
+        "url": "https://forgeautomotive.co.uk/_next/static/chunks/0-4srap-ffvu1.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 62561
+      },
+      {
+        "url": "https://forgeautomotive.co.uk/_next/static/chunks/2bk5_69g8bfis.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 40757
+      },
+      {
+        "url": "https://forgeautomotive.co.uk/_next/static/chunks/0_sa0502a_zms.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 8501
+      },
+      {
+        "url": "https://forgeautomotive.co.uk/_next/static/chunks/turbopack-09j_a0p3oj5e6.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3871
+      },
+      {
+        "url": "https://forgeautomotive.co.uk/_next/static/chunks/1czk5und2ee0h.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3786
+      },
+      {
+        "url": "https://forgeautomotive.co.uk/_next/static/chunks/2772al7eqiee0.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 6739
+      },
+      {
+        "url": "https://forgeautomotive.co.uk/_next/static/chunks/34aqkfuuzo3a7.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 12602
+      },
+      {
+        "url": "https://forgeautomotive.co.uk/_next/static/chunks/13hs12i04jhzv.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 10489
+      },
+      {
+        "url": "https://forgeautomotive.co.uk/_next/static/chunks/2ojz0fep8owih.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 9011
+      },
+      {
+        "url": "https://forgeautomotive.co.uk/_next/static/chunks/1kbz4hbel73gu.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 14135
+      },
+      {
+        "url": "https://forgeautomotive.co.uk/_next/static/chunks/22ymdas6yekr_.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 20434
+      },
+      {
+        "url": "https://forgeautomotive.co.uk/_next/static/chunks/1glnxab0mgbi5.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 10973
+      },
+      {
+        "url": "https://forgeautomotive.co.uk/_next/static/chunks/14jsbfibrjnyd.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 26674
+      },
+      {
+        "url": "https://forgeautomotive.co.uk/_next/static/chunks/1z9v243o494gl.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 7412
+      },
+      {
+        "url": "https://forgeautomotive.co.uk/_next/static/chunks/0d9ps84vi-m0d.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 11738
+      },
+      {
+        "url": "https://forgeautomotive.co.uk/_next/static/chunks/1mv-tcvyyul86.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 12702
+      },
+      {
+        "url": "https://forgeautomotive.co.uk/_next/static/chunks/41t5q7-2d5l5y.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 25678
+      },
+      {
+        "url": "https://forgeautomotive.co.uk/_next/static/chunks/12_wxj0s5v3a7.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3069
+      },
+      {
+        "url": "https://forgeautomotive.co.uk/_next/static/chunks/293a_lz_sqwm6.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 12969
+      },
+      {
+        "url": "https://forgeautomotive.co.uk/_next/static/chunks/250q5s2dhqsps.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3181
+      },
+      {
+        "url": "https://forgeautomotive.co.uk/ActiveFrame.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3778
+      },
+      {
+        "url": "https://forgeautomotive.co.uk/images/forged-carbon.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 34421
+      },
+      {
+        "url": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAZABQDASIAAhEBAxEB/8QAGgAAAgIDAAAAAAAAAAAAAAAAAAQDBQECB//EACYQAAEEAQQABgMAAAAAAAAAAAEAAgMEBRESIUEGFSMxMlE0YYH/xAAWAQEBAQAAAAAAAAAAAAAAAAADAgT/xAAaEQEBAAMBAQAAAAAAAAAAAAABAAIRQTEy/9oADAMBAAIRAxEAPwDgTslLcyL7b5TuILQO9qpqmPkyGUFSvpue/hzuNB9lODCzsBlL3Na3nd9LWlPLSux2Ymtc5nvu7H7QhrydyMvqfydXDY60aoBsOjADpN3Bd3ohO+beGLHqWsWWTH5BrjpqhRt6MmseJL5/KNMLKlfTQfIjsqjmlDI9oPPajn/L/qgse5TBZloC7UkoWAhXTf/Z",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAQABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAYDBAUH/8QAIxAAAgEDBAEFAAAAAAAAAAAAAQIEAAMFBhETIVEiMTJBYf/EABQBAQAAAAAAAAAAAAAAAAAAAAP/xAAZEQACAwEAAAAAAAAAAAAAAAAAAQIREhP/2gAMAwEAAhEDEQA/AOv6ovTI2MM3GsrcILMpPTLtVTS8qblMRbkZCNw3G9u/kPNLF/KZN8QY2LRTYKG3wOnex/a1MPlMpAjx40uNY4FQKpDercfVEpUxXG0ML2SGoqNZ95lBMRu/BopuoeD/2Q==",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAPABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAcIBf/EACQQAAICAgIBAwUAAAAAAAAAAAECAwQABRExBgcSwRMVITJR/8QAFAEBAAAAAAAAAAAAAAAAAAAAA//EABoRAAMAAwEAAAAAAAAAAAAAAAABAhEhQTH/2gAMAwEAAhEDEQA/AFL4ZadCsurvCvNGQZK0v6sP6uPHSeo32mD22Ss4UA8RHkEfGLvwv075qG1ccQRuv4YH3OfgZi7zQxap2+jalZ1flm65HPWDeODRr0q/U+V6zY0ksJIFDdgno4ZIlu41adki2VhV74AIww1TEcLjP//Z",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAPABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAYBBQcJ/8QAJBAAAQMDBAEFAAAAAAAAAAAAAQIDBAAFEQYHEiFhExRBUWL/xAAWAQEBAQAAAAAAAAAAAAAAAAACAQP/xAAXEQEBAQEAAAAAAAAAAAAAAAARAAFB/9oADAMBAAIRAxEAPwBGtW9mrOY5ymnPypA7q/sO816XeGlSlq9tkeoleOOPFYc881hYazlI7P2amJPcKmjzOQam4zTt0NtziZ8CPKYUFNPIC0keaKWNqp6p2grS+oFOWgB38Cig2hf/2Q==",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://cdn.forgeautomotive.media/images/ed72g2cx/production/8f648e094847c376b6b560dfe9f0e9d6e0ce2fed-216x270.jpg?w=640&q=85&fit=max&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 8177
+      },
+      {
+        "url": "https://cdn.forgeautomotive.media/images/ed72g2cx/production/0288035a4aa68ca32da6fc23258d68e5d64d6119-216x270.jpg?w=640&q=85&fit=max&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 7154
+      },
+      {
+        "url": "https://cdn.forgeautomotive.media/images/ed72g2cx/production/e782a9a843ea48782e06daf1fbb95fb60d0a1a77-216x270.jpg?w=640&q=85&fit=max&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 7704
+      },
+      {
+        "url": "https://cdn.forgeautomotive.media/images/ed72g2cx/production/8b80ab77e6e599ccf253d8d0928e0542363f10a5-216x270.jpg?w=640&q=85&fit=max&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 13091
+      },
+      {
+        "url": "https://cdn.forgeautomotive.media/images/ed72g2cx/production/63662a78dca265f912de70e8af02611ae6185428-216x270.jpg?w=640&q=85&fit=max&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 10858
+      },
+      {
+        "url": "https://cdn.forgeautomotive.media/images/ed72g2cx/production/63e0cfeb21911e7f46f7892a0fcdc4c56ab5a06f-216x270.jpg?w=640&q=85&fit=max&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 10237
+      },
+      {
+        "url": "https://cdn.forgeautomotive.media/images/ed72g2cx/production/8d385d32be7a6f0eb6b8b207fcba594d172238ef-216x270.jpg?w=640&q=85&fit=max&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 8184
+      },
+      {
+        "url": "https://cdn.forgeautomotive.media/images/ed72g2cx/production/2bb9c0275c1fd738b3d8d6eab67da5371f4ff30c-216x270.jpg?w=640&q=85&fit=max&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 15667
+      },
+      {
+        "url": "https://cdn.forgeautomotive.media/images/ed72g2cx/production/116085dcd0540b42fceb7cdeaf7ac1a05f3bb44d-216x270.jpg?w=640&q=85&fit=max&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 8199
+      },
+      {
+        "url": "https://cdn.forgeautomotive.media/images/ed72g2cx/production/4ffe9f6ba94c0cc2c4a25a0d11e825835a551928-216x270.jpg?w=640&q=85&fit=max&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 9687
+      },
+      {
+        "url": "https://cdn.forgeautomotive.media/images/ed72g2cx/production/f8d59368625dc7aff0ad2e12090b4d21de46a6db-120x28.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 4344
+      },
+      {
+        "url": "https://cdn.forgeautomotive.media/images/ed72g2cx/production/ee044cb181426da11c16900ce4913af0f62d75be-120x42.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1633
+      },
+      {
+        "url": "https://cdn.forgeautomotive.media/images/ed72g2cx/production/1bbcee87beeb24ad727d42d93b98c616db92f466-120x38.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 9846
+      },
+      {
+        "url": "https://cdn.forgeautomotive.media/images/ed72g2cx/production/38ec1f867d581d9d61ddb5eab753ba8c1c5389f6-120x10.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1963
+      },
+      {
+        "url": "https://cdn.forgeautomotive.media/images/ed72g2cx/production/761e4964ae0fe091a0b91929b167daf8feea9d43-52x60.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 7068
+      },
+      {
+        "url": "https://cdn.forgeautomotive.media/images/ed72g2cx/production/904b299c410141aa875f4f014aeb013989ecc835-115x60.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 2801
+      },
+      {
+        "url": "https://cdn.forgeautomotive.media/images/ed72g2cx/production/1ae29c489c262e30eeef1b5f2c27aea51088455a-740x740.jpg?w=1480&q=85&fit=max&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 116070
+      },
+      {
+        "url": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAkABQDASIAAhEBAxEB/8QAGgABAQACAwAAAAAAAAAAAAAAAAUEBgIDCP/EACcQAAIBAwMEAAcAAAAAAAAAAAECAwAEERIhMQUTImEUIzJBQ1HR/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/APN8St3e2FQHjBb+Vmq0ajZCCpwzxtqAPsVx6iLezke4tsSSzqCoH4yeam2TmyzcTBtTjCr+/dBcaCFyGmt9bEfUg2IpWTaypBFpikJQ+Qz9silBAmDWpHxA0yngDfaqU9rY3adw3U6nSBh4uPQqY9ldXUpaNlklU+S6hkVtCO88K3fVPltCgGy4yRwKDBkmtYQiBsgKN8YpUW4lWeZ5JD5MaUHV0m3SWVCxbJbGxxVDrM0gdogx7ajIGaUoNfZjk70pSg//2Q==",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsSAAALEgHS3X78AAADHklEQVQ4jY2U204cRxCGqw/V1T19mO2Z7pnZ2QOEXfBCAOPAEgIYbBBJrJgLR45Q3v9Fohnsa+dXXXS19KmqVPoL4P+JfZcQQkrBOWeM/ZgRgitEpRQqlIMGWIgfwYJzTRScnZTBOUtEUkr+WvQbyYANMaSMMT4ECM4UYrA2xVhXMXinieRYbiS+i3PGOX+dRIxdoRAGsQ5h0TbLru2rWNvCIRrOCZgCQAA5BqCUhqi0RW1ttrYtTEc0M2Yvxp+n04vlYjufn6S0Z+0MVcNFZqwGmAB4ADBad2V5nPL5JF76cO38rQs3rrxy4TrG+7Z937bnMW6K4idFcylnQvScTwE6AAje76b6LFbnptgq+o30fRkfU3tr/VbRO9LH2my0WY3klIuG847zXcaOgEEb43HTnMXJivSOEPuojn15UqWVNjPGOsanSAsbZoVNEivGIoOasR3Gz4SEdc5/9v3ntjlzboN4i/oD2QtlDrhcApsB61EtfFiG0BvTosxStiiXSm2I4LTrnvv+c11fOXdH+iuar1L/zvGWiQvgb4EdC/nO2vd19TFVt5Py0rvb4J9CeLYOfumnz/P5p5Q/luWzL/+x/ou2f5F5QnUn8EbISyG32txPyqdcPVbxvgx/lOGLDy/GwrbvXxbLv6v0WLhH6x+df7DuobAPpvhA5l7RFdKpUkdEh5o2RAeIG8RDiRsh4Xpn+e9y92WSPml7p8yW9KmiI4lHiBuJb6Q8EHJf4mp8bITcMLFivGcsA8BmPvt1vnjf9Xd1vimHVb81xaGiNeLOuNWO84bzlvMF5/tCHDKxZjwDCwDQpHreT1fL5Xo+X3fdm647SHk/xnVZ7nm3NGamVCNlLUQaeHHK5QmXmTHFAJyzk0mZUqpTXVVVk3Obc9fkvsl9TtMY2xCyLSqja6I9RVukE4E1Y8gAiJTWVBhjtNaarC2ctWUZUqpzzimlqopl8MH72vu5dTukExcEwAfTCo4oFY5GH32FKIlUURTOOT/KOuu9j2UZrC1IqfGSDPZkbHDla/Zq81eTSimJSCkabghKUqr41tzwjaP+A881RNvY45joAAAAAElFTkSuQmCC",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAZABQDASIAAhEBAxEB/8QAGwAAAQQDAAAAAAAAAAAAAAAAAAEDBQYCBAf/xAAnEAABBAECBQQDAAAAAAAAAAABAAIDBAURIRIiMUFxBhMVM0ZRgf/EABYBAQEBAAAAAAAAAAAAAAAAAAEAAv/EABgRAQEBAQEAAAAAAAAAAAAAAAARASEx/9oADAMBAAIRAxEAPwDieT9RXrtOxFXi4IeHnLjqSFX6VUvfA17SXAaknsE/avyzSivFEII3ncHqVu4hjZshM6PXQcoKzmRv1FywRmV2rw3fYA9kJM1A75B4haGsG25QqCs7mSjE8nstZzN0DupClsGWU8dJYcdwNf6qa/7T5Vm/HHeUi9QNy3LYndISf0hNM6HyhKf/2Q==",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAZABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAUGBwj/xAAoEAABAwMDAwMFAAAAAAAAAAABAAIDBAURBhMhBxIyMUFRMzRCYXH/xAAVAQEBAAAAAAAAAAAAAAAAAAAEA//EABoRAQADAQEBAAAAAAAAAAAAAAEAAhEDIRL/2gAMAwEAAhEDEQA/AKcsHUjUdBKzaqTM0fjIMhW/pLq8y4SxUl9pGQbhDRNG7IB/YWerQwhwLfLGQpJc4dqipqjsax8kZLg3jODwSo9KUXMlqWsG7NGXGFjqouaQWuAII90JB01rZLrpGkqKx2ZRmPJ+B6IRE+XIkdNmaqI1InY6KInHGAppbrHdL0OIiGPAB3He3wEnsnkxXBo76Mf9S+ts9heZvkZaV0pcrbZooIZGxtyXdodnkoU/ovt2oQnorFlQn//Z",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAZABQDASIAAhEBAxEB/8QAGQAAAwADAAAAAAAAAAAAAAAAAAMEAQUI/8QAJBAAAQMEAQQDAQAAAAAAAAAAAgEDBAAFERIxEyFRYSI1cUP/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oADAMBAAIRAxEAPwDm+yNDMmtNbAwB/FTLhPdX3iNbYh9OLKkOoi426Woqvqo4U523wnTYFpVJdUUhyqflUNX9iQ0AXNgnemuwKC47+F9VQlSs44Qkl7Y78c0VBNmDJlOPaIO65QU4RPFFKFCW0bTPK5TNPhRY+CKcZtjrkNRzstRfzSr5H1cT9WoMqzb0Xs+ePYUVri5ooP/Z",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAZABQDASIAAhEBAxEB/8QAGQABAQADAQAAAAAAAAAAAAAAAAUCBAYH/8QAIxAAAgICAQQCAwAAAAAAAAAAAQIAAwQRMQUhI1EScRM0Qf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A8PuvvwMaynGY1m8aZhyR6nNW0M1uiwB9mX+tV3XXVfiO+2gu+DJRS2u8eFRYo8inhh7ga46UzDZsG/qJgMi1SwU6XfYExAq9Sd7WrspJDA9yDI9+Rmm0s5YnjepSHEfyUQrHLOTZv5RGV+w/3Eg//9k=",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAZABQDASIAAhEBAxEB/8QAGQAAAwADAAAAAAAAAAAAAAAAAAUGAwQH/8QAJxAAAQMDAwMEAwAAAAAAAAAAAQIDBAAFEQYSMSFBURMUInE0coH/xAAXAQEBAQEAAAAAAAAAAAAAAAAEAgED/8QAHxEAAQMEAwEAAAAAAAAAAAAAAAECBAMRISIFEjET/9oADAMBAAIRAxEAPwDm8O1Q37eqXbAzsR0KVc/2pd1xqVNMFmE0XnVbNwJ+Pk1sWqPLaTvZcQltYwQV4z9020/ppyVLEyK7lSScgdetcGKPlR/muPBTJ0hcmnlIipTIaHC0cGink+FeocpbTbriU84BxRVbBdSVm3qIvPt2A0nsM5NFn1VcIPqNQXi0HPFTCeazwfzWf2Fa2k1vgmRyFaQlnrgdTLhd5L6nVSXVE9yTRTxvg/dFVcJ1P//Z",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/png;base64,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",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAoCAYAAAD+MdrbAAAACXBIWXMAAAsSAAALEgHS3X78AAAKGklEQVRIiX2WeXAVRR7He7pnenpm3hxv7ne/hAQCISyKWO66uyqHqBxiIZdmIQETFhaMBwgCGhEJIRKRFUGEcAQQAYWIKMohHuuqBWKVoutZitc/ixq2tlYpmP5tzTO1ZW1tbVd9qrt//etv/aa75luN0H+1ZoQwIIRPICStQSjRjpC9DCGvGSG/BSGnGSFjN0J0N0IkzkX/r8VJrQiZKyntvYqQK7dgPOEJjBs6ZXn2Vlmesw3jGR0ITW4jZFgrpX1XIWTFe/6XlrAeIWk3QpmtlF7fqqgrWxk7uJOQE88RcupZWf5wfwwhH2zH+GQLY4eWMnX1ekrHbUIo14wQjTV++ZliK2P5nRhP3ylJB5Zo2tdzE4l/tatqtJWx6ACl0X5Kow7GolZFiW5L6D8u1vVvN0vSCxswnjEfoWKs8Z8za0wk3NsM4+bVinpok6J232klL4xxXD7S83iT4/CnGON7mMJnOQ4fEccdlzfZzoXHVO1sq6oenalptfWJRHzOGDUiJI237UvHptNbG7K5M/eHqWhemOJTXQ+u9X1oCEJ4RlFhn6JBfRDAtZ4HUx0Xbg/T/J4wHU3P5c6MTWe33uw4g+NjQ00IWfWWVTsxnz9xS+8+5xf2quSrMll4QjegzbRgqevBUUWFw4oGS1wPHjRM6NQNaE1nYX55BZ/Wu8/5CfnC8VuSycnxhaJ2hDIPMbZgveN+1lHWK2qv7MO3pzPwjqLAy0yBLsOEE5TBccpgn27AMVmBNxUVNmYy8GCvSr6hWB496rifrGTsjjaEQrRUlss6JLnlL7rx1Sv5YrS2ojfv8nz4WKLwKZHgA0mGj7BY4j2RwodEhHepDDv9ANaU9eLHMrnoiGF+sY7RexchlEMjfb/8VsNq25F0v+nK5qNHCmX8RcOEzzGB0wKBTwUCfyuB4SOBwGcCKYl2mRY8nCvwrkw26nDc07OS5pLrLKuAKn2//DrXXXGv632zLkxHfw5DfkRR4SQm8BKR4GmRQqcoldgjSnCYiPAWIfCsqkF7GPK1YSqa7/mnR3jefYOSyTwaIMtl43StZZFhfrXcdqNlSZuvYQrcR2WYomowStdhiK7DVYkEXKdpMEXToJkxeEjV4D7b4cttJ1pgWJ+PM4x7LmEsh65GKDdXFO9pp+zzBboRjdcNPkTVoG8iAaFpgmOaYOk6mIkEJHUdUqYJ1YYBV+kGjDctvlg3olWUfXIXFeeOQCiFRiMULBPFpjWS9PEtqsr7JHRwDAMsywLTskA3DFBVtUQiFrYsSFoWuJYVC/PZiho9KkrvL5Nww9UI2egK07RaZbl+FZXfu4kxnjEMsF0XAt8Hz3XBjAUVpYRhGOA4Tilu2TYUdINPYwp/mMon72ds0m8cpKPB6bQz1zQblijK+xMYg7xhcNfzIAwC8H0fbMsCQ9dLxFU7tg2u40AymYRyTeN1MouWKso7t1pWbXkyaaKqqqrhI4rFtVNN89vRTOEFTQPTNEsbYoGYeBwTx41EAnQtRoMKxmAiY7zesr4cki+2V1VV/RpV9a5aeml5+aFrLOv7YYzxCkUBO5GAwDAgq+uQ1zQoS+hQbhhQUDVIUQqWKIIlSlBNKYxmLLo2mfz7oPLyZ6uq+t2BKvJltVfabtsYSj8dQSmPRYcrCoxXVWhQVJgty9BEKTRRGWZJFOpECa4nBIYSEeL8MVQ6f4Msn7rc85ZVlFXciC5ynPSfMJ70B4zfHiVKMI/KfLNEoYuI8CIR4QghcAQTOCIQOIQJHMQE9mICHaIEt1PKx4riuUZBeLmRkLEFzwtjP2QtCI2pF4Tj14giXypR/iqR4KSA4W0Bw3EBw1sChjd7+uM98fgvWkhlfr0o/tQkCIeXIzSkX+zcqxGSVyI0qgHjt4aIEl8oSTyu6g0Bw+sChtcEAV4VBHilh9cEXFp7nkhwq0T5KFH86W5BOPgYQr+/InbtZoTUdkLGzcD4xBBJ4ndIlB/ApLT5WA8vCQIc7SEex2t7iQiNlPKRknRuMcaH1xIyJDZrtAChZAvG9Y2EvDdUkvgcSYK9GMMRQYAXBQFeEAQ4+Avi+WFBgF2EwLSfBS8sIuSN1YSMHo+QUnLsZozrZhDy7nBK+WxKYRfG8JwgwH5BgC5BgH2/IJ4fEATYRgjUxWdI6YWFGL++EpFRUxFiaDxCicUYT5hFyNujKI3mUMp3YgzPCAI8LQiwJ66mh90981h0CyFQTymfLNFzzVg8sgKhoaVLGYyQcxfGDfMIOTVRpnwOY9AhirANY9hECGwgBB7r4fF4jjF0YgLrJAkaqMwbJfn8A5j8dS5CNwQIaXGFZc2EtCwn5KvpshxNVxQ+lzH4oyzDNEWBOlWFWsZKTFUUmMoYzJJlmMcYTGcKn0/l6BFR/HARxnOGI+SjVkmr3kLpxk2i9N3tVI4mahqPDbWPrkO5ZUHRsiCraSWKpglFw4Dq2Gx1HaYoKm+jNOqS6Jedsnz/IsYKaLNpDtyrqjt2UXr2AUqjOk3jg00TAtsGP3acIPjZG00TXNcFx3UhbVlwpWHAbEXhGyiNjsryN89rWtsWw+iF1pvmxU+q6pN7KP3HRkr53aoKl+s6+MkkpFIpyGWzP1uZ50EqDCG2tti1R2satCkKf4rS6JAsf7tfVVd2GkYFWmOaAzsVZcduSTq7h1L+kKLA0NhtbBtS6TQU8vmScBAEkEmnwfN9yFoW3KRpsJkp/DlJit8+X+/UtBVrTbMctWpa9XrGNu6UpO+elqRojaLwkbF1xRtzOSgWCpDJZEqicR+EIZTZNkzTddimKPwZSYp2SdIX6xi7t5mxPLrTNMtWSNLybaL49T5RjB6XZX6jrkPB8yCTzUJZsQiFYhFy+XxJMK6wIpmEmYkEPCHLfK8oXugg4qn7RHFm/GBCwyor+85JJO5+hLGP90g02kRlXptIQC/HgXSYgmIuB2WFAhRyOcimUuC7LvQzTWhSVdhBKd9B6bllsvxmnWVN/V1VVQr1LyurvcLzNtYlk6cX6vr5uxI6H21avNK2ecHzeXkYligGAc97Hs/YNu9nWXySbvAFiQS/U9d/vNGyTl0Whq01lZW/Q2nfb8l63olK1/1njeueH+C6US/biTKuG+WDMCqGqagQBFHO96Os50Vp14nSyWTU23aiGseJ+tr2+aLjnE277tGs79+MPMdZmvK8EynPO5MOgu/SQfB96Lo/pDyvO59Odxczme5COn02H4bduTDszvh+d2A73aHn/VDK9bzvA8c549v2Mdd1J6O8543r4/stNWG4cWAq1TEwk9lcEwRba4Kg8+Jsdtsludz2Qbncjosyme0D0+ntA1Kpbf19v3NAEGwZmEptrgnDTf18f2Ol6y7O2PZlaEAQ+MMymcpxuVz1lFyuujab7d/oZ2sas9mamZnMgNmZ4q9mlMiUiOONvl8zLZvtH+dOCnLV48Ow3299v3xQMmn+G8P16lhW4wS6AAAAAElFTkSuQmCC",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/png;base64,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",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://cdn.forgeautomotive.media/images/ed72g2cx/production/da57e5f387ccdbcac3a5062687c96077cce58732-2880x2234.jpg?auto=format&fit=max&w=1920",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 50634
+      },
+      {
+        "url": "https://cdn.forgeautomotive.media/images/ed72g2cx/production/7e3618f8e7e2adade4756571eb45bc5b269c945f-2880x2174.jpg?auto=format&fit=max&w=1920",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 72542
+      },
+      {
+        "url": "https://cdn.forgeautomotive.media/images/ed72g2cx/production/6ae234c0882d982601f3c56bb5949218746831a5-2880x2218.jpg?auto=format&fit=max&w=1920",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 135872
+      },
+      {
+        "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsSAAALEgHS3X78AAACBElEQVQokU2Py08TYRTFx7mP79mZtvQ15RFa1FIQCq2NWnkFQimtNZUO2iIIJEIao9GtkTXqUl2iK/9R0woJyVmc5N7fOTnOuAv3Xai52HHFEaoj1h1SDZAhyo9kL9n/qWJXXuq3n/5lEhcceQ3yCdAUgA/g5F1YcrF+h/qoToQ5kfZYmFMyn9h+Ff6Viv+1yT9+5oeXulSxz2jPXdl2ueRiBsApuFB1sQ7cZd1T9kDaYzbvyHzhyDcZ/W7GLiKJD/HMWWrybSwz0NH3ZN6AWkfOIzn3XCgjbbBsCNVi1UbRQdkne2bip7FgLz21m5sLqxuHq7vd4nJ3LN1TtiXUEomAyJlBWiSukdgUuh6JNscyzWC6NT3Xmq3slFe3V5vd9uGgNzjfDdt359a8aFXKGeY4oUJwppGKgBXkDT/RKZRePtoM11vh9ov9ne5+Y7/XfHVU3zt4uNKezNUi3qzggMgiEAIiOFmAPOA8ibVEED6o9MsrYelxZ77yvLDwLFdoTOS2kkHN2EWiPGIa0SLwiBzCCYAswAziktJP/fiaH68Zr6rMMssS8QJxkTiHmEVMIPgI8oYcwgYgCpAcRYwDTIxMBiAFmGaeMDawNibYJ/QQza3aISwRFIKGodTQo0QQCIJQMXlae1prZo1gRrX/117DegTfzrstIpREElEBKLh5g+vrPwfjRfMzM5fuAAAAAElFTkSuQmCC",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAYHBAX/xAAhEAACAQQCAgMAAAAAAAAAAAABAgMABAUhERIGIjFRYf/EABYBAQEBAAAAAAAAAAAAAAAAAAIAAf/EABcRAQEBAQAAAAAAAAAAAAAAABEAASH/2gAMAwEAAhEDEQA/AI14hYm3y6lApMfs3B54pq8oz1zmcW8QtgRFos2uBUhtsndQSmSKVlc6JBrXc5y9ltxG0h6kb381dWWbgF2VwbTqJI+nU/tFLKZG6ReqSsB9A0VrG//Z",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAANABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAQFCP/EAB0QAAIDAAMBAQAAAAAAAAAAAAECAAMREiExE4H/xAAVAQEBAAAAAAAAAAAAAAAAAAABAP/EABcRAQEBAQAAAAAAAAAAAAAAAAARASH/2gAMAwEAAhEDEQA/AOWvi4QOR0YrpexwiqeR8EvpZePak/soN2sGzGHhBjDknWTbRZU/F1IMSu+wu+sScGdmJB//2Q==",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://cdn.forgeautomotive.media/files/ed72g2cx/production/1edf555085ef9a6ae1dde1a1bbc3ea6ff806db34.af",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 3071101
+      },
+      {
+        "url": "https://cdn.forgeautomotive.media/files/ed72g2cx/production/91db00e119f225ab9a13743fb569175afd125f02.af",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 2732642
+      },
+      {
+        "url": "https://cdn.forgeautomotive.media/images/ed72g2cx/production/da57e5f387ccdbcac3a5062687c96077cce58732-2880x2234.jpg?auto=format&fit=max&w=640",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 11646
+      },
+      {
+        "url": "https://forgeautomotive.co.uk/_next/static/chunks/2r_ua74b-d3q7.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2859
+      },
+      {
+        "url": "https://forgeautomotive.co.uk/_next/static/chunks/0rkga1utnwcf3.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 27874
+      },
+      {
+        "url": "https://forgeautomotive.co.uk/_next/static/chunks/438s292xvyzcm.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 8657
+      },
+      {
+        "url": "https://forgeautomotive.co.uk/_next/static/chunks/2-m-faob1sepz.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 7348
+      },
+      {
+        "url": "https://forgeautomotive.co.uk/_next/static/chunks/3tkg1z0jirgcp.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 11025
+      },
+      {
+        "url": "https://forgeautomotive.co.uk/legal/?_rsc=5CB68i4pnAekjehf",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 2037
+      },
+      {
+        "url": "https://ed72g2cx.api.sanity.io/v2026-06-01/data/live/events/production?tag=next-loader.live.cache-components",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/event-stream",
+        "fromCache": false
+      },
+      {
+        "url": "https://forgeautomotive.co.uk/legal/?_rsc=_RAOuKqXBeEF6qRH",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 17369
+      },
+      {
+        "url": "https://forgeautomotive.co.uk/_next/static/chunks/3tfujoaltpyxn.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 969
+      },
+      {
+        "url": "https://forgeautomotive.co.uk/_next/static/chunks/15i3lvj4chs0r.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 8814
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      }
+    ],
+    "console": [],
+    "exceptions": [],
+    "failed": [],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 3704,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 806,
+      "typography": {
+        "families": [
+          [
+            "GeistSans",
+            31
+          ],
+          [
+            "editorial",
+            10
+          ],
+          [
+            "Times New Roman",
+            6
+          ]
+        ],
+        "weights": [
+          [
+            "300",
+            20
+          ],
+          [
+            "600",
+            16
+          ],
+          [
+            "400",
+            7
+          ],
+          [
+            "200",
+            4
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            16
+          ],
+          [
+            "capitalize",
+            6
+          ]
+        ],
+        "sizeMin": 9,
+        "sizeMedian": 16,
+        "sizeMax": 36,
+        "sizeMaxVw": 9.2,
+        "scaleRatio": 2.3,
+        "letterSpacingMean": 0.112,
+        "loadedFonts": [
+          {
+            "family": "GeistSans",
+            "weight": "100 900",
+            "style": "normal"
+          },
+          {
+            "family": "editorial",
+            "weight": "300",
+            "style": "normal"
+          },
+          {
+            "family": "editorial",
+            "weight": "200",
+            "style": "normal"
+          }
+        ],
+        "variableFont": true,
+        "textElements": 47
+      },
+      "color": {
+        "background": "rgb(0, 0, 0)",
+        "backgroundLuminance": 0,
+        "backgrounds": [
+          [
+            "rgb(12, 12, 12)",
+            3703
+          ],
+          [
+            "rgb(0, 0, 0)",
+            1841
+          ],
+          [
+            "rgb(22, 22, 22)",
+            913
+          ],
+          [
+            "rgb(242, 241, 237)",
+            4
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(255, 255, 255)",
+            473
+          ],
+          [
+            "rgba(0, 0, 0, 0)",
+            17
+          ],
+          [
+            "color(srgb 0.94902 0.945098 0.929412 / 0.8)",
+            13
+          ],
+          [
+            "color(srgb 0.94902 0.945098 0.929412 / 0.55)",
+            6
+          ],
+          [
+            "rgb(12, 12, 12)",
+            1
+          ]
+        ],
+        "meanSaturation": 0.01,
+        "rootVars": {
+          "--page-beat-dur": "1.2s",
+          "--page-leave-dur": "var(--page-beat-dur)",
+          "--page-enter-dur": "var(--page-beat-dur)",
+          "--page-enter-ease": "cubic-bezier(.2, .7, .2, 1)",
+          "--black": "var(--global-black)",
+          "--white": "var(--global-white)",
+          "--bezzy": "var(--easing-bezzy)",
+          "--bezzy2": "var(--easing-bezzy2)",
+          "--bezzy3": "var(--easing-bezzy3)",
+          "--brand-bc1": "#0C0C0C",
+          "--brand-bc2": "#161616",
+          "--brand-bc3": "#410306",
+          "--brand-bc4": "#C5A064",
+          "--brand-bc5": "#F2F1ED",
+          "--global-white": "#ffffff",
+          "--global-black": "#000000",
+          "--feedback-positive": "#3adb76",
+          "--feedback-negative": "#cc4b37",
+          "--feedback-warning": "#face10",
+          "--space-s": "4.8rem",
+          "--space-m": "6rem",
+          "--space-l": "10rem",
+          "--space-xl": "12rem",
+          "--space-col": "calc(8.333vw + 1.8rem)",
+          "--gap-xxs": "0.2rem",
+          "--gap-xs": "0.4rem",
+          "--gap-s": "0.8rem",
+          "--gap-sm": "1.6rem",
+          "--gap-m": "2.4rem",
+          "--gap-l": "3.2rem",
+          "--gap-xl": "4rem",
+          "--gap-xxl": "6.4rem",
+          "--gap-huge": "8rem",
+          "--gap-uber": "9.6rem",
+          "--gap-massive": "12.8rem",
+          "--gap-col": "calc(8.333vw + 1.6rem)",
+          "--br-xs": "0.3rem",
+          "--br-s": "0.6rem",
+          "--br-m": "1.2rem",
+          "--br-l": "1.8rem"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 6,
+        "sticky": 5,
+        "fixed": 5,
+        "grid": 36,
+        "flex": 49,
+        "absolute": 80,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 844,
+        "pages": 1,
+        "spacing": [
+          [
+            16,
+            21
+          ],
+          [
+            24,
+            19
+          ],
+          [
+            8,
+            16
+          ],
+          [
+            1,
+            14
+          ],
+          [
+            32,
+            8
+          ],
+          [
+            80,
+            6
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            64,
+            3
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 16,
+        "animationKinds": [
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 16,
+        "animationDurations": [
+          20000,
+          20000,
+          4500,
+          4500,
+          4500,
+          4500,
+          4500,
+          4500,
+          4500,
+          4500,
+          4500,
+          4500,
+          4500,
+          4500,
+          4500,
+          4500
+        ],
+        "easings": [
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            500,
+            319
+          ],
+          [
+            600,
+            23
+          ],
+          [
+            300,
+            18
+          ],
+          [
+            1000,
+            4
+          ],
+          [
+            250,
+            1
+          ]
+        ],
+        "keyframes": [
+          "page-fade-in",
+          "next-build-dim",
+          "next-build-rise",
+          "next-build-dim-lite",
+          "next-build-fade-out",
+          "next-build-fade-in",
+          "gradient-angle",
+          "shimmer",
+          "logoMarquee"
+        ],
+        "viewTransitionCss": true,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 20,
+      "media": {
+        "canvases": [],
+        "videos": [],
+        "svg": 11,
+        "images": 61,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {},
+        "raf": 305,
+        "io": 49,
+        "ro": 9,
+        "mo": 20,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Bespoke Vehicle Builds & Styling | Forge Automotive",
+      "lang": "en-GB",
+      "description": "A luxury automotive atelier for bespoke styling, performance and craftsmanship — one-off Defender, G63, Range Rover, Urus and 911 builds."
+    },
+    "featuresBeforeScroll": {
+      "elements": 806,
+      "canvases": 0,
+      "animations": 16,
+      "hidden": 23
+    },
+    "scrollReveal": 3,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 8903220,
+        "layoutCount": 69,
+        "recalcStyleCount": 365,
+        "scriptDuration": 0.158126,
+        "taskDuration": 0.428573,
+        "nodes": 2051
+      },
+      "timing": {
+        "domContentLoaded": 1136,
+        "load": 1334,
+        "first-paint": 996,
+        "first-contentful-paint": 996
+      }
+    },
+    "animationsReported": [],
+    "console": [],
+    "exceptions": [],
+    "failed": [],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  }
+}

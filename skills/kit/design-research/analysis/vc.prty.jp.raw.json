@@ -1,0 +1,2115 @@
+{
+  "url": "https://vc.prty.jp/",
+  "at": "2026-10-29T13:07:42.391Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 113657,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 172,
+      "typography": {
+        "families": [
+          [
+            "tt-commons-pro",
+            14
+          ],
+          [
+            "a-otf-midashi-go-mb31-pr6n",
+            4
+          ],
+          [
+            "Inter",
+            3
+          ]
+        ],
+        "weights": [
+          [
+            "600",
+            10
+          ],
+          [
+            "500",
+            6
+          ],
+          [
+            "700",
+            3
+          ],
+          [
+            "400",
+            2
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            1
+          ]
+        ],
+        "sizeMin": 10,
+        "sizeMedian": 16,
+        "sizeMax": 200,
+        "sizeMaxVw": 13.9,
+        "scaleRatio": 12.5,
+        "letterSpacingMean": -0.032,
+        "loadedFonts": [
+          {
+            "family": "Inter",
+            "weight": "100 900",
+            "style": "normal"
+          },
+          {
+            "family": "tt-commons-pro",
+            "weight": "700",
+            "style": "normal"
+          },
+          {
+            "family": "tt-commons-pro",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "tt-commons-pro",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "a-otf-midashi-go-mb31-pr6n",
+            "weight": "600",
+            "style": "normal"
+          },
+          {
+            "family": "a-otf-midashi-go-mb31-pr6n",
+            "weight": "600",
+            "style": "normal"
+          },
+          {
+            "family": "a-otf-midashi-go-mb31-pr6n",
+            "weight": "600",
+            "style": "normal"
+          },
+          {
+            "family": "a-otf-midashi-go-mb31-pr6n",
+            "weight": "600",
+            "style": "normal"
+          },
+          {
+            "family": "a-otf-midashi-go-mb31-pr6n",
+            "weight": "600",
+            "style": "normal"
+          },
+          {
+            "family": "a-otf-midashi-go-mb31-pr6n",
+            "weight": "600",
+            "style": "normal"
+          }
+        ],
+        "variableFont": true,
+        "textElements": 21
+      },
+      "color": {
+        "background": "rgb(241, 241, 241)",
+        "backgroundLuminance": 0.8796223968878317,
+        "backgrounds": [
+          [
+            "rgb(241, 241, 241)",
+            1555
+          ],
+          [
+            "rgb(255, 255, 255)",
+            539
+          ],
+          [
+            "rgb(221, 196, 196)",
+            71
+          ],
+          [
+            "rgb(222, 222, 222)",
+            68
+          ],
+          [
+            "rgb(32, 32, 32)",
+            39
+          ]
+        ],
+        "texts": [
+          [
+            "lab(2.75381 0 0)",
+            64
+          ],
+          [
+            "rgb(255, 255, 255)",
+            29
+          ],
+          [
+            "rgba(0, 0, 0, 0)",
+            12
+          ],
+          [
+            "rgb(241, 241, 241)",
+            2
+          ],
+          [
+            "rgb(134, 134, 134)",
+            1
+          ]
+        ],
+        "meanSaturation": 0.02,
+        "rootVars": {
+          "--vw": "calc(100vw / 393)",
+          "--background": "#fff",
+          "--foreground": "#0a0a0a",
+          "--card": "#fff",
+          "--card-foreground": "#0a0a0a",
+          "--popover": "#fff",
+          "--popover-foreground": "#0a0a0a",
+          "--primary": "#171717",
+          "--primary-foreground": "#fafafa",
+          "--secondary": "#f5f5f5",
+          "--secondary-foreground": "#171717",
+          "--muted": "#f5f5f5",
+          "--muted-foreground": "#737373",
+          "--accent": "#f5f5f5",
+          "--accent-foreground": "#171717",
+          "--destructive": "#e40014",
+          "--border": "#e5e5e5",
+          "--input": "#e5e5e5",
+          "--ring": "#a1a1a1",
+          "--chart-1": "#d4d4d4",
+          "--chart-2": "#737373",
+          "--chart-3": "#525252",
+          "--chart-4": "#404040",
+          "--chart-5": "#262626",
+          "--radius": ".625rem",
+          "--sidebar": "#fafafa",
+          "--sidebar-foreground": "#0a0a0a",
+          "--sidebar-primary": "#171717",
+          "--sidebar-primary-foreground": "#fafafa",
+          "--sidebar-accent": "#f5f5f5",
+          "--sidebar-accent-foreground": "#171717",
+          "--sidebar-border": "#e5e5e5",
+          "--sidebar-ring": "#a1a1a1"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 9,
+        "sticky": 2,
+        "fixed": 4,
+        "grid": 0,
+        "flex": 21,
+        "absolute": 32,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 9901,
+        "pages": 11,
+        "spacing": [
+          [
+            4,
+            6
+          ],
+          [
+            24,
+            2
+          ],
+          [
+            10,
+            1
+          ],
+          [
+            44,
+            1
+          ],
+          [
+            20,
+            1
+          ],
+          [
+            11,
+            1
+          ],
+          [
+            32,
+            1
+          ],
+          [
+            64,
+            1
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 0,
+        "animationKinds": [],
+        "infiniteAnimations": 0,
+        "animationDurations": [],
+        "easings": [],
+        "transitionDurationsMs": [
+          [
+            100,
+            6
+          ],
+          [
+            250,
+            1
+          ],
+          [
+            200,
+            1
+          ],
+          [
+            150,
+            1
+          ]
+        ],
+        "keyframes": [
+          "enter",
+          "exit"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 0,
+      "media": {
+        "canvases": [
+          {
+            "w": 2880,
+            "h": 1800,
+            "area": 1
+          },
+          {
+            "w": 665,
+            "h": 580,
+            "area": 0.3
+          },
+          {
+            "w": 665,
+            "h": 580,
+            "area": 0.3
+          },
+          {
+            "w": 342,
+            "h": 56,
+            "area": 0.01
+          },
+          {
+            "w": 402,
+            "h": 61,
+            "area": 0.02
+          },
+          {
+            "w": 536,
+            "h": 475,
+            "area": 0.2
+          },
+          {
+            "w": 1440,
+            "h": 90,
+            "area": 0.1
+          },
+          {
+            "w": 84,
+            "h": 32,
+            "area": 0
+          },
+          {
+            "w": 174,
+            "h": 32,
+            "area": 0
+          },
+          {
+            "w": 152,
+            "h": 32,
+            "area": 0
+          },
+          {
+            "w": 136,
+            "h": 32,
+            "area": 0
+          },
+          {
+            "w": 144,
+            "h": 32,
+            "area": 0
+          },
+          {
+            "w": 128,
+            "h": 32,
+            "area": 0
+          },
+          {
+            "w": 1440,
+            "h": 900,
+            "area": 1
+          }
+        ],
+        "videos": [],
+        "svg": 0,
+        "images": 5,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "2d": 158,
+          "webgl2": 2
+        },
+        "raf": 560,
+        "io": 65,
+        "ro": 32,
+        "mo": 2,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "PARTY STARTUP STUDIO FUND",
+      "lang": "ja",
+      "description": "起業家とともに「未来の体験」をつくる創業・シード特化型VC"
+    },
+    "featuresBeforeScroll": {
+      "elements": 160,
+      "canvases": 13,
+      "animations": 0,
+      "hidden": 0
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 6,
+      "changed": 0
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 17856648,
+        "layoutCount": 59,
+        "recalcStyleCount": 107,
+        "scriptDuration": 27.851873,
+        "taskDuration": 111.913228,
+        "nodes": 1375
+      },
+      "timing": {
+        "domContentLoaded": 609,
+        "load": 700,
+        "first-paint": 352,
+        "first-contentful-paint": 636
+      }
+    },
+    "network": [
+      {
+        "url": "https://vc.prty.jp/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 8104
+      },
+      {
+        "url": "https://vc.prty.jp/_next/static/media/83afe278b6a6bb3c-s.p.0q-301v4kxxnr.woff2?dpl=dpl_2ckFwVR7HNxJ2gVxbmH8spv7Twaj",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 48697
+      },
+      {
+        "url": "https://vc.prty.jp/_next/static/chunks/054_yfscwshx4.css?dpl=dpl_2ckFwVR7HNxJ2gVxbmH8spv7Twaj",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 14106
+      },
+      {
+        "url": "https://vc.prty.jp/_next/static/chunks/0hkdb982chs.y.js?dpl=dpl_2ckFwVR7HNxJ2gVxbmH8spv7Twaj",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 9645
+      },
+      {
+        "url": "https://vc.prty.jp/_next/static/chunks/090~fvud_dp_4.js?dpl=dpl_2ckFwVR7HNxJ2gVxbmH8spv7Twaj",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 20202
+      },
+      {
+        "url": "https://vc.prty.jp/_next/static/chunks/00nvzi6qb_-1r.js?dpl=dpl_2ckFwVR7HNxJ2gVxbmH8spv7Twaj",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 72321
+      },
+      {
+        "url": "https://vc.prty.jp/_next/static/chunks/08nqnwvixoxnk.js?dpl=dpl_2ckFwVR7HNxJ2gVxbmH8spv7Twaj",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 29910
+      },
+      {
+        "url": "https://vc.prty.jp/_next/static/chunks/turbopack-0vebyyb8mdjm~.js?dpl=dpl_2ckFwVR7HNxJ2gVxbmH8spv7Twaj",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4741
+      },
+      {
+        "url": "https://vc.prty.jp/_next/static/chunks/01.5dfb-6zkpj.js?dpl=dpl_2ckFwVR7HNxJ2gVxbmH8spv7Twaj",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 7522
+      },
+      {
+        "url": "https://vc.prty.jp/_next/static/chunks/0g.vpn_2vu~-1.js?dpl=dpl_2ckFwVR7HNxJ2gVxbmH8spv7Twaj",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 11439
+      },
+      {
+        "url": "https://vc.prty.jp/_next/static/chunks/09bgnkjqoekd-.js?dpl=dpl_2ckFwVR7HNxJ2gVxbmH8spv7Twaj",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 15464
+      },
+      {
+        "url": "https://vc.prty.jp/_next/static/chunks/0d3shmwh5_nmn.js?dpl=dpl_2ckFwVR7HNxJ2gVxbmH8spv7Twaj",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 13544
+      },
+      {
+        "url": "https://vc.prty.jp/_next/static/chunks/0cviuk78lk6n~.js?dpl=dpl_2ckFwVR7HNxJ2gVxbmH8spv7Twaj",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 9546
+      },
+      {
+        "url": "https://vc.prty.jp/_next/static/chunks/0lwne.r63i6ni.js?dpl=dpl_2ckFwVR7HNxJ2gVxbmH8spv7Twaj",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 11826
+      },
+      {
+        "url": "https://vc.prty.jp/_next/static/chunks/0ckdp5r.a68e5.js?dpl=dpl_2ckFwVR7HNxJ2gVxbmH8spv7Twaj",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 413651
+      },
+      {
+        "url": "https://vc.prty.jp/_next/static/chunks/0ymr44oshfn5l.js?dpl=dpl_2ckFwVR7HNxJ2gVxbmH8spv7Twaj",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 43010
+      },
+      {
+        "url": "https://vc.prty.jp/_next/static/chunks/05jncy3ubsk8s.js?dpl=dpl_2ckFwVR7HNxJ2gVxbmH8spv7Twaj",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 15376
+      },
+      {
+        "url": "https://use.typekit.net/kbv3mfz.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 978
+      },
+      {
+        "url": "https://use.typekit.net/cnl3zkh.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 47307
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-9HVJEBSXTE",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 181408
+      },
+      {
+        "url": "https://p.typekit.net/p.css?s=1&k=kbv3mfz&ht=tk&f=53556.53557.53560.53561&a=88132140&app=typekit&e=css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 172
+      },
+      {
+        "url": "https://use.typekit.net/af/9c1c8e/00000000000000007760a903/31/l?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=n5&v=3",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/font-woff2",
+        "fromCache": false,
+        "bytes": 19166
+      },
+      {
+        "url": "https://use.typekit.net/af/7c0d12/00000000000000007760a907/31/l?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=n7&v=3",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/font-woff2",
+        "fromCache": false,
+        "bytes": 19860
+      },
+      {
+        "url": "https://vc.prty.jp/logo.svg",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 2570
+      },
+      {
+        "url": "https://vc.prty.jp/logo-legacy.svg",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 3300
+      },
+      {
+        "url": "https://vc.prty.jp/footer-group-41.svg",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1842
+      },
+      {
+        "url": "https://vc.prty.jp/logo-legacy.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 73
+      },
+      {
+        "url": "https://vc.prty.jp/logo.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 73
+      },
+      {
+        "url": "https://vc.prty.jp/footer-group-41.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 73
+      },
+      {
+        "url": "https://vc.prty.jp/contact?type=meeting&_rsc=1r34m",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 905
+      },
+      {
+        "url": "https://vc.prty.jp/contact?_rsc=1r34m",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 689
+      },
+      {
+        "url": "https://vc.prty.jp/company?_rsc=1r34m",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 725
+      },
+      {
+        "url": "https://vc.prty.jp/portfolio?_rsc=1r34m",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 726
+      },
+      {
+        "url": "https://p.typekit.net/p.gif?s=1&k=cnl3zkh&ht=tk&h=vc.prty.jp&f=26145&a=5993138&js=1.14.0&app=typekit&e=js&_=1793279129836",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 205
+      },
+      {
+        "url": "https://use.typekit.net/af/91d278/00000000000000007735a7af/30/m?features=ALL&v=4&chunks=15.273&order=0",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "font/opentype",
+        "fromCache": false,
+        "bytes": 824449
+      },
+      {
+        "url": "https://use.typekit.net/af/c845fc/00000000000000007760a90e/31/l?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=n4&v=3",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/font-woff2",
+        "fromCache": false,
+        "bytes": 19201
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-9HVJEBSXTE&gtm=45je6ar1v9253801711za208zd9253801711xf1&_p=1793279129803&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1791817167.1793279130&frm=0&ngs=1&pscdl=noapi&rcb=10&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=1&tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&sid=1793279129&sct=1&seg=0&dl=https%3A%2F%2Fvc.prty.jp%2F&dt=PARTY%20STARTUP%20STUDIO%20FUND&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=865",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false
+      },
+      {
+        "url": "https://vc.prty.jp/_next/static/chunks/18bzl68.zg.2c.js?dpl=dpl_2ckFwVR7HNxJ2gVxbmH8spv7Twaj",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2442
+      },
+      {
+        "url": "https://vc.prty.jp/fund?_rsc=1r34m",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 724
+      },
+      {
+        "url": "https://vc.prty.jp/contact?type=meeting&_rsc=1pn8p",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 929
+      },
+      {
+        "url": "https://vc.prty.jp/contact?type=meeting&_rsc=nn07o",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 1319
+      },
+      {
+        "url": "https://vc.prty.jp/contact?type=meeting&_rsc=15leq",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 1327
+      },
+      {
+        "url": "https://vc.prty.jp/_next/static/chunks/0s04.6mx9zqli.js?dpl=dpl_2ckFwVR7HNxJ2gVxbmH8spv7Twaj",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1335
+      },
+      {
+        "url": "https://vc.prty.jp/_next/static/chunks/10en8uss4d_s5.js?dpl=dpl_2ckFwVR7HNxJ2gVxbmH8spv7Twaj",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 413834
+      },
+      {
+        "url": "https://vc.prty.jp/contact?type=meeting&_rsc=2pd54",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 1069
+      },
+      {
+        "url": "https://vc.prty.jp/contact?type=meeting&_rsc=1262n",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 890
+      },
+      {
+        "url": "https://vc.prty.jp/company?_rsc=1pn8p",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 954
+      },
+      {
+        "url": "https://vc.prty.jp/company?_rsc=1yjl3",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 1016
+      },
+      {
+        "url": "https://vc.prty.jp/_next/static/chunks/0q9~9kxm.5yat.js?dpl=dpl_2ckFwVR7HNxJ2gVxbmH8spv7Twaj",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4942
+      },
+      {
+        "url": "https://vc.prty.jp/_next/static/chunks/0y10jhzkrw-8r.js?dpl=dpl_2ckFwVR7HNxJ2gVxbmH8spv7Twaj",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 15442
+      },
+      {
+        "url": "https://vc.prty.jp/_next/static/chunks/04vccd32q23_3.js?dpl=dpl_2ckFwVR7HNxJ2gVxbmH8spv7Twaj",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 11456
+      },
+      {
+        "url": "https://vc.prty.jp/company?_rsc=yijrr",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 3116
+      },
+      {
+        "url": "https://vc.prty.jp/portfolio?_rsc=1pn8p",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 1001
+      },
+      {
+        "url": "https://vc.prty.jp/portfolio?_rsc=6v5jx",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 1014
+      },
+      {
+        "url": "https://vc.prty.jp/portfolio?_rsc=yjzih",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 6204
+      },
+      {
+        "url": "https://vc.prty.jp/fund?_rsc=1pn8p",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 954
+      },
+      {
+        "url": "https://vc.prty.jp/fund?_rsc=19oq0",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 1018
+      },
+      {
+        "url": "https://vc.prty.jp/_next/static/chunks/17bxx.233l3l0.js?dpl=dpl_2ckFwVR7HNxJ2gVxbmH8spv7Twaj",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 5721
+      },
+      {
+        "url": "https://vc.prty.jp/fund?_rsc=rvk4j",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 5045
+      },
+      {
+        "url": "https://vc.prty.jp/_next/static/chunks/03kb1yrcrepb0.js?dpl=dpl_2ckFwVR7HNxJ2gVxbmH8spv7Twaj",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 7117
+      },
+      {
+        "url": "https://vc.prty.jp/images/top_message.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 328284
+      },
+      {
+        "url": "https://use.typekit.net/af/91d278/00000000000000007735a7af/30/m?features=ALL&v=4&chunks=351.374.396.415&state=15.273&order=0",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/x-typekit-augmentation",
+        "fromCache": false,
+        "bytes": 256538
+      },
+      {
+        "url": "https://vc.prty.jp/logo-legacy.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 127
+      },
+      {
+        "url": "https://vc.prty.jp/images/fund/overview.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 917
+      },
+      {
+        "url": "https://vc.prty.jp/images/fund/fund.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 611
+      },
+      {
+        "url": "https://use.typekit.net/af/91d278/00000000000000007735a7af/30/m?features=ALL&v=4&chunks=272.356.358.364.439&state=15.273.351.374.396.415&order=0",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/x-typekit-augmentation",
+        "fromCache": false,
+        "bytes": 371349
+      },
+      {
+        "url": "https://vc.prty.jp/footer-group-40.svg?dpl=dpl_2ckFwVR7HNxJ2gVxbmH8spv7Twaj",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1872
+      },
+      {
+        "url": "https://vc.prty.jp/images/assets/01.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 313869
+      },
+      {
+        "url": "https://vc.prty.jp/images/assets/02.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 320216
+      },
+      {
+        "url": "https://vc.prty.jp/images/assets/03.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 330922
+      },
+      {
+        "url": "https://vc.prty.jp/images/assets/04.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 281395
+      },
+      {
+        "url": "https://vc.prty.jp/images/assets/logo-01.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 5875
+      },
+      {
+        "url": "https://vc.prty.jp/images/assets/logo-02.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 5079
+      },
+      {
+        "url": "https://vc.prty.jp/images/assets/logo-03.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 9130
+      },
+      {
+        "url": "https://vc.prty.jp/images/assets/logo-04.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 8269
+      },
+      {
+        "url": "https://use.typekit.net/af/91d278/00000000000000007735a7af/30/m?features=ALL&v=4&chunks=327&state=15.272.273.351.356.358.364.374.396.415.439&order=0",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/x-typekit-augmentation",
+        "fromCache": false,
+        "bytes": 173520
+      },
+      {
+        "url": "https://vc.prty.jp/images/arrow.svg?dpl=dpl_2ckFwVR7HNxJ2gVxbmH8spv7Twaj",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 523
+      },
+      {
+        "url": "https://vc.prty.jp/arrow-sp.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 357
+      },
+      {
+        "url": "https://vc.prty.jp/arrow-pc.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 346
+      },
+      {
+        "url": "https://vc.prty.jp/arrow-sp-small.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 367
+      },
+      {
+        "url": "https://vc.prty.jp/arrow-pc-small.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 403
+      },
+      {
+        "url": "https://use.typekit.net/af/91d278/00000000000000007735a7af/30/m?features=ALL&v=4&chunks=376&state=15.272.273.327.351.356.358.364.374.396.415.439&order=0",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/x-typekit-augmentation",
+        "fromCache": false,
+        "bytes": 168957
+      },
+      {
+        "url": "https://use.typekit.net/af/91d278/00000000000000007735a7af/30/m?features=ALL&v=4&chunks=271&state=15.272.273.327.351.356.358.364.374.376.396.415.439&order=0",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/x-typekit-augmentation",
+        "fromCache": false,
+        "bytes": 207342
+      },
+      {
+        "url": "https://vc.prty.jp/images/portfolio/top/logo-01.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 2366
+      },
+      {
+        "url": "https://vc.prty.jp/images/portfolio/top/logo-02.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1403
+      },
+      {
+        "url": "https://vc.prty.jp/images/portfolio/top/logo-03.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1132
+      },
+      {
+        "url": "https://vc.prty.jp/images/portfolio/top/logo-04.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 3046
+      },
+      {
+        "url": "https://vc.prty.jp/images/portfolio/top/logo-05.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1910
+      },
+      {
+        "url": "https://vc.prty.jp/images/portfolio/top/logo-06.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 3191
+      },
+      {
+        "url": "https://vc.prty.jp/images/portfolio/top/logo-07.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 6551
+      },
+      {
+        "url": "https://vc.prty.jp/images/portfolio/top/logo-08.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 9838
+      },
+      {
+        "url": "https://vc.prty.jp/images/portfolio/top/logo-09.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1157
+      },
+      {
+        "url": "https://vc.prty.jp/images/portfolio/top/logo-10.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 5536
+      },
+      {
+        "url": "https://vc.prty.jp/images/portfolio/top/logo-11.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 3286
+      },
+      {
+        "url": "https://vc.prty.jp/images/portfolio/top/logo-12.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 3844
+      },
+      {
+        "url": "https://vc.prty.jp/images/portfolio/top/logo-13.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1241
+      },
+      {
+        "url": "https://vc.prty.jp/images/portfolio/top/logo-14.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 2738
+      },
+      {
+        "url": "https://vc.prty.jp/images/portfolio/top/logo-15.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 6056
+      },
+      {
+        "url": "https://vc.prty.jp/images/portfolio/top/logo-16.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1379
+      },
+      {
+        "url": "https://vc.prty.jp/images/portfolio/top/logo-17.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1499
+      },
+      {
+        "url": "https://vc.prty.jp/images/portfolio/top/logo-18.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1806
+      },
+      {
+        "url": "https://vc.prty.jp/images/portfolio/top/logo-19.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 3891
+      },
+      {
+        "url": "https://vc.prty.jp/images/portfolio/top/logo-20.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 5382
+      },
+      {
+        "url": "https://vc.prty.jp/images/portfolio/top/logo-21.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1064
+      },
+      {
+        "url": "https://vc.prty.jp/images/portfolio/top/logo-22.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1722
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-9HVJEBSXTE&gtm=45je6ar1v9253801711za200zd9253801711xf1&_p=1793279129803&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAAQ&ae=a&are=1&cid=1791817167.1793279130&frm=0&ngs=1&pscdl=noapi&rcb=10&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=2&tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&sid=1793279129&sct=1&seg=1&dl=https%3A%2F%2Fvc.prty.jp%2F&dt=PARTY%20STARTUP%20STUDIO%20FUND&en=scroll&epn.percent_scrolled=90&_et=42324&tfd=52237",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.34, 1.56, 0.64, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "scale",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.34, 1.56, 0.64, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.34, 1.56, 0.64, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "scale",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.34, 1.56, 0.64, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.6, -0.28, 0.74, 0.05)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "scale",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.6, -0.28, 0.74, 0.05)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.6, -0.28, 0.74, 0.05)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "scale",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.6, -0.28, 0.74, 0.05)"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A07020004C370000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0A020004C370000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x33cc0012d600]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x33cc0012d600]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x33cc0012d600]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x33cc0012ee00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+      },
+      {
+        "level": "warning",
+        "text": "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read"
+      },
+      {
+        "level": "warning",
+        "text": "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read"
+      },
+      {
+        "level": "warning",
+        "text": "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read"
+      },
+      {
+        "level": "warning",
+        "text": "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read"
+      },
+      {
+        "level": "warning",
+        "text": "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read"
+      },
+      {
+        "level": "warning",
+        "text": "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read"
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-9HVJEBSXTE&gtm=45je6ar1v9253801711za208zd9253801711xf1&_p=1793279129803&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1791817167.1793279130&frm=0&ngs=1&pscdl=noapi&rcb=10&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=1&tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&sid=1793279129&sct=1&seg=0&dl=https%3A%2F%2Fvc.prty.jp%2F&dt=PARTY%20STARTUP%20STUDIO%20FUND&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=865",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-9HVJEBSXTE&gtm=45je6ar1v9253801711za200zd9253801711xf1&_p=1793279129803&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAAQ&ae=a&are=1&cid=1791817167.1793279130&frm=0&ngs=1&pscdl=noapi&rcb=10&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=2&tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&sid=1793279129&sct=1&seg=1&dl=https%3A%2F%2Fvc.prty.jp%2F&dt=PARTY%20STARTUP%20STUDIO%20FUND&en=scroll&epn.percent_scrolled=90&_et=42324&tfd=52237",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 19465,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 171,
+      "typography": {
+        "families": [
+          [
+            "tt-commons-pro",
+            7
+          ],
+          [
+            "a-otf-midashi-go-mb31-pr6n",
+            4
+          ],
+          [
+            "Inter",
+            2
+          ]
+        ],
+        "weights": [
+          [
+            "600",
+            6
+          ],
+          [
+            "700",
+            3
+          ],
+          [
+            "500",
+            2
+          ],
+          [
+            "400",
+            2
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            1
+          ]
+        ],
+        "sizeMin": 8.9313,
+        "sizeMedian": 17.8626,
+        "sizeMax": 119.084,
+        "sizeMaxVw": 30.5,
+        "scaleRatio": 6.7,
+        "letterSpacingMean": -0.033,
+        "loadedFonts": [
+          {
+            "family": "Inter",
+            "weight": "100 900",
+            "style": "normal"
+          },
+          {
+            "family": "tt-commons-pro",
+            "weight": "700",
+            "style": "normal"
+          },
+          {
+            "family": "tt-commons-pro",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "tt-commons-pro",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "a-otf-midashi-go-mb31-pr6n",
+            "weight": "600",
+            "style": "normal"
+          },
+          {
+            "family": "a-otf-midashi-go-mb31-pr6n",
+            "weight": "600",
+            "style": "normal"
+          },
+          {
+            "family": "a-otf-midashi-go-mb31-pr6n",
+            "weight": "600",
+            "style": "normal"
+          },
+          {
+            "family": "a-otf-midashi-go-mb31-pr6n",
+            "weight": "600",
+            "style": "normal"
+          },
+          {
+            "family": "a-otf-midashi-go-mb31-pr6n",
+            "weight": "600",
+            "style": "normal"
+          },
+          {
+            "family": "a-otf-midashi-go-mb31-pr6n",
+            "weight": "600",
+            "style": "normal"
+          }
+        ],
+        "variableFont": true,
+        "textElements": 13
+      },
+      "color": {
+        "background": "rgb(241, 241, 241)",
+        "backgroundLuminance": 0.8796223968878317,
+        "backgrounds": [
+          [
+            "rgb(241, 241, 241)",
+            670
+          ],
+          [
+            "rgb(255, 255, 255)",
+            207
+          ],
+          [
+            "rgb(221, 196, 196)",
+            21
+          ],
+          [
+            "rgb(222, 222, 222)",
+            20
+          ],
+          [
+            "rgb(32, 32, 32)",
+            17
+          ]
+        ],
+        "texts": [
+          [
+            "lab(2.75381 0 0)",
+            56
+          ],
+          [
+            "rgba(0, 0, 0, 0)",
+            6
+          ],
+          [
+            "rgb(255, 255, 255)",
+            5
+          ],
+          [
+            "rgb(241, 241, 241)",
+            2
+          ],
+          [
+            "rgb(134, 134, 134)",
+            1
+          ]
+        ],
+        "meanSaturation": 0.02,
+        "rootVars": {
+          "--vw": "calc(100vw / 393)",
+          "--background": "#fff",
+          "--foreground": "#0a0a0a",
+          "--card": "#fff",
+          "--card-foreground": "#0a0a0a",
+          "--popover": "#fff",
+          "--popover-foreground": "#0a0a0a",
+          "--primary": "#171717",
+          "--primary-foreground": "#fafafa",
+          "--secondary": "#f5f5f5",
+          "--secondary-foreground": "#171717",
+          "--muted": "#f5f5f5",
+          "--muted-foreground": "#737373",
+          "--accent": "#f5f5f5",
+          "--accent-foreground": "#171717",
+          "--destructive": "#e40014",
+          "--border": "#e5e5e5",
+          "--input": "#e5e5e5",
+          "--ring": "#a1a1a1",
+          "--chart-1": "#d4d4d4",
+          "--chart-2": "#737373",
+          "--chart-3": "#525252",
+          "--chart-4": "#404040",
+          "--chart-5": "#262626",
+          "--radius": ".625rem",
+          "--sidebar": "#fafafa",
+          "--sidebar-foreground": "#0a0a0a",
+          "--sidebar-primary": "#171717",
+          "--sidebar-primary-foreground": "#fafafa",
+          "--sidebar-accent": "#f5f5f5",
+          "--sidebar-accent-foreground": "#171717",
+          "--sidebar-border": "#e5e5e5",
+          "--sidebar-ring": "#a1a1a1"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 10,
+        "sticky": 2,
+        "fixed": 4,
+        "grid": 0,
+        "flex": 18,
+        "absolute": 30,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 9734,
+        "pages": 11.5,
+        "spacing": [
+          [
+            4,
+            5
+          ],
+          [
+            24,
+            2
+          ],
+          [
+            10,
+            2
+          ],
+          [
+            203,
+            1
+          ],
+          [
+            16,
+            1
+          ],
+          [
+            44,
+            1
+          ],
+          [
+            20,
+            1
+          ],
+          [
+            32,
+            1
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 1,
+        "animationKinds": [
+          "CSSTransition"
+        ],
+        "infiniteAnimations": 0,
+        "animationDurations": [
+          200
+        ],
+        "easings": [
+          "cubic-bezier(0, 0, 0.2, 1)"
+        ],
+        "transitionDurationsMs": [
+          [
+            100,
+            6
+          ],
+          [
+            250,
+            1
+          ],
+          [
+            200,
+            1
+          ],
+          [
+            150,
+            1
+          ]
+        ],
+        "keyframes": [
+          "enter",
+          "exit"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 1,
+      "media": {
+        "canvases": [
+          {
+            "w": 780,
+            "h": 1688,
+            "area": 1
+          },
+          {
+            "w": 716,
+            "h": 617,
+            "area": 0.34
+          },
+          {
+            "w": 716,
+            "h": 617,
+            "area": 0.34
+          },
+          {
+            "w": 228,
+            "h": 127,
+            "area": 0.02
+          },
+          {
+            "w": 300,
+            "h": 127,
+            "area": 0.03
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0
+          },
+          {
+            "w": 112,
+            "h": 28,
+            "area": 0
+          },
+          {
+            "w": 390,
+            "h": 844,
+            "area": 1
+          }
+        ],
+        "videos": [],
+        "svg": 0,
+        "images": 5,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "2d": 80,
+          "webgl2": 2
+        },
+        "raf": 595,
+        "io": 72,
+        "ro": 33,
+        "mo": 2,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "PARTY STARTUP STUDIO FUND",
+      "lang": "ja",
+      "description": "起業家とともに「未来の体験」をつくる創業・シード特化型VC"
+    },
+    "featuresBeforeScroll": {
+      "elements": 160,
+      "canvases": 13,
+      "animations": 0,
+      "hidden": 1
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 14829256,
+        "layoutCount": 55,
+        "recalcStyleCount": 77,
+        "scriptDuration": 7.032029,
+        "taskDuration": 18.933483,
+        "nodes": 712
+      },
+      "timing": {
+        "domContentLoaded": 244,
+        "load": 244,
+        "first-paint": 140,
+        "first-contentful-paint": 216
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSTransition",
+        "name": "translate",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.2, 1)"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A07020004C370000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0D020004C370000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read"
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-9HVJEBSXTE&gtm=45je6ar1v9253801711za208zd9253801711xf1&_p=1793279243282&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1588589926.1793279243&frm=0&ngs=1&pscdl=noapi&rcb=18&sr=390x844&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=1&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=1&tag_exp=115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&sid=1793279243&sct=1&seg=0&dl=https%3A%2F%2Fvc.prty.jp%2F&dt=PARTY%20STARTUP%20STUDIO%20FUND&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=467",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  }
+}

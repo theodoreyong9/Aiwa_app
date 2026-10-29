@@ -1,0 +1,2790 @@
+{
+  "url": "https://www.contentarchitecture.dev/",
+  "at": "2026-10-29T13:05:28.940Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 39317,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 4915,
+      "typography": {
+        "families": [
+          [
+            "GeistMono",
+            584
+          ],
+          [
+            "GeistSans",
+            122
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            694
+          ],
+          [
+            "500",
+            12
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            198
+          ]
+        ],
+        "sizeMin": 11,
+        "sizeMedian": 13.7388,
+        "sizeMax": 45.9102,
+        "sizeMaxVw": 3.2,
+        "scaleRatio": 3.3,
+        "letterSpacingMean": 0.025,
+        "loadedFonts": [
+          {
+            "family": "GeistMono",
+            "weight": "100 900",
+            "style": "normal"
+          },
+          {
+            "family": "GeistSans",
+            "weight": "100 900",
+            "style": "normal"
+          }
+        ],
+        "variableFont": true,
+        "textElements": 706
+      },
+      "color": {
+        "background": "rgb(241, 238, 231)",
+        "backgroundLuminance": 0.8561936525934455,
+        "backgrounds": [
+          [
+            "rgb(35, 35, 35)",
+            7947
+          ],
+          [
+            "rgb(241, 238, 231)",
+            6192
+          ],
+          [
+            "rgb(0, 0, 0)",
+            1301
+          ],
+          [
+            "rgb(255, 255, 255)",
+            1
+          ],
+          [
+            "rgb(255, 145, 0)",
+            0
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(222, 222, 222)",
+            455
+          ],
+          [
+            "oklab(0.999994 0.0000455677 0.0000200868 / 0.6)",
+            254
+          ],
+          [
+            "rgb(255, 255, 255)",
+            215
+          ],
+          [
+            "rgb(35, 35, 35)",
+            190
+          ],
+          [
+            "oklab(0.999994 0.0000455678 0.0000200868 / 0.385)",
+            109
+          ]
+        ],
+        "meanSaturation": 0.21,
+        "rootVars": {
+          "--ascii-transition-bg": "#000",
+          "--ascii-transition-color": "#fff",
+          "--seam": "calc(var(--spacing) * 360)",
+          "--dive-distance": "200svh",
+          "--dive-hold": "calc(var(--dive-distance) * .6)"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 4,
+        "sticky": 10,
+        "fixed": 6,
+        "grid": 72,
+        "flex": 739,
+        "absolute": 354,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 21262,
+        "pages": 23.6,
+        "spacing": [
+          [
+            6,
+            84
+          ],
+          [
+            3,
+            81
+          ],
+          [
+            24,
+            42
+          ],
+          [
+            4,
+            24
+          ],
+          [
+            16,
+            23
+          ],
+          [
+            12,
+            23
+          ],
+          [
+            17,
+            22
+          ],
+          [
+            8,
+            16
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 17,
+        "animationKinds": [
+          "CSSTransition",
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 16,
+        "animationDurations": [
+          150,
+          1800,
+          14400,
+          14400,
+          1800,
+          1440,
+          1440,
+          1440,
+          1800,
+          2000,
+          900,
+          900,
+          900,
+          1800,
+          5000,
+          5000,
+          1800
+        ],
+        "easings": [
+          "cubic-bezier(0.4, 0, 0.2, 1)",
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            200,
+            86
+          ],
+          [
+            100,
+            79
+          ],
+          [
+            520,
+            55
+          ],
+          [
+            150,
+            16
+          ],
+          [
+            300,
+            9
+          ]
+        ],
+        "keyframes": [
+          "spin",
+          "pulse",
+          "fadeIn",
+          "cursorBlink",
+          "statusPing",
+          "heroScrollCue",
+          "minimapScan",
+          "minimapScanCounter",
+          "marqyL",
+          "marqyR",
+          "marqyU",
+          "marqyD"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 4,
+      "media": {
+        "canvases": [
+          {
+            "w": 1440,
+            "h": 900,
+            "area": 1
+          },
+          {
+            "w": 0,
+            "h": 0,
+            "area": 0.61
+          },
+          {
+            "w": 1440,
+            "h": 1940,
+            "area": 2.16
+          },
+          {
+            "w": 1440,
+            "h": 546,
+            "area": 0.61
+          },
+          {
+            "w": 1440,
+            "h": 546,
+            "area": 0.61
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0.17
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0.17
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0.17
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0.17
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0.17
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0.17
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0.17
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0.17
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0.17
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0.17
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0.17
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0
+          },
+          {
+            "w": 0,
+            "h": 0,
+            "area": 0
+          },
+          {
+            "w": 0,
+            "h": 0,
+            "area": 0
+          },
+          {
+            "w": 0,
+            "h": 0,
+            "area": 0
+          },
+          {
+            "w": 96,
+            "h": 1276,
+            "area": 0.09
+          },
+          {
+            "w": 96,
+            "h": 1276,
+            "area": 0.09
+          },
+          {
+            "w": 0,
+            "h": 0,
+            "area": 0
+          },
+          {
+            "w": 1440,
+            "h": 900,
+            "area": 1
+          }
+        ],
+        "videos": [],
+        "svg": 130,
+        "images": 19,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "2d": 186,
+          "webgl2": 6
+        },
+        "raf": 470,
+        "io": 55,
+        "ro": 88,
+        "mo": 4,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Agent-Ready Sanity Kit for Next.js & Astro | The Content Architecture",
+      "lang": "en",
+      "description": "The agent-ready Sanity kit for Next.js and Astro. Six years of decisions committed: page builder, fetch layer, AGENTS.md, skills, agent-browser, llms.txt. Buy once, own it forever."
+    },
+    "featuresBeforeScroll": {
+      "elements": 4608,
+      "canvases": 25,
+      "animations": 16,
+      "hidden": 25
+    },
+    "scrollReveal": 21,
+    "hover": {
+      "probed": 6,
+      "changed": 0
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 13514180,
+        "layoutCount": 442,
+        "recalcStyleCount": 806,
+        "scriptDuration": 0.952205,
+        "taskDuration": 36.535894,
+        "nodes": 12680
+      },
+      "timing": {
+        "domContentLoaded": 2930,
+        "load": 2932,
+        "first-paint": 336,
+        "first-contentful-paint": 428
+      }
+    },
+    "network": [
+      {
+        "url": "https://www.contentarchitecture.dev/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 257614
+      },
+      {
+        "url": "https://www.contentarchitecture.dev/_next/static/immutable/media/GeistMono_Variable.p.0b02cdm7g7y6h.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 71740
+      },
+      {
+        "url": "https://www.contentarchitecture.dev/_next/static/immutable/media/Geist_Variable-s.p.2-i4fw5gbtlb7.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 69945
+      },
+      {
+        "url": "https://www.contentarchitecture.dev/_next/static/immutable/chunks/2f4k19355pa9t.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 19138
+      },
+      {
+        "url": "https://www.contentarchitecture.dev/_next/static/immutable/chunks/41dd7myy6mu18.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1771
+      },
+      {
+        "url": "https://www.contentarchitecture.dev/_next/static/immutable/chunks/2sdxxyokwb4sj.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4465
+      },
+      {
+        "url": "https://www.contentarchitecture.dev/_next/static/immutable/chunks/0crkt8cl9pglx.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 9073
+      },
+      {
+        "url": "https://www.contentarchitecture.dev/_next/static/immutable/chunks/2dqksrrjy5--x.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 7422
+      },
+      {
+        "url": "https://www.contentarchitecture.dev/_next/static/immutable/chunks/2jqd0dpb7brv_.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 66979
+      },
+      {
+        "url": "https://www.contentarchitecture.dev/_next/static/immutable/chunks/2op6nbgnjz_ep.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 10153
+      },
+      {
+        "url": "https://www.contentarchitecture.dev/_next/static/immutable/chunks/0gkt5ww0qzauz.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 37038
+      },
+      {
+        "url": "https://www.contentarchitecture.dev/_next/static/immutable/chunks/turbopack-1byz1flvc-bu1.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4833
+      },
+      {
+        "url": "https://www.contentarchitecture.dev/_next/static/immutable/chunks/2obe-shmpgpr1.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 5467
+      },
+      {
+        "url": "https://www.contentarchitecture.dev/_next/static/immutable/chunks/1jg63z4rrkjgp.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 6415
+      },
+      {
+        "url": "https://www.contentarchitecture.dev/_next/static/immutable/chunks/1qqacj_nfch4n.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 11849
+      },
+      {
+        "url": "https://www.contentarchitecture.dev/_next/static/immutable/chunks/0rq3rz1npp6ja.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 11465
+      },
+      {
+        "url": "https://www.contentarchitecture.dev/_next/static/immutable/chunks/2j1xo42n5im-t.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 6172
+      },
+      {
+        "url": "https://www.contentarchitecture.dev/_next/static/immutable/chunks/03x3x15cfky62.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1526
+      },
+      {
+        "url": "https://www.contentarchitecture.dev/_next/static/immutable/chunks/0cubl1eesne7h.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 10370
+      },
+      {
+        "url": "https://www.contentarchitecture.dev/_next/static/immutable/chunks/4580kibjfb846.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 9549
+      },
+      {
+        "url": "https://www.contentarchitecture.dev/_next/static/immutable/chunks/290wrauoi39yj.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 14427
+      },
+      {
+        "url": "https://www.contentarchitecture.dev/_next/static/immutable/chunks/2dvw-sxn2_y6n.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 7490
+      },
+      {
+        "url": "https://www.contentarchitecture.dev/_next/static/immutable/chunks/1rwf9ddj-13ue.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 30003
+      },
+      {
+        "url": "https://www.contentarchitecture.dev/_next/static/immutable/chunks/14vdo_c0rfmyy.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 10514
+      },
+      {
+        "url": "https://www.contentarchitecture.dev/_next/static/immutable/chunks/43expkwby6i5d.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 9693
+      },
+      {
+        "url": "https://www.contentarchitecture.dev/_next/static/immutable/chunks/099u694wyiz6w.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 17340
+      },
+      {
+        "url": "https://www.contentarchitecture.dev/_next/static/immutable/chunks/41x6mye-j3i3u.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 35051
+      },
+      {
+        "url": "https://www.contentarchitecture.dev/_next/static/immutable/chunks/2-z3z5u297mm-.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 17538
+      },
+      {
+        "url": "https://www.contentarchitecture.dev/_next/static/immutable/chunks/2d-tv9969v41d.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1342
+      },
+      {
+        "url": "https://www.contentarchitecture.dev/_next/static/immutable/chunks/1r_f-n9ec6u_b.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 23231
+      },
+      {
+        "url": "https://www.contentarchitecture.dev/_next/static/immutable/chunks/1nld44qk9vrrs.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2875
+      },
+      {
+        "url": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAALABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIDBAf/xAAdEAACAgIDAQAAAAAAAAAAAAABAgARAwQSITFR/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQD/xAAZEQEAAgMAAAAAAAAAAAAAAAAAARESQVH/2gAMAwEAAhEDEQA/AOAZNfTWzk2H5+1Xswpxtq7+XGVQVJIkx1ygdnObKtAO1QkoSqDlPX//2Q==",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAALABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAYDBAX/xAAiEAACAQQCAgMBAAAAAAAAAAABAgMABAURBiESQSIxMnH/xAAWAQEBAQAAAAAAAAAAAAAAAAAFAgT/xAAcEQEAAgIDAQAAAAAAAAAAAAABAAIDERIUIUH/2gAMAwEAAhEDEQA/ANPL5+HEukdzlcmzNvtGB1r0amv+UwT4+O+hvsig8QpjjYA/00r8ukYXLr8dDv8AI+6pYWVzEFJBXW9ECjyy7SMWxNOO/scrXlMDQKTd5Fj7LP3RSLPNJHKyo3iN70BRUmRmrqD6T//Z",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAALABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAgEBQf/xAAjEAABBAEDBAMAAAAAAAAAAAABAAIDBAUGESEHFDFBEhPB/8QAFwEAAwEAAAAAAAAAAAAAAAAAAQIDBf/EABsRAAIBBQAAAAAAAAAAAAAAAAABAgMRExVR/9oADAMBAAIRAxEAPwBhKWfO0ZlrsjrngOafxZtq3WONbq3tqt9wuukawRDfkq+yM0guQxBxEbfDfSXnMknrbAd+e7YgxZu0WxomihYijlvV432XNHzJj53QodiR32efSFHIzE2VXiP/2Q==",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAALABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAYHAgX/xAAkEAACAQQBAwUBAAAAAAAAAAABAgMABAURBhITITJBQmFx0f/EABYBAQEBAAAAAAAAAAAAAAAAAAIBA//EABgRAQEBAQEAAAAAAAAAAAAAAAEAEwIS/9oADAMBAAIRAxEAPwBEtsbyObJ3IbOqGeTuTHu+fs1vH8VuEy8TR511VASzrvYb21TBf2lvBnYI4olVJPWB8v2undwRQzQrEgQFgPFB7S08lPH41l0lkD5FXYsT1GQ7NFVa3xNiY+o26kk7JJP9oqaMsy//2Q==",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAALABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAUBBAYI/8QAHxAAAgICAgMBAAAAAAAAAAAAAQIDBAAhBRESFDFB/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAYEQEAAwEAAAAAAAAAAAAAAAAAAQISEf/aAAwDAQACEQMRAD8A5ugLU5x7AZmJ63ja9A1a3Ws1epW+sQdAZouWoVZLlQPCpGzkirCtxUEY8SNjDSor0gl5qVWAAT5+jDL03GUxZmAgXoOetnDFGn//2Q==",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAALABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAUGAwT/xAAkEAABBAEDAwUAAAAAAAAAAAABAgMEBQAREjIGE2EUIiNBUf/EABQBAQAAAAAAAAAAAAAAAAAAAAP/xAAZEQADAQEBAAAAAAAAAAAAAAAAARECUSL/2gAMAwEAAhEDEQA/AObqU1glR3pViUt97X417Ck/vkYi65totxOXStzkpS2gOJcS5qF+MW21fFnIZVLaDp0VyJySsa+LFlQXGGghe7kCcRJKKB+nXSkqKf08Ut7yv3k6nDM4D7paUS4vkfvDGmeBXfT/2Q==",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAALABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABgABBf/EACMQAAEEAgEDBQAAAAAAAAAAAAECAwQFABETITLRBhUxUnH/xAAUAQEAAAAAAAAAAAAAAAAAAAAC/8QAGhEBAAIDAQAAAAAAAAAAAAAAAQACERJRA//aAAwDAQACEQMRAD8AP+inL+tn2fuNhIdQFjjVyEg/mJTaTVzAFyn+M9e45qamG3OUUNEbV104rzndFXDU+kKZBGtdx846+gVwkDRbZGB59hMkSnHDJeVs/O95YzFLXgqAjJA39j5ywbW7Hqcn/9k=",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEB//EABwQAQACAwADAAAAAAAAAAAAAAEAAgMEESJBQv/EABUBAQEAAAAAAAAAAAAAAAAAAAEC/8QAGBEBAQEBAQAAAAAAAAAAAAAAAQARMQL/2gAMAwEAAhEDEQA/ANWdWjtGf75yVAxeOyr1lOHHW9fI7IAOVvpeyytvXYSsCoFThCORt//Z",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAALABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAUHAQb/xAAiEAAABQQCAwEAAAAAAAAAAAAAAQIDEQQFEiEGMQcTIoH/xAAVAQEBAAAAAAAAAAAAAAAAAAAEBf/EAB8RAAICAQQDAAAAAAAAAAAAAAECAAMRBBIhIjEy8P/aAAwDAQACEQMRAD8At3JLrW014eap2XVNlG09DhrxeuSI5I0xRrUSVIP4k/kjLRi0OpTm8rFMkXcBLmck5CPZ1liUwAWVFWzu8ycqjTXGx+wOePjM8dv3J/ilKu7uE7WSolriJ3oAf285pUHr8IAanqI9CCoIn//Z",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAUABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAUGAgT/xAAlEAABBAIABQUBAAAAAAAAAAABAAIDBAURBhIUIjEHEyFBUXH/xAAYAQACAwAAAAAAAAAAAAAAAAADBAABAv/EABgRAQADAQAAAAAAAAAAAAAAAAABAhES/9oADAMBAAIRAxEAPwCF6jZ+5jZIa1BmpJjrnI3pRm4/IwwizZnM7XjZ2NaWg4zsVOlE1lzWvaewn9UTL8UMqYKLq+Tcnjlds6/iWtvUGaczSZl5/cRRYc5QlYHCw0b+ii3gWsfxdl7t7JyCxO4tYe1o+AFGmsTTgGaRz9eNlERQ3A8IiKLf/9k=",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsTAAALEwEAmpwYAAADpklEQVR4nE2T22/cRBSH/YRCs+vdtccznvGMx56bx/es7XWzyW7TEpKqBZW2UEpvgka9IR4QPCKBhAAJCf5otAmISt/rp3N+5+IAIIJAQChhoN4nADLwBfCF74nFIpnN+NRl+9Po2pR8OMF7++HetdCBUCGkQqRDZN5DIyhRIEIoEZTAF4tFOpvz6YxO3H/9axPihMjgMLvEkksinGEkIeDQZwQmNEwxFAEQcy915//X359GDsGWkCL6DxYVcWQw5P48AvMoCmIZpYpKihUAYuEl7jyeuHR/Gu271IlIQaOS0YrRmtGK0zwmMgQsmEcc8jY1N+v2465rdYWR8v0rn01cOnGpw1jF4obzK+qE5RFK/Dkhftyr/MvN5oeH9358/PDu8UlCCwDk1fzcWey6zOFJw3mbJAdJ2grRGlEJqnDAeSgPbfP89PSXF09/e3vx/LMHpR0QNAFQnifmi2Q2506aLi85SNOlksvaHPS2bnRZyfK6be8M69effPrzxdfvnjwZlscE5xBo4EvPSxde6qSyE6KTspOyV7KrVDuaarT1kNUf1f1ZMzy5efrnt29+ev3qqN8SnIcwg0D7vvR84QjZKdUrNSg1aNWXadPxbJlmFc8OVbUx1YPx6K93r/747t2N1UmE8xBZFOya94F0lO61HoxeGT0asyp0t9LtoW0sMwaLjutH66O/37789c3Fpt9SUuDQhtDAQAdAOUoPemeuMjPabMyz8Xp7dHu97bOagriIxFeb7e8vn33/6Iu+HCkpCLYhytDON47edTtkZpVlK5uN1o59e3x3e2vTdNhj4YxsbH1xdvrs1o3eHsR0J+NLGcHMUXIX2JidmdsdB+V40o3X8xp7LJiSQeZPt0ff3BjPm6ZICxbtTvjqBRyx29BlbLPKs7G0Q6mqVmRlrIjHZCjOlsOLm5uXx8tHfXWSF7XIBbVReCmnSbvzVV/YoSv6A1MKzBmI4iCmAa9l/nE/3B+Wj7vi89beLsyJNWtty8RyYhwe10nS5ro7rLtNWdQxhzPoTUPkMY5Fa6t1UZ0X9n6d3cnVVvBjkZxbfVbatbEOY6VMms42hzarGaUenO+DhUuQHzMsBJUyjHvGT7XciqQlUYXJccrvlvpeYx1KSyuqXmcGR3gG4NQPZmEIOMOShSKYEXcvQFOYo6ghURaEqY8KRNYJP7dyV7kQRcNT6kE8A3QRsIDxSIk44zj1Jmjyge/uAeIiDbD0QzqHfIFyREYe/wPJgrCSCHb/owAAAABJRU5ErkJggg==",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAUABQDASIAAhEBAxEB/8QAGgABAQACAwAAAAAAAAAAAAAAAAcCBAUGCP/EACYQAAEEAgIBAgcAAAAAAAAAAAECAwQFAAYREjEicQcTITJBUdH/xAAXAQEAAwAAAAAAAAAAAAAAAAAAAQME/8QAFxEBAQEBAAAAAAAAAAAAAAAAAAEREv/aAAwDAQACEQMRAD8ApnxEv5Wv66uTXtByUtYbR28JJ/Jyda9uuzwNigw71yPNjzVdQWR6mz/M75vFjAbqlMTH2kuL4+WhRHKj+uMn9JNhRr1uROCWW2k/RxY4AOBYlLBOM41mY080lxpxK0KHIUk8g4wPG1tc2FnZGbNluuyArsFFX2+wzattks7GEmPJf5bI9XA4KvfGM0cxXtYV+03ddGTHh2MhtlPhPbxjGMcxG1//2Q==",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.contentarchitecture.dev/_next/static/immutable/chunks/01bc90qi4qpo3.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 5213
+      },
+      {
+        "url": "https://www.contentarchitecture.dev/_next/static/immutable/chunks/1t-i21wavjrvm.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 20804
+      },
+      {
+        "url": "https://www.contentarchitecture.dev/blog?_rsc=5CB68i4pnAekjehf",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 1815
+      },
+      {
+        "url": "https://www.contentarchitecture.dev/blog?_rsc=IOU67p1zu2WxWUfw",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 25259
+      },
+      {
+        "url": "https://www.contentarchitecture.dev/_next/static/immutable/chunks/34boopxc5ivsd.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4886
+      },
+      {
+        "url": "https://www.contentarchitecture.dev/_next/static/immutable/chunks/2rb8klompz8d4.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 606
+      },
+      {
+        "url": "https://www.contentarchitecture.dev/_next/static/immutable/chunks/1i_c4sqp9968m.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3536
+      },
+      {
+        "url": "https://www.contentarchitecture.dev/_next/static/immutable/chunks/3k9-onrok7n76.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 919
+      },
+      {
+        "url": "https://www.contentarchitecture.dev/_next/static/immutable/chunks/3lsseb4_0emc1.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1938
+      },
+      {
+        "url": "https://www.contentarchitecture.dev/_next/static/immutable/chunks/1x3h3770j5f1t.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 7424
+      },
+      {
+        "url": "https://www.contentarchitecture.dev/_next/static/immutable/chunks/43o6e-rfict9z.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 15327
+      },
+      {
+        "url": "https://www.contentarchitecture.dev/_next/static/immutable/chunks/0tecfqvp9gcnt.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 8261
+      },
+      {
+        "url": "https://cloud.umami.is/script.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4710
+      },
+      {
+        "url": "https://gateway.umami.is/api/send",
+        "method": "OPTIONS",
+        "type": "OTHER",
+        "initiator": "preflight",
+        "status": 200,
+        "mime": "",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://gateway.umami.is/api/send",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 311
+      },
+      {
+        "url": "https://gateway.umami.is/api/send",
+        "method": "OPTIONS",
+        "type": "OTHER",
+        "initiator": "preflight",
+        "status": 200,
+        "mime": "",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://gateway.umami.is/api/send",
+        "method": "OPTIONS",
+        "type": "OTHER",
+        "initiator": "preflight",
+        "status": 200,
+        "mime": "",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://gateway.umami.is/api/send",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 405
+      },
+      {
+        "url": "https://gateway.umami.is/api/send",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 615
+      },
+      {
+        "url": "https://gateway.umami.is/api/send",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 459
+      },
+      {
+        "url": "https://gateway.umami.is/api/send",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 287
+      },
+      {
+        "url": "https://gateway.umami.is/api/send",
+        "method": "OPTIONS",
+        "type": "OTHER",
+        "initiator": "preflight",
+        "status": 200,
+        "mime": "",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://gateway.umami.is/api/send",
+        "method": "OPTIONS",
+        "type": "OTHER",
+        "initiator": "preflight",
+        "status": 200,
+        "mime": "",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://gateway.umami.is/api/send",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 301
+      },
+      {
+        "url": "https://gateway.umami.is/api/send",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 319
+      },
+      {
+        "url": "https://cdn.sanity.io/images/szlvuc1t/production/be3c66bd045bc48cd8cdbd8a42f4488b340547f7-3840x2160.jpg?w=1440&h=810&max-h=2048&max-w=2048&q=85&fit=crop&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 50485
+      },
+      {
+        "url": "https://cdn.sanity.io/images/szlvuc1t/production/dd1aa647aa9b19c7eb7b72f3649e4425a2c9dd44-3840x2160.jpg?w=1440&h=810&max-h=2048&max-w=2048&q=85&fit=crop&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 90009
+      },
+      {
+        "url": "https://cdn.sanity.io/images/szlvuc1t/production/d79913ca416f63f31c617b2c3936befb77a3d6ac-3840x2160.jpg?w=1440&h=810&max-h=2048&max-w=2048&q=85&fit=crop&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 247088
+      },
+      {
+        "url": "https://cdn.sanity.io/images/szlvuc1t/production/ec80e52f1fe72f2d882ec6a1d067090a79cc4288-3840x2160.jpg?w=1440&h=810&max-h=2048&max-w=2048&q=85&fit=crop&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 41907
+      },
+      {
+        "url": "https://cdn.sanity.io/images/szlvuc1t/production/4f7bcbe2f921c92cdd73ab3e44633209d089071a-3840x2160.jpg?w=1440&h=810&max-h=2048&max-w=2048&q=85&fit=crop&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 266611
+      },
+      {
+        "url": "https://cdn.sanity.io/images/szlvuc1t/production/b7825b5fd0f02439d431345d7c86f0a19ee9f27b-3840x2160.jpg?w=1440&h=810&max-h=2048&max-w=2048&q=85&fit=crop&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 44607
+      },
+      {
+        "url": "https://gateway.umami.is/api/send",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 610
+      },
+      {
+        "url": "https://gateway.umami.is/api/send",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 311
+      },
+      {
+        "url": "https://cdn.sanity.io/images/szlvuc1t/production/dc1b336904b1f9bf83a5e7acb04d07304be55c53-3840x2160.png?w=1440&h=810&max-h=2048&max-w=2048&q=85&fit=crop&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 19648
+      },
+      {
+        "url": "https://cdn.sanity.io/images/szlvuc1t/production/2d6f54ea28f4d35e3099be43fe7cedde3c2aebff-3840x2160.jpg?w=1440&h=810&max-h=2048&max-w=2048&q=85&fit=crop&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 141125
+      },
+      {
+        "url": "https://cdn.sanity.io/images/szlvuc1t/production/2ce1bfb9315017055ecb2efb9daaeda9ae53a02b-3840x2160.jpg?w=1440&h=810&max-h=2048&max-w=2048&q=85&fit=crop&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 16614
+      },
+      {
+        "url": "https://cdn.sanity.io/images/szlvuc1t/production/619d1accb39f837a13c75efe4e0af4a11977669a-3840x2160.jpg?w=1440&h=810&max-h=2048&max-w=2048&q=85&fit=crop&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 59268
+      },
+      {
+        "url": "https://gateway.umami.is/api/send",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 290
+      },
+      {
+        "url": "https://gateway.umami.is/api/send",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 309
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "pulse",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "cursorBlink",
+        "duration": 900,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "statusPing",
+        "duration": 1800,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "statusPing",
+        "duration": 1800,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "heroScrollCue",
+        "duration": 1440,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "heroScrollCue",
+        "duration": 1440,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "pulse",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "pulse",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "cursorBlink",
+        "duration": 900,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "cursorBlink",
+        "duration": 900,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "statusPing",
+        "duration": 1800,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "heroScrollCue",
+        "duration": 1440,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "statusPing",
+        "duration": 1800,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "statusPing",
+        "duration": 1800,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "pulse",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 400,
+        "delay": 60,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 400,
+        "delay": 120,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 400,
+        "delay": 180,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 400,
+        "delay": 240,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 400,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 400,
+        "delay": 360,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 400,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 400,
+        "delay": 600,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 500,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "pulse",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "pulse",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "pulse",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 400,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "minimapScan",
+        "duration": 5000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "minimapScanCounter",
+        "duration": 5000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "marqyL",
+        "duration": 0,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "marqyL",
+        "duration": 0,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "fadeIn",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "pulse",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A07020008C070000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0A020008C070000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x3b140013c800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x3b140013c800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x3b140013c800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x3b140013c800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0A020008C070000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0A0C9008C070000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A07073068C070000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0A0C9008C070000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      }
+    ],
+    "exceptions": [],
+    "failed": [],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 11557,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 4744,
+      "typography": {
+        "families": [
+          [
+            "GeistMono",
+            506
+          ],
+          [
+            "GeistSans",
+            107
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            600
+          ],
+          [
+            "500",
+            13
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            126
+          ]
+        ],
+        "sizeMin": 12,
+        "sizeMedian": 12.0245,
+        "sizeMax": 40,
+        "sizeMaxVw": 10.3,
+        "scaleRatio": 3.3,
+        "letterSpacingMean": 0.025,
+        "loadedFonts": [
+          {
+            "family": "GeistMono",
+            "weight": "100 900",
+            "style": "normal"
+          },
+          {
+            "family": "GeistSans",
+            "weight": "100 900",
+            "style": "normal"
+          }
+        ],
+        "variableFont": true,
+        "textElements": 613
+      },
+      "color": {
+        "background": "rgb(241, 238, 231)",
+        "backgroundLuminance": 0.8561936525934455,
+        "backgrounds": [
+          [
+            "rgb(35, 35, 35)",
+            3040
+          ],
+          [
+            "rgb(241, 238, 231)",
+            1698
+          ],
+          [
+            "rgb(0, 0, 0)",
+            284
+          ],
+          [
+            "rgb(222, 222, 222)",
+            9
+          ],
+          [
+            "rgb(255, 255, 255)",
+            2
+          ],
+          [
+            "rgb(255, 145, 0)",
+            0
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(222, 222, 222)",
+            452
+          ],
+          [
+            "rgb(35, 35, 35)",
+            312
+          ],
+          [
+            "rgb(255, 255, 255)",
+            191
+          ],
+          [
+            "rgb(214, 168, 120)",
+            98
+          ],
+          [
+            "oklab(0.256147 0.0000116229 0.000005126 / 0.35)",
+            89
+          ]
+        ],
+        "meanSaturation": 0.17,
+        "rootVars": {
+          "--ascii-transition-bg": "#000",
+          "--ascii-transition-color": "#fff",
+          "--seam": "calc(var(--spacing) * 360)",
+          "--dive-distance": "200svh",
+          "--dive-hold": "calc(var(--dive-distance) * .6)"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 4,
+        "sticky": 5,
+        "fixed": 5,
+        "grid": 70,
+        "flex": 718,
+        "absolute": 343,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 16859,
+        "pages": 20,
+        "spacing": [
+          [
+            12,
+            110
+          ],
+          [
+            8,
+            89
+          ],
+          [
+            24,
+            49
+          ],
+          [
+            14,
+            23
+          ],
+          [
+            4,
+            20
+          ],
+          [
+            16,
+            14
+          ],
+          [
+            6,
+            11
+          ],
+          [
+            72,
+            6
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 29,
+        "animationKinds": [
+          "CSSAnimation",
+          "Animation"
+        ],
+        "infiniteAnimations": 12,
+        "animationDurations": [
+          4800,
+          4800,
+          1800,
+          1800,
+          2000,
+          900,
+          900,
+          900,
+          1800,
+          5000,
+          5000,
+          1800,
+          1000,
+          1000,
+          1000,
+          1000,
+          1000,
+          1000,
+          1000,
+          1000
+        ],
+        "easings": [
+          "linear",
+          "cubic-bezier(0.23, 1, 0.32, 1)"
+        ],
+        "transitionDurationsMs": [
+          [
+            200,
+            86
+          ],
+          [
+            100,
+            79
+          ],
+          [
+            520,
+            55
+          ],
+          [
+            150,
+            14
+          ],
+          [
+            300,
+            8
+          ]
+        ],
+        "keyframes": [
+          "spin",
+          "pulse",
+          "fadeIn",
+          "cursorBlink",
+          "statusPing",
+          "heroScrollCue",
+          "minimapScan",
+          "minimapScanCounter",
+          "marqyL",
+          "marqyR",
+          "marqyU",
+          "marqyD"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 1,
+      "media": {
+        "canvases": [
+          {
+            "w": 780,
+            "h": 1350,
+            "area": 0.8
+          },
+          {
+            "w": 0,
+            "h": 0,
+            "area": 0.45
+          },
+          {
+            "w": 780,
+            "h": 6564,
+            "area": 3.89
+          },
+          {
+            "w": 780,
+            "h": 756,
+            "area": 0.45
+          },
+          {
+            "w": 0,
+            "h": 0,
+            "area": 0
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0.22
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0.22
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0.22
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0.22
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0.22
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0.22
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0.22
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0.22
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0.22
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0.22
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0.22
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0.01
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0.01
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0.01
+          },
+          {
+            "w": 0,
+            "h": 0,
+            "area": 0
+          },
+          {
+            "w": 0,
+            "h": 0,
+            "area": 0
+          },
+          {
+            "w": 0,
+            "h": 0,
+            "area": 0
+          },
+          {
+            "w": 156,
+            "h": 1758,
+            "area": 0.21
+          },
+          {
+            "w": 156,
+            "h": 1758,
+            "area": 0.21
+          },
+          {
+            "w": 0,
+            "h": 0,
+            "area": 0
+          },
+          {
+            "w": 780,
+            "h": 1688,
+            "area": 1
+          }
+        ],
+        "videos": [],
+        "svg": 130,
+        "images": 19,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "2d": 59,
+          "webgl2": 5
+        },
+        "raf": 672,
+        "io": 55,
+        "ro": 87,
+        "mo": 2,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Agent-Ready Sanity Kit for Next.js & Astro | The Content Architecture",
+      "lang": "en",
+      "description": "The agent-ready Sanity kit for Next.js and Astro. Six years of decisions committed: page builder, fetch layer, AGENTS.md, skills, agent-browser, llms.txt. Buy once, own it forever."
+    },
+    "featuresBeforeScroll": {
+      "elements": 4598,
+      "canvases": 25,
+      "animations": 12,
+      "hidden": 25
+    },
+    "scrollReveal": 24,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 17151552,
+        "layoutCount": 174,
+        "recalcStyleCount": 702,
+        "scriptDuration": 0.502035,
+        "taskDuration": 7.451525,
+        "nodes": 7603
+      },
+      "timing": {
+        "domContentLoaded": 2839,
+        "load": 2841,
+        "first-paint": 244,
+        "first-contentful-paint": 328
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "pulse",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "cursorBlink",
+        "duration": 900,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "statusPing",
+        "duration": 1800,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "pulse",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "pulse",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "cursorBlink",
+        "duration": 900,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "cursorBlink",
+        "duration": 900,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "statusPing",
+        "duration": 1800,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "statusPing",
+        "duration": 1800,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "pulse",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "statusPing",
+        "duration": 1800,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 400,
+        "delay": 60,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 400,
+        "delay": 120,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 400,
+        "delay": 180,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 400,
+        "delay": 240,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 400,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 400,
+        "delay": 360,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 400,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 400,
+        "delay": 600,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 500,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 600,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 400,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "minimapScanCounter",
+        "duration": 5000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "minimapScan",
+        "duration": 5000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "marqyL",
+        "duration": 0,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "marqyL",
+        "duration": 0,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "pulse",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "fadeIn",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 500,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 600,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 500,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 600,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0A020008C070000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A07020008C070000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A07020008C070000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      }
+    ],
+    "exceptions": [],
+    "failed": [],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  }
+}
