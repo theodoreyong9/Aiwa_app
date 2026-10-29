@@ -1,0 +1,52 @@
+name: Footage mirror
+
+# Copies ONE real footage into the release `footage` of this repository, for a film that lays elements over real pictures. Only from hosts that publish under an open
+# licence (the Internet Archive, Wikimedia Commons), at most 80 MB, and only a video file. The licence, the source page and the right to the image of the people in it are
+# written by whoever asks, and are shown in the log; they must be written again in the brief of the film. Nothing here checks them for you.
+on:
+  workflow_dispatch:
+    inputs:
+      url:
+        description: 'Direct address of the video file (archive.org or upload.wikimedia.org)'
+        required: true
+      id:
+        description: 'Name of the footage (letters, digits, dashes)'
+        required: true
+      licence:
+        description: 'Its licence (e.g. CC0, CC BY 4.0, public domain) and who to credit'
+        required: true
+      page:
+        description: 'The page where the licence is stated'
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Download and put in the release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          URL: ${{ github.event.inputs.url }}
+          ID: ${{ github.event.inputs.id }}
+          LICENCE: ${{ github.event.inputs.licence }}
+          PAGE: ${{ github.event.inputs.page }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          set -e
+          case "$URL" in
+            https://archive.org/*|https://*.archive.org/*|https://upload.wikimedia.org/*) ;;
+            *) echo "::error::host not allowed: only archive.org and upload.wikimedia.org"; exit 1 ;;
+          esac
+          echo "$ID" | grep -Eq '^[A-Za-z0-9-]{3,60}$' || { echo "::error::bad id"; exit 1; }
+          curl -fsSL --max-filesize 83886080 -A "aiwa-footage-mirror (+https://github.com/$GH_REPO)" -o /tmp/footage.bin "$URL"
+          TYPE=$(file -b --mime-type /tmp/footage.bin)
+          case "$TYPE" in video/*) ;; *) echo "::error::not a video file ($TYPE)"; exit 1 ;; esac
+          EXT=$(case "$TYPE" in video/webm) echo webm ;; video/quicktime) echo mov ;; video/ogg) echo ogv ;; *) echo mp4 ;; esac)
+          gh release view footage >/dev/null 2>&1 || gh release create footage --title "Footage" --notes "Real footage copied on request, each under the licence written in its workflow run."
+          mv /tmp/footage.bin "/tmp/$ID.$EXT"
+          gh release upload footage "/tmp/$ID.$EXT" --clobber
+          echo "::notice title=$ID::$TYPE, $(stat -c %s /tmp/$ID.$EXT) bytes. Licence: $LICENCE. Page: $PAGE"

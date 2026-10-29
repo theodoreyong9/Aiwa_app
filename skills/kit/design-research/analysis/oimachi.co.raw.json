@@ -1,0 +1,3239 @@
+{
+  "url": "https://www.oimachi.co/",
+  "at": "2026-10-10T10:04:53.069Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 9609,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 2420,
+      "typography": {
+        "families": [
+          [
+            "Aeonik",
+            116
+          ]
+        ],
+        "weights": [
+          [
+            "500",
+            58
+          ],
+          [
+            "300",
+            58
+          ]
+        ],
+        "textTransforms": [],
+        "sizeMin": 12,
+        "sizeMedian": 12,
+        "sizeMax": 34,
+        "sizeMaxVw": 2.4,
+        "scaleRatio": 2.8,
+        "letterSpacingMean": -0.019,
+        "loadedFonts": [
+          {
+            "family": "Aeonik",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "Aeonik",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Feature Deck",
+            "weight": "400",
+            "style": "italic"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 116
+      },
+      "color": {
+        "background": "rgb(240, 240, 240)",
+        "backgroundLuminance": 0.8713671191987972,
+        "backgrounds": [
+          [
+            "rgb(240, 240, 240)",
+            2270
+          ],
+          [
+            "rgb(223, 223, 223)",
+            1022
+          ],
+          [
+            "rgb(255, 255, 255)",
+            12
+          ],
+          [
+            "rgb(0, 0, 0)",
+            10
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(0, 0, 0)",
+            1147
+          ],
+          [
+            "rgb(105, 103, 100)",
+            116
+          ],
+          [
+            "rgb(134, 132, 129)",
+            23
+          ],
+          [
+            "rgb(255, 255, 255)",
+            14
+          ]
+        ],
+        "meanSaturation": 0,
+        "rootVars": {
+          "--_theme---common--background": "var(--neutral-20)",
+          "--_text-style---font-family": "Aeonik,Arial,sans-serif",
+          "--_theme---common--text": "var(--neutral-100)",
+          "--_text-style---font-size": "var(--_responsive---regular)",
+          "--_text-style---line-height": "1.4",
+          "--_text-style---font-weight": "300",
+          "--_text-style---letter-spacing": "0em",
+          "--h1--letter-spacing<deleted|variable-eee778bb-0977-69d4-c3c6-6afd3c4da4ec>": "var(--all-headings--heading-letter-spacing\\<deleted\\|variable-57ab3c60-556b-8ff6-5bcc-01368fd0b4c4\\>)",
+          "--h2--letter-spacing<deleted|variable-f0afab33-93fa-022c-7aec-e6290f2cea96>": "var(--all-headings--heading-letter-spacing\\<deleted\\|variable-57ab3c60-556b-8ff6-5bcc-01368fd0b4c4\\>)",
+          "--_theme---common--text-secondary": "var(--neutral-70)",
+          "--border-color--border-primary<deleted|variable-d4c54ba4-ee41-67ce-58a5-5216ca039f83>": "var(--base-color-neutral--neutral-lightest\\<deleted\\|variable-eede0174-1898-a99e-0c79-395339ec1911\\>)",
+          "--_theme---common--background-secondary": "var(--neutral-0)",
+          "--text-color--text-secondary<deleted|variable-0a60224d-1a94-b160-ae24-af3c6d95a994>": "var(--base-color-neutral--neutral-darker\\<deleted\\|variable-dda6ad91-259a-0202-f70f-965feb273058\\>)",
+          "--background-color--background-primary<deleted|variable-9f6b6bb4-0795-c8ab-f302-bbebab6f2554>": "var(--base-color-neutral--black\\<deleted\\|variable-419fddc9-288d-5141-33c5-0873c4ce2f53\\>)",
+          "--text-color--text-alternate<deleted|variable-2688eaeb-df93-32fe-efb9-d54fbd7bd424>": "var(--base-color-neutral--white\\<deleted\\|variable-248be024-93cf-6ec4-8eec-0e9f047a83ae\\>)",
+          "--background-color--background-tertiary<deleted|variable-6632d948-2d2d-2556-731d-05a71c92f234>": "var(--base-color-brand--pink\\<deleted\\|variable-c4661572-8a15-7367-e98c-cc1a0987f6d1\\>)",
+          "--background-color--background-error<deleted|variable-89aecd3e-2fe8-312c-65a2-e3e7c57d326c>": "var(--base-color-system--error-red\\<deleted\\|variable-ad7a5e8d-bd95-fba4-5110-cbccfa2520c4\\>)",
+          "--text-color--text-error<deleted|variable-4a51c5d2-820c-a0d9-b49e-0e5d273c964f>": "var(--base-color-system--error-red-dark\\<deleted\\|variable-f7a8b234-8033-a5d6-4d85-0326277c2bf8\\>)",
+          "--_responsive---border-radius": ".3rem",
+          "--_theme---button-primary--background": "var(--neutral-30)",
+          "--_theme---button-primary--text": "var(--neutral-100)",
+          "--_theme---button-secondary--background": "var(--neutral-100)",
+          "--_theme---button-secondary--text": "var(--neutral-0)",
+          "--_theme---button-tertiary--background": "var(--neutral-0)",
+          "--_theme---button-primary--background-hover": "var(--neutral-40)",
+          "--_theme---button-secondary--background-hover": "var(--neutral-90)",
+          "--_theme---button-tertiary--background-hover": "var(--neutral-20)",
+          "--background-color--background-warning<deleted|variable-0aa1a7ce-e851-b6b5-66db-1a1a96e8e04b>": "var(--base-color-system--warning-yellow\\<deleted\\|variable-b0ee00e7-091a-a3f5-1619-b09d07f4475a\\>)",
+          "--text-color--text-warning<deleted|variable-825aa1d8-b093-0b89-37c5-87d980df10f5>": "var(--base-color-system--warning-yellow-dark\\<deleted\\|variable-296491a7-483e-1229-36b5-e13808cc9004\\>)",
+          "--text-color--text-primary<deleted|variable-7cd2a57e-6f21-74f7-6ce6-096306cecf3e>": "var(--base-color-neutral--black\\<deleted\\|variable-419fddc9-288d-5141-33c5-0873c4ce2f53\\>)",
+          "--neutral-10": "#fafafa",
+          "--_theme---button-tertiary--text": "var(--neutral-100)",
+          "--_theme---common--border": "var(--neutral-30)",
+          "--_responsive---display<deleted|variable-420ee936-315f-11ee-cdf1-3570ff7c07c8>": "5rem",
+          "--_theme---nav--background": "var(--neutral-0)",
+          "--_theme---nav--background-hover": "#f7f7f7",
+          "--_theme---button-primary--background-active": "var(--neutral-100)",
+          "--_theme---button-primary--text-active": "var(--neutral-0)",
+          "--_theme---common--text-tertiary": "var(--neutral-60)",
+          "--_theme---nav--transparent": "#fff6"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 2,
+        "sticky": 1,
+        "fixed": 15,
+        "grid": 0,
+        "flex": 467,
+        "absolute": 231,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 6256,
+        "pages": 7,
+        "spacing": [
+          [
+            8,
+            135
+          ],
+          [
+            6,
+            78
+          ],
+          [
+            5,
+            58
+          ],
+          [
+            3,
+            39
+          ],
+          [
+            13,
+            23
+          ],
+          [
+            2,
+            22
+          ],
+          [
+            4,
+            14
+          ],
+          [
+            10,
+            9
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 18,
+        "animationKinds": [
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 18,
+        "animationDurations": [
+          1200,
+          1200,
+          1200,
+          1200,
+          1200,
+          1200,
+          1200,
+          1200,
+          1200,
+          1200,
+          1200,
+          1200,
+          1200,
+          1200,
+          1200,
+          1200,
+          1200,
+          1200
+        ],
+        "easings": [
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            600,
+            108
+          ],
+          [
+            150,
+            94
+          ],
+          [
+            200,
+            81
+          ],
+          [
+            800,
+            58
+          ],
+          [
+            500,
+            5
+          ]
+        ],
+        "keyframes": [
+          "spin",
+          "gradient-move",
+          "skeleton-shimmer"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 1,
+      "media": {
+        "canvases": [],
+        "videos": [
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://www.oimachi.co/"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://www.oimachi.co/"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://www.oimachi.co/"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://www.oimachi.co/"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://www.oimachi.co/"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://www.oimachi.co/"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://player.vimeo.com/progressive_redirect/playback/1202824078/rendition/1440p/file.mp4%20%281440p%29.mp4?loc=external&log_user=0&signature=6aaa8908c558bcaa9"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://www.oimachi.co/"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://www.oimachi.co/"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://www.oimachi.co/"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://www.oimachi.co/"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://www.oimachi.co/"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://www.oimachi.co/"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://www.oimachi.co/"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://player.vimeo.com/progressive_redirect/playback/1128518161/rendition/540p/file.mp4?loc=external&log_user=0&signature=1ef458d27d204f348faaf84cf90f498a0cb4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://player.vimeo.com/progressive_redirect/playback/1056785443/rendition/360p/file.mp4?loc=external&log_user=0&signature=16956897df875549816c65f0c358dafb8a17"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://player.vimeo.com/progressive_redirect/playback/1129485024/rendition/540p/file.mp4?loc=external&log_user=0&signature=aac53e76280158d7568d77ca8920adea06f0"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://player.vimeo.com/progressive_redirect/playback/1128146622/rendition/540p/file.mp4?loc=external&log_user=0&signature=8e33a9890fe7b92d4a7f90dd77cb7f7ce4fe"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://player.vimeo.com/progressive_redirect/playback/1132072936/rendition/360p/file.mp4?loc=external&log_user=0&signature=0ee8acf726cdb980de2a13433792ff16f9fb"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://player.vimeo.com/progressive_redirect/playback/1133791171/rendition/720p/file.mp4?loc=external&log_user=0&signature=ea037540de10fb9518981ecdf95b69113b49"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://player.vimeo.com/progressive_redirect/playback/1128836562/rendition/720p/file.mp4?loc=external&log_user=0&signature=a88184f8aa2f2ec333383f8c4e8277ce245e"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://player.vimeo.com/progressive_redirect/playback/1133786044/rendition/1080p/file.mp4?loc=external&log_user=0&signature=182ac68263438e9cd499f9b4fdd7ce62f17"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://player.vimeo.com/progressive_redirect/playback/1128836562/rendition/720p/file.mp4?loc=external&log_user=0&signature=a88184f8aa2f2ec333383f8c4e8277ce245e"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://player.vimeo.com/progressive_redirect/playback/1207320981/rendition/540p/file.mp4%20%28540p%29.mp4?loc=external&log_user=0&signature=414c4c912faef1bcd4b"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://player.vimeo.com/progressive_redirect/playback/1207369967/rendition/720p/file.mp4%20%28720p%29.mp4?loc=external&log_user=0&signature=25a32293b1a17d25303"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://player.vimeo.com/progressive_redirect/playback/1139308280/rendition/1080p/file.mp4%20%281080p%29.mp4?loc=external&log_user=0&signature=ae6fd6a958753738d"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://player.vimeo.com/progressive_redirect/playback/1207390313/rendition/240p/file.mp4%20%28240p%29.mp4?loc=external&log_user=0&signature=dff945c685d639a61f9"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://player.vimeo.com/progressive_redirect/playback/1210752224/rendition/240p/file.mp4%20%28240p%29.mp4?loc=external&log_user=0&signature=03be5bd3d9f2ef7dbd2"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://player.vimeo.com/progressive_redirect/playback/1207402294/rendition/360p/file.mp4%20%28360p%29.mp4?loc=external&log_user=0&signature=b89018495eaaaf80d9c"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://player.vimeo.com/progressive_redirect/playback/1207314588/rendition/540p/file.mp4%20%28540p%29.mp4?loc=external&log_user=0&signature=d3d9bd9a4ff2dff0d4e"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://player.vimeo.com/progressive_redirect/playback/1202089255/rendition/540p/file.mp4%20%28540p%29.mp4?loc=external&log_user=0&signature=4c3b646707666e4d61e"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://player.vimeo.com/progressive_redirect/playback/1202085633/rendition/720p/file.mp4%20%28720p%29.mp4?loc=external&log_user=0&signature=ac2268d1715ceef64c5"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://player.vimeo.com/progressive_redirect/playback/1207485506/rendition/540p/file.mp4%20%28540p%29.mp4?loc=external&log_user=0&signature=f883c973e7ebb9b8553"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://player.vimeo.com/progressive_redirect/playback/1202082654/rendition/720p/file.mp4%20%28720p%29.mp4?loc=external&log_user=0&signature=0b6b9dc13939e8a1f08"
+          }
+        ],
+        "svg": 84,
+        "images": 100,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "2d": 2
+        },
+        "raf": 983,
+        "io": 1,
+        "ro": 1,
+        "mo": 6,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": true,
+        "ScrollTrigger": true,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": true,
+        "jQuery": true,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": true,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": true,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Oimachi – Design, AI & Webflow Excellence Studio.",
+      "lang": "en",
+      "description": "Design, AI & Webflow Excellence Studio. Oimachi helps ambitious teams with brand design, scalable Webflow websites, and meaningful experiences in the age of AI."
+    },
+    "featuresBeforeScroll": {
+      "elements": 2420,
+      "canvases": 0,
+      "animations": 18,
+      "hidden": 16
+    },
+    "scrollReveal": 15,
+    "hover": {
+      "probed": 6,
+      "changed": 5
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 9150124,
+        "layoutCount": 302,
+        "recalcStyleCount": 625,
+        "scriptDuration": 0.451769,
+        "taskDuration": 3.252147,
+        "nodes": 10447
+      },
+      "timing": {
+        "domContentLoaded": 517,
+        "load": 1194,
+        "first-paint": 236,
+        "first-contentful-paint": 304
+      }
+    },
+    "network": [
+      {
+        "url": "https://www.oimachi.co/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 40884
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68a1f1d118b11d82119e8540/css/oimachi.shared.a7d7b9b3c.min.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 24764
+      },
+      {
+        "url": "https://assets.calendly.com/assets/external/widget.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1721
+      },
+      {
+        "url": "https://assets.calendly.com/assets/external/widget.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 4173
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 7985
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2551
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/attributes.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2156
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 751
+      },
+      {
+        "url": "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=68a1f1d118b11d82119e8540",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 31927
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68a1f1d118b11d82119e8540/js/oimachi.schunk.6739ee8d3353008c.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 143828
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68a1f1d118b11d82119e8540/js/oimachi.schunk.3bfaf11c3ccd2120.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 120630
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68a1f1d118b11d82119e8540/js/oimachi.d5576b1e.977eeca8bcba270d.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 9311
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 29656
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 18613
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 4108
+      },
+      {
+        "url": "https://oimachi.cloud/projects/website/o-citations.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1324
+      },
+      {
+        "url": "https://oimachi.cloud/scripts/phosphor-ascii.js?v=2",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 17261
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/chunk-J3PPETVR.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 718
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/chunk-ADKL4AJZ.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1172
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/chunk-VDEO3AAR.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1052
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/chunk-WIALCYDY.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 715
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/chunk-OF4NI3Y7.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 486
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/chunk-N2ZCN6XY.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1309
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/chunk-L4B2V5MO.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1042
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/chunk-CB6LZ537.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 587
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/chunk-XRTLPMPO.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 609
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/chunk-ZI7TAH2K.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1173
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/chunk-GGDEANQW.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 543
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/chunk-K46K3RI5.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 690
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68a1f1d118b11d82119e8540/68b565b71ad3328c923c69f0_Aeonik-Regular.otf",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/otf",
+        "fromCache": false,
+        "bytes": 49191
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68a1f1d118b11d82119e8540/68b5661975ae7ad10587387f_FeatureDeck-RegularItalic.otf",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/otf",
+        "fromCache": false,
+        "bytes": 70444
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68a1f1d118b11d82119e8540/68b565b783c7eab030dcbc6e_Aeonik-Medium.otf",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/otf",
+        "fromCache": false,
+        "bytes": 52111
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68c163ebaaf76656436a2593/6a2c0910ded4bd0b2866c51c_oimachi-about-us-portrait_thumbnail.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 38667
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68c163ebaaf76656436a2593/6a830cd77d7b0f2fa15f1d49_post-thumb_b-m%C3%A6rket_small.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 30808
+      },
+      {
+        "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/70801391-e04b-404f-9d6e-9a322bbcc680/3ebd6554?__token__=st=1791626677~exp=1791630277~acl=%2Fv3-1%2Fplayback%2F70801391-e04b-404f-9d6e-9a322bbcc680%2F3ebd6554%2A~hmac=b4e5c0177361c7dd4749e72de3d8843fec404c578b1dfa1e159c451aca6e10bf&r=dXMtd2VzdDE%3D",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68c163ebaaf76656436a2593/6a5a1ac5cc96ed462a198423_webflow-vs-ai-website-2026_1080px.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 7834
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68c163ebaaf76656436a2593/69fc96cd19c1a0a7e8036706_when-ai-photography-beats-stock-thumbnail-small.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 18933
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68c163ebaaf76656436a2593/69ffb3a2c1061e65b485f514_69ffb3a140ac7ab5550dc2bf_the-small-studio-advantage-in-the-ai-era-thumbnail-small.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 118156
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68c163ebaaf76656436a2593/69fb16c53fa933bcb1b671c4__Small_Thumbnail-GEO%20copy.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 5829
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68a1f1d118b11d82119e8540/68a35f8ed26de09e08e84a04_icon-danelec.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 936
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68a1f1d118b11d82119e8540/68a35f75aae3633d80b68859_icon-bequant.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 694
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68a1f1d118b11d82119e8540/68a35cc1484c35a117bd62d4_icon-anthill.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 621
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68a1f1d118b11d82119e8540/68c2df66cba697a52754bea6_icon-veo.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 789
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68a1f1d118b11d82119e8540/69f321101b54ef4c17e5fefa_icon-grey-evooq-transparent.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 589
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68a1f1d118b11d82119e8540/69f3219742315fbfd8dc7017_icon-evooq-black.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 620
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68a1f1d118b11d82119e8540/69f32262ff261ed007729a8b_home_evooq1.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 15358
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68a1f1d118b11d82119e8540/69f32262e4a2eac2da854093_home_evooq2.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 4131
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68a1f1d118b11d82119e8540/69f32262ef45d6fc777a2a2d_home_evooq3.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 34723
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68a1f1d118b11d82119e8540/69133b994b319540789aea6c_45a93ad5f2f90f14149e209ff0aa92c4_icon-grey-danelec.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 910
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68a1f1d118b11d82119e8540/68d1153a7a6cbec1fe24fc3d_home_danelec2.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 9530
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68a1f1d118b11d82119e8540/68d114e146ec38ff17bfe506_71a3efeb8bf766385b53e7e3d4d9ab90_home_danelec1.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 22995
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68a1f1d118b11d82119e8540/69133ca6c2c016d2550e084b_718ff3a5608731caeaa892231e74bc8c_icon-grey-bequant.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 769
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68a1f1d118b11d82119e8540/68d1155138d9dbf171f20a5e_baf60b08699eff43743b3819baafa430_home_bequant2.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 43815
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68a1f1d118b11d82119e8540/69133cd12732e8d9c03f820c_0d0dd5a9bb9e7be21694d152ea76c12d_icon-grey-anthill.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 607
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68a1f1d118b11d82119e8540/68d115820c823854d9d69a34_929a79909ac7af6aa38046408b84d755_home_anthill2.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 35910
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68a1f1d118b11d82119e8540/68c5d976f17e6f64200cf0bc_c016a005aa5359cd10de5bd19ce54875_anthill-home-1.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 31498
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68a1f1d118b11d82119e8540/69133ced6d4033f65b1295a6_1e37cd1f81ece49444f5f0adf7014d67_icon-grey-veo.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 773
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68a1f1d118b11d82119e8540/68c5d8f5597a89dfd1bc8656_3fb3242fd5eb375c506905c8467e501e_home-veo-1.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 19907
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68a1f1d118b11d82119e8540/68d115b48c61d6c92ea7a67d_home_veo2.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 37263
+      },
+      {
+        "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/5ad33395-b7d6-4c75-8d28-0947987d11ce/a4e6073d?__token__=st=1791626677~exp=1791630277~acl=%2Fv3-1%2Fplayback%2F5ad33395-b7d6-4c75-8d28-0947987d11ce%2Fa4e6073d%2A~hmac=c803f983664efbcc0736a34bbe18d5173abf2f8996424c5d97c921fa4179b6a5&r=dXMtZWFzdDE%3D",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 83308
+      },
+      {
+        "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/361e820c-f121-49a5-aba4-beee43cae63a/6d55e54b?__token__=st=1791626677~exp=1791630277~acl=%2Fv3-1%2Fplayback%2F361e820c-f121-49a5-aba4-beee43cae63a%2F6d55e54b%2A~hmac=d0786cfc6988c5b207df58f68cdc05e0894eab476dd80372179591d2229aab7f&r=dXMtd2VzdDE%3D",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 920576
+      },
+      {
+        "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/7a1da891-c74c-49f2-a6b3-df0b9dfdb7f2/d283db47?__token__=st=1791626677~exp=1791630277~acl=%2Fv3-1%2Fplayback%2F7a1da891-c74c-49f2-a6b3-df0b9dfdb7f2%2Fd283db47%2A~hmac=c4b208fbb0a87bb582747a925cd9531cc3ca8133df6951d647c8e5c123e651ff&r=dXMtY2VudHJhbDE%3D",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 835122
+      },
+      {
+        "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/ce4ca9ec-6f75-4b25-9697-9b36b7c1c310/858dffc3?__token__=st=1791626677~exp=1791630277~acl=%2Fv3-1%2Fplayback%2Fce4ca9ec-6f75-4b25-9697-9b36b7c1c310%2F858dffc3%2A~hmac=815b3555605b321dd920d5bc74514f8f60d8cc5a6c3bb84f0a09c92f29f120b6&r=dXMtd2VzdDE%3D",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 883356
+      },
+      {
+        "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/01190fd8-9274-4fa1-bb1e-28b418d8b79e/24d2aada?__token__=st=1791626677~exp=1791630277~acl=%2Fv3-1%2Fplayback%2F01190fd8-9274-4fa1-bb1e-28b418d8b79e%2F24d2aada%2A~hmac=4bc324bb82aa089fab93e67f6c2b657a58ac72f43af1fc68f3b90362126588cf&r=dXMtY2VudHJhbDE%3D",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 157089
+      },
+      {
+        "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/ac23dc64-6dab-4b15-aa2a-f0c6549e604a/89707c33?__token__=st=1791626677~exp=1791630277~acl=%2Fv3-1%2Fplayback%2Fac23dc64-6dab-4b15-aa2a-f0c6549e604a%2F89707c33%2A~hmac=2718964c7791aa702cbe7d8dce8a5ccd5f57896fd357014a3b5fa39bdff5f71c&r=dXMtd2VzdDE%3D",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/b42a17d3-b13f-4f80-ba16-d2be29b87475/f568ff77?__token__=st=1791626677~exp=1791630277~acl=%2Fv3-1%2Fplayback%2Fb42a17d3-b13f-4f80-ba16-d2be29b87475%2Ff568ff77%2A~hmac=0e51a9e5f7ed90d00a538457802a9ee9bff431662bbf26141c3844e0a2673f8c&r=dXMtY2VudHJhbDE%3D",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/4fa5e388-5923-47e0-8bec-ba5cc17acf06/e50452d4?__token__=st=1791626677~exp=1791630277~acl=%2Fv3-1%2Fplayback%2F4fa5e388-5923-47e0-8bec-ba5cc17acf06%2Fe50452d4%2A~hmac=1693306aaa8632026867802a5357990fa5fa2c66438523253e78feaf58164757&r=dXMtd2VzdDE%3D",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 548186
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/src-KLFUEVVN.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4944
+      },
+      {
+        "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/b42a17d3-b13f-4f80-ba16-d2be29b87475/f568ff77?__token__=st=1791626677~exp=1791630277~acl=%2Fv3-1%2Fplayback%2Fb42a17d3-b13f-4f80-ba16-d2be29b87475%2Ff568ff77%2A~hmac=0e51a9e5f7ed90d00a538457802a9ee9bff431662bbf26141c3844e0a2673f8c&r=dXMtY2VudHJhbDE%3D",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 1285152
+      },
+      {
+        "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/2bf9048d-8acf-4686-a06f-412d00ce7bc4/505c161d?__token__=st=1791626677~exp=1791630277~acl=%2Fv3-1%2Fplayback%2F2bf9048d-8acf-4686-a06f-412d00ce7bc4%2F505c161d%2A~hmac=69a90ba822aa9300c30510c1843619a7c9a43117af3ca29c347db4e0c1ca0eac&r=dXMtZWFzdDE%3D",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/2f3939b8-89ca-46fd-a46b-9dfb75707c66/95cbe650?__token__=st=1791626677~exp=1791630277~acl=%2Fv3-1%2Fplayback%2F2f3939b8-89ca-46fd-a46b-9dfb75707c66%2F95cbe650%2A~hmac=12e3213b89e64d278fd9601296af122523188000bb819c65848a43ac3a264bc3&r=dXMtY2VudHJhbDE%3D",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 1413689
+      },
+      {
+        "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/fb1a2172-e089-451a-a6c3-ee471d0888f1/2fecbf28?__token__=st=1791626677~exp=1791630277~acl=%2Fv3-1%2Fplayback%2Ffb1a2172-e089-451a-a6c3-ee471d0888f1%2F2fecbf28%2A~hmac=de9062f199d27fcccca80c09012f1c019f9363458bbb3c7e0fe882543687dab4&r=dXMtd2VzdDE%3D",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/4650a9f6-8fc8-4d13-a52a-ecb5108afa27/287ca086?__token__=st=1791626677~exp=1791630277~acl=%2Fv3-1%2Fplayback%2F4650a9f6-8fc8-4d13-a52a-ecb5108afa27%2F287ca086%2A~hmac=d5f2cfeaac84a3c31fff07793e1b5d92f450f9fdcd205e1566223e97f1a07421&r=dXMtd2VzdDE%3D",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 382476
+      },
+      {
+        "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/3c5f35fc-009d-409c-b54c-4d7740c9a9f8/2bf3416f?__token__=st=1791626677~exp=1791630277~acl=%2Fv3-1%2Fplayback%2F3c5f35fc-009d-409c-b54c-4d7740c9a9f8%2F2bf3416f%2A~hmac=4f9192168d1137a6b915a022bcaa52a672d2914a0d4aeec07364d99fa49ee611&r=dXMtd2VzdDE%3D",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 841588
+      },
+      {
+        "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/2fb4a9d3-24e5-4ac0-95a5-6a38fa87171d/5340ddd4?__token__=st=1791626677~exp=1791630277~acl=%2Fv3-1%2Fplayback%2F2fb4a9d3-24e5-4ac0-95a5-6a38fa87171d%2F5340ddd4%2A~hmac=c1850cd4348231c36a46db0e31799d70f9fa1c5f0cfb5a442f925902a4a6c4ed&r=dXMtd2VzdDE%3D",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 50721
+      },
+      {
+        "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/b6d7695c-df81-4305-b13f-30c3dba09f47/ceba2c07?__token__=st=1791626677~exp=1791630277~acl=%2Fv3-1%2Fplayback%2Fb6d7695c-df81-4305-b13f-30c3dba09f47%2Fceba2c07%2A~hmac=f7e61a7f7e66f67a07f2c55b7f6b6e860c1fb6065d43c4741b3f9136f195cb1a&r=dXMtZWFzdDE%3D",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 328147
+      },
+      {
+        "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/27ffca17-5369-4ec5-abb3-a77de91d091b/603f729c-e80aad50?__token__=st=1791626677~exp=1791630277~acl=%2Fv3-1%2Fplayback%2F27ffca17-5369-4ec5-abb3-a77de91d091b%2F603f729c-e80aad50%2A~hmac=a5e92210bccd19349c58cd985d1cc35f3fe170fbf25ab54fa006057126dfeff0&r=dXMtd2VzdDE%3D",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 385339
+      },
+      {
+        "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/78b1723b-7600-457f-a6be-1326cc241562/b8736438?__token__=st=1791626677~exp=1791630277~acl=%2Fv3-1%2Fplayback%2F78b1723b-7600-457f-a6be-1326cc241562%2Fb8736438%2A~hmac=aabeea3401c7ba431e1a5d1c96f42a54dee7cfe40b0a3f1716798e09c52395ef&r=dXMtZWFzdDE%3D",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 2365660
+      },
+      {
+        "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/56a55752-76b0-48b4-b890-bdbb660fe2f3/8ce0fce4?__token__=st=1791626677~exp=1791630277~acl=%2Fv3-1%2Fplayback%2F56a55752-76b0-48b4-b890-bdbb660fe2f3%2F8ce0fce4%2A~hmac=5959a726f8f212f3d516a9c33ddf12b2fdc5ef577bd361c82fadd3fc0f6e0ef7&r=dXMtZWFzdDE%3D",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 1565994
+      },
+      {
+        "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/6d7dd6a9-ab67-4aeb-a69f-21cf4fe3cec5/858e9bb9?__token__=st=1791626677~exp=1791630277~acl=%2Fv3-1%2Fplayback%2F6d7dd6a9-ab67-4aeb-a69f-21cf4fe3cec5%2F858e9bb9%2A~hmac=19b3ef3f6ee607c49c7b040cb03aee9ca19173d8b1b12b421744901bb2810a36&r=dXMtY2VudHJhbDE%3D",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68a1f1d118b11d82119e8540/6a31453beda671be83eeb87e_client-project.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 80651
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68a1f1d118b11d82119e8540/6a31453ace6713a3d2225052_noteworthy.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 26785
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68a1f1d118b11d82119e8540/6a31453af2b73ae7dfefd2dd_sake-research.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 8456
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68a1f1d118b11d82119e8540/6a31453b0bfe94ae4342d9c5_sketch-metallic.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 4621
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68a1f1d118b11d82119e8540/6a31453ad6cac75a76988c47_midjourney-exploration.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 90102
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68a1f1d118b11d82119e8540/6a31453ad330c369ddf2ecae_cb194f5ce76cb4df0db0ed6a75d84f94_9_geo-workspace.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 178278
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68a1f1d118b11d82119e8540/6a31453a73bf58019d6c5b78_99269f0cf697ee2c7f6cbe50e9f8b3bf_11_hubform.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 34722
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68a1f1d118b11d82119e8540/6a31453a95fa43db24da307b_suppstack.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 46105
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68a1f1d118b11d82119e8540/6a31453a73f297f4a026f2a8_flowie-logo.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1691
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68a1f1d118b11d82119e8540/6a31453b847689f7616d5a78_yearr.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2986
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68a1f1d118b11d82119e8540/6a31453b73bf58019d6c65cf_sketch-client.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 170093
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68a1f1d118b11d82119e8540/6a31453a61f3b6fbce871ddc_flowie-resource.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 6893
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68a1f1d118b11d82119e8540/6a31453b4024ecf5378d386c_sketch-dystopian-meeting.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 41260
+      },
+      {
+        "url": "https://code-components.website-files.com/6a9579684fc69ed961d34029%2Fmodule%2Fwf-manifest.json",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 630
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/chunk-UAA7M346.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1322
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68a1f1d118b11d82119e8540/690b29bced080531563bb9ef_oimachi-symbol-iteration6.json",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 1631
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68a1f1d118b11d82119e8540/690b29bced080531563bb9ef_oimachi-symbol-iteration6.json",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68a1f1d118b11d82119e8540/690b29bced080531563bb9ef_oimachi-symbol-iteration6.json",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68a1f1d118b11d82119e8540/6a31453a9e602c75e5371f28_post_thumb.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 21523
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68a1f1d118b11d82119e8540/6a31453aefb0138ba8139dd5_shufflebook.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 4458
+      },
+      {
+        "url": "https://code-components.website-files.com/6a9579684fc69ed961d34029%2Fmodule%2Fmf-manifest.json",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 744
+      },
+      {
+        "url": "https://code-components.website-files.com/6a9579684fc69ed961d34029%2Fmodule%2F37.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 61941
+      },
+      {
+        "url": "https://code-components.website-files.com/6a9579684fc69ed961d34029%2Fmodule%2F__federation_expose_scope_webflow_renderer.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 541
+      },
+      {
+        "url": "https://code-components.website-files.com/6a9579684fc69ed961d34029%2Fmodule%2FremoteEntry.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 33100
+      },
+      {
+        "url": "https://code-components.website-files.com/6a9579684fc69ed961d34029%2Fmodule%2F__federation_expose_bb15b5aa_ce5e_62d9_c485_4b229d214ae3.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3752
+      },
+      {
+        "url": "https://code-components.website-files.com/6a9579684fc69ed961d34029%2Fmodule%2F0a84715b07726ccc.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 2991
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68a1f1d118b11d82119e8540/68f607b6b8c0e98b76c3d500_31dc3f054ad4196c6beb0dfc653fd9e0_NWS.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 3055
+      },
+      {
+        "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/f37d43ba-6c2e-4023-9718-e300f22bf198/2191e744-4ca995d6?__token__=st=1791626677~exp=1791630277~acl=%2Fv3-1%2Fplayback%2Ff37d43ba-6c2e-4023-9718-e300f22bf198%2F2191e744-4ca995d6%2A~hmac=f79b7b1e90e7da2982968b6521ed869614d0e0270d032592cd42bb5473be31ae&r=dXMtZWFzdDE%3D",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/ac23dc64-6dab-4b15-aa2a-f0c6549e604a/89707c33?__token__=st=1791626677~exp=1791630277~acl=%2Fv3-1%2Fplayback%2Fac23dc64-6dab-4b15-aa2a-f0c6549e604a%2F89707c33%2A~hmac=2718964c7791aa702cbe7d8dce8a5ccd5f57896fd357014a3b5fa39bdff5f71c&r=dXMtd2VzdDE%3D",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 598518
+      },
+      {
+        "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/0240bcc0-3813-4454-b3c6-d43ba689292c/736e5aaa-cdc9ab90?__token__=st=1791626677~exp=1791630277~acl=%2Fv3-1%2Fplayback%2F0240bcc0-3813-4454-b3c6-d43ba689292c%2F736e5aaa-cdc9ab90%2A~hmac=26fe92aabbd92140e407c22e9a359b721ff5e1b615c203fc7b882e77b7024687&r=dXMtY2VudHJhbDE%3D",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/4fa5e388-5923-47e0-8bec-ba5cc17acf06/e50452d4?__token__=st=1791626677~exp=1791630277~acl=%2Fv3-1%2Fplayback%2F4fa5e388-5923-47e0-8bec-ba5cc17acf06%2Fe50452d4%2A~hmac=1693306aaa8632026867802a5357990fa5fa2c66438523253e78feaf58164757&r=dXMtd2VzdDE%3D",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 548178
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68a1f1d118b11d82119e8540/6a33e294401f216315d0147b_bf424106aca55af00ca940fcb2508e18_oimachi-office.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 92215
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68a1f1d118b11d82119e8540/6a33e27fd79e90d5cadd337e_home-about-daniel.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 10096
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68a1f1d118b11d82119e8540/6a33e2872a33ee22444ef7c7_home-about-casper.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 17889
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68a1f1d118b11d82119e8540/69f12834be0772ef715c60e9_icon-evooq.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 602
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68a1f1d118b11d82119e8540/68c2df34dc1cfec29adf5660_icon-teamway.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 865
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68a1f1d118b11d82119e8540/68c2e00ceeb6694ff5e9160f_icon-highground.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 638
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68a1f1d118b11d82119e8540/68d15d5aa31fe420117b1254_service-icon_enterprise-grade-website.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 732
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68a1f1d118b11d82119e8540/68d15d5a14b8553032f4edb9_service-icon_scalable-component-build.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 702
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68a1f1d118b11d82119e8540/68d15d5a135586b01fd06203_service-icon_aeo.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 654
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68a1f1d118b11d82119e8540/68d15d5a05aa296bb3cc5de5_e42ade10bfbf11923524089638b84408_service-icon_brand-guide.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 3588
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68a1f1d118b11d82119e8540/68d15d5ae56511ae37fa8a2c_service-icon_architecture.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 997
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68a1f1d118b11d82119e8540/68d15d5af82d6ad6bf5aa19f_service-icon_motion-design.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 710
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68a1f1d118b11d82119e8540/68d15d5c0adf3a65cb3793c2_service-icon_handover-training.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 698
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68a1f1d118b11d82119e8540/68c28c32c0f9fbcaefa35e94_79f38696227a28ac503738f007eb9746_Steep.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 39608
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68a1f1d118b11d82119e8540/68c28c18fa4ddb2e4c739a62_Hubform.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 58450
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68a1f1d118b11d82119e8540/68c28c2bbb5e77673b5e7a01_FlowGuide.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 715
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "skeleton-shimmer",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "skeleton-shimmer",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "skeleton-shimmer",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "skeleton-shimmer",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "skeleton-shimmer",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "skeleton-shimmer",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "skeleton-shimmer",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "skeleton-shimmer",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "skeleton-shimmer",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "skeleton-shimmer",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "skeleton-shimmer",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "skeleton-shimmer",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "skeleton-shimmer",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "skeleton-shimmer",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "skeleton-shimmer",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "skeleton-shimmer",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "skeleton-shimmer",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "skeleton-shimmer",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "skeleton-shimmer",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "skeleton-shimmer",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "skeleton-shimmer",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "skeleton-shimmer",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "skeleton-shimmer",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "skeleton-shimmer",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "skeleton-shimmer",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "skeleton-shimmer",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "skeleton-shimmer",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "skeleton-shimmer",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "skeleton-shimmer",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "skeleton-shimmer",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "skeleton-shimmer",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "skeleton-shimmer",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "skeleton-shimmer",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "skeleton-shimmer",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "skeleton-shimmer",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      }
+    ],
+    "console": [],
+    "exceptions": [
+      "ReferenceError: $ is not defined\n    at https://www.oimachi.co/:859:1"
+    ],
+    "failed": [
+      {
+        "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/6d7dd6a9-ab67-4aeb-a69f-21cf4fe3cec5/858e9bb9?__token__=st=1791626677~exp=1791630277~acl=%2Fv3-1%2Fplayback%2F6d7dd6a9-ab67-4aeb-a69f-21cf4fe3cec5%2F858e9bb9%2A~hmac=19b3ef3f6ee607c49c7b040cb03aee9ca19173d8b1b12b421744901bb2810a36&r=dXMtY2VudHJhbDE%3D",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/b42a17d3-b13f-4f80-ba16-d2be29b87475/f568ff77?__token__=st=1791626677~exp=1791630277~acl=%2Fv3-1%2Fplayback%2Fb42a17d3-b13f-4f80-ba16-d2be29b87475%2Ff568ff77%2A~hmac=0e51a9e5f7ed90d00a538457802a9ee9bff431662bbf26141c3844e0a2673f8c&r=dXMtY2VudHJhbDE%3D",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/70801391-e04b-404f-9d6e-9a322bbcc680/3ebd6554?__token__=st=1791626677~exp=1791630277~acl=%2Fv3-1%2Fplayback%2F70801391-e04b-404f-9d6e-9a322bbcc680%2F3ebd6554%2A~hmac=b4e5c0177361c7dd4749e72de3d8843fec404c578b1dfa1e159c451aca6e10bf&r=dXMtd2VzdDE%3D",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/ac23dc64-6dab-4b15-aa2a-f0c6549e604a/89707c33?__token__=st=1791626677~exp=1791630277~acl=%2Fv3-1%2Fplayback%2Fac23dc64-6dab-4b15-aa2a-f0c6549e604a%2F89707c33%2A~hmac=2718964c7791aa702cbe7d8dce8a5ccd5f57896fd357014a3b5fa39bdff5f71c&r=dXMtd2VzdDE%3D",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/2bf9048d-8acf-4686-a06f-412d00ce7bc4/505c161d?__token__=st=1791626677~exp=1791630277~acl=%2Fv3-1%2Fplayback%2F2bf9048d-8acf-4686-a06f-412d00ce7bc4%2F505c161d%2A~hmac=69a90ba822aa9300c30510c1843619a7c9a43117af3ca29c347db4e0c1ca0eac&r=dXMtZWFzdDE%3D",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/fb1a2172-e089-451a-a6c3-ee471d0888f1/2fecbf28?__token__=st=1791626677~exp=1791630277~acl=%2Fv3-1%2Fplayback%2Ffb1a2172-e089-451a-a6c3-ee471d0888f1%2F2fecbf28%2A~hmac=de9062f199d27fcccca80c09012f1c019f9363458bbb3c7e0fe882543687dab4&r=dXMtd2VzdDE%3D",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/0240bcc0-3813-4454-b3c6-d43ba689292c/736e5aaa-cdc9ab90?__token__=st=1791626677~exp=1791630277~acl=%2Fv3-1%2Fplayback%2F0240bcc0-3813-4454-b3c6-d43ba689292c%2F736e5aaa-cdc9ab90%2A~hmac=26fe92aabbd92140e407c22e9a359b721ff5e1b615c203fc7b882e77b7024687&r=dXMtY2VudHJhbDE%3D",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/f37d43ba-6c2e-4023-9718-e300f22bf198/2191e744-4ca995d6?__token__=st=1791626677~exp=1791630277~acl=%2Fv3-1%2Fplayback%2Ff37d43ba-6c2e-4023-9718-e300f22bf198%2F2191e744-4ca995d6%2A~hmac=f79b7b1e90e7da2982968b6521ed869614d0e0270d032592cd42bb5473be31ae&r=dXMtZWFzdDE%3D",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 6807,
+    "features": {
+      "viewport": {
+        "w": 402,
+        "h": 870
+      },
+      "elements": 2426,
+      "typography": {
+        "families": [
+          [
+            "Aeonik",
+            78
+          ]
+        ],
+        "weights": [
+          [
+            "500",
+            46
+          ],
+          [
+            "300",
+            32
+          ]
+        ],
+        "textTransforms": [],
+        "sizeMin": 10.8311,
+        "sizeMedian": 12.6362,
+        "sizeMax": 28.8828,
+        "sizeMaxVw": 7.2,
+        "scaleRatio": 2.3,
+        "letterSpacingMean": -0.017,
+        "loadedFonts": [
+          {
+            "family": "Aeonik",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "Aeonik",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Feature Deck",
+            "weight": "400",
+            "style": "italic"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 78
+      },
+      "color": {
+        "background": "rgb(240, 240, 240)",
+        "backgroundLuminance": 0.8713671191987972,
+        "backgrounds": [
+          [
+            "rgb(240, 240, 240)",
+            499
+          ],
+          [
+            "rgb(223, 223, 223)",
+            385
+          ],
+          [
+            "rgb(255, 255, 255)",
+            9
+          ],
+          [
+            "rgb(0, 0, 0)",
+            8
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(0, 0, 0)",
+            1014
+          ],
+          [
+            "rgb(105, 103, 100)",
+            73
+          ],
+          [
+            "rgb(255, 255, 255)",
+            8
+          ],
+          [
+            "rgb(134, 132, 129)",
+            7
+          ]
+        ],
+        "meanSaturation": 0,
+        "rootVars": {
+          "--_theme---common--background": "var(--neutral-20)",
+          "--_text-style---font-family": "Aeonik,Arial,sans-serif",
+          "--_theme---common--text": "var(--neutral-100)",
+          "--_text-style---font-size": "var(--_responsive---regular)",
+          "--_text-style---line-height": "1.4",
+          "--_text-style---font-weight": "300",
+          "--_text-style---letter-spacing": "0em",
+          "--h1--letter-spacing<deleted|variable-eee778bb-0977-69d4-c3c6-6afd3c4da4ec>": "var(--all-headings--heading-letter-spacing\\<deleted\\|variable-57ab3c60-556b-8ff6-5bcc-01368fd0b4c4\\>)",
+          "--h2--letter-spacing<deleted|variable-f0afab33-93fa-022c-7aec-e6290f2cea96>": "var(--all-headings--heading-letter-spacing\\<deleted\\|variable-57ab3c60-556b-8ff6-5bcc-01368fd0b4c4\\>)",
+          "--_theme---common--text-secondary": "var(--neutral-70)",
+          "--border-color--border-primary<deleted|variable-d4c54ba4-ee41-67ce-58a5-5216ca039f83>": "var(--base-color-neutral--neutral-lightest\\<deleted\\|variable-eede0174-1898-a99e-0c79-395339ec1911\\>)",
+          "--_theme---common--background-secondary": "var(--neutral-0)",
+          "--text-color--text-secondary<deleted|variable-0a60224d-1a94-b160-ae24-af3c6d95a994>": "var(--base-color-neutral--neutral-darker\\<deleted\\|variable-dda6ad91-259a-0202-f70f-965feb273058\\>)",
+          "--background-color--background-primary<deleted|variable-9f6b6bb4-0795-c8ab-f302-bbebab6f2554>": "var(--base-color-neutral--black\\<deleted\\|variable-419fddc9-288d-5141-33c5-0873c4ce2f53\\>)",
+          "--text-color--text-alternate<deleted|variable-2688eaeb-df93-32fe-efb9-d54fbd7bd424>": "var(--base-color-neutral--white\\<deleted\\|variable-248be024-93cf-6ec4-8eec-0e9f047a83ae\\>)",
+          "--background-color--background-tertiary<deleted|variable-6632d948-2d2d-2556-731d-05a71c92f234>": "var(--base-color-brand--pink\\<deleted\\|variable-c4661572-8a15-7367-e98c-cc1a0987f6d1\\>)",
+          "--background-color--background-error<deleted|variable-89aecd3e-2fe8-312c-65a2-e3e7c57d326c>": "var(--base-color-system--error-red\\<deleted\\|variable-ad7a5e8d-bd95-fba4-5110-cbccfa2520c4\\>)",
+          "--text-color--text-error<deleted|variable-4a51c5d2-820c-a0d9-b49e-0e5d273c964f>": "var(--base-color-system--error-red-dark\\<deleted\\|variable-f7a8b234-8033-a5d6-4d85-0326277c2bf8\\>)",
+          "--_responsive---border-radius": ".3rem",
+          "--_theme---button-primary--background": "var(--neutral-30)",
+          "--_theme---button-primary--text": "var(--neutral-100)",
+          "--_theme---button-secondary--background": "var(--neutral-100)",
+          "--_theme---button-secondary--text": "var(--neutral-0)",
+          "--_theme---button-tertiary--background": "var(--neutral-0)",
+          "--_theme---button-primary--background-hover": "var(--neutral-40)",
+          "--_theme---button-secondary--background-hover": "var(--neutral-90)",
+          "--_theme---button-tertiary--background-hover": "var(--neutral-20)",
+          "--background-color--background-warning<deleted|variable-0aa1a7ce-e851-b6b5-66db-1a1a96e8e04b>": "var(--base-color-system--warning-yellow\\<deleted\\|variable-b0ee00e7-091a-a3f5-1619-b09d07f4475a\\>)",
+          "--text-color--text-warning<deleted|variable-825aa1d8-b093-0b89-37c5-87d980df10f5>": "var(--base-color-system--warning-yellow-dark\\<deleted\\|variable-296491a7-483e-1229-36b5-e13808cc9004\\>)",
+          "--text-color--text-primary<deleted|variable-7cd2a57e-6f21-74f7-6ce6-096306cecf3e>": "var(--base-color-neutral--black\\<deleted\\|variable-419fddc9-288d-5141-33c5-0873c4ce2f53\\>)",
+          "--neutral-10": "#fafafa",
+          "--_theme---button-tertiary--text": "var(--neutral-100)",
+          "--_theme---common--border": "var(--neutral-30)",
+          "--_responsive---display<deleted|variable-420ee936-315f-11ee-cdf1-3570ff7c07c8>": "5rem",
+          "--_theme---nav--background": "var(--neutral-0)",
+          "--_theme---nav--background-hover": "#f7f7f7",
+          "--_theme---button-primary--background-active": "var(--neutral-100)",
+          "--_theme---button-primary--text-active": "var(--neutral-0)",
+          "--_theme---common--text-tertiary": "var(--neutral-60)",
+          "--_theme---nav--transparent": "#fff6"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 2,
+        "sticky": 1,
+        "fixed": 15,
+        "grid": 5,
+        "flex": 438,
+        "absolute": 213,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 8264,
+        "pages": 9.5,
+        "spacing": [
+          [
+            7,
+            146
+          ],
+          [
+            6,
+            58
+          ],
+          [
+            4,
+            54
+          ],
+          [
+            1,
+            38
+          ],
+          [
+            12,
+            34
+          ],
+          [
+            3,
+            19
+          ],
+          [
+            9,
+            12
+          ],
+          [
+            14,
+            11
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 8,
+        "animationKinds": [
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 8,
+        "animationDurations": [
+          1200,
+          1200,
+          1200,
+          1200,
+          1200,
+          1200,
+          1200,
+          1200
+        ],
+        "easings": [
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            600,
+            108
+          ],
+          [
+            150,
+            94
+          ],
+          [
+            200,
+            81
+          ],
+          [
+            800,
+            58
+          ],
+          [
+            500,
+            5
+          ]
+        ],
+        "keyframes": [
+          "spin",
+          "gradient-move",
+          "skeleton-shimmer"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 1,
+      "media": {
+        "canvases": [],
+        "videos": [
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://www.oimachi.co/"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://www.oimachi.co/"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://www.oimachi.co/"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://www.oimachi.co/"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://www.oimachi.co/"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://www.oimachi.co/"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://player.vimeo.com/progressive_redirect/playback/1202824078/rendition/1440p/file.mp4%20%281440p%29.mp4?loc=external&log_user=0&signature=6aaa8908c558bcaa9"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://www.oimachi.co/"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://www.oimachi.co/"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://www.oimachi.co/"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://www.oimachi.co/"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://www.oimachi.co/"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://www.oimachi.co/"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://www.oimachi.co/"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://player.vimeo.com/progressive_redirect/playback/1128518161/rendition/540p/file.mp4?loc=external&log_user=0&signature=1ef458d27d204f348faaf84cf90f498a0cb4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://player.vimeo.com/progressive_redirect/playback/1056785443/rendition/360p/file.mp4?loc=external&log_user=0&signature=16956897df875549816c65f0c358dafb8a17"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://player.vimeo.com/progressive_redirect/playback/1129485024/rendition/540p/file.mp4?loc=external&log_user=0&signature=aac53e76280158d7568d77ca8920adea06f0"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://player.vimeo.com/progressive_redirect/playback/1128146622/rendition/540p/file.mp4?loc=external&log_user=0&signature=8e33a9890fe7b92d4a7f90dd77cb7f7ce4fe"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://player.vimeo.com/progressive_redirect/playback/1132072936/rendition/360p/file.mp4?loc=external&log_user=0&signature=0ee8acf726cdb980de2a13433792ff16f9fb"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://player.vimeo.com/progressive_redirect/playback/1133791171/rendition/720p/file.mp4?loc=external&log_user=0&signature=ea037540de10fb9518981ecdf95b69113b49"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://player.vimeo.com/progressive_redirect/playback/1128836562/rendition/720p/file.mp4?loc=external&log_user=0&signature=a88184f8aa2f2ec333383f8c4e8277ce245e"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://player.vimeo.com/progressive_redirect/playback/1133786044/rendition/1080p/file.mp4?loc=external&log_user=0&signature=182ac68263438e9cd499f9b4fdd7ce62f17"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://player.vimeo.com/progressive_redirect/playback/1128836562/rendition/720p/file.mp4?loc=external&log_user=0&signature=a88184f8aa2f2ec333383f8c4e8277ce245e"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://player.vimeo.com/progressive_redirect/playback/1207320981/rendition/540p/file.mp4%20%28540p%29.mp4?loc=external&log_user=0&signature=414c4c912faef1bcd4b"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://player.vimeo.com/progressive_redirect/playback/1207369967/rendition/720p/file.mp4%20%28720p%29.mp4?loc=external&log_user=0&signature=25a32293b1a17d25303"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://player.vimeo.com/progressive_redirect/playback/1139308280/rendition/1080p/file.mp4%20%281080p%29.mp4?loc=external&log_user=0&signature=ae6fd6a958753738d"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://player.vimeo.com/progressive_redirect/playback/1207390313/rendition/240p/file.mp4%20%28240p%29.mp4?loc=external&log_user=0&signature=dff945c685d639a61f9"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://player.vimeo.com/progressive_redirect/playback/1210752224/rendition/240p/file.mp4%20%28240p%29.mp4?loc=external&log_user=0&signature=03be5bd3d9f2ef7dbd2"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://player.vimeo.com/progressive_redirect/playback/1207402294/rendition/360p/file.mp4%20%28360p%29.mp4?loc=external&log_user=0&signature=b89018495eaaaf80d9c"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://player.vimeo.com/progressive_redirect/playback/1207314588/rendition/540p/file.mp4%20%28540p%29.mp4?loc=external&log_user=0&signature=d3d9bd9a4ff2dff0d4e"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://player.vimeo.com/progressive_redirect/playback/1202089255/rendition/540p/file.mp4%20%28540p%29.mp4?loc=external&log_user=0&signature=4c3b646707666e4d61e"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://player.vimeo.com/progressive_redirect/playback/1202085633/rendition/720p/file.mp4%20%28720p%29.mp4?loc=external&log_user=0&signature=ac2268d1715ceef64c5"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://player.vimeo.com/progressive_redirect/playback/1207485506/rendition/540p/file.mp4%20%28540p%29.mp4?loc=external&log_user=0&signature=f883c973e7ebb9b8553"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://player.vimeo.com/progressive_redirect/playback/1202082654/rendition/720p/file.mp4%20%28720p%29.mp4?loc=external&log_user=0&signature=0b6b9dc13939e8a1f08"
+          }
+        ],
+        "svg": 84,
+        "images": 100,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "2d": 2
+        },
+        "raf": 1199,
+        "io": 1,
+        "ro": 1,
+        "mo": 4,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": true,
+        "ScrollTrigger": true,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": true,
+        "jQuery": true,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": true,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": true,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Oimachi – Design, AI & Webflow Excellence Studio.",
+      "lang": "en",
+      "description": "Design, AI & Webflow Excellence Studio. Oimachi helps ambitious teams with brand design, scalable Webflow websites, and meaningful experiences in the age of AI."
+    },
+    "featuresBeforeScroll": {
+      "elements": 2426,
+      "canvases": 0,
+      "animations": 8,
+      "hidden": 18
+    },
+    "scrollReveal": 17,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 11251252,
+        "layoutCount": 189,
+        "recalcStyleCount": 467,
+        "scriptDuration": 0.316312,
+        "taskDuration": 1.440514,
+        "nodes": 9809
+      },
+      "timing": {
+        "domContentLoaded": 342,
+        "load": 886,
+        "first-paint": 108,
+        "first-contentful-paint": 152
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "skeleton-shimmer",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "skeleton-shimmer",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "skeleton-shimmer",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "skeleton-shimmer",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "skeleton-shimmer",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "skeleton-shimmer",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "skeleton-shimmer",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "skeleton-shimmer",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "skeleton-shimmer",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "skeleton-shimmer",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "skeleton-shimmer",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "skeleton-shimmer",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "skeleton-shimmer",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "skeleton-shimmer",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "skeleton-shimmer",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "skeleton-shimmer",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "skeleton-shimmer",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "skeleton-shimmer",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "skeleton-shimmer",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "skeleton-shimmer",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "skeleton-shimmer",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "skeleton-shimmer",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "skeleton-shimmer",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "skeleton-shimmer",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "skeleton-shimmer",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "skeleton-shimmer",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "skeleton-shimmer",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "skeleton-shimmer",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "skeleton-shimmer",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "skeleton-shimmer",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "skeleton-shimmer",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      }
+    ],
+    "console": [],
+    "exceptions": [
+      "ReferenceError: $ is not defined\n    at https://www.oimachi.co/:859:1"
+    ],
+    "failed": [
+      {
+        "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/70801391-e04b-404f-9d6e-9a322bbcc680/3ebd6554?__token__=st=1791626686~exp=1791630286~acl=%2Fv3-1%2Fplayback%2F70801391-e04b-404f-9d6e-9a322bbcc680%2F3ebd6554%2A~hmac=9c7a805ab2b37935c639ea3bda3c596e5ed68ae7e647f6c8fc70a9412de25e89&r=dXMtd2VzdDE%3D",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/2bf9048d-8acf-4686-a06f-412d00ce7bc4/505c161d?__token__=st=1791626686~exp=1791630286~acl=%2Fv3-1%2Fplayback%2F2bf9048d-8acf-4686-a06f-412d00ce7bc4%2F505c161d%2A~hmac=6b9380cd180ec00cffd262c42f55f7a69856eb49b3988c5a6058410eeb40095d&r=dXMtZWFzdDE%3D",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/fb1a2172-e089-451a-a6c3-ee471d0888f1/2fecbf28?__token__=st=1791626686~exp=1791630286~acl=%2Fv3-1%2Fplayback%2Ffb1a2172-e089-451a-a6c3-ee471d0888f1%2F2fecbf28%2A~hmac=8411944b729ad4ee368b1486371f382b2ce72c361cdb6c6abac56eb848397cc9&r=dXMtd2VzdDE%3D",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/0240bcc0-3813-4454-b3c6-d43ba689292c/736e5aaa-cdc9ab90?__token__=st=1791626687~exp=1791630287~acl=%2Fv3-1%2Fplayback%2F0240bcc0-3813-4454-b3c6-d43ba689292c%2F736e5aaa-cdc9ab90%2A~hmac=81b70590c8a16d55759725e3f30fed31b2616b53a2d412f717cf355d6806e2a2&r=dXMtY2VudHJhbDE%3D",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/f37d43ba-6c2e-4023-9718-e300f22bf198/2191e744-4ca995d6?__token__=st=1791626687~exp=1791630287~acl=%2Fv3-1%2Fplayback%2Ff37d43ba-6c2e-4023-9718-e300f22bf198%2F2191e744-4ca995d6%2A~hmac=d3f829d0f580c21a85a204158a3a547346f3f9c8f63691203601be875deaf5a9&r=dXMtZWFzdDE%3D",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  }
+}

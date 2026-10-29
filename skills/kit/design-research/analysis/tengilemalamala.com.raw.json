@@ -1,0 +1,2789 @@
+{
+  "url": "https://tengilemalamala.com/",
+  "at": "2026-10-09T07:58:37.761Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 16508,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 680,
+      "typography": {
+        "families": [
+          [
+            "Inter",
+            89
+          ],
+          [
+            "PP Fragment",
+            21
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            47
+          ],
+          [
+            "500",
+            42
+          ],
+          [
+            "310",
+            14
+          ],
+          [
+            "220",
+            7
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            18
+          ]
+        ],
+        "sizeMin": 12,
+        "sizeMedian": 16,
+        "sizeMax": 48,
+        "sizeMaxVw": 3.3,
+        "scaleRatio": 3,
+        "letterSpacingMean": -0.011,
+        "loadedFonts": [
+          {
+            "family": "PP Fragment",
+            "weight": "normal",
+            "style": "normal"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 110
+      },
+      "color": {
+        "background": "rgb(245, 238, 233)",
+        "backgroundLuminance": 0.8644474092157354,
+        "backgrounds": [
+          [
+            "rgb(227, 225, 212)",
+            12263
+          ],
+          [
+            "rgb(245, 238, 233)",
+            2079
+          ],
+          [
+            "rgb(92, 110, 33)",
+            2019
+          ],
+          [
+            "rgb(251, 248, 246)",
+            129
+          ],
+          [
+            "rgb(165, 165, 147)",
+            0
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(55, 63, 29)",
+            411
+          ],
+          [
+            "rgb(245, 238, 233)",
+            100
+          ],
+          [
+            "rgba(0, 0, 0, 0)",
+            33
+          ],
+          [
+            "rgb(227, 225, 212)",
+            15
+          ],
+          [
+            "rgb(251, 248, 246)",
+            10
+          ]
+        ],
+        "meanSaturation": 0.19,
+        "rootVars": {
+          "--lvh": "1vh",
+          "--svh": "1vh"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 2,
+        "sticky": 1,
+        "fixed": 8,
+        "grid": 22,
+        "flex": 84,
+        "absolute": 78,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 11586,
+        "pages": 12.9,
+        "spacing": [
+          [
+            4,
+            52
+          ],
+          [
+            8,
+            29
+          ],
+          [
+            12,
+            17
+          ],
+          [
+            16,
+            11
+          ],
+          [
+            32,
+            11
+          ],
+          [
+            40,
+            9
+          ],
+          [
+            80,
+            7
+          ],
+          [
+            2,
+            5
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 1,
+        "animationKinds": [
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 1,
+        "animationDurations": [
+          120000
+        ],
+        "easings": [
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            300,
+            90
+          ],
+          [
+            1600,
+            18
+          ],
+          [
+            400,
+            14
+          ],
+          [
+            600,
+            4
+          ],
+          [
+            500,
+            2
+          ]
+        ],
+        "keyframes": [
+          "DrawerSkeleton-module-scss-module__Zmpd7q__skeleton-fade",
+          "SectionImagesMarquee-module-scss-module__eXBUiG__marquee",
+          "plyr-progress",
+          "plyr-popup",
+          "plyr-fade-in",
+          "SectionMap-module-scss-module__xgLpBa__pinPointIddler"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 12,
+      "media": {
+        "canvases": [],
+        "videos": [
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://d1z1bhj01il1nu.cloudfront.net/tmmc-home-hero-preview_1080p.mp4"
+          }
+        ],
+        "svg": 22,
+        "images": 38,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {},
+        "raf": 1351,
+        "io": 40,
+        "ro": 3,
+        "mo": 1,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": true,
+        "nuxt": false,
+        "reactRoot": true,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Luxury Safari Experiences in Greater Kruger & Sabi Sand | Tengile MalaMala Collection",
+      "lang": "en",
+      "description": "Discover luxury safari experiences in Greater Kruger and Sabi Sand. Wildlife, luxury accommodation and unforgettable Big Five encounters. Explore MalaMala."
+    },
+    "featuresBeforeScroll": {
+      "elements": 679,
+      "canvases": 0,
+      "animations": 40,
+      "hidden": 12
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 6,
+      "changed": 2
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 13005340,
+        "layoutCount": 92,
+        "recalcStyleCount": 1502,
+        "scriptDuration": 0.345929,
+        "taskDuration": 1.929864,
+        "nodes": 1265
+      },
+      "timing": {
+        "domContentLoaded": 259,
+        "load": 579,
+        "first-paint": 296,
+        "first-contentful-paint": 296
+      }
+    },
+    "network": [
+      {
+        "url": "https://tengilemalamala.com/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 33390
+      },
+      {
+        "url": "https://tengilemalamala.com/fonts/inter-regular.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 100469
+      },
+      {
+        "url": "https://tengilemalamala.com/fonts/inter-medium.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 108495
+      },
+      {
+        "url": "https://tengilemalamala.com/fonts/PPFragment-GlareVariable.woff",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff",
+        "fromCache": false,
+        "bytes": 130011
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/static/chunks/0a1e15ea1bee547b.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 11121
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/static/chunks/eaa93519c4174e67.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 10942
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/static/chunks/867cb3a20065fa73.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 2366
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/static/chunks/1f88f84f681727b9.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 5831
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/static/chunks/1cceaa0918f962c0.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 4558
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/static/chunks/ea2d203011477ad5.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 10639
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/static/chunks/bc33c8cc47ecd499.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 8256
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/static/chunks/6f4704ed30d2e22c.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 14300
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/static/chunks/eab46db3e20d2fbc.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 19812
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/static/chunks/2c6eb7d379aa75a0.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 14192
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/static/chunks/6a19777aa9acf744.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 30184
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/static/chunks/abf74bf39dc2e291.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 104636
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/static/chunks/ecb023d1377d754b.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 65355
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/static/chunks/d9d05a2a7eafa578.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 36035
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/static/chunks/turbopack-1198868ab744aba5.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4728
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/static/chunks/0459ae8ae0a409ed.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 8266
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/static/chunks/95cbba95617b59b7.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 34600
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/static/chunks/1f8a66739f3beae5.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 11222
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/static/chunks/fdc5c9b14da6267d.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 104975
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/static/chunks/turbopack-abf8f7aec4ce03da.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4706
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/static/DhajR9JUXZwN_BCr65CA7/_ssgManifest.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 913
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/static/DhajR9JUXZwN_BCr65CA7/_buildManifest.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1161
+      },
+      {
+        "url": "https://d1z1bhj01il1nu.cloudfront.net/tmmc-home-hero-preview_1080p.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://cdn.sanity.io/images/lbfzk6b6/production/198b478bdb2519980fd7682bd68e61a8be330d40-2308x2936.jpg?w=20&blur=50&format=jpg&q=30",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 559
+      },
+      {
+        "url": "https://cdn.sanity.io/images/lbfzk6b6/production/8d7a933dd45f344ac9cde3552a61d232256041f8-2784x3360.jpg?w=20&blur=50&format=jpg&q=30",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 574
+      },
+      {
+        "url": "https://cdn.sanity.io/images/lbfzk6b6/production/dbf92e630a10bb4fe78d11728cd4348191269166-2784x2240.jpg?w=20&blur=50&format=jpg&q=30",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 554
+      },
+      {
+        "url": "https://cdn.sanity.io/images/lbfzk6b6/production/81668501c6dda5175e5c84bd2fd1cd840aa0fa17-2784x2240.jpg?w=20&blur=50&format=jpg&q=30",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 557
+      },
+      {
+        "url": "https://cdn.sanity.io/images/lbfzk6b6/production/a3991f5ac0e1e159191ef57a8b4d59feb9860d3f-1836x2240.jpg?w=20&blur=50&format=jpg&q=30",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 957
+      },
+      {
+        "url": "https://cdn.sanity.io/images/lbfzk6b6/production/217c6ff857ef189afd2e68647546be8eaffcd26f-1836x2240.jpg?w=20&blur=50&format=jpg&q=30",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 594
+      },
+      {
+        "url": "https://cdn.sanity.io/images/lbfzk6b6/production/0de7565f4d2c741d44ceec6c2d52edd8d7835a21-1836x2240.jpg?w=20&blur=50&format=jpg&q=30",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 575
+      },
+      {
+        "url": "https://cdn.sanity.io/images/lbfzk6b6/production/4d058b463fc858fdb2bd57192829100bc25381c4-2121x2588.png?w=20&blur=50&format=jpg&q=30",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 1514
+      },
+      {
+        "url": "https://cdn.sanity.io/images/lbfzk6b6/production/ad2957b0a2c978afe8b3560cbdf4cb47a7f1bcd1-5632x3112.jpg?w=20&blur=50&format=jpg&q=30",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 544
+      },
+      {
+        "url": "https://cdn.sanity.io/images/lbfzk6b6/production/ed7aabd4774f8d28cfa15a6202b0c40272ce9a67-7008x4672.jpg?w=20&blur=50&format=jpg&q=30",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 564
+      },
+      {
+        "url": "https://cdn.sanity.io/images/lbfzk6b6/production/b2f4c1fd88f2e1f17d198499d38765c15ddb3b60-7680x4320.jpg?w=20&blur=50&format=jpg&q=30",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 569
+      },
+      {
+        "url": "https://cdn.sanity.io/images/lbfzk6b6/production/2a7f9f98bad37bbf129b2c5bd4687d527e9bc017-7008x4672.jpg?w=20&blur=50&format=jpg&q=30",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 557
+      },
+      {
+        "url": "https://cdn.sanity.io/images/lbfzk6b6/production/4e33d33e069765c2502ab10c5f2f213035e8eec4-7504x4144.jpg?w=20&blur=50&format=jpg&q=30",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 566
+      },
+      {
+        "url": "https://cdn.sanity.io/images/lbfzk6b6/production/4b9cef4629df1758abdbad307ba31b13a1d5dab1-7680x4148.jpg?w=20&blur=50&format=jpg&q=30",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 565
+      },
+      {
+        "url": "https://cdn.sanity.io/images/lbfzk6b6/production/4471ae4ab08eb46a7e844868e4c8de47616fe6e9-3735x5503.jpg?w=20&blur=50&format=jpg&q=30",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 576
+      },
+      {
+        "url": "https://cdn.sanity.io/images/lbfzk6b6/production/8b707aeeb6c833f6ba7ff70ed0e737124e00c5e7-3735x3735.jpg?w=20&blur=50&format=jpg&q=30",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 592
+      },
+      {
+        "url": "https://cdn.sanity.io/images/lbfzk6b6/production/76a68c55222ff2592ffaab06920f9fcceabacc5f-720x800.jpg?w=20&blur=50&format=jpg&q=30",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 566
+      },
+      {
+        "url": "https://cdn.sanity.io/images/lbfzk6b6/production/6ac4772dfb4a5881960b0f9db0e977dc8f05cbe6-560x640.jpg?w=20&blur=50&format=jpg&q=30",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 587
+      },
+      {
+        "url": "https://cdn.sanity.io/images/lbfzk6b6/production/cf21662936f98780f093d1cc096c2011dc4bd022-720x800.jpg?w=20&blur=50&format=jpg&q=30",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 582
+      },
+      {
+        "url": "https://cdn.sanity.io/images/lbfzk6b6/production/625cdacfb8610d8011ea02cb17eb536e839a12a2-560x640.jpg?w=20&blur=50&format=jpg&q=30",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 588
+      },
+      {
+        "url": "https://cdn.sanity.io/images/lbfzk6b6/production/6e8d741a02ebe551ce49cc0d2c2f56ce6cfd8227-720x800.jpg?w=20&blur=50&format=jpg&q=30",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 577
+      },
+      {
+        "url": "https://cdn.sanity.io/images/lbfzk6b6/production/2e6ecdfd70269fd2e0565352139650eec0981d40-720x800.jpg?w=20&blur=50&format=jpg&q=30",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 578
+      },
+      {
+        "url": "https://cdn.sanity.io/images/lbfzk6b6/production/8a886ff583daec4e4d3745e5988edccd70ee7b5b-3708x3060.jpg?w=20&blur=50&format=jpg&q=30",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 581
+      },
+      {
+        "url": "https://cdn.sanity.io/images/lbfzk6b6/production/9c1b8e2624d0c1ef67b18ae3cf3c37827d5db07d-1360x1600.jpg?w=20&blur=50&format=jpg&q=30",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 586
+      },
+      {
+        "url": "https://cdn.sanity.io/images/lbfzk6b6/production/1779756098c6e8e62b9067ad1c300d44ae10f7fb-2444x2992.jpg?w=20&blur=50&format=jpg&q=30",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 573
+      },
+      {
+        "url": "https://cdn.sanity.io/images/lbfzk6b6/production/920fef0004b2428dd7200b6a21bf3b92a7ea094f-1836x2248.jpg?w=20&blur=50&format=jpg&q=30",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 613
+      },
+      {
+        "url": "https://cdn.sanity.io/images/lbfzk6b6/production/ed4a50cd972a5e645d8d881159c0c1cd1420de87-1360x1600.jpg?w=20&blur=50&format=jpg&q=30",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 861
+      },
+      {
+        "url": "https://cdn.sanity.io/images/lbfzk6b6/production/568083bdc123686edefe0b19d8e86a86dfc383a2-1812x2224.jpg?w=20&blur=50&format=jpg&q=30",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 572
+      },
+      {
+        "url": "https://cdn.sanity.io/images/lbfzk6b6/production/2339c0a20a615639d049d0afda38d0861419b09a-1836x2248.jpg?w=20&blur=50&format=jpg&q=30",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 569
+      },
+      {
+        "url": "https://cdn.sanity.io/images/lbfzk6b6/production/38be06ec725192e541540ee91079d4f94425becf-1836x2248.jpg?w=20&blur=50&format=jpg&q=30",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 577
+      },
+      {
+        "url": "https://cdn.sanity.io/images/lbfzk6b6/production/97316b395db10b0aaee9fbf4125f9f23225c970a-1812x2224.jpg?w=20&blur=50&format=jpg&q=30",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 559
+      },
+      {
+        "url": "https://cdn.sanity.io/images/lbfzk6b6/production/35c0dc311894d7dac8c544c0b0e7638d16f1b523-2784x2296.jpg?w=20&blur=50&format=jpg&q=30",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 552
+      },
+      {
+        "url": "https://cdn.sanity.io/images/lbfzk6b6/production/e5f6b077f66cea1603d54331b639781240ee3dcd-1812x2132.jpg?w=20&blur=50&format=jpg&q=30",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 571
+      },
+      {
+        "url": "https://cdn.sanity.io/images/lbfzk6b6/production/7733ab052243b54a97fcc2a5f7f3c2d452a0b39a-884x1232.jpg?w=20&blur=50&format=jpg&q=30",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 578
+      },
+      {
+        "url": "https://cdn.sanity.io/images/lbfzk6b6/production/9df8d1bf98e06bd9cf3d8d1ece76b09296eb30e0-7680x6776.jpg?w=20&blur=50&format=jpg&q=30",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 574
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/static/DhajR9JUXZwN_BCr65CA7/_clientMiddlewareManifest.json",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 560
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Flbfzk6b6%2Fproduction%2F198b478bdb2519980fd7682bd68e61a8be330d40-2308x2936.jpg&w=1024&q=80",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 123674
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Flbfzk6b6%2Fproduction%2F8d7a933dd45f344ac9cde3552a61d232256041f8-2784x3360.jpg&w=1024&q=80",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 122983
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Flbfzk6b6%2Fproduction%2Fdbf92e630a10bb4fe78d11728cd4348191269166-2784x2240.jpg&w=512&q=80",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 64384
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Flbfzk6b6%2Fproduction%2F81668501c6dda5175e5c84bd2fd1cd840aa0fa17-2784x2240.jpg&w=512&q=80",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 57527
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Flbfzk6b6%2Fproduction%2Fa3991f5ac0e1e159191ef57a8b4d59feb9860d3f-1836x2240.jpg&w=512&q=80",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 39918
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-MMWFT46X",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 125356
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/data/DhajR9JUXZwN_BCr65CA7/booking.json",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 6075
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/static/chunks/e641e1f4e6060622.js",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1200
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/data/DhajR9JUXZwN_BCr65CA7/index.json",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 15963
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/static/chunks/28a6887e3bd3e181.js",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1086
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/data/DhajR9JUXZwN_BCr65CA7/accommodation.json",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 10694
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/static/chunks/658421dc36e5a9ef.js",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1099
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/data/DhajR9JUXZwN_BCr65CA7/privacy-policy.json?slug=privacy-policy",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 8662
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/static/chunks/c33502467184b86d.js",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1092
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/static/chunks/e641e1f4e6060622.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/static/chunks/c83913b757ce2b9d.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 5789
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/static/chunks/06e320700a080908.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 14419
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/static/chunks/f50f5f3120cbc8ed.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 9528
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/static/chunks/f39e63cb12b19b1b.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 45929
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/static/chunks/9f164cfc0bab4cb8.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 10633
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/static/chunks/4d88ac1fb14afb89.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 6296
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/static/chunks/turbopack-87afad4679ebedaf.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4758
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/static/chunks/658421dc36e5a9ef.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/static/chunks/c33502467184b86d.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/static/chunks/642116eeb6ef7790.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 8241
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/static/chunks/turbopack-d4a7a114bfd3d0a3.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4706
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/static/chunks/4b3f931a7b949188.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 9111
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/static/chunks/turbopack-a4c06971553663ab.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4705
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-61PY6JQCW1&cx=c&gtm=4e6a72",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 180398
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-61PY6JQCW1&gtm=45je6a72v9246673726za20ozb9246671499zd9246671499xf1&_p=1791532694175&gcs=G100&gcd=13p3p3p3p5l1&npa=1&dma_cps=-&dma=0&are=1&cid=1640694334.1791532694&frm=0&ngs=1&pscdl=denied&rcb=12&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=1&tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034~123235076&sid=1791532694&sct=1&seg=0&dl=https%3A%2F%2Ftengilemalamala.com%2F&dt=Luxury%20Safari%20Experiences%20in%20Greater%20Kruger%20%26%20Sabi%20Sand%20%7C%20Tengile%20MalaMala%20Collection&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=587",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Flbfzk6b6%2Fproduction%2F217c6ff857ef189afd2e68647546be8eaffcd26f-1836x2240.jpg&w=512&q=80",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 77389
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Flbfzk6b6%2Fproduction%2F0de7565f4d2c741d44ceec6c2d52edd8d7835a21-1836x2240.jpg&w=512&q=80",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 101379
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Flbfzk6b6%2Fproduction%2F4d058b463fc858fdb2bd57192829100bc25381c4-2121x2588.png&w=512&q=80",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 105552
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Flbfzk6b6%2Fproduction%2Fad2957b0a2c978afe8b3560cbdf4cb47a7f1bcd1-5632x3112.jpg&w=1536&q=80",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 145942
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/data/DhajR9JUXZwN_BCr65CA7/accommodation/tengile-river-lodge.json?slug=tengile-river-lodge",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 25115
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/static/chunks/8a402ab4c190e5a0.js",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1106
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/data/DhajR9JUXZwN_BCr65CA7/accommodation/rattrays-lodge.json?slug=rattrays-lodge",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 20973
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/data/DhajR9JUXZwN_BCr65CA7/accommodation/khensani-river-lodge.json?slug=khensani-river-lodge",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 4185
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/static/chunks/8a402ab4c190e5a0.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/static/chunks/2567d827821ef744.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 10127
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/static/chunks/8ad19ef317b92775.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 10701
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/static/chunks/e56a04626134949e.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 104688
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/static/chunks/turbopack-5db15651612de64e.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4716
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Flbfzk6b6%2Fproduction%2F4471ae4ab08eb46a7e844868e4c8de47616fe6e9-3735x5503.jpg&w=512&q=80",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 93567
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Flbfzk6b6%2Fproduction%2F8b707aeeb6c833f6ba7ff70ed0e737124e00c5e7-3735x3735.jpg&w=512&q=80",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 29630
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/data/DhajR9JUXZwN_BCr65CA7/accommodation/malamala-camp.json?slug=malamala-camp",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 27210
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/data/DhajR9JUXZwN_BCr65CA7/accommodation/sable-camp.json?slug=sable-camp",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 24924
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/data/DhajR9JUXZwN_BCr65CA7/accommodation/kirkmans-kamp.json?slug=kirkmans-kamp",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 36050
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Flbfzk6b6%2Fproduction%2F76a68c55222ff2592ffaab06920f9fcceabacc5f-720x800.jpg&w=512&q=80",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 33333
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Flbfzk6b6%2Fproduction%2Fcf21662936f98780f093d1cc096c2011dc4bd022-720x800.jpg&w=512&q=80",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 17491
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Flbfzk6b6%2Fproduction%2F625cdacfb8610d8011ea02cb17eb536e839a12a2-560x640.jpg&w=512&q=80",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 7038
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Flbfzk6b6%2Fproduction%2F6e8d741a02ebe551ce49cc0d2c2f56ce6cfd8227-720x800.jpg&w=512&q=80",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 65058
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Flbfzk6b6%2Fproduction%2F6ac4772dfb4a5881960b0f9db0e977dc8f05cbe6-560x640.jpg&w=512&q=80",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 32932
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Flbfzk6b6%2Fproduction%2F2e6ecdfd70269fd2e0565352139650eec0981d40-720x800.jpg&w=512&q=80",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 70218
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Flbfzk6b6%2Fproduction%2F8a886ff583daec4e4d3745e5988edccd70ee7b5b-3708x3060.jpg&w=1024&q=80",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 66304
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Flbfzk6b6%2Fproduction%2F9c1b8e2624d0c1ef67b18ae3cf3c37827d5db07d-1360x1600.jpg&w=1024&q=80",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 68855
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Flbfzk6b6%2Fproduction%2F1779756098c6e8e62b9067ad1c300d44ae10f7fb-2444x2992.jpg&w=1024&q=80",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 68626
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Flbfzk6b6%2Fproduction%2F920fef0004b2428dd7200b6a21bf3b92a7ea094f-1836x2248.jpg&w=1024&q=80",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 46248
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Flbfzk6b6%2Fproduction%2Fed4a50cd972a5e645d8d881159c0c1cd1420de87-1360x1600.jpg&w=1024&q=80",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 62888
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Flbfzk6b6%2Fproduction%2F568083bdc123686edefe0b19d8e86a86dfc383a2-1812x2224.jpg&w=1024&q=80",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 60724
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Flbfzk6b6%2Fproduction%2F2339c0a20a615639d049d0afda38d0861419b09a-1836x2248.jpg&w=1024&q=80",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 49272
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Flbfzk6b6%2Fproduction%2F9df8d1bf98e06bd9cf3d8d1ece76b09296eb30e0-7680x6776.jpg&w=1536&q=80",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 252864
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/data/DhajR9JUXZwN_BCr65CA7/about.json?slug=about",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 15094
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/data/DhajR9JUXZwN_BCr65CA7/conservation.json?slug=conservation",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 8899
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/data/DhajR9JUXZwN_BCr65CA7/booking.json",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/data/DhajR9JUXZwN_BCr65CA7/booking.json",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "other",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-61PY6JQCW1&gtm=45je6a72v9246673726za20gzb9246671499zd9246671499xf1&_p=1791532694175&gcs=G100&gcd=13p3p3p3p5l1&npa=1&dma_cps=-&dma=0&_eu=AEA&ae=a&are=1&cid=1640694334.1791532694&frm=0&ngs=1&pscdl=denied&rcb=12&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=2&tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034~123235076&sid=1791532694&sct=1&seg=0&dl=https%3A%2F%2Ftengilemalamala.com%2F&dt=Luxury%20Safari%20Experiences%20in%20Greater%20Kruger%20%26%20Sabi%20Sand%20%7C%20Tengile%20MalaMala%20Collection&en=scroll&epn.percent_scrolled=90&_et=7222&tfd=12811",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "SectionImagesMarquee-module-scss-module__eXBUiG__marquee",
+        "duration": 0,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 0,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.25, 0.46, 0.45, 0.94)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 1600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1600,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 1600,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1600,
+        "delay": 350,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 1600,
+        "delay": 350,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1600,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 1600,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1600,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 1600,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1600,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 1600,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1600,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 1600,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1600,
+        "delay": 150,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 1600,
+        "delay": 150,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1600,
+        "delay": 350,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 1600,
+        "delay": 350,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1600,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 1600,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1600,
+        "delay": 150,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 1600,
+        "delay": 150,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 1600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1600,
+        "delay": 50,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 1600,
+        "delay": 50,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1600,
+        "delay": 50,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 1600,
+        "delay": 50,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1600,
+        "delay": 250,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 1600,
+        "delay": 250,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1600,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 1600,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1600,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 1600,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1600,
+        "delay": 250,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 1600,
+        "delay": 250,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.25, 0.46, 0.45, 0.94)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.25, 0.46, 0.45, 0.94)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      }
+    ],
+    "console": [],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://d1z1bhj01il1nu.cloudfront.net/tmmc-home-hero-preview_1080p.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-61PY6JQCW1&gtm=45je6a72v9246673726za20ozb9246671499zd9246671499xf1&_p=1791532694175&gcs=G100&gcd=13p3p3p3p5l1&npa=1&dma_cps=-&dma=0&are=1&cid=1640694334.1791532694&frm=0&ngs=1&pscdl=denied&rcb=12&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=1&tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034~123235076&sid=1791532694&sct=1&seg=0&dl=https%3A%2F%2Ftengilemalamala.com%2F&dt=Luxury%20Safari%20Experiences%20in%20Greater%20Kruger%20%26%20Sabi%20Sand%20%7C%20Tengile%20MalaMala%20Collection&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=587",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://tengilemalamala.com/_next/data/DhajR9JUXZwN_BCr65CA7/booking.json",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-61PY6JQCW1&gtm=45je6a72v9246673726za20gzb9246671499zd9246671499xf1&_p=1791532694175&gcs=G100&gcd=13p3p3p3p5l1&npa=1&dma_cps=-&dma=0&_eu=AEA&ae=a&are=1&cid=1640694334.1791532694&frm=0&ngs=1&pscdl=denied&rcb=12&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=2&tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034~123235076&sid=1791532694&sct=1&seg=0&dl=https%3A%2F%2Ftengilemalamala.com%2F&dt=Luxury%20Safari%20Experiences%20in%20Greater%20Kruger%20%26%20Sabi%20Sand%20%7C%20Tengile%20MalaMala%20Collection&en=scroll&epn.percent_scrolled=90&_et=7222&tfd=12811",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 7365,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 675,
+      "typography": {
+        "families": [
+          [
+            "Inter",
+            87
+          ],
+          [
+            "PP Fragment",
+            21
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            47
+          ],
+          [
+            "500",
+            40
+          ],
+          [
+            "310",
+            15
+          ],
+          [
+            "220",
+            6
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            19
+          ]
+        ],
+        "sizeMin": 12,
+        "sizeMedian": 16,
+        "sizeMax": 40,
+        "sizeMaxVw": 10.3,
+        "scaleRatio": 2.5,
+        "letterSpacingMean": -0.011,
+        "loadedFonts": [
+          {
+            "family": "PP Fragment",
+            "weight": "normal",
+            "style": "normal"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Inter",
+            "weight": "500",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 108
+      },
+      "color": {
+        "background": "rgb(245, 238, 233)",
+        "backgroundLuminance": 0.8644474092157354,
+        "backgrounds": [
+          [
+            "rgb(227, 225, 212)",
+            3809
+          ],
+          [
+            "rgb(245, 238, 233)",
+            1335
+          ],
+          [
+            "rgb(92, 110, 33)",
+            680
+          ],
+          [
+            "rgb(251, 248, 246)",
+            111
+          ],
+          [
+            "rgb(120, 136, 67)",
+            28
+          ],
+          [
+            "rgb(165, 165, 147)",
+            0
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(55, 63, 29)",
+            384
+          ],
+          [
+            "rgb(245, 238, 233)",
+            103
+          ],
+          [
+            "rgba(0, 0, 0, 0)",
+            32
+          ],
+          [
+            "rgb(227, 225, 212)",
+            15
+          ],
+          [
+            "rgb(251, 248, 246)",
+            11
+          ]
+        ],
+        "meanSaturation": 0.24,
+        "rootVars": {
+          "--lvh": "1vh",
+          "--svh": "1vh"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 2,
+        "sticky": 1,
+        "fixed": 6,
+        "grid": 22,
+        "flex": 79,
+        "absolute": 76,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 12716,
+        "pages": 15.1,
+        "spacing": [
+          [
+            4,
+            40
+          ],
+          [
+            8,
+            25
+          ],
+          [
+            32,
+            20
+          ],
+          [
+            12,
+            18
+          ],
+          [
+            16,
+            13
+          ],
+          [
+            40,
+            7
+          ],
+          [
+            20,
+            7
+          ],
+          [
+            64,
+            5
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 1,
+        "animationKinds": [
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 1,
+        "animationDurations": [
+          120000
+        ],
+        "easings": [
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            300,
+            104
+          ],
+          [
+            1600,
+            18
+          ],
+          [
+            400,
+            2
+          ],
+          [
+            500,
+            2
+          ],
+          [
+            800,
+            2
+          ]
+        ],
+        "keyframes": [
+          "DrawerSkeleton-module-scss-module__Zmpd7q__skeleton-fade",
+          "SectionImagesMarquee-module-scss-module__eXBUiG__marquee",
+          "plyr-progress",
+          "plyr-popup",
+          "plyr-fade-in",
+          "SectionMap-module-scss-module__xgLpBa__pinPointIddler"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 7,
+      "media": {
+        "canvases": [],
+        "videos": [
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://d1z1bhj01il1nu.cloudfront.net/tmmc-home-hero-preview-mobile_540p.mp4"
+          }
+        ],
+        "svg": 22,
+        "images": 37,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {},
+        "raf": 1367,
+        "io": 39,
+        "ro": 3,
+        "mo": 1,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": true,
+        "nuxt": false,
+        "reactRoot": true,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Luxury Safari Experiences in Greater Kruger & Sabi Sand | Tengile MalaMala Collection",
+      "lang": "en",
+      "description": "Discover luxury safari experiences in Greater Kruger and Sabi Sand. Wildlife, luxury accommodation and unforgettable Big Five encounters. Explore MalaMala."
+    },
+    "featuresBeforeScroll": {
+      "elements": 674,
+      "canvases": 0,
+      "animations": 40,
+      "hidden": 7
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 12784212,
+        "layoutCount": 72,
+        "recalcStyleCount": 896,
+        "scriptDuration": 0.248095,
+        "taskDuration": 1.132135,
+        "nodes": 1097
+      },
+      "timing": {
+        "domContentLoaded": 178,
+        "load": 509,
+        "first-paint": 208,
+        "first-contentful-paint": 208
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "SectionImagesMarquee-module-scss-module__eXBUiG__marquee",
+        "duration": 0,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 0,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.25, 0.46, 0.45, 0.94)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1600,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 1600,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1600,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 1600,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1600,
+        "delay": 150,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 1600,
+        "delay": 150,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1600,
+        "delay": 150,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 1600,
+        "delay": 150,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1600,
+        "delay": 250,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 1600,
+        "delay": 250,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 1600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 1600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1600,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 1600,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1600,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 1600,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1600,
+        "delay": 350,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 1600,
+        "delay": 350,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1600,
+        "delay": 50,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 1600,
+        "delay": 50,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1600,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 1600,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1600,
+        "delay": 250,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 1600,
+        "delay": 250,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1600,
+        "delay": 50,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 1600,
+        "delay": 50,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1600,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 1600,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1600,
+        "delay": 350,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 1600,
+        "delay": 350,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1600,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 1600,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1600,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 1600,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      }
+    ],
+    "console": [],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://d1z1bhj01il1nu.cloudfront.net/tmmc-home-hero-preview_1080p.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://d1z1bhj01il1nu.cloudfront.net/tmmc-home-hero-preview-mobile_540p.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-61PY6JQCW1&gtm=45je6a72v9246673726za20ozb9246671499zd9246671499xf1&_p=1791532710649&gcs=G100&gcd=13p3p3p3p5l1&npa=1&dma_cps=-&dma=0&are=1&cid=1692649909.1791532711&frm=0&ngs=1&pscdl=denied&rcb=15&sr=390x844&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=1&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=1&tag_exp=115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791532710&sct=1&seg=0&dl=https%3A%2F%2Ftengilemalamala.com%2F&dt=Luxury%20Safari%20Experiences%20in%20Greater%20Kruger%20%26%20Sabi%20Sand%20%7C%20Tengile%20MalaMala%20Collection&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=482",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  }
+}

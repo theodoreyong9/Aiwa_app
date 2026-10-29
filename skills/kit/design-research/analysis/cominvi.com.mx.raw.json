@@ -1,0 +1,3703 @@
+{
+  "url": "https://www.cominvi.com.mx/",
+  "at": "2026-10-09T07:59:36.080Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 9211,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 3626,
+      "typography": {
+        "families": [
+          [
+            "Helvetica Now Display",
+            97
+          ],
+          [
+            "PP Supply Mono",
+            53
+          ]
+        ],
+        "weights": [
+          [
+            "700",
+            84
+          ],
+          [
+            "300",
+            53
+          ],
+          [
+            "500",
+            13
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            53
+          ]
+        ],
+        "sizeMin": 10.8,
+        "sizeMedian": 16,
+        "sizeMax": 112,
+        "sizeMaxVw": 7.8,
+        "scaleRatio": 7,
+        "letterSpacingMean": -0.015,
+        "loadedFonts": [
+          {
+            "family": "webflow-icons",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Helvetica Now Display",
+            "weight": "700",
+            "style": "normal"
+          },
+          {
+            "family": "PP Supply Mono",
+            "weight": "300",
+            "style": "normal"
+          },
+          {
+            "family": "Helvetica Now Display",
+            "weight": "500",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 150
+      },
+      "color": {
+        "background": "rgb(21, 21, 21)",
+        "backgroundLuminance": 0.0074990320432261745,
+        "backgrounds": [
+          [
+            "rgb(255, 255, 255)",
+            15817
+          ],
+          [
+            "rgb(235, 240, 237)",
+            7660
+          ],
+          [
+            "rgb(21, 21, 21)",
+            5381
+          ],
+          [
+            "rgba(2, 2, 2, 0.2)",
+            1296
+          ],
+          [
+            "rgb(224, 224, 224)",
+            194
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(21, 21, 21)",
+            1833
+          ],
+          [
+            "rgb(255, 255, 255)",
+            60
+          ],
+          [
+            "rgb(235, 240, 237)",
+            60
+          ],
+          [
+            "rgb(244, 121, 32)",
+            14
+          ]
+        ],
+        "meanSaturation": 0,
+        "rootVars": {
+          "--primary": "#151515",
+          "--white": "white",
+          "--_spacings---site-margin": "2em",
+          "--accent": "#f47920",
+          "--light-green": "#ebf0ed",
+          "--_ui-colors---button-bg": "var(--primary)",
+          "--_ui-colors---button-text": "var(--white)",
+          "--gray": "#e0e0e0",
+          "--_ui-colors---button-arrow-1-bg": "var(--white)",
+          "--_ui-colors---button-arrow-1-el": "var(--primary)",
+          "--_ui-colors---button-arrow-2-bg": "var(--primary)",
+          "--_ui-colors---button-bg-hover": "var(--accent)",
+          "--_ui-colors---button-text-hover": "var(--primary)",
+          "--_ui-colors---button-arrow-2-el": "var(--accent)",
+          "--size-unit": "16",
+          "--size-container-ideal": "1440",
+          "--size-container-min": "992px",
+          "--size-container-max": "1920px",
+          "--size-container": "clamp(var(--size-container-min), 100vw, var(--size-container-max))",
+          "--size-font": "calc(var(--size-container) / (var(--size-container-ideal) / var(--size-unit)))"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 4,
+        "sticky": 3,
+        "fixed": 10,
+        "grid": 12,
+        "flex": 256,
+        "absolute": 229,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 900,
+        "pages": 1,
+        "spacing": [
+          [
+            16,
+            50
+          ],
+          [
+            4,
+            36
+          ],
+          [
+            8,
+            35
+          ],
+          [
+            32,
+            28
+          ],
+          [
+            2,
+            22
+          ],
+          [
+            13,
+            16
+          ],
+          [
+            12,
+            14
+          ],
+          [
+            18,
+            13
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 0,
+        "animationKinds": [],
+        "infiniteAnimations": 0,
+        "animationDurations": [],
+        "easings": [],
+        "transitionDurationsMs": [
+          [
+            800,
+            39
+          ],
+          [
+            400,
+            33
+          ],
+          [
+            200,
+            3
+          ]
+        ],
+        "keyframes": [
+          "spin"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 4,
+      "media": {
+        "canvases": [
+          {
+            "w": 300,
+            "h": 150,
+            "area": 1
+          },
+          {
+            "w": 680,
+            "h": 502,
+            "area": 0.26
+          }
+        ],
+        "videos": [
+          {
+            "autoplay": false,
+            "loop": false,
+            "muted": true,
+            "src": "https://www.cominvi.com.mx/"
+          },
+          {
+            "autoplay": false,
+            "loop": false,
+            "muted": true,
+            "src": "https://cominvi.pages.dev/cave-scene/intro.mp4"
+          }
+        ],
+        "svg": 55,
+        "images": 24,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "2d": 3
+        },
+        "raf": 386,
+        "io": 9,
+        "ro": 4,
+        "mo": 6,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": true,
+        "jQuery": true,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": true,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "CoMinVi | Underground Mining Contractor in Mexico",
+      "lang": "en",
+      "description": "Leading underground mining contractor in Mexico with 20+ years experience. Specializing in tunnel development, ground support, and mineral extraction."
+    },
+    "featuresBeforeScroll": {
+      "elements": 3628,
+      "canvases": 2,
+      "animations": 0,
+      "hidden": 8
+    },
+    "scrollReveal": 4,
+    "hover": {
+      "probed": 6,
+      "changed": 0
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 8525424,
+        "layoutCount": 1800,
+        "recalcStyleCount": 2365,
+        "scriptDuration": 0.350984,
+        "taskDuration": 2.054154,
+        "nodes": 6456
+      },
+      "timing": {
+        "domContentLoaded": 269,
+        "load": 701,
+        "first-paint": 216,
+        "first-contentful-paint": 216
+      }
+    },
+    "network": [
+      {
+        "url": "https://www.cominvi.com.mx/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 64856
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6899a2f3f7995d5e3e31b7c6/css/cominvi-staging.webflow.shared.451204bcb.min.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 28490
+      },
+      {
+        "url": "https://cominvi.netlify.app/home-background.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 19852
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6899a2f3f7995d5e3e31b7c6/68f79ce92fff59326446790a_home_01.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 34724
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6899a2f3f7995d5e3e31b7c6/68f79cff2e7025c4303a928e_home_02.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 41925
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6899a2f3f7995d5e3e31b7c6/690a1cdd0cf003368be1a76a_13-motor-grader.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 25626
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6899a2f3f7995d5e3e31b7c6/690a1fa07ae075df24b55c3f_7-telehandler.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 20517
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6899a2f3f7995d5e3e31b7c6/690a1cdc25f0a03a168c0680_8-compactor.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 20087
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6899a2f3f7995d5e3e31b7c6/690a1cddb0b336c4c83c379b_9-backhoe%20loader%20with%20basket.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 26994
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6899a2f3f7995d5e3e31b7c6/6a82d4c4e384c1766ba95310_face-drilling-rig.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 23844
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6899a2f3f7995d5e3e31b7c6/690a1cdcbe626f6cccd3ad73_5-Load-Haul-Dump%20Loader.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 14244
+      },
+      {
+        "url": "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6899a2f3f7995d5e3e31b7c6",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 31124
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6899a2f3f7995d5e3e31b7c6/js/webflow.schunk.380a9cc3d7b92fe0.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 15364
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6899a2f3f7995d5e3e31b7c6/js/webflow.45db7ba0.6a7654b6d67a8b28.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 848
+      },
+      {
+        "url": "https://cominvi.pages.dev/main.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 108305
+      },
+      {
+        "url": "https://www.cominvi.com.mx/",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 40
+      },
+      {
+        "url": "https://www.cominvi.com.mx/our-services",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 149912
+      },
+      {
+        "url": "https://www.cominvi.com.mx/technology",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 62981
+      },
+      {
+        "url": "https://www.cominvi.com.mx/safety",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 34734
+      },
+      {
+        "url": "https://www.cominvi.com.mx/about-us",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 39013
+      },
+      {
+        "url": "https://www.cominvi.com.mx/blog",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 32872
+      },
+      {
+        "url": "https://www.cominvi.com.mx/join-the-team",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 38354
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6899a2f3f7995d5e3e31b7c6/6a1064bbf152b2cee690edad_frame_00001.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 15958
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6899a2f3f7995d5e3e31b7c6/6899baf306f22ae8957e5654_HelveticaNowDisplay-Medium.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 45509
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6899a2f3f7995d5e3e31b7c6/6899ad166b8e51fe05dc4a3d_HelveticaNowDisplay-Bold.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 45878
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6899a2f3f7995d5e3e31b7c6/6899ad2cbb853e01ecffd64d_PPSupplyMono-Light.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 16731
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6899a2f3f7995d5e3e31b7c6/68bea9279852844c803cd970_our-services-sm.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 5136
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6899a2f3f7995d5e3e31b7c6/6a85ba433ab903950f39215d_technology-min.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 8406
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/manifest.json",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 781
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/manifest.json",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 484
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/poster/frame_00000.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 102859
+      },
+      {
+        "url": "https://cominvi.pages.dev/assets/cylinder.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3978
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/intro.mp4",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 200,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 3763892
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00000.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 102805
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00001.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 102147
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00002.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 102545
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00003.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 102857
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00004.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 102408
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00005.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 102087
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00006.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 102885
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00007.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 102169
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00000.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 446
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00001.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 445
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00002.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 445
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00003.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 445
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00004.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 441
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00005.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 443
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00006.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 450
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00007.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 441
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00008.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 102497
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00009.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 102430
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00010.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 102445
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00011.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 102387
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00012.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 102609
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00013.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 103050
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00014.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 103101
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00015.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 103205
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00016.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 103999
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00017.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 103848
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00018.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 103957
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00019.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 104207
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00020.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 104580
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00021.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 104582
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00022.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 105086
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00023.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 104920
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00024.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 105327
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00025.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 105806
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00026.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 106172
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00027.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 106103
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00028.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 106329
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00029.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 106115
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-1/frame_00030.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 106140
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-1/frame_00031.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 105966
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-1/frame_00032.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 105972
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-1/frame_00033.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 105833
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-1/frame_00034.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 105792
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-1/frame_00035.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 105694
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-1/frame_00036.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 105320
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-1/frame_00037.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 105114
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-1/frame_00038.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 104631
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-1/frame_00039.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 104272
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-1/frame_00040.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 104170
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-1/frame_00041.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 104506
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-1/frame_00042.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 104314
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-1/frame_00043.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 104452
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-1/frame_00044.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 104906
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-1/frame_00045.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 105888
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-1/frame_00046.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 106082
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-1/frame_00047.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 106237
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-1/frame_00048.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 106810
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-1/frame_00049.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 106350
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-1/frame_00050.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 105898
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-1/frame_00051.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 105350
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-1/frame_00052.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 103716
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-1/frame_00053.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 102435
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-1/frame_00054.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 101754
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-1/frame_00055.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 101804
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-1/frame_00056.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 101036
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-1/frame_00057.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 101072
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-1/frame_00058.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 100920
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-1/frame_00059.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 101250
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/intro.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://cominvi.pages.dev/assets/button-hover.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1975
+      },
+      {
+        "url": "https://cominvi.pages.dev/assets/service-cards.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 6646
+      },
+      {
+        "url": "https://cominvi.pages.dev/assets/index.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 5119
+      },
+      {
+        "url": "https://cominvi.pages.dev/assets/minerals.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3048
+      },
+      {
+        "url": "data:application/x-font-ttf;charset=utf-8;base64,AAEAAAALAIAAAwAwT1MvMg8SBiUAAAC8AAAAYGNtYXDpP+a4AAABHAAAAFxnYXNwAAAAEAAAAXgAAAAIZ2x5ZmhS2XEAAAGAAAADHGhlYWQTFw3HAAAEnAAAADZoaGVhCXYFgQAABNQAAAAkaG10eCe4A1oAAAT4AAAAMGxvY2EDtALGAAAFKAAAABptYXhwABAAPgAABUQAAAAgbmFtZSoCsMsAAAVkAAABznBvc3QAAwAAAAAHNAAAACAAAwP4AZAABQAAApkCzAAAAI8CmQLMAAAB6wAzAQkAAAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAAAAAAAABAAADpAwPA/8AAQAPAAEAAAAABAAAAAAAAAAAAAAAgAAAAAAADAAAAAwAAABwAAQADAAAAHAADAAEAAAAcAAQAQAAAAAwACAACAAQAAQAg5gPpA//9//8AAAAAACDmAOkA//3//wAB/+MaBBcIAAMAAQAAAAAAAAAAAAAAAAABAAH//wAPAAEAAAAAAAAAAAACAAA3OQEAAAAAAQAAAAAAAAAAAAIAADc5AQAAAAABAAAAAAAAAAAAAgAANzkBAAAAAAEBIAAAAyADgAAFAAAJAQcJARcDIP5AQAGA/oBAAcABwED+gP6AQAABAOAAAALgA4AABQAAEwEXCQEH4AHAQP6AAYBAAcABwED+gP6AQAAAAwDAAOADQALAAA8AHwAvAAABISIGHQEUFjMhMjY9ATQmByEiBh0BFBYzITI2PQE0JgchIgYdARQWMyEyNj0BNCYDIP3ADRMTDQJADRMTDf3ADRMTDQJADRMTDf3ADRMTDQJADRMTAsATDSANExMNIA0TwBMNIA0TEw0gDRPAEw0gDRMTDSANEwAAAAABAJ0AtAOBApUABQAACQIHCQEDJP7r/upcAXEBcgKU/usBFVz+fAGEAAAAAAL//f+9BAMDwwAEAAkAABcBJwEXAwE3AQdpA5ps/GZsbAOabPxmbEMDmmz8ZmwDmvxmbAOabAAAAgAA/8AEAAPAAB0AOwAABSInLgEnJjU0Nz4BNzYzMTIXHgEXFhUUBw4BBwYjNTI3PgE3NjU0Jy4BJyYjMSIHDgEHBhUUFx4BFxYzAgBqXV6LKCgoKIteXWpqXV6LKCgoKIteXWpVSktvICEhIG9LSlVVSktvICEhIG9LSlVAKCiLXl1qal1eiygoKCiLXl1qal1eiygoZiEgb0tKVVVKS28gISEgb0tKVVVKS28gIQABAAABwAIAA8AAEgAAEzQ3PgE3NjMxFSIHDgEHBhUxIwAoKIteXWpVSktvICFmAcBqXV6LKChmISBvS0pVAAAAAgAA/8AFtgPAADIAOgAAARYXHgEXFhUUBw4BBwYHIxUhIicuAScmNTQ3PgE3NjMxOAExNDc+ATc2MzIXHgEXFhcVATMJATMVMzUEjD83NlAXFxYXTjU1PQL8kz01Nk8XFxcXTzY1PSIjd1BQWlJJSXInJw3+mdv+2/7c25MCUQYcHFg5OUA/ODlXHBwIAhcXTzY1PTw1Nk8XF1tQUHcjIhwcYUNDTgL+3QFt/pOTkwABAAAAAQAAmM7nP18PPPUACwQAAAAAANciZKUAAAAA1yJkpf/9/70FtgPDAAAACAACAAAAAAAAAAEAAAPA/8AAAAW3//3//QW2AAEAAAAAAAAAAAAAAAAAAAAMBAAAAAAAAAAAAAAAAgAAAAQAASAEAADgBAAAwAQAAJ0EAP/9BAAAAAQAAAAFtwAAAAAAAAAKABQAHgAyAEYAjACiAL4BFgE2AY4AAAABAAAADAA8AAMAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAADgCuAAEAAAAAAAEADQAAAAEAAAAAAAIABwCWAAEAAAAAAAMADQBIAAEAAAAAAAQADQCrAAEAAAAAAAUACwAnAAEAAAAAAAYADQBvAAEAAAAAAAoAGgDSAAMAAQQJAAEAGgANAAMAAQQJAAIADgCdAAMAAQQJAAMAGgBVAAMAAQQJAAQAGgC4AAMAAQQJAAUAFgAyAAMAAQQJAAYAGgB8AAMAAQQJAAoANADsd2ViZmxvdy1pY29ucwB3AGUAYgBmAGwAbwB3AC0AaQBjAG8AbgBzVmVyc2lvbiAxLjAAVgBlAHIAcwBpAG8AbgAgADEALgAwd2ViZmxvdy1pY29ucwB3AGUAYgBmAGwAbwB3AC0AaQBjAG8AbgBzd2ViZmxvdy1pY29ucwB3AGUAYgBmAGwAbwB3AC0AaQBjAG8AbgBzUmVndWxhcgBSAGUAZwB1AGwAYQByd2ViZmxvdy1pY29ucwB3AGUAYgBmAGwAbwB3AC0AaQBjAG8AbgBzRm9udCBnZW5lcmF0ZWQgYnkgSWNvTW9vbi4ARgBvAG4AdAAgAGcAZQBuAGUAcgBhAHQAZQBkACAAYgB5ACAASQBjAG8ATQBvAG8AbgAuAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/x-font-ttf",
+        "fromCache": false,
+        "bytes": 1876
+      },
+      {
+        "url": "https://cominvi.pages.dev/assets/minerals-canvas-local-debug.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 7314
+      },
+      {
+        "url": "https://cominvi.pages.dev/assets/scroll-performance.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 822
+      },
+      {
+        "url": "https://cominvi.pages.dev/assets/cards-reveal.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1436
+      },
+      {
+        "url": "https://cominvi.pages.dev/minerals/minerals-sequence.af",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 4894729
+      },
+      {
+        "url": "https://cominvi.pages.dev/minerals/minerals-0001.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 31779
+      },
+      {
+        "url": "https://cominvi.pages.dev/assets/text-reveal.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3217
+      },
+      {
+        "url": "https://cominvi.pages.dev/assets/safety-sticky.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1696
+      },
+      {
+        "url": "https://cominvi.pages.dev/assets/scroll-list.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2131
+      },
+      {
+        "url": "https://cominvi.pages.dev/assets/testimonials.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2125
+      },
+      {
+        "url": "https://cominvi.pages.dev/assets/text-display-reveal.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1313
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-2/frame_00060.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 100582
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-2/frame_00061.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 100648
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-2/frame_00062.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 101081
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-2/frame_00063.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 100220
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-2/frame_00064.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 100907
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-2/frame_00065.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 100712
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-2/frame_00066.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 100663
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-2/frame_00067.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 100620
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-2/frame_00068.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 100828
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-2/frame_00069.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 100934
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-2/frame_00070.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 100912
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-2/frame_00071.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 100154
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-2/frame_00072.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 100473
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-2/frame_00073.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 100277
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-2/frame_00074.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 100123
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-2/frame_00075.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 100344
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-2/frame_00076.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 99732
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-2/frame_00077.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 99857
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-2/frame_00078.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 99981
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-2/frame_00079.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 99639
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-2/frame_00080.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 99374
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-2/frame_00081.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 99417
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-2/frame_00082.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 99140
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-2/frame_00083.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 99422
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-2/frame_00084.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 99653
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-2/frame_00085.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 99882
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-2/frame_00086.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 100052
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-2/frame_00087.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 100012
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-2/frame_00088.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 101169
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-2/frame_00089.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 100627
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-3/frame_00090.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 100810
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-3/frame_00091.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 100085
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-3/frame_00092.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 101458
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-3/frame_00093.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 102106
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-3/frame_00094.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 101792
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-3/frame_00095.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 100884
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-3/frame_00096.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 101599
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-3/frame_00097.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 102033
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-3/frame_00098.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 101480
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-3/frame_00099.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 101721
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-3/frame_00100.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 101363
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-3/frame_00101.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 101193
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-3/frame_00102.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 101019
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-3/frame_00103.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 100233
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-3/frame_00104.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 100312
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-3/frame_00105.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 100267
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-3/frame_00106.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 106538
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-3/frame_00107.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 99828
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-3/frame_00108.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 98981
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-3/frame_00109.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 99094
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-3/frame_00110.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 105723
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-3/frame_00111.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 99803
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-3/frame_00112.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 99071
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-3/frame_00113.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 98447
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-3/frame_00114.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 99014
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-3/frame_00115.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 99158
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-3/frame_00116.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 98436
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-3/frame_00117.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 99200
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-3/frame_00118.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 98292
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-3/frame_00119.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 98997
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-4/frame_00120.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 98351
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-4/frame_00121.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 98452
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-4/frame_00122.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 97980
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-4/frame_00123.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 98786
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-4/frame_00124.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 98581
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-4/frame_00125.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 98492
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-4/frame_00126.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 98042
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-4/frame_00127.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 97586
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-4/frame_00128.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 97826
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-4/frame_00129.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 97937
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-4/frame_00130.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 97839
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-4/frame_00131.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 97896
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-4/frame_00132.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 98343
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-4/frame_00133.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 97944
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-4/frame_00134.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 97958
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-4/frame_00135.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 98067
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-4/frame_00136.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 98535
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-4/frame_00137.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 98392
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-4/frame_00138.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 97991
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-4/frame_00139.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 97501
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-4/frame_00140.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 97964
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-4/frame_00141.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 97682
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-4/frame_00142.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 97703
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-4/frame_00143.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 97402
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-4/frame_00144.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 98375
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-4/frame_00145.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 97990
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-4/frame_00146.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 97880
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-4/frame_00147.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 98192
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-4/frame_00148.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 97545
+      },
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-4/frame_00149.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 97913
+      },
+      {
+        "url": "https://www.cominvi.com.mx/",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 631
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0, 0, 1)"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "A preload for 'https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00000.webp' is found, but is not used because the request credentials mode does not match. Consider taking a look at cr"
+      },
+      {
+        "level": "warning",
+        "text": "A preload for 'https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00001.webp' is found, but is not used because the request credentials mode does not match. Consider taking a look at cr"
+      },
+      {
+        "level": "warning",
+        "text": "A preload for 'https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00002.webp' is found, but is not used because the request credentials mode does not match. Consider taking a look at cr"
+      },
+      {
+        "level": "warning",
+        "text": "A preload for 'https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00003.webp' is found, but is not used because the request credentials mode does not match. Consider taking a look at cr"
+      },
+      {
+        "level": "warning",
+        "text": "A preload for 'https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00004.webp' is found, but is not used because the request credentials mode does not match. Consider taking a look at cr"
+      },
+      {
+        "level": "warning",
+        "text": "A preload for 'https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00005.webp' is found, but is not used because the request credentials mode does not match. Consider taking a look at cr"
+      },
+      {
+        "level": "warning",
+        "text": "A preload for 'https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00006.webp' is found, but is not used because the request credentials mode does not match. Consider taking a look at cr"
+      },
+      {
+        "level": "warning",
+        "text": "A preload for 'https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00007.webp' is found, but is not used because the request credentials mode does not match. Consider taking a look at cr"
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00002.webp was preloaded using link preload but not used within a few seconds from the window's load event. Please make s"
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00005.webp was preloaded using link preload but not used within a few seconds from the window's load event. Please make s"
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00003.webp was preloaded using link preload but not used within a few seconds from the window's load event. Please make s"
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00006.webp was preloaded using link preload but not used within a few seconds from the window's load event. Please make s"
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00001.webp was preloaded using link preload but not used within a few seconds from the window's load event. Please make s"
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00004.webp was preloaded using link preload but not used within a few seconds from the window's load event. Please make s"
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://cominvi.pages.dev/cave-scene/scroll/manifest.json was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appro"
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00000.webp was preloaded using link preload but not used within a few seconds from the window's load event. Please make s"
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://cominvi.pages.dev/cave-scene/intro.mp4 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as`"
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://cominvi.pages.dev/cave-scene/scroll/desktop/batch-0/frame_00007.webp was preloaded using link preload but not used within a few seconds from the window's load event. Please make s"
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://cominvi.pages.dev/cave-scene/intro.mp4",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 3022,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 3050,
+      "typography": {
+        "families": [
+          [
+            "Helvetica Now Display",
+            75
+          ],
+          [
+            "PP Supply Mono",
+            53
+          ]
+        ],
+        "weights": [
+          [
+            "700",
+            59
+          ],
+          [
+            "300",
+            53
+          ],
+          [
+            "500",
+            16
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            53
+          ]
+        ],
+        "sizeMin": 10.208,
+        "sizeMedian": 13.6,
+        "sizeMax": 64,
+        "sizeMaxVw": 16.4,
+        "scaleRatio": 4.7,
+        "letterSpacingMean": -0.015,
+        "loadedFonts": [
+          {
+            "family": "webflow-icons",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Helvetica Now Display",
+            "weight": "700",
+            "style": "normal"
+          },
+          {
+            "family": "PP Supply Mono",
+            "weight": "300",
+            "style": "normal"
+          },
+          {
+            "family": "Helvetica Now Display",
+            "weight": "500",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 128
+      },
+      "color": {
+        "background": "rgb(21, 21, 21)",
+        "backgroundLuminance": 0.0074990320432261745,
+        "backgrounds": [
+          [
+            "rgb(255, 255, 255)",
+            4021
+          ],
+          [
+            "rgb(235, 240, 237)",
+            2475
+          ],
+          [
+            "rgb(21, 21, 21)",
+            2438
+          ],
+          [
+            "rgba(2, 2, 2, 0.2)",
+            329
+          ],
+          [
+            "rgb(224, 224, 224)",
+            41
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(21, 21, 21)",
+            1832
+          ],
+          [
+            "rgb(255, 255, 255)",
+            86
+          ],
+          [
+            "rgb(244, 121, 32)",
+            14
+          ]
+        ],
+        "meanSaturation": 0,
+        "rootVars": {
+          "--primary": "#151515",
+          "--white": "white",
+          "--_spacings---site-margin": "2em",
+          "--accent": "#f47920",
+          "--light-green": "#ebf0ed",
+          "--_ui-colors---button-bg": "var(--primary)",
+          "--_ui-colors---button-text": "var(--white)",
+          "--gray": "#e0e0e0",
+          "--_ui-colors---button-arrow-1-bg": "var(--white)",
+          "--_ui-colors---button-arrow-1-el": "var(--primary)",
+          "--_ui-colors---button-arrow-2-bg": "var(--primary)",
+          "--_ui-colors---button-bg-hover": "var(--accent)",
+          "--_ui-colors---button-text-hover": "var(--primary)",
+          "--_ui-colors---button-arrow-2-el": "var(--accent)",
+          "--size-unit": "16",
+          "--size-container-ideal": "1440",
+          "--size-container-min": "992px",
+          "--size-container-max": "1920px",
+          "--size-container": "clamp(var(--size-container-min), 100vw, var(--size-container-max))",
+          "--size-font": "calc(var(--size-container) / (var(--size-container-ideal) / var(--size-unit)))"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 4,
+        "sticky": 4,
+        "fixed": 9,
+        "grid": 10,
+        "flex": 275,
+        "absolute": 214,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 844,
+        "pages": 1,
+        "spacing": [
+          [
+            16,
+            57
+          ],
+          [
+            4,
+            37
+          ],
+          [
+            8,
+            36
+          ],
+          [
+            12,
+            20
+          ],
+          [
+            2,
+            18
+          ],
+          [
+            13,
+            16
+          ],
+          [
+            32,
+            15
+          ],
+          [
+            5,
+            9
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 0,
+        "animationKinds": [],
+        "infiniteAnimations": 0,
+        "animationDurations": [],
+        "easings": [],
+        "transitionDurationsMs": [
+          [
+            800,
+            13
+          ],
+          [
+            200,
+            3
+          ]
+        ],
+        "keyframes": [
+          "spin"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 4,
+      "media": {
+        "canvases": [
+          {
+            "w": 300,
+            "h": 150,
+            "area": 1
+          },
+          {
+            "w": 652,
+            "h": 614,
+            "area": 0.3
+          }
+        ],
+        "videos": [
+          {
+            "autoplay": false,
+            "loop": false,
+            "muted": true,
+            "src": "https://www.cominvi.com.mx/"
+          },
+          {
+            "autoplay": false,
+            "loop": false,
+            "muted": true,
+            "src": "https://cominvi.pages.dev/cave-scene/intro-mobile.mp4"
+          }
+        ],
+        "svg": 55,
+        "images": 24,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "2d": 3
+        },
+        "raf": 371,
+        "io": 12,
+        "ro": 4,
+        "mo": 4,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": true,
+        "jQuery": true,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": true,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "CoMinVi | Underground Mining Contractor in Mexico",
+      "lang": "en",
+      "description": "Leading underground mining contractor in Mexico with 20+ years experience. Specializing in tunnel development, ground support, and mineral extraction."
+    },
+    "featuresBeforeScroll": {
+      "elements": 3051,
+      "canvases": 2,
+      "animations": 0,
+      "hidden": 8
+    },
+    "scrollReveal": 4,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 7169512,
+        "layoutCount": 578,
+        "recalcStyleCount": 818,
+        "scriptDuration": 0.148028,
+        "taskDuration": 1.194425,
+        "nodes": 5011
+      },
+      "timing": {
+        "domContentLoaded": 211,
+        "load": 537,
+        "first-paint": 120,
+        "first-contentful-paint": 120
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSTransition",
+        "name": "font-size",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "line-height",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "letter-spacing",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "font-size",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "line-height",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "letter-spacing",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "font-size",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "line-height",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "letter-spacing",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "font-size",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "line-height",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "letter-spacing",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "font-size",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "line-height",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "letter-spacing",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "font-size",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "line-height",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "letter-spacing",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "font-size",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "line-height",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "letter-spacing",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "font-size",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "line-height",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "letter-spacing",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "font-size",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "line-height",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "letter-spacing",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "font-size",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "line-height",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "letter-spacing",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "font-size",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "line-height",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "letter-spacing",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "font-size",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "line-height",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "letter-spacing",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "font-size",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "line-height",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "letter-spacing",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "font-size",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "letter-spacing",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "line-height",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "A preload for 'https://cominvi.pages.dev/cave-scene/scroll/mobile/batch-0/frame_00000.webp' is found, but is not used because the request credentials mode does not match. Consider taking a look at cro"
+      },
+      {
+        "level": "warning",
+        "text": "A preload for 'https://cominvi.pages.dev/cave-scene/scroll/mobile/batch-0/frame_00001.webp' is found, but is not used because the request credentials mode does not match. Consider taking a look at cro"
+      },
+      {
+        "level": "warning",
+        "text": "A preload for 'https://cominvi.pages.dev/cave-scene/scroll/mobile/batch-0/frame_00002.webp' is found, but is not used because the request credentials mode does not match. Consider taking a look at cro"
+      },
+      {
+        "level": "warning",
+        "text": "A preload for 'https://cominvi.pages.dev/cave-scene/scroll/mobile/batch-0/frame_00003.webp' is found, but is not used because the request credentials mode does not match. Consider taking a look at cro"
+      },
+      {
+        "level": "warning",
+        "text": "A preload for 'https://cominvi.pages.dev/cave-scene/scroll/mobile/batch-0/frame_00004.webp' is found, but is not used because the request credentials mode does not match. Consider taking a look at cro"
+      },
+      {
+        "level": "warning",
+        "text": "A preload for 'https://cominvi.pages.dev/cave-scene/scroll/mobile/batch-0/frame_00005.webp' is found, but is not used because the request credentials mode does not match. Consider taking a look at cro"
+      },
+      {
+        "level": "warning",
+        "text": "A preload for 'https://cominvi.pages.dev/cave-scene/scroll/mobile/batch-0/frame_00006.webp' is found, but is not used because the request credentials mode does not match. Consider taking a look at cro"
+      },
+      {
+        "level": "warning",
+        "text": "A preload for 'https://cominvi.pages.dev/cave-scene/scroll/mobile/batch-0/frame_00007.webp' is found, but is not used because the request credentials mode does not match. Consider taking a look at cro"
+      }
+    ],
+    "exceptions": [],
+    "failed": [],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  }
+}

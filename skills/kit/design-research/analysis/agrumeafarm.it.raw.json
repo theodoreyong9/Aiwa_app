@@ -1,0 +1,2084 @@
+{
+  "url": "https://agrumeafarm.it/en",
+  "at": "2026-10-09T11:25:24.751Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 10071,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 462,
+      "typography": {
+        "families": [
+          [
+            "ivystyle-sans",
+            4
+          ],
+          [
+            "ivymode",
+            1
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            3
+          ],
+          [
+            "600",
+            2
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            3
+          ]
+        ],
+        "sizeMin": 14,
+        "sizeMedian": 14,
+        "sizeMax": 204.8,
+        "sizeMaxVw": 14.2,
+        "scaleRatio": 14.6,
+        "letterSpacingMean": 0.04,
+        "loadedFonts": [
+          {
+            "family": "ivystyle-sans",
+            "weight": "600",
+            "style": "normal"
+          },
+          {
+            "family": "ivystyle-sans",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "ivymode",
+            "weight": "400",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 5
+      },
+      "color": {
+        "background": "rgb(253, 243, 235)",
+        "backgroundLuminance": 0.9098198936372262,
+        "backgrounds": [
+          [
+            "rgb(253, 243, 235)",
+            2592
+          ],
+          [
+            "rgb(233, 78, 27)",
+            1305
+          ],
+          [
+            "rgb(118, 37, 48)",
+            1296
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(118, 37, 48)",
+            197
+          ],
+          [
+            "rgb(233, 78, 27)",
+            9
+          ],
+          [
+            "rgb(253, 243, 235)",
+            2
+          ]
+        ],
+        "meanSaturation": 0.55,
+        "rootVars": {
+          "--color-orange": "#e94e1b",
+          "--color-border": "#762530",
+          "--color-white": "#fdf3eb",
+          "--color-yellow": "#f39200",
+          "--border-round": "15px",
+          "--container-padding": "clamp(30px,2vw,40px)",
+          "--grid-columns": "12",
+          "--grid-gap-x": "clamp(12px,1.45vw,30px)",
+          "--grid-gap-y": "0",
+          "--header-offset": "clamp(20px,2vw,30px)",
+          "--header-logo-width": "clamp(126px,10vw,152px)",
+          "--font-sans": "\"ivystyle-sans\",\"Avenir Next\",\"Helvetica Neue\",Helvetica,Arial,sans-serif",
+          "--font-serif": "\"ivymode\",\"Iowan Old Style\",\"Palatino Linotype\",\"Book Antiqua\",Palatino,serif",
+          "--text-small": ".875rem",
+          "--text-base": "1rem",
+          "--text-medium": "clamp(1.125rem, calc(1.085rem + .165vw) ,1.25rem)",
+          "--text-large": "2rem",
+          "--text-hero": "clamp(4.1rem, calc(2.65rem + 5.95vw) ,999999px)",
+          "--text-display": "clamp(4rem, calc(2.9rem + 11vw) ,999999px)",
+          "--line-height-s": "1",
+          "--line-height-m": "1.3",
+          "--space-s": "2.5rem",
+          "--space-xs": "3.75rem",
+          "--space-l": "6.25rem",
+          "--space-xl": "clamp(6rem,calc(var(--space-l)*2),999999px)",
+          "--page-transition-duration": "1.8s",
+          "--page-cover-duration": ".9s",
+          "--page-lift-duration": "975ms",
+          "--page-jar-exit-duration": ".42s",
+          "--page-jar-fade-duration": ".35s",
+          "--ease-premium": "cubic-bezier(.645,.045,.355,1)",
+          "--ease-soft": "cubic-bezier(.22,1,.36,1)",
+          "--ease-out-expo": "cubic-bezier(.16,1,.3,1)",
+          "--ease-don-expo": "cubic-bezier(.19,1,.22,1)",
+          "--ease-don-power": "cubic-bezier(.165,.84,.44,1)",
+          "--app-height": "100svh",
+          "--ph-jar-scale-from": "1.25",
+          "--ph-jar-w": "clamp(380px,24vw,99999px)",
+          "--ph-jar-h": "calc(var(--ph-jar-w)*1013/630)",
+          "--ph-jar-peek": ".3"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 2,
+        "sticky": 0,
+        "fixed": 9,
+        "grid": 2,
+        "flex": 54,
+        "absolute": 89,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 900,
+        "pages": 1,
+        "spacing": [
+          [
+            12,
+            5
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            20,
+            4
+          ],
+          [
+            25,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            30,
+            1
+          ],
+          [
+            32,
+            1
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 4,
+        "animationKinds": [
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 0,
+        "animationDurations": [
+          1800,
+          220,
+          1800,
+          1250
+        ],
+        "easings": [
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            350,
+            65
+          ],
+          [
+            450,
+            7
+          ],
+          [
+            600,
+            7
+          ],
+          [
+            900,
+            6
+          ],
+          [
+            250,
+            2
+          ]
+        ],
+        "keyframes": [
+          "fruit-loader-mark-in-95f6f3ed",
+          "fruit-loader-panel-sweep-95f6f3ed",
+          "fruit-loader-line-sweep-95f6f3ed",
+          "fruit-loader-content-hide-95f6f3ed",
+          "page-panel-cover-e5d52a80",
+          "page-panel-lift-e5d52a80",
+          "page-line-sweep-e5d52a80"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 15,
+      "media": {
+        "canvases": [
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0.07
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0.07
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0.07
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0.07
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0.07
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0.07
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0.07
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0.07
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0.07
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0.07
+          }
+        ],
+        "videos": [],
+        "svg": 25,
+        "images": 12,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {},
+        "raf": 765,
+        "io": 1,
+        "ro": 2,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": true,
+        "reactRoot": false,
+        "vue": true,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Agrumea Farm | Jams, pestos and flavours of Sicily",
+      "lang": "en",
+      "description": "Agrumea Farm transforms Sicilian citrus fruits, other fruits and produce into artisanal jams, pestos and preserves with an authentic flavour"
+    },
+    "featuresBeforeScroll": {
+      "elements": 462,
+      "canvases": 10,
+      "animations": 1,
+      "hidden": 15
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 6,
+      "changed": 2
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 15310444,
+        "layoutCount": 125,
+        "recalcStyleCount": 405,
+        "scriptDuration": 3.102756,
+        "taskDuration": 3.811644,
+        "nodes": 1189
+      },
+      "timing": {
+        "domContentLoaded": 637,
+        "load": 1044,
+        "first-paint": 584,
+        "first-contentful-paint": 584
+      }
+    },
+    "network": [
+      {
+        "url": "https://www.agrumeafarm.it/en",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 33521
+      },
+      {
+        "url": "https://www.agrumeafarm.it/_nuxt/CmsHomePage.CpbPGEL3.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1634
+      },
+      {
+        "url": "https://www.agrumeafarm.it/en/_payload.json?2d8b8e59-8e55-496b-9c7f-66b786e46f09",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 15770
+      },
+      {
+        "url": "https://www.agrumeafarm.it/_nuxt/5uUeoJaR.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 214626
+      },
+      {
+        "url": "https://www.agrumeafarm.it/_nuxt/D_t5rNay.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1927
+      },
+      {
+        "url": "https://www.agrumeafarm.it/_nuxt/BDFiBQTK.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1105
+      },
+      {
+        "url": "https://www.agrumeafarm.it/_nuxt/CuGRuUS-.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2793
+      },
+      {
+        "url": "https://www.agrumeafarm.it/_nuxt/2efoYlqG.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 504
+      },
+      {
+        "url": "https://www.agrumeafarm.it/_nuxt/C2lrDrZj.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 9092
+      },
+      {
+        "url": "https://www.agrumeafarm.it/_nuxt/Dciqcs4P.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 789
+      },
+      {
+        "url": "https://www.agrumeafarm.it/_nuxt/Dizcpx2j.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 482
+      },
+      {
+        "url": "https://www.agrumeafarm.it/_nuxt/35gRNcZY.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 541
+      },
+      {
+        "url": "https://www.agrumeafarm.it/_nuxt/CV1EzAPw.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1895
+      },
+      {
+        "url": "https://www.agrumeafarm.it/_nuxt/CO-ho7Mx.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 613
+      },
+      {
+        "url": "https://www.agrumeafarm.it/_nuxt/BXJ_X-0e.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 971
+      },
+      {
+        "url": "https://www.agrumeafarm.it/images/home/back-slider-home.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 905
+      },
+      {
+        "url": "https://www.agrumeafarm.it/images/home/circle-text-en.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 4411
+      },
+      {
+        "url": "https://images.prismic.io/agrumea-site/ahvhgweQX7-eWdJF_Pesto-salato_result.webp?auto=format%2Ccompress&w=400",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 20196
+      },
+      {
+        "url": "https://images.prismic.io/agrumea-site/ahvgwQeQX7-eWdIy_arancia_result.webp?auto=format%2Ccompress&w=400",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 16933
+      },
+      {
+        "url": "https://images.prismic.io/agrumea-site/ahvhTgeQX7-eWdI0_caponata_result.webp?auto=format%2Ccompress&w=400",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 29591
+      },
+      {
+        "url": "https://images.prismic.io/agrumea-site/ahvhfQeQX7-eWdI__pesto-rosso_result.webp?auto=format%2Ccompress&w=400",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 31778
+      },
+      {
+        "url": "https://images.prismic.io/agrumea-site/ahvheAeQX7-eWdI6_fragole_result.webp?auto=format%2Ccompress&w=400",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 19382
+      },
+      {
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 10438
+      },
+      {
+        "url": "https://use.typekit.net/yey3ruw.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 949
+      },
+      {
+        "url": "https://images.prismic.io/agrumea-site/ahvhfweQX7-eWdJB_pesto_result.webp?auto=format%2Ccompress&w=400",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 8752
+      },
+      {
+        "url": "https://images.prismic.io/agrumea-site/ahvhegeQX7-eWdI8_gelsi_result.webp?auto=format%2Ccompress&w=400",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 11341
+      },
+      {
+        "url": "https://images.prismic.io/agrumea-site/ahvhdQeQX7-eWdI3_cipolla_result.webp?auto=format%2Ccompress&w=400",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 24926
+      },
+      {
+        "url": "https://images.prismic.io/agrumea-site/ahvhfAeQX7-eWdI-_mandorla_result.webp?auto=format%2Ccompress&w=400",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 6678
+      },
+      {
+        "url": "https://images.prismic.io/agrumea-site/ahvhgQeQX7-eWdJD_pera_result.webp?auto=format%2Ccompress&w=400",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 10871
+      },
+      {
+        "url": "https://www.agrumeafarm.it/cdn-cgi/rum?",
+        "method": "POST",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 458
+      },
+      {
+        "url": "https://www.agrumeafarm.it/cdn-cgi/rum?",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 460
+      },
+      {
+        "url": "https://www.agrumeafarm.it/cdn-cgi/rum?",
+        "method": "POST",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 494
+      },
+      {
+        "url": "https://www.agrumeafarm.it/cdn-cgi/rum?",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 451
+      },
+      {
+        "url": "https://www.agrumeafarm.it/cdn-cgi/rum?",
+        "method": "POST",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 454
+      },
+      {
+        "url": "https://www.agrumeafarm.it/cdn-cgi/rum?",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 457
+      },
+      {
+        "url": "https://www.agrumeafarm.it/_nuxt/default.sNYEfnSI.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1636
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-PNTJV1LQLZ",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 180629
+      },
+      {
+        "url": "https://images.prismic.io/agrumea-site/ahvhgAeQX7-eWdJC_pesto_result-1.webp?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 42383
+      },
+      {
+        "url": "https://images.prismic.io/agrumea-site/ahvg-QeQX7-eWdIz_arancia_result-1.webp?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 49130
+      },
+      {
+        "url": "https://images.prismic.io/agrumea-site/ahvhdAeQX7-eWdI2_caponata_result-1.webp?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 54859
+      },
+      {
+        "url": "https://images.prismic.io/agrumea-site/ahvhfgeQX7-eWdJA_pesto-rosso_result-1.webp?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 46441
+      },
+      {
+        "url": "https://images.prismic.io/agrumea-site/ahvhdweQX7-eWdI5_fragola_result.webp?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 59763
+      },
+      {
+        "url": "https://images.prismic.io/agrumea-site/ahvhhAeQX7-eWdJG_pistacchio_result.webp?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 52575
+      },
+      {
+        "url": "https://images.prismic.io/agrumea-site/ahvheQeQX7-eWdI7_gelsi_result-1.webp?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 53275
+      },
+      {
+        "url": "https://images.prismic.io/agrumea-site/ahvhdgeQX7-eWdI4_cipolla-in-agrodolce_result.webp?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 45409
+      },
+      {
+        "url": "https://images.prismic.io/agrumea-site/ahvheweQX7-eWdI9_mandorla_result-1.webp?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 50081
+      },
+      {
+        "url": "https://images.prismic.io/agrumea-site/ahvhggeQX7-eWdJE_pera_result-1.webp?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 55021
+      },
+      {
+        "url": "https://www.agrumeafarm.it/_nuxt/CdTImMti.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 766
+      },
+      {
+        "url": "https://www.agrumeafarm.it/_nuxt/nsGTeKbb.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 713
+      },
+      {
+        "url": "https://www.agrumeafarm.it/_nuxt/CzVuPwAh.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4797
+      },
+      {
+        "url": "https://www.agrumeafarm.it/_nuxt/LegalPrivacyPage.B1Ny6ztU.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1219
+      },
+      {
+        "url": "https://www.agrumeafarm.it/_nuxt/builds/meta/2d8b8e59-8e55-496b-9c7f-66b786e46f09.json",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 906
+      },
+      {
+        "url": "https://p.typekit.net/p.css?s=1&k=yey3ruw&ht=tk&f=38008.38011.42534&a=92737358&app=typekit&e=css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 172
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-PNTJV1LQLZ&gtm=45je6a72v9260191481za200zd9260191481xf1&_p=1791545112340&gcs=G100&gcd=13p3q3p3p5l1&npa=1&dma_cps=-&dma=0&are=1&cid=1203307651.1791545113&frm=0&ngs=1&pscdl=denied&rcb=8&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=1&tag_exp=115616985~115938466~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034&dl=https%3A%2F%2Fwww.agrumeafarm.it%2Fen&dt=Agrumea%20Farm%20%7C%20Jams%2C%20pestos%20and%20flavours%20of%20Sicily&sid=1791545112&sct=1&seg=0&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=876",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false
+      },
+      {
+        "url": "https://www.agrumeafarm.it/_payload.json?2d8b8e59-8e55-496b-9c7f-66b786e46f09",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 15772
+      },
+      {
+        "url": "https://www.agrumeafarm.it/en/_payload.json?2d8b8e59-8e55-496b-9c7f-66b786e46f09",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.agrumeafarm.it/_payload.json?2d8b8e59-8e55-496b-9c7f-66b786e46f09",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.agrumeafarm.it/en/privacy/_payload.json?2d8b8e59-8e55-496b-9c7f-66b786e46f09",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 1461
+      },
+      {
+        "url": "https://use.typekit.net/af/e1f115/00000000000000007735c082/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/font-woff2",
+        "fromCache": false,
+        "bytes": 19902
+      },
+      {
+        "url": "https://use.typekit.net/af/c59ffc/00000000000000007735ce7b/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/font-woff2",
+        "fromCache": false,
+        "bytes": 34947
+      },
+      {
+        "url": "https://use.typekit.net/af/32a3a5/00000000000000007735c074/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/font-woff2",
+        "fromCache": false,
+        "bytes": 20270
+      },
+      {
+        "url": "https://www.agrumeafarm.it/cdn-cgi/rum?",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 455
+      },
+      {
+        "url": "https://www.agrumeafarm.it/_nuxt/DoMZv-wV.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 115101
+      },
+      {
+        "url": "https://images.prismic.io/agrumea-site/ahvhgAeQX7-eWdJC_pesto_result-1.webp?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://images.prismic.io/agrumea-site/ahvg-QeQX7-eWdIz_arancia_result-1.webp?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://images.prismic.io/agrumea-site/ahvhdAeQX7-eWdI2_caponata_result-1.webp?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://images.prismic.io/agrumea-site/ahvhfgeQX7-eWdJA_pesto-rosso_result-1.webp?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://images.prismic.io/agrumea-site/ahvhdweQX7-eWdI5_fragola_result.webp?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://images.prismic.io/agrumea-site/ahvhggeQX7-eWdJE_pera_result-1.webp?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://images.prismic.io/agrumea-site/ahvhhAeQX7-eWdJG_pistacchio_result.webp?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://images.prismic.io/agrumea-site/ahvheQeQX7-eWdI7_gelsi_result-1.webp?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://images.prismic.io/agrumea-site/ahvhdgeQX7-eWdI4_cipolla-in-agrodolce_result.webp?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://images.prismic.io/agrumea-site/ahvheweQX7-eWdI9_mandorla_result-1.webp?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-PNTJV1LQLZ&gtm=45je6a72v9260191481za200zd9260191481xf1&_p=1791545112340&gcs=G100&gcd=13p3q3p3p5l1&npa=1&dma_cps=-&dma=0&_eu=AEA&ae=a&are=1&cid=1203307651.1791545113&frm=0&ngs=1&pscdl=denied&rcb=8&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=2&tag_exp=115616985~115938466~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791545112&sct=1&seg=0&dl=https%3A%2F%2Fwww.agrumeafarm.it%2Fen&dt=Agrumea%20Farm%20%7C%20Jams%2C%20pestos%20and%20flavours%20of%20Sicily&en=scroll&epn.percent_scrolled=90&_et=6&tfd=6080",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "fruit-loader-mark-in-95f6f3ed",
+        "duration": 220,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "fruit-loader-content-hide-95f6f3ed",
+        "duration": 1800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "fruit-loader-panel-sweep-95f6f3ed",
+        "duration": 1800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "fruit-loader-line-sweep-95f6f3ed",
+        "duration": 1250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 900,
+        "delay": 180,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 900,
+        "delay": 180,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 900,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-left-color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-right-color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-top-color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-bottom-color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-left-color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-right-color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-top-color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-bottom-color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 350,
+        "delay": 36.00000000000001,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 350,
+        "delay": 18.000000000000004,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 350,
+        "delay": 54.00000000000001,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 350,
+        "delay": 72.00000000000001,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 350,
+        "delay": 18.000000000000004,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 350,
+        "delay": 36.00000000000001,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 350,
+        "delay": 18.000000000000004,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 350,
+        "delay": 36.00000000000001,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 350,
+        "delay": 54.00000000000001,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 350,
+        "delay": 72.00000000000001,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 350,
+        "delay": 18.000000000000004,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 350,
+        "delay": 54.00000000000001,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 900,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 350,
+        "delay": 36.00000000000001,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 350,
+        "delay": 54.00000000000001,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 554.5483709695068,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 350,
+        "delay": 36.00000000000001,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 350,
+        "delay": 18.000000000000004,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 350,
+        "delay": 54.00000000000001,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 350,
+        "delay": 72.00000000000001,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 350,
+        "delay": 18.000000000000004,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 350,
+        "delay": 36.00000000000001,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 350,
+        "delay": 18.000000000000004,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 350,
+        "delay": 36.00000000000001,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 350,
+        "delay": 54.00000000000001,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 350,
+        "delay": 72.00000000000001,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 350,
+        "delay": 18.000000000000004,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 350,
+        "delay": 54.00000000000001,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 350,
+        "delay": 36.00000000000001,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 350,
+        "delay": 54.00000000000001,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0A020004C200000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x10440010f200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x10440010f200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x10440010f200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x10440010f200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-PNTJV1LQLZ&gtm=45je6a72v9260191481za200zd9260191481xf1&_p=1791545112340&gcs=G100&gcd=13p3q3p3p5l1&npa=1&dma_cps=-&dma=0&are=1&cid=1203307651.1791545113&frm=0&ngs=1&pscdl=denied&rcb=8&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=1&tag_exp=115616985~115938466~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034&dl=https%3A%2F%2Fwww.agrumeafarm.it%2Fen&dt=Agrumea%20Farm%20%7C%20Jams%2C%20pestos%20and%20flavours%20of%20Sicily&sid=1791545112&sct=1&seg=0&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=876",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-PNTJV1LQLZ&gtm=45je6a72v9260191481za200zd9260191481xf1&_p=1791545112340&gcs=G100&gcd=13p3q3p3p5l1&npa=1&dma_cps=-&dma=0&_eu=AEA&ae=a&are=1&cid=1203307651.1791545113&frm=0&ngs=1&pscdl=denied&rcb=8&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=2&tag_exp=115616985~115938466~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791545112&sct=1&seg=0&dl=https%3A%2F%2Fwww.agrumeafarm.it%2Fen&dt=Agrumea%20Farm%20%7C%20Jams%2C%20pestos%20and%20flavours%20of%20Sicily&en=scroll&epn.percent_scrolled=90&_et=6&tfd=6080",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 2950,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 462,
+      "typography": {
+        "families": [
+          [
+            "ivystyle-sans",
+            3
+          ],
+          [
+            "ivymode",
+            1
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            2
+          ],
+          [
+            "600",
+            2
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            3
+          ]
+        ],
+        "sizeMin": 14,
+        "sizeMedian": 14,
+        "sizeMax": 84.96,
+        "sizeMaxVw": 21.8,
+        "scaleRatio": 6.1,
+        "letterSpacingMean": 0.04,
+        "loadedFonts": [
+          {
+            "family": "ivystyle-sans",
+            "weight": "600",
+            "style": "normal"
+          },
+          {
+            "family": "ivystyle-sans",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "ivymode",
+            "weight": "400",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 4
+      },
+      "color": {
+        "background": "rgb(253, 243, 235)",
+        "backgroundLuminance": 0.9098198936372262,
+        "backgrounds": [
+          [
+            "rgb(253, 243, 235)",
+            658
+          ],
+          [
+            "rgb(233, 78, 27)",
+            337
+          ],
+          [
+            "rgb(118, 37, 48)",
+            329
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(118, 37, 48)",
+            189
+          ],
+          [
+            "rgb(233, 78, 27)",
+            9
+          ],
+          [
+            "rgb(253, 243, 235)",
+            2
+          ]
+        ],
+        "meanSaturation": 0.55,
+        "rootVars": {
+          "--color-orange": "#e94e1b",
+          "--color-border": "#762530",
+          "--color-white": "#fdf3eb",
+          "--color-yellow": "#f39200",
+          "--border-round": "15px",
+          "--container-padding": "clamp(30px,2vw,40px)",
+          "--grid-columns": "12",
+          "--grid-gap-x": "clamp(12px,1.45vw,30px)",
+          "--grid-gap-y": "0",
+          "--header-offset": "clamp(20px,2vw,30px)",
+          "--header-logo-width": "clamp(126px,10vw,152px)",
+          "--font-sans": "\"ivystyle-sans\",\"Avenir Next\",\"Helvetica Neue\",Helvetica,Arial,sans-serif",
+          "--font-serif": "\"ivymode\",\"Iowan Old Style\",\"Palatino Linotype\",\"Book Antiqua\",Palatino,serif",
+          "--text-small": ".875rem",
+          "--text-base": "1rem",
+          "--text-medium": "clamp(1.125rem, calc(1.085rem + .165vw) ,1.25rem)",
+          "--text-large": "2rem",
+          "--text-hero": "clamp(4.1rem, calc(2.65rem + 5.95vw) ,999999px)",
+          "--text-display": "clamp(4rem, calc(2.9rem + 11vw) ,999999px)",
+          "--line-height-s": "1",
+          "--line-height-m": "1.3",
+          "--space-s": "2.5rem",
+          "--space-xs": "3.75rem",
+          "--space-l": "6.25rem",
+          "--space-xl": "clamp(6rem,calc(var(--space-l)*2),999999px)",
+          "--page-transition-duration": "1.8s",
+          "--page-cover-duration": ".9s",
+          "--page-lift-duration": "975ms",
+          "--page-jar-exit-duration": ".42s",
+          "--page-jar-fade-duration": ".35s",
+          "--ease-premium": "cubic-bezier(.645,.045,.355,1)",
+          "--ease-soft": "cubic-bezier(.22,1,.36,1)",
+          "--ease-out-expo": "cubic-bezier(.16,1,.3,1)",
+          "--ease-don-expo": "cubic-bezier(.19,1,.22,1)",
+          "--ease-don-power": "cubic-bezier(.165,.84,.44,1)",
+          "--app-height": "100svh",
+          "--ph-jar-scale-from": "1.25",
+          "--ph-jar-w": "clamp(380px,24vw,99999px)",
+          "--ph-jar-h": "calc(var(--ph-jar-w)*1013/630)",
+          "--ph-jar-peek": ".3"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 2,
+        "sticky": 0,
+        "fixed": 11,
+        "grid": 3,
+        "flex": 52,
+        "absolute": 88,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 844,
+        "pages": 1,
+        "spacing": [
+          [
+            12,
+            6
+          ],
+          [
+            9,
+            5
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            24,
+            1
+          ],
+          [
+            16,
+            1
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 4,
+        "animationKinds": [
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 0,
+        "animationDurations": [
+          1800,
+          220,
+          1800,
+          1250
+        ],
+        "easings": [
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            350,
+            65
+          ],
+          [
+            450,
+            7
+          ],
+          [
+            600,
+            7
+          ],
+          [
+            900,
+            6
+          ],
+          [
+            250,
+            2
+          ]
+        ],
+        "keyframes": [
+          "fruit-loader-mark-in-95f6f3ed",
+          "fruit-loader-panel-sweep-95f6f3ed",
+          "fruit-loader-line-sweep-95f6f3ed",
+          "fruit-loader-content-hide-95f6f3ed",
+          "page-panel-cover-e5d52a80",
+          "page-panel-lift-e5d52a80",
+          "page-line-sweep-e5d52a80"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 15,
+      "media": {
+        "canvases": [
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0.06
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0.06
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0.06
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0.06
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0.06
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0.06
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0.06
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0.06
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0.06
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0.06
+          }
+        ],
+        "videos": [],
+        "svg": 25,
+        "images": 12,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {},
+        "raf": 619,
+        "io": 1,
+        "ro": 2,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": true,
+        "reactRoot": false,
+        "vue": true,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Agrumea Farm | Jams, pestos and flavours of Sicily",
+      "lang": "en",
+      "description": "Agrumea Farm transforms Sicilian citrus fruits, other fruits and produce into artisanal jams, pestos and preserves with an authentic flavour"
+    },
+    "featuresBeforeScroll": {
+      "elements": 462,
+      "canvases": 10,
+      "animations": 1,
+      "hidden": 15
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 8630620,
+        "layoutCount": 79,
+        "recalcStyleCount": 191,
+        "scriptDuration": 0.124343,
+        "taskDuration": 0.431746,
+        "nodes": 1064
+      },
+      "timing": {
+        "domContentLoaded": 315,
+        "load": 589,
+        "first-paint": 300,
+        "first-contentful-paint": 492
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "fruit-loader-mark-in-95f6f3ed",
+        "duration": 220,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "fruit-loader-content-hide-95f6f3ed",
+        "duration": 1800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "fruit-loader-panel-sweep-95f6f3ed",
+        "duration": 1800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "fruit-loader-line-sweep-95f6f3ed",
+        "duration": 1250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      }
+    ],
+    "console": [],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-PNTJV1LQLZ&gtm=45je6a72h1v9260191481za200zd9260191481xf1&_p=1791545122132&gcs=G100&gcd=13p3q3p3p5l1&npa=1&dma_cps=-&dma=0&are=1&cid=2141887910.1791545122&frm=0&ngs=1&pscdl=denied&rcb=6&sr=390x844&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=1&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=1&tag_exp=115938466~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034&dl=https%3A%2F%2Fwww.agrumeafarm.it%2Fen&dt=Agrumea%20Farm%20%7C%20Jams%2C%20pestos%20and%20flavours%20of%20Sicily&sid=1791545122&sct=1&seg=0&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=537",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  }
+}

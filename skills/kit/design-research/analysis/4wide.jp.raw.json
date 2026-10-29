@@ -1,0 +1,1908 @@
+{
+  "url": "https://4wide.jp/",
+  "at": "2026-10-19T10:00:10.120Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 12466,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 725,
+      "typography": {
+        "families": [
+          [
+            "PP Neue Montreal Medium",
+            32
+          ],
+          [
+            "OptimaNovaRegular",
+            24
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            56
+          ]
+        ],
+        "textTransforms": [],
+        "sizeMin": 11,
+        "sizeMedian": 13,
+        "sizeMax": 24,
+        "sizeMaxVw": 1.7,
+        "scaleRatio": 1.8,
+        "letterSpacingMean": -0.032,
+        "loadedFonts": [
+          {
+            "family": "PP Neue Montreal Medium",
+            "weight": "normal",
+            "style": "normal"
+          },
+          {
+            "family": "OptimaNovaRegular",
+            "weight": "normal",
+            "style": "normal"
+          },
+          {
+            "family": "dnp-shuei-gothic-kin-std",
+            "weight": "normal",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 56
+      },
+      "color": {
+        "background": "rgb(5, 5, 5)",
+        "backgroundLuminance": 0.0015176349177441874,
+        "backgrounds": [],
+        "texts": [
+          [
+            "rgb(240, 240, 240)",
+            280
+          ],
+          [
+            "rgb(162, 162, 162)",
+            49
+          ]
+        ],
+        "meanSaturation": 0,
+        "rootVars": {
+          "--color-black": "#050505",
+          "--color-white": "#f0f0f0",
+          "--color-gray": "#a2a2a2",
+          "--color-form-note": "#7f7f7f",
+          "--color-form-placeholder": "#414141",
+          "--color-form-error": "#e05a5a",
+          "--color-image-placeholder": "#131313",
+          "--grid-col-repeat": "12",
+          "--grid-col-gap": "24rem",
+          "--grid-padding": "40rem",
+          "--page-transition-duration": ".4s",
+          "--page-transition-easing": "ease",
+          "--menu-duration": ".5s",
+          "--menu-easing": "cubic-bezier(.22, 1, .36, 1)",
+          "--hover-text-duration": ".6s",
+          "--hover-text-easing": "cubic-bezier(.22, 1, .36, 1)",
+          "--hover-text-stagger": "15ms"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 6,
+        "sticky": 0,
+        "fixed": 4,
+        "grid": 5,
+        "flex": 93,
+        "absolute": 99,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 900,
+        "pages": 1,
+        "spacing": [
+          [
+            3,
+            59
+          ],
+          [
+            12,
+            24
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            11,
+            3
+          ],
+          [
+            60,
+            2
+          ],
+          [
+            8,
+            2
+          ],
+          [
+            20,
+            1
+          ],
+          [
+            19,
+            1
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 1,
+        "animationKinds": [
+          "CSSTransition"
+        ],
+        "infiniteAnimations": 0,
+        "animationDurations": [
+          1200
+        ],
+        "easings": [
+          "cubic-bezier(0.22, 1, 0.36, 1)"
+        ],
+        "transitionDurationsMs": [
+          [
+            150,
+            192
+          ],
+          [
+            400,
+            70
+          ],
+          [
+            100,
+            48
+          ],
+          [
+            600,
+            38
+          ],
+          [
+            200,
+            20
+          ]
+        ],
+        "keyframes": [],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 3,
+      "media": {
+        "canvases": [
+          {
+            "w": 1440,
+            "h": 170,
+            "area": 0.19
+          }
+        ],
+        "videos": [],
+        "svg": 0,
+        "images": 5,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 1
+        },
+        "raf": 532,
+        "io": 0,
+        "ro": 2,
+        "mo": 1,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "4WIDE | Creative Web Studio",
+      "lang": "ja",
+      "description": "4WIDEは、愛知県を拠点にWebデザインや実装を行っているWebスタジオです。4WIDE is a web studio based in Aichi Prefecture, specializing in web design and development."
+    },
+    "featuresBeforeScroll": {
+      "elements": 725,
+      "canvases": 1,
+      "animations": 0,
+      "hidden": 53
+    },
+    "scrollReveal": 50,
+    "hover": {
+      "probed": 6,
+      "changed": 1
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 9781184,
+        "layoutCount": 31,
+        "recalcStyleCount": 344,
+        "scriptDuration": 0.382394,
+        "taskDuration": 9.724414,
+        "nodes": 1743
+      },
+      "timing": {
+        "domContentLoaded": 409,
+        "load": 1996,
+        "first-paint": 324,
+        "first-contentful-paint": 2592
+      }
+    },
+    "network": [
+      {
+        "url": "https://4wide.jp/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 7195
+      },
+      {
+        "url": "https://4wide.jp/fonts/ppneuemontreal-book.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 50012
+      },
+      {
+        "url": "https://4wide.jp/fonts/ppneuemontreal-medium.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 52438
+      },
+      {
+        "url": "https://4wide.jp/_astro/about.B1-QSJHr.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 10766
+      },
+      {
+        "url": "https://4wide.jp/_astro/Layout.astro_astro_type_script_index_0_lang.uvZ_ug0p.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 13485
+      },
+      {
+        "url": "https://use.typekit.net/ibl1ljt.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 31597
+      },
+      {
+        "url": "data:image/svg+xml,%3csvg%20width='40'%20height='28'%20viewBox='0%200%2040%2028'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M33.8693%2011.4345L28.639%200H17.6999L22.9824%2011.5485C23.3149%2012.2787%2023.3375%2013.1081%2023.0451%2013.8545C22.7528%2014.6009%2022.1694%2015.2035%2021.4231%2015.5298C20.6768%2015.8561%2019.8286%2015.8795%2019.0646%2015.5949C18.3006%2015.3103%2017.6834%2014.741%2017.3484%2014.0119L10.9391%200H0L12.8077%2028L18.1204%2019.5957C18.5975%2018.8411%2019.2758%2018.2278%2020.0826%2017.8217C20.8895%2017.4157%2021.7942%2017.2324%2022.6996%2017.2913C23.605%2017.3503%2024.4769%2017.6494%2025.2214%2018.1564C25.966%2018.6635%2026.5552%2019.3594%2026.9257%2020.1692L30.5076%2028L40%2012.9837C39.0939%2013.4273%2038.0711%2013.5908%2037.0676%2013.4525C36.0641%2013.3142%2035.1275%2012.8807%2034.382%2012.2095C34.1715%2011.9784%2033.9986%2011.717%2033.8693%2011.4345Z'%20fill='%23F0F0F0'/%3e%3c/svg%3e",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml,%3csvg%20preserveAspectRatio='none'%20overflow='visible'%20style='display:%20block;'%20width='15'%20height='5'%20viewBox='0%200%2015%205'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20id='&%23226;&%23134;&%23146;'%20d='M10.4343%205C10.7077%204.54416%2010.972%204.1453%2011.2272%203.80342C11.5005%203.46154%2011.7648%203.17664%2012.02%202.94872H0V2.05128H12.02C11.7648%201.80912%2011.5005%201.51709%2011.2272%201.17521C10.972%200.833333%2010.7077%200.441595%2010.4343%200H11.3912C12.5394%201.03989%2013.7424%201.80912%2015%202.30769V2.69231C13.7424%203.17664%2012.5394%203.94587%2011.3912%205H10.4343Z'%20fill='%23F0F0F0'/%3e%3c/svg%3e",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://4wide.jp/_astro/chunk-swup.C2TNzUnI.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 7888
+      },
+      {
+        "url": "https://4wide.jp/_astro/chunk-lenis.Bu7sAdyK.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 5283
+      },
+      {
+        "url": "https://4wide.jp/_astro/chunk-gsap.C-y0P4LX.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 76514
+      },
+      {
+        "url": "https://4wide.jp/_astro/chunk-three.BwoqVieT.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 155546
+      },
+      {
+        "url": "https://4wide.jp/fonts/optima-nova-regular.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 48419
+      },
+      {
+        "url": "https://p.typekit.net/p.gif?s=1&k=ibl1ljt&ht=tk&h=4wide.jp&f=35684&a=424104055&js=1.12.0&app=typekit&e=js&_=1792403992713",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 205
+      },
+      {
+        "url": "https://use.typekit.net/af/70c531/00000000000000007735aae6/31/m?features=ALL&v=4&chunks=127&order=0",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "font/opentype",
+        "fromCache": false,
+        "bytes": 55194
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-65XRGESH5K",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 182472
+      },
+      {
+        "url": "https://4wide.jp/_astro/app.Ct-i3MBe.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 6202
+      },
+      {
+        "url": "https://4wide.jp/",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 78
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-65XRGESH5K&gtm=45je6ae1v9244408727za208zd9244408727xf1&_p=1792403992723&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1521082802.1792403993&frm=0&ngs=1&pscdl=noapi&rcb=6&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=1&tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&sid=1792403992&sct=1&seg=0&dl=https%3A%2F%2F4wide.jp%2F&dt=4WIDE%20%7C%20Creative%20Web%20Studio&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=475",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false
+      },
+      {
+        "url": "https://wp.4wide.jp/wp-content/uploads/2026/10/ondo-collective.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 139970
+      },
+      {
+        "url": "https://wp.4wide.jp/wp-content/uploads/2026/09/element.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 49731
+      },
+      {
+        "url": "https://wp.4wide.jp/wp-content/uploads/2026/01/case-pf7.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 21549
+      },
+      {
+        "url": "https://wp.4wide.jp/wp-content/uploads/2026/01/faint-film-scaled.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 19776
+      },
+      {
+        "url": "https://wp.4wide.jp/wp-content/uploads/2026/02/case-layrid-2.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 23719
+      },
+      {
+        "url": "https://wp.4wide.jp/wp-content/uploads/2026/01/case-new2025.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 44266
+      },
+      {
+        "url": "https://wp.4wide.jp/wp-content/uploads/2026/03/showcase-case-craffy.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 26100
+      },
+      {
+        "url": "https://wp.4wide.jp/wp-content/uploads/2026/01/case-pf6.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 26006
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-65XRGESH5K&gtm=45je6ae1v9244408727za200zd9244408727xf1&_p=1792403992723&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAAQ&ae=a&are=1&cid=1521082802.1792403993&frm=0&ngs=1&pscdl=noapi&rcb=6&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=2&tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&sid=1792403992&sct=1&seg=0&dl=https%3A%2F%2F4wide.jp%2F&dt=4WIDE%20%7C%20Creative%20Web%20Studio&en=scroll&epn.percent_scrolled=90&_et=8&tfd=5607",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false
+      },
+      {
+        "url": "https://4wide.jp/press/",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 8984
+      },
+      {
+        "url": "https://4wide.jp/about/",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 11074
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 348.5,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 400,
+        "delay": 348.5,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 350,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 400,
+        "delay": 350,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 461.25,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 400,
+        "delay": 461.25,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 135.75,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 400,
+        "delay": 135.75,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 171.5,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 400,
+        "delay": 171.5,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 550,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 400,
+        "delay": 550,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 469.25,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 400,
+        "delay": 469.25,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 404.75,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 400,
+        "delay": 404.75,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 316.25,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 400,
+        "delay": 316.25,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 400,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 364.5,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 400,
+        "delay": 364.5,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 421,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 400,
+        "delay": 421,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 308,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 400,
+        "delay": 308,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 207.25,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 400,
+        "delay": 207.25,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 477.5,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 400,
+        "delay": 477.5,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 324.25,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 400,
+        "delay": 324.25,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 340.25,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 400,
+        "delay": 340.25,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 485.5,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 400,
+        "delay": 485.5,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 314.25000000000006,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 400,
+        "delay": 314.25000000000006,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 388.75,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 400,
+        "delay": 388.75,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 437,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 400,
+        "delay": 437,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 493.5,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 400,
+        "delay": 493.5,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 509.74999999999994,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 400,
+        "delay": 509.74999999999994,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 517.7499999999999,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 400,
+        "delay": 517.7499999999999,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 242.75,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 400,
+        "delay": 242.75,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 525.7499999999999,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 400,
+        "delay": 525.7499999999999,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 372.5,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 400,
+        "delay": 372.5,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 396.75,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 400,
+        "delay": 396.75,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 533.75,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 400,
+        "delay": 533.75,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 400,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A07020009C390000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x3ff40010fe00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x3ff40010fe00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x3ff40010fe00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x3ff40010fe00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-65XRGESH5K&gtm=45je6ae1v9244408727za208zd9244408727xf1&_p=1792403992723&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1521082802.1792403993&frm=0&ngs=1&pscdl=noapi&rcb=6&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=1&tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&sid=1792403992&sct=1&seg=0&dl=https%3A%2F%2F4wide.jp%2F&dt=4WIDE%20%7C%20Creative%20Web%20Studio&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=475",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-65XRGESH5K&gtm=45je6ae1v9244408727za200zd9244408727xf1&_p=1792403992723&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAAQ&ae=a&are=1&cid=1521082802.1792403993&frm=0&ngs=1&pscdl=noapi&rcb=6&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=2&tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&sid=1792403992&sct=1&seg=0&dl=https%3A%2F%2F4wide.jp%2F&dt=4WIDE%20%7C%20Creative%20Web%20Studio&en=scroll&epn.percent_scrolled=90&_et=8&tfd=5607",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 5198,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 725,
+      "typography": {
+        "families": [
+          [
+            "PP Neue Montreal Medium",
+            34
+          ],
+          [
+            "OptimaNovaRegular",
+            24
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            56
+          ],
+          [
+            "500",
+            2
+          ]
+        ],
+        "textTransforms": [],
+        "sizeMin": 11,
+        "sizeMedian": 13,
+        "sizeMax": 16,
+        "sizeMaxVw": 4.1,
+        "scaleRatio": 1.2,
+        "letterSpacingMean": -0.025,
+        "loadedFonts": [
+          {
+            "family": "PP Neue Montreal Medium",
+            "weight": "normal",
+            "style": "normal"
+          },
+          {
+            "family": "OptimaNovaRegular",
+            "weight": "normal",
+            "style": "normal"
+          },
+          {
+            "family": "dnp-shuei-gothic-kin-std",
+            "weight": "normal",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 58
+      },
+      "color": {
+        "background": "rgb(5, 5, 5)",
+        "backgroundLuminance": 0.0015176349177441874,
+        "backgrounds": [],
+        "texts": [
+          [
+            "rgb(240, 240, 240)",
+            174
+          ],
+          [
+            "rgb(162, 162, 162)",
+            48
+          ]
+        ],
+        "meanSaturation": 0,
+        "rootVars": {
+          "--color-black": "#050505",
+          "--color-white": "#f0f0f0",
+          "--color-gray": "#a2a2a2",
+          "--color-form-note": "#7f7f7f",
+          "--color-form-placeholder": "#414141",
+          "--color-form-error": "#e05a5a",
+          "--color-image-placeholder": "#131313",
+          "--grid-col-repeat": "12",
+          "--grid-col-gap": "24rem",
+          "--grid-padding": "40rem",
+          "--page-transition-duration": ".4s",
+          "--page-transition-easing": "ease",
+          "--menu-duration": ".5s",
+          "--menu-easing": "cubic-bezier(.22, 1, .36, 1)",
+          "--hover-text-duration": ".6s",
+          "--hover-text-easing": "cubic-bezier(.22, 1, .36, 1)",
+          "--hover-text-stagger": "15ms"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 6,
+        "sticky": 0,
+        "fixed": 4,
+        "grid": 5,
+        "flex": 94,
+        "absolute": 99,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 844,
+        "pages": 1,
+        "spacing": [
+          [
+            3,
+            59
+          ],
+          [
+            12,
+            24
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            11,
+            3
+          ],
+          [
+            60,
+            2
+          ],
+          [
+            8,
+            2
+          ],
+          [
+            20,
+            1
+          ],
+          [
+            19,
+            1
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 120,
+        "animationKinds": [
+          "CSSTransition"
+        ],
+        "infiniteAnimations": 0,
+        "animationDurations": [
+          800,
+          400,
+          400,
+          400,
+          400,
+          400,
+          400,
+          400,
+          400,
+          400,
+          400,
+          400,
+          400,
+          400,
+          400,
+          400,
+          400,
+          400,
+          400,
+          400
+        ],
+        "easings": [
+          "ease",
+          "cubic-bezier(0.22, 1, 0.36, 1)",
+          "ease-out"
+        ],
+        "transitionDurationsMs": [
+          [
+            150,
+            192
+          ],
+          [
+            400,
+            70
+          ],
+          [
+            100,
+            48
+          ],
+          [
+            600,
+            38
+          ],
+          [
+            200,
+            20
+          ]
+        ],
+        "keyframes": [],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 3,
+      "media": {
+        "canvases": [
+          {
+            "w": 780,
+            "h": 340,
+            "area": 0.2
+          }
+        ],
+        "videos": [],
+        "svg": 0,
+        "images": 5,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 1
+        },
+        "raf": 526,
+        "io": 0,
+        "ro": 2,
+        "mo": 1,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "4WIDE | Creative Web Studio",
+      "lang": "ja",
+      "description": "4WIDEは、愛知県を拠点にWebデザインや実装を行っているWebスタジオです。4WIDE is a web studio based in Aichi Prefecture, specializing in web design and development."
+    },
+    "featuresBeforeScroll": {
+      "elements": 725,
+      "canvases": 1,
+      "animations": 48,
+      "hidden": 53
+    },
+    "scrollReveal": 50,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 8010132,
+        "layoutCount": 29,
+        "recalcStyleCount": 135,
+        "scriptDuration": 0.307465,
+        "taskDuration": 2.613687,
+        "nodes": 1284
+      },
+      "timing": {
+        "domContentLoaded": 252,
+        "load": 1693,
+        "first-paint": 192,
+        "first-contentful-paint": 2404
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 348.5,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 400,
+        "delay": 348.5,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 350,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 400,
+        "delay": 350,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 461.25,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 400,
+        "delay": 461.25,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 135.75,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 400,
+        "delay": 135.75,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 171.5,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 400,
+        "delay": 171.5,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 550,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 400,
+        "delay": 550,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 469.25,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 400,
+        "delay": 469.25,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 404.75,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 400,
+        "delay": 404.75,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 316.25,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 400,
+        "delay": 316.25,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 400,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 364.5,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 400,
+        "delay": 364.5,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 421,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 400,
+        "delay": 421,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 308,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 400,
+        "delay": 308,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 207.25,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 400,
+        "delay": 207.25,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 477.5,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 400,
+        "delay": 477.5,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 324.25,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 400,
+        "delay": 324.25,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 340.25,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 400,
+        "delay": 340.25,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 485.5,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 400,
+        "delay": 485.5,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 314.25000000000006,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 400,
+        "delay": 314.25000000000006,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 388.75,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 400,
+        "delay": 388.75,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 437,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 400,
+        "delay": 437,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 493.5,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 400,
+        "delay": 493.5,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 509.74999999999994,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 400,
+        "delay": 509.74999999999994,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 517.7499999999999,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 400,
+        "delay": 517.7499999999999,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 242.75,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 400,
+        "delay": 242.75,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 525.7499999999999,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 400,
+        "delay": 525.7499999999999,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 372.5,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 400,
+        "delay": 372.5,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 396.75,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 400,
+        "delay": 396.75,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 533.75,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 400,
+        "delay": 533.75,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 400,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0D020009C390000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-65XRGESH5K&gtm=45je6ae1v9244408727za208zd9244408727xf1&_p=1792404005109&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1429684731.1792404005&frm=0&ngs=1&pscdl=noapi&rcb=15&sr=390x844&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=1&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=1&tag_exp=115938465~115938468~118897920~118897930~119793973~120213116~120385422~120469145~120469153~121246026~121246034&sid=1792404005&sct=1&seg=0&dl=https%3A%2F%2F4wide.jp%2F&dt=4WIDE%20%7C%20Creative%20Web%20Studio&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=362",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  }
+}

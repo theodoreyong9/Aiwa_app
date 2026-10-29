@@ -1,0 +1,5230 @@
+{
+  "url": "https://www.primes.com.au/",
+  "at": "2026-10-19T10:00:30.360Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 12826,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 1369,
+      "typography": {
+        "families": [
+          [
+            "fontGroteskB",
+            79
+          ],
+          [
+            "fontGroteskC",
+            49
+          ],
+          [
+            "Space Mono",
+            28
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            85
+          ],
+          [
+            "500",
+            71
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            28
+          ]
+        ],
+        "sizeMin": 0,
+        "sizeMedian": 14.6622,
+        "sizeMax": 107.857,
+        "sizeMaxVw": 7.5,
+        "scaleRatio": 7.4,
+        "letterSpacingMean": 0.029,
+        "loadedFonts": [
+          {
+            "family": "fontGroteskB",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "fontGroteskB",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "fontGroteskC",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "fontGroteskC",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "Space Mono",
+            "weight": "400",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 156
+      },
+      "color": {
+        "background": "rgb(217, 217, 217)",
+        "backgroundLuminance": 0.6938717612919899,
+        "backgrounds": [
+          [
+            "rgb(33, 33, 35)",
+            10748
+          ],
+          [
+            "rgb(217, 217, 217)",
+            6175
+          ],
+          [
+            "rgb(254, 14, 14)",
+            1573
+          ],
+          [
+            "rgba(0, 0, 0, 0.3)",
+            1140
+          ],
+          [
+            "rgb(255, 255, 255)",
+            186
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(55, 55, 57)",
+            564
+          ],
+          [
+            "rgb(255, 255, 255)",
+            366
+          ],
+          [
+            "rgb(33, 33, 35)",
+            171
+          ],
+          [
+            "rgb(217, 217, 217)",
+            17
+          ],
+          [
+            "rgb(180, 180, 180)",
+            16
+          ]
+        ],
+        "meanSaturation": 0.2,
+        "rootVars": {
+          "--color-background-dark": "#d5d5d5",
+          "--color-brand-primary": "gray",
+          "--color-brand-primary-subtle": "#ccc",
+          "--color-brand-primary-action": "#777",
+          "--color-brand-secondary": "#2e2e2e",
+          "--color-brand-secondary-subtle": "#cfcfcf",
+          "--color-secondary-hover": "#6f6f6f",
+          "--color-disabled": "#f0f1f4",
+          "--color-text-primary": "var(--color-black)",
+          "--color-text-secondary": "#4b4b4b",
+          "--color-text-tertiary": "#7b7b7b",
+          "--color-text-brand": "#242424",
+          "--color-text-disabled": "#b0b0b0",
+          "--color-text-placeholder": "#a6a6a6",
+          "--color-error-sublte": "#fff0e6",
+          "--input-padding-vertical": "16px",
+          "--input-padding-left": "var(--space-s)",
+          "--input-padding-right": "var(--space-s)",
+          "--sticky-nav-block-padding": "80px",
+          "--font-family-text": "\"Helvetica\", Helvetica",
+          "--font-family-mono": "var(--font-spaceMono), ui-monospace, \"SFMono-Regular\", \"Menlo\", \"Consolas\", monospace",
+          "--color-body": "var(--color-text-secondary)",
+          "--font-size-body": "var(--step-0)",
+          "--font-size-body-small": "1rem",
+          "--flow-space": "var(--space-l)",
+          "--column-gap": "var(--space-m)",
+          "--border-light": "1px solid var(--color-brand-primary-subtle)",
+          "--border": "var(--color-border) 1px solid",
+          "--content-max-width": "780px",
+          "--content-max-width-wide": "900px",
+          "--box-spacing": "clamp(1rem, 2.5vw + .25rem, 2.25rem)",
+          "--component-spacing": "var(--space-3xl-4xl)",
+          "--space-gutter": "var(--space-s-m)",
+          "--max-container-width": "calc(var(--content-max-width-full) + var(--space-gutter) * 2)",
+          "--divider-height": "var(--space-2xl)",
+          "--content-max-width-full": "none",
+          "--variable-radius": "14px",
+          "--space-section-large": "120px",
+          "--space-section-medium": "var(--space-2xl)",
+          "--space-section-small": "52px"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 4,
+        "sticky": 0,
+        "fixed": 6,
+        "grid": 7,
+        "flex": 346,
+        "absolute": 132,
+        "asymmetricGrids": 2,
+        "splitScreen": false,
+        "scrollHeight": 9909,
+        "pages": 11,
+        "spacing": [
+          [
+            22,
+            64
+          ],
+          [
+            10,
+            40
+          ],
+          [
+            29,
+            37
+          ],
+          [
+            4,
+            32
+          ],
+          [
+            8,
+            30
+          ],
+          [
+            6,
+            20
+          ],
+          [
+            15,
+            9
+          ],
+          [
+            220,
+            6
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 6,
+        "animationKinds": [
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 6,
+        "animationDurations": [
+          31762.5,
+          31762.5,
+          8337.5,
+          8337.5,
+          8337.5,
+          8337.5
+        ],
+        "easings": [
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            200,
+            80
+          ],
+          [
+            500,
+            71
+          ],
+          [
+            300,
+            39
+          ],
+          [
+            400,
+            18
+          ],
+          [
+            600,
+            6
+          ]
+        ],
+        "keyframes": [
+          "HeroMediaBoxReveal",
+          "NavigationMobileItemReveal",
+          "NavMegaMenuReveal",
+          "NavRegionSwitcherReveal",
+          "iso-marquee-scroll",
+          "logos-marquee-scroll",
+          "pulse",
+          "swiper-preloader-spin"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": true
+      },
+      "hiddenElements": 21,
+      "media": {
+        "canvases": [],
+        "videos": [
+          {
+            "autoplay": true,
+            "loop": false,
+            "muted": true,
+            "src": "blob:https://www.primes.com.au/f3274beb-0eb5-4de3-9c06-138520a9555c"
+          },
+          {
+            "autoplay": false,
+            "loop": false,
+            "muted": false,
+            "src": ""
+          }
+        ],
+        "svg": 72,
+        "images": 8,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "2d": 1
+        },
+        "raf": 1225,
+        "io": 40,
+        "ro": 25,
+        "mo": 2,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": true,
+        "nuxt": false,
+        "reactRoot": true,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Electrical, Data & Building Services Melbourne | Prime",
+      "lang": "en-AU",
+      "description": "Prime delivers electrical, data, security, technology, hydraulics and maintenance services across Australia and New Zealand. Family owned since 1987."
+    },
+    "featuresBeforeScroll": {
+      "elements": 1022,
+      "canvases": 0,
+      "animations": 7,
+      "hidden": 6
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 6,
+      "changed": 0
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 19731256,
+        "layoutCount": 697,
+        "recalcStyleCount": 1655,
+        "scriptDuration": 1.598607,
+        "taskDuration": 8.510163,
+        "nodes": 3694
+      },
+      "timing": {
+        "domContentLoaded": 1739,
+        "load": 2488,
+        "first-paint": 1640,
+        "first-contentful-paint": 1640
+      }
+    },
+    "network": [
+      {
+        "url": "https://www.primes.com.au/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 24144
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": false,
+        "bytes": 907
+      },
+      {
+        "url": "https://www.primes.com.au/_next/static/media/DieGrotesk_B_Light-s.p.3k6rae96ehj7f.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 51603
+      },
+      {
+        "url": "https://www.primes.com.au/_next/static/media/DieGrotesk_B_Regular-s.p.1-co4rxejf3tv.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 51119
+      },
+      {
+        "url": "https://www.primes.com.au/_next/static/media/DieGrotesk_B_Medium-s.p.0dvz7vh3fa72h.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 47834
+      },
+      {
+        "url": "https://www.primes.com.au/_next/static/media/DieGrotesk_C_Light-s.p.2gyur4wfzd7o9.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 52320
+      },
+      {
+        "url": "https://www.primes.com.au/_next/static/media/DieGrotesk_C_Regular-s.p.0sztacgn84lfo.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 51938
+      },
+      {
+        "url": "https://www.primes.com.au/_next/static/media/DieGrotesk_C_Medium-s.p.2wi_3dv7mck_s.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 48085
+      },
+      {
+        "url": "https://www.primes.com.au/_next/static/media/dc0d9adbac686440-s.p.3cik_s2si-ft-.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 9693
+      },
+      {
+        "url": "https://www.primes.com.au/_next/static/media/8d05cfa5faa8406c-s.p.1s123piy9_v1m.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 9763
+      },
+      {
+        "url": "https://www.primes.com.au/_next/static/chunks/0lb-nuw4xgy3x.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 40405
+      },
+      {
+        "url": "https://www.primes.com.au/_next/static/chunks/0r6z_imads-as.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1180
+      },
+      {
+        "url": "https://www.primes.com.au/_next/static/chunks/18lt32ziqvy1y.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 3563
+      },
+      {
+        "url": "https://www.primes.com.au/_next/static/chunks/19a0gf0isqd5o.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 3086
+      },
+      {
+        "url": "https://www.primes.com.au/_next/static/chunks/2_l4f9mtf2308.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3804
+      },
+      {
+        "url": "https://www.primes.com.au/_next/static/chunks/389_k8ttv25_2.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 24150
+      },
+      {
+        "url": "https://www.primes.com.au/_next/static/chunks/11yt--q9qzhny.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 5174
+      },
+      {
+        "url": "https://www.primes.com.au/_next/static/chunks/35ku6qahp-e4b.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1495
+      },
+      {
+        "url": "https://www.primes.com.au/_next/static/chunks/25gp81r5hocgn.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1370
+      },
+      {
+        "url": "https://www.primes.com.au/_next/static/chunks/0-m81eozdwslk.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1752
+      },
+      {
+        "url": "https://www.primes.com.au/_next/static/chunks/04dqkug7-j14l.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1288
+      },
+      {
+        "url": "https://www.primes.com.au/_next/static/chunks/3vzwcp0kk-g84.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 8634
+      },
+      {
+        "url": "https://www.primes.com.au/_next/static/chunks/3hzx4b8o27nh8.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 15338
+      },
+      {
+        "url": "https://www.primes.com.au/_next/static/chunks/0a391_izy61zt.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 11397
+      },
+      {
+        "url": "https://www.primes.com.au/_next/static/chunks/2seltbstrvia6.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 14398
+      },
+      {
+        "url": "https://www.primes.com.au/_next/static/chunks/0qt6o5d2dn5na.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 43396
+      },
+      {
+        "url": "https://www.primes.com.au/_next/static/chunks/1_h88f6j_-m4r.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 54507
+      },
+      {
+        "url": "https://www.primes.com.au/_next/static/chunks/2a9xp0i72vnii.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 31377
+      },
+      {
+        "url": "https://www.primes.com.au/_next/static/chunks/0t6z2mj6xl5nf.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 67685
+      },
+      {
+        "url": "https://www.primes.com.au/_next/static/chunks/0j7_v64trxtal.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 30257
+      },
+      {
+        "url": "https://www.primes.com.au/_next/static/chunks/turbopack-2c6o20lyme-9f.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4834
+      },
+      {
+        "url": "https://www.primes.com.au/_next/static/chunks/00g3rxcmfy2s7.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 8035
+      },
+      {
+        "url": "https://www.primes.com.au/_next/static/chunks/031f8ca9dx8kc.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 23468
+      },
+      {
+        "url": "https://www.primes.com.au/_next/static/chunks/1qb7y0g7_v_47.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 11411
+      },
+      {
+        "url": "https://www.primes.com.au/_next/static/chunks/1yd8kq77sgnws.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 30294
+      },
+      {
+        "url": "https://www.primes.com.au/_next/static/chunks/0zp11gb9p-z07.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 105174
+      },
+      {
+        "url": "https://www.primes.com.au/_next/static/chunks/3kbw4ie3xky5q.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 43390
+      },
+      {
+        "url": "https://www.primes.com.au/_next/static/chunks/0f0r86f8gck-e.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 16208
+      },
+      {
+        "url": "https://www.primes.com.au/_next/static/chunks/turbopack-0zulgx6ve1n4c.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4926
+      },
+      {
+        "url": "https://www.primes.com.au/_next/static/a-fDkbkfodHDwi3JvHSXq/_buildManifest.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 689
+      },
+      {
+        "url": "https://www.primes.com.au/_next/static/a-fDkbkfodHDwi3JvHSXq/_ssgManifest.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 323
+      },
+      {
+        "url": "https://www.primes.com.au/_next/static/a-fDkbkfodHDwi3JvHSXq/_clientMiddlewareManifest.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 872
+      },
+      {
+        "url": "https://www.primes.com.au/api/wp-uploads/2026/08/Amazon.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 2579
+      },
+      {
+        "url": "https://www.primes.com.au/api/wp-uploads/2026/08/Microfoft.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 2798
+      },
+      {
+        "url": "https://www.primes.com.au/api/wp-uploads/2026/08/Nash.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 7107
+      },
+      {
+        "url": "https://www.primes.com.au/api/wp-uploads/2026/08/Vantage.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 2261
+      },
+      {
+        "url": "https://www.primes.com.au/api/wp-uploads/2026/09/BESIX-Watpac.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 2362
+      },
+      {
+        "url": "https://www.primes.com.au/api/wp-uploads/2026/09/Built.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 596
+      },
+      {
+        "url": "https://www.primes.com.au/api/wp-uploads/2026/09/CPB.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1987
+      },
+      {
+        "url": "https://www.primes.com.au/api/wp-uploads/2026/09/CSIRO.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 967
+      },
+      {
+        "url": "https://www.primes.com.au/api/wp-uploads/2026/09/ICON.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1404
+      },
+      {
+        "url": "https://www.primes.com.au/api/wp-uploads/2026/09/Lendlease.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1722
+      },
+      {
+        "url": "https://www.primes.com.au/api/wp-uploads/2026/09/Multiplex.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 948
+      },
+      {
+        "url": "data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' %3E%3Cfilter id='b' color-interpolation-filters='sRGB'%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3CfeColorMatrix values='1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 100 -1' result='s'/%3E%3CfeFlood x='0' y='0' width='100%25' height='100%25'/%3E%3CfeComposite operator='out' in='s'/%3E%3CfeComposite in2='SourceGraphic'/%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3C/filter%3E%3Cimage width='100%25' height='100%25' x='0' y='0' preserveAspectRatio='xMidYMid slice' style='filter: url(%23b);' href='data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAwAgCdASoQAAsAA4BaJYwCsADdclUqEkmsAAD+4abphftXEKxMcbQeDD0/SF5Wql1MyOmUmvqLXXs64Y9ODfFO7ZMzzkI31q4w9RNcORJwytgAAAA='/%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' %3E%3Cfilter id='b' color-interpolation-filters='sRGB'%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3CfeColorMatrix values='1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 100 -1' result='s'/%3E%3CfeFlood x='0' y='0' width='100%25' height='100%25'/%3E%3CfeComposite operator='out' in='s'/%3E%3CfeComposite in2='SourceGraphic'/%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3C/filter%3E%3Cimage width='100%25' height='100%25' x='0' y='0' preserveAspectRatio='xMidYMid slice' style='filter: url(%23b);' href='data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADQAQCdASoQAAYAA4BaJZQAAxdAFjm7gAD+2FMuwGtpzcg1wJv9kA5SEGsKv1M5xpxIa1WYYXk8hJUCuVNVEpfQwP8XQAAA'/%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' %3E%3Cfilter id='b' color-interpolation-filters='sRGB'%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3CfeColorMatrix values='1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 100 -1' result='s'/%3E%3CfeFlood x='0' y='0' width='100%25' height='100%25'/%3E%3CfeComposite operator='out' in='s'/%3E%3CfeComposite in2='SourceGraphic'/%3E%3CfeGaussianBlur stdDeviation='20'/%3E%3C/filter%3E%3Cimage width='100%25' height='100%25' x='0' y='0' preserveAspectRatio='xMidYMid slice' style='filter: url(%23b);' href='data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAQCdASoQAAkAA4BaJagCdAEWQ/m9pcAA/t2myniJwtHVEneaaPVGsgpewopiF6wzgISUkg9I92tfE0z0JoVAupFU2bxbvfUrfrq9nLnrR7WgAAA='/%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'%3E%3Cpath d='M4 12H20M20 12L14 6M20 12L14 18' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='41' height='20' viewBox='0 0 41 20' fill='none'%3e%3cg clip-path='url(%23clip0_18307_153367)'%3e%3cpath d='M0.500006 19.9018C0.500006 19.9549 0.543484 19.9989 0.596818 19.9989H2.7203C5.37421 19.9989 6.48551 18.1441 6.48551 16.3212V5.99891C6.48559 5.98631 6.48315 5.97381 6.47832 5.96213C6.4735 5.95046 6.46639 5.93983 6.4574 5.93087C6.44841 5.9219 6.43771 5.91476 6.42593 5.90987C6.41414 5.90498 6.40149 5.90242 6.3887 5.90234H3.36145C3.34857 5.90234 3.33581 5.90486 3.32392 5.90976C3.31202 5.91465 3.30123 5.92183 3.29218 5.93086C3.28312 5.9399 3.27597 5.95062 3.27114 5.9624C3.26632 5.97418 3.26391 5.98678 3.26406 5.99949V16.1223C3.26406 16.8863 2.94464 17.2841 2.12088 17.2841H0.613629C0.59861 17.2841 0.583739 17.287 0.569878 17.2927C0.556016 17.2984 0.543439 17.3067 0.532873 17.3173C0.522306 17.3278 0.513961 17.3403 0.50832 17.354C0.502678 17.3677 0.499853 17.3824 0.500006 17.3972V19.9018Z' fill='%23E6E5DD'/%3e%3cpath d='M12.2144 8.48865H14.4016C14.4144 8.48858 14.4271 8.48602 14.4389 8.48113C14.4506 8.47623 14.4613 8.4691 14.4703 8.46013C14.4793 8.45116 14.4864 8.44054 14.4912 8.42886C14.4961 8.41719 14.4985 8.40469 14.4984 8.39208V6.03951C14.4985 6.0269 14.4961 6.01441 14.4912 6.00273C14.4864 5.99105 14.4793 5.98043 14.4703 5.97146C14.4613 5.96249 14.4506 5.95536 14.4389 5.95046C14.4271 5.94557 14.4144 5.94301 14.4016 5.94294H12.1558C12.13 5.94294 12.1052 5.93282 12.087 5.91482C12.0687 5.89682 12.0584 5.8724 12.0584 5.84694V3.62751C12.0586 3.61049 12.0541 3.59374 12.0455 3.579C12.0369 3.56426 12.0244 3.55206 12.0094 3.54366C11.9944 3.53527 11.9773 3.53099 11.9601 3.53126C11.9428 3.53154 11.9259 3.53636 11.9112 3.54522L8.94481 5.33665C8.9306 5.34533 8.91888 5.35745 8.91077 5.37185C8.90265 5.38625 8.8984 5.40246 8.89844 5.41894V13.2949H8.90655C8.93844 14.8098 9.75293 16.3247 11.5906 16.7452C11.7587 16.7852 11.9344 16.8167 12.1181 16.8327C12.2938 16.8561 12.4695 16.8641 12.6608 16.8641H14.4016C14.4274 16.8639 14.452 16.8538 14.4701 16.8358C14.4883 16.8178 14.4984 16.7934 14.4984 16.7681V14.2709C14.4984 14.2709 14.4961 14.1578 14.3854 14.1578L13.2602 14.1595C12.437 14.1595 12.1181 13.7629 12.1181 13.0018V8.58465C12.1181 8.53151 12.161 8.48865 12.215 8.48865' fill='%23E6E5DD'/%3e%3cpath d='M30.997 16.8623H40.3999C40.4544 16.8623 40.4984 16.8195 40.4984 16.7669V14.2126C40.4984 14.2 40.4957 14.1875 40.4907 14.1758C40.4857 14.1641 40.4785 14.1536 40.4693 14.1447C40.4601 14.1358 40.4493 14.1288 40.4374 14.1241C40.4255 14.1194 40.4127 14.117 40.3999 14.1172H30.997C30.9842 14.117 30.9715 14.1194 30.9596 14.1241C30.9478 14.1287 30.9369 14.1357 30.9278 14.1445C30.9186 14.1533 30.9113 14.1638 30.9063 14.1754C30.9013 14.187 30.8986 14.1994 30.8984 14.2121V16.7669C30.8984 16.8195 30.9425 16.8623 30.997 16.8623Z' fill='%23E6E5DD'/%3e%3cpath d='M3.30079 4.21189V2.05475C3.30063 2.02918 3.31071 2.00458 3.32883 1.98629C3.34696 1.96799 3.37166 1.95748 3.3976 1.95703H6.40398C6.42991 1.95748 6.45462 1.96799 6.47274 1.98629C6.49087 2.00458 6.50094 2.02918 6.50079 2.05475V4.21189C6.5011 4.23756 6.49109 4.2623 6.47295 4.28072C6.45481 4.29913 6.43001 4.30972 6.40398 4.31017H3.3976C3.37156 4.30972 3.34677 4.29913 3.32863 4.28072C3.31049 4.2623 3.30048 4.23756 3.30079 4.21189Z' fill='%23E6E5DD'/%3e%3cpath d='M28.8396 8.82277C29.1254 9.55877 29.2634 10.3439 29.2634 11.1788C29.2634 12.0131 29.1254 12.7982 28.8402 13.5342C28.5673 14.2453 28.159 14.8983 27.6373 15.4582C27.1281 16.0068 26.5112 16.4477 25.8239 16.7542C25.1248 17.0782 24.3758 17.2348 23.5677 17.2348C22.8932 17.2388 22.2242 17.1156 21.5967 16.8719C21.0216 16.6571 20.5613 16.3851 20.2152 16.0559C20.2041 16.0453 20.1906 16.0374 20.1758 16.033C20.161 16.0286 20.1453 16.0278 20.1301 16.0306C20.1148 16.0334 20.1005 16.0397 20.0883 16.0491C20.0761 16.0585 20.0664 16.0706 20.0599 16.0845L19.6819 16.8942C19.6742 16.9108 19.6618 16.925 19.6461 16.9349C19.6305 16.9448 19.6124 16.9501 19.5938 16.9502H17.0036C16.9908 16.9501 16.9781 16.9476 16.9662 16.9426C16.9543 16.9377 16.9436 16.9305 16.9345 16.9215C16.9255 16.9125 16.9183 16.9018 16.9135 16.8901C16.9086 16.8783 16.9062 16.8657 16.9063 16.8531V0.124487C16.9063 0.0707723 16.9497 0.0273438 17.0036 0.0273438H20.021C20.0749 0.0273438 20.1184 0.0707723 20.1184 0.124487V6.16106C20.1184 6.24392 20.217 6.28791 20.2802 6.23363C21.1428 5.49649 22.2332 5.13191 23.5671 5.13191C24.3758 5.13191 25.1248 5.28906 25.8239 5.60277C26.5112 5.90923 27.1281 6.35015 27.6373 6.89877C28.1497 7.44849 28.5538 8.09649 28.8396 8.82277ZM25.9132 12.4353C26.0727 12.0354 26.1528 11.609 26.1492 11.1793C26.1492 10.7479 26.0703 10.3353 25.9132 9.94334C25.7693 9.563 25.5479 9.21569 25.2628 8.92277C24.9845 8.63939 24.6575 8.40685 24.297 8.23591C23.9297 8.06734 23.5294 7.98034 23.1242 7.98106C22.7005 7.98106 22.3068 8.03991 21.9416 8.15763C21.5867 8.26967 21.2629 8.46114 20.9955 8.71706C20.7196 8.97191 20.5028 9.29591 20.3555 9.70791C20.1973 10.1193 20.1184 10.6199 20.1184 11.2279C20.1184 11.7679 20.1973 12.2393 20.3555 12.6313C20.489 13 20.7082 13.3327 20.9955 13.6028C21.2622 13.8576 21.577 14.0542 21.9416 14.1816C22.3068 14.3188 22.7005 14.3776 23.1242 14.3776C23.5381 14.3776 23.9323 14.2993 24.297 14.1228C24.6592 13.9588 24.9868 13.7291 25.2628 13.4456C25.5435 13.1532 25.7643 12.8102 25.9132 12.4353Z' fill='%23E6E5DD'/%3e%3c/g%3e%3cdefs%3e%3cclipPath id='clip0_18307_153367'%3e%3crect width='40' height='20' fill='white' transform='translate(0.5)'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.primes.com.au/animations/hydraulics.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1934
+      },
+      {
+        "url": "https://www.primes.com.au/animations/technology-av.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1430
+      },
+      {
+        "url": "https://www.primes.com.au/animations/security.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 920
+      },
+      {
+        "url": "https://www.primes.com.au/animations/electrical-communications.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1680
+      },
+      {
+        "url": "https://www.primes.com.au/animations/maintenance.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1797
+      },
+      {
+        "url": "https://www.primes.com.au/_next/image?url=https%3A%2F%2Fcms.primes.com.au%2Fwp-content%2Fuploads%2F2026%2F06%2Fdcimediafile-jpg.jpg&w=1920&q=90",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 80081
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-N49XLZKD",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 165891
+      },
+      {
+        "url": "https://www.primes.com.au/_next/static/chunks/0ql2sn5qu03dz.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 161343
+      },
+      {
+        "url": "https://www.primes.com.au/_next/static/chunks/1mpx8c40ba3lt.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3769
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/720p/video.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": false,
+        "bytes": 900
+      },
+      {
+        "url": "https://www.primes.com.au/_next/data/a-fDkbkfodHDwi3JvHSXq/en-AU.json",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 9867
+      },
+      {
+        "url": "https://www.primes.com.au/_next/data/a-fDkbkfodHDwi3JvHSXq/en-AU/divisions.json?slug=divisions",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 10062
+      },
+      {
+        "url": "https://www.primes.com.au/_next/data/a-fDkbkfodHDwi3JvHSXq/en-AU/sectors.json?slug=sectors",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 8748
+      },
+      {
+        "url": "https://www.primes.com.au/_next/data/a-fDkbkfodHDwi3JvHSXq/en-AU/projects.json?slug=projects",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 14558
+      },
+      {
+        "url": "https://www.primes.com.au/_next/data/a-fDkbkfodHDwi3JvHSXq/en-AU/about.json?slug=about",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 9156
+      },
+      {
+        "url": "https://www.primes.com.au/_next/data/a-fDkbkfodHDwi3JvHSXq/en-AU/contact.json?slug=contact",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 7940
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-J1CE12H1RX&cx=c&gtm=4e6ae1",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 179629
+      },
+      {
+        "url": "https://www.google.com/ccm/collect?rcb=14&frm=0&apvc=1&ae=g&auid=100125049.1792404012&dt=Electrical%2C%20Data%20%26%20Building%20Services%20Melbourne%20%7C%20Prime&en=page_view&dl=https%3A%2F%2Fwww.primes.com.au%2F&scrsrc=www.googletagmanager.com&rnd=1793745261.1792404012&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He6ae1v9256315078za200zd9256315078xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118131810~118897920~118897930~120385422~120469145~120469153~121246026~121246034&tft=1792404012258&tfd=2019&fmt=8",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false
+      },
+      {
+        "url": "https://ad.doubleclick.net/ccm/s/collect?auid=100125049.1792404012&gtm=45He6ae1v9256315078za200zd9256315078xeaxf1&fmt=8",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/html",
+        "fromCache": false
+      },
+      {
+        "url": "https://www.primes.com.au/_next/static/chunks/0h5q5czyoht4w.js",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 724
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-J1CE12H1RX&gtm=45je6ae1v9256322006za20ozb9256315078zd9256315078xf1&_p=1792404012045&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=255455470.1792404012&frm=0&ngs=1&pscdl=noapi&rcb=16&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=1&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120412528~120469145~120469153~121246026~121246034&sid=1792404012&sct=1&seg=0&dl=https%3A%2F%2Fwww.primes.com.au%2F&dt=Electrical%2C%20Data%20%26%20Building%20Services%20Melbourne%20%7C%20Prime&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=2155",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 21828
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-29920964-68e.b-cdn.net/7b2cd010-8c6c-4dcd-96f2-6c387c9ea1a6/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": true,
+        "bytes": 0
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1400,
+        "delay": 1400,
+        "iterations": 1,
+        "easing": "linear(0 0%, 0 0.7194244604316546%, 0.0002 1.4388489208633093%, 0.0004 2.158273381294964%, 0.0007 2.8776978417266186%, 0.0011 3.597122302158273%, 0.0016 4.316546762589928%, 0.0022 5.0359712230215825%, 0.0029 5.755395683453237%, 0.0038 6.474820143884892%, 0.0046 7.194244604316546%, 0.0057 7.913669064748201%, 0.007 8.633093525179856%, 0.0083 9.35251798561151%, 0.0098 10.071942446043163%, 0.0113 10.791366906474817%, 0.0131 11.51079136690647%, 0.015 12.230215827338125%, 0.0173 12.949640287769778%, 0.0196 13.669064748201432%, 0.0219 14.388489208633088%, 0.0248 15.107913669064743%, 0.0277 15.827338129496399%, 0.0309 16.546762589928054%, 0.0343 17.266187050359708%, 0.0381 17.98561151079136%, 0.0422 18.705035971223015%, 0.0464 19.42446043165467%, 0.0511 20.143884892086323%, 0.0561 20.863309352517977%, 0.0616 21.58273381294963%, 0.0674 22.302158273381284%, 0.0741 23.021582733812938%, 0.0808 23.74100719424459%, 0.0885 24.460431654676245%, 0.0966 25.1798561151079%, 0.1058 25.899280575539553%, 0.1159 26.618705035971207%, 0.1264 27.33812949640286%, 0.1388 28.057553956834514%, 0.1522 28.776978417266168%, 0.1671 29.49640287769782%, 0.1843 30.215827338129476%, 0.2033 30.93525179856113%, 0.2254 31.654676258992783%, 0.2507 32.37410071942444%, 0.2802 33.093525179856094%, 0.3154 33.81294964028775%, 0.355 34.5323741007194%, 0.3992 35.251798561151055%, 0.4455 35.97122302158271%, 0.4894 36.69064748201436%, 0.5296 37.41007194244602%, 0.5647 38.12949640287767%, 0.5958 38.848920863309324%, 0.623 39.56834532374098%, 0.6471 40.28776978417263%, 0.6688 41.007194244604285%, 0.688 41.72661870503594%, 0.7057 42.44604316546759%, 0.7218 43.16546762589925%, 0.7369 43.8848920863309%, 0.7506 44.604316546762554%, 0.7633 45.32374100719421%, 0.7753 46.04316546762586%, 0.7864 46.762589928057515%, 0.7973 47.48201438848917%, 0.8069 48.20143884892082%, 0.8163 48.92086330935248%, 0.825 49.64028776978413%, 0.8335 50.359712230215784%, 0.8413 51.07913669064744%, 0.8484 51.79856115107909%, 0.8554 52.517985611510746%, 0.8623 53.2374100719424%, 0.869 53.95683453237405%, 0.8751 54.67625899280571%, 0.8806 55.39568345323736%, 0.8865 56.115107913669014%, 0.8918 56.83453237410067%, 0.897 57.55395683453232%, 0.9016 58.273381294963976%, 0.9061 58.99280575539563%, 0.911 59.71223021582728%, 0.915 60.43165467625894%, 0.9192 61.15107913669059%, 0.9234 61.870503597122244%, 0.9271 62.5899280575539%, 0.9307 63.30935251798555%, 0.9342 64.02877697841721%, 0.9376 64.74820143884887%, 0.9406 65.46762589928052%, 0.9439 66.18705035971217%, 0.9468 66.90647482014383%, 0.9496 67.62589928057548%, 0.9523 68.34532374100714%, 0.9549 69.06474820143879%, 0.9575 69.78417266187044%, 0.96 70.5035971223021%, 0.9622 71.22302158273375%, 0.9646 71.9424460431654%, 0.9666 72.66187050359706%, 0.9686 73.38129496402871%, 0.9705 74.10071942446037%, 0.9723 74.82014388489202%, 0.9741 75.53956834532367%, 0.9759 76.25899280575533%, 0.9776 76.97841726618698%, 0.9792 77.69784172661863%, 0.9806 78.41726618705029%, 0.9821 79.13669064748194%, 0.9834 79.8561151079136%, 0.9848 80.57553956834525%, 0.986 81.2949640287769%, 0.9871 82.01438848920856%, 0.9882 82.73381294964021%, 0.9892 83.45323741007186%, 0.9902 84.17266187050352%, 0.9911 84.89208633093517%, 0.992 85.61151079136683%, 0.9929 86.33093525179848%, 0.9937 87.05035971223013%, 0.9944 87.76978417266179%, 0.995 88.48920863309344%, 0.9957 89.2086330935251%, 0.9963 89.92805755395675%, 0.9968 90.6474820143884%, 0.9973 91.36690647482007%, 0.9978 92.08633093525174%, 0.9981 92.80575539568339%, 0.9985 93.52517985611505%, 0.9988 94.24460431654671%, 0.9991 94.96402877697838%, 0.9993 95.68345323741003%, 0.9995 96.40287769784169%, 0.9997 97.12230215827336%, 0.9999 97.84172661870502%, 0.9999 98.56115107913668%, 1 99.28057553956833%, 1 100%)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 900,
+        "delay": 500,
+        "iterations": 1,
+        "easing": "linear(0 0%, 0.0001 1.1235955056179776%, 0.0004 2.247191011235955%, 0.0009 3.370786516853933%, 0.0017 4.49438202247191%, 0.0027 5.617977528089888%, 0.0041 6.741573033707866%, 0.0057 7.865168539325843%, 0.0075 8.98876404494382%, 0.0098 10.112359550561798%, 0.0124 11.235955056179776%, 0.0154 12.359550561797754%, 0.019 13.483146067415731%, 0.0229 14.606741573033709%, 0.0274 15.730337078651687%, 0.0323 16.853932584269664%, 0.0381 17.97752808988764%, 0.0444 19.10112359550562%, 0.0515 20.224719101123597%, 0.0597 21.348314606741575%, 0.0689 22.471910112359552%, 0.0795 23.59550561797753%, 0.0916 24.719101123595507%, 0.1049 25.842696629213485%, 0.1209 26.966292134831463%, 0.1393 28.08988764044944%, 0.1609 29.213483146067418%, 0.1872 30.337078651685395%, 0.2191 31.460674157303373%, 0.2592 32.58426966292135%, 0.3099 33.70786516853933%, 0.3734 34.831460674157306%, 0.4441 35.95505617977528%, 0.5114 37.07865168539326%, 0.5676 38.20224719101124%, 0.6137 39.325842696629216%, 0.652 40.449438202247194%, 0.6839 41.57303370786517%, 0.7118 42.69662921348315%, 0.7356 43.82022471910113%, 0.757 44.943820224719104%, 0.7759 46.06741573033708%, 0.7931 47.19101123595506%, 0.8087 48.31460674157304%, 0.8227 49.438202247191015%, 0.8357 50.56179775280899%, 0.8473 51.68539325842697%, 0.8586 52.80898876404495%, 0.8685 53.932584269662925%, 0.8781 55.0561797752809%, 0.887 56.17977528089888%, 0.8951 57.30337078651686%, 0.9025 58.426966292134836%, 0.9097 59.55056179775281%, 0.9167 60.67415730337079%, 0.923 61.79775280898877%, 0.9287 62.921348314606746%, 0.9342 64.04494382022472%, 0.9395 65.16853932584269%, 0.9443 66.29213483146067%, 0.9489 67.41573033707866%, 0.9529 68.53932584269663%, 0.9572 69.6629213483146%, 0.961 70.78651685393258%, 0.9643 71.91011235955057%, 0.9677 73.03370786516854%, 0.9707 74.15730337078651%, 0.9736 75.28089887640449%, 0.9764 76.40449438202248%, 0.9788 77.52808988764045%, 0.981 78.65168539325842%, 0.9832 79.7752808988764%, 0.9852 80.89887640449439%, 0.9871 82.02247191011236%, 0.9889 83.14606741573033%, 0.9903 84.26966292134831%, 0.9919 85.3932584269663%, 0.9931 86.51685393258427%, 0.9943 87.64044943820224%, 0.9954 88.76404494382022%, 0.9962 89.88764044943821%, 0.9971 91.01123595505618%, 0.9978 92.13483146067415%, 0.9984 93.25842696629213%, 0.9989 94.38202247191012%, 0.9993 95.50561797752809%, 0.9996 96.62921348314606%, 0.9998 97.75280898876404%, 1 98.87640449438203%, 1 100%)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 0,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear(0 0%, 1 100%)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "logos-marquee-scroll",
+        "duration": 31762.5,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "logos-marquee-scroll",
+        "duration": 31762.5,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "iso-marquee-scroll",
+        "duration": 8337.5,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "iso-marquee-scroll",
+        "duration": 8337.5,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "iso-marquee-scroll",
+        "duration": 8337.5,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "iso-marquee-scroll",
+        "duration": 8337.5,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.14, 0.9, 0.34, 0.94)"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "NavMegaMenuReveal",
+        "duration": 250,
+        "delay": 80,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "NavMegaMenuReveal",
+        "duration": 250,
+        "delay": 120,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "NavMegaMenuReveal",
+        "duration": 250,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.14, 0.9, 0.34, 0.94)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.14, 0.9, 0.34, 0.94)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.14, 0.9, 0.34, 0.94)"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "NavMegaMenuReveal",
+        "duration": 250,
+        "delay": 40,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0.5, 0, 1)"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "NavMegaMenuReveal",
+        "duration": 250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "NavMegaMenuReveal",
+        "duration": 250,
+        "delay": 160,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "height",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0.5, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.14, 0.9, 0.34, 0.94)"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "NavMegaMenuReveal",
+        "duration": 250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "NavMegaMenuReveal",
+        "duration": 250,
+        "delay": 120,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "NavMegaMenuReveal",
+        "duration": 250,
+        "delay": 80,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "NavMegaMenuReveal",
+        "duration": 250,
+        "delay": 160,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "NavMegaMenuReveal",
+        "duration": 250,
+        "delay": 40,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.14, 0.9, 0.34, 0.94)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "height",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0.5, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "NavMegaMenuReveal",
+        "duration": 250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "NavMegaMenuReveal",
+        "duration": 250,
+        "delay": 160,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "NavMegaMenuReveal",
+        "duration": 250,
+        "delay": 80,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "NavMegaMenuReveal",
+        "duration": 250,
+        "delay": 40,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "NavMegaMenuReveal",
+        "duration": 250,
+        "delay": 120,
+        "iterations": 1,
+        "easing": "linear"
+      }
+    ],
+    "console": [],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://ad.doubleclick.net/ccm/s/collect?auid=100125049.1792404012&gtm=45He6ae1v9256315078za200zd9256315078xeaxf1&fmt=8",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google.com/ccm/collect?rcb=14&frm=0&apvc=1&ae=g&auid=100125049.1792404012&dt=Electrical%2C%20Data%20%26%20Building%20Services%20Melbourne%20%7C%20Prime&en=page_view&dl=https%3A%2F%2Fwww.primes.com.au%2F&scrsrc=www.googletagmanager.com&rnd=1793745261.1792404012&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He6ae1v9256315078za200zd9256315078xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118131810~118897920~118897930~120385422~120469145~120469153~121246026~121246034&tft=1792404012258&tfd=2019&fmt=8",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-J1CE12H1RX&gtm=45je6ae1v9256322006za20ozb9256315078zd9256315078xf1&_p=1792404012045&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=255455470.1792404012&frm=0&ngs=1&pscdl=noapi&rcb=16&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=1&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120412528~120469145~120469153~121246026~121246034&sid=1792404012&sct=1&seg=0&dl=https%3A%2F%2Fwww.primes.com.au%2F&dt=Electrical%2C%20Data%20%26%20Building%20Services%20Melbourne%20%7C%20Prime&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=2155",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-J1CE12H1RX&gtm=45je6ae1v9256322006z89256315078za20gzb9256315078zd9256315078xf1&_p=1792404012045&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&are=1&cid=255455470.1792404012&frm=0&ngs=1&pscdl=noapi&rcb=16&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=2&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120412528~120469145~120469153~121246026~121246034&sid=1792404012&sct=1&seg=0&dl=https%3A%2F%2Fwww.primes.com.au%2F&dt=Electrical%2C%20Data%20%26%20Building%20Services%20Melbourne%20%7C%20Prime&en=contact_form_view&ep.form_id=gform_1&ep.form_name=contact&_et=5618&tfd=9486",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 7251,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 1208,
+      "typography": {
+        "families": [
+          [
+            "fontGroteskB",
+            63
+          ],
+          [
+            "fontGroteskC",
+            46
+          ],
+          [
+            "Space Mono",
+            22
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            69
+          ],
+          [
+            "500",
+            62
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            22
+          ]
+        ],
+        "sizeMin": 0,
+        "sizeMedian": 14.0102,
+        "sizeMax": 46.3987,
+        "sizeMaxVw": 11.9,
+        "scaleRatio": 3.3,
+        "letterSpacingMean": 0.028,
+        "loadedFonts": [
+          {
+            "family": "fontGroteskB",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "fontGroteskB",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "fontGroteskC",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "fontGroteskC",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "Space Mono",
+            "weight": "400",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 131
+      },
+      "color": {
+        "background": "rgb(217, 217, 217)",
+        "backgroundLuminance": 0.6938717612919899,
+        "backgrounds": [
+          [
+            "rgb(33, 33, 35)",
+            2524
+          ],
+          [
+            "rgb(217, 217, 217)",
+            2235
+          ],
+          [
+            "rgb(254, 14, 14)",
+            457
+          ],
+          [
+            "rgb(0, 0, 0)",
+            217
+          ],
+          [
+            "rgba(0, 0, 0, 0.3)",
+            148
+          ],
+          [
+            "rgb(255, 255, 255)",
+            88
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(55, 55, 57)",
+            350
+          ],
+          [
+            "rgb(255, 255, 255)",
+            310
+          ],
+          [
+            "rgb(33, 33, 35)",
+            104
+          ],
+          [
+            "rgb(180, 180, 180)",
+            16
+          ],
+          [
+            "rgb(248, 248, 248)",
+            4
+          ]
+        ],
+        "meanSaturation": 0.17,
+        "rootVars": {
+          "--color-background-dark": "#d5d5d5",
+          "--color-brand-primary": "gray",
+          "--color-brand-primary-subtle": "#ccc",
+          "--color-brand-primary-action": "#777",
+          "--color-brand-secondary": "#2e2e2e",
+          "--color-brand-secondary-subtle": "#cfcfcf",
+          "--color-secondary-hover": "#6f6f6f",
+          "--color-disabled": "#f0f1f4",
+          "--color-text-primary": "var(--color-black)",
+          "--color-text-secondary": "#4b4b4b",
+          "--color-text-tertiary": "#7b7b7b",
+          "--color-text-brand": "#242424",
+          "--color-text-disabled": "#b0b0b0",
+          "--color-text-placeholder": "#a6a6a6",
+          "--color-error-sublte": "#fff0e6",
+          "--input-padding-vertical": "16px",
+          "--input-padding-left": "var(--space-s)",
+          "--input-padding-right": "var(--space-s)",
+          "--sticky-nav-block-padding": "80px",
+          "--font-family-text": "\"Helvetica\", Helvetica",
+          "--font-family-mono": "var(--font-spaceMono), ui-monospace, \"SFMono-Regular\", \"Menlo\", \"Consolas\", monospace",
+          "--color-body": "var(--color-text-secondary)",
+          "--font-size-body": "var(--step-0)",
+          "--font-size-body-small": "1rem",
+          "--flow-space": "var(--space-l)",
+          "--column-gap": "var(--space-m)",
+          "--border-light": "1px solid var(--color-brand-primary-subtle)",
+          "--border": "var(--color-border) 1px solid",
+          "--content-max-width": "780px",
+          "--content-max-width-wide": "900px",
+          "--box-spacing": "clamp(1rem, 2.5vw + .25rem, 2.25rem)",
+          "--component-spacing": "var(--space-3xl-4xl)",
+          "--space-gutter": "var(--space-s-m)",
+          "--max-container-width": "calc(var(--content-max-width-full) + var(--space-gutter) * 2)",
+          "--divider-height": "var(--space-2xl)",
+          "--content-max-width-full": "none",
+          "--variable-radius": "14px",
+          "--space-section-large": "120px",
+          "--space-section-medium": "var(--space-2xl)",
+          "--space-section-small": "52px"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 4,
+        "sticky": 0,
+        "fixed": 6,
+        "grid": 7,
+        "flex": 339,
+        "absolute": 135,
+        "asymmetricGrids": 2,
+        "splitScreen": false,
+        "scrollHeight": 8706,
+        "pages": 10.3,
+        "spacing": [
+          [
+            21,
+            67
+          ],
+          [
+            4,
+            31
+          ],
+          [
+            10,
+            25
+          ],
+          [
+            14,
+            23
+          ],
+          [
+            6,
+            20
+          ],
+          [
+            9,
+            17
+          ],
+          [
+            7,
+            17
+          ],
+          [
+            28,
+            14
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 4,
+        "animationKinds": [
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 4,
+        "animationDurations": [
+          21587.5,
+          21587.5,
+          6650,
+          6650
+        ],
+        "easings": [
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            200,
+            80
+          ],
+          [
+            500,
+            71
+          ],
+          [
+            300,
+            39
+          ],
+          [
+            400,
+            18
+          ],
+          [
+            600,
+            6
+          ]
+        ],
+        "keyframes": [
+          "HeroMediaBoxReveal",
+          "NavigationMobileItemReveal",
+          "NavMegaMenuReveal",
+          "NavRegionSwitcherReveal",
+          "iso-marquee-scroll",
+          "logos-marquee-scroll",
+          "pulse",
+          "swiper-preloader-spin"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": true
+      },
+      "hiddenElements": 16,
+      "media": {
+        "canvases": [],
+        "videos": [
+          {
+            "autoplay": true,
+            "loop": false,
+            "muted": true,
+            "src": "blob:https://www.primes.com.au/7d8199c7-4a5b-4bb3-ba17-d2850dc46268"
+          },
+          {
+            "autoplay": false,
+            "loop": false,
+            "muted": false,
+            "src": ""
+          }
+        ],
+        "svg": 69,
+        "images": 8,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "2d": 1
+        },
+        "raf": 1171,
+        "io": 41,
+        "ro": 25,
+        "mo": 2,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": true,
+        "nuxt": false,
+        "reactRoot": true,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Electrical, Data & Building Services Melbourne | Prime",
+      "lang": "en-AU",
+      "description": "Prime delivers electrical, data, security, technology, hydraulics and maintenance services across Australia and New Zealand. Family owned since 1987."
+    },
+    "featuresBeforeScroll": {
+      "elements": 1017,
+      "canvases": 0,
+      "animations": 5,
+      "hidden": 6
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 21732064,
+        "layoutCount": 530,
+        "recalcStyleCount": 1214,
+        "scriptDuration": 1.095686,
+        "taskDuration": 5.388197,
+        "nodes": 8400
+      },
+      "timing": {
+        "domContentLoaded": 278,
+        "load": 768,
+        "first-paint": 328,
+        "first-contentful-paint": 328
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1400,
+        "delay": 1400,
+        "iterations": 1,
+        "easing": "linear(0 0%, 0 0.7194244604316546%, 0.0002 1.4388489208633093%, 0.0004 2.158273381294964%, 0.0007 2.8776978417266186%, 0.0011 3.597122302158273%, 0.0016 4.316546762589928%, 0.0022 5.0359712230215825%, 0.0029 5.755395683453237%, 0.0038 6.474820143884892%, 0.0046 7.194244604316546%, 0.0057 7.913669064748201%, 0.007 8.633093525179856%, 0.0083 9.35251798561151%, 0.0098 10.071942446043163%, 0.0113 10.791366906474817%, 0.0131 11.51079136690647%, 0.015 12.230215827338125%, 0.0173 12.949640287769778%, 0.0196 13.669064748201432%, 0.0219 14.388489208633088%, 0.0248 15.107913669064743%, 0.0277 15.827338129496399%, 0.0309 16.546762589928054%, 0.0343 17.266187050359708%, 0.0381 17.98561151079136%, 0.0422 18.705035971223015%, 0.0464 19.42446043165467%, 0.0511 20.143884892086323%, 0.0561 20.863309352517977%, 0.0616 21.58273381294963%, 0.0674 22.302158273381284%, 0.0741 23.021582733812938%, 0.0808 23.74100719424459%, 0.0885 24.460431654676245%, 0.0966 25.1798561151079%, 0.1058 25.899280575539553%, 0.1159 26.618705035971207%, 0.1264 27.33812949640286%, 0.1388 28.057553956834514%, 0.1522 28.776978417266168%, 0.1671 29.49640287769782%, 0.1843 30.215827338129476%, 0.2033 30.93525179856113%, 0.2254 31.654676258992783%, 0.2507 32.37410071942444%, 0.2802 33.093525179856094%, 0.3154 33.81294964028775%, 0.355 34.5323741007194%, 0.3992 35.251798561151055%, 0.4455 35.97122302158271%, 0.4894 36.69064748201436%, 0.5296 37.41007194244602%, 0.5647 38.12949640287767%, 0.5958 38.848920863309324%, 0.623 39.56834532374098%, 0.6471 40.28776978417263%, 0.6688 41.007194244604285%, 0.688 41.72661870503594%, 0.7057 42.44604316546759%, 0.7218 43.16546762589925%, 0.7369 43.8848920863309%, 0.7506 44.604316546762554%, 0.7633 45.32374100719421%, 0.7753 46.04316546762586%, 0.7864 46.762589928057515%, 0.7973 47.48201438848917%, 0.8069 48.20143884892082%, 0.8163 48.92086330935248%, 0.825 49.64028776978413%, 0.8335 50.359712230215784%, 0.8413 51.07913669064744%, 0.8484 51.79856115107909%, 0.8554 52.517985611510746%, 0.8623 53.2374100719424%, 0.869 53.95683453237405%, 0.8751 54.67625899280571%, 0.8806 55.39568345323736%, 0.8865 56.115107913669014%, 0.8918 56.83453237410067%, 0.897 57.55395683453232%, 0.9016 58.273381294963976%, 0.9061 58.99280575539563%, 0.911 59.71223021582728%, 0.915 60.43165467625894%, 0.9192 61.15107913669059%, 0.9234 61.870503597122244%, 0.9271 62.5899280575539%, 0.9307 63.30935251798555%, 0.9342 64.02877697841721%, 0.9376 64.74820143884887%, 0.9406 65.46762589928052%, 0.9439 66.18705035971217%, 0.9468 66.90647482014383%, 0.9496 67.62589928057548%, 0.9523 68.34532374100714%, 0.9549 69.06474820143879%, 0.9575 69.78417266187044%, 0.96 70.5035971223021%, 0.9622 71.22302158273375%, 0.9646 71.9424460431654%, 0.9666 72.66187050359706%, 0.9686 73.38129496402871%, 0.9705 74.10071942446037%, 0.9723 74.82014388489202%, 0.9741 75.53956834532367%, 0.9759 76.25899280575533%, 0.9776 76.97841726618698%, 0.9792 77.69784172661863%, 0.9806 78.41726618705029%, 0.9821 79.13669064748194%, 0.9834 79.8561151079136%, 0.9848 80.57553956834525%, 0.986 81.2949640287769%, 0.9871 82.01438848920856%, 0.9882 82.73381294964021%, 0.9892 83.45323741007186%, 0.9902 84.17266187050352%, 0.9911 84.89208633093517%, 0.992 85.61151079136683%, 0.9929 86.33093525179848%, 0.9937 87.05035971223013%, 0.9944 87.76978417266179%, 0.995 88.48920863309344%, 0.9957 89.2086330935251%, 0.9963 89.92805755395675%, 0.9968 90.6474820143884%, 0.9973 91.36690647482007%, 0.9978 92.08633093525174%, 0.9981 92.80575539568339%, 0.9985 93.52517985611505%, 0.9988 94.24460431654671%, 0.9991 94.96402877697838%, 0.9993 95.68345323741003%, 0.9995 96.40287769784169%, 0.9997 97.12230215827336%, 0.9999 97.84172661870502%, 0.9999 98.56115107913668%, 1 99.28057553956833%, 1 100%)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 900,
+        "delay": 500,
+        "iterations": 1,
+        "easing": "linear(0 0%, 0.0001 1.1235955056179776%, 0.0004 2.247191011235955%, 0.0009 3.370786516853933%, 0.0017 4.49438202247191%, 0.0027 5.617977528089888%, 0.0041 6.741573033707866%, 0.0057 7.865168539325843%, 0.0075 8.98876404494382%, 0.0098 10.112359550561798%, 0.0124 11.235955056179776%, 0.0154 12.359550561797754%, 0.019 13.483146067415731%, 0.0229 14.606741573033709%, 0.0274 15.730337078651687%, 0.0323 16.853932584269664%, 0.0381 17.97752808988764%, 0.0444 19.10112359550562%, 0.0515 20.224719101123597%, 0.0597 21.348314606741575%, 0.0689 22.471910112359552%, 0.0795 23.59550561797753%, 0.0916 24.719101123595507%, 0.1049 25.842696629213485%, 0.1209 26.966292134831463%, 0.1393 28.08988764044944%, 0.1609 29.213483146067418%, 0.1872 30.337078651685395%, 0.2191 31.460674157303373%, 0.2592 32.58426966292135%, 0.3099 33.70786516853933%, 0.3734 34.831460674157306%, 0.4441 35.95505617977528%, 0.5114 37.07865168539326%, 0.5676 38.20224719101124%, 0.6137 39.325842696629216%, 0.652 40.449438202247194%, 0.6839 41.57303370786517%, 0.7118 42.69662921348315%, 0.7356 43.82022471910113%, 0.757 44.943820224719104%, 0.7759 46.06741573033708%, 0.7931 47.19101123595506%, 0.8087 48.31460674157304%, 0.8227 49.438202247191015%, 0.8357 50.56179775280899%, 0.8473 51.68539325842697%, 0.8586 52.80898876404495%, 0.8685 53.932584269662925%, 0.8781 55.0561797752809%, 0.887 56.17977528089888%, 0.8951 57.30337078651686%, 0.9025 58.426966292134836%, 0.9097 59.55056179775281%, 0.9167 60.67415730337079%, 0.923 61.79775280898877%, 0.9287 62.921348314606746%, 0.9342 64.04494382022472%, 0.9395 65.16853932584269%, 0.9443 66.29213483146067%, 0.9489 67.41573033707866%, 0.9529 68.53932584269663%, 0.9572 69.6629213483146%, 0.961 70.78651685393258%, 0.9643 71.91011235955057%, 0.9677 73.03370786516854%, 0.9707 74.15730337078651%, 0.9736 75.28089887640449%, 0.9764 76.40449438202248%, 0.9788 77.52808988764045%, 0.981 78.65168539325842%, 0.9832 79.7752808988764%, 0.9852 80.89887640449439%, 0.9871 82.02247191011236%, 0.9889 83.14606741573033%, 0.9903 84.26966292134831%, 0.9919 85.3932584269663%, 0.9931 86.51685393258427%, 0.9943 87.64044943820224%, 0.9954 88.76404494382022%, 0.9962 89.88764044943821%, 0.9971 91.01123595505618%, 0.9978 92.13483146067415%, 0.9984 93.25842696629213%, 0.9989 94.38202247191012%, 0.9993 95.50561797752809%, 0.9996 96.62921348314606%, 0.9998 97.75280898876404%, 1 98.87640449438203%, 1 100%)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 0,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear(0 0%, 1 100%)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.14, 0.9, 0.34, 0.94)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "logos-marquee-scroll",
+        "duration": 21587.5,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "logos-marquee-scroll",
+        "duration": 21587.5,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      }
+    ],
+    "console": [],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://www.google.com/ccm/collect?rcb=16&frm=0&apvc=1&ae=g&auid=1292729324.1792404024&dt=Electrical%2C%20Data%20%26%20Building%20Services%20Melbourne%20%7C%20Prime&en=page_view&dl=https%3A%2F%2Fwww.primes.com.au%2F&scrsrc=www.googletagmanager.com&rnd=492326010.1792404024&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He6ae1v9256315078za200zd9256315078xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938465~115938469~118897920~118897930~120385422~120412527~120469145~120469153~121246026~121246034&tft=1792404023722&tfd=613&fmt=8",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://ad.doubleclick.net/ccm/s/collect?auid=1292729324.1792404024&gtm=45He6ae1v9256315078za200zd9256315078xeaxf1&fmt=8",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-J1CE12H1RX&gtm=45je6ae1v9256322006za20ozb9256315078zd9256315078xf1&_p=1792404023482&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1022999055.1792404024&frm=0&ngs=1&pscdl=noapi&rcb=14&sr=390x844&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=1&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=1&tag_exp=115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&sid=1792404023&sct=1&seg=0&dl=https%3A%2F%2Fwww.primes.com.au%2F&dt=Electrical%2C%20Data%20%26%20Building%20Services%20Melbourne%20%7C%20Prime&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=732",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  }
+}

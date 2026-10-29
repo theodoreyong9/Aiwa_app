@@ -1,0 +1,1593 @@
+{
+  "url": "http://jesperlandberg.com/",
+  "at": "2026-10-09T07:59:59.482Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 18066,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 124,
+      "typography": {
+        "families": [
+          [
+            "sans",
+            19
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            14
+          ],
+          [
+            "500",
+            5
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            5
+          ]
+        ],
+        "sizeMin": 9.6,
+        "sizeMedian": 13.44,
+        "sizeMax": 13.44,
+        "sizeMaxVw": 0.9,
+        "scaleRatio": 1,
+        "letterSpacingMean": 0,
+        "loadedFonts": [
+          {
+            "family": "sans",
+            "weight": "200 1000",
+            "style": "normal"
+          }
+        ],
+        "variableFont": true,
+        "textElements": 19
+      },
+      "color": {
+        "background": "rgb(0, 0, 0)",
+        "backgroundLuminance": 0,
+        "backgrounds": [],
+        "texts": [
+          [
+            "rgb(255, 255, 255)",
+            61
+          ],
+          [
+            "rgba(0, 0, 0, 0)",
+            1
+          ],
+          [
+            "rgb(0, 0, 0)",
+            1
+          ]
+        ],
+        "meanSaturation": 0,
+        "rootVars": {
+          "--size": "390"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 0,
+        "sticky": 0,
+        "fixed": 6,
+        "grid": 0,
+        "flex": 28,
+        "absolute": 18,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 900,
+        "pages": 1,
+        "spacing": [
+          [
+            29,
+            3
+          ],
+          [
+            19,
+            1
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            14,
+            1
+          ],
+          [
+            38,
+            1
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 0,
+        "animationKinds": [],
+        "infiniteAnimations": 0,
+        "animationDurations": [],
+        "easings": [],
+        "transitionDurationsMs": [
+          [
+            300,
+            2
+          ],
+          [
+            500,
+            2
+          ]
+        ],
+        "keyframes": [],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 16,
+      "media": {
+        "canvases": [
+          {
+            "w": 1440,
+            "h": 900,
+            "area": 1
+          }
+        ],
+        "videos": [],
+        "svg": 0,
+        "images": 0,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 1
+        },
+        "raf": 89,
+        "io": 1,
+        "ro": 0,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 4,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": true,
+        "reactRoot": false,
+        "vue": true,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Jesper Landberg",
+      "lang": "en",
+      "description": "Swedish design engineer building visually rich, motion-driven websites. Two-time Awwwards Independent of the Year (2022 & 2024)."
+    },
+    "featuresBeforeScroll": {
+      "elements": 124,
+      "canvases": 1,
+      "animations": 0,
+      "hidden": 6
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 6,
+      "changed": 0
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 14714652,
+        "layoutCount": 20,
+        "recalcStyleCount": 36,
+        "scriptDuration": 0.421841,
+        "taskDuration": 14.680441,
+        "nodes": 425
+      },
+      "timing": {
+        "domContentLoaded": 237,
+        "load": 237,
+        "first-paint": 128,
+        "first-contentful-paint": 128
+      }
+    },
+    "network": [
+      {
+        "url": "http://jesperlandberg.com/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 9744
+      },
+      {
+        "url": "http://jesperlandberg.com/_payload.json?_b=dae78082-791f-45e5-83d8-7af79c012859",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 9499
+      },
+      {
+        "url": "http://jesperlandberg.com/_nuxt/DZyj3ghP.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 348358
+      },
+      {
+        "url": "http://jesperlandberg.com/_nuxt/mriNB3Nt.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 3950
+      },
+      {
+        "url": "http://jesperlandberg.com/_nuxt/CSMsEA09.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 2863
+      },
+      {
+        "url": "http://jesperlandberg.com/_nuxt/D6Jn8M47.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1161
+      },
+      {
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 10438
+      },
+      {
+        "url": "http://jesperlandberg.com/_nuxt/Dhdylg00.js",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 14163
+      },
+      {
+        "url": "http://jesperlandberg.com/_nuxt/CHzWqGxK.js",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 2816
+      },
+      {
+        "url": "http://jesperlandberg.com/_nuxt/DJ70QaFT.js",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 25060
+      },
+      {
+        "url": "http://jesperlandberg.com/_nuxt/basis_transcoder.o4Hde_L7.js",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 15760
+      },
+      {
+        "url": "http://jesperlandberg.com/_nuxt/ABCDiatypePlusVariable.DURmIfav.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 115803
+      },
+      {
+        "url": "http://jesperlandberg.com/cdn-cgi/rum?",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 704
+      },
+      {
+        "url": "http://jesperlandberg.com/cdn-cgi/rum?",
+        "method": "POST",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 716
+      },
+      {
+        "url": "http://jesperlandberg.com/cdn-cgi/rum?",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 716
+      },
+      {
+        "url": "http://jesperlandberg.com/cdn-cgi/rum?",
+        "method": "POST",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 710
+      },
+      {
+        "url": "http://jesperlandberg.com/cdn-cgi/rum?",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 712
+      },
+      {
+        "url": "http://jesperlandberg.com/cdn-cgi/rum?",
+        "method": "POST",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 708
+      },
+      {
+        "url": "http://jesperlandberg.com/cdn-cgi/rum?",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 704
+      },
+      {
+        "url": "http://jesperlandberg.com/glyphs/sans-400.json",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 5336
+      },
+      {
+        "url": "http://jesperlandberg.com/glyphs/sans-400.bin",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 410266
+      },
+      {
+        "url": "http://jesperlandberg.com/glyphs/sans-500.json",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 5381
+      },
+      {
+        "url": "http://jesperlandberg.com/glyphs/sans-500.bin",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 410266
+      },
+      {
+        "url": "http://jesperlandberg.com/textures/manifest.json",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 1900
+      },
+      {
+        "url": "https://stream.mux.com/qmEPTzOaDQBZL5258j01i2mMBkGh3G9BI/high.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://stream.mux.com/DrMKk9cqmTOu4Y4dJzCjEn5ny37s02001I/high.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 2460046
+      },
+      {
+        "url": "https://stream.mux.com/01CbIdBLVCiUlQLMC8Ct3vq014VS02lwCaq/high.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 1996891
+      },
+      {
+        "url": "http://jesperlandberg.com/_nuxt/DJ70QaFT.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "http://jesperlandberg.com/textures/qmEPTzOaDQBZL5258j01i2mMBkGh3G9BI_thumbnail.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 225734
+      },
+      {
+        "url": "http://jesperlandberg.com/textures/DrMKk9cqmTOu4Y4dJzCjEn5ny37s02001I_thumbnail.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 174712
+      },
+      {
+        "url": "http://jesperlandberg.com/textures/01CbIdBLVCiUlQLMC8Ct3vq014VS02lwCaq_thumbnail.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 130064
+      },
+      {
+        "url": "http://jesperlandberg.com/textures/223669_1785656645-image-84.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 40158
+      },
+      {
+        "url": "http://jesperlandberg.com/textures/223669_1785656706-ny3.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 116329
+      },
+      {
+        "url": "http://jesperlandberg.com/textures/z3nRLshZzvZU01k8IMgQoQNNzICYrh77K_thumbnail.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 36149
+      },
+      {
+        "url": "http://jesperlandberg.com/textures/pDi8xyrUNS1S8A2ZHFs21rRtUjAMBh02E_thumbnail.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 64146
+      },
+      {
+        "url": "http://jesperlandberg.com/textures/223669_1786214209-ingrao-thumb.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 250077
+      },
+      {
+        "url": "http://jesperlandberg.com/_nuxt/rY37MP56.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 5309
+      },
+      {
+        "url": "http://jesperlandberg.com/basis/basis_transcoder.js",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 15769
+      },
+      {
+        "url": "http://jesperlandberg.com/basis/basis_transcoder.wasm",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/wasm",
+        "fromCache": false,
+        "bytes": 245059
+      },
+      {
+        "url": "http://jesperlandberg.com/_nuxt/DNYapgHJ.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 2505
+      },
+      {
+        "url": "http://jesperlandberg.com/_nuxt/builds/meta/dae78082-791f-45e5-83d8-7af79c012859.json",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 912
+      },
+      {
+        "url": "http://jesperlandberg.com/_payload.json?_b=dae78082-791f-45e5-83d8-7af79c012859",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "http://jesperlandberg.com/full/_payload.json?_b=dae78082-791f-45e5-83d8-7af79c012859",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 9027
+      },
+      {
+        "url": "http://jesperlandberg.com/projects/casa-di-solare/_payload.json?_b=dae78082-791f-45e5-83d8-7af79c012859",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 9499
+      },
+      {
+        "url": "blob:http://jesperlandberg.com/f301948a-5c94-4613-95fe-60ec8c67cf72",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "blob:http://jesperlandberg.com/f301948a-5c94-4613-95fe-60ec8c67cf72",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "blob:http://jesperlandberg.com/f301948a-5c94-4613-95fe-60ec8c67cf72",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "blob:http://jesperlandberg.com/f301948a-5c94-4613-95fe-60ec8c67cf72",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "http://jesperlandberg.com/projects/the-lookback/_payload.json?_b=dae78082-791f-45e5-83d8-7af79c012859",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 9501
+      },
+      {
+        "url": "http://jesperlandberg.com/projects/nathan-riley/_payload.json?_b=dae78082-791f-45e5-83d8-7af79c012859",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 9507
+      },
+      {
+        "url": "http://jesperlandberg.com/textures/223669_1785656901-image-63.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 123452
+      },
+      {
+        "url": "http://jesperlandberg.com/textures/223669_1786208283-betteroff-thumb.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 119289
+      },
+      {
+        "url": "http://jesperlandberg.com/textures/223669_1786207051-ts2.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 192531
+      },
+      {
+        "url": "http://jesperlandberg.com/textures/223669_1786207957-dogelon-2.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 232261
+      },
+      {
+        "url": "https://www.datocms-assets.com/223669/1786432901-dlc-thumbnail.jpg?auto=format&fit=max&w=1200",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 96886
+      },
+      {
+        "url": "https://image.mux.com/9AaOR02f5lWzxopxZCg54ZRXsxGe4SSE7/thumbnail.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 107227
+      },
+      {
+        "url": "http://jesperlandberg.com/textures/e79MwNWsJkhoNzhR02UVL3LRe1wexvcA9_thumbnail.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 181597
+      },
+      {
+        "url": "http://jesperlandberg.com/textures/223669_1786212214-chris-thumb.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 209766
+      },
+      {
+        "url": "http://jesperlandberg.com/textures/223669_1786212398-david-thumb.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 140570
+      },
+      {
+        "url": "http://jesperlandberg.com/textures/X3NsXaLph6rhK6M9kgi24PWL9vfH7SSf_thumbnail.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 92488
+      },
+      {
+        "url": "http://jesperlandberg.com/textures/223669_1786215014-5p-thumb.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 190343
+      },
+      {
+        "url": "http://jesperlandberg.com/textures/223669_1786215002-ep-thumb.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 126698
+      },
+      {
+        "url": "http://jesperlandberg.com/textures/223669_1786215135-op-thumb.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 301679
+      },
+      {
+        "url": "http://jesperlandberg.com/textures/223669_1786215349-mew-thumb.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 203930
+      },
+      {
+        "url": "http://jesperlandberg.com/textures/223669_1786215593-primland-thumb.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 400888
+      },
+      {
+        "url": "https://graphql.datocms.com/",
+        "method": "OPTIONS",
+        "type": "OTHER",
+        "initiator": "preflight",
+        "status": 204,
+        "mime": "",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://graphql.datocms.com/",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 8105
+      },
+      {
+        "url": "http://jesperlandberg.com/_nuxt/Dhdylg00.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "http://jesperlandberg.com/textures/223669_1786207557-nathan-2.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 162795
+      },
+      {
+        "url": "http://jesperlandberg.com/textures/223669_1786207557-nathan-1.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 203951
+      },
+      {
+        "url": "http://jesperlandberg.com/textures/223669_1786207557-nathan-3.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 168666
+      },
+      {
+        "url": "http://jesperlandberg.com/textures/R3vmn027401UtGEikdEo5clIi5MUU9aZs02_thumbnail.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 78139
+      },
+      {
+        "url": "https://stream.mux.com/e79MwNWsJkhoNzhR02UVL3LRe1wexvcA9/high.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://stream.mux.com/X3NsXaLph6rhK6M9kgi24PWL9vfH7SSf/high.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://stream.mux.com/9AaOR02f5lWzxopxZCg54ZRXsxGe4SSE7/high.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "http://jesperlandberg.com/models/award.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "model/gltf-binary",
+        "fromCache": false,
+        "bytes": 72436
+      },
+      {
+        "url": "http://jesperlandberg.com/textures/223669_1785656645-image-84.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 636
+      },
+      {
+        "url": "http://jesperlandberg.com/textures/223669_1785656706-ny3.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 638
+      },
+      {
+        "url": "http://jesperlandberg.com/textures/iyDjwB2orEKXdIKP5u02RfT68xRnllt7a_thumbnail.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 87985
+      },
+      {
+        "url": "http://jesperlandberg.com/textures/HofYkQ00DP02B202026iOjEsHVlOHoXqJB02y_thumbnail.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 65386
+      },
+      {
+        "url": "http://jesperlandberg.com/textures/223669_1785656629-image-39.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 158487
+      },
+      {
+        "url": "http://jesperlandberg.com/textures/223669_1785656633-tlb4.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 81275
+      },
+      {
+        "url": "http://jesperlandberg.com/textures/223669_1786214209-ingrao-thumb.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 644
+      },
+      {
+        "url": "http://jesperlandberg.com/textures/223669_1785656901-image-63.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 640
+      },
+      {
+        "url": "http://jesperlandberg.com/textures/223669_1786210260-book-2.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 101271
+      },
+      {
+        "url": "http://jesperlandberg.com/textures/223669_1786210260-book-3.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 159806
+      },
+      {
+        "url": "http://jesperlandberg.com/textures/223669_1786210260-book-1.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 165168
+      },
+      {
+        "url": "http://jesperlandberg.com/textures/223669_1786207957-dogelon-1.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 218777
+      },
+      {
+        "url": "http://jesperlandberg.com/textures/223669_1786208283-betteroff-thumb.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 642
+      },
+      {
+        "url": "http://jesperlandberg.com/textures/223669_1786207051-ts2.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 636
+      },
+      {
+        "url": "http://jesperlandberg.com/textures/223669_1786207957-dogelon-4.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 222558
+      },
+      {
+        "url": "http://jesperlandberg.com/textures/223669_1786207957-dogelon-3.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 206095
+      },
+      {
+        "url": "http://jesperlandberg.com/textures/g12oqAEfwFRDxmxiuH02yJsALmVkKqsKA_thumbnail.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 82909
+      },
+      {
+        "url": "http://jesperlandberg.com/textures/ONW93srqx6kGfiHTKQtV2pkqByQY01nF01_thumbnail.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 57564
+      },
+      {
+        "url": "http://jesperlandberg.com/textures/223669_1786212214-chris-thumb.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 652
+      },
+      {
+        "url": "http://jesperlandberg.com/textures/223669_1786212398-david-thumb.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 638
+      },
+      {
+        "url": "http://jesperlandberg.com/_nuxt/CHzWqGxK.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://image.mux.com/BV6q01JxClCQwHfNI2sVS76jGjg5isqkq/thumbnail.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 52623
+      },
+      {
+        "url": "https://image.mux.com/wt002Ew1EVcKEXR5K4PkB9G5l1OoW9jiV/thumbnail.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 75979
+      },
+      {
+        "url": "https://image.mux.com/Hb00nsAmF7R01kcTOmRr2tgpX3WjZkVYPN/thumbnail.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 91164
+      },
+      {
+        "url": "https://image.mux.com/F7soo79aHLgeYDtjug6X599kMSZoBja4/thumbnail.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 60801
+      },
+      {
+        "url": "http://jesperlandberg.com/textures/223669_1786215014-5p-thumb.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 640
+      },
+      {
+        "url": "http://jesperlandberg.com/textures/223669_1786215002-ep-thumb.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 646
+      },
+      {
+        "url": "http://jesperlandberg.com/models/llama.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "model/gltf-binary",
+        "fromCache": false,
+        "bytes": 143799
+      },
+      {
+        "url": "http://jesperlandberg.com/textures/223669_1786215135-op-thumb.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 638
+      },
+      {
+        "url": "http://jesperlandberg.com/textures/223669_1786215349-mew-thumb.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 636
+      },
+      {
+        "url": "blob:http://jesperlandberg.com/4309d7b3-c12d-4798-80f4-6ed3ae57114a",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "http://jesperlandberg.com/textures/223669_1786215593-primland-thumb.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 640
+      }
+    ],
+    "animationsReported": [],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0702000B4070000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x2a2400142600]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x2a2400142600]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x2a2400142600]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x2a2400142600]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://stream.mux.com/qmEPTzOaDQBZL5258j01i2mMBkGh3G9BI/high.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://stream.mux.com/9AaOR02f5lWzxopxZCg54ZRXsxGe4SSE7/high.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://stream.mux.com/e79MwNWsJkhoNzhR02UVL3LRe1wexvcA9/high.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://stream.mux.com/X3NsXaLph6rhK6M9kgi24PWL9vfH7SSf/high.mp4",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 4
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 5170,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 119,
+      "typography": {
+        "families": [
+          [
+            "sans",
+            19
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            14
+          ],
+          [
+            "500",
+            5
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            5
+          ]
+        ],
+        "sizeMin": 10,
+        "sizeMedian": 14,
+        "sizeMax": 14,
+        "sizeMaxVw": 3.6,
+        "scaleRatio": 1,
+        "letterSpacingMean": 0,
+        "loadedFonts": [
+          {
+            "family": "sans",
+            "weight": "200 1000",
+            "style": "normal"
+          }
+        ],
+        "variableFont": true,
+        "textElements": 19
+      },
+      "color": {
+        "background": "rgb(0, 0, 0)",
+        "backgroundLuminance": 0,
+        "backgrounds": [],
+        "texts": [
+          [
+            "rgb(255, 255, 255)",
+            56
+          ],
+          [
+            "rgba(0, 0, 0, 0)",
+            1
+          ],
+          [
+            "rgb(0, 0, 0)",
+            1
+          ]
+        ],
+        "meanSaturation": 0,
+        "rootVars": {
+          "--size": "390"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 0,
+        "sticky": 0,
+        "fixed": 5,
+        "grid": 0,
+        "flex": 26,
+        "absolute": 18,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 844,
+        "pages": 1,
+        "spacing": [
+          [
+            25,
+            4
+          ],
+          [
+            20,
+            1
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            15,
+            1
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 0,
+        "animationKinds": [],
+        "infiniteAnimations": 0,
+        "animationDurations": [],
+        "easings": [],
+        "transitionDurationsMs": [
+          [
+            300,
+            2
+          ],
+          [
+            500,
+            2
+          ]
+        ],
+        "keyframes": [],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 16,
+      "media": {
+        "canvases": [
+          {
+            "w": 780,
+            "h": 1688,
+            "area": 1
+          }
+        ],
+        "videos": [],
+        "svg": 0,
+        "images": 0,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 1
+        },
+        "raf": 87,
+        "io": 1,
+        "ro": 0,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 4,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": true,
+        "reactRoot": false,
+        "vue": true,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Jesper Landberg",
+      "lang": "en",
+      "description": "Swedish design engineer building visually rich, motion-driven websites. Two-time Awwwards Independent of the Year (2022 & 2024)."
+    },
+    "featuresBeforeScroll": {
+      "elements": 124,
+      "canvases": 1,
+      "animations": 0,
+      "hidden": 6
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 12950388,
+        "layoutCount": 21,
+        "recalcStyleCount": 35,
+        "scriptDuration": 0.154065,
+        "taskDuration": 4.517289,
+        "nodes": 360
+      },
+      "timing": {
+        "domContentLoaded": 239,
+        "load": 239,
+        "first-paint": 84,
+        "first-contentful-paint": 84
+      }
+    },
+    "animationsReported": [],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0702000B4070000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://stream.mux.com/qmEPTzOaDQBZL5258j01i2mMBkGh3G9BI/high.mp4",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 4
+    }
+  }
+}

@@ -1,0 +1,2189 @@
+{
+  "url": "https://www.lxlcreative.co.uk/",
+  "at": "2026-10-09T08:20:43.037Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 15949,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 1034,
+      "typography": {
+        "families": [
+          [
+            "Owners Wide",
+            30
+          ],
+          [
+            "Manrope",
+            27
+          ],
+          [
+            "Scribo",
+            9
+          ]
+        ],
+        "weights": [
+          [
+            "700",
+            30
+          ],
+          [
+            "600",
+            16
+          ],
+          [
+            "500",
+            11
+          ],
+          [
+            "400",
+            9
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            30
+          ]
+        ],
+        "sizeMin": 13,
+        "sizeMedian": 17.432,
+        "sizeMax": 101.704,
+        "sizeMaxVw": 7.1,
+        "scaleRatio": 5.8,
+        "letterSpacingMean": 0,
+        "loadedFonts": [
+          {
+            "family": "Owners Wide",
+            "weight": "700",
+            "style": "normal"
+          },
+          {
+            "family": "Scribo",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope",
+            "weight": "600",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope",
+            "weight": "500",
+            "style": "normal"
+          }
+        ],
+        "variableFont": true,
+        "textElements": 66
+      },
+      "color": {
+        "background": "rgb(252, 242, 189)",
+        "backgroundLuminance": 0.878738314013611,
+        "backgrounds": [
+          [
+            "rgb(252, 242, 189)",
+            9513
+          ],
+          [
+            "rgb(39, 32, 29)",
+            1426
+          ],
+          [
+            "rgb(0, 0, 0)",
+            1296
+          ],
+          [
+            "rgb(5, 93, 255)",
+            398
+          ],
+          [
+            "rgb(255, 255, 255)",
+            100
+          ],
+          [
+            "rgb(255, 81, 33)",
+            27
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(39, 32, 29)",
+            298
+          ],
+          [
+            "rgb(255, 81, 33)",
+            116
+          ],
+          [
+            "rgb(255, 255, 255)",
+            92
+          ],
+          [
+            "rgb(252, 242, 189)",
+            36
+          ],
+          [
+            "color(srgb 0.152941 0.12549 0.113725 / 0.7)",
+            16
+          ]
+        ],
+        "meanSaturation": 0.39,
+        "rootVars": {
+          "--_theme---background": "var(--swatch--dark)",
+          "--_text-style---font-family": "var(--_typography---font--primary-family)",
+          "--_theme---text": "var(--swatch--light)",
+          "--_text-style---font-size": "var(--_typography---font-size--text-main)",
+          "--_text-style---line-height": "var(--_typography---line-height--huge)",
+          "--_text-style---font-weight": "var(--_typography---font--medium)",
+          "--_text-style---letter-spacing": "var(--_typography---letter-spacing--normal)",
+          "--_text-style---text-wrap": "pretty",
+          "--_gap---size": "var(--site--gutter)",
+          "--_column-count---value": "1",
+          "--_theme---background-skeleton": "var(--_theme---card)",
+          "--_spacing---space--2-5rem": "clamp(2.25*1rem,((2.25 - ((2.608 - 2.25)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((2.608 - 2.25)/(var(--site--viewport-max) - var(--site--viewport-min)))*100vw),2.608*1rem)",
+          "--_spacing---space--1-5rem": "clamp(1.25*1rem,((1.25 - ((1.608 - 1.25)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((1.608 - 1.25)/(var(--site--viewport-max) - var(--site--viewport-min)))*100vw),1.608*1rem)",
+          "--border-width--main": ".0625rem",
+          "--_text-style---margin-bottom": "var(--_spacing---space--2rem)",
+          "--_spacing---space--2rem": "clamp(1.75*1rem,((1.75 - ((2.108 - 1.75)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((2.108 - 1.75)/(var(--site--viewport-max) - var(--site--viewport-min)))*100vw),2.108*1rem)",
+          "--_spacing---space--1rem": "clamp(1*1rem,((1 - ((1 - 1)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((1 - 1)/(var(--site--viewport-max) - var(--site--viewport-min)))*100vw),1*1rem)",
+          "--_spacing---section-space--main": "clamp(6*1rem,((6 - ((14.571 - 6)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((14.571 - 6)/(var(--site--viewport-max) - var(--site--viewport-min)))*100vw),14.571*1rem)",
+          "--_spacing---section-space--none": "0px",
+          "--_spacing---section-space--small": "clamp(3*1rem,((3 - ((7.287 - 3)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((7.287 - 3)/(var(--site--viewport-max) - var(--site--viewport-min)))*100vw),7.287*1rem)",
+          "--_spacing---section-space--large": "clamp(7.5*1rem,((7.5 - ((18.213 - 7.5)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((18.213 - 7.5)/(var(--site--viewport-max) - var(--site--viewport-min)))*100vw),18.213*1rem)",
+          "--site--margin": "clamp(1.25*1rem,((1.25 - ((3.037 - 1.25)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((3.037 - 1.25)/(var(--site--viewport-max) - var(--site--viewport-min)))*100vw),3.037*1rem)",
+          "--_spacing---section-space--page-top": "clamp(8*1rem,((8 - ((20.142 - 8)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((20.142 - 8)/(var(--site--viewport-max) - var(--site--viewport-min)))*100vw),20.142*1rem)",
+          "--max-width--main": "calc(var(--site--viewport-max)*1rem)",
+          "--_spacing---space--5rem": "clamp(4*1rem,((4 - ((5.429 - 4)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((5.429 - 4)/(var(--site--viewport-max) - var(--site--viewport-min)))*100vw),5.429*1rem)",
+          "--max-width--small": "50rem",
+          "--max-width--full": "100%",
+          "--_text-style---margin-top": "var(--_spacing---space--2rem)",
+          "--_spacing---space--3rem": "clamp(2.5*1rem,((2.5 - ((3.213 - 2.5)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((3.213 - 2.5)/(var(--site--viewport-max) - var(--site--viewport-min)))*100vw),3.213*1rem)",
+          "--_text-style---trim-top": "var(--_typography---font--primary-trim-top)",
+          "--_text-style---trim-bottom": "var(--_typography---font--primary-trim-bottom)",
+          "--_spacing---space--4rem": "clamp(3*1rem,((3 - ((4.429 - 3)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((4.429 - 3)/(var(--site--viewport-max) - var(--site--viewport-min)))*100vw),4.429*1rem)",
+          "--_typography---line-height--small": ".9",
+          "--_typography---line-height--medium": "1",
+          "--_typography---line-height--large": "1.2",
+          "--_typography---line-height--huge": "1.4",
+          "--_typography---letter-spacing--tight": "-.03em",
+          "--_typography---letter-spacing--normal": "0em",
+          "--_typography---font--tertiary-family": "Scribo,Georgia,sans-serif",
+          "--_theme---heading-accent": "var(--swatch--brand)"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 3,
+        "sticky": 3,
+        "fixed": 7,
+        "grid": 5,
+        "flex": 177,
+        "absolute": 236,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 15323,
+        "pages": 17,
+        "spacing": [
+          [
+            16,
+            54
+          ],
+          [
+            10,
+            27
+          ],
+          [
+            8,
+            20
+          ],
+          [
+            31,
+            19
+          ],
+          [
+            23,
+            16
+          ],
+          [
+            75,
+            13
+          ],
+          [
+            12,
+            11
+          ],
+          [
+            18,
+            8
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 10,
+        "animationKinds": [
+          "CSSTransition"
+        ],
+        "infiniteAnimations": 0,
+        "animationDurations": [
+          150,
+          150,
+          150,
+          150,
+          500,
+          500,
+          1000,
+          500,
+          200,
+          200
+        ],
+        "easings": [
+          "cubic-bezier(0.65, 0, 0, 1)",
+          "cubic-bezier(0.35, 1.75, 0.6, 1)",
+          "cubic-bezier(0.87, 0, 0.13, 1)",
+          "ease"
+        ],
+        "transitionDurationsMs": [
+          [
+            500,
+            23
+          ],
+          [
+            150,
+            14
+          ],
+          [
+            200,
+            13
+          ],
+          [
+            300,
+            12
+          ],
+          [
+            250,
+            6
+          ]
+        ],
+        "keyframes": [
+          "spin"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 47,
+      "media": {
+        "canvases": [],
+        "videos": [
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "blob:https://www.lxlcreative.co.uk/c638d59f-b276-49f8-89fb-b35be4a276a0"
+          },
+          {
+            "autoplay": false,
+            "loop": false,
+            "muted": false,
+            "src": ""
+          }
+        ],
+        "svg": 54,
+        "images": 39,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {},
+        "raf": 1111,
+        "io": 10,
+        "ro": 9,
+        "mo": 1,
+        "startViewTransition": 0,
+        "workers": 4,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": true,
+        "ScrollTrigger": true,
+        "THREE": false,
+        "Lenis": true,
+        "PIXI": false,
+        "anime": false,
+        "barba": true,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": true,
+        "jQuery": true,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": true,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": true,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "LxL Creative",
+      "lang": "en",
+      "description": "360° creative agency for TV & entertainment. Key art, social campaigns, EPKs & unit photography. One team, from day one."
+    },
+    "featuresBeforeScroll": {
+      "elements": 976,
+      "canvases": 0,
+      "animations": 0,
+      "hidden": 38
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 6,
+      "changed": 0
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 5059440,
+        "layoutCount": 1786,
+        "recalcStyleCount": 2208,
+        "scriptDuration": 0.402512,
+        "taskDuration": 5.875426,
+        "nodes": 10713
+      },
+      "timing": {
+        "domContentLoaded": 1074,
+        "load": 1110,
+        "first-paint": 100,
+        "first-contentful-paint": 632
+      }
+    },
+    "network": [
+      {
+        "url": "https://www.lxlcreative.co.uk/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 45335
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69e88d0efafb70caf79fbd65/css/lxl-creative.webflow.shared.9e09a2504.min.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 28471
+      },
+      {
+        "url": "https://cdn.odyn.dev/auto/shdd/bundle.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 30241
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/attributes.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1867
+      },
+      {
+        "url": "https://cdn.odyn.dev/staging/shdd/bundle.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 26741
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69e88d0efafb70caf79fbd65/69ef20d549f6b095ebd1d246_home-hero-06.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 48399
+      },
+      {
+        "url": "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=69e88d0efafb70caf79fbd65",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 31124
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69e88d0efafb70caf79fbd65/js/webflow.schunk.7321a5097fb66f41.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 13488
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69e88d0efafb70caf79fbd65/js/webflow.751e0867.148dc658e77a3916.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 844
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/@barba/core@2.10.3/dist/barba.umd.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 10806
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/lenis@1.3.17/dist/lenis.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 5377
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15/dist/gsap.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 29700
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15/dist/ScrollTrigger.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 18726
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15/dist/CustomEase.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4223
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15/dist/DrawSVGPlugin.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2583
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15/dist/InertiaPlugin.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3656
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15/dist/Draggable.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 14160
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15/dist/Observer.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4729
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15/dist/Flip.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 10318
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15/dist/SplitText.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4056
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15/dist/ScrollToPlugin.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2340
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/lumosframework/scripts@v1.1.1/theme-collector.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1835
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/chunk-J3PPETVR.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 482
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/chunk-ADKL4AJZ.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 936
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/chunk-VDEO3AAR.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1152
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/chunk-WIALCYDY.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 484
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/chunk-OF4NI3Y7.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 252
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/chunk-N2ZCN6XY.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 705
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/chunk-L4B2V5MO.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 433
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/chunk-CB6LZ537.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 349
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/chunk-XRTLPMPO.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 376
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/chunk-ZI7TAH2K.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 947
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/chunk-GGDEANQW.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 302
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/chunk-K46K3RI5.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 713
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/src-T7SM3ONB.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 33727
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/chunk-WL5KIXHF.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 608
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/chunk-T2PNG2TC.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 700
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/chunk-7CAOOJVW.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 585
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/chunk-WO4GQJHX.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 480
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/chunk-ZZRTGM4V.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1280
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/chunk-UAA7M346.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1005
+      },
+      {
+        "url": "blob:https://www.lxlcreative.co.uk/c8df47d1-bb82-48e7-b758-aed45ddba69a",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "blob:https://www.lxlcreative.co.uk/bc1c1d25-b026-4130-bed9-41bb3cbe9e47",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "blob:https://www.lxlcreative.co.uk/8210c8f2-e6a6-42bd-9fbb-e79885e59547",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "blob:https://www.lxlcreative.co.uk/56dbcdf0-ea8a-4f12-8352-4d614999faf6",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69e88d0efafb70caf79fbd65/69e88fdb179cd440edfa895f_OwnersWide-Bold.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 41415
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69e88d0efafb70caf79fbd65/69e8901cc8478b5629cf8cbd_ScriboRoughPro-Regular.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 373541
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69e88d0efafb70caf79fbd65/69e890bf9ce0bb572c0c198f_Manrope-SemiBold.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 31434
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69e88d0efafb70caf79fbd65/69e890bf554d77b610d317f7_Manrope-Medium.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 31111
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69ef155883341bfdcff936e5/6a204951359d2c9b997467c1_Steal%20Unit%201.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 50442
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69ef155883341bfdcff936e5/6a59020da27eb0d42cb60abc_SAS-Cover.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 143304
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69ef155883341bfdcff936e5/69f0c422e0e637819cc4f15f_project-thumb_malice.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 44880
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69e88d0efafb70caf79fbd65/6a325b58e20ccff14d15bceb_studios-ndropdown-img.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 12548
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69e88d0efafb70caf79fbd65/6a2057c543589d319e1a7cb1_BAKEOFF%20(1).avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 194862
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69e88d0efafb70caf79fbd65/6a1ee7726be24b42369e2158_The%20Death%20Of%20Bunny%20Munro%20-%20AfterParty.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 83775
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69e88d0efafb70caf79fbd65/69ef20d511f480f736651b29_home-hero-01.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 131242
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69e88d0efafb70caf79fbd65/6a1ee77288e9ccacfafe39a2_Mary_And_George.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 106310
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69e88d0efafb70caf79fbd65/6a26e853cf322d88ed7a54ef_rivals-hero.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 194539
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69e88d0efafb70caf79fbd65/6a20614be7191d93e8cfd0cf_Screenshot%202026-06-03%20at%2017.40.47.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 183946
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69e88d0efafb70caf79fbd65/css/lxl-creative.webflow.shared.9e09a2504.min.css",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.lxlcreative.co.uk/work/steal",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 35137
+      },
+      {
+        "url": "https://www.lxlcreative.co.uk/work/sas-rogue-heroes",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 33637
+      },
+      {
+        "url": "https://www.lxlcreative.co.uk/work/malice",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 34271
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69e88d0efafb70caf79fbd65/css/lxl-creative.webflow.shared.9e09a2504.min.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://vz-c0fa1f6d-a21.b-cdn.net/dadb6b65-15da-4d76-b48d-adb2b9879d62/playlist.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": false,
+        "bytes": 841
+      },
+      {
+        "url": "https://vz-c0fa1f6d-a21.b-cdn.net/dadb6b65-15da-4d76-b48d-adb2b9879d62/720p/video.m3u8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": false,
+        "bytes": 869
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/hls.js@1.6.11/dist/hls.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 161446
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69ef155883341bfdcff936e5/6a5764b3c027b012780c2100_Avtivation%20Services.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 57213
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69ef155883341bfdcff936e5/6a57af08196a3878cdd70712_Iris-Editorial.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 180378
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69ef155883341bfdcff936e5/6a1eed2e08f8036cd1c356cd_EPK_Service.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 32075
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69ef155883341bfdcff936e5/6a6a09254cbeb24ecd30ac2b_Bunny%20Serivce.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 194008
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69ef155883341bfdcff936e5/6a60bf2e2fbd3436f1a74ca1_Harriet%20%26%20Damien.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 187887
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69ef155883341bfdcff936e5/6a57aa4fe8925e97677574b5_Key%20Art%20Service.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 121070
+      },
+      {
+        "url": "https://vz-c0fa1f6d-a21.b-cdn.net/8904ac88-d0e9-4a69-9c1c-78da3e430f3a/playlist.m3u8",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": false,
+        "bytes": 853
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69e88d0efafb70caf79fbd65/6a6a080bf4ebee09cf462f56_Group%20Shot%20Edited%20(1).avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 200073
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69ef155883341bfdcff936e5/6a2047a19ccc71274336f6e4_Steal%20Header.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 138870
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69ef155883341bfdcff936e5/6a20561dd09e5d091161fb3b_SAS%20Hero.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 101537
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69ef155883341bfdcff936e5/6a3a8e5ef5c2039f0e605e28_Malice%20Header.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 171420
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69ef155883341bfdcff936e5/69f0c35b1c1bd2bf6aaf7283_project-hero_bake-off.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 194141
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69ef155883341bfdcff936e5/6a203f7096c790b9a7f24491_Thumbnail%20Bake%20Off.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 29905
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69e88d0efafb70caf79fbd65/6a2050ec64a1b62a8f34ed1f_Home%20Page%20Why%20LxL.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 118770
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69ef155883341bfdcff936e5/6a59041232097dfa30420bf1_K.N-Testimonial.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 6866
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69ef155883341bfdcff936e5/6a5904086f3a90d9e643de48_T.D-Testimonials.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 5386
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69ef155883341bfdcff936e5/6a5903fb91e1c11f48fc0ab9_M.G%20Testimonials.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 9400
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69ef155883341bfdcff936e5/6a59034e960d14c572456633_M.W-Testimonial.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 9637
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69e88d0efafb70caf79fbd65/69ef20d5df869df8c6e0337c_home-hero-04.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 193675
+      },
+      {
+        "url": "https://www.lxlcreative.co.uk/",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 628
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 0,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 0,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.35, 1.75, 0.6, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.65, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.65, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.87, 0, 0.13, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.35, 1.75, 0.6, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.65, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.65, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.35, 1.75, 0.6, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.35, 1.75, 0.6, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.65, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.65, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.87, 0, 0.13, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.35, 1.75, 0.6, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.65, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.65, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.35, 1.75, 0.6, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.35, 1.75, 0.6, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.65, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.65, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.87, 0, 0.13, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.35, 1.75, 0.6, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.65, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.65, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.35, 1.75, 0.6, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.35, 1.75, 0.6, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.65, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.65, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.87, 0, 0.13, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.35, 1.75, 0.6, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.65, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.65, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.35, 1.75, 0.6, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.65, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.65, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.65, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.65, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.65, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.65, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.35, 1.75, 0.6, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.87, 0, 0.13, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.65, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.35, 1.75, 0.6, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.65, 0, 0, 1)"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "The resource https://cdn.prod.website-files.com/69e88d0efafb70caf79fbd65/css/lxl-creative.webflow.shared.9e09a2504.min.css was preloaded using link preload but not used within a few seconds from the w"
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://cdn.prod.website-files.com/69e88d0efafb70caf79fbd65/css/lxl-creative.webflow.shared.9e09a2504.min.css was preloaded using link preload but not used within a few seconds from the w"
+      }
+    ],
+    "exceptions": [],
+    "failed": [],
+    "targets": {
+      "frames": 1,
+      "workers": 4
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 7326,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 976,
+      "typography": {
+        "families": [
+          [
+            "Owners Wide",
+            28
+          ],
+          [
+            "Manrope",
+            25
+          ],
+          [
+            "Scribo",
+            9
+          ]
+        ],
+        "weights": [
+          [
+            "700",
+            28
+          ],
+          [
+            "500",
+            14
+          ],
+          [
+            "600",
+            11
+          ],
+          [
+            "400",
+            9
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            28
+          ]
+        ],
+        "sizeMin": 13,
+        "sizeMedian": 16.0895,
+        "sizeMax": 64,
+        "sizeMaxVw": 16.4,
+        "scaleRatio": 4,
+        "letterSpacingMean": 0,
+        "loadedFonts": [
+          {
+            "family": "Owners Wide",
+            "weight": "700",
+            "style": "normal"
+          },
+          {
+            "family": "Scribo",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope",
+            "weight": "600",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope",
+            "weight": "500",
+            "style": "normal"
+          }
+        ],
+        "variableFont": true,
+        "textElements": 62
+      },
+      "color": {
+        "background": "rgb(39, 32, 29)",
+        "backgroundLuminance": 0.015530669905139013,
+        "backgrounds": [
+          [
+            "rgb(39, 32, 29)",
+            2523
+          ],
+          [
+            "rgb(0, 0, 0)",
+            329
+          ],
+          [
+            "rgb(5, 93, 255)",
+            140
+          ],
+          [
+            "rgb(255, 255, 255)",
+            104
+          ],
+          [
+            "rgb(255, 81, 33)",
+            20
+          ],
+          [
+            "rgb(252, 242, 189)",
+            7
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(252, 242, 189)",
+            274
+          ],
+          [
+            "rgb(255, 81, 33)",
+            115
+          ],
+          [
+            "rgb(255, 255, 255)",
+            85
+          ],
+          [
+            "rgb(39, 32, 29)",
+            45
+          ],
+          [
+            "color(srgb 0.988235 0.94902 0.741176 / 0.7)",
+            23
+          ]
+        ],
+        "meanSaturation": 0.39,
+        "rootVars": {
+          "--_theme---background": "var(--swatch--dark)",
+          "--_text-style---font-family": "var(--_typography---font--primary-family)",
+          "--_theme---text": "var(--swatch--light)",
+          "--_text-style---font-size": "var(--_typography---font-size--text-main)",
+          "--_text-style---line-height": "var(--_typography---line-height--huge)",
+          "--_text-style---font-weight": "var(--_typography---font--medium)",
+          "--_text-style---letter-spacing": "var(--_typography---letter-spacing--normal)",
+          "--_text-style---text-wrap": "pretty",
+          "--_gap---size": "var(--site--gutter)",
+          "--_column-count---value": "1",
+          "--_theme---background-skeleton": "var(--_theme---card)",
+          "--_spacing---space--2-5rem": "clamp(2.25*1rem,((2.25 - ((2.608 - 2.25)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((2.608 - 2.25)/(var(--site--viewport-max) - var(--site--viewport-min)))*100vw),2.608*1rem)",
+          "--_spacing---space--1-5rem": "clamp(1.25*1rem,((1.25 - ((1.608 - 1.25)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((1.608 - 1.25)/(var(--site--viewport-max) - var(--site--viewport-min)))*100vw),1.608*1rem)",
+          "--border-width--main": ".0625rem",
+          "--_text-style---margin-bottom": "var(--_spacing---space--2rem)",
+          "--_spacing---space--2rem": "clamp(1.75*1rem,((1.75 - ((2.108 - 1.75)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((2.108 - 1.75)/(var(--site--viewport-max) - var(--site--viewport-min)))*100vw),2.108*1rem)",
+          "--_spacing---space--1rem": "clamp(1*1rem,((1 - ((1 - 1)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((1 - 1)/(var(--site--viewport-max) - var(--site--viewport-min)))*100vw),1*1rem)",
+          "--_spacing---section-space--main": "clamp(6*1rem,((6 - ((14.571 - 6)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((14.571 - 6)/(var(--site--viewport-max) - var(--site--viewport-min)))*100vw),14.571*1rem)",
+          "--_spacing---section-space--none": "0px",
+          "--_spacing---section-space--small": "clamp(3*1rem,((3 - ((7.287 - 3)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((7.287 - 3)/(var(--site--viewport-max) - var(--site--viewport-min)))*100vw),7.287*1rem)",
+          "--_spacing---section-space--large": "clamp(7.5*1rem,((7.5 - ((18.213 - 7.5)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((18.213 - 7.5)/(var(--site--viewport-max) - var(--site--viewport-min)))*100vw),18.213*1rem)",
+          "--site--margin": "clamp(1.25*1rem,((1.25 - ((3.037 - 1.25)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((3.037 - 1.25)/(var(--site--viewport-max) - var(--site--viewport-min)))*100vw),3.037*1rem)",
+          "--_spacing---section-space--page-top": "clamp(8*1rem,((8 - ((20.142 - 8)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((20.142 - 8)/(var(--site--viewport-max) - var(--site--viewport-min)))*100vw),20.142*1rem)",
+          "--max-width--main": "calc(var(--site--viewport-max)*1rem)",
+          "--_spacing---space--5rem": "clamp(4*1rem,((4 - ((5.429 - 4)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((5.429 - 4)/(var(--site--viewport-max) - var(--site--viewport-min)))*100vw),5.429*1rem)",
+          "--max-width--small": "50rem",
+          "--max-width--full": "100%",
+          "--_text-style---margin-top": "var(--_spacing---space--2rem)",
+          "--_spacing---space--3rem": "clamp(2.5*1rem,((2.5 - ((3.213 - 2.5)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((3.213 - 2.5)/(var(--site--viewport-max) - var(--site--viewport-min)))*100vw),3.213*1rem)",
+          "--_text-style---trim-top": "var(--_typography---font--primary-trim-top)",
+          "--_text-style---trim-bottom": "var(--_typography---font--primary-trim-bottom)",
+          "--_spacing---space--4rem": "clamp(3*1rem,((3 - ((4.429 - 3)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((4.429 - 3)/(var(--site--viewport-max) - var(--site--viewport-min)))*100vw),4.429*1rem)",
+          "--_typography---line-height--small": ".9",
+          "--_typography---line-height--medium": "1",
+          "--_typography---line-height--large": "1.2",
+          "--_typography---line-height--huge": "1.4",
+          "--_typography---letter-spacing--tight": "-.03em",
+          "--_typography---letter-spacing--normal": "0em",
+          "--_typography---font--tertiary-family": "Scribo,Georgia,sans-serif",
+          "--_theme---heading-accent": "var(--swatch--brand)"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 3,
+        "sticky": 3,
+        "fixed": 7,
+        "grid": 2,
+        "flex": 183,
+        "absolute": 231,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 13297,
+        "pages": 15.8,
+        "spacing": [
+          [
+            16,
+            63
+          ],
+          [
+            10,
+            27
+          ],
+          [
+            8,
+            24
+          ],
+          [
+            28,
+            19
+          ],
+          [
+            20,
+            15
+          ],
+          [
+            65,
+            14
+          ],
+          [
+            100,
+            10
+          ],
+          [
+            12,
+            9
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 0,
+        "animationKinds": [],
+        "infiniteAnimations": 0,
+        "animationDurations": [],
+        "easings": [],
+        "transitionDurationsMs": [
+          [
+            500,
+            23
+          ],
+          [
+            150,
+            14
+          ],
+          [
+            200,
+            13
+          ],
+          [
+            300,
+            12
+          ],
+          [
+            250,
+            6
+          ]
+        ],
+        "keyframes": [
+          "spin"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 26,
+      "media": {
+        "canvases": [],
+        "videos": [
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "blob:https://www.lxlcreative.co.uk/852946a1-73cf-47c7-a1e1-b3a4ae77ac63"
+          },
+          {
+            "autoplay": false,
+            "loop": false,
+            "muted": false,
+            "src": ""
+          }
+        ],
+        "svg": 50,
+        "images": 39,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {},
+        "raf": 1254,
+        "io": 10,
+        "ro": 1,
+        "mo": 1,
+        "startViewTransition": 0,
+        "workers": 4,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": true,
+        "ScrollTrigger": true,
+        "THREE": false,
+        "Lenis": true,
+        "PIXI": false,
+        "anime": false,
+        "barba": true,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": true,
+        "jQuery": true,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": true,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": true,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "LxL Creative",
+      "lang": "en",
+      "description": "360° creative agency for TV & entertainment. Key art, social campaigns, EPKs & unit photography. One team, from day one."
+    },
+    "featuresBeforeScroll": {
+      "elements": 976,
+      "canvases": 0,
+      "animations": 0,
+      "hidden": 27
+    },
+    "scrollReveal": 1,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 4386668,
+        "layoutCount": 482,
+        "recalcStyleCount": 768,
+        "scriptDuration": 0.213726,
+        "taskDuration": 1.544733,
+        "nodes": 8977
+      },
+      "timing": {
+        "domContentLoaded": 523,
+        "load": 524,
+        "first-paint": 108,
+        "first-contentful-paint": 460
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 0,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 0,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "The resource https://cdn.prod.website-files.com/69e88d0efafb70caf79fbd65/css/lxl-creative.webflow.shared.9e09a2504.min.css was preloaded using link preload but not used within a few seconds from the w"
+      }
+    ],
+    "exceptions": [],
+    "failed": [],
+    "targets": {
+      "frames": 1,
+      "workers": 4
+    }
+  }
+}

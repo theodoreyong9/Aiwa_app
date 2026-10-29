@@ -1,0 +1,2458 @@
+{
+  "url": "https://www.wonder-vision.com/",
+  "at": "2026-10-10T09:04:29.711Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 19807,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 682,
+      "typography": {
+        "families": [
+          [
+            "FKGrotesk",
+            66
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            57
+          ],
+          [
+            "700",
+            4
+          ],
+          [
+            "300",
+            4
+          ],
+          [
+            "500",
+            1
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            26
+          ]
+        ],
+        "sizeMin": 11,
+        "sizeMedian": 24,
+        "sizeMax": 178,
+        "sizeMaxVw": 12.4,
+        "scaleRatio": 7.4,
+        "letterSpacingMean": 0.02,
+        "loadedFonts": [
+          {
+            "family": "FKGrotesk",
+            "weight": "200",
+            "style": "normal"
+          },
+          {
+            "family": "FKGrotesk",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "FKGrotesk",
+            "weight": "700",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 66
+      },
+      "color": {
+        "background": "rgb(255, 255, 255)",
+        "backgroundLuminance": 1,
+        "backgrounds": [
+          [
+            "rgb(255, 255, 255)",
+            12218
+          ],
+          [
+            "rgb(0, 0, 0)",
+            1944
+          ],
+          [
+            "rgba(0, 0, 0, 0.6)",
+            58
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(0, 0, 0)",
+            268
+          ],
+          [
+            "rgb(255, 255, 255)",
+            138
+          ],
+          [
+            "rgba(255, 255, 255, 0.9)",
+            20
+          ],
+          [
+            "rgb(74, 85, 101)",
+            11
+          ],
+          [
+            "rgba(255, 255, 255, 0.7)",
+            10
+          ]
+        ],
+        "meanSaturation": 0,
+        "rootVars": {
+          "--sb-color-gray-600": "#4a5565",
+          "--sb-color-gray-700": "#364153",
+          "--sb-color-wp-light-blue-600": "#007ca8",
+          "--sb-duration-75": "75ms",
+          "--sb-duration-100": "100ms",
+          "--sb-duration-150": "150ms",
+          "--sb-duration-200": "200ms",
+          "--sb-duration-300": "300ms",
+          "--sb-duration-500": "500ms",
+          "--sb-duration-700": "700ms",
+          "--sb-duration-1000": "1000ms",
+          "--sb-opacity-disabled": "0.5",
+          "--sb-fg-muted": "var(--sb-color-gray-700)",
+          "--sb-fg-subtle": "var(--sb-color-gray-600)",
+          "--sb-focus-ring": "var(--sb-color-wp-light-blue-600)",
+          "--sb-text-secondary": "var(--sb-fg-muted)",
+          "--sb-text-tertiary": "var(--sb-fg-subtle)",
+          "--wp-block-synced-color": "#7a00df",
+          "--wp-block-synced-color--rgb": "122,0,223",
+          "--wp-bound-block-color": "var(--wp-block-synced-color)",
+          "--wp-editor-canvas-background": "#ddd",
+          "--wp-admin-theme-color": "#007cba",
+          "--wp-admin-theme-color--rgb": "0,124,186",
+          "--wp-admin-theme-color-darker-10": "#006ba1",
+          "--wp-admin-theme-color-darker-10--rgb": "0,107,160.5",
+          "--wp-admin-theme-color-darker-20": "#005a87",
+          "--wp-admin-theme-color-darker-20--rgb": "0,90,135",
+          "--wp-admin-border-width-focus": "2px",
+          "--wp--preset--font-size--normal": "16px",
+          "--wp--preset--font-size--huge": "42px",
+          "--wp--preset--aspect-ratio--square": "1",
+          "--wp--preset--aspect-ratio--4-3": "4/3",
+          "--wp--preset--aspect-ratio--3-4": "3/4",
+          "--wp--preset--aspect-ratio--3-2": "3/2",
+          "--wp--preset--aspect-ratio--2-3": "2/3",
+          "--wp--preset--aspect-ratio--16-9": "16/9",
+          "--wp--preset--aspect-ratio--9-16": "9/16",
+          "--wp--preset--color--black": "#000000",
+          "--wp--preset--color--cyan-bluish-gray": "#abb8c3",
+          "--wp--preset--color--white": "#ffffff"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 3,
+        "sticky": 2,
+        "fixed": 5,
+        "grid": 6,
+        "flex": 56,
+        "absolute": 97,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 9046,
+        "pages": 10.1,
+        "spacing": [
+          [
+            2,
+            22
+          ],
+          [
+            20,
+            9
+          ],
+          [
+            40,
+            7
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            12,
+            4
+          ],
+          [
+            8,
+            3
+          ],
+          [
+            48,
+            3
+          ],
+          [
+            4,
+            3
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 2,
+        "animationKinds": [
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 2,
+        "animationDurations": [
+          20000,
+          20000
+        ],
+        "easings": [
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            500,
+            49
+          ],
+          [
+            700,
+            14
+          ],
+          [
+            1500,
+            14
+          ],
+          [
+            600,
+            11
+          ],
+          [
+            200,
+            4
+          ]
+        ],
+        "keyframes": [
+          "sbi-sk-scaleout",
+          "fa-spin",
+          "fadeOut",
+          "blurInOut",
+          "scroll-x",
+          "lds-ellipsis1",
+          "lds-ellipsis3",
+          "lds-ellipsis2"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 12,
+      "media": {
+        "canvases": [],
+        "videos": [],
+        "svg": 46,
+        "images": 31,
+        "iframes": 3,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {},
+        "raf": 733,
+        "io": 1,
+        "ro": 2,
+        "mo": 4,
+        "startViewTransition": 0,
+        "workers": 1,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": true,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": true,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Wonder Vision® | Creative CGI Production Studio | VFX | Motion",
+      "lang": "en-GB",
+      "description": "Creative CGI production studio. Leaders in photoreal® CGI, VFX, motion, and creative direction for future facing brands and agencies."
+    },
+    "featuresBeforeScroll": {
+      "elements": 682,
+      "canvases": 0,
+      "animations": 2,
+      "hidden": 28
+    },
+    "scrollReveal": 16,
+    "hover": {
+      "probed": 6,
+      "changed": 0
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 17625952,
+        "layoutCount": 166,
+        "recalcStyleCount": 1339,
+        "scriptDuration": 1.319362,
+        "taskDuration": 3.273559,
+        "nodes": 2775
+      },
+      "timing": {
+        "domContentLoaded": 477,
+        "load": 1012,
+        "first-paint": 240,
+        "first-contentful-paint": 240
+      }
+    },
+    "network": [
+      {
+        "url": "https://www.wonder-vision.com/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 49512
+      },
+      {
+        "url": "https://www.wonder-vision.com/wp-content/plugins/instagram-feed-pro/assets/tokens/sb-tokens-local.css?ver=6.13.0",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1527
+      },
+      {
+        "url": "https://www.wonder-vision.com/wp-content/plugins/instagram-feed-pro/css/sbi-styles.min.css?ver=6.13.0",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 16729
+      },
+      {
+        "url": "https://www.wonder-vision.com/wp-content/themes/wondervision/dist/app.css?ver=1788514206",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 21056
+      },
+      {
+        "url": "https://www.wonder-vision.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 31046
+      },
+      {
+        "url": "https://www.wonder-vision.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 5251
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=GT-NGM87T5",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 179938
+      },
+      {
+        "url": "https://www.wonder-vision.com/wp-content/uploads/2026/08/Wonder-Vision-CGI-Production-Studio-ASICS-Novablast-6-Green-Emission-Image-Tile-1B-1024x1024.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 152930
+      },
+      {
+        "url": "https://www.wonder-vision.com/wp-content/uploads/2026/09/Wonder-Vision-CGI-Creative-Studio-3D-Design-Award-Winner-Creativepool-2026-1024x638.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 247624
+      },
+      {
+        "url": "https://www.wonder-vision.com/wp-content/uploads/2026/06/Wonder-Vision-CGI-Production-Studio-ASICS-ActiBreeze-Heatmap-Back-Clean-1024x1024.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 189370
+      },
+      {
+        "url": "https://www.wonder-vision.com/wp-content/uploads/2026/03/Wonder-Vision-CGI-Production-Studio-Sprite-Rebrand-Flavour-Lemon-Lime-Final-Static-Full-1024x1024.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 408125
+      },
+      {
+        "url": "https://www.wonder-vision.com/wp-content/uploads/2026/08/HOME-PAGE-REEL-16-9-V4-0-00-00-00.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 1855651
+      },
+      {
+        "url": "https://www.wonder-vision.com/wp-content/uploads/2026/09/Wonder-Vision-CGI-Production-Studio-ASICS-Novablast-6-Teaser-Mobile.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 517274
+      },
+      {
+        "url": "https://www.wonder-vision.com/wp-content/uploads/2026/09/Wonder-Vision-CGI-Motion-Production-Studio-ASICS-Novablast-6-Teaser-Visual.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 2259008
+      },
+      {
+        "url": "https://www.wonder-vision.com/wp-content/uploads/2026/03/Wonder-Vision-CGI-Production-Studio-Sprite-Rebrand-Condensation-Teaser-Portrait.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 1758865
+      },
+      {
+        "url": "https://www.wonder-vision.com/wp-content/uploads/2026/03/Wonder-Vision-CGI-Production-Studio-Sprite-Rebrand-Condensation-Teaser-Landscape.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 11034514
+      },
+      {
+        "url": "https://www.wonder-vision.com/wp-content/uploads/2025/11/Wonder-Vision-CGI-Production-Studio-ASICS-Metaspeed-Mesh-Weave-Work-Mobile-Portrait.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 1084380
+      },
+      {
+        "url": "https://www.wonder-vision.com/wp-content/uploads/2026/02/Wonder-Vision-CGI-Production-Studio-ASICS-Metaspeed-3D-Model-Work-Teaser-Landscape.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 4492112
+      },
+      {
+        "url": "https://www.wonder-vision.com/wp-content/uploads/2026/04/Wonder-Vision-CGI-Production-Studio-Yasso-Poppables-Teaser.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 443502
+      },
+      {
+        "url": "https://www.wonder-vision.com/wp-content/uploads/2026/03/Wonder-Vision-CGI-Production-Studio-Yasso-Poppables-Project-Teaser.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 1726099
+      },
+      {
+        "url": "https://www.wonder-vision.com/wp-content/plugins/instagram-feed-pro/img/placeholder.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 553
+      },
+      {
+        "url": "https://www.wonder-vision.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1057
+      },
+      {
+        "url": "https://www.wonder-vision.com/wp-content/themes/wondervision/dist/app.js?ver=1788514206",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 272718
+      },
+      {
+        "url": "https://www.wonder-vision.com/wp-content/themes/wondervision/dist/vendor.js?ver=1.19",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 214780
+      },
+      {
+        "url": "https://www.wonder-vision.com/wp-content/themes/wondervision/assets/js/aspect-ratio.js?ver=1.1",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 703
+      },
+      {
+        "url": "https://www.wonder-vision.com/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-events-provider-content-events-33078016c5e1e9f07c35.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 514
+      },
+      {
+        "url": "https://www.wonder-vision.com/wp-content/plugins/instagram-feed-pro/js/sbi-scripts.min.js?ver=6.13.0",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 72267
+      },
+      {
+        "url": "https://www.wonder-vision.com/wp-content/themes/wondervision/dist/356f6286db0888c7ec66.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 58959
+      },
+      {
+        "url": "https://www.wonder-vision.com/wp-content/themes/wondervision/dist/1c67a10e332665e49932.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1340
+      },
+      {
+        "url": "https://www.wonder-vision.com/wp-content/themes/wondervision/dist/82fb1a5b0180cfe5d360.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 60272
+      },
+      {
+        "url": "https://www.wonder-vision.com/wp-content/themes/wondervision/dist/6077152c4196811d5d19.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 56716
+      },
+      {
+        "url": "blob:https://www.wonder-vision.com/b0341ce3-7d44-4fc3-8089-52d33fc1d53c",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "https://www.wonder-vision.com/cdn-cgi/challenge-platform/h/g/scripts/jsd/4df4a60fa397/main.js?",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 12128
+      },
+      {
+        "url": "https://vimeo.com/api/oembed.json?url=https%3A%2F%2Fvimeo.com%2F1217303130%3Fbackground%3D1&url=https%3A%2F%2Fvimeo.com%2F1217303130%3Fbackground%3D1&autoplay=false&muted=true&controls=false&playsinline=true&background=true&loop=true",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 1470
+      },
+      {
+        "url": "https://www.wonder-vision.com/wp-content/uploads/sb-instagram-feed-images/736593117_18473686297106131_4904192198617651007_nlow.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 14936
+      },
+      {
+        "url": "https://www.wonder-vision.com/wp-content/uploads/sb-instagram-feed-images/840431518_18492094894106131_5392839171961604636_nlow.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 51052
+      },
+      {
+        "url": "https://www.wonder-vision.com/wp-content/uploads/sb-instagram-feed-images/724086956_18468523861106131_5667174239436221866_nlow.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 19728
+      },
+      {
+        "url": "https://www.wonder-vision.com/wp-content/uploads/sb-instagram-feed-images/670924782_18458188105106131_2686283289073941082_nlow.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 10246
+      },
+      {
+        "url": "https://www.wonder-vision.com/wp-content/uploads/sb-instagram-feed-images/669603959_18456912031106131_5105199143983038842_nlow.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 19104
+      },
+      {
+        "url": "https://www.wonder-vision.com/wp-content/uploads/sb-instagram-feed-images/658669782_18455787256106131_8448142812357167000_nlow.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 31554
+      },
+      {
+        "url": "https://www.wonder-vision.com/wp-content/uploads/sb-instagram-feed-images/612461482_18439715191106131_8517983262909871434_nlow.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 8053
+      },
+      {
+        "url": "https://www.wonder-vision.com/wp-content/uploads/sb-instagram-feed-images/552627348_18422378794106131_866520392695803466_nlow.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 19006
+      },
+      {
+        "url": "https://www.wonder-vision.com/wp-content/uploads/sb-instagram-feed-images/573412781_18429750514106131_6928652530754578917_nlow.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 9781
+      },
+      {
+        "url": "https://www.wonder-vision.com/wp-content/uploads/sb-instagram-feed-images/551070609_18421428529106131_3674226931713639512_nlow.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 2916
+      },
+      {
+        "url": "https://www.wonder-vision.com/wp-content/uploads/sb-instagram-feed-images/565215824_18426070252106131_8765329981085416384_nlow.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 5514
+      },
+      {
+        "url": "https://www.wonder-vision.com/wp-content/uploads/sb-instagram-feed-images/561602649_18424954825106131_878280995809222022_nlow.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 17217
+      },
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-7TTMPYWXHK&gtm=45Pe6a72h1v9117327317za208zd9117327317xf1&_p=1791623043722&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&gdid=dZTNiMT&_eu=AAAAACAC&are=1&cid=1795344816.1791623044&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=13&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=1&tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791623044&sct=1&seg=0&dl=https%3A%2F%2Fwww.wonder-vision.com%2F&dt=Wonder%20Vision%C2%AE%20%7C%20Creative%20CGI%20Production%20Studio%20%7C%20VFX%20%7C%20Motion&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&ep.googlesitekit_post_type=page&tfd=670",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false
+      },
+      {
+        "url": "https://stats.g.doubleclick.net/g/collect?v=2&ngs=1&ibt=1&tid=G-7TTMPYWXHK&cid=1795344816.1791623044&gtm=45Pe6a72h1v9117327317za208zd9117327317xf1&rcb=13&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034",
+        "method": "POST",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 563
+      },
+      {
+        "url": "https://player.vimeo.com/video/1217303130?muted=1&controls=0&loop=1&background=1&app_id=122963",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 10379
+      },
+      {
+        "url": "https://www.wonder-vision.com/wp-includes/js/wp-emoji-release.min.js?ver=7.1.3",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 5974
+      },
+      {
+        "url": "https://www.wonder-vision.com/cdn-cgi/challenge-platform/h/g/jsd/oneshot/4df4a60fa397/0.04875244939030565:1791619557:Vl9G8uDYHVmb1TExjeicT-ybLlANlbuj4ck4wUIUbPU/a4847496ace5f7af",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 1498
+      },
+      {
+        "url": "https://s.w.org/images/core/emoji/17.0.2/svg/1f3c6.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1008
+      },
+      {
+        "url": "https://f.vimeocdn.com/p/4.46.126/js/player.module.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 227090
+      },
+      {
+        "url": "https://f.vimeocdn.com/p/4.46.126/js/vendor.module.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 94795
+      },
+      {
+        "url": "https://f.vimeocdn.com/p/4.46.126/css/player.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 24758
+      },
+      {
+        "url": "https://player.vimeo.com/cdn-cgi/challenge-platform/h/g/scripts/precursor/4df4a60fa397/main.js?",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 18024
+      },
+      {
+        "url": "https://player.vimeo.com/cdn-cgi/challenge-platform/h/g/precursor/4df4a60fa397/0.23983908592711667:1791619557:CJK_fFK4CH-3o_CVbe8x2cIPjMg5XVLL1QovjTsdSLg/a484749afe5169eb",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 2026
+      },
+      {
+        "url": "https://f.vimeocdn.com/js_opt/modules/utils/vuid.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1157
+      },
+      {
+        "url": "https://i.vimeocdn.com/video/2188951348-f7d705faedb13a9dc48da75d3cc319542f00136d6acc863a78f19094121e7b85-d?mw=1500&mh=844",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 76614
+      },
+      {
+        "url": "https://arclight.vimeo.com/add/player-stats?beacon=1&session-id=1e2bb6b3469b1b0f6645ad180575a29471814fc01791623044",
+        "method": "POST",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 142
+      },
+      {
+        "url": "https://arclight.vimeo.com/add/player-stats?beacon=1&session-id=1e2bb6b3469b1b0f6645ad180575a29471814fc01791623044",
+        "method": "POST",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 40
+      },
+      {
+        "url": "https://vod-adaptive-ak.vimeocdn.com/exp=1791626644~acl=%2Fee8346e9-3f05-4103-b3be-54b0c9cd261b%2Fpsid%3D1e2bb6b3469b1b0f6645ad180575a29471814fc01791623044%2F%2A~hmac=7ac8c2bd7763ef5aef963b9ae3c81f0425e836781d3aed0fa0e91d650015871c/ee8346e9-3f05-4103-b3be-54b0c9cd261b/psid=1e2bb6b3469b1b0f6645ad180575a29471814fc01791623044/v2/playlist/av/primary/prot/cXNyPTE/playlist.json?omit=av1-hevc&pathsig=8c953e4f~JCepdQ8zBbocAQd_agiBuz_RlBrXE1YuonGdFMS9sw4&qsr=1&r=dXM%3D&rh=2Cmk93",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 5627
+      },
+      {
+        "url": "https://i.vimeocdn.com/video/2188951348-f7d705faedb13a9dc48da75d3cc319542f00136d6acc863a78f19094121e7b85-d?mw=80&q=85",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1413
+      },
+      {
+        "url": "https://vimeo.com/ablincoln/vuid?pid=1e2bb6b3469b1b0f6645ad180575a29471814fc01791623044",
+        "method": "POST",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 481
+      },
+      {
+        "url": "https://vimeo.com/flarepoint/orion/v3/identity/settings",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 1032
+      },
+      {
+        "url": "https://vimeo.com/flarepoint/orion/v3/identity/settings",
+        "method": "OPTIONS",
+        "type": "OTHER",
+        "initiator": "preflight",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://arclight.vimeo.com/add/player-stats?beacon=1&session-id=1e2bb6b3469b1b0f6645ad180575a29471814fc01791623044",
+        "method": "POST",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 40
+      },
+      {
+        "url": "https://arclight.vimeo.com/add/player-stats?beacon=1&session-id=1e2bb6b3469b1b0f6645ad180575a29471814fc01791623044",
+        "method": "POST",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 11
+      },
+      {
+        "url": "https://arclight.vimeo.com/add/player-stats?beacon=1&session-id=1e2bb6b3469b1b0f6645ad180575a29471814fc01791623044",
+        "method": "POST",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 11
+      },
+      {
+        "url": "https://vod-adaptive-ak.vimeocdn.com/exp=1791626644~acl=%2Fee8346e9-3f05-4103-b3be-54b0c9cd261b%2Fpsid%3D1e2bb6b3469b1b0f6645ad180575a29471814fc01791623044%2F%2A~hmac=7ac8c2bd7763ef5aef963b9ae3c81f0425e836781d3aed0fa0e91d650015871c/ee8346e9-3f05-4103-b3be-54b0c9cd261b/psid=1e2bb6b3469b1b0f6645ad180575a29471814fc01791623044/v2/range/prot/cmFuZ2U9OTA3LTIxMjI0ODI/avf/32cf1931-ff86-4cc0-aa61-e48e7f4f34c2.mp4?pathsig=8c953e4f~neLw_nXCitWvQQrYIe8wuRm_0sbYg4eOm4JiKmwn0B8&r=dXMtY2VudHJhbDE%3D&range=907-2122482",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 2123281
+      },
+      {
+        "url": "https://vod-adaptive-ak.vimeocdn.com/exp=1791626644~acl=%2Fee8346e9-3f05-4103-b3be-54b0c9cd261b%2Fpsid%3D1e2bb6b3469b1b0f6645ad180575a29471814fc01791623044%2F%2A~hmac=7ac8c2bd7763ef5aef963b9ae3c81f0425e836781d3aed0fa0e91d650015871c/ee8346e9-3f05-4103-b3be-54b0c9cd261b/psid=1e2bb6b3469b1b0f6645ad180575a29471814fc01791623044/v2/range/prot/cmFuZ2U9OTA5LTM3MzQ3NjU/avf/37ca2bcc-8999-4ffd-bc04-a8498ec9977f.mp4?pathsig=8c953e4f~NYWYZSjRNJil5WqJCO74jjdxjtiIYjBtRqWaSVOMYsQ&r=dXMtZWFzdDE%3D&range=909-3734765",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 3736547
+      },
+      {
+        "url": "https://vod-adaptive-ak.vimeocdn.com/exp=1791626644~acl=%2Fee8346e9-3f05-4103-b3be-54b0c9cd261b%2Fpsid%3D1e2bb6b3469b1b0f6645ad180575a29471814fc01791623044%2F%2A~hmac=7ac8c2bd7763ef5aef963b9ae3c81f0425e836781d3aed0fa0e91d650015871c/ee8346e9-3f05-4103-b3be-54b0c9cd261b/psid=1e2bb6b3469b1b0f6645ad180575a29471814fc01791623044/v2/range/prot/cmFuZ2U9MzczNDc2Ni04MjIyMTAy/avf/37ca2bcc-8999-4ffd-bc04-a8498ec9977f.mp4?pathsig=8c953e4f~9c12AGU6zNU8KvXAapjwSYpbLBG6rmRLxb2P3i_9LAQ&r=dXMtZWFzdDE%3D&range=3734766-8222102",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 4490385
+      },
+      {
+        "url": "https://vod-adaptive-ak.vimeocdn.com/exp=1791626644~acl=%2Fee8346e9-3f05-4103-b3be-54b0c9cd261b%2Fpsid%3D1e2bb6b3469b1b0f6645ad180575a29471814fc01791623044%2F%2A~hmac=7ac8c2bd7763ef5aef963b9ae3c81f0425e836781d3aed0fa0e91d650015871c/ee8346e9-3f05-4103-b3be-54b0c9cd261b/psid=1e2bb6b3469b1b0f6645ad180575a29471814fc01791623044/v2/range/prot/cmFuZ2U9ODIyMjEwMy0xMjUyNDY2OA/avf/37ca2bcc-8999-4ffd-bc04-a8498ec9977f.mp4?pathsig=8c953e4f~fXmWJKr7sPyCHwT-gQeH_UNUPrYhmpOKyWAIwzKn0ZI&r=dXMtZWFzdDE%3D&range=8222103-12524668",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 4305902
+      },
+      {
+        "url": "https://vimeo.com/api/oembed.json?url=https%3A%2F%2Fvimeo.com%2F1148065464&url=https%3A%2F%2Fvimeo.com%2F1148065464&autoplay=false&muted=false&controls=false&playsinline=true&background=false&loop=false",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 1362
+      },
+      {
+        "url": "https://player.vimeo.com/video/1148065464?controls=0&app_id=122963",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "script",
+        "status": 401,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 5770
+      },
+      {
+        "url": "https://challenges.cloudflare.com/turnstile/v0/g/4df4a60fa397/api.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 28260
+      },
+      {
+        "url": "https://player.vimeo.com/cdn-cgi/challenge-platform/scripts/precursor/main.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://player.vimeo.com/cdn-cgi/challenge-platform/h/g/precursor/4df4a60fa397/0.23983908592711667:1791619557:CJK_fFK4CH-3o_CVbe8x2cIPjMg5XVLL1QovjTsdSLg/a48474a26f49f50e",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 2021
+      },
+      {
+        "url": "https://vimeo.com/flarepoint/GRyKpBVT",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 554
+      },
+      {
+        "url": "https://vimeo.com/flarepoint/GRyKpBVT",
+        "method": "OPTIONS",
+        "type": "OTHER",
+        "initiator": "preflight",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/0jl3b/0x4AAAAAAAbaszMygKLnGbeo/auto/fbE/new/normal?lang=auto",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false
+      },
+      {
+        "url": "https://www.wonder-vision.com/wp-content/uploads/2026/09/Wonder-Vision-Home-Page-Production-Expertise-ASICS-CGI-Content-768x768.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 206459
+      },
+      {
+        "url": "https://www.wonder-vision.com/wp-content/uploads/2025/05/Wonder-Vision-Creative-CGI-Production-Studio-Olipop-Drink-CGI-Hero-768x768.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 115352
+      },
+      {
+        "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rcho6jk89HhGKwqNgWAWF2SmTQi.LmZfirnGiH2zx681UU-1791623045-1.3.1.1-9X9jMsr78UpAVaHEmB7uTAIP0MAKSxGGX5IPaYwrVmU/0jl3b/0x4AAAAAAAbaszMygKLnGbeo/auto/fbE/failure_retry/normal?lang=auto",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "scroll-x",
+        "duration": 20000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "scroll-x",
+        "duration": 20000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "max-height",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "max-height",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "max-height",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "max-height",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "max-height",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "max-height",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "max-height",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "max-height",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "max-height",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 125,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 125,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "max-height",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "max-height",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "rotate",
+        "duration": 2000,
+        "delay": 250,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "dash",
+        "duration": 1500,
+        "delay": 250,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 700,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 699.1425493092884,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 700,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 41.03640767901814,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 700,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "Unrecognized feature: 'web-share'."
+      },
+      {
+        "level": "error",
+        "text": "Failed to load resource: the server responded with a status of 401 ()"
+      },
+      {
+        "level": "error",
+        "text": "Potential permissions policy violation: xr-spatial-tracking is not allowed in this document."
+      },
+      {
+        "level": "error",
+        "text": "Potential permissions policy violation: cross-origin-isolated is not allowed in this document."
+      },
+      {
+        "level": "error",
+        "text": "Potential permissions policy violation: keyboard-map is not allowed in this document."
+      },
+      {
+        "level": "error",
+        "text": "Potential permissions policy violation: xr-spatial-tracking is not allowed in this document."
+      },
+      {
+        "level": "error",
+        "text": "Potential permissions policy violation: cross-origin-isolated is not allowed in this document."
+      },
+      {
+        "level": "error",
+        "text": "Potential permissions policy violation: keyboard-map is not allowed in this document."
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-7TTMPYWXHK&gtm=45Pe6a72h1v9117327317za208zd9117327317xf1&_p=1791623043722&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&gdid=dZTNiMT&_eu=AAAAACAC&are=1&cid=1795344816.1791623044&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=13&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=1&tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791623044&sct=1&seg=0&dl=https%3A%2F%2Fwww.wonder-vision.com%2F&dt=Wonder%20Vision%C2%AE%20%7C%20Creative%20CGI%20Production%20Studio%20%7C%20VFX%20%7C%20Motion&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&ep.googlesitekit_post_type=page&tfd=670",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 6,
+      "workers": 0
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 6296,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 682,
+      "typography": {
+        "families": [
+          [
+            "FKGrotesk",
+            67
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            56
+          ],
+          [
+            "700",
+            6
+          ],
+          [
+            "300",
+            4
+          ],
+          [
+            "500",
+            1
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            28
+          ]
+        ],
+        "sizeMin": 11,
+        "sizeMedian": 21,
+        "sizeMax": 92,
+        "sizeMaxVw": 23.6,
+        "scaleRatio": 4.4,
+        "letterSpacingMean": 0.02,
+        "loadedFonts": [
+          {
+            "family": "FKGrotesk",
+            "weight": "200",
+            "style": "normal"
+          },
+          {
+            "family": "FKGrotesk",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "FKGrotesk",
+            "weight": "700",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 67
+      },
+      "color": {
+        "background": "rgb(255, 255, 255)",
+        "backgroundLuminance": 1,
+        "backgrounds": [
+          [
+            "rgb(255, 255, 255)",
+            3352
+          ],
+          [
+            "rgb(0, 0, 0)",
+            647
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(0, 0, 0)",
+            227
+          ],
+          [
+            "rgb(255, 255, 255)",
+            128
+          ],
+          [
+            "rgba(255, 255, 255, 0.9)",
+            10
+          ],
+          [
+            "rgba(255, 255, 255, 0.7)",
+            5
+          ],
+          [
+            "rgb(74, 85, 101)",
+            5
+          ]
+        ],
+        "meanSaturation": 0,
+        "rootVars": {
+          "--sb-color-gray-600": "#4a5565",
+          "--sb-color-gray-700": "#364153",
+          "--sb-color-wp-light-blue-600": "#007ca8",
+          "--sb-duration-75": "75ms",
+          "--sb-duration-100": "100ms",
+          "--sb-duration-150": "150ms",
+          "--sb-duration-200": "200ms",
+          "--sb-duration-300": "300ms",
+          "--sb-duration-500": "500ms",
+          "--sb-duration-700": "700ms",
+          "--sb-duration-1000": "1000ms",
+          "--sb-opacity-disabled": "0.5",
+          "--sb-fg-muted": "var(--sb-color-gray-700)",
+          "--sb-fg-subtle": "var(--sb-color-gray-600)",
+          "--sb-focus-ring": "var(--sb-color-wp-light-blue-600)",
+          "--sb-text-secondary": "var(--sb-fg-muted)",
+          "--sb-text-tertiary": "var(--sb-fg-subtle)",
+          "--wp-block-synced-color": "#7a00df",
+          "--wp-block-synced-color--rgb": "122,0,223",
+          "--wp-bound-block-color": "var(--wp-block-synced-color)",
+          "--wp-editor-canvas-background": "#ddd",
+          "--wp-admin-theme-color": "#007cba",
+          "--wp-admin-theme-color--rgb": "0,124,186",
+          "--wp-admin-theme-color-darker-10": "#006ba1",
+          "--wp-admin-theme-color-darker-10--rgb": "0,107,160.5",
+          "--wp-admin-theme-color-darker-20": "#005a87",
+          "--wp-admin-theme-color-darker-20--rgb": "0,90,135",
+          "--wp-admin-border-width-focus": "2px",
+          "--wp--preset--font-size--normal": "16px",
+          "--wp--preset--font-size--huge": "42px",
+          "--wp--preset--aspect-ratio--square": "1",
+          "--wp--preset--aspect-ratio--4-3": "4/3",
+          "--wp--preset--aspect-ratio--3-4": "3/4",
+          "--wp--preset--aspect-ratio--3-2": "3/2",
+          "--wp--preset--aspect-ratio--2-3": "2/3",
+          "--wp--preset--aspect-ratio--16-9": "16/9",
+          "--wp--preset--aspect-ratio--9-16": "9/16",
+          "--wp--preset--color--black": "#000000",
+          "--wp--preset--color--cyan-bluish-gray": "#abb8c3",
+          "--wp--preset--color--white": "#ffffff"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 4,
+        "sticky": 2,
+        "fixed": 4,
+        "grid": 4,
+        "flex": 49,
+        "absolute": 97,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 5965,
+        "pages": 7.1,
+        "spacing": [
+          [
+            1,
+            14
+          ],
+          [
+            20,
+            13
+          ],
+          [
+            2,
+            10
+          ],
+          [
+            8,
+            7
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            24,
+            6
+          ],
+          [
+            48,
+            3
+          ],
+          [
+            4,
+            3
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 6,
+        "animationKinds": [
+          "CSSTransition",
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 2,
+        "animationDurations": [
+          1500,
+          1500,
+          1500,
+          1500,
+          20000,
+          20000
+        ],
+        "easings": [
+          "ease",
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            500,
+            49
+          ],
+          [
+            700,
+            14
+          ],
+          [
+            1500,
+            14
+          ],
+          [
+            600,
+            12
+          ],
+          [
+            1000,
+            3
+          ]
+        ],
+        "keyframes": [
+          "sbi-sk-scaleout",
+          "fa-spin",
+          "fadeOut",
+          "blurInOut",
+          "scroll-x",
+          "lds-ellipsis1",
+          "lds-ellipsis3",
+          "lds-ellipsis2"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 12,
+      "media": {
+        "canvases": [],
+        "videos": [],
+        "svg": 46,
+        "images": 31,
+        "iframes": 3,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {},
+        "raf": 677,
+        "io": 1,
+        "ro": 2,
+        "mo": 4,
+        "startViewTransition": 0,
+        "workers": 1,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": true,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": true,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Wonder Vision® | Creative CGI Production Studio | VFX | Motion",
+      "lang": "en-GB",
+      "description": "Creative CGI production studio. Leaders in photoreal® CGI, VFX, motion, and creative direction for future facing brands and agencies."
+    },
+    "featuresBeforeScroll": {
+      "elements": 682,
+      "canvases": 0,
+      "animations": 2,
+      "hidden": 21
+    },
+    "scrollReveal": 9,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 17690108,
+        "layoutCount": 140,
+        "recalcStyleCount": 688,
+        "scriptDuration": 0.51478,
+        "taskDuration": 1.48071,
+        "nodes": 2536
+      },
+      "timing": {
+        "domContentLoaded": 443,
+        "load": 967,
+        "first-paint": 140,
+        "first-contentful-paint": 140
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "scroll-x",
+        "duration": 20000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "scroll-x",
+        "duration": 20000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 125,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 125,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "max-height",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "max-height",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "max-height",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "max-height",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "max-height",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "rotate",
+        "duration": 2000,
+        "delay": 250,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "dash",
+        "duration": 1500,
+        "delay": 250,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "Unrecognized feature: 'web-share'."
+      },
+      {
+        "level": "error",
+        "text": "Failed to load resource: the server responded with a status of 401 ()"
+      },
+      {
+        "level": "error",
+        "text": "Potential permissions policy violation: xr-spatial-tracking is not allowed in this document."
+      },
+      {
+        "level": "error",
+        "text": "Potential permissions policy violation: cross-origin-isolated is not allowed in this document."
+      },
+      {
+        "level": "error",
+        "text": "Potential permissions policy violation: keyboard-map is not allowed in this document."
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-7TTMPYWXHK&gtm=45Pe6a72v9117327317za208zd9117327317xf1&_p=1791623063519&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&gdid=dZTNiMT&_eu=AAAAACAC&are=1&cid=2029279647.1791623064&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=6&sr=390x844&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=1&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=1&tag_exp=115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791623063&sct=1&seg=0&dl=https%3A%2F%2Fwww.wonder-vision.com%2F&dt=Wonder%20Vision%C2%AE%20%7C%20Creative%20CGI%20Production%20Studio%20%7C%20VFX%20%7C%20Motion&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&ep.googlesitekit_post_type=page&tfd=375",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 6,
+      "workers": 0
+    }
+  }
+}

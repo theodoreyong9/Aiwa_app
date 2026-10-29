@@ -1,0 +1,40 @@
+name: Asset mirror
+
+# Copies the assets a film uses into the release `assets` of this repository, one zip per asset (`<id>.zip`), for a session whose network cannot reach Poly Haven.
+# Only assets of the register (all CC0), only on request.
+on:
+  workflow_dispatch:
+    inputs:
+      ids:
+        description: 'Asset ids of the register, comma separated (e.g. ph-ArmChair_01,ph-aarfontein_dawn_2)'
+        required: true
+      res:
+        description: 'Size of the textures and HDRI (1k, 2k, 4k)'
+        default: '2k'
+
+permissions:
+  contents: write
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Download from the source and put in the release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          IDS: ${{ github.event.inputs.ids }}
+          RES: ${{ github.event.inputs.res }}
+        run: |
+          set +e
+          sudo apt-get install -y zip >/dev/null 2>&1
+          gh release view assets >/dev/null 2>&1 || gh release create assets --title "Assets" --notes "CC0 assets of skills/kit/asset-research/catalog/assets.jsonl (Poly Haven), copied on request."
+          for id in $(echo "$IDS" | tr ',' ' '); do
+            rm -rf "/tmp/$id" "/tmp/$id.zip"
+            AR_NO_MIRROR=1 node skills/kit/asset-research/src/cli.js fetch "$id" "/tmp/$id" --res="$RES" > "/tmp/$id.json" || { echo "::warning title=$id::not downloaded: $(cat /tmp/$id.json)"; continue; }
+            (cd "/tmp/$id" && zip -qr "/tmp/$id.zip" .) && gh release upload assets "/tmp/$id.zip" --clobber && echo "::notice title=$id::$(cat /tmp/$id.json)"
+          done

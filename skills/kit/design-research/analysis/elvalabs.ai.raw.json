@@ -1,0 +1,1180 @@
+{
+  "url": "https://elvalabs.ai/",
+  "at": "2026-10-09T11:28:36.156Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 140194,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 408,
+      "typography": {
+        "families": [
+          [
+            "Neue Haas Grotesk Display Pro",
+            44
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            43
+          ],
+          [
+            "500",
+            1
+          ]
+        ],
+        "textTransforms": [
+          [
+            "capitalize",
+            7
+          ]
+        ],
+        "sizeMin": 13,
+        "sizeMedian": 16,
+        "sizeMax": 121.68,
+        "sizeMaxVw": 8.5,
+        "scaleRatio": 7.6,
+        "letterSpacingMean": -0.027,
+        "loadedFonts": [
+          {
+            "family": "Neue Haas Grotesk Display Pro",
+            "weight": "500",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 44
+      },
+      "color": {
+        "background": "rgb(19, 19, 19)",
+        "backgroundLuminance": 0.006512090792594475,
+        "backgrounds": [
+          [
+            "rgba(255, 255, 255, 0.05)",
+            8
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(255, 255, 255)",
+            86
+          ],
+          [
+            "rgb(179, 179, 179)",
+            40
+          ],
+          [
+            "rgb(0, 0, 0)",
+            21
+          ],
+          [
+            "rgb(0, 0, 238)",
+            19
+          ],
+          [
+            "rgb(77, 77, 77)",
+            2
+          ]
+        ],
+        "meanSaturation": 0,
+        "rootVars": {
+          "--angle": "45deg",
+          "--opacity": ".5"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 7,
+        "sticky": 0,
+        "fixed": 5,
+        "grid": 0,
+        "flex": 20,
+        "absolute": 75,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 2524,
+        "pages": 2.8,
+        "spacing": [
+          [
+            12,
+            14
+          ],
+          [
+            20,
+            8
+          ],
+          [
+            16,
+            5
+          ],
+          [
+            18,
+            5
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            40,
+            1
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 2,
+        "animationKinds": [
+          "CSSTransition"
+        ],
+        "infiniteAnimations": 0,
+        "animationDurations": [
+          500,
+          500
+        ],
+        "easings": [
+          "ease"
+        ],
+        "transitionDurationsMs": [
+          [
+            300,
+            12
+          ],
+          [
+            400,
+            11
+          ],
+          [
+            200,
+            3
+          ],
+          [
+            500,
+            1
+          ]
+        ],
+        "keyframes": [
+          "btn-draw"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 103,
+      "media": {
+        "canvases": [
+          {
+            "w": 1440,
+            "h": 900,
+            "area": 1
+          }
+        ],
+        "videos": [
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://elvalabs.ai/loader.webm"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://elvalabs.ai/mainflow/1_1_m.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://elvalabs.ai/mainflow/1_2_m.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://elvalabs.ai/mainflow/1_3_m.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://elvalabs.ai/mainflow/1_41_m.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": false,
+            "muted": true,
+            "src": "https://elvalabs.ai/flow_fixed_m.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://elvalabs.ai/mainflow/1_1_m.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://elvalabs.ai/mainflow/1_2_m.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://elvalabs.ai/mainflow/1_3_m.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://elvalabs.ai/mainflow/1_41_m.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://elvalabs.ai/mainflow/1_5_m.mp4"
+          }
+        ],
+        "svg": 10,
+        "images": 14,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 1,
+          "webgl": 47
+        },
+        "raf": 36,
+        "io": 0,
+        "ro": 0,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 2,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Elva",
+      "lang": "en",
+      "description": "Elva - Your personal AI director, turning everyday videos into emotional stories."
+    },
+    "featuresBeforeScroll": {
+      "elements": 398,
+      "canvases": 1,
+      "animations": 0,
+      "hidden": 92
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 6,
+      "changed": 0
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 8671952,
+        "layoutCount": 19,
+        "recalcStyleCount": 76,
+        "scriptDuration": 0.250704,
+        "taskDuration": 133.905873,
+        "nodes": 2955
+      },
+      "timing": {
+        "domContentLoaded": 596,
+        "load": 4349,
+        "first-paint": 352,
+        "first-contentful-paint": 352
+      }
+    },
+    "network": [
+      {
+        "url": "https://elvalabs.ai/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 28352
+      },
+      {
+        "url": "https://elvalabs.ai/assets/main-DLg1oGUN.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 130201
+      },
+      {
+        "url": "https://elvalabs.ai/assets/menu-DI7zF93a.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 73555
+      },
+      {
+        "url": "https://elvalabs.ai/assets/three.module-CzdsL6Qv.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 548426
+      },
+      {
+        "url": "https://elvalabs.ai/assets/NeueHaasDisplay-XXThin-B_GJ8Mxd.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 122671
+      },
+      {
+        "url": "https://elvalabs.ai/assets/GravityBalls-D37pvzOo.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 99268
+      },
+      {
+        "url": "https://elvalabs.ai/assets/press-center-CoyN8cpA.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 929
+      },
+      {
+        "url": "https://elvalabs.ai/assets/download-6UKj71yk.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 731
+      },
+      {
+        "url": "https://elvalabs.ai/assets/menu-DjKzWaJ3.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 55077
+      },
+      {
+        "url": "https://elvalabs.ai/qr-download.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 35314
+      },
+      {
+        "url": "https://elvalabs.ai/assets/lazarev-CA2bWvHv.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 18034
+      },
+      {
+        "url": "data:image/svg+xml,%3csvg%20width='33'%20height='33'%20viewBox='0%200%2033%2033'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3ccircle%20cx='16.5'%20cy='16.5'%20r='2'%20fill='white'/%3e%3cpath%20opacity='0.2'%20d='M32.5%2011.6746C32.5%205.50304%2027.497%200.500001%2021.3254%200.500001L11.6746%200.500001C5.50304%200.5%200.500002%205.50304%200.500001%2011.6746M32.5%2021.3254C32.5%2027.497%2027.497%2032.5%2021.3254%2032.5L11.6746%2032.5C5.50305%2032.5%200.500001%2027.497%200.500001%2021.3254'%20stroke='white'/%3e%3c/svg%3e",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://elvalabs.ai/loader.webm",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/webm",
+        "fromCache": false,
+        "bytes": 93143
+      },
+      {
+        "url": "https://elvalabs.ai/flow_fixed_m.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://elvalabs.ai/mainflow/1_1_m.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://elvalabs.ai/arrowb.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1348
+      },
+      {
+        "url": "https://elvalabs.ai/upright.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 391
+      },
+      {
+        "url": "https://elvalabs.ai/frame.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 12164
+      },
+      {
+        "url": "https://elvalabs.ai/elva.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 17794
+      },
+      {
+        "url": "https://elvalabs.ai/assets/NeueHaasDisplay-Roman-BFi43h7R.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 25702
+      },
+      {
+        "url": "https://elvalabs.ai/sprite_s.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://elvalabs.ai/flow0_fixed.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://elvalabs.ai/sprite_s.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 18385
+      },
+      {
+        "url": "https://elvalabs.ai/flow0_fixed.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://elvalabs.ai/sprite_s.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": true
+      },
+      {
+        "url": "blob:https://elvalabs.ai/7d4faf67-d6dc-4dbb-8eb6-e18722bd1032",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "blob:https://elvalabs.ai/4be276c6-cc57-4045-8f63-e07fb46843a0",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "https://elvalabs.ai/girl.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://elvalabs.ai/girl.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 11459
+      },
+      {
+        "url": "https://elvalabs.ai/girl.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": true
+      },
+      {
+        "url": "https://elvalabs.ai/iphone3.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 305333
+      },
+      {
+        "url": "https://elvalabs.ai/phone.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 41164
+      },
+      {
+        "url": "https://elvalabs.ai/rated.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 5904
+      },
+      {
+        "url": "https://elvalabs.ai/features/0.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 661053
+      },
+      {
+        "url": "https://elvalabs.ai/features/1.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 570297
+      },
+      {
+        "url": "https://elvalabs.ai/features/2.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 660797
+      },
+      {
+        "url": "https://elvalabs.ai/features/3.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 545601
+      },
+      {
+        "url": "https://elvalabs.ai/features/4.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 556265
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A070200034350000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x3dfc01023000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0C0E20834350000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x3dfc01024e00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x3dfc01023000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x3dfc01023000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+      }
+    ],
+    "exceptions": [
+      "NotSupportedError: Failed to load because no supported source was found.",
+      "NotSupportedError: Failed to load because no supported source was found."
+    ],
+    "failed": [
+      {
+        "url": "https://elvalabs.ai/flow_fixed_m.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://elvalabs.ai/mainflow/1_1_m.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://elvalabs.ai/sprite_s.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://elvalabs.ai/flow0_fixed.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://elvalabs.ai/flow0_fixed.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://elvalabs.ai/sprite_s.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://elvalabs.ai/girl.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://elvalabs.ai/girl.mp4",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 1
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 19677,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 398,
+      "typography": {
+        "families": [
+          [
+            "Neue Haas Grotesk Display Pro",
+            50
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            50
+          ]
+        ],
+        "textTransforms": [
+          [
+            "capitalize",
+            10
+          ]
+        ],
+        "sizeMin": 12,
+        "sizeMedian": 14,
+        "sizeMax": 104,
+        "sizeMaxVw": 26.7,
+        "scaleRatio": 7.4,
+        "letterSpacingMean": -0.03,
+        "loadedFonts": [
+          {
+            "family": "Neue Haas Grotesk Display Pro",
+            "weight": "500",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 50
+      },
+      "color": {
+        "background": "rgb(19, 19, 19)",
+        "backgroundLuminance": 0.006512090792594475,
+        "backgrounds": [
+          [
+            "rgba(255, 255, 255, 0.05)",
+            8
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(255, 255, 255)",
+            92
+          ],
+          [
+            "rgb(0, 0, 0)",
+            18
+          ],
+          [
+            "rgb(179, 179, 179)",
+            16
+          ],
+          [
+            "rgb(0, 0, 238)",
+            9
+          ]
+        ],
+        "meanSaturation": 0,
+        "rootVars": {
+          "--angle": "45deg",
+          "--opacity": ".5"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 6,
+        "sticky": 0,
+        "fixed": 5,
+        "grid": 0,
+        "flex": 20,
+        "absolute": 75,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 3980,
+        "pages": 4.7,
+        "spacing": [
+          [
+            12,
+            20
+          ],
+          [
+            20,
+            12
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            16,
+            3
+          ],
+          [
+            40,
+            2
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 0,
+        "animationKinds": [],
+        "infiniteAnimations": 0,
+        "animationDurations": [],
+        "easings": [],
+        "transitionDurationsMs": [
+          [
+            300,
+            12
+          ],
+          [
+            400,
+            11
+          ],
+          [
+            200,
+            3
+          ],
+          [
+            500,
+            1
+          ]
+        ],
+        "keyframes": [
+          "btn-draw"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 28,
+      "media": {
+        "canvases": [
+          {
+            "w": 585,
+            "h": 1266,
+            "area": 1
+          }
+        ],
+        "videos": [
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://elvalabs.ai/loader.webm"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://elvalabs.ai/mainflow/1_1_m.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://elvalabs.ai/mainflow/1_2_m.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://elvalabs.ai/mainflow/1_3_m.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://elvalabs.ai/mainflow/1_41_m.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": false,
+            "muted": true,
+            "src": "https://elvalabs.ai/flow_fixed_m.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://elvalabs.ai/mainflow/1_1_m.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://elvalabs.ai/mainflow/1_2_m.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://elvalabs.ai/mainflow/1_3_m.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://elvalabs.ai/mainflow/1_41_m.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://elvalabs.ai/mainflow/1_5_m.mp4"
+          }
+        ],
+        "svg": 10,
+        "images": 9,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 1,
+          "webgl": 47
+        },
+        "raf": 42,
+        "io": 0,
+        "ro": 0,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 2,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Elva",
+      "lang": "en",
+      "description": "Elva - Your personal AI director, turning everyday videos into emotional stories."
+    },
+    "featuresBeforeScroll": {
+      "elements": 398,
+      "canvases": 1,
+      "animations": 0,
+      "hidden": 21
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 9747500,
+        "layoutCount": 12,
+        "recalcStyleCount": 42,
+        "scriptDuration": 0.126158,
+        "taskDuration": 14.690027,
+        "nodes": 2907
+      },
+      "timing": {
+        "domContentLoaded": 581,
+        "load": 4358,
+        "first-paint": 308,
+        "first-contentful-paint": 308
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A070200034350000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A030DD0B34350000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      }
+    ],
+    "exceptions": [
+      "NotSupportedError: Failed to load because no supported source was found.",
+      "NotSupportedError: Failed to load because no supported source was found."
+    ],
+    "failed": [
+      {
+        "url": "https://elvalabs.ai/flow_fixed_m.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://elvalabs.ai/mainflow/1_1_m.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://elvalabs.ai/sprite_s.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://elvalabs.ai/flow0_fixed.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://elvalabs.ai/flow0_fixed.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://elvalabs.ai/sprite_s.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://elvalabs.ai/girl.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://elvalabs.ai/girl.mp4",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 1
+    }
+  }
+}

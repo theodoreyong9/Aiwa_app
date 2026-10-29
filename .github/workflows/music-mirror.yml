@@ -1,0 +1,35 @@
+name: Music mirror
+
+# Copies the tracks an agent will use into the release `music` of this repository, one file per track (`<id>.mp3`), so that a session whose network cannot
+# reach the source can still download it from GitHub. Only tracks of the register (CC0, public domain, CC BY) are copied, and only on request: the credit
+# stays attached to each (skills/kit/music-research/README.md). Nothing is copied unless its id is in the register.
+on:
+  workflow_dispatch:
+    inputs:
+      ids:
+        description: 'Track ids, comma separated (e.g. inc-the-complex,oga-battle-theme-a)'
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Download each track from its source and put it in the release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          IDS: ${{ github.event.inputs.ids }}
+        run: |
+          set +e
+          gh release view music >/dev/null 2>&1 || gh release create music --title "Music" --notes "Tracks of skills/kit/music-research/catalog/tracks.jsonl copied on request. Licences and credits are in the register; see skills/kit/music-research/README.md." 
+          for id in $(echo "$IDS" | tr ',' ' '); do
+            MR_NO_MIRROR=1 node skills/kit/music-research/src/cli.js fetch "$id" "/tmp/$id.mp3" > "/tmp/$id.json" || { echo "::warning title=$id::not downloaded: $(cat /tmp/$id.json)"; continue; }
+            gh release upload music "/tmp/$id.mp3" --clobber && echo "::notice title=$id::$(cat /tmp/$id.json)"
+          done

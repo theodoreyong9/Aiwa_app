@@ -1,0 +1,2433 @@
+{
+  "url": "https://dkton.at/",
+  "at": "2026-10-09T11:19:21.959Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 15368,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 1336,
+      "typography": {
+        "families": [
+          [
+            "Gt Walsheim Condensed",
+            108
+          ],
+          [
+            "Geistmono",
+            57
+          ]
+        ],
+        "weights": [
+          [
+            "700",
+            76
+          ],
+          [
+            "300",
+            57
+          ],
+          [
+            "900",
+            32
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            82
+          ]
+        ],
+        "sizeMin": 10,
+        "sizeMedian": 24,
+        "sizeMax": 230.4,
+        "sizeMaxVw": 16,
+        "scaleRatio": 9.6,
+        "letterSpacingMean": -0.01,
+        "loadedFonts": [
+          {
+            "family": "Geistmono",
+            "weight": "300",
+            "style": "normal"
+          },
+          {
+            "family": "Gt Walsheim Condensed",
+            "weight": "900",
+            "style": "italic"
+          },
+          {
+            "family": "Gt Walsheim Condensed",
+            "weight": "700",
+            "style": "normal"
+          },
+          {
+            "family": "Gt Walsheim Condensed",
+            "weight": "700",
+            "style": "italic"
+          },
+          {
+            "family": "Gt Walsheim Condensed",
+            "weight": "900",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 165
+      },
+      "color": {
+        "background": "rgb(0, 0, 0)",
+        "backgroundLuminance": 0,
+        "backgrounds": [
+          [
+            "rgb(0, 0, 0)",
+            13396
+          ],
+          [
+            "rgb(255, 184, 0)",
+            256
+          ],
+          [
+            "rgb(166, 126, 255)",
+            255
+          ],
+          [
+            "rgb(255, 67, 55)",
+            255
+          ],
+          [
+            "rgba(0, 0, 0, 0.45)",
+            93
+          ],
+          [
+            "rgba(255, 184, 0, 0.3)",
+            17
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(255, 255, 255)",
+            684
+          ],
+          [
+            "rgb(255, 184, 0)",
+            55
+          ],
+          [
+            "rgba(0, 0, 0, 0)",
+            32
+          ],
+          [
+            "rgba(0, 0, 0, 0.82)",
+            24
+          ],
+          [
+            "color(srgb 1 1 1 / 0.62)",
+            9
+          ]
+        ],
+        "meanSaturation": 0.55,
+        "rootVars": {
+          "--_theme---background": "var(--swatch--dark-900)",
+          "--_text-style---font-family": "var(--_typography---font--primary-family)",
+          "--_theme---text": "var(--swatch--light-100)",
+          "--_text-style---font-size": "var(--_typography---font-size--text-main)",
+          "--_text-style---line-height": "var(--_typography---line-height--huge)",
+          "--_text-style---font-weight": "var(--_typography---font--primary-bold)",
+          "--_text-style---letter-spacing": "var(--_typography---letter-spacing--normal)",
+          "--_text-style---margin-bottom": "var(--_spacing---space--4)",
+          "--_text-style---text-wrap": "pretty",
+          "--_gap---size": "var(--site--gutter)",
+          "--_column-count---value": "1",
+          "--_text-style---margin-top": "var(--_spacing---space--4)",
+          "--_spacing---space--6": "clamp(2*1rem,((2 - ((2.5 - 2)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((2.5 - 2)/(var(--site--viewport-max) - var(--site--viewport-min)))*100vw),2.5*1rem)",
+          "--_text-style---trim-top": "var(--_typography---font--primary-trim-top)",
+          "--_text-style---trim-bottom": "var(--_typography---font--primary-trim-bottom)",
+          "--_spacing---space--7": "clamp(2.25*1rem,((2.25 - ((3 - 2.25)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((3 - 2.25)/(var(--site--viewport-max) - var(--site--viewport-min)))*100vw),3*1rem)",
+          "--_typography---line-height--small": ".8",
+          "--_typography---line-height--medium": "1",
+          "--_typography---line-height--large": "1.2",
+          "--_typography---line-height--huge": "1.4",
+          "--_typography---letter-spacing--tight": "-.02em",
+          "--_typography---letter-spacing--normal": "0em",
+          "--max-width--main": "calc(var(--site--viewport-max)*1rem)",
+          "--site--margin": "clamp(1*1rem,((1 - ((2.5 - 1)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((2.5 - 1)/(var(--site--viewport-max) - var(--site--viewport-min)))*100vw),2.5*1rem)",
+          "--max-width--small": "50rem",
+          "--max-width--full": "100%",
+          "--border-width--main": "1px",
+          "--_spacing---section-space--none": "0px",
+          "--_spacing---section-space--small": "clamp(3*1rem,((3 - ((5 - 3)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((5 - 3)/(var(--site--viewport-max) - var(--site--viewport-min)))*100vw),5*1rem)",
+          "--_spacing---section-space--main": "clamp(4*1rem,((4 - ((7 - 4)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((7 - 4)/(var(--site--viewport-max) - var(--site--viewport-min)))*100vw),7*1rem)",
+          "--_spacing---section-space--large": "clamp(5.5*1rem,((5.5 - ((10 - 5.5)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((10 - 5.5)/(var(--site--viewport-max) - var(--site--viewport-min)))*100vw),10*1rem)",
+          "--_spacing---section-space--page-top": "clamp(10*1rem,((10 - ((14 - 10)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((14 - 10)/(var(--site--viewport-max) - var(--site--viewport-min)))*100vw),14*1rem)",
+          "--_theme---heading-accent": "var(--swatch--brand-500)",
+          "--_spacing---space--2": "clamp(.625*1rem,((.625 - ((.75 - .625)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((.75 - .625)/(var(--site--viewport-max) - var(--site--viewport-min)))*100vw),.75*1rem)",
+          "--site--gutter": "1rem",
+          "--_theme---background-2": "var(--swatch--dark-800)",
+          "--_spacing---space--1": "clamp(.375*1rem,((.375 - ((.5 - .375)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((.5 - .375)/(var(--site--viewport-max) - var(--site--viewport-min)))*100vw),.5*1rem)",
+          "--_spacing---space--3": "clamp(.875*1rem,((.875 - ((1 - .875)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((1 - .875)/(var(--site--viewport-max) - var(--site--viewport-min)))*100vw),1*1rem)",
+          "--_spacing---space--4": "clamp(1.25*1rem,((1.25 - ((1.5 - 1.25)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((1.5 - 1.25)/(var(--site--viewport-max) - var(--site--viewport-min)))*100vw),1.5*1rem)",
+          "--_spacing---space--5": "clamp(1.75*1rem,((1.75 - ((2 - 1.75)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((2 - 1.75)/(var(--site--viewport-max) - var(--site--viewport-min)))*100vw),2*1rem)"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 4,
+        "sticky": 1,
+        "fixed": 8,
+        "grid": 11,
+        "flex": 283,
+        "absolute": 290,
+        "asymmetricGrids": 4,
+        "splitScreen": false,
+        "scrollHeight": 900,
+        "pages": 1,
+        "spacing": [
+          [
+            8,
+            92
+          ],
+          [
+            4,
+            40
+          ],
+          [
+            114,
+            30
+          ],
+          [
+            11,
+            22
+          ],
+          [
+            16,
+            14
+          ],
+          [
+            24,
+            12
+          ],
+          [
+            45,
+            10
+          ],
+          [
+            32,
+            5
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 5,
+        "animationKinds": [
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 5,
+        "animationDurations": [
+          17000,
+          17000,
+          17000,
+          17000,
+          17000
+        ],
+        "easings": [
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            340,
+            46
+          ],
+          [
+            90,
+            40
+          ],
+          [
+            900,
+            22
+          ],
+          [
+            700,
+            20
+          ],
+          [
+            200,
+            19
+          ]
+        ],
+        "keyframes": [
+          "dkton-button-sweep",
+          "spin",
+          "gateCopyFailsafe",
+          "dkCore",
+          "dkRing",
+          "dkShard",
+          "dk-eq",
+          "flareSweep",
+          "glowNoise",
+          "lensBreath",
+          "dkw-drift"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 17,
+      "media": {
+        "canvases": [
+          {
+            "w": 50,
+            "h": 50,
+            "area": 0
+          },
+          {
+            "w": 50,
+            "h": 50,
+            "area": 0
+          },
+          {
+            "w": 310,
+            "h": 50,
+            "area": 0.01
+          },
+          {
+            "w": 1425,
+            "h": 810,
+            "area": 0.89
+          }
+        ],
+        "videos": [
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://kostolnik.org/thumbnails/Thumb_3Mbit_Bernegger-neue-Jobs.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://kostolnik.org/thumbnails/Thumb_3Mbit_Hydrogrid.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://kostolnik.org/thumbnails/Thumb_3Mbit_Take-a-Risk.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://kostolnik.org/thumbnails/Thumb_3Mbit_Walter.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          }
+        ],
+        "svg": 11,
+        "images": 23,
+        "iframes": 1,
+        "customCursor": true
+      },
+      "runtime": {
+        "contexts": {
+          "2d": 4
+        },
+        "raf": 640,
+        "io": 13,
+        "ro": 11,
+        "mo": 7,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": true,
+        "ScrollTrigger": true,
+        "THREE": false,
+        "Lenis": true,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": true,
+        "jQuery": true,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": true,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": true,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Dominik Kostolnik | Tonmeister & Sounddesigner für Film",
+      "lang": "de",
+      "description": "Tonmeister und Sounddesigner für Film, Werbung & Animation. Originalton, Sounddesign und Mischung – präzise Klangwelten für eindrucksvolle Hörerlebnisse."
+    },
+    "featuresBeforeScroll": {
+      "elements": 1336,
+      "canvases": 4,
+      "animations": 7,
+      "hidden": 17
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 6,
+      "changed": 0
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 4701104,
+        "layoutCount": 115,
+        "recalcStyleCount": 1808,
+        "scriptDuration": 0.154367,
+        "taskDuration": 2.344667,
+        "nodes": 5677
+      },
+      "timing": {
+        "domContentLoaded": 670,
+        "load": 908,
+        "first-paint": 636,
+        "first-contentful-paint": 636
+      }
+    },
+    "network": [
+      {
+        "url": "https://dkton.at/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 51143
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68e38ef9dfa20e2c9785c005/css/dkton.webflow.shared.f0b68f071.min.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 8904
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68e38ef9dfa20e2c9785c005/css/dkton.webflow.68e38efbdfa20e2c9785c09b.785053e70.opt.min.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 13105
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68e38ef9dfa20e2c9785c005/6a9ec3011332e91c8869cfc1_GT%20Walsheim%20Condensed%20Bold.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 63935
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68e38ef9dfa20e2c9785c005/6a9ec301eecfc49e552c8adb_GT%20Walsheim%20Condensed%20Black%20Oblique.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 54523
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68e38ef9dfa20e2c9785c005/6a66543b098125f51a7066da_dkton-intro-riser.mp3",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 28339
+      },
+      {
+        "url": "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=68e38ef9dfa20e2c9785c005",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 31099
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68e38ef9dfa20e2c9785c005/js/webflow.f3a8343d.ce064fe117c798b3.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 2079
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 29598
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 18613
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 3934
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/gsap/3.15.0/CustomEase.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 4215
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/lenis@1.3.26/dist/lenis.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 6049
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68e38ef9dfa20e2c9785c005/js/webflow.achunk.df5a6854aba4f130.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 8853
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68e38ef9dfa20e2c9785c005/js/webflow.achunk.efee02507cc3a6ac.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 945
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68e38ef9dfa20e2c9785c005/js/webflow.achunk.539416238115c56c.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 908
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68e38ef9dfa20e2c9785c005/js/webflow.achunk.cb16a726114841bc.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1642
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68e38ef9dfa20e2c9785c005/js/webflow.achunk.a83e44aedd478bad.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 721
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68e38ef9dfa20e2c9785c005/js/webflow.achunk.53b0e10def64caa8.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1025
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68e38ef9dfa20e2c9785c005/js/webflow.achunk.cb6f0dcaff0d57ef.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 862
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68e38ef9dfa20e2c9785c005/js/webflow.achunk.25cddb252aee8bac.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1360
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68e38ef9dfa20e2c9785c005/js/webflow.achunk.822d545db3bccac7.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 4204
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2232%22%20height%3D%2232%22%20viewBox%3D%220%200%2032%2032%22%3E%3Crect%20x%3D%227.5%22%20y%3D%227.5%22%20width%3D%2217%22%20height%3D%2217%22%20rx%3D%228.5%22%20fill%3D%22none%22%20stroke%3D%22%23000%22%20stroke-opacity%3D%22.5%22%20stroke-width%3D%223.2%22%2F%3E%3Crect%20x%3D%227.5%22%20y%3D%227.5%22%20width%3D%2217%22%20height%3D%2217%22%20rx%3D%228.5%22%20fill%3D%22none%22%20stroke%3D%22%23ffffff%22%20stroke-width%3D%222%22%2F%3E%3C%2Fsvg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2232%22%20height%3D%2232%22%20viewBox%3D%220%200%2032%2032%22%3E%3Crect%20x%3D%2210.8%22%20y%3D%2210.8%22%20width%3D%2210.5%22%20height%3D%2210.5%22%20rx%3D%225.3%22%20fill%3D%22none%22%20stroke%3D%22%23000%22%20stroke-opacity%3D%22.5%22%20stroke-width%3D%223.6%22%2F%3E%3Crect%20x%3D%2210.8%22%20y%3D%2210.8%22%20width%3D%2210.5%22%20height%3D%2210.5%22%20rx%3D%225.3%22%20fill%3D%22none%22%20stroke%3D%22%23ffb800%22%20stroke-width%3D%222.4%22%2F%3E%3C%2Fsvg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68e38ef9dfa20e2c9785c005/6a65f9e677aaa67b816a76dd_GeistMono-Light.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 51671
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2232%22%20height%3D%2232%22%20viewBox%3D%220%200%2032%2032%22%3E%3Crect%20x%3D%2214.3%22%20y%3D%227%22%20width%3D%223.4%22%20height%3D%2218%22%20rx%3D%221.7%22%20fill%3D%22none%22%20stroke%3D%22%23000%22%20stroke-opacity%3D%22.5%22%20stroke-width%3D%221.2%22%2F%3E%3Crect%20x%3D%2214.3%22%20y%3D%227%22%20width%3D%223.4%22%20height%3D%2218%22%20rx%3D%221.7%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%221%22%2F%3E%3C%2Fsvg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68e38ef9dfa20e2c9785c005/6a9ec301fbe709b1d24b7fe2_GT%20Walsheim%20Condensed%20Bold%20Oblique.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 49380
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68e38ef9dfa20e2c9785c005/6a9ec301df8d609056554c83_GT%20Walsheim%20Condensed%20Black.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 64584
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2232%22%20height%3D%2232%22%20viewBox%3D%220%200%2032%2032%22%3E%3Crect%20x%3D%2210.3%22%20y%3D%2210.3%22%20width%3D%2211.5%22%20height%3D%2211.5%22%20rx%3D%225.8%22%20fill%3D%22none%22%20stroke%3D%22%23000%22%20stroke-opacity%3D%22.5%22%20stroke-width%3D%223.4%22%2F%3E%3Crect%20x%3D%2210.3%22%20y%3D%2210.3%22%20width%3D%2211.5%22%20height%3D%2211.5%22%20rx%3D%225.8%22%20fill%3D%22none%22%20stroke%3D%22%23ffb800%22%20stroke-width%3D%222.2%22%2F%3E%3Ccircle%20cx%3D%225.4%22%20cy%3D%2216%22%20r%3D%224.2%22%20fill%3D%22none%22%20stroke%3D%22%23000%22%20stroke-opacity%3D%22.5%22%20stroke-width%3D%221.2%22%2F%3E%3Ccircle%20cx%3D%225.4%22%20cy%3D%2216%22%20r%3D%224.2%22%20fill%3D%22%23735300%22%2F%3E%3Ccircle%20cx%3D%2226.6%22%20cy%3D%2216%22%20r%3D%224.2%22%20fill%3D%22none%22%20stroke%3D%22%23000%22%20stroke-opacity%3D%22.5%22%20stroke-width%3D%221.2%22%2F%3E%3Ccircle%20cx%3D%2226.6%22%20cy%3D%2216%22%20r%3D%224.2%22%20fill%3D%22%23735300%22%2F%3E%3C%2Fsvg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 9305
+      },
+      {
+        "url": "https://assets.slater.app/slater/17279.js?v=1.0",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 916
+      },
+      {
+        "url": "https://assets.slater.app/slater/17279/50258.js?v=491611",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1507
+      },
+      {
+        "url": "https://assets.slater.app/slater/17279/63398.js?v=213681",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1972
+      },
+      {
+        "url": "https://assets.slater.app/slater/17279/63403.js?v=74261",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 4025
+      },
+      {
+        "url": "https://assets.slater.app/slater/17279/63392.js?v=728262",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 5368
+      },
+      {
+        "url": "https://assets.slater.app/slater/17279/63437.js?v=335069",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 3910
+      },
+      {
+        "url": "https://assets.slater.app/slater/17279/63395.js?v=313753",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1962
+      },
+      {
+        "url": "https://assets.slater.app/slater/17279/64025.js?v=819567",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 3129
+      },
+      {
+        "url": "https://assets.slater.app/slater/17279/64790.js?v=685108",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1099
+      },
+      {
+        "url": "https://assets.slater.app/slater/17279/63438.js?v=552072",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 4348
+      },
+      {
+        "url": "https://assets.slater.app/slater/17279/64791.js?v=901289",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 5173
+      },
+      {
+        "url": "https://assets.slater.app/slater/17279/64689.js?v=415358",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 2265
+      },
+      {
+        "url": "https://assets.slater.app/slater/17279/64019.js?v=608876",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 4432
+      },
+      {
+        "url": "https://assets.slater.app/slater/17279/64661.js?v=30164",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 2362
+      },
+      {
+        "url": "https://assets.slater.app/slater/17279/63801.js?v=800806",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 3457
+      },
+      {
+        "url": "https://assets.slater.app/slater/17279/64726.js?v=96609",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1156
+      },
+      {
+        "url": "https://assets.slater.app/slater/17279/64725.js?v=889290",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 3940
+      },
+      {
+        "url": "https://assets.slater.app/slater/17279/63776.js?v=533506",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 6097
+      },
+      {
+        "url": "https://assets.slater.app/slater/17279/63812.js?v=495971",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 984
+      },
+      {
+        "url": "https://assets.slater.app/slater/17279/63631.js?v=218444",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 8054
+      },
+      {
+        "url": "https://assets.slater.app/slater/17279/63439.js?v=66891",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 2177
+      },
+      {
+        "url": "https://assets.slater.app/slater/17279/64104.js?v=422620",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1971
+      },
+      {
+        "url": "https://assets.slater.app/slater/17279/63399.js?v=200454",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1623
+      },
+      {
+        "url": "https://assets.slater.app/slater/17279/63634.js?v=447400",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 4504
+      },
+      {
+        "url": "https://assets.slater.app/slater/17279/49255.js?v=877774",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1530
+      },
+      {
+        "url": "https://assets.slater.app/slater/17279/50261.js?v=690429",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 2764
+      },
+      {
+        "url": "https://assets.slater.app/slater/17279/49277.js?v=317692",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1131
+      },
+      {
+        "url": "https://player.vimeo.com/api/player.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 8795
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/68e38ef9dfa20e2c9785c005/6a0b80ed05589560ccd23b69_IMG_4179.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 108778
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23FFB800' stroke-width='2'%3E%3Crect x='2' y='5' width='20' height='14' rx='1'/%3E%3Cpath d='m2 7 10 6 10-6'/%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "flareSweep",
+        "duration": 12000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "dk-eq",
+        "duration": 1150,
+        "delay": -180,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "dk-eq",
+        "duration": 1150,
+        "delay": -270,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "dk-eq",
+        "duration": 1150,
+        "delay": -630,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "dk-eq",
+        "duration": 1150,
+        "delay": -450,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "lensBreath",
+        "duration": 5000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "dk-eq",
+        "duration": 1150,
+        "delay": -540,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "gateCopyFailsafe",
+        "duration": 1,
+        "delay": 1500,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "dk-eq",
+        "duration": 1150,
+        "delay": -90,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "dk-eq",
+        "duration": 1150,
+        "delay": -360,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "gateCopyFailsafe",
+        "duration": 1,
+        "delay": 1500,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "dk-eq",
+        "duration": 1150,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke",
+        "duration": 200,
+        "delay": 70,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke",
+        "duration": 200,
+        "delay": 105,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke",
+        "duration": 200,
+        "delay": 245,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke",
+        "duration": 200,
+        "delay": 175,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke",
+        "duration": 200,
+        "delay": 210,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke",
+        "duration": 200,
+        "delay": 35,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke",
+        "duration": 200,
+        "delay": 140,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 900,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.6, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 900,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.6, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 900,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.6, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 900,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.6, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 900,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.6, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 80,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 560,
+        "delay": 420,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 560,
+        "delay": 550,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 80,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 80,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 80,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 80,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 80,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 80,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 80,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 80,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 80,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 80,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 80,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 80,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 80,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 80,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 80,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 80,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 80,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 80,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 80,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "The resource https://cdn.prod.website-files.com/68e38ef9dfa20e2c9785c005/6a66543b098125f51a7066da_dkton-intro-riser.mp3 was preloaded using link preload but not used within a few seconds from the wind"
+      }
+    ],
+    "exceptions": [],
+    "failed": [],
+    "targets": {
+      "frames": 2,
+      "workers": 0
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 2869,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 1333,
+      "typography": {
+        "families": [
+          [
+            "Gt Walsheim Condensed",
+            108
+          ],
+          [
+            "Geistmono",
+            57
+          ]
+        ],
+        "weights": [
+          [
+            "700",
+            76
+          ],
+          [
+            "300",
+            57
+          ],
+          [
+            "900",
+            32
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            82
+          ]
+        ],
+        "sizeMin": 10,
+        "sizeMedian": 22.125,
+        "sizeMax": 86.4,
+        "sizeMaxVw": 22.2,
+        "scaleRatio": 3.9,
+        "letterSpacingMean": -0.01,
+        "loadedFonts": [
+          {
+            "family": "Geistmono",
+            "weight": "300",
+            "style": "normal"
+          },
+          {
+            "family": "Gt Walsheim Condensed",
+            "weight": "900",
+            "style": "italic"
+          },
+          {
+            "family": "Gt Walsheim Condensed",
+            "weight": "700",
+            "style": "normal"
+          },
+          {
+            "family": "Gt Walsheim Condensed",
+            "weight": "700",
+            "style": "italic"
+          },
+          {
+            "family": "Gt Walsheim Condensed",
+            "weight": "900",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 165
+      },
+      "color": {
+        "background": "rgb(0, 0, 0)",
+        "backgroundLuminance": 0,
+        "backgrounds": [
+          [
+            "rgb(0, 0, 0)",
+            2872
+          ],
+          [
+            "rgba(0, 0, 0, 0.45)",
+            93
+          ],
+          [
+            "rgb(255, 184, 0)",
+            34
+          ],
+          [
+            "rgb(166, 126, 255)",
+            34
+          ],
+          [
+            "rgb(255, 67, 55)",
+            34
+          ],
+          [
+            "rgba(255, 184, 0, 0.3)",
+            17
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(255, 255, 255)",
+            631
+          ],
+          [
+            "rgb(255, 184, 0)",
+            55
+          ],
+          [
+            "rgba(0, 0, 0, 0)",
+            32
+          ],
+          [
+            "rgb(77, 77, 77)",
+            28
+          ],
+          [
+            "rgba(0, 0, 0, 0.82)",
+            24
+          ]
+        ],
+        "meanSaturation": 0.55,
+        "rootVars": {
+          "--_theme---background": "var(--swatch--dark-900)",
+          "--_text-style---font-family": "var(--_typography---font--primary-family)",
+          "--_theme---text": "var(--swatch--light-100)",
+          "--_text-style---font-size": "var(--_typography---font-size--text-main)",
+          "--_text-style---line-height": "var(--_typography---line-height--huge)",
+          "--_text-style---font-weight": "var(--_typography---font--primary-bold)",
+          "--_text-style---letter-spacing": "var(--_typography---letter-spacing--normal)",
+          "--_text-style---margin-bottom": "var(--_spacing---space--4)",
+          "--_text-style---text-wrap": "pretty",
+          "--_gap---size": "var(--site--gutter)",
+          "--_column-count---value": "1",
+          "--_text-style---margin-top": "var(--_spacing---space--4)",
+          "--_spacing---space--6": "clamp(2*1rem,((2 - ((2.5 - 2)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((2.5 - 2)/(var(--site--viewport-max) - var(--site--viewport-min)))*100vw),2.5*1rem)",
+          "--_text-style---trim-top": "var(--_typography---font--primary-trim-top)",
+          "--_text-style---trim-bottom": "var(--_typography---font--primary-trim-bottom)",
+          "--_spacing---space--7": "clamp(2.25*1rem,((2.25 - ((3 - 2.25)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((3 - 2.25)/(var(--site--viewport-max) - var(--site--viewport-min)))*100vw),3*1rem)",
+          "--_typography---line-height--small": ".8",
+          "--_typography---line-height--medium": "1",
+          "--_typography---line-height--large": "1.2",
+          "--_typography---line-height--huge": "1.4",
+          "--_typography---letter-spacing--tight": "-.02em",
+          "--_typography---letter-spacing--normal": "0em",
+          "--max-width--main": "calc(var(--site--viewport-max)*1rem)",
+          "--site--margin": "clamp(1*1rem,((1 - ((2.5 - 1)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((2.5 - 1)/(var(--site--viewport-max) - var(--site--viewport-min)))*100vw),2.5*1rem)",
+          "--max-width--small": "50rem",
+          "--max-width--full": "100%",
+          "--border-width--main": "1px",
+          "--_spacing---section-space--none": "0px",
+          "--_spacing---section-space--small": "clamp(3*1rem,((3 - ((5 - 3)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((5 - 3)/(var(--site--viewport-max) - var(--site--viewport-min)))*100vw),5*1rem)",
+          "--_spacing---section-space--main": "clamp(4*1rem,((4 - ((7 - 4)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((7 - 4)/(var(--site--viewport-max) - var(--site--viewport-min)))*100vw),7*1rem)",
+          "--_spacing---section-space--large": "clamp(5.5*1rem,((5.5 - ((10 - 5.5)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((10 - 5.5)/(var(--site--viewport-max) - var(--site--viewport-min)))*100vw),10*1rem)",
+          "--_spacing---section-space--page-top": "clamp(10*1rem,((10 - ((14 - 10)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((14 - 10)/(var(--site--viewport-max) - var(--site--viewport-min)))*100vw),14*1rem)",
+          "--_theme---heading-accent": "var(--swatch--brand-500)",
+          "--_spacing---space--2": "clamp(.625*1rem,((.625 - ((.75 - .625)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((.75 - .625)/(var(--site--viewport-max) - var(--site--viewport-min)))*100vw),.75*1rem)",
+          "--site--gutter": "1rem",
+          "--_theme---background-2": "var(--swatch--dark-800)",
+          "--_spacing---space--1": "clamp(.375*1rem,((.375 - ((.5 - .375)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((.5 - .375)/(var(--site--viewport-max) - var(--site--viewport-min)))*100vw),.5*1rem)",
+          "--_spacing---space--3": "clamp(.875*1rem,((.875 - ((1 - .875)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((1 - .875)/(var(--site--viewport-max) - var(--site--viewport-min)))*100vw),1*1rem)",
+          "--_spacing---space--4": "clamp(1.25*1rem,((1.25 - ((1.5 - 1.25)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((1.5 - 1.25)/(var(--site--viewport-max) - var(--site--viewport-min)))*100vw),1.5*1rem)",
+          "--_spacing---space--5": "clamp(1.75*1rem,((1.75 - ((2 - 1.75)/(var(--site--viewport-max) - var(--site--viewport-min))*var(--site--viewport-min)))*1rem + ((2 - 1.75)/(var(--site--viewport-max) - var(--site--viewport-min)))*100vw),2*1rem)"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 4,
+        "sticky": 1,
+        "fixed": 8,
+        "grid": 11,
+        "flex": 277,
+        "absolute": 274,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 844,
+        "pages": 1,
+        "spacing": [
+          [
+            8,
+            64
+          ],
+          [
+            4,
+            62
+          ],
+          [
+            14,
+            33
+          ],
+          [
+            6,
+            23
+          ],
+          [
+            26,
+            10
+          ],
+          [
+            16,
+            9
+          ],
+          [
+            7,
+            7
+          ],
+          [
+            20,
+            7
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 5,
+        "animationKinds": [
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 5,
+        "animationDurations": [
+          17000,
+          17000,
+          17000,
+          17000,
+          17000
+        ],
+        "easings": [
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            340,
+            46
+          ],
+          [
+            90,
+            40
+          ],
+          [
+            900,
+            22
+          ],
+          [
+            700,
+            20
+          ],
+          [
+            300,
+            18
+          ]
+        ],
+        "keyframes": [
+          "dkton-button-sweep",
+          "spin",
+          "gateCopyFailsafe",
+          "dk-eq",
+          "flareSweep",
+          "glowNoise",
+          "lensBreath",
+          "dkw-drift"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 18,
+      "media": {
+        "canvases": [
+          {
+            "w": 100,
+            "h": 100,
+            "area": 0.01
+          },
+          {
+            "w": 100,
+            "h": 100,
+            "area": 0.01
+          },
+          {
+            "w": 422,
+            "h": 100,
+            "area": 0.03
+          },
+          {
+            "w": 585,
+            "h": 706,
+            "area": 0.56
+          }
+        ],
+        "videos": [
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://kostolnik.org/thumbnails/Thumb_3Mbit_Bernegger-neue-Jobs.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://kostolnik.org/thumbnails/Thumb_3Mbit_Hydrogrid.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://kostolnik.org/thumbnails/Thumb_3Mbit_Take-a-Risk.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://kostolnik.org/thumbnails/Thumb_3Mbit_Walter.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          }
+        ],
+        "svg": 11,
+        "images": 23,
+        "iframes": 1,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "2d": 4
+        },
+        "raf": 795,
+        "io": 13,
+        "ro": 11,
+        "mo": 6,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": true,
+        "ScrollTrigger": true,
+        "THREE": false,
+        "Lenis": true,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": true,
+        "jQuery": true,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": true,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": true,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Dominik Kostolnik | Tonmeister & Sounddesigner für Film",
+      "lang": "de",
+      "description": "Tonmeister und Sounddesigner für Film, Werbung & Animation. Originalton, Sounddesign und Mischung – präzise Klangwelten für eindrucksvolle Hörerlebnisse."
+    },
+    "featuresBeforeScroll": {
+      "elements": 1333,
+      "canvases": 4,
+      "animations": 7,
+      "hidden": 18
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 4949560,
+        "layoutCount": 98,
+        "recalcStyleCount": 400,
+        "scriptDuration": 0.09443,
+        "taskDuration": 0.615291,
+        "nodes": 5604
+      },
+      "timing": {
+        "domContentLoaded": 284,
+        "load": 438,
+        "first-paint": 272,
+        "first-contentful-paint": 272
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "lensBreath",
+        "duration": 5000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "dk-eq",
+        "duration": 1150,
+        "delay": -180,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "dk-eq",
+        "duration": 1150,
+        "delay": -270,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "dk-eq",
+        "duration": 1150,
+        "delay": -630,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "flareSweep",
+        "duration": 12000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "dk-eq",
+        "duration": 1150,
+        "delay": -450,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "dk-eq",
+        "duration": 1150,
+        "delay": -540,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "gateCopyFailsafe",
+        "duration": 1,
+        "delay": 1500,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "dk-eq",
+        "duration": 1150,
+        "delay": -90,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "dk-eq",
+        "duration": 1150,
+        "delay": -360,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "gateCopyFailsafe",
+        "duration": 1,
+        "delay": 1500,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "dk-eq",
+        "duration": 1150,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 900,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.6, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 900,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.6, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 900,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.6, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 900,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.6, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 900,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.6, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke",
+        "duration": 200,
+        "delay": 70,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke",
+        "duration": 200,
+        "delay": 105,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke",
+        "duration": 200,
+        "delay": 245,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke",
+        "duration": 200,
+        "delay": 175,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke",
+        "duration": 200,
+        "delay": 210,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke",
+        "duration": 200,
+        "delay": 35,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke",
+        "duration": 200,
+        "delay": 140,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 560,
+        "delay": 420,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 560,
+        "delay": 550,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      }
+    ],
+    "console": [],
+    "exceptions": [],
+    "failed": [],
+    "targets": {
+      "frames": 2,
+      "workers": 0
+    }
+  }
+}

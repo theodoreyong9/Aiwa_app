@@ -1,0 +1,1987 @@
+{
+  "url": "https://belgradearbor.rs/en",
+  "at": "2026-10-19T09:56:43.129Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 30386,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 2634,
+      "typography": {
+        "families": [
+          [
+            "Work Sans",
+            106
+          ],
+          [
+            "editorialOld",
+            50
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            107
+          ],
+          [
+            "300",
+            49
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            42
+          ]
+        ],
+        "sizeMin": 13.986,
+        "sizeMedian": 15.984,
+        "sizeMax": 151.2,
+        "sizeMaxVw": 10.5,
+        "scaleRatio": 9.5,
+        "letterSpacingMean": 0.023,
+        "loadedFonts": [
+          {
+            "family": "Work Sans",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Work Sans",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Work Sans",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "Work Sans",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "editorialOld",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "editorialOld",
+            "weight": "300",
+            "style": "normal"
+          },
+          {
+            "family": "editorialOld",
+            "weight": "300",
+            "style": "italic"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 156
+      },
+      "color": {
+        "background": "rgb(253, 251, 239)",
+        "backgroundLuminance": 0.9610900223063283,
+        "backgrounds": [
+          [
+            "rgb(49, 71, 89)",
+            1296
+          ],
+          [
+            "rgb(253, 251, 239)",
+            1296
+          ],
+          [
+            "rgb(204, 191, 153)",
+            13
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(46, 58, 38)",
+            335
+          ],
+          [
+            "rgb(166, 129, 80)",
+            133
+          ],
+          [
+            "rgb(255, 244, 214)",
+            93
+          ],
+          [
+            "rgb(244, 240, 219)",
+            66
+          ],
+          [
+            "rgb(204, 191, 153)",
+            53
+          ]
+        ],
+        "meanSaturation": 0.25,
+        "rootVars": {
+          "--radius": ".625rem",
+          "--background": "var(--color-vanilla)",
+          "--foreground": "var(--color-pine-green)",
+          "--card": "#fff",
+          "--card-foreground": "#0a0a0a",
+          "--popover": "#fff",
+          "--popover-foreground": "#0a0a0a",
+          "--primary": "#171717",
+          "--primary-foreground": "#fafafa",
+          "--secondary": "#f5f5f5",
+          "--secondary-foreground": "#171717",
+          "--muted": "#f5f5f5",
+          "--muted-foreground": "#737373",
+          "--accent": "#f5f5f5",
+          "--accent-foreground": "#171717",
+          "--destructive": "#e40014",
+          "--border": "#e5e5e5",
+          "--input": "#e5e5e5",
+          "--ring": "#a1a1a1",
+          "--chart-1": "#f05100",
+          "--chart-2": "#009588",
+          "--chart-3": "#104e64",
+          "--chart-4": "#fcbb00",
+          "--chart-5": "#f99c00",
+          "--sidebar": "#fafafa",
+          "--sidebar-foreground": "#0a0a0a",
+          "--sidebar-primary": "#171717",
+          "--sidebar-primary-foreground": "#fafafa",
+          "--sidebar-accent": "#f5f5f5",
+          "--sidebar-accent-foreground": "#171717",
+          "--sidebar-border": "#e5e5e5",
+          "--sidebar-ring": "#a1a1a1"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 3,
+        "sticky": 3,
+        "fixed": 4,
+        "grid": 1,
+        "flex": 192,
+        "absolute": 214,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 20121,
+        "pages": 22.4,
+        "spacing": [
+          [
+            16,
+            52
+          ],
+          [
+            24,
+            51
+          ],
+          [
+            8,
+            43
+          ],
+          [
+            20,
+            34
+          ],
+          [
+            4,
+            19
+          ],
+          [
+            40,
+            15
+          ],
+          [
+            60,
+            12
+          ],
+          [
+            80,
+            9
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 0,
+        "animationKinds": [],
+        "infiniteAnimations": 0,
+        "animationDurations": [],
+        "easings": [],
+        "transitionDurationsMs": [
+          [
+            650,
+            148
+          ],
+          [
+            500,
+            49
+          ],
+          [
+            600,
+            22
+          ],
+          [
+            300,
+            15
+          ],
+          [
+            220,
+            6
+          ]
+        ],
+        "keyframes": [
+          "spin",
+          "enter",
+          "exit"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 378,
+      "media": {
+        "canvases": [
+          {
+            "w": 1420,
+            "h": 900,
+            "area": 0.99
+          },
+          {
+            "w": 864,
+            "h": 486,
+            "area": 0.32
+          }
+        ],
+        "videos": [
+          {
+            "autoplay": false,
+            "loop": false,
+            "muted": true,
+            "src": "https://belgradearbor.rs/home/hero.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://belgradearbor.rs/home/location/location.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          }
+        ],
+        "svg": 73,
+        "images": 51,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "2d": 2,
+          "webgl2": 1,
+          "webgl": 1
+        },
+        "raf": 894,
+        "io": 7,
+        "ro": 82,
+        "mo": 2,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Belgrade Arbor | Residential & Business Complex in New Belgrade",
+      "lang": "en",
+      "description": "Discover Belgrade Arbor - premium apartments and business spaces in New Belgrade. Explore residences, amenities, location, and availability."
+    },
+    "featuresBeforeScroll": {
+      "elements": 2634,
+      "canvases": 2,
+      "animations": 0,
+      "hidden": 410
+    },
+    "scrollReveal": 32,
+    "hover": {
+      "probed": 6,
+      "changed": 1
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 32006768,
+        "layoutCount": 2656,
+        "recalcStyleCount": 5463,
+        "scriptDuration": 1.990271,
+        "taskDuration": 24.759984,
+        "nodes": 6245
+      },
+      "timing": {
+        "domContentLoaded": 334,
+        "load": 2211,
+        "first-paint": 424,
+        "first-contentful-paint": 424
+      }
+    },
+    "network": [
+      {
+        "url": "https://belgradearbor.rs/en",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 65518
+      },
+      {
+        "url": "https://belgradearbor.rs/_next/static/media/7ddd198311ba7843-s.p.11f_0f-25f9yg.woff2?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 50755
+      },
+      {
+        "url": "https://belgradearbor.rs/_next/static/media/PPEditorialOld_Regular-s.p.10x77zcrykmnq.otf?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "font/otf",
+        "fromCache": false,
+        "bytes": 105246
+      },
+      {
+        "url": "https://belgradearbor.rs/_next/static/media/PPEditorialOld_Ultralight-s.p.0u.0t_8-1e3wa.otf?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "font/otf",
+        "fromCache": false,
+        "bytes": 103096
+      },
+      {
+        "url": "https://belgradearbor.rs/_next/static/media/PPEditorialOld_UltralightItalic-s.p.0ojl3s380s~4~.otf?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "font/otf",
+        "fromCache": false,
+        "bytes": 102394
+      },
+      {
+        "url": "https://belgradearbor.rs/home/introduction/leafs.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 80568
+      },
+      {
+        "url": "https://belgradearbor.rs/home/location/location.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 166162
+      },
+      {
+        "url": "https://belgradearbor.rs/home/residences/residences-hero.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 97522
+      },
+      {
+        "url": "https://belgradearbor.rs/home/business/business.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 129561
+      },
+      {
+        "url": "https://belgradearbor.rs/home/amenities/amenities-bg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 226823
+      },
+      {
+        "url": "https://belgradearbor.rs/_next/image?url=%2Fhome%2Ffooter%2Ffront.webp&w=1920&q=75&dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 251747
+      },
+      {
+        "url": "https://belgradearbor.rs/_next/static/chunks/0p5o.wdb6s0x3.css?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1048
+      },
+      {
+        "url": "https://belgradearbor.rs/_next/static/chunks/13l3zbj81552..css?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 17646
+      },
+      {
+        "url": "https://belgradearbor.rs/_next/static/chunks/0eqspdm2dt5_-.css?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 668
+      },
+      {
+        "url": "https://belgradearbor.rs/_next/static/chunks/00u~npbo7.a04.js?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 9624
+      },
+      {
+        "url": "https://belgradearbor.rs/_next/static/chunks/0fp4f9n3kdnns.js?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 7383
+      },
+      {
+        "url": "https://belgradearbor.rs/_next/static/chunks/13uxtbrew9p8k.js?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 49104
+      },
+      {
+        "url": "https://belgradearbor.rs/_next/static/chunks/110q6k5sdl4es.js?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 65534
+      },
+      {
+        "url": "https://belgradearbor.rs/_next/static/chunks/turbopack-11d20dr7kd-ys.js?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4772
+      },
+      {
+        "url": "https://belgradearbor.rs/_next/static/chunks/0~ekro4dwr2lx.js?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1652
+      },
+      {
+        "url": "https://belgradearbor.rs/_next/static/chunks/15kkz14ouerlw.js?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 13545
+      },
+      {
+        "url": "https://belgradearbor.rs/_next/static/chunks/07p~t9_ipiabo.js?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 7273
+      },
+      {
+        "url": "https://belgradearbor.rs/_next/static/chunks/03vuy6q6j4ly0.js?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 15850
+      },
+      {
+        "url": "https://belgradearbor.rs/_next/static/chunks/09j7w4tn._mx1.js?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 14327
+      },
+      {
+        "url": "https://belgradearbor.rs/_next/static/chunks/00xx30o3ajzic.js?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 39494
+      },
+      {
+        "url": "https://belgradearbor.rs/_next/static/chunks/01v_j1qgz7279.js?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 13028
+      },
+      {
+        "url": "https://belgradearbor.rs/_next/static/chunks/10tlgl5wd827~.js?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 46761
+      },
+      {
+        "url": "https://belgradearbor.rs/_next/static/chunks/0yq-18n76jjnc.js?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 7627
+      },
+      {
+        "url": "https://belgradearbor.rs/_next/static/chunks/0rr1c7aibu-sx.js?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 18014
+      },
+      {
+        "url": "https://belgradearbor.rs/_next/static/chunks/00attuc5pi6ze.js?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 9896
+      },
+      {
+        "url": "https://belgradearbor.rs/_next/static/chunks/13n~4to3480~e.js?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 14306
+      },
+      {
+        "url": "https://belgradearbor.rs/_next/static/chunks/0v4a4b733mtub.js?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 237581
+      },
+      {
+        "url": "https://belgradearbor.rs/_next/static/chunks/03v7hy-oej4hm.js?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 54906
+      },
+      {
+        "url": "https://belgradearbor.rs/_next/static/chunks/0pu5ckuyou92-.js?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1030
+      },
+      {
+        "url": "https://belgradearbor.rs/_next/static/chunks/0-bspkoivuqde.css?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1108
+      },
+      {
+        "url": "https://js-eu1.hs-scripts.com/148338609.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1248
+      },
+      {
+        "url": "https://belgradearbor.rs/home/introduction/image1.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 91259
+      },
+      {
+        "url": "https://belgradearbor.rs/home/introduction/image2.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 35832
+      },
+      {
+        "url": "https://belgradearbor.rs/home/introduction/image4.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 81657
+      },
+      {
+        "url": "https://belgradearbor.rs/home/introduction/image3.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 81550
+      },
+      {
+        "url": "https://belgradearbor.rs/home/roots/mask3.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 590
+      },
+      {
+        "url": "https://belgradearbor.rs/home/roots/mask2.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 554
+      },
+      {
+        "url": "https://belgradearbor.rs/home/roots/mask1.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 545
+      },
+      {
+        "url": "https://belgradearbor.rs/_next/static/media/57dc28f7118abe14-s.0~q417~7alp5b.woff2?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 36006
+      },
+      {
+        "url": "https://belgradearbor.rs/_next/image?url=%2Fhome%2Fintroduction%2Fleafs.webp&w=2048&q=75&dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 80547
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-MSFLG4VN",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 160134
+      },
+      {
+        "url": "https://belgradearbor.rs/_next/static/chunks/08lyp3oopz8f3.css?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 785
+      },
+      {
+        "url": "https://belgradearbor.rs/_next/static/chunks/0jw0x02uziwgj.js?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 8094
+      },
+      {
+        "url": "https://belgradearbor.rs/_next/static/chunks/095uk5okkp766.js?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 9418
+      },
+      {
+        "url": "https://belgradearbor.rs/_next/static/chunks/11-jbnjmn3saw.js?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 5341
+      },
+      {
+        "url": "https://belgradearbor.rs/home/hero.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://belgradearbor.rs/en/contact?_rsc=ry-B8umWgNEV4JR9",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 581
+      },
+      {
+        "url": "https://belgradearbor.rs/en?_rsc=1vwYfVB7_E9t4fEj",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 1270
+      },
+      {
+        "url": "https://js-eu1.hs-analytics.net/analytics/1792399800000/148338609.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 43513
+      },
+      {
+        "url": "https://js-eu1.hs-banner.com/v2/148338609/banner.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 24431
+      },
+      {
+        "url": "https://belgradearbor.rs/_next/static/chunks/0t6f78-uqoue4.js?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2539
+      },
+      {
+        "url": "https://belgradearbor.rs/home/residences-options/1.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 96739
+      },
+      {
+        "url": "https://belgradearbor.rs/home/residences-options/2.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 93586
+      },
+      {
+        "url": "https://belgradearbor.rs/home/residences-options/3.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 26415
+      },
+      {
+        "url": "https://belgradearbor.rs/home/residences-options/4.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 35405
+      },
+      {
+        "url": "https://belgradearbor.rs/icons/arbor-pin.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 8621
+      },
+      {
+        "url": "https://belgradearbor.rs/_next/static/chunks/0-eq9er4__8p7.js?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 9001
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-17823718150&cx=c&gtm=4e6ae1",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 157411
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-VMF0WT0D1Q&cx=c&gtm=4e6ae1",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 197812
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-MSFLG4VN&is_td=1&v=3&t=t&pid=606452435&gtm=45He6ae1v9240485851za200zd9240485851xf1&seq=1&exp=115616986~115938466~115938469~118897920~118897930~120385422~120469145~120469153~121246026~121246034&dl=belgradearbor.rs%2Fen&tdp=GTM-MSFLG4VN;240485851;0;0;0&frm=0&rtg=240485851&slo=19&hlo=23&lst=1&bt=0&ct=3&mde=AW-17823718150;0_1~G-VMF0WT0D1Q;0_1&z=0",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 425
+      },
+      {
+        "url": "https://connect.facebook.net/en_US/fbevents.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/x-javascript",
+        "fromCache": false,
+        "bytes": 116967
+      },
+      {
+        "url": "https://www.googletagmanager.com/td?id=GTM-MSFLG4VN&v=3&t=t&pid=606452435&gtm=45He6ae1v9240485851za200zd9240485851xf1&seq=1&exp=115616986~115938466~115938469~118897920~118897930~120385422~120469145~120469153~121246026~121246034&dl=belgradearbor.rs%2Fen&tdp=GTM-MSFLG4VN;240485851;0;0;0&frm=0&rtg=240485851&slo=19&hlo=23&lst=1&bt=0&ct=3&mde=AW-17823718150;0_1~G-VMF0WT0D1Q;0_1&z=0",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 18
+      },
+      {
+        "url": "https://www.google.com/ccm/collect?rcb=9&frm=0&apvc=1&ae=g&auid=1373467277.1792403765&dt=Belgrade%20Arbor%20%7C%20Residential%20%26%20Business%20Complex%20in%20New%20Belgrade&en=page_view&dl=https%3A%2F%2Fbelgradearbor.rs%2Fen&scrsrc=www.googletagmanager.com&rnd=1152276305.1792403765&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He6ae1v9240485851za200zd9240485851xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938466~115938469~118131809~118897920~118897930~120385422~120469145~120469153~121246026~121246034&tft=1792403765011&tfd=1131&fmt=8",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false
+      },
+      {
+        "url": "https://ad.doubleclick.net/ccm/s/collect?auid=1373467277.1792403765&gtm=45He6ae1v9240485851za200zd9240485851xeaxf1&fmt=8",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/html",
+        "fromCache": false
+      },
+      {
+        "url": "https://www.googletagmanager.com/td?id=GTM-MSFLG4VN&v=3&t=t&pid=606452435&gtm=45He6ae1v9240485851za200zd9240485851xf1&seq=2&exp=115616986~115938466~115938469~118131809~118897920~118897930~120385422~120469145~120469153~121246026~121246034&dl=belgradearbor.rs%2Fen&tdp=GTM-MSFLG4VN;240485851;0;0;0&mbc=1&z=0",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 18
+      },
+      {
+        "url": "https://belgradearbor.rs/en/contact?_rsc=1vwYfVB7_E9t4fEj",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 1114
+      },
+      {
+        "url": "https://belgradearbor.rs/home/mapc.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 380781
+      },
+      {
+        "url": "https://connect.facebook.net/signals/config/881461921059348?v=2.9.419&r=stable&domain=belgradearbor.rs&optin_meta_enabled_capi=true&hme=7459fa3e38c2784dbaf309537bed5fa7e8560fab51fb61e53e5ffafeb46a02a9&ex_m=118%2C241%2C171%2C27%2C82%2C83%2C162%2C78%2C77%2C11%2C181%2C102%2C20%2C153%2C141%2C46%2C85%2C90%2C149%2C176%2C183%2C8%2C4%2C5%2C7%2C6%2C3%2C103%2C115%2C32%2C17%2C31%2C18%2C33%2C34%2C35%2C37%2C55%2C163%2C87%2C126%2C22%2C24%2C51%2C47%2C49%2C48%2C95%2C104%2C108%2C124%2C160%2C164%2C53%2C125%2C29%2C26%2C133%2C79%2C43%2C166%2C165%2C167%2C157%2C155%2C30%2C42%2C66%2C123%2C178%2C80%2C21%2C128%2C93%2C76%2C23%2C97%2C98%2C130%2C96%2C151%2C150%2C154%2C109%2C177%2C180%2C41%2C56%2C127%2C54%2C161%2C72%2C185%2C110%2C184%2C210%2C255%2C84%2C274%2C273%2C272%2C14%2C25%2C28%2C40%2C62%2C117%2C68%2C10%2C73%2C111%2C112%2C113%2C119%2C144%2C38%2C36%2C146%2C147%2C148%2C143%2C142%2C172%2C86%2C175%2C173%2C174%2C57%2C69%2C67%2C137%2C19%2C179%2C52%2C324%2C325%2C326%2C323%2C339%2C361%2C248%2C237%2C70%2C238%2C236%2C364%2C355%2C59%2C249%2C121%2C145%2C92%2C135%2C61%2C134%2C140%2C139%2C65%2C74%2C168%2C88%2C89%2C129%2C44%2C39%2C60%2C63%2C114%2C182%2C1%2C138%2C16%2C136%2C12%2C2%2C64%2C105%2C15%2C75%2C71%2C132%2C101%2C100%2C187%2C188%2C106%2C107%2C9%2C116%2C186%2C58%2C158%2C99%2C91%2C81%2C131%2C120%2C169%2C50%2C159%2C0%2C94%2C152%2C156%2C170%2C45%2C122%2C13%2C189",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/x-javascript",
+        "fromCache": false,
+        "bytes": 161332
+      },
+      {
+        "url": "https://mv-prod-1-1053047382554.us-central1.run.app/events?cee=no",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false
+      },
+      {
+        "url": "https://www.facebook.com/tr/",
+        "method": "POST",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 413
+      },
+      {
+        "url": "https://capi-automation.s3.us-east-2.amazonaws.com/public/client_js/capiParamBuilder/clientParamBuilder.bundle.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "binary/octet-stream",
+        "fromCache": false,
+        "bytes": 56908
+      },
+      {
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/17823718150/?random=1792403765296&cv=11&fst=1792403765296&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6ae1v9238495308za20ozb9240485851zd9240485851xecxf1&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616986~115938466~115938468~118131809~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1440&u_h=900&url=https%3A%2F%2Fbelgradearbor.rs%2Fen&rcb=17&frm=0&tiba=Belgrade%20Arbor%20%7C%20Residential%20%26%20Business%20Complex%20in%20New%20Belgrade&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1373467277.1792403765&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uamb=0&uam=&uap=Windows&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 3814
+      },
+      {
+        "url": "https://www.google.com/rmkt/collect/17823718150/?random=1792403765296&cv=11&fst=1792403765296&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6ae1v9238495308za20ozb9240485851zd9240485851xecxf1&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616986~115938466~115938468~118131809~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1440&u_h=900&url=https%3A%2F%2Fbelgradearbor.rs%2Fen&rcb=17&frm=0&tiba=Belgrade%20Arbor%20%7C%20Residential%20%26%20Business%20Complex%20in%20New%20Belgrade&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1373467277.1792403765&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uamb=0&uam=&uap=Windows&uapv=&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false
+      },
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-VMF0WT0D1Q&gtm=45je6ae1v9240488232za20ozb9240485851zd9240485851xf1&_p=1792403764333&_gaz=1&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&ecid=957613972&_eu=AAAAAGAC&are=1&cid=467230861.1792403766&ec_mode=a&frm=0&pscdl=noapi&rcb=16&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&gaf=2&_s=1&tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&sid=1792403765&sct=1&seg=0&dl=https%3A%2F%2Fbelgradearbor.rs%2Fen&dt=Belgrade%20Arbor%20%7C%20Residential%20%26%20Business%20Complex%20in%20New%20Belgrade&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=2063",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false
+      },
+      {
+        "url": "https://stats.g.doubleclick.net/g/collect?v=2&tid=G-VMF0WT0D1Q&cid=467230861.1792403766&gtm=45je6ae1v9240488232za20ozb9240485851zd9240485851xf1&rcb=16&aip=1&dma=0&gcs=G111&gcd=13t3t3t3t5l1&npa=0&frm=0&tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034",
+        "method": "POST",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 558
+      },
+      {
+        "url": "https://www.google.com/ccm/collect?rcb=17&frm=0&apvc=0&auid=1373467277.1792403765&dt=Belgrade%20Arbor%20%7C%20Residential%20%26%20Business%20Complex%20in%20New%20Belgrade&tid=AW-17823718150&en=page_view&dl=https%3A%2F%2Fbelgradearbor.rs%2Fen&scrsrc=www.googletagmanager.com&rnd=1152276305.1792403765&navt=n&npa=0&gtm=45be6ae1v9238495308za20ozb9240485851zd9240485851xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616986~115938466~115938468~118131809~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&tft=1792403765946&tfd=2066&tids=AW-17823718150&fmt=8",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false
+      },
+      {
+        "url": "https://www.google.com/pagead/1p-user-list/17823718150/?random=1792403765296&cv=11&fst=1792400400000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6ae1v9238495308za20ozb9240485851zd9240485851xecxf1&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616986~115938466~115938468~118131809~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1440&u_h=900&url=https%3A%2F%2Fbelgradearbor.rs%2Fen&rcb=17&frm=0&tiba=Belgrade%20Arbor%20%7C%20Residential%20%26%20Business%20Complex%20in%20New%20Belgrade&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1373467277.1792403765&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uamb=0&uam=&uap=Windows&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS1AEAQM4h3MrJffrdWosjpR5VQox0lYa9tGbM7AuZvrb9qxK-3HNQCP0731dfNMPriq6HMibl5MuspDxhVYIDnX4LI_xxbSyEASFc1ZDMQsAtKfNj-BTA5bQTgwTQIAPORfkbiTC4kZOUOoQxfAPA2N7vtZk-Xnf_lchHLtnB6CGHsL6c9qwM_BphJxrFQ5jvC7nzSuq1r7jyPZy7Jc74DwCSNajIVkkHX_lWDoRmuEJE8gW6J1Y-SFOQV_tSTL1YD7ydBDvOJ8dfXDXA_yP3JlxF7uo5Bg&random=275397798&rmt_tld=0&ipr=y",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 64
+      },
+      {
+        "url": "https://track-eu1.hubspot.com/__ptq.gif?k=1&sd=1440x900&cd=24-bit&cs=UTF-8&ln=en-us%40posix&bfp=962033fa282e42ddbb6a21661e1a9d08&v=1.1&a=148338609&rcu=https%3A%2F%2Fbelgradearbor.rs%2Fen&pu=https%3A%2F%2Fbelgradearbor.rs%2Fen&t=Belgrade+Arbor+%7C+Residential+%26+Business+Complex+in+New+Belgrade&cts=1792403766091&vi=b6595dea47c41d548d36ff3517ef0efc&nc=true&u=44699579.b6595dea47c41d548d36ff3517ef0efc.1792403766088.1792403766088.1792403766088.1&b=44699579.1.1792403766088&cc=15",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 978
+      },
+      {
+        "url": "https://belgradearbor.rs/en/residences?_rsc=ry-B8umWgNEV4JR9",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 448
+      },
+      {
+        "url": "https://belgradearbor.rs/en/3d?_rsc=ry-B8umWgNEV4JR9",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 404
+      },
+      {
+        "url": "https://belgradearbor.rs/en/residences?_rsc=1vwYfVB7_E9t4fEj",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false
+      },
+      {
+        "url": "https://belgradearbor.rs/en/3d?_rsc=1vwYfVB7_E9t4fEj",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false
+      },
+      {
+        "url": "https://belgradearbor.rs/home/around/savremena.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 120229
+      },
+      {
+        "url": "https://belgradearbor.rs/home/around/aerodrom.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 107617
+      },
+      {
+        "url": "https://belgradearbor.rs/home/around/west.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 181704
+      },
+      {
+        "url": "https://belgradearbor.rs/home/around/tosin.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 154680
+      },
+      {
+        "url": "https://belgradearbor.rs/home/around/airportcity.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 181301
+      },
+      {
+        "url": "https://belgradearbor.rs/home/around/hangar.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 140025
+      },
+      {
+        "url": "https://belgradearbor.rs/home/location/location.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "translate",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "top",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 650,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "translate",
+        "duration": 0,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "translate",
+        "duration": 0,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A07020009C0B0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0D020009C0B0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://belgradearbor.rs/_next/static/chunks/0-bspkoivuqde.css?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y was preloaded using link preload but not used within a few seconds from the window's lo"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x3e7c0276de00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x3e7c0276de00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://belgradearbor.rs/_next/static/chunks/0-bspkoivuqde.css?dpl=dpl_9PbnYLnqXqZkh1h7HWCqGjn4Y78y was preloaded using link preload but not used within a few seconds from the window's lo"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x3e7c0276de00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x3e7c0276de00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+      }
+    ],
+    "exceptions": [
+      "NotSupportedError: The element has no supported sources."
+    ],
+    "failed": [
+      {
+        "url": "https://belgradearbor.rs/home/hero.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://ad.doubleclick.net/ccm/s/collect?auid=1373467277.1792403765&gtm=45He6ae1v9240485851za200zd9240485851xeaxf1&fmt=8",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google.com/ccm/collect?rcb=9&frm=0&apvc=1&ae=g&auid=1373467277.1792403765&dt=Belgrade%20Arbor%20%7C%20Residential%20%26%20Business%20Complex%20in%20New%20Belgrade&en=page_view&dl=https%3A%2F%2Fbelgradearbor.rs%2Fen&scrsrc=www.googletagmanager.com&rnd=1152276305.1792403765&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He6ae1v9240485851za200zd9240485851xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938466~115938469~118131809~118897920~118897930~120385422~120469145~120469153~121246026~121246034&tft=1792403765011&tfd=1131&fmt=8",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://mv-prod-1-1053047382554.us-central1.run.app/events?cee=no",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google.com/rmkt/collect/17823718150/?random=1792403765296&cv=11&fst=1792403765296&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6ae1v9238495308za20ozb9240485851zd9240485851xecxf1&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616986~115938466~115938468~118131809~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&u_w=1440&u_h=900&url=https%3A%2F%2Fbelgradearbor.rs%2Fen&rcb=17&frm=0&tiba=Belgrade%20Arbor%20%7C%20Residential%20%26%20Business%20Complex%20in%20New%20Belgrade&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1373467277.1792403765&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uamb=0&uam=&uap=Windows&uapv=&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google.com/ccm/collect?rcb=17&frm=0&apvc=0&auid=1373467277.1792403765&dt=Belgrade%20Arbor%20%7C%20Residential%20%26%20Business%20Complex%20in%20New%20Belgrade&tid=AW-17823718150&en=page_view&dl=https%3A%2F%2Fbelgradearbor.rs%2Fen&scrsrc=www.googletagmanager.com&rnd=1152276305.1792403765&navt=n&npa=0&gtm=45be6ae1v9238495308za20ozb9240485851zd9240485851xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616986~115938466~115938468~118131809~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&tft=1792403765946&tfd=2066&tids=AW-17823718150&fmt=8",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-VMF0WT0D1Q&gtm=45je6ae1v9240488232za20ozb9240485851zd9240485851xf1&_p=1792403764333&_gaz=1&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&ecid=957613972&_eu=AAAAAGAC&are=1&cid=467230861.1792403766&ec_mode=a&frm=0&pscdl=noapi&rcb=16&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&gaf=2&_s=1&tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&sid=1792403765&sct=1&seg=0&dl=https%3A%2F%2Fbelgradearbor.rs%2Fen&dt=Belgrade%20Arbor%20%7C%20Residential%20%26%20Business%20Complex%20in%20New%20Belgrade&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=2063",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://belgradearbor.rs/en/residences?_rsc=1vwYfVB7_E9t4fEj",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://belgradearbor.rs/en/3d?_rsc=1vwYfVB7_E9t4fEj",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://belgradearbor.rs/home/location/location.mp4",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 8806,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 2495,
+      "typography": {
+        "families": [
+          [
+            "Work Sans",
+            68
+          ],
+          [
+            "editorialOld",
+            51
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            69
+          ],
+          [
+            "300",
+            50
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            31
+          ]
+        ],
+        "sizeMin": 9.99375,
+        "sizeMedian": 15.99,
+        "sizeMax": 66.3,
+        "sizeMaxVw": 17,
+        "scaleRatio": 4.1,
+        "letterSpacingMean": 0.022,
+        "loadedFonts": [
+          {
+            "family": "Work Sans",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Work Sans",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Work Sans",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "Work Sans",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "editorialOld",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "editorialOld",
+            "weight": "300",
+            "style": "normal"
+          },
+          {
+            "family": "editorialOld",
+            "weight": "300",
+            "style": "italic"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 119
+      },
+      "color": {
+        "background": "rgb(253, 251, 239)",
+        "backgroundLuminance": 0.9610900223063283,
+        "backgrounds": [
+          [
+            "rgb(244, 240, 219)",
+            1037
+          ],
+          [
+            "rgb(49, 71, 89)",
+            987
+          ],
+          [
+            "rgb(253, 251, 239)",
+            330
+          ],
+          [
+            "rgb(204, 191, 153)",
+            16
+          ],
+          [
+            "rgb(46, 58, 38)",
+            0
+          ],
+          [
+            "rgb(166, 129, 80)",
+            0
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(46, 58, 38)",
+            340
+          ],
+          [
+            "rgb(255, 244, 214)",
+            96
+          ],
+          [
+            "rgb(166, 129, 80)",
+            81
+          ],
+          [
+            "rgb(96, 115, 92)",
+            43
+          ],
+          [
+            "rgb(231, 253, 85)",
+            33
+          ]
+        ],
+        "meanSaturation": 0.29,
+        "rootVars": {
+          "--radius": ".625rem",
+          "--background": "var(--color-vanilla)",
+          "--foreground": "var(--color-pine-green)",
+          "--card": "#fff",
+          "--card-foreground": "#0a0a0a",
+          "--popover": "#fff",
+          "--popover-foreground": "#0a0a0a",
+          "--primary": "#171717",
+          "--primary-foreground": "#fafafa",
+          "--secondary": "#f5f5f5",
+          "--secondary-foreground": "#171717",
+          "--muted": "#f5f5f5",
+          "--muted-foreground": "#737373",
+          "--accent": "#f5f5f5",
+          "--accent-foreground": "#171717",
+          "--destructive": "#e40014",
+          "--border": "#e5e5e5",
+          "--input": "#e5e5e5",
+          "--ring": "#a1a1a1",
+          "--chart-1": "#f05100",
+          "--chart-2": "#009588",
+          "--chart-3": "#104e64",
+          "--chart-4": "#fcbb00",
+          "--chart-5": "#f99c00",
+          "--sidebar": "#fafafa",
+          "--sidebar-foreground": "#0a0a0a",
+          "--sidebar-primary": "#171717",
+          "--sidebar-primary-foreground": "#fafafa",
+          "--sidebar-accent": "#f5f5f5",
+          "--sidebar-accent-foreground": "#171717",
+          "--sidebar-border": "#e5e5e5",
+          "--sidebar-ring": "#a1a1a1"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 2,
+        "sticky": 3,
+        "fixed": 3,
+        "grid": 1,
+        "flex": 187,
+        "absolute": 175,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 20269,
+        "pages": 24,
+        "spacing": [
+          [
+            8,
+            53
+          ],
+          [
+            16,
+            51
+          ],
+          [
+            24,
+            40
+          ],
+          [
+            4,
+            32
+          ],
+          [
+            12,
+            27
+          ],
+          [
+            20,
+            13
+          ],
+          [
+            40,
+            13
+          ],
+          [
+            32,
+            13
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 0,
+        "animationKinds": [],
+        "infiniteAnimations": 0,
+        "animationDurations": [],
+        "easings": [],
+        "transitionDurationsMs": [
+          [
+            650,
+            134
+          ],
+          [
+            500,
+            52
+          ],
+          [
+            600,
+            22
+          ],
+          [
+            220,
+            6
+          ],
+          [
+            700,
+            6
+          ]
+        ],
+        "keyframes": [
+          "spin",
+          "enter",
+          "exit"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 222,
+      "media": {
+        "canvases": [],
+        "videos": [
+          {
+            "autoplay": false,
+            "loop": false,
+            "muted": true,
+            "src": "https://belgradearbor.rs/home/hero-m.webm"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          }
+        ],
+        "svg": 68,
+        "images": 44,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "2d": 1,
+          "webgl": 1
+        },
+        "raf": 948,
+        "io": 7,
+        "ro": 77,
+        "mo": 2,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Belgrade Arbor | Residential & Business Complex in New Belgrade",
+      "lang": "en",
+      "description": "Discover Belgrade Arbor - premium apartments and business spaces in New Belgrade. Explore residences, amenities, location, and availability."
+    },
+    "featuresBeforeScroll": {
+      "elements": 2495,
+      "canvases": 0,
+      "animations": 0,
+      "hidden": 238
+    },
+    "scrollReveal": 16,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 23899804,
+        "layoutCount": 3191,
+        "recalcStyleCount": 6345,
+        "scriptDuration": 0.996958,
+        "taskDuration": 2.639513,
+        "nodes": 5764
+      },
+      "timing": {
+        "domContentLoaded": 317,
+        "load": 1910,
+        "first-paint": 324,
+        "first-contentful-paint": 324
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSTransition",
+        "name": "height",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "height",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "height",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "translate",
+        "duration": 650,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0D020009C0B0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://belgradearbor.rs/home/hero-m.webm",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://ad.doubleclick.net/ccm/s/collect?auid=1296191071.1792403795&gtm=45He6af0h2v9240485851za200zd9240485851xeaxf1&fmt=8",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google.com/ccm/collect?rcb=2&frm=0&apvc=1&ae=g&auid=1296191071.1792403795&dt=Belgrade%20Arbor%20%7C%20Residential%20%26%20Business%20Complex%20in%20New%20Belgrade&en=page_view&dl=https%3A%2F%2Fbelgradearbor.rs%2Fen&scrsrc=www.googletagmanager.com&rnd=2030699376.1792403795&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He6af0h2v9240485851za200zd9240485851xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~119317810~120385422~120469145~120469153~121246026~121246034&tft=1792403795348&tfd=1023&fmt=8",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://mv-prod-1-1053047382554.us-central1.run.app/events?cee=no",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google.com/rmkt/collect/17823718150/?random=1792403795576&cv=11&fst=1792403795576&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6af0h2v9238495308za20ozb9240485851zd9240485851xecxf1&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616986~115938466~115938469~118897920~118897930~119317810~120213116~120385422~120412526~120469145~120469153~121246026~121246034&u_w=390&u_h=844&url=https%3A%2F%2Fbelgradearbor.rs%2Fen&rcb=16&frm=0&tiba=Belgrade%20Arbor%20%7C%20Residential%20%26%20Business%20Complex%20in%20New%20Belgrade&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1296191071.1792403795&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uamb=1&uam=&uap=Windows&uapv=&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google.com/ccm/collect?rcb=16&frm=0&apvc=0&auid=1296191071.1792403795&dt=Belgrade%20Arbor%20%7C%20Residential%20%26%20Business%20Complex%20in%20New%20Belgrade&tid=AW-17823718150&en=page_view&dl=https%3A%2F%2Fbelgradearbor.rs%2Fen&scrsrc=www.googletagmanager.com&rnd=2030699376.1792403795&navt=n&npa=0&gtm=45be6af0h2v9238495308za20ozb9240485851zd9240485851xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616986~115938466~115938469~118897920~118897930~119317810~120213116~120385422~120412526~120469145~120469153~121246026~121246034&tft=1792403796279&tfd=1955&tids=AW-17823718150&fmt=8",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-VMF0WT0D1Q&gtm=45je6af0h2v9240488232za20ozb9240485851zd9240485851xf1&_p=1792403794704&_gaz=1&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&ecid=1556235584&_eu=AAAAAGAC&are=1&cid=2008801549.1792403796&ec_mode=a&frm=0&pscdl=noapi&rcb=1&sr=390x844&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=1&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&gaf=2&_s=1&tag_exp=115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034&sid=1792403795&sct=1&seg=0&dl=https%3A%2F%2Fbelgradearbor.rs%2Fen&dt=Belgrade%20Arbor%20%7C%20Residential%20%26%20Business%20Complex%20in%20New%20Belgrade&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=1952",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://belgradearbor.rs/home/hero-m.webm",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://belgradearbor.rs/en/residences?_rsc=1vwYfVB7_E9t4fEj",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://belgradearbor.rs/en/3d?_rsc=ry-B8umWgNEV4JR9",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://belgradearbor.rs/en/3d?_rsc=1vwYfVB7_E9t4fEj",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  }
+}

@@ -1,0 +1,2146 @@
+{
+  "url": "https://www.meermohsin.me/",
+  "at": "2026-10-09T08:02:45.189Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 91325,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 983,
+      "typography": {
+        "families": [
+          [
+            "regular-font",
+            45
+          ],
+          [
+            "light-font",
+            40
+          ],
+          [
+            "ruthie",
+            9
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            58
+          ],
+          [
+            "200",
+            20
+          ],
+          [
+            "100",
+            10
+          ],
+          [
+            "500",
+            4
+          ],
+          [
+            "700",
+            2
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            56
+          ]
+        ],
+        "sizeMin": 9.59962,
+        "sizeMedian": 29.9988,
+        "sizeMax": 227.991,
+        "sizeMaxVw": 15.8,
+        "scaleRatio": 7.6,
+        "letterSpacingMean": 0.08,
+        "loadedFonts": [
+          {
+            "family": "light-font",
+            "weight": "normal",
+            "style": "normal"
+          },
+          {
+            "family": "regular-font",
+            "weight": "normal",
+            "style": "normal"
+          },
+          {
+            "family": "ruthie",
+            "weight": "normal",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 94
+      },
+      "color": {
+        "background": "rgb(0, 0, 0)",
+        "backgroundLuminance": 0,
+        "backgrounds": [
+          [
+            "rgb(153, 0, 0)",
+            3832
+          ],
+          [
+            "rgb(0, 0, 0)",
+            1367
+          ],
+          [
+            "rgb(9, 9, 9)",
+            1296
+          ],
+          [
+            "rgb(34, 34, 34)",
+            881
+          ],
+          [
+            "rgba(153, 0, 0, 0.063)",
+            877
+          ],
+          [
+            "rgba(255, 255, 255, 0.063)",
+            13
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(153, 0, 0)",
+            194
+          ],
+          [
+            "rgb(0, 0, 0)",
+            191
+          ],
+          [
+            "rgb(214, 4, 7)",
+            61
+          ],
+          [
+            "rgb(245, 245, 245)",
+            40
+          ],
+          [
+            "rgb(255, 255, 255)",
+            16
+          ]
+        ],
+        "meanSaturation": 0.33,
+        "rootVars": {}
+      },
+      "layout": {
+        "fullscreenSections": 24,
+        "sticky": 0,
+        "fixed": 16,
+        "grid": 1,
+        "flex": 89,
+        "absolute": 70,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 28172,
+        "pages": 31.3,
+        "spacing": [
+          [
+            24,
+            14
+          ],
+          [
+            4,
+            12
+          ],
+          [
+            36,
+            9
+          ],
+          [
+            12,
+            9
+          ],
+          [
+            7,
+            6
+          ],
+          [
+            48,
+            5
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            1,
+            4
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 46,
+        "animationKinds": [
+          "CSSTransition",
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 45,
+        "animationDurations": [
+          2000,
+          6000,
+          1500,
+          547.7060030384312,
+          506.80182301690223,
+          546.0886661551787,
+          265.9860963551681,
+          341.23408448270897,
+          484.5099039188287,
+          557.8029143745904,
+          602.3922532099506,
+          619.1229223506751,
+          606.3161596837812,
+          292.06512490016524,
+          556.4140700392533,
+          225.44561647554713,
+          342.0784996470957,
+          656.8699688589068,
+          324.45350593828476,
+          377.802126407761
+        ],
+        "easings": [
+          "cubic-bezier(0.075, 0.82, 0.165, 1)",
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            350,
+            45
+          ],
+          [
+            300,
+            29
+          ],
+          [
+            450,
+            6
+          ],
+          [
+            500,
+            4
+          ],
+          [
+            100,
+            3
+          ]
+        ],
+        "keyframes": [
+          "ringRotate",
+          "noiseMovement",
+          "wave-sm",
+          "wave-md",
+          "wave-lg",
+          "gradientMove",
+          "liveBlink",
+          "regFluidGradient"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 188,
+      "media": {
+        "canvases": [
+          {
+            "w": 1440,
+            "h": 900,
+            "area": 1
+          },
+          {
+            "w": 1440,
+            "h": 900,
+            "area": 1
+          },
+          {
+            "w": 1440,
+            "h": 900,
+            "area": 1
+          }
+        ],
+        "videos": [],
+        "svg": 6,
+        "images": 55,
+        "iframes": 0,
+        "customCursor": true
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 4
+        },
+        "raf": 348,
+        "io": 0,
+        "ro": 1,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 1
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Meer Mohsin | Front-End Developer, UI/UX Designer & 3D Web Developer",
+      "lang": "en",
+      "description": "Mohsin Meer is a Front-End Developer, UI/UX Designer, and 3D Web Developer from Pakistan, creating award-level digital experiences using Three.js, GSAP, WebGL, JavaScript, HTML, CSS, and modern web technologies."
+    },
+    "featuresBeforeScroll": {
+      "elements": 987,
+      "canvases": 4,
+      "animations": 46,
+      "hidden": 265
+    },
+    "scrollReveal": 77,
+    "hover": {
+      "probed": 6,
+      "changed": 1
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 7415896,
+        "layoutCount": 462,
+        "recalcStyleCount": 1767,
+        "scriptDuration": 0.891191,
+        "taskDuration": 90.676747,
+        "nodes": 2820
+      },
+      "timing": {
+        "domContentLoaded": 583,
+        "load": 2609,
+        "first-paint": 492,
+        "first-contentful-paint": 492
+      }
+    },
+    "network": [
+      {
+        "url": "https://www.meermohsin.me/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 14190
+      },
+      {
+        "url": "https://www.meermohsin.me/fonts/NeueMontreal.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 404,
+        "mime": "text/plain",
+        "fromCache": false
+      },
+      {
+        "url": "https://www.meermohsin.me/assets/index-BXnpqJiu.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 243845
+      },
+      {
+        "url": "https://www.meermohsin.me/assets/index-CLJlWOw8.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 11587
+      },
+      {
+        "url": "https://www.meermohsin.me/assets/Meer-mohsin-BIdMWGjW.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 60313
+      },
+      {
+        "url": "https://www.meermohsin.me/assets/logo-m-D6UUDeXR.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 177953
+      },
+      {
+        "url": "https://www.meermohsin.me/assets/cursor-D8gSNxqV.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 4687
+      },
+      {
+        "url": "https://www.meermohsin.me/assets/ring-BuaafO6K.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 10782
+      },
+      {
+        "url": "data:image/svg+xml,%3csvg%20width='21'%20height='22'%20viewBox='0%200%2021%2022'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M0%2011.8077V10.1923H9.69231V0.5H11.3077V10.1923H21V11.8077H11.3077V21.5H9.69231V11.8077H0Z'%20fill='white'/%3e%3c/svg%3e",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.meermohsin.me/assets/bg-music--PxsalNb.mp3",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "audio/mpeg",
+        "fromCache": false
+      },
+      {
+        "url": "https://www.meermohsin.me/assets/StackSansHeadline-ExtraLight-DrnyAU8g.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 30262
+      },
+      {
+        "url": "https://user-images.githubusercontent.com/22321142/100630839-55bd1f00-332b-11eb-9e4c-5989758da284.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 4327
+      },
+      {
+        "url": "https://www.meermohsin.me/assets/StackSansHeadline-Regular-ud1Ia6Hx.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 31030
+      },
+      {
+        "url": "https://www.meermohsin.me/assets/ruthie-BmbrwlET.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 34796
+      },
+      {
+        "url": "https://www.meermohsin.me/assets/shade-BqXoo-Hs-CzAjxAPx.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 48053
+      },
+      {
+        "url": "https://www.meermohsin.me/assets/fire-mWLvpWRN.gif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 971774
+      },
+      {
+        "url": "https://www.meermohsin.me/assets/model1-hZVyFTy0.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "model/gltf-binary",
+        "fromCache": false,
+        "bytes": 866127
+      },
+      {
+        "url": "https://www.meermohsin.me/assets/floor-Bfx8nsPH.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "model/gltf-binary",
+        "fromCache": false,
+        "bytes": 538315
+      },
+      {
+        "url": "https://www.meermohsin.me/assets/footer-DWViNq5i.mp3",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 44843
+      },
+      {
+        "url": "https://www.meermohsin.me/assets/award-2-DUR0STCu.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 22365
+      },
+      {
+        "url": "https://www.meermohsin.me/assets/award-1-CSzIohE8.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 19141
+      },
+      {
+        "url": "https://www.meermohsin.me/assets/award-3-Cf31u9yw.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 19703
+      },
+      {
+        "url": "https://www.meermohsin.me/app/themes/flipp/dist/images/LDR_LLL1_0.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 404,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 79
+      },
+      {
+        "url": "https://www.meermohsin.me/assets/SERVICES-1-DNEv9Ogg.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 28159
+      },
+      {
+        "url": "https://www.meermohsin.me/assets/SERVICES-2-B2qkzeiI.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 46048
+      },
+      {
+        "url": "https://www.meermohsin.me/assets/SERVICES-3-D3H0TtUe.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 6322
+      },
+      {
+        "url": "data:image/avif;base64,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",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2842
+      },
+      {
+        "url": "https://www.meermohsin.me/assets/SERVICES-5-B-pgnAEq.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 7844
+      },
+      {
+        "url": "https://www.meermohsin.me/assets/SERVICES-6-BK3PX9RD.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 14900
+      },
+      {
+        "url": "https://www.meermohsin.me/assets/SERVICES-8%20(2)-WFXeJ1A8.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 18911
+      },
+      {
+        "url": "https://www.meermohsin.me/assets/paper-tore-7VX6INnu.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 167626
+      },
+      {
+        "url": "https://www.meermohsin.me/assets/falling-BiHYeG99.gif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 235790
+      },
+      {
+        "url": "https://www.meermohsin.me/assets/cod-1-BJJ7YGOj.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 30700
+      },
+      {
+        "url": "https://www.meermohsin.me/assets/az-1-Db8CDHkk.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 21314
+      },
+      {
+        "url": "https://www.meermohsin.me/assets/am-1-BIjNy7iY.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 17795
+      },
+      {
+        "url": "https://www.meermohsin.me/assets/chat-1-CghAxhtK.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 13540
+      },
+      {
+        "url": "https://www.meermohsin.me/assets/fi-1-BboASce_.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 24670
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSTransition",
+        "name": "scrollbar-color",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ringRotate",
+        "duration": 12000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "gradientMove",
+        "duration": 6000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "liveBlink",
+        "duration": 1500,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ringRotate",
+        "duration": 12000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "regFluidGradient",
+        "duration": 12000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "noiseMovement",
+        "duration": 90,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ringRotate",
+        "duration": 12000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "regFluidGradient",
+        "duration": 12000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ringRotate",
+        "duration": 12000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "regFluidGradient",
+        "duration": 12000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ringRotate",
+        "duration": 12000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "regFluidGradient",
+        "duration": 12000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ringRotate",
+        "duration": 12000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "regFluidGradient",
+        "duration": 12000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 0,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "left",
+        "duration": 0,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "top",
+        "duration": 0,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-left-color",
+        "duration": 0,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-right-color",
+        "duration": 0,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-top-color",
+        "duration": 0,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-bottom-color",
+        "duration": 0,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      }
+    ],
+    "console": [
+      {
+        "level": "error",
+        "text": "Failed to load resource: the server responded with a status of 404 ()"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0702000CC1C0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0A02000CC1C0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0D02000CC1C0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x218c06c26400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x218c0013b800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x218c06c26400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x218c0013b800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+      },
+      {
+        "level": "error",
+        "text": "Failed to load resource: the server responded with a status of 404 ()"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0C0CD01CC1C0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://www.meermohsin.me/fonts/NeueMontreal.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate "
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://www.meermohsin.me/fonts/NeueMontreal.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate "
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://www.meermohsin.me/fonts/NeueMontreal.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate "
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://www.meermohsin.me/fonts/NeueMontreal.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate "
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://www.meermohsin.me/fonts/NeueMontreal.woff2",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.meermohsin.me/assets/bg-music--PxsalNb.mp3",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 37115,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 990,
+      "typography": {
+        "families": [
+          [
+            "regular-font",
+            46
+          ],
+          [
+            "light-font",
+            32
+          ],
+          [
+            "ruthie",
+            10
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            26
+          ],
+          [
+            "600",
+            25
+          ],
+          [
+            "200",
+            19
+          ],
+          [
+            "100",
+            12
+          ],
+          [
+            "500",
+            4
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            48
+          ]
+        ],
+        "sizeMin": 9.09964,
+        "sizeMedian": 16.2493,
+        "sizeMax": 162.493,
+        "sizeMaxVw": 41.7,
+        "scaleRatio": 10,
+        "letterSpacingMean": 0.049,
+        "loadedFonts": [
+          {
+            "family": "light-font",
+            "weight": "normal",
+            "style": "normal"
+          },
+          {
+            "family": "regular-font",
+            "weight": "normal",
+            "style": "normal"
+          },
+          {
+            "family": "ruthie",
+            "weight": "normal",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 88
+      },
+      "color": {
+        "background": "rgb(0, 0, 0)",
+        "backgroundLuminance": 0,
+        "backgrounds": [
+          [
+            "rgb(153, 0, 0)",
+            1193
+          ],
+          [
+            "rgb(34, 34, 34)",
+            502
+          ],
+          [
+            "rgb(0, 0, 0)",
+            359
+          ],
+          [
+            "rgb(9, 9, 9)",
+            329
+          ],
+          [
+            "rgba(153, 0, 0, 0.063)",
+            234
+          ],
+          [
+            "rgba(255, 255, 255, 0.063)",
+            13
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(153, 0, 0)",
+            178
+          ],
+          [
+            "rgb(0, 0, 0)",
+            149
+          ],
+          [
+            "rgb(214, 4, 7)",
+            53
+          ],
+          [
+            "rgb(255, 255, 255)",
+            45
+          ],
+          [
+            "rgb(245, 245, 245)",
+            13
+          ]
+        ],
+        "meanSaturation": 0.33,
+        "rootVars": {}
+      },
+      "layout": {
+        "fullscreenSections": 28,
+        "sticky": 0,
+        "fixed": 18,
+        "grid": 1,
+        "flex": 89,
+        "absolute": 72,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 23294,
+        "pages": 27.6,
+        "spacing": [
+          [
+            1,
+            16
+          ],
+          [
+            10,
+            11
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            16,
+            7
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            23,
+            4
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 47,
+        "animationKinds": [
+          "CSSTransition",
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 46,
+        "animationDurations": [
+          2000,
+          6000,
+          1500,
+          597.8026448631024,
+          467.6968293705733,
+          251.6718739294857,
+          321.63301192131223,
+          536.7708130761611,
+          266.65084647497315,
+          562.524374557413,
+          572.0154033865442,
+          667.1015638812931,
+          521.25794482351,
+          204.1166471961525,
+          242.8918845961707,
+          398.5324088807002,
+          619.7571420387429,
+          501.76978539168647,
+          426.73499741064916,
+          616.9822720751241
+        ],
+        "easings": [
+          "cubic-bezier(0.075, 0.82, 0.165, 1)",
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            350,
+            45
+          ],
+          [
+            300,
+            29
+          ],
+          [
+            450,
+            6
+          ],
+          [
+            500,
+            4
+          ],
+          [
+            100,
+            3
+          ]
+        ],
+        "keyframes": [
+          "ringRotate",
+          "noiseMovement",
+          "wave-sm",
+          "wave-md",
+          "wave-lg",
+          "gradientMove",
+          "liveBlink",
+          "regFluidGradient"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 210,
+      "media": {
+        "canvases": [
+          {
+            "w": 0,
+            "h": 0,
+            "area": 0
+          },
+          {
+            "w": 402,
+            "h": 870,
+            "area": 1.06
+          },
+          {
+            "w": 624,
+            "h": 1350,
+            "area": 1
+          },
+          {
+            "w": 624,
+            "h": 1350,
+            "area": 1
+          }
+        ],
+        "videos": [],
+        "svg": 6,
+        "images": 55,
+        "iframes": 0,
+        "customCursor": true
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 4
+        },
+        "raf": 398,
+        "io": 0,
+        "ro": 1,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 1
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Meer Mohsin | Front-End Developer, UI/UX Designer & 3D Web Developer",
+      "lang": "en",
+      "description": "Mohsin Meer is a Front-End Developer, UI/UX Designer, and 3D Web Developer from Pakistan, creating award-level digital experiences using Three.js, GSAP, WebGL, JavaScript, HTML, CSS, and modern web technologies."
+    },
+    "featuresBeforeScroll": {
+      "elements": 990,
+      "canvases": 4,
+      "animations": 46,
+      "hidden": 275
+    },
+    "scrollReveal": 65,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 6406068,
+        "layoutCount": 721,
+        "recalcStyleCount": 1697,
+        "scriptDuration": 0.461169,
+        "taskDuration": 36.921148,
+        "nodes": 2657
+      },
+      "timing": {
+        "domContentLoaded": 424,
+        "load": 2515,
+        "first-paint": 280,
+        "first-contentful-paint": 280
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSTransition",
+        "name": "scrollbar-color",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ringRotate",
+        "duration": 12000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ringRotate",
+        "duration": 12000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "regFluidGradient",
+        "duration": 12000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "gradientMove",
+        "duration": 6000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "liveBlink",
+        "duration": 1500,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "noiseMovement",
+        "duration": 90,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ringRotate",
+        "duration": 12000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "regFluidGradient",
+        "duration": 12000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ringRotate",
+        "duration": 12000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "regFluidGradient",
+        "duration": 12000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ringRotate",
+        "duration": 12000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "regFluidGradient",
+        "duration": 12000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.075, 0.82, 0.165, 1)"
+      }
+    ],
+    "console": [
+      {
+        "level": "error",
+        "text": "Failed to load resource: the server responded with a status of 404 ()"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0A02000CC1C0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0702000CC1C0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0D02000CC1C0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "error",
+        "text": "Failed to load resource: the server responded with a status of 404 ()"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0C0D800CC1C0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://www.meermohsin.me/fonts/NeueMontreal.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate "
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://www.meermohsin.me/fonts/NeueMontreal.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate "
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://www.meermohsin.me/fonts/NeueMontreal.woff2",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.meermohsin.me/assets/bg-music--PxsalNb.mp3",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  }
+}

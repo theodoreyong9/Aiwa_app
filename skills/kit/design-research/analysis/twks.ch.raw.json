@@ -1,0 +1,1198 @@
+{
+  "url": "https://twks.ch/en",
+  "at": "2026-10-09T07:56:29.596Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 10895,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 677,
+      "typography": {
+        "families": [
+          [
+            "GT Standard",
+            37
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            36
+          ],
+          [
+            "600",
+            1
+          ]
+        ],
+        "textTransforms": [
+          [
+            "lowercase",
+            3
+          ]
+        ],
+        "sizeMin": 16,
+        "sizeMedian": 20,
+        "sizeMax": 52.8,
+        "sizeMaxVw": 3.7,
+        "scaleRatio": 2.6,
+        "letterSpacingMean": 0.009,
+        "loadedFonts": [
+          {
+            "family": "GT Standard",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "GT Standard",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "GT Standard",
+            "weight": "600",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 37
+      },
+      "color": {
+        "background": "rgb(0, 0, 0)",
+        "backgroundLuminance": 0,
+        "backgrounds": [
+          [
+            "rgb(255, 255, 255)",
+            3848
+          ],
+          [
+            "rgb(0, 0, 0)",
+            2566
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(255, 255, 255)",
+            185
+          ],
+          [
+            "rgb(0, 0, 0)",
+            79
+          ],
+          [
+            "rgb(140, 140, 140)",
+            16
+          ]
+        ],
+        "meanSaturation": 0,
+        "rootVars": {}
+      },
+      "layout": {
+        "fullscreenSections": 6,
+        "sticky": 0,
+        "fixed": 6,
+        "grid": 9,
+        "flex": 19,
+        "absolute": 75,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 5822,
+        "pages": 6.5,
+        "spacing": [
+          [
+            10,
+            16
+          ],
+          [
+            9,
+            8
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            100,
+            3
+          ],
+          [
+            8,
+            2
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            15,
+            2
+          ],
+          [
+            5,
+            2
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 0,
+        "animationKinds": [],
+        "infiniteAnimations": 0,
+        "animationDurations": [],
+        "easings": [],
+        "transitionDurationsMs": [
+          [
+            500,
+            10
+          ],
+          [
+            150,
+            2
+          ],
+          [
+            200,
+            1
+          ]
+        ],
+        "keyframes": [
+          "marquee",
+          "spin",
+          "pulse"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 5,
+      "media": {
+        "canvases": [],
+        "videos": [
+          {
+            "autoplay": false,
+            "loop": false,
+            "muted": true,
+            "src": "https://twks.ch/storage/home_slider/twks_electron_01.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": false,
+            "muted": true,
+            "src": "https://twks.ch/storage/home_slider/twks_academie_de_sertissage.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": false,
+            "muted": true,
+            "src": "https://twks.ch/storage/home_slider/twks_sps.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": false,
+            "muted": true,
+            "src": "https://twks.ch/storage/home_slider/twks_lsv.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://twks.ch/storage/projects/meyrin-culture/twks_meyrinculture_14.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://twks.ch/storage/insights/tinquiete-le-pote-de-mon-pote-est-graphiste/twks_insight_matesdesigner_thumbnail.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": false,
+            "muted": true,
+            "src": "https://twks.ch/videos/twks_panthere_explosion.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://twks.ch/videos/twks_panthere_loop.mp4"
+          }
+        ],
+        "svg": 6,
+        "images": 23,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "2d": 1
+        },
+        "raf": 658,
+        "io": 2,
+        "ro": 1,
+        "mo": 2,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": true,
+        "ScrollTrigger": true,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": true,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Creative communications agency in Geneva | twks",
+      "lang": "fr",
+      "description": "twks is a creative agency based in Geneva, specialising in branding, communication and web design. Since 2011, we have been shaping bold and unique brands."
+    },
+    "featuresBeforeScroll": {
+      "elements": 674,
+      "canvases": 0,
+      "animations": 0,
+      "hidden": 4
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 6,
+      "changed": 0
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 5075784,
+        "layoutCount": 127,
+        "recalcStyleCount": 1498,
+        "scriptDuration": 0.259732,
+        "taskDuration": 2.384983,
+        "nodes": 5192
+      },
+      "timing": {
+        "domContentLoaded": 1321,
+        "load": 2651,
+        "first-paint": 1036,
+        "first-contentful-paint": 1036
+      }
+    },
+    "network": [
+      {
+        "url": "https://twks.ch/en",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 27647
+      },
+      {
+        "url": "https://twks.ch/build/assets/GT-Standard-L-Standard-Regular-DXTyW8mc.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 63064
+      },
+      {
+        "url": "https://twks.ch/build/assets/GT-Standard-L-Standard-Medium-BDsqGhKS.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 63104
+      },
+      {
+        "url": "https://twks.ch/build/assets/GT-Standard-L-Standard-Semibold-cqzJajLp.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 63660
+      },
+      {
+        "url": "https://twks.ch/build/assets/app-CYAva2Ae.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 33705
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/@lottiefiles/dotlottie-wc@latest/dist/dotlottie-wc.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 22221
+      },
+      {
+        "url": "https://twks.ch/build/assets/dotlottie-BXFhH9kG.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 557
+      },
+      {
+        "url": "https://cdn.usefathom.com/script.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2757
+      },
+      {
+        "url": "https://twks.ch/build/assets/app-2F7L4ccL.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 94888
+      },
+      {
+        "url": "https://twks.ch/storage/lottie/twks_head_02.lottie",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "",
+        "fromCache": false,
+        "bytes": 2152
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/@lottiefiles/dotlottie-web@0.81.0/dist/dotlottie-player.wasm",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/wasm",
+        "fromCache": false,
+        "bytes": 480636
+      },
+      {
+        "url": "https://twks.ch/api/weather",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 1361
+      },
+      {
+        "url": "https://twks.ch/en/img/asset/aG9tZV9zbGlkZXIvdHdrc19vY2dfMDMuanBn/twks_ocg_03.jpg?p=full&s=8726ebfa05c5c4424fc9eb08a65dcef2",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 292915
+      },
+      {
+        "url": "https://twks.ch/en/img/asset/aG9tZV9zbGlkZXIvdHdrc19mZXN0aXZhbF9leHBsb3JlMjVfMTIuanBn/twks_festival_explore25_12.jpg?p=full&s=71b10a36dfa93972b6e3013d2449a7b5",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 130806
+      },
+      {
+        "url": "https://twks.ch/en/img/asset/aG9tZV9zbGlkZXIvdHdrc19mYXZyZV9ndXRoLmpwZw/twks_favre_guth.jpg?p=full&s=b6b2f7d5d0512e0e7dd5396500d9fcd6",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 167810
+      },
+      {
+        "url": "https://twks.ch/en/img/asset/aG9tZV9zbGlkZXIvdHdrc19nZWNhXzI0XzI1LmpwZw/twks_geca_24_25.jpg?p=full&s=1b4063d0596a28d421d21de8bf406b05",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 308671
+      },
+      {
+        "url": "https://twks.ch/en/img/asset/aG9tZV9zbGlkZXIvdHdrc192ZF9pbmZvcG9wXzAxLmpwZw/twks_vd_infopop_01.jpg?p=full&s=fdd9e58cdee99f4d9aa10257f6882710",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 80535
+      },
+      {
+        "url": "https://twks.ch/en/img/asset/aG9tZV9zbGlkZXIvdHdrc19tZXlyaW5jdWx0dXJlXzA3LmpwZw/twks_meyrinculture_07.jpg?p=full&s=e266b54ccaf412ef151c855fa1ee0cae",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 259811
+      },
+      {
+        "url": "https://twks.ch/en/img/asset/aG9tZV9zbGlkZXIvdHdrc19waW5zYSFfMDIuanBn/twks_pinsa!_02.jpg?p=full&s=70f661a66a4e677949f58d58e2d17a6d",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 55645
+      },
+      {
+        "url": "https://twks.ch/en/img/asset/aG9tZV9zbGlkZXIvdHdrc19sYV9iYXRpZV8yNF8yNS5qcGc/twks_la_batie_24_25.jpg?p=full&s=be69eace8f6cc73e432bf642db5e4f9e",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 122959
+      },
+      {
+        "url": "https://twks.ch/en/img/asset/aG9tZV9zbGlkZXIvbWNrX2dlY2EyNl9sYXB0b3AuanBn/mck_geca26_laptop.jpg?p=full&s=64383aaf326b36f1d2c54dccb6f384dd",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 301415
+      },
+      {
+        "url": "https://twks.ch/en/img/asset/aG9tZV9zbGlkZXIvbWNrX2FkZXNfbWFjYm9vay5qcGc/mck_ades_macbook.jpg?p=full&s=0a587a141d96bbbe3b5a054b92e805a6",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 126436
+      },
+      {
+        "url": "https://twks.ch/en/img/asset/aG9tZV9zbGlkZXIvdHdrc19sYV9iYXRpZV8wMy5qcGc/twks_la_batie_03.jpg?p=full&s=acc1f4f9ae5ea848ac9441c1ab7c6b9b",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 156882
+      },
+      {
+        "url": "https://twks.ch/en/img/asset/Y29udGFjdF90aHVtYm5haWxzL2NhcHR1cmUtZC1lY3Jhbi0yMDI1LTA3LTE4LWEtMTEuMjkuNTQucG5n/capture-d-ecran-2025-07-18-a-11.29.54.png?p=thumbnail&s=e25532c68d35c72120d3b5333ae91c28",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 1179
+      },
+      {
+        "url": "https://twks.ch/en/img/asset/Y29udGFjdF9zbGlkZXIvMjAyNi4wNS4yOF90d2tzX3J1bm5pbmdfY2x1Yl9pZ18wMy0xNzgxMDc1MzIwLmpwZw/2026.05.28_twks_running_club_ig_03-1781075320.jpg?p=third&s=0eff2706a6126a46d30c9df0fec8fefe",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 111119
+      },
+      {
+        "url": "https://twks.ch/en/img/asset/Y29udGFjdF9zbGlkZXIvMjAyNi4wNS4yOF90d2tzX3J1bm5pbmdfY2x1Yl9pZ18wNC0xNzgxMDc1MjkwLmpwZw/2026.05.28_twks_running_club_ig_04-1781075290.jpg?p=third&s=06caae32818b56b60df46435919d59f4",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 15389
+      },
+      {
+        "url": "https://twks.ch/en/img/asset/Y29udGFjdF9zbGlkZXIvdHdrc3ByZXZpZXctMjEuanBn/twkspreview-21.jpg?p=third&s=7932faaa070fcb5aab83f26ca6952f02",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 28705
+      },
+      {
+        "url": "https://twks.ch/en/img/asset/Y29udGFjdF9zbGlkZXIvdHdrc19ib3V0b25faWcuanBn/twks_bouton_ig.jpg?p=third&s=1a75b18db7a549f1ff5c5b3022177bb7",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 30913
+      },
+      {
+        "url": "https://twks.ch/en/img/asset/cHJvamVjdHMvZXBmbC1qb3Vycy1zYW50ZS9tY2tfZXBmbF9jYXJkcy5qcGc/mck_epfl_cards.jpg?p=third&s=dbf07f11b1080845aa4b0d3ada0d2b2e",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 42238
+      },
+      {
+        "url": "https://twks.ch/en/img/asset/cHJvamVjdHMvZXRhdC1kZS12YXVkLWluZm9wb3AvdHdrc19pbmZvcG9wX3RodW1ibmFpbC5qcGc/twks_infopop_thumbnail.jpg?p=third&s=0bc6d50872a4367cb10c2580d27853ca",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 68402
+      },
+      {
+        "url": "https://twks.ch/en/img/asset/cHJvamVjdHMvYWNhZGVtaWUtZGUtc2VydGlzc2FnZS9tY2tfYWRlc19jYXJ0ZXMuanBn/mck_ades_cartes.jpg?p=third&s=3cbdcea54d52d57723ad826cb0dd9b84",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 5658
+      },
+      {
+        "url": "https://twks.ch/storage/insights/branding-food-beverage-the-secret-sauce/twks_article_thumbnail.gif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 1304707
+      },
+      {
+        "url": "https://twks.ch/en/img/asset/aW5zaWdodHMvbGUtZ3JhcGhpc21lLXN1aXNzZS11bi1zdHlsZS12aWV1eC1kZS03MC1hbnMtcXVpLW5hLWphbWFpcy1ldGUtYXVzc2ktbW9kZXJuZS90d2tzX2luc2lnaHRfc3dpc3NkZXNpZ25fMDEuanBn/twks_insight_swissdesign_01.jpg?p=third&s=41ecfc22c0ee9e72d4b8868b356898cb",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 40187
+      },
+      {
+        "url": "https://twks.ch/en/img/asset/aW5zaWdodHMvYXZlYy1vdS1zYW5zLWlhLW5lLXZldXQtcGx1cy1yaWVuLWRpcmUvaWxsdXN0cmF0aW9uLWFydGljbGUtZGFsaWEuanBn/illustration-article-dalia.jpg?p=third&s=0624bb4dda433e800cce4285854ed8b7",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 34422
+      },
+      {
+        "url": "https://twks.ch/en/img/asset/Y29udGFjdF9zbGlkZXIvdHdrc19zdW5idXJuLmpwZw/twks_sunburn.jpg?p=third&s=f13cbdc39902eb45887c0e435673d9a7",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 43508
+      },
+      {
+        "url": "https://cdn.usefathom.com/?h=https%3A%2F%2Ftwks.ch&p=%2Fen&r=&sid=UESVCRXJ&qs=%7B%7D&cid=50228411",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 434
+      },
+      {
+        "url": "https://twks.ch/storage/home_slider/twks_electron_01.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://twks.ch/storage/home_slider/twks_academie_de_sertissage.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 104124
+      },
+      {
+        "url": "https://twks.ch/storage/home_slider/twks_sps.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://twks.ch/storage/home_slider/twks_lsv.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://twks.ch/storage/projects/meyrin-culture/twks_meyrinculture_14.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://twks.ch/storage/home_slider/twks_sps.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 24398
+      },
+      {
+        "url": "https://twks.ch/storage/projects/meyrin-culture/twks_meyrinculture_14.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 13572
+      },
+      {
+        "url": "https://twks.ch/storage/home_slider/twks_electron_01.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 17391
+      },
+      {
+        "url": "https://twks.ch/storage/home_slider/twks_electron_01.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": true
+      },
+      {
+        "url": "https://twks.ch/storage/home_slider/twks_sps.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": true
+      },
+      {
+        "url": "https://twks.ch/storage/insights/tinquiete-le-pote-de-mon-pote-est-graphiste/twks_insight_matesdesigner_thumbnail.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://twks.ch/videos/twks_panthere_explosion.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://twks.ch/videos/twks_panthere_loop.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      }
+    ],
+    "animationsReported": [],
+    "console": [],
+    "exceptions": [
+      "NotSupportedError: The element has no supported sources."
+    ],
+    "failed": [
+      {
+        "url": "https://twks.ch/storage/home_slider/twks_sps.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://twks.ch/storage/projects/meyrin-culture/twks_meyrinculture_14.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://twks.ch/storage/home_slider/twks_electron_01.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://twks.ch/storage/home_slider/twks_lsv.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://twks.ch/storage/home_slider/twks_electron_01.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://twks.ch/storage/home_slider/twks_sps.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://twks.ch/storage/insights/tinquiete-le-pote-de-mon-pote-est-graphiste/twks_insight_matesdesigner_thumbnail.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://twks.ch/videos/twks_panthere_explosion.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://twks.ch/videos/twks_panthere_loop.mp4",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 7964,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 543,
+      "typography": {
+        "families": [
+          [
+            "GT Standard",
+            37
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            36
+          ],
+          [
+            "600",
+            1
+          ]
+        ],
+        "textTransforms": [
+          [
+            "lowercase",
+            2
+          ]
+        ],
+        "sizeMin": 18,
+        "sizeMedian": 18,
+        "sizeMax": 36,
+        "sizeMaxVw": 9.2,
+        "scaleRatio": 2,
+        "letterSpacingMean": 0.009,
+        "loadedFonts": [
+          {
+            "family": "GT Standard",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "GT Standard",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "GT Standard",
+            "weight": "600",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 37
+      },
+      "color": {
+        "background": "rgb(0, 0, 0)",
+        "backgroundLuminance": 0,
+        "backgrounds": [
+          [
+            "rgb(255, 255, 255)",
+            987
+          ],
+          [
+            "rgb(0, 0, 0)",
+            658
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(0, 0, 0)",
+            90
+          ],
+          [
+            "rgb(255, 255, 255)",
+            39
+          ],
+          [
+            "rgb(140, 140, 140)",
+            8
+          ]
+        ],
+        "meanSaturation": 0,
+        "rootVars": {}
+      },
+      "layout": {
+        "fullscreenSections": 8,
+        "sticky": 0,
+        "fixed": 6,
+        "grid": 8,
+        "flex": 22,
+        "absolute": 74,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 7300,
+        "pages": 8.6,
+        "spacing": [
+          [
+            10,
+            16
+          ],
+          [
+            9,
+            8
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            80,
+            3
+          ],
+          [
+            8,
+            2
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            15,
+            2
+          ],
+          [
+            5,
+            2
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 0,
+        "animationKinds": [],
+        "infiniteAnimations": 0,
+        "animationDurations": [],
+        "easings": [],
+        "transitionDurationsMs": [
+          [
+            500,
+            10
+          ],
+          [
+            150,
+            2
+          ],
+          [
+            200,
+            1
+          ]
+        ],
+        "keyframes": [
+          "marquee",
+          "spin",
+          "pulse"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 12,
+      "media": {
+        "canvases": [],
+        "videos": [
+          {
+            "autoplay": false,
+            "loop": false,
+            "muted": true,
+            "src": "https://twks.ch/storage/home_slider/twks_electron_01.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": false,
+            "muted": true,
+            "src": "https://twks.ch/storage/home_slider/twks_academie_de_sertissage.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": false,
+            "muted": true,
+            "src": "https://twks.ch/storage/home_slider/twks_lsv.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": false,
+            "muted": true,
+            "src": "https://twks.ch/storage/home_slider/twks_sps.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://twks.ch/storage/projects/meyrin-culture/twks_meyrinculture_14.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://twks.ch/storage/insights/tinquiete-le-pote-de-mon-pote-est-graphiste/twks_insight_matesdesigner_thumbnail.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": false,
+            "muted": true,
+            "src": "https://twks.ch/videos/twks_panthere_explosion.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://twks.ch/videos/twks_panthere_loop.mp4"
+          }
+        ],
+        "svg": 6,
+        "images": 23,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "2d": 1
+        },
+        "raf": 761,
+        "io": 2,
+        "ro": 1,
+        "mo": 2,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": true,
+        "ScrollTrigger": true,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": true,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Creative communications agency in Geneva | twks",
+      "lang": "fr",
+      "description": "twks is a creative agency based in Geneva, specialising in branding, communication and web design. Since 2011, we have been shaping bold and unique brands."
+    },
+    "featuresBeforeScroll": {
+      "elements": 543,
+      "canvases": 0,
+      "animations": 0,
+      "hidden": 11
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 4010532,
+        "layoutCount": 68,
+        "recalcStyleCount": 1271,
+        "scriptDuration": 0.184499,
+        "taskDuration": 1.92638,
+        "nodes": 4892
+      },
+      "timing": {
+        "domContentLoaded": 1062,
+        "load": 2324,
+        "first-paint": 1176,
+        "first-contentful-paint": 1176
+      }
+    },
+    "animationsReported": [],
+    "console": [],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://twks.ch/storage/home_slider/twks_electron_01.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://twks.ch/storage/projects/meyrin-culture/twks_meyrinculture_14.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://twks.ch/storage/home_slider/twks_sps.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://twks.ch/storage/home_slider/twks_lsv.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://twks.ch/storage/insights/tinquiete-le-pote-de-mon-pote-est-graphiste/twks_insight_matesdesigner_thumbnail.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://twks.ch/videos/twks_panthere_explosion.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://twks.ch/videos/twks_panthere_loop.mp4",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  }
+}

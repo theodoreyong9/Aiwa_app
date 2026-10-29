@@ -1,0 +1,1933 @@
+{
+  "url": "https://www.cagdascecen.com/",
+  "at": "2026-10-12T11:57:37.591Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 21992,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 542,
+      "typography": {
+        "families": [
+          [
+            "JetBrains Mono",
+            172
+          ],
+          [
+            "Rajdhani",
+            17
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            107
+          ],
+          [
+            "600",
+            62
+          ],
+          [
+            "500",
+            14
+          ],
+          [
+            "700",
+            6
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            48
+          ]
+        ],
+        "sizeMin": 6.08,
+        "sizeMedian": 15,
+        "sizeMax": 29.6,
+        "sizeMaxVw": 2.1,
+        "scaleRatio": 2,
+        "letterSpacingMean": 0.059,
+        "loadedFonts": [
+          {
+            "family": "Rajdhani",
+            "weight": "600",
+            "style": "normal"
+          },
+          {
+            "family": "Rajdhani",
+            "weight": "700",
+            "style": "normal"
+          },
+          {
+            "family": "Roboto",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "JetBrains Mono",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "JetBrains Mono",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "JetBrains Mono",
+            "weight": "700",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 189
+      },
+      "color": {
+        "background": "rgb(3, 4, 6)",
+        "backgroundLuminance": 0.0011934073939173192,
+        "backgrounds": [
+          [
+            "rgb(3, 4, 6)",
+            6844
+          ],
+          [
+            "rgba(3, 4, 6, 0.62)",
+            1296
+          ],
+          [
+            "rgb(62, 234, 148)",
+            537
+          ],
+          [
+            "rgb(0, 0, 0)",
+            308
+          ],
+          [
+            "rgb(11, 13, 18)",
+            238
+          ],
+          [
+            "rgba(76, 78, 255, 0.4)",
+            154
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(228, 228, 228)",
+            216
+          ],
+          [
+            "rgb(154, 157, 164)",
+            110
+          ],
+          [
+            "rgb(244, 240, 230)",
+            13
+          ],
+          [
+            "rgb(255, 176, 32)",
+            13
+          ],
+          [
+            "rgba(180, 183, 190, 0.9)",
+            10
+          ]
+        ],
+        "meanSaturation": 0.47,
+        "rootVars": {
+          "--main-bg": "#030406",
+          "--card-border-radius": ".75rem",
+          "--card-bg": "#171a1e",
+          "--scrollbar-accent": "#2f343a",
+          "--text-color": "#e4e4e4",
+          "--accent": "#00b68599",
+          "--tertiary": "#b0262699",
+          "--site-font-display": "\"Rajdhani\", \"Arial Narrow\", sans-serif",
+          "--site-font-mono": "\"JetBrains Mono\", ui-monospace, monospace",
+          "--site-font-body": "\"Roboto\", system-ui, -apple-system, sans-serif",
+          "--site-static": "#e4e4e4",
+          "--site-static-dim": "#9a9da4",
+          "--site-signal": "#00c896",
+          "--site-type-eyebrow": "clamp(.8125rem, .2vw + .72rem, .8125rem)",
+          "--site-type-meta": "clamp(.875rem, .25vw + .82rem, .9375rem)",
+          "--site-type-body": "clamp(.875rem, .25vw + .82rem, .9375rem)",
+          "--site-type-ui": "clamp(.8125rem, .2vw + .76rem, .875rem)",
+          "--site-type-caption": "clamp(.8125rem, .15vw + .74rem, .875rem)",
+          "--site-type-title": "clamp(1.5rem, 1.2vw + 1.1rem, 2.125rem)",
+          "--site-type-section": "clamp(1.0625rem, .5vw + .95rem, 1.25rem)",
+          "--grain-tile": "url(/grain-140.png)",
+          "--void": "#030406",
+          "--static": "#e4e4e4",
+          "--static-dim": "#9a9da4",
+          "--signal": "#00c896",
+          "--alarm": "#d43b3b",
+          "--led-amber": "#ffb020",
+          "--neb-magenta": "#d0459c",
+          "--neb-violet": "#6a42c2",
+          "--neb-teal": "#22c6d4",
+          "--hue": "0deg",
+          "--audio-boost": "0",
+          "--epg-line-strong": "#e4e4e438",
+          "--font-display": "var(--site-font-display)",
+          "--font-mono": "var(--site-font-mono)",
+          "--font-body": "var(--site-font-body)"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 3,
+        "sticky": 1,
+        "fixed": 2,
+        "grid": 17,
+        "flex": 139,
+        "absolute": 62,
+        "asymmetricGrids": 13,
+        "splitScreen": false,
+        "scrollHeight": 6839,
+        "pages": 7.6,
+        "spacing": [
+          [
+            6,
+            55
+          ],
+          [
+            2,
+            54
+          ],
+          [
+            3,
+            48
+          ],
+          [
+            12,
+            17
+          ],
+          [
+            32,
+            17
+          ],
+          [
+            8,
+            10
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            1,
+            6
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 43,
+        "animationKinds": [
+          "CSSTransition",
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 41,
+        "animationDurations": [
+          220,
+          100,
+          40000,
+          52000,
+          31000,
+          9000,
+          8000,
+          6200,
+          500,
+          600,
+          10000,
+          600,
+          2600,
+          2600,
+          2600,
+          2600,
+          2600,
+          2600,
+          2600,
+          2600
+        ],
+        "easings": [
+          "ease-out",
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            150,
+            57
+          ],
+          [
+            120,
+            15
+          ],
+          [
+            180,
+            12
+          ],
+          [
+            80,
+            12
+          ],
+          [
+            600,
+            4
+          ]
+        ],
+        "keyframes": [
+          "drift1",
+          "drift2",
+          "drift3",
+          "tippy",
+          "tippy-mobile",
+          "tree-idle",
+          "flicker",
+          "jitter-r",
+          "jitter-b",
+          "roll-jump",
+          "power-led-pulse",
+          "crt-hum",
+          "power-flicker",
+          "track-scroll",
+          "grain-shift",
+          "line-glow",
+          "title-weave",
+          "probe-pulse",
+          "on-air-live-dot",
+          "tune-out-play"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 86,
+      "media": {
+        "canvases": [
+          {
+            "w": 1440,
+            "h": 900,
+            "area": 1
+          },
+          {
+            "w": 200,
+            "h": 40,
+            "area": 0
+          },
+          {
+            "w": 160,
+            "h": 30,
+            "area": 0
+          }
+        ],
+        "videos": [],
+        "svg": 5,
+        "images": 10,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "2d": 3
+        },
+        "raf": 153,
+        "io": 2,
+        "ro": 0,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Çağdaş Çeçen - Media Artist",
+      "lang": "en",
+      "description": "Light, sound and interaction as instruments for listening to hidden systems, microbial, electromagnetic, human."
+    },
+    "featuresBeforeScroll": {
+      "elements": 542,
+      "canvases": 3,
+      "animations": 43,
+      "hidden": 86
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 6,
+      "changed": 2
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 3853084,
+        "layoutCount": 1134,
+        "recalcStyleCount": 2155,
+        "scriptDuration": 0.167327,
+        "taskDuration": 2.106232,
+        "nodes": 1089
+      },
+      "timing": {
+        "domContentLoaded": 1580,
+        "load": 1725,
+        "first-paint": 1396,
+        "first-contentful-paint": 1396
+      }
+    },
+    "network": [
+      {
+        "url": "https://www.cagdascecen.com/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 10814
+      },
+      {
+        "url": "https://www.cagdascecen.com/_astro/rajdhani-latin-700-normal.BPDUZo87.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 16004
+      },
+      {
+        "url": "https://www.cagdascecen.com/_astro/roboto-latin-400-normal.BqEyEoaF.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 22209
+      },
+      {
+        "url": "https://www.cagdascecen.com/_astro/Tree.BOzwBGdV.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 81367
+      },
+      {
+        "url": "https://api.pirsch.io/pa.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 3983
+      },
+      {
+        "url": "https://www.cagdascecen.com/_astro/PreviewBar.DHXWiSKS.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1495
+      },
+      {
+        "url": "https://www.cagdascecen.com/_astro/index.DK2u0tZP.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 12229
+      },
+      {
+        "url": "https://www.cagdascecen.com/_astro/sound-tool.CgSVTbNv.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 14286
+      },
+      {
+        "url": "https://www.cagdascecen.com/_astro/SignalTV.astro_astro_type_script_index_0_lang.A-fFFQ7m.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 14112
+      },
+      {
+        "url": "https://www.cagdascecen.com/_astro/cc-public.-bWOWNx3.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 69302
+      },
+      {
+        "url": "https://www.cagdascecen.com/_astro/SiteFooter.astro_astro_type_script_index_0_lang.CRP12Zax.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 354
+      },
+      {
+        "url": "https://www.cagdascecen.com/_astro/index.astro_astro_type_script_index_0_lang.j8L92j8F.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 625
+      },
+      {
+        "url": "https://www.cagdascecen.com/grain-140.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 20953
+      },
+      {
+        "url": "https://www.cagdascecen.com/fonts/JetBrains_Mono/static/JetBrainsMono-Regular.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 28168
+      },
+      {
+        "url": "https://www.cagdascecen.com/fonts/JetBrains_Mono/static/JetBrainsMono-Bold.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 29376
+      },
+      {
+        "url": "https://www.cagdascecen.com/_astro/rajdhani-latin-600-normal.CXCVEoA9.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 16048
+      },
+      {
+        "url": "https://www.cagdascecen.com/fonts/JetBrains_Mono/static/JetBrainsMono-Medium.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 29220
+      },
+      {
+        "url": "https://www.cagdascecen.com/_astro/sculpture-demo-img.CpHtBqtb.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 26234
+      },
+      {
+        "url": "https://www.cagdascecen.com/_astro/preload-helper.CxFQXtKk.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 947
+      },
+      {
+        "url": "https://www.cagdascecen.com/_astro/copyright-year-updater.B61ea6fi.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 406
+      },
+      {
+        "url": "https://api.pirsch.io/hit?nc=1791806229151&code=wLqWocE46EFuz1ikEPrKiRmjvVeCUsZC&url=https%3A%2F%2Fwww.cagdascecen.com%2F&t=%C3%87a%C4%9Fda%C5%9F%20%C3%87e%C3%A7en%20-%20Media%20Artist&ref=&w=1440&h=900",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 57
+      },
+      {
+        "url": "https://www.cagdascecen.com/_astro/Tree.BOzwBGdV.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.cagdascecen.com/media/posts/01a06332-a4ee-7f34-9b29-d2ee7af2123c/cover.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 22686
+      },
+      {
+        "url": "https://www.cagdascecen.com/_astro/scroll-motion.C7dcwzw_.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 40292
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "line-glow",
+        "duration": 2600,
+        "delay": -2000,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "line-glow",
+        "duration": 2600,
+        "delay": -1000,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "tippy",
+        "duration": 9000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "cv-jitter-r",
+        "duration": 600,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "grain-shift",
+        "duration": 600,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "line-glow",
+        "duration": 2600,
+        "delay": -2300,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "crt-hum",
+        "duration": 6000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-pulse",
+        "duration": 1800,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "line-glow",
+        "duration": 2600,
+        "delay": -900,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "drift2",
+        "duration": 52000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "cv-wash",
+        "duration": 16000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "jitter-b",
+        "duration": 600,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "line-glow",
+        "duration": 2600,
+        "delay": -1800,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "cv-jitter-b",
+        "duration": 700,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "track-scroll",
+        "duration": 10000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "drift3",
+        "duration": 31000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "cv-track-scroll",
+        "duration": 6500,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "line-glow",
+        "duration": 2600,
+        "delay": -300,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "line-glow",
+        "duration": 2600,
+        "delay": -600,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "flicker",
+        "duration": 6200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "flicker",
+        "duration": 8000,
+        "delay": -2400,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "power-led-pulse",
+        "duration": 1600,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "power-flicker",
+        "duration": 7300,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "jitter-r",
+        "duration": 500,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "line-glow",
+        "duration": 2600,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "drift1",
+        "duration": 40000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "cv-breathe",
+        "duration": 9000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "line-glow",
+        "duration": 2600,
+        "delay": -1400,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "box-shadow",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 220,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "width",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "title-weave",
+        "duration": 16000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "title-weave",
+        "duration": 16000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "title-weave",
+        "duration": 16000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "title-weave",
+        "duration": 16000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "title-weave",
+        "duration": 16000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "title-weave",
+        "duration": 16000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "title-weave",
+        "duration": 16000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "title-weave",
+        "duration": 16000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "title-weave",
+        "duration": 16000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "title-weave",
+        "duration": 16000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "title-weave",
+        "duration": 16000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "title-weave",
+        "duration": 16000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "on-air-live-dot",
+        "duration": 1800,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 320,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 0.9, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 280,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 220,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "width",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 80,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "text-shadow",
+        "duration": 80,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 220,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "width",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 220,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      }
+    ],
+    "console": [],
+    "exceptions": [],
+    "failed": [],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 7951,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 542,
+      "typography": {
+        "families": [
+          [
+            "JetBrains Mono",
+            167
+          ],
+          [
+            "Rajdhani",
+            15
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            102
+          ],
+          [
+            "600",
+            61
+          ],
+          [
+            "500",
+            14
+          ],
+          [
+            "700",
+            5
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            44
+          ]
+        ],
+        "sizeMin": 6.08,
+        "sizeMedian": 16,
+        "sizeMax": 16,
+        "sizeMaxVw": 4.1,
+        "scaleRatio": 1,
+        "letterSpacingMean": 0.053,
+        "loadedFonts": [
+          {
+            "family": "Rajdhani",
+            "weight": "600",
+            "style": "normal"
+          },
+          {
+            "family": "Rajdhani",
+            "weight": "700",
+            "style": "normal"
+          },
+          {
+            "family": "Roboto",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "JetBrains Mono",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "JetBrains Mono",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "JetBrains Mono",
+            "weight": "700",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 182
+      },
+      "color": {
+        "background": "rgb(3, 4, 6)",
+        "backgroundLuminance": 0.0011934073939173192,
+        "backgrounds": [
+          [
+            "rgb(3, 4, 6)",
+            1644
+          ],
+          [
+            "rgba(3, 4, 6, 0.62)",
+            329
+          ],
+          [
+            "rgb(0, 0, 0)",
+            210
+          ],
+          [
+            "rgba(8, 10, 14, 0.88)",
+            113
+          ],
+          [
+            "rgba(255, 60, 40, 0.4)",
+            105
+          ],
+          [
+            "rgba(255, 255, 255, 0.024)",
+            85
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(228, 228, 228)",
+            180
+          ],
+          [
+            "rgb(154, 157, 164)",
+            110
+          ],
+          [
+            "rgb(244, 240, 230)",
+            13
+          ],
+          [
+            "rgb(255, 176, 32)",
+            13
+          ],
+          [
+            "rgba(180, 183, 190, 0.9)",
+            10
+          ]
+        ],
+        "meanSaturation": 0.38,
+        "rootVars": {
+          "--main-bg": "#030406",
+          "--card-border-radius": ".75rem",
+          "--card-bg": "#171a1e",
+          "--scrollbar-accent": "#2f343a",
+          "--text-color": "#e4e4e4",
+          "--accent": "#00b68599",
+          "--tertiary": "#b0262699",
+          "--site-font-display": "\"Rajdhani\", \"Arial Narrow\", sans-serif",
+          "--site-font-mono": "\"JetBrains Mono\", ui-monospace, monospace",
+          "--site-font-body": "\"Roboto\", system-ui, -apple-system, sans-serif",
+          "--site-static": "#e4e4e4",
+          "--site-static-dim": "#9a9da4",
+          "--site-signal": "#00c896",
+          "--site-type-eyebrow": "clamp(.8125rem, .2vw + .72rem, .8125rem)",
+          "--site-type-meta": "clamp(.875rem, .25vw + .82rem, .9375rem)",
+          "--site-type-body": "clamp(.875rem, .25vw + .82rem, .9375rem)",
+          "--site-type-ui": "clamp(.8125rem, .2vw + .76rem, .875rem)",
+          "--site-type-caption": "clamp(.8125rem, .15vw + .74rem, .875rem)",
+          "--site-type-title": "clamp(1.5rem, 1.2vw + 1.1rem, 2.125rem)",
+          "--site-type-section": "clamp(1.0625rem, .5vw + .95rem, 1.25rem)",
+          "--grain-tile": "url(/grain-140.png)",
+          "--void": "#030406",
+          "--static": "#e4e4e4",
+          "--static-dim": "#9a9da4",
+          "--signal": "#00c896",
+          "--alarm": "#d43b3b",
+          "--led-amber": "#ffb020",
+          "--neb-magenta": "#d0459c",
+          "--neb-violet": "#6a42c2",
+          "--neb-teal": "#22c6d4",
+          "--hue": "0deg",
+          "--audio-boost": "0",
+          "--epg-line-strong": "#e4e4e438",
+          "--font-display": "var(--site-font-display)",
+          "--font-mono": "var(--site-font-mono)",
+          "--font-body": "var(--site-font-body)"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 3,
+        "sticky": 0,
+        "fixed": 1,
+        "grid": 20,
+        "flex": 134,
+        "absolute": 60,
+        "asymmetricGrids": 17,
+        "splitScreen": false,
+        "scrollHeight": 9791,
+        "pages": 11.6,
+        "spacing": [
+          [
+            6,
+            66
+          ],
+          [
+            3,
+            49
+          ],
+          [
+            2,
+            49
+          ],
+          [
+            12,
+            18
+          ],
+          [
+            32,
+            17
+          ],
+          [
+            1,
+            11
+          ],
+          [
+            8,
+            7
+          ],
+          [
+            5,
+            5
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 2,
+        "animationKinds": [
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 2,
+        "animationDurations": [
+          14000,
+          1800
+        ],
+        "easings": [
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            150,
+            56
+          ],
+          [
+            120,
+            14
+          ],
+          [
+            180,
+            12
+          ],
+          [
+            80,
+            12
+          ],
+          [
+            600,
+            4
+          ]
+        ],
+        "keyframes": [
+          "drift1",
+          "drift2",
+          "drift3",
+          "tippy",
+          "tippy-mobile",
+          "tree-idle",
+          "flicker",
+          "jitter-r",
+          "jitter-b",
+          "roll-jump",
+          "power-led-pulse",
+          "crt-hum",
+          "power-flicker",
+          "track-scroll",
+          "grain-shift",
+          "line-glow",
+          "title-weave",
+          "probe-pulse",
+          "on-air-live-dot",
+          "tune-out-play"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 86,
+      "media": {
+        "canvases": [
+          {
+            "w": 369,
+            "h": 388,
+            "area": 0.44
+          },
+          {
+            "w": 200,
+            "h": 40,
+            "area": 0.02
+          },
+          {
+            "w": 160,
+            "h": 30,
+            "area": 0
+          }
+        ],
+        "videos": [],
+        "svg": 5,
+        "images": 10,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "2d": 3
+        },
+        "raf": 844,
+        "io": 2,
+        "ro": 0,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Çağdaş Çeçen - Media Artist",
+      "lang": "en",
+      "description": "Light, sound and interaction as instruments for listening to hidden systems, microbial, electromagnetic, human."
+    },
+    "featuresBeforeScroll": {
+      "elements": 541,
+      "canvases": 3,
+      "animations": 2,
+      "hidden": 84
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 2969236,
+        "layoutCount": 179,
+        "recalcStyleCount": 766,
+        "scriptDuration": 0.096872,
+        "taskDuration": 0.843634,
+        "nodes": 1065
+      },
+      "timing": {
+        "domContentLoaded": 1141,
+        "load": 1251,
+        "first-paint": 800,
+        "first-contentful-paint": 800
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "footer-pulse",
+        "duration": 1800,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "tree-idle",
+        "duration": 14000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "box-shadow",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 280,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 320,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 0.9, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 220,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 80,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "text-shadow",
+        "duration": 80,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "text-shadow",
+        "duration": 80,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 80,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "text-shadow",
+        "duration": 80,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 80,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 80,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "text-shadow",
+        "duration": 80,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 80,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 80,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 80,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "text-shadow",
+        "duration": 80,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 80,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "text-shadow",
+        "duration": 80,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 80,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "text-shadow",
+        "duration": 80,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 336.37764758659387,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 363.7821903084263,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 80,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "text-shadow",
+        "duration": 80,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 80,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 80,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "text-shadow",
+        "duration": 80,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 80,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 230.31937386106338,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 222.34750486655554,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      }
+    ],
+    "console": [],
+    "exceptions": [],
+    "failed": [],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  }
+}

@@ -1,0 +1,1811 @@
+{
+  "url": "https://drone.riotters.com/",
+  "at": "2026-10-09T07:56:46.225Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 9640,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 2043,
+      "typography": {
+        "families": [
+          [
+            "switzer",
+            82
+          ],
+          [
+            "protoMono",
+            29
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            88
+          ],
+          [
+            "300",
+            19
+          ],
+          [
+            "500",
+            4
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            13
+          ],
+          [
+            "capitalize",
+            2
+          ],
+          [
+            "lowercase",
+            1
+          ]
+        ],
+        "sizeMin": 12,
+        "sizeMedian": 14,
+        "sizeMax": 56,
+        "sizeMaxVw": 3.9,
+        "scaleRatio": 4,
+        "letterSpacingMean": -0.023,
+        "loadedFonts": [
+          {
+            "family": "switzer",
+            "weight": "normal",
+            "style": "normal"
+          },
+          {
+            "family": "protoMono",
+            "weight": "300",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 111
+      },
+      "color": {
+        "background": "rgb(255, 255, 255)",
+        "backgroundLuminance": 1,
+        "backgrounds": [
+          [
+            "rgb(255, 255, 255)",
+            10337
+          ],
+          [
+            "rgb(253, 253, 253)",
+            8107
+          ],
+          [
+            "rgb(221, 229, 233)",
+            370
+          ],
+          [
+            "rgb(36, 54, 63)",
+            14
+          ],
+          [
+            "rgba(36, 54, 63, 0.08)",
+            2
+          ],
+          [
+            "rgba(36, 54, 63, 0.48)",
+            0
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(199, 204, 203)",
+            823
+          ],
+          [
+            "rgb(36, 54, 63)",
+            301
+          ],
+          [
+            "rgb(23, 23, 23)",
+            251
+          ],
+          [
+            "rgb(255, 255, 255)",
+            156
+          ],
+          [
+            "lab(21.3512 -5.48422 -8.11293 / 0.64)",
+            49
+          ]
+        ],
+        "meanSaturation": 0.22,
+        "rootVars": {
+          "--background": "#fff",
+          "--foreground": "#171717"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 9,
+        "sticky": 2,
+        "fixed": 5,
+        "grid": 13,
+        "flex": 98,
+        "absolute": 160,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 16907,
+        "pages": 18.8,
+        "spacing": [
+          [
+            8,
+            25
+          ],
+          [
+            24,
+            9
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            16,
+            6
+          ],
+          [
+            32,
+            4
+          ],
+          [
+            20,
+            4
+          ],
+          [
+            120,
+            2
+          ],
+          [
+            48,
+            2
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 1,
+        "animationKinds": [
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 1,
+        "animationDurations": [
+          2000
+        ],
+        "easings": [
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            500,
+            14
+          ],
+          [
+            300,
+            9
+          ],
+          [
+            150,
+            5
+          ],
+          [
+            400,
+            3
+          ],
+          [
+            700,
+            1
+          ]
+        ],
+        "keyframes": [
+          "colon-blink",
+          "ping"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 14,
+      "media": {
+        "canvases": [
+          {
+            "w": 24,
+            "h": 24,
+            "area": 0
+          },
+          {
+            "w": 94,
+            "h": 94,
+            "area": 0.01
+          },
+          {
+            "w": 94,
+            "h": 94,
+            "area": 0.01
+          },
+          {
+            "w": 94,
+            "h": 94,
+            "area": 0.01
+          },
+          {
+            "w": 1392,
+            "h": 824,
+            "area": 0.89
+          }
+        ],
+        "videos": [
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://drone.riotters.com/intro/video1.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://drone.riotters.com/intro/video2.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://drone.riotters.com/intro/video3.mp4"
+          }
+        ],
+        "svg": 2,
+        "images": 11,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl": 1,
+          "webgl2": 2,
+          "2d": 4
+        },
+        "raf": 2590,
+        "io": 34,
+        "ro": 39,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 2
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Aevion — autonomous LiDAR inspection drone",
+      "lang": "en",
+      "description": "Interactive 3D demo of Aevion: full-hemisphere LiDAR capture at 240,000 points per second, folding to 42 cm. A technology demo by Riotters."
+    },
+    "featuresBeforeScroll": {
+      "elements": 2049,
+      "canvases": 5,
+      "animations": 7,
+      "hidden": 14
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 4,
+      "changed": 1
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 14656332,
+        "layoutCount": 70,
+        "recalcStyleCount": 594,
+        "scriptDuration": 0.718892,
+        "taskDuration": 1.538338,
+        "nodes": 4191
+      },
+      "timing": {
+        "domContentLoaded": 434,
+        "load": 701,
+        "first-paint": 584,
+        "first-contentful-paint": 584
+      }
+    },
+    "network": [
+      {
+        "url": "https://drone.riotters.com/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 19063
+      },
+      {
+        "url": "https://drone.riotters.com/_next/static/media/Switzer_Variable-s.p.bd58316e.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 43444
+      },
+      {
+        "url": "https://drone.riotters.com/_next/static/media/proto_mono_light-s.p.ae56eb32.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 15601
+      },
+      {
+        "url": "https://drone.riotters.com/_next/static/chunks/ef57bc184ce96269.css?dpl=dpl_7Wc7CdYXC5XSy3Z9hzPq4nAGcbAN",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 9741
+      },
+      {
+        "url": "https://drone.riotters.com/_next/static/chunks/7ed531b8e7e46c44.js?dpl=dpl_7Wc7CdYXC5XSy3Z9hzPq4nAGcbAN",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 13278
+      },
+      {
+        "url": "https://drone.riotters.com/_next/static/chunks/72c822cfe5b6f4f2.js?dpl=dpl_7Wc7CdYXC5XSy3Z9hzPq4nAGcbAN",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 9335
+      },
+      {
+        "url": "https://drone.riotters.com/_next/static/chunks/045c83caa4d15373.js?dpl=dpl_7Wc7CdYXC5XSy3Z9hzPq4nAGcbAN",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 65161
+      },
+      {
+        "url": "https://drone.riotters.com/_next/static/chunks/01bf887ab4501022.js?dpl=dpl_7Wc7CdYXC5XSy3Z9hzPq4nAGcbAN",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 32603
+      },
+      {
+        "url": "https://drone.riotters.com/_next/static/chunks/turbopack-42ccd3accfeeb189.js?dpl=dpl_7Wc7CdYXC5XSy3Z9hzPq4nAGcbAN",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4608
+      },
+      {
+        "url": "https://drone.riotters.com/_next/static/chunks/1b6b9f7d60f2591f.js?dpl=dpl_7Wc7CdYXC5XSy3Z9hzPq4nAGcbAN",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4604
+      },
+      {
+        "url": "https://drone.riotters.com/_next/static/chunks/edf0036d357232b2.js?dpl=dpl_7Wc7CdYXC5XSy3Z9hzPq4nAGcbAN",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 50008
+      },
+      {
+        "url": "https://drone.riotters.com/_next/static/chunks/ff1a16fafef87110.js?dpl=dpl_7Wc7CdYXC5XSy3Z9hzPq4nAGcbAN",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 477
+      },
+      {
+        "url": "https://drone.riotters.com/_next/static/chunks/d2be314c3ece3fbe.js?dpl=dpl_7Wc7CdYXC5XSy3Z9hzPq4nAGcbAN",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 7938
+      },
+      {
+        "url": "https://drone.riotters.com/_next/static/chunks/680d33e4c65eee79.js?dpl=dpl_7Wc7CdYXC5XSy3Z9hzPq4nAGcbAN",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 788
+      },
+      {
+        "url": "https://drone.riotters.com/_next/static/chunks/1c21992ade81f5f5.js?dpl=dpl_7Wc7CdYXC5XSy3Z9hzPq4nAGcbAN",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 575894
+      },
+      {
+        "url": "https://drone.riotters.com/intro/video1.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://drone.riotters.com/hero/aevion.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 2654
+      },
+      {
+        "url": "https://drone.riotters.com/nav/aevion.svg?dpl=dpl_7Wc7CdYXC5XSy3Z9hzPq4nAGcbAN",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 858
+      },
+      {
+        "url": "https://drone.riotters.com/software/NewTerreain_006.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "model/gltf-binary",
+        "fromCache": false,
+        "bytes": 1594393
+      },
+      {
+        "url": "https://drone.riotters.com/rive/rive-2.38.5.wasm",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/wasm",
+        "fromCache": false,
+        "bytes": 811816
+      },
+      {
+        "url": "https://drone.riotters.com/da9234f8dd2b67f3/script.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2373
+      },
+      {
+        "url": "https://drone.riotters.com/intro/video1.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other"
+      },
+      {
+        "url": "https://drone.riotters.com/intro/video2.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://drone.riotters.com/intro/video3.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://drone.riotters.com/intro/video2.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://drone.riotters.com/intro/video3.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "blob:https://drone.riotters.com/408b9440-b8c2-454b-bfc1-54f88bfd7a99",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://drone.riotters.com/63e15e5e-bc03-4fba-b37c-b67d53767af5",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://drone.riotters.com/1d065088-6cfe-4ee6-bee7-7d507b318151",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://drone.riotters.com/software/PXGwhite.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 21836
+      },
+      {
+        "url": "https://drone.riotters.com/hero/drone_scroll_animation.riv",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 1093
+      },
+      {
+        "url": "https://drone.riotters.com/gear/gear-anims/gear-anim-01.riv",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 777
+      },
+      {
+        "url": "https://drone.riotters.com/gear/gear-anims/gear-anim-02.riv",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 903
+      },
+      {
+        "url": "https://drone.riotters.com/gear/gear-anims/gear-anim-03.riv",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 852
+      },
+      {
+        "url": "https://drone.riotters.com/intro/video3.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other"
+      },
+      {
+        "url": "https://drone.riotters.com/intro/video2.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other"
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 0,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear(0 0%, 1 100%)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 0,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 0,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 0,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0, 0, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 0,
+        "delay": 1260,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 0,
+        "delay": 1310,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 0,
+        "delay": 1360,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 0,
+        "delay": 1410.0000000000002,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 0,
+        "delay": 1460,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 0,
+        "delay": 1510,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 0,
+        "delay": 1560,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 0,
+        "delay": 1610,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 0,
+        "delay": 1660.0000000000002,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 0,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.76, 0, 0.24, 1)"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "colon-blink",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 0,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 0,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 650,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0, 0, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 2020,
+        "delay": 240,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1670,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear(0 0%, -0.0004 0.6024096385542169%, -0.0009 1.2048192771084336%, -0.002 1.8072289156626504%, -0.0034 2.4096385542168672%, -0.005 3.012048192771084%, -0.0072 3.614457831325301%, -0.0096 4.216867469879518%, -0.0123 4.819277108433735%, -0.0153 5.421686746987952%, -0.0184 6.024096385542169%, -0.0221 6.626506024096386%, -0.0258 7.2289156626506035%, -0.0297 7.831325301204821%, -0.0339 8.433734939759038%, -0.0383 9.036144578313255%, -0.0429 9.638554216867472%, -0.0476 10.24096385542169%, -0.0524 10.843373493975907%, -0.0575 11.445783132530124%, -0.0626 12.048192771084342%, -0.0679 12.650602409638559%, -0.0733 13.253012048192776%, -0.0788 13.855421686746993%, -0.0844 14.45783132530121%, -0.09 15.060240963855428%, -0.0956 15.662650602409645%, -0.1013 16.265060240963862%, -0.1071 16.86746987951808%, -0.1129 17.469879518072297%, -0.1186 18.072289156626514%, -0.1244 18.67469879518073%, -0.1301 19.27710843373495%, -0.1358 19.879518072289166%, -0.1413 20.481927710843383%, -0.1469 21.0843373493976%, -0.1523 21.686746987951818%, -0.1576 22.289156626506035%, -0.1627 22.891566265060252%, -0.1676 23.49397590361447%, -0.1724 24.096385542168687%, -0.1769 24.698795180722904%, -0.1811 25.30120481927712%, -0.1852 25.90361445783134%, -0.1887 26.506024096385556%, -0.192 27.108433734939773%, -0.1946 27.71084337349399%, -0.1968 28.313253012048207%, -0.1986 28.915662650602425%, -0.1995 29.518072289156642%, -0.1998 30.12048192771086%, -0.199 30.722891566265076%, -0.1972 31.325301204819294%, -0.1947 31.92771084337351%, -0.1905 32.530120481927725%, -0.1856 33.13253012048194%, -0.1791 33.73493975903615%, -0.1713 34.337349397590366%, -0.1625 34.93975903614458%, -0.1516 35.54216867469879%, -0.1399 36.14457831325301%, -0.1263 36.74698795180722%, -0.1113 37.349397590361434%, -0.0952 37.95180722891565%, -0.0769 38.55421686746986%, -0.0578 39.156626506024075%, -0.0372 39.75903614457829%, -0.0153 40.3614457831325%, 0.0073 40.963855421686716%, 0.0314 41.56626506024093%, 0.0558 42.168674698795144%, 0.081 42.771084337349365%, 0.1066 43.373493975903585%, 0.1324 43.9759036144578%, 0.1583 44.57831325301201%, 0.1842 45.180722891566234%, 0.21 45.783132530120454%, 0.2355 46.38554216867467%, 0.2608 46.98795180722888%, 0.2854 47.5903614457831%, 0.3098 48.19277108433732%, 0.3335 48.79518072289154%, 0.3566 49.39759036144575%, 0.3794 49.99999999999997%, 0.4012 50.60240963855419%, 0.4227 51.204819277108406%, 0.4434 51.80722891566262%, 0.4636 52.40963855421684%, 0.4834 53.01204819277106%, 0.5022 53.614457831325275%, 0.5206 54.21686746987949%, 0.5385 54.81927710843371%, 0.5556 55.42168674698793%, 0.5725 56.024096385542144%, 0.5886 56.62650602409636%, 0.6044 57.22891566265058%, 0.6196 57.8313253012048%, 0.6343 58.43373493975901%, 0.6486 59.03614457831323%, 0.6623 59.63855421686745%, 0.6757 60.24096385542167%, 0.6886 60.84337349397588%, 0.7011 61.445783132530096%, 0.7133 62.04819277108432%, 0.725 62.65060240963853%, 0.7363 63.253012048192744%, 0.7474 63.855421686746965%, 0.7579 64.45783132530119%, 0.7683 65.0602409638554%, 0.7782 65.66265060240963%, 0.7878 66.26506024096385%, 0.7972 66.86746987951807%, 0.8062 67.46987951807229%, 0.815 68.07228915662651%, 0.8234 68.67469879518073%, 0.8315 69.27710843373495%, 0.8394 69.87951807228917%, 0.847 70.4819277108434%, 0.8545 71.08433734939761%, 0.8615 71.68674698795184%, 0.8684 72.28915662650606%, 0.8751 72.89156626506028%, 0.8815 73.4939759036145%, 0.8878 74.09638554216872%, 0.8937 74.69879518072294%, 0.8995 75.30120481927716%, 0.905 75.90361445783138%, 0.9104 76.5060240963856%, 0.9156 77.10843373493982%, 0.9205 77.71084337349404%, 0.9253 78.31325301204826%, 0.9299 78.91566265060248%, 0.9342 79.5180722891567%, 0.9385 80.12048192771093%, 0.9425 80.72289156626515%, 0.9464 81.32530120481937%, 0.9502 81.92771084337359%, 0.9538 82.53012048192781%, 0.9572 83.13253012048202%, 0.9605 83.73493975903622%, 0.9636 84.33734939759044%, 0.9666 84.93975903614466%, 0.9693 85.54216867469887%, 0.972 86.14457831325308%, 0.9745 86.7469879518073%, 0.9769 87.34939759036152%, 0.9792 87.95180722891573%, 0.9813 88.55421686746993%, 0.9834 89.15662650602415%, 0.9853 89.75903614457837%, 0.987 90.36144578313258%, 0.9887 90.96385542168679%, 0.9902 91.56626506024101%, 0.9916 92.16867469879523%, 0.9928 92.77108433734944%, 0.994 93.37349397590364%, 0.9952 93.97590361445786%, 0.9961 94.57831325301208%, 0.9969 95.18072289156629%, 0.9976 95.7831325301205%, 0.9982 96.38554216867472%, 0.9988 96.98795180722894%, 0.9992 97.59036144578315%, 0.9996 98.19277108433735%, 0.9998 98.79518072289157%, 0.9999 99.3975903614458%, 1 100%)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 200,
+        "delay": 1260,
+        "iterations": 1,
+        "easing": "linear(0 0%, 0.175 5.2631578947368425%, 0.5242 10.526315789473685%, 0.8527 15.789473684210527%, 1.0673 21.05263157894737%, 1.156 26.315789473684212%, 1.1523 31.578947368421055%, 1.1025 36.8421052631579%, 1.0448 42.10526315789474%, 1.0011 47.36842105263158%, 0.9784 52.631578947368425%, 0.9736 57.89473684210527%, 0.9794 63.15789473684211%, 0.9889 68.42105263157895%, 0.9972 73.68421052631578%, 1.0024 78.94736842105263%, 1.0043 84.21052631578948%, 1.0039 89.47368421052632%, 1.0025 94.73684210526315%, 1 100%)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 200,
+        "delay": 1310,
+        "iterations": 1,
+        "easing": "linear(0 0%, 0.175 5.2631578947368425%, 0.5242 10.526315789473685%, 0.8527 15.789473684210527%, 1.0673 21.05263157894737%, 1.156 26.315789473684212%, 1.1523 31.578947368421055%, 1.1025 36.8421052631579%, 1.0448 42.10526315789474%, 1.0011 47.36842105263158%, 0.9784 52.631578947368425%, 0.9736 57.89473684210527%, 0.9794 63.15789473684211%, 0.9889 68.42105263157895%, 0.9972 73.68421052631578%, 1.0024 78.94736842105263%, 1.0043 84.21052631578948%, 1.0039 89.47368421052632%, 1.0025 94.73684210526315%, 1 100%)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 200,
+        "delay": 1360,
+        "iterations": 1,
+        "easing": "linear(0 0%, 0.175 5.2631578947368425%, 0.5242 10.526315789473685%, 0.8527 15.789473684210527%, 1.0673 21.05263157894737%, 1.156 26.315789473684212%, 1.1523 31.578947368421055%, 1.1025 36.8421052631579%, 1.0448 42.10526315789474%, 1.0011 47.36842105263158%, 0.9784 52.631578947368425%, 0.9736 57.89473684210527%, 0.9794 63.15789473684211%, 0.9889 68.42105263157895%, 0.9972 73.68421052631578%, 1.0024 78.94736842105263%, 1.0043 84.21052631578948%, 1.0039 89.47368421052632%, 1.0025 94.73684210526315%, 1 100%)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 200,
+        "delay": 1410.0000000000002,
+        "iterations": 1,
+        "easing": "linear(0 0%, 0.175 5.2631578947368425%, 0.5242 10.526315789473685%, 0.8527 15.789473684210527%, 1.0673 21.05263157894737%, 1.156 26.315789473684212%, 1.1523 31.578947368421055%, 1.1025 36.8421052631579%, 1.0448 42.10526315789474%, 1.0011 47.36842105263158%, 0.9784 52.631578947368425%, 0.9736 57.89473684210527%, 0.9794 63.15789473684211%, 0.9889 68.42105263157895%, 0.9972 73.68421052631578%, 1.0024 78.94736842105263%, 1.0043 84.21052631578948%, 1.0039 89.47368421052632%, 1.0025 94.73684210526315%, 1 100%)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 200,
+        "delay": 1460,
+        "iterations": 1,
+        "easing": "linear(0 0%, 0.175 5.2631578947368425%, 0.5242 10.526315789473685%, 0.8527 15.789473684210527%, 1.0673 21.05263157894737%, 1.156 26.315789473684212%, 1.1523 31.578947368421055%, 1.1025 36.8421052631579%, 1.0448 42.10526315789474%, 1.0011 47.36842105263158%, 0.9784 52.631578947368425%, 0.9736 57.89473684210527%, 0.9794 63.15789473684211%, 0.9889 68.42105263157895%, 0.9972 73.68421052631578%, 1.0024 78.94736842105263%, 1.0043 84.21052631578948%, 1.0039 89.47368421052632%, 1.0025 94.73684210526315%, 1 100%)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 200,
+        "delay": 1510,
+        "iterations": 1,
+        "easing": "linear(0 0%, 0.175 5.2631578947368425%, 0.5242 10.526315789473685%, 0.8527 15.789473684210527%, 1.0673 21.05263157894737%, 1.156 26.315789473684212%, 1.1523 31.578947368421055%, 1.1025 36.8421052631579%, 1.0448 42.10526315789474%, 1.0011 47.36842105263158%, 0.9784 52.631578947368425%, 0.9736 57.89473684210527%, 0.9794 63.15789473684211%, 0.9889 68.42105263157895%, 0.9972 73.68421052631578%, 1.0024 78.94736842105263%, 1.0043 84.21052631578948%, 1.0039 89.47368421052632%, 1.0025 94.73684210526315%, 1 100%)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 200,
+        "delay": 1560,
+        "iterations": 1,
+        "easing": "linear(0 0%, 0.175 5.2631578947368425%, 0.5242 10.526315789473685%, 0.8527 15.789473684210527%, 1.0673 21.05263157894737%, 1.156 26.315789473684212%, 1.1523 31.578947368421055%, 1.1025 36.8421052631579%, 1.0448 42.10526315789474%, 1.0011 47.36842105263158%, 0.9784 52.631578947368425%, 0.9736 57.89473684210527%, 0.9794 63.15789473684211%, 0.9889 68.42105263157895%, 0.9972 73.68421052631578%, 1.0024 78.94736842105263%, 1.0043 84.21052631578948%, 1.0039 89.47368421052632%, 1.0025 94.73684210526315%, 1 100%)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 200,
+        "delay": 1610,
+        "iterations": 1,
+        "easing": "linear(0 0%, 0.175 5.2631578947368425%, 0.5242 10.526315789473685%, 0.8527 15.789473684210527%, 1.0673 21.05263157894737%, 1.156 26.315789473684212%, 1.1523 31.578947368421055%, 1.1025 36.8421052631579%, 1.0448 42.10526315789474%, 1.0011 47.36842105263158%, 0.9784 52.631578947368425%, 0.9736 57.89473684210527%, 0.9794 63.15789473684211%, 0.9889 68.42105263157895%, 0.9972 73.68421052631578%, 1.0024 78.94736842105263%, 1.0043 84.21052631578948%, 1.0039 89.47368421052632%, 1.0025 94.73684210526315%, 1 100%)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 200,
+        "delay": 1660.0000000000002,
+        "iterations": 1,
+        "easing": "linear(0 0%, 0.175 5.2631578947368425%, 0.5242 10.526315789473685%, 0.8527 15.789473684210527%, 1.0673 21.05263157894737%, 1.156 26.315789473684212%, 1.1523 31.578947368421055%, 1.1025 36.8421052631579%, 1.0448 42.10526315789474%, 1.0011 47.36842105263158%, 0.9784 52.631578947368425%, 0.9736 57.89473684210527%, 0.9794 63.15789473684211%, 0.9889 68.42105263157895%, 0.9972 73.68421052631578%, 1.0024 78.94736842105263%, 1.0043 84.21052631578948%, 1.0039 89.47368421052632%, 1.0025 94.73684210526315%, 1 100%)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 600,
+        "delay": 1570,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0, 0, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 0,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear(0 0%, 1 100%)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear(0 0%, 0.0216 1.694915254237288%, 0.0797 3.389830508474576%, 0.1648 5.084745762711864%, 0.2683 6.779661016949152%, 0.3821 8.474576271186441%, 0.4996 10.16949152542373%, 0.6151 11.864406779661019%, 0.7243 13.559322033898308%, 0.8237 15.254237288135595%, 0.9113 16.949152542372882%, 0.9855 18.64406779661017%, 1.046 20.338983050847457%, 1.0928 22.033898305084744%, 1.1267 23.72881355932203%, 1.1487 25.42372881355932%, 1.1603 27.118644067796605%, 1.1629 28.813559322033893%, 1.1583 30.50847457627118%, 1.148 32.20338983050847%, 1.1335 33.89830508474576%, 1.1162 35.593220338983045%, 1.0975 37.28813559322033%, 1.0783 38.98305084745762%, 1.0596 40.677966101694906%, 1.0421 42.37288135593219%, 1.0262 44.06779661016948%, 1.0123 45.76271186440677%, 1.0005 47.457627118644055%, 0.9911 49.15254237288134%, 0.9838 50.84745762711863%, 0.9786 52.54237288135592%, 0.9753 54.237288135593204%, 0.9737 55.93220338983049%, 0.9735 57.62711864406778%, 0.9744 59.322033898305065%, 0.9762 61.01694915254235%, 0.9787 62.71186440677964%, 0.9816 64.40677966101693%, 0.9846 66.10169491525421%, 0.9878 67.7966101694915%, 0.9908 69.49152542372879%, 0.9936 71.18644067796608%, 0.9961 72.88135593220336%, 0.9984 74.57627118644065%, 1.0002 76.27118644067794%, 1.0017 77.96610169491522%, 1.0028 79.66101694915251%, 1.0036 81.3559322033898%, 1.0041 83.05084745762709%, 1.0043 84.74576271186437%, 1.0043 86.44067796610166%, 1.0041 88.13559322033895%, 1.0038 89.83050847457623%, 1.0034 91.52542372881354%, 1.0029 93.22033898305082%, 1.0024 94.91525423728811%, 1.0019 96.61016949152541%, 1.0014 98.30508474576271%, 1 100%)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 600,
+        "delay": 50,
+        "iterations": 1,
+        "easing": "linear(0 0%, 0.0216 1.694915254237288%, 0.0797 3.389830508474576%, 0.1648 5.084745762711864%, 0.2683 6.779661016949152%, 0.3821 8.474576271186441%, 0.4996 10.16949152542373%, 0.6151 11.864406779661019%, 0.7243 13.559322033898308%, 0.8237 15.254237288135595%, 0.9113 16.949152542372882%, 0.9855 18.64406779661017%, 1.046 20.338983050847457%, 1.0928 22.033898305084744%, 1.1267 23.72881355932203%, 1.1487 25.42372881355932%, 1.1603 27.118644067796605%, 1.1629 28.813559322033893%, 1.1583 30.50847457627118%, 1.148 32.20338983050847%, 1.1335 33.89830508474576%, 1.1162 35.593220338983045%, 1.0975 37.28813559322033%, 1.0783 38.98305084745762%, 1.0596 40.677966101694906%, 1.0421 42.37288135593219%, 1.0262 44.06779661016948%, 1.0123 45.76271186440677%, 1.0005 47.457627118644055%, 0.9911 49.15254237288134%, 0.9838 50.84745762711863%, 0.9786 52.54237288135592%, 0.9753 54.237288135593204%, 0.9737 55.93220338983049%, 0.9735 57.62711864406778%, 0.9744 59.322033898305065%, 0.9762 61.01694915254235%, 0.9787 62.71186440677964%, 0.9816 64.40677966101693%, 0.9846 66.10169491525421%, 0.9878 67.7966101694915%, 0.9908 69.49152542372879%, 0.9936 71.18644067796608%, 0.9961 72.88135593220336%, 0.9984 74.57627118644065%, 1.0002 76.27118644067794%, 1.0017 77.96610169491522%, 1.0028 79.66101694915251%, 1.0036 81.3559322033898%, 1.0041 83.05084745762709%, 1.0043 84.74576271186437%, 1.0043 86.44067796610166%, 1.0041 88.13559322033895%, 1.0038 89.83050847457623%, 1.0034 91.52542372881354%, 1.0029 93.22033898305082%, 1.0024 94.91525423728811%, 1.0019 96.61016949152541%, 1.0014 98.30508474576271%, 1 100%)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 600,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "linear(0 0%, 0.0216 1.694915254237288%, 0.0797 3.389830508474576%, 0.1648 5.084745762711864%, 0.2683 6.779661016949152%, 0.3821 8.474576271186441%, 0.4996 10.16949152542373%, 0.6151 11.864406779661019%, 0.7243 13.559322033898308%, 0.8237 15.254237288135595%, 0.9113 16.949152542372882%, 0.9855 18.64406779661017%, 1.046 20.338983050847457%, 1.0928 22.033898305084744%, 1.1267 23.72881355932203%, 1.1487 25.42372881355932%, 1.1603 27.118644067796605%, 1.1629 28.813559322033893%, 1.1583 30.50847457627118%, 1.148 32.20338983050847%, 1.1335 33.89830508474576%, 1.1162 35.593220338983045%, 1.0975 37.28813559322033%, 1.0783 38.98305084745762%, 1.0596 40.677966101694906%, 1.0421 42.37288135593219%, 1.0262 44.06779661016948%, 1.0123 45.76271186440677%, 1.0005 47.457627118644055%, 0.9911 49.15254237288134%, 0.9838 50.84745762711863%, 0.9786 52.54237288135592%, 0.9753 54.237288135593204%, 0.9737 55.93220338983049%, 0.9735 57.62711864406778%, 0.9744 59.322033898305065%, 0.9762 61.01694915254235%, 0.9787 62.71186440677964%, 0.9816 64.40677966101693%, 0.9846 66.10169491525421%, 0.9878 67.7966101694915%, 0.9908 69.49152542372879%, 0.9936 71.18644067796608%, 0.9961 72.88135593220336%, 0.9984 74.57627118644065%, 1.0002 76.27118644067794%, 1.0017 77.96610169491522%, 1.0028 79.66101694915251%, 1.0036 81.3559322033898%, 1.0041 83.05084745762709%, 1.0043 84.74576271186437%, 1.0043 86.44067796610166%, 1.0041 88.13559322033895%, 1.0038 89.83050847457623%, 1.0034 91.52542372881354%, 1.0029 93.22033898305082%, 1.0024 94.91525423728811%, 1.0019 96.61016949152541%, 1.0014 98.30508474576271%, 1 100%)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 0,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 0,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 0,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 0,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "colon-blink",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A07020004C1B0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0A020004C1B0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A07020004C1B0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x2674037e5400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x2674037e5400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x2674037e5400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x2674037e5400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://drone.riotters.com/intro/video1.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://drone.riotters.com/intro/video1.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://drone.riotters.com/intro/video3.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://drone.riotters.com/intro/video2.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://drone.riotters.com/intro/video3.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://drone.riotters.com/intro/video3.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://drone.riotters.com/intro/video2.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://drone.riotters.com/intro/video2.mp4",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 6840,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 2041,
+      "typography": {
+        "families": [
+          [
+            "switzer",
+            49
+          ],
+          [
+            "protoMono",
+            19
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            45
+          ],
+          [
+            "300",
+            19
+          ],
+          [
+            "500",
+            4
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            9
+          ],
+          [
+            "lowercase",
+            1
+          ]
+        ],
+        "sizeMin": 12,
+        "sizeMedian": 15,
+        "sizeMax": 40,
+        "sizeMaxVw": 10.3,
+        "scaleRatio": 2.7,
+        "letterSpacingMean": -0.023,
+        "loadedFonts": [
+          {
+            "family": "switzer",
+            "weight": "normal",
+            "style": "normal"
+          },
+          {
+            "family": "protoMono",
+            "weight": "300",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 68
+      },
+      "color": {
+        "background": "rgb(255, 255, 255)",
+        "backgroundLuminance": 1,
+        "backgrounds": [
+          [
+            "rgb(255, 255, 255)",
+            2209
+          ],
+          [
+            "rgb(253, 253, 253)",
+            1030
+          ],
+          [
+            "rgb(221, 229, 233)",
+            118
+          ],
+          [
+            "rgb(36, 54, 63)",
+            21
+          ],
+          [
+            "rgba(36, 54, 63, 0.08)",
+            2
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(36, 54, 63)",
+            678
+          ],
+          [
+            "rgb(199, 204, 203)",
+            409
+          ],
+          [
+            "rgb(23, 23, 23)",
+            255
+          ],
+          [
+            "lab(21.3512 -5.48422 -8.11293 / 0.64)",
+            57
+          ],
+          [
+            "rgb(255, 255, 255)",
+            54
+          ]
+        ],
+        "meanSaturation": 0.18,
+        "rootVars": {
+          "--background": "#fff",
+          "--foreground": "#171717"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 6,
+        "sticky": 2,
+        "fixed": 2,
+        "grid": 7,
+        "flex": 100,
+        "absolute": 161,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 9436,
+        "pages": 11.2,
+        "spacing": [
+          [
+            8,
+            17
+          ],
+          [
+            24,
+            13
+          ],
+          [
+            16,
+            10
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            12,
+            5
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            48,
+            3
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 3,
+        "animationKinds": [
+          "Animation"
+        ],
+        "infiniteAnimations": 0,
+        "animationDurations": [
+          100,
+          800,
+          300
+        ],
+        "easings": [
+          "ease-out",
+          "linear(0 0%, 0.0155 1.2658227848101267%, 0.0585 2.5316455696202533%, 0.1234 3.79746835443038%, 0.2051 5.063291139240507%, 0.2987 6.329113924050633%, 0.3994 7.594936708860759%, 0.5032 8.860759493670885%, 0.6065 10.126582278481012%, 0.7062 11.392405063291138%, 0.7999 12.658227848101264%, 0.8856 13.92405063291139%, 0.9619 15.189873417721516%, 1.028 16.455696202531644%, 1.0834 17.72151898734177%, 1.1279 18.987341772151897%, 1.1619 20.253164556962023%, 1.186 21.51898734177215%, 1.2008 22.784810126582276%, 1.2074 24.050632911392402%, 1.2067 25.316455696202528%, 1.1998 26.582278481012654%, 1.188 27.84810126582278%, 1.1722 29.113924050632907%, 1.1536 30.379746835443033%, 1.1331 31.64556962025316%, 1.1117 32.91139240506329%, 1.0901 34.177215189873415%, 1.069 35.44303797468354%, 1.049 36.70886075949367%, 1.0305 37.974683544303794%, 1.0139 39.24050632911392%, 0.9993 40.506329113924046%, 0.9869 41.77215189873417%, 0.9768 43.0379746835443%, 0.9688 44.303797468354425%, 0.963 45.56962025316455%, 0.9592 46.83544303797468%, 0.9572 48.101265822784804%, 0.9568 49.36708860759493%, 0.9578 50.632911392405056%, 0.9599 51.89873417721518%, 0.9628 53.16455696202531%, 0.9665 54.430379746835435%, 0.9706 55.69620253164556%, 0.975 56.96202531645569%, 0.9795 58.22784810126581%, 0.984 59.49367088607594%, 0.9882 60.759493670886066%, 0.9922 62.02531645569619%, 0.9958 63.29113924050632%, 0.999 64.55696202531645%, 1.0018 65.82278481012658%, 1.0041 67.0886075949367%, 1.0059 68.35443037974683%, 1.0073 69.62025316455696%, 1.0082 70.88607594936708%, 1.0088 72.15189873417721%, 1.009 73.41772151898734%, 1.0089 74.68354430379746%, 1.0085 75.94936708860759%, 1.008 77.21518987341771%, 1.0073 78.48101265822784%, 1.0064 79.74683544303797%, 1.0056 81.01265822784809%, 1.0046 82.27848101265822%, 1.0037 83.54430379746834%, 1.0028 84.81012658227847%, 1.0019 86.0759493670886%, 1.0012 87.34177215189872%, 1.0005 88.60759493670885%, 0.9998 89.87341772151898%, 0.9993 91.1392405063291%, 0.9989 92.40506329113923%, 0.9986 93.67088607594935%, 0.9984 94.93670886075948%, 1 96.20253164556961%, 1 97.46835443037973%, 1 98.73417721518987%, 1 100%)"
+        ],
+        "transitionDurationsMs": [
+          [
+            500,
+            14
+          ],
+          [
+            300,
+            7
+          ],
+          [
+            150,
+            5
+          ],
+          [
+            400,
+            3
+          ],
+          [
+            700,
+            1
+          ]
+        ],
+        "keyframes": [
+          "colon-blink",
+          "ping"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 5,
+      "media": {
+        "canvases": [
+          {
+            "w": 40,
+            "h": 40,
+            "area": 0
+          },
+          {
+            "w": 156,
+            "h": 156,
+            "area": 0.02
+          },
+          {
+            "w": 390,
+            "h": 360,
+            "area": 0.43
+          }
+        ],
+        "videos": [
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://drone.riotters.com/intro/video1.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://drone.riotters.com/solutions/energy.mp4"
+          }
+        ],
+        "svg": 2,
+        "images": 11,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl": 1,
+          "webgl2": 2,
+          "2d": 2
+        },
+        "raf": 1168,
+        "io": 71,
+        "ro": 27,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 2
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Aevion — autonomous LiDAR inspection drone",
+      "lang": "en",
+      "description": "Interactive 3D demo of Aevion: full-hemisphere LiDAR capture at 240,000 points per second, folding to 42 cm. A technology demo by Riotters."
+    },
+    "featuresBeforeScroll": {
+      "elements": 2046,
+      "canvases": 3,
+      "animations": 7,
+      "hidden": 6
+    },
+    "scrollReveal": 1,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 18587600,
+        "layoutCount": 105,
+        "recalcStyleCount": 256,
+        "scriptDuration": 0.709754,
+        "taskDuration": 1.303887,
+        "nodes": 3941
+      },
+      "timing": {
+        "domContentLoaded": 92,
+        "load": 159,
+        "first-paint": 108,
+        "first-contentful-paint": 108
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 0,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear(0 0%, 1 100%)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 0,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 0,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 0,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0, 0, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 0,
+        "delay": 1260,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 0,
+        "delay": 1310,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 0,
+        "delay": 1360,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 0,
+        "delay": 1410.0000000000002,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 0,
+        "delay": 1460,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 0,
+        "delay": 1510,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 0,
+        "delay": 1560,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 0,
+        "delay": 1610,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 0,
+        "delay": 1660.0000000000002,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 180,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 0,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.76, 0, 0.24, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 0,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.76, 0, 0.24, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 0,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 0,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 650,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0, 0, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 2020,
+        "delay": 240,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1670,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear(0 0%, -0.0004 0.6024096385542169%, -0.0009 1.2048192771084336%, -0.002 1.8072289156626504%, -0.0034 2.4096385542168672%, -0.005 3.012048192771084%, -0.0072 3.614457831325301%, -0.0096 4.216867469879518%, -0.0123 4.819277108433735%, -0.0153 5.421686746987952%, -0.0184 6.024096385542169%, -0.0221 6.626506024096386%, -0.0258 7.2289156626506035%, -0.0297 7.831325301204821%, -0.0339 8.433734939759038%, -0.0383 9.036144578313255%, -0.0429 9.638554216867472%, -0.0476 10.24096385542169%, -0.0524 10.843373493975907%, -0.0575 11.445783132530124%, -0.0626 12.048192771084342%, -0.0679 12.650602409638559%, -0.0733 13.253012048192776%, -0.0788 13.855421686746993%, -0.0844 14.45783132530121%, -0.09 15.060240963855428%, -0.0956 15.662650602409645%, -0.1013 16.265060240963862%, -0.1071 16.86746987951808%, -0.1129 17.469879518072297%, -0.1186 18.072289156626514%, -0.1244 18.67469879518073%, -0.1301 19.27710843373495%, -0.1358 19.879518072289166%, -0.1413 20.481927710843383%, -0.1469 21.0843373493976%, -0.1523 21.686746987951818%, -0.1576 22.289156626506035%, -0.1627 22.891566265060252%, -0.1676 23.49397590361447%, -0.1724 24.096385542168687%, -0.1769 24.698795180722904%, -0.1811 25.30120481927712%, -0.1852 25.90361445783134%, -0.1887 26.506024096385556%, -0.192 27.108433734939773%, -0.1946 27.71084337349399%, -0.1968 28.313253012048207%, -0.1986 28.915662650602425%, -0.1995 29.518072289156642%, -0.1998 30.12048192771086%, -0.199 30.722891566265076%, -0.1972 31.325301204819294%, -0.1947 31.92771084337351%, -0.1905 32.530120481927725%, -0.1856 33.13253012048194%, -0.1791 33.73493975903615%, -0.1713 34.337349397590366%, -0.1625 34.93975903614458%, -0.1516 35.54216867469879%, -0.1399 36.14457831325301%, -0.1263 36.74698795180722%, -0.1113 37.349397590361434%, -0.0952 37.95180722891565%, -0.0769 38.55421686746986%, -0.0578 39.156626506024075%, -0.0372 39.75903614457829%, -0.0153 40.3614457831325%, 0.0073 40.963855421686716%, 0.0314 41.56626506024093%, 0.0558 42.168674698795144%, 0.081 42.771084337349365%, 0.1066 43.373493975903585%, 0.1324 43.9759036144578%, 0.1583 44.57831325301201%, 0.1842 45.180722891566234%, 0.21 45.783132530120454%, 0.2355 46.38554216867467%, 0.2608 46.98795180722888%, 0.2854 47.5903614457831%, 0.3098 48.19277108433732%, 0.3335 48.79518072289154%, 0.3566 49.39759036144575%, 0.3794 49.99999999999997%, 0.4012 50.60240963855419%, 0.4227 51.204819277108406%, 0.4434 51.80722891566262%, 0.4636 52.40963855421684%, 0.4834 53.01204819277106%, 0.5022 53.614457831325275%, 0.5206 54.21686746987949%, 0.5385 54.81927710843371%, 0.5556 55.42168674698793%, 0.5725 56.024096385542144%, 0.5886 56.62650602409636%, 0.6044 57.22891566265058%, 0.6196 57.8313253012048%, 0.6343 58.43373493975901%, 0.6486 59.03614457831323%, 0.6623 59.63855421686745%, 0.6757 60.24096385542167%, 0.6886 60.84337349397588%, 0.7011 61.445783132530096%, 0.7133 62.04819277108432%, 0.725 62.65060240963853%, 0.7363 63.253012048192744%, 0.7474 63.855421686746965%, 0.7579 64.45783132530119%, 0.7683 65.0602409638554%, 0.7782 65.66265060240963%, 0.7878 66.26506024096385%, 0.7972 66.86746987951807%, 0.8062 67.46987951807229%, 0.815 68.07228915662651%, 0.8234 68.67469879518073%, 0.8315 69.27710843373495%, 0.8394 69.87951807228917%, 0.847 70.4819277108434%, 0.8545 71.08433734939761%, 0.8615 71.68674698795184%, 0.8684 72.28915662650606%, 0.8751 72.89156626506028%, 0.8815 73.4939759036145%, 0.8878 74.09638554216872%, 0.8937 74.69879518072294%, 0.8995 75.30120481927716%, 0.905 75.90361445783138%, 0.9104 76.5060240963856%, 0.9156 77.10843373493982%, 0.9205 77.71084337349404%, 0.9253 78.31325301204826%, 0.9299 78.91566265060248%, 0.9342 79.5180722891567%, 0.9385 80.12048192771093%, 0.9425 80.72289156626515%, 0.9464 81.32530120481937%, 0.9502 81.92771084337359%, 0.9538 82.53012048192781%, 0.9572 83.13253012048202%, 0.9605 83.73493975903622%, 0.9636 84.33734939759044%, 0.9666 84.93975903614466%, 0.9693 85.54216867469887%, 0.972 86.14457831325308%, 0.9745 86.7469879518073%, 0.9769 87.34939759036152%, 0.9792 87.95180722891573%, 0.9813 88.55421686746993%, 0.9834 89.15662650602415%, 0.9853 89.75903614457837%, 0.987 90.36144578313258%, 0.9887 90.96385542168679%, 0.9902 91.56626506024101%, 0.9916 92.16867469879523%, 0.9928 92.77108433734944%, 0.994 93.37349397590364%, 0.9952 93.97590361445786%, 0.9961 94.57831325301208%, 0.9969 95.18072289156629%, 0.9976 95.7831325301205%, 0.9982 96.38554216867472%, 0.9988 96.98795180722894%, 0.9992 97.59036144578315%, 0.9996 98.19277108433735%, 0.9998 98.79518072289157%, 0.9999 99.3975903614458%, 1 100%)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 200,
+        "delay": 1260,
+        "iterations": 1,
+        "easing": "linear(0 0%, 0.175 5.2631578947368425%, 0.5242 10.526315789473685%, 0.8527 15.789473684210527%, 1.0673 21.05263157894737%, 1.156 26.315789473684212%, 1.1523 31.578947368421055%, 1.1025 36.8421052631579%, 1.0448 42.10526315789474%, 1.0011 47.36842105263158%, 0.9784 52.631578947368425%, 0.9736 57.89473684210527%, 0.9794 63.15789473684211%, 0.9889 68.42105263157895%, 0.9972 73.68421052631578%, 1.0024 78.94736842105263%, 1.0043 84.21052631578948%, 1.0039 89.47368421052632%, 1.0025 94.73684210526315%, 1 100%)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 200,
+        "delay": 1310,
+        "iterations": 1,
+        "easing": "linear(0 0%, 0.175 5.2631578947368425%, 0.5242 10.526315789473685%, 0.8527 15.789473684210527%, 1.0673 21.05263157894737%, 1.156 26.315789473684212%, 1.1523 31.578947368421055%, 1.1025 36.8421052631579%, 1.0448 42.10526315789474%, 1.0011 47.36842105263158%, 0.9784 52.631578947368425%, 0.9736 57.89473684210527%, 0.9794 63.15789473684211%, 0.9889 68.42105263157895%, 0.9972 73.68421052631578%, 1.0024 78.94736842105263%, 1.0043 84.21052631578948%, 1.0039 89.47368421052632%, 1.0025 94.73684210526315%, 1 100%)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 200,
+        "delay": 1360,
+        "iterations": 1,
+        "easing": "linear(0 0%, 0.175 5.2631578947368425%, 0.5242 10.526315789473685%, 0.8527 15.789473684210527%, 1.0673 21.05263157894737%, 1.156 26.315789473684212%, 1.1523 31.578947368421055%, 1.1025 36.8421052631579%, 1.0448 42.10526315789474%, 1.0011 47.36842105263158%, 0.9784 52.631578947368425%, 0.9736 57.89473684210527%, 0.9794 63.15789473684211%, 0.9889 68.42105263157895%, 0.9972 73.68421052631578%, 1.0024 78.94736842105263%, 1.0043 84.21052631578948%, 1.0039 89.47368421052632%, 1.0025 94.73684210526315%, 1 100%)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 200,
+        "delay": 1410.0000000000002,
+        "iterations": 1,
+        "easing": "linear(0 0%, 0.175 5.2631578947368425%, 0.5242 10.526315789473685%, 0.8527 15.789473684210527%, 1.0673 21.05263157894737%, 1.156 26.315789473684212%, 1.1523 31.578947368421055%, 1.1025 36.8421052631579%, 1.0448 42.10526315789474%, 1.0011 47.36842105263158%, 0.9784 52.631578947368425%, 0.9736 57.89473684210527%, 0.9794 63.15789473684211%, 0.9889 68.42105263157895%, 0.9972 73.68421052631578%, 1.0024 78.94736842105263%, 1.0043 84.21052631578948%, 1.0039 89.47368421052632%, 1.0025 94.73684210526315%, 1 100%)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 200,
+        "delay": 1460,
+        "iterations": 1,
+        "easing": "linear(0 0%, 0.175 5.2631578947368425%, 0.5242 10.526315789473685%, 0.8527 15.789473684210527%, 1.0673 21.05263157894737%, 1.156 26.315789473684212%, 1.1523 31.578947368421055%, 1.1025 36.8421052631579%, 1.0448 42.10526315789474%, 1.0011 47.36842105263158%, 0.9784 52.631578947368425%, 0.9736 57.89473684210527%, 0.9794 63.15789473684211%, 0.9889 68.42105263157895%, 0.9972 73.68421052631578%, 1.0024 78.94736842105263%, 1.0043 84.21052631578948%, 1.0039 89.47368421052632%, 1.0025 94.73684210526315%, 1 100%)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 200,
+        "delay": 1510,
+        "iterations": 1,
+        "easing": "linear(0 0%, 0.175 5.2631578947368425%, 0.5242 10.526315789473685%, 0.8527 15.789473684210527%, 1.0673 21.05263157894737%, 1.156 26.315789473684212%, 1.1523 31.578947368421055%, 1.1025 36.8421052631579%, 1.0448 42.10526315789474%, 1.0011 47.36842105263158%, 0.9784 52.631578947368425%, 0.9736 57.89473684210527%, 0.9794 63.15789473684211%, 0.9889 68.42105263157895%, 0.9972 73.68421052631578%, 1.0024 78.94736842105263%, 1.0043 84.21052631578948%, 1.0039 89.47368421052632%, 1.0025 94.73684210526315%, 1 100%)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 200,
+        "delay": 1560,
+        "iterations": 1,
+        "easing": "linear(0 0%, 0.175 5.2631578947368425%, 0.5242 10.526315789473685%, 0.8527 15.789473684210527%, 1.0673 21.05263157894737%, 1.156 26.315789473684212%, 1.1523 31.578947368421055%, 1.1025 36.8421052631579%, 1.0448 42.10526315789474%, 1.0011 47.36842105263158%, 0.9784 52.631578947368425%, 0.9736 57.89473684210527%, 0.9794 63.15789473684211%, 0.9889 68.42105263157895%, 0.9972 73.68421052631578%, 1.0024 78.94736842105263%, 1.0043 84.21052631578948%, 1.0039 89.47368421052632%, 1.0025 94.73684210526315%, 1 100%)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 200,
+        "delay": 1610,
+        "iterations": 1,
+        "easing": "linear(0 0%, 0.175 5.2631578947368425%, 0.5242 10.526315789473685%, 0.8527 15.789473684210527%, 1.0673 21.05263157894737%, 1.156 26.315789473684212%, 1.1523 31.578947368421055%, 1.1025 36.8421052631579%, 1.0448 42.10526315789474%, 1.0011 47.36842105263158%, 0.9784 52.631578947368425%, 0.9736 57.89473684210527%, 0.9794 63.15789473684211%, 0.9889 68.42105263157895%, 0.9972 73.68421052631578%, 1.0024 78.94736842105263%, 1.0043 84.21052631578948%, 1.0039 89.47368421052632%, 1.0025 94.73684210526315%, 1 100%)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 200,
+        "delay": 1660.0000000000002,
+        "iterations": 1,
+        "easing": "linear(0 0%, 0.175 5.2631578947368425%, 0.5242 10.526315789473685%, 0.8527 15.789473684210527%, 1.0673 21.05263157894737%, 1.156 26.315789473684212%, 1.1523 31.578947368421055%, 1.1025 36.8421052631579%, 1.0448 42.10526315789474%, 1.0011 47.36842105263158%, 0.9784 52.631578947368425%, 0.9736 57.89473684210527%, 0.9794 63.15789473684211%, 0.9889 68.42105263157895%, 0.9972 73.68421052631578%, 1.0024 78.94736842105263%, 1.0043 84.21052631578948%, 1.0039 89.47368421052632%, 1.0025 94.73684210526315%, 1 100%)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 600,
+        "delay": 1570,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 0, 0, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 0,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear(0 0%, 1 100%)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear(0 0%, 0.0216 1.694915254237288%, 0.0797 3.389830508474576%, 0.1648 5.084745762711864%, 0.2683 6.779661016949152%, 0.3821 8.474576271186441%, 0.4996 10.16949152542373%, 0.6151 11.864406779661019%, 0.7243 13.559322033898308%, 0.8237 15.254237288135595%, 0.9113 16.949152542372882%, 0.9855 18.64406779661017%, 1.046 20.338983050847457%, 1.0928 22.033898305084744%, 1.1267 23.72881355932203%, 1.1487 25.42372881355932%, 1.1603 27.118644067796605%, 1.1629 28.813559322033893%, 1.1583 30.50847457627118%, 1.148 32.20338983050847%, 1.1335 33.89830508474576%, 1.1162 35.593220338983045%, 1.0975 37.28813559322033%, 1.0783 38.98305084745762%, 1.0596 40.677966101694906%, 1.0421 42.37288135593219%, 1.0262 44.06779661016948%, 1.0123 45.76271186440677%, 1.0005 47.457627118644055%, 0.9911 49.15254237288134%, 0.9838 50.84745762711863%, 0.9786 52.54237288135592%, 0.9753 54.237288135593204%, 0.9737 55.93220338983049%, 0.9735 57.62711864406778%, 0.9744 59.322033898305065%, 0.9762 61.01694915254235%, 0.9787 62.71186440677964%, 0.9816 64.40677966101693%, 0.9846 66.10169491525421%, 0.9878 67.7966101694915%, 0.9908 69.49152542372879%, 0.9936 71.18644067796608%, 0.9961 72.88135593220336%, 0.9984 74.57627118644065%, 1.0002 76.27118644067794%, 1.0017 77.96610169491522%, 1.0028 79.66101694915251%, 1.0036 81.3559322033898%, 1.0041 83.05084745762709%, 1.0043 84.74576271186437%, 1.0043 86.44067796610166%, 1.0041 88.13559322033895%, 1.0038 89.83050847457623%, 1.0034 91.52542372881354%, 1.0029 93.22033898305082%, 1.0024 94.91525423728811%, 1.0019 96.61016949152541%, 1.0014 98.30508474576271%, 1 100%)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 600,
+        "delay": 50,
+        "iterations": 1,
+        "easing": "linear(0 0%, 0.0216 1.694915254237288%, 0.0797 3.389830508474576%, 0.1648 5.084745762711864%, 0.2683 6.779661016949152%, 0.3821 8.474576271186441%, 0.4996 10.16949152542373%, 0.6151 11.864406779661019%, 0.7243 13.559322033898308%, 0.8237 15.254237288135595%, 0.9113 16.949152542372882%, 0.9855 18.64406779661017%, 1.046 20.338983050847457%, 1.0928 22.033898305084744%, 1.1267 23.72881355932203%, 1.1487 25.42372881355932%, 1.1603 27.118644067796605%, 1.1629 28.813559322033893%, 1.1583 30.50847457627118%, 1.148 32.20338983050847%, 1.1335 33.89830508474576%, 1.1162 35.593220338983045%, 1.0975 37.28813559322033%, 1.0783 38.98305084745762%, 1.0596 40.677966101694906%, 1.0421 42.37288135593219%, 1.0262 44.06779661016948%, 1.0123 45.76271186440677%, 1.0005 47.457627118644055%, 0.9911 49.15254237288134%, 0.9838 50.84745762711863%, 0.9786 52.54237288135592%, 0.9753 54.237288135593204%, 0.9737 55.93220338983049%, 0.9735 57.62711864406778%, 0.9744 59.322033898305065%, 0.9762 61.01694915254235%, 0.9787 62.71186440677964%, 0.9816 64.40677966101693%, 0.9846 66.10169491525421%, 0.9878 67.7966101694915%, 0.9908 69.49152542372879%, 0.9936 71.18644067796608%, 0.9961 72.88135593220336%, 0.9984 74.57627118644065%, 1.0002 76.27118644067794%, 1.0017 77.96610169491522%, 1.0028 79.66101694915251%, 1.0036 81.3559322033898%, 1.0041 83.05084745762709%, 1.0043 84.74576271186437%, 1.0043 86.44067796610166%, 1.0041 88.13559322033895%, 1.0038 89.83050847457623%, 1.0034 91.52542372881354%, 1.0029 93.22033898305082%, 1.0024 94.91525423728811%, 1.0019 96.61016949152541%, 1.0014 98.30508474576271%, 1 100%)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 600,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "linear(0 0%, 0.0216 1.694915254237288%, 0.0797 3.389830508474576%, 0.1648 5.084745762711864%, 0.2683 6.779661016949152%, 0.3821 8.474576271186441%, 0.4996 10.16949152542373%, 0.6151 11.864406779661019%, 0.7243 13.559322033898308%, 0.8237 15.254237288135595%, 0.9113 16.949152542372882%, 0.9855 18.64406779661017%, 1.046 20.338983050847457%, 1.0928 22.033898305084744%, 1.1267 23.72881355932203%, 1.1487 25.42372881355932%, 1.1603 27.118644067796605%, 1.1629 28.813559322033893%, 1.1583 30.50847457627118%, 1.148 32.20338983050847%, 1.1335 33.89830508474576%, 1.1162 35.593220338983045%, 1.0975 37.28813559322033%, 1.0783 38.98305084745762%, 1.0596 40.677966101694906%, 1.0421 42.37288135593219%, 1.0262 44.06779661016948%, 1.0123 45.76271186440677%, 1.0005 47.457627118644055%, 0.9911 49.15254237288134%, 0.9838 50.84745762711863%, 0.9786 52.54237288135592%, 0.9753 54.237288135593204%, 0.9737 55.93220338983049%, 0.9735 57.62711864406778%, 0.9744 59.322033898305065%, 0.9762 61.01694915254235%, 0.9787 62.71186440677964%, 0.9816 64.40677966101693%, 0.9846 66.10169491525421%, 0.9878 67.7966101694915%, 0.9908 69.49152542372879%, 0.9936 71.18644067796608%, 0.9961 72.88135593220336%, 0.9984 74.57627118644065%, 1.0002 76.27118644067794%, 1.0017 77.96610169491522%, 1.0028 79.66101694915251%, 1.0036 81.3559322033898%, 1.0041 83.05084745762709%, 1.0043 84.74576271186437%, 1.0043 86.44067796610166%, 1.0041 88.13559322033895%, 1.0038 89.83050847457623%, 1.0034 91.52542372881354%, 1.0029 93.22033898305082%, 1.0024 94.91525423728811%, 1.0019 96.61016949152541%, 1.0014 98.30508474576271%, 1 100%)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 900,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.76, 0, 0.24, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 100,
+        "delay": 1100,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 800,
+        "delay": 1100,
+        "iterations": 1,
+        "easing": "linear(0 0%, 0.0155 1.2658227848101267%, 0.0585 2.5316455696202533%, 0.1234 3.79746835443038%, 0.2051 5.063291139240507%, 0.2987 6.329113924050633%, 0.3994 7.594936708860759%, 0.5032 8.860759493670885%, 0.6065 10.126582278481012%, 0.7062 11.392405063291138%, 0.7999 12.658227848101264%, 0.8856 13.92405063291139%, 0.9619 15.189873417721516%, 1.028 16.455696202531644%, 1.0834 17.72151898734177%, 1.1279 18.987341772151897%, 1.1619 20.253164556962023%, 1.186 21.51898734177215%, 1.2008 22.784810126582276%, 1.2074 24.050632911392402%, 1.2067 25.316455696202528%, 1.1998 26.582278481012654%, 1.188 27.84810126582278%, 1.1722 29.113924050632907%, 1.1536 30.379746835443033%, 1.1331 31.64556962025316%, 1.1117 32.91139240506329%, 1.0901 34.177215189873415%, 1.069 35.44303797468354%, 1.049 36.70886075949367%, 1.0305 37.974683544303794%, 1.0139 39.24050632911392%, 0.9993 40.506329113924046%, 0.9869 41.77215189873417%, 0.9768 43.0379746835443%, 0.9688 44.303797468354425%, 0.963 45.56962025316455%, 0.9592 46.83544303797468%, 0.9572 48.101265822784804%, 0.9568 49.36708860759493%, 0.9578 50.632911392405056%, 0.9599 51.89873417721518%, 0.9628 53.16455696202531%, 0.9665 54.430379746835435%, 0.9706 55.69620253164556%, 0.975 56.96202531645569%, 0.9795 58.22784810126581%, 0.984 59.49367088607594%, 0.9882 60.759493670886066%, 0.9922 62.02531645569619%, 0.9958 63.29113924050632%, 0.999 64.55696202531645%, 1.0018 65.82278481012658%, 1.0041 67.0886075949367%, 1.0059 68.35443037974683%, 1.0073 69.62025316455696%, 1.0082 70.88607594936708%, 1.0088 72.15189873417721%, 1.009 73.41772151898734%, 1.0089 74.68354430379746%, 1.0085 75.94936708860759%, 1.008 77.21518987341771%, 1.0073 78.48101265822784%, 1.0064 79.74683544303797%, 1.0056 81.01265822784809%, 1.0046 82.27848101265822%, 1.0037 83.54430379746834%, 1.0028 84.81012658227847%, 1.0019 86.0759493670886%, 1.0012 87.34177215189872%, 1.0005 88.60759493670885%, 0.9998 89.87341772151898%, 0.9993 91.1392405063291%, 0.9989 92.40506329113923%, 0.9986 93.67088607594935%, 0.9984 94.93670886075948%, 1 96.20253164556961%, 1 97.46835443037973%, 1 98.73417721518987%, 1 100%)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 300,
+        "delay": 1300,
+        "iterations": 1,
+        "easing": "ease-out"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0A020004C1B0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0D020004C1B0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A07020004C1B0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://drone.riotters.com/intro/video1.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://drone.riotters.com/solutions/energy.mp4",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  }
+}

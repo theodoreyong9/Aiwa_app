@@ -1,0 +1,2486 @@
+{
+  "url": "https://hyperspeed.agency/en/",
+  "at": "2026-10-09T11:18:46.976Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 17644,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 852,
+      "typography": {
+        "families": [
+          [
+            "Gismo Round",
+            51
+          ],
+          [
+            "Manrope",
+            48
+          ]
+        ],
+        "weights": [
+          [
+            "900",
+            51
+          ],
+          [
+            "400",
+            20
+          ],
+          [
+            "700",
+            12
+          ],
+          [
+            "800",
+            7
+          ],
+          [
+            "500",
+            7
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            54
+          ]
+        ],
+        "sizeMin": 10.2,
+        "sizeMedian": 19.44,
+        "sizeMax": 175.5,
+        "sizeMaxVw": 12.2,
+        "scaleRatio": 9,
+        "letterSpacingMean": -0.007,
+        "loadedFonts": [
+          {
+            "family": "Manrope",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope",
+            "weight": "600",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope",
+            "weight": "700",
+            "style": "normal"
+          },
+          {
+            "family": "Gismo Round",
+            "weight": "100 900",
+            "style": "normal"
+          }
+        ],
+        "variableFont": true,
+        "textElements": 99
+      },
+      "color": {
+        "background": "rgb(0, 99, 67)",
+        "backgroundLuminance": 0.0932892809011729,
+        "backgrounds": [
+          [
+            "rgb(0, 99, 67)",
+            20098
+          ],
+          [
+            "rgb(255, 238, 188)",
+            14641
+          ],
+          [
+            "rgb(210, 232, 255)",
+            4312
+          ],
+          [
+            "rgb(93, 55, 42)",
+            3888
+          ],
+          [
+            "rgb(234, 103, 45)",
+            2685
+          ],
+          [
+            "rgba(255, 255, 255, 0.34)",
+            81
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(255, 238, 188)",
+            320
+          ],
+          [
+            "rgb(93, 55, 42)",
+            120
+          ],
+          [
+            "rgb(234, 103, 45)",
+            29
+          ],
+          [
+            "rgb(210, 232, 255)",
+            29
+          ],
+          [
+            "oklab(0.37967 0.0453603 0.0375409 / 0.5)",
+            13
+          ]
+        ],
+        "meanSaturation": 0.47,
+        "rootVars": {
+          "--forest": "var(--color-forest)",
+          "--brown": "var(--color-brown)",
+          "--paper": "var(--color-paper)",
+          "--blush": "var(--color-blush)",
+          "--blush2": "var(--color-blush)",
+          "--hot": "var(--color-hot)",
+          "--pink": "var(--color-hot)",
+          "--display": "var(--font-display)",
+          "--sans": "var(--font-sans)",
+          "--svcpad": "var(--spacing-svcpad)",
+          "--cam": "var(--ease-cam)",
+          "--snap": "var(--ease-snap)"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 16,
+        "sticky": 6,
+        "fixed": 6,
+        "grid": 45,
+        "flex": 83,
+        "absolute": 204,
+        "asymmetricGrids": 1,
+        "splitScreen": false,
+        "scrollHeight": 20954,
+        "pages": 23.3,
+        "spacing": [
+          [
+            8,
+            16
+          ],
+          [
+            5,
+            13
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            20,
+            10
+          ],
+          [
+            14,
+            9
+          ],
+          [
+            3,
+            9
+          ],
+          [
+            10,
+            7
+          ],
+          [
+            6,
+            7
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 13,
+        "animationKinds": [
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 13,
+        "animationDurations": [
+          1100,
+          1000,
+          1000,
+          1000,
+          1000,
+          1000,
+          1000,
+          1000,
+          1000,
+          1000,
+          1060,
+          16000,
+          6000
+        ],
+        "easings": [
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            380,
+            30
+          ],
+          [
+            600,
+            29
+          ],
+          [
+            500,
+            28
+          ],
+          [
+            700,
+            18
+          ],
+          [
+            420,
+            18
+          ]
+        ],
+        "keyframes": [],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 59,
+      "media": {
+        "canvases": [
+          {
+            "w": 1440,
+            "h": 900,
+            "area": 0
+          }
+        ],
+        "videos": [
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://hyperspeed.agency/videos/web/reklama.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://hyperspeed.agency/videos/web/v67.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://hyperspeed.agency/videos/web/caki.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": false,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": false,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": false,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": false,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": false,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": false,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://hyperspeed.agency/videos/web/head-a.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://hyperspeed.agency/videos/web/head-b.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://hyperspeed.agency/videos/web/ai/1.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://hyperspeed.agency/videos/web/ai/2.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://hyperspeed.agency/videos/web/ai/3.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://hyperspeed.agency/videos/web/ai/4.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://hyperspeed.agency/videos/web/ai/5.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://hyperspeed.agency/videos/web/ai/6.mp4"
+          }
+        ],
+        "svg": 32,
+        "images": 17,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "2d": 1
+        },
+        "raf": 1481,
+        "io": 1,
+        "ro": 1,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": true,
+        "ScrollTrigger": true,
+        "THREE": false,
+        "Lenis": true,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Hyperspeed | Video and content studio in Sofia",
+      "lang": "en",
+      "description": "Video and content studio in Sofia. From ads to Reels, we come up with the idea, shoot it, edit it and deliver it ready to go. Bulgaria Based, Working Globally."
+    },
+    "featuresBeforeScroll": {
+      "elements": 900,
+      "canvases": 1,
+      "animations": 14,
+      "hidden": 90
+    },
+    "scrollReveal": 31,
+    "hover": {
+      "probed": 6,
+      "changed": 4
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 3948316,
+        "layoutCount": 679,
+        "recalcStyleCount": 1213,
+        "scriptDuration": 0.399128,
+        "taskDuration": 5.017855,
+        "nodes": 6841
+      },
+      "timing": {
+        "domContentLoaded": 1576,
+        "load": 2234,
+        "first-paint": 984,
+        "first-contentful-paint": 1092
+      }
+    },
+    "network": [
+      {
+        "url": "https://hyperspeed.agency/en/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 54195
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Manrope:wght@400;500;600;700&display=swap",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 665
+      },
+      {
+        "url": "https://hyperspeed.agency/dist/app.css?v=1791215983",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 19294
+      },
+      {
+        "url": "https://hyperspeed.agency/posters2/head-a.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 22984
+      },
+      {
+        "url": "https://hyperspeed.agency/posters2/head-b.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 16953
+      },
+      {
+        "url": "https://hyperspeed.agency/posters2/ai/1.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 25012
+      },
+      {
+        "url": "https://hyperspeed.agency/posters2/ai/2.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 28598
+      },
+      {
+        "url": "https://hyperspeed.agency/posters2/ai/3.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 25394
+      },
+      {
+        "url": "https://hyperspeed.agency/posters2/ai/4.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 77791
+      },
+      {
+        "url": "https://hyperspeed.agency/posters2/ai/5.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 55684
+      },
+      {
+        "url": "https://hyperspeed.agency/posters2/ai/6.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 30990
+      },
+      {
+        "url": "https://hyperspeed.agency/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1087
+      },
+      {
+        "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 26205
+      },
+      {
+        "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 16211
+      },
+      {
+        "url": "https://unpkg.com/lenis@1.1.13/dist/lenis.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 4297
+      },
+      {
+        "url": "https://hyperspeed.agency/videos/web/head-a.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://hyperspeed.agency/videos/web/head-b.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/manrope/v20/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk7PFO_F.ttf",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/ttf",
+        "fromCache": false,
+        "bytes": 41987
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/manrope/v20/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk79FO_F.ttf",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/ttf",
+        "fromCache": false,
+        "bytes": 42221
+      },
+      {
+        "url": "https://hyperspeed.agency/fonts/gismo_round/Gismo-Round.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 41324
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/manrope/v20/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk4aE-_F.ttf",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/ttf",
+        "fromCache": false,
+        "bytes": 42772
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/manrope/v20/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk4jE-_F.ttf",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/ttf",
+        "fromCache": false,
+        "bytes": 42270
+      },
+      {
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 10438
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221440%22%20height%3D%22900%22%3E%3Cpath%20d%3D%22M359.5%200V684.0M0%20683.5H360.0M359.5%20684V900.0M0%20899.5H360.0M719.5%200V216.0M360%20215.5H720.0M719.5%20216V900.0M360%20899.5H720.0M1079.5%200V684.0M720%20683.5H1080.0M1079.5%20684V900.0M720%20899.5H1080.0M1439.5%200V216.0M1080%20215.5H1440.0M1439.5%20216V900.0M1080%20899.5H1440.0M-0.5%200V0.0M0%20-0.5H0.0M-0.5%200V0.0M0%20-0.5H0.0M-0.5%200V0.0M0%20-0.5H0.0M-0.5%200V0.0M0%20-0.5H0.0%22%20stroke%3D%22%23FFEEBC%22%20stroke-opacity%3D%22.3%22%20fill%3D%22none%22%2F%3E%3C%2Fsvg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://hyperspeed.agency/posters2/reklama.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 37113
+      },
+      {
+        "url": "https://hyperspeed.agency/posters2/v67.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 41469
+      },
+      {
+        "url": "https://hyperspeed.agency/posters2/caki.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 41966
+      },
+      {
+        "url": "https://hyperspeed.agency/posters2/projects/intellect/1.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 32008
+      },
+      {
+        "url": "https://hyperspeed.agency/posters2/projects/herbebe/1.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 53732
+      },
+      {
+        "url": "https://hyperspeed.agency/posters2/projects/questhouse/1.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 47429
+      },
+      {
+        "url": "https://hyperspeed.agency/posters2/projects/rob/1.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 26114
+      },
+      {
+        "url": "https://hyperspeed.agency/posters2/projects/raadico/1.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 24696
+      },
+      {
+        "url": "https://hyperspeed.agency/posters2/projects/hyper/1.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 44725
+      },
+      {
+        "url": "https://hyperspeed.agency/videos/web/reklama.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://hyperspeed.agency/videos/web/v67.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://hyperspeed.agency/videos/web/caki.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://hyperspeed.agency/cdn-cgi/rum?",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 461
+      },
+      {
+        "url": "https://hyperspeed.agency/all/video-production.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 84771
+      },
+      {
+        "url": "https://hyperspeed.agency/all/content-video.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 67451
+      },
+      {
+        "url": "https://hyperspeed.agency/all/snimka12-sm.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 44705
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221440%22%20height%3D%22900%22%3E%3Cpath%20d%3D%22M479.5%200V684.0M0%20683.5H480.0M479.5%20684V900.0M0%20899.5H480.0M959.5%200V216.0M480%20215.5H960.0M959.5%20216V900.0M480%20899.5H960.0M1439.5%200V684.0M960%20683.5H1440.0M1439.5%20684V900.0M960%20899.5H1440.0M-0.5%200V0.0M0%20-0.5H0.0M-0.5%200V0.0M0%20-0.5H0.0M-0.5%200V0.0M0%20-0.5H0.0M-0.5%200V0.0M0%20-0.5H0.0M-0.5%200V0.0M0%20-0.5H0.0M-0.5%200V0.0M0%20-0.5H0.0%22%20stroke%3D%22%23FFEEBC%22%20stroke-opacity%3D%22.3%22%20fill%3D%22none%22%2F%3E%3C%2Fsvg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221440%22%20height%3D%22900%22%3E%3Cpath%20d%3D%22M359.5%200V684.0M0%20683.5H360.0M359.5%20684V900.0M0%20899.5H360.0M719.5%200V216.0M360%20215.5H720.0M719.5%20216V900.0M360%20899.5H720.0M1079.5%200V684.0M720%20683.5H1080.0M1079.5%20684V900.0M720%20899.5H1080.0M1439.5%200V216.0M1080%20215.5H1440.0M1439.5%20216V900.0M1080%20899.5H1440.0M-0.5%200V0.0M0%20-0.5H0.0M-0.5%200V0.0M0%20-0.5H0.0M-0.5%200V0.0M0%20-0.5H0.0M-0.5%200V0.0M0%20-0.5H0.0%22%20stroke%3D%22%23FFEEBC%22%20stroke-opacity%3D%22.3%22%20fill%3D%22none%22%2F%3E%3C%2Fsvg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "aiel",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "aiel",
+        "duration": 1000,
+        "delay": -330,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "aiel",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "aiel",
+        "duration": 1000,
+        "delay": -660,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "aiel",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "jbSpin",
+        "duration": 6000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "aiel",
+        "duration": 1000,
+        "delay": -330,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "aicaret",
+        "duration": 1060,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "aiel",
+        "duration": 1000,
+        "delay": -660,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "sndFlow",
+        "duration": 1100,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "askspin",
+        "duration": 16000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "aiel",
+        "duration": 1000,
+        "delay": -330,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "aiel",
+        "duration": 1000,
+        "delay": -660,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 160,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 160,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "clip-path",
+        "duration": 1100,
+        "delay": 80,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "box-shadow",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.62, 0.02, 0.16, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.62, 0.02, 0.16, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "box-shadow",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.62, 0.02, 0.16, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.62, 0.02, 0.16, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "box-shadow",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.62, 0.02, 0.16, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.62, 0.02, 0.16, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "box-shadow",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.62, 0.02, 0.16, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.62, 0.02, 0.16, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.62, 0.02, 0.16, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.62, 0.02, 0.16, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.62, 0.02, 0.16, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.62, 0.02, 0.16, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.62, 0.02, 0.16, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.62, 0.02, 0.16, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.62, 0.02, 0.16, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1250,
+        "delay": 55,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1250,
+        "delay": 110,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1250,
+        "delay": 165,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1250,
+        "delay": 110,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.15, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1250,
+        "delay": 165,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.15, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1250,
+        "delay": 55,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.15, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 875,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.6, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.15, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "box-shadow",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.62, 0.02, 0.16, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.62, 0.02, 0.16, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "box-shadow",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.62, 0.02, 0.16, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.62, 0.02, 0.16, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "box-shadow",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.62, 0.02, 0.16, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.62, 0.02, 0.16, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "box-shadow",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.62, 0.02, 0.16, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.62, 0.02, 0.16, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.62, 0.02, 0.16, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.62, 0.02, 0.16, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.62, 0.02, 0.16, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 620,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.62, 0.02, 0.16, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 620,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.62, 0.02, 0.16, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.62, 0.02, 0.16, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.62, 0.02, 0.16, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 600,
+        "delay": 1760.0000000000002,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.62, 0.02, 0.16, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 660,
+        "delay": 1760.0000000000002,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.18, 1, 0.24, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 100,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 860,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.18, 1, 0.24, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 600,
+        "delay": 1680.0000000000002,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.62, 0.02, 0.16, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 660,
+        "delay": 1680.0000000000002,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.18, 1, 0.24, 1)"
+      }
+    ],
+    "console": [],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://hyperspeed.agency/videos/web/head-b.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://hyperspeed.agency/videos/web/head-a.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://hyperspeed.agency/videos/web/v67.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://hyperspeed.agency/videos/web/caki.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://hyperspeed.agency/videos/web/reklama.mp4",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 8378,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 852,
+      "typography": {
+        "families": [
+          [
+            "Gismo Round",
+            43
+          ],
+          [
+            "Manrope",
+            36
+          ]
+        ],
+        "weights": [
+          [
+            "900",
+            43
+          ],
+          [
+            "400",
+            15
+          ],
+          [
+            "700",
+            7
+          ],
+          [
+            "800",
+            6
+          ],
+          [
+            "500",
+            6
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            46
+          ]
+        ],
+        "sizeMin": 10.2,
+        "sizeMedian": 16.8,
+        "sizeMax": 164.58,
+        "sizeMaxVw": 42.2,
+        "scaleRatio": 9.8,
+        "letterSpacingMean": -0.008,
+        "loadedFonts": [
+          {
+            "family": "Manrope",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope",
+            "weight": "600",
+            "style": "normal"
+          },
+          {
+            "family": "Manrope",
+            "weight": "700",
+            "style": "normal"
+          },
+          {
+            "family": "Gismo Round",
+            "weight": "100 900",
+            "style": "normal"
+          }
+        ],
+        "variableFont": true,
+        "textElements": 79
+      },
+      "color": {
+        "background": "rgb(0, 99, 67)",
+        "backgroundLuminance": 0.0932892809011729,
+        "backgrounds": [
+          [
+            "rgb(255, 238, 188)",
+            3567
+          ],
+          [
+            "rgb(0, 99, 67)",
+            2201
+          ],
+          [
+            "rgb(210, 232, 255)",
+            1243
+          ],
+          [
+            "rgb(93, 55, 42)",
+            987
+          ],
+          [
+            "rgb(234, 103, 45)",
+            688
+          ],
+          [
+            "rgba(93, 55, 42, 0.16)",
+            2
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(255, 238, 188)",
+            214
+          ],
+          [
+            "rgb(93, 55, 42)",
+            120
+          ],
+          [
+            "rgb(234, 103, 45)",
+            27
+          ],
+          [
+            "rgb(210, 232, 255)",
+            18
+          ],
+          [
+            "oklab(0.37967 0.0453603 0.0375409 / 0.5)",
+            12
+          ]
+        ],
+        "meanSaturation": 0.56,
+        "rootVars": {
+          "--forest": "var(--color-forest)",
+          "--brown": "var(--color-brown)",
+          "--paper": "var(--color-paper)",
+          "--blush": "var(--color-blush)",
+          "--blush2": "var(--color-blush)",
+          "--hot": "var(--color-hot)",
+          "--pink": "var(--color-hot)",
+          "--display": "var(--font-display)",
+          "--sans": "var(--font-sans)",
+          "--svcpad": "var(--spacing-svcpad)",
+          "--cam": "var(--ease-cam)",
+          "--snap": "var(--ease-snap)"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 19,
+        "sticky": 6,
+        "fixed": 7,
+        "grid": 45,
+        "flex": 73,
+        "absolute": 199,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 19703,
+        "pages": 23.3,
+        "spacing": [
+          [
+            14,
+            17
+          ],
+          [
+            8,
+            15
+          ],
+          [
+            20,
+            14
+          ],
+          [
+            6,
+            13
+          ],
+          [
+            1,
+            11
+          ],
+          [
+            12,
+            11
+          ],
+          [
+            5,
+            10
+          ],
+          [
+            3,
+            9
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 16,
+        "animationKinds": [
+          "CSSTransition",
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 13,
+        "animationDurations": [
+          600,
+          300,
+          300,
+          1100,
+          1000,
+          1000,
+          1000,
+          1000,
+          1000,
+          1000,
+          1000,
+          1000,
+          1000,
+          1060,
+          16000,
+          6000
+        ],
+        "easings": [
+          "cubic-bezier(0.62, 0.02, 0.16, 1)",
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            600,
+            29
+          ],
+          [
+            500,
+            28
+          ],
+          [
+            750,
+            18
+          ],
+          [
+            700,
+            18
+          ],
+          [
+            420,
+            18
+          ]
+        ],
+        "keyframes": [],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 57,
+      "media": {
+        "canvases": [
+          {
+            "w": 780,
+            "h": 1688,
+            "area": 0
+          }
+        ],
+        "videos": [
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://hyperspeed.agency/videos/web/reklama.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://hyperspeed.agency/videos/web/v67.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://hyperspeed.agency/videos/web/caki.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": false,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": false,
+            "muted": true,
+            "src": "https://hyperspeed.agency/videos/web/projects/herbebe/1.webm"
+          },
+          {
+            "autoplay": false,
+            "loop": false,
+            "muted": true,
+            "src": "https://hyperspeed.agency/videos/web/projects/questhouse/1.webm"
+          },
+          {
+            "autoplay": false,
+            "loop": false,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": false,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": false,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://hyperspeed.agency/videos/web/head-a.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://hyperspeed.agency/videos/web/head-b.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://hyperspeed.agency/videos/web/ai/1.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://hyperspeed.agency/videos/web/ai/2.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://hyperspeed.agency/videos/web/ai/3.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://hyperspeed.agency/videos/web/ai/4.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://hyperspeed.agency/videos/web/ai/5.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://hyperspeed.agency/videos/web/ai/6.mp4"
+          }
+        ],
+        "svg": 32,
+        "images": 17,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "2d": 1
+        },
+        "raf": 1758,
+        "io": 2,
+        "ro": 1,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": true,
+        "ScrollTrigger": true,
+        "THREE": false,
+        "Lenis": true,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Hyperspeed | Video and content studio in Sofia",
+      "lang": "en",
+      "description": "Video and content studio in Sofia. From ads to Reels, we come up with the idea, shoot it, edit it and deliver it ready to go. Bulgaria Based, Working Globally."
+    },
+    "featuresBeforeScroll": {
+      "elements": 852,
+      "canvases": 1,
+      "animations": 13,
+      "hidden": 78
+    },
+    "scrollReveal": 21,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 2987512,
+        "layoutCount": 627,
+        "recalcStyleCount": 1187,
+        "scriptDuration": 0.332952,
+        "taskDuration": 5.201258,
+        "nodes": 6430
+      },
+      "timing": {
+        "domContentLoaded": 1442,
+        "load": 1536,
+        "first-paint": 932,
+        "first-contentful-paint": 976
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "sndFlow",
+        "duration": 1100,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "aiel",
+        "duration": 1000,
+        "delay": -330,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "aiel",
+        "duration": 1000,
+        "delay": -330,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "aicaret",
+        "duration": 1060,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "aiel",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "aiel",
+        "duration": 1000,
+        "delay": -660,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "aiel",
+        "duration": 1000,
+        "delay": -660,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "jbSpin",
+        "duration": 6000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "aiel",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "aiel",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "aiel",
+        "duration": 1000,
+        "delay": -660,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "askspin",
+        "duration": 16000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "aiel",
+        "duration": 1000,
+        "delay": -330,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 160,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 160,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "clip-path",
+        "duration": 1100,
+        "delay": 80,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "box-shadow",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.62, 0.02, 0.16, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.62, 0.02, 0.16, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "box-shadow",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.62, 0.02, 0.16, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.62, 0.02, 0.16, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "box-shadow",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.62, 0.02, 0.16, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.62, 0.02, 0.16, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.62, 0.02, 0.16, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.62, 0.02, 0.16, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1250,
+        "delay": 55,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1250,
+        "delay": 110,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1250,
+        "delay": 165,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 875,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.6, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.15, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1250,
+        "delay": 110,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.15, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1250,
+        "delay": 165,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.15, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1250,
+        "delay": 55,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.15, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.62, 0.02, 0.16, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "box-shadow",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.62, 0.02, 0.16, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.62, 0.02, 0.16, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "box-shadow",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.62, 0.02, 0.16, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.62, 0.02, 0.16, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "box-shadow",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.62, 0.02, 0.16, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.62, 0.02, 0.16, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.62, 0.02, 0.16, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.62, 0.02, 0.16, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 620,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.62, 0.02, 0.16, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 620,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.62, 0.02, 0.16, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 100,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 860,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.18, 1, 0.24, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 660,
+        "delay": 1655.0000000000002,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.18, 1, 0.24, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 900,
+        "delay": 1080,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.18, 1, 0.24, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 660,
+        "delay": 1730,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.18, 1, 0.24, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 660,
+        "delay": 1580,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.18, 1, 0.24, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 840,
+        "delay": 480.00000000000006,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.18, 1, 0.24, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 840,
+        "delay": 480.00000000000006,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.18, 1, 0.24, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.62, 0, 0.28, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.62, 0, 0.28, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.62, 0, 0.28, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.62, 0, 0.28, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.62, 0, 0.28, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.62, 0, 0.28, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.62, 0, 0.28, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.62, 0, 0.28, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.62, 0, 0.28, 1)"
+      }
+    ],
+    "console": [],
+    "exceptions": [],
+    "failed": [],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  }
+}

@@ -1,0 +1,3954 @@
+{
+  "url": "https://www.paulkalkbrenner.net/",
+  "at": "2026-10-10T09:50:47.139Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 14726,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 1809,
+      "typography": {
+        "families": [
+          [
+            "ABC Diatype Plus Variable",
+            99
+          ]
+        ],
+        "weights": [
+          [
+            "700",
+            99
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            31
+          ]
+        ],
+        "sizeMin": 10.5,
+        "sizeMedian": 13.5,
+        "sizeMax": 150,
+        "sizeMaxVw": 10.4,
+        "scaleRatio": 11.1,
+        "letterSpacingMean": -0.034,
+        "loadedFonts": [
+          {
+            "family": "ABC Diatype Plus Variable",
+            "weight": "100 700",
+            "style": "normal"
+          }
+        ],
+        "variableFont": true,
+        "textElements": 99
+      },
+      "color": {
+        "background": "rgb(0, 0, 0)",
+        "backgroundLuminance": 0,
+        "backgrounds": [
+          [
+            "rgb(255, 255, 255)",
+            4052
+          ],
+          [
+            "rgb(197, 197, 197)",
+            2993
+          ],
+          [
+            "rgb(0, 0, 0)",
+            2170
+          ],
+          [
+            "rgb(167, 255, 156)",
+            1954
+          ],
+          [
+            "rgb(255, 104, 49)",
+            1343
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(0, 0, 0)",
+            773
+          ],
+          [
+            "rgb(255, 255, 255)",
+            117
+          ],
+          [
+            "rgb(197, 197, 197)",
+            54
+          ],
+          [
+            "color(srgb 0 0 0 / 0.4)",
+            21
+          ]
+        ],
+        "meanSaturation": 0.24,
+        "rootVars": {
+          "--color--dark": "#000",
+          "--color--light": "white",
+          "--page-pad": ".625em",
+          "--col-pad": "var(--gap-ml)",
+          "--gap-m": "1em",
+          "--space-s": "1em",
+          "--color--dark-20": "color-mix(in srgb, var(--color--dark), transparent 80%)",
+          "--space-m": "7.5em",
+          "--space-xl": "15.625em",
+          "--gap-xs": ".5em",
+          "--space-xxl": "18.75em",
+          "--gap-s": ".75em",
+          "--cta-height": "11.25em",
+          "--gap-xl": "2em",
+          "--gap-l": "1.5em",
+          "--gap-ml": "1.25em",
+          "--color--gray": "#c5c5c5",
+          "--gap-xxs": ".25em",
+          "--exp-grid-row": "10em",
+          "--exp-grid-col": "35em",
+          "--exp-grid-dot": "8.5em",
+          "--space-sm": "2em",
+          "--color--dark-40": "color-mix(in srgb, var(--color--dark), transparent 60%)",
+          "--color--dark-30": "color-mix(in srgb, var(--color--dark), transparent 70%)",
+          "--color--green": "#a7ff9c",
+          "--color--orange": "#ff6831",
+          "--color--yellow": "#fc0",
+          "--color--brown": "#bc8556",
+          "--space-l": "10em",
+          "--space-xxxl": "25em"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 9,
+        "sticky": 0,
+        "fixed": 11,
+        "grid": 7,
+        "flex": 241,
+        "absolute": 105,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 10549,
+        "pages": 11.7,
+        "spacing": [
+          [
+            12,
+            22
+          ],
+          [
+            8,
+            19
+          ],
+          [
+            1,
+            18
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            36,
+            8
+          ],
+          [
+            392,
+            8
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            24,
+            6
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 2,
+        "animationKinds": [
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 2,
+        "animationDurations": [
+          1000,
+          12000
+        ],
+        "easings": [
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            300,
+            267
+          ],
+          [
+            350,
+            20
+          ],
+          [
+            550,
+            14
+          ],
+          [
+            400,
+            9
+          ],
+          [
+            1000,
+            8
+          ]
+        ],
+        "keyframes": [
+          "spin"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 240,
+      "media": {
+        "canvases": [],
+        "videos": [],
+        "svg": 3,
+        "images": 83,
+        "iframes": 8,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {},
+        "raf": 1331,
+        "io": 4,
+        "ro": 117,
+        "mo": 1,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": true,
+        "ScrollTrigger": true,
+        "THREE": false,
+        "Lenis": true,
+        "PIXI": false,
+        "anime": false,
+        "barba": true,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": true,
+        "jQuery": true,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": true,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": true,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Paul Kalkbrenner – Official Website",
+      "lang": "en",
+      "description": "Explore the music of Paul Kalkbrenner. New releases, live performances and a body of work shaped by over two decades of electronic music."
+    },
+    "featuresBeforeScroll": {
+      "elements": 1809,
+      "canvases": 0,
+      "animations": 4,
+      "hidden": 240
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 6,
+      "changed": 0
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 125458240,
+        "layoutCount": 893,
+        "recalcStyleCount": 2698,
+        "scriptDuration": 3.122354,
+        "taskDuration": 7.108886,
+        "nodes": 10221
+      },
+      "timing": {
+        "domContentLoaded": 1212,
+        "load": 4022,
+        "first-paint": 248,
+        "first-contentful-paint": 740
+      }
+    },
+    "network": [
+      {
+        "url": "https://www.paulkalkbrenner.net/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 21524
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69bbf53ccfefd61290c68689/css/paul-kalkbrenner-staging.shared.24131cd38.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 18970
+      },
+      {
+        "url": "https://connect.facebook.net/en_US/fbevents.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/x-javascript",
+        "fromCache": false,
+        "bytes": 115787
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-T6LLHBR",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 139014
+      },
+      {
+        "url": "https://cdn.odyn.dev/p/j52r/bundle.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 6326
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69bbf53ccfefd61290c68689/6a2aba6ba0f2a00ae45afd65_loader-6.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 249079
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69bbf53ccfefd61290c68689/6a2aba6b485f26467441e65a_loader-5.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 330461
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69bbf53ccfefd61290c68689/6a2aba6a6ee69c4e0602298c_loader-4.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 53056
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69bbf53ccfefd61290c68689/6a2aba6b97311393e65f3861_loader-3.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 211767
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69bbf53ccfefd61290c68689/6a2aba6bac6397334ba8df9f_loader-2.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 328144
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69bbf53ccfefd61290c68689/6a2aba6a76a163ef813b6fef_loader-1.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 48011
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69c5cca412f7e8c425de3007/69ce6b62781e1a8befed75fd_logo-spotify.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 2789
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69c5cca412f7e8c425de3007/69ce6b4400cd728b5be25260_logo-youtube-music.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 3383
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69c5cca412f7e8c425de3007/69ce6b1a519d44ded250cbbe_logo-amazon-music.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 6760
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69c5cca412f7e8c425de3007/69ce6b0ea8da7a02b7b3e2f7_logo-deezer.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1638
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69c5cca412f7e8c425de3007/69ce6ac778f356b0899fbd1e_logo-itunes.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 3559
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69c5cca412f7e8c425de3007/6a0478bdd7e87cc5ae163ad9_logo-beatport.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 3009
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69c5cca412f7e8c425de3007/69ce6a8c2c5c6e5f80a0073c_logo-apple-music.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1919
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69c5cca412f7e8c425de3007/69ce6a752245eac265da8f80_logo-tidal.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 911
+      },
+      {
+        "url": "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=69bbf53ccfefd61290c68689",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 31928
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69bbf53ccfefd61290c68689/js/paul-kalkbrenner-staging.a0aa6ca1.b7683852b8a60d8e.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 16842
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 29638
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 18613
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 4030
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/gsap/3.15.0/CustomEase.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 4131
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/gsap/3.15.0/InertiaPlugin.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 3532
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/gsap/3.15.0/Draggable.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 14059
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/gsap/3.15.0/Observer.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 4611
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/gsap/3.15.0/Flip.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 10179
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/@barba/core@2/dist/barba.umd.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 10723
+      },
+      {
+        "url": "https://unpkg.com/lenis@1.3.23/dist/lenis.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 5572
+      },
+      {
+        "url": "https://cdn.odyn.dev/p/j52r/bundle.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 22758
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69bbf53ccfefd61290c68689/69c544aa9f0eeb44e81eb6e0_ABCDiatypePlusVariable.ttf",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/ttf",
+        "fromCache": false,
+        "bytes": 290220
+      },
+      {
+        "url": "https://connect.facebook.net/signals/config/1206087052822985?v=2.9.415&r=stable&domain=www.paulkalkbrenner.net&hme=a4c28c8787325ac3f8f9eac68364f47df2a8c4266e43177443e5d7f6289c9774&ex_m=117%2C240%2C170%2C27%2C81%2C82%2C161%2C77%2C76%2C11%2C180%2C101%2C20%2C152%2C140%2C46%2C84%2C89%2C148%2C175%2C182%2C8%2C4%2C5%2C7%2C6%2C3%2C102%2C114%2C32%2C17%2C31%2C18%2C33%2C34%2C35%2C37%2C55%2C162%2C86%2C125%2C22%2C24%2C51%2C47%2C49%2C48%2C94%2C103%2C107%2C123%2C159%2C163%2C53%2C124%2C29%2C26%2C132%2C78%2C43%2C165%2C164%2C166%2C156%2C154%2C30%2C42%2C66%2C122%2C177%2C79%2C21%2C127%2C92%2C75%2C23%2C96%2C97%2C129%2C95%2C150%2C149%2C153%2C108%2C176%2C179%2C41%2C56%2C126%2C54%2C160%2C71%2C184%2C109%2C183%2C209%2C254%2C83%2C273%2C272%2C271%2C14%2C25%2C28%2C40%2C62%2C116%2C68%2C10%2C72%2C110%2C111%2C112%2C118%2C143%2C38%2C36%2C145%2C146%2C147%2C142%2C141%2C171%2C85%2C174%2C172%2C173%2C57%2C67%2C136%2C19%2C178%2C52%2C322%2C323%2C324%2C321%2C337%2C359%2C247%2C236%2C69%2C237%2C235%2C362%2C353%2C59%2C248%2C120%2C144%2C91%2C134%2C61%2C133%2C139%2C138%2C65%2C73%2C167%2C87%2C88%2C128%2C44%2C39%2C60%2C63%2C113%2C181%2C1%2C137%2C16%2C135%2C12%2C2%2C64%2C104%2C15%2C74%2C70%2C131%2C100%2C99%2C186%2C187%2C105%2C106%2C9%2C115%2C185%2C58%2C157%2C98%2C90%2C80%2C130%2C119%2C168%2C50%2C158%2C0%2C93%2C151%2C155%2C169%2C45%2C121%2C13%2C188",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/x-javascript",
+        "fromCache": false,
+        "bytes": 95887
+      },
+      {
+        "url": "https://www.google-analytics.com/analytics.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 21409
+      },
+      {
+        "url": "https://www.google-analytics.com/j/collect?v=1&_v=j102&a=1479288980&t=pageview&_s=1&dl=https%3A%2F%2Fwww.paulkalkbrenner.net%2F&ul=en-us%40posix&dt=Paul%20Kalkbrenner%20%E2%80%93%20Official%20Website&sr=1440x900&vp=1440x900&_u=YEBAAEABAAAAACAAI~&jid=1210182994&gjid=574016356&cid=638459616.1791625822&tid=UA-167557553-6&_gid=878178145.1791625822&_r=1&_slc=1&gtm=45He6a72n81T6LLHBRza200xf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~120385423~120469145~120469153~121046263~121046271~121246026~121246034&z=198618234",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 471
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-ZH75ZNX3Y9&cx=c&_slc=1",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 181400
+      },
+      {
+        "url": "https://www.facebook.com/tr/?id=1206087052822985&ev=PageView&dl=https%3A%2F%2Fwww.paulkalkbrenner.net%2F&rl=&if=false&ts=1791625822411&iw=false&sw=1440&sh=900&v=2.9.415&r=stable&ec=0&o=12318&aems=0%3B0&fbp=fb.1.1791625822398.46229796639310278&cs_est=true&ler=empty&pmd[title]=Paul%20Kalkbrenner%20%E2%80%93%20Official%20Website&pmd[locale]=en&pmd[description]=Explore%20the%20music%20of%20Paul%20Kalkbrenner.%20New%20releases%2C%20live%20performances%20and%20a%20body%20of%20work%20shaped%20by%20over%20two%20decades%20of%20electronic%20music.&iss=1&imft=1&tz=0&it=1791625822164&coo=false&expv2[0]=pl1&expv2[1]=el2&expv2[2]=bc1&expv2[3]=ra2&expv2[4]=rp2&expv2[5]=ct2&expv2[6]=hf1&expv2[7]=sd1&expv2[8]=sp1&expv2[9]=ek1&expv2[10]=pc1&expv2[11]=gs1&expv2[12]=zs1&expv2[13]=cp1&expv2[14]=es1&expv2[15]=ac1&expv2[16]=so1&expv2[17]=wc1&expv2[18]=la1&expv2[19]=sf1&expv2[20]=da1&expv2[21]=io1&expv2[22]=ae1&expv2[23]=sx1&expv2[24]=if1&expv2[25]=fd1&expv2[26]=bg1&expv2[27]=mg1&expv2[28]=kl1&expv2[29]=sg1&expv2[30]=mk1&expv2[31]=sn1&expv2[32]=ec1&expv2[33]=mp1&expv2[34]=ps1&expv2[35]=fx1&expv2[36]=vt1&expv2[37]=dp1&expv2[38]=fw1&expv2[39]=cn1&expv2[40]=tz1&expv2[41]=pe1&expv2[42]=ee1&expv2[43]=bu1&expv2[44]=ta1&expv2[45]=md1&expv2[46]=ot1&expv2[47]=hv1&expv2[48]=ep1&expv2[49]=rh0&expv2[50]=ah0&rqm=GET",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 274
+      },
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-ZH75ZNX3Y9&gtm=45je6a80h2v9126011432za20gxf1&_p=1791625822073&_gaz=1&gcd=13l3l3l3l2l1&npa=0&dma=0&_eu=EBAIAGAC&are=1&cid=638459616.1791625822&frm=0&ir=1&pscdl=noapi&rcb=5&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&gaf=2&_s=1&tag_exp=115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034&dl=https%3A%2F%2Fwww.paulkalkbrenner.net%2F&dt=Paul%20Kalkbrenner%20%E2%80%93%20Official%20Website&sid=1791625822&sct=1&seg=0&en=page_view&_fv=1&_ss=1&_ee=1&tfd=618",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false
+      },
+      {
+        "url": "https://stats.g.doubleclick.net/g/collect?v=2&tid=G-ZH75ZNX3Y9&cid=638459616.1791625822&gtm=45je6a80h2v9126011432za20gxf1&rcb=5&aip=1&dma=0&gcd=13l3l3l3l2l1&npa=0&frm=0&tag_exp=115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034",
+        "method": "POST",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 564
+      },
+      {
+        "url": "https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FvWlNPNPkk1c%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DvWlNPNPkk1c&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FvWlNPNPkk1c%2Fhqdefault.jpg&type=text%2Fhtml&schema=youtube",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 93335
+      },
+      {
+        "url": "https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2F2xP1xhbqG_4%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D2xP1xhbqG_4&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2F2xP1xhbqG_4%2Fhqdefault.jpg&type=text%2Fhtml&schema=youtube",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 93213
+      },
+      {
+        "url": "https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FYQM7DKi11ho%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DYQM7DKi11ho&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FYQM7DKi11ho%2Fhqdefault.jpg&type=text%2Fhtml&schema=youtube",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 93335
+      },
+      {
+        "url": "https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FqbXSXDv6gWU%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DqbXSXDv6gWU&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FqbXSXDv6gWU%2Fhqdefault.jpg&type=text%2Fhtml&schema=youtube",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 93213
+      },
+      {
+        "url": "https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FyNFUb79MF1I%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DyNFUb79MF1I&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FyNFUb79MF1I%2Fhqdefault.jpg&type=text%2Fhtml&schema=youtube",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 93335
+      },
+      {
+        "url": "https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FBaxLTiSRw4U%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DBaxLTiSRw4U&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FBaxLTiSRw4U%2Fhqdefault.jpg&type=text%2Fhtml&schema=youtube",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 93275
+      },
+      {
+        "url": "https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FLe5AGYxPCLI%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DLe5AGYxPCLI&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FLe5AGYxPCLI%2Fhqdefault.jpg&type=text%2Fhtml&schema=youtube",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 93213
+      },
+      {
+        "url": "https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FX-J6TAdvvC4%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DX-J6TAdvvC4&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FX-J6TAdvvC4%2Fhqdefault.jpg&type=text%2Fhtml&schema=youtube",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 93335
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69bbf53ccfefd61290c68689/69cfce7a83e5f0dba920c62f_noise-white-500.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 191400
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69bbf53ccfefd61290c68689/69ea042d268958f4c9b6962e_noise-strip.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 23874
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69bbf53ccfefd61290c68689/6a2bd331063f8696864b24b7_PaulKalkbrenner_Cover_Press_Shoot_SvenjaAva_8%20(1)%201.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 151055
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69c5cca412f7e8c425de3007/69cfcdcd4e62b24f356aecea_pk-albums-portrait.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 8914
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69c5cca412f7e8c425de3007/69e20ccac52305475b351ad5_Parts%20of%20Life%20BW.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 83247
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69c5cca412f7e8c425de3007/69e21844f61ee8788a288203_7%20BW.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 41706
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69bbf53ccfefd61290c68689/69c5c21bb84a2b31f9b3fdc9_pk-tours-portrait.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 57983
+      },
+      {
+        "url": "https://www.youtube.com/iframe_api",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 8414
+      },
+      {
+        "url": "https://www.youtube.com/iframe_api",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1811
+      },
+      {
+        "url": "https://www.youtube.com/iframe_api",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 605
+      },
+      {
+        "url": "https://www.youtube.com/iframe_api",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 605
+      },
+      {
+        "url": "https://www.youtube.com/iframe_api",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 605
+      },
+      {
+        "url": "https://www.youtube.com/iframe_api",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 605
+      },
+      {
+        "url": "https://www.youtube.com/iframe_api",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 605
+      },
+      {
+        "url": "https://www.youtube.com/iframe_api",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 602
+      },
+      {
+        "url": "https://www.youtube.com/s/player/5203c085/www-widgetapi.vflset/www-widgetapi.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 8902
+      },
+      {
+        "url": "https://ilja-dev.b-cdn.net/paul-kalkbrenner/Paul%20Kalkbrenner%20feat.%20Norma%20Jean%20Martine%20%E2%80%93%20Time%20To%20Dance.mp3",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "audio/mpeg",
+        "fromCache": false
+      },
+      {
+        "url": "https://www.youtube.com/s/player/5203c085/www-widgetapi.vflset/www-widgetapi.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.youtube.com/s/player/5203c085/www-widgetapi.vflset/www-widgetapi.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.youtube.com/s/player/5203c085/www-widgetapi.vflset/www-widgetapi.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.youtube.com/s/player/5203c085/www-widgetapi.vflset/www-widgetapi.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.youtube.com/embed/qbXSXDv6gWU?wmode=opaque&widget_referrer=https%3A%2F%2Fwww.paulkalkbrenner.net%2F&enablejsapi=1&origin=https%3A%2F%2Fcdn.embedly.com&widgetid=1&forigin=https%3A%2F%2Fcdn.embedly.com%2Fwidgets%2Fmedia.html%3Fsrc%3Dhttps%253A%252F%252Fwww.youtube.com%252Fembed%252FqbXSXDv6gWU%253Ffeature%253Doembed%26display_name%3DYouTube%26url%3Dhttps%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DqbXSXDv6gWU%26image%3Dhttps%253A%252F%252Fi.ytimg.com%252Fvi%252FqbXSXDv6gWU%252Fhqdefault.jpg%26type%3Dtext%252Fhtml%26schema%3Dyoutube&aoriginsup=1&aorigins=https%3A%2F%2Fwww.paulkalkbrenner.net&gporigin=https%3A%2F%2Fwww.paulkalkbrenner.net%2F&vf=6",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 62204
+      },
+      {
+        "url": "https://www.youtube.com/embed/YQM7DKi11ho?wmode=opaque&widget_referrer=https%3A%2F%2Fwww.paulkalkbrenner.net%2F&enablejsapi=1&origin=https%3A%2F%2Fcdn.embedly.com&widgetid=1&forigin=https%3A%2F%2Fcdn.embedly.com%2Fwidgets%2Fmedia.html%3Fsrc%3Dhttps%253A%252F%252Fwww.youtube.com%252Fembed%252FYQM7DKi11ho%253Ffeature%253Doembed%26display_name%3DYouTube%26url%3Dhttps%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DYQM7DKi11ho%26image%3Dhttps%253A%252F%252Fi.ytimg.com%252Fvi%252FYQM7DKi11ho%252Fhqdefault.jpg%26type%3Dtext%252Fhtml%26schema%3Dyoutube&aoriginsup=1&aorigins=https%3A%2F%2Fwww.paulkalkbrenner.net&gporigin=https%3A%2F%2Fwww.paulkalkbrenner.net%2F&vf=6",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 62776
+      },
+      {
+        "url": "https://www.youtube.com/embed/yNFUb79MF1I?wmode=opaque&widget_referrer=https%3A%2F%2Fwww.paulkalkbrenner.net%2F&enablejsapi=1&origin=https%3A%2F%2Fcdn.embedly.com&widgetid=1&forigin=https%3A%2F%2Fcdn.embedly.com%2Fwidgets%2Fmedia.html%3Fsrc%3Dhttps%253A%252F%252Fwww.youtube.com%252Fembed%252FyNFUb79MF1I%253Ffeature%253Doembed%26display_name%3DYouTube%26url%3Dhttps%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DyNFUb79MF1I%26image%3Dhttps%253A%252F%252Fi.ytimg.com%252Fvi%252FyNFUb79MF1I%252Fhqdefault.jpg%26type%3Dtext%252Fhtml%26schema%3Dyoutube&aoriginsup=1&aorigins=https%3A%2F%2Fwww.paulkalkbrenner.net&gporigin=https%3A%2F%2Fwww.paulkalkbrenner.net%2F&vf=6",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 62287
+      },
+      {
+        "url": "https://www.youtube.com/embed/vWlNPNPkk1c?wmode=opaque&widget_referrer=https%3A%2F%2Fwww.paulkalkbrenner.net%2F&enablejsapi=1&origin=https%3A%2F%2Fcdn.embedly.com&widgetid=1&forigin=https%3A%2F%2Fcdn.embedly.com%2Fwidgets%2Fmedia.html%3Fsrc%3Dhttps%253A%252F%252Fwww.youtube.com%252Fembed%252FvWlNPNPkk1c%253Ffeature%253Doembed%26display_name%3DYouTube%26url%3Dhttps%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DvWlNPNPkk1c%26image%3Dhttps%253A%252F%252Fi.ytimg.com%252Fvi%252FvWlNPNPkk1c%252Fhqdefault.jpg%26type%3Dtext%252Fhtml%26schema%3Dyoutube&aoriginsup=1&aorigins=https%3A%2F%2Fwww.paulkalkbrenner.net&gporigin=https%3A%2F%2Fwww.paulkalkbrenner.net%2F&vf=6",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 62742
+      },
+      {
+        "url": "https://www.youtube.com/embed/BaxLTiSRw4U?wmode=opaque&widget_referrer=https%3A%2F%2Fwww.paulkalkbrenner.net%2F&enablejsapi=1&origin=https%3A%2F%2Fcdn.embedly.com&widgetid=1&forigin=https%3A%2F%2Fcdn.embedly.com%2Fwidgets%2Fmedia.html%3Fsrc%3Dhttps%253A%252F%252Fwww.youtube.com%252Fembed%252FBaxLTiSRw4U%253Ffeature%253Doembed%26display_name%3DYouTube%26url%3Dhttps%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DBaxLTiSRw4U%26image%3Dhttps%253A%252F%252Fi.ytimg.com%252Fvi%252FBaxLTiSRw4U%252Fhqdefault.jpg%26type%3Dtext%252Fhtml%26schema%3Dyoutube&aoriginsup=1&aorigins=https%3A%2F%2Fwww.paulkalkbrenner.net&gporigin=https%3A%2F%2Fwww.paulkalkbrenner.net%2F&vf=6",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 62309
+      },
+      {
+        "url": "https://www.youtube.com/s/player/5203c085/www-widgetapi.vflset/www-widgetapi.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.youtube.com/s/player/5203c085/www-widgetapi.vflset/www-widgetapi.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.youtube.com/embed/2xP1xhbqG_4?wmode=opaque&widget_referrer=https%3A%2F%2Fwww.paulkalkbrenner.net%2F&enablejsapi=1&origin=https%3A%2F%2Fcdn.embedly.com&widgetid=1&forigin=https%3A%2F%2Fcdn.embedly.com%2Fwidgets%2Fmedia.html%3Fsrc%3Dhttps%253A%252F%252Fwww.youtube.com%252Fembed%252F2xP1xhbqG_4%253Ffeature%253Doembed%26display_name%3DYouTube%26url%3Dhttps%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D2xP1xhbqG_4%26image%3Dhttps%253A%252F%252Fi.ytimg.com%252Fvi%252F2xP1xhbqG_4%252Fhqdefault.jpg%26type%3Dtext%252Fhtml%26schema%3Dyoutube&aoriginsup=1&aorigins=https%3A%2F%2Fwww.paulkalkbrenner.net&gporigin=https%3A%2F%2Fwww.paulkalkbrenner.net%2F&vf=6",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 62437
+      },
+      {
+        "url": "https://www.youtube.com/embed/Le5AGYxPCLI?wmode=opaque&widget_referrer=https%3A%2F%2Fwww.paulkalkbrenner.net%2F&enablejsapi=1&origin=https%3A%2F%2Fcdn.embedly.com&widgetid=1&forigin=https%3A%2F%2Fcdn.embedly.com%2Fwidgets%2Fmedia.html%3Fsrc%3Dhttps%253A%252F%252Fwww.youtube.com%252Fembed%252FLe5AGYxPCLI%253Ffeature%253Doembed%26display_name%3DYouTube%26url%3Dhttps%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DLe5AGYxPCLI%26image%3Dhttps%253A%252F%252Fi.ytimg.com%252Fvi%252FLe5AGYxPCLI%252Fhqdefault.jpg%26type%3Dtext%252Fhtml%26schema%3Dyoutube&aoriginsup=1&aorigins=https%3A%2F%2Fwww.paulkalkbrenner.net&gporigin=https%3A%2F%2Fwww.paulkalkbrenner.net%2F&vf=6",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 62554
+      },
+      {
+        "url": "https://challenges.cloudflare.com/turnstile/v0/g/4df4a60fa397/api.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 28196
+      },
+      {
+        "url": "https://www.youtube.com/s/player/5203c085/www-widgetapi.vflset/www-widgetapi.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.youtube.com/embed/X-J6TAdvvC4?wmode=opaque&widget_referrer=https%3A%2F%2Fwww.paulkalkbrenner.net%2F&enablejsapi=1&origin=https%3A%2F%2Fcdn.embedly.com&widgetid=1&forigin=https%3A%2F%2Fcdn.embedly.com%2Fwidgets%2Fmedia.html%3Fsrc%3Dhttps%253A%252F%252Fwww.youtube.com%252Fembed%252FX-J6TAdvvC4%253Ffeature%253Doembed%26display_name%3DYouTube%26url%3Dhttps%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DX-J6TAdvvC4%26image%3Dhttps%253A%252F%252Fi.ytimg.com%252Fvi%252FX-J6TAdvvC4%252Fhqdefault.jpg%26type%3Dtext%252Fhtml%26schema%3Dyoutube&aoriginsup=1&aorigins=https%3A%2F%2Fwww.paulkalkbrenner.net&gporigin=https%3A%2F%2Fwww.paulkalkbrenner.net%2F&vf=6",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 62309
+      },
+      {
+        "url": "https://www.youtube.com/s/player/5203c085/www-player.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 58759
+      },
+      {
+        "url": "https://www.youtube.com/s/_/ytembeds/_/ss/k=ytembeds.base.tvWGFFtf8c8.L.X.O/am=AAAAQA/d=1/br=1/rs=AGKMywEJcCQwYo5MiOu2wZjQ6yWBQkahYw/m=root,base",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 24
+      },
+      {
+        "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.W-iQWzahjQg.es5.O/am=AAAAQA/d=1/excm=base,root/br=1/rs=AGKMywEA_CcoU9aenKLpAUTIrKEB8WBTeA/m=root,base",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 180689
+      },
+      {
+        "url": "https://www.youtube.com/s/player/5203c085/player_embed.vflset/en_US/base.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 530884
+      },
+      {
+        "url": "https://www.youtube.com/s/player/5203c085/www-player.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.youtube.com/s/_/ytembeds/_/ss/k=ytembeds.base.tvWGFFtf8c8.L.X.O/am=AAAAQA/d=1/br=1/rs=AGKMywEJcCQwYo5MiOu2wZjQ6yWBQkahYw/m=root,base",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.W-iQWzahjQg.es5.O/am=AAAAQA/d=1/excm=base,root/br=1/rs=AGKMywEA_CcoU9aenKLpAUTIrKEB8WBTeA/m=root,base",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.youtube.com/s/player/5203c085/player_embed.vflset/en_US/base.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/roboto/v48/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmUiA8.ttf",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/ttf",
+        "fromCache": false,
+        "bytes": 26830
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/roboto/v48/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWub2bVmUiA8.ttf",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/ttf",
+        "fromCache": false,
+        "bytes": 26638
+      },
+      {
+        "url": "https://www.youtube.com/s/player/5203c085/www-player.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.youtube.com/s/_/ytembeds/_/ss/k=ytembeds.base.tvWGFFtf8c8.L.X.O/am=AAAAQA/d=1/br=1/rs=AGKMywEJcCQwYo5MiOu2wZjQ6yWBQkahYw/m=root,base",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.W-iQWzahjQg.es5.O/am=AAAAQA/d=1/excm=base,root/br=1/rs=AGKMywEA_CcoU9aenKLpAUTIrKEB8WBTeA/m=root,base",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.youtube.com/s/player/5203c085/player_embed.vflset/en_US/base.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/roboto/v48/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmUiA8.ttf",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/ttf",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/roboto/v48/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWub2bVmUiA8.ttf",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/ttf",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/roboto/v48/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmUiA8.ttf",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/ttf",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/roboto/v48/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWub2bVmUiA8.ttf",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/ttf",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.youtube.com/s/player/5203c085/www-player.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.youtube.com/s/_/ytembeds/_/ss/k=ytembeds.base.tvWGFFtf8c8.L.X.O/am=AAAAQA/d=1/br=1/rs=AGKMywEJcCQwYo5MiOu2wZjQ6yWBQkahYw/m=root,base",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/roboto/v48/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmUiA8.ttf",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/ttf",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/roboto/v48/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWub2bVmUiA8.ttf",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/ttf",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.youtube.com/s/player/5203c085/www-player.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.youtube.com/s/_/ytembeds/_/ss/k=ytembeds.base.tvWGFFtf8c8.L.X.O/am=AAAAQA/d=1/br=1/rs=AGKMywEJcCQwYo5MiOu2wZjQ6yWBQkahYw/m=root,base",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.W-iQWzahjQg.es5.O/am=AAAAQA/d=1/excm=base,root/br=1/rs=AGKMywEA_CcoU9aenKLpAUTIrKEB8WBTeA/m=root,base",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.youtube.com/s/player/5203c085/player_embed.vflset/en_US/base.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.W-iQWzahjQg.es5.O/am=AAAAQA/d=1/excm=base,root/br=1/rs=AGKMywEA_CcoU9aenKLpAUTIrKEB8WBTeA/m=root,base",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.youtube.com/s/player/5203c085/player_embed.vflset/en_US/base.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.youtube.com/s/player/5203c085/www-player.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.youtube.com/s/_/ytembeds/_/ss/k=ytembeds.base.tvWGFFtf8c8.L.X.O/am=AAAAQA/d=1/br=1/rs=AGKMywEJcCQwYo5MiOu2wZjQ6yWBQkahYw/m=root,base",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.W-iQWzahjQg.es5.O/am=AAAAQA/d=1/excm=base,root/br=1/rs=AGKMywEA_CcoU9aenKLpAUTIrKEB8WBTeA/m=root,base",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.youtube.com/s/player/5203c085/player_embed.vflset/en_US/base.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/roboto/v48/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmUiA8.ttf",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/ttf",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/roboto/v48/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWub2bVmUiA8.ttf",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/ttf",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.youtube.com/s/player/5203c085/www-player.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.youtube.com/s/_/ytembeds/_/ss/k=ytembeds.base.tvWGFFtf8c8.L.X.O/am=AAAAQA/d=1/br=1/rs=AGKMywEJcCQwYo5MiOu2wZjQ6yWBQkahYw/m=root,base",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.W-iQWzahjQg.es5.O/am=AAAAQA/d=1/excm=base,root/br=1/rs=AGKMywEA_CcoU9aenKLpAUTIrKEB8WBTeA/m=root,base",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.youtube.com/s/player/5203c085/player_embed.vflset/en_US/base.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.youtube.com/s/player/5203c085/www-player.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.youtube.com/s/_/ytembeds/_/ss/k=ytembeds.base.tvWGFFtf8c8.L.X.O/am=AAAAQA/d=1/br=1/rs=AGKMywEJcCQwYo5MiOu2wZjQ6yWBQkahYw/m=root,base",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.W-iQWzahjQg.es5.O/am=AAAAQA/d=1/excm=base,root/br=1/rs=AGKMywEA_CcoU9aenKLpAUTIrKEB8WBTeA/m=root,base",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.youtube.com/s/player/5203c085/player_embed.vflset/en_US/base.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/roboto/v48/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmUiA8.ttf",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/ttf",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/roboto/v48/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWub2bVmUiA8.ttf",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/ttf",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/roboto/v48/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmUiA8.ttf",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/ttf",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/roboto/v48/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWub2bVmUiA8.ttf",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/ttf",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/roboto/v48/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmUiA8.ttf",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/ttf",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/roboto/v48/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWub2bVmUiA8.ttf",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/ttf",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://googleads.g.doubleclick.net/pagead/id?slf_rd=1",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 146
+      },
+      {
+        "url": "https://static.doubleclick.net/instream/ad_status.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 495
+      },
+      {
+        "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.W-iQWzahjQg.es5.O/ck=ytembeds.base.tvWGFFtf8c8.L.X.O/am=AAAAQA/d=1/exm=base,root/excm=base,root/ed=1/br=1/rs=AGKMywHwyDLN_xqfw9f21eh9aYiXEHE9qw/m=r78Drb",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 247345
+      },
+      {
+        "url": "https://www.google.com/js/th/BSN_p7cmOQQHbNygC-OI0VGwAWslr5jzjYHDp9uj-Pk.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 25289
+      },
+      {
+        "url": "https://googleads.g.doubleclick.net/pagead/id?slf_rd=1",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 146
+      },
+      {
+        "url": "https://static.doubleclick.net/instream/ad_status.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.W-iQWzahjQg.es5.O/ck=ytembeds.base.tvWGFFtf8c8.L.X.O/am=AAAAQA/d=1/exm=base,root/excm=base,root/ed=1/br=1/rs=AGKMywHwyDLN_xqfw9f21eh9aYiXEHE9qw/m=r78Drb",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://googleads.g.doubleclick.net/pagead/id?slf_rd=1",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 146
+      },
+      {
+        "url": "https://static.doubleclick.net/instream/ad_status.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.W-iQWzahjQg.es5.O/ck=ytembeds.base.tvWGFFtf8c8.L.X.O/am=AAAAQA/d=1/exm=base,root/excm=base,root/ed=1/br=1/rs=AGKMywHwyDLN_xqfw9f21eh9aYiXEHE9qw/m=r78Drb",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://googleads.g.doubleclick.net/pagead/id?slf_rd=1",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 146
+      },
+      {
+        "url": "https://static.doubleclick.net/instream/ad_status.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.W-iQWzahjQg.es5.O/ck=ytembeds.base.tvWGFFtf8c8.L.X.O/am=AAAAQA/d=1/exm=base,root/excm=base,root/ed=1/br=1/rs=AGKMywHwyDLN_xqfw9f21eh9aYiXEHE9qw/m=r78Drb",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://googleads.g.doubleclick.net/pagead/id?slf_rd=1",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 146
+      },
+      {
+        "url": "https://static.doubleclick.net/instream/ad_status.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.W-iQWzahjQg.es5.O/ck=ytembeds.base.tvWGFFtf8c8.L.X.O/am=AAAAQA/d=1/exm=base,root/excm=base,root/ed=1/br=1/rs=AGKMywHwyDLN_xqfw9f21eh9aYiXEHE9qw/m=r78Drb",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://googleads.g.doubleclick.net/pagead/id?slf_rd=1",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 146
+      },
+      {
+        "url": "https://static.doubleclick.net/instream/ad_status.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.W-iQWzahjQg.es5.O/ck=ytembeds.base.tvWGFFtf8c8.L.X.O/am=AAAAQA/d=1/exm=base,root/excm=base,root/ed=1/br=1/rs=AGKMywHwyDLN_xqfw9f21eh9aYiXEHE9qw/m=r78Drb",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://googleads.g.doubleclick.net/pagead/id?slf_rd=1",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 146
+      },
+      {
+        "url": "https://static.doubleclick.net/instream/ad_status.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.W-iQWzahjQg.es5.O/ck=ytembeds.base.tvWGFFtf8c8.L.X.O/am=AAAAQA/d=1/exm=base,root/excm=base,root/ed=1/br=1/rs=AGKMywHwyDLN_xqfw9f21eh9aYiXEHE9qw/m=r78Drb",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://googleads.g.doubleclick.net/pagead/id?slf_rd=1",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 146
+      },
+      {
+        "url": "https://static.doubleclick.net/instream/ad_status.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.W-iQWzahjQg.es5.O/ck=ytembeds.base.tvWGFFtf8c8.L.X.O/am=AAAAQA/d=1/exm=base,root/excm=base,root/ed=1/br=1/rs=AGKMywHwyDLN_xqfw9f21eh9aYiXEHE9qw/m=r78Drb",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.google.com/js/th/BSN_p7cmOQQHbNygC-OI0VGwAWslr5jzjYHDp9uj-Pk.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.google.com/js/th/BSN_p7cmOQQHbNygC-OI0VGwAWslr5jzjYHDp9uj-Pk.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.W-iQWzahjQg.es5.O/ck=ytembeds.base.tvWGFFtf8c8.L.X.O/am=AAAAQA/d=1/exm=base,r78Drb,root/excm=base,root/ed=1/br=1/rs=AGKMywHwyDLN_xqfw9f21eh9aYiXEHE9qw/m=cwx9N",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 17144
+      },
+      {
+        "url": "https://www.google.com/js/th/BSN_p7cmOQQHbNygC-OI0VGwAWslr5jzjYHDp9uj-Pk.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.google.com/js/th/BSN_p7cmOQQHbNygC-OI0VGwAWslr5jzjYHDp9uj-Pk.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.google.com/js/th/BSN_p7cmOQQHbNygC-OI0VGwAWslr5jzjYHDp9uj-Pk.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.google.com/js/th/BSN_p7cmOQQHbNygC-OI0VGwAWslr5jzjYHDp9uj-Pk.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.google.com/js/th/BSN_p7cmOQQHbNygC-OI0VGwAWslr5jzjYHDp9uj-Pk.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://i.ytimg.com/vi/yNFUb79MF1I/maxresdefault.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 103833
+      },
+      {
+        "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.W-iQWzahjQg.es5.O/ck=ytembeds.base.tvWGFFtf8c8.L.X.O/am=AAAAQA/d=1/exm=base,r78Drb,root/excm=base,root/ed=1/br=1/rs=AGKMywHwyDLN_xqfw9f21eh9aYiXEHE9qw/m=cwx9N",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.W-iQWzahjQg.es5.O/ck=ytembeds.base.tvWGFFtf8c8.L.X.O/am=AAAAQA/d=1/exm=base,r78Drb,root/excm=base,root/ed=1/br=1/rs=AGKMywHwyDLN_xqfw9f21eh9aYiXEHE9qw/m=cwx9N",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.W-iQWzahjQg.es5.O/ck=ytembeds.base.tvWGFFtf8c8.L.X.O/am=AAAAQA/d=1/exm=base,r78Drb,root/excm=base,root/ed=1/br=1/rs=AGKMywHwyDLN_xqfw9f21eh9aYiXEHE9qw/m=cwx9N",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.W-iQWzahjQg.es5.O/ck=ytembeds.base.tvWGFFtf8c8.L.X.O/am=AAAAQA/d=1/exm=base,r78Drb,root/excm=base,root/ed=1/br=1/rs=AGKMywHwyDLN_xqfw9f21eh9aYiXEHE9qw/m=cwx9N",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.W-iQWzahjQg.es5.O/ck=ytembeds.base.tvWGFFtf8c8.L.X.O/am=AAAAQA/d=1/exm=base,r78Drb,root/excm=base,root/ed=1/br=1/rs=AGKMywHwyDLN_xqfw9f21eh9aYiXEHE9qw/m=cwx9N",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.W-iQWzahjQg.es5.O/ck=ytembeds.base.tvWGFFtf8c8.L.X.O/am=AAAAQA/d=1/exm=base,r78Drb,root/excm=base,root/ed=1/br=1/rs=AGKMywHwyDLN_xqfw9f21eh9aYiXEHE9qw/m=cwx9N",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.W-iQWzahjQg.es5.O/ck=ytembeds.base.tvWGFFtf8c8.L.X.O/am=AAAAQA/d=1/exm=base,r78Drb,root/excm=base,root/ed=1/br=1/rs=AGKMywHwyDLN_xqfw9f21eh9aYiXEHE9qw/m=cwx9N",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://i.ytimg.com/vi/qbXSXDv6gWU/maxresdefault.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 85120
+      },
+      {
+        "url": "https://i.ytimg.com/vi/vWlNPNPkk1c/maxresdefault.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 147368
+      },
+      {
+        "url": "https://i.ytimg.com/vi/YQM7DKi11ho/maxresdefault.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 93716
+      },
+      {
+        "url": "https://i.ytimg.com/vi/BaxLTiSRw4U/maxresdefault.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 104164
+      },
+      {
+        "url": "https://i.ytimg.com/vi/Le5AGYxPCLI/maxresdefault.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 168281
+      },
+      {
+        "url": "https://i.ytimg.com/vi/X-J6TAdvvC4/maxresdefault.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 123120
+      },
+      {
+        "url": "https://i.ytimg.com/vi/2xP1xhbqG_4/maxresdefault.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 127667
+      },
+      {
+        "url": "https://www.youtube.com/generate_204?Ian1Rw",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 12
+      },
+      {
+        "url": "https://www.youtube.com/generate_204?sLcBXg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 12
+      },
+      {
+        "url": "https://www.youtube.com/generate_204?CCQl_A",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 12
+      },
+      {
+        "url": "https://www.youtube.com/generate_204?SIR93g",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 12
+      },
+      {
+        "url": "https://www.youtube.com/generate_204?OcO0hw",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 12
+      },
+      {
+        "url": "https://www.youtube.com/generate_204?36mlbg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 12
+      },
+      {
+        "url": "https://www.youtube.com/generate_204?w1wCgg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 12
+      },
+      {
+        "url": "https://www.youtube.com/generate_204?cuCQ7w",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 12
+      },
+      {
+        "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+        "method": "OPTIONS",
+        "type": "OTHER",
+        "initiator": "preflight",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json+protobuf",
+        "fromCache": false,
+        "bytes": 316
+      },
+      {
+        "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json+protobuf",
+        "fromCache": false,
+        "bytes": 193
+      },
+      {
+        "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json+protobuf",
+        "fromCache": false,
+        "bytes": 149
+      },
+      {
+        "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json+protobuf",
+        "fromCache": false,
+        "bytes": 149
+      },
+      {
+        "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 70
+      },
+      {
+        "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json+protobuf",
+        "fromCache": false,
+        "bytes": 149
+      },
+      {
+        "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json+protobuf",
+        "fromCache": false,
+        "bytes": 149
+      },
+      {
+        "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json+protobuf",
+        "fromCache": false,
+        "bytes": 149
+      },
+      {
+        "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json+protobuf",
+        "fromCache": false,
+        "bytes": 149
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69bbf53ccfefd61290c68689/69c5c21b55849a1105d8a75b_pk-action-1.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 76814
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69c5cca412f7e8c425de3007/69f9be114a50cd1a75fa6105_pk-journey.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 499081
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69c5cca412f7e8c425de3007/69f9be110b1ad608378ed76e_pk-tours-portrait-2.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 10515
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69c5cca412f7e8c425de3007/6a2c1c285482561a3879b323_00002%20PK%20LIVE%20-%202024.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 63480
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69c5cca412f7e8c425de3007/69f9bdff459695ca6d9b36a5_life-portrait.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 11324
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69c5cca412f7e8c425de3007/69f9bdff4fb1ef440c9da42d_impact-concert.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 195670
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69c5cca412f7e8c425de3007/69c65e42cce178473756c1b5_image-strip-8.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 65023
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69c5cca412f7e8c425de3007/69f9bdee7dcf4184168dccc3_image-strip-1.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 4094
+      },
+      {
+        "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 70
+      },
+      {
+        "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 70
+      },
+      {
+        "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 70
+      },
+      {
+        "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 70
+      },
+      {
+        "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 70
+      },
+      {
+        "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 70
+      },
+      {
+        "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 70
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69c5cca412f7e8c425de3007/69eb5aa13dd251b0b7d85c13_vWlNPNPkk1c-HD.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 79873
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69c5cca412f7e8c425de3007/69eb5a9823e44def68e88d48_2xP1xhbqG_4-HD.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 62477
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69c5cca412f7e8c425de3007/69eb5a8c48fa60c1c967e9f4_YQM7DKi11ho-HD.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 31491
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69c5cca412f7e8c425de3007/69eb5a82c994931b7d03dfbf_qbXSXDv6gWU-HD.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 21506
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69c5cca412f7e8c425de3007/69eb5a776a4581065279886c_yNFUb79MF1I-HD.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 47765
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69c5cca412f7e8c425de3007/69eb5a6e9ca186360dcacfff_BaxLTiSRw4U-HD.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 46463
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69c5cca412f7e8c425de3007/69eb5a65983f7cd585bb7ad9_Le5AGYxPCLI-HD.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 102140
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69c5cca412f7e8c425de3007/69eb5a53c90d9430a343867f_X-J6TAdvvC4-HD.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 51614
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69bbf53ccfefd61290c68689/69c5c21badf9ed7cbbbd8f4a_pk-journey.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 499115
+      },
+      {
+        "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 70
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69c5cca412f7e8c425de3007/69c65e4aeffd52e09f027758_image-strip-9.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 9678
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69c5cca412f7e8c425de3007/69c65e0bafe9f3a065c7ad8c_image-strip-1.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 4092
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69c5cca412f7e8c425de3007/69c65e10db69da6b85d89347_image-strip-2.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 23135
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69c5cca412f7e8c425de3007/69c65e1922f2ec5747a7279a_image-strip-3.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 4047
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69c5cca412f7e8c425de3007/69c65e1f9be8bcd4289f7a3e_image-strip-4.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 36346
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69c5cca412f7e8c425de3007/69c65e2628c619e4b3f344e5_image-strip-5.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 10319
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69c5cca412f7e8c425de3007/69c65e2b9be8bcd4289f7c49_image-strip-6.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 12349
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/69c5cca412f7e8c425de3007/69c65e310c96017d071cf49d_image-strip-7.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 18723
+      },
+      {
+        "url": "https://yt3.ggpht.com/Dp7cqJo80-SQCBNzTKAdq-gXYWewJS16oEdzwu0CABSbuqrL_3FVUMwiQowO8M5UKe5eMnmyww=s68-c-k-c0x00ffffff-no-rj",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 2225
+      },
+      {
+        "url": "https://yt3.ggpht.com/Dp7cqJo80-SQCBNzTKAdq-gXYWewJS16oEdzwu0CABSbuqrL_3FVUMwiQowO8M5UKe5eMnmyww=s68-c-k-c0x00ffffff-no-rj",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://yt3.ggpht.com/Dp7cqJo80-SQCBNzTKAdq-gXYWewJS16oEdzwu0CABSbuqrL_3FVUMwiQowO8M5UKe5eMnmyww=s68-c-k-c0x00ffffff-no-rj",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://yt3.ggpht.com/Dp7cqJo80-SQCBNzTKAdq-gXYWewJS16oEdzwu0CABSbuqrL_3FVUMwiQowO8M5UKe5eMnmyww=s68-c-k-c0x00ffffff-no-rj",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://yt3.ggpht.com/Dp7cqJo80-SQCBNzTKAdq-gXYWewJS16oEdzwu0CABSbuqrL_3FVUMwiQowO8M5UKe5eMnmyww=s68-c-k-c0x00ffffff-no-rj",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://yt3.ggpht.com/Dp7cqJo80-SQCBNzTKAdq-gXYWewJS16oEdzwu0CABSbuqrL_3FVUMwiQowO8M5UKe5eMnmyww=s68-c-k-c0x00ffffff-no-rj",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://yt3.ggpht.com/Dp7cqJo80-SQCBNzTKAdq-gXYWewJS16oEdzwu0CABSbuqrL_3FVUMwiQowO8M5UKe5eMnmyww=s68-c-k-c0x00ffffff-no-rj",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://yt3.ggpht.com/Dp7cqJo80-SQCBNzTKAdq-gXYWewJS16oEdzwu0CABSbuqrL_3FVUMwiQowO8M5UKe5eMnmyww=s68-c-k-c0x00ffffff-no-rj",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.gstatic.com/youtube/img/icons/mweb/youtube_fill/logo/v2/67px.svg",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 725
+      },
+      {
+        "url": "https://www.gstatic.com/youtube/img/icons/mweb/youtube_fill/logo/v2/67px.svg",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.gstatic.com/youtube/img/icons/mweb/youtube_fill/logo/v2/67px.svg",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.gstatic.com/youtube/img/icons/mweb/youtube_fill/logo/v2/67px.svg",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.gstatic.com/youtube/img/icons/mweb/youtube_fill/logo/v2/67px.svg",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.gstatic.com/youtube/img/icons/mweb/youtube_fill/logo/v2/67px.svg",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.gstatic.com/youtube/img/icons/mweb/youtube_fill/logo/v2/67px.svg",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.gstatic.com/youtube/img/icons/mweb/youtube_fill/logo/v2/67px.svg",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/7v0zx/0x4AAAAAAAQTptj2So4dx43e/auto/fbE/new/normal?lang=auto",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false
+      },
+      {
+        "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 70
+      },
+      {
+        "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 70
+      },
+      {
+        "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 70
+      },
+      {
+        "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 70
+      },
+      {
+        "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 70
+      },
+      {
+        "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 70
+      },
+      {
+        "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 70
+      },
+      {
+        "url": "https://www.paulkalkbrenner.net/music",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 21271
+      },
+      {
+        "url": "https://www.paulkalkbrenner.net/",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 681
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "spin",
+        "duration": 12000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "soundFlash",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.625, 0.05, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.625, 0.05, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.625, 0.05, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.625, 0.05, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.625, 0.05, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "text-shadow",
+        "duration": 175,
+        "delay": 274,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "translate",
+        "duration": 500,
+        "delay": 20,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.625, 0.05, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "text-shadow",
+        "duration": 175,
+        "delay": 250,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "translate",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.625, 0.05, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "text-shadow",
+        "duration": 175,
+        "delay": 298,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "translate",
+        "duration": 500,
+        "delay": 40,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.625, 0.05, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "text-shadow",
+        "duration": 175,
+        "delay": 346,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "translate",
+        "duration": 500,
+        "delay": 80,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.625, 0.05, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "text-shadow",
+        "duration": 175,
+        "delay": 322,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "translate",
+        "duration": 500,
+        "delay": 60,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.625, 0.05, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "text-shadow",
+        "duration": 100,
+        "delay": 150,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "translate",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.625, 0.05, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "text-shadow",
+        "duration": 100,
+        "delay": 150,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "translate",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.625, 0.05, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "text-shadow",
+        "duration": 100,
+        "delay": 150,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "translate",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.625, 0.05, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "text-shadow",
+        "duration": 100,
+        "delay": 150,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "translate",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.625, 0.05, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "text-shadow",
+        "duration": 100,
+        "delay": 150,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "translate",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.625, 0.05, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "text-shadow",
+        "duration": 0,
+        "delay": 150,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "text-shadow",
+        "duration": 0,
+        "delay": 150,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "text-shadow",
+        "duration": 0,
+        "delay": 150,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "text-shadow",
+        "duration": 0,
+        "delay": 150,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "text-shadow",
+        "duration": 0,
+        "delay": 150,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "text-shadow",
+        "duration": 0,
+        "delay": 150,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "text-shadow",
+        "duration": 0,
+        "delay": 150,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "text-shadow",
+        "duration": 0,
+        "delay": 150,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "text-shadow",
+        "duration": 0,
+        "delay": 150,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "text-shadow",
+        "duration": 0,
+        "delay": 150,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "text-shadow",
+        "duration": 0,
+        "delay": 150,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "text-shadow",
+        "duration": 0,
+        "delay": 150,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "text-shadow",
+        "duration": 0,
+        "delay": 150,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "text-shadow",
+        "duration": 0,
+        "delay": 150,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "text-shadow",
+        "duration": 0,
+        "delay": 150,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "text-shadow",
+        "duration": 0,
+        "delay": 150,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "text-shadow",
+        "duration": 0,
+        "delay": 150,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "text-shadow",
+        "duration": 0,
+        "delay": 150,
+        "iterations": 1,
+        "easing": "ease"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "Allow attribute will take precedence over 'allowfullscreen'."
+      },
+      {
+        "level": "warning",
+        "text": "Unrecognized feature: 'web-share'."
+      },
+      {
+        "level": "error",
+        "text": "Potential permissions policy violation: accelerometer is not allowed in this document."
+      },
+      {
+        "level": "error",
+        "text": "Potential permissions policy violation: gyroscope is not allowed in this document."
+      },
+      {
+        "level": "error",
+        "text": "Potential permissions policy violation: clipboard-write is not allowed in this document."
+      },
+      {
+        "level": "error",
+        "text": "Potential permissions policy violation: accelerometer is not allowed in this document."
+      },
+      {
+        "level": "error",
+        "text": "Potential permissions policy violation: gyroscope is not allowed in this document."
+      },
+      {
+        "level": "error",
+        "text": "Potential permissions policy violation: clipboard-write is not allowed in this document."
+      },
+      {
+        "level": "error",
+        "text": "Potential permissions policy violation: accelerometer is not allowed in this document."
+      },
+      {
+        "level": "error",
+        "text": "Potential permissions policy violation: gyroscope is not allowed in this document."
+      },
+      {
+        "level": "error",
+        "text": "Potential permissions policy violation: clipboard-write is not allowed in this document."
+      },
+      {
+        "level": "error",
+        "text": "Potential permissions policy violation: accelerometer is not allowed in this document."
+      },
+      {
+        "level": "error",
+        "text": "Potential permissions policy violation: gyroscope is not allowed in this document."
+      },
+      {
+        "level": "error",
+        "text": "Potential permissions policy violation: clipboard-write is not allowed in this document."
+      },
+      {
+        "level": "error",
+        "text": "Potential permissions policy violation: accelerometer is not allowed in this document."
+      },
+      {
+        "level": "error",
+        "text": "Potential permissions policy violation: gyroscope is not allowed in this document."
+      },
+      {
+        "level": "error",
+        "text": "Potential permissions policy violation: clipboard-write is not allowed in this document."
+      },
+      {
+        "level": "error",
+        "text": "Potential permissions policy violation: accelerometer is not allowed in this document."
+      },
+      {
+        "level": "error",
+        "text": "Potential permissions policy violation: gyroscope is not allowed in this document."
+      },
+      {
+        "level": "error",
+        "text": "Potential permissions policy violation: clipboard-write is not allowed in this document."
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-ZH75ZNX3Y9&gtm=45je6a80h2v9126011432za20gxf1&_p=1791625822073&_gaz=1&gcd=13l3l3l3l2l1&npa=0&dma=0&_eu=EBAIAGAC&are=1&cid=638459616.1791625822&frm=0&ir=1&pscdl=noapi&rcb=5&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&gaf=2&_s=1&tag_exp=115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034&dl=https%3A%2F%2Fwww.paulkalkbrenner.net%2F&dt=Paul%20Kalkbrenner%20%E2%80%93%20Official%20Website&sid=1791625822&sct=1&seg=0&en=page_view&_fv=1&_ss=1&_ee=1&tfd=618",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 19,
+      "workers": 0
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 10532,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 1403,
+      "typography": {
+        "families": [
+          [
+            "ABC Diatype Plus Variable",
+            104
+          ]
+        ],
+        "weights": [
+          [
+            "700",
+            100
+          ],
+          [
+            "400",
+            4
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            33
+          ]
+        ],
+        "sizeMin": 4.8,
+        "sizeMedian": 16,
+        "sizeMax": 173.55,
+        "sizeMaxVw": 44.5,
+        "scaleRatio": 10.8,
+        "letterSpacingMean": -0.038,
+        "loadedFonts": [
+          {
+            "family": "ABC Diatype Plus Variable",
+            "weight": "100 700",
+            "style": "normal"
+          }
+        ],
+        "variableFont": true,
+        "textElements": 104
+      },
+      "color": {
+        "background": "rgb(0, 0, 0)",
+        "backgroundLuminance": 0,
+        "backgrounds": [
+          [
+            "rgb(197, 197, 197)",
+            1092
+          ],
+          [
+            "rgb(255, 255, 255)",
+            1031
+          ],
+          [
+            "rgb(0, 0, 0)",
+            600
+          ],
+          [
+            "rgb(255, 104, 49)",
+            540
+          ],
+          [
+            "rgb(167, 255, 156)",
+            444
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(0, 0, 0)",
+            500
+          ],
+          [
+            "rgb(255, 255, 255)",
+            89
+          ],
+          [
+            "rgb(197, 197, 197)",
+            64
+          ],
+          [
+            "color(srgb 0 0 0 / 0.4)",
+            21
+          ]
+        ],
+        "meanSaturation": 0.24,
+        "rootVars": {
+          "--color--dark": "#000",
+          "--color--light": "white",
+          "--page-pad": ".625em",
+          "--col-pad": "var(--gap-ml)",
+          "--gap-m": "1em",
+          "--space-s": "1em",
+          "--color--dark-20": "color-mix(in srgb, var(--color--dark), transparent 80%)",
+          "--space-m": "7.5em",
+          "--space-xl": "15.625em",
+          "--gap-xs": ".5em",
+          "--space-xxl": "18.75em",
+          "--gap-s": ".75em",
+          "--cta-height": "11.25em",
+          "--gap-xl": "2em",
+          "--gap-l": "1.5em",
+          "--gap-ml": "1.25em",
+          "--color--gray": "#c5c5c5",
+          "--gap-xxs": ".25em",
+          "--exp-grid-row": "10em",
+          "--exp-grid-col": "35em",
+          "--exp-grid-dot": "8.5em",
+          "--space-sm": "2em",
+          "--color--dark-40": "color-mix(in srgb, var(--color--dark), transparent 60%)",
+          "--color--dark-30": "color-mix(in srgb, var(--color--dark), transparent 70%)",
+          "--color--green": "#a7ff9c",
+          "--color--orange": "#ff6831",
+          "--color--yellow": "#fc0",
+          "--color--brown": "#bc8556",
+          "--space-l": "10em",
+          "--space-xxxl": "25em"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 7,
+        "sticky": 0,
+        "fixed": 11,
+        "grid": 5,
+        "flex": 205,
+        "absolute": 116,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 9084,
+        "pages": 10.8,
+        "spacing": [
+          [
+            16,
+            23
+          ],
+          [
+            1,
+            15
+          ],
+          [
+            10,
+            12
+          ],
+          [
+            8,
+            10
+          ],
+          [
+            4,
+            9
+          ],
+          [
+            48,
+            8
+          ],
+          [
+            234,
+            8
+          ],
+          [
+            208,
+            8
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 2,
+        "animationKinds": [
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 2,
+        "animationDurations": [
+          1000,
+          12000
+        ],
+        "easings": [
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            350,
+            20
+          ],
+          [
+            550,
+            14
+          ],
+          [
+            1000,
+            8
+          ],
+          [
+            400,
+            8
+          ],
+          [
+            200,
+            7
+          ]
+        ],
+        "keyframes": [
+          "spin"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 48,
+      "media": {
+        "canvases": [],
+        "videos": [],
+        "svg": 3,
+        "images": 83,
+        "iframes": 8,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {},
+        "raf": 1412,
+        "io": 4,
+        "ro": 88,
+        "mo": 1,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": true,
+        "ScrollTrigger": true,
+        "THREE": false,
+        "Lenis": true,
+        "PIXI": false,
+        "anime": false,
+        "barba": true,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": true,
+        "jQuery": true,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": true,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": true,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Paul Kalkbrenner – Official Website",
+      "lang": "en",
+      "description": "Explore the music of Paul Kalkbrenner. New releases, live performances and a body of work shaped by over two decades of electronic music."
+    },
+    "featuresBeforeScroll": {
+      "elements": 1403,
+      "canvases": 0,
+      "animations": 3,
+      "hidden": 97
+    },
+    "scrollReveal": 49,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 117800180,
+        "layoutCount": 469,
+        "recalcStyleCount": 1731,
+        "scriptDuration": 2.730988,
+        "taskDuration": 5.305711,
+        "nodes": 5906
+      },
+      "timing": {
+        "domContentLoaded": 795,
+        "load": 4045,
+        "first-paint": 224,
+        "first-contentful-paint": 308
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "spin",
+        "duration": 12000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "soundFlash",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.625, 0.05, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.625, 0.05, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.625, 0.05, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.625, 0.05, 0, 1)"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "Allow attribute will take precedence over 'allowfullscreen'."
+      },
+      {
+        "level": "warning",
+        "text": "Unrecognized feature: 'web-share'."
+      },
+      {
+        "level": "error",
+        "text": "Potential permissions policy violation: accelerometer is not allowed in this document."
+      },
+      {
+        "level": "error",
+        "text": "Potential permissions policy violation: gyroscope is not allowed in this document."
+      },
+      {
+        "level": "error",
+        "text": "Potential permissions policy violation: clipboard-write is not allowed in this document."
+      },
+      {
+        "level": "error",
+        "text": "Potential permissions policy violation: accelerometer is not allowed in this document."
+      },
+      {
+        "level": "error",
+        "text": "Potential permissions policy violation: gyroscope is not allowed in this document."
+      },
+      {
+        "level": "error",
+        "text": "Potential permissions policy violation: clipboard-write is not allowed in this document."
+      },
+      {
+        "level": "error",
+        "text": "Potential permissions policy violation: accelerometer is not allowed in this document."
+      },
+      {
+        "level": "error",
+        "text": "Potential permissions policy violation: gyroscope is not allowed in this document."
+      },
+      {
+        "level": "error",
+        "text": "Potential permissions policy violation: clipboard-write is not allowed in this document."
+      },
+      {
+        "level": "error",
+        "text": "Potential permissions policy violation: accelerometer is not allowed in this document."
+      },
+      {
+        "level": "error",
+        "text": "Potential permissions policy violation: gyroscope is not allowed in this document."
+      },
+      {
+        "level": "error",
+        "text": "Potential permissions policy violation: clipboard-write is not allowed in this document."
+      },
+      {
+        "level": "error",
+        "text": "Potential permissions policy violation: accelerometer is not allowed in this document."
+      },
+      {
+        "level": "error",
+        "text": "Potential permissions policy violation: gyroscope is not allowed in this document."
+      },
+      {
+        "level": "error",
+        "text": "Potential permissions policy violation: clipboard-write is not allowed in this document."
+      },
+      {
+        "level": "error",
+        "text": "Potential permissions policy violation: accelerometer is not allowed in this document."
+      },
+      {
+        "level": "error",
+        "text": "Potential permissions policy violation: gyroscope is not allowed in this document."
+      },
+      {
+        "level": "error",
+        "text": "Potential permissions policy violation: clipboard-write is not allowed in this document."
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-ZH75ZNX3Y9&gtm=45je6a72v9126011432za20gxf1&_p=1791625836736&_gaz=1&gcd=13l3l3l3l2l1&npa=0&dma=0&_eu=EBAIAGAC&are=1&cid=216541888.1791625839&frm=0&ir=1&pscdl=noapi&rcb=14&sr=390x844&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=1&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&gaf=2&_s=1&tag_exp=115938465~115938468~118012009~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034&dl=https%3A%2F%2Fwww.paulkalkbrenner.net%2F&dt=Paul%20Kalkbrenner%20%E2%80%93%20Official%20Website&sid=1791625840&sct=1&seg=0&en=page_view&_fv=1&_ss=1&_ee=1&tfd=4088",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 17,
+      "workers": 0
+    }
+  }
+}

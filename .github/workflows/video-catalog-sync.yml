@@ -1,0 +1,49 @@
+name: Video catalogue
+
+# Every week: read the campaigns that Ads of the World shows on its home and campaigns pages (the listing pages its robots.txt allows) and, slowly, the
+# campaign pages not seen yet; add each one to skills/kit/video-research/catalog/campaigns.jsonl (the idea in a short excerpt, the credits, the sector, the page and the
+# address of the film). No film is downloaded. A campaign page that robots.txt forbids, or cannot be read, is not fetched.
+on:
+  schedule:
+    - cron: '47 5 * * 1'
+  workflow_dispatch:
+    inputs:
+      max:
+        description: 'New campaigns read at most'
+        default: '40'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: video-catalog
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Read the new campaigns
+        run: node skills/kit/video-research/src/cli.js sync --max=${{ github.event.inputs.max || '40' }} | tee sync.json
+      - name: Say what was read
+        if: always()
+        run: |
+          node -e "
+          const fs = require('fs');
+          let s = {}; try { s = JSON.parse(fs.readFileSync('sync.json','utf8')); } catch {}
+          const errors = (s.errors || []).slice(0, 8).join(' | ');
+          console.log('::notice title=Video catalogue::new ' + (s.new ?? '?') + ', known ' + (s.known ?? '?') + ', total ' + (s.total ?? '?') + (errors ? ', problems: ' + errors : ''));
+          if ((s.new ?? 0) === 0 && (s.errors || []).length && s.listing === 0) { console.error('nothing was read: ' + errors); process.exit(1); }
+          "
+      - name: Commit the catalogue
+        if: always()
+        run: |
+          git config user.name "video-research"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A skills/kit/video-research/catalog
+          git diff --cached --quiet || (git commit -m "Video catalogue: weekly sync" && git pull --rebase origin main && git push)

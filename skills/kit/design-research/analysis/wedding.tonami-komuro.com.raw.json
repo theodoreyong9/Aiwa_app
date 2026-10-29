@@ -1,0 +1,2916 @@
+{
+  "url": "https://wedding.tonami-komuro.com/",
+  "at": "2026-10-19T10:01:42.604Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 42391,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 2709,
+      "typography": {
+        "families": [
+          [
+            "helvetica-lt-pro",
+            58
+          ],
+          [
+            "Noto Serif JP",
+            51
+          ],
+          [
+            "Noto Sans JP",
+            25
+          ],
+          [
+            "ivyora-display",
+            15
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            130
+          ],
+          [
+            "500",
+            10
+          ],
+          [
+            "700",
+            7
+          ],
+          [
+            "300",
+            2
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            62
+          ]
+        ],
+        "sizeMin": 12,
+        "sizeMedian": 16,
+        "sizeMax": 95.9999,
+        "sizeMaxVw": 6.7,
+        "scaleRatio": 6,
+        "letterSpacingMean": 0.55,
+        "loadedFonts": [
+          {
+            "family": "ivyora-display",
+            "weight": "700",
+            "style": "italic"
+          },
+          {
+            "family": "ivyora-display",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "helvetica-lt-pro",
+            "weight": "700",
+            "style": "italic"
+          },
+          {
+            "family": "helvetica-lt-pro",
+            "weight": "700",
+            "style": "normal"
+          },
+          {
+            "family": "helvetica-lt-pro",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Noto Sans JP",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Noto Sans JP",
+            "weight": "700",
+            "style": "normal"
+          },
+          {
+            "family": "Noto Sans JP",
+            "weight": "900",
+            "style": "normal"
+          },
+          {
+            "family": "Noto Serif JP",
+            "weight": "300",
+            "style": "normal"
+          },
+          {
+            "family": "Noto Serif JP",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Noto Serif JP",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "Noto Serif JP",
+            "weight": "700",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 149
+      },
+      "color": {
+        "background": "rgb(255, 255, 255)",
+        "backgroundLuminance": 1,
+        "backgrounds": [],
+        "texts": [
+          [
+            "color(srgb 0 0.415686 0.803922)",
+            702
+          ],
+          [
+            "color(srgb 0.952941 0.945098 0.952941)",
+            234
+          ],
+          [
+            "rgb(243, 241, 243)",
+            40
+          ],
+          [
+            "color(srgb 0 0 0 / 0)",
+            11
+          ],
+          [
+            "rgb(200, 16, 46)",
+            11
+          ]
+        ],
+        "meanSaturation": 0,
+        "rootVars": {
+          "--stage-max-aspect": "2.03",
+          "--px": ".0625rem",
+          "--s": "min(calc(100vw / 390), max(1px, calc(100svh / 813)))",
+          "--color-blue": "#006acd",
+          "--color-invert-primary": "#f3f1f3",
+          "--color-invert-secondary": "var(--color-blue)",
+          "--color-primary": "var(--color-primary-base)",
+          "--color-secondary": "var(--color-secondary-base)"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 10,
+        "sticky": 13,
+        "fixed": 19,
+        "grid": 72,
+        "flex": 101,
+        "absolute": 364,
+        "asymmetricGrids": 21,
+        "splitScreen": false,
+        "scrollHeight": 38223,
+        "pages": 42.5,
+        "spacing": [
+          [
+            2,
+            57
+          ],
+          [
+            8,
+            34
+          ],
+          [
+            16,
+            32
+          ],
+          [
+            7,
+            24
+          ],
+          [
+            24,
+            19
+          ],
+          [
+            6,
+            18
+          ],
+          [
+            11,
+            13
+          ],
+          [
+            4,
+            10
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 187,
+        "animationKinds": [
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 176,
+        "animationDurations": [
+          20000,
+          20000,
+          20000,
+          20000,
+          5000,
+          5000,
+          5000,
+          2800,
+          2800,
+          3220,
+          2020,
+          2810,
+          3610,
+          2410,
+          3210,
+          2000,
+          2800,
+          3600,
+          2400,
+          3190
+        ],
+        "easings": [
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            200,
+            136
+          ],
+          [
+            400,
+            44
+          ],
+          [
+            800,
+            22
+          ],
+          [
+            100,
+            6
+          ],
+          [
+            420,
+            4
+          ]
+        ],
+        "keyframes": [
+          "click-star-throw",
+          "click-star-fall",
+          "click-star-pop",
+          "cursor-trail-stamp",
+          "preloader-in",
+          "deco-button-star-bounce",
+          "rotate-notice-turn",
+          "photo-shock",
+          "star-punch",
+          "sparkle-sweep",
+          "sparkle-spin",
+          "cell-flicker",
+          "scroll-fall",
+          "scroll-draw",
+          "seam-cell-flicker",
+          "pattern-flow",
+          "pattern-spin",
+          "spark-twinkle",
+          "story-band-text-out",
+          "story-band-text-in"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": true
+      },
+      "hiddenElements": 97,
+      "media": {
+        "canvases": [
+          {
+            "w": 1440,
+            "h": 900,
+            "area": 1
+          },
+          {
+            "w": 359,
+            "h": 359,
+            "area": 0.1
+          }
+        ],
+        "videos": [],
+        "svg": 174,
+        "images": 44,
+        "iframes": 0,
+        "customCursor": true
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 2
+        },
+        "raf": 128,
+        "io": 9,
+        "ro": 7,
+        "mo": 3,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Tonami & Ayano｜Wedding Invitation",
+      "lang": "ja",
+      "description": "2026.12.12 アールベルアンジェ札幌 結婚式のご案内"
+    },
+    "featuresBeforeScroll": {
+      "elements": 2738,
+      "canvases": 2,
+      "animations": 99,
+      "hidden": 128
+    },
+    "scrollReveal": 31,
+    "hover": {
+      "probed": 6,
+      "changed": 0
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 5277820,
+        "layoutCount": 339,
+        "recalcStyleCount": 969,
+        "scriptDuration": 2.348628,
+        "taskDuration": 41.709464,
+        "nodes": 4808
+      },
+      "timing": {
+        "domContentLoaded": 4298,
+        "load": 4299,
+        "first-paint": 476,
+        "first-contentful-paint": 476
+      }
+    },
+    "network": [
+      {
+        "url": "https://wedding.tonami-komuro.com/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 86964
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/cdn-cgi/speculation",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "other",
+        "status": 200,
+        "mime": "application/speculationrules+json",
+        "fromCache": false,
+        "bytes": 477
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&amp;family=Noto+Serif+JP:wght@200..900&amp;display=swap",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 348
+      },
+      {
+        "url": "https://use.typekit.net/zbu7msh.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1196
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Noto+Serif+JP:wght@200..900&display=swap",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 762
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/Preloader.astro_astro_type_script_index_0_lang.B2_6BJJJ.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 353
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/OrbBackground.astro_astro_type_script_index_0_lang.BE7DRtM7.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 8994
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/Nav.astro_astro_type_script_index_0_lang.DDiuRF2D.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 581
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/MobileMenu.astro_astro_type_script_index_0_lang.DVkcgO2x.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1605
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/Chrome.astro_astro_type_script_index_0_lang.CnTAp_eC.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1873
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/RotateNotice.astro_astro_type_script_index_0_lang.D-JGmmNl.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 584
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/daisy.pybHK7qr_1u2E9X.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 8736
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/main_01.Dyo7b-Vz_1tcRrK.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 8400
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/Hero.astro_astro_type_script_index_0_lang.BM3Fjy6B.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 5684
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/Message.astro_astro_type_script_index_0_lang.gmmlqZyG.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 361
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/About.astro_astro_type_script_index_0_lang.B1--hz9Y.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 10571
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/Story.astro_astro_type_script_index_0_lang.p8n_8tFF.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2064
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/StarTrail.astro_astro_type_script_index_0_lang.Dm5aEAgk.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1817
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/DateVenue.astro_astro_type_script_index_0_lang.CQOskMjn.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4954
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/PrivacyModal.astro_astro_type_script_index_0_lang.D5Y7ddKq.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 675
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/Rsvp.astro_astro_type_script_index_0_lang.D7fKFSj9.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 7234
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/Credits.astro_astro_type_script_index_0_lang.BaWtH1-X.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1686
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/Layout.astro_astro_type_script_index_0_lang.B0PAoAA8.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 5330
+      },
+      {
+        "url": "https://static.cloudflareinsights.com/beacon.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 10477
+      },
+      {
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 10478
+      },
+      {
+        "url": "https://p.typekit.net/p.css?s=1&k=zbu7msh&ht=tk&f=51755.51756.51761.60018.60020.60022.60023&a=154795141&app=typekit&e=css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 172
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/cursor/arrow.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 1777
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/cursor/star.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 2065
+      },
+      {
+        "url": "https://use.typekit.net/af/084e2c/0000000000000000775c6969/31/l?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=n4&v=3",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/font-woff2",
+        "fromCache": false,
+        "bytes": 17324
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/notoserifjp/v34/xn71YHs72GKoTvER4Gn3b5eMRtWGkp6o7MjQ2bwxOubA.ttf",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/ttf",
+        "fromCache": false,
+        "bytes": 4491841
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/notosansjp/v57/-F6jfjtqLzI2JPCgQBnw7HFyzSD-AsregP8VFLgk75s.ttf",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/ttf",
+        "fromCache": false,
+        "bytes": 3252642
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/notoserifjp/v34/xn71YHs72GKoTvER4Gn3b5eMRtWGkp6o7MjQ2bxvOubA.ttf",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/ttf",
+        "fromCache": false,
+        "bytes": 4443500
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/notosansjp/v57/-F6jfjtqLzI2JPCgQBnw7HFyzSD-AsregP8VFBEj75s.ttf",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/ttf",
+        "fromCache": false,
+        "bytes": 3310920
+      },
+      {
+        "url": "https://use.typekit.net/af/536d16/0000000000000000774ba005/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/font-woff2",
+        "fromCache": false,
+        "bytes": 60742
+      },
+      {
+        "url": "https://use.typekit.net/af/8610c8/0000000000000000775aa95b/31/l?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=i7&v=3",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/font-woff2",
+        "fromCache": false,
+        "bytes": 17920
+      },
+      {
+        "url": "https://use.typekit.net/af/564c95/0000000000000000775aa95c/31/l?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=n7&v=3",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/font-woff2",
+        "fromCache": false,
+        "bytes": 17143
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/preloader.bGt49er1.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2985
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/motion.Ctvd2ppj.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1411
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/duration.DvcnmUYE.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1404
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/orbHost.DDPZ0U62.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1290
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/easing.BaR4-JFh.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1663
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/orbLib.CYnIl21S.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 14971
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/math.BVrudceX.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1265
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/currentSection.D-HcG-TQ.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2104
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/inputModality.hk7Pc1gF.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1342
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/frameLoop.TiSg2hRi.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 8180
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/gsap.Bi_c5vh2.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 29450
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/phoneLandscape.BOeTsAKz.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1583
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/peony.C52RR_m0_F2S2D.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 24890
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/dahlia.Bw2nHvwV_Z29yblt.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 16081
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/carnation.C41LXYW3_kPb0z.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 21267
+      },
+      {
+        "url": "https://use.typekit.net/af/70bbbc/0000000000000000774ba014/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/font-woff2",
+        "fromCache": false,
+        "bytes": 54101
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/notoserifjp/v34/xn71YHs72GKoTvER4Gn3b5eMRtWGkp6o7MjQ2bwDOubA.ttf",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/ttf",
+        "fromCache": false,
+        "bytes": 4527598
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/viewport.CEKMOE7n.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2415
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/messageScene.D7_glgVz.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4748
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/notoserifjp/v34/xn71YHs72GKoTvER4Gn3b5eMRtWGkp6o7MjQ2bzWPebA.ttf",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/ttf",
+        "fromCache": false,
+        "bytes": 4579270
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/notosansjp/v57/-F6jfjtqLzI2JPCgQBnw7HFyzSD-AsregP8VFPYk75s.ttf",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/ttf",
+        "fromCache": false,
+        "bytes": 3343553
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/FilmPhoto.DdTCCPLK.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 11017
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/storyScene.KB_sJpIX.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 8338
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/blink.BgH5kEI0.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1431
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/event.CtKqiSn6.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1907
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/rsvpSent.CDqaEv0P.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1407
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/cursorTrail.DOxRI5Qq.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3189
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/ruleStar.BplEePt3.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1997
+      },
+      {
+        "url": "https://cloudflareinsights.com/cdn-cgi/rum",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 36
+      },
+      {
+        "url": "https://cloudflareinsights.com/cdn-cgi/rum",
+        "method": "OPTIONS",
+        "type": "OTHER",
+        "initiator": "preflight",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/main_02.DS1l0ggr_Z13fQym.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 10267
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/main_03.AGdMqNg7_bjLS9.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 19069
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/main_04.CoYzg7Av_yXhTo.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 7239
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/deco-flower.D1J8acG__ZGfbkU.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 13236
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/bride-and-groom.BHl8qKuo_Z2uFUPy.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 196453
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/dahlia.Bw2nHvwV_mKkk0.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 10927
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/wreath-back-1.D3JpN-Ve_Z1p9tM3.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 33281
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/wreath-back-2.Lc9jKlIh_2kQxVt.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 33603
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/wreath-back-3.BTdSpemt_ZteJuL.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 85557
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/wreath-back-4.DHXQIq9O_1J1S7A.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 142076
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/wreath-back-5.CuRmw_eF_Z13hHme.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 65204
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/wreath-back-6.9z8t6K8G_Z279kLt.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 84680
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/2020-21_01.CbO0yfV4_VMxDt.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 12786
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/2020-21_02.S_Fqlibj_2fA0oR.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 14942
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/2020-21_03.Dk5mUwAo_wcrkl.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 24426
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/2020-21_04.BEc8b46w_Z1pgfvz.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 12992
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/2022_01.BmrY7_a6_ZVa6n0.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 28035
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/2022_02.DftV31va_ZLskqo.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 18718
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/2022_03.BOwSjo_k_1fjWSo.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 15463
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/2022_04.d7p4-lAO_Z2fTOlf.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 12377
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/2023_01.yyJ51wPZ_Z2fFsyt.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 14338
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/2023_02.BZEdPm9x_hFS48.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 11589
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/2023_03.CJfTPi9R_zOChJ.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 17087
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/2023_04.DKMWYiqC_2jHgC0.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 18581
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/2024_01.6wVZEn0P_ZodGUy.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 9295
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/2024_02.C69hN5KP_Z2lkKWp.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 14556
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/2024_03.CQDkKrfj_Z1BgEDo.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 11548
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/2024_04.rbZeBiH-_Z2ngKIo.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 6228
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/2025_01.WWhqyVtS_Z16WMgM.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 10807
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/2025_02.sMWwXRwF_Z1WmirY.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 23802
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/2025_03.BLeQKrXg_1IPmrF.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 18453
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/2025_04.BXwMMozI_UfCkF.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 8704
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/2026_01.BspElfAL_2uDaS1.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 14877
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/2026_02.C0KzO0S4_2nHt9U.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 14840
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/2026_03.qQdN1lc8_ndhtt.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 18758
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/finale.ChWBZxI1_Z1OmL0.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 11281
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/wreath-front-1.b_ZQ1zRt_10oMvn.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 10147
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/wreath-front-2.BEcc1b_1_1MTFj5.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 8412
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/wreath-front-3.B22YlAHa_2mnHpU.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 18618
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/wreath-front-4.BFyUj8mr_ZghUJg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 14994
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/wreath-front-5.fkhZKvDP_1tuciS.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 6449
+      },
+      {
+        "url": "https://wedding.tonami-komuro.com/_astro/orchid.Bww3PhN2_ZbAyvA.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 12588
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "seam-cell-flicker",
+        "duration": 2710,
+        "delay": -2600,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "seam-cell-flicker",
+        "duration": 3120,
+        "delay": -2250,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "seam-cell-flicker",
+        "duration": 3910,
+        "delay": -1330,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "preloader-in",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-barcode-scan",
+        "duration": 4500,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "dv-dot-flash",
+        "duration": 11000,
+        "delay": 1378.8600000000001,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-cell-flicker",
+        "duration": 2970,
+        "delay": -2120,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-barcode-scan",
+        "duration": 4500,
+        "delay": 1512,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-cell-flicker",
+        "duration": 3100,
+        "delay": -2520,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-cell-flicker",
+        "duration": 2740,
+        "delay": -2130,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-cell-flicker",
+        "duration": 2290,
+        "delay": -650,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-barcode-scan",
+        "duration": 4500,
+        "delay": 2160,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "dv-dot-flash",
+        "duration": 11000,
+        "delay": 2260.2600000000007,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-fill-off",
+        "duration": 3500,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "dv-dot-flash",
+        "duration": 11000,
+        "delay": 1338.8600000000001,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-barcode-scan",
+        "duration": 4500,
+        "delay": 1836,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "dv-cell-flicker",
+        "duration": 2410,
+        "delay": -1140,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "dv-dot-flash",
+        "duration": 11000,
+        "delay": 1584.6800000000003,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-barcode-scan",
+        "duration": 4500,
+        "delay": 648,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "dv-dot-flash",
+        "duration": 11000,
+        "delay": 783.76,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-cell-flicker",
+        "duration": 2280,
+        "delay": -850,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "dv-star-stretch",
+        "duration": 1610,
+        "delay": -990,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-cell-flicker",
+        "duration": 2700,
+        "delay": -130,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "dv-dot-flash",
+        "duration": 11000,
+        "delay": 1141.14,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "dv-dot-flash",
+        "duration": 11000,
+        "delay": 437.32000000000005,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-cell-flicker",
+        "duration": 2340,
+        "delay": -2160,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-cell-flicker",
+        "duration": 2310,
+        "delay": -450,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-barcode-scan",
+        "duration": 4500,
+        "delay": 1404,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-cell-flicker",
+        "duration": 2650,
+        "delay": -1080,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "dv-dot-flash",
+        "duration": 11000,
+        "delay": 134.4,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "dv-cell-flicker",
+        "duration": 2810,
+        "delay": -660,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-barcode-scan",
+        "duration": 4500,
+        "delay": 2376,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-fill-off",
+        "duration": 3500,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-barcode-scan",
+        "duration": 4500,
+        "delay": 216,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "credits-spark",
+        "duration": 1600,
+        "delay": -600.0000000000001,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-cell-flicker",
+        "duration": 2020,
+        "delay": -1250,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-arrow-flash",
+        "duration": 5400,
+        "delay": 900.0000000000001,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-cell-flicker",
+        "duration": 3480,
+        "delay": -2630,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-cell-flicker",
+        "duration": 2990,
+        "delay": -1860,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "dv-dot-flash",
+        "duration": 11000,
+        "delay": 2288.8400000000006,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-cell-flicker",
+        "duration": 3090,
+        "delay": -2790,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-cell-flicker",
+        "duration": 2800,
+        "delay": -910,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-cell-flicker",
+        "duration": 2810,
+        "delay": -660,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-fill-off",
+        "duration": 3500,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-barcode-scan",
+        "duration": 4500,
+        "delay": 540,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "dv-star-bloom",
+        "duration": 11000,
+        "delay": 1003.6400000000001,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-barcode-scan",
+        "duration": 4500,
+        "delay": 2052,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "dv-dot-flash",
+        "duration": 11000,
+        "delay": 653.76,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "dv-dot-flash",
+        "duration": 11000,
+        "delay": 1584.6800000000003,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-cell-flicker",
+        "duration": 3610,
+        "delay": -3090,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-arrow-flash",
+        "duration": 5400,
+        "delay": 600.0000000000001,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "credits-spark",
+        "duration": 1600,
+        "delay": -1200.0000000000002,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "dv-dot-flash",
+        "duration": 11000,
+        "delay": 134.4,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-cell-flicker",
+        "duration": 2690,
+        "delay": -370,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "dv-star-stretch",
+        "duration": 1800,
+        "delay": -850,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "dv-cell-flicker",
+        "duration": 3190,
+        "delay": -580,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "dv-dot-flash",
+        "duration": 11000,
+        "delay": 1744.6800000000003,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-barcode-scan",
+        "duration": 4500,
+        "delay": 1619.9999999999998,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "credits-spark",
+        "duration": 1600,
+        "delay": -1000,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-cell-flicker",
+        "duration": 2760,
+        "delay": -1650,
+        "iterations": null,
+        "easing": "linear"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0702000A4090000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x14402c81800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x14402c81800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x14402c81800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x14402c81800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0800007A4090000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&amp;family=Noto+Serif+JP:wght@200..900&amp;display=swap was preloaded using link preload but not used within a few seco"
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&amp;family=Noto+Serif+JP:wght@200..900&amp;display=swap was preloaded using link preload but not used within a few seco"
+      }
+    ],
+    "exceptions": [],
+    "failed": [],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 12019,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 2709,
+      "typography": {
+        "families": [
+          [
+            "Noto Serif JP",
+            51
+          ],
+          [
+            "helvetica-lt-pro",
+            45
+          ],
+          [
+            "Noto Sans JP",
+            23
+          ],
+          [
+            "ivyora-display",
+            12
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            92
+          ],
+          [
+            "300",
+            22
+          ],
+          [
+            "500",
+            10
+          ],
+          [
+            "700",
+            7
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            43
+          ]
+        ],
+        "sizeMin": 8,
+        "sizeMedian": 13,
+        "sizeMax": 96,
+        "sizeMaxVw": 24.6,
+        "scaleRatio": 7.4,
+        "letterSpacingMean": 0,
+        "loadedFonts": [
+          {
+            "family": "ivyora-display",
+            "weight": "700",
+            "style": "italic"
+          },
+          {
+            "family": "ivyora-display",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "helvetica-lt-pro",
+            "weight": "700",
+            "style": "italic"
+          },
+          {
+            "family": "helvetica-lt-pro",
+            "weight": "700",
+            "style": "normal"
+          },
+          {
+            "family": "helvetica-lt-pro",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Noto Sans JP",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Noto Sans JP",
+            "weight": "700",
+            "style": "normal"
+          },
+          {
+            "family": "Noto Sans JP",
+            "weight": "900",
+            "style": "normal"
+          },
+          {
+            "family": "Noto Serif JP",
+            "weight": "300",
+            "style": "normal"
+          },
+          {
+            "family": "Noto Serif JP",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Noto Serif JP",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "Noto Serif JP",
+            "weight": "700",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 131
+      },
+      "color": {
+        "background": "rgb(0, 106, 205)",
+        "backgroundLuminance": 0.14715846257001075,
+        "backgrounds": [
+          [
+            "rgb(0, 106, 205)",
+            329
+          ]
+        ],
+        "texts": [
+          [
+            "color(srgb 0 0.415686 0.803922)",
+            613
+          ],
+          [
+            "color(srgb 0.952941 0.945098 0.952941)",
+            240
+          ],
+          [
+            "color(srgb 0 0 0 / 0)",
+            11
+          ],
+          [
+            "rgb(200, 16, 46)",
+            11
+          ],
+          [
+            "rgba(0, 0, 0, 0)",
+            3
+          ]
+        ],
+        "meanSaturation": 1,
+        "rootVars": {
+          "--stage-max-aspect": "2.03",
+          "--px": ".0625rem",
+          "--s": "min(calc(100vw / 390), max(1px, calc(100svh / 813)))",
+          "--color-blue": "#006acd",
+          "--color-invert-primary": "#f3f1f3",
+          "--color-invert-secondary": "var(--color-blue)",
+          "--color-primary": "var(--color-primary-base)",
+          "--color-secondary": "var(--color-secondary-base)"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 11,
+        "sticky": 10,
+        "fixed": 15,
+        "grid": 60,
+        "flex": 100,
+        "absolute": 376,
+        "asymmetricGrids": 9,
+        "splitScreen": false,
+        "scrollHeight": 33373,
+        "pages": 39.5,
+        "spacing": [
+          [
+            16,
+            64
+          ],
+          [
+            2,
+            55
+          ],
+          [
+            8,
+            39
+          ],
+          [
+            6,
+            25
+          ],
+          [
+            7,
+            24
+          ],
+          [
+            4,
+            21
+          ],
+          [
+            24,
+            12
+          ],
+          [
+            48,
+            9
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 173,
+        "animationKinds": [
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 162,
+        "animationDurations": [
+          20000,
+          20000,
+          20000,
+          20000,
+          5000,
+          5000,
+          5000,
+          3220,
+          2020,
+          2810,
+          3610,
+          2410,
+          3210,
+          2000,
+          2800,
+          3600,
+          2400,
+          3190,
+          3990,
+          2790
+        ],
+        "easings": [
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            200,
+            136
+          ],
+          [
+            400,
+            49
+          ],
+          [
+            800,
+            22
+          ],
+          [
+            100,
+            6
+          ],
+          [
+            420,
+            4
+          ]
+        ],
+        "keyframes": [
+          "click-star-throw",
+          "click-star-fall",
+          "click-star-pop",
+          "cursor-trail-stamp",
+          "preloader-in",
+          "deco-button-star-bounce",
+          "rotate-notice-turn",
+          "photo-shock",
+          "star-punch",
+          "sparkle-sweep",
+          "sparkle-spin",
+          "cell-flicker",
+          "scroll-fall",
+          "scroll-draw",
+          "seam-cell-flicker",
+          "pattern-flow",
+          "pattern-spin",
+          "spark-twinkle",
+          "story-band-text-out",
+          "story-band-text-in"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": true
+      },
+      "hiddenElements": 89,
+      "media": {
+        "canvases": [
+          {
+            "w": 487,
+            "h": 1055,
+            "area": 1
+          },
+          {
+            "w": 298,
+            "h": 298,
+            "area": 0
+          }
+        ],
+        "videos": [],
+        "svg": 174,
+        "images": 44,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 2
+        },
+        "raf": 190,
+        "io": 9,
+        "ro": 7,
+        "mo": 3,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Tonami & Ayano｜Wedding Invitation",
+      "lang": "ja",
+      "description": "2026.12.12 アールベルアンジェ札幌 結婚式のご案内"
+    },
+    "featuresBeforeScroll": {
+      "elements": 2738,
+      "canvases": 2,
+      "animations": 99,
+      "hidden": 125
+    },
+    "scrollReveal": 36,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 4561828,
+        "layoutCount": 407,
+        "recalcStyleCount": 1075,
+        "scriptDuration": 0.5614,
+        "taskDuration": 11.683445,
+        "nodes": 4049
+      },
+      "timing": {
+        "domContentLoaded": 1701,
+        "load": 1701,
+        "first-paint": 288,
+        "first-contentful-paint": 288
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "dv-cell-flicker",
+        "duration": 3220,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "seam-cell-flicker",
+        "duration": 2660,
+        "delay": -850,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "seam-cell-flicker",
+        "duration": 3060,
+        "delay": -250,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "seam-cell-flicker",
+        "duration": 3860,
+        "delay": -2700,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "preloader-in",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-barcode-scan",
+        "duration": 4500,
+        "delay": 2160,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-cell-flicker",
+        "duration": 2810,
+        "delay": -660,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-cell-flicker",
+        "duration": 3850,
+        "delay": -3040,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-cell-flicker",
+        "duration": 3850,
+        "delay": -3040,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "dv-dot-flash",
+        "duration": 11000,
+        "delay": 1475.0400000000002,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-barcode-scan",
+        "duration": 4500,
+        "delay": 2160,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-barcode-scan",
+        "duration": 4500,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-barcode-scan",
+        "duration": 4500,
+        "delay": 1188,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "dv-cell-flicker",
+        "duration": 3210,
+        "delay": -290,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-cell-flicker",
+        "duration": 2180,
+        "delay": -210,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-cell-flicker",
+        "duration": 2400,
+        "delay": -1350,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "dv-dot-flash",
+        "duration": 11000,
+        "delay": 1440.4200000000003,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-cell-flicker",
+        "duration": 3160,
+        "delay": -1420,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-fill-off",
+        "duration": 2400,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "dv-dot-flash",
+        "duration": 11000,
+        "delay": 2089.3,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-barcode-scan",
+        "duration": 4500,
+        "delay": 1728,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-cell-flicker",
+        "duration": 2580,
+        "delay": -2220,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-arrow-flash",
+        "duration": 5400,
+        "delay": 600.0000000000001,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-cell-flicker",
+        "duration": 2740,
+        "delay": -2130,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-cell-flicker",
+        "duration": 3950,
+        "delay": -270,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-fill-off",
+        "duration": 3500,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-cell-flicker",
+        "duration": 3600,
+        "delay": -3400,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-cell-flicker",
+        "duration": 2650,
+        "delay": -1080,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "dv-star-stretch",
+        "duration": 2000,
+        "delay": -1412.4999999999998,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-cell-flicker",
+        "duration": 2690,
+        "delay": -370,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-cell-flicker",
+        "duration": 3820,
+        "delay": -3710,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "dv-dot-flash",
+        "duration": 11000,
+        "delay": 1655.04,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-barcode-scan",
+        "duration": 4500,
+        "delay": 1944,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-cell-flicker",
+        "duration": 3840,
+        "delay": -3380,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-arrow-flash",
+        "duration": 5400,
+        "delay": 600.0000000000001,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-cell-flicker",
+        "duration": 3780,
+        "delay": -910,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-cell-flicker",
+        "duration": 3190,
+        "delay": -580,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-cell-flicker",
+        "duration": 2410,
+        "delay": -1140,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-barcode-scan",
+        "duration": 4500,
+        "delay": 1944,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-barcode-scan",
+        "duration": 4500,
+        "delay": 2592,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-fill-on",
+        "duration": 2400,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "dv-star-bloom",
+        "duration": 11000,
+        "delay": 1675.7400000000002,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-arrow-flash",
+        "duration": 5400,
+        "delay": 900.0000000000001,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-cell-flicker",
+        "duration": 2230,
+        "delay": -1640,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-cell-flicker",
+        "duration": 3610,
+        "delay": -3090,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-cell-flicker",
+        "duration": 2760,
+        "delay": -1650,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-cell-flicker",
+        "duration": 3900,
+        "delay": -1680,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "dv-dot-flash",
+        "duration": 11000,
+        "delay": 1340.42,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "dv-star-stretch",
+        "duration": 2250,
+        "delay": -1062.5,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-arrow-flash",
+        "duration": 5400,
+        "delay": 2400.0000000000005,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-barcode-scan",
+        "duration": 4500,
+        "delay": 1080,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "dv-dot-flash",
+        "duration": 11000,
+        "delay": 841.0200000000001,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-fill-on",
+        "duration": 2400,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "dv-star-stretch",
+        "duration": 2750,
+        "delay": -250,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "dv-dot-flash",
+        "duration": 11000,
+        "delay": 1905.7400000000002,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-cell-flicker",
+        "duration": 3770,
+        "delay": -1250,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-cell-flicker",
+        "duration": 3440,
+        "delay": -90,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-cell-flicker",
+        "duration": 3820,
+        "delay": -3710,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "footer-cell-flicker",
+        "duration": 2580,
+        "delay": -2220,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "dv-dot-flash",
+        "duration": 11000,
+        "delay": 1545.0400000000002,
+        "iterations": null,
+        "easing": "linear"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0702000A4090000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&amp;family=Noto+Serif+JP:wght@200..900&amp;display=swap was preloaded using link preload but not used within a few seco"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0D02000A4090000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&amp;family=Noto+Serif+JP:wght@200..900&amp;display=swap was preloaded using link preload but not used within a few seco"
+      }
+    ],
+    "exceptions": [],
+    "failed": [],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  }
+}

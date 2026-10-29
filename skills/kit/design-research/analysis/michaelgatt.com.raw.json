@@ -1,0 +1,2036 @@
+{
+  "url": "https://michaelgatt.com/",
+  "at": "2026-10-10T10:05:51.754Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 18138,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 83,
+      "typography": {
+        "families": [
+          [
+            "Zapf-Humanist-Demi",
+            15
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            15
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            15
+          ]
+        ],
+        "sizeMin": 10.4895,
+        "sizeMedian": 13.5,
+        "sizeMax": 17.9995,
+        "sizeMaxVw": 1.2,
+        "scaleRatio": 1.3,
+        "letterSpacingMean": 0.257,
+        "loadedFonts": [
+          {
+            "family": "Zapf-Humanist-Demi",
+            "weight": "400",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 15
+      },
+      "color": {
+        "background": "rgb(0, 0, 0)",
+        "backgroundLuminance": 0,
+        "backgrounds": [
+          [
+            "rgb(0, 0, 0)",
+            3888
+          ]
+        ],
+        "texts": [
+          [
+            "rgba(255, 255, 255, 0.8)",
+            28
+          ],
+          [
+            "rgb(0, 0, 0)",
+            10
+          ],
+          [
+            "rgba(255, 255, 255, 0.6)",
+            10
+          ],
+          [
+            "rgb(197, 197, 197)",
+            1
+          ],
+          [
+            "rgb(150, 157, 160)",
+            1
+          ]
+        ],
+        "meanSaturation": 0,
+        "rootVars": {
+          "--zapf-bumanist-font": "\"Zapf-Humanist-Demi\",sans-serif"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 0,
+        "sticky": 0,
+        "fixed": 8,
+        "grid": 0,
+        "flex": 8,
+        "absolute": 4,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 900,
+        "pages": 1,
+        "spacing": [
+          [
+            54,
+            2
+          ],
+          [
+            162,
+            1
+          ],
+          [
+            20,
+            1
+          ],
+          [
+            10,
+            1
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 0,
+        "animationKinds": [],
+        "infiniteAnimations": 0,
+        "animationDurations": [],
+        "easings": [],
+        "transitionDurationsMs": [
+          [
+            500,
+            5
+          ]
+        ],
+        "keyframes": [
+          "spin-d7aabb08"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 1,
+      "media": {
+        "canvases": [
+          {
+            "w": 1440,
+            "h": 900,
+            "area": 1
+          }
+        ],
+        "videos": [],
+        "svg": 1,
+        "images": 0,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl": 1,
+          "webgl2": 1
+        },
+        "raf": 55,
+        "io": 0,
+        "ro": 0,
+        "mo": 3,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": true,
+        "reactRoot": false,
+        "vue": true,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Michael Gatt | Music Composer for Film and Television",
+      "lang": "en",
+      "description": "Welcome to Michael Gatt’s universe of Film + TV shows and games music composing"
+    },
+    "featuresBeforeScroll": {
+      "elements": 83,
+      "canvases": 1,
+      "animations": 0,
+      "hidden": 1
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 3,
+      "changed": 0
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 12704936,
+        "layoutCount": 3,
+        "recalcStyleCount": 78,
+        "scriptDuration": 0.877054,
+        "taskDuration": 16.638964,
+        "nodes": 653
+      },
+      "timing": {
+        "domContentLoaded": 903,
+        "load": 929,
+        "first-paint": 792,
+        "first-contentful-paint": 792
+      }
+    },
+    "network": [
+      {
+        "url": "https://michaelgatt.com/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 38316
+      },
+      {
+        "url": "https://michaelgatt.com/fonts/ZapfHumanist601BT-Demi.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 14159
+      },
+      {
+        "url": "https://michaelgatt.com/_nuxt/CaSYcmUf.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 316779
+      },
+      {
+        "url": "https://michaelgatt.com/_nuxt/CF9_wVRK.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1515
+      },
+      {
+        "url": "https://michaelgatt.com/_nuxt/wKKPcexC.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1396
+      },
+      {
+        "url": "https://michaelgatt.com/_nuxt/8g-mfkfw.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 923
+      },
+      {
+        "url": "https://michaelgatt.com/_nuxt/BAXAk3GA.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 757
+      },
+      {
+        "url": "https://michaelgatt.com/_nuxt/Do6HYGii.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 543
+      },
+      {
+        "url": "https://michaelgatt.com/_nuxt/BEz0ujFT.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 470
+      },
+      {
+        "url": "https://michaelgatt.com/_nuxt/C7TXf3_h.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1011
+      },
+      {
+        "url": "https://michaelgatt.com/_nuxt/BC1OLpcG.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 773
+      },
+      {
+        "url": "https://michaelgatt.com/_nuxt/CfNTuO-T.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1261
+      },
+      {
+        "url": "https://michaelgatt.com/_nuxt/CkMTG8Pg.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 30456
+      },
+      {
+        "url": "https://michaelgatt.com/_nuxt/waaDYwBy.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1120
+      },
+      {
+        "url": "https://michaelgatt.com/_nuxt/CdzeacQn.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 732
+      },
+      {
+        "url": "https://michaelgatt.com/_nuxt/BXV2wtrx.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 686
+      },
+      {
+        "url": "https://michaelgatt.com/_nuxt/D0CTZJX0.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 995
+      },
+      {
+        "url": "https://michaelgatt.com/_nuxt/BzTUYzf6.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 575
+      },
+      {
+        "url": "https://michaelgatt.com/_nuxt/CV1Au_fV.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 790
+      },
+      {
+        "url": "https://michaelgatt.com/_nuxt/20FGYwto.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1898
+      },
+      {
+        "url": "https://michaelgatt.com/_nuxt/ixDO7B1o.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1663
+      },
+      {
+        "url": "https://michaelgatt.com/_nuxt/CpgSP_Wf.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 4957
+      },
+      {
+        "url": "https://michaelgatt.com/_nuxt/BY20naOw.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 2377
+      },
+      {
+        "url": "https://michaelgatt.com/_nuxt/47pVCtBX.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 4091
+      },
+      {
+        "url": "https://michaelgatt.com/_nuxt/D0mNnXIv.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 509
+      },
+      {
+        "url": "https://michaelgatt.com/_nuxt/CmTckwc_.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 419
+      },
+      {
+        "url": "https://michaelgatt.com/_nuxt/B37CogqF.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1153
+      },
+      {
+        "url": "https://michaelgatt.com/_nuxt/CKwYrTZF.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1008
+      },
+      {
+        "url": "https://michaelgatt.com/_nuxt/B3biepgB.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 382
+      },
+      {
+        "url": "https://michaelgatt.com/_nuxt/DOE9FA5C.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1293
+      },
+      {
+        "url": "https://michaelgatt.com/_nuxt/CCLVwkzp.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 982
+      },
+      {
+        "url": "https://michaelgatt.com/_nuxt/BokILspW.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 919
+      },
+      {
+        "url": "https://michaelgatt.com/_nuxt/Z-W1fz4o.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 967
+      },
+      {
+        "url": "https://michaelgatt.com/_nuxt/D1N2lvRd.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 874
+      },
+      {
+        "url": "https://michaelgatt.com/_nuxt/i-A8Z_ub.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 530
+      },
+      {
+        "url": "https://michaelgatt.com/_nuxt/CvHTAXRX.js",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 924
+      },
+      {
+        "url": "https://michaelgatt.com/_nuxt/Pjzheo4l.js",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 500
+      },
+      {
+        "url": "https://michaelgatt.com/_nuxt/BKjBE4Rt.js",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 972
+      },
+      {
+        "url": "https://michaelgatt.com/_nuxt/CYtiSaOr.js",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 555102
+      },
+      {
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 10438
+      },
+      {
+        "url": "https://michaelgatt.com/_nuxt/Cursor.CHx6IGOR.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 611
+      },
+      {
+        "url": "https://michaelgatt.com/_nuxt/Plus.BjMTzWDM.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 969
+      },
+      {
+        "url": "https://michaelgatt.com/cdn-cgi/rum?",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 454
+      },
+      {
+        "url": "https://michaelgatt.com/cdn-cgi/rum?",
+        "method": "POST",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 451
+      },
+      {
+        "url": "https://michaelgatt.com/cdn-cgi/rum?",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 456
+      },
+      {
+        "url": "https://michaelgatt.com/_nuxt/builds/meta/75ee3c49-22da-4b43-8d12-9bf1bdc264a8.json",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 627
+      },
+      {
+        "url": "https://michaelgatt.com/cdn-cgi/rum?",
+        "method": "POST",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 450
+      },
+      {
+        "url": "https://michaelgatt.com/cdn-cgi/rum?",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 451
+      },
+      {
+        "url": "https://michaelgatt.com/_nuxt/Hamburger.BDjJC73M.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 919
+      },
+      {
+        "url": "https://michaelgatt.com/_nuxt/Header.Crcqn1ot.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 785
+      },
+      {
+        "url": "https://michaelgatt.com/_nuxt/index.CvCVu1XU.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 671
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/ZzcVoq8jQArT051s_Maskgroup.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 12121
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/ZzcWka8jQArT052P_Maskgroup-1-.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 16816
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/ZzcXHa8jQArT052a_Maskgroup-2-.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 4048
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/ZzcXga8jQArT0520_Maskgroup-4-.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 9276
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/ZzcX468jQArT052__Maskgroup-5-.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 17797
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/ZzcY6a8jQArT053__Maskgroup-6-.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 7755
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/ZzcZoa8jQArT0547_Maskgroup-7-.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 20670
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Z6TLdpbqstJ9-Tje_Image9.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 13677
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Zzcag68jQArT056O_Maskgroup.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 6226
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Zzca5a8jQArT056b_Maskgroup-1-.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 14552
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/ZzcbU68jQArT0563_Maskgroup-2-.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 16831
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Zzcbs68jQArT057H_Maskgroup.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 7135
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/ZzccC68jQArT057q_Maskgroup-1-.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 7163
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/ZzccW68jQArT0573_Maskgroup.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 3802
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Z6SbqZbqstJ9-Sw9_Image2.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 5836
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/ZzcdLq8jQArT0588_Maskgroup.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 8442
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Z6SY3pbqstJ9-Stg_Maskgroup.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 12182
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Z6SaDpbqstJ9-Svl_Image1.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 12647
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Zzdhi68jQArT0645_Maskgroup-5-.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 6561
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Z6SoUJbqstJ9-S3z_Image6.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 7494
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Zzdhja8jQArT0647_Maskgroup-1-.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 19123
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Zzdhiq8jQArT0644_Maskgroup-4-.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 16716
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Zzdi3q8jQArT066L_Maskgroup-6-.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 5821
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Zzdhia8jQArT0643_Maskgroup-3-.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 13436
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Zzdhia8jQArT0642_Maskgroup-2-.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 11246
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Zzdr-a8jQArT07Df_Maskgroup-6.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 9598
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Zzdr-K8jQArT07De_Maskgroup-5.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 11679
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Zzdr-q8jQArT07Dg_Maskgroup-7.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 7163
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Zzdr-68jQArT07Dh_Maskgroup.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 6034
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Zzdr9q8jQArT07Dc_Maskgroup-3.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 6556
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Zzdr_K8jQArT07Di_Maskgroup-1.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 11017
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/ZzduvK8jQArT07Fv_Maskgroup-3.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 6983
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/ZzdvKa8jQArT07GF_Maskgroup-1-.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 8308
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Zzduu68jQArT07Fu_Maskgroup-2.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 24804
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Zzduvq8jQArT07Fx_Maskgroup-5.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 5779
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Zzduuq8jQArT07Ft_Maskgroup-1.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 12229
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/ZzduwK8jQArT07Fz_Maskgroup-7.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 13566
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Zzduua8jQArT07Fr_Maskg234roup-1-.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 23155
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Zzduwa8jQArT07F0_Maskgroup.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 9023
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Zzduva8jQArT07Fw_Maskgroup-4.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 5555
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Zzduv68jQArT07Fy_Maskgroup-6.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 3874
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/ZzdxyK8jQArT07Hy_Maskgroup.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 17395
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Zzdxx68jQArT07Hx_Maskgroup-10.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 13715
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Zzdxxq8jQArT07Hw_Maskgroup-9.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 9597
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Zzdxya8jQArT07Hz_Maskgroup-1.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 5331
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Zzdxy68jQArT07H1_Maskgroup-3.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2538
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Zzdxzq8jQArT07H4_Maskgroup-6.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 10074
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Zzdxz68jQArT07H5_Maskgroup-7.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 10611
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Zzdxyq8jQArT07H0_Maskgroup-2.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 4440
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Zzdxza8jQArT07H3_Maskgroup-5.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 4617
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Zzdx0K8jQArT07H6_Maskgroup-8.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 14410
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Zzd0G68jQArT07JM_Maskgroup-4.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 6463
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Zzd0HK8jQArT07JN_Maskgroup-5.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 7254
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Zzd0F68jQArT07JI_Maskgrou2p.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 4688
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Z6SucpbqstJ9-S-C_Image8.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 9727
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Zzd0GK8jQArT07JJ_Maskgroup-1.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 5712
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Z6SndJbqstJ9-S3h_Image5.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 13105
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Zzd2ia8jQArT07KX_Maskgroup-1.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 9179
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Zzd2iK8jQArT07KW_Maskgroup.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 36247
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Zzd2jK8jQArT07Ka_Maskgroup-4.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 5181
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Zzd2i68jQArT07KZ_Maskgroup-3.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 12552
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Zzd2j68jQArT07Kd_Maskgroup-7.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 3475
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Zzd2ka8jQArT07Kf_Maskgroup-9.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 8660
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Zzd2ja8jQArT07Kb_Maskgroup-5.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 3820
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Zzd2kK8jQArT07Ke_Maskgroup-8.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 3491
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Zzd2iq8jQArT07KY_Maskgroup-2.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 25540
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Zzd2kq8jQArT07Kg_Maskgroup-10.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 12594
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Zzd2h68jQArT07KU_Maskgroup-11.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 5690
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Zzd2jq8jQArT07Kc_Maskgroup-6.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 9048
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Z6ScgZbqstJ9-SxZ_Image4.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 23673
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Zzd7Mq8jQArT07NW_Maskgroup-3.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 9733
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Zzd7La8jQArT07NQ_Maskgroup-7.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 6204
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Zzd7LK8jQArT07NP_Maskgroup-6.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 8655
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Zzd7M68jQArT07NX_Maskgroup-4.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 20504
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Zzd7Lq8jQArT07NR_Maskgroup-8.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 5302
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Zzd7K68jQArT07NO_Maskgroup-5.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 35326
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Z6Spc5bqstJ9-S4V_Image7.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 6838
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Z6ScB5bqstJ9-SxN_Image3.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 11860
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Zzd9vq8jQArT07PC_Maskgroup-5.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 8511
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Zzd9uq8jQArT07O9_Maskgroup-1.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 9236
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Zzd9ta8jQArT07O3_Maskgroup-6.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 9951
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Zzd9ta8jQArT07O4_Maskgroup-7.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 10142
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Zzd9u68jQArT07O__Maskgroup-2.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 13011
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Zzd9t68jQArT07O6_Maskgroup-9.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 15342
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Zzd9uK8jQArT07O7_Maskgroup.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 13114
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Zzd9tq8jQArT07O5_Maskgroup-8.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 8818
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Zzd9vK8jQArT07PA_Maskgroup-3.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 6632
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Zzd9va8jQArT07PB_Maskgroup-4.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 12163
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Zzd9ua8jQArT07O8_Maskgroup-1-.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 5473
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Z6N4rpbqstJ9-Qd9_DnD-Album-News-FI-scaled.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 211342
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Z5oXoZbqstJ99_KL_DnD-Album-News-1.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 228037
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/Z5DVB5bqstJ99upA_Maskgroup-6-.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 9855
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/ZzBqu68jQArT0qMF_Tiamat.JPG?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 94223
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-7PQLZVDF62",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 180633
+      },
+      {
+        "url": "https://michael-gatt-website.cachely.io/michael-gatt-website/abAsGlxvIZEnjiFA_mIchael-gatt_into-the-void.mp3",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "audio/mpeg",
+        "fromCache": false
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-7PQLZVDF62&gtm=45je6a72v9206291711za208zd9206291711xf1&_p=1791626730190&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1828727011.1791626732&frm=0&ngs=1&pscdl=noapi&rcb=12&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=1&tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791626731&sct=1&seg=0&dl=https%3A%2F%2Fmichaelgatt.com%2F&dt=Michael%20Gatt%20%7C%20Music%20Composer%20for%20Film%20and%20Television&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=2516",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-7PQLZVDF62&gtm=45je6a72v9206291711za200zd9206291711xf1&_p=1791626730190&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAAQ&ae=a&are=1&cid=1828727011.1791626732&frm=0&ngs=1&pscdl=noapi&rcb=12&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=2&tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791626731&sct=1&seg=0&dl=https%3A%2F%2Fmichaelgatt.com%2F&dt=Michael%20Gatt%20%7C%20Music%20Composer%20for%20Film%20and%20Television&en=scroll&epn.percent_scrolled=90&_et=975&tfd=8727",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "spin-d7aabb08",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0A020006C020000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x7c0013d600]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x7c0013d600]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x7c0013d600]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x7c0013d600]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-7PQLZVDF62&gtm=45je6a72v9206291711za208zd9206291711xf1&_p=1791626730190&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1828727011.1791626732&frm=0&ngs=1&pscdl=noapi&rcb=12&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=1&tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791626731&sct=1&seg=0&dl=https%3A%2F%2Fmichaelgatt.com%2F&dt=Michael%20Gatt%20%7C%20Music%20Composer%20for%20Film%20and%20Television&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=2516",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-7PQLZVDF62&gtm=45je6a72v9206291711za200zd9206291711xf1&_p=1791626730190&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAAQ&ae=a&are=1&cid=1828727011.1791626732&frm=0&ngs=1&pscdl=noapi&rcb=12&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=2&tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791626731&sct=1&seg=0&dl=https%3A%2F%2Fmichaelgatt.com%2F&dt=Michael%20Gatt%20%7C%20Music%20Composer%20for%20Film%20and%20Television&en=scroll&epn.percent_scrolled=90&_et=975&tfd=8727",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 4157,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 76,
+      "typography": {
+        "families": [
+          [
+            "Zapf-Humanist-Demi",
+            8
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            8
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            8
+          ]
+        ],
+        "sizeMin": 14.6235,
+        "sizeMedian": 14.6235,
+        "sizeMax": 14.6235,
+        "sizeMaxVw": 3.7,
+        "scaleRatio": 1,
+        "letterSpacingMean": 0.175,
+        "loadedFonts": [
+          {
+            "family": "Zapf-Humanist-Demi",
+            "weight": "400",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 8
+      },
+      "color": {
+        "background": "rgb(0, 0, 0)",
+        "backgroundLuminance": 0,
+        "backgrounds": [
+          [
+            "rgb(0, 0, 0)",
+            987
+          ]
+        ],
+        "texts": [
+          [
+            "rgba(255, 255, 255, 0.8)",
+            28
+          ],
+          [
+            "rgb(0, 0, 0)",
+            10
+          ],
+          [
+            "rgb(197, 197, 197)",
+            1
+          ]
+        ],
+        "meanSaturation": 0,
+        "rootVars": {
+          "--zapf-bumanist-font": "\"Zapf-Humanist-Demi\",sans-serif"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 0,
+        "sticky": 0,
+        "fixed": 7,
+        "grid": 0,
+        "flex": 8,
+        "absolute": 6,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 844,
+        "pages": 1,
+        "spacing": [
+          [
+            27,
+            2
+          ],
+          [
+            11,
+            1
+          ],
+          [
+            263,
+            1
+          ],
+          [
+            33,
+            1
+          ],
+          [
+            16,
+            1
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 0,
+        "animationKinds": [],
+        "infiniteAnimations": 0,
+        "animationDurations": [],
+        "easings": [],
+        "transitionDurationsMs": [
+          [
+            500,
+            7
+          ],
+          [
+            300,
+            1
+          ]
+        ],
+        "keyframes": [
+          "spin-d7aabb08"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 1,
+      "media": {
+        "canvases": [
+          {
+            "w": 390,
+            "h": 844,
+            "area": 1
+          }
+        ],
+        "videos": [],
+        "svg": 1,
+        "images": 0,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl": 1,
+          "webgl2": 1
+        },
+        "raf": 70,
+        "io": 0,
+        "ro": 0,
+        "mo": 3,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": true,
+        "reactRoot": false,
+        "vue": true,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Michael Gatt | Music Composer for Film and Television",
+      "lang": "en",
+      "description": "Welcome to Michael Gatt’s universe of Film + TV shows and games music composing"
+    },
+    "featuresBeforeScroll": {
+      "elements": 76,
+      "canvases": 1,
+      "animations": 0,
+      "hidden": 1
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 12096872,
+        "layoutCount": 7,
+        "recalcStyleCount": 83,
+        "scriptDuration": 0.514238,
+        "taskDuration": 3.055491,
+        "nodes": 645
+      },
+      "timing": {
+        "domContentLoaded": 621,
+        "load": 633,
+        "first-paint": 460,
+        "first-contentful-paint": 460
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "spin-d7aabb08",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0A020006C020000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A07020006C020000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-7PQLZVDF62&gtm=45je6a72v9206291711za208zd9206291711xf1&_p=1791626748252&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=773118892.1791626749&frm=0&ngs=1&pscdl=noapi&rcb=17&sr=390x844&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=1&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=1&tag_exp=115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791626749&sct=1&seg=0&dl=https%3A%2F%2Fmichaelgatt.com%2F&dt=Michael%20Gatt%20%7C%20Music%20Composer%20for%20Film%20and%20Television&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1642",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  }
+}

@@ -1,0 +1,555 @@
+{
+  "url": "https://santionispirits.com/",
+  "at": "2026-10-09T07:56:51.567Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 2674,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 28,
+      "typography": {
+        "families": [
+          [
+            "Charles Rosie Regular",
+            1
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            1
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            1
+          ]
+        ],
+        "sizeMin": 32,
+        "sizeMedian": 32,
+        "sizeMax": 32,
+        "sizeMaxVw": 2.2,
+        "scaleRatio": 1,
+        "letterSpacingMean": 0.005,
+        "loadedFonts": [
+          {
+            "family": "Charles Rosie Regular",
+            "weight": "400",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 1
+      },
+      "color": {
+        "background": "rgb(18, 18, 18)",
+        "backgroundLuminance": 0.006048833022857054,
+        "backgrounds": [],
+        "texts": [
+          [
+            "rgb(255, 255, 255)",
+            22
+          ]
+        ],
+        "meanSaturation": 0,
+        "rootVars": {}
+      },
+      "layout": {
+        "fullscreenSections": 0,
+        "sticky": 0,
+        "fixed": 0,
+        "grid": 0,
+        "flex": 0,
+        "absolute": 0,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 900,
+        "pages": 1,
+        "spacing": [
+          [
+            21,
+            1
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 0,
+        "animationKinds": [],
+        "infiniteAnimations": 0,
+        "animationDurations": [],
+        "easings": [],
+        "transitionDurationsMs": [],
+        "keyframes": [],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 0,
+      "media": {
+        "canvases": [],
+        "videos": [],
+        "svg": 1,
+        "images": 0,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {},
+        "raf": 0,
+        "io": 0,
+        "ro": 0,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Not Supported",
+      "lang": "en",
+      "description": ""
+    },
+    "featuresBeforeScroll": {
+      "elements": 28,
+      "canvases": 0,
+      "animations": 0,
+      "hidden": 0
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 8707084,
+        "layoutCount": 5,
+        "recalcStyleCount": 6,
+        "scriptDuration": 0.099301,
+        "taskDuration": 0.171959,
+        "nodes": 179
+      },
+      "timing": {
+        "domContentLoaded": 74,
+        "load": 79,
+        "first-paint": 80,
+        "first-contentful-paint": 80
+      }
+    },
+    "network": [
+      {
+        "url": "https://santionispirits.com/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 6821
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-L7LC5PPCFS",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 180633
+      },
+      {
+        "url": "https://santionispirits.com/assets/js/app.1782836328290.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 377387
+      },
+      {
+        "url": "https://santionispirits.com/assets/js/hydra/hydra-thread.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "https://santionispirits.com/assets/js/hydra/hydra-thread.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "https://santionispirits.com/assets/js/hydra/hydra-thread.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "https://santionispirits.com/assets/js/hydra/hydra-thread.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "https://santionispirits.com/assets/data/vo/all_timestamps.json",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 5784
+      },
+      {
+        "url": "data:image/webp;base64,UklGRhoAAABXRUJQVlA4TA0AAAAvAAAAEAcQERGIiP4HAA==",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/avif;base64,AAAAIGZ0eXBhdmlmAAAAAGF2aWZtaWYxbWlhZk1BMUIAAADybWV0YQAAAAAAAAAoaGRscgAAAAAAAAAAcGljdAAAAAAAAAAAAAAAAGxpYmF2aWYAAAAADnBpdG0AAAAAAAEAAAAeaWxvYwAAAABEAAABAAEAAAABAAABGgAAAB0AAAAoaWluZgAAAAAAAQAAABppbmZlAgAAAAABAABhdjAxQ29sb3IAAAAAamlwcnAAAABLaXBjbwAAABRpc3BlAAAAAAAAAAIAAAACAAAAEHBpeGkAAAAAAwgICAAAAAxhdjFDgQ0MAAAAABNjb2xybmNseAACAAIAAYAAAAAXaXBtYQAAAAAAAAABAAEEAQKDBAAAACVtZGF0EgAKCBgANogQEAwgMg8f8D///8WfhwB8+ErK42A=",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://santionispirits.com/unsupported",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 18437
+      },
+      {
+        "url": "https://santionispirits.com/assets/data/uil.1782836328290.json",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 23293
+      },
+      {
+        "url": "https://us-central1-at-services.cloudfunctions.net/geo",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script"
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-L7LC5PPCFS&gtm=45je6a72v9242873087za208zd9242873087xf1&_p=1791532606464&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=632805019.1791532607&frm=0&ngs=1&pscdl=noapi&rcb=10&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=1&tag_exp=115616985~115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791532606&sct=1&seg=0&dl=https%3A%2F%2Fsantionispirits.com%2F&dt=Santioni%20Spirits%20%7C%20Cocktails%20to%20Indulge%20Now%2C%20Atone%20Later&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=302",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script"
+      },
+      {
+        "url": "https://www.google.com/g/collect?v=2&tid=G-L7LC5PPCFS&gtm=45je6a72v9242873087za208zd9242873087xf1&_p=1791532606464&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=632805019.1791532607&frm=0&ngs=1&pscdl=noapi&rcb=10&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=1&tag_exp=115616985~115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791532606&sct=1&seg=0&dl=https%3A%2F%2Fsantionispirits.com%2F&dt=Santioni%20Spirits%20%7C%20Cocktails%20to%20Indulge%20Now%2C%20Atone%20Later&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=302&gaf=1",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script"
+      },
+      {
+        "url": "https://santionispirits.com/assets/fonts/CharlesRosie.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 32298
+      }
+    ],
+    "animationsReported": [],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0702000B4180000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-L7LC5PPCFS&gtm=45je6a72v9242873087za208zd9242873087xf1&_p=1791532606464&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=632805019.1791532607&frm=0&ngs=1&pscdl=noapi&rcb=10&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=1&tag_exp=115616985~115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791532606&sct=1&seg=0&dl=https%3A%2F%2Fsantionispirits.com%2F&dt=Santioni%20Spirits%20%7C%20Cocktails%20to%20Indulge%20Now%2C%20Atone%20Later&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=302",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://us-central1-at-services.cloudfunctions.net/geo",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 2524,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 28,
+      "typography": {
+        "families": [
+          [
+            "Charles Rosie Regular",
+            1
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            1
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            1
+          ]
+        ],
+        "sizeMin": 32,
+        "sizeMedian": 32,
+        "sizeMax": 32,
+        "sizeMaxVw": 8.2,
+        "scaleRatio": 1,
+        "letterSpacingMean": 0.005,
+        "loadedFonts": [
+          {
+            "family": "Charles Rosie Regular",
+            "weight": "400",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 1
+      },
+      "color": {
+        "background": "rgb(18, 18, 18)",
+        "backgroundLuminance": 0.006048833022857054,
+        "backgrounds": [],
+        "texts": [
+          [
+            "rgb(255, 255, 255)",
+            22
+          ]
+        ],
+        "meanSaturation": 0,
+        "rootVars": {}
+      },
+      "layout": {
+        "fullscreenSections": 0,
+        "sticky": 0,
+        "fixed": 0,
+        "grid": 0,
+        "flex": 0,
+        "absolute": 0,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 844,
+        "pages": 1,
+        "spacing": [
+          [
+            21,
+            1
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 0,
+        "animationKinds": [],
+        "infiniteAnimations": 0,
+        "animationDurations": [],
+        "easings": [],
+        "transitionDurationsMs": [],
+        "keyframes": [],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 0,
+      "media": {
+        "canvases": [],
+        "videos": [],
+        "svg": 1,
+        "images": 0,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {},
+        "raf": 0,
+        "io": 0,
+        "ro": 0,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Not Supported",
+      "lang": "en",
+      "description": ""
+    },
+    "featuresBeforeScroll": {
+      "elements": 28,
+      "canvases": 0,
+      "animations": 0,
+      "hidden": 0
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 8179428,
+        "layoutCount": 4,
+        "recalcStyleCount": 6,
+        "scriptDuration": 0.093583,
+        "taskDuration": 0.153445,
+        "nodes": 179
+      },
+      "timing": {
+        "domContentLoaded": 62,
+        "load": 71,
+        "first-paint": 80,
+        "first-contentful-paint": 80
+      }
+    },
+    "animationsReported": [],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0702000B4180000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-L7LC5PPCFS&gtm=45je6a72v9242873087za208zd9242873087xf1&_p=1791532609062&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1591244835.1791532609&frm=0&ngs=1&pscdl=noapi&rcb=0&sr=390x844&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=1&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=1&tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791532609&sct=1&seg=0&dl=https%3A%2F%2Fsantionispirits.com%2F&dt=Santioni%20Spirits%20%7C%20Cocktails%20to%20Indulge%20Now%2C%20Atone%20Later&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=187",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://us-central1-at-services.cloudfunctions.net/geo",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  }
+}

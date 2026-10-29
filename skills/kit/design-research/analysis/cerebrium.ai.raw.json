@@ -1,0 +1,3032 @@
+{
+  "url": "https://cerebrium.ai/",
+  "at": "2026-10-09T08:18:22.870Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 77833,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 4123,
+      "typography": {
+        "families": [
+          [
+            "Suisse Intl",
+            85
+          ],
+          [
+            "Suisse Intl Mono",
+            72
+          ],
+          [
+            "ABC Favorit Trial",
+            26
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            133
+          ],
+          [
+            "300",
+            28
+          ],
+          [
+            "500",
+            22
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            56
+          ]
+        ],
+        "sizeMin": 13,
+        "sizeMedian": 16,
+        "sizeMax": 86.0864,
+        "sizeMaxVw": 6,
+        "scaleRatio": 5.4,
+        "letterSpacingMean": -0.019,
+        "loadedFonts": [
+          {
+            "family": "Suisse Intl Mono",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Suisse Intl",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "ABC Favorit Trial",
+            "weight": "300",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 183
+      },
+      "color": {
+        "background": "rgb(16, 20, 33)",
+        "backgroundLuminance": 0.007202762558183643,
+        "backgrounds": [
+          [
+            "rgb(255, 255, 255)",
+            3915
+          ],
+          [
+            "rgb(16, 20, 33)",
+            391
+          ],
+          [
+            "rgb(219, 229, 237)",
+            381
+          ],
+          [
+            "rgba(34, 39, 62, 0.45)",
+            24
+          ],
+          [
+            "rgb(238, 242, 245)",
+            18
+          ],
+          [
+            "rgb(255, 72, 139)",
+            11
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(23, 43, 118)",
+            644
+          ],
+          [
+            "rgb(255, 255, 255)",
+            266
+          ],
+          [
+            "rgba(0, 0, 0, 0)",
+            7
+          ],
+          [
+            "rgb(16, 20, 33)",
+            4
+          ],
+          [
+            "rgb(198, 206, 224)",
+            4
+          ]
+        ],
+        "meanSaturation": 0.3,
+        "rootVars": {
+          "--cc-font-family": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\"",
+          "--cc-modal-border-radius": ".5rem",
+          "--cc-btn-border-radius": ".4rem",
+          "--cc-modal-transition-duration": ".25s",
+          "--cc-link-color": "var(--cc-btn-primary-bg)",
+          "--cc-modal-margin": "1rem",
+          "--cc-z-index": "2147480000",
+          "--cc-bg": "#fff",
+          "--cc-primary-color": "#2c2f31",
+          "--cc-secondary-color": "#5e6266",
+          "--cc-btn-primary-bg": "#30363c",
+          "--cc-btn-primary-color": "#fff",
+          "--cc-btn-primary-border-color": "var(--cc-btn-primary-bg)",
+          "--cc-btn-primary-hover-bg": "#000",
+          "--cc-btn-primary-hover-color": "#fff",
+          "--cc-btn-primary-hover-border-color": "var(--cc-btn-primary-hover-bg)",
+          "--cc-btn-secondary-bg": "#eaeff2",
+          "--cc-btn-secondary-color": "var(--cc-primary-color)",
+          "--cc-btn-secondary-border-color": "var(--cc-btn-secondary-bg)",
+          "--cc-btn-secondary-hover-bg": "#d4dae0",
+          "--cc-btn-secondary-hover-color": "#000",
+          "--cc-btn-secondary-hover-border-color": "#d4dae0",
+          "--cc-separator-border-color": "#f0f4f7",
+          "--cc-toggle-on-bg": "var(--cc-btn-primary-bg)",
+          "--cc-toggle-off-bg": "#667481",
+          "--cc-toggle-on-knob-bg": "#fff",
+          "--cc-toggle-off-knob-bg": "var(--cc-toggle-on-knob-bg)",
+          "--cc-toggle-enabled-icon-color": "var(--cc-bg)",
+          "--cc-toggle-disabled-icon-color": "var(--cc-bg)",
+          "--cc-toggle-readonly-bg": "#d5dee2",
+          "--cc-toggle-readonly-knob-bg": "#fff",
+          "--cc-toggle-readonly-knob-icon-color": "var(--cc-toggle-readonly-bg)",
+          "--cc-section-category-border": "var(--cc-cookie-category-block-bg)",
+          "--cc-cookie-category-block-bg": "#f0f4f7",
+          "--cc-cookie-category-block-border": "#f0f4f7",
+          "--cc-cookie-category-block-hover-bg": "#e9eff4",
+          "--cc-cookie-category-block-hover-border": "#e9eff4",
+          "--cc-cookie-category-expanded-block-bg": "transparent",
+          "--cc-cookie-category-expanded-block-hover-bg": "#dee4e9",
+          "--cc-overlay-bg": "#000000a6"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 6,
+        "sticky": 2,
+        "fixed": 5,
+        "grid": 20,
+        "flex": 347,
+        "absolute": 200,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 10843,
+        "pages": 12,
+        "spacing": [
+          [
+            8,
+            89
+          ],
+          [
+            16,
+            69
+          ],
+          [
+            20,
+            54
+          ],
+          [
+            10,
+            32
+          ],
+          [
+            6,
+            21
+          ],
+          [
+            14,
+            20
+          ],
+          [
+            24,
+            16
+          ],
+          [
+            2,
+            15
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 5,
+        "animationKinds": [
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 4,
+        "animationDurations": [
+          300,
+          1000,
+          1000,
+          1000,
+          1000
+        ],
+        "easings": [
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            200,
+            141
+          ],
+          [
+            300,
+            17
+          ],
+          [
+            250,
+            7
+          ],
+          [
+            350,
+            4
+          ],
+          [
+            800,
+            4
+          ]
+        ],
+        "keyframes": [
+          "fade-slide-in",
+          "initial-loader-logo-bar",
+          "initial-loader-logo-bar-middle",
+          "overlay-anim-in",
+          "overlay-anim-out",
+          "swiper-preloader-spin",
+          "fadeIn",
+          "fadeOut",
+          "slideFromBottom",
+          "slideToBottom",
+          "slideFromTop",
+          "slideToTop",
+          "slideFromLeft",
+          "slideToLeft",
+          "slideFromRight",
+          "slideToRight"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": true
+      },
+      "hiddenElements": 59,
+      "media": {
+        "canvases": [
+          {
+            "w": 1440,
+            "h": 900,
+            "area": 1
+          }
+        ],
+        "videos": [],
+        "svg": 91,
+        "images": 49,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 1,
+          "2d": 2
+        },
+        "raf": 536,
+        "io": 5,
+        "ro": 7,
+        "mo": 8,
+        "startViewTransition": 0,
+        "workers": 4,
+        "wasm": 1
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": true,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Serverless GPU Infrastructure for Real-Time AI | Cerebrium",
+      "lang": "en",
+      "description": "Deploy voice agents, video models, and LLMs on serverless GPUs with sub-second cold starts. Pay-per-second pricing. No Kubernetes."
+    },
+    "featuresBeforeScroll": {
+      "elements": 3823,
+      "canvases": 1,
+      "animations": 5,
+      "hidden": 66
+    },
+    "scrollReveal": 7,
+    "hover": {
+      "probed": 6,
+      "changed": 0
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 44199076,
+        "layoutCount": 291,
+        "recalcStyleCount": 744,
+        "scriptDuration": 1.797426,
+        "taskDuration": 75.873293,
+        "nodes": 10711
+      },
+      "timing": {
+        "domContentLoaded": 436,
+        "load": 1107,
+        "first-paint": 156,
+        "first-contentful-paint": 248
+      }
+    },
+    "network": [
+      {
+        "url": "https://cerebrium.ai/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 69998
+      },
+      {
+        "url": "https://cerebrium.ai/_astro/BackgroundCanvas.astro_astro_type_script_index_0_lang.D3Lp_Wou.js?dpl=dpl_5LGKTCjUwJcpo3incRmCPofTrDpm",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1230
+      },
+      {
+        "url": "https://cerebrium.ai/_astro/Layout.astro_astro_type_script_index_0_lang.Uecdo5Qu.js?dpl=dpl_5LGKTCjUwJcpo3incRmCPofTrDpm",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 12059
+      },
+      {
+        "url": "https://cerebrium.ai/_astro/Header.astro_astro_type_script_index_0_lang.BtAjWJU9.js?dpl=dpl_5LGKTCjUwJcpo3incRmCPofTrDpm",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 915
+      },
+      {
+        "url": "https://cerebrium.ai/_astro/SplitTitle.astro_astro_type_script_index_0_lang.BbZ1CTCO.js?dpl=dpl_5LGKTCjUwJcpo3incRmCPofTrDpm",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1144
+      },
+      {
+        "url": "https://cerebrium.ai/_astro/Rail.astro_astro_type_script_index_0_lang.CZr9GlFT.js?dpl=dpl_5LGKTCjUwJcpo3incRmCPofTrDpm",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1058
+      },
+      {
+        "url": "https://cerebrium.ai/_astro/InteractiveDots.astro_astro_type_script_index_0_lang.Cz09iMZ4.js?dpl=dpl_5LGKTCjUwJcpo3incRmCPofTrDpm",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 996
+      },
+      {
+        "url": "https://www.datocms-assets.com/180613/1773100654-kfxaututz76z5w4ysaayng5fyk.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 724
+      },
+      {
+        "url": "https://www.datocms-assets.com/180613/1771778697-ldn95qhmpa4wa79jusfkwdlprxq.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1163
+      },
+      {
+        "url": "https://www.datocms-assets.com/180613/1773100498-oealam2lukr0xxgj3jgtklfe40.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 670
+      },
+      {
+        "url": "https://www.datocms-assets.com/180613/1773100462-we5ycglug4wymnioxhknqnxjra8.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1673
+      },
+      {
+        "url": "https://www.datocms-assets.com/180613/1774712378-telli.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 2401
+      },
+      {
+        "url": "https://www.datocms-assets.com/180613/1774712351-camb-ai.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 3789
+      },
+      {
+        "url": "https://www.datocms-assets.com/180613/1774712325-creatium.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 16344
+      },
+      {
+        "url": "https://www.datocms-assets.com/180613/1774712566-amira_learning_idpfiavvkf_1.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 911
+      },
+      {
+        "url": "https://www.datocms-assets.com/180613/1774712214-invofox.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 2301
+      },
+      {
+        "url": "https://www.datocms-assets.com/180613/1774712182-resemble-ai.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 97992
+      },
+      {
+        "url": "https://www.datocms-assets.com/180613/1771978258-s1j3uuhph042dyc5hcvmu9cjvf0.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 2927
+      },
+      {
+        "url": "https://www.datocms-assets.com/180613/1771978560-38opvavw2sdaylz4hfxdcgjh5ri.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 2605
+      },
+      {
+        "url": "https://cerebrium.ai/_astro/HeroHome.astro_astro_type_script_index_0_lang.BXXELPVp.js?dpl=dpl_5LGKTCjUwJcpo3incRmCPofTrDpm",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 923
+      },
+      {
+        "url": "https://cerebrium.ai/_astro/DatoImage.astro_astro_type_script_index_0_lang.D-dDcxY7.js?dpl=dpl_5LGKTCjUwJcpo3incRmCPofTrDpm",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 863
+      },
+      {
+        "url": "https://cerebrium.ai/_astro/SegmentedControls.astro_astro_type_script_index_0_lang.B8mFLyTV.js?dpl=dpl_5LGKTCjUwJcpo3incRmCPofTrDpm",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 975
+      },
+      {
+        "url": "https://cerebrium.ai/_astro/FeatureCardRangeChart.astro_astro_type_script_index_0_lang.DqfGEs_c.js?dpl=dpl_5LGKTCjUwJcpo3incRmCPofTrDpm",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 892
+      },
+      {
+        "url": "https://cerebrium.ai/_astro/FeatureCardWorldMapAnimation.astro_astro_type_script_index_0_lang.9Xz-3fuD.js?dpl=dpl_5LGKTCjUwJcpo3incRmCPofTrDpm",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1047
+      },
+      {
+        "url": "https://cerebrium.ai/_astro/FeatureCardTerminal.astro_astro_type_script_index_0_lang.TN8hVZ5i.js?dpl=dpl_5LGKTCjUwJcpo3incRmCPofTrDpm",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 949
+      },
+      {
+        "url": "https://cerebrium.ai/_astro/AnimatedChart.astro_astro_type_script_index_0_lang.Dx07ukeg.js?dpl=dpl_5LGKTCjUwJcpo3incRmCPofTrDpm",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 995
+      },
+      {
+        "url": "https://cerebrium.ai/_astro/FeatureCards.astro_astro_type_script_index_0_lang.KQojuyvT.js?dpl=dpl_5LGKTCjUwJcpo3incRmCPofTrDpm",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1019
+      },
+      {
+        "url": "https://www.datocms-assets.com/180613/1774447840-voice-agents.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 2215
+      },
+      {
+        "url": "https://www.datocms-assets.com/180613/1773099926-yjk1qnvd1y1godlhqidev3wlq.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1718
+      },
+      {
+        "url": "https://www.datocms-assets.com/180613/1775063477-phone-outgoing-bold.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 632
+      },
+      {
+        "url": "https://www.datocms-assets.com/180613/1775063477-google-podcasts-logo-bold.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 472
+      },
+      {
+        "url": "https://www.datocms-assets.com/180613/1773094796-open-ai.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 3218
+      },
+      {
+        "url": "https://www.datocms-assets.com/180613/1775089519-sgl-logo.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 15270
+      },
+      {
+        "url": "https://www.datocms-assets.com/180613/1772835742-nvidia.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1092
+      },
+      {
+        "url": "https://www.datocms-assets.com/180613/1775063477-chats-bold.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 438
+      },
+      {
+        "url": "https://www.datocms-assets.com/180613/1775064972-film-strip-bold.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 430
+      },
+      {
+        "url": "https://www.datocms-assets.com/180613/1775080532-vector-three-bold.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 426
+      },
+      {
+        "url": "https://www.datocms-assets.com/180613/1788895307-linkup.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 2991
+      },
+      {
+        "url": "https://cerebrium.ai/_astro/CarouselTile.astro_astro_type_script_index_0_lang.DW5EwKCf.js?dpl=dpl_5LGKTCjUwJcpo3incRmCPofTrDpm",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 929
+      },
+      {
+        "url": "https://www.datocms-assets.com/180613/1784215770-noun-search-engine-5876148.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1626
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-59Z6C5L9",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 133153
+      },
+      {
+        "url": "https://cerebrium.ai/fonts/SuisseIntl-Regular.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 62739
+      },
+      {
+        "url": "https://cerebrium.ai/fonts/SuisseIntlMono-Regular.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 14412
+      },
+      {
+        "url": "https://cerebrium.ai/fonts/ABCFavorit-Light.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 34094
+      },
+      {
+        "url": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHBwgHBgoICAgLCgoLDhYVGhcNFh0gFhcYHRMdGB0fGxUfJCslHSkoHSEWJDUlLS0vNTIyGS44PTcwPCsxMi8BCgsLDg0OHBAQHDslHyU7Oy81Ly8vLy81NS8vLy8vNS8vLy8vLy8vLy8vLy8vLzUvLy8vLy8vLy8vLy8vLy8vL//AABEIABgAGAMBIgACEQEDEQH/xAAZAAEAAgMAAAAAAAAAAAAAAAAABQcDBAb/xAAhEAABBQEAAAcAAAAAAAAAAAABAAIDBBEFBhITISIxgf/EABcBAQEBAQAAAAAAAAAAAAAAAAQDBQL/xAAaEQACAwEBAAAAAAAAAAAAAAAAAQIRMSED/9oADAMBAAIRAxEAPwCq6crYJPi0lbkcMtyxojOLLyDQfYHq5+rrYOnxKgzG7iVXDRh5qiu+nWNezhBGopLxH0Kt22TC32RFfGEnDukTA5rXfa2oGieXC44iJCw685OjDYMENgjyl2IiKL0i27P/2Q==",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.datocms-assets.com/180613/1774190390-cerebrium_0026.jpg?dpr=0.5&fit=crop&h=1300&w=1300",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 17957
+      },
+      {
+        "url": "https://cerebrium.ai/_astro/preload-helper.CVfkMyKi.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1284
+      },
+      {
+        "url": "https://www.datocms-assets.com/180613/1788895307-linkup.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.datocms-assets.com/180613/1786652689-chatgpt-image-aug-13-2026-10_36_49-am-1-1.png?w=800",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 17709
+      },
+      {
+        "url": "https://www.datocms-assets.com/180613/1772308304-qua4qvw2spfexsor5qsgfb1z2ma.avif?w=800",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 9585
+      },
+      {
+        "url": "https://www.datocms-assets.com/180613/1771978258-s1j3uuhph042dyc5hcvmu9cjvf0.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.datocms-assets.com/180613/1771978560-38opvavw2sdaylz4hfxdcgjh5ri.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.datocms-assets.com/180613/1771778697-ldn95qhmpa4wa79jusfkwdlprxq.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.datocms-assets.com/180613/1774385835-srb9xezhgtawahclmznjzfegu8.avif?w=800",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 17412
+      },
+      {
+        "url": "https://cerebrium.ai/_astro/component-manager.modern.DNc_OPSh.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1668
+      },
+      {
+        "url": "https://cerebrium.ai/_astro/index.C4HJ1O9m.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1168
+      },
+      {
+        "url": "https://cerebrium.ai/_astro/ScrambleTextPlugin.C2WjG6PH.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4410
+      },
+      {
+        "url": "https://cerebrium.ai/_astro/Transitions.CDveHI5v.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 16740
+      },
+      {
+        "url": "https://cerebrium.ai/_astro/Scroll.cO9MU0Pv.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 10285
+      },
+      {
+        "url": "https://cerebrium.ai/_astro/intersection-observer-manager.modern.BLXhoylW.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1697
+      },
+      {
+        "url": "https://cerebrium.ai/_astro/BackgroundCanvas.Bg_NUauP.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 352602
+      },
+      {
+        "url": "https://cerebrium.ai/_astro/screen.L2lDMJZF.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1092
+      },
+      {
+        "url": "https://cerebrium.ai/_astro/index.BclezDAm.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 860
+      },
+      {
+        "url": "https://cerebrium.ai/_astro/modalRoutes.CC8eIeSE.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 905
+      },
+      {
+        "url": "https://cerebrium.ai/_astro/scroll.D8moBDGK.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 703
+      },
+      {
+        "url": "https://cerebrium.ai/_astro/CSSPlugin.DXs0xWkv.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 29601
+      },
+      {
+        "url": "https://cerebrium.ai/_astro/deviceStatus.BpahwZ5Y.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1058
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-9KSTJC8JM1&cx=c&gtm=4e6a80h2",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 195913
+      },
+      {
+        "url": "https://ddwl4m2hdecbv.cloudfront.net/b/GOYPYHD1P1OX/GOYPYHD1P1OX.js.gz",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script"
+      },
+      {
+        "url": "https://cerebrium.ai/_astro/Header.DBfWKcAI.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2160
+      },
+      {
+        "url": "https://cerebrium.ai/_astro/SplitTitle.B2QJBP10.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4838
+      },
+      {
+        "url": "https://cerebrium.ai/_astro/Rail.D6K3w7re.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1867
+      },
+      {
+        "url": "https://cerebrium.ai/_astro/InteractiveDots.C7kD-9WX.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2174
+      },
+      {
+        "url": "https://cerebrium.ai/_astro/HeroHome.BVyja4RL.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3369
+      },
+      {
+        "url": "https://cerebrium.ai/_astro/DatoImage.pG7u5_ql.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1085
+      },
+      {
+        "url": "https://cerebrium.ai/_astro/SegmentedControls.CSkc8zFG.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 12239
+      },
+      {
+        "url": "https://cerebrium.ai/_astro/FeatureCardRangeChart.Dfz4s3Vd.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1764
+      },
+      {
+        "url": "https://cerebrium.ai/_astro/FeatureCardWorldMapAnimation.D7NAwJpY.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1217
+      },
+      {
+        "url": "https://cerebrium.ai/_astro/lottie_light.BKS0DOqd.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 50729
+      },
+      {
+        "url": "https://cerebrium.ai/_astro/_commonjsHelpers.CqkleIqs.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 692
+      },
+      {
+        "url": "https://cerebrium.ai/_astro/FeatureCardTerminal.DNPFJKpV.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1205
+      },
+      {
+        "url": "https://cerebrium.ai/_astro/AnimatedChart.DDKWcnD5.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1617
+      },
+      {
+        "url": "https://cerebrium.ai/_astro/FeatureCards.CVo7_SA1.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1679
+      },
+      {
+        "url": "https://cerebrium.ai/_astro/CarouselTile.DoCIG5tT.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 26616
+      },
+      {
+        "url": "https://cerebrium.ai/models/CEREBRIUM_part1_11_optimization.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "model/gltf-binary",
+        "fromCache": false,
+        "bytes": 200717
+      },
+      {
+        "url": "https://cerebrium.ai/models/CEREBRIUM_part2_4_optimization.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "model/gltf-binary",
+        "fromCache": false,
+        "bytes": 606866
+      },
+      {
+        "url": "https://cerebrium.ai/models/CEREBRIUM_circles_optimized.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "model/gltf-binary",
+        "fromCache": false,
+        "bytes": 39925
+      },
+      {
+        "url": "https://cerebrium.ai/textures/Particules10.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 125879
+      },
+      {
+        "url": "https://cerebrium.ai/lottie/map.json",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 96941
+      },
+      {
+        "url": "https://www.datocms-assets.com/180613/1774447840-voice-agents.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.datocms-assets.com/180613/1773099926-yjk1qnvd1y1godlhqidev3wlq.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.datocms-assets.com/180613/1775063477-phone-outgoing-bold.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.datocms-assets.com/180613/1775063477-google-podcasts-logo-bold.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.datocms-assets.com/180613/1771778697-ldn95qhmpa4wa79jusfkwdlprxq.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.datocms-assets.com/180613/1771978258-s1j3uuhph042dyc5hcvmu9cjvf0.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.datocms-assets.com/180613/1771978560-38opvavw2sdaylz4hfxdcgjh5ri.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://cerebrium.ai/static/libs/draco/draco_wasm_wrapper.js",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 12613
+      },
+      {
+        "url": "https://cerebrium.ai/static/libs/draco/draco_decoder.wasm",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/wasm",
+        "fromCache": false,
+        "bytes": 85295
+      },
+      {
+        "url": "blob:https://cerebrium.ai/876d0cba-234d-440e-93b3-d964ba316053",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://cerebrium.ai/c82cfe4a-cfab-4b09-ba2c-d2491e21bed9",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://cerebrium.ai/77768645-5a45-4377-910d-26412fac5a37",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://cerebrium.ai/72b0517e-67d7-4f2a-8127-ab33acf250ae",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "blob:https://cerebrium.ai/72b0517e-67d7-4f2a-8127-ab33acf250ae",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "blob:https://cerebrium.ai/72b0517e-67d7-4f2a-8127-ab33acf250ae",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "blob:https://cerebrium.ai/72b0517e-67d7-4f2a-8127-ab33acf250ae",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-9KSTJC8JM1&gtm=45je6a80h2v9247161611za20ozb9248302042zd9248302042xf1&_p=1791533796043&_gaz=1&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&_eu=AAAAACAC&are=1&cid=481839334.1791533797&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=1&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=1&tag_exp=115616986~115938465~115938468~118897920~118897930~120213116~120385423~120420416~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791533796&sct=1&seg=0&dl=https%3A%2F%2Fcerebrium.ai%2F&dt=Serverless%20GPU%20Infrastructure%20for%20Real-Time%20AI%20%7C%C2%A0Cerebrium&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=977",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false
+      },
+      {
+        "url": "https://stats.g.doubleclick.net/g/collect?v=2&ngs=1&ibt=1&tid=G-9KSTJC8JM1&cid=481839334.1791533797&gtm=45je6a80h2v9247161611za20ozb9248302042zd9248302042xf1&rcb=1&aip=1&dma=0&gcs=G111&gcd=13t3t3t3t5l1&npa=0&frm=0&tag_exp=115616986~115938465~115938468~118897920~118897930~120213116~120385423~120420416~120469145~120469153~121046263~121046271~121246026~121246034",
+        "method": "POST",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 555
+      },
+      {
+        "url": "https://cerebrium.ai/_astro/ModalDemo.Deo1gZBy.js?dpl=dpl_5LGKTCjUwJcpo3incRmCPofTrDpm",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1221
+      },
+      {
+        "url": "https://cerebrium.ai/_astro/client.DaaVUJUT.js?dpl=dpl_5LGKTCjUwJcpo3incRmCPofTrDpm",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 58555
+      },
+      {
+        "url": "https://cerebrium.ai/_astro/ModalContact.CcOSelA9.js?dpl=dpl_5LGKTCjUwJcpo3incRmCPofTrDpm",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1167
+      },
+      {
+        "url": "https://cerebrium.ai/_astro/jsx-runtime.u17CrQMm.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1052
+      },
+      {
+        "url": "https://cerebrium.ai/_astro/ModalDrawer.BoWjr6Dr.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 20692
+      },
+      {
+        "url": "https://cerebrium.ai/_astro/DemoForm.zJLSyMIo.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3230
+      },
+      {
+        "url": "https://cerebrium.ai/_astro/ContactForm.CwhMibk4.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2842
+      },
+      {
+        "url": "https://cerebrium.ai/_astro/index.Ds70isV4.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3845
+      },
+      {
+        "url": "https://cerebrium.ai/_astro/index.CblFWnZ2.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2025
+      },
+      {
+        "url": "https://cerebrium.ai/_astro/recaptcha.client.BTrNGerU.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3275
+      },
+      {
+        "url": "https://www.datocms-assets.com/180613/1786652689-chatgpt-image-aug-13-2026-10_36_49-am-1-1.png?w=800",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 17830
+      },
+      {
+        "url": "https://www.datocms-assets.com/180613/1772308304-qua4qvw2spfexsor5qsgfb1z2ma.avif?w=800",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 9306
+      },
+      {
+        "url": "https://www.datocms-assets.com/180613/1774385835-srb9xezhgtawahclmznjzfegu8.avif?w=800",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 17443
+      },
+      {
+        "url": "https://www.datocms-assets.com/180613/1774190408-cerebrium_0027.jpg?ar64=NDY0OjM5Mg&dpr=0.5&fit=crop&w=960",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 14290
+      },
+      {
+        "url": "https://www.datocms-assets.com/180613/1774190541-cerebrium_0031.jpg?ar64=NDY0OjM5Mg&dpr=0.5&fit=crop&w=960",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 15405
+      },
+      {
+        "url": "https://www.datocms-assets.com/180613/1783969934-chatgpt-image-jul-13-2026-03_11_39-pm-1.png?w=800",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 34730
+      },
+      {
+        "url": "https://www.datocms-assets.com/180613/1774190448-cerebrium_0029.jpg?ar64=NDY0OjM5Mg&dpr=0.5&fit=crop&w=960",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 11759
+      },
+      {
+        "url": "https://www.datocms-assets.com/180613/1783478105-chatgpt-image-jul-7-2026-10_34_24-pm-1.png?w=800",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 23534
+      },
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-9KSTJC8JM1&gtm=45je6a80h2v9247161611za20gzb9248302042zd9248302042xf1&_p=1791533796043&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&_eu=AEAAACQC&ae=a&are=1&cid=481839334.1791533797&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=1&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=2&tag_exp=115616986~115938465~115938468~118897920~118897930~120213116~120385423~120420416~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791533796&sct=1&seg=1&dl=https%3A%2F%2Fcerebrium.ai%2F&dt=Serverless%20GPU%20Infrastructure%20for%20Real-Time%20AI%20%7C%C2%A0Cerebrium&en=scroll&epn.percent_scrolled=90&_et=32716&tfd=39653",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "initial-loader-logo-bar-middle",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "initial-loader-logo-bar",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "initial-loader-logo-bar-middle",
+        "duration": 1000,
+        "delay": 100,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "initial-loader-logo-bar",
+        "duration": 1000,
+        "delay": 100,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "overlay-anim-in",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 0,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 800,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 800,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "overlay-anim-out",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "clip-path",
+        "duration": 200,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 300,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "width",
+        "duration": 250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "width",
+        "duration": 2897.0588235294117,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "width",
+        "duration": 1661.764705882353,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "width",
+        "duration": 4000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 129.37468384044791,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0702000E41A0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x28140013d400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x28140013d400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x28140013d400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x28140013d400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://ddwl4m2hdecbv.cloudfront.net/b/GOYPYHD1P1OX/GOYPYHD1P1OX.js.gz",
+        "error": "net::ERR_BLOCKED_BY_ORB"
+      },
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-9KSTJC8JM1&gtm=45je6a80h2v9247161611za20ozb9248302042zd9248302042xf1&_p=1791533796043&_gaz=1&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&_eu=AAAAACAC&are=1&cid=481839334.1791533797&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=1&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=1&tag_exp=115616986~115938465~115938468~118897920~118897930~120213116~120385423~120420416~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791533796&sct=1&seg=0&dl=https%3A%2F%2Fcerebrium.ai%2F&dt=Serverless%20GPU%20Infrastructure%20for%20Real-Time%20AI%20%7C%C2%A0Cerebrium&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=977",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-9KSTJC8JM1&gtm=45je6a80h2v9247161611za20gzb9248302042zd9248302042xf1&_p=1791533796043&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&_eu=AEAAACQC&ae=a&are=1&cid=481839334.1791533797&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=1&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=2&tag_exp=115616986~115938465~115938468~118897920~118897930~120213116~120385423~120420416~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791533796&sct=1&seg=1&dl=https%3A%2F%2Fcerebrium.ai%2F&dt=Serverless%20GPU%20Infrastructure%20for%20Real-Time%20AI%20%7C%C2%A0Cerebrium&en=scroll&epn.percent_scrolled=90&_et=32716&tfd=39653",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 4
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 29083,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 3971,
+      "typography": {
+        "families": [
+          [
+            "Suisse Intl",
+            84
+          ],
+          [
+            "Suisse Intl Mono",
+            59
+          ],
+          [
+            "ABC Favorit Trial",
+            18
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            115
+          ],
+          [
+            "300",
+            24
+          ],
+          [
+            "500",
+            22
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            43
+          ]
+        ],
+        "sizeMin": 13,
+        "sizeMedian": 16,
+        "sizeMax": 45,
+        "sizeMaxVw": 11.5,
+        "scaleRatio": 2.8,
+        "letterSpacingMean": -0.016,
+        "loadedFonts": [
+          {
+            "family": "Suisse Intl Mono",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Suisse Intl",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "ABC Favorit Trial",
+            "weight": "300",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 161
+      },
+      "color": {
+        "background": "rgb(16, 20, 33)",
+        "backgroundLuminance": 0.007202762558183643,
+        "backgrounds": [
+          [
+            "rgb(255, 255, 255)",
+            1001
+          ],
+          [
+            "rgb(16, 20, 33)",
+            178
+          ],
+          [
+            "rgb(219, 229, 237)",
+            130
+          ],
+          [
+            "rgb(238, 242, 245)",
+            16
+          ],
+          [
+            "rgb(88, 100, 144)",
+            6
+          ],
+          [
+            "rgb(255, 72, 139)",
+            4
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(23, 43, 118)",
+            983
+          ],
+          [
+            "rgb(255, 255, 255)",
+            167
+          ],
+          [
+            "rgba(0, 0, 0, 0)",
+            7
+          ],
+          [
+            "rgb(16, 20, 33)",
+            2
+          ]
+        ],
+        "meanSaturation": 0.29,
+        "rootVars": {
+          "--cc-font-family": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\"",
+          "--cc-modal-border-radius": ".5rem",
+          "--cc-btn-border-radius": ".4rem",
+          "--cc-modal-transition-duration": ".25s",
+          "--cc-link-color": "var(--cc-btn-primary-bg)",
+          "--cc-modal-margin": "1rem",
+          "--cc-z-index": "2147480000",
+          "--cc-bg": "#fff",
+          "--cc-primary-color": "#2c2f31",
+          "--cc-secondary-color": "#5e6266",
+          "--cc-btn-primary-bg": "#30363c",
+          "--cc-btn-primary-color": "#fff",
+          "--cc-btn-primary-border-color": "var(--cc-btn-primary-bg)",
+          "--cc-btn-primary-hover-bg": "#000",
+          "--cc-btn-primary-hover-color": "#fff",
+          "--cc-btn-primary-hover-border-color": "var(--cc-btn-primary-hover-bg)",
+          "--cc-btn-secondary-bg": "#eaeff2",
+          "--cc-btn-secondary-color": "var(--cc-primary-color)",
+          "--cc-btn-secondary-border-color": "var(--cc-btn-secondary-bg)",
+          "--cc-btn-secondary-hover-bg": "#d4dae0",
+          "--cc-btn-secondary-hover-color": "#000",
+          "--cc-btn-secondary-hover-border-color": "#d4dae0",
+          "--cc-separator-border-color": "#f0f4f7",
+          "--cc-toggle-on-bg": "var(--cc-btn-primary-bg)",
+          "--cc-toggle-off-bg": "#667481",
+          "--cc-toggle-on-knob-bg": "#fff",
+          "--cc-toggle-off-knob-bg": "var(--cc-toggle-on-knob-bg)",
+          "--cc-toggle-enabled-icon-color": "var(--cc-bg)",
+          "--cc-toggle-disabled-icon-color": "var(--cc-bg)",
+          "--cc-toggle-readonly-bg": "#d5dee2",
+          "--cc-toggle-readonly-knob-bg": "#fff",
+          "--cc-toggle-readonly-knob-icon-color": "var(--cc-toggle-readonly-bg)",
+          "--cc-section-category-border": "var(--cc-cookie-category-block-bg)",
+          "--cc-cookie-category-block-bg": "#f0f4f7",
+          "--cc-cookie-category-block-border": "#f0f4f7",
+          "--cc-cookie-category-block-hover-bg": "#e9eff4",
+          "--cc-cookie-category-block-hover-border": "#e9eff4",
+          "--cc-cookie-category-expanded-block-bg": "transparent",
+          "--cc-cookie-category-expanded-block-hover-bg": "#dee4e9",
+          "--cc-overlay-bg": "#000000a6"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 6,
+        "sticky": 1,
+        "fixed": 5,
+        "grid": 18,
+        "flex": 335,
+        "absolute": 200,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 10251,
+        "pages": 12.1,
+        "spacing": [
+          [
+            8,
+            91
+          ],
+          [
+            16,
+            70
+          ],
+          [
+            10,
+            33
+          ],
+          [
+            14,
+            32
+          ],
+          [
+            20,
+            28
+          ],
+          [
+            6,
+            21
+          ],
+          [
+            15,
+            18
+          ],
+          [
+            2,
+            15
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 10,
+        "animationKinds": [
+          "CSSTransition",
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 4,
+        "animationDurations": [
+          200,
+          200,
+          200,
+          200,
+          200,
+          300,
+          1000,
+          1000,
+          1000,
+          1000
+        ],
+        "easings": [
+          "cubic-bezier(0.645, 0.045, 0.355, 1)",
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            200,
+            141
+          ],
+          [
+            300,
+            17
+          ],
+          [
+            250,
+            7
+          ],
+          [
+            350,
+            4
+          ],
+          [
+            800,
+            4
+          ]
+        ],
+        "keyframes": [
+          "fade-slide-in",
+          "initial-loader-logo-bar",
+          "initial-loader-logo-bar-middle",
+          "overlay-anim-in",
+          "overlay-anim-out",
+          "swiper-preloader-spin",
+          "fadeIn",
+          "fadeOut",
+          "slideFromBottom",
+          "slideToBottom",
+          "slideFromTop",
+          "slideToTop",
+          "slideFromLeft",
+          "slideToLeft",
+          "slideFromRight",
+          "slideToRight"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": true
+      },
+      "hiddenElements": 50,
+      "media": {
+        "canvases": [
+          {
+            "w": 780,
+            "h": 1688,
+            "area": 1
+          }
+        ],
+        "videos": [],
+        "svg": 91,
+        "images": 49,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "2d": 2,
+          "webgl2": 1
+        },
+        "raf": 592,
+        "io": 5,
+        "ro": 7,
+        "mo": 8,
+        "startViewTransition": 0,
+        "workers": 4,
+        "wasm": 1
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": true,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Serverless GPU Infrastructure for Real-Time AI | Cerebrium",
+      "lang": "en",
+      "description": "Deploy voice agents, video models, and LLMs on serverless GPUs with sub-second cold starts. Pay-per-second pricing. No Kubernetes."
+    },
+    "featuresBeforeScroll": {
+      "elements": 3671,
+      "canvases": 1,
+      "animations": 5,
+      "hidden": 51
+    },
+    "scrollReveal": 1,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 60839940,
+        "layoutCount": 187,
+        "recalcStyleCount": 568,
+        "scriptDuration": 1.128478,
+        "taskDuration": 26.655167,
+        "nodes": 9327
+      },
+      "timing": {
+        "domContentLoaded": 346,
+        "load": 888,
+        "first-paint": 144,
+        "first-contentful-paint": 144
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "initial-loader-logo-bar-middle",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "initial-loader-logo-bar",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "initial-loader-logo-bar-middle",
+        "duration": 1000,
+        "delay": 100,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "initial-loader-logo-bar",
+        "duration": 1000,
+        "delay": 100,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "overlay-anim-in",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 800,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 0,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 800,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "overlay-anim-out",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 300,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "clip-path",
+        "duration": 200,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "width",
+        "duration": 2897.0588235294117,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "width",
+        "duration": 1661.764705882353,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "width",
+        "duration": 250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "width",
+        "duration": 4000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0702000E41A0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://ddwl4m2hdecbv.cloudfront.net/b/GOYPYHD1P1OX/GOYPYHD1P1OX.js.gz",
+        "error": "net::ERR_BLOCKED_BY_ORB"
+      },
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-9KSTJC8JM1&gtm=45je6a72v9247161611za20ozb9248302042zd9248302042xf1&_p=1791533873899&_gaz=1&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&_eu=AAAAACAC&are=1&cid=180162127.1791533875&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=14&sr=390x844&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=1&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=1&tag_exp=115938466~115938469~118897920~118897930~120032690~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034~121284210&sid=1791533874&sct=1&seg=0&dl=https%3A%2F%2Fcerebrium.ai%2F&dt=Serverless%20GPU%20Infrastructure%20for%20Real-Time%20AI%20%7C%C2%A0Cerebrium&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=843",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 4
+    }
+  }
+}

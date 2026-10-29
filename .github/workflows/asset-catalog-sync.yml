@@ -1,0 +1,43 @@
+name: Asset register
+
+# Every week: read the list of Poly Haven (CC0 3D models, HDRI lights, PBR textures) through its public API (three requests) and write it to
+# skills/kit/asset-research/catalog/assets.jsonl (name, tags, categories, description, authors, size, polycount, page). No file is downloaded or stored.
+on:
+  schedule:
+    - cron: '41 5 * * 4'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: asset-catalog
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Read the list
+        run: node skills/kit/asset-research/src/cli.js sync | tee sync.json
+      - name: Say what was read
+        if: always()
+        run: |
+          node -e "
+          const fs = require('fs');
+          let s = {}; try { s = JSON.parse(fs.readFileSync('sync.json','utf8').trim().split('\n').pop()); } catch {}
+          console.log('::notice title=Asset register::total ' + (s.total ?? '?') + ', new ' + (s.new ?? '?') + ((s.errors || []).length ? ', problems: ' + s.errors.join(' | ') : ''));
+          if ((s.errors || []).length) process.exit(1);
+          "
+      - name: Commit the register
+        if: always()
+        run: |
+          git config user.name "asset-research"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A skills/kit/asset-research/catalog
+          git diff --cached --quiet || (git commit -m "Asset register: weekly sync" && git pull --rebase origin main && git push)

@@ -1,0 +1,6063 @@
+{
+  "url": "https://www.seasats.com/",
+  "at": "2026-10-10T09:43:18.370Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 20089,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 1820,
+      "typography": {
+        "families": [
+          [
+            "supplyMono",
+            100
+          ],
+          [
+            "seasonMix",
+            89
+          ],
+          [
+            "seasonSans",
+            64
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            205
+          ],
+          [
+            "500",
+            48
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            100
+          ]
+        ],
+        "sizeMin": 12,
+        "sizeMedian": 16,
+        "sizeMax": 124,
+        "sizeMaxVw": 8.6,
+        "scaleRatio": 7.8,
+        "letterSpacingMean": -0.01,
+        "loadedFonts": [
+          {
+            "family": "seasonMix",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "seasonMix",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "seasonSans",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "supplyMono",
+            "weight": "400",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 253
+      },
+      "color": {
+        "background": "rgb(255, 253, 253)",
+        "backgroundLuminance": 0.9860240833322964,
+        "backgrounds": [
+          [
+            "rgba(0, 0, 0, 0.1)",
+            21935
+          ],
+          [
+            "rgb(255, 253, 253)",
+            2199
+          ],
+          [
+            "rgb(217, 217, 217)",
+            1330
+          ],
+          [
+            "rgb(35, 35, 35)",
+            1296
+          ],
+          [
+            "rgb(207, 207, 207)",
+            1209
+          ],
+          [
+            "rgba(255, 253, 253, 0.5)",
+            998
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(35, 35, 35)",
+            567
+          ],
+          [
+            "rgb(255, 253, 253)",
+            346
+          ],
+          [
+            "rgb(255, 255, 255)",
+            75
+          ],
+          [
+            "rgba(0, 0, 0, 0)",
+            34
+          ],
+          [
+            "color(srgb 0.137255 0.137255 0.137255 / 0.5)",
+            18
+          ]
+        ],
+        "meanSaturation": 0,
+        "rootVars": {}
+      },
+      "layout": {
+        "fullscreenSections": 18,
+        "sticky": 34,
+        "fixed": 10,
+        "grid": 45,
+        "flex": 162,
+        "absolute": 212,
+        "asymmetricGrids": 1,
+        "splitScreen": false,
+        "scrollHeight": 34229,
+        "pages": 38,
+        "spacing": [
+          [
+            4,
+            95
+          ],
+          [
+            8,
+            65
+          ],
+          [
+            16,
+            58
+          ],
+          [
+            18,
+            39
+          ],
+          [
+            11,
+            36
+          ],
+          [
+            12,
+            31
+          ],
+          [
+            5,
+            26
+          ],
+          [
+            24,
+            18
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 12,
+        "animationKinds": [
+          "CSSTransition",
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 0,
+        "animationDurations": [
+          369.732570618725,
+          1000,
+          1000,
+          1000,
+          1000,
+          1000,
+          1000,
+          1000,
+          1000,
+          1000,
+          1000,
+          1000
+        ],
+        "easings": [
+          "ease-out",
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            400,
+            85
+          ],
+          [
+            372,
+            76
+          ],
+          [
+            408,
+            64
+          ],
+          [
+            600,
+            36
+          ],
+          [
+            504,
+            32
+          ]
+        ],
+        "keyframes": [
+          "Preloader_preloaderOut__7TtFA",
+          "Preloader_letterHide__YIkgB",
+          "Toast_toast-hide__lE1eT",
+          "Toast_toast-slideIn__BxcBZ",
+          "Toast_toast-swipeOut__gPuFR",
+          "LivestreamWidget_livestreamDot__an5Zk",
+          "Footer_parallax__XK28M",
+          "BoatPhoto_photoFadeIn__3SD7f",
+          "BoatPhoto_wrapperScale__zl0ku",
+          "BoatPhoto_innerClipPath__BVFuS",
+          "BoatPhoto_mediaScale__LEeXS",
+          "Checkbox_toggleIn__XwrQz",
+          "Select_select-enter__WLPf_",
+          "Select_select-exit__nd9rO",
+          "CareersDropdown_select-enter__qI_D4",
+          "CareersDropdown_select-exit__06OXs",
+          "ProductStory_parallax__hriNH"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": true
+      },
+      "hiddenElements": 194,
+      "media": {
+        "canvases": [
+          {
+            "w": 1440,
+            "h": 900,
+            "area": 1
+          },
+          {
+            "w": 2880,
+            "h": 1307,
+            "area": 0.73
+          },
+          {
+            "w": 1440,
+            "h": 900,
+            "area": 1
+          },
+          {
+            "w": 1440,
+            "h": 810,
+            "area": 0.9
+          },
+          {
+            "w": 1440,
+            "h": 810,
+            "area": 0.9
+          }
+        ],
+        "videos": [
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://seasats.sfo3.cdn.digitaloceanspaces.com/seasats_styleframe_Header_IDLE_v001-1.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://seasats.sfo3.cdn.digitaloceanspaces.com/seasats_styleframe_Header_IDLE_v001_mobile.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://seasats.sfo3.cdn.digitaloceanspaces.com/deploys-with-speed.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://seasats.sfo3.cdn.digitaloceanspaces.com/detects-and-fathoms.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://seasats.sfo3.cdn.digitaloceanspaces.com/React_With_Speed.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          }
+        ],
+        "svg": 23,
+        "images": 91,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "2d": 194,
+          "webgl2": 1
+        },
+        "raf": 560,
+        "io": 116,
+        "ro": 110,
+        "mo": 1,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Seasats | Ocean Autonomy That Works",
+      "lang": "en",
+      "description": "Missions completed for defense, science, and commercial customers around the world."
+    },
+    "featuresBeforeScroll": {
+      "elements": 1817,
+      "canvases": 5,
+      "animations": 11,
+      "hidden": 219
+    },
+    "scrollReveal": 25,
+    "hover": {
+      "probed": 6,
+      "changed": 0
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 15461092,
+        "layoutCount": 628,
+        "recalcStyleCount": 1372,
+        "scriptDuration": 0.974184,
+        "taskDuration": 9.381981,
+        "nodes": 8377
+      },
+      "timing": {
+        "domContentLoaded": 426,
+        "load": 524,
+        "first-paint": 412,
+        "first-contentful-paint": 412
+      }
+    },
+    "network": [
+      {
+        "url": "https://www.seasats.com/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 59976
+      },
+      {
+        "url": "https://www.seasats.com/_next/static/media/13be4abfd8609ebb-s.p.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 62295
+      },
+      {
+        "url": "https://www.seasats.com/_next/static/media/310b4a069ec82868-s.p.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 55694
+      },
+      {
+        "url": "https://www.seasats.com/_next/static/media/9350f266b74e3a7f-s.p.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 62808
+      },
+      {
+        "url": "https://www.seasats.com/_next/static/media/fbfb48e1b67fc10e-s.p.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 16346
+      },
+      {
+        "url": "https://seasats.sfo3.cdn.digitaloceanspaces.com/seasats_styleframe_Header_IDLE_v001_1%20copy%20(1)-1920x1200.webp?2025-11-06T10:14:52.866Z",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 28308
+      },
+      {
+        "url": "https://seasats.sfo3.cdn.digitaloceanspaces.com/seasats_styleframe_Header_IDLE_v001_mobile.avif?2025-11-19T14:40:26.800Z",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 7167
+      },
+      {
+        "url": "https://www.seasats.com/_next/static/css/d11d81b0342c0709.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 5208
+      },
+      {
+        "url": "https://www.seasats.com/_next/static/css/a14bc365605f91b3.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 515
+      },
+      {
+        "url": "https://www.seasats.com/_next/static/css/110e11ba57841c1c.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 15960
+      },
+      {
+        "url": "https://www.seasats.com/_next/static/css/5ef63a433e26978c.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 7101
+      },
+      {
+        "url": "https://www.seasats.com/_next/static/css/1b049c95c22b8c17.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 6770
+      },
+      {
+        "url": "https://www.seasats.com/_next/static/chunks/webpack-1181484d38bebfd4.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3512
+      },
+      {
+        "url": "https://www.seasats.com/_next/static/chunks/4bd1b696-100b9d70ed4e49c1.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 54799
+      },
+      {
+        "url": "https://www.seasats.com/_next/static/chunks/1255-642c76f13c20a3ec.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 46120
+      },
+      {
+        "url": "https://www.seasats.com/_next/static/chunks/main-app-43b4b242c17d47ff.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 646
+      },
+      {
+        "url": "https://www.seasats.com/_next/static/chunks/c15bf2b0-11d3b8116e36b044.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 20216
+      },
+      {
+        "url": "https://www.seasats.com/_next/static/chunks/7822-0426072929606d8a.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 9062
+      },
+      {
+        "url": "https://www.seasats.com/_next/static/chunks/2954-8a3d3355581ae6d9.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 30400
+      },
+      {
+        "url": "https://www.seasats.com/_next/static/chunks/641-dbd1edaa12919922.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 8147
+      },
+      {
+        "url": "https://www.seasats.com/_next/static/chunks/9495-79fc1d15e2f22bd7.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3101
+      },
+      {
+        "url": "https://www.seasats.com/_next/static/chunks/app/(frontend)/layout-07e7b1b1d477ef6b.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 5381
+      },
+      {
+        "url": "https://www.seasats.com/_next/static/chunks/bd904a5c-a41790b73ae35279.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 100956
+      },
+      {
+        "url": "https://www.seasats.com/_next/static/chunks/b536a0f1-a89aaee2c858350d.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 79909
+      },
+      {
+        "url": "https://www.seasats.com/_next/static/chunks/1329d575-913930d6a3ee9f96.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 34394
+      },
+      {
+        "url": "https://www.seasats.com/_next/static/chunks/176-652cc20e888daa36.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3931
+      },
+      {
+        "url": "https://www.seasats.com/_next/static/chunks/3426-7d84bfa17595a05c.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 7594
+      },
+      {
+        "url": "https://www.seasats.com/_next/static/chunks/3492-7000bd1695ecfecb.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 8008
+      },
+      {
+        "url": "https://www.seasats.com/_next/static/chunks/9297-dbee6a385ac69d9c.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 175563
+      },
+      {
+        "url": "https://www.seasats.com/_next/static/chunks/541-06b2e01ac6d38102.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 7599
+      },
+      {
+        "url": "https://www.seasats.com/_next/static/chunks/3067-b79911e57312cd00.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 54062
+      },
+      {
+        "url": "https://www.seasats.com/_next/static/chunks/app/(frontend)/page-94f9d8abdf26b788.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 567
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-TP69LL8MSH",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 187679
+      },
+      {
+        "url": "https://www.seasats.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 726
+      },
+      {
+        "url": "https://seasats.sfo3.cdn.digitaloceanspaces.com/seasats_styleframe_Header_IDLE_v001-1.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 385496
+      },
+      {
+        "url": "https://seasats.sfo3.cdn.digitaloceanspaces.com/seasats_styleframe_Header_IDLE_v001_mobile.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 156458
+      },
+      {
+        "url": "https://seasats.sfo3.cdn.digitaloceanspaces.com/Thumbnail-Home.webp?2025-11-13T14:05:34.348Z",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 1698
+      },
+      {
+        "url": "https://seasats.sfo3.cdn.digitaloceanspaces.com/Thumbnail-Capabi.webp?2025-11-13T14:05:33.215Z",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 5232
+      },
+      {
+        "url": "https://seasats.sfo3.cdn.digitaloceanspaces.com/Thumbnail-Past%20Missions.webp?2025-11-13T14:05:35.225Z",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 1917
+      },
+      {
+        "url": "https://seasats.sfo3.cdn.digitaloceanspaces.com/Thumbnail-Products.webp?2025-11-13T14:05:35.670Z",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 2274
+      },
+      {
+        "url": "https://seasats.sfo3.cdn.digitaloceanspaces.com/Thumbnail-Comparison.webp?2025-11-13T14:05:33.654Z",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 2954
+      },
+      {
+        "url": "https://seasats.sfo3.cdn.digitaloceanspaces.com/Thumbnail-Lightfish.webp?2025-11-13T14:05:34.789Z",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 1816
+      },
+      {
+        "url": "https://seasats.sfo3.cdn.digitaloceanspaces.com/Quickfish_Nav-300x211.png?2026-09-30T14:16:52.056Z",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 62929
+      },
+      {
+        "url": "https://seasats.sfo3.cdn.digitaloceanspaces.com/Thumbnail-Heavyfish.webp?2025-11-13T14:05:34.135Z",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 1289
+      },
+      {
+        "url": "https://seasats.sfo3.cdn.digitaloceanspaces.com/Thumbnail-Press.webp?2025-11-13T14:05:35.449Z",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 5808
+      },
+      {
+        "url": "https://seasats.sfo3.cdn.digitaloceanspaces.com/Screenshot%202026-04-10%20at%206.08.08%E2%80%AFPM-300x176.png?2026-04-11T01:08:19.461Z",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 91020
+      },
+      {
+        "url": "https://seasats.sfo3.cdn.digitaloceanspaces.com/image%201955.png?2025-11-13T13:24:54.501Z",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 198451
+      },
+      {
+        "url": "https://seasats.sfo3.cdn.digitaloceanspaces.com/image%201955%20(1).png?2025-11-13T13:25:09.454Z",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 234207
+      },
+      {
+        "url": "https://seasats.sfo3.cdn.digitaloceanspaces.com/Boat.png?2025-11-13T18:21:29.821Z",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 511599
+      },
+      {
+        "url": "https://seasats.sfo3.cdn.digitaloceanspaces.com/image%201955%20(3).png?2025-11-13T13:25:47.800Z",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 359637
+      },
+      {
+        "url": "https://seasats.sfo3.cdn.digitaloceanspaces.com/image%201955%20(4).png?2025-11-13T13:25:59.209Z",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 133888
+      },
+      {
+        "url": "https://seasats.sfo3.cdn.digitaloceanspaces.com/image%201955%20(5).png?2025-11-13T13:26:28.048Z",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 277512
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0001.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 16042
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0511.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 14882
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0256.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 10248
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0128.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 10110
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0383.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 8402
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0064.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 12332
+      },
+      {
+        "url": "https://www.seasats.com/frames/lightfish-60/frame_0000.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 19666
+      },
+      {
+        "url": "https://www.seasats.com/frames/quickfish-60/frame_0000.avif?v=2",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 19799
+      },
+      {
+        "url": "https://www.seasats.com/frames/heavyfish-60/frame_0000.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 16302
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0192.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 10113
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0319.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 14244
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0447.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 10272
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0032.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 15270
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0096.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 9797
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0160.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 10260
+      },
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-TP69LL8MSH&gtm=45je6a80h2v876704740za208zd876704740xf1&_p=1791625371885&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACAC&are=1&cid=1760160988.1791625372&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=2&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=1&tag_exp=115616986~115938466~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791625372&sct=1&seg=0&dl=https%3A%2F%2Fwww.seasats.com%2F&dt=Seasats%20%7C%20Ocean%20Autonomy%20That%20Works&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1368",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false
+      },
+      {
+        "url": "https://stats.g.doubleclick.net/g/collect?v=2&ngs=1&ibt=1&tid=G-TP69LL8MSH&cid=1760160988.1791625372&gtm=45je6a80h2v876704740za208zd876704740xf1&rcb=2&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115616986~115938466~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034",
+        "method": "POST",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 549
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0224.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0287.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0351.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0415.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0479.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0016.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0048.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0080.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0112.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0144.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0176.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0208.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0240.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0271.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0303.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0335.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0367.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0399.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0431.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0463.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0495.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0008.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0024.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0040.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0056.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0072.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0088.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0104.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0120.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0136.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0152.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0168.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0184.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0200.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0216.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0232.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0248.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0263.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0279.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0295.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0311.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0327.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0343.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0359.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0375.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0391.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0407.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0423.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0439.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0455.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0471.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0487.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0503.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0004.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0012.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0020.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0028.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0036.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0044.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0052.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0060.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0068.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0076.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0084.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0092.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0100.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0108.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0116.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0124.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0132.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0140.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0148.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0156.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0164.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0172.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0180.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0188.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0196.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0204.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0212.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0220.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0228.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0236.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0244.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0252.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0259.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0267.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0275.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0283.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0291.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0299.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0307.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0315.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0323.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0331.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0339.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0347.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0355.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0363.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0371.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0379.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0387.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0395.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0403.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0411.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0419.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0427.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0435.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0443.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0451.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0459.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0467.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0475.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0483.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0491.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0499.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0507.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0002.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0006.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0010.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0014.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0018.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0022.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0026.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0030.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0034.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0038.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0042.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0046.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0050.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0054.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0058.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0062.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0066.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0070.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0074.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0078.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0082.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0086.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0090.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0094.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0098.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0102.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0106.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0110.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0114.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0118.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0122.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0126.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0130.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0134.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0138.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0142.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0146.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0150.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0154.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0158.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0162.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0166.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0170.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0174.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0178.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0182.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0186.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0190.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0194.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0198.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0202.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0206.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0210.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0214.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0218.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0222.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0226.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0230.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0234.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0238.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0242.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0246.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0250.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0254.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0257.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0261.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0265.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0269.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0273.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0277.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0281.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0285.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0289.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0293.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0297.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0301.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0305.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0309.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0313.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0317.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0321.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0325.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0329.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0333.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0337.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0341.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0345.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://seasats.sfo3.cdn.digitaloceanspaces.com/detects-and-fathoms.avif?2025-11-27T13:38:14.449Z",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 15110
+      },
+      {
+        "url": "https://seasats.sfo3.cdn.digitaloceanspaces.com/reacts-and-responds.avif?2025-11-27T13:37:44.448Z",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 15081
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0349.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0353.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0357.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0361.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0365.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0369.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0373.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0377.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0381.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0385.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0389.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0393.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0397.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0401.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0405.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0409.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0413.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0417.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0421.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0425.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0429.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0433.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0437.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0441.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0445.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0449.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0453.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0457.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0461.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0465.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0469.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0473.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0477.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0481.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0485.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0489.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://seasats.sfo3.cdn.digitaloceanspaces.com/deploys-with-speed.webp?2025-10-20T17:36:54.285Z",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 103217
+      },
+      {
+        "url": "https://seasats.sfo3.cdn.digitaloceanspaces.com/Icon%20Deploys%20by%20hand.svg?2025-10-21T11:47:37.189Z",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 722
+      },
+      {
+        "url": "https://seasats.sfo3.cdn.digitaloceanspaces.com/Icon%20Ships%20anywhere.svg?2025-10-21T11:47:43.227Z",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 671
+      },
+      {
+        "url": "https://seasats.sfo3.cdn.digitaloceanspaces.com/Icon%20Mastered%20with%20ease.svg?2025-10-21T11:47:38.904Z",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 925
+      },
+      {
+        "url": "https://seasats.sfo3.cdn.digitaloceanspaces.com/Icon%20Priced%20for%20scale.svg?2025-10-21T11:47:40.465Z",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 591
+      },
+      {
+        "url": "https://seasats.sfo3.cdn.digitaloceanspaces.com/Icon%20Complete%20intel.svg?2025-10-21T11:47:36.756Z",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 713
+      },
+      {
+        "url": "https://seasats.sfo3.cdn.digitaloceanspaces.com/Icon%20Modular.svg?2025-10-21T11:47:39.356Z",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 856
+      },
+      {
+        "url": "https://seasats.sfo3.cdn.digitaloceanspaces.com/Icon%206%20Month%20detection.svg?2025-10-21T11:47:35.257Z",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 730
+      },
+      {
+        "url": "https://seasats.sfo3.cdn.digitaloceanspaces.com/Icon%20Ocean%20wide%20intelligence.svg?2025-10-21T11:47:39.930Z",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1343
+      },
+      {
+        "url": "https://seasats.sfo3.cdn.digitaloceanspaces.com/Icon%20Real%20time%20alerts.svg?2025-10-21T11:47:41.771Z",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 884
+      },
+      {
+        "url": "https://seasats.sfo3.cdn.digitaloceanspaces.com/Icon%20Intercept.svg?2025-10-21T11:47:38.291Z",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 715
+      },
+      {
+        "url": "https://seasats.sfo3.cdn.digitaloceanspaces.com/Icon%20release%20drones.svg?2025-10-21T11:47:42.209Z",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 2707
+      },
+      {
+        "url": "https://seasats.sfo3.cdn.digitaloceanspaces.com/Icon%20Escort%20buffer.svg?2025-10-21T11:47:37.700Z",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 806
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0493.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0497.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0501.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0505.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0509.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0003.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0005.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0007.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0009.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0011.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0013.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0015.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0017.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0019.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0021.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0023.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0025.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0027.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0029.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0031.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0033.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0035.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0037.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0039.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0041.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0043.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0045.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0047.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0049.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0051.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0053.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0055.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0057.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0059.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0061.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0063.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0065.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0067.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0069.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0071.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0073.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0075.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0077.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0079.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0081.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0083.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0085.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0087.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0089.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0091.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0093.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0095.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0097.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0099.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0101.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0103.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0105.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0107.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0109.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0111.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0113.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0115.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0117.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0119.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0121.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0123.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0125.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0127.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0129.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0131.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0133.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0135.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0137.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0139.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0141.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.seasats.com/frames/intro-25/frame_0143.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "ProductStory_parallax__hriNH",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ProductStory_parallax__hriNH",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ProductStory_parallax__hriNH",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ProductStory_parallax__hriNH",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ProductStory_parallax__hriNH",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ProductStory_parallax__hriNH",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ProductStory_parallax__hriNH",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ProductStory_parallax__hriNH",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "Footer_parallax__XK28M",
+        "duration": 38.24778077962177,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ProductStory_parallax__hriNH",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ProductStory_parallax__hriNH",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 600,
+        "delay": 240,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 600,
+        "delay": 240,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 600,
+        "delay": 160,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 600,
+        "delay": 160,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 600,
+        "delay": 80,
+        "iterations": 1,
+        "easing": "ease"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "<link rel=preload> uses an unsupported `as` value"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A07020006C080000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-TP69LL8MSH&gtm=45je6a80h2v876704740za208zd876704740xf1&_p=1791625371885&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACAC&are=1&cid=1760160988.1791625372&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=2&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=1&tag_exp=115616986~115938466~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791625372&sct=1&seg=0&dl=https%3A%2F%2Fwww.seasats.com%2F&dt=Seasats%20%7C%20Ocean%20Autonomy%20That%20Works&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1368",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 7490,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 2380,
+      "typography": {
+        "families": [
+          [
+            "supplyMono",
+            122
+          ],
+          [
+            "seasonMix",
+            104
+          ],
+          [
+            "seasonSans",
+            101
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            292
+          ],
+          [
+            "500",
+            35
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            122
+          ]
+        ],
+        "sizeMin": 11.9084,
+        "sizeMedian": 15.8779,
+        "sizeMax": 47.6336,
+        "sizeMaxVw": 12.2,
+        "scaleRatio": 3,
+        "letterSpacingMean": -0.023,
+        "loadedFonts": [
+          {
+            "family": "seasonMix",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "seasonMix",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "seasonSans",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "supplyMono",
+            "weight": "400",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 327
+      },
+      "color": {
+        "background": "rgb(255, 253, 253)",
+        "backgroundLuminance": 0.9860240833322964,
+        "backgrounds": [
+          [
+            "rgba(0, 0, 0, 0.1)",
+            6931
+          ],
+          [
+            "rgb(255, 253, 253)",
+            3322
+          ],
+          [
+            "rgb(207, 207, 207)",
+            631
+          ],
+          [
+            "rgb(217, 217, 217)",
+            300
+          ],
+          [
+            "rgba(255, 253, 253, 0.5)",
+            290
+          ],
+          [
+            "rgb(227, 237, 228)",
+            50
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(35, 35, 35)",
+            771
+          ],
+          [
+            "rgb(255, 253, 253)",
+            381
+          ],
+          [
+            "rgb(43, 57, 34)",
+            177
+          ],
+          [
+            "rgba(0, 0, 0, 0)",
+            27
+          ],
+          [
+            "color(srgb 0.137255 0.137255 0.137255 / 0.5)",
+            12
+          ]
+        ],
+        "meanSaturation": 0.01,
+        "rootVars": {}
+      },
+      "layout": {
+        "fullscreenSections": 18,
+        "sticky": 29,
+        "fixed": 10,
+        "grid": 56,
+        "flex": 261,
+        "absolute": 209,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 28230,
+        "pages": 33.4,
+        "spacing": [
+          [
+            4,
+            116
+          ],
+          [
+            8,
+            109
+          ],
+          [
+            16,
+            93
+          ],
+          [
+            3,
+            56
+          ],
+          [
+            11,
+            36
+          ],
+          [
+            18,
+            35
+          ],
+          [
+            12,
+            34
+          ],
+          [
+            24,
+            32
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 12,
+        "animationKinds": [
+          "CSSTransition",
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 0,
+        "animationDurations": [
+          353.08500000003954,
+          1000,
+          1000,
+          1000,
+          1000,
+          1000,
+          1000,
+          1000,
+          1000,
+          1000,
+          1000,
+          1000
+        ],
+        "easings": [
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            492,
+            234
+          ],
+          [
+            500,
+            82
+          ],
+          [
+            372,
+            76
+          ],
+          [
+            400,
+            73
+          ],
+          [
+            408,
+            64
+          ]
+        ],
+        "keyframes": [
+          "Preloader_preloaderOut__7TtFA",
+          "Preloader_letterHide__YIkgB",
+          "Toast_toast-hide__lE1eT",
+          "Toast_toast-slideIn__BxcBZ",
+          "Toast_toast-swipeOut__gPuFR",
+          "LivestreamWidget_livestreamDot__an5Zk",
+          "Footer_parallax__XK28M",
+          "BoatPhoto_photoFadeIn__3SD7f",
+          "BoatPhoto_wrapperScale__zl0ku",
+          "BoatPhoto_innerClipPath__BVFuS",
+          "BoatPhoto_mediaScale__LEeXS",
+          "Checkbox_toggleIn__XwrQz",
+          "Select_select-enter__WLPf_",
+          "Select_select-exit__nd9rO",
+          "CareersDropdown_select-enter__qI_D4",
+          "CareersDropdown_select-exit__06OXs",
+          "ProductStory_parallax__hriNH"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": true
+      },
+      "hiddenElements": 96,
+      "media": {
+        "canvases": [
+          {
+            "w": 390,
+            "h": 844,
+            "area": 1
+          },
+          {
+            "w": 780,
+            "h": 1189,
+            "area": 0.7
+          },
+          {
+            "w": 358,
+            "h": 201,
+            "area": 0.22
+          },
+          {
+            "w": 358,
+            "h": 201,
+            "area": 0.22
+          },
+          {
+            "w": 0,
+            "h": 0,
+            "area": 0
+          }
+        ],
+        "videos": [
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://seasats.sfo3.cdn.digitaloceanspaces.com/seasats_styleframe_Header_IDLE_v001-1.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://seasats.sfo3.cdn.digitaloceanspaces.com/seasats_styleframe_Header_IDLE_v001_mobile.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          }
+        ],
+        "svg": 35,
+        "images": 97,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "2d": 762,
+          "webgl2": 1
+        },
+        "raf": 782,
+        "io": 75,
+        "ro": 111,
+        "mo": 1,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Seasats | Ocean Autonomy That Works",
+      "lang": "en",
+      "description": "Missions completed for defense, science, and commercial customers around the world."
+    },
+    "featuresBeforeScroll": {
+      "elements": 2380,
+      "canvases": 5,
+      "animations": 11,
+      "hidden": 111
+    },
+    "scrollReveal": 15,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 19253128,
+        "layoutCount": 660,
+        "recalcStyleCount": 1421,
+        "scriptDuration": 0.718894,
+        "taskDuration": 5.559414,
+        "nodes": 8765
+      },
+      "timing": {
+        "domContentLoaded": 170,
+        "load": 435,
+        "first-paint": 288,
+        "first-contentful-paint": 288
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "Footer_parallax__XK28M",
+        "duration": 30.88163787587972,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ProductStory_parallax__hriNH",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ProductStory_parallax__hriNH",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ProductStory_parallax__hriNH",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ProductStory_parallax__hriNH",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ProductStory_parallax__hriNH",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ProductStory_parallax__hriNH",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ProductStory_parallax__hriNH",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ProductStory_parallax__hriNH",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ProductStory_parallax__hriNH",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ProductStory_parallax__hriNH",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 600,
+        "delay": 240,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 600,
+        "delay": 240,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 600,
+        "delay": 160,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 600,
+        "delay": 160,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 600,
+        "delay": 80,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 600,
+        "delay": 80,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 600,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 600,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 600,
+        "delay": 320,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 600,
+        "delay": 320,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 238.60400514901022,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 298.35639349032203,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 0,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 0,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "<link rel=preload> uses an unsupported `as` value"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A07020006C080000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-TP69LL8MSH&gtm=45je6a72v876704740za208zd876704740xf1&_p=1791625391835&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACAC&are=1&cid=1608088425.1791625392&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=10&sr=390x844&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=1&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=1&tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791625392&sct=1&seg=0&dl=https%3A%2F%2Fwww.seasats.com%2F&dt=Seasats%20%7C%20Ocean%20Autonomy%20That%20Works&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1158",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  }
+}

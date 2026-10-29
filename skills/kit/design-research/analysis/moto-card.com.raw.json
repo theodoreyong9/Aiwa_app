@@ -1,0 +1,1475 @@
+{
+  "url": "https://www.moto-card.com/",
+  "at": "2026-10-09T08:03:31.831Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 24250,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 1118,
+      "typography": {
+        "families": [
+          [
+            "Neuemontreal",
+            318
+          ]
+        ],
+        "weights": [
+          [
+            "500",
+            318
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            23
+          ]
+        ],
+        "sizeMin": 8,
+        "sizeMedian": 18,
+        "sizeMax": 64,
+        "sizeMaxVw": 4.4,
+        "scaleRatio": 3.6,
+        "letterSpacingMean": -0.003,
+        "loadedFonts": [
+          {
+            "family": "Neuemontreal",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Neuemontreal",
+            "weight": "500",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 318
+      },
+      "color": {
+        "background": "rgb(8, 8, 8)",
+        "backgroundLuminance": 0.0024282158683907,
+        "backgrounds": [
+          [
+            "rgb(255, 255, 255)",
+            3325
+          ],
+          [
+            "rgb(237, 239, 239)",
+            1944
+          ],
+          [
+            "rgb(8, 8, 8)",
+            1342
+          ],
+          [
+            "rgb(225, 229, 229)",
+            65
+          ],
+          [
+            "rgb(28, 34, 39)",
+            8
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(8, 8, 8)",
+            450
+          ],
+          [
+            "rgb(225, 229, 229)",
+            135
+          ],
+          [
+            "rgba(0, 0, 0, 0)",
+            114
+          ],
+          [
+            "rgb(255, 255, 255)",
+            29
+          ],
+          [
+            "rgb(192, 196, 198)",
+            17
+          ]
+        ],
+        "meanSaturation": 0.06,
+        "rootVars": {
+          "--_themes---background": "var(--_colors---dark)",
+          "--_text-style---font-family": "Neuemontreal,Arial,sans-serif",
+          "--_themes---text": "var(--_colors---light)",
+          "--text--body": "1.6rem",
+          "--_text-style---line-height": "1.3",
+          "--_text-style---font-weight": "500",
+          "--_text-style---letter-spacing": "-.003em",
+          "--_text-style---font-size": "var(--text--body)",
+          "--_colors---grey400": "#838a8f",
+          "--_colors---grey100": "#e1e5e5",
+          "--_colors---grey800": "#1c2227",
+          "--_colors---light": "#e1e5e5",
+          "--_colors---grey200": "#dfe3e3",
+          "--_colors---grey500": "#666f76",
+          "--_colors---grey300": "#c0c4c6",
+          "--text--text-small": "1.4rem",
+          "--_themes---nav_color": "var(--_colors---light)",
+          "--_colors---dark": "#080808",
+          "--padding-global": "3.2rem",
+          "--_colors---white": "white",
+          "--text--text-medium": "1.8rem",
+          "--text--text-large": "2rem",
+          "--_colors---transparent": "transparent",
+          "--_colors---grey700": "#20272c",
+          "--text--h3": "4.2rem",
+          "--_colors---grey01": "#1c2227",
+          "--_colors---black": "#000",
+          "--_colors---dark900": "#08080a",
+          "--padding-section": "12rem",
+          "--padding-section-m": "10rem",
+          "--padding-section-l": "8rem",
+          "--_font-family---heading": "Arial,\"Helvetica Neue\",Helvetica,sans-serif",
+          "--_font-family---body": "Arial,\"Helvetica Neue\",Helvetica,sans-serif",
+          "--container-nav": "100%",
+          "--container-large": "100%",
+          "--container-medium": "100rem",
+          "--container-small": "60rem",
+          "--text--h1": "6.4rem",
+          "--text--h2": "5.2rem",
+          "--text--h4": "2.4rem"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 4,
+        "sticky": 4,
+        "fixed": 3,
+        "grid": 3,
+        "flex": 103,
+        "absolute": 61,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 12016,
+        "pages": 13.4,
+        "spacing": [
+          [
+            8,
+            32
+          ],
+          [
+            16,
+            23
+          ],
+          [
+            18,
+            10
+          ],
+          [
+            24,
+            9
+          ],
+          [
+            12,
+            8
+          ],
+          [
+            32,
+            8
+          ],
+          [
+            62,
+            5
+          ],
+          [
+            10,
+            4
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 0,
+        "animationKinds": [],
+        "infiniteAnimations": 0,
+        "animationDurations": [],
+        "easings": [],
+        "transitionDurationsMs": [
+          [
+            200,
+            26
+          ],
+          [
+            300,
+            16
+          ],
+          [
+            500,
+            1
+          ]
+        ],
+        "keyframes": [
+          "spin"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 21,
+      "media": {
+        "canvases": [
+          {
+            "w": 1440,
+            "h": 900,
+            "area": 1
+          },
+          {
+            "w": 1440,
+            "h": 900,
+            "area": 1
+          },
+          {
+            "w": 1440,
+            "h": 1350,
+            "area": 1.5
+          }
+        ],
+        "videos": [
+          {
+            "autoplay": false,
+            "loop": false,
+            "muted": true,
+            "src": "https://properlystudio.s3.eu-central-1.amazonaws.com/Moto/MOTO_HERO_2.mp4"
+          }
+        ],
+        "svg": 18,
+        "images": 11,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 3,
+          "2d": 12
+        },
+        "raf": 374,
+        "io": 4,
+        "ro": 16,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": true,
+        "ScrollTrigger": true,
+        "THREE": false,
+        "Lenis": true,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": true,
+        "jQuery": true,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": true,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": true,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Moto Card | Homepage",
+      "lang": "en",
+      "description": "Visa Infinite card built for modern wealth. Zero FX fees globally, 24/7 concierge, exclusive access to hotels, dining & travel. $2,500/year membership."
+    },
+    "featuresBeforeScroll": {
+      "elements": 1118,
+      "canvases": 3,
+      "animations": 0,
+      "hidden": 29
+    },
+    "scrollReveal": 8,
+    "hover": {
+      "probed": 6,
+      "changed": 0
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 15243348,
+        "layoutCount": 2569,
+        "recalcStyleCount": 3281,
+        "scriptDuration": 0.90481,
+        "taskDuration": 22.852666,
+        "nodes": 5227
+      },
+      "timing": {
+        "domContentLoaded": 560,
+        "load": 3303,
+        "first-paint": 296,
+        "first-contentful-paint": 296
+      }
+    },
+    "network": [
+      {
+        "url": "https://www.moto-card.com/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 103502
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a7ad390f189a22016c86fa4/css/motoc333.webflow.shared.c6623ebfa.min.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 16821
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-1TWZG170K9",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 181259
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a46c3359aed934cfe0970a4/6a71ecc8578c5accef17ce52_xwdwdhdntevkcwuwzb3x.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 51219
+      },
+      {
+        "url": "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6a7ad390f189a22016c86fa4",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 31123
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a7ad390f189a22016c86fa4/js/webflow.a0aa6ca1.b7683852b8a60d8e.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 16843
+      },
+      {
+        "url": "https://unpkg.com/lenis@1.3.18/dist/lenis.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 5439
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15/dist/gsap.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 29790
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15/dist/ScrollTrigger.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 18470
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.15/dist/SplitText.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3792
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a7ad390f189a22016c86fa4/6a7ad390f189a22016c86fb1_NeueMontreal-Medium.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 15479
+      },
+      {
+        "url": "https://properlystudio.s3.eu-central-1.amazonaws.com/Moto/MOTO_HERO_2.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/three@0.181.1/build/three.webgpu.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 168963
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/three@0.181.1/build/three.tsl.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 6910
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/three@0.181.1/build/three.module.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 86476
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/three@0.181.1/examples/jsm/loaders/GLTFLoader.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 25727
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/three@0.181.1/build/three.core.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 100882
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/three@0.181.1/examples/jsm/utils/BufferGeometryUtils.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 8734
+      },
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-1TWZG170K9&gtm=45je6a72v9255307687za208zd9255307687xf1&_p=1791532970650&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGA&are=1&cid=39873554.1791532971&frm=0&pscdl=noapi&rcb=4&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&gaf=2&_s=1&tag_exp=115616985~115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791532970&sct=1&seg=0&dl=https%3A%2F%2Fwww.moto-card.com%2F&dt=Moto%20Card%20%7C%20Homepage&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=356",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false
+      },
+      {
+        "url": "https://stats.g.doubleclick.net/g/collect?v=2&tid=G-1TWZG170K9&cid=39873554.1791532971&gtm=45je6a72v9255307687za208zd9255307687xf1&rcb=4&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115616985~115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034",
+        "method": "POST",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 559
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a7ad390f189a22016c86fa4/6a7ad390f189a22016c86fb4_NeueMontreal-Regular.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 14478
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a4002cce4ba0d72bb35a7fc/6a418ffc9ea227a7c2e11171_day_2.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 315407
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a4002cce4ba0d72bb35a7fc/6a418ffc55c6edeb67368418_night_2.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 186175
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a4002cce4ba0d72bb35a7fc/6a418ffc495223e0854f7b13_clouds_2.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 566628
+      },
+      {
+        "url": "https://properlystudio.s3.eu-central-1.amazonaws.com/Moto/MOTO_HERO_2.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": true
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a4002cce4ba0d72bb35a7fc/6a419d9d55c6edeb6738f793_vertex_org.glsl.txt",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 1508
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a4002cce4ba0d72bb35a7fc/6a419d9dddc9f61fd450d1b2_fragment_org.glsl.txt",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 3748
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a46c3359aed934cfe0970a4/6a4c010cc007d929dffc9176_Assets2_1.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 19460
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a4002cce4ba0d72bb35a7fc/6a419b329ea227a7c2e3630e_Assets_1.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 54793
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a4002cce4ba0d72bb35a7fc/6a419b3290c3a10955f0c86f_Assets_10.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 44426
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a4002cce4ba0d72bb35a7fc/6a419b3206d920ee090f5448_Assets_6.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 43492
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a4002cce4ba0d72bb35a7fc/6a419b32a31cc01514d396db_Assets_9.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 52031
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a46c3359aed934cfe0970a4/6a4c010c751013119a29df6c_Assets2_6.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 13213
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a46c3359aed934cfe0970a4/6a4c010c7dd82845c83231a3_Assets2_7.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 17866
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a46c3359aed934cfe0970a4/6a4c010c9e9322ba2c69fa76_Assets2_8.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 13984
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a46c3359aed934cfe0970a4/6a4c010c54460e55b855b5d5_Assets2_9.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 23929
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a46c3359aed934cfe0970a4/6a4e250cad44c66422965137_Matcap_1K_300DPI.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 182483
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a4002cce4ba0d72bb35a7fc/6a419ebd1cb78872d95d7ade_uv-map-card.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 238510
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a4002cce4ba0d72bb35a7fc/6a419d95a0e5b784ac54bf73_card2kvert.glb.txt",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 32085
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a7ad390f189a22016c86fa4/6a7ad390f189a22016c86ff5_concierge-p-1600.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 12994
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a7ad390f189a22016c86fa4/6a7ad390f189a22016c87014_pool-p-1600.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 47569
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a7ad390f189a22016c86fa4/6a7ad390f189a22016c86fd5_made%2520(3)-p-1600.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 29952
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a7ad390f189a22016c86fa4/6a7ad390f189a22016c86fcd_made%2520(2)-p-1600.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 17032
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a7ad390f189a22016c86fa4/6a7ad390f189a22016c87038_made%2520(5)-p-1600.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 42591
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a7ad390f189a22016c86fa4/6a7ad390f189a22016c87010_made%2520(1)-p-1600.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 145344
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a7ad390f189a22016c86fa4/6a7ad390f189a22016c87019_made%2520(4)-p-1600.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 25259
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a7ad390f189a22016c86fa4/6a7ad390f189a22016c87035_luxury-p-1600.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 43532
+      },
+      {
+        "url": "https://challenges.cloudflare.com/turnstile/v0/g/4df4a60fa397/api.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 28260
+      },
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-1TWZG170K9&gtm=45je6a72v9255307687za200zd9255307687xf1&_p=1791532970650&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAGQ&ae=a&are=1&cid=39873554.1791532971&frm=0&pscdl=noapi&rcb=4&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&gaf=2&_s=2&tag_exp=115616985~115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791532970&sct=1&seg=1&dl=https%3A%2F%2Fwww.moto-card.com%2F&dt=Moto%20Card%20%7C%20Homepage&en=scroll&epn.percent_scrolled=90&_et=17402&tfd=22789",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 0,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0702000543A0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x8cc00132e00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x8cc00132e00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x8cc00132e00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x8cc00132e00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0D02000543A0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A040BC0D543A0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://properlystudio.s3.eu-central-1.amazonaws.com/Moto/MOTO_HERO_2.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-1TWZG170K9&gtm=45je6a72v9255307687za208zd9255307687xf1&_p=1791532970650&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGA&are=1&cid=39873554.1791532971&frm=0&pscdl=noapi&rcb=4&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&gaf=2&_s=1&tag_exp=115616985~115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791532970&sct=1&seg=0&dl=https%3A%2F%2Fwww.moto-card.com%2F&dt=Moto%20Card%20%7C%20Homepage&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=356",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://properlystudio.s3.eu-central-1.amazonaws.com/Moto/MOTO_HERO_2.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-1TWZG170K9&gtm=45je6a72v9255307687za200zd9255307687xf1&_p=1791532970650&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAGQ&ae=a&are=1&cid=39873554.1791532971&frm=0&pscdl=noapi&rcb=4&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&gaf=2&_s=2&tag_exp=115616985~115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791532970&sct=1&seg=1&dl=https%3A%2F%2Fwww.moto-card.com%2F&dt=Moto%20Card%20%7C%20Homepage&en=scroll&epn.percent_scrolled=90&_et=17402&tfd=22789",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 17007,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 1367,
+      "typography": {
+        "families": [
+          [
+            "Neuemontreal",
+            405
+          ]
+        ],
+        "weights": [
+          [
+            "500",
+            405
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            22
+          ]
+        ],
+        "sizeMin": 10.374,
+        "sizeMedian": 12.4488,
+        "sizeMax": 37.3464,
+        "sizeMaxVw": 9.6,
+        "scaleRatio": 3,
+        "letterSpacingMean": -0.003,
+        "loadedFonts": [
+          {
+            "family": "Neuemontreal",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Neuemontreal",
+            "weight": "500",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 405
+      },
+      "color": {
+        "background": "rgb(8, 8, 8)",
+        "backgroundLuminance": 0.0024282158683907,
+        "backgrounds": [
+          [
+            "rgb(255, 255, 255)",
+            955
+          ],
+          [
+            "rgb(237, 239, 239)",
+            405
+          ],
+          [
+            "rgb(8, 8, 8)",
+            394
+          ],
+          [
+            "rgb(225, 229, 229)",
+            50
+          ],
+          [
+            "rgb(28, 34, 39)",
+            15
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(8, 8, 8)",
+            699
+          ],
+          [
+            "rgb(225, 229, 229)",
+            136
+          ],
+          [
+            "rgba(0, 0, 0, 0)",
+            114
+          ],
+          [
+            "rgb(255, 255, 255)",
+            36
+          ],
+          [
+            "rgb(192, 196, 198)",
+            17
+          ]
+        ],
+        "meanSaturation": 0.06,
+        "rootVars": {
+          "--_themes---background": "var(--_colors---dark)",
+          "--_text-style---font-family": "Neuemontreal,Arial,sans-serif",
+          "--_themes---text": "var(--_colors---light)",
+          "--text--body": "1.6rem",
+          "--_text-style---line-height": "1.3",
+          "--_text-style---font-weight": "500",
+          "--_text-style---letter-spacing": "-.003em",
+          "--_text-style---font-size": "var(--text--body)",
+          "--_colors---grey400": "#838a8f",
+          "--_colors---grey100": "#e1e5e5",
+          "--_colors---grey800": "#1c2227",
+          "--_colors---light": "#e1e5e5",
+          "--_colors---grey200": "#dfe3e3",
+          "--_colors---grey500": "#666f76",
+          "--_colors---grey300": "#c0c4c6",
+          "--text--text-small": "1.4rem",
+          "--_themes---nav_color": "var(--_colors---light)",
+          "--_colors---dark": "#080808",
+          "--padding-global": "3.2rem",
+          "--_colors---white": "white",
+          "--text--text-medium": "1.8rem",
+          "--text--text-large": "2rem",
+          "--_colors---transparent": "transparent",
+          "--_colors---grey700": "#20272c",
+          "--text--h3": "4.2rem",
+          "--_colors---grey01": "#1c2227",
+          "--_colors---black": "#000",
+          "--_colors---dark900": "#08080a",
+          "--padding-section": "12rem",
+          "--padding-section-m": "10rem",
+          "--padding-section-l": "8rem",
+          "--_font-family---heading": "Arial,\"Helvetica Neue\",Helvetica,sans-serif",
+          "--_font-family---body": "Arial,\"Helvetica Neue\",Helvetica,sans-serif",
+          "--container-nav": "100%",
+          "--container-large": "100%",
+          "--container-medium": "100rem",
+          "--container-small": "60rem",
+          "--text--h1": "6.4rem",
+          "--text--h2": "5.2rem",
+          "--text--h4": "2.4rem"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 4,
+        "sticky": 4,
+        "fixed": 3,
+        "grid": 3,
+        "flex": 103,
+        "absolute": 62,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 11291,
+        "pages": 13.4,
+        "spacing": [
+          [
+            8,
+            31
+          ],
+          [
+            17,
+            25
+          ],
+          [
+            25,
+            15
+          ],
+          [
+            15,
+            13
+          ],
+          [
+            33,
+            11
+          ],
+          [
+            12,
+            9
+          ],
+          [
+            10,
+            5
+          ],
+          [
+            87,
+            4
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 0,
+        "animationKinds": [],
+        "infiniteAnimations": 0,
+        "animationDurations": [],
+        "easings": [],
+        "transitionDurationsMs": [
+          [
+            200,
+            26
+          ],
+          [
+            300,
+            16
+          ],
+          [
+            500,
+            1
+          ]
+        ],
+        "keyframes": [
+          "spin"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 23,
+      "media": {
+        "canvases": [
+          {
+            "w": 585,
+            "h": 1266,
+            "area": 1
+          },
+          {
+            "w": 780,
+            "h": 1688,
+            "area": 1
+          },
+          {
+            "w": 390,
+            "h": 1037,
+            "area": 1.23
+          }
+        ],
+        "videos": [
+          {
+            "autoplay": false,
+            "loop": false,
+            "muted": true,
+            "src": "https://properlystudio.s3.eu-central-1.amazonaws.com/Moto/MOTO_HERO_2.mp4"
+          }
+        ],
+        "svg": 18,
+        "images": 11,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 3,
+          "2d": 12
+        },
+        "raf": 386,
+        "io": 4,
+        "ro": 16,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": true,
+        "ScrollTrigger": true,
+        "THREE": false,
+        "Lenis": true,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": true,
+        "jQuery": true,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": true,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": true,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Moto Card | Homepage",
+      "lang": "en",
+      "description": "Visa Infinite card built for modern wealth. Zero FX fees globally, 24/7 concierge, exclusive access to hotels, dining & travel. $2,500/year membership."
+    },
+    "featuresBeforeScroll": {
+      "elements": 1367,
+      "canvases": 3,
+      "animations": 0,
+      "hidden": 30
+    },
+    "scrollReveal": 7,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 14865532,
+        "layoutCount": 1727,
+        "recalcStyleCount": 2409,
+        "scriptDuration": 0.799129,
+        "taskDuration": 16.793657,
+        "nodes": 2378
+      },
+      "timing": {
+        "domContentLoaded": 432,
+        "load": 2574,
+        "first-paint": 160,
+        "first-contentful-paint": 160
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0702000543A0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0A0BC0D543A0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A040BC0D543A0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://properlystudio.s3.eu-central-1.amazonaws.com/Moto/MOTO_HERO_2.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-1TWZG170K9&gtm=45je6a72v9255307687za208zd9255307687xf1&_p=1791532994896&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGA&are=1&cid=1185349623.1791532995&frm=0&pscdl=noapi&rcb=6&sr=390x844&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=1&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&gaf=2&_s=1&tag_exp=115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791532995&sct=1&seg=0&dl=https%3A%2F%2Fwww.moto-card.com%2F&dt=Moto%20Card%20%7C%20Homepage&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=207",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://properlystudio.s3.eu-central-1.amazonaws.com/Moto/MOTO_HERO_2.mp4",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  }
+}

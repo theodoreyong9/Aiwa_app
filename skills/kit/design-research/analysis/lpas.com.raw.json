@@ -1,0 +1,1666 @@
+{
+  "url": "https://lpas.com/",
+  "at": "2026-10-10T09:04:47.404Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 10606,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 685,
+      "typography": {
+        "families": [
+          [
+            "Aeonik",
+            99
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            93
+          ],
+          [
+            "600",
+            6
+          ]
+        ],
+        "textTransforms": [],
+        "sizeMin": 12,
+        "sizeMedian": 16,
+        "sizeMax": 75,
+        "sizeMaxVw": 5.2,
+        "scaleRatio": 4.7,
+        "letterSpacingMean": 0,
+        "loadedFonts": [
+          {
+            "family": "Aeonik",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Aeonik",
+            "weight": "600",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 99
+      },
+      "color": {
+        "background": "rgb(255, 255, 255)",
+        "backgroundLuminance": 1,
+        "backgrounds": [
+          [
+            "rgb(255, 255, 255)",
+            6951
+          ],
+          [
+            "rgb(38, 38, 38)",
+            2197
+          ],
+          [
+            "rgb(98, 86, 83)",
+            347
+          ],
+          [
+            "rgb(146, 84, 52)",
+            347
+          ],
+          [
+            "rgb(201, 211, 223)",
+            347
+          ],
+          [
+            "rgb(112, 117, 105)",
+            347
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(255, 255, 255)",
+            145
+          ],
+          [
+            "rgb(17, 17, 17)",
+            83
+          ],
+          [
+            "rgb(38, 38, 38)",
+            69
+          ],
+          [
+            "rgb(116, 116, 116)",
+            49
+          ],
+          [
+            "rgb(0, 0, 0)",
+            5
+          ]
+        ],
+        "meanSaturation": 0.17,
+        "rootVars": {
+          "--wp--preset--aspect-ratio--square": "1",
+          "--wp--preset--aspect-ratio--4-3": "4/3",
+          "--wp--preset--aspect-ratio--3-4": "3/4",
+          "--wp--preset--aspect-ratio--3-2": "3/2",
+          "--wp--preset--aspect-ratio--2-3": "2/3",
+          "--wp--preset--aspect-ratio--16-9": "16/9",
+          "--wp--preset--aspect-ratio--9-16": "9/16",
+          "--wp--preset--color--black": "#000000",
+          "--wp--preset--color--cyan-bluish-gray": "#abb8c3",
+          "--wp--preset--color--white": "#ffffff",
+          "--wp--preset--color--pale-pink": "#f78da7",
+          "--wp--preset--color--vivid-red": "#cf2e2e",
+          "--wp--preset--color--luminous-vivid-orange": "#ff6900",
+          "--wp--preset--color--luminous-vivid-amber": "#fcb900",
+          "--wp--preset--color--light-green-cyan": "#7bdcb5",
+          "--wp--preset--color--vivid-green-cyan": "#00d084",
+          "--wp--preset--color--pale-cyan-blue": "#8ed1fc",
+          "--wp--preset--color--vivid-cyan-blue": "#0693e3",
+          "--wp--preset--color--vivid-purple": "#9b51e0",
+          "--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple": "linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%)",
+          "--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan": "linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%)",
+          "--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange": "linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%)",
+          "--wp--preset--gradient--luminous-vivid-orange-to-vivid-red": "linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%)",
+          "--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray": "linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%)",
+          "--wp--preset--gradient--cool-to-warm-spectrum": "linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%)",
+          "--wp--preset--gradient--blush-light-purple": "linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%)",
+          "--wp--preset--gradient--blush-bordeaux": "linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%)",
+          "--wp--preset--gradient--luminous-dusk": "linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%)",
+          "--wp--preset--gradient--pale-ocean": "linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%)",
+          "--wp--preset--gradient--electric-grass": "linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%)",
+          "--wp--preset--gradient--midnight": "linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%)",
+          "--wp--preset--font-size--small": "13px",
+          "--wp--preset--font-size--medium": "20px",
+          "--wp--preset--font-size--large": "36px",
+          "--wp--preset--font-size--x-large": "42px",
+          "--wp--preset--spacing--20": "0.44rem",
+          "--wp--preset--spacing--30": "0.67rem",
+          "--wp--preset--spacing--40": "1rem",
+          "--wp--preset--spacing--50": "1.5rem",
+          "--wp--preset--spacing--60": "2.25rem"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 7,
+        "sticky": 6,
+        "fixed": 4,
+        "grid": 44,
+        "flex": 146,
+        "absolute": 103,
+        "asymmetricGrids": 7,
+        "splitScreen": false,
+        "scrollHeight": 9363,
+        "pages": 10.4,
+        "spacing": [
+          [
+            3,
+            27
+          ],
+          [
+            2,
+            22
+          ],
+          [
+            10,
+            15
+          ],
+          [
+            15,
+            13
+          ],
+          [
+            7,
+            12
+          ],
+          [
+            25,
+            10
+          ],
+          [
+            12,
+            6
+          ],
+          [
+            40,
+            5
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 0,
+        "animationKinds": [],
+        "infiniteAnimations": 0,
+        "animationDurations": [],
+        "easings": [],
+        "transitionDurationsMs": [
+          [
+            300,
+            121
+          ],
+          [
+            1200,
+            6
+          ],
+          [
+            200,
+            3
+          ],
+          [
+            500,
+            1
+          ],
+          [
+            100,
+            1
+          ]
+        ],
+        "keyframes": [
+          "fadeIn",
+          "moveDown",
+          "moveLeft",
+          "mobileMenuSlideIn",
+          "menuItemsFadeIn",
+          "menuItemsFadeInReverse",
+          "popupFadeIn",
+          "textAnimation",
+          "rotate",
+          "rotateReverse",
+          "swiper-preloader-spin"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 38,
+      "media": {
+        "canvases": [],
+        "videos": [
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://player.vimeo.com/progressive_redirect/playback/1147329730/rendition/1080p/file.mp4%20%281080p%29.mp4?loc=external&log_user=0&signature=c85431f7a84c6831e"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://player.vimeo.com/progressive_redirect/playback/1147329730/rendition/1080p/file.mp4%20%281080p%29.mp4?loc=external&log_user=0&signature=c85431f7a84c6831e"
+          }
+        ],
+        "svg": 38,
+        "images": 23,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {},
+        "raf": 811,
+        "io": 3,
+        "ro": 1,
+        "mo": 2,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": true,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "LPAS - Architecture and Interiors",
+      "lang": "en",
+      "description": "Clear Process. Creative Results. Human-centered. Always Curious. At LPAS, we design with people at the center and purpose at every turn."
+    },
+    "featuresBeforeScroll": {
+      "elements": 685,
+      "canvases": 0,
+      "animations": 0,
+      "hidden": 39
+    },
+    "scrollReveal": 1,
+    "hover": {
+      "probed": 6,
+      "changed": 0
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 4749848,
+        "layoutCount": 466,
+        "recalcStyleCount": 1282,
+        "scriptDuration": 0.15622,
+        "taskDuration": 1.017702,
+        "nodes": 3197
+      },
+      "timing": {
+        "domContentLoaded": 947,
+        "load": 1092,
+        "first-paint": 904,
+        "first-contentful-paint": 904
+      }
+    },
+    "network": [
+      {
+        "url": "https://lpas.com/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 14738
+      },
+      {
+        "url": "https://lpas.com/wp-content/themes/lpas/dist/assets/main-DN-9Dm9S.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 24093
+      },
+      {
+        "url": "https://lpas.com/wp-content/uploads/2025/12/LPAS-office-thumbnail.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 157710
+      },
+      {
+        "url": "https://lpas.com/wp-content/uploads/resized/2025/12/08_The-Emery-1280x849-c-default.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 134496
+      },
+      {
+        "url": "https://lpas.com/wp-content/uploads/2025/12/08_The-Emery.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 599501
+      },
+      {
+        "url": "https://lpas.com/wp-content/uploads/resized/2025/12/12_Block-52_Madison-by-Lennar-1280x873-c-default.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 128647
+      },
+      {
+        "url": "https://lpas.com/wp-content/uploads/2025/12/12_Block-52_Madison-by-Lennar.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 627861
+      },
+      {
+        "url": "https://lpas.com/wp-content/uploads/resized/2025/09/lpas_image-13-1280x794-c-default.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 114364
+      },
+      {
+        "url": "https://lpas.com/wp-content/uploads/2025/09/lpas_image-13.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 999852
+      },
+      {
+        "url": "https://lpas.com/wp-content/uploads/resized/2025/12/16_316-Vernon-1280x854-c-default.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 113711
+      },
+      {
+        "url": "https://lpas.com/wp-content/uploads/2025/12/16_316-Vernon.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 518991
+      },
+      {
+        "url": "https://lpas.com/wp-content/uploads/resized/2026/01/20_UCDH_Folsom-MOB_FULLSIZE-1280x854-c-default.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 71794
+      },
+      {
+        "url": "https://lpas.com/wp-content/uploads/2026/01/20_UCDH_Folsom-MOB_FULLSIZE.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 408480
+      },
+      {
+        "url": "https://lpas.com/wp-content/uploads/resized/2025/12/05_LAS-POSITAS-COLLEGE-ACADEMIC-SUPPORT-1280x800-c-default.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 74727
+      },
+      {
+        "url": "https://lpas.com/wp-content/uploads/resized/2025/12/DJI_0490_1-1280x800-c-default.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 107178
+      },
+      {
+        "url": "https://lpas.com/wp-content/uploads/resized/2025/12/18_UCDH_Folsom-MOB_FULLSIZE-1280x800-c-default.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 97683
+      },
+      {
+        "url": "https://lpas.com/wp-content/uploads/resized/2025/12/05_FREDERIC_Storefront-1280x800-c-default.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 215792
+      },
+      {
+        "url": "https://lpas.com/wp-content/uploads/resized/2025/12/02_CHP-Truckee-1280x800-c-default.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 91362
+      },
+      {
+        "url": "https://lpas.com/wp-content/uploads/resized/2025/12/11_The-Emery-1280x800-c-default.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 95059
+      },
+      {
+        "url": "https://lpas.com/wp-content/uploads/resized/2026/09/817986059_18448064140120770_8337615571414988691_n-1000x1000-c-default.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 100373
+      },
+      {
+        "url": "https://lpas.com/wp-content/uploads/resized/2026/05/705860006_18427634425120770_8881473772530157572_n-1000x1000-c-default.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 107489
+      },
+      {
+        "url": "https://lpas.com/wp-content/uploads/resized/2026/05/690281835_18426242710120770_3696790314565088558_n-1000x1000-c-default.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 67813
+      },
+      {
+        "url": "https://lpas.com/wp-content/uploads/resized/2026/03/656239942_18419359891120770_8400189846813213265_n-1000x1000-c-default.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 86589
+      },
+      {
+        "url": "https://lpas.com/wp-content/uploads/resized/2026/03/653667598_18417016015120770_3431999040994783478_n-1000x1000-c-default.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 67297
+      },
+      {
+        "url": "https://lpas.com/wp-content/uploads/resized/2026/03/650368596_18416242555120770_3751658863105406351_n-1000x1250-c-default.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 27563
+      },
+      {
+        "url": "https://lpas.com/wp-content/uploads/resized/2025/10/12_Block-52_Madison-by-Lennar-1600x1091-c-default.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 184161
+      },
+      {
+        "url": "https://lpas.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1013
+      },
+      {
+        "url": "https://lpas.com/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4526
+      },
+      {
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 10438
+      },
+      {
+        "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/e8943817-0bbf-4cce-87ef-3561163c57cc/c3ddf323?__token__=st=1791623070~exp=1791626670~acl=%2Fv3-1%2Fplayback%2Fe8943817-0bbf-4cce-87ef-3561163c57cc%2Fc3ddf323%2A~hmac=be174d42fe910784797025a6dd2ff3b69af6443e35a6983d2a2955ec31ddeb67&r=dXMtd2VzdDE%3D",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/e8943817-0bbf-4cce-87ef-3561163c57cc/c3ddf323?__token__=st=1791623070~exp=1791626670~acl=%2Fv3-1%2Fplayback%2Fe8943817-0bbf-4cce-87ef-3561163c57cc%2Fc3ddf323%2A~hmac=be174d42fe910784797025a6dd2ff3b69af6443e35a6983d2a2955ec31ddeb67&r=dXMtd2VzdDE%3D",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://lpas.com/wp-content/themes/lpas/dist/assets/aeonik-regular-DSAxWCt1.woff",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff",
+        "fromCache": false,
+        "bytes": 62795
+      },
+      {
+        "url": "https://lpas.com/wp-content/themes/lpas/dist/assets/aeonik-semibold-B5O2lxMW.woff",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff",
+        "fromCache": false,
+        "bytes": 65857
+      },
+      {
+        "url": "https://lpas.com/wp-content/themes/lpas/dist/assets/main-DWS2mxMG.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 31535
+      },
+      {
+        "url": "https://lpas.com/wp-content/themes/lpas/dist/assets/lenisSmooth-BjXMsNId.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 49641
+      },
+      {
+        "url": "https://lpas.com/wp-content/themes/lpas/dist/assets/preloader-CQAQSTAa.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 2032
+      },
+      {
+        "url": "https://lpas.com/wp-content/themes/lpas/dist/assets/swup-config-DoT-9FzL.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 20348
+      },
+      {
+        "url": "https://lpas.com/wp-content/themes/lpas/dist/assets/swup-config-DoT-9FzL.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://lpas.com/wp-content/themes/lpas/dist/assets/lenisSmooth-BjXMsNId.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://lpas.com/cdn-cgi/rum?",
+        "method": "POST",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 443
+      },
+      {
+        "url": "https://lpas.com/cdn-cgi/rum?",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 441
+      },
+      {
+        "url": "https://lpas.com/",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 14761
+      },
+      {
+        "url": "https://lpas.com/wp-content/themes/lpas/dist/assets/preloader-CQAQSTAa.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://lpas.com/wp-content/themes/lpas/dist/assets/main-DWS2mxMG.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://lpas.com/markets/housing/",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 11840
+      },
+      {
+        "url": "https://lpas.com/markets/interiors/",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 14130
+      },
+      {
+        "url": "https://lpas.com/markets/higher-education/",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 14351
+      },
+      {
+        "url": "https://lpas.com/markets/civic/",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 13910
+      },
+      {
+        "url": "https://lpas.com/wp-content/themes/lpas/dist/assets/lazysizes-C0vKx_vK.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 4135
+      },
+      {
+        "url": "https://lpas.com/wp-content/themes/lpas/dist/assets/script-BomCnNGM.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 565
+      },
+      {
+        "url": "https://lpas.com/cdn-cgi/rum?",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 444
+      },
+      {
+        "url": "https://lpas.com/wp-content/themes/lpas/dist/assets/script-Cs4glhUL.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 2789
+      },
+      {
+        "url": "https://lpas.com/wp-content/themes/lpas/dist/assets/script-DoQXF3qS.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 2480
+      },
+      {
+        "url": "https://lpas.com/wp-content/themes/lpas/dist/assets/Blob-PIMT988S.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 2062
+      },
+      {
+        "url": "https://lpas.com/wp-content/themes/lpas/dist/assets/script-DUUXO7Pa.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 838
+      },
+      {
+        "url": "https://lpas.com/wp-content/themes/lpas/dist/assets/script-MiDKs2Qq.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 918
+      },
+      {
+        "url": "https://lpas.com/wp-content/themes/lpas/dist/assets/script-DKdctIRy.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1193
+      },
+      {
+        "url": "https://lpas.com/wp-content/themes/lpas/dist/assets/script-OFD2mxQn.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1249
+      },
+      {
+        "url": "https://lpas.com/markets/commercial/",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 13973
+      },
+      {
+        "url": "https://lpas.com/markets/housing/affordable-housing/",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 14285
+      },
+      {
+        "url": "https://lpas.com/markets/housing/market-rate-housing/",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 14116
+      },
+      {
+        "url": "https://lpas.com/wp-content/themes/lpas/dist/assets/aeonik-light-CEYRpx_s.woff",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff",
+        "fromCache": false,
+        "bytes": 63328
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSTransition",
+        "name": "border-bottom-left-radius",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.13, 0.99)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-bottom-right-radius",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.13, 0.99)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-top-left-radius",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.13, 0.99)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-top-right-radius",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.13, 0.99)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "width",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.13, 0.99)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 300,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-bottom-left-radius",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.13, 0.99)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-bottom-right-radius",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.13, 0.99)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-top-left-radius",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.13, 0.99)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-top-right-radius",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.13, 0.99)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "width",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.13, 0.99)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "scale",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.13, 0.99)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-bottom-left-radius",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.13, 0.99)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-bottom-right-radius",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.13, 0.99)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.13, 0.99)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-top-left-radius",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.13, 0.99)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-top-right-radius",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.13, 0.99)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "top",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.13, 0.99)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.13, 0.99)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.13, 0.99)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-bottom-left-radius",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.13, 0.99)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-bottom-right-radius",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.13, 0.99)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.13, 0.99)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-top-left-radius",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.13, 0.99)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-top-right-radius",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.13, 0.99)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "top",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.13, 0.99)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.13, 0.99)"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "A preload for 'https://lpas.com/wp-content/themes/lpas/dist/assets/swup-config-DoT-9FzL.js' is found, but is not used because the request credentials mode does not match. Consider taking a look at cro"
+      },
+      {
+        "level": "warning",
+        "text": "A preload for 'https://lpas.com/wp-content/themes/lpas/dist/assets/lenisSmooth-BjXMsNId.js' is found, but is not used because the request credentials mode does not match. Consider taking a look at cro"
+      },
+      {
+        "level": "warning",
+        "text": "A preload for 'https://lpas.com/wp-content/themes/lpas/dist/assets/preloader-CQAQSTAa.js' is found, but is not used because the request credentials mode does not match. Consider taking a look at cross"
+      },
+      {
+        "level": "warning",
+        "text": "A preload for 'https://lpas.com/wp-content/themes/lpas/dist/assets/main-DWS2mxMG.js' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigi"
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://lpas.com/wp-content/themes/lpas/dist/assets/main-DWS2mxMG.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it h"
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://lpas.com/wp-content/themes/lpas/dist/assets/lenisSmooth-BjXMsNId.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make su"
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://lpas.com/wp-content/themes/lpas/dist/assets/preloader-CQAQSTAa.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure"
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://lpas.com/wp-content/themes/lpas/dist/assets/swup-config-DoT-9FzL.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make su"
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/e8943817-0bbf-4cce-87ef-3561163c57cc/c3ddf323?__token__=st=1791623070~exp=1791626670~acl=%2Fv3-1%2Fplayback%2Fe8943817-0bbf-4cce-87ef-3561163c57cc%2Fc3ddf323%2A~hmac=be174d42fe910784797025a6dd2ff3b69af6443e35a6983d2a2955ec31ddeb67&r=dXMtd2VzdDE%3D",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/e8943817-0bbf-4cce-87ef-3561163c57cc/c3ddf323?__token__=st=1791623070~exp=1791626670~acl=%2Fv3-1%2Fplayback%2Fe8943817-0bbf-4cce-87ef-3561163c57cc%2Fc3ddf323%2A~hmac=be174d42fe910784797025a6dd2ff3b69af6443e35a6983d2a2955ec31ddeb67&r=dXMtd2VzdDE%3D",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 6940,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 683,
+      "typography": {
+        "families": [
+          [
+            "Aeonik",
+            97
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            91
+          ],
+          [
+            "600",
+            6
+          ]
+        ],
+        "textTransforms": [],
+        "sizeMin": 12,
+        "sizeMedian": 16,
+        "sizeMax": 46,
+        "sizeMaxVw": 11.8,
+        "scaleRatio": 2.9,
+        "letterSpacingMean": 0,
+        "loadedFonts": [
+          {
+            "family": "Aeonik",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Aeonik",
+            "weight": "600",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 97
+      },
+      "color": {
+        "background": "rgb(255, 255, 255)",
+        "backgroundLuminance": 1,
+        "backgrounds": [
+          [
+            "rgb(255, 255, 255)",
+            1801
+          ],
+          [
+            "rgb(38, 38, 38)",
+            698
+          ],
+          [
+            "rgb(98, 86, 83)",
+            107
+          ],
+          [
+            "rgb(146, 84, 52)",
+            107
+          ],
+          [
+            "rgb(201, 211, 223)",
+            107
+          ],
+          [
+            "rgb(112, 117, 105)",
+            107
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(255, 255, 255)",
+            135
+          ],
+          [
+            "rgb(17, 17, 17)",
+            82
+          ],
+          [
+            "rgb(38, 38, 38)",
+            71
+          ],
+          [
+            "rgb(116, 116, 116)",
+            55
+          ],
+          [
+            "rgb(0, 0, 0)",
+            5
+          ]
+        ],
+        "meanSaturation": 0.17,
+        "rootVars": {
+          "--wp--preset--aspect-ratio--square": "1",
+          "--wp--preset--aspect-ratio--4-3": "4/3",
+          "--wp--preset--aspect-ratio--3-4": "3/4",
+          "--wp--preset--aspect-ratio--3-2": "3/2",
+          "--wp--preset--aspect-ratio--2-3": "2/3",
+          "--wp--preset--aspect-ratio--16-9": "16/9",
+          "--wp--preset--aspect-ratio--9-16": "9/16",
+          "--wp--preset--color--black": "#000000",
+          "--wp--preset--color--cyan-bluish-gray": "#abb8c3",
+          "--wp--preset--color--white": "#ffffff",
+          "--wp--preset--color--pale-pink": "#f78da7",
+          "--wp--preset--color--vivid-red": "#cf2e2e",
+          "--wp--preset--color--luminous-vivid-orange": "#ff6900",
+          "--wp--preset--color--luminous-vivid-amber": "#fcb900",
+          "--wp--preset--color--light-green-cyan": "#7bdcb5",
+          "--wp--preset--color--vivid-green-cyan": "#00d084",
+          "--wp--preset--color--pale-cyan-blue": "#8ed1fc",
+          "--wp--preset--color--vivid-cyan-blue": "#0693e3",
+          "--wp--preset--color--vivid-purple": "#9b51e0",
+          "--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple": "linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%)",
+          "--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan": "linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%)",
+          "--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange": "linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%)",
+          "--wp--preset--gradient--luminous-vivid-orange-to-vivid-red": "linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%)",
+          "--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray": "linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%)",
+          "--wp--preset--gradient--cool-to-warm-spectrum": "linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%)",
+          "--wp--preset--gradient--blush-light-purple": "linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%)",
+          "--wp--preset--gradient--blush-bordeaux": "linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%)",
+          "--wp--preset--gradient--luminous-dusk": "linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%)",
+          "--wp--preset--gradient--pale-ocean": "linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%)",
+          "--wp--preset--gradient--electric-grass": "linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%)",
+          "--wp--preset--gradient--midnight": "linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%)",
+          "--wp--preset--font-size--small": "13px",
+          "--wp--preset--font-size--medium": "20px",
+          "--wp--preset--font-size--large": "36px",
+          "--wp--preset--font-size--x-large": "42px",
+          "--wp--preset--spacing--20": "0.44rem",
+          "--wp--preset--spacing--30": "0.67rem",
+          "--wp--preset--spacing--40": "1rem",
+          "--wp--preset--spacing--50": "1.5rem",
+          "--wp--preset--spacing--60": "2.25rem"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 8,
+        "sticky": 3,
+        "fixed": 3,
+        "grid": 44,
+        "flex": 138,
+        "absolute": 96,
+        "asymmetricGrids": 18,
+        "splitScreen": false,
+        "scrollHeight": 8025,
+        "pages": 9.5,
+        "spacing": [
+          [
+            3,
+            27
+          ],
+          [
+            2,
+            22
+          ],
+          [
+            10,
+            14
+          ],
+          [
+            15,
+            13
+          ],
+          [
+            7,
+            12
+          ],
+          [
+            30,
+            12
+          ],
+          [
+            20,
+            8
+          ],
+          [
+            25,
+            7
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 0,
+        "animationKinds": [],
+        "infiniteAnimations": 0,
+        "animationDurations": [],
+        "easings": [],
+        "transitionDurationsMs": [
+          [
+            300,
+            106
+          ],
+          [
+            1200,
+            6
+          ],
+          [
+            200,
+            3
+          ],
+          [
+            500,
+            1
+          ]
+        ],
+        "keyframes": [
+          "fadeIn",
+          "moveDown",
+          "moveLeft",
+          "mobileMenuSlideIn",
+          "menuItemsFadeIn",
+          "menuItemsFadeInReverse",
+          "popupFadeIn",
+          "textAnimation",
+          "rotate",
+          "rotateReverse",
+          "swiper-preloader-spin"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 38,
+      "media": {
+        "canvases": [],
+        "videos": [
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://player.vimeo.com/progressive_redirect/playback/1147329730/rendition/1080p/file.mp4%20%281080p%29.mp4?loc=external&log_user=0&signature=c85431f7a84c6831e"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://player.vimeo.com/progressive_redirect/playback/1147329730/rendition/1080p/file.mp4%20%281080p%29.mp4?loc=external&log_user=0&signature=c85431f7a84c6831e"
+          }
+        ],
+        "svg": 38,
+        "images": 23,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {},
+        "raf": 764,
+        "io": 3,
+        "ro": 1,
+        "mo": 2,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": true,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "LPAS - Architecture and Interiors",
+      "lang": "en",
+      "description": "Clear Process. Creative Results. Human-centered. Always Curious. At LPAS, we design with people at the center and purpose at every turn."
+    },
+    "featuresBeforeScroll": {
+      "elements": 683,
+      "canvases": 0,
+      "animations": 0,
+      "hidden": 38
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 4278004,
+        "layoutCount": 162,
+        "recalcStyleCount": 554,
+        "scriptDuration": 0.097144,
+        "taskDuration": 0.615903,
+        "nodes": 2502
+      },
+      "timing": {
+        "domContentLoaded": 868,
+        "load": 1113,
+        "first-paint": 812,
+        "first-contentful-paint": 812
+      }
+    },
+    "animationsReported": [],
+    "console": [
+      {
+        "level": "warning",
+        "text": "A preload for 'https://lpas.com/wp-content/themes/lpas/dist/assets/swup-config-DoT-9FzL.js' is found, but is not used because the request credentials mode does not match. Consider taking a look at cro"
+      },
+      {
+        "level": "warning",
+        "text": "A preload for 'https://lpas.com/wp-content/themes/lpas/dist/assets/lenisSmooth-BjXMsNId.js' is found, but is not used because the request credentials mode does not match. Consider taking a look at cro"
+      },
+      {
+        "level": "warning",
+        "text": "A preload for 'https://lpas.com/wp-content/themes/lpas/dist/assets/preloader-CQAQSTAa.js' is found, but is not used because the request credentials mode does not match. Consider taking a look at cross"
+      },
+      {
+        "level": "warning",
+        "text": "A preload for 'https://lpas.com/wp-content/themes/lpas/dist/assets/main-DWS2mxMG.js' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigi"
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://lpas.com/wp-content/themes/lpas/dist/assets/main-DWS2mxMG.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it h"
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://lpas.com/wp-content/themes/lpas/dist/assets/lenisSmooth-BjXMsNId.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make su"
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://lpas.com/wp-content/themes/lpas/dist/assets/preloader-CQAQSTAa.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure"
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://lpas.com/wp-content/themes/lpas/dist/assets/swup-config-DoT-9FzL.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make su"
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/e8943817-0bbf-4cce-87ef-3561163c57cc/c3ddf323?__token__=st=1791623081~exp=1791626681~acl=%2Fv3-1%2Fplayback%2Fe8943817-0bbf-4cce-87ef-3561163c57cc%2Fc3ddf323%2A~hmac=e28e4ca8eb666e729c0398fe46fe9fe4b7542264f38e9a877df6aedcc6097f2e&r=dXMtd2VzdDE%3D",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/e8943817-0bbf-4cce-87ef-3561163c57cc/c3ddf323?__token__=st=1791623081~exp=1791626681~acl=%2Fv3-1%2Fplayback%2Fe8943817-0bbf-4cce-87ef-3561163c57cc%2Fc3ddf323%2A~hmac=e28e4ca8eb666e729c0398fe46fe9fe4b7542264f38e9a877df6aedcc6097f2e&r=dXMtd2VzdDE%3D",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/e8943817-0bbf-4cce-87ef-3561163c57cc/c3ddf323?__token__=st=1791623081~exp=1791626681~acl=%2Fv3-1%2Fplayback%2Fe8943817-0bbf-4cce-87ef-3561163c57cc%2Fc3ddf323%2A~hmac=e28e4ca8eb666e729c0398fe46fe9fe4b7542264f38e9a877df6aedcc6097f2e&r=dXMtd2VzdDE%3D",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  }
+}

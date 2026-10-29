@@ -1,0 +1,1659 @@
+{
+  "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/en/",
+  "at": "2026-10-09T08:22:10.758Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 23149,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 199,
+      "typography": {
+        "families": [
+          [
+            "NimbusSans",
+            1
+          ],
+          [
+            "Nimbus Sans L",
+            1
+          ]
+        ],
+        "weights": [
+          [
+            "700",
+            2
+          ]
+        ],
+        "textTransforms": [],
+        "sizeMin": 18,
+        "sizeMedian": 20.25,
+        "sizeMax": 20.25,
+        "sizeMaxVw": 1.4,
+        "scaleRatio": 1,
+        "letterSpacingMean": -0.028,
+        "loadedFonts": [
+          {
+            "family": "Nimbus",
+            "weight": "700",
+            "style": "normal"
+          },
+          {
+            "family": "Nimbus",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "NimbusSansExtd",
+            "weight": "700",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 2
+      },
+      "color": {
+        "background": "rgb(255, 255, 255)",
+        "backgroundLuminance": 1,
+        "backgrounds": [
+          [
+            "rgb(255, 255, 255)",
+            10841
+          ],
+          [
+            "rgb(70, 80, 22)",
+            2972
+          ],
+          [
+            "rgb(97, 106, 55)",
+            80
+          ],
+          [
+            "rgb(217, 205, 173)",
+            80
+          ],
+          [
+            "rgb(35, 40, 11)",
+            80
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(255, 255, 255)",
+            150
+          ],
+          [
+            "rgb(223, 221, 203)",
+            11
+          ],
+          [
+            "rgb(35, 40, 11)",
+            4
+          ]
+        ],
+        "meanSaturation": 0.43,
+        "rootVars": {}
+      },
+      "layout": {
+        "fullscreenSections": 5,
+        "sticky": 0,
+        "fixed": 6,
+        "grid": 2,
+        "flex": 33,
+        "absolute": 34,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 900,
+        "pages": 1,
+        "spacing": [
+          [
+            42,
+            10
+          ],
+          [
+            8,
+            3
+          ],
+          [
+            12,
+            1
+          ],
+          [
+            32,
+            1
+          ],
+          [
+            20,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            28,
+            1
+          ],
+          [
+            11,
+            1
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 8,
+        "animationKinds": [
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 8,
+        "animationDurations": [
+          27300,
+          27300,
+          27300,
+          27300,
+          27300,
+          27300,
+          27300,
+          27300
+        ],
+        "easings": [
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            600,
+            4
+          ],
+          [
+            300,
+            3
+          ],
+          [
+            500,
+            2
+          ]
+        ],
+        "keyframes": [
+          "vue-boost-marquee-b09415cb",
+          "vue-boost-marquee-reset-b09415cb",
+          "vue-boost-marquee-reverse-b09415cb",
+          "vue-boost-marquee-vertical-b09415cb",
+          "vue-boost-marquee-vertical-reverse-b09415cb",
+          "vue-boost-marquee-rtl-b09415cb",
+          "vue-boost-marquee-rtl-reverse-b09415cb",
+          "vue-boost-marquee-rtl-vertical-reverse-b09415cb",
+          "spinner-rotate-ff76210b",
+          "spinner-dash-ff76210b"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 8,
+      "media": {
+        "canvases": [
+          {
+            "w": 1440,
+            "h": 900,
+            "area": 1
+          }
+        ],
+        "videos": [
+          {
+            "autoplay": false,
+            "loop": false,
+            "muted": true,
+            "src": "blob:https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/dad48bf6-2175-452a-84f1-784809e774db"
+          }
+        ],
+        "svg": 5,
+        "images": 1,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "2d": 2,
+          "webgl2": 1
+        },
+        "raf": 372,
+        "io": 0,
+        "ro": 37,
+        "mo": 2,
+        "startViewTransition": 0,
+        "workers": 5,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": true,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": true,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Intro | Pasticcino Bag World Tour 2026",
+      "lang": "en",
+      "description": "intro-description"
+    },
+    "featuresBeforeScroll": {
+      "elements": 199,
+      "canvases": 1,
+      "animations": 8,
+      "hidden": 8
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 2,
+      "changed": 0
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 27621136,
+        "layoutCount": 123,
+        "recalcStyleCount": 199,
+        "scriptDuration": 0.433709,
+        "taskDuration": 21.869301,
+        "nodes": 760
+      },
+      "timing": {
+        "domContentLoaded": 487,
+        "load": 608,
+        "first-paint": 500,
+        "first-contentful-paint": 500
+      }
+    },
+    "network": [
+      {
+        "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/en/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 4226
+      },
+      {
+        "url": "https://tags.tiqcdn.com/utag/maxmara/weekend/qa/utag.sync.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1171
+      },
+      {
+        "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/app-Dyqo_2kd.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 161155
+      },
+      {
+        "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/app-CpvkFC99.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1284
+      },
+      {
+        "url": "https://tags.tiqcdn.com/utag/maxmara/weekend/qa/utag.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 52057
+      },
+      {
+        "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/main-ClEgjqFK.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 100264
+      },
+      {
+        "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/main-bz4dUSdT.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 5825
+      },
+      {
+        "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/sfx-click-CglSirqN.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 8936
+      },
+      {
+        "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/sfx-click-CglSirqN.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 310
+      },
+      {
+        "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/sfx-hover-BFZRG9YF.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 9703
+      },
+      {
+        "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/sfx-hover-BFZRG9YF.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 309
+      },
+      {
+        "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/App-BlaFDp1W.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1769
+      },
+      {
+        "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/index-f5DxE8sS.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 20910
+      },
+      {
+        "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/index-41kuId2X.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 681
+      },
+      {
+        "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/App-7scbuuxJ.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1746
+      },
+      {
+        "url": "blob:https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/5d8b68f3-11db-4b5f-9244-7304013ae2c1",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4WAoAAAAQAAAAAAAAAAAAQUxQSAwAAAABBxAR/Q9ERP8DAABWUDggGAAAADABAJ0BKgEAAQADADQlpAADcAD++/1QAA==",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4WAoAAAASAAAAAAAAAAAAQU5JTQYAAAD/////AABBTk1GJgAAAAAAAAAAAAAAAAAAAGQAAABWUDhMDQAAAC8AAAAQBxAREYiI/gcA",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/webp;base64,UklGRh4AAABXRUJQVlA4TBEAAAAvAAAAAAfQ//73v/+BiOh/AAA=",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/index-CI4gNnSU.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 581
+      },
+      {
+        "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/index-mwt8bLI8.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2208
+      },
+      {
+        "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/vue-i18n.esm-browser.prod-BTkKWXrb.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 16721
+      },
+      {
+        "url": "data:image/avif;base64,AAAAIGZ0eXBhdmlmAAAAAGF2aWZtaWYxbWlhZk1BMUIAAADybWV0YQAAAAAAAAAoaGRscgAAAAAAAAAAcGljdAAAAAAAAAAAAAAAAGxpYmF2aWYAAAAADnBpdG0AAAAAAAEAAAAeaWxvYwAAAABEAAABAAEAAAABAAABGgAAAB0AAAAoaWluZgAAAAAAAQAAABppbmZlAgAAAAABAABhdjAxQ29sb3IAAAAAamlwcnAAAABLaXBjbwAAABRpc3BlAAAAAAAAAAIAAAACAAAAEHBpeGkAAAAAAwgICAAAAAxhdjFDgQ0MAAAAABNjb2xybmNseAACAAIAAYAAAAAXaXBtYQAAAAAAAAABAAEEAQKDBAAAACVtZGF0EgAKCBgANogQEAwgMg8f8D///8WfhwB8+ErK42A=",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/web-vitals-CrJHzm21.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2843
+      },
+      {
+        "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/en-BMUtKZXH.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 5043
+      },
+      {
+        "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/AppLayout-Cvr_wOOM.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 361768
+      },
+      {
+        "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/pattern_head-D9Gg6-Lb.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 454
+      },
+      {
+        "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/useProximityParallax-BJG93PRD.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 957
+      },
+      {
+        "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/index17-B_-ZUhXq.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 818
+      },
+      {
+        "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/icona-replay-BfCd05iT.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3935
+      },
+      {
+        "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/track-train-B_l_PX85.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 496
+      },
+      {
+        "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/useModalExpandedState-BzjB0E0h.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 734
+      },
+      {
+        "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/useStageNavigation-CjzaPQKk.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 940
+      },
+      {
+        "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/useMousePressure-3Kn1OLYP.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 758
+      },
+      {
+        "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/usePelletteriaInteraction-D9I1rvzE.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 824
+      },
+      {
+        "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/track-chapter-01-Pu7Qia0S.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 459
+      },
+      {
+        "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/AppLayout-DNSpT_5E.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 2711
+      },
+      {
+        "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/IntroPage-olZnCFTT.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 8034
+      },
+      {
+        "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/pattern_rectangles-izWB1VSq.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 466
+      },
+      {
+        "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/CtaText-Cx9IADYv.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 980
+      },
+      {
+        "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/ChapterLayout.vue_vue_type_script_setup_true_lang-kyu-tbCJ.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3561
+      },
+      {
+        "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/ChapterLayout-BM5x1skB.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1556
+      },
+      {
+        "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/CtaText-BhAsiy5q.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1143
+      },
+      {
+        "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/IconComponent-hlSaCgiz.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 32757
+      },
+      {
+        "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/IconComponent-8rHK5dRe.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 498
+      },
+      {
+        "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/useSubscribed-BMDFsILp.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 33362
+      },
+      {
+        "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/useSubscribed-lMAUwFu-.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 2727
+      },
+      {
+        "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/usePointerParallax-wSZ4MJNT.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1680
+      },
+      {
+        "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/IntroPage-BJYutM3o.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1354
+      },
+      {
+        "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/api/tracer",
+        "method": "POST",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 202,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 495
+      },
+      {
+        "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/track-train-DoaWY1kJ.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 104182
+      },
+      {
+        "url": "data:image/webp;base64,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9snIe+3OpvFych77ZOQ99snIe+2TkPfbJyHvtk5D32ych8CMi0qBZLteLk5D32ych77ZOQ99snIe+2TkPfbJyIiG3NrxcnIe+2TkPfbJyHvtk5D32ych77ZOQ99sc71SiBZLteLk5D32ych77ZOQ99snIe+2TkPfbJyHwIyLSoFku14uTkPfbJyHvtk5D32ych77ZOQ99snIiIbc2vFych77ZOQ99snIe+2TkPfbJyHvtk5D32ys+pF9LteLk5D32ych77ZOQ99snIe+2TkPfbJyHvtmPfM8nIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+82m5teLk4XyHvtk5D32ych61RI3T+ntk5D4YrT1mUAAD+/7/N/oexcHGAvupOXn3ePl5+Hb5efd4+Xn3ePl593j5efd4+Xn3ePl593j5efd4+Xn2+nd1ODU4NTg1ODU4NTg1ODU4NTg1ODU4NTg1ODU4NTg1ODU4NTg1ODU4NTg1OB7LTYoAAOVYeMCAC9FABMigAzwIvLbxQATooAJ4UAE6KADaWUUACjFABOigAnRQATooAJ4UAE6KACdFABOigAnRQATooAJ0UAE6KACdFABOigAnRQATooAJ0UAE6KACdFABOigAnRQAbSyigAnhQATwoAFGKACdFABOigAnRQATooAJ0UAG0sooAFGKACdFABOigAnRQATooANpZRQATwoAJ4UACjFABOigAnRQATooAJ0UAE6KACdFABOigAnRQATooAJ0UAE6KACdFABPCgAnRQAbSyigAUYoAJ0UAE6MDC6jEWgDoyY1iuYVQAA==",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/pattern_rectangles-BznGS9J3.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 53413
+      },
+      {
+        "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/NimbusSanL-Reg-2eITmUn-.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 39884
+      },
+      {
+        "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/pattern_overlay_darkgreen-C8CK_ODU.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 28705
+      },
+      {
+        "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/NimbusSanExtD-Bol-7i44fy56.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 21079
+      },
+      {
+        "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/NimbusSanL-Bol-DJVDeZYY.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 39562
+      },
+      {
+        "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/diffuse-train-XYks5T_N.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 305449
+      },
+      {
+        "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/depth-train-CM8eJqts.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 106554
+      },
+      {
+        "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/alpha-vig-array-BOpq7l_W.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 136509
+      },
+      {
+        "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/bump-overlay-DPipPg9f.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 294395
+      },
+      {
+        "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/normal-overlay-oorSCCGY.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 311726
+      },
+      {
+        "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/libs/basis/basis_transcoder.js",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 18242
+      },
+      {
+        "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/libs/basis/basis_transcoder.wasm",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/wasm",
+        "fromCache": false,
+        "bytes": 246607
+      },
+      {
+        "url": "blob:https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/f393f22c-b2b5-45e1-83cb-b50608d63648",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "blob:https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/f393f22c-b2b5-45e1-83cb-b50608d63648",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "blob:https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/f393f22c-b2b5-45e1-83cb-b50608d63648",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "blob:https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/f393f22c-b2b5-45e1-83cb-b50608d63648",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/treno_loop_v1_15fps-CHz8_3np.mp4",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 2035733
+      },
+      {
+        "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/pattern_overlay_lightgreen-tZ5vSfbq.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 136932
+      },
+      {
+        "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/pattern_head-BqohWkrk.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 42480
+      },
+      {
+        "url": "data:image/webp;base64,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",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/dad48bf6-2175-452a-84f1-784809e774db",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/diffuse-tessuti-8kOGqr1g.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 524516
+      },
+      {
+        "url": "https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/static/depth-tessuti-DIAyjYOi.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 69191
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "vue-boost-marquee-b09415cb",
+        "duration": 0,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "vue-boost-marquee-b09415cb",
+        "duration": 0,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "vue-boost-marquee-reset-b09415cb",
+        "duration": 0,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "vue-boost-marquee-reset-b09415cb",
+        "duration": 0,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "vue-boost-marquee-reset-b09415cb",
+        "duration": 27300,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "vue-boost-marquee-reset-b09415cb",
+        "duration": 27300,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "vue-boost-marquee-reset-b09415cb",
+        "duration": 27300,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "vue-boost-marquee-reset-b09415cb",
+        "duration": 27300,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "vue-boost-marquee-reset-b09415cb",
+        "duration": 27300,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "vue-boost-marquee-reset-b09415cb",
+        "duration": 27300,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "vue-boost-marquee-b09415cb",
+        "duration": 27300,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "vue-boost-marquee-b09415cb",
+        "duration": 27300,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "vue-boost-marquee-b09415cb",
+        "duration": 27300,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "vue-boost-marquee-b09415cb",
+        "duration": 27300,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "vue-boost-marquee-b09415cb",
+        "duration": 27300,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "vue-boost-marquee-b09415cb",
+        "duration": 27300,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "vue-boost-marquee-b09415cb",
+        "duration": 27300,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "vue-boost-marquee-b09415cb",
+        "duration": 27300,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "width",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "width",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "width",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "Failed to create WebGPU Context Provider"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A070200034080000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x30ec00140a00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x30ec00140a00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x30ec00140a00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x30ec00140a00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+      }
+    ],
+    "exceptions": [],
+    "failed": [],
+    "targets": {
+      "frames": 1,
+      "workers": 4
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 12525,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 165,
+      "typography": {
+        "families": [
+          [
+            "NimbusSans",
+            1
+          ],
+          [
+            "Nimbus Sans L",
+            1
+          ]
+        ],
+        "weights": [
+          [
+            "700",
+            2
+          ]
+        ],
+        "textTransforms": [],
+        "sizeMin": 16.88,
+        "sizeMedian": 18,
+        "sizeMax": 18,
+        "sizeMaxVw": 4.6,
+        "scaleRatio": 1,
+        "letterSpacingMean": -0.03,
+        "loadedFonts": [
+          {
+            "family": "Nimbus",
+            "weight": "700",
+            "style": "normal"
+          },
+          {
+            "family": "Nimbus",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "NimbusSansExtd",
+            "weight": "700",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 2
+      },
+      "color": {
+        "background": "rgb(255, 255, 255)",
+        "backgroundLuminance": 1,
+        "backgrounds": [
+          [
+            "rgb(255, 255, 255)",
+            2687
+          ],
+          [
+            "rgb(70, 80, 22)",
+            812
+          ],
+          [
+            "rgb(97, 106, 55)",
+            48
+          ],
+          [
+            "rgb(217, 205, 173)",
+            48
+          ],
+          [
+            "rgb(35, 40, 11)",
+            48
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(255, 255, 255)",
+            113
+          ],
+          [
+            "rgb(223, 221, 203)",
+            12
+          ],
+          [
+            "rgb(35, 40, 11)",
+            4
+          ]
+        ],
+        "meanSaturation": 0.43,
+        "rootVars": {}
+      },
+      "layout": {
+        "fullscreenSections": 5,
+        "sticky": 0,
+        "fixed": 6,
+        "grid": 2,
+        "flex": 25,
+        "absolute": 30,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 844,
+        "pages": 1,
+        "spacing": [
+          [
+            42,
+            6
+          ],
+          [
+            8,
+            4
+          ],
+          [
+            24,
+            2
+          ],
+          [
+            12,
+            1
+          ],
+          [
+            20,
+            1
+          ],
+          [
+            40,
+            1
+          ],
+          [
+            82,
+            1
+          ],
+          [
+            5,
+            1
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 4,
+        "animationKinds": [
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 4,
+        "animationDurations": [
+          27300,
+          27300,
+          27300,
+          27300
+        ],
+        "easings": [
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            600,
+            4
+          ],
+          [
+            300,
+            3
+          ],
+          [
+            500,
+            2
+          ]
+        ],
+        "keyframes": [
+          "vue-boost-marquee-b09415cb",
+          "vue-boost-marquee-reset-b09415cb",
+          "vue-boost-marquee-reverse-b09415cb",
+          "vue-boost-marquee-vertical-b09415cb",
+          "vue-boost-marquee-vertical-reverse-b09415cb",
+          "vue-boost-marquee-rtl-b09415cb",
+          "vue-boost-marquee-rtl-reverse-b09415cb",
+          "vue-boost-marquee-rtl-vertical-reverse-b09415cb",
+          "spinner-rotate-ff76210b",
+          "spinner-dash-ff76210b"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 10,
+      "media": {
+        "canvases": [
+          {
+            "w": 780,
+            "h": 1688,
+            "area": 1
+          }
+        ],
+        "videos": [
+          {
+            "autoplay": false,
+            "loop": false,
+            "muted": true,
+            "src": "blob:https://weekend-mm-2026-pasticcino-bag-master.monogrid.io/ed6181c8-f769-4e15-9175-fd90f06fa824"
+          }
+        ],
+        "svg": 5,
+        "images": 1,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "2d": 2,
+          "webgl2": 1
+        },
+        "raf": 307,
+        "io": 0,
+        "ro": 37,
+        "mo": 2,
+        "startViewTransition": 0,
+        "workers": 5,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": true,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": true,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Intro | Pasticcino Bag World Tour 2026",
+      "lang": "en",
+      "description": "intro-description"
+    },
+    "featuresBeforeScroll": {
+      "elements": 165,
+      "canvases": 1,
+      "animations": 4,
+      "hidden": 10
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 23754728,
+        "layoutCount": 77,
+        "recalcStyleCount": 169,
+        "scriptDuration": 0.313486,
+        "taskDuration": 11.509601,
+        "nodes": 697
+      },
+      "timing": {
+        "domContentLoaded": 452,
+        "load": 471,
+        "first-paint": 464,
+        "first-contentful-paint": 464
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "vue-boost-marquee-b09415cb",
+        "duration": 0,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "vue-boost-marquee-b09415cb",
+        "duration": 0,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "vue-boost-marquee-reset-b09415cb",
+        "duration": 0,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "vue-boost-marquee-reset-b09415cb",
+        "duration": 0,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "vue-boost-marquee-reset-b09415cb",
+        "duration": 27300,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "vue-boost-marquee-reset-b09415cb",
+        "duration": 27300,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "vue-boost-marquee-b09415cb",
+        "duration": 27300,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "vue-boost-marquee-b09415cb",
+        "duration": 27300,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "vue-boost-marquee-b09415cb",
+        "duration": 27300,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "vue-boost-marquee-b09415cb",
+        "duration": 27300,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "width",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "width",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "Failed to create WebGPU Context Provider"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A070200034080000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      }
+    ],
+    "exceptions": [],
+    "failed": [],
+    "targets": {
+      "frames": 1,
+      "workers": 4
+    }
+  }
+}

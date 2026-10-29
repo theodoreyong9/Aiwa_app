@@ -11,7 +11,7 @@ import { creditLine, sourceLine, usable } from './track.js';
 import { search, stats } from './search.js';
 import { loadCatalog, syncIncompetech, syncOga, USER_AGENT } from './sync.js';
 
-const MIRROR = 'https://github.com/theodoreyong9/Aiwa_store/releases/download/music';
+const MIRROR = 'https://github.com/theodoreyong9/Aiwa_app/releases/download/music';
 const dir = join(dirname(fileURLToPath(import.meta.url)), '..', 'catalog');
 const args = process.argv.slice(2);
 const flags = Object.fromEntries(args.filter((a) => a.startsWith('--')).map((a) => { const [k, v] = a.slice(2).split('='); return [k, v ?? true]; }));

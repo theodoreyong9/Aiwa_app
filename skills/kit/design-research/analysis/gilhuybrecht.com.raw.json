@@ -1,0 +1,3347 @@
+{
+  "url": "https://gilhuybrecht.com/",
+  "at": "2026-10-09T08:04:15.255Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 16667,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 524,
+      "typography": {
+        "families": [
+          [
+            "sans",
+            47
+          ]
+        ],
+        "weights": [
+          [
+            "500",
+            47
+          ]
+        ],
+        "textTransforms": [],
+        "sizeMin": 16.32,
+        "sizeMedian": 16.32,
+        "sizeMax": 16.32,
+        "sizeMaxVw": 1.1,
+        "scaleRatio": 1,
+        "letterSpacingMean": 0,
+        "loadedFonts": [
+          {
+            "family": "sans",
+            "weight": "500",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 47
+      },
+      "color": {
+        "background": "rgb(0, 0, 0)",
+        "backgroundLuminance": 0,
+        "backgrounds": [
+          [
+            "rgba(44, 44, 47, 0.6)",
+            7
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(255, 255, 255)",
+            515
+          ],
+          [
+            "rgba(255, 255, 255, 0.4)",
+            2
+          ]
+        ],
+        "meanSaturation": 0.06,
+        "rootVars": {
+          "--size": "390"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 2,
+        "sticky": 0,
+        "fixed": 6,
+        "grid": 3,
+        "flex": 98,
+        "absolute": 1,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 4440,
+        "pages": 4.9,
+        "spacing": [
+          [
+            1,
+            4
+          ],
+          [
+            19,
+            1
+          ],
+          [
+            72,
+            1
+          ],
+          [
+            336,
+            1
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 0,
+        "animationKinds": [],
+        "infiniteAnimations": 0,
+        "animationDurations": [],
+        "easings": [],
+        "transitionDurationsMs": [
+          [
+            200,
+            84
+          ],
+          [
+            300,
+            5
+          ],
+          [
+            250,
+            1
+          ]
+        ],
+        "keyframes": [],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 0,
+      "media": {
+        "canvases": [
+          {
+            "w": 1440,
+            "h": 900,
+            "area": 1
+          }
+        ],
+        "videos": [
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "data:video/mp4;base64,AAAAIGZ0eXBtcDQyAAACAG1wNDJpc28yYXZjMW1wNDEAAANObW9vdgAAAGxtdmhkAAAAAOA5QnjgOUJ4AAAD6AAAAEMAAQAAAQAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAABAA"
+          }
+        ],
+        "svg": 0,
+        "images": 0,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 1
+        },
+        "raf": 247,
+        "io": 3,
+        "ro": 1,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 4,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": true,
+        "reactRoot": false,
+        "vue": true,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Gil Huybrecht — Freelance designer & art director",
+      "lang": "en",
+      "description": "Independent designer specialised in editorial websites, ecommerce and immersive online experiences."
+    },
+    "featuresBeforeScroll": {
+      "elements": 683,
+      "canvases": 1,
+      "animations": 0,
+      "hidden": 33
+    },
+    "scrollReveal": 33,
+    "hover": {
+      "probed": 6,
+      "changed": 1
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 11179216,
+        "layoutCount": 178,
+        "recalcStyleCount": 322,
+        "scriptDuration": 0.436796,
+        "taskDuration": 15.951523,
+        "nodes": 1228
+      },
+      "timing": {
+        "domContentLoaded": 583,
+        "load": 583,
+        "first-paint": 308,
+        "first-contentful-paint": 308
+      }
+    },
+    "network": [
+      {
+        "url": "https://gilhuybrecht.com/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 89902
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-K7LCB1HN78",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 180633
+      },
+      {
+        "url": "https://gilhuybrecht.com/_payload.json?95f65304-3ce5-432c-a0fc-c773fc7829b2",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 167
+      },
+      {
+        "url": "https://gilhuybrecht.com/_nuxt/CuL0r0_T.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 301717
+      },
+      {
+        "url": "https://gilhuybrecht.com/_nuxt/BdmQJtpC.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 7690
+      },
+      {
+        "url": "https://gilhuybrecht.com/_nuxt/BO8L7ydt.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 633
+      },
+      {
+        "url": "https://gilhuybrecht.com/_nuxt/Bag_g0P7.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2677
+      },
+      {
+        "url": "https://gilhuybrecht.com/_nuxt/DTMYzQOi.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 691
+      },
+      {
+        "url": "https://gilhuybrecht.com/_nuxt/DlAUqK2U.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 247
+      },
+      {
+        "url": "https://gilhuybrecht.com/_nuxt/DY7gORmv.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 754
+      },
+      {
+        "url": "https://gilhuybrecht.com/_nuxt/c5Zxd89q.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1582
+      },
+      {
+        "url": "https://gilhuybrecht.com/_nuxt/CP_3MIx5.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1845
+      },
+      {
+        "url": "https://gilhuybrecht.com/_nuxt/BOnW5v8J.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4161
+      },
+      {
+        "url": "https://gilhuybrecht.com/_nuxt/BqmBXOjH.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 188
+      },
+      {
+        "url": "https://gilhuybrecht.com/_nuxt/C1CMcKxA.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 959
+      },
+      {
+        "url": "https://gilhuybrecht.com/_nuxt/DJOupOxN.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 243
+      },
+      {
+        "url": "https://gilhuybrecht.com/_nuxt/B1nI2sUT.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1215
+      },
+      {
+        "url": "https://gilhuybrecht.com/_nuxt/oEeG3UYT.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 851
+      },
+      {
+        "url": "https://gilhuybrecht.com/_nuxt/BQgxkRuQ.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 937
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1784627113-image-317.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 78922
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1784627113-image-327.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 112099
+      },
+      {
+        "url": "https://gilhuybrecht.com/_nuxt/LayGrotesk-Medium.BbvaOt0r.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 52578
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1784627113-image-331.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 70330
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1784627113-image-319.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 132494
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1784627890-screenshot-2026-07-21-at-11-54-54-1.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 92064
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1784627890-image-39.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 133574
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1775407815-tlb4.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 52646
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1784577911-image-84.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 52388
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1784577911-image-83.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 139062
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1784577911-image-2.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 66471
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1784579081-image-59.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 198718
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1784631825-frame-121.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 139737
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1784631825-frame-263.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 61331
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1775408238-ny3.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 49264
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1775408238-ny2.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 50732
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1775408238-ny1.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 65376
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1775408238-ny5.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 37039
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1775408238-ny4.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 62141
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1784631331-long.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 157262
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1784578659-6.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 104836
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1784578659-5.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 28236
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1775408359-vuc4.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 42074
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1775408359-vuc5.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 28105
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1775408359-vuc2.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 63440
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1775408359-vuc3.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 32688
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1775408359-vuc6.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 39022
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1775408025-ing4.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 42297
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1775408025-ing1.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 214022
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1775408025-ing3.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 78800
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1775408555-cus4.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 64330
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1775408555-cus1.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 22884
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1784630200-4.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 44033
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1775408555-cus3.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 36947
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1784630199-2.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 37572
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1784575277-1.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 105165
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1784575277-2.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 45019
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1784575278-6.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 25013
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1784577210-image-63.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 253899
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1784577210-image-64.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 72392
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1784577210-image-70.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 70763
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1784577210-image-69.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 118349
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1784577210-image-68.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 58953
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1784577210-image-65.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 83703
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1775408658-bo1.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 58785
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1775408657-bo5.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 81192
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1775408658-bo4.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 167478
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1775408657-bo3.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 52854
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1784576347-1.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 36859
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1784576347-3.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 54460
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1784576347-5.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 56992
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1784576347-2.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 61160
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1784576347-6.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 59317
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1784574851-1.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 52042
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1784574851-4.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 55157
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1784574851-2.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 72974
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1784574851-7.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 159410
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1784578273-image-9.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 28251
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1784578273-image-11.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 90256
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1784578273-image-15.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 48025
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1784578273-image-14.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 83599
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1784578273-image-12.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 67756
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1784619782-30.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 50866
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1784619782-image-473.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 151622
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1784619782-28.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 64493
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1784619782-29.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 40695
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1784619782-image-472.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 30331
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1784573547-1.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 81577
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1784573547-2.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 69360
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1784573547-7.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 105235
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1784621192-image-56.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 39394
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1784621192-image-60.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 51470
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1784621191-image-67.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 29195
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1784621192-image-62.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 91420
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1784576835-frame-105.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 188394
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1784576835-frame-109.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 172898
+      },
+      {
+        "url": "https://www.datocms-assets.com/154012/1784576835-frame-106.jpg?auto=format&fit=max&h=2000&w=1500",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 202604
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-K7LCB1HN78&gtm=45je6a72v9259666291za208zd9259666291xf1&_p=1791533033826&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=915635824.1791533034&frm=0&ngs=1&pscdl=noapi&rcb=12&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=1&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791533033&sct=1&seg=0&dl=https%3A%2F%2Fgilhuybrecht.com%2F&dt=Gil%20Huybrecht%20%E2%80%94%20Freelance%20designer%20%26%20art%20director&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=429",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false
+      },
+      {
+        "url": "https://gilhuybrecht.com/_nuxt/index.BNTavj1K.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 619
+      },
+      {
+        "url": "https://gilhuybrecht.com/_nuxt/index.C9NGgy1a.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 247
+      },
+      {
+        "url": "https://gilhuybrecht.com/_nuxt/BQCGjKEf.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1738
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/manifest.json",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 1432
+      },
+      {
+        "url": "https://stream.mux.com/yHhl3u028L00qjKbnTdI36zIqpF6bVdCmT/high.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://stream.mux.com/yHhl3u028L00qjKbnTdI36zIqpF6bVdCmT/high.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://stream.mux.com/LVwHUJubF92M00vQKeT5CG6hLNCAgRCdu/high.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://stream.mux.com/LVwHUJubF92M00vQKeT5CG6hLNCAgRCdu/high.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://stream.mux.com/Mw00E8f9K01011vka3TCDIoKKuYX5Vo2CwW/high.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 849378
+      },
+      {
+        "url": "https://stream.mux.com/Mw00E8f9K01011vka3TCDIoKKuYX5Vo2CwW/high.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://stream.mux.com/003NkCxn01WU02801J7ewMLSJjLkb02Kep4nM/high.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 1275405
+      },
+      {
+        "url": "https://stream.mux.com/003NkCxn01WU02801J7ewMLSJjLkb02Kep4nM/high.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://stream.mux.com/QDYeZAgM4qxBNdTKBhdvC01QmCgFVGHFm/high.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 502591
+      },
+      {
+        "url": "https://stream.mux.com/QDYeZAgM4qxBNdTKBhdvC01QmCgFVGHFm/high.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://stream.mux.com/I6FARf800PELfp2cFEQvYIqUHty02d8kIG/high.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 327550
+      },
+      {
+        "url": "https://stream.mux.com/I6FARf800PELfp2cFEQvYIqUHty02d8kIG/high.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://stream.mux.com/YdeXP2CS7RkJsUC027K9LT01hkFvi3K01Ma/high.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 1463960
+      },
+      {
+        "url": "https://stream.mux.com/YdeXP2CS7RkJsUC027K9LT01hkFvi3K01Ma/high.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://stream.mux.com/zBh1100wmB8JzuvZvy01KLFaR2FZEBmghJ/high.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 1801345
+      },
+      {
+        "url": "https://stream.mux.com/zBh1100wmB8JzuvZvy01KLFaR2FZEBmghJ/high.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://gilhuybrecht.com/_nuxt/BRVcnHmj.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 22842
+      },
+      {
+        "url": "https://gilhuybrecht.com/_nuxt/96mvp6Ej.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 8134
+      },
+      {
+        "url": "https://gilhuybrecht.com/_nuxt/C4zwKE9B.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 415
+      },
+      {
+        "url": "https://gilhuybrecht.com/_nuxt/profile.CLhtfNTd.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 193
+      },
+      {
+        "url": "https://gilhuybrecht.com/_nuxt/builds/meta/95f65304-3ce5-432c-a0fc-c773fc7829b2.json",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 709
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784627113-image-317.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 249790
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784627113-image-327.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 112354
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784627113-image-331.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 113713
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784627113-image-319.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 250394
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784627890-screenshot-2026-07-21-at-11-54-54-1.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 272674
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784627890-image-39.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 213640
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1775407815-tlb4.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 111409
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784577911-image-84.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 49780
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784577911-image-83.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 234727
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784577911-image-2.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 84477
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784579081-image-59.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 196607
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784631825-frame-121.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 233184
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784631825-frame-263.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 90667
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1775408238-ny3.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 171584
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1775408238-ny2.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 90459
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1775408238-ny1.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 190562
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1775408238-ny5.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 79834
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1775408238-ny4.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 176109
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784631331-long.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 181968
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784578659-6.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 228111
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784578659-5.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 70769
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1775408359-vuc4.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 94878
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1775408359-vuc5.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 43919
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1775408359-vuc2.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 249126
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1775408359-vuc3.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 57395
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1775408359-vuc6.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 52476
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1775408025-ing4.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 134034
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1775408025-ing1.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 325165
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1775408025-ing3.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 166178
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1775408555-cus4.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 161422
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1775408555-cus1.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 73627
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784630200-4.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 134756
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1775408555-cus3.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 58984
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784630199-2.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 86615
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784575277-1.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 160900
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784575277-2.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 132349
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784575278-6.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 50494
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784577210-image-63.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 184972
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784577210-image-64.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 88572
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784577210-image-70.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 127918
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784577210-image-69.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 172353
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784577210-image-68.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 110367
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784577210-image-65.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 267074
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1775408658-bo1.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 99568
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1775408657-bo5.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 93091
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1775408658-bo4.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 305308
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1775408657-bo3.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 120363
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784576347-1.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 55928
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784576347-3.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 81628
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784576347-5.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 91251
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784576347-2.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 62238
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784576347-6.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 77232
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784574851-1.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 243778
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784574851-4.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 73894
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784574851-2.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 100779
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784574851-7.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 282660
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784578273-image-9.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 57938
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784578273-image-11.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 102949
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784578273-image-15.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 75808
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784578273-image-14.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 117282
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784578273-image-12.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 127588
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784619782-30.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 131454
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784619782-image-473.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 271254
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784619782-28.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 163779
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784619782-29.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 84075
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784619782-image-472.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 57880
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784573547-1.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 227324
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784573547-2.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 60805
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784573547-7.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 248870
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784621192-image-56.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 73311
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784621192-image-60.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 80453
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784621191-image-67.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 79645
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784621192-image-62.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 154877
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784576835-frame-105.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 280162
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784576835-frame-109.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 281386
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784576835-frame-106.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 289490
+      },
+      {
+        "url": "https://gilhuybrecht.com/basis/basis_transcoder.js",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 14863
+      },
+      {
+        "url": "https://gilhuybrecht.com/basis/basis_transcoder.wasm",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/wasm",
+        "fromCache": false,
+        "bytes": 231910
+      },
+      {
+        "url": "https://gilhuybrecht.com/profile/_payload.json?95f65304-3ce5-432c-a0fc-c773fc7829b2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 166
+      },
+      {
+        "url": "blob:https://gilhuybrecht.com/e81fe5d9-1ec7-403f-931d-2d595a2b6f74",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "blob:https://gilhuybrecht.com/e81fe5d9-1ec7-403f-931d-2d595a2b6f74",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "blob:https://gilhuybrecht.com/e81fe5d9-1ec7-403f-931d-2d595a2b6f74",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "blob:https://gilhuybrecht.com/e81fe5d9-1ec7-403f-931d-2d595a2b6f74",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784297401-23.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 219052
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784297400-10.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 238906
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784297400-29.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 410401
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784297400-25.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 205064
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784297400-12.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 111869
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784297400-24.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 233141
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784297400-2.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 265094
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784297401-35.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 306567
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784297401-26.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 106652
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784297401-31.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 342993
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784297401-11.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 326584
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784297401-3.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 441751
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784297401-14.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 122452
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784297401-16.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 279974
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784297401-22.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 181291
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784297401-5.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 202792
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784297405-4.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 201472
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784297401-30.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 270171
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784297404-20.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 120078
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784297405-32.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 228123
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784297405-13.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 392253
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784297405-18.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 73152
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784297405-8.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 113862
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784297405-7.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 279592
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784297401-9.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 309055
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784297405-15.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 360314
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784297405-19.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 315579
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784297405-17.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 387647
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784297405-27.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 198325
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784297401-21.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 371122
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784297405-6.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 259375
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784297405-33.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 145276
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784297405-1.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 245520
+      },
+      {
+        "url": "https://gilhuybrecht.com/textures/154012_1784297401-34.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 215285
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "backdrop-filter",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "backdrop-filter",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.25, 0.46, 0.45, 0.94)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.25, 0.46, 0.45, 0.94)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "backdrop-filter",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "backdrop-filter",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.25, 0.46, 0.45, 0.94)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.25, 0.46, 0.45, 0.94)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0702000340F0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x4fc00142e00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x4fc00142e00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x4fc00142e00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x4fc00142e00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-K7LCB1HN78&gtm=45je6a72v9259666291za208zd9259666291xf1&_p=1791533033826&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=915635824.1791533034&frm=0&ngs=1&pscdl=noapi&rcb=12&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=1&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791533033&sct=1&seg=0&dl=https%3A%2F%2Fgilhuybrecht.com%2F&dt=Gil%20Huybrecht%20%E2%80%94%20Freelance%20designer%20%26%20art%20director&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=429",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://stream.mux.com/yHhl3u028L00qjKbnTdI36zIqpF6bVdCmT/high.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://stream.mux.com/yHhl3u028L00qjKbnTdI36zIqpF6bVdCmT/high.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://stream.mux.com/I6FARf800PELfp2cFEQvYIqUHty02d8kIG/high.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://stream.mux.com/YdeXP2CS7RkJsUC027K9LT01hkFvi3K01Ma/high.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://stream.mux.com/Mw00E8f9K01011vka3TCDIoKKuYX5Vo2CwW/high.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://stream.mux.com/003NkCxn01WU02801J7ewMLSJjLkb02Kep4nM/high.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://stream.mux.com/QDYeZAgM4qxBNdTKBhdvC01QmCgFVGHFm/high.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://stream.mux.com/LVwHUJubF92M00vQKeT5CG6hLNCAgRCdu/high.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://stream.mux.com/LVwHUJubF92M00vQKeT5CG6hLNCAgRCdu/high.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://stream.mux.com/zBh1100wmB8JzuvZvy01KLFaR2FZEBmghJ/high.mp4",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 4
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 4933,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 426,
+      "typography": {
+        "families": [
+          [
+            "sans",
+            30
+          ]
+        ],
+        "weights": [
+          [
+            "500",
+            30
+          ]
+        ],
+        "textTransforms": [],
+        "sizeMin": 17,
+        "sizeMedian": 17,
+        "sizeMax": 17,
+        "sizeMaxVw": 4.4,
+        "scaleRatio": 1,
+        "letterSpacingMean": 0,
+        "loadedFonts": [
+          {
+            "family": "sans",
+            "weight": "500",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 30
+      },
+      "color": {
+        "background": "rgb(0, 0, 0)",
+        "backgroundLuminance": 0,
+        "backgrounds": [],
+        "texts": [
+          [
+            "rgb(255, 255, 255)",
+            305
+          ]
+        ],
+        "meanSaturation": 0,
+        "rootVars": {
+          "--size": "390"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 2,
+        "sticky": 0,
+        "fixed": 4,
+        "grid": 2,
+        "flex": 45,
+        "absolute": 108,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 5174,
+        "pages": 6.1,
+        "spacing": [
+          [
+            150,
+            2
+          ],
+          [
+            120,
+            2
+          ],
+          [
+            15,
+            1
+          ],
+          [
+            75,
+            1
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 4,
+        "animationKinds": [
+          "CSSTransition"
+        ],
+        "infiniteAnimations": 0,
+        "animationDurations": [
+          1000,
+          1000,
+          1000,
+          1000
+        ],
+        "easings": [
+          "ease-out"
+        ],
+        "transitionDurationsMs": [
+          [
+            200,
+            38
+          ],
+          [
+            1000,
+            38
+          ]
+        ],
+        "keyframes": [],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 12,
+      "media": {
+        "canvases": [],
+        "videos": [
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "data:video/mp4;base64,AAAAIGZ0eXBtcDQyAAACAG1wNDJpc28yYXZjMW1wNDEAAANObW9vdgAAAGxtdmhkAAAAAOA5QnjgOUJ4AAAD6AAAAEMAAQAAAQAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAABAA"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://stream.mux.com/yHhl3u028L00qjKbnTdI36zIqpF6bVdCmT/medium.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://stream.mux.com/Mw00E8f9K01011vka3TCDIoKKuYX5Vo2CwW/medium.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://stream.mux.com/QDYeZAgM4qxBNdTKBhdvC01QmCgFVGHFm/medium.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://stream.mux.com/I6FARf800PELfp2cFEQvYIqUHty02d8kIG/medium.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://stream.mux.com/YdeXP2CS7RkJsUC027K9LT01hkFvi3K01Ma/medium.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://stream.mux.com/zBh1100wmB8JzuvZvy01KLFaR2FZEBmghJ/medium.mp4"
+          }
+        ],
+        "svg": 0,
+        "images": 32,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {},
+        "raf": 568,
+        "io": 2,
+        "ro": 2,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": true,
+        "reactRoot": false,
+        "vue": true,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Gil Huybrecht — Freelance designer & art director",
+      "lang": "en",
+      "description": "Independent designer specialised in editorial websites, ecommerce and immersive online experiences."
+    },
+    "featuresBeforeScroll": {
+      "elements": 426,
+      "canvases": 0,
+      "animations": 0,
+      "hidden": 34
+    },
+    "scrollReveal": 22,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 8344176,
+        "layoutCount": 40,
+        "recalcStyleCount": 293,
+        "scriptDuration": 0.090865,
+        "taskDuration": 0.41733,
+        "nodes": 1808
+      },
+      "timing": {
+        "domContentLoaded": 271,
+        "load": 271,
+        "first-paint": 124,
+        "first-contentful-paint": 124
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      }
+    ],
+    "console": [],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-K7LCB1HN78&gtm=45je6a72v9259666291za208zd9259666291xf1&_p=1791533050423&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1117962145.1791533051&frm=0&ngs=1&pscdl=noapi&rcb=11&sr=390x844&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=1&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=1&tag_exp=100940058~115938466~115938468~118897920~118897930~120213116~120385422~120420414~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791533050&sct=1&seg=0&dl=https%3A%2F%2Fgilhuybrecht.com%2F&dt=Gil%20Huybrecht%20%E2%80%94%20Freelance%20designer%20%26%20art%20director&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=246",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://stream.mux.com/I6FARf800PELfp2cFEQvYIqUHty02d8kIG/medium.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://stream.mux.com/QDYeZAgM4qxBNdTKBhdvC01QmCgFVGHFm/medium.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://stream.mux.com/zBh1100wmB8JzuvZvy01KLFaR2FZEBmghJ/medium.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://stream.mux.com/Mw00E8f9K01011vka3TCDIoKKuYX5Vo2CwW/medium.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://stream.mux.com/yHhl3u028L00qjKbnTdI36zIqpF6bVdCmT/medium.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://stream.mux.com/YdeXP2CS7RkJsUC027K9LT01hkFvi3K01Ma/medium.mp4",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  }
+}

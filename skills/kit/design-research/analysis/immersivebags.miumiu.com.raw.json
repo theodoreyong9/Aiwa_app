@@ -1,0 +1,1145 @@
+{
+  "url": "https://immersivebags.miumiu.com/",
+  "at": "2026-10-10T09:53:49.386Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 7543,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 44,
+      "typography": {
+        "families": [
+          [
+            "WorkSans",
+            8
+          ]
+        ],
+        "weights": [
+          [
+            "700",
+            5
+          ],
+          [
+            "400",
+            3
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            6
+          ]
+        ],
+        "sizeMin": 14,
+        "sizeMedian": 27,
+        "sizeMax": 54,
+        "sizeMaxVw": 3.8,
+        "scaleRatio": 2,
+        "letterSpacingMean": 0.104,
+        "loadedFonts": [
+          {
+            "family": "WorkSans",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "WorkSans",
+            "weight": "700",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 8
+      },
+      "color": {
+        "background": "rgb(255, 255, 255)",
+        "backgroundLuminance": 1,
+        "backgrounds": [
+          [
+            "rgb(255, 255, 255)",
+            1296
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(255, 255, 255)",
+            34
+          ],
+          [
+            "rgb(0, 0, 0)",
+            1
+          ]
+        ],
+        "meanSaturation": 0,
+        "rootVars": {
+          "--base-text": "calc((10px) * var(--h-demult, 1))",
+          "--padding": "max(6px, calc(var(--base-text) * .15))",
+          "--ui-bps": "xs:400px / s:640px / sm:768px / md:1024px / lg:1200px / xl:1600px / xxl:1920px",
+          "--ui-colors": "bg-primary:#0c0f60 / primary-hover:#000 / primary:#fff / yellow:#ffe100 / white:#fff / black:#000 / paper:#ffedd9 / beige:#fcf5e6 / blue:#265adf / red:#c60000 / viewmaster-red:#d81219 / viewmaster-beige:#eee2b7 / phone-beige:#d7c8b1",
+          "--ui-color-bg-primary": "#0c0f60",
+          "--ui-color-primary-hover": "#000",
+          "--ui-color-primary": "#fff",
+          "--ui-color-yellow": "#ffe100",
+          "--ui-color-white": "#fff",
+          "--ui-color-black": "#000",
+          "--ui-color-paper": "#ffedd9",
+          "--ui-color-beige": "#fcf5e6",
+          "--ui-color-blue": "#265adf",
+          "--ui-color-red": "#c60000",
+          "--ui-color-viewmaster-red": "#d81219",
+          "--ui-color-viewmaster-beige": "#eee2b7",
+          "--ui-color-phone-beige": "#d7c8b1",
+          "--miumiu-header": "1.5em"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 2,
+        "sticky": 0,
+        "fixed": 3,
+        "grid": 0,
+        "flex": 9,
+        "absolute": 5,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 900,
+        "pages": 1,
+        "spacing": [
+          [
+            4,
+            1
+          ],
+          [
+            40,
+            1
+          ],
+          [
+            54,
+            1
+          ],
+          [
+            81,
+            1
+          ],
+          [
+            64,
+            1
+          ],
+          [
+            12,
+            1
+          ],
+          [
+            25,
+            1
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 1,
+        "animationKinds": [
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 1,
+        "animationDurations": [
+          1000
+        ],
+        "easings": [
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            650,
+            3
+          ],
+          [
+            550,
+            3
+          ],
+          [
+            400,
+            2
+          ],
+          [
+            500,
+            1
+          ],
+          [
+            300,
+            1
+          ]
+        ],
+        "keyframes": [
+          "preloader-spinner",
+          "shake1",
+          "jitter-subtle",
+          "jitter-subtle-rtl",
+          "ken-burns",
+          "underline-expand-56ee19ba",
+          "counterEnter-edcb2055",
+          "counterLeave-edcb2055",
+          "counterReturn-edcb2055"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 1,
+      "media": {
+        "canvases": [],
+        "videos": [],
+        "svg": 2,
+        "images": 0,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 2,
+          "webgl": 2,
+          "webgl-experimental": 1,
+          "experimental-webgl": 1
+        },
+        "raf": 316,
+        "io": 0,
+        "ro": 1,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 4,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": true,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Miu Miu - 2026 Bag Campaign",
+      "lang": "en",
+      "description": "Explore the new bag collection and discover something special"
+    },
+    "featuresBeforeScroll": {
+      "elements": 44,
+      "canvases": 0,
+      "animations": 3,
+      "hidden": 2
+    },
+    "scrollReveal": 1,
+    "hover": {
+      "probed": 3,
+      "changed": 0
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 6407680,
+        "layoutCount": 14,
+        "recalcStyleCount": 441,
+        "scriptDuration": 0.107168,
+        "taskDuration": 0.59031,
+        "nodes": 154
+      },
+      "timing": {
+        "domContentLoaded": 274,
+        "load": 654,
+        "first-paint": 184,
+        "first-contentful-paint": 1928
+      }
+    },
+    "network": [
+      {
+        "url": "https://immersivebags.miumiu.com/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 14159
+      },
+      {
+        "url": "https://immersivebags.miumiu.com/assets/app.BJQTJplKb24d0b8d.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 17212
+      },
+      {
+        "url": "https://immersivebags.miumiu.com/assets/vendor.CNkoHffGb24d0b8d.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 2903
+      },
+      {
+        "url": "https://immersivebags.miumiu.com/en/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 14160
+      },
+      {
+        "url": "https://immersivebags.miumiu.com/assets/app.BJQTJplKb24d0b8d.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://immersivebags.miumiu.com/assets/vendor.CNkoHffGb24d0b8d.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://tags.tiqcdn.com/utag/prada/prada.iframe/prod/utag.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 11118
+      },
+      {
+        "url": "https://immersivebags.miumiu.com/assets/vendor.BGeYFsBob24d0b8d.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 182405
+      },
+      {
+        "url": "https://immersivebags.miumiu.com/assets/WorkSans-Regular.B9ExyInWb24d0b8d.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 65022
+      },
+      {
+        "url": "https://immersivebags.miumiu.com/assets/WorkSans-Bold.CHhifYYlb24d0b8d.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 68263
+      },
+      {
+        "url": "https://immersivebags.miumiu.com/assets/loader.1ikZMdAgb24d0b8d.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 69258
+      },
+      {
+        "url": "https://immersivebags.miumiu.com/assets/hotspots.CHUje0rcb24d0b8d.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 685
+      },
+      {
+        "url": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACyAgCdASoCAAIALmk0mk0iIiIiIgBoSygABc6WWgAA/veff/0PP8bA//LwYAAA",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/avif;base64,AAAAIGZ0eXBhdmlmAAAAAGF2aWZtaWYxbWlhZk1BMUIAAADybWV0YQAAAAAAAAAoaGRscgAAAAAAAAAAcGljdAAAAAAAAAAAAAAAAGxpYmF2aWYAAAAADnBpdG0AAAAAAAEAAAAeaWxvYwAAAABEAAABAAEAAAABAAABGgAAAB0AAAAoaWluZgAAAAAAAQAAABppbmZlAgAAAAABAABhdjAxQ29sb3IAAAAAamlwcnAAAABLaXBjbwAAABRpc3BlAAAAAAAAAAIAAAACAAAAEHBpeGkAAAAAAwgICAAAAAxhdjFDgQ0MAAAAABNjb2xybmNseAACAAIAAYAAAAAXaXBtYQAAAAAAAAABAAEEAQKDBAAAACVtZGF0EgAKCBgANogQEAwgMg8f8D///8WfhwB8+ErK42A=",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://immersivebags.miumiu.com/baluchon-f3sng3o.manifest.json",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 5555
+      },
+      {
+        "url": "https://immersivebags.miumiu.com/b/xyzyLaquYzY8.m4a",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mp4",
+        "fromCache": false,
+        "bytes": 734470
+      },
+      {
+        "url": "https://immersivebags.miumiu.com/b/GM8JCiYyInOo.m4a",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mp4",
+        "fromCache": false,
+        "bytes": 166096
+      },
+      {
+        "url": "https://immersivebags.miumiu.com/b/Km6oI_iuijwi.json",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 409
+      },
+      {
+        "url": "https://immersivebags.miumiu.com/vendors/draco/draco_wasm_wrapper.js",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 10514
+      },
+      {
+        "url": "https://immersivebags.miumiu.com/vendors/draco/draco_decoder.wasm",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/wasm",
+        "fromCache": false,
+        "bytes": 66534
+      },
+      {
+        "url": "https://immersivebags.miumiu.com/b/nZ5p62zkmn1s.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 1045405
+      },
+      {
+        "url": "https://immersivebags.miumiu.com/b/9OJepvNLm586.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 1221899
+      },
+      {
+        "url": "https://immersivebags.miumiu.com/b/f8qfD5bque5r.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 1170764
+      },
+      {
+        "url": "https://immersivebags.miumiu.com/b/nbJflwtvYtv5.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 332929
+      },
+      {
+        "url": "https://immersivebags.miumiu.com/b/IleJCHdJk2cx.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 208887
+      },
+      {
+        "url": "https://immersivebags.miumiu.com/b/LOKc5qQbVSQT.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 59308
+      },
+      {
+        "url": "https://immersivebags.miumiu.com/b/fSA2a2f_pCXi.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 340608
+      },
+      {
+        "url": "https://immersivebags.miumiu.com/b/c51c5w2yF4rs.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 40586
+      },
+      {
+        "url": "https://immersivebags.miumiu.com/b/JIb-X8_H5tlt.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 79629
+      },
+      {
+        "url": "https://immersivebags.miumiu.com/vendors/basis/basis_transcoder.js",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 14581
+      },
+      {
+        "url": "https://immersivebags.miumiu.com/vendors/basis/basis_transcoder.wasm",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/wasm",
+        "fromCache": false,
+        "bytes": 205350
+      },
+      {
+        "url": "https://tags.tiqcdn.com/utag/prada/prada.iframe/prod/utag.1.js?utv=ut4.54.202511201011",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1288
+      },
+      {
+        "url": "blob:https://immersivebags.miumiu.com/ee9fa6aa-1ab0-4bc1-b9de-3e706f95fa36",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "blob:https://immersivebags.miumiu.com/ee9fa6aa-1ab0-4bc1-b9de-3e706f95fa36",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "blob:https://immersivebags.miumiu.com/ee9fa6aa-1ab0-4bc1-b9de-3e706f95fa36",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "blob:https://immersivebags.miumiu.com/ee9fa6aa-1ab0-4bc1-b9de-3e706f95fa36",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "https://tags.tiqcdn.com/utag/prada/prada.iframe/prod/utag.v.js?a=prada/prada.iframe/202511201001&cb=1791626020005",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 443
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "preloader-spinner",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 550,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 650,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.785, 0.135, 0.15, 0.86)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 650,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 550,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 550,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 550,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 650,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 650,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A070200034180000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0A0200034180000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0D0200034180000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      }
+    ],
+    "exceptions": [
+      "EncodingError: Unable to decode audio data",
+      "EncodingError: Unable to decode audio data"
+    ],
+    "failed": [],
+    "targets": {
+      "frames": 1,
+      "workers": 4
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 2533,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 44,
+      "typography": {
+        "families": [
+          [
+            "WorkSans",
+            8
+          ]
+        ],
+        "weights": [
+          [
+            "700",
+            5
+          ],
+          [
+            "400",
+            3
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            6
+          ]
+        ],
+        "sizeMin": 14,
+        "sizeMedian": 16,
+        "sizeMax": 32,
+        "sizeMaxVw": 8.2,
+        "scaleRatio": 2,
+        "letterSpacingMean": 0.175,
+        "loadedFonts": [
+          {
+            "family": "WorkSans",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "WorkSans",
+            "weight": "700",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 8
+      },
+      "color": {
+        "background": "rgb(255, 255, 255)",
+        "backgroundLuminance": 1,
+        "backgrounds": [
+          [
+            "rgb(255, 255, 255)",
+            329
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(255, 255, 255)",
+            34
+          ],
+          [
+            "rgb(0, 0, 0)",
+            1
+          ]
+        ],
+        "meanSaturation": 0,
+        "rootVars": {
+          "--base-text": "calc((10px) * var(--h-demult, 1))",
+          "--padding": "max(6px, calc(var(--base-text) * .15))",
+          "--ui-bps": "xs:400px / s:640px / sm:768px / md:1024px / lg:1200px / xl:1600px / xxl:1920px",
+          "--ui-colors": "bg-primary:#0c0f60 / primary-hover:#000 / primary:#fff / yellow:#ffe100 / white:#fff / black:#000 / paper:#ffedd9 / beige:#fcf5e6 / blue:#265adf / red:#c60000 / viewmaster-red:#d81219 / viewmaster-beige:#eee2b7 / phone-beige:#d7c8b1",
+          "--ui-color-bg-primary": "#0c0f60",
+          "--ui-color-primary-hover": "#000",
+          "--ui-color-primary": "#fff",
+          "--ui-color-yellow": "#ffe100",
+          "--ui-color-white": "#fff",
+          "--ui-color-black": "#000",
+          "--ui-color-paper": "#ffedd9",
+          "--ui-color-beige": "#fcf5e6",
+          "--ui-color-blue": "#265adf",
+          "--ui-color-red": "#c60000",
+          "--ui-color-viewmaster-red": "#d81219",
+          "--ui-color-viewmaster-beige": "#eee2b7",
+          "--ui-color-phone-beige": "#d7c8b1",
+          "--miumiu-header": "1.5em"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 2,
+        "sticky": 0,
+        "fixed": 3,
+        "grid": 0,
+        "flex": 9,
+        "absolute": 5,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 844,
+        "pages": 1,
+        "spacing": [
+          [
+            4,
+            1
+          ],
+          [
+            40,
+            1
+          ],
+          [
+            20,
+            1
+          ],
+          [
+            32,
+            1
+          ],
+          [
+            48,
+            1
+          ],
+          [
+            60,
+            1
+          ],
+          [
+            12,
+            1
+          ],
+          [
+            13,
+            1
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 2,
+        "animationKinds": [
+          "CSSTransition",
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 1,
+        "animationDurations": [
+          650,
+          1000
+        ],
+        "easings": [
+          "ease-in-out",
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            650,
+            4
+          ],
+          [
+            550,
+            3
+          ],
+          [
+            500,
+            1
+          ],
+          [
+            300,
+            1
+          ],
+          [
+            400,
+            1
+          ]
+        ],
+        "keyframes": [
+          "preloader-spinner",
+          "shake1",
+          "jitter-subtle",
+          "jitter-subtle-rtl",
+          "ken-burns",
+          "underline-expand-56ee19ba",
+          "counterEnter-edcb2055",
+          "counterLeave-edcb2055",
+          "counterReturn-edcb2055"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 1,
+      "media": {
+        "canvases": [],
+        "videos": [],
+        "svg": 2,
+        "images": 0,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 2,
+          "webgl": 2,
+          "webgl-experimental": 1,
+          "experimental-webgl": 1
+        },
+        "raf": 283,
+        "io": 0,
+        "ro": 1,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 4,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": true,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Miu Miu - 2026 Bag Campaign",
+      "lang": "en",
+      "description": "Explore the new bag collection and discover something special"
+    },
+    "featuresBeforeScroll": {
+      "elements": 44,
+      "canvases": 0,
+      "animations": 6,
+      "hidden": 3
+    },
+    "scrollReveal": 2,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 5632212,
+        "layoutCount": 21,
+        "recalcStyleCount": 165,
+        "scriptDuration": 0.085198,
+        "taskDuration": 0.37343,
+        "nodes": 176
+      },
+      "timing": {
+        "domContentLoaded": 120,
+        "load": 141,
+        "first-paint": 81,
+        "first-contentful-paint": 1772
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "preloader-spinner",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 550,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 650,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.785, 0.135, 0.15, 0.86)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 650,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 550,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 550,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 550,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 650,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 650,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0D0200034180000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0A0200034180000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A070200034180000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      }
+    ],
+    "exceptions": [
+      "EncodingError: Unable to decode audio data",
+      "EncodingError: Unable to decode audio data"
+    ],
+    "failed": [
+      {
+        "url": "https://immersivebags.miumiu.com/assets/app.BJQTJplKb24d0b8d.js",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 4
+    }
+  }
+}

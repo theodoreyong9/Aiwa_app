@@ -1,0 +1,31 @@
+name: Mirror from the first Aiwa
+# Once: copies the releases that hold the free assets (`assets`, 3D models, lights and textures) and the music (`music`) from the first Aiwa's repository into this one, so that the registries
+# (skills/kit/asset-research, skills/kit/music-research) read them from here. Public files, copied as they are. Run it by hand (Actions, Mirror from the first Aiwa).
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  copy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      matrix:
+        tag: [assets, music]
+    steps:
+      - name: Copy ${{ matrix.tag }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          TAG: ${{ matrix.tag }}
+        run: |
+          set -e
+          mkdir -p /tmp/files
+          gh release download "$TAG" -R theodoreyong9/Aiwa_store -D /tmp/files
+          ls /tmp/files | wc -l
+          gh release view "$TAG" >/dev/null 2>&1 || gh release create "$TAG" --title "$TAG" --notes "Copied from the first Aiwa's release $TAG (free assets, licences kept in the registries)."
+          for f in /tmp/files/*; do gh release upload "$TAG" "$f" --clobber; done
+          echo "::notice title=$TAG::$(ls /tmp/files | wc -l) files copied"

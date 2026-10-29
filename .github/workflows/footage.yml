@@ -1,0 +1,51 @@
+name: Footage
+
+# Free footage of places for the films (NASA, Wikimedia Commons), searched and copied by GitHub's runner because a session's network cannot reach them.
+# search: prints a line per clip (source:id | licence | seconds | size | title) in the log. fetch: copies clips, cut to the first seconds, into the release `assets`
+# as <name>.mp4 (+ <name>.json: the address, the licence, the credit to print in the film).
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'search or fetch'
+        default: 'search'
+      queries:
+        description: 'search: queries separated by ;'
+        default: ''
+      items:
+        description: 'fetch: name=source:id[@start] separated by ; (source: nasa | commons | url)'
+        default: ''
+      seconds:
+        description: 'fetch: seconds kept'
+        default: '12'
+
+permissions:
+  contents: write
+
+jobs:
+  footage:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Search or copy
+        env:
+          GH_TOKEN: ${{ github.token }}
+          MODE: ${{ github.event.inputs.mode }}
+          QUERIES: ${{ github.event.inputs.queries }}
+          ITEMS: ${{ github.event.inputs.items }}
+          SECONDS_KEPT: ${{ github.event.inputs.seconds }}
+        run: |
+          set +e
+          sudo apt-get install -y -qq ffmpeg > /dev/null 2>&1
+          if [ "$MODE" = "search" ]; then
+            echo "$QUERIES" | tr ';' '\n' | while read -r q; do [ -n "$q" ] || continue; echo "=== $q"; node skills/kit/asset-research/src/footage.mjs search "$q" --limit=8; done
+          else
+            gh release view assets >/dev/null 2>&1 || gh release create assets --title "Assets" --notes "CC0 and free assets, copied on request."
+            IFS=';' read -ra ARR <<< "$ITEMS"
+            node skills/kit/asset-research/src/footage.mjs fetch "${ARR[@]}" --seconds="$SECONDS_KEPT" --out=/tmp/footage
+            for f in /tmp/footage/*.mp4 /tmp/footage/*.json; do [ -e "$f" ] && gh release upload assets "$f" --clobber && echo "uploaded $(basename $f)"; done
+          fi

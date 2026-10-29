@@ -1,0 +1,37 @@
+name: Footage index
+
+# The index of free footage (skills/kit/asset-research/catalog/footage.jsonl): searched without a key on NASA, Wikimedia Commons and the Internet Archive, by a list of themes, once a week
+# (and on request). It adds lines (an address, a licence, a credit, a mood); it downloads no film. A film asks for the file of a clip only when it renders (footage.yml fetch).
+on:
+  workflow_dispatch:
+    inputs:
+      themes:
+        description: 'themes separated by ; (empty: the usual list)'
+        default: ''
+  schedule:
+    - cron: '17 4 * * 1'
+
+permissions:
+  contents: write
+
+jobs:
+  index:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Add what the themes find
+        env:
+          THEMES: ${{ github.event.inputs.themes }}
+        run: |
+          if [ -n "$THEMES" ]; then node skills/kit/asset-research/src/footage-index.mjs sync --themes="$THEMES"; else node skills/kit/asset-research/src/footage-index.mjs sync; fi
+      - name: Commit the index
+        run: |
+          git config user.name "aiwa-index"; git config user.email "aiwa-index@users.noreply.github.com"
+          git add skills/kit/asset-research/catalog/footage.jsonl
+          git diff --cached --quiet && echo "nothing new" || (git commit -m "Footage index: new clips" && git push)

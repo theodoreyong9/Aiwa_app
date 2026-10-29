@@ -1,0 +1,2080 @@
+{
+  "url": "https://dattstudio.com/",
+  "at": "2026-10-09T11:25:11.484Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 10484,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 444,
+      "typography": {
+        "families": [
+          [
+            "Inter",
+            77
+          ]
+        ],
+        "weights": [
+          [
+            "600",
+            63
+          ],
+          [
+            "400",
+            13
+          ],
+          [
+            "700",
+            1
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            40
+          ],
+          [
+            "lowercase",
+            2
+          ]
+        ],
+        "sizeMin": 11,
+        "sizeMedian": 14,
+        "sizeMax": 140,
+        "sizeMaxVw": 9.7,
+        "scaleRatio": 10,
+        "letterSpacingMean": 0.026,
+        "loadedFonts": [
+          {
+            "family": "Inter",
+            "weight": "100 900",
+            "style": "normal"
+          }
+        ],
+        "variableFont": true,
+        "textElements": 77
+      },
+      "color": {
+        "background": "rgb(0, 0, 0)",
+        "backgroundLuminance": 0,
+        "backgrounds": [
+          [
+            "rgb(0, 0, 0)",
+            14538
+          ],
+          [
+            "rgba(0, 0, 0, 0.1)",
+            1296
+          ],
+          [
+            "rgb(23, 23, 23)",
+            127
+          ],
+          [
+            "rgba(10, 10, 10, 0.98)",
+            44
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(255, 255, 255)",
+            190
+          ],
+          [
+            "rgb(19, 19, 19)",
+            101
+          ],
+          [
+            "rgba(255, 255, 255, 0.8)",
+            17
+          ],
+          [
+            "rgba(255, 255, 255, 0.5)",
+            12
+          ],
+          [
+            "rgba(255, 255, 255, 0.4)",
+            3
+          ]
+        ],
+        "meanSaturation": 0,
+        "rootVars": {
+          "--ease-mechanical": "cubic-bezier(.19, 1, .22, 1)",
+          "--page-padding": "clamp(16px, 5vw, 24px)",
+          "--studio-grey": "#B4B4B4",
+          "--font-h1": "clamp(38px, 9vw, 72px)",
+          "--font-h2": "clamp(36px, 6vw, 56px)",
+          "--font-h3": "clamp(24px, 4vw, 32px)",
+          "--font-h4": "clamp(18px, 3vw, 22px)",
+          "--font-body": "16px",
+          "--font-label": "clamp(12px, 2vw, 14px)",
+          "--track-tighter": "-.03em",
+          "--track-tight": "-.015em",
+          "--track-wide": ".08em",
+          "--lh-xtight": "1.05",
+          "--lh-tight": "1.2",
+          "--lh-body": "1.4"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 11,
+        "sticky": 0,
+        "fixed": 7,
+        "grid": 4,
+        "flex": 52,
+        "absolute": 16,
+        "asymmetricGrids": 1,
+        "splitScreen": false,
+        "scrollHeight": 7396,
+        "pages": 8.2,
+        "spacing": [
+          [
+            3,
+            56
+          ],
+          [
+            4,
+            18
+          ],
+          [
+            11,
+            16
+          ],
+          [
+            16,
+            8
+          ],
+          [
+            14,
+            8
+          ],
+          [
+            13,
+            8
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            20,
+            5
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 26,
+        "animationKinds": [
+          "CSSTransition"
+        ],
+        "infiniteAnimations": 0,
+        "animationDurations": [
+          600,
+          1300,
+          1300,
+          600,
+          1300,
+          1300,
+          600,
+          1300,
+          1300,
+          1300,
+          1300,
+          600,
+          1300,
+          1300,
+          1300,
+          600,
+          1300,
+          600,
+          600,
+          1300
+        ],
+        "easings": [
+          "cubic-bezier(0.19, 1, 0.22, 1)"
+        ],
+        "transitionDurationsMs": [
+          [
+            1300,
+            64
+          ],
+          [
+            400,
+            23
+          ],
+          [
+            500,
+            15
+          ],
+          [
+            300,
+            10
+          ],
+          [
+            150,
+            9
+          ]
+        ],
+        "keyframes": [
+          "global-underline-flow"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 16,
+      "media": {
+        "canvases": [],
+        "videos": [
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://dattstudio.com/assets/DATT_STUDIO_REEL_2026.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://dattstudio.com/assets/DATT_STUDIO_REEL_2026.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://dattstudio.com/assets/DS_OFFERINGS_1.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://dattstudio.com/assets/DS_OFFERINGS_2.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://dattstudio.com/assets/DS_OFFERINGS_3.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://dattstudio.com/news/csswinner-sotd.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://dattstudio.com/assets/CSSDA-SK-card.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://dattstudio.com/assets/CSSDA-UI-card.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://dattstudio.com/assets/CSSDA-UX-card.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://dattstudio.com/assets/CSSDA-INN-card.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://dattstudio.com/news/csswinner-sotd.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://dattstudio.com/assets/CSSDA-SK-short.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://dattstudio.com/assets/CSSDA-UI-short.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://dattstudio.com/assets/CSSDA-UX-short.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://dattstudio.com/assets/CSSDA-INN-short.mp4"
+          }
+        ],
+        "svg": 0,
+        "images": 7,
+        "iframes": 1,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {},
+        "raf": 13,
+        "io": 4,
+        "ro": 0,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "DATT STUDIO — Brand Identity & Digital Studio",
+      "lang": "en",
+      "description": "DATT STUDIO is a creative studio for brands built to last — brand identity, visual systems, and digital experiences made to hold."
+    },
+    "featuresBeforeScroll": {
+      "elements": 444,
+      "canvases": 0,
+      "animations": 0,
+      "hidden": 63
+    },
+    "scrollReveal": 47,
+    "hover": {
+      "probed": 6,
+      "changed": 0
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 4005080,
+        "layoutCount": 91,
+        "recalcStyleCount": 549,
+        "scriptDuration": 0.093457,
+        "taskDuration": 0.813013,
+        "nodes": 4010
+      },
+      "timing": {
+        "domContentLoaded": 340,
+        "load": 353,
+        "first-paint": 288,
+        "first-contentful-paint": 288
+      }
+    },
+    "network": [
+      {
+        "url": "https://dattstudio.com/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 49681
+      },
+      {
+        "url": "https://dattstudio.com/fonts/inter-core.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 53329
+      },
+      {
+        "url": "https://dattstudio.com/_astro/ClientRouter.astro_astro_type_script_index_0_lang.CDGfc0hd.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 5915
+      },
+      {
+        "url": "https://dattstudio.com/assets/video-poster-retina.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 10144
+      },
+      {
+        "url": "https://dattstudio.com/assets/datt_logo_s.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 615
+      },
+      {
+        "url": "https://dattstudio.com/assets/datt_logo_l.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1686
+      },
+      {
+        "url": "https://dattstudio.com/cdn-cgi/challenge-platform/h/g/scripts/jsd/4df4a60fa397/main.js?",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 13012
+      },
+      {
+        "url": "https://dattstudio.com/assets/DATT_STUDIO_REEL_2026.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "script"
+      },
+      {
+        "url": "https://dattstudio.com/assets/DATT_STUDIO_REEL_2026.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 200,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://dattstudio.com/cdn-cgi/challenge-platform/h/g/jsd/oneshot/4df4a60fa397/0.09259849628733141:1791543720:fD9bhATIPW_styTYFQ_NBrfx5yDD_kn4InUCCy2UUCE/a47d058efb486781",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 1490
+      },
+      {
+        "url": "https://dattstudio.com/news/cssda-awards.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 113670
+      },
+      {
+        "url": "https://dattstudio.com/news/csswinner-sotd.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 43658
+      },
+      {
+        "url": "https://dattstudio.com/assets/news/datt-mark-cover.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4724
+      },
+      {
+        "url": "https://dattstudio.com/assets/news/performance-cover.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 16340
+      },
+      {
+        "url": "https://dattstudio.com/news/csswinner-sotd.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "script"
+      },
+      {
+        "url": "https://dattstudio.com/assets/recognition-SK.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 20955
+      },
+      {
+        "url": "https://dattstudio.com/assets/CSSDA-SK-card.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "script"
+      },
+      {
+        "url": "https://dattstudio.com/news/csswinner-sotd.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 200,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://dattstudio.com/assets/CSSDA-SK-card.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 200,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://dattstudio.com/about/",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 24956
+      },
+      {
+        "url": "https://dattstudio.com/services/",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 25417
+      },
+      {
+        "url": "https://dattstudio.com/news/",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 23677
+      },
+      {
+        "url": "https://dattstudio.com/contact/",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 22412
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 900,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 900,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1300,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 900,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 900,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1300,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 900,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1300,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 900,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1300,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 900,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 600,
+        "delay": 1450,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 900,
+        "delay": 300.00000000000006,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1300,
+        "delay": 300.00000000000006,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 900,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 900,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1300,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 900,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1300,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 900,
+        "delay": 500,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1300,
+        "delay": 500,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 600,
+        "delay": 1950,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 900,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 900,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 900,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 900,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1300,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 900,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1300,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 900,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1300,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 900,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1300,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 900,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 900,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1300,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 900,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 600,
+        "delay": 1450,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 900,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1300,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 900,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      }
+    ],
+    "console": [],
+    "exceptions": [
+      "ReferenceError: swapTimer is not defined\n    at resetForMode (https://dattstudio.com/:941:20)\n    at syncMode (https://dattstudio.com/:964:26)\n    at window.addEventListener.passive (https://dattstudio.com/:968:47)",
+      "ReferenceError: swapTimer is not defined\n    at resetForMode (https://dattstudio.com/:941:20)\n    at syncMode (https://dattstudio.com/:964:26)\n    at window.addEventListener.passive (https://dattstudio.com/:968:47)"
+    ],
+    "failed": [
+      {
+        "url": "https://dattstudio.com/assets/DATT_STUDIO_REEL_2026.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://dattstudio.com/assets/DATT_STUDIO_REEL_2026.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://dattstudio.com/news/csswinner-sotd.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://dattstudio.com/assets/CSSDA-SK-card.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://dattstudio.com/assets/CSSDA-SK-card.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://dattstudio.com/news/csswinner-sotd.mp4",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 2,
+      "workers": 0
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 5596,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 464,
+      "typography": {
+        "families": [
+          [
+            "Inter",
+            84
+          ]
+        ],
+        "weights": [
+          [
+            "600",
+            64
+          ],
+          [
+            "400",
+            16
+          ],
+          [
+            "700",
+            4
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            41
+          ],
+          [
+            "lowercase",
+            2
+          ]
+        ],
+        "sizeMin": 11,
+        "sizeMedian": 16,
+        "sizeMax": 72,
+        "sizeMaxVw": 18.5,
+        "scaleRatio": 4.5,
+        "letterSpacingMean": 0.021,
+        "loadedFonts": [
+          {
+            "family": "Inter",
+            "weight": "100 900",
+            "style": "normal"
+          }
+        ],
+        "variableFont": true,
+        "textElements": 84
+      },
+      "color": {
+        "background": "rgb(0, 0, 0)",
+        "backgroundLuminance": 0,
+        "backgrounds": [
+          [
+            "rgb(0, 0, 0)",
+            5410
+          ],
+          [
+            "rgba(0, 0, 0, 0.1)",
+            329
+          ],
+          [
+            "rgb(23, 23, 23)",
+            127
+          ],
+          [
+            "rgba(10, 10, 10, 0.98)",
+            37
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(255, 255, 255)",
+            226
+          ],
+          [
+            "rgb(19, 19, 19)",
+            109
+          ],
+          [
+            "rgba(255, 255, 255, 0.8)",
+            23
+          ],
+          [
+            "rgba(255, 255, 255, 0.5)",
+            12
+          ],
+          [
+            "rgba(255, 255, 255, 0.4)",
+            3
+          ]
+        ],
+        "meanSaturation": 0,
+        "rootVars": {
+          "--ease-mechanical": "cubic-bezier(.19, 1, .22, 1)",
+          "--page-padding": "clamp(16px, 5vw, 24px)",
+          "--studio-grey": "#B4B4B4",
+          "--font-h1": "clamp(38px, 9vw, 72px)",
+          "--font-h2": "clamp(36px, 6vw, 56px)",
+          "--font-h3": "clamp(24px, 4vw, 32px)",
+          "--font-h4": "clamp(18px, 3vw, 22px)",
+          "--font-body": "16px",
+          "--font-label": "clamp(12px, 2vw, 14px)",
+          "--track-tighter": "-.03em",
+          "--track-tight": "-.015em",
+          "--track-wide": ".08em",
+          "--lh-xtight": "1.05",
+          "--lh-tight": "1.2",
+          "--lh-body": "1.4"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 8,
+        "sticky": 5,
+        "fixed": 7,
+        "grid": 9,
+        "flex": 65,
+        "absolute": 26,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 6970,
+        "pages": 8.3,
+        "spacing": [
+          [
+            3,
+            42
+          ],
+          [
+            2,
+            32
+          ],
+          [
+            7,
+            23
+          ],
+          [
+            4,
+            13
+          ],
+          [
+            16,
+            10
+          ],
+          [
+            8,
+            6
+          ],
+          [
+            10,
+            5
+          ],
+          [
+            20,
+            5
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 18,
+        "animationKinds": [
+          "CSSTransition"
+        ],
+        "infiniteAnimations": 0,
+        "animationDurations": [
+          462.3958839995218,
+          591.711682735811,
+          591.711682735811,
+          600,
+          600,
+          600,
+          600,
+          600,
+          1300,
+          600,
+          600,
+          1300,
+          1300,
+          1300,
+          1300,
+          1300,
+          1300,
+          1300
+        ],
+        "easings": [
+          "ease",
+          "cubic-bezier(0.19, 1, 0.22, 1)"
+        ],
+        "transitionDurationsMs": [
+          [
+            1300,
+            71
+          ],
+          [
+            400,
+            25
+          ],
+          [
+            600,
+            15
+          ],
+          [
+            500,
+            15
+          ],
+          [
+            300,
+            10
+          ]
+        ],
+        "keyframes": [
+          "global-underline-flow"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 22,
+      "media": {
+        "canvases": [],
+        "videos": [
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://dattstudio.com/assets/DATT_STUDIO_REEL_2026.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://dattstudio.com/assets/DATT_STUDIO_REEL_2026.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://dattstudio.com/assets/DS_OFFERINGS_1.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://dattstudio.com/assets/DS_OFFERINGS_2.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://dattstudio.com/assets/DS_OFFERINGS_3.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://dattstudio.com/news/csswinner-sotd.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://dattstudio.com/assets/CSSDA-SK-card.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://dattstudio.com/assets/CSSDA-UI-card.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://dattstudio.com/assets/CSSDA-UX-card.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://dattstudio.com/assets/CSSDA-INN-card.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://dattstudio.com/news/csswinner-sotd.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://dattstudio.com/assets/CSSDA-SK-short.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://dattstudio.com/assets/CSSDA-UI-short.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://dattstudio.com/assets/CSSDA-UX-short.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://dattstudio.com/assets/CSSDA-INN-short.mp4"
+          }
+        ],
+        "svg": 0,
+        "images": 7,
+        "iframes": 1,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {},
+        "raf": 12,
+        "io": 4,
+        "ro": 0,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "DATT STUDIO — Brand Identity & Digital Studio",
+      "lang": "en",
+      "description": "DATT STUDIO is a creative studio for brands built to last — brand identity, visual systems, and digital experiences made to hold."
+    },
+    "featuresBeforeScroll": {
+      "elements": 464,
+      "canvases": 0,
+      "animations": 0,
+      "hidden": 59
+    },
+    "scrollReveal": 37,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 3641676,
+        "layoutCount": 82,
+        "recalcStyleCount": 461,
+        "scriptDuration": 0.07898,
+        "taskDuration": 0.638071,
+        "nodes": 3809
+      },
+      "timing": {
+        "domContentLoaded": 176,
+        "load": 177,
+        "first-paint": 188,
+        "first-contentful-paint": 188
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 900,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 900,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 900,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1300,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 900,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1300,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 900,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 900,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1300,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 600,
+        "delay": 1450,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 900,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1300,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 900,
+        "delay": 500,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1300,
+        "delay": 500,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 900,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 900,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1300,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 900,
+        "delay": 300.00000000000006,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1300,
+        "delay": 300.00000000000006,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 900,
+        "delay": 300.00000000000006,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1300,
+        "delay": 300.00000000000006,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 900,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1300,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 900,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1300,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 600,
+        "delay": 1950,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 900,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 900,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 900,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 900,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1300,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 900,
+        "delay": 500,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1300,
+        "delay": 500,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 900,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 900,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1300,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 900,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1300,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 900,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1300,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 900,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      }
+    ],
+    "console": [],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://dattstudio.com/news/csswinner-sotd.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://dattstudio.com/assets/CSSDA-SK-card.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://dattstudio.com/assets/CSSDA-SK-card.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://dattstudio.com/news/csswinner-sotd.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://dattstudio.com/assets/CSSDA-INN-card.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://dattstudio.com/assets/CSSDA-INN-card.mp4",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 2,
+      "workers": 0
+    }
+  }
+}

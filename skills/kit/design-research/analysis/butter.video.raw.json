@@ -1,0 +1,4802 @@
+{
+  "url": "https://www.butter.video/",
+  "at": "2026-10-09T08:00:19.220Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 12275,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 2062,
+      "typography": {
+        "families": [
+          [
+            "DieGrotesk",
+            93
+          ],
+          [
+            "ABCDiatype",
+            10
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            103
+          ]
+        ],
+        "textTransforms": [],
+        "sizeMin": 13,
+        "sizeMedian": 45.4526,
+        "sizeMax": 107.568,
+        "sizeMaxVw": 7.5,
+        "scaleRatio": 2.4,
+        "letterSpacingMean": 0.019,
+        "loadedFonts": [
+          {
+            "family": "DieGrotesk",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "ABCDiatype",
+            "weight": "400",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 103
+      },
+      "color": {
+        "background": "rgb(250, 250, 250)",
+        "backgroundLuminance": 0.9559733532492862,
+        "backgrounds": [
+          [
+            "rgb(250, 250, 250)",
+            4042
+          ],
+          [
+            "rgb(237, 237, 237)",
+            3332
+          ],
+          [
+            "rgb(10, 9, 9)",
+            462
+          ],
+          [
+            "rgb(21, 21, 21)",
+            352
+          ],
+          [
+            "rgb(46, 46, 46)",
+            11
+          ],
+          [
+            "rgb(30, 30, 30)",
+            7
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(15, 15, 15)",
+            1188
+          ],
+          [
+            "rgb(30, 30, 30)",
+            124
+          ],
+          [
+            "rgba(15, 15, 15, 0.4)",
+            99
+          ],
+          [
+            "rgba(0, 0, 0, 0)",
+            63
+          ],
+          [
+            "rgb(182, 182, 182)",
+            31
+          ]
+        ],
+        "meanSaturation": 0.02,
+        "rootVars": {
+          "--butter-white": "#FAFAFA",
+          "--butter-off-white": "#F7F7F7",
+          "--butter-black": "#1E1E1E",
+          "--butter-true-black": "#0F0F0F",
+          "--butter-charcoal": "#3C3C3C",
+          "--butter-light-grey": "#EDEDED",
+          "--butter-dark-grey": "#E2E2E2",
+          "--butter-light": "#EBEBEB",
+          "--butter-red": "#FF3333",
+          "--butter-blue": "#4DC5E5",
+          "--butter-green": "#63AD45",
+          "--butter-yellow": "#E9D352",
+          "--butter-pink": "#F9ABFF",
+          "--butter-font-primary": "'DieGrotesk','DieGrotesk Fallback'",
+          "--butter-font-secondary": "'ABCDiatype','ABCDiatype Fallback'",
+          "--butter-ease-out": "cubic-bezier(0.200, 0.715, 0.205, 0.990)",
+          "--butter-ease-in-out": "cubic-bezier(0.835, 0.120, 0.225, 0.770)",
+          "--perf-bg": "rgba(8, 10, 15, .92)",
+          "--perf-glass": "rgba(255, 255, 255, .03)",
+          "--perf-border": "rgba(255, 255, 255, .08)",
+          "--perf-text": "#ffffff",
+          "--perf-text-dim": "#a0aec0",
+          "--perf-text-muted": "#718096",
+          "--perf-gauge-bg": "rgba(0, 0, 0, .15)",
+          "--perf-fps": "#00ffd0",
+          "--perf-gpu": "#ff9f43",
+          "--perf-cpu": "#a78bfa",
+          "--perf-success": "#10b981",
+          "--perf-warning": "#f59e0b",
+          "--perf-danger": "#ef4444",
+          "--perf-gradient-primary": "linear-gradient(135deg, #00ffd0 0%, #a78bfa 100%)",
+          "--perf-gradient-glow": "radial-gradient(ellipse at center, rgba(0, 255, 208, .15) 0%, transparent 70%)",
+          "--perf-radius": "12px",
+          "--perf-radius-sm": "8px",
+          "--perf-padding": "12px"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 2,
+        "sticky": 0,
+        "fixed": 7,
+        "grid": 109,
+        "flex": 158,
+        "absolute": 181,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 14365,
+        "pages": 16,
+        "spacing": [
+          [
+            50,
+            29
+          ],
+          [
+            10,
+            27
+          ],
+          [
+            8,
+            14
+          ],
+          [
+            16,
+            14
+          ],
+          [
+            25,
+            10
+          ],
+          [
+            15,
+            6
+          ],
+          [
+            140,
+            6
+          ],
+          [
+            27,
+            5
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 32,
+        "animationKinds": [
+          "CSSTransition"
+        ],
+        "infiniteAnimations": 0,
+        "animationDurations": [
+          800,
+          800,
+          800,
+          528,
+          800,
+          528,
+          800,
+          528,
+          800,
+          528,
+          800,
+          528,
+          800,
+          528,
+          800,
+          528,
+          800,
+          528,
+          800,
+          528
+        ],
+        "easings": [
+          "cubic-bezier(0, 0, 0, 1)",
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            800,
+            111
+          ],
+          [
+            1000,
+            52
+          ],
+          [
+            500,
+            40
+          ],
+          [
+            300,
+            5
+          ],
+          [
+            200,
+            3
+          ]
+        ],
+        "keyframes": [
+          "dafZtH",
+          "hqtXGH",
+          "fIeEtv",
+          "perf-fade-in",
+          "perf-pulse"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 106,
+      "media": {
+        "canvases": [],
+        "videos": [
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/statement/statement-2_mxcdpa.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/statement/statement-3_ljgfrz.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/statement/statement-4_jxkgff.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/statement/statement-5_rjaam4.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/story_1/halftone_bg_habeer.webm?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/story_2/blocks-dials-sliders_rdphvr.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/story_3/dash_rltoqm.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/feature_cards/import_mzb6kv.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/feature_cards/ship_zy7btv.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/features_highlight/generate_drdhh2.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/features_highlight/code_gbrdfv.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/gallery_carousel/fit_for_any_forecast_l3viah.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/gallery_carousel/watermelon_rind_kzokuu.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/gallery_carousel/sodas_back_gwklxl.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/gallery_carousel/gentle_exfoliant_oh0wdj.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/gallery_carousel/acne_care_el6isj.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/gallery_carousel/one_platform_sakgws.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/gallery_carousel/running_kit_h9ea1n.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/gallery_carousel/mix_match_flavors_aegnvz.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/gallery_carousel/fit_for_any_forecast_l3viah.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/gallery_carousel/watermelon_rind_kzokuu.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/gallery_carousel/sodas_back_gwklxl.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/gallery_carousel/gentle_exfoliant_oh0wdj.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/gallery_carousel/acne_care_el6isj.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/gallery_carousel/one_platform_sakgws.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/gallery_carousel/running_kit_h9ea1n.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/gallery_carousel/mix_match_flavors_aegnvz.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/gallery_carousel/fit_for_any_forecast_l3viah.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/gallery_carousel/watermelon_rind_kzokuu.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/gallery_carousel/sodas_back_gwklxl.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/gallery_carousel/gentle_exfoliant_oh0wdj.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/gallery_carousel/acne_care_el6isj.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/gallery_carousel/one_platform_sakgws.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/gallery_carousel/running_kit_h9ea1n.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/gallery_carousel/mix_match_flavors_aegnvz.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/features/accelerate-prod_l7b2c6.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/v1/website/home/double_block/anything-into-everything_k15fdk.webm?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/block_highlight/power-pulse_ayhddx.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/block_highlight/fold-distort_vzmvkg.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/block_highlight/pulsing-neon_lvabjp.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/block_highlight/infinite-twist_o1w65g.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/block_highlight/image-bloom_c60eli.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/block_highlight/ilovecreatives_lhjdav.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/block_highlight/snap_ubuzi1.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/block_highlight/warp_lyeo1r.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/block_highlight/boost_wbprkk.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/block_highlight/power-pulse_thumb_vxss3j.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/block_highlight/fold-distort_thumb_rrsjid.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/block_highlight/pulsing-neon_thumb_ks85tj.mp4?_a=DATAiZAAZAA0"
+          }
+        ],
+        "svg": 14,
+        "images": 71,
+        "iframes": 2,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 1,
+          "2d": 1
+        },
+        "raf": 1448,
+        "io": 54,
+        "ro": 128,
+        "mo": 5,
+        "startViewTransition": 0,
+        "workers": 4,
+        "wasm": 2
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Butter Video | Online Video Editor Engineered for Creativity",
+      "lang": "en",
+      "description": "The first video editor and design platform built with creative code for creative teams. It's a whole new timeline."
+    },
+    "featuresBeforeScroll": {
+      "elements": 2061,
+      "canvases": 1,
+      "animations": 1,
+      "hidden": 260
+    },
+    "scrollReveal": 154,
+    "hover": {
+      "probed": 6,
+      "changed": 1
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 80056328,
+        "layoutCount": 844,
+        "recalcStyleCount": 2130,
+        "scriptDuration": 1.76468,
+        "taskDuration": 6.191294,
+        "nodes": 15117
+      },
+      "timing": {
+        "domContentLoaded": 274,
+        "load": 530,
+        "first-paint": 296,
+        "first-contentful-paint": 296
+      }
+    },
+    "network": [
+      {
+        "url": "https://www.butter.video/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 44681
+      },
+      {
+        "url": "https://marketing.butter.video/_next/static/media/5fb8d156cdd6d753-s.p.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 45549
+      },
+      {
+        "url": "https://marketing.butter.video/_next/static/media/da60608f2183158e-s.p.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 46406
+      },
+      {
+        "url": "https://marketing.butter.video/_next/static/css/2836d44e2fdcb041.css?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 4396
+      },
+      {
+        "url": "https://marketing.butter.video/_next/static/css/6294d87c4b6dbd81.css?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 9050
+      },
+      {
+        "url": "https://marketing.butter.video/_next/static/chunks/webpack-8c458fe1a50462c9.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 7975
+      },
+      {
+        "url": "https://marketing.butter.video/_next/static/chunks/4bd1b696-f2a5235c67c67b30.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 59216
+      },
+      {
+        "url": "https://marketing.butter.video/_next/static/chunks/1255-7a80e87216d12535.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 49757
+      },
+      {
+        "url": "https://marketing.butter.video/_next/static/chunks/main-app-4a99a8316d93e51b.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4646
+      },
+      {
+        "url": "https://marketing.butter.video/_next/static/chunks/c15bf2b0-bdf82ac138c08b2c.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 24557
+      },
+      {
+        "url": "https://marketing.butter.video/_next/static/chunks/bd904a5c-3e98b3ace8e3e633.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 106156
+      },
+      {
+        "url": "https://marketing.butter.video/_next/static/chunks/b536a0f1-0a3a352546b0d274.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 88142
+      },
+      {
+        "url": "https://marketing.butter.video/_next/static/chunks/1329d575-c3673c15d5843089.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 38680
+      },
+      {
+        "url": "https://marketing.butter.video/_next/static/chunks/b055d1fb-dce384514359aa74.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 179714
+      },
+      {
+        "url": "https://marketing.butter.video/_next/static/chunks/7682-f94f15dea8418873.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 50460
+      },
+      {
+        "url": "https://marketing.butter.video/_next/static/chunks/2664-d4d6d9eff805242c.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 29875
+      },
+      {
+        "url": "https://marketing.butter.video/_next/static/chunks/1996-ed495363eed4d6fe.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 15758
+      },
+      {
+        "url": "https://marketing.butter.video/_next/static/chunks/7738-ff10d99e05ea262e.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 35659
+      },
+      {
+        "url": "https://marketing.butter.video/_next/static/chunks/2203-b6a0d874658fe457.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 19386
+      },
+      {
+        "url": "https://marketing.butter.video/_next/static/chunks/2553-a3fddc2b043ee91d.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 16565
+      },
+      {
+        "url": "https://marketing.butter.video/_next/static/chunks/1070-71be2abfe2652705.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 7945
+      },
+      {
+        "url": "https://marketing.butter.video/_next/static/chunks/4396-c2f63c60738708b9.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 17584
+      },
+      {
+        "url": "https://marketing.butter.video/_next/static/chunks/3199-6ab0c6ff54a8ecbd.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 12137
+      },
+      {
+        "url": "https://marketing.butter.video/_next/static/chunks/5891-7ce9818823a4c71a.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 7759
+      },
+      {
+        "url": "https://marketing.butter.video/_next/static/chunks/7780-8b79132db573c56f.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 8111
+      },
+      {
+        "url": "https://marketing.butter.video/_next/static/chunks/2092-92635f58c963e8f0.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 11330
+      },
+      {
+        "url": "https://marketing.butter.video/_next/static/chunks/app/layout-ff04dfbcfc521e41.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 19020
+      },
+      {
+        "url": "https://marketing.butter.video/_next/static/chunks/app/not-found-46efad620c0cd94f.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 9488
+      },
+      {
+        "url": "https://marketing.butter.video/_next/static/chunks/6922-eb29110ff9ceabdf.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 6862
+      },
+      {
+        "url": "https://marketing.butter.video/_next/static/chunks/2455-599dc3abc232b3c5.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 6461
+      },
+      {
+        "url": "https://marketing.butter.video/_next/static/chunks/app/%5B...uid%5D/page-b9b5c00375a4e8f4.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 8781
+      },
+      {
+        "url": "https://marketing.butter.video/_next/static/chunks/4757-d754cba9ee306140.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 12456
+      },
+      {
+        "url": "https://marketing.butter.video/_next/static/chunks/1113-277270398feae61f.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 20031
+      },
+      {
+        "url": "https://marketing.butter.video/_next/static/chunks/2775-6588e0fafe596e5a.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 18754
+      },
+      {
+        "url": "https://marketing.butter.video/_next/static/chunks/1234-6611e6785200390e.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 304819
+      },
+      {
+        "url": "https://marketing.butter.video/_next/static/chunks/6693-1e014e13422bfe3c.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 12550
+      },
+      {
+        "url": "https://marketing.butter.video/_next/static/chunks/3052-497b0887971fccf9.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 8173
+      },
+      {
+        "url": "https://marketing.butter.video/_next/static/chunks/1901-6c1d8c09325553cd.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 8150
+      },
+      {
+        "url": "https://marketing.butter.video/_next/static/chunks/9780-d08ffe27f0381efe.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 7894
+      },
+      {
+        "url": "https://marketing.butter.video/_next/static/chunks/4100-6ab08656879be575.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 6555
+      },
+      {
+        "url": "https://marketing.butter.video/_next/static/chunks/1438-4d3e6bc9a6e9e1f0.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 7345
+      },
+      {
+        "url": "https://marketing.butter.video/_next/static/chunks/app/page-7719044c18dfb7a2.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 47192
+      },
+      {
+        "url": "https://marketing.butter.video/_next/static/chunks/2754.71e0144ee53eee4f.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 6140
+      },
+      {
+        "url": "https://marketing.butter.video/_next/static/chunks/894.5980adf43d0d6657.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 8600
+      },
+      {
+        "url": "https://marketing.butter.video/_next/static/chunks/4989.c1ad2eb153e1a6d2.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 10246
+      },
+      {
+        "url": "https://marketing.butter.video/_next/static/chunks/6215.92860bc41fc04c65.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 7396
+      },
+      {
+        "url": "https://marketing.butter.video/_next/static/chunks/7733.a28cc0ba6d014b71.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 6139
+      },
+      {
+        "url": "https://marketing.butter.video/_next/static/chunks/6339.16f176e886f5b062.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4872
+      },
+      {
+        "url": "https://marketing.butter.video/_next/static/chunks/8089.bf944471e2247a04.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 5980
+      },
+      {
+        "url": "https://marketing.butter.video/_next/static/chunks/2418.c4ff8e8efede1aa2.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 5821
+      },
+      {
+        "url": "https://marketing.butter.video/_next/static/chunks/4109.be07ab53b6d49320.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 8312
+      },
+      {
+        "url": "https://marketing.butter.video/_next/static/chunks/6620.b2411e06085280f9.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 14051
+      },
+      {
+        "url": "https://marketing.butter.video/_next/static/chunks/177.e200b45f35e7f7db.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 8501
+      },
+      {
+        "url": "https://www.butter.video/marketing-assets/images/hero/hero_fallback.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 89116
+      },
+      {
+        "url": "https://images.prismic.io/butter/SyXLRfyWIbAg-Dt3_Airbnb%402x.png?auto=format%2Ccompress&w=400",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 4108
+      },
+      {
+        "url": "https://images.prismic.io/butter/CQ-oI7WPeEVGXKHA_Netflix%402x.png?auto=format%2Ccompress&w=400",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2534
+      },
+      {
+        "url": "https://images.prismic.io/butter/fkfx5Io_hlXmXOOI_Canva%402x.png?auto=format%2Ccompress&w=400",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 4401
+      },
+      {
+        "url": "https://images.prismic.io/butter/Sb944h83XoFOjaXO_SonyMusic%402x.png?auto=format%2Ccompress&w=400",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 3196
+      },
+      {
+        "url": "https://images.prismic.io/butter/5MbhyYR47QuxSYyR_AG1%402x.png?auto=format%2Ccompress&w=400",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 3555
+      },
+      {
+        "url": "https://images.prismic.io/butter/tHtvbGUijZYmCbzG_Pinterest%402x.png?auto=format%2Ccompress&w=400",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 4762
+      },
+      {
+        "url": "https://images.prismic.io/butter/wx2nv3tE_TKElZSa_UrbanOutfitters%402x.png?auto=format%2Ccompress&w=400",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 3345
+      },
+      {
+        "url": "https://images.prismic.io/butter/3yZ3xKYD7ub5bmT9_SpaceX%402x.png?auto=format%2Ccompress&rect=0%2C0%2C2460%2C304&w=400&h=304",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2585
+      },
+      {
+        "url": "https://images.prismic.io/butter/C6POX-EagSkSh97g_Lyft%402x.png?auto=format%2Ccompress&w=400",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2898
+      },
+      {
+        "url": "https://images.prismic.io/butter/YJNLsuV8hw-gbuhN_crocs.png?auto=format%2Ccompress&w=400",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 3453
+      },
+      {
+        "url": "https://images.prismic.io/butter/qHLba_9cNvNRohAS_seed.png?auto=format%2Ccompress&w=400",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 3597
+      },
+      {
+        "url": "https://images.prismic.io/butter/xV5V9H1q9NDXh4WF_Mejuri%402x.png?auto=format%2Ccompress&w=400",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2483
+      },
+      {
+        "url": "https://images.prismic.io/butter/9zJV_7SalEe9gVlK_DoorDash%402x.png?auto=format%2Ccompress&w=400",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 3150
+      },
+      {
+        "url": "https://images.prismic.io/butter/dafJmjMyqF3TPR9X_Mercedes%402x.png?auto=format%2Ccompress&w=400",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 5114
+      },
+      {
+        "url": "https://www.butter.video/marketing-assets/images/statement/timeline.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 71962
+      },
+      {
+        "url": "https://images.prismic.io/butter/akI1clbRV8_Qf9Rj_statement-1.png?auto=format%2Ccompress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 4797
+      },
+      {
+        "url": "https://www.butter.video/marketing-assets/images/text-effects/word_glow.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 95880
+      },
+      {
+        "url": "https://www.butter.video/marketing-assets/images/text-effects/inflate/b.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 12597
+      },
+      {
+        "url": "https://www.butter.video/marketing-assets/images/text-effects/inflate/l.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 7104
+      },
+      {
+        "url": "https://www.butter.video/marketing-assets/images/text-effects/inflate/o.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 9949
+      },
+      {
+        "url": "https://www.butter.video/marketing-assets/images/text-effects/inflate/c.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 9395
+      },
+      {
+        "url": "https://www.butter.video/marketing-assets/images/text-effects/inflate/k.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 12967
+      },
+      {
+        "url": "https://www.butter.video/marketing-assets/images/text-effects/inflate/s.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 9529
+      },
+      {
+        "url": "https://www.butter.video/marketing-assets/images/text-effects/inflate.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 31790
+      },
+      {
+        "url": "https://www.butter.video/marketing-assets/images/text-effects/glow.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 23403
+      },
+      {
+        "url": "https://www.butter.video/marketing-assets/images/text-effects/focus.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 18086
+      },
+      {
+        "url": "https://www.butter.video/marketing-assets/images/text-effects/halftone.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 109258
+      },
+      {
+        "url": "https://api.butter.video/api/graphql",
+        "method": "OPTIONS",
+        "type": "OTHER",
+        "initiator": "preflight",
+        "status": 204,
+        "mime": "",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://api.butter.video/api/graphql",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 382
+      },
+      {
+        "url": "https://marketing.butter.video/_next/static/chunks/f739f9f4.ec3fb35788f5fd45.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 804045
+      },
+      {
+        "url": "https://marketing.butter.video/_next/static/chunks/121.9963d3afbfdfd178.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 130906
+      },
+      {
+        "url": "https://marketing.butter.video/_next/static/chunks/6955.5e27ff65997b951f.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 10238
+      },
+      {
+        "url": "https://www.butter.video/product?_rsc=1p-R_iEY6bj0jY31",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 13666
+      },
+      {
+        "url": "https://www.butter.video/pricing?_rsc=1p-R_iEY6bj0jY31",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 17151
+      },
+      {
+        "url": "https://www.butter.video/blog?_rsc=1p-R_iEY6bj0jY31",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 10996
+      },
+      {
+        "url": "https://www.butter.video/marketing-assets/models/keychain/b_tag/b_tag.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "model/gltf-binary",
+        "fromCache": false,
+        "bytes": 7026
+      },
+      {
+        "url": "https://www.butter.video/marketing-assets/models/keychain/butter_tag/butter_tag.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "model/gltf-binary",
+        "fromCache": false,
+        "bytes": 81954
+      },
+      {
+        "url": "https://www.butter.video/marketing-assets/models/keychain/chain_link/chain_link.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "model/gltf-binary",
+        "fromCache": false,
+        "bytes": 7279
+      },
+      {
+        "url": "https://www.butter.video/marketing-assets/models/keychain/carabiner/carabiner.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "model/gltf-binary",
+        "fromCache": false,
+        "bytes": 68008
+      },
+      {
+        "url": "https://www.butter.video/marketing-assets/models/keychain/circle_tag/circle_tag.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "model/gltf-binary",
+        "fromCache": false,
+        "bytes": 9002
+      },
+      {
+        "url": "https://www.butter.video/marketing-assets/models/keychain/gothic_tag/gothic_tag.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "model/gltf-binary",
+        "fromCache": false,
+        "bytes": 249467
+      },
+      {
+        "url": "https://www.butter.video/marketing-assets/models/keychain/key/key.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "model/gltf-binary",
+        "fromCache": false,
+        "bytes": 454138
+      },
+      {
+        "url": "https://marketing.butter.video/_next/static/chunks/app/pricing/page-ff29fe97c6da1dc9.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 47053
+      },
+      {
+        "url": "https://marketing.butter.video/_next/static/chunks/app/product/page-0536bf1b79f55673.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 10007
+      },
+      {
+        "url": "https://www.gstatic.com/draco/versioned/decoders/1.5.5/draco_wasm_wrapper.js",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 12020
+      },
+      {
+        "url": "https://www.gstatic.com/draco/versioned/decoders/1.5.5/draco_decoder.wasm",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/wasm",
+        "fromCache": false,
+        "bytes": 89039
+      },
+      {
+        "url": "blob:https://www.butter.video/64736901-ad84-4cd5-aa40-e2caf1aec8bd",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://www.butter.video/6769d825-c244-46cd-be84-dbb795b7b6aa",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://www.butter.video/846a9e83-d2b5-4514-9c71-4e94b069a538",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.butter.video/marketing-assets/images/hero/city.jpg",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 122475
+      },
+      {
+        "url": "https://marketing.butter.video/_next/static/chunks/7321-acdd50a5b7a1d811.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 8778
+      },
+      {
+        "url": "https://marketing.butter.video/_next/static/chunks/app/blog/page-533bdc3288773730.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 6523
+      },
+      {
+        "url": "blob:https://www.butter.video/3e588fd5-2b57-468b-bfa0-2bf9cf25a8f9",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://www.butter.video/874f4f8d-4fae-4f7a-b9a5-f3f2421786e1",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "blob:https://www.butter.video/874f4f8d-4fae-4f7a-b9a5-f3f2421786e1",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "blob:https://www.butter.video/874f4f8d-4fae-4f7a-b9a5-f3f2421786e1",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "blob:https://www.butter.video/874f4f8d-4fae-4f7a-b9a5-f3f2421786e1",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "https://marketing.butter.video/_next/static/chunks/6470.d0a1387e42ed995f.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 32217
+      },
+      {
+        "url": "https://cdn.iubenda.com/iubenda.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 7271
+      },
+      {
+        "url": "https://static.cdn.prismic.io/prismic.js?new=true&repo=butter",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 8371
+      },
+      {
+        "url": "https://cdp.customer.io/v1/projects/8d2efc169d425acb5c4b/settings",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 13426
+      },
+      {
+        "url": "https://cdn.iubenda.com/iubenda_i_badge.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4922
+      },
+      {
+        "url": "https://cdn.iubenda.com/iubenda_badge.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 2078
+      },
+      {
+        "url": "https://butter.prismic.io/prismic-toolbar/4.1.17/iframe.html",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 4510
+      },
+      {
+        "url": "https://marketing.butter.video/_next/static/chunks/ajs-destination.86e1b01c6efed29f.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 6608
+      },
+      {
+        "url": "https://cdp.customer.io/v1/analytics-js/actions/google-ads.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 62403
+      },
+      {
+        "url": "https://cdp.customer.io/v1/analytics-js/actions/bing-ads.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 63005
+      },
+      {
+        "url": "https://cdp.customer.io/v1/analytics-js/actions/meta-pixel.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 64150
+      },
+      {
+        "url": "https://cdp.customer.io/v1/analytics-js/actions/google-analytics-4-web.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 67392
+      },
+      {
+        "url": "https://cdp.customer.io/v1/analytics-js/actions/twitter-pixel.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 63090
+      },
+      {
+        "url": "https://cdp.customer.io/v1/analytics-js/actions/google-tag-manager.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 61941
+      },
+      {
+        "url": "https://marketing.butter.video/_next/static/chunks/inAppPlugin.d95a3dfe29a6f452.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 39488
+      },
+      {
+        "url": "https://consumer.cloud.gist.build/api/v4/users?sessionId=2c376e78-0dc3-4451-a50c-2f2d1ef2f7bf",
+        "method": "OPTIONS",
+        "type": "OTHER",
+        "initiator": "preflight",
+        "status": 204,
+        "mime": "",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://static.ads-twitter.com/uwt.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 17646
+      },
+      {
+        "url": "https://connect.facebook.net/en_US/fbevents.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/x-javascript",
+        "fromCache": false,
+        "bytes": 115788
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-16609341711",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 201816
+      },
+      {
+        "url": "https://bat.bing.com/bat.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 15934
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-LH9RMN243R",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 201534
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-K9MLNNT8",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 172794
+      },
+      {
+        "url": "https://consumer.cloud.gist.build/api/v4/users?sessionId=2c376e78-0dc3-4451-a50c-2f2d1ef2f7bf",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script"
+      },
+      {
+        "url": "https://t.co/1/i/adsctp",
+        "method": "POST",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 776
+      },
+      {
+        "url": "https://analytics.twitter.com/1/i/adsctp",
+        "method": "POST",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 1119
+      },
+      {
+        "url": "https://bat.bing.com/p/action/343261450.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2107
+      },
+      {
+        "url": "https://connect.facebook.net/signals/config/537213872431788?v=2.9.415&r=stable&domain=www.butter.video&hme=a4c28c8787325ac3f8f9eac68364f47df2a8c4266e43177443e5d7f6289c9774&ex_m=117%2C240%2C170%2C27%2C81%2C82%2C161%2C77%2C76%2C11%2C180%2C101%2C20%2C152%2C140%2C46%2C84%2C89%2C148%2C175%2C182%2C8%2C4%2C5%2C7%2C6%2C3%2C102%2C114%2C32%2C17%2C31%2C18%2C33%2C34%2C35%2C37%2C55%2C162%2C86%2C125%2C22%2C24%2C51%2C47%2C49%2C48%2C94%2C103%2C107%2C123%2C159%2C163%2C53%2C124%2C29%2C26%2C132%2C78%2C43%2C165%2C164%2C166%2C156%2C154%2C30%2C42%2C66%2C122%2C177%2C79%2C21%2C127%2C92%2C75%2C23%2C96%2C97%2C129%2C95%2C150%2C149%2C153%2C108%2C176%2C179%2C41%2C56%2C126%2C54%2C160%2C71%2C184%2C109%2C183%2C209%2C254%2C83%2C273%2C272%2C271%2C14%2C25%2C28%2C40%2C62%2C116%2C68%2C10%2C72%2C110%2C111%2C112%2C118%2C143%2C38%2C36%2C145%2C146%2C147%2C142%2C141%2C171%2C85%2C174%2C172%2C173%2C57%2C67%2C136%2C19%2C178%2C52%2C322%2C323%2C324%2C321%2C337%2C359%2C247%2C236%2C69%2C237%2C235%2C362%2C353%2C59%2C248%2C120%2C144%2C91%2C134%2C61%2C133%2C139%2C138%2C65%2C73%2C167%2C87%2C88%2C128%2C44%2C39%2C60%2C63%2C113%2C181%2C1%2C137%2C16%2C135%2C12%2C2%2C64%2C104%2C15%2C74%2C70%2C131%2C100%2C99%2C186%2C187%2C105%2C106%2C9%2C115%2C185%2C58%2C157%2C98%2C90%2C80%2C130%2C119%2C168%2C50%2C158%2C0%2C93%2C151%2C155%2C169%2C45%2C121%2C13%2C188",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/x-javascript",
+        "fromCache": false,
+        "bytes": 105767
+      },
+      {
+        "url": "https://www.clarity.ms/tag/uet/343261450?conversions=1&insights=1",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/x-javascript",
+        "fromCache": false,
+        "bytes": 1381
+      },
+      {
+        "url": "https://www.google.com/ccm/collect?rcb=2&frm=0&apvc=1&auid=2018783595.1791532802&dt=Butter%20Video%20%7C%20Online%20Video%20Editor%20Engineered%20for%20Creativity&tid=AW-16609341711&en=page_view&dl=https%3A%2F%2Fwww.butter.video%2F&scrsrc=www.googletagmanager.com&rnd=576280490.1791532802&navt=n&npa=0&_tu=wAg&gtm=45be6a72v9121969839za208zd9121969839xecxf1&gcd=13l3l3l3l2l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034~123227970&tft=1791532802276&tfd=2651&tids=AW-16609341711~AW-18352345771&fmt=8",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false
+      },
+      {
+        "url": "https://ad.doubleclick.net/ccm/s/collect?auid=2018783595.1791532802&gtm=45be6a72v9121969839za208zd9121969839xecxf1&fmt=8",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/html",
+        "fromCache": false
+      },
+      {
+        "url": "https://bat.bing.net/actionp/0?ti=343261450&Ver=2&mid=ccd3d5b3-212b-4d9b-aa58-bceca5a43ea9&bo=1&evt=consent&src=default&cdb=AQAQ&asc=D",
+        "method": "POST",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 345
+      },
+      {
+        "url": "https://embeds.iubenda.com/widgets/98db1c73-328f-4f88-97ea-617fe5600c4a.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 31341
+      },
+      {
+        "url": "https://t.co/1/i/adsctp",
+        "method": "POST",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 137
+      },
+      {
+        "url": "https://analytics.twitter.com/1/i/adsctp",
+        "method": "POST",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 137
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/pagead/conversion/16609341711/?random=1791532802385&cv=11&fst=1791532802385&fmt=8&bg=ffffff&guid=ON&async=1&en=Page%20view&gtm=45be6a72v9121969839za200zd9121969839xecxf1&gcs=G100&gcd=13q3q3q3q6l1&dma_cps=-&dma=0&tag_exp=115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034~123227970&u_w=1440&u_h=900&url=https%3A%2F%2Fwww.butter.video&rcb=2&label=a_ByCJ3HvN8cEI_i-e89&gtm_ee=1&frm=0&tiba=Butter%20Video%20%7C%20Online%20Video%20Editor%20Engineered%20for%20Creativity&did=dZTJkMz&gdid=dZTJkMz&hn=www.googleadservices.com&npa=1&pscdl=denied&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uamb=0&uam=&uap=Windows&uapv=&uaw=0&_tu=yAg&1p.ce=63072000&data=event%3DPage%20view%3Bpath%3D%2F%3Breferrer%3D%3Bsearch%3D%3Btitle%3DButter%20Video%20%7C%20Online%20Video%20Editor%20Engineered%20for%20Creativity%3Burl%3Dhttps%3A%2F%2Fwww.butter.video%3Bpage_type%3Dmarketing-site%3Bscreen_width%3D1440%3Bscreen_height%3D900%3Bviewport_width%3D1440%3Bviewport_height%3D900%3Biubenda_consent_status%3Dunknown%3Bcookie__gcl_au%3D1.1.2018783595.1791532802&category=acrcp_v1_512&ept=6",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/html",
+        "fromCache": false
+      },
+      {
+        "url": "https://bat.bing.net/action/0?ti=343261450&Ver=2&mid=ccd3d5b3-212b-4d9b-aa58-bceca5a43ea9&bo=2&uach=pv%3D&pi=0&lg=en-US@posix&sw=1440&sh=900&sc=24&nwd=1&tl=Butter%20Video%20%7C%20Online%20Video%20Editor%20Engineered%20for%20Creativity&p=https%3A%2F%2Fwww.butter.video%2F&r=&lt=530&evt=pageLoad&sv=2&asc=D&cdb=AQAQ&rn=490247",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 119
+      },
+      {
+        "url": "https://track.butter.video/v1/p",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 422
+      },
+      {
+        "url": "https://scripts.clarity.ms/0.8.72/clarity.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 25559
+      },
+      {
+        "url": "https://c.clarity.ms/c.gif?ctsa=mr&CtsSyncId=BBBF3BF531EC48B0986916797A4D9909&MUID=2866413BA87B64843F2856D6A9D665A9",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 718
+      },
+      {
+        "url": "https://www.facebook.com/tr/?id=537213872431788&ev=PageView&dl=https%3A%2F%2Fwww.butter.video%2F&rl=&if=false&ts=1791532802482&iw=false&sw=1440&sh=900&v=2.9.415&r=stable&ec=0&o=12318&aems=0%3B0&fbp=fb.1.1791532802472.864791140491798783&hmd=3b18bf6041666ceaa773343e&ler=empty&pmd[title]=Butter%20Video%20%7C%20Online%20Video%20Editor%20Engineered%20for%20Creativity&pmd[locale]=en&pmd[description]=The%20first%20video%20editor%20and%20design%20platform%20built%20with%20creative%20code%20for%20creative%20teams.%20It%27s%20a%20whole%20new%20timeline.&plt=273.5999999999767&iss=1&ss=%7B%22page_description%22%3A%5B%7B%22rid%22%3A%224565712770339700%22%2C%22v%22%3A%5B%22Apparel%5CnApparel%22%5D%7D%5D%2C%22variant_presence%22%3A%5B%7B%22rid%22%3A%221131475902540384%22%2C%22v%22%3A%5B%22no_variant%22%5D%7D%5D%7D&imft=1&tz=0&it=1791532802180&coo=false&dpo=&eid=ajs-next-7a3b6acd8d24e690fc402923750fbe30&tm=1&expv2[0]=pl0&expv2[1]=el2&expv2[2]=bc1&expv2[3]=ra2&expv2[4]=rp2&expv2[5]=ct3&expv2[6]=hf1&expv2[7]=sd1&expv2[8]=sp1&expv2[9]=ek1&expv2[10]=pc1&expv2[11]=gs1&expv2[12]=zs1&expv2[13]=cp1&expv2[14]=es1&expv2[15]=ac1&expv2[16]=so1&expv2[17]=wc1&expv2[18]=la1&expv2[19]=sf1&expv2[20]=da1&expv2[21]=io1&expv2[22]=ae1&expv2[23]=sx1&expv2[24]=if1&expv2[25]=fd1&expv2[26]=bg1&expv2[27]=mg1&expv2[28]=kl1&expv2[29]=sg1&expv2[30]=mk1&expv2[31]=sn1&expv2[32]=ec1&expv2[33]=mp1&expv2[34]=ps1&expv2[35]=fx1&expv2[36]=vt1&expv2[37]=dp1&expv2[38]=fw1&expv2[39]=cn1&expv2[40]=tz1&expv2[41]=pe1&expv2[42]=ee1&expv2[43]=bu1&expv2[44]=ta1&expv2[45]=ot1&expv2[46]=hv1&expv2[47]=ep1&expv2[48]=rh2&expv2[49]=ah0&rqm=GET",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 399
+      },
+      {
+        "url": "https://cdn.iubenda.com/cookie_solution/iubenda_cs/1.108.0/core-en.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 115305
+      },
+      {
+        "url": "https://bat.bing.com/actionp/0?ti=343261450&Ver=2&mid=ccd3d5b3-212b-4d9b-aa58-bceca5a43ea9&bo=3&sid=6e8901e0c3b711f181be419488eb9a8c&vid=6e891ec0c3b711f195d9ffe7b49d0cc7&vids=1&msclkid=N&evt=consent&src=update&cdb=AQAQ&asc=G",
+        "method": "POST",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 292
+      },
+      {
+        "url": "https://www.googleadservices.com/pagead/conversion/16609341711/?random=1791532802612&cv=11&fst=1791532802612&fmt=7&bg=ffffff&guid=ON&async=1&en=Page%20view&gtm=45be6a72v9121969839za200zd9121969839xecxf1&gcs=G111&gcd=13r3r3r3r6l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034~123227970&u_w=1440&u_h=900&url=https%3A%2F%2Fwww.butter.video%2F&rcb=2&label=a_ByCJ3HvN8cEI_i-e89&gtm_ee=1&frm=0&tiba=Butter%20Video%20%7C%20Online%20Video%20Editor%20Engineered%20for%20Creativity&did=dZTJkMz&gdid=dZTJkMz&hn=www.googleadservices.com&npa=0&pscdl=noapi&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uamb=0&uam=&uap=Windows&uapv=&uaw=0&ec_mode=a&_tu=yBg&capi=1&gcu=1&auid=2018783595.1791532802&oid=GG_932502035.1791532803&oidsrc=3&ecsid2=73296224.1791532803&gcl_ctr=1~0~0~0&1p.ce=63072000&data=event%3DPage%20view%3Bpath%3D%2F%3Breferrer%3D%3Bsearch%3D%3Btitle%3DButter%20Video%20%7C%20Online%20Video%20Editor%20Engineered%20for%20Creativity%3Burl%3Dhttps%3A%2F%2Fwww.butter.video%3Bpage_type%3Dmarketing-site%3Bscreen_width%3D1440%3Bscreen_height%3D900%3Bviewport_width%3D1440%3Bviewport_height%3D900%3Biubenda_consent_status%3Dunknown%3Bcookie__gcl_au%3D1.1.2018783595.1791532802&category=acrcp_v1_512&em=tv.1&emd=tvd.1&ept=5",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 1909
+      },
+      {
+        "url": "https://secure.quantserve.com/quant.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 12953
+      },
+      {
+        "url": "https://analytics.tiktok.com/i18n/pixel/sdk.js?sdkid=D9GJUAJC77U8O63U04QG",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3737
+      },
+      {
+        "url": "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1757
+      },
+      {
+        "url": "https://s.pinimg.com/ct/core.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2293
+      },
+      {
+        "url": "https://www.redditstatic.com/ads/pixel.js?pixel_id=a2_jckyx0ykefzp",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 19337
+      },
+      {
+        "url": "https://www.clarity.ms/tag/xqk35rl554?ref=gtm",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/x-javascript",
+        "fromCache": false,
+        "bytes": 861
+      },
+      {
+        "url": "https://sc-static.net/scevent.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 25454
+      },
+      {
+        "url": "https://partners.usebutter.com/rw.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 4535
+      },
+      {
+        "url": "https://analytics.ahrefs.com/analytics.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 3017
+      },
+      {
+        "url": "https://tracker.metricool.com/resources/be.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 2953
+      },
+      {
+        "url": "https://cdn.vector.co/pixel.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 66927
+      },
+      {
+        "url": "https://widget.manychat.com/5434438_9bef0.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 556
+      },
+      {
+        "url": "https://bat.bing.com/actionp/0?ti=343261450&Ver=2&mid=ccd3d5b3-212b-4d9b-aa58-bceca5a43ea9&bo=4&sid=6e8901e0c3b711f181be419488eb9a8c&vid=6e891ec0c3b711f195d9ffe7b49d0cc7&vids=1&msclkid=N&evt=consent&src=update&cdb=AQAS&asc=G",
+        "method": "POST",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 123
+      },
+      {
+        "url": "https://www.googleadservices.com/ccm/conversion/16609341711/?random=1791532802612&cv=11&fst=1791532802612&fmt=3&bg=ffffff&guid=ON&async=1&en=Page%20view&gtm=45be6a72v9121969839za200zd9121969839xecxf1&gcs=G111&gcd=13r3r3r3r6l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034~123227970&u_w=1440&u_h=900&url=https%3A%2F%2Fwww.butter.video%2F&rcb=2&label=a_ByCJ3HvN8cEI_i-e89&gtm_ee=1&frm=0&tiba=Butter%20Video%20%7C%20Online%20Video%20Editor%20Engineered%20for%20Creativity&did=dZTJkMz&gdid=dZTJkMz&hn=www.googleadservices.com&npa=0&pscdl=noapi&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uamb=0&uam=&uap=Windows&uapv=&uaw=0&ec_mode=a&_tu=yBg&capi=1&gcu=1&auid=2018783595.1791532802&oid=GG_932502035.1791532803&oidsrc=3&ecsid2=73296224.1791532803&gcl_ctr=1~0~0~0&1p.ce=63072000&data=event%3DPage%20view%3Bpath%3D%2F%3Breferrer%3D%3Bsearch%3D%3Btitle%3DButter%20Video%20%7C%20Online%20Video%20Editor%20Engineered%20for%20Creativity%3Burl%3Dhttps%3A%2F%2Fwww.butter.video%3Bpage_type%3Dmarketing-site%3Bscreen_width%3D1440%3Bscreen_height%3D900%3Bviewport_width%3D1440%3Bviewport_height%3D900%3Biubenda_consent_status%3Dunknown%3Bcookie__gcl_au%3D1.1.2018783595.1791532802&category=acrcp_v1_512&em=tv.1&emd=tvd.1",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 467
+      },
+      {
+        "url": "https://www.google.com/ccm/collect?rcb=2&frm=0&apvc=0&ae=g&auid=2018783595.1791532802&dt=Butter%20Video%20%7C%20Online%20Video%20Editor%20Engineered%20for%20Creativity&en=page_view&dl=https%3A%2F%2Fwww.butter.video%2F&scrsrc=www.googletagmanager.com&rnd=576280490.1791532802&navt=n&npa=0&ep.ads_data_redaction=1&gdid=dZTJkMz&_tu=CA&gtm=45He6a72v9259112474za200zd9259112474xeaxf1&gcs=G111&gcd=13r3r3r3r5l1&dma=0&tag_exp=115616985~115938466~115938468~118897920~118897930~119404696~120385422~120469145~120469153~121046263~121046271~121246026~121246034~123227970&tft=1791532802642&tfd=3017&fmt=8",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false
+      },
+      {
+        "url": "https://t.vibe.co/pixel/s?aid=bqnBTR&gid=&cid=d7d1841c-aff5-4253-bf4e-19f382fc3884&eid=43ab3317-7a43-47ae-ace3-cf53d30ac693&a=page_view&ed=&v=gtm_1&url=https://www.butter.video/&ref=&ts=1791532802630&trk=trkid&t=img",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 284
+      },
+      {
+        "url": "https://b.clarity.ms/collect",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 280
+      },
+      {
+        "url": "https://www.google.com/pagead/1p-conversion/16609341711/?random=1118425742&cv=11&fst=1791532802612&fmt=8&bg=ffffff&guid=ON&async=1&en=Page%20view&gtm=45be6a72v9121969839za200zd9121969839xecxf1&gcs=G111&gcd=13r3r3r3r6l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034~123227970&u_w=1440&u_h=900&url=https%3A%2F%2Fwww.butter.video%2F&rcb=2&label=a_ByCJ3HvN8cEI_i-e89&gtm_ee=1&frm=0&tiba=Butter%20Video%20%7C%20Online%20Video%20Editor%20Engineered%20for%20Creativity&did=dZTJkMz&gdid=dZTJkMz&hn=www.googleadservices.com&npa=0&pscdl=noapi&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uamb=0&uam=&uap=Windows&uapv=&uaw=0&ec_mode=a&_tu=yBg&capi=1&gcu=1&auid=2018783595.1791532802&oidsrc=3&ecsid2=73296224.1791532803&gcl_ctr=1~0~0~0&1p.ce=63072000&data=event%3DPage%20view%3Bpath%3D%2F%3Breferrer%3D%3Bsearch%3D%3Btitle%3DButter%20Video%20%7C%20Online%20Video%20Editor%20Engineered%20for%20Creativity%3Burl%3Dhttps%3A%2F%2Fwww.butter.video%3Bpage_type%3Dmarketing-site%3Bscreen_width%3D1440%3Bscreen_height%3D900%3Bviewport_width%3D1440%3Bviewport_height%3D900%3Biubenda_consent_status%3Dunknown%3Bcookie__gcl_au%3D1.1.2018783595.1791532802&category=acrcp_v1_512&em=tv.1&emd=tvd.1&ept=5&ct_cookie_present=false&eoid=CkcKEQjwoaLWBhCM0qX9sMr2g-EBEjIA_RCE05Ccrvn4Xxf43LrxmxkyWBfd0tT6y8gMld2paMNDmGHqq9FK7dq7vP-5FFsSUvD_BwE&crd=CLTesQII8t-xAgit4bECCK_hsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQII1-ixAgi0xrECCIfbsQII08WxAgjrzLECCO3OsQII1c-xAgiK8rECCPTasQII4uqxAgjo7rECCJLrsQIIyeOxAgiX1LECCMnbsQIIzeaxAgim3bECCLDesQIIgNuxAgjN4bECSit0cmlnZ2VyO2V2ZW50LXNvdXJjZSwgbm90LW5hdmlnYXRpb24tc291cmNlWgMKAQFiAwoBAw&cerd=CgjI7L4tnem3OA&fsk=ChEI8KGi1gYQsYfs87Hv7NzNARIsAEZkhSrkNgcMOIYFEZ9VhS6NUtE8JO1pnWlO1B_CN3I602jIGeyma3D4vh8aAtqW&pscrd=IhMIsvK34ruslwMVI0x0Bh2TDRVaOhlodHRwczovL3d3dy5idXR0ZXIudmlkZW8vQlZDaEFJOEtHaTFnWVFoNFdSLWZ2VTY5cHBFaXdBc0MtNlR1VXFuX1BPNGc2dzBGTWlVTkZTeC1jcWlSdUZETDRVdk0xRmVqaGN4RHlOQXA3Z2ZkUzQxQXoMCAliCAgAEAAYACAA&is_vtc=1&cid=CAQS1AEAQM4h3GNh7MWSj3vnl31bOUVAjXtC4k_MFHIy74xUzMBcuX8DjQ2oEUR5Vll4UA-Lya2iFhdlbdPHO5dPQ8KtZKArHlIN3b6zNl7AdV_B3mxl7YGxV46yMdIfnvd7-CCtClenhON5zylaCuMnHnd62w0g8AqaK78P4MgXM5jR32UUVTEoEmWa2bT3_a8IaDPvsWnFojmXp7IQ6n9vsE3esZHTdjnSIjl6-ZhhSAAG5Gnls3H9DlXdtHwSB-t11rvgAUC0u9Au1gKUkyT5c_92ZrN6iQ&random=801820890",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false
+      },
+      {
+        "url": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/statement/statement-2_mxcdpa.mp4?_a=DATAiZAAZAA0",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/statement/statement-3_ljgfrz.mp4?_a=DATAiZAAZAA0",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/statement/statement-4_jxkgff.mp4?_a=DATAiZAAZAA0",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 62027
+      },
+      {
+        "url": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/statement/statement-5_rjaam4.mp4?_a=DATAiZAAZAA0",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://analytics.tiktok.com/i18n/pixel/static/main.MWU2MzIzODM0MQ.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 117935
+      },
+      {
+        "url": "https://rules.quantcount.com/rules-p-T75UwCJR0wpRW.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 688
+      },
+      {
+        "url": "https://pixel.quantserve.com/cs?a=p-T75UwCJR0wpRW&gdpr=0&sf2=1",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 204,
+        "mime": "",
+        "fromCache": false
+      },
+      {
+        "url": "https://api.vector.co/pixel/ip-info",
+        "method": "OPTIONS",
+        "type": "OTHER",
+        "initiator": "preflight",
+        "status": 204,
+        "mime": "",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://api.vector.co/pixel/ip-info",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 1172
+      },
+      {
+        "url": "https://tracker.metricool.com/c3po.jpg?hash=6c8f18fadd44b18fcf3362a44385a88c&u=https%3A%2F%2Fwww.butter.video%2F&bw=1440&bh=900",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 2774
+      },
+      {
+        "url": "https://tr.snapchat.com/cm/i?pid=a8e5c53a-25d3-473f-aa7b-69558d3272cc&u_scsid=f63c7757-4c8f-4541-9e52-7555840cdb4a&u_sclid=cbce9eb6-9fda-4099-9c2d-3a7d09392fb2",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 878
+      },
+      {
+        "url": "https://tr.snapchat.com/config/video/a8e5c53a-25d3-473f-aa7b-69558d3272cc.js?v=3.60.0-2608111919",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 474
+      },
+      {
+        "url": "https://tr.snapchat.com/p?pid=a8e5c53a-25d3-473f-aa7b-69558d3272cc&ev=PAGE_VIEW&intg=gtm&pids=a8e5c53a-25d3-473f-aa7b-69558d3272cc&u_c1=52f6984f-6ff1-42ba-a018-4791ffe15b08&cdid=%40-c2d74301-2dec-471e-8b82-afd66cec4825&u_sclid=cbce9eb6-9fda-4099-9c2d-3a7d09392fb2&u_scsid=f63c7757-4c8f-4541-9e52-7555840cdb4a&gat=GTM-K9MLNNT8%2CG-LH9RMN243R%2CAW-16609341711&bg=false&bt=1d53c387&d_a=x86&d_bvs=%5B%2C%7B%22brand%22%3A%22HeadlessChrome%22%2C%22version%22%3A%22141.0.7390.37%22%7D%7B%22brand%22%3A%22Not%3FA_Brand%22%2C%22version%22%3A%228.0.0.0%22%7D%7B%22brand%22%3A%22Chromium%22%2C%22version%22%3A%22141.0.7390.37%22%7D%5D&d_ot=Windows&df=true&huah=true&m_dcl=273&m_fcps=296&m_pi=273&m_pl=529&m_pv=2&m_rd=3233&m_sh=900&m_sl=3166&m_sw=1440&pl=https%3A%2F%2Fwww.butter.video%2F&trackId=cc097649-c5cd-4231-b7e1-892d88a1186c&ts=1791532802859&v=3.60.0-2608111919",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 424
+      },
+      {
+        "url": "https://pixel.quantserve.com/pixel;r=1402387780;labels=_fp.event.PageView;event=refresh;rf=3;a=p-T75UwCJR0wpRW;url=https%3A%2F%2Fwww.butter.video%2F;ns=0;ce=1;qjs=1;qv=b414f28e-20260609162752;ref=;dst=0;et=1791532802802;tzo=0;ogl=title.Butter%20Video%20%7C%20Online%20Video%20Editor%20Engineered%20for%20Creativity%2Cdescription.The%20first%20video%20editor%20and%20design%20platform%20built%20with%20creative%20code%20for%20creative%2Cimage.https%3A%2F%2Fimages%252Eprismic%252Eio%2Fbutter%2FGqsF4V1-u4zf61-k_01%252Ejpg%3Fauto%3Dformat%252Ccompress%26%2Cimage%3Aalt.Butter%20creative%20platform%20graphic%20with%20design%252C%20motion%252C%20and%20editing%20tiles;d=butter.video;uht=2;fpan=1;fpa=P1-94f464b5-d790-4c6c-96fb-94767e76e534;pbc=;_ses=e52e3e1c-204e-4c20-aac0-e27956eebd24;_seg=0;_ss=1;_gam=c;gdpr=0;mdl=",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 243
+      },
+      {
+        "url": "https://analytics.tiktok.com/i18n/pixel/static/identify_0504602d.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 40491
+      },
+      {
+        "url": "https://analytics-ipv6.tiktokw.us/ipv6/enrich_ipv6",
+        "method": "POST",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 980
+      },
+      {
+        "url": "https://analytics.tiktok.com/api/v2/pixel",
+        "method": "POST",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 792
+      },
+      {
+        "url": "https://analytics.tiktok.com/api/v2/pixel",
+        "method": "POST",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 791
+      },
+      {
+        "url": "https://analytics.tiktok.com/api/v2/pixel",
+        "method": "POST",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 793
+      },
+      {
+        "url": "https://images.prismic.io/butter/rkyK71MqTbBBSqLU_dial.gif?auto=format%2Ccompress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 112215
+      },
+      {
+        "url": "https://sc-static.net/scevent.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://mccdn.me/assets/js/widget.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 9424
+      },
+      {
+        "url": "https://images.prismic.io/butter/jR4ymQxaYMnt7J4V_slider.gif?auto=format%2Ccompress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 42446
+      },
+      {
+        "url": "https://tr6.snapchat.com/p",
+        "method": "POST",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 47
+      },
+      {
+        "url": "https://tr.snapchat.com/cm/p?rand=1789408096419&pnid=140&pcid=b5b4bbaf-0a9b-412b-b635-3e0800c1d674",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 17
+      },
+      {
+        "url": "https://api.vector.co/pixel/phoenix/sync-container?duid=e52308ebd55c--01m4ftt8rrv7zc5hq7rh2gnjp9&ds=did-006l&euns=1&s=&version=v3.17.0&cd=.butter.video&pv=8a9a3f92-bee2-4e6e-8df5-9ea9c75254c8",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false
+      },
+      {
+        "url": "https://s.pinimg.com/ct/lib/main.f1fea82a.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 38274
+      },
+      {
+        "url": "https://snap.licdn.com/li.lms-analytics/insight.beta.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 21786
+      },
+      {
+        "url": "https://ct.pinterest.com/user/?tid=2612771299037&pd=%7B%22np%22%3A%22gtm%22%2C%22gtm_version%22%3A%22gallery%22%7D&cb=1791532803175&dep=2%2CPAGE_LOAD",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 376
+      },
+      {
+        "url": "https://ct.pinterest.com/user/?event=pagevisit&ed=%7B%22np%22%3A%22gtm%22%2C%22gtm_version%22%3A%22gallery%22%7D&tid=2612771299037&cb=1791532803177&dep=5%2CEVENT_TAGS_ABSENT",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 692
+      },
+      {
+        "url": "https://www.linkedin.com/px/li_sync?redirect=https%3A%2F%2Fpx.ads.linkedin.com%2Fcollect%3Fv%3D2%26fmt%3Djs%26pid%3D9395010%26time%3D1791532803192%26li_adsId%3D67a19ca7-d994-4683-9e54-003a0c29747b%26pageLoadId%3Da1c6f726-0495-4e4c-810e-2628cf0f3de7%26url%3Dhttps%253A%252F%252Fwww.butter.video%252F%26cookiesTest%3Dtrue%26liSync%3Dtrue",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other"
+      },
+      {
+        "url": "https://ct.pinterest.com/v3/?tid=2612771299037&pd=%7B%22np%22%3A%22gtm%22%2C%22gtm_version%22%3A%22gallery%22%7D&event=init&ad=%7B%22loc%22%3A%22https%3A%2F%2Fwww.butter.video%2F%22%2C%22ref%22%3A%22%22%2C%22if%22%3Afalse%2C%22sh%22%3A900%2C%22sw%22%3A1440%2C%22mh%22%3A%22f1fea82a%22%2C%22is_eu%22%3Atrue%2C%22architecture%22%3A%22x86%22%2C%22bitness%22%3A%2264%22%2C%22brands%22%3A%5B%7B%22brand%22%3A%22HeadlessChrome%22%2C%22version%22%3A%22141%22%7D%2C%7B%22brand%22%3A%22Not%3FA_Brand%22%2C%22version%22%3A%228%22%7D%2C%7B%22brand%22%3A%22Chromium%22%2C%22version%22%3A%22141%22%7D%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22Windows%22%2C%22platformVersion%22%3A%22%22%2C%22uaFullVersion%22%3A%22141.0.7390.37%22%7D&cb=1791532803194",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 359
+      },
+      {
+        "url": "https://analytics.tiktok.com/api/v2/pixel/act",
+        "method": "POST",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 794
+      },
+      {
+        "url": "https://ct.pinterest.com/ct.html",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 564
+      },
+      {
+        "url": "https://ct.pinterest.com/v3/?event=pagevisit&ed=%7B%22np%22%3A%22gtm%22%2C%22gtm_version%22%3A%22gallery%22%7D&tid=2612771299037&cb=1791532803215&dep=5%2CEVENT_TAGS_ABSENT&pd=%7B%22np%22%3A%22gtm%22%2C%22gtm_version%22%3A%22gallery%22%7D&ad=%7B%22loc%22%3A%22https%3A%2F%2Fwww.butter.video%2F%22%2C%22ref%22%3A%22%22%2C%22if%22%3Afalse%2C%22sh%22%3A900%2C%22sw%22%3A1440%2C%22mh%22%3A%22f1fea82a%22%2C%22is_eu%22%3Afalse%2C%22is_restricted_region%22%3Afalse%2C%22architecture%22%3A%22x86%22%2C%22bitness%22%3A%2264%22%2C%22brands%22%3A%5B%7B%22brand%22%3A%22HeadlessChrome%22%2C%22version%22%3A%22141%22%7D%2C%7B%22brand%22%3A%22Not%3FA_Brand%22%2C%22version%22%3A%228%22%7D%2C%7B%22brand%22%3A%22Chromium%22%2C%22version%22%3A%22141%22%7D%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22Windows%22%2C%22platformVersion%22%3A%22%22%2C%22uaFullVersion%22%3A%22141.0.7390.37%22%7D",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 602
+      },
+      {
+        "url": "https://alb.reddit.com/rp?id=a2_jckyx0ykefzp&event=PageVisit",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false
+      },
+      {
+        "url": "https://tr.snapchat.com/p",
+        "method": "POST",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 15
+      },
+      {
+        "url": "https://app.manychat.com/pixel/logEvent",
+        "method": "OPTIONS",
+        "type": "OTHER",
+        "initiator": "preflight",
+        "status": 204,
+        "mime": "",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://app.manychat.com/pixel/logEvent",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 140
+      },
+      {
+        "url": "https://images.prismic.io/butter/-ygmWmGmkixktt9k_Disney%402x.png?auto=format%2Ccompress&w=400",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 5104
+      },
+      {
+        "url": "https://tr.snapchat.com/p",
+        "method": "POST",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 15
+      },
+      {
+        "url": "https://b.clarity.ms/collect",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 280
+      },
+      {
+        "url": "https://api.vector.co/pixel/phoenix/rp/j?dtstmp=1791532803841&did=did-006l&se=e30&duid=e52308ebd55c--01m4ftt8rrv7zc5hq7rh2gnjp9&tv=v3.17.0&pu=https%3A%2F%2Fwww.butter.video%2F&ext_ajs_user_id=null&ext__fbp=fb.1.1791532802472.864791140491798783&wpn=lc-bundle&wpv=v3.17.0&cd=.butter.video&pv=8a9a3f92-bee2-4e6e-8df5-9ea9c75254c8&n3pc=true",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "other",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 660
+      },
+      {
+        "url": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/story_1/halftone_bg_xm2wcq.mp4?_a=DATAiZAAZAA0",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/story_1/halftone_bg_habeer.webm?_a=DATAiZAAZAA0",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/webm",
+        "fromCache": false
+      },
+      {
+        "url": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/story_1/halftone_bg_habeer.webm?_a=DATAiZAAZAA0",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/webm",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/story_1/halftone_bg_habeer.webm?_a=DATAiZAAZAA0",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/webm",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://images.prismic.io/butter/DftE5O9-4yahkr8K_EightSleep%402x.png?auto=format%2Ccompress&rect=0%2C0%2C1871%2C754&w=400&h=754",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 3803
+      },
+      {
+        "url": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/story_2/blocks-dials-sliders_rdphvr.mp4?_a=DATAiZAAZAA0",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://images.prismic.io/butter/0WNNkkhILGsOpBUW_home-features-edit-1-.jpg?auto=format%2Ccompress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 13955
+      },
+      {
+        "url": "https://images.prismic.io/butter/vUiREZ54JrqHgkMt_enhance-1-.jpg?auto=format%2Ccompress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 20773
+      },
+      {
+        "url": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/story_3/dash_rltoqm.mp4?_a=DATAiZAAZAA0",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://images.prismic.io/butter/P8K5Uwru4pdZwAgz_remix-2-.jpg?auto=format%2Ccompress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 49882
+      },
+      {
+        "url": "https://b.clarity.ms/collect",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 280
+      },
+      {
+        "url": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/feature_cards/import_mzb6kv.mp4?_a=DATAiZAAZAA0",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/feature_cards/ship_zy7btv.mp4?_a=DATAiZAAZAA0",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/features_highlight/generate_drdhh2.mp4?_a=DATAiZAAZAA0",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/features_highlight/code_gbrdfv.mp4?_a=DATAiZAAZAA0",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://images.prismic.io/butter/ai_Er41P9HI4UgL7_turn-anything.png?auto=format%2Ccompress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 28343
+      },
+      {
+        "url": "https://images.prismic.io/butter/ai_E3Y1P9HI4UgMC_high-performance.png?auto=format%2Ccompress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 34182
+      },
+      {
+        "url": "https://b.clarity.ms/collect",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 280
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "hqtXGH",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "hqtXGH",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.2, 0.715, 0.205, 0.99)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.2, 0.715, 0.205, 0.99)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 528,
+        "delay": 1400.0000000000002,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 1400.0000000000002,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 528,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 528,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 528,
+        "delay": 2900.0000000000005,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 2900.0000000000005,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 528,
+        "delay": 4400,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 4400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 528,
+        "delay": 3800.0000000000005,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 3800.0000000000005,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 528,
+        "delay": 3000,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 3000,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 528,
+        "delay": 3400.0000000000005,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 3400.0000000000005,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 528,
+        "delay": 2100,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 2100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 528,
+        "delay": 2300.0000000000005,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 2300.0000000000005,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 528,
+        "delay": 600.0000000000001,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 600.0000000000001,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 528,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 528,
+        "delay": 700.0000000000001,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 700.0000000000001,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 528,
+        "delay": 3100,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 3100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 528,
+        "delay": 3200,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 3200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 528,
+        "delay": 4300,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 4300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 528,
+        "delay": 1500,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 1500,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 528,
+        "delay": 4700,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 4700,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 528,
+        "delay": 1900.0000000000002,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 1900.0000000000002,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 528,
+        "delay": 4100.000000000001,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 4100.000000000001,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 528,
+        "delay": 4600.000000000001,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 4600.000000000001,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 528,
+        "delay": 2600,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 2600,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 528,
+        "delay": 2000,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 2000,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 528,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 528,
+        "delay": 1100,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 1100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 528,
+        "delay": 2800.0000000000005,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 2800.0000000000005,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 528,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 528,
+        "delay": 3500,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 3500,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0, 1)"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "Error with Permissions-Policy header: Unrecognized feature: 'web-share'."
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0702000A41B0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0xc8400139400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0xc8400139400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0xc8400139400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0xc8400139400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+      },
+      {
+        "level": "error",
+        "text": "Refused to load the image 'https://www.linkedin.com/px/li_sync?redirect=https%3A%2F%2Fpx.ads.linkedin.com%2Fcollect%3Fv%3D2%26fmt%3Djs%26pid%3D9395010%26time%3D1791532803192%26li_adsId%3D67a19ca7-d994"
+      },
+      {
+        "level": "error",
+        "text": "Access to fetch at 'https://consumer.cloud.gist.build/api/v4/users?sessionId=2c376e78-0dc3-4451-a50c-2f2d1ef2f7bf' from origin 'https://www.butter.video' has been blocked by CORS policy: Request heade"
+      },
+      {
+        "level": "error",
+        "text": "Failed to load resource: net::ERR_FAILED"
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://marketing.butter.video/_next/static/chunks/2418.c4ff8e8efede1aa2.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn was preloaded using link preload but not used within a few seconds from th"
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://marketing.butter.video/_next/static/chunks/177.e200b45f35e7f7db.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn was preloaded using link preload but not used within a few seconds from the"
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://marketing.butter.video/_next/static/chunks/8089.bf944471e2247a04.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn was preloaded using link preload but not used within a few seconds from th"
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://marketing.butter.video/_next/static/chunks/894.5980adf43d0d6657.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn was preloaded using link preload but not used within a few seconds from the"
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://marketing.butter.video/_next/static/chunks/4989.c1ad2eb153e1a6d2.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn was preloaded using link preload but not used within a few seconds from th"
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://marketing.butter.video/_next/static/chunks/4109.be07ab53b6d49320.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn was preloaded using link preload but not used within a few seconds from th"
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://marketing.butter.video/_next/static/chunks/7733.a28cc0ba6d014b71.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn was preloaded using link preload but not used within a few seconds from th"
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://marketing.butter.video/_next/static/chunks/2754.71e0144ee53eee4f.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn was preloaded using link preload but not used within a few seconds from th"
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://marketing.butter.video/_next/static/chunks/6215.92860bc41fc04c65.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn was preloaded using link preload but not used within a few seconds from th"
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://marketing.butter.video/_next/static/chunks/6339.16f176e886f5b062.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn was preloaded using link preload but not used within a few seconds from th"
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://marketing.butter.video/_next/static/chunks/6620.b2411e06085280f9.js?dpl=dpl_4uAX8RkkzTFZpcn2RDdcv1spoUEn was preloaded using link preload but not used within a few seconds from th"
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://ad.doubleclick.net/ccm/s/collect?auid=2018783595.1791532802&gtm=45be6a72v9121969839za208zd9121969839xecxf1&fmt=8",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google.com/ccm/collect?rcb=2&frm=0&apvc=1&auid=2018783595.1791532802&dt=Butter%20Video%20%7C%20Online%20Video%20Editor%20Engineered%20for%20Creativity&tid=AW-16609341711&en=page_view&dl=https%3A%2F%2Fwww.butter.video%2F&scrsrc=www.googletagmanager.com&rnd=576280490.1791532802&navt=n&npa=0&_tu=wAg&gtm=45be6a72v9121969839za208zd9121969839xecxf1&gcd=13l3l3l3l2l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034~123227970&tft=1791532802276&tfd=2651&tids=AW-16609341711~AW-18352345771&fmt=8",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/pagead/conversion/16609341711/?random=1791532802385&cv=11&fst=1791532802385&fmt=8&bg=ffffff&guid=ON&async=1&en=Page%20view&gtm=45be6a72v9121969839za200zd9121969839xecxf1&gcs=G100&gcd=13q3q3q3q6l1&dma_cps=-&dma=0&tag_exp=115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034~123227970&u_w=1440&u_h=900&url=https%3A%2F%2Fwww.butter.video&rcb=2&label=a_ByCJ3HvN8cEI_i-e89&gtm_ee=1&frm=0&tiba=Butter%20Video%20%7C%20Online%20Video%20Editor%20Engineered%20for%20Creativity&did=dZTJkMz&gdid=dZTJkMz&hn=www.googleadservices.com&npa=1&pscdl=denied&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uamb=0&uam=&uap=Windows&uapv=&uaw=0&_tu=yAg&1p.ce=63072000&data=event%3DPage%20view%3Bpath%3D%2F%3Breferrer%3D%3Bsearch%3D%3Btitle%3DButter%20Video%20%7C%20Online%20Video%20Editor%20Engineered%20for%20Creativity%3Burl%3Dhttps%3A%2F%2Fwww.butter.video%3Bpage_type%3Dmarketing-site%3Bscreen_width%3D1440%3Bscreen_height%3D900%3Bviewport_width%3D1440%3Bviewport_height%3D900%3Biubenda_consent_status%3Dunknown%3Bcookie__gcl_au%3D1.1.2018783595.1791532802&category=acrcp_v1_512&ept=6",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google.com/ccm/collect?rcb=2&frm=0&apvc=0&ae=g&auid=2018783595.1791532802&dt=Butter%20Video%20%7C%20Online%20Video%20Editor%20Engineered%20for%20Creativity&en=page_view&dl=https%3A%2F%2Fwww.butter.video%2F&scrsrc=www.googletagmanager.com&rnd=576280490.1791532802&navt=n&npa=0&ep.ads_data_redaction=1&gdid=dZTJkMz&_tu=CA&gtm=45He6a72v9259112474za200zd9259112474xeaxf1&gcs=G111&gcd=13r3r3r3r5l1&dma=0&tag_exp=115616985~115938466~115938468~118897920~118897930~119404696~120385422~120469145~120469153~121046263~121046271~121246026~121246034~123227970&tft=1791532802642&tfd=3017&fmt=8",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://pixel.quantserve.com/cs?a=p-T75UwCJR0wpRW&gdpr=0&sf2=1",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google.com/pagead/1p-conversion/16609341711/?random=1118425742&cv=11&fst=1791532802612&fmt=8&bg=ffffff&guid=ON&async=1&en=Page%20view&gtm=45be6a72v9121969839za200zd9121969839xecxf1&gcs=G111&gcd=13r3r3r3r6l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034~123227970&u_w=1440&u_h=900&url=https%3A%2F%2Fwww.butter.video%2F&rcb=2&label=a_ByCJ3HvN8cEI_i-e89&gtm_ee=1&frm=0&tiba=Butter%20Video%20%7C%20Online%20Video%20Editor%20Engineered%20for%20Creativity&did=dZTJkMz&gdid=dZTJkMz&hn=www.googleadservices.com&npa=0&pscdl=noapi&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uamb=0&uam=&uap=Windows&uapv=&uaw=0&ec_mode=a&_tu=yBg&capi=1&gcu=1&auid=2018783595.1791532802&oidsrc=3&ecsid2=73296224.1791532803&gcl_ctr=1~0~0~0&1p.ce=63072000&data=event%3DPage%20view%3Bpath%3D%2F%3Breferrer%3D%3Bsearch%3D%3Btitle%3DButter%20Video%20%7C%20Online%20Video%20Editor%20Engineered%20for%20Creativity%3Burl%3Dhttps%3A%2F%2Fwww.butter.video%3Bpage_type%3Dmarketing-site%3Bscreen_width%3D1440%3Bscreen_height%3D900%3Bviewport_width%3D1440%3Bviewport_height%3D900%3Biubenda_consent_status%3Dunknown%3Bcookie__gcl_au%3D1.1.2018783595.1791532802&category=acrcp_v1_512&em=tv.1&emd=tvd.1&ept=5&ct_cookie_present=false&eoid=CkcKEQjwoaLWBhCM0qX9sMr2g-EBEjIA_RCE05Ccrvn4Xxf43LrxmxkyWBfd0tT6y8gMld2paMNDmGHqq9FK7dq7vP-5FFsSUvD_BwE&crd=CLTesQII8t-xAgit4bECCK_hsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQII1-ixAgi0xrECCIfbsQII08WxAgjrzLECCO3OsQII1c-xAgiK8rECCPTasQII4uqxAgjo7rECCJLrsQIIyeOxAgiX1LECCMnbsQIIzeaxAgim3bECCLDesQIIgNuxAgjN4bECSit0cmlnZ2VyO2V2ZW50LXNvdXJjZSwgbm90LW5hdmlnYXRpb24tc291cmNlWgMKAQFiAwoBAw&cerd=CgjI7L4tnem3OA&fsk=ChEI8KGi1gYQsYfs87Hv7NzNARIsAEZkhSrkNgcMOIYFEZ9VhS6NUtE8JO1pnWlO1B_CN3I602jIGeyma3D4vh8aAtqW&pscrd=IhMIsvK34ruslwMVI0x0Bh2TDRVaOhlodHRwczovL3d3dy5idXR0ZXIudmlkZW8vQlZDaEFJOEtHaTFnWVFoNFdSLWZ2VTY5cHBFaXdBc0MtNlR1VXFuX1BPNGc2dzBGTWlVTkZTeC1jcWlSdUZETDRVdk0xRmVqaGN4RHlOQXA3Z2ZkUzQxQXoMCAliCAgAEAAYACAA&is_vtc=1&cid=CAQS1AEAQM4h3GNh7MWSj3vnl31bOUVAjXtC4k_MFHIy74xUzMBcuX8DjQ2oEUR5Vll4UA-Lya2iFhdlbdPHO5dPQ8KtZKArHlIN3b6zNl7AdV_B3mxl7YGxV46yMdIfnvd7-CCtClenhON5zylaCuMnHnd62w0g8AqaK78P4MgXM5jR32UUVTEoEmWa2bT3_a8IaDPvsWnFojmXp7IQ6n9vsE3esZHTdjnSIjl6-ZhhSAAG5Gnls3H9DlXdtHwSB-t11rvgAUC0u9Au1gKUkyT5c_92ZrN6iQ&random=801820890",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/statement/statement-3_ljgfrz.mp4?_a=DATAiZAAZAA0",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/statement/statement-5_rjaam4.mp4?_a=DATAiZAAZAA0",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/statement/statement-2_mxcdpa.mp4?_a=DATAiZAAZAA0",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://alb.reddit.com/rp?id=a2_jckyx0ykefzp&event=PageVisit",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.linkedin.com/px/li_sync?redirect=https%3A%2F%2Fpx.ads.linkedin.com%2Fcollect%3Fv%3D2%26fmt%3Djs%26pid%3D9395010%26time%3D1791532803192%26li_adsId%3D67a19ca7-d994-4683-9e54-003a0c29747b%26pageLoadId%3Da1c6f726-0495-4e4c-810e-2628cf0f3de7%26url%3Dhttps%253A%252F%252Fwww.butter.video%252F%26cookiesTest%3Dtrue%26liSync%3Dtrue",
+        "error": ""
+      },
+      {
+        "url": "https://www.linkedin.com/px/li_sync?redirect=https%3A%2F%2Fpx.ads.linkedin.com%2Fcollect%3Fv%3D2%26fmt%3Djs%26pid%3D9395010%26time%3D1791532803192%26li_adsId%3D67a19ca7-d994-4683-9e54-003a0c29747b%26pageLoadId%3Da1c6f726-0495-4e4c-810e-2628cf0f3de7%26url%3Dhttps%253A%252F%252Fwww.butter.video%252F%26cookiesTest%3Dtrue%26liSync%3Dtrue",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/story_1/halftone_bg_xm2wcq.mp4?_a=DATAiZAAZAA0",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/story_1/halftone_bg_habeer.webm?_a=DATAiZAAZAA0",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/story_2/blocks-dials-sliders_rdphvr.mp4?_a=DATAiZAAZAA0",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://consumer.cloud.gist.build/api/v4/users?sessionId=2c376e78-0dc3-4451-a50c-2f2d1ef2f7bf",
+        "error": "net::ERR_FAILED"
+      },
+      {
+        "url": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/story_3/dash_rltoqm.mp4?_a=DATAiZAAZAA0",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/feature_cards/import_mzb6kv.mp4?_a=DATAiZAAZAA0",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/feature_cards/ship_zy7btv.mp4?_a=DATAiZAAZAA0",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://res.cloudinary.com/buttercreatives/video/upload/q_75/v1/website/home/features_highlight/generate_drdhh2.mp4?_a=DATAiZAAZAA0",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 3,
+      "workers": 4
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 7289,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 2067,
+      "typography": {
+        "families": [
+          [
+            "DieGrotesk",
+            64
+          ],
+          [
+            "ABCDiatype",
+            8
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            72
+          ]
+        ],
+        "textTransforms": [],
+        "sizeMin": 7.10405,
+        "sizeMedian": 32.4,
+        "sizeMax": 56.7263,
+        "sizeMaxVw": 14.5,
+        "scaleRatio": 1.8,
+        "letterSpacingMean": 0.013,
+        "loadedFonts": [
+          {
+            "family": "DieGrotesk",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "ABCDiatype",
+            "weight": "400",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 72
+      },
+      "color": {
+        "background": "rgb(237, 237, 237)",
+        "backgroundLuminance": 0.846873231509858,
+        "backgrounds": [
+          [
+            "rgb(237, 237, 237)",
+            1101
+          ],
+          [
+            "rgb(250, 250, 250)",
+            1028
+          ],
+          [
+            "rgb(10, 9, 9)",
+            117
+          ],
+          [
+            "rgb(21, 21, 21)",
+            84
+          ],
+          [
+            "rgb(30, 30, 30)",
+            7
+          ],
+          [
+            "rgb(46, 46, 46)",
+            2
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(15, 15, 15)",
+            1160
+          ],
+          [
+            "rgb(30, 30, 30)",
+            82
+          ],
+          [
+            "rgba(15, 15, 15, 0.4)",
+            79
+          ],
+          [
+            "rgba(0, 0, 0, 0)",
+            63
+          ],
+          [
+            "rgb(182, 182, 182)",
+            31
+          ]
+        ],
+        "meanSaturation": 0.02,
+        "rootVars": {
+          "--butter-white": "#FAFAFA",
+          "--butter-off-white": "#F7F7F7",
+          "--butter-black": "#1E1E1E",
+          "--butter-true-black": "#0F0F0F",
+          "--butter-charcoal": "#3C3C3C",
+          "--butter-light-grey": "#EDEDED",
+          "--butter-dark-grey": "#E2E2E2",
+          "--butter-light": "#EBEBEB",
+          "--butter-red": "#FF3333",
+          "--butter-blue": "#4DC5E5",
+          "--butter-green": "#63AD45",
+          "--butter-yellow": "#E9D352",
+          "--butter-pink": "#F9ABFF",
+          "--butter-font-primary": "'DieGrotesk','DieGrotesk Fallback'",
+          "--butter-font-secondary": "'ABCDiatype','ABCDiatype Fallback'",
+          "--butter-ease-out": "cubic-bezier(0.200, 0.715, 0.205, 0.990)",
+          "--butter-ease-in-out": "cubic-bezier(0.835, 0.120, 0.225, 0.770)"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 2,
+        "sticky": 0,
+        "fixed": 6,
+        "grid": 109,
+        "flex": 154,
+        "absolute": 179,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 12120,
+        "pages": 14.4,
+        "spacing": [
+          [
+            10,
+            31
+          ],
+          [
+            50,
+            28
+          ],
+          [
+            8,
+            14
+          ],
+          [
+            16,
+            14
+          ],
+          [
+            25,
+            8
+          ],
+          [
+            15,
+            6
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            60,
+            6
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 29,
+        "animationKinds": [
+          "CSSTransition"
+        ],
+        "infiniteAnimations": 0,
+        "animationDurations": [
+          800,
+          800,
+          800,
+          528,
+          800,
+          528,
+          800,
+          528,
+          800,
+          528,
+          800,
+          528,
+          800,
+          528,
+          800,
+          528,
+          800,
+          528,
+          800,
+          528
+        ],
+        "easings": [
+          "cubic-bezier(0, 0, 0, 1)",
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            800,
+            110
+          ],
+          [
+            1000,
+            52
+          ],
+          [
+            500,
+            40
+          ],
+          [
+            300,
+            5
+          ],
+          [
+            600,
+            3
+          ]
+        ],
+        "keyframes": [
+          "dafZtH",
+          "hqtXGH",
+          "fIeEtv"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 117,
+      "media": {
+        "canvases": [],
+        "videos": [
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_60/v1/website/home/statement/statement-2_mxcdpa.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_60/v1/website/home/statement/statement-3_ljgfrz.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_60/v1/website/home/statement/statement-4_jxkgff.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_60/v1/website/home/statement/statement-5_rjaam4.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_60/v1/website/home/story_1/halftone_bg_habeer.webm?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_60/v1/website/home/story_2/blocks-dials-sliders_rdphvr.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_60/v1/website/home/story_3/dash_rltoqm.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_60/v1/website/home/feature_cards/import_mzb6kv.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_60/v1/website/home/feature_cards/ship_zy7btv.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_60/v1/website/home/features_highlight/generate_drdhh2.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_60/v1/website/home/features_highlight/code_gbrdfv.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_60/v1/website/home/gallery_carousel/fit_for_any_forecast_l3viah.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_60/v1/website/home/gallery_carousel/watermelon_rind_kzokuu.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_60/v1/website/home/gallery_carousel/sodas_back_gwklxl.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_60/v1/website/home/gallery_carousel/gentle_exfoliant_oh0wdj.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_60/v1/website/home/gallery_carousel/acne_care_el6isj.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_60/v1/website/home/gallery_carousel/one_platform_sakgws.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_60/v1/website/home/gallery_carousel/running_kit_h9ea1n.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_60/v1/website/home/gallery_carousel/mix_match_flavors_aegnvz.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_60/v1/website/home/gallery_carousel/fit_for_any_forecast_l3viah.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_60/v1/website/home/gallery_carousel/watermelon_rind_kzokuu.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_60/v1/website/home/gallery_carousel/sodas_back_gwklxl.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_60/v1/website/home/gallery_carousel/gentle_exfoliant_oh0wdj.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_60/v1/website/home/gallery_carousel/acne_care_el6isj.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_60/v1/website/home/gallery_carousel/one_platform_sakgws.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_60/v1/website/home/gallery_carousel/running_kit_h9ea1n.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_60/v1/website/home/gallery_carousel/mix_match_flavors_aegnvz.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_60/v1/website/home/gallery_carousel/fit_for_any_forecast_l3viah.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_60/v1/website/home/gallery_carousel/watermelon_rind_kzokuu.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_60/v1/website/home/gallery_carousel/sodas_back_gwklxl.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_60/v1/website/home/gallery_carousel/gentle_exfoliant_oh0wdj.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_60/v1/website/home/gallery_carousel/acne_care_el6isj.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_60/v1/website/home/gallery_carousel/one_platform_sakgws.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_60/v1/website/home/gallery_carousel/running_kit_h9ea1n.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_60/v1/website/home/gallery_carousel/mix_match_flavors_aegnvz.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_60/v1/website/home/features/accelerate-prod_l7b2c6.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/v1/website/home/double_block/anything-into-everything_k15fdk.webm?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_60/v1/website/home/block_highlight/power-pulse_ayhddx.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_60/v1/website/home/block_highlight/fold-distort_vzmvkg.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_60/v1/website/home/block_highlight/pulsing-neon_lvabjp.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_60/v1/website/home/block_highlight/infinite-twist_o1w65g.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_60/v1/website/home/block_highlight/image-bloom_c60eli.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_60/v1/website/home/block_highlight/ilovecreatives_lhjdav.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_60/v1/website/home/block_highlight/snap_ubuzi1.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_60/v1/website/home/block_highlight/warp_lyeo1r.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_60/v1/website/home/block_highlight/boost_wbprkk.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_60/v1/website/home/block_highlight/power-pulse_thumb_vxss3j.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_60/v1/website/home/block_highlight/fold-distort_thumb_rrsjid.mp4?_a=DATAiZAAZAA0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://res.cloudinary.com/buttercreatives/video/upload/q_60/v1/website/home/block_highlight/pulsing-neon_thumb_ks85tj.mp4?_a=DATAiZAAZAA0"
+          }
+        ],
+        "svg": 14,
+        "images": 71,
+        "iframes": 2,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 1,
+          "2d": 1
+        },
+        "raf": 1493,
+        "io": 54,
+        "ro": 128,
+        "mo": 5,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Butter Video | Online Video Editor Engineered for Creativity",
+      "lang": "en",
+      "description": "The first video editor and design platform built with creative code for creative teams. It's a whole new timeline."
+    },
+    "featuresBeforeScroll": {
+      "elements": 2077,
+      "canvases": 0,
+      "animations": 0,
+      "hidden": 233
+    },
+    "scrollReveal": 116,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 66634704,
+        "layoutCount": 754,
+        "recalcStyleCount": 1659,
+        "scriptDuration": 1.251458,
+        "taskDuration": 4.039903,
+        "nodes": 16486
+      },
+      "timing": {
+        "domContentLoaded": 132,
+        "load": 460,
+        "first-paint": 196,
+        "first-contentful-paint": 196
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "hqtXGH",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "hqtXGH",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 528,
+        "delay": 1700.0000000000002,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 1700.0000000000002,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 528,
+        "delay": 3600,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 3600,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 528,
+        "delay": 4200,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 4200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 528,
+        "delay": 300.00000000000006,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 300.00000000000006,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 528,
+        "delay": 1800,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 1800,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 528,
+        "delay": 3800.0000000000005,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 3800.0000000000005,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 528,
+        "delay": 4000,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 4000,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.2, 0.715, 0.205, 0.99)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.2, 0.715, 0.205, 0.99)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 528,
+        "delay": 800,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 800,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 528,
+        "delay": 2300.0000000000005,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 2300.0000000000005,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 528,
+        "delay": 3700,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 3700,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 528,
+        "delay": 1500,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 1500,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 528,
+        "delay": 3500,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 3500,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 528,
+        "delay": 1100,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 1100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 528,
+        "delay": 4500,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 4500,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 528,
+        "delay": 700.0000000000001,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 700.0000000000001,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 528,
+        "delay": 1200.0000000000002,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 1200.0000000000002,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 528,
+        "delay": 3100,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 3100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 528,
+        "delay": 1900.0000000000002,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 1900.0000000000002,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 528,
+        "delay": 3000,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 3000,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 528,
+        "delay": 2700,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 2700,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 528,
+        "delay": 4300,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 4300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 528,
+        "delay": 2100,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 2100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 528,
+        "delay": 2600,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 2600,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 528,
+        "delay": 4400,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 4400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 528,
+        "delay": 1600,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 1600,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 528,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 528,
+        "delay": 4600.000000000001,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 4600.000000000001,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 528,
+        "delay": 3200,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 3200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0, 1)"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "Error with Permissions-Policy header: Unrecognized feature: 'web-share'."
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0702000A41B0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "error",
+        "text": "Access to fetch at 'https://consumer.cloud.gist.build/api/v4/users?sessionId=3769d77b-3f07-4496-8ea9-b0816c148a43' from origin 'https://www.butter.video' has been blocked by CORS policy: Request heade"
+      },
+      {
+        "level": "error",
+        "text": "Failed to load resource: net::ERR_FAILED"
+      },
+      {
+        "level": "error",
+        "text": "Refused to load the image 'https://www.linkedin.com/px/li_sync?redirect=https%3A%2F%2Fpx.ads.linkedin.com%2Fcollect%3Fv%3D2%26fmt%3Djs%26pid%3D9395010%26time%3D1791532813702%26li_adsId%3D56a55963-01b9"
+      }
+    ],
+    "exceptions": [
+      "Uncaught Error: Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings."
+    ],
+    "failed": [
+      {
+        "url": "https://consumer.cloud.gist.build/api/v4/users?sessionId=3769d77b-3f07-4496-8ea9-b0816c148a43",
+        "error": "net::ERR_FAILED"
+      },
+      {
+        "url": "https://ad.doubleclick.net/ccm/s/collect?auid=2132537610.1791532813&gtm=45be6a72v9121969839za208zd9121969839xecxf1&fmt=8",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google.com/ccm/collect?rcb=12&frm=0&apvc=1&auid=2132537610.1791532813&dt=Butter%20Video%20%7C%20Online%20Video%20Editor%20Engineered%20for%20Creativity&tid=AW-16609341711&en=page_view&dl=https%3A%2F%2Fwww.butter.video%2F&scrsrc=www.googletagmanager.com&rnd=977005871.1791532813&navt=n&npa=0&_tu=wAg&gtm=45be6a72v9121969839za208zd9121969839xecxf1&gcd=13l3l3l3l2l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121191154~121246026~121246034&tft=1791532813381&tfd=1449&tids=AW-16609341711~AW-18352345771&fmt=8",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/pagead/conversion/16609341711/?random=1791532813440&cv=11&fst=1791532813440&fmt=8&bg=ffffff&guid=ON&async=1&en=Page%20view&gtm=45be6a72v9121969839za200zd9121969839xecxf1&gcs=G100&gcd=13q3q3q3q6l1&dma_cps=-&dma=0&tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121191154~121246026~121246034&u_w=390&u_h=844&url=https%3A%2F%2Fwww.butter.video&rcb=12&label=a_ByCJ3HvN8cEI_i-e89&gtm_ee=1&frm=0&tiba=Butter%20Video%20%7C%20Online%20Video%20Editor%20Engineered%20for%20Creativity&did=dZTJkMz&gdid=dZTJkMz&hn=www.googleadservices.com&npa=1&pscdl=denied&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uamb=1&uam=&uap=Windows&uapv=&uaw=0&_tu=yAg&1p.ce=63072000&data=event%3DPage%20view%3Bpath%3D%2F%3Breferrer%3D%3Bsearch%3D%3Btitle%3DButter%20Video%20%7C%20Online%20Video%20Editor%20Engineered%20for%20Creativity%3Burl%3Dhttps%3A%2F%2Fwww.butter.video%3Bpage_type%3Dmarketing-site%3Bscreen_width%3D390%3Bscreen_height%3D844%3Bviewport_width%3D390%3Bviewport_height%3D844%3Biubenda_consent_status%3Dunknown%3Bcookie__gcl_au%3D1.1.2132537610.1791532813&category=acrcp_v1_512&ept=6",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google.com/ccm/collect?rcb=19&frm=0&apvc=0&ae=g&auid=2132537610.1791532813&dt=Butter%20Video%20%7C%20Online%20Video%20Editor%20Engineered%20for%20Creativity&en=page_view&dl=https%3A%2F%2Fwww.butter.video%2F&scrsrc=www.googletagmanager.com&rnd=977005871.1791532813&navt=n&npa=0&ep.ads_data_redaction=1&gdid=dZTJkMz&_tu=CA&gtm=45He6a72v9259112474za200zd9259112474xeaxf1&gcs=G111&gcd=13r3r3r3r5l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~120385423~120469145~120469153~121046263~121046271~121191154~121246026~121246034&tft=1791532813644&tfd=1712&fmt=8",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://pixel.quantserve.com/cs?a=p-T75UwCJR0wpRW&gdpr=0&sf2=1",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://alb.reddit.com/rp?id=a2_jckyx0ykefzp&event=PageVisit",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google.com/pagead/1p-conversion/16609341711/?random=431666626&cv=11&fst=1791532813611&fmt=8&bg=ffffff&guid=ON&async=1&en=Page%20view&gtm=45be6a72v9121969839za200zd9121969839xecxf1&gcs=G111&gcd=13r3r3r3r6l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121191154~121246026~121246034&u_w=390&u_h=844&url=https%3A%2F%2Fwww.butter.video%2F&rcb=12&label=a_ByCJ3HvN8cEI_i-e89&gtm_ee=1&frm=0&tiba=Butter%20Video%20%7C%20Online%20Video%20Editor%20Engineered%20for%20Creativity&did=dZTJkMz&gdid=dZTJkMz&hn=www.googleadservices.com&npa=0&pscdl=noapi&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uamb=1&uam=&uap=Windows&uapv=&uaw=0&ec_mode=a&_tu=yBg&capi=1&gcu=1&auid=2132537610.1791532813&oidsrc=3&ecsid2=229342750.1791532814&gcl_ctr=1~0~0~0&1p.ce=63072000&data=event%3DPage%20view%3Bpath%3D%2F%3Breferrer%3D%3Bsearch%3D%3Btitle%3DButter%20Video%20%7C%20Online%20Video%20Editor%20Engineered%20for%20Creativity%3Burl%3Dhttps%3A%2F%2Fwww.butter.video%3Bpage_type%3Dmarketing-site%3Bscreen_width%3D390%3Bscreen_height%3D844%3Bviewport_width%3D390%3Bviewport_height%3D844%3Biubenda_consent_status%3Dunknown%3Bcookie__gcl_au%3D1.1.2132537610.1791532813&category=acrcp_v1_512&em=tv.1&emd=tvd.1&ept=5&ct_cookie_present=false&eoid=CkcKEQjwoaLWBhCM0qX9sMr2g-EBEjIA_RCE04MKjZSq8j7K0-bz6EHjh7xWhZX0G-0S6lVTe20oWNFSMFI8YiagvUzs2KsVLfD_BwE&crd=CLTesQII8t-xAgit4bECCK_hsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQII1-ixAgi0xrECCIfbsQII08WxAgjrzLECCO3OsQII1c-xAgiK8rECCPTasQII4uqxAgjo7rECCJLrsQIIyeOxAgiX1LECCMnbsQIIzeaxAgim3bECCLDesQIIgNuxAgjN4bECSitub3QtbmF2aWdhdGlvbi1zb3VyY2U7ZXZlbnQtc291cmNlLCB0cmlnZ2VyWgMKAQFiAwoBAw&cerd=Cgy5674t6_6-LZ3ptzg&fsk=ChEI8KGi1gYQsYfs87Hv7NzNARIsAEZkhSqUmjVhS0L2B-000PfnM4lzgw0p9okvLScUG1wNogn9PAT23ZS18hwaAoUM&pscrd=IhMIm4nX57uslwMVrh9-BB2lcyKUOhlodHRwczovL3d3dy5idXR0ZXIudmlkZW8vQldDaEFJOEtHaTFnWVFoNFdSLWZ2VTY5cHBFaTBBc0MtNlRpSDdQNTVWak4xRHhVMk5EelpzOWduXy1CWWkzQ25JRmRxYW5mNEo5ZU1peGZhbTZtNXVCY1l6DAgJYggIABAAGAAgAA&is_vtc=1&cid=CAQS1AEAQM4h3EOr_vcl7GRIK81WNKk_UHbjmET-XFodStSlkXnPaKv63YzXJ20epiu5lUcPQKiq2UGGk6T3HsfJEqSVwyx39wldsqXLA5feGMANfgkY4n4ZrBwpcIL2FGF0QzI_0G7H7Keg5ThqnDuXLKPWduNowWr7lKnWxwKgA7BWutdF53BQxKI8B-di6TvuHBb_P12ri193L26BlznsE82YvfCoY7bFdWLFEw6IxLz1RKEIafRry9rnxCgXE8NShA9of6Gd1PPVAop-eIhW-IdPLaCmuQ&random=1115899875",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://ct.pinterest.com/stats/",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.linkedin.com/px/li_sync?redirect=https%3A%2F%2Fpx.ads.linkedin.com%2Fcollect%3Fv%3D2%26fmt%3Djs%26pid%3D9395010%26time%3D1791532813702%26li_adsId%3D56a55963-01b9-4566-9c77-d221e0efb432%26pageLoadId%3D64f635dd-2a98-4104-9662-030581410833%26url%3Dhttps%253A%252F%252Fwww.butter.video%252F%26cookiesTest%3Dtrue%26liSync%3Dtrue",
+        "error": ""
+      },
+      {
+        "url": "https://www.linkedin.com/px/li_sync?redirect=https%3A%2F%2Fpx.ads.linkedin.com%2Fcollect%3Fv%3D2%26fmt%3Djs%26pid%3D9395010%26time%3D1791532813702%26li_adsId%3D56a55963-01b9-4566-9c77-d221e0efb432%26pageLoadId%3D64f635dd-2a98-4104-9662-030581410833%26url%3Dhttps%253A%252F%252Fwww.butter.video%252F%26cookiesTest%3Dtrue%26liSync%3Dtrue",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://res.cloudinary.com/buttercreatives/video/upload/q_60/v1/website/home/statement/statement-2_mxcdpa.mp4?_a=DATAiZAAZAA0",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://res.cloudinary.com/buttercreatives/video/upload/q_60/v1/website/home/statement/statement-3_ljgfrz.mp4?_a=DATAiZAAZAA0",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://res.cloudinary.com/buttercreatives/video/upload/q_60/v1/website/home/statement/statement-5_rjaam4.mp4?_a=DATAiZAAZAA0",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://res.cloudinary.com/buttercreatives/video/upload/q_60/v1/website/home/story_1/halftone_bg_xm2wcq.mp4?_a=DATAiZAAZAA0",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://res.cloudinary.com/buttercreatives/video/upload/q_60/v1/website/home/story_2/blocks-dials-sliders_rdphvr.mp4?_a=DATAiZAAZAA0",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://res.cloudinary.com/buttercreatives/video/upload/q_60/v1/website/home/story_3/dash_rltoqm.mp4?_a=DATAiZAAZAA0",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://res.cloudinary.com/buttercreatives/video/upload/q_60/v1/website/home/feature_cards/import_mzb6kv.mp4?_a=DATAiZAAZAA0",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 3,
+      "workers": 0
+    }
+  }
+}

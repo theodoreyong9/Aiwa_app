@@ -1,0 +1,2178 @@
+{
+  "url": "https://bmwf3.com/",
+  "at": "2026-10-19T10:02:07.235Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 17693,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 702,
+      "typography": {
+        "families": [
+          [
+            "Google Sans Flex",
+            78
+          ],
+          [
+            "Space Mono",
+            35
+          ],
+          [
+            "Permanent Marker",
+            1
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            45
+          ],
+          [
+            "500",
+            45
+          ],
+          [
+            "700",
+            11
+          ],
+          [
+            "728",
+            8
+          ],
+          [
+            "600",
+            5
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            59
+          ]
+        ],
+        "sizeMin": 9.92,
+        "sizeMedian": 15,
+        "sizeMax": 103.333,
+        "sizeMaxVw": 7.2,
+        "scaleRatio": 6.9,
+        "letterSpacingMean": 0.008,
+        "loadedFonts": [
+          {
+            "family": "Google Sans Flex",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Google Sans Flex",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "Google Sans Flex",
+            "weight": "600",
+            "style": "normal"
+          },
+          {
+            "family": "Google Sans Flex",
+            "weight": "700",
+            "style": "normal"
+          },
+          {
+            "family": "Google Sans Flex",
+            "weight": "800",
+            "style": "normal"
+          },
+          {
+            "family": "Google Sans Flex",
+            "weight": "800",
+            "style": "normal"
+          },
+          {
+            "family": "Permanent Marker",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Google Sans Flex Variable",
+            "weight": "1 1000",
+            "style": "oblique 0deg 10deg"
+          },
+          {
+            "family": "Google Sans Flex Variable",
+            "weight": "1 1000",
+            "style": "oblique 0deg 10deg"
+          },
+          {
+            "family": "Space Mono",
+            "weight": "400",
+            "style": "normal"
+          }
+        ],
+        "variableFont": true,
+        "textElements": 114
+      },
+      "color": {
+        "background": "rgb(5, 5, 5)",
+        "backgroundLuminance": 0.0015176349177441874,
+        "backgrounds": [
+          [
+            "rgb(5, 5, 5)",
+            25746
+          ],
+          [
+            "rgb(0, 0, 0)",
+            5119
+          ],
+          [
+            "rgb(247, 245, 242)",
+            1753
+          ],
+          [
+            "rgb(10, 10, 11)",
+            1686
+          ],
+          [
+            "rgb(22, 23, 26)",
+            1283
+          ],
+          [
+            "rgb(24, 25, 25)",
+            779
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(255, 255, 255)",
+            332
+          ],
+          [
+            "rgb(247, 245, 242)",
+            36
+          ],
+          [
+            "rgb(10, 10, 10)",
+            21
+          ],
+          [
+            "rgb(33, 35, 36)",
+            15
+          ],
+          [
+            "rgb(81, 89, 95)",
+            12
+          ]
+        ],
+        "meanSaturation": 0.05,
+        "rootVars": {}
+      },
+      "layout": {
+        "fullscreenSections": 4,
+        "sticky": 6,
+        "fixed": 5,
+        "grid": 2,
+        "flex": 109,
+        "absolute": 127,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 27101,
+        "pages": 30.1,
+        "spacing": [
+          [
+            33,
+            10
+          ],
+          [
+            3,
+            9
+          ],
+          [
+            10,
+            8
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            22,
+            8
+          ],
+          [
+            20,
+            7
+          ],
+          [
+            18,
+            7
+          ],
+          [
+            47,
+            7
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 3,
+        "animationKinds": [
+          "CSSAnimation",
+          "Animation"
+        ],
+        "infiniteAnimations": 2,
+        "animationDurations": [
+          20000,
+          26000,
+          1000
+        ],
+        "easings": [
+          "linear",
+          "linear(0 0%, 0.0101 1.0101010101010102%, 0.0202 2.0202020202020203%, 0.0303 3.0303030303030303%, 0.0404 4.040404040404041%, 0.0505 5.050505050505051%, 0.0606 6.060606060606061%, 0.0707 7.070707070707072%, 0.0808 8.080808080808081%, 0.0909 9.090909090909092%, 0.101 10.101010101010102%, 0.1111 11.111111111111112%, 0.1212 12.121212121212123%, 0.1313 13.131313131313133%, 0.1414 14.141414141414144%, 0.1515 15.151515151515154%, 0.1616 16.161616161616163%, 0.1717 17.171717171717173%, 0.1818 18.181818181818183%, 0.1919 19.191919191919194%, 0.202 20.202020202020204%, 0.2121 21.212121212121215%, 0.2222 22.222222222222225%, 0.2323 23.232323232323235%, 0.2424 24.242424242424246%, 0.2525 25.252525252525256%, 0.2626 26.262626262626267%, 0.2727 27.272727272727277%, 0.2828 28.282828282828287%, 0.2929 29.292929292929298%, 0.303 30.303030303030308%, 0.3131 31.31313131313132%, 0.3232 32.323232323232325%, 0.3333 33.333333333333336%, 0.3434 34.343434343434346%, 0.3535 35.35353535353536%, 0.3636 36.36363636363637%, 0.3737 37.37373737373738%, 0.3838 38.38383838383839%, 0.3939 39.3939393939394%, 0.404 40.40404040404041%, 0.4141 41.41414141414142%, 0.4242 42.42424242424243%, 0.4343 43.43434343434344%, 0.4444 44.44444444444445%, 0.4545 45.45454545454546%, 0.4646 46.46464646464647%, 0.4747 47.47474747474748%, 0.4848 48.48484848484849%, 0.4949 49.4949494949495%, 0.5051 50.50505050505051%, 0.5152 51.51515151515152%, 0.5253 52.52525252525253%, 0.5354 53.53535353535354%, 0.5455 54.545454545454554%, 0.5556 55.555555555555564%, 0.5657 56.565656565656575%, 0.5758 57.575757575757585%, 0.5859 58.585858585858595%, 0.596 59.595959595959606%, 0.6061 60.606060606060616%, 0.6162 61.61616161616163%, 0.6263 62.62626262626264%, 0.6364 63.63636363636365%, 0.6465 64.64646464646465%, 0.6566 65.65656565656566%, 0.6667 66.66666666666667%, 0.6768 67.67676767676768%, 0.6869 68.68686868686869%, 0.697 69.6969696969697%, 0.7071 70.70707070707071%, 0.7172 71.71717171717172%, 0.7273 72.72727272727273%, 0.7374 73.73737373737374%, 0.7475 74.74747474747475%, 0.7576 75.75757575757576%, 0.7677 76.76767676767678%, 0.7778 77.77777777777779%, 0.7879 78.7878787878788%, 0.798 79.7979797979798%, 0.8081 80.80808080808082%, 0.8182 81.81818181818183%, 0.8283 82.82828282828284%, 0.8384 83.83838383838385%, 0.8485 84.84848484848486%, 0.8586 85.85858585858587%, 0.8687 86.86868686868688%, 0.8788 87.87878787878789%, 0.8889 88.8888888888889%, 0.899 89.89898989898991%, 0.9091 90.90909090909092%, 0.9192 91.91919191919193%, 0.9293 92.92929292929294%, 0.9394 93.93939393939395%, 0.9495 94.94949494949496%, 0.9596 95.95959595959597%, 0.9697 96.96969696969698%, 0.9798 97.979797979798%, 0.9899 98.98989898989899%, 1 100%)"
+        ],
+        "transitionDurationsMs": [
+          [
+            150,
+            22
+          ],
+          [
+            300,
+            13
+          ],
+          [
+            500,
+            12
+          ],
+          [
+            700,
+            3
+          ],
+          [
+            800,
+            1
+          ]
+        ],
+        "keyframes": [
+          "gradient-slide",
+          "word-cycle-drift-red",
+          "word-cycle-drift-blue",
+          "cursor-blink"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 62,
+      "media": {
+        "canvases": [
+          {
+            "w": 300,
+            "h": 150,
+            "area": 1.31
+          },
+          {
+            "w": 1398,
+            "h": 873,
+            "area": 0.94
+          }
+        ],
+        "videos": [
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://www.bmwf3.com/hero.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://www.bmwf3.com/showreel.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": false,
+            "muted": true,
+            "src": "https://www.bmwf3.com/figma/scroll-video-1_5s.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://www.bmwf3.com/layers/bmw-data-in.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://www.bmwf3.com/layers/customer-data.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://www.bmwf3.com/layers/generative-output.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://www.bmwf3.com/layers/handover.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://www.bmwf3.com/layers/data-captured.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://www.bmwf3.com/layers/bmw-data-in.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://www.bmwf3.com/figma/bmwm5.mp4"
+          }
+        ],
+        "svg": 12,
+        "images": 37,
+        "iframes": 0,
+        "customCursor": true
+      },
+      "runtime": {
+        "contexts": {
+          "2d": 4
+        },
+        "raf": 554,
+        "io": 40,
+        "ro": 4,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "BMW Next Move | RRFI Proposal by Format-3",
+      "lang": "en",
+      "description": "Format-3's reverse pitch for BMW. A live proof of concept for what BMW's digital experience could become."
+    },
+    "featuresBeforeScroll": {
+      "elements": 702,
+      "canvases": 2,
+      "animations": 13,
+      "hidden": 62
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 6,
+      "changed": 0
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 9525664,
+        "layoutCount": 1023,
+        "recalcStyleCount": 1035,
+        "scriptDuration": 0.322793,
+        "taskDuration": 1.870515,
+        "nodes": 3963
+      },
+      "timing": {
+        "domContentLoaded": 516,
+        "load": 516,
+        "first-paint": 476,
+        "first-contentful-paint": 1008
+      }
+    },
+    "network": [
+      {
+        "url": "https://www.bmwf3.com/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 1266
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wdth,wght@6..144,25..151,1..1000&family=Permanent+Marker&display=swap",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1262
+      },
+      {
+        "url": "https://www.bmwf3.com/assets/index-C-EY-SIo.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 282187
+      },
+      {
+        "url": "https://www.bmwf3.com/assets/index-DQ5-Ct7I.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 14294
+      },
+      {
+        "url": "https://countly.lab.foxapps.tech/i",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 384
+      },
+      {
+        "url": "https://www.bmwf3.com/figma/video-still.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 2262764
+      },
+      {
+        "url": "https://www.bmwf3.com/figma/layer-1.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 202369
+      },
+      {
+        "url": "https://www.bmwf3.com/figma/layer-2.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 188809
+      },
+      {
+        "url": "https://www.bmwf3.com/figma/layer-3.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 329504
+      },
+      {
+        "url": "https://www.bmwf3.com/figma/layer-4.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 279822
+      },
+      {
+        "url": "https://www.bmwf3.com/figma/layer-5.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 155983
+      },
+      {
+        "url": "https://www.bmwf3.com/launch/noise.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 5132
+      },
+      {
+        "url": "https://www.bmwf3.com/figma/Preset/Master.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 136929
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/googlesansflex/v23/t5sJIQcYNIWbFgDgAAzZ34auoVyXkJCOvp3SFWJbN5hF8Ju1x6sKCyp0l9sI40swNJwInycYAJzz0m7kJ4qFQOJBOjLvDSndo0SKMpKSTzwliVdHAy4bxTDHg_ugnAakpyycycs.ttf",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/ttf",
+        "fromCache": false,
+        "bytes": 45685
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/googlesansflex/v23/t5sJIQcYNIWbFgDgAAzZ34auoVyXkJCOvp3SFWJbN5hF8Ju1x6sKCyp0l9sI40swNJwInycYAJzz0m7kJ4qFQOJBOjLvDSndo0SKMpKSTzwliVdHAy4bxTDHg_ugnAakpxWcycs.ttf",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/ttf",
+        "fromCache": false,
+        "bytes": 45609
+      },
+      {
+        "url": "https://www.bmwf3.com/assets/space-mono-latin-400-normal-Rg4St2Dn.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 16687
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/googlesansflex/v23/t5sJIQcYNIWbFgDgAAzZ34auoVyXkJCOvp3SFWJbN5hF8Ju1x6sKCyp0l9sI40swNJwInycYAJzz0m7kJ4qFQOJBOjLvDSndo0SKMpKSTzwliVdH3S8bxTDHg_ugnAakp0ucycs.ttf",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/ttf",
+        "fromCache": false,
+        "bytes": 46912
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/googlesansflex/v23/t5sJIQcYNIWbFgDgAAzZ34auoVyXkJCOvp3SFWJbN5hF8Ju1x6sKCyp0l9sI40swNJwInycYAJzz0m7kJ4qFQOJBOjLvDSndo0SKMpKSTzwliVdHAy4bxTDHg_ugnAakp8ubycs.ttf",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/ttf",
+        "fromCache": false,
+        "bytes": 43104
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/googlesansflex/v23/t5sJIQcYNIWbFgDgAAzZ34auoVyXkJCOvp3SFWJbN5hF8Ju1x6sKCyp0l9sI40swNJwInycYAJzz0m7kJ4qFQOJBOjLvDSndo0SKMpKSTzwliVdHAy4bxTDHg_ugnAakp_mbycs.ttf",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/ttf",
+        "fromCache": false,
+        "bytes": 45428
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/permanentmarker/v16/Fh4uPib9Iyv2ucM6pGQMWimMp004Hao.ttf",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/ttf",
+        "fromCache": false,
+        "bytes": 39883
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/googlesansflex/v23/t5sJIQcYNIWbFgDgAAzZ34auoVyXkJCOvp3SFWJbN5hF8Ju1x6sKCyp0l9sI40swNJwInycYAJzz0m7kJ4qFQOJBOjLvDSndo0SKMpKSTzwliVdHAy4bxTDHg_ugnAakp0ucycs.ttf",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/ttf",
+        "fromCache": false,
+        "bytes": 46153
+      },
+      {
+        "url": "https://www.bmwf3.com/lottie/music-on.json",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 1655
+      },
+      {
+        "url": "https://www.bmwf3.com/lottie/music-off.json",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 1113
+      },
+      {
+        "url": "https://www.bmwf3.com/lottie/music-dance.json",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 1537
+      },
+      {
+        "url": "https://www.bmwf3.com/figma/bmw-lines.json",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 1218
+      },
+      {
+        "url": "https://www.bmwf3.com/launch/atmosphere-desktop.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 61832
+      },
+      {
+        "url": "https://www.bmwf3.com/launch/logo-f3.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 572
+      },
+      {
+        "url": "https://www.bmwf3.com/launch/logo-bmw.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1630
+      },
+      {
+        "url": "https://www.bmwf3.com/launch/button-shadow.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1025
+      },
+      {
+        "url": "https://www.bmwf3.com/launch/button-rim.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 742
+      },
+      {
+        "url": "https://www.bmwf3.com/figma/hero-blinds.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1063
+      },
+      {
+        "url": "https://www.bmwf3.com/figma/bmw-roundel.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1653
+      },
+      {
+        "url": "https://www.bmwf3.com/figma/m-logo.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 953
+      },
+      {
+        "url": "https://www.bmwf3.com/figma/expand.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 669
+      },
+      {
+        "url": "https://www.bmwf3.com/figma/quote-audio-play.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 507
+      },
+      {
+        "url": "https://www.bmwf3.com/figma/Hardy%20-%20Avatar.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 14661
+      },
+      {
+        "url": "https://www.bmwf3.com/figma/portrait-hardy.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 6561358
+      },
+      {
+        "url": "https://www.bmwf3.com/figma/arrow-right-white.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 465
+      },
+      {
+        "url": "https://www.bmwf3.com/figma/dealership-base.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 652013
+      },
+      {
+        "url": "https://www.bmwf3.com/figma/dealership-customers.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 660789
+      },
+      {
+        "url": "https://www.bmwf3.com/figma/dealership-dealers.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 666427
+      },
+      {
+        "url": "https://www.bmwf3.com/figma/scroll-video-still.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 32731
+      },
+      {
+        "url": "https://www.bmwf3.com/figma/arrow-right.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 577
+      },
+      {
+        "url": "https://www.bmwf3.com/figma/question-1.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 4820903
+      },
+      {
+        "url": "https://www.bmwf3.com/figma/question-2.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 1107183
+      },
+      {
+        "url": "https://www.bmwf3.com/figma/warning-filled.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 813
+      },
+      {
+        "url": "https://www.bmwf3.com/figma/question-3.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 3727153
+      },
+      {
+        "url": "https://www.bmwf3.com/figma/question-3-polaroid.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 2006598
+      },
+      {
+        "url": "https://www.bmwf3.com/figma/f3-logo.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 558
+      },
+      {
+        "url": "https://www.bmwf3.com/figma/avatar-1.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 17551
+      },
+      {
+        "url": "https://www.bmwf3.com/figma/avatar-2.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 16349
+      },
+      {
+        "url": "https://www.bmwf3.com/figma/avatar-3.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 11376
+      },
+      {
+        "url": "https://www.bmwf3.com/figma/avatar-4.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 12213
+      },
+      {
+        "url": "https://www.bmwf3.com/figma/avatar-5.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 15458
+      },
+      {
+        "url": "https://www.bmwf3.com/figma/avatar-6.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 14500
+      },
+      {
+        "url": "https://www.bmwf3.com/launch/background.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 343097
+      },
+      {
+        "url": "https://www.bmwf3.com/hero.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://www.bmwf3.com/showreel.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://www.bmwf3.com/layers/bmw-data-in.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://www.bmwf3.com/layers/customer-data.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://www.bmwf3.com/layers/generative-output.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://www.bmwf3.com/layers/handover.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://www.bmwf3.com/layers/data-captured.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://www.bmwf3.com/layers/bmw-data-in.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://www.bmwf3.com/figma/bmwm5.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://www.bmwf3.com/audio/intro.wav",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "audio/wave",
+        "fromCache": false,
+        "bytes": 4572468
+      },
+      {
+        "url": "https://www.bmwf3.com/audio/section-switch.wav",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "audio/wave",
+        "fromCache": false,
+        "bytes": 3771356
+      },
+      {
+        "url": "https://www.bmwf3.com/audio/ui-click-arrows-and-shit.mp3",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 39470
+      },
+      {
+        "url": "https://www.bmwf3.com/audio/bg-sound.mp3",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "audio/mpeg",
+        "fromCache": false
+      },
+      {
+        "url": "https://www.bmwf3.com/audio/start.mp3",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 74337
+      },
+      {
+        "url": "https://www.bmwf3.com/figma/scroll-video-1_5s.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 1531541
+      },
+      {
+        "url": "https://www.bmwf3.com/assets/google-sans-flex-symbols-full-normal-Cu4Yx71x.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 757665
+      },
+      {
+        "url": "https://www.bmwf3.com/assets/google-sans-flex-math-full-normal-DBTmLsS9.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 1073639
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 0,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear(0 0%, 1 100%)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1200,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1200,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1200,
+        "delay": 250,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1200,
+        "delay": 250,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1200,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1200,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1200,
+        "delay": 550,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1200,
+        "delay": 550,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1200,
+        "delay": 700,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1200,
+        "delay": 700,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 3.233007207473182,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear(0 0%, 0.0101 1.0101010101010102%, 0.0202 2.0202020202020203%, 0.0303 3.0303030303030303%, 0.0404 4.040404040404041%, 0.0505 5.050505050505051%, 0.0606 6.060606060606061%, 0.0707 7.070707070707072%, 0.0808 8.080808080808081%, 0.0909 9.090909090909092%, 0.101 10.101010101010102%, 0.1111 11.111111111111112%, 0.1212 12.121212121212123%, 0.1313 13.131313131313133%, 0.1414 14.141414141414144%, 0.1515 15.151515151515154%, 0.1616 16.161616161616163%, 0.1717 17.171717171717173%, 0.1818 18.181818181818183%, 0.1919 19.191919191919194%, 0.202 20.202020202020204%, 0.2121 21.212121212121215%, 0.2222 22.222222222222225%, 0.2323 23.232323232323235%, 0.2424 24.242424242424246%, 0.2525 25.252525252525256%, 0.2626 26.262626262626267%, 0.2727 27.272727272727277%, 0.2828 28.282828282828287%, 0.2929 29.292929292929298%, 0.303 30.303030303030308%, 0.3131 31.31313131313132%, 0.3232 32.323232323232325%, 0.3333 33.333333333333336%, 0.3434 34.343434343434346%, 0.3535 35.35353535353536%, 0.3636 36.36363636363637%, 0.3737 37.37373737373738%, 0.3838 38.38383838383839%, 0.3939 39.3939393939394%, 0.404 40.40404040404041%, 0.4141 41.41414141414142%, 0.4242 42.42424242424243%, 0.4343 43.43434343434344%, 0.4444 44.44444444444445%, 0.4545 45.45454545454546%, 0.4646 46.46464646464647%, 0.4747 47.47474747474748%, 0.4848 48.48484848484849%, 0.4949 49.4949494949495%, 0.5051 50.50505050505051%, 0.5152 51.51515151515152%, 0.5253 52.52525252525253%, 0.5354 53.53535353535354%, 0.5455 54.545454545454554%, 0.5556 55.555555555555564%, 0.5657 56.565656565656575%, 0.5758 57.575757575757585%, 0.5859 58.585858585858595%, 0.596 59.595959595959606%, 0.6061 60.606060606060616%, 0.6162 61.61616161616163%, 0.6263 62.62626262626264%, 0.6364 63.63636363636365%, 0.6465 64.64646464646465%, 0.6566 65.65656565656566%, 0.6667 66.66666666666667%, 0.6768 67.67676767676768%, 0.6869 68.68686868686869%, 0.697 69.6969696969697%, 0.7071 70.70707070707071%, 0.7172 71.71717171717172%, 0.7273 72.72727272727273%, 0.7374 73.73737373737374%, 0.7475 74.74747474747475%, 0.7576 75.75757575757576%, 0.7677 76.76767676767678%, 0.7778 77.77777777777779%, 0.7879 78.7878787878788%, 0.798 79.7979797979798%, 0.8081 80.80808080808082%, 0.8182 81.81818181818183%, 0.8283 82.82828282828284%, 0.8384 83.83838383838385%, 0.8485 84.84848484848486%, 0.8586 85.85858585858587%, 0.8687 86.86868686868688%, 0.8788 87.87878787878789%, 0.8889 88.8888888888889%, 0.899 89.89898989898991%, 0.9091 90.90909090909092%, 0.9192 91.91919191919193%, 0.9293 92.92929292929294%, 0.9394 93.93939393939395%, 0.9495 94.94949494949496%, 0.9596 95.95959595959597%, 0.9697 96.96969696969698%, 0.9798 97.979797979798%, 0.9899 98.98989898989899%, 1 100%)"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "word-cycle-drift-red",
+        "duration": 20000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "word-cycle-drift-blue",
+        "duration": 26000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-bottom-left-radius",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-bottom-right-radius",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-top-left-radius",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-top-right-radius",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-bottom-left-radius",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-bottom-right-radius",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-top-left-radius",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-top-right-radius",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-bottom-left-radius",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-bottom-right-radius",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-top-left-radius",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-top-right-radius",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "padding-bottom",
+        "duration": 0,
+        "delay": 120,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "font-size",
+        "duration": 0,
+        "delay": 120,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "padding-left",
+        "duration": 0,
+        "delay": 120,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "padding-right",
+        "duration": 0,
+        "delay": 120,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "padding-top",
+        "duration": 0,
+        "delay": 120,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "translate",
+        "duration": 0,
+        "delay": 120,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-bottom-left-radius",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-bottom-right-radius",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-top-left-radius",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-top-right-radius",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "padding-bottom",
+        "duration": 0,
+        "delay": 240,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "font-size",
+        "duration": 0,
+        "delay": 240,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "padding-left",
+        "duration": 0,
+        "delay": 240,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "padding-right",
+        "duration": 0,
+        "delay": 240,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "padding-top",
+        "duration": 0,
+        "delay": 240,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "translate",
+        "duration": 0,
+        "delay": 240,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "width",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-bottom-left-radius",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-bottom-right-radius",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-top-left-radius",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-top-right-radius",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "width",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "width",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "width",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "height",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "width",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      }
+    ],
+    "console": [],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://www.bmwf3.com/layers/bmw-data-in.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.bmwf3.com/hero.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.bmwf3.com/layers/customer-data.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.bmwf3.com/layers/data-captured.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.bmwf3.com/figma/bmwm5.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.bmwf3.com/layers/handover.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.bmwf3.com/showreel.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.bmwf3.com/layers/generative-output.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.bmwf3.com/layers/bmw-data-in.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.bmwf3.com/audio/bg-sound.mp3",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 6744,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 620,
+      "typography": {
+        "families": [
+          [
+            "Google Sans Flex",
+            61
+          ],
+          [
+            "Space Mono",
+            31
+          ],
+          [
+            "Permanent Marker",
+            1
+          ]
+        ],
+        "weights": [
+          [
+            "500",
+            37
+          ],
+          [
+            "400",
+            35
+          ],
+          [
+            "700",
+            11
+          ],
+          [
+            "728",
+            10
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            52
+          ]
+        ],
+        "sizeMin": 10,
+        "sizeMedian": 14,
+        "sizeMax": 62,
+        "sizeMaxVw": 15.9,
+        "scaleRatio": 4.4,
+        "letterSpacingMean": 0.028,
+        "loadedFonts": [
+          {
+            "family": "Google Sans Flex",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Google Sans Flex",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "Google Sans Flex",
+            "weight": "700",
+            "style": "normal"
+          },
+          {
+            "family": "Google Sans Flex",
+            "weight": "800",
+            "style": "normal"
+          },
+          {
+            "family": "Google Sans Flex",
+            "weight": "800",
+            "style": "normal"
+          },
+          {
+            "family": "Permanent Marker",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Space Mono",
+            "weight": "400",
+            "style": "normal"
+          }
+        ],
+        "variableFont": true,
+        "textElements": 93
+      },
+      "color": {
+        "background": "rgb(5, 5, 5)",
+        "backgroundLuminance": 0.0015176349177441874,
+        "backgrounds": [
+          [
+            "rgb(5, 5, 5)",
+            5335
+          ],
+          [
+            "rgb(0, 0, 0)",
+            1765
+          ],
+          [
+            "rgb(6, 6, 6)",
+            535
+          ],
+          [
+            "rgb(247, 245, 242)",
+            399
+          ],
+          [
+            "rgb(226, 39, 24)",
+            384
+          ],
+          [
+            "rgb(22, 23, 26)",
+            329
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(255, 255, 255)",
+            309
+          ],
+          [
+            "rgb(247, 245, 242)",
+            38
+          ],
+          [
+            "rgb(10, 10, 11)",
+            16
+          ],
+          [
+            "rgb(235, 0, 26)",
+            10
+          ],
+          [
+            "rgb(81, 89, 95)",
+            7
+          ]
+        ],
+        "meanSaturation": 0.18,
+        "rootVars": {}
+      },
+      "layout": {
+        "fullscreenSections": 4,
+        "sticky": 4,
+        "fixed": 4,
+        "grid": 0,
+        "flex": 96,
+        "absolute": 106,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 19755,
+        "pages": 23.4,
+        "spacing": [
+          [
+            16,
+            23
+          ],
+          [
+            32,
+            11
+          ],
+          [
+            40,
+            8
+          ],
+          [
+            24,
+            8
+          ],
+          [
+            12,
+            6
+          ],
+          [
+            64,
+            6
+          ],
+          [
+            8,
+            6
+          ],
+          [
+            9,
+            4
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 0,
+        "animationKinds": [],
+        "infiniteAnimations": 0,
+        "animationDurations": [],
+        "easings": [],
+        "transitionDurationsMs": [
+          [
+            500,
+            19
+          ],
+          [
+            150,
+            12
+          ],
+          [
+            600,
+            1
+          ],
+          [
+            300,
+            1
+          ]
+        ],
+        "keyframes": [
+          "gradient-slide",
+          "word-cycle-drift-red",
+          "word-cycle-drift-blue",
+          "cursor-blink"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 36,
+      "media": {
+        "canvases": [
+          {
+            "w": 300,
+            "h": 150,
+            "area": 1.32
+          },
+          {
+            "w": 732,
+            "h": 1640,
+            "area": 0.91
+          }
+        ],
+        "videos": [
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://www.bmwf3.com/hero.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://www.bmwf3.com/showreel.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://www.bmwf3.com/showreel-mobile-loop.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": false,
+            "muted": true,
+            "src": "https://www.bmwf3.com/figma/scroll-video-1_5s.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://www.bmwf3.com/layers/bmw-data-in.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://www.bmwf3.com/figma/bmwm5.mp4"
+          }
+        ],
+        "svg": 12,
+        "images": 43,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "2d": 4
+        },
+        "raf": 758,
+        "io": 20,
+        "ro": 2,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "BMW Next Move | RRFI Proposal by Format-3",
+      "lang": "en",
+      "description": "Format-3's reverse pitch for BMW. A live proof of concept for what BMW's digital experience could become."
+    },
+    "featuresBeforeScroll": {
+      "elements": 620,
+      "canvases": 2,
+      "animations": 8,
+      "hidden": 36
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 9540236,
+        "layoutCount": 384,
+        "recalcStyleCount": 392,
+        "scriptDuration": 0.23576,
+        "taskDuration": 0.810393,
+        "nodes": 2808
+      },
+      "timing": {
+        "domContentLoaded": 298,
+        "load": 298,
+        "first-paint": 304,
+        "first-contentful-paint": 436
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1200,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1200,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1200,
+        "delay": 250,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1200,
+        "delay": 250,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1200,
+        "delay": 550,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1200,
+        "delay": 550,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1200,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1200,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1200,
+        "delay": 700,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1200,
+        "delay": 700,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      }
+    ],
+    "console": [],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://www.bmwf3.com/figma/scroll-video-1_5s.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.bmwf3.com/hero.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.bmwf3.com/layers/bmw-data-in.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.bmwf3.com/figma/bmwm5.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.bmwf3.com/figma/scroll-video-1_5s.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.bmwf3.com/showreel.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.bmwf3.com/audio/bg-sound.mp3",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  }
+}

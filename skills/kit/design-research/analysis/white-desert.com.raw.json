@@ -1,0 +1,2804 @@
+{
+  "url": "https://white-desert.com/",
+  "at": "2026-10-09T08:22:39.823Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 21093,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 1004,
+      "typography": {
+        "families": [
+          [
+            "Inter Tight",
+            90
+          ],
+          [
+            "Cardinal Classic Long",
+            38
+          ],
+          [
+            "Oswald",
+            13
+          ]
+        ],
+        "weights": [
+          [
+            "500",
+            108
+          ],
+          [
+            "400",
+            22
+          ],
+          [
+            "600",
+            11
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            25
+          ]
+        ],
+        "sizeMin": 9.99999,
+        "sizeMedian": 14,
+        "sizeMax": 320,
+        "sizeMaxVw": 22.2,
+        "scaleRatio": 22.9,
+        "letterSpacingMean": 0.138,
+        "loadedFonts": [
+          {
+            "family": "Inter Tight",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "Cardinal Classic Long",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Cardinal Classic Long",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "Cardinal Classic Long",
+            "weight": "500",
+            "style": "italic"
+          },
+          {
+            "family": "Oswald",
+            "weight": "normal",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 141
+      },
+      "color": {
+        "background": "rgb(255, 255, 255)",
+        "backgroundLuminance": 1,
+        "backgrounds": [
+          [
+            "rgb(255, 255, 255)",
+            7687
+          ],
+          [
+            "rgb(9, 11, 16)",
+            6366
+          ],
+          [
+            "rgba(0, 0, 0, 0.2)",
+            2696
+          ],
+          [
+            "rgba(0, 0, 0, 0.1)",
+            2316
+          ],
+          [
+            "rgb(233, 231, 225)",
+            1470
+          ],
+          [
+            "rgb(0, 0, 0)",
+            1296
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(255, 255, 255)",
+            279
+          ],
+          [
+            "rgb(31, 42, 68)",
+            211
+          ],
+          [
+            "rgb(83, 83, 83)",
+            101
+          ],
+          [
+            "rgba(0, 0, 0, 0)",
+            28
+          ],
+          [
+            "rgb(255, 126, 21)",
+            1
+          ]
+        ],
+        "meanSaturation": 0.08,
+        "rootVars": {
+          "--bg": "#fff",
+          "--surface": "#12141a",
+          "--text": "var(--wd_dark-blue)",
+          "--quote-accent": "var(--WD_Dark-Blue,#1f2a44)",
+          "--muted": "#a8acb3",
+          "--primary": "#6aa5ff",
+          "--primary-contrast": "#0b0c0f",
+          "--border": "#1f2330",
+          "--white": "#fff",
+          "--black": "#000",
+          "--black-faded": "rgba(0,0,0,.5)",
+          "--dark-bg": "#090b10",
+          "--background": "var(--bg)",
+          "--foreground": "var(--text)",
+          "--wd_dark-blue": "#1f2a44",
+          "--wd_deep-blue": "#0e1118",
+          "--wd-grey": "#323640",
+          "--wd_dark-blue-faded": "rgba(31,42,68,.2)",
+          "--wd_blue-faded": "rgba(31,42,68,.5)",
+          "--wd_ash-blue": "#2c374b",
+          "--wd_orange": "#ff7e15",
+          "--wd_red": "#ff1515",
+          "--wd_white": "#fff",
+          "--wd_black": "#000",
+          "--wd_light-charcoal": "#535353",
+          "--wd_light-charcoal-faded": "#a4a29c",
+          "--wd_mushroom": "#e9e7e1",
+          "--wd_light-grey": "#f3f1ec",
+          "--wd_beige": "#dcd8cc",
+          "--wd_turqoise": "#6af0ff",
+          "--space-1": ".35em",
+          "--space-2": ".75em",
+          "--space-3": "1.1em",
+          "--space-4": "1.5em",
+          "--space-5": "2em",
+          "--space-6": "2.75em",
+          "--space-8": "4em",
+          "--space-10": "5.5em",
+          "--space-12": "7em",
+          "--size-03125": ".3125em"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 9,
+        "sticky": 3,
+        "fixed": 8,
+        "grid": 23,
+        "flex": 181,
+        "absolute": 155,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 20782,
+        "pages": 23.1,
+        "spacing": [
+          [
+            18,
+            32
+          ],
+          [
+            24,
+            26
+          ],
+          [
+            10,
+            21
+          ],
+          [
+            20,
+            16
+          ],
+          [
+            12,
+            10
+          ],
+          [
+            16,
+            9
+          ],
+          [
+            5,
+            9
+          ],
+          [
+            30,
+            9
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 5,
+        "animationKinds": [
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 3,
+        "animationDurations": [
+          1400,
+          1400,
+          2000,
+          2000,
+          2000
+        ],
+        "easings": [
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            300,
+            133
+          ],
+          [
+            600,
+            5
+          ],
+          [
+            450,
+            4
+          ],
+          [
+            400,
+            1
+          ],
+          [
+            1000,
+            1
+          ]
+        ],
+        "keyframes": [
+          "page-exit",
+          "page-enter",
+          "reveal-opacity",
+          "reveal-transform",
+          "fadeIn",
+          "pulsed"
+        ],
+        "viewTransitionCss": true,
+        "scrollTimelineCss": true
+      },
+      "hiddenElements": 10,
+      "media": {
+        "canvases": [],
+        "videos": [
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://customer-0f1muz5hahtwutl3.cloudflarestream.com/6cbe45de8a02fd4b5b862fdec4a2b1ad/downloads/default.mp4"
+          }
+        ],
+        "svg": 56,
+        "images": 29,
+        "iframes": 1,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "2d": 1,
+          "webgl": 1
+        },
+        "raf": 569,
+        "io": 1,
+        "ro": 1,
+        "mo": 7,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Luxury Adventures in Antarctica | White Desert",
+      "lang": "en",
+      "description": "White Desert is the world’s leading luxury Antarctic expedition company, offering once-in-a-lifetime journeys to the South Pole and Emperor Penguins"
+    },
+    "featuresBeforeScroll": {
+      "elements": 1004,
+      "canvases": 0,
+      "animations": 6,
+      "hidden": 11
+    },
+    "scrollReveal": 1,
+    "hover": {
+      "probed": 6,
+      "changed": 0
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 38115480,
+        "layoutCount": 1703,
+        "recalcStyleCount": 3029,
+        "scriptDuration": 1.688705,
+        "taskDuration": 4.504924,
+        "nodes": 3963
+      },
+      "timing": {
+        "domContentLoaded": 288,
+        "load": 1302,
+        "first-paint": 332,
+        "first-contentful-paint": 332
+      }
+    },
+    "network": [
+      {
+        "url": "https://white-desert.com/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 27382
+      },
+      {
+        "url": "https://white-desert.com/_next/image?url=%2Fimages%2Fcloud-1-cropped.png&w=1920&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 96719
+      },
+      {
+        "url": "https://white-desert.com/_next/image?url=%2Fimages%2Fcloud-2-full.png&w=1920&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 166387
+      },
+      {
+        "url": "https://white-desert.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkq9qn5zn%2Fproduction%2F7f7efa50400ce9b425d21711fe3dbc6f34da5056-2000x1333.jpg&w=1920&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 495759
+      },
+      {
+        "url": "https://white-desert.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkq9qn5zn%2Fproduction%2F1748a379c910cb7c98b6c9acb5fb60be54c92d6b-2000x1250.jpg&w=1920&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 97168
+      },
+      {
+        "url": "https://white-desert.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkq9qn5zn%2Fproduction%2Fba3ef9c03535715a86568b6f7d76baeecf698f12-2000x1333.jpg&w=1920&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 139936
+      },
+      {
+        "url": "https://white-desert.com/_next/static/chunks/cabcbbbe485680be.css?dpl=dpl_rWLcjKm1yZqUA3Dxy3D6dVfPSfhb",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 7592
+      },
+      {
+        "url": "https://white-desert.com/_next/static/chunks/7e7f4251c3582625.css?dpl=dpl_rWLcjKm1yZqUA3Dxy3D6dVfPSfhb",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 2695
+      },
+      {
+        "url": "https://white-desert.com/_next/static/chunks/5dd7b716df5564d7.css?dpl=dpl_rWLcjKm1yZqUA3Dxy3D6dVfPSfhb",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 5513
+      },
+      {
+        "url": "https://white-desert.com/_next/static/chunks/112bdbe21ebfd0e0.css?dpl=dpl_rWLcjKm1yZqUA3Dxy3D6dVfPSfhb",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 896
+      },
+      {
+        "url": "https://white-desert.com/_next/static/chunks/95336b130c95deff.css?dpl=dpl_rWLcjKm1yZqUA3Dxy3D6dVfPSfhb",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 850
+      },
+      {
+        "url": "https://white-desert.com/_next/static/chunks/e7314b9691f5549e.css?dpl=dpl_rWLcjKm1yZqUA3Dxy3D6dVfPSfhb",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1203
+      },
+      {
+        "url": "https://white-desert.com/_next/static/chunks/224901646ca2a142.css?dpl=dpl_rWLcjKm1yZqUA3Dxy3D6dVfPSfhb",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1428
+      },
+      {
+        "url": "https://white-desert.com/_next/static/chunks/b1c599e5fb11fc0d.css?dpl=dpl_rWLcjKm1yZqUA3Dxy3D6dVfPSfhb",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 861
+      },
+      {
+        "url": "https://white-desert.com/_next/static/chunks/867c58ea1d14fa25.css?dpl=dpl_rWLcjKm1yZqUA3Dxy3D6dVfPSfhb",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1174
+      },
+      {
+        "url": "https://white-desert.com/_next/static/chunks/693ad724e6526edb.css?dpl=dpl_rWLcjKm1yZqUA3Dxy3D6dVfPSfhb",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1622
+      },
+      {
+        "url": "https://white-desert.com/_next/static/chunks/ed76642f8bfd56f6.css?dpl=dpl_rWLcjKm1yZqUA3Dxy3D6dVfPSfhb",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 959
+      },
+      {
+        "url": "https://white-desert.com/_next/static/chunks/6ad64d2e71e8012c.css?dpl=dpl_rWLcjKm1yZqUA3Dxy3D6dVfPSfhb",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 463
+      },
+      {
+        "url": "https://white-desert.com/_next/static/chunks/9421589bbd45d493.css?dpl=dpl_rWLcjKm1yZqUA3Dxy3D6dVfPSfhb",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 566
+      },
+      {
+        "url": "https://white-desert.com/_next/static/chunks/4b8877fbea3d377d.css?dpl=dpl_rWLcjKm1yZqUA3Dxy3D6dVfPSfhb",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1707
+      },
+      {
+        "url": "https://white-desert.com/_next/static/chunks/5c2203363474d50c.js?dpl=dpl_rWLcjKm1yZqUA3Dxy3D6dVfPSfhb",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2815
+      },
+      {
+        "url": "https://white-desert.com/_next/static/chunks/0d5e17f06d70a00c.js?dpl=dpl_rWLcjKm1yZqUA3Dxy3D6dVfPSfhb",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 25171
+      },
+      {
+        "url": "https://white-desert.com/_next/static/chunks/06687ac130c66111.js?dpl=dpl_rWLcjKm1yZqUA3Dxy3D6dVfPSfhb",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 60445
+      },
+      {
+        "url": "https://white-desert.com/_next/static/chunks/88799b8906c93fff.js?dpl=dpl_rWLcjKm1yZqUA3Dxy3D6dVfPSfhb",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 18051
+      },
+      {
+        "url": "https://white-desert.com/_next/static/chunks/turbopack-da6b5d947c3edf14.js?dpl=dpl_rWLcjKm1yZqUA3Dxy3D6dVfPSfhb",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4490
+      },
+      {
+        "url": "https://white-desert.com/_next/static/chunks/ff1a16fafef87110.js?dpl=dpl_rWLcjKm1yZqUA3Dxy3D6dVfPSfhb",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 522
+      },
+      {
+        "url": "https://white-desert.com/_next/static/chunks/7dd66bdf8a7e5707.js?dpl=dpl_rWLcjKm1yZqUA3Dxy3D6dVfPSfhb",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 7779
+      },
+      {
+        "url": "https://white-desert.com/_next/static/chunks/36269ef0e4c9af0e.js?dpl=dpl_rWLcjKm1yZqUA3Dxy3D6dVfPSfhb",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 8677
+      },
+      {
+        "url": "https://white-desert.com/_next/static/chunks/b67b107e891260db.js?dpl=dpl_rWLcjKm1yZqUA3Dxy3D6dVfPSfhb",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 18383
+      },
+      {
+        "url": "https://white-desert.com/_next/static/chunks/b684595e62cb1084.js?dpl=dpl_rWLcjKm1yZqUA3Dxy3D6dVfPSfhb",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 56874
+      },
+      {
+        "url": "https://white-desert.com/_next/static/chunks/d2e25e0992870da6.js?dpl=dpl_rWLcjKm1yZqUA3Dxy3D6dVfPSfhb",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 17500
+      },
+      {
+        "url": "https://white-desert.com/_next/static/chunks/b62d095e5c483d7e.js?dpl=dpl_rWLcjKm1yZqUA3Dxy3D6dVfPSfhb",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 11128
+      },
+      {
+        "url": "https://white-desert.com/_next/static/chunks/3740e28aac5f04a8.js?dpl=dpl_rWLcjKm1yZqUA3Dxy3D6dVfPSfhb",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 21204
+      },
+      {
+        "url": "https://white-desert.com/_next/static/chunks/d80e3f399c77bf13.js?dpl=dpl_rWLcjKm1yZqUA3Dxy3D6dVfPSfhb",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1472
+      },
+      {
+        "url": "https://white-desert.com/consent-init.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 982
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-NS26H2GZ",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 172342
+      },
+      {
+        "url": "https://js-eu1.hs-scripts.com/27087760.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1355
+      },
+      {
+        "url": "https://white-desert.com/fonts/InterTight-VariableFont_wght.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 239686
+      },
+      {
+        "url": "https://white-desert.com/fonts/CardinalClassicMidWeb-MediumItalic.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 86293
+      },
+      {
+        "url": "https://white-desert.com/fonts/Oswald-VariableFont_wght.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 72355
+      },
+      {
+        "url": "https://white-desert.com/fonts/CardinalClassicMidWeb-Regular.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 78849
+      },
+      {
+        "url": "https://white-desert.com/fonts/CardinalClassicMidWeb-Medium.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 81365
+      },
+      {
+        "url": "https://white-desert.com/_next/image?url=%2Fimages%2Fcloud-gradient.png&w=1920&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 105737
+      },
+      {
+        "url": "https://white-desert.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkq9qn5zn%2Fproduction%2F1a56d4190cee89b1fa408978753d1558a50d2639-3000x2014.jpg&w=1920&q=90",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 143886
+      },
+      {
+        "url": "https://customer-0f1muz5hahtwutl3.cloudflarestream.com/6cbe45de8a02fd4b5b862fdec4a2b1ad/dl/default.mp4?p=eyJ0eXBlIjoiZG93bmxvYWRzIiwidmlkZW9JRCI6IjZjYmU0NWRlOGEwMmZkNGI1Yjg2MmZkZWM0YTJiMWFkIiwib3duZXJJRCI6ODg5MTE3OTUsImNyZWF0b3JJRCI6IiIsImRvd25sb2FkVHlwZSI6ImRlZmF1bHQiLCJzdG9yYWdlUHJvdmlkZXIiOjQsImR1cmF0aW9uU2VjcyI6MTcuNSwicmVzb2x1dGlvbiI6IjEwODAiLCJ0b3RhbEJ5dGVTaXplIjo0NDIyNzY5fQ&s=c0RmOw_Dr8KZC3fClnUxw5oiwpNSHWLDpcOmEMOVf8Oewo01DMOdDsOWwqtS",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://white-desert.com/prices?_rsc=3lb4g",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 15749
+      },
+      {
+        "url": "https://white-desert.com/enquire?_rsc=3lb4g",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 7236
+      },
+      {
+        "url": "https://js-eu1.usemessages.com/conversations-embed.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 30626
+      },
+      {
+        "url": "https://js-eu1.hscollectedforms.net/collectedforms.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 27753
+      },
+      {
+        "url": "https://js-eu1.hs-banner.com/v2/27087760/banner.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 24557
+      },
+      {
+        "url": "https://js-eu1.hs-analytics.net/analytics/1791530700000/27087760.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 43589
+      },
+      {
+        "url": "https://connect.facebook.net/en_US/fbevents.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/x-javascript",
+        "fromCache": false,
+        "bytes": 115790
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-17269461649&cx=c&gtm=4e6a72h1",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 170816
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=DC-16612707&cx=c&gtm=4e6a72h1",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 151304
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-S90YQ7PDN8&cx=c&gtm=4e6a72h1",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 199749
+      },
+      {
+        "url": "https://bat.bing.com/bat.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 15934
+      },
+      {
+        "url": "https://www.clarity.ms/tag/umgd0iuvfb",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/x-javascript",
+        "fromCache": false,
+        "bytes": 1152
+      },
+      {
+        "url": "https://tracker.metricool.com/resources/be.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 2951
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=17&frm=0&apvc=1&ae=g&en=page_view&dl=https%3A%2F%2Fwhite-desert.com%2F&scrsrc=www.googletagmanager.com&rnd=1858926755.1791534131&navt=n&npa=1&ep.ads_data_redaction=0&gtm=45He6a72h1v9237221384za200zd9237221384xeaxf1&gcs=G101&gcd=13p3t3p3p5l1&dma_cps=-&dma=0&tag_exp=115616985~115938465~115938468~118897920~118897930~120385423~120469145~120469153~121046263~121046271~121246026~121246034&tft=1791534131459&tfd=578&fmt=8",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false
+      },
+      {
+        "url": "https://white-desert.com/_vercel/insights/script.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2371
+      },
+      {
+        "url": "https://white-desert.com/_next/static/chunks/3b203ac4282c520a.css?dpl=dpl_rWLcjKm1yZqUA3Dxy3D6dVfPSfhb",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1272
+      },
+      {
+        "url": "https://white-desert.com/_next/static/chunks/9b100255b63db84f.css?dpl=dpl_rWLcjKm1yZqUA3Dxy3D6dVfPSfhb",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 2421
+      },
+      {
+        "url": "https://white-desert.com/_next/static/chunks/cfce93c6cd2e504b.js?dpl=dpl_rWLcjKm1yZqUA3Dxy3D6dVfPSfhb",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 10988
+      },
+      {
+        "url": "https://bat.bing.com/p/action/97244427.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2101
+      },
+      {
+        "url": "https://connect.facebook.net/signals/config/878941760836673?v=2.9.415&r=stable&domain=white-desert.com&hme=a4c28c8787325ac3f8f9eac68364f47df2a8c4266e43177443e5d7f6289c9774&ex_m=117%2C240%2C170%2C27%2C81%2C82%2C161%2C77%2C76%2C11%2C180%2C101%2C20%2C152%2C140%2C46%2C84%2C89%2C148%2C175%2C182%2C8%2C4%2C5%2C7%2C6%2C3%2C102%2C114%2C32%2C17%2C31%2C18%2C33%2C34%2C35%2C37%2C55%2C162%2C86%2C125%2C22%2C24%2C51%2C47%2C49%2C48%2C94%2C103%2C107%2C123%2C159%2C163%2C53%2C124%2C29%2C26%2C132%2C78%2C43%2C165%2C164%2C166%2C156%2C154%2C30%2C42%2C66%2C122%2C177%2C79%2C21%2C127%2C92%2C75%2C23%2C96%2C97%2C129%2C95%2C150%2C149%2C153%2C108%2C176%2C179%2C41%2C56%2C126%2C54%2C160%2C71%2C184%2C109%2C183%2C209%2C254%2C83%2C273%2C272%2C271%2C14%2C25%2C28%2C40%2C62%2C116%2C68%2C10%2C72%2C110%2C111%2C112%2C118%2C143%2C38%2C36%2C145%2C146%2C147%2C142%2C141%2C171%2C85%2C174%2C172%2C173%2C57%2C67%2C136%2C19%2C178%2C52%2C322%2C323%2C324%2C321%2C337%2C359%2C247%2C236%2C69%2C237%2C235%2C362%2C353%2C59%2C248%2C120%2C144%2C91%2C134%2C61%2C133%2C139%2C138%2C65%2C73%2C167%2C87%2C88%2C128%2C44%2C39%2C60%2C63%2C113%2C181%2C1%2C137%2C16%2C135%2C12%2C2%2C64%2C104%2C15%2C74%2C70%2C131%2C100%2C99%2C186%2C187%2C105%2C106%2C9%2C115%2C185%2C58%2C157%2C98%2C90%2C80%2C130%2C119%2C168%2C50%2C158%2C0%2C93%2C151%2C155%2C169%2C45%2C121%2C13%2C188",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/x-javascript",
+        "fromCache": false,
+        "bytes": 106557
+      },
+      {
+        "url": "https://white-desert.com/_next/static/chunks/5b5fd378b1346716.css?dpl=dpl_rWLcjKm1yZqUA3Dxy3D6dVfPSfhb",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1288
+      },
+      {
+        "url": "https://white-desert.com/_next/static/chunks/864c723b7269d0cf.css?dpl=dpl_rWLcjKm1yZqUA3Dxy3D6dVfPSfhb",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 708
+      },
+      {
+        "url": "https://white-desert.com/_next/static/chunks/2a57671e00b6ea60.css?dpl=dpl_rWLcjKm1yZqUA3Dxy3D6dVfPSfhb",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 2950
+      },
+      {
+        "url": "https://white-desert.com/_next/static/chunks/d482d747da6c5eef.js?dpl=dpl_rWLcjKm1yZqUA3Dxy3D6dVfPSfhb",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 13253
+      },
+      {
+        "url": "https://tracker.metricool.com/c3po.jpg?hash=a5a156e8f5cf6332abb9a7ae31f59ddf&u=https%3A%2F%2Fwhite-desert.com%2F&bw=1440&bh=900",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 2773
+      },
+      {
+        "url": "https://scripts.clarity.ms/0.8.75-beta/clarity.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 25997
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=2&frm=0&apvc=0&tid=AW-17269461649&en=page_view&dl=https%3A%2F%2Fwhite-desert.com%2F&scrsrc=www.googletagmanager.com&rnd=1858926755.1791534131&navt=n&npa=1&gtm=45be6a72h1v9223546708za20ozb9237221384zd9237221384xecxf1&gcs=G101&gcd=13p3t3V3p5l1&dma_cps=-&dma=0&tag_exp=115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034&tft=1791534131763&tfd=883&tids=AW-17269461649&fmt=8",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=2&frm=0&apvc=0&ae=g&tid=AW-17269461649&dl=https%3A%2F%2Fwhite-desert.com%2F&scrsrc=www.googletagmanager.com&rnd=1858926755.1791534131&navt=n&npa=1&_tu=CA&gtm=45be6a72h1v9223546708z89237221384za20gzb9237221384zd9237221384xeaxf1&gcs=G101&gcd=13p3t3V3p5l1&dma_cps=-&dma=0&tag_exp=115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034&tft=1791534131765&tfd=885&tids=AW-17269461649&fmt=8",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=9&frm=0&apvc=0&tid=DC-16612707&en=page_view&dl=https%3A%2F%2Fwhite-desert.com%2F&scrsrc=www.googletagmanager.com&rnd=1858926755.1791534131&navt=n&npa=1&ep.user_data_mode=a&gtm=45fe6a72h1v9247467003za20ozb9237221384zd9237221384xecxf1&gcs=G101&gcd=13p3t3V3p5l1&dma_cps=-&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034&tft=1791534131824&tfd=943&tids=DC-16612707&fmt=8",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/measurement/conversion?random=1791534131895&cv=11&tid=G-S90YQ7PDN8&fst=1791534131895&fmt=8&en=session_start&gtm=45je6a72h1v9168695164z89237221384za20gzb9237221384zd9237221384xecxf1&gcs=G101&gcd=13p3t3V3p5l1&dma_cps=-&dma=0&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034&u_w=1440&u_h=900&url=https%3A%2F%2Fwhite-desert.com%2F&gacid=1985761753.1791534132&hn=www.googleadservices.com&frm=0&tiba=Luxury%20Adventures%20in%20Antarctica%20%7C%20White%20Desert&npa=1&pscdl=denied&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uamb=0&uam=&uap=Windows&uapv=&uaw=0&rcb=5",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/html",
+        "fromCache": false
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-S90YQ7PDN8&gtm=45je6a72h1v9168695164z89237221384za20gzb9237221384zd9237221384xf1&_p=1791534131374&gcs=G101&gcd=13p3t3V3p5l1&npa=1&dma_cps=-&dma=0&ecid=1456997215&_eu=AAAAAGAC&_prs=ok&are=1&cid=1985761753.1791534132&ec_mode=a&frm=0&pscdl=denied&rcb=5&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&gaf=2&_s=1&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034&dp=%2F&dl=https%3A%2F%2Fwhite-desert.com%2F&sid=1791534131&sct=1&seg=0&dt=Luxury%20Adventures%20in%20Antarctica%20%7C%20White%20Desert&en=page_view&_fv=1&_nsi=1&_ss=2&tfd=1073",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false
+      },
+      {
+        "url": "https://www.clarity.ms/tag/uet/97244427?conversions=1",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/x-javascript",
+        "fromCache": false,
+        "bytes": 1222
+      },
+      {
+        "url": "https://bat.bing.com/action/0?ti=97244427&tm=gtm002&Ver=2&mid=6680f173-45da-484b-a694-1106d975a2e7&bo=1&sid=86e5a660c3ba11f1b3930f04ccb07c99&vid=86e5b520c3ba11f1929a013d4b5b88b5&vids=1&msclkid=N&uach=pv%3D&pi=0&lg=en-US@posix&sw=1440&sh=900&sc=24&nwd=1&tl=Luxury%20Adventures%20in%20Antarctica%20%7C%20White%20Desert&p=https%3A%2F%2Fwhite-desert.com%2F&r=&lt=288&evt=pageLoad&sv=2&cdb=AQAQ&rn=213072",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 360
+      },
+      {
+        "url": "https://api-eu1.hubspot.com/livechat-public/v1/message/public?portalId=27087760&conversations-embed=static-1.28646&mobile=false&messagesUtk=5b8450cffa5144e3a41808e3643eceb3&traceId=5b8450cffa5144e3a41808e3643eceb3",
+        "method": "OPTIONS",
+        "type": "OTHER",
+        "initiator": "preflight",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://api-eu1.hubspot.com/livechat-public/v1/message/public?portalId=27087760&conversations-embed=static-1.28646&mobile=false&messagesUtk=5b8450cffa5144e3a41808e3643eceb3&traceId=5b8450cffa5144e3a41808e3643eceb3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 2478
+      },
+      {
+        "url": "https://forms-eu1.hscollectedforms.net/collected-forms/v1/config/json?portalId=27087760&utk=",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 707
+      },
+      {
+        "url": "https://www.facebook.com/tr/",
+        "method": "POST",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 417
+      },
+      {
+        "url": "https://k.clarity.ms/collect",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 280
+      },
+      {
+        "url": "https://c.clarity.ms/c.gif?ctsa=mr&CtsSyncId=58ED92427B0A45268E2D67CD4326AF43&MUID=3A643AF8263A6A9A3DCC2D1527B16BEE",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 719
+      },
+      {
+        "url": "https://track-eu1.hubspot.com/__ptq.gif?k=1&sd=1440x900&cd=24-bit&cs=UTF-8&ln=en-us%40posix&v=1.1&a=27087760&po=%2F&qo=false&opo=%2F&rcu=https%3A%2F%2Fwhite-desert.com%2F&pu=https%3A%2F%2Fwhite-desert.com%2F&t=Luxury+Adventures+in+Antarctica+%7C+White+Desert&cts=1791534132180&vi=a135b20d754659987bdb52e7751fabc5&nc=true&u=152474470.a135b20d754659987bdb52e7751fabc5.1791534132178.1791534132178.1791534132178.1&b=152474470.1.1791534132178&cc=15",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 650
+      },
+      {
+        "url": "https://track-eu1.hubspot.com/__ptq.gif?k=1&sd=1440x900&cd=24-bit&cs=UTF-8&ln=en-us%40posix&v=1.1&a=27087760&po=%2F&qo=false&opo=%2F&rcu=https%3A%2F%2Fwhite-desert.com%2F&pu=https%3A%2F%2Fwhite-desert.com%2F&t=Luxury+Adventures+in+Antarctica+%7C+White+Desert&cts=1791534132181&vi=a135b20d754659987bdb52e7751fabc5&nc=true&u=152474470.a135b20d754659987bdb52e7751fabc5.1791534132178.1791534132178.1791534132178.1&b=152474470.1.1791534132178&cc=15",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 978
+      },
+      {
+        "url": "https://forms-eu1.hsforms.com/embed/v3/counters.gif?key=collected-forms-embed-js-form-bind&count=1",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 1024
+      },
+      {
+        "url": "https://k.clarity.ms/collect",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 280
+      },
+      {
+        "url": "https://white-desert.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkq9qn5zn%2Fproduction%2F16add1ee0bdc16862dc37b826abb1600887e7fbb-2000x1333.jpg&w=2048&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 48684
+      },
+      {
+        "url": "https://white-desert.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkq9qn5zn%2Fproduction%2Ffc3d4887c37b05526119edbc5db9d18a0b034c6b-2000x1250.jpg&w=2048&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 137100
+      },
+      {
+        "url": "https://white-desert.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkq9qn5zn%2Fproduction%2F545ecd31bdf0cdd5605316894111fb0f197e0129-2668x2000.jpg&w=3840&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 366339
+      },
+      {
+        "url": "https://white-desert.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkq9qn5zn%2Fproduction%2F0554de84a6e2cfa68bff6d38a7d7e1c975653f91-2000x1333.jpg&w=2048&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 131500
+      },
+      {
+        "url": "https://white-desert.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkq9qn5zn%2Fproduction%2Fa1e7092001e46b8511e5d9386f43ccfce30122d2-2000x1333.jpg&w=2048&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 142076
+      },
+      {
+        "url": "https://white-desert.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkq9qn5zn%2Fproduction%2Fbe7f8922a9352273b56ca6798837ff6c95d3e060-2000x1250.jpg&w=1920&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 86801
+      },
+      {
+        "url": "https://k.clarity.ms/collect",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 280
+      },
+      {
+        "url": "https://white-desert.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkq9qn5zn%2Fproduction%2F997058a2941b8500aabe100c899a6443ae943494-2000x1250.jpg&w=750&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 18786
+      },
+      {
+        "url": "https://white-desert.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkq9qn5zn%2Fproduction%2F61d6343c3239fb4e0df45fd4a35863549d97e73a-2535x1584.jpg&w=750&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 5559
+      },
+      {
+        "url": "https://white-desert.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fkq9qn5zn%2Fproduction%2F0f16bedb356a9d8a7833ce3f7155b0ff043ebd59-2000x1333.jpg&w=750&q=75",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 14851
+      },
+      {
+        "url": "https://k.clarity.ms/collect",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 280
+      },
+      {
+        "url": "https://k.clarity.ms/collect",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 280
+      },
+      {
+        "url": "https://app-eu1.hubspot.com/conversations-visitor/27087760/threads/utk/5b8450cffa5144e3a41808e3643eceb3?uuid=4e4327133b6d434fabc5506ae9b174fd&mobile=false&mobileSafari=false&hideWelcomeMessage=false&hstc=&domain=white-desert.com&inApp53=false&messagesUtk=5b8450cffa5144e3a41808e3643eceb3&url=https%3A%2F%2Fwhite-desert.com%2F&inline=false&isFullscreen=false&globalCookieOptOut=&isFirstVisitorSession=true&isAttachmentDisabled=false&isInitialInputFocusDisabled=false&enableWidgetCookieBanner=false&isInCMS=false&hideScrollToButton=true&isIOSMobile=false",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 21907
+      },
+      {
+        "url": "https://static.hsappstatic.net/trellis-theming-assets/static-1.685/stylesheets/hubspot-theme.stable.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 52521
+      },
+      {
+        "url": "https://static.hsappstatic.net/trellis-theming-assets/static-1.685/bundles/hubspot-theme.stable.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 22113
+      },
+      {
+        "url": "https://static.hsappstatic.net/head-dlb/static-1.5007/bundle.production.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 20561
+      },
+      {
+        "url": "https://static.hsappstatic.net/conversations-visitor-ui/static-1.31085/sass/visitor.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 5160
+      },
+      {
+        "url": "https://static.hsappstatic.net/hubspot-dlb/static-2.1911/bundle.production.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 41159
+      },
+      {
+        "url": "https://static.hsappstatic.net/react-dlb/static-1.93/bundle.production.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 48657
+      },
+      {
+        "url": "https://static.hsappstatic.net/conversations-visitor-ui/static-1.31089/bundles/visitor.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 459615
+      },
+      {
+        "url": "https://static.hsappstatic.net/conversations-visitor-ui/static-1.9449/audio/notification.mp3",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 5317
+      },
+      {
+        "url": "https://static.hsappstatic.net/whisper-core/ex/whisper-core.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1013
+      },
+      {
+        "url": "https://www.google.com/recaptcha/enterprise.js?render=6Lfkq6EtAAAAAKi1IJoqzGk5_YdaxRrjMZlw-3nf",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1174
+      },
+      {
+        "url": "https://exceptions-eu1.hubspot.com/frontend/observability/page-tracking/store/?sentry_version=7&sentry_client=raven-js%2F3.19.1&deployable=conversations-visitor-ui",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 1592
+      },
+      {
+        "url": "https://app-eu1.hubspot.com/api/cartographer/v1/rhumb?hs_static_app=conversations-visitor-ui&hs_static_app_version=1.31089",
+        "method": "POST",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 2104
+      },
+      {
+        "url": "https://static.hsappstatic.net/whisper-core/static-1.10473/whisper-core-entry.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 41123
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/releases/nY0xPItgwtlvjEjk2TqdwOQz/recaptcha__en.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 355347
+      },
+      {
+        "url": "https://www.google.com/recaptcha/enterprise/anchor?ar=1&k=6Lfkq6EtAAAAAKi1IJoqzGk5_YdaxRrjMZlw-3nf&co=aHR0cHM6Ly9hcHAtZXUxLmh1YnNwb3QuY29tOjQ0Mw..&hl=en&v=nY0xPItgwtlvjEjk2TqdwOQz&size=invisible&anchor-ms=20000&execute-ms=30000&cb=ukbz2yqx8rlz",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 27387
+      },
+      {
+        "url": "https://cdn1.hubspot.net/googlefonts/fonts/Roboto/regular.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 45640
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/releases/nY0xPItgwtlvjEjk2TqdwOQz/styles__ltr.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 35551
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/releases/nY0xPItgwtlvjEjk2TqdwOQz/recaptcha__en.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.google.com/recaptcha/enterprise/webworker.js?hl=en&v=nY0xPItgwtlvjEjk2TqdwOQz",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/api2/logo_48.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 2252
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/roboto/v48/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmUiA8.ttf",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/ttf",
+        "fromCache": false,
+        "bytes": 26830
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/roboto/v48/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWub2bVmUiA8.ttf",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/ttf",
+        "fromCache": false,
+        "bytes": 26639
+      },
+      {
+        "url": "https://metrics-fe-eu1.hubspot.com/cartographer/v1/ipl",
+        "method": "POST",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 1692
+      },
+      {
+        "url": "https://k.clarity.ms/collect",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 280
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "reveal-opacity",
+        "duration": 1400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "reveal-transform",
+        "duration": 1400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "pulsed",
+        "duration": 2000,
+        "delay": 600.0000000000001,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "pulsed",
+        "duration": 2000,
+        "delay": 200,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "pulsed",
+        "duration": 2000,
+        "delay": 400,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 450,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.76, 0, 0.24, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 450,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.76, 0, 0.24, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 1, 0.89, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 450,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.76, 0, 0.24, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 450,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.76, 0, 0.24, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 450,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.76, 0, 0.24, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-left-color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 1, 0.89, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-right-color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 1, 0.89, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-top-color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 1, 0.89, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-bottom-color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 1, 0.89, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-left-color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 1, 0.89, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-right-color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 1, 0.89, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-top-color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 1, 0.89, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-bottom-color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 1, 0.89, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 1, 0.89, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 1, 0.89, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 1, 0.89, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 1, 0.89, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 1, 0.89, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-left-color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 1, 0.89, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-right-color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 1, 0.89, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-top-color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 1, 0.89, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-bottom-color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 1, 0.89, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-left-color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 1, 0.89, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-right-color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 1, 0.89, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-top-color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 1, 0.89, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-bottom-color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 1, 0.89, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 1, 0.89, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 1, 0.89, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 1, 0.89, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 1, 0.89, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 1, 0.89, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-left-color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 1, 0.89, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-right-color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 1, 0.89, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-top-color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 1, 0.89, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-bottom-color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 1, 0.89, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-left-color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 1, 0.89, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-right-color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 1, 0.89, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-top-color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 1, 0.89, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-bottom-color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 1, 0.89, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 1, 0.89, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 1, 0.89, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 1, 0.89, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 1, 0.89, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 1, 0.89, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-left-color",
+        "duration": 285.6971359694516,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 1, 0.89, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-right-color",
+        "duration": 285.6971359694516,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 1, 0.89, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-top-color",
+        "duration": 285.6971359694516,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 1, 0.89, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-bottom-color",
+        "duration": 285.6971359694516,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 1, 0.89, 1)"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0D02000643D0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://white-desert.com/_next/static/chunks/9b100255b63db84f.css?dpl=dpl_rWLcjKm1yZqUA3Dxy3D6dVfPSfhb was preloaded using link preload but not used within a few seconds from the window's"
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://white-desert.com/_next/static/chunks/864c723b7269d0cf.css?dpl=dpl_rWLcjKm1yZqUA3Dxy3D6dVfPSfhb was preloaded using link preload but not used within a few seconds from the window's"
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://white-desert.com/_next/static/chunks/3b203ac4282c520a.css?dpl=dpl_rWLcjKm1yZqUA3Dxy3D6dVfPSfhb was preloaded using link preload but not used within a few seconds from the window's"
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://white-desert.com/_next/static/chunks/2a57671e00b6ea60.css?dpl=dpl_rWLcjKm1yZqUA3Dxy3D6dVfPSfhb was preloaded using link preload but not used within a few seconds from the window's"
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://white-desert.com/_next/static/chunks/5b5fd378b1346716.css?dpl=dpl_rWLcjKm1yZqUA3Dxy3D6dVfPSfhb was preloaded using link preload but not used within a few seconds from the window's"
+      },
+      {
+        "level": "error",
+        "text": "requestStorageAccess: Permission denied."
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://white-desert.com/_next/static/chunks/9b100255b63db84f.css?dpl=dpl_rWLcjKm1yZqUA3Dxy3D6dVfPSfhb was preloaded using link preload but not used within a few seconds from the window's"
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://white-desert.com/_next/static/chunks/864c723b7269d0cf.css?dpl=dpl_rWLcjKm1yZqUA3Dxy3D6dVfPSfhb was preloaded using link preload but not used within a few seconds from the window's"
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://white-desert.com/_next/static/chunks/3b203ac4282c520a.css?dpl=dpl_rWLcjKm1yZqUA3Dxy3D6dVfPSfhb was preloaded using link preload but not used within a few seconds from the window's"
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://white-desert.com/_next/static/chunks/2a57671e00b6ea60.css?dpl=dpl_rWLcjKm1yZqUA3Dxy3D6dVfPSfhb was preloaded using link preload but not used within a few seconds from the window's"
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://white-desert.com/_next/static/chunks/5b5fd378b1346716.css?dpl=dpl_rWLcjKm1yZqUA3Dxy3D6dVfPSfhb was preloaded using link preload but not used within a few seconds from the window's"
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://white-desert.com/_next/static/chunks/9b100255b63db84f.css?dpl=dpl_rWLcjKm1yZqUA3Dxy3D6dVfPSfhb was preloaded using link preload but not used within a few seconds from the window's"
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://white-desert.com/_next/static/chunks/864c723b7269d0cf.css?dpl=dpl_rWLcjKm1yZqUA3Dxy3D6dVfPSfhb was preloaded using link preload but not used within a few seconds from the window's"
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://white-desert.com/_next/static/chunks/3b203ac4282c520a.css?dpl=dpl_rWLcjKm1yZqUA3Dxy3D6dVfPSfhb was preloaded using link preload but not used within a few seconds from the window's"
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://white-desert.com/_next/static/chunks/2a57671e00b6ea60.css?dpl=dpl_rWLcjKm1yZqUA3Dxy3D6dVfPSfhb was preloaded using link preload but not used within a few seconds from the window's"
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://white-desert.com/_next/static/chunks/5b5fd378b1346716.css?dpl=dpl_rWLcjKm1yZqUA3Dxy3D6dVfPSfhb was preloaded using link preload but not used within a few seconds from the window's"
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=17&frm=0&apvc=1&ae=g&en=page_view&dl=https%3A%2F%2Fwhite-desert.com%2F&scrsrc=www.googletagmanager.com&rnd=1858926755.1791534131&navt=n&npa=1&ep.ads_data_redaction=0&gtm=45He6a72h1v9237221384za200zd9237221384xeaxf1&gcs=G101&gcd=13p3t3p3p5l1&dma_cps=-&dma=0&tag_exp=115616985~115938465~115938468~118897920~118897930~120385423~120469145~120469153~121046263~121046271~121246026~121246034&tft=1791534131459&tfd=578&fmt=8",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=2&frm=0&apvc=0&ae=g&tid=AW-17269461649&dl=https%3A%2F%2Fwhite-desert.com%2F&scrsrc=www.googletagmanager.com&rnd=1858926755.1791534131&navt=n&npa=1&_tu=CA&gtm=45be6a72h1v9223546708z89237221384za20gzb9237221384zd9237221384xeaxf1&gcs=G101&gcd=13p3t3V3p5l1&dma_cps=-&dma=0&tag_exp=115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034&tft=1791534131765&tfd=885&tids=AW-17269461649&fmt=8",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=2&frm=0&apvc=0&tid=AW-17269461649&en=page_view&dl=https%3A%2F%2Fwhite-desert.com%2F&scrsrc=www.googletagmanager.com&rnd=1858926755.1791534131&navt=n&npa=1&gtm=45be6a72h1v9223546708za20ozb9237221384zd9237221384xecxf1&gcs=G101&gcd=13p3t3V3p5l1&dma_cps=-&dma=0&tag_exp=115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034&tft=1791534131763&tfd=883&tids=AW-17269461649&fmt=8",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=9&frm=0&apvc=0&tid=DC-16612707&en=page_view&dl=https%3A%2F%2Fwhite-desert.com%2F&scrsrc=www.googletagmanager.com&rnd=1858926755.1791534131&navt=n&npa=1&ep.user_data_mode=a&gtm=45fe6a72h1v9247467003za20ozb9237221384zd9237221384xecxf1&gcs=G101&gcd=13p3t3V3p5l1&dma_cps=-&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034&tft=1791534131824&tfd=943&tids=DC-16612707&fmt=8",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://customer-0f1muz5hahtwutl3.cloudflarestream.com/6cbe45de8a02fd4b5b862fdec4a2b1ad/dl/default.mp4?p=eyJ0eXBlIjoiZG93bmxvYWRzIiwidmlkZW9JRCI6IjZjYmU0NWRlOGEwMmZkNGI1Yjg2MmZkZWM0YTJiMWFkIiwib3duZXJJRCI6ODg5MTE3OTUsImNyZWF0b3JJRCI6IiIsImRvd25sb2FkVHlwZSI6ImRlZmF1bHQiLCJzdG9yYWdlUHJvdmlkZXIiOjQsImR1cmF0aW9uU2VjcyI6MTcuNSwicmVzb2x1dGlvbiI6IjEwODAiLCJ0b3RhbEJ5dGVTaXplIjo0NDIyNzY5fQ&s=c0RmOw_Dr8KZC3fClnUxw5oiwpNSHWLDpcOmEMOVf8Oewo01DMOdDsOWwqtS",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-S90YQ7PDN8&gtm=45je6a72h1v9168695164z89237221384za20gzb9237221384zd9237221384xf1&_p=1791534131374&gcs=G101&gcd=13p3t3V3p5l1&npa=1&dma_cps=-&dma=0&ecid=1456997215&_eu=AAAAAGAC&_prs=ok&are=1&cid=1985761753.1791534132&ec_mode=a&frm=0&pscdl=denied&rcb=5&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&gaf=2&_s=1&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034&dp=%2F&dl=https%3A%2F%2Fwhite-desert.com%2F&sid=1791534131&sct=1&seg=0&dt=Luxury%20Adventures%20in%20Antarctica%20%7C%20White%20Desert&en=page_view&_fv=1&_nsi=1&_ss=2&tfd=1073",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/measurement/conversion?random=1791534131895&cv=11&tid=G-S90YQ7PDN8&fst=1791534131895&fmt=8&en=session_start&gtm=45je6a72h1v9168695164z89237221384za20gzb9237221384zd9237221384xecxf1&gcs=G101&gcd=13p3t3V3p5l1&dma_cps=-&dma=0&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034&u_w=1440&u_h=900&url=https%3A%2F%2Fwhite-desert.com%2F&gacid=1985761753.1791534132&hn=www.googleadservices.com&frm=0&tiba=Luxury%20Adventures%20in%20Antarctica%20%7C%20White%20Desert&npa=1&pscdl=denied&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uamb=0&uam=&uap=Windows&uapv=&uaw=0&rcb=5",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 6,
+      "workers": 1
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 7787,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 1004,
+      "typography": {
+        "families": [
+          [
+            "Inter Tight",
+            87
+          ],
+          [
+            "Cardinal Classic Long",
+            31
+          ],
+          [
+            "Oswald",
+            13
+          ]
+        ],
+        "weights": [
+          [
+            "500",
+            98
+          ],
+          [
+            "400",
+            22
+          ],
+          [
+            "600",
+            11
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            24
+          ]
+        ],
+        "sizeMin": 10,
+        "sizeMedian": 14,
+        "sizeMax": 200,
+        "sizeMaxVw": 51.3,
+        "scaleRatio": 14.3,
+        "letterSpacingMean": 0.138,
+        "loadedFonts": [
+          {
+            "family": "Inter Tight",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "Cardinal Classic Long",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Cardinal Classic Long",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "Cardinal Classic Long",
+            "weight": "500",
+            "style": "italic"
+          },
+          {
+            "family": "Oswald",
+            "weight": "normal",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 131
+      },
+      "color": {
+        "background": "rgb(255, 255, 255)",
+        "backgroundLuminance": 1,
+        "backgrounds": [
+          [
+            "rgb(255, 255, 255)",
+            1565
+          ],
+          [
+            "rgb(9, 11, 16)",
+            1326
+          ],
+          [
+            "rgb(233, 231, 225)",
+            928
+          ],
+          [
+            "rgba(0, 0, 0, 0.2)",
+            764
+          ],
+          [
+            "rgba(0, 0, 0, 0.1)",
+            698
+          ],
+          [
+            "rgba(31, 42, 68, 0.05)",
+            459
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(255, 255, 255)",
+            310
+          ],
+          [
+            "rgb(31, 42, 68)",
+            160
+          ],
+          [
+            "rgb(83, 83, 83)",
+            93
+          ],
+          [
+            "rgba(0, 0, 0, 0)",
+            27
+          ]
+        ],
+        "meanSaturation": 0.17,
+        "rootVars": {
+          "--bg": "#fff",
+          "--surface": "#12141a",
+          "--text": "var(--wd_dark-blue)",
+          "--quote-accent": "var(--WD_Dark-Blue,#1f2a44)",
+          "--muted": "#a8acb3",
+          "--primary": "#6aa5ff",
+          "--primary-contrast": "#0b0c0f",
+          "--border": "#1f2330",
+          "--white": "#fff",
+          "--black": "#000",
+          "--black-faded": "rgba(0,0,0,.5)",
+          "--dark-bg": "#090b10",
+          "--background": "var(--bg)",
+          "--foreground": "var(--text)",
+          "--wd_dark-blue": "#1f2a44",
+          "--wd_deep-blue": "#0e1118",
+          "--wd-grey": "#323640",
+          "--wd_dark-blue-faded": "rgba(31,42,68,.2)",
+          "--wd_blue-faded": "rgba(31,42,68,.5)",
+          "--wd_ash-blue": "#2c374b",
+          "--wd_orange": "#ff7e15",
+          "--wd_red": "#ff1515",
+          "--wd_white": "#fff",
+          "--wd_black": "#000",
+          "--wd_light-charcoal": "#535353",
+          "--wd_light-charcoal-faded": "#a4a29c",
+          "--wd_mushroom": "#e9e7e1",
+          "--wd_light-grey": "#f3f1ec",
+          "--wd_beige": "#dcd8cc",
+          "--wd_turqoise": "#6af0ff",
+          "--space-1": ".35em",
+          "--space-2": ".75em",
+          "--space-3": "1.1em",
+          "--space-4": "1.5em",
+          "--space-5": "2em",
+          "--space-6": "2.75em",
+          "--space-8": "4em",
+          "--space-10": "5.5em",
+          "--space-12": "7em",
+          "--size-03125": ".3125em"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 7,
+        "sticky": 5,
+        "fixed": 6,
+        "grid": 14,
+        "flex": 219,
+        "absolute": 154,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 19296,
+        "pages": 22.9,
+        "spacing": [
+          [
+            18,
+            27
+          ],
+          [
+            10,
+            25
+          ],
+          [
+            20,
+            24
+          ],
+          [
+            24,
+            18
+          ],
+          [
+            5,
+            14
+          ],
+          [
+            12,
+            14
+          ],
+          [
+            30,
+            14
+          ],
+          [
+            8,
+            10
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 5,
+        "animationKinds": [
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 3,
+        "animationDurations": [
+          1400,
+          1400,
+          2000,
+          2000,
+          2000
+        ],
+        "easings": [
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            300,
+            115
+          ],
+          [
+            600,
+            5
+          ],
+          [
+            450,
+            4
+          ],
+          [
+            400,
+            1
+          ],
+          [
+            1000,
+            1
+          ]
+        ],
+        "keyframes": [
+          "page-exit",
+          "page-enter",
+          "reveal-opacity",
+          "reveal-transform",
+          "fadeIn",
+          "pulsed"
+        ],
+        "viewTransitionCss": true,
+        "scrollTimelineCss": true
+      },
+      "hiddenElements": 5,
+      "media": {
+        "canvases": [],
+        "videos": [
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://customer-0f1muz5hahtwutl3.cloudflarestream.com/6cbe45de8a02fd4b5b862fdec4a2b1ad/downloads/default.mp4"
+          }
+        ],
+        "svg": 56,
+        "images": 29,
+        "iframes": 1,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "2d": 1,
+          "webgl": 1
+        },
+        "raf": 866,
+        "io": 1,
+        "ro": 1,
+        "mo": 9,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Luxury Adventures in Antarctica | White Desert",
+      "lang": "en",
+      "description": "White Desert is the world’s leading luxury Antarctic expedition company, offering once-in-a-lifetime journeys to the South Pole and Emperor Penguins"
+    },
+    "featuresBeforeScroll": {
+      "elements": 1004,
+      "canvases": 0,
+      "animations": 6,
+      "hidden": 3
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 22850736,
+        "layoutCount": 529,
+        "recalcStyleCount": 1061,
+        "scriptDuration": 0.807637,
+        "taskDuration": 1.812275,
+        "nodes": 4205
+      },
+      "timing": {
+        "domContentLoaded": 195,
+        "load": 1115,
+        "first-paint": 224,
+        "first-contentful-paint": 224
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "reveal-opacity",
+        "duration": 1400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "reveal-transform",
+        "duration": 1400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "pulsed",
+        "duration": 2000,
+        "delay": 600.0000000000001,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "pulsed",
+        "duration": 2000,
+        "delay": 200,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "pulsed",
+        "duration": 2000,
+        "delay": 400,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 1, 0.89, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 1, 0.89, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 1, 0.89, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 1, 0.89, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 1, 0.89, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 1, 0.89, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 1, 0.89, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 1, 0.89, 1)"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0A02000643D0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=3&frm=0&apvc=1&ae=g&en=page_view&dl=https%3A%2F%2Fwhite-desert.com%2F&scrsrc=www.googletagmanager.com&rnd=1844851130.1791534152&navt=n&npa=1&ep.ads_data_redaction=0&gtm=45He6a72v9237221384za200zd9237221384xeaxf1&gcs=G101&gcd=13p3t3p3p5l1&dma_cps=-&dma=0&tag_exp=115938466~115938468~118012007~118897920~118897930~120385422~120469145~120469153~121046263~121046271~121246026~121246034&tft=1791534152479&tfd=443&fmt=8",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://customer-0f1muz5hahtwutl3.cloudflarestream.com/6cbe45de8a02fd4b5b862fdec4a2b1ad/dl/default.mp4?p=eyJ0eXBlIjoiZG93bmxvYWRzIiwidmlkZW9JRCI6IjZjYmU0NWRlOGEwMmZkNGI1Yjg2MmZkZWM0YTJiMWFkIiwib3duZXJJRCI6ODg5MTE3OTUsImNyZWF0b3JJRCI6IiIsImRvd25sb2FkVHlwZSI6ImRlZmF1bHQiLCJzdG9yYWdlUHJvdmlkZXIiOjQsImR1cmF0aW9uU2VjcyI6MTcuNSwicmVzb2x1dGlvbiI6IjEwODAiLCJ0b3RhbEJ5dGVTaXplIjo0NDIyNzY5fQ&s=c0RmOw_Dr8KZC3fClnUxw5oiwpNSHWLDpcOmEMOVf8Oewo01DMOdDsOWwqtS",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=5&frm=0&apvc=0&tid=AW-17269461649&en=page_view&dl=https%3A%2F%2Fwhite-desert.com%2F&scrsrc=www.googletagmanager.com&rnd=1844851130.1791534152&navt=n&npa=1&gtm=45be6a72v9223546708za20ozb9237221384zd9237221384xecxf1&gcs=G101&gcd=13p3t3V3p5l1&dma_cps=-&dma=0&tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034&tft=1791534152734&tfd=698&tids=AW-17269461649&fmt=8",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=5&frm=0&apvc=0&ae=g&tid=AW-17269461649&dl=https%3A%2F%2Fwhite-desert.com%2F&scrsrc=www.googletagmanager.com&rnd=1844851130.1791534152&navt=n&npa=1&_tu=CA&gtm=45be6a72v9223546708z89237221384za20gzb9237221384zd9237221384xeaxf1&gcs=G101&gcd=13p3t3V3p5l1&dma_cps=-&dma=0&tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034&tft=1791534152736&tfd=700&tids=AW-17269461649&fmt=8",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=1&frm=0&apvc=0&tid=DC-16612707&en=page_view&dl=https%3A%2F%2Fwhite-desert.com%2F&scrsrc=www.googletagmanager.com&rnd=1844851130.1791534152&navt=n&npa=1&ep.user_data_mode=a&gtm=45fe6a72v9247467003za20ozb9237221384zd9237221384xecxf1&gcs=G101&gcd=13p3t3V3p5l1&dma_cps=-&dma=0&tag_exp=115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034&tft=1791534152779&tfd=743&tids=DC-16612707&fmt=8",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-S90YQ7PDN8&gtm=45je6a72v9168695164z89237221384za20gzb9237221384zd9237221384xf1&_p=1791534152409&gcs=G101&gcd=13p3t3V3p5l1&npa=1&dma_cps=-&dma=0&ecid=1443633901&_eu=AAAAAGAC&_prs=ok&are=1&cid=620172649.1791534153&ec_mode=a&frm=0&pscdl=denied&rcb=10&sr=390x844&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=1&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&gaf=2&_s=1&tag_exp=115616985~115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034&dp=%2F&dl=https%3A%2F%2Fwhite-desert.com%2F&sid=1791534152&sct=1&seg=0&dt=Luxury%20Adventures%20in%20Antarctica%20%7C%20White%20Desert&en=page_view&_fv=1&_nsi=1&_ss=2&tfd=855",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://pagead2.googlesyndication.com/measurement/conversion?random=1791534152831&cv=11&tid=G-S90YQ7PDN8&fst=1791534152831&fmt=8&en=session_start&gtm=45je6a72v9168695164z89237221384za20gzb9237221384zd9237221384xecxf1&gcs=G101&gcd=13p3t3V3p5l1&dma_cps=-&dma=0&tag_exp=115616985~115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034&u_w=390&u_h=844&url=https%3A%2F%2Fwhite-desert.com%2F&gacid=620172649.1791534153&hn=www.googleadservices.com&frm=0&tiba=Luxury%20Adventures%20in%20Antarctica%20%7C%20White%20Desert&npa=1&pscdl=denied&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uamb=1&uam=&uap=Windows&uapv=&uaw=0&rcb=10",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://connect.facebook.net//log/error?p=pixel&sl=0&v=2.9.415&e=Duplicate%20Pixel%20ID%3A%20878941760836673.&ue=1&rs=stable&rqm=FGET",
+        "error": "net::ERR_BLOCKED_BY_ORB"
+      }
+    ],
+    "targets": {
+      "frames": 2,
+      "workers": 0
+    }
+  }
+}

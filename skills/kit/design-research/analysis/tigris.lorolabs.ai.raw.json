@@ -1,0 +1,1249 @@
+{
+  "url": "https://tigris.lorolabs.ai/",
+  "at": "2026-10-09T11:25:56.145Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 10462,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 343,
+      "typography": {
+        "families": [
+          [
+            "Space Grotesk",
+            56
+          ],
+          [
+            "Bodoni Moda",
+            46
+          ]
+        ],
+        "weights": [
+          [
+            "300",
+            54
+          ],
+          [
+            "500",
+            35
+          ],
+          [
+            "600",
+            10
+          ],
+          [
+            "400",
+            1
+          ],
+          [
+            "700",
+            1
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            31
+          ]
+        ],
+        "sizeMin": 9.6,
+        "sizeMedian": 12.8,
+        "sizeMax": 227.52,
+        "sizeMaxVw": 15.8,
+        "scaleRatio": 17.8,
+        "letterSpacingMean": 0.219,
+        "loadedFonts": [
+          {
+            "family": "Bodoni Moda",
+            "weight": "400 900",
+            "style": "italic"
+          },
+          {
+            "family": "Bodoni Moda",
+            "weight": "400 900",
+            "style": "normal"
+          },
+          {
+            "family": "Space Grotesk",
+            "weight": "300 700",
+            "style": "normal"
+          }
+        ],
+        "variableFont": true,
+        "textElements": 102
+      },
+      "color": {
+        "background": "rgb(32, 6, 14)",
+        "backgroundLuminance": 0.0046903182554350695,
+        "backgrounds": [
+          [
+            "rgb(23, 4, 11)",
+            5184
+          ],
+          [
+            "rgb(32, 6, 14)",
+            4587
+          ],
+          [
+            "rgb(5, 4, 5)",
+            3629
+          ],
+          [
+            "rgb(36, 6, 14)",
+            2851
+          ],
+          [
+            "rgba(32, 6, 16, 0.8)",
+            12
+          ],
+          [
+            "rgba(32, 6, 16, 0.733)",
+            5
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(245, 233, 214)",
+            148
+          ],
+          [
+            "rgb(242, 211, 138)",
+            21
+          ],
+          [
+            "rgb(201, 162, 74)",
+            14
+          ],
+          [
+            "rgb(74, 14, 26)",
+            7
+          ],
+          [
+            "rgb(230, 200, 121)",
+            4
+          ]
+        ],
+        "meanSaturation": 0.72,
+        "rootVars": {
+          "--burgundy": "#4a0e1a",
+          "--oxblood": "#24060e",
+          "--void": "#120309",
+          "--gold": "#c9a24a",
+          "--gold-hi": "#f2d38a",
+          "--ruby": "#9b1b30",
+          "--cream": "#f5e9d6",
+          "--serif": "\"Bodoni Moda\", \"Didot\", serif",
+          "--grot": "\"Space Grotesk\", system-ui, sans-serif"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 16,
+        "sticky": 6,
+        "fixed": 13,
+        "grid": 12,
+        "flex": 29,
+        "absolute": 32,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 18719,
+        "pages": 20.8,
+        "spacing": [
+          [
+            16,
+            24
+          ],
+          [
+            7,
+            21
+          ],
+          [
+            11,
+            10
+          ],
+          [
+            32,
+            7
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            13,
+            6
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            14,
+            5
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 1,
+        "animationKinds": [
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 1,
+        "animationDurations": [
+          2600
+        ],
+        "easings": [
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            500,
+            6
+          ],
+          [
+            600,
+            6
+          ],
+          [
+            800,
+            6
+          ],
+          [
+            400,
+            3
+          ],
+          [
+            350,
+            3
+          ]
+        ],
+        "keyframes": [
+          "grain-shift",
+          "hint-pulse"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 14,
+      "media": {
+        "canvases": [
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0
+          }
+        ],
+        "videos": [
+          {
+            "autoplay": false,
+            "loop": false,
+            "muted": false,
+            "src": ""
+          }
+        ],
+        "svg": 0,
+        "images": 23,
+        "iframes": 0,
+        "customCursor": true
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 1,
+          "2d": 1
+        },
+        "raf": 882,
+        "io": 0,
+        "ro": 3,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "TIGRIS · Instinct, in Its Rarest Form",
+      "lang": "en",
+      "description": "Maison Tigris. Sculptural high jewelry in gold, rubies and diamonds. Discover the collection and explore a private viewing."
+    },
+    "featuresBeforeScroll": {
+      "elements": 317,
+      "canvases": 2,
+      "animations": 1,
+      "hidden": 7
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 6,
+      "changed": 0
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 4469188,
+        "layoutCount": 160,
+        "recalcStyleCount": 1339,
+        "scriptDuration": 0.486545,
+        "taskDuration": 1.523826,
+        "nodes": 1410
+      },
+      "timing": {
+        "domContentLoaded": 91,
+        "load": 138,
+        "first-paint": 160,
+        "first-contentful-paint": 160
+      }
+    },
+    "network": [
+      {
+        "url": "https://tigris.lorolabs.ai/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 6679
+      },
+      {
+        "url": "https://tigris.lorolabs.ai/fonts/bodoni-moda-latin-normal.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 46466
+      },
+      {
+        "url": "https://tigris.lorolabs.ai/fonts/space-grotesk-latin-normal.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 22482
+      },
+      {
+        "url": "https://tigris.lorolabs.ai/assets/index-D00L6L2j.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 6100
+      },
+      {
+        "url": "https://tigris.lorolabs.ai/assets/index-D_zTTBaG.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 8865
+      },
+      {
+        "url": "https://tigris.lorolabs.ai/assets/tigris-hunt-editorial.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 173433
+      },
+      {
+        "url": "https://tigris.lorolabs.ai/assets/main-CiCFMCFH.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 213999
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='28' viewBox='0 0 24 28'%3E%3Cpath d='M3 2v20l5-5 4 9 4-2-4-8h8Z' fill='%23e4bf72' stroke='%232a0812' stroke-width='1.4' stroke-linejoin='round'/%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://tigris.lorolabs.ai/fonts/bodoni-moda-latin-italic.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 53820
+      },
+      {
+        "url": "https://tigris.lorolabs.ai/assets/collection-v2/stripe-1.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 108886
+      },
+      {
+        "url": "https://tigris.lorolabs.ai/assets/collection-v2/prowl.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 160357
+      },
+      {
+        "url": "https://tigris.lorolabs.ai/assets/tigris-atelier-hands.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 78080
+      },
+      {
+        "url": "https://tigris.lorolabs.ai/assets/jewelryInterludes-pCJYBBF0.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 11329
+      },
+      {
+        "url": "https://tigris.lorolabs.ai/assets/jewelryInterludes-BekgtIv-.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1081
+      },
+      {
+        "url": "https://tigris.lorolabs.ai/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://tigris.lorolabs.ai/assets/collection-v2/stripe-1.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other"
+      },
+      {
+        "url": "https://tigris.lorolabs.ai/assets/collection-v2/stripe-2.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other"
+      },
+      {
+        "url": "https://tigris.lorolabs.ai/fonts/bodoni-moda-latin-normal.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://tigris.lorolabs.ai/fonts/space-grotesk-latin-normal.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://tigris.lorolabs.ai/assets/index-D00L6L2j.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://tigris.lorolabs.ai/assets/index-D_zTTBaG.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://tigris.lorolabs.ai/assets/tigris-hunt-editorial.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://tigris.lorolabs.ai/assets/main-CiCFMCFH.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='28' viewBox='0 0 24 28'%3E%3Cpath d='M3 2v20l5-5 4 9 4-2-4-8h8Z' fill='%23e4bf72' stroke='%232a0812' stroke-width='1.4' stroke-linejoin='round'/%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://tigris.lorolabs.ai/fonts/bodoni-moda-latin-italic.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://tigris.lorolabs.ai/assets/collection-v2/stripe-1.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://tigris.lorolabs.ai/assets/collection-v2/prowl.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://tigris.lorolabs.ai/assets/tigris-atelier-hands.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://tigris.lorolabs.ai/assets/jewelryInterludes-pCJYBBF0.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://tigris.lorolabs.ai/assets/jewelryInterludes-BekgtIv-.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://tigris.lorolabs.ai/assets/collection-v2/stripe-2.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://tigris.lorolabs.ai/assets/tigris-tiger-three-quarter.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://tigris.lorolabs.ai/assets/tiger-side.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://tigris.lorolabs.ai/assets/collection-v2/eye.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://tigris.lorolabs.ai/assets/collection-v2/claw.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://tigris.lorolabs.ai/assets/collection-v2/fang.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "hint-pulse",
+        "duration": 2600,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "hint-pulse",
+        "duration": 2600,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 450,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.65, 0, 0.35, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 450,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.65, 0, 0.35, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 450,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.65, 0, 0.35, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 450,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.65, 0, 0.35, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 450,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.65, 0, 0.35, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 450,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.65, 0, 0.35, 1)"
+      }
+    ],
+    "console": [],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://tigris.lorolabs.ai/assets/collection-v2/stripe-2.webp",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://tigris.lorolabs.ai/assets/collection-v2/stripe-1.webp",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 6933,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 343,
+      "typography": {
+        "families": [
+          [
+            "Space Grotesk",
+            45
+          ],
+          [
+            "Bodoni Moda",
+            43
+          ]
+        ],
+        "weights": [
+          [
+            "300",
+            43
+          ],
+          [
+            "500",
+            34
+          ],
+          [
+            "600",
+            8
+          ],
+          [
+            "400",
+            1
+          ],
+          [
+            "700",
+            1
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            25
+          ]
+        ],
+        "sizeMin": 8.32,
+        "sizeMedian": 13.6,
+        "sizeMax": 81.9,
+        "sizeMaxVw": 21,
+        "scaleRatio": 6,
+        "letterSpacingMean": 0.194,
+        "loadedFonts": [
+          {
+            "family": "Bodoni Moda",
+            "weight": "400 900",
+            "style": "italic"
+          },
+          {
+            "family": "Bodoni Moda",
+            "weight": "400 900",
+            "style": "normal"
+          },
+          {
+            "family": "Space Grotesk",
+            "weight": "300 700",
+            "style": "normal"
+          }
+        ],
+        "variableFont": true,
+        "textElements": 88
+      },
+      "color": {
+        "background": "rgb(32, 6, 14)",
+        "backgroundLuminance": 0.0046903182554350695,
+        "backgrounds": [
+          [
+            "rgb(23, 4, 11)",
+            1316
+          ],
+          [
+            "rgb(32, 6, 14)",
+            1050
+          ],
+          [
+            "rgb(5, 4, 5)",
+            922
+          ],
+          [
+            "rgb(36, 6, 14)",
+            724
+          ],
+          [
+            "rgba(32, 6, 16, 0.8)",
+            12
+          ],
+          [
+            "rgba(32, 6, 16, 0.733)",
+            5
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(245, 233, 214)",
+            133
+          ],
+          [
+            "rgb(242, 211, 138)",
+            17
+          ],
+          [
+            "rgb(201, 162, 74)",
+            13
+          ],
+          [
+            "rgb(74, 14, 26)",
+            7
+          ],
+          [
+            "rgb(230, 200, 121)",
+            4
+          ]
+        ],
+        "meanSaturation": 0.72,
+        "rootVars": {
+          "--burgundy": "#4a0e1a",
+          "--oxblood": "#24060e",
+          "--void": "#120309",
+          "--gold": "#c9a24a",
+          "--gold-hi": "#f2d38a",
+          "--ruby": "#9b1b30",
+          "--cream": "#f5e9d6",
+          "--serif": "\"Bodoni Moda\", \"Didot\", serif",
+          "--grot": "\"Space Grotesk\", system-ui, sans-serif"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 16,
+        "sticky": 6,
+        "fixed": 13,
+        "grid": 12,
+        "flex": 29,
+        "absolute": 32,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 17087,
+        "pages": 20.2,
+        "spacing": [
+          [
+            16,
+            25
+          ],
+          [
+            7,
+            21
+          ],
+          [
+            11,
+            10
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            13,
+            7
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            32,
+            6
+          ],
+          [
+            14,
+            5
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 1,
+        "animationKinds": [
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 1,
+        "animationDurations": [
+          2600
+        ],
+        "easings": [
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            500,
+            6
+          ],
+          [
+            600,
+            6
+          ],
+          [
+            800,
+            6
+          ],
+          [
+            400,
+            3
+          ],
+          [
+            350,
+            3
+          ]
+        ],
+        "keyframes": [
+          "grain-shift",
+          "hint-pulse"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 19,
+      "media": {
+        "canvases": [
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0
+          }
+        ],
+        "videos": [
+          {
+            "autoplay": false,
+            "loop": false,
+            "muted": false,
+            "src": ""
+          }
+        ],
+        "svg": 0,
+        "images": 23,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 1,
+          "2d": 1
+        },
+        "raf": 888,
+        "io": 0,
+        "ro": 3,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "TIGRIS · Instinct, in Its Rarest Form",
+      "lang": "en",
+      "description": "Maison Tigris. Sculptural high jewelry in gold, rubies and diamonds. Discover the collection and explore a private viewing."
+    },
+    "featuresBeforeScroll": {
+      "elements": 317,
+      "canvases": 2,
+      "animations": 1,
+      "hidden": 7
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 4655156,
+        "layoutCount": 161,
+        "recalcStyleCount": 1053,
+        "scriptDuration": 0.26692,
+        "taskDuration": 0.831259,
+        "nodes": 1279
+      },
+      "timing": {
+        "domContentLoaded": 68,
+        "load": 106,
+        "first-paint": 104,
+        "first-contentful-paint": 104
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "hint-pulse",
+        "duration": 2600,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "hint-pulse",
+        "duration": 2600,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      }
+    ],
+    "console": [],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://tigris.lorolabs.ai/assets/portrait-v1/prowl-941.webp",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  }
+}

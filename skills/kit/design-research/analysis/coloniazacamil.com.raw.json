@@ -1,0 +1,1671 @@
+{
+  "url": "https://coloniazacamil.com/",
+  "at": "2026-10-09T07:59:23.657Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 18085,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 266,
+      "typography": {
+        "families": [
+          [
+            "Roboto Mono",
+            8
+          ],
+          [
+            "Heathergreen",
+            3
+          ],
+          [
+            "-apple-system",
+            2
+          ],
+          [
+            "Reckless Neue",
+            1
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            9
+          ],
+          [
+            "700",
+            5
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            10
+          ]
+        ],
+        "sizeMin": 10,
+        "sizeMedian": 16,
+        "sizeMax": 187.2,
+        "sizeMaxVw": 13,
+        "scaleRatio": 11.7,
+        "letterSpacingMean": -0.009,
+        "loadedFonts": [
+          {
+            "family": "Roboto Mono",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Reckless Neue",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Heathergreen",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Roboto Mono",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Reckless Neue",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Heathergreen",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Roboto Mono",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Reckless Neue",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Heathergreen",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Roboto Mono",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Reckless Neue",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Heathergreen",
+            "weight": "400",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 14
+      },
+      "color": {
+        "background": "rgb(235, 230, 224)",
+        "backgroundLuminance": 0.7963761466570047,
+        "backgrounds": [
+          [
+            "rgb(235, 230, 224)",
+            1297
+          ],
+          [
+            "rgb(0, 0, 0)",
+            848
+          ],
+          [
+            "rgb(255, 255, 255)",
+            15
+          ],
+          [
+            "rgb(180, 142, 70)",
+            0
+          ],
+          [
+            "rgb(141, 124, 171)",
+            0
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(255, 255, 255)",
+            100
+          ],
+          [
+            "rgb(0, 0, 0)",
+            11
+          ],
+          [
+            "rgba(0, 0, 0, 0.8)",
+            8
+          ],
+          [
+            "rgb(235, 230, 224)",
+            5
+          ],
+          [
+            "rgb(89, 89, 89)",
+            4
+          ]
+        ],
+        "meanSaturation": 0.19,
+        "rootVars": {}
+      },
+      "layout": {
+        "fullscreenSections": 2,
+        "sticky": 0,
+        "fixed": 3,
+        "grid": 0,
+        "flex": 48,
+        "absolute": 45,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 952,
+        "pages": 1.1,
+        "spacing": [
+          [
+            19,
+            27
+          ],
+          [
+            66,
+            3
+          ],
+          [
+            8,
+            3
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            44,
+            1
+          ],
+          [
+            49,
+            1
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 2,
+        "animationKinds": [
+          "CSSTransition"
+        ],
+        "infiniteAnimations": 0,
+        "animationDurations": [
+          1300,
+          1300
+        ],
+        "easings": [
+          "cubic-bezier(0.645, 0.045, 0.355, 1)"
+        ],
+        "transitionDurationsMs": [
+          [
+            800,
+            57
+          ],
+          [
+            400,
+            42
+          ],
+          [
+            600,
+            4
+          ],
+          [
+            500,
+            3
+          ],
+          [
+            1300,
+            2
+          ]
+        ],
+        "keyframes": [
+          "slide-b1596730",
+          "translate-2fd2f567",
+          "scale-2fd2f567",
+          "translateY-2fd2f567",
+          "scaleScroll-2fd2f567",
+          "scalePinch-2fd2f567",
+          "pinchTranslate-2fd2f567",
+          "marquee-4b170499"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 31,
+      "media": {
+        "canvases": [
+          {
+            "w": 1440,
+            "h": 900,
+            "area": 1
+          }
+        ],
+        "videos": [
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          }
+        ],
+        "svg": 36,
+        "images": 2,
+        "iframes": 1,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "2d": 1,
+          "webgl2": 1
+        },
+        "raf": 281,
+        "io": 0,
+        "ro": 1,
+        "mo": 2,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": true,
+        "reactRoot": false,
+        "vue": true,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Colonia Zacamil",
+      "lang": "",
+      "description": "Colonia Zacamil"
+    },
+    "featuresBeforeScroll": {
+      "elements": 266,
+      "canvases": 1,
+      "animations": 3,
+      "hidden": 31
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 5,
+      "changed": 0
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 13903460,
+        "layoutCount": 35,
+        "recalcStyleCount": 226,
+        "scriptDuration": 0.149258,
+        "taskDuration": 8.521799,
+        "nodes": 684
+      },
+      "timing": {
+        "domContentLoaded": 268,
+        "load": 764,
+        "first-paint": 244,
+        "first-contentful-paint": 492
+      }
+    },
+    "network": [
+      {
+        "url": "https://coloniazacamil.com/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 19474
+      },
+      {
+        "url": "https://embeds.iubenda.com/widgets/4037b39e-9661-4616-8093-abccf645cd70.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 18711
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-Z1JPMLC026",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 180630
+      },
+      {
+        "url": "https://coloniazacamil.com/_nuxt/entry.t46wWHdU.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 6165
+      },
+      {
+        "url": "https://coloniazacamil.com/_payload.json?d720fbba-8990-457a-988c-5333076a34f4",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 189
+      },
+      {
+        "url": "https://coloniazacamil.com/_nuxt/DkhZ0TVB.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 288837
+      },
+      {
+        "url": "https://coloniazacamil.com/_nuxt/BaMmXLxA.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 16730
+      },
+      {
+        "url": "https://coloniazacamil.com/_nuxt/BbSmmlkU.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 372
+      },
+      {
+        "url": "https://coloniazacamil.com/_nuxt/builds/meta/d720fbba-8990-457a-988c-5333076a34f4.json",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 424
+      },
+      {
+        "url": "https://cdn.adoratorio.app/zacamil/images/mod/after.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 34621
+      },
+      {
+        "url": "https://cdn.adoratorio.app/zacamil/images/loader/background.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 348311
+      },
+      {
+        "url": "https://cdn.iubenda.com/cookie_solution/iubenda_cs/1.108.0/core-en-GB.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 115330
+      },
+      {
+        "url": "https://coloniazacamil.com/_nuxt/CwRh-2r3.js",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 3719
+      },
+      {
+        "url": "https://coloniazacamil.com/_nuxt/CmTz519-.js",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1647
+      },
+      {
+        "url": "https://coloniazacamil.com/_nuxt/RobotoMono-Regular.BpTYbtfY.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 40574
+      },
+      {
+        "url": "https://coloniazacamil.com/_nuxt/Heathergreen.B41LLI5X.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 50989
+      },
+      {
+        "url": "https://coloniazacamil.com/_nuxt/RecklessNeue-Regular.D-zoCqbF.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 30763
+      },
+      {
+        "url": "https://coloniazacamil.com/_nuxt/index.CXiwRY4M.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 11617
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-Z1JPMLC026",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg width='40' height='18' viewBox='0 0 40 18' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='0.5' y='0.5' width='39' height='17' rx='8.5' fill='white' stroke='%232569F6'/%3E%3Cpath d='M22.5 0H31C35.9706 0 40 4.02944 40 9C40 13.9706 35.9706 18 31 18H18L22.5 0Z' fill='%232569F6'/%3E%3Cpath d='M8 9.5L10.5 12L16.5 6' stroke='%232569F6' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M25.5 6L31.5 12' stroke='white' stroke-width='1.5' stroke-linecap='round'/%3E%3Cpath d='M31.5 6L25.5 12' stroke='white' stroke-width='1.5' stroke-linecap='round'/%3E%3C/svg%3E%0A",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://coloniazacamil.com/_nuxt/B66KSyrA.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 14551
+      },
+      {
+        "url": "https://coloniazacamil.com/audio/main.mp3",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 1053476
+      },
+      {
+        "url": "https://coloniazacamil.com/textures/noise-solid.png",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 104516
+      },
+      {
+        "url": "https://coloniazacamil.com/textures/Murales_1.webp",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 1028036
+      },
+      {
+        "url": "https://coloniazacamil.com/textures/Murales_2.webp",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 267284
+      },
+      {
+        "url": "https://coloniazacamil.com/textures/Murales_3.webp",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 73634
+      },
+      {
+        "url": "https://coloniazacamil.com/textures/Murales_4.webp",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 244517
+      },
+      {
+        "url": "https://coloniazacamil.com/textures/modes/before-day-buildings.webp",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 234078
+      },
+      {
+        "url": "https://coloniazacamil.com/textures/modes/before-day-road.webp",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 51676
+      },
+      {
+        "url": "https://coloniazacamil.com/textures/modes/before-day-terrain.webp",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 86139
+      },
+      {
+        "url": "https://coloniazacamil.com/textures/modes/black-mask.webp",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 358
+      },
+      {
+        "url": "https://coloniazacamil.com/textures/modes/building-mask.webp",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 72739
+      },
+      {
+        "url": "https://coloniazacamil.com/textures/modes/terrain-mask.webp",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 77811
+      },
+      {
+        "url": "https://coloniazacamil.com/textures/modes/before-road-mask.webp",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 23977
+      },
+      {
+        "url": "https://coloniazacamil.com/textures/modes/road-mask.webp",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 91450
+      },
+      {
+        "url": "https://coloniazacamil.com/textures/modes/car-mask.webp",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 32055
+      },
+      {
+        "url": "https://coloniazacamil.com/textures/modes/murals-building-mask.webp",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 39522
+      },
+      {
+        "url": "https://coloniazacamil.com/models/compressed/model.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "model/gltf-binary",
+        "fromCache": false,
+        "bytes": 1905713
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-Z1JPMLC026&gtm=45je6a72v9205122360za200zd9205122360xf1&_p=1791532737748&gcs=G111&gcd=13r3r3r3r5l1&npa=0&dma=0&gdid=dZTJkMz&_eu=AEAE&ae=a&are=1&cid=866967032.1791532738&frm=0&ngs=1&pscdl=noapi&rcb=10&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=1&tag_exp=115938466~115938468~118897920~118897930~119860442~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791532737&sct=1&seg=0&dl=https%3A%2F%2Fcoloniazacamil.com%2F&dt=Colonia%20Zacamil&_tu=CA&en=scroll&_fv=1&_nsi=1&_ss=1&epn.percent_scrolled=90&tfd=458",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false
+      },
+      {
+        "url": "blob:https://coloniazacamil.com/9a08c3a3-1b68-4f96-8d24-217526642740",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://coloniazacamil.com/5c77dba3-e55a-45eb-9c1f-34897532dcb4",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://coloniazacamil.com/f8a5ec1d-5dee-4d2c-8bd4-c9bd113af502",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://coloniazacamil.com/93674eec-0c4d-4cec-af7a-e956a02f3edf",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://coloniazacamil.com/2177e739-8da2-45ad-9075-148d2e54d578",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://coloniazacamil.com/9d7bd283-fa27-4723-8901-b3e8d02ab5ab",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://coloniazacamil.com/e7500dc9-6f20-4715-81e3-52b7ce42c10c",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://coloniazacamil.com/c3912020-3129-40b7-9265-5f1d4563b4eb",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://coloniazacamil.com/ec675658-e0c5-4f32-af65-cb9437f1e403",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://coloniazacamil.com/6ef01f97-edfd-4b1e-8bc3-caddd45a7442",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://coloniazacamil.com/abe0ecc4-bfd9-4457-958b-392609cfe673",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://coloniazacamil.com/521febdd-146e-43ae-96ce-5b0662d2f1f0",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/webp;base64,UklGRiIAAABXRUJQVlA4IBYAAAAwAQCdASoBAAEADsD+JaQAA3AAAAAA",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://coloniazacamil.com/419cc28b-6541-43fc-a457-297c1a6dcf09",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://coloniazacamil.com/fed9f6e0-6d0f-46d9-8cb8-f53a1c898432",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://coloniazacamil.com/084910f5-5312-4e26-95bd-aacb27f9c22e",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://coloniazacamil.com/27b31798-ec43-42b6-bbe6-cf5fd89a1752",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://coloniazacamil.com/2e811712-36a7-48ac-b693-038e0892c1ee",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://coloniazacamil.com/365c11cc-6b10-4c9b-a41e-006cbda293de",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://coloniazacamil.com/40257a0a-ece6-4e96-8be9-947c95db7102",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://coloniazacamil.com/9e9be5ab-7899-4fd6-84d9-c99f8bb00419",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://coloniazacamil.com/96f1b901-810e-4e3e-9922-898e60bf30fb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://coloniazacamil.com/1c3959d2-95a4-4f60-9a77-97cdc77d19c0",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://coloniazacamil.com/81c44530-1e10-4b39-b6ec-afac7a06190c",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://coloniazacamil.com/d8281ac4-3fdf-42af-8acc-84d9d03c3eb5",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://coloniazacamil.com/4ae81e37-3b5d-4423-a15c-067080c90a85",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://coloniazacamil.com/2eed744a-ecfa-4547-80fb-f3cea4e45ae7",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://coloniazacamil.com/bdede350-9edd-43e7-aad8-e3744ea2bbbc",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://coloniazacamil.com/5adb3364-142c-449b-8bd4-c49e92272229",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://coloniazacamil.com/347cd5ef-efe7-4f90-ba68-6a3ed211f1c1",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://coloniazacamil.com/cd8d994e-0b60-428a-8467-b290bc4aeafa",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://coloniazacamil.com/bc0f3e99-dae4-40d2-94bc-f0ab01cd7fb0",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://coloniazacamil.com/a04737b7-eecb-467f-a261-8141b7e891bd",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://coloniazacamil.com/4291815d-4687-41f0-a242-c7dbdc69aac6",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://coloniazacamil.com/dadcc817-38d5-44b7-b2fc-d74f236b59ee",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://coloniazacamil.com/bac3eb9e-b78f-4b56-ac2d-04aa71edd2fc",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://coloniazacamil.com/d8b1b2ef-ff30-414e-98d9-55e05fcd2a93",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-Z1JPMLC026&gtm=45je6a72v9205122360za208zd9205122360xf1&_p=1791532737748&gcs=G111&gcd=13r3r3r3r5l1&npa=0&dma=0&gdid=dZTJkMz&_eu=AAAAAAQ&are=1&cid=866967032.1791532738&frm=0&ngs=1&pscdl=noapi&rcb=10&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=2&tag_exp=115938466~115938468~118897920~118897930~119860442~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791532737&sct=1&seg=1&dl=https%3A%2F%2Fcoloniazacamil.com%2F&dt=Colonia%20Zacamil&_tu=CA&en=page_view&_ee=1&_et=5&tfd=8404",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "clip-path",
+        "duration": 1300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 133.33600000000524,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.55, 0.055, 0.675, 0.19)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0702000DC310000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x365400112c00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-Z1JPMLC026&gtm=45je6a72v9205122360za200zd9205122360xf1&_p=1791532737748&gcs=G111&gcd=13r3r3r3r5l1&npa=0&dma=0&gdid=dZTJkMz&_eu=AEAE&ae=a&are=1&cid=866967032.1791532738&frm=0&ngs=1&pscdl=noapi&rcb=10&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=1&tag_exp=115938466~115938468~118897920~118897930~119860442~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791532737&sct=1&seg=0&dl=https%3A%2F%2Fcoloniazacamil.com%2F&dt=Colonia%20Zacamil&_tu=CA&en=scroll&_fv=1&_nsi=1&_ss=1&epn.percent_scrolled=90&tfd=458",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-Z1JPMLC026&gtm=45je6a72v9205122360za208zd9205122360xf1&_p=1791532737748&gcs=G111&gcd=13r3r3r3r5l1&npa=0&dma=0&gdid=dZTJkMz&_eu=AAAAAAQ&are=1&cid=866967032.1791532738&frm=0&ngs=1&pscdl=noapi&rcb=10&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=2&tag_exp=115938466~115938468~118897920~118897930~119860442~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791532737&sct=1&seg=1&dl=https%3A%2F%2Fcoloniazacamil.com%2F&dt=Colonia%20Zacamil&_tu=CA&en=page_view&_ee=1&_et=5&tfd=8404",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 2,
+      "workers": 0
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 8222,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 266,
+      "typography": {
+        "families": [
+          [
+            "Roboto Mono",
+            8
+          ],
+          [
+            "Heathergreen",
+            3
+          ],
+          [
+            "-apple-system",
+            2
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            8
+          ],
+          [
+            "700",
+            5
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            10
+          ]
+        ],
+        "sizeMin": 9.9592,
+        "sizeMedian": 12,
+        "sizeMax": 200,
+        "sizeMaxVw": 51.3,
+        "scaleRatio": 16.7,
+        "letterSpacingMean": 0,
+        "loadedFonts": [
+          {
+            "family": "Roboto Mono",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Heathergreen",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Roboto Mono",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Heathergreen",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Roboto Mono",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Heathergreen",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Roboto Mono",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Heathergreen",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Roboto Mono",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Heathergreen",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Roboto Mono",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Heathergreen",
+            "weight": "400",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 13
+      },
+      "color": {
+        "background": "rgb(235, 230, 224)",
+        "backgroundLuminance": 0.7963761466570047,
+        "backgrounds": [
+          [
+            "rgb(235, 230, 224)",
+            330
+          ],
+          [
+            "rgb(0, 0, 0)",
+            229
+          ],
+          [
+            "rgb(255, 255, 255)",
+            18
+          ],
+          [
+            "rgb(180, 142, 70)",
+            0
+          ],
+          [
+            "rgb(141, 124, 171)",
+            0
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(255, 255, 255)",
+            97
+          ],
+          [
+            "rgb(0, 0, 0)",
+            10
+          ],
+          [
+            "rgba(0, 0, 0, 0.8)",
+            8
+          ],
+          [
+            "rgb(235, 230, 224)",
+            5
+          ],
+          [
+            "rgb(89, 89, 89)",
+            4
+          ]
+        ],
+        "meanSaturation": 0.19,
+        "rootVars": {}
+      },
+      "layout": {
+        "fullscreenSections": 2,
+        "sticky": 0,
+        "fixed": 3,
+        "grid": 0,
+        "flex": 47,
+        "absolute": 45,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 929,
+        "pages": 1.1,
+        "spacing": [
+          [
+            19,
+            27
+          ],
+          [
+            30,
+            3
+          ],
+          [
+            8,
+            3
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            35,
+            1
+          ],
+          [
+            17,
+            1
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 2,
+        "animationKinds": [
+          "CSSTransition"
+        ],
+        "infiniteAnimations": 0,
+        "animationDurations": [
+          1300,
+          1300
+        ],
+        "easings": [
+          "cubic-bezier(0.645, 0.045, 0.355, 1)"
+        ],
+        "transitionDurationsMs": [
+          [
+            800,
+            57
+          ],
+          [
+            400,
+            42
+          ],
+          [
+            600,
+            4
+          ],
+          [
+            500,
+            3
+          ],
+          [
+            1300,
+            2
+          ]
+        ],
+        "keyframes": [
+          "slide-b1596730",
+          "translate-2fd2f567",
+          "scale-2fd2f567",
+          "translateY-2fd2f567",
+          "scaleScroll-2fd2f567",
+          "scalePinch-2fd2f567",
+          "pinchTranslate-2fd2f567",
+          "marquee-4b170499"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 32,
+      "media": {
+        "canvases": [
+          {
+            "w": 585,
+            "h": 1266,
+            "area": 1
+          }
+        ],
+        "videos": [
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          }
+        ],
+        "svg": 36,
+        "images": 2,
+        "iframes": 1,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "2d": 1,
+          "webgl2": 1
+        },
+        "raf": 214,
+        "io": 0,
+        "ro": 1,
+        "mo": 2,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": true,
+        "reactRoot": false,
+        "vue": true,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Colonia Zacamil",
+      "lang": "",
+      "description": "Colonia Zacamil"
+    },
+    "featuresBeforeScroll": {
+      "elements": 266,
+      "canvases": 1,
+      "animations": 3,
+      "hidden": 31
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 14589700,
+        "layoutCount": 22,
+        "recalcStyleCount": 161,
+        "scriptDuration": 0.141872,
+        "taskDuration": 7.015713,
+        "nodes": 661
+      },
+      "timing": {
+        "domContentLoaded": 117,
+        "load": 551,
+        "first-paint": 76,
+        "first-contentful-paint": 332
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "clip-path",
+        "duration": 1300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0702000DC310000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x365400141600]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-Z1JPMLC026&gtm=45je6a72v9205122360za200zd9205122360xf1&_p=1791532755707&gcs=G111&gcd=13r3r3r3r5l1&npa=0&dma=0&gdid=dZTJkMz&_eu=AEAE&ae=a&are=1&cid=1087913898.1791532756&frm=0&ngs=1&pscdl=noapi&rcb=4&sr=390x844&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=1&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=1&tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791532755&sct=1&seg=0&dl=https%3A%2F%2Fcoloniazacamil.com%2F&dt=Colonia%20Zacamil&_tu=CA&en=scroll&_fv=1&_nsi=1&_ss=1&epn.percent_scrolled=90&tfd=296",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-Z1JPMLC026&gtm=45je6a72v9205122360za208zd9205122360xf1&_p=1791532755707&gcs=G111&gcd=13r3r3r3r5l1&npa=0&dma=0&gdid=dZTJkMz&_eu=AAAAAAQ&are=1&cid=1087913898.1791532756&frm=0&ngs=1&pscdl=noapi&rcb=4&sr=390x844&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=1&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=2&tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791532755&sct=1&seg=1&dl=https%3A%2F%2Fcoloniazacamil.com%2F&dt=Colonia%20Zacamil&_tu=CA&en=page_view&_ee=1&_et=6&tfd=6955",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 2,
+      "workers": 0
+    }
+  }
+}

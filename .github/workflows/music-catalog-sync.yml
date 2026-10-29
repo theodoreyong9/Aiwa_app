@@ -1,0 +1,54 @@
+name: Music register
+
+# Every week: read the list of Incompetech's pieces (one file) and, slowly (10 s between two requests, as the robots.txt of OpenGameArt asks), the CC0 and
+# CC BY audio pages of OpenGameArt not seen yet; add each one to skills/kit/music-research/catalog/tracks.jsonl (tempo, tags, length, licence, the address of the file).
+# No audio file is downloaded or stored. A page that robots.txt forbids, or cannot be read, is not fetched.
+on:
+  schedule:
+    - cron: '23 5 * * 3'
+  workflow_dispatch:
+    inputs:
+      max:
+        description: 'New OpenGameArt tracks read at most'
+        default: '30'
+      pages:
+        description: 'Listing pages read per licence'
+        default: '2'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: music-catalog
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Incompetech
+        run: node skills/kit/music-research/src/cli.js sync --source=incompetech | tee inc.json
+      - name: OpenGameArt
+        run: node skills/kit/music-research/src/cli.js sync --source=opengameart --max=${{ github.event.inputs.max || '30' }} --pages=${{ github.event.inputs.pages || '2' }} | tee oga.json
+      - name: Say what was read
+        if: always()
+        run: |
+          node -e "
+          const fs = require('fs');
+          const read = (f) => { try { return JSON.parse(fs.readFileSync(f,'utf8').trim().split('\n').pop()); } catch { return {}; } };
+          const a = read('inc.json'), b = read('oga.json');
+          const errors = [...(a.errors || []), ...(b.errors || [])].slice(0, 8).join(' | ');
+          console.log('::notice title=Music register::incompetech ' + (a.total ?? '?') + ' (new ' + (a.new ?? '?') + '), opengameart ' + (b.total ?? '?') + ' (new ' + (b.new ?? '?') + ', unusable ' + (b.skipped ?? '?') + ')' + (errors ? ', problems: ' + errors : ''));
+          "
+      - name: Commit the register
+        if: always()
+        run: |
+          git config user.name "music-research"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A skills/kit/music-research/catalog
+          git diff --cached --quiet || (git commit -m "Music register: weekly sync" && git pull --rebase origin main && git push)

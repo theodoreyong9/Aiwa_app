@@ -1,0 +1,1662 @@
+{
+  "url": "https://sobha-privy-collection.com/",
+  "at": "2026-10-09T08:03:53.451Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 15781,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 982,
+      "typography": {
+        "families": [
+          [
+            "TT Commons Pro",
+            16
+          ],
+          [
+            "TT Ramillas",
+            5
+          ],
+          [
+            "altesse-std-64pt",
+            1
+          ]
+        ],
+        "weights": [
+          [
+            "500",
+            9
+          ],
+          [
+            "600",
+            7
+          ],
+          [
+            "300",
+            5
+          ],
+          [
+            "400",
+            1
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            12
+          ]
+        ],
+        "sizeMin": 11,
+        "sizeMedian": 13,
+        "sizeMax": 100,
+        "sizeMaxVw": 6.9,
+        "scaleRatio": 7.7,
+        "letterSpacingMean": 0.055,
+        "loadedFonts": [
+          {
+            "family": "altesse-std-64pt",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "TT Commons Pro",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "TT Commons Pro",
+            "weight": "600",
+            "style": "normal"
+          },
+          {
+            "family": "TT Ramillas",
+            "weight": "300",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 22
+      },
+      "color": {
+        "background": "rgb(255, 255, 255)",
+        "backgroundLuminance": 1,
+        "backgrounds": [
+          [
+            "rgb(255, 255, 255)",
+            14716
+          ],
+          [
+            "rgb(26, 25, 25)",
+            6412
+          ],
+          [
+            "rgb(0, 0, 0)",
+            1297
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(26, 25, 25)",
+            142
+          ],
+          [
+            "rgb(255, 255, 255)",
+            138
+          ],
+          [
+            "rgb(113, 113, 112)",
+            11
+          ],
+          [
+            "rgb(0, 0, 0)",
+            2
+          ],
+          [
+            "rgba(0, 0, 0, 0)",
+            1
+          ]
+        ],
+        "meanSaturation": 0.01,
+        "rootVars": {
+          "--scale-px": "1px",
+          "--scale-rem": "1rem",
+          "--scale-em": "1em",
+          "--scale-text-px": "1px",
+          "--scale-text-rem": "1rem",
+          "--scale-text-em": "1em",
+          "--spacing": "var(--xxxxl,calc(var(--scale-px) * 40)) var(--n-xxxxl,var(--xxl,calc(var(--scale-px) * 30)) var(--n-xxl,calc(var(--scale-px) * 20)))",
+          "--vw": "1vw",
+          "--vw100": "100vw",
+          "--c-total-black": "#000",
+          "--c-total-black-rgb": "0,0,0",
+          "--c-brand-black": "#1a1919",
+          "--c-brand-black-rgb": "26,25,25",
+          "--c-gray": "#717170",
+          "--c-gray-rgb": "113,113,112",
+          "--c-white": "#fff",
+          "--c-white-rgb": "255,255,255",
+          "--c-error": "#930000",
+          "--c-error-rgb": "147,0,0",
+          "--container-max-width": "var(--vw100)",
+          "--container-content-width": "var(--vw100)",
+          "--container-h-padding-left": "0px",
+          "--container-h-padding-right": "0px",
+          "--grid-gutter": "0vw",
+          "--is-visible--sm-down": "block",
+          "--is-visible--md-xxl": "none",
+          "--is-visible--md-up": "none",
+          "--is-visible--xl-down": "block",
+          "--is-visible--xxl-up": "none",
+          "--is-visible--xxxl": "none"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 4,
+        "sticky": 0,
+        "fixed": 11,
+        "grid": 9,
+        "flex": 105,
+        "absolute": 125,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 900,
+        "pages": 1,
+        "spacing": [
+          [
+            30,
+            23
+          ],
+          [
+            20,
+            11
+          ],
+          [
+            10,
+            8
+          ],
+          [
+            180,
+            6
+          ],
+          [
+            60,
+            5
+          ],
+          [
+            90,
+            5
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            150,
+            2
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 1,
+        "animationKinds": [
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 1,
+        "animationDurations": [
+          30000
+        ],
+        "easings": [
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            400,
+            51
+          ],
+          [
+            1000,
+            15
+          ],
+          [
+            1600,
+            1
+          ],
+          [
+            300,
+            1
+          ]
+        ],
+        "keyframes": [
+          "move-left",
+          "logoGradient",
+          "footerText",
+          "gradient-flow"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 96,
+      "media": {
+        "canvases": [],
+        "videos": [
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://sobha-privy-collection.com/uploads/rubbons-xs.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://sobha-privy-collection.com/uploads/3d-map.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://sobha-privy-collection.com/uploads/teaser.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://sobha-privy-collection.com/uploads/expensive_spaces.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://sobha-privy-collection.com/uploads/expensive_spaces.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://sobha-privy-collection.com/uploads/space-greens.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://sobha-privy-collection.com/uploads/space-candle.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://sobha-privy-collection.com/uploads/space-table.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://sobha-privy-collection.com/uploads/privacy.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://sobha-privy-collection.com/uploads/a_place_above.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://sobha-privy-collection.com/uploads/menu.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://sobha-privy-collection.com/uploads/3d-map.mp4"
+          }
+        ],
+        "svg": 32,
+        "images": 55,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {},
+        "raf": 865,
+        "io": 151,
+        "ro": 1,
+        "mo": 5,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": true,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Sobha Privy Collection – Luxury Villas & Penthouses in Dubai",
+      "lang": "en",
+      "description": "Sobha Privy Collection: a handpicked selection of Dubai's rarest luxury villas, mansions and penthouses at the city's most iconic addresses."
+    },
+    "featuresBeforeScroll": {
+      "elements": 982,
+      "canvases": 0,
+      "animations": 1,
+      "hidden": 96
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 6,
+      "changed": 0
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 5745060,
+        "layoutCount": 137,
+        "recalcStyleCount": 1025,
+        "scriptDuration": 0.158272,
+        "taskDuration": 1.09756,
+        "nodes": 4741
+      },
+      "timing": {
+        "domContentLoaded": 913,
+        "load": 1566,
+        "first-paint": 588,
+        "first-contentful-paint": 588
+      }
+    },
+    "network": [
+      {
+        "url": "https://sobha-privy-collection.com/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 40917
+      },
+      {
+        "url": "https://use.typekit.net/ksy5uvi.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 901
+      },
+      {
+        "url": "https://sobha-privy-collection.com/assets/stylesheets/global.css?qqihq",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 24648
+      },
+      {
+        "url": "https://sobha-privy-collection.com/assets/stylesheets/landing.css?qqihq",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 9679
+      },
+      {
+        "url": "https://sobha-privy-collection.com/assets/images/common/logo.svg?qqihq",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 6158
+      },
+      {
+        "url": "https://sobha-privy-collection.com/assets/images/media/landing/1.intro/background@xxl.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 22728
+      },
+      {
+        "url": "https://sobha-privy-collection.com/assets/images/media/landing/button-3d/image@xxl.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 13967
+      },
+      {
+        "url": "https://sobha-privy-collection.com/assets/images/px-2x1.gif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 250
+      },
+      {
+        "url": "https://sobha-privy-collection.com/assets/images/media/landing/10.location/map.webp?qqihq",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 242335
+      },
+      {
+        "url": "https://p.typekit.net/p.css?s=1&k=ksy5uvi&ht=tk&f=47486.47487&a=934991&app=typekit&e=css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 172
+      },
+      {
+        "url": "https://sobha-privy-collection.com/assets/javascripts/browser-message/browser-message.js?qqihq",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1442
+      },
+      {
+        "url": "https://sobha-privy-collection.com/assets/javascripts/shared.js?qqihq",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 106662
+      },
+      {
+        "url": "https://sobha-privy-collection.com/assets/javascripts/landing.js?qqihq",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 68879
+      },
+      {
+        "url": "https://sobha-privy-collection.com/assets/images/icons.svg?qqihq",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 38439
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22300%22%20height=%22410%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20300%20410%22%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22440%22%20height=%22631%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20440%20631%22%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22540%22%20height=%22675%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20540%20675%22%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22540%22%20height=%22695%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20540%20695%22%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221422%22%20height=%22771%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201422%20771%22%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%222016%22%20height=%221092%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%202016%201092%22%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%222016%22%20height=%222016%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%202016%202016%22%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%222016%22%20height=%221680%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%202016%201680%22%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22440%22%20height=%2285%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20440%2085%22%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221680%22%20height=%221092%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201680%201092%22%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22672%22%20height=%22336%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20672%20336%22%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221008%22%20height=%221092%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201008%201092%22%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22280%22%20height=%22400%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20280%20400%22%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22840%22%20height=%22616%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20840%20616%22%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22405%22%20height=%22463%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20405%20463%22%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22405%22%20height=%22337%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20405%20337%22%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22610%22%20height=%221080%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20610%201080%22%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22600%22%20height=%22480%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20600%20480%22%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22270%22%20height=%22120%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20270%20120%22%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%222016%22%20height=%222772%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%202016%202772%22%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22540%22%20height=%22648%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20540%20648%22%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%222016%22%20height=%221428%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%202016%201428%22%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://sobha-privy-collection.com/assets/images/media/header/logo-text-gradient-hover.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 2153
+      },
+      {
+        "url": "https://sobha-privy-collection.com/assets/images/common/logo-text.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 5590
+      },
+      {
+        "url": "https://sobha-privy-collection.com/assets/fonts/TTCommonsPro-Md.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 76110
+      },
+      {
+        "url": "https://sobha-privy-collection.com/assets/fonts/TTRamillas-Light.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 54814
+      },
+      {
+        "url": "https://sobha-privy-collection.com/assets/fonts/TTCommonsPro-Db.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 75998
+      },
+      {
+        "url": "https://use.typekit.net/af/2c5ecb/00000000000000007735ec1b/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/font-woff2",
+        "fromCache": false,
+        "bytes": 29732
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22120%22%20height=%22120%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20120%20120%22%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://sobha-privy-collection.com/assets/images/media/footer/gradient.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 324934
+      },
+      {
+        "url": "https://sobha-privy-collection.com/assets/images/media/landing/2.luxury-homes/top-small-1@xxl.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 94604
+      },
+      {
+        "url": "https://sobha-privy-collection.com/assets/images/media/landing/2.luxury-homes/top-large@xxl.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 167552
+      },
+      {
+        "url": "https://sobha-privy-collection.com/assets/images/media/landing/2.luxury-homes/top-small-2@xxl.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 106296
+      },
+      {
+        "url": "https://sobha-privy-collection.com/uploads/ribbons.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://sobha-privy-collection.com/uploads/3d-map.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://sobha-privy-collection.com/uploads/rubbons-xs.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://sobha-privy-collection.com/uploads/3d-map.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 8821
+      },
+      {
+        "url": "https://sobha-privy-collection.com/uploads/rubbons-xs.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 18048
+      },
+      {
+        "url": "https://sobha-privy-collection.com/uploads/3d-map.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser"
+      },
+      {
+        "url": "https://sobha-privy-collection.com/uploads/teaser.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://sobha-privy-collection.com/uploads/expensive_spaces.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://sobha-privy-collection.com/uploads/expensive_spaces.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://sobha-privy-collection.com/uploads/space-greens.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://sobha-privy-collection.com/uploads/space-candle.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://sobha-privy-collection.com/uploads/space-table.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 567591
+      },
+      {
+        "url": "https://sobha-privy-collection.com/uploads/privacy.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://sobha-privy-collection.com/uploads/a_place_above.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 1434230
+      },
+      {
+        "url": "https://sobha-privy-collection.com/uploads/menu.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 1766974
+      },
+      {
+        "url": "https://sobha-privy-collection.com/uploads/3d-map.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other"
+      },
+      {
+        "url": "https://sobha-privy-collection.com/uploads/teaser.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 29855
+      },
+      {
+        "url": "https://sobha-privy-collection.com/uploads/space-greens.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 14225
+      },
+      {
+        "url": "https://sobha-privy-collection.com/uploads/space-candle.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 33640
+      },
+      {
+        "url": "https://sobha-privy-collection.com/uploads/privacy.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 19061
+      },
+      {
+        "url": "https://sobha-privy-collection.com/uploads/expensive_spaces.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other"
+      },
+      {
+        "url": "https://sobha-privy-collection.com/uploads/space-greens.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other"
+      },
+      {
+        "url": "https://sobha-privy-collection.com/uploads/space-candle.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other"
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "footerText",
+        "duration": 30000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      }
+    ],
+    "console": [],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://sobha-privy-collection.com/uploads/ribbons.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://sobha-privy-collection.com/uploads/3d-map.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://sobha-privy-collection.com/uploads/rubbons-xs.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://sobha-privy-collection.com/uploads/3d-map.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://sobha-privy-collection.com/uploads/3d-map.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://sobha-privy-collection.com/uploads/teaser.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://sobha-privy-collection.com/uploads/space-greens.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://sobha-privy-collection.com/uploads/space-candle.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://sobha-privy-collection.com/uploads/expensive_spaces.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://sobha-privy-collection.com/uploads/privacy.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://sobha-privy-collection.com/uploads/expensive_spaces.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://sobha-privy-collection.com/uploads/space-greens.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://sobha-privy-collection.com/uploads/expensive_spaces.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://sobha-privy-collection.com/uploads/space-candle.mp4",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 5684,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 980,
+      "typography": {
+        "families": [
+          [
+            "TT Commons Pro",
+            38
+          ],
+          [
+            "TT Ramillas",
+            24
+          ],
+          [
+            "altesse-std-64pt",
+            13
+          ]
+        ],
+        "weights": [
+          [
+            "300",
+            24
+          ],
+          [
+            "500",
+            19
+          ],
+          [
+            "600",
+            19
+          ],
+          [
+            "400",
+            13
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            43
+          ]
+        ],
+        "sizeMin": 11,
+        "sizeMedian": 13,
+        "sizeMax": 60,
+        "sizeMaxVw": 15.4,
+        "scaleRatio": 4.6,
+        "letterSpacingMean": 0.047,
+        "loadedFonts": [
+          {
+            "family": "altesse-std-64pt",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "TT Commons Pro",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "TT Commons Pro",
+            "weight": "600",
+            "style": "normal"
+          },
+          {
+            "family": "TT Ramillas",
+            "weight": "300",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 75
+      },
+      "color": {
+        "background": "rgb(255, 255, 255)",
+        "backgroundLuminance": 1,
+        "backgrounds": [
+          [
+            "rgb(255, 255, 255)",
+            5588
+          ],
+          [
+            "rgb(26, 25, 25)",
+            3583
+          ],
+          [
+            "rgb(0, 0, 0)",
+            2155
+          ],
+          [
+            "rgba(0, 0, 0, 0.5)",
+            329
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(255, 255, 255)",
+            240
+          ],
+          [
+            "rgb(26, 25, 25)",
+            173
+          ],
+          [
+            "rgb(113, 113, 112)",
+            32
+          ],
+          [
+            "rgba(255, 255, 255, 0.5)",
+            3
+          ],
+          [
+            "rgb(0, 0, 0)",
+            2
+          ]
+        ],
+        "meanSaturation": 0.01,
+        "rootVars": {
+          "--scale-px": "1px",
+          "--scale-rem": "1rem",
+          "--scale-em": "1em",
+          "--scale-text-px": "1px",
+          "--scale-text-rem": "1rem",
+          "--scale-text-em": "1em",
+          "--spacing": "var(--xxxxl,calc(var(--scale-px) * 40)) var(--n-xxxxl,var(--xxl,calc(var(--scale-px) * 30)) var(--n-xxl,calc(var(--scale-px) * 20)))",
+          "--vw": "1vw",
+          "--vw100": "100vw",
+          "--c-total-black": "#000",
+          "--c-total-black-rgb": "0,0,0",
+          "--c-brand-black": "#1a1919",
+          "--c-brand-black-rgb": "26,25,25",
+          "--c-gray": "#717170",
+          "--c-gray-rgb": "113,113,112",
+          "--c-white": "#fff",
+          "--c-white-rgb": "255,255,255",
+          "--c-error": "#930000",
+          "--c-error-rgb": "147,0,0",
+          "--container-max-width": "var(--vw100)",
+          "--container-content-width": "var(--vw100)",
+          "--container-h-padding-left": "0px",
+          "--container-h-padding-right": "0px",
+          "--grid-gutter": "0vw",
+          "--is-visible--sm-down": "block",
+          "--is-visible--md-xxl": "none",
+          "--is-visible--md-up": "none",
+          "--is-visible--xl-down": "block",
+          "--is-visible--xxl-up": "none",
+          "--is-visible--xxxl": "none"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 4,
+        "sticky": 11,
+        "fixed": 14,
+        "grid": 10,
+        "flex": 102,
+        "absolute": 107,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 844,
+        "pages": 1,
+        "spacing": [
+          [
+            20,
+            24
+          ],
+          [
+            10,
+            9
+          ],
+          [
+            25,
+            8
+          ],
+          [
+            40,
+            8
+          ],
+          [
+            15,
+            6
+          ],
+          [
+            60,
+            5
+          ],
+          [
+            90,
+            3
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 1,
+        "animationKinds": [
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 1,
+        "animationDurations": [
+          30000
+        ],
+        "easings": [
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            400,
+            51
+          ],
+          [
+            1000,
+            15
+          ]
+        ],
+        "keyframes": [
+          "move-left",
+          "logoGradient",
+          "footerText",
+          "gradient-flow"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 51,
+      "media": {
+        "canvases": [],
+        "videos": [
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://sobha-privy-collection.com/uploads/rubbons-xs.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://sobha-privy-collection.com/uploads/3d-map.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://sobha-privy-collection.com/uploads/teaser.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://sobha-privy-collection.com/uploads/expensive_spaces.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://sobha-privy-collection.com/uploads/expensive_spaces.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://sobha-privy-collection.com/uploads/space-greens.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://sobha-privy-collection.com/uploads/space-candle.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://sobha-privy-collection.com/uploads/space-table.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://sobha-privy-collection.com/uploads/privacy.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://sobha-privy-collection.com/uploads/a_place_above.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://sobha-privy-collection.com/uploads/menu.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://sobha-privy-collection.com/uploads/3d-map.mp4"
+          }
+        ],
+        "svg": 32,
+        "images": 55,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {},
+        "raf": 615,
+        "io": 106,
+        "ro": 1,
+        "mo": 2,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": true,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Sobha Privy Collection – Luxury Villas & Penthouses in Dubai",
+      "lang": "en",
+      "description": "Sobha Privy Collection: a handpicked selection of Dubai's rarest luxury villas, mansions and penthouses at the city's most iconic addresses."
+    },
+    "featuresBeforeScroll": {
+      "elements": 980,
+      "canvases": 0,
+      "animations": 1,
+      "hidden": 51
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 6550752,
+        "layoutCount": 95,
+        "recalcStyleCount": 246,
+        "scriptDuration": 0.116632,
+        "taskDuration": 3.398815,
+        "nodes": 5020
+      },
+      "timing": {
+        "domContentLoaded": 992,
+        "load": 1545,
+        "first-paint": 544,
+        "first-contentful-paint": 544
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "footerText",
+        "duration": 30000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      }
+    ],
+    "console": [],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://sobha-privy-collection.com/uploads/rubbons-xs.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://sobha-privy-collection.com/uploads/3d-map.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://sobha-privy-collection.com/uploads/3d-map.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://sobha-privy-collection.com/uploads/3d-map.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://sobha-privy-collection.com/uploads/teaser.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://sobha-privy-collection.com/uploads/space-greens.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://sobha-privy-collection.com/uploads/privacy.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://sobha-privy-collection.com/uploads/space-greens.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://sobha-privy-collection.com/uploads/expensive_spaces.mp4",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  }
+}

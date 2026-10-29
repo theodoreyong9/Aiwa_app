@@ -1,0 +1,1729 @@
+{
+  "url": "https://milledollars.fr/",
+  "at": "2026-10-09T07:58:57.178Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 14606,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 213,
+      "typography": {
+        "families": [
+          [
+            "ABCDiatype",
+            39
+          ],
+          [
+            "Migra",
+            1
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            40
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            33
+          ]
+        ],
+        "sizeMin": 10,
+        "sizeMedian": 16,
+        "sizeMax": 18,
+        "sizeMaxVw": 1.3,
+        "scaleRatio": 1.1,
+        "letterSpacingMean": 0,
+        "loadedFonts": [
+          {
+            "family": "ABCDiatype",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Migra",
+            "weight": "800",
+            "style": "normal"
+          },
+          {
+            "family": "Migra",
+            "weight": "200",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 40
+      },
+      "color": {
+        "background": "rgb(224, 222, 225)",
+        "backgroundLuminance": 0.7352608843121401,
+        "backgrounds": [],
+        "texts": [
+          [
+            "rgb(255, 255, 255)",
+            70
+          ],
+          [
+            "rgb(24, 24, 24)",
+            34
+          ],
+          [
+            "rgb(0, 0, 0)",
+            3
+          ]
+        ],
+        "meanSaturation": 0,
+        "rootVars": {
+          "--ease-in-quad": "cubic-bezier(.55,.085,.68,.53)",
+          "--ease-in-cubic": "cubic-bezier(.55,.055,.675,.19)",
+          "--ease-in-quart": "cubic-bezier(.895,.03,.685,.22)",
+          "--ease-in-quint": "cubic-bezier(.755,.05,.855,.06)",
+          "--ease-in-expo": "cubic-bezier(.95,.05,.795,.035)",
+          "--ease-in-circ": "cubic-bezier(.6,.04,.98,.335)",
+          "--ease-out-quad": "cubic-bezier(.25,.46,.45,.94)",
+          "--ease-out-cubic": "cubic-bezier(.215,.61,.355,1)",
+          "--ease-out-quart": "cubic-bezier(.165,.84,.44,1)",
+          "--ease-out-quint": "cubic-bezier(.23,1,.32,1)",
+          "--ease-out-expo": "cubic-bezier(.19,1,.22,1)",
+          "--ease-out-circ": "cubic-bezier(.075,.82,.165,1)",
+          "--ease-in-out-quad": "cubic-bezier(.455,.03,.515,.955)",
+          "--ease-in-out-cubic": "cubic-bezier(.645,.045,.355,1)",
+          "--ease-in-out-quart": "cubic-bezier(.77,0,.175,1)",
+          "--ease-in-out-quint": "cubic-bezier(.86,0,.07,1)",
+          "--ease-in-out-expo": "cubic-bezier(1,0,0,1)",
+          "--ease-in-out-circ": "cubic-bezier(.785,.135,.15,.86)",
+          "--vh": "1vh",
+          "--column-spacing": "1.5rem",
+          "--logo-dollars-scale": "1.0643",
+          "--layout-columns-count": "6",
+          "--layout-columns-gap": "4.1025641026vw",
+          "--layout-margin": "5.1282051282vw",
+          "--container-width": "100vw",
+          "--layout-width": "calc(var(--container-width) - var(--layout-margin)*2)",
+          "--layout-column-width": "calc((var(--layout-width) - ((var(--layout-columns-count) - 1)*var(--layout-columns-gap)))/var(--layout-columns-count))",
+          "--margin-reset-container": "-1rem",
+          "--cc-font-family": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\"",
+          "--cc-modal-border-radius": ".5rem",
+          "--cc-btn-border-radius": ".4rem",
+          "--cc-modal-transition-duration": ".25s",
+          "--cc-link-color": "var(--cc-btn-primary-bg)",
+          "--cc-modal-margin": "1rem",
+          "--cc-z-index": "2147483647",
+          "--cc-bg": "#fff",
+          "--cc-primary-color": "#2c2f31",
+          "--cc-secondary-color": "#5e6266",
+          "--cc-btn-primary-bg": "#30363c",
+          "--cc-btn-primary-color": "#fff"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 4,
+        "sticky": 1,
+        "fixed": 16,
+        "grid": 7,
+        "flex": 9,
+        "absolute": 18,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 900,
+        "pages": 1,
+        "spacing": [
+          [
+            32,
+            1
+          ],
+          [
+            4,
+            1
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 0,
+        "animationKinds": [],
+        "infiniteAnimations": 0,
+        "animationDurations": [],
+        "easings": [],
+        "transitionDurationsMs": [
+          [
+            300,
+            4
+          ],
+          [
+            200,
+            2
+          ],
+          [
+            1000,
+            1
+          ],
+          [
+            260,
+            1
+          ]
+        ],
+        "keyframes": [
+          "blink"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": true
+      },
+      "hiddenElements": 7,
+      "media": {
+        "canvases": [
+          {
+            "w": 1440,
+            "h": 900,
+            "area": 1
+          }
+        ],
+        "videos": [],
+        "svg": 4,
+        "images": 0,
+        "iframes": 1,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl": 1
+        },
+        "raf": 215,
+        "io": 1,
+        "ro": 5,
+        "mo": 1,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": true,
+        "reactRoot": false,
+        "vue": true,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "MilleDollars",
+      "lang": "en",
+      "description": "Creative bureau focused on high-end video production. Working worldwide."
+    },
+    "featuresBeforeScroll": {
+      "elements": 213,
+      "canvases": 1,
+      "animations": 0,
+      "hidden": 7
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 6,
+      "changed": 0
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 9463060,
+        "layoutCount": 64,
+        "recalcStyleCount": 217,
+        "scriptDuration": 0.822274,
+        "taskDuration": 13.143829,
+        "nodes": 1178
+      },
+      "timing": {
+        "domContentLoaded": 837,
+        "load": 950,
+        "first-paint": 700,
+        "first-contentful-paint": 700
+      }
+    },
+    "network": [
+      {
+        "url": "https://milledollars.fr/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 45906
+      },
+      {
+        "url": "https://static.cdn.prismic.io/prismic.min.js?repo=mille-dollars&new=true",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 8536
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Redacted+Script:wght@300;400;700&display=swap",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 605
+      },
+      {
+        "url": "https://milledollars.fr/_nuxt/HeaderTopItem.wwjl9wjP.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 474
+      },
+      {
+        "url": "https://milledollars.fr/_nuxt/AnimationLines.BhNuZbuD.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 892
+      },
+      {
+        "url": "https://milledollars.fr/_nuxt/CT1tNzyx.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 232544
+      },
+      {
+        "url": "https://milledollars.fr/_nuxt/CEid1f80.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1985
+      },
+      {
+        "url": "https://milledollars.fr/_nuxt/C6QHSIf2.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 859
+      },
+      {
+        "url": "https://milledollars.fr/_nuxt/4UnqKch_.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 292
+      },
+      {
+        "url": "https://milledollars.fr/_nuxt/QUiRBmBL.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 496
+      },
+      {
+        "url": "https://milledollars.fr/_nuxt/P5cfRihV.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4367
+      },
+      {
+        "url": "https://milledollars.fr/_nuxt/Bee3nlvf.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2762
+      },
+      {
+        "url": "https://milledollars.fr/_nuxt/CHOKCekv.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1060
+      },
+      {
+        "url": "https://milledollars.fr/_nuxt/ContentSection.BaBTdkVR.css",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 301
+      },
+      {
+        "url": "https://milledollars.fr/_nuxt/u65T1dZ5.js",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 917
+      },
+      {
+        "url": "https://milledollars.fr/_nuxt/-iOMBR-w.js",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 340
+      },
+      {
+        "url": "https://milledollars.fr/_nuxt/D4WPW1B1.js",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1674
+      },
+      {
+        "url": "https://milledollars.fr/_nuxt/DjsFlXGh.js",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1526
+      },
+      {
+        "url": "https://milledollars.fr/_nuxt/sprite-default.56ONNe93d3vdfHkgeYSThPJOC3Z8o_MvfgafwP6j5oc.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 22594
+      },
+      {
+        "url": "https://milledollars.fr/logo-loop/logopart2-1.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 15541
+      },
+      {
+        "url": "https://milledollars.fr/logo-loop/logopart2-2.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 17090
+      },
+      {
+        "url": "https://milledollars.fr/logo-loop/logopart4.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 13855
+      },
+      {
+        "url": "https://milledollars.fr/logo-loop/logopart5.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 19179
+      },
+      {
+        "url": "https://milledollars.fr/_nuxt/ABCDiatype-Regular.De34QEg0.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 70534
+      },
+      {
+        "url": "https://milledollars.fr/_nuxt/Migra-Extrabold.CgBZYN2-.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 6668
+      },
+      {
+        "url": "https://milledollars.fr/_nuxt/Migra-Extralight.Bd6Lqv6T.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 50736
+      },
+      {
+        "url": "https://mille-dollars.prismic.io/prismic-toolbar/4.1.17/iframe.html",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 4510
+      },
+      {
+        "url": "https://milledollars.fr/_nuxt/index.B2SG2oO-.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 816
+      },
+      {
+        "url": "https://mille-dollars.cdn.prismic.io/api/v2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 946
+      },
+      {
+        "url": "https://mille-dollars.cdn.prismic.io/api/v2/documents/search?q=%5B%5Bat%28document.type%2C+%22works%22%29%5D%5D&graphQuery=%7B%0A++++++++works+%7B%0A++++++++++...worksFields%0A++++++++++items+%7B%0A++++++++++++item+%7B%0A++++++++++++++...itemFields%0A%0A++++++++++++%7D%0A++++++++++%7D%0A++++++++%7D%0A++++++%7D&pageSize=1&ref=ar58RhEAACcAQNPU&routes=%5B%7B%22type%22%3A%22home%22%2C%22path%22%3A%22%2F%22%7D%2C%7B%22type%22%3A%22about%22%2C%22path%22%3A%22%2Finfo%22%7D%2C%7B%22type%22%3A%22contact%22%2C%22path%22%3A%22%2Fcontact%22%7D%2C%7B%22type%22%3A%22works%22%2C%22path%22%3A%22%2Fworks%22%7D%2C%7B%22type%22%3A%22project%22%2C%22path%22%3A%22%2Fworks%2F%3Auid%22%7D%5D&x-c=js-7.22.1",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 108878
+      },
+      {
+        "url": "https://mille-dollars.cdn.prismic.io/api/v2/documents/search?q=%5B%5Bat%28document.type%2C+%22home%22%29%5D%5D&pageSize=1&ref=ar58RhEAACcAQNPU&routes=%5B%7B%22type%22%3A%22home%22%2C%22path%22%3A%22%2F%22%7D%2C%7B%22type%22%3A%22about%22%2C%22path%22%3A%22%2Finfo%22%7D%2C%7B%22type%22%3A%22contact%22%2C%22path%22%3A%22%2Fcontact%22%7D%2C%7B%22type%22%3A%22works%22%2C%22path%22%3A%22%2Fworks%22%7D%2C%7B%22type%22%3A%22project%22%2C%22path%22%3A%22%2Fworks%2F%3Auid%22%7D%5D&x-c=js-7.22.1",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 1685
+      },
+      {
+        "url": "https://milledollars.fr/_nuxt/default.CoeVFTx-.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 995
+      },
+      {
+        "url": "https://milledollars.fr/duotone.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 219015
+      },
+      {
+        "url": "https://images.prismic.io/mille-dollars/8DLuq7tVDpVJcToD_MIDNIGHT-FRAME1169.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 16687
+      },
+      {
+        "url": "https://images.prismic.io/mille-dollars/jf8tb9JXUl8GE7ZJ_frame-1.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 60681
+      },
+      {
+        "url": "https://images.prismic.io/mille-dollars/ahb_VrK9tuLqEL_M_FRAME1DAZZLING.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 80178
+      },
+      {
+        "url": "https://images.prismic.io/mille-dollars/agSdmqYofJOwHNvM_VOIR169FRAME1.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 11009
+      },
+      {
+        "url": "https://images.prismic.io/mille-dollars/5rukr8ZmezSIIIyO_SMOKING-FRAME1169.jpg?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 9802
+      },
+      {
+        "url": "https://images.prismic.io/mille-dollars/aczlTpGXnQHGZKOT_Shield_frame1169.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 66851
+      },
+      {
+        "url": "https://images.prismic.io/mille-dollars/acpyMZGXnQHGZGCC_Topuria_frame1169.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 116213
+      },
+      {
+        "url": "https://images.prismic.io/mille-dollars/jA7o90fr28N62m9k_ENTERTAIN-FRAME1169.jpg?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 37882
+      },
+      {
+        "url": "https://images.prismic.io/mille-dollars/acqXopGXnQHGZGmp_Eternal_frame1169.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 253724
+      },
+      {
+        "url": "https://milledollars.fr/videos-images/mysterious-marly.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 126434
+      },
+      {
+        "url": "https://milledollars.fr/videos-images/rise.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 110084
+      },
+      {
+        "url": "https://milledollars.fr/videos-images/the-murcian-has-landed.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 79489
+      },
+      {
+        "url": "https://milledollars.fr/videos-images/band-of-brothers.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 66183
+      },
+      {
+        "url": "https://milledollars.fr/videos-images/the-colour-of-water.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 36669
+      },
+      {
+        "url": "https://milledollars.fr/videos-images/out-of-the-box.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 35914
+      },
+      {
+        "url": "https://milledollars.fr/videos-images/sacred-geometry.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 120428
+      },
+      {
+        "url": "https://images.prismic.io/mille-dollars/aSRURWGnmrmGqLJf_neural-overdrive.jpg?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 7111
+      },
+      {
+        "url": "https://milledollars.fr/videos-images/detail.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 26292
+      },
+      {
+        "url": "https://milledollars.fr/videos-images/ancient-wonders.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 114452
+      },
+      {
+        "url": "https://milledollars.fr/videos-images/the-kings-court.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 60179
+      },
+      {
+        "url": "https://milledollars.fr/videos-images/an-eye-for-design.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 74096
+      },
+      {
+        "url": "https://milledollars.fr/videos-images/endless-summer.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 109998
+      },
+      {
+        "url": "https://images.prismic.io/mille-dollars/aW-YsAIvOtkhBvbn_frame-1.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 147354
+      },
+      {
+        "url": "https://images.prismic.io/mille-dollars/aTq2cXNYClf9oD2g_the-rest-is-noise-frame.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 140869
+      },
+      {
+        "url": "https://milledollars.fr/videos-images/the-pink-watch.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 94613
+      },
+      {
+        "url": "https://milledollars.fr/videos-images/dive.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 53627
+      },
+      {
+        "url": "https://images.prismic.io/mille-dollars/Z8bZahsAHJWomFbm_dev-video.jpg?auto=format,compress&rect=37,0,1006,566&w=1600&h=900",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 7628
+      },
+      {
+        "url": "https://milledollars.fr/videos-images/above-the-clouds.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 43802
+      },
+      {
+        "url": "https://milledollars.fr/videos-images/still-life.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 73204
+      },
+      {
+        "url": "https://images.prismic.io/mille-dollars/aW-VbwIvOtkhBvZF_frame-1.png?auto=format,compress",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 90899
+      },
+      {
+        "url": "https://images.prismic.io/mille-dollars/Z8bZaBsAHJWomFbk_dev-video-2.jpg?auto=format,compress&rect=0,0,1920,1080&w=1600&h=900",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 15830
+      },
+      {
+        "url": "https://milledollars.fr/_nuxt/DDR9zQKw.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4898
+      },
+      {
+        "url": "https://milledollars.fr/_nuxt/LlaE796q.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 282
+      },
+      {
+        "url": "https://milledollars.fr/_nuxt/BTcUTt05.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 458
+      },
+      {
+        "url": "https://milledollars.fr/_nuxt/ContentContainer.CJpvyNPS.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 806
+      },
+      {
+        "url": "https://milledollars.fr/_nuxt/ContentSection.BaBTdkVR.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://milledollars.fr/_nuxt/IM9KHFzD.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 691
+      },
+      {
+        "url": "https://milledollars.fr/_nuxt/C-wJR1Ws.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 905
+      },
+      {
+        "url": "https://milledollars.fr/_nuxt/DCjxwaJN.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 15847
+      },
+      {
+        "url": "https://milledollars.fr/_nuxt/BXrg0c_9.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 231
+      },
+      {
+        "url": "https://milledollars.fr/_nuxt/eI66Lcqm.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2516
+      },
+      {
+        "url": "https://milledollars.fr/_nuxt/SiteFooterLight.4G6Gjpi9.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 624
+      },
+      {
+        "url": "https://milledollars.fr/_nuxt/_uid_.BiPzge_m.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1596
+      },
+      {
+        "url": "https://milledollars.fr/_nuxt/-iOMBR-w.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://milledollars.fr/_nuxt/builds/meta/78d888eb-afc3-470e-b28d-8170dbecd714.json",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 210
+      },
+      {
+        "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/faa551b8-9b63-43d0-a285-ccc62003a2bc/6f1a9663?__token__=st=1791532724~exp=1791536324~acl=%2Fv3-1%2Fplayback%2Ffaa551b8-9b63-43d0-a285-ccc62003a2bc%2F6f1a9663%2A~hmac=bd433f53bd91ded2dd96fdd105cd11f87a4b62cedf6fc79afe8c55fc741d705b&r=dXMtY2VudHJhbDE%3D",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://milledollars.fr/sprites/cat-idle.json",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 1530
+      },
+      {
+        "url": "https://milledollars.fr/sprites/cat-tie-up.json",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 1214
+      },
+      {
+        "url": "https://milledollars.fr/sprites/cat-tie-down.json",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 1222
+      },
+      {
+        "url": "https://milledollars.fr/sprites/cat-lick.json",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 1628
+      },
+      {
+        "url": "https://milledollars.fr/sprites/cat-idle.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 248326
+      },
+      {
+        "url": "https://milledollars.fr/sprites/cat-tie-up.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 238417
+      },
+      {
+        "url": "https://milledollars.fr/sprites/cat-tie-down.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 242829
+      },
+      {
+        "url": "https://milledollars.fr/sprites/cat-lick.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 348954
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1500,
+        "delay": 50,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "WebGL: INVALID_ENUM: texParameter: invalid parameter name"
+      },
+      {
+        "level": "warning",
+        "text": "WebGL: INVALID_ENUM: texParameter: invalid parameter name"
+      },
+      {
+        "level": "warning",
+        "text": "WebGL: INVALID_ENUM: texParameter: invalid parameter name"
+      },
+      {
+        "level": "warning",
+        "text": "WebGL: INVALID_ENUM: texParameter: invalid parameter name"
+      },
+      {
+        "level": "warning",
+        "text": "WebGL: INVALID_ENUM: texParameter: invalid parameter name"
+      },
+      {
+        "level": "warning",
+        "text": "WebGL: INVALID_ENUM: texParameter: invalid parameter name"
+      },
+      {
+        "level": "warning",
+        "text": "WebGL: INVALID_ENUM: texParameter: invalid parameter name"
+      },
+      {
+        "level": "warning",
+        "text": "WebGL: INVALID_ENUM: texParameter: invalid parameter name"
+      },
+      {
+        "level": "warning",
+        "text": "WebGL: INVALID_ENUM: texParameter: invalid parameter name"
+      },
+      {
+        "level": "warning",
+        "text": "WebGL: INVALID_ENUM: texParameter: invalid parameter name"
+      },
+      {
+        "level": "warning",
+        "text": "WebGL: INVALID_ENUM: texParameter: invalid parameter name"
+      },
+      {
+        "level": "warning",
+        "text": "WebGL: INVALID_ENUM: texParameter: invalid parameter name"
+      },
+      {
+        "level": "warning",
+        "text": "WebGL: INVALID_ENUM: texParameter: invalid parameter name"
+      },
+      {
+        "level": "warning",
+        "text": "WebGL: INVALID_ENUM: texParameter: invalid parameter name"
+      },
+      {
+        "level": "warning",
+        "text": "WebGL: INVALID_ENUM: texParameter: invalid parameter name"
+      },
+      {
+        "level": "warning",
+        "text": "WebGL: INVALID_ENUM: texParameter: invalid parameter name"
+      },
+      {
+        "level": "warning",
+        "text": "WebGL: INVALID_ENUM: texParameter: invalid parameter name"
+      },
+      {
+        "level": "warning",
+        "text": "WebGL: INVALID_ENUM: texParameter: invalid parameter name"
+      },
+      {
+        "level": "warning",
+        "text": "WebGL: INVALID_ENUM: texParameter: invalid parameter name"
+      },
+      {
+        "level": "warning",
+        "text": "WebGL: INVALID_ENUM: texParameter: invalid parameter name"
+      }
+    ],
+    "exceptions": [
+      "NotSupportedError: Failed to load because no supported source was found."
+    ],
+    "failed": [
+      {
+        "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/faa551b8-9b63-43d0-a285-ccc62003a2bc/6f1a9663?__token__=st=1791532724~exp=1791536324~acl=%2Fv3-1%2Fplayback%2Ffaa551b8-9b63-43d0-a285-ccc62003a2bc%2F6f1a9663%2A~hmac=bd433f53bd91ded2dd96fdd105cd11f87a4b62cedf6fc79afe8c55fc741d705b&r=dXMtY2VudHJhbDE%3D",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 2,
+      "workers": 0
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 4349,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 210,
+      "typography": {
+        "families": [
+          [
+            "ABCDiatype",
+            31
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            31
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            24
+          ]
+        ],
+        "sizeMin": 10,
+        "sizeMedian": 16,
+        "sizeMax": 18,
+        "sizeMaxVw": 4.6,
+        "scaleRatio": 1.1,
+        "letterSpacingMean": 0,
+        "loadedFonts": [
+          {
+            "family": "ABCDiatype",
+            "weight": "400",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 31
+      },
+      "color": {
+        "background": "rgb(224, 222, 225)",
+        "backgroundLuminance": 0.7352608843121401,
+        "backgrounds": [],
+        "texts": [
+          [
+            "rgb(255, 255, 255)",
+            53
+          ],
+          [
+            "rgb(24, 24, 24)",
+            34
+          ],
+          [
+            "rgb(0, 0, 0)",
+            3
+          ]
+        ],
+        "meanSaturation": 0,
+        "rootVars": {
+          "--ease-in-quad": "cubic-bezier(.55,.085,.68,.53)",
+          "--ease-in-cubic": "cubic-bezier(.55,.055,.675,.19)",
+          "--ease-in-quart": "cubic-bezier(.895,.03,.685,.22)",
+          "--ease-in-quint": "cubic-bezier(.755,.05,.855,.06)",
+          "--ease-in-expo": "cubic-bezier(.95,.05,.795,.035)",
+          "--ease-in-circ": "cubic-bezier(.6,.04,.98,.335)",
+          "--ease-out-quad": "cubic-bezier(.25,.46,.45,.94)",
+          "--ease-out-cubic": "cubic-bezier(.215,.61,.355,1)",
+          "--ease-out-quart": "cubic-bezier(.165,.84,.44,1)",
+          "--ease-out-quint": "cubic-bezier(.23,1,.32,1)",
+          "--ease-out-expo": "cubic-bezier(.19,1,.22,1)",
+          "--ease-out-circ": "cubic-bezier(.075,.82,.165,1)",
+          "--ease-in-out-quad": "cubic-bezier(.455,.03,.515,.955)",
+          "--ease-in-out-cubic": "cubic-bezier(.645,.045,.355,1)",
+          "--ease-in-out-quart": "cubic-bezier(.77,0,.175,1)",
+          "--ease-in-out-quint": "cubic-bezier(.86,0,.07,1)",
+          "--ease-in-out-expo": "cubic-bezier(1,0,0,1)",
+          "--ease-in-out-circ": "cubic-bezier(.785,.135,.15,.86)",
+          "--vh": "1vh",
+          "--column-spacing": "1.5rem",
+          "--logo-dollars-scale": "1.0643",
+          "--layout-columns-count": "6",
+          "--layout-columns-gap": "4.1025641026vw",
+          "--layout-margin": "5.1282051282vw",
+          "--container-width": "100vw",
+          "--layout-width": "calc(var(--container-width) - var(--layout-margin)*2)",
+          "--layout-column-width": "calc((var(--layout-width) - ((var(--layout-columns-count) - 1)*var(--layout-columns-gap)))/var(--layout-columns-count))",
+          "--margin-reset-container": "-1rem",
+          "--cc-font-family": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\"",
+          "--cc-modal-border-radius": ".5rem",
+          "--cc-btn-border-radius": ".4rem",
+          "--cc-modal-transition-duration": ".25s",
+          "--cc-link-color": "var(--cc-btn-primary-bg)",
+          "--cc-modal-margin": "1rem",
+          "--cc-z-index": "2147483647",
+          "--cc-bg": "#fff",
+          "--cc-primary-color": "#2c2f31",
+          "--cc-secondary-color": "#5e6266",
+          "--cc-btn-primary-bg": "#30363c",
+          "--cc-btn-primary-color": "#fff"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 4,
+        "sticky": 1,
+        "fixed": 16,
+        "grid": 7,
+        "flex": 9,
+        "absolute": 18,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 844,
+        "pages": 1,
+        "spacing": [
+          [
+            14,
+            7
+          ],
+          [
+            10,
+            2
+          ],
+          [
+            20,
+            1
+          ],
+          [
+            4,
+            1
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 0,
+        "animationKinds": [],
+        "infiniteAnimations": 0,
+        "animationDurations": [],
+        "easings": [],
+        "transitionDurationsMs": [
+          [
+            300,
+            4
+          ],
+          [
+            200,
+            2
+          ],
+          [
+            1000,
+            1
+          ],
+          [
+            260,
+            1
+          ]
+        ],
+        "keyframes": [
+          "blink"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": true
+      },
+      "hiddenElements": 5,
+      "media": {
+        "canvases": [
+          {
+            "w": 780,
+            "h": 1688,
+            "area": 1
+          }
+        ],
+        "videos": [],
+        "svg": 4,
+        "images": 0,
+        "iframes": 1,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl": 1
+        },
+        "raf": 181,
+        "io": 1,
+        "ro": 5,
+        "mo": 1,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": true,
+        "reactRoot": false,
+        "vue": true,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "MilleDollars",
+      "lang": "en",
+      "description": "Creative bureau focused on high-end video production. Working worldwide."
+    },
+    "featuresBeforeScroll": {
+      "elements": 210,
+      "canvases": 1,
+      "animations": 0,
+      "hidden": 5
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 8494500,
+        "layoutCount": 19,
+        "recalcStyleCount": 43,
+        "scriptDuration": 0.6023,
+        "taskDuration": 3.550132,
+        "nodes": 959
+      },
+      "timing": {
+        "domContentLoaded": 500,
+        "load": 529,
+        "first-paint": 468,
+        "first-contentful-paint": 468
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-in-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "WebGL: INVALID_ENUM: texParameter: invalid parameter name"
+      },
+      {
+        "level": "warning",
+        "text": "WebGL: INVALID_ENUM: texParameter: invalid parameter name"
+      },
+      {
+        "level": "warning",
+        "text": "WebGL: INVALID_ENUM: texParameter: invalid parameter name"
+      },
+      {
+        "level": "warning",
+        "text": "WebGL: INVALID_ENUM: texParameter: invalid parameter name"
+      },
+      {
+        "level": "warning",
+        "text": "WebGL: INVALID_ENUM: texParameter: invalid parameter name"
+      },
+      {
+        "level": "warning",
+        "text": "WebGL: INVALID_ENUM: texParameter: invalid parameter name"
+      },
+      {
+        "level": "warning",
+        "text": "WebGL: INVALID_ENUM: texParameter: invalid parameter name"
+      },
+      {
+        "level": "warning",
+        "text": "WebGL: INVALID_ENUM: texParameter: invalid parameter name"
+      },
+      {
+        "level": "warning",
+        "text": "WebGL: INVALID_ENUM: texParameter: invalid parameter name"
+      },
+      {
+        "level": "warning",
+        "text": "WebGL: INVALID_ENUM: texParameter: invalid parameter name"
+      },
+      {
+        "level": "warning",
+        "text": "WebGL: INVALID_ENUM: texParameter: invalid parameter name"
+      },
+      {
+        "level": "warning",
+        "text": "WebGL: INVALID_ENUM: texParameter: invalid parameter name"
+      },
+      {
+        "level": "warning",
+        "text": "WebGL: INVALID_ENUM: texParameter: invalid parameter name"
+      },
+      {
+        "level": "warning",
+        "text": "WebGL: INVALID_ENUM: texParameter: invalid parameter name"
+      },
+      {
+        "level": "warning",
+        "text": "WebGL: INVALID_ENUM: texParameter: invalid parameter name"
+      },
+      {
+        "level": "warning",
+        "text": "WebGL: INVALID_ENUM: texParameter: invalid parameter name"
+      },
+      {
+        "level": "warning",
+        "text": "WebGL: INVALID_ENUM: texParameter: invalid parameter name"
+      },
+      {
+        "level": "warning",
+        "text": "WebGL: INVALID_ENUM: texParameter: invalid parameter name"
+      },
+      {
+        "level": "warning",
+        "text": "WebGL: INVALID_ENUM: texParameter: invalid parameter name"
+      },
+      {
+        "level": "warning",
+        "text": "WebGL: INVALID_ENUM: texParameter: invalid parameter name"
+      }
+    ],
+    "exceptions": [],
+    "failed": [],
+    "targets": {
+      "frames": 2,
+      "workers": 0
+    }
+  }
+}

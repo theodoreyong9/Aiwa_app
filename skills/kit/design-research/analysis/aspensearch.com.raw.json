@@ -1,0 +1,2577 @@
+{
+  "url": "https://www.aspensearch.com/",
+  "at": "2026-10-09T08:16:35.770Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 36025,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 1706,
+      "typography": {
+        "families": [
+          [
+            "suisseIntl",
+            161
+          ],
+          [
+            "suisseIntlMono",
+            58
+          ]
+        ],
+        "weights": [
+          [
+            "450",
+            155
+          ],
+          [
+            "400",
+            62
+          ],
+          [
+            "500",
+            2
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            57
+          ]
+        ],
+        "sizeMin": 12,
+        "sizeMedian": 16,
+        "sizeMax": 180.669,
+        "sizeMaxVw": 12.5,
+        "scaleRatio": 11.3,
+        "letterSpacingMean": 0,
+        "loadedFonts": [
+          {
+            "family": "suisseIntl",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "suisseIntl",
+            "weight": "450",
+            "style": "normal"
+          },
+          {
+            "family": "suisseIntlMono",
+            "weight": "400",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 219
+      },
+      "color": {
+        "background": "rgb(255, 255, 255)",
+        "backgroundLuminance": 1,
+        "backgrounds": [
+          [
+            "rgb(255, 255, 255)",
+            9501
+          ],
+          [
+            "rgb(224, 224, 224)",
+            5291
+          ],
+          [
+            "rgb(35, 35, 35)",
+            2991
+          ],
+          [
+            "rgb(161, 255, 203)",
+            1404
+          ],
+          [
+            "rgb(217, 217, 217)",
+            1051
+          ],
+          [
+            "rgb(8, 34, 90)",
+            302
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(35, 35, 35)",
+            828
+          ],
+          [
+            "rgb(255, 255, 255)",
+            410
+          ],
+          [
+            "oklab(0.256147 0.0000116229 0.000005126 / 0.65)",
+            4
+          ],
+          [
+            "oklab(0.999994 0.0000455678 0.0000200868 / 0.65)",
+            3
+          ],
+          [
+            "rgb(217, 217, 217)",
+            2
+          ]
+        ],
+        "meanSaturation": 0.21,
+        "rootVars": {
+          "--site-header-height": "calc(var(--spacing) * 60)",
+          "--sbw": "0px"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 27,
+        "sticky": 12,
+        "fixed": 19,
+        "grid": 49,
+        "flex": 250,
+        "absolute": 92,
+        "asymmetricGrids": 4,
+        "splitScreen": false,
+        "scrollHeight": 11311,
+        "pages": 12.6,
+        "spacing": [
+          [
+            8,
+            61
+          ],
+          [
+            20,
+            53
+          ],
+          [
+            12,
+            17
+          ],
+          [
+            1,
+            17
+          ],
+          [
+            60,
+            16
+          ],
+          [
+            16,
+            13
+          ],
+          [
+            4,
+            12
+          ],
+          [
+            3,
+            8
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 9,
+        "animationKinds": [
+          "CSSTransition",
+          "CSSAnimation",
+          "Animation"
+        ],
+        "infiniteAnimations": 2,
+        "animationDurations": [
+          650,
+          12800,
+          12800,
+          1000,
+          1000,
+          1000,
+          1000,
+          1000,
+          1000
+        ],
+        "easings": [
+          "cubic-bezier(0.16, 1, 0.3, 1)",
+          "linear",
+          "cubic-bezier(0.23, 1, 0.32, 1)"
+        ],
+        "transitionDurationsMs": [
+          [
+            800,
+            45
+          ],
+          [
+            600,
+            12
+          ],
+          [
+            650,
+            1
+          ],
+          [
+            200,
+            1
+          ],
+          [
+            450,
+            1
+          ]
+        ],
+        "keyframes": [
+          "theme-sweep-ltr",
+          "theme-sweep-rtl",
+          "hero-logo-coin",
+          "typewriter-cursor-blink",
+          "marqyL",
+          "marqyR",
+          "marqyU",
+          "marqyD"
+        ],
+        "viewTransitionCss": true,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 4,
+      "media": {
+        "canvases": [
+          {
+            "w": 1440,
+            "h": 1845,
+            "area": 2.05
+          },
+          {
+            "w": 720,
+            "h": 584,
+            "area": 0.32
+          },
+          {
+            "w": 360,
+            "h": 631,
+            "area": 0.18
+          },
+          {
+            "w": 1440,
+            "h": 900,
+            "area": 1
+          },
+          {
+            "w": 1440,
+            "h": 1380,
+            "area": 1.53
+          }
+        ],
+        "videos": [],
+        "svg": 40,
+        "images": 40,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "2d": 2,
+          "webgl2": 5
+        },
+        "raf": 340,
+        "io": 77,
+        "ro": 68,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Aspen Search - Executive Search for Quantitative Finance & Tech",
+      "lang": "en",
+      "description": "Boutique executive search specialists connecting exceptional engineering and research talent with leading quantitative trading firms and venture-backed technology companies"
+    },
+    "featuresBeforeScroll": {
+      "elements": 1439,
+      "canvases": 2,
+      "animations": 2,
+      "hidden": 36
+    },
+    "scrollReveal": 32,
+    "hover": {
+      "probed": 6,
+      "changed": 2
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 18529556,
+        "layoutCount": 356,
+        "recalcStyleCount": 460,
+        "scriptDuration": 1.484288,
+        "taskDuration": 35.366307,
+        "nodes": 2693
+      },
+      "timing": {
+        "domContentLoaded": 313,
+        "load": 320,
+        "first-paint": 252,
+        "first-contentful-paint": 252
+      }
+    },
+    "network": [
+      {
+        "url": "https://www.aspensearch.com/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 55980
+      },
+      {
+        "url": "https://www.aspensearch.com/_next/static/immutable/chunks/3910qv-cxfuqm.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 11439
+      },
+      {
+        "url": "https://www.aspensearch.com/_next/static/immutable/chunks/3k9-onrok7n76.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 779
+      },
+      {
+        "url": "https://www.aspensearch.com/_next/static/immutable/chunks/3fj3ssz0fg3bx.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2701
+      },
+      {
+        "url": "https://www.aspensearch.com/_next/static/immutable/chunks/1191lj8_x8otc.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 8997
+      },
+      {
+        "url": "https://www.aspensearch.com/_next/static/immutable/chunks/3uols5lsshuk4.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 7777
+      },
+      {
+        "url": "https://www.aspensearch.com/_next/static/immutable/chunks/07v142o5owpy6.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 66223
+      },
+      {
+        "url": "https://www.aspensearch.com/_next/static/immutable/chunks/1awbb_or03f3d.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 10764
+      },
+      {
+        "url": "https://www.aspensearch.com/_next/static/immutable/chunks/2ty-5kg0gfifh.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 35384
+      },
+      {
+        "url": "https://www.aspensearch.com/_next/static/immutable/chunks/turbopack-1lasj-s0m9fxl.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4282
+      },
+      {
+        "url": "https://www.aspensearch.com/_next/static/immutable/chunks/3pp6x3wm-14c0.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4352
+      },
+      {
+        "url": "https://www.aspensearch.com/_next/static/immutable/chunks/0ep791onj8_k8.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 9363
+      },
+      {
+        "url": "https://www.aspensearch.com/_next/static/immutable/chunks/24c0b-x81nd7z.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 11772
+      },
+      {
+        "url": "https://www.aspensearch.com/_next/static/immutable/chunks/43blnww2w7thf.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 13049
+      },
+      {
+        "url": "https://www.aspensearch.com/_next/static/immutable/chunks/1kzlwc14kitdh.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 13833
+      },
+      {
+        "url": "https://www.aspensearch.com/_next/static/immutable/chunks/3j0n5q8x41_6e.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 14172
+      },
+      {
+        "url": "https://www.aspensearch.com/_next/static/immutable/chunks/192wvzxf889qq.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 10880
+      },
+      {
+        "url": "https://www.aspensearch.com/_next/static/immutable/chunks/23mpa9zqbr_je.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 23056
+      },
+      {
+        "url": "https://www.aspensearch.com/_next/static/immutable/chunks/1grhtjjmuoyti.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 23012
+      },
+      {
+        "url": "https://www.aspensearch.com/_next/static/immutable/chunks/3ytq6bgo7g355.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 9694
+      },
+      {
+        "url": "https://www.aspensearch.com/_next/static/immutable/chunks/3rj-bmy-3duyy.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1413
+      },
+      {
+        "url": "https://www.aspensearch.com/_next/static/immutable/chunks/2fddfsh5whilj.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 10882
+      },
+      {
+        "url": "https://www.aspensearch.com/_next/static/immutable/chunks/2hn4att65jwsd.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 9085
+      },
+      {
+        "url": "https://www.aspensearch.com/_next/static/immutable/chunks/3vwd6u028p0j8.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 16408
+      },
+      {
+        "url": "https://www.aspensearch.com/_next/static/immutable/chunks/1d3p_0f9z60rw.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 7592
+      },
+      {
+        "url": "https://www.aspensearch.com/_next/static/immutable/chunks/3z5gbgxw6n3cw.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 15761
+      },
+      {
+        "url": "https://www.aspensearch.com/_next/static/immutable/chunks/3ou1g7yk-pdi6.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 12116
+      },
+      {
+        "url": "https://www.aspensearch.com/_next/static/immutable/chunks/2_v4lk4hk-xd6.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 13591
+      },
+      {
+        "url": "https://www.aspensearch.com/_next/static/immutable/chunks/0ot9po99au43b.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 12812
+      },
+      {
+        "url": "https://www.aspensearch.com/_next/static/immutable/chunks/1d39zo95bgm-4.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 18552
+      },
+      {
+        "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAAAsTAAALEwEAmpwYAAABEElEQVR4nO2Q4SuEQRDGl7vuDt2tfWeeZ3bfXiFXpyM+cEXygUKU1JVQlDry//8H2rzqyBffqPvV9MzMzj7tjnMz/hXzzrmmc64xpXO/MWiFELz3frksS1HVZGZrMcZVM1sPIax0u13x3ueh5VpDvuOca383a4pIKSIjAEdmdmJm12Z2F2O8JfkAYEzyDMB5VlW9BHCRUjouiqKqf/FBv99vA9gQkVNVvSJ5A+BJVSdmdk/yFcAzyUczm5B8IfmWcwBjERkMh8PW9AsbvV6vqE0HIYQtkjs5RGRTVfdEZB/AboxxRPKQ5EHuhxC2U0pa7/gLjXoXnaqqFrLWdTultGhmS59nOc+9eqbzk9mMP8Q7kuMfiwizXScAAAAASUVORK5CYII=",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAAAsTAAALEwEAmpwYAAABF0lEQVR4nO2SP0vEQBDF905FRXORzbz3kmwkCMFS0ErExkIQQQQtFEHQ4/BjiJWNaOE/ECvB2s8oC7GMcM1V92AYdtj5vR1mnZtqEuo55+acc/POuf64zf26rheKorAQQmVmBUmlaboGoAGQA1iuqmox5tak10nLsiwxs00Ap5KGJC/M7AzAJYArSecADgDsStojuSFpqRMYX0VyRPKV5DPJe5Ivkh4lvUn6kvQZzyQf4t0QQtUJjCNJupb0IelJ0p2k2HjbAn8kfUt6bw1H3vvQCWyaZgBgJ44p6SgGyWOS+yRvWoNhnueHAE5IbnvvB/8tZTZN05W4lL9clmWWJElmZutmtlWW5WqExHoLm3GT/jpTubH0C5g+K9AQX/3WAAAAAElFTkSuQmCC",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA2klEQVR4nO2Su0pEQRBE57KpG81Mn+rJffyCuBf9LUFMfCALfoGCsgu7RrIGgpgLpv6RDFyMTOaKiVjQ0MzAoeiqEP71jboQwmSYuo9WF2Ocuvueu/cppb6UslvfRoFzzls555mZnQBLM1sD55IOB2ibu1LKDnAs6a4CgUdgI+k0pbTd6nLi7jPgfnB3BVwDK+DGzPaHmzYBe0kPwEsFm9mtpA2wyDkftAK7GoCkS0lvwIeZvUt6Bc7qX3MwMcYpcCRpDjwDT8DF2FC+alPd1Mr8uDa/UezwN/UJM+wolz3G7M4AAAAASUVORK5CYII=",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAAAsTAAALEwEAmpwYAAABLklEQVR4nO1STUtDMRAMRa1f+HzJzqxJo0V5UEXQQ6VFq3iogoKiCH6AiFBBBf//XRaf0Iu3Hjx0YMlks8wku3Fuin+NZlEU5W/EGBctZ2u73Z7POS8452br2kbNG3+JzZVluQFgQHII4DiEsE1yK8bYJbknIl0AFUlNKa2nlDqtVivbPufsx8ycizGKiJwAuCf5AeAVwIWInKrqiOQ7gC9VfRKRS5I3AF5U9TqEMCR5WIv+AMAayXOStyLyKCIjAHcAjkyE5KcZqeobyWcReTCj2uCK5JlpjAsuq+puCOHAe7/jve+pal9VN0MIHTuzZ6tqz9rhve/brSwADADsl2VZjPewoapLlrQBGPferxi3wVh/qqpqWr4oilWrs3PjKaVg3Dk3M+FPMoWbEL4B1i0pDFoE3ekAAAAASUVORK5CYII=",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAABTElEQVR4nO3TWUtWYRQF4OdoaZiVadqAFAReRPWhYhZ4IUWFhU0kCGJZOVBiWiBCA6KCQRAU0Q+OVxbxJSZE3uWCxT5s9ll7fPnvUbHFPUGFhvCfRSs0ox0ncQwHtglXu/A3NETgMh5iAjdwDq1ojHgLDuW7no3bRQ9jEG/xLVzFMwzgaCovCftwMbwU39kk+oXimMUPbEZ4LcLFfx49GMNLzGMOr/AGd9BR334v3uEzHiXzA3zBR1zDEJ5GcCZjKZzCME7jSEaghtf4gHu4kBmWKt/jOkbxApNJNoK74a3E92cXujGODaxjEcv4hOnMsYgsYSGzfZ7RLGMl/9zPhWwtZSDOr/iedovAVZzBlYgW3sZNPE4h4+msxB6vP5tazuZJbC3+ptiusCygDSfQGXYk5uBOh30qtvkvDrva6cDrn96ePD+7ZduHP+Enjdko/GiZvloAAAAASUVORK5CYII=",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAtElEQVR4nDXQSysEABTF8d+SZmZFTNN4JdlYTWZBXkUWTDNEshiJPBoklJRPr1vH4nTqdh//c+EIt/jAO4ZYjjaxjhm0MIVpNNCMz2INC1iCJ7xggtcs38chzqM6uoU+tqMd9HCQmQIZ1cIvvOEez3jAWRZdpvaZg5XgO171m/hvatXjMWSlIq2mItzDKa4zdIdxaK4wiP5TXESOQ/UT0hMsYh6r2MBu4q3kt13MoY1Oesu7f6K6G89AbfR/AAAAAElFTkSuQmCC",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.aspensearch.com/_next/static/immutable/media/SuisseIntlMono_Regular-s.30eez2cnti033.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 13239
+      },
+      {
+        "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA1ElEQVR4nO3SyUpDQRCF4VyjUZyjQVCc53EpCA6gaxEFFRFx4/u/Qn3SUIEmO13fAz81dHdVT51Oq1Z/F8aTpso16Caj+bERmmqs6UTECXbRxzTmsIQtbBY/IuYLOWcNg4xnI2ISvVw7Uyr/4AP3uIyIKzzgDU+4ww2u0y+5W+xFxHo2WMFq2UAp+Fnxguds8I3XzL2nLXzhEafYwX6eZKM0KQW3cYAzHCfFP8dhFR9lfJF2gAUsYzH9fv0oE0m5j151N0OG41MZd/NRujX/+BetWv0C3/JmBjYbi/0AAAAASUVORK5CYII=",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAABSElEQVR4nNXSPUvWURgH4Gerb2AfISi1j5UVLhk0GL0NRaIoREbQUEvo4BDUEEUvVPQihDVHi9CiQbU0yO+KQ3dkf0yfnhrqwJnOua/zO+fcvd5/P5LswhD2YPffwEZwCIdxYGA0P7BTeIllnB0IzSYsyQq+1Hzz22i+YfswjoUkr5J8SLKxCT2D0ba312eyCVzBFGaS3Mdawe9wB0fbwfkV2nmzR3iIG5jGZdxNchvXa7a1461mS7RaYyzJC3zC+4IbNoMLuFipzyV5gqetptXuBH7Ea8xjDldxGtcq3Xk8q71jW4KdK9+r4mOYrevN1QGXKulS7R3p5x3H65qteAEP8Bg3sVgpJ7bFOuheHMEtvE2yjs9YrfTtM4Z3xDrofky2Pvze2NXkJ/tKtg16As/rAwbDOugwDtZvDo71fkZbSw39MfZPjK/Z0lEz8QuiSgAAAABJRU5ErkJggg==",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAABLElEQVR4nO3Tv0vVARQF8Pd0qQYloimCcBBpkEopgqDA2SUa9R9oCWcXawzXSAVJawupUPEfEOkHouQY6Z9yPvLNK8QrJd4QEV44y+Wec8+Be1uts/o3K0kfhnEPN3EZvTiHa7iNOxjAefTgEm4Up+H2o/1DsBovsIlXGMMFXMFjfMAqnuBqsyjJfSwWZw4jzaJjwVG8xUGSjSQPy8Fgkml8TPIFTzGEixjHesPBCu42qY4Fr+N5DSwnmcIjTGAGC4VnmKyFjdul4sxWyl8d4hv2sI0dfMZaxf5Uve0kX2v24HcOfxbsxF65WE2ye8LMymmRO/E+yRu8xrsTZmZPi9yJfXwv7P+pw2G8TLLVDTDfeTb9ddAPusStOqWjwy7Rdn1AN2j/xcdu/e91CBioxg5lw2frAAAAAElFTkSuQmCC",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAABYlAAAWJQFJUiTwAAAC1ElEQVR4nK1U2WoUQRQ1rokaNYqJCu6aaAzivi9BQSWal6jgrrgQcMEN9EUEBQVBUBAffPPPBiaV2rt6urqZTqeaPlLY4sQxYsSC+1DFrVPnnHtvTZs2xQWgxcdU7026AEz38V9eL4piDoClAJYAmF3mtkwZ8Md5URQLAGwB0ANgfsm25bdg1Wq1jTG2hhDSrZRqbwDyTDoALATQVRTFPgA7jTGrKpXKZkLISp/T9LoQYlm1Wr1MCLknpdxYnnsGi7Is2wqgF0Bfnuc38zy/qJQ6Rgi5SwgZrNVqHRPU/QCklF4ZGRl5RCnt9YwrlUprKXM9gDUANjjnhpxzA1rrvaOjoxcZY/1a6wUTpPuNlHK5UuqKlPIRY+yYUqqfc77fGLO6ZNcTRVF3FEWDxpjTQRAcDMNwyBhzyBizcAI7XylCSI9S6q1S6qsQ4jnn/DNj7E2tVjsJ4Hqe5xeMMWeUUh98hGH4xFr7yRjzMAiClU3FoZSuFkI8EEK8ZozdYoy9opQ+NcYccc6ddc6d0VqfYIy9p5S+k1Le1lq/1Fpf83Y1AXpj/eUgCAaUUrsopQOMMS/tgLV2yDP1vlFKhyml16WUO5RSu6WU3QBam6ocx3EXgPNZlt2J4/h4efGpZ22M+RIEwSsp5WnO+WPO+XAYhtsAbE/TdG1Dk/8EjaJoiXPuhJcXRdFeQsh5X3VK6VUhxEfO+Qsp5VEhxDnG2GAURb61NgFYAWBWk+Ty0I9UZxzHndbaXmvtZq31viAInmmt72ut96Rperxerx+21voRnFeOY/O0NDSyj44sy7ZnWdZXr9ePJEnyIY7jt2mangJwA8AFAMv/OHqNfgJo81KSJFlmrd0UhuENY8ylJEl2OOd8G/UDWPzX3xi+g84oGbRyzrsYY96KrvHx8Z0A/Ci2T+lfRJn8ixXtY2Njvk3WAZj7zx9tgxUzfSFKsBn/BDYZ+GQJ3wDTWwHHBIkINgAAAABJRU5ErkJggg==",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB2klEQVR4nMWUO2sVURSF483LxGcgRBF84dtGbSxUCMFGQxC0UVQQGy3ERgQRYiPEF1hoEVEEIWLQqz9AbPwft7w/4Q53mJmz1/lk4ymCoHPzAA/sZmDWXmd/6+y+vv9xgHVeaybWbDb7gf5ViwIDWZZNlGV5oqqqk3me7wSGVuQqxjgM7AduSHonacHM7gD7gMFluQVGgOPAfWBR0pcY40fgOXC22+3uAEaBRq2zVqs1XJblMWA2ic2FEKaB0yGEGeCKmV0Gjvr1+ZvTRLKRZdk2M7sFfDaz2eR0o3+PMV6SNA+8rKrqTLvdHqkVzPN8twtJ+gZcBbY6nBjjEeBFjPFncu/zHfjndV2w0+mMm9l1YEGSz2wKGAd2AQ7lq6QnyflQL0AGi6I4aGYPJP0A3gCnYoybgQNmdhf4YGa3ge21oU+D9h/vAd8lvXUgifz6GOMk8D65P1Qn5t3GQggXJL2S9BQ4B0x4LhMwn+snM3sE7O1FcEtVVZNmdhO46I6KonAgh83sWgr5fAjBG22qDXh6BWPAHs+dpGdewFwC9RqYSaAatVCWOPWn5wF/KGnRQw48DiFMpYa9if0hOpoGfx6YTlncsOKtw29RX1tO2Gv1K2yJ8Nos2OWeX3YFSjGaUyg0AAAAAElFTkSuQmCC",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.aspensearch.com/_next/static/immutable/media/SuisseIntl_Book_3-s.2gs6p4k-prhqc.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 43281
+      },
+      {
+        "url": "https://cdn.sanity.io/images/rxr9fhnm/production/f5fb3a87acdba82f53673a9c1ac410a950f974f5-100x80.svg?w=100&h=80&max-h=2048&max-w=2048&q=85&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1814
+      },
+      {
+        "url": "https://cdn.sanity.io/images/rxr9fhnm/production/9db4baa1c58e326b05ab7dd3b8dfd9561b89b12d-100x80.svg?w=100&h=80&max-h=2048&max-w=2048&q=85&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1250
+      },
+      {
+        "url": "https://cdn.sanity.io/images/rxr9fhnm/production/9af40fc280bfd39303f6a129a6c012d40a2c899a-100x80.svg?w=100&h=80&max-h=2048&max-w=2048&q=85&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1269
+      },
+      {
+        "url": "https://cdn.sanity.io/images/rxr9fhnm/production/97eb1b906686744b41f3a6f9198440655449d9bd-100x80.svg?w=100&h=80&max-h=2048&max-w=2048&q=85&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1915
+      },
+      {
+        "url": "https://www.aspensearch.com/_next/static/immutable/chunks/3rchs__jtmfi3.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 5406
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2236%22%20height%3D%2236%22%20viewBox%3D%220%200%2036%2036%22%20fill%3D%22none%22%3E%3Ccircle%20cx%3D%2218%22%20cy%3D%2218%22%20r%3D%2218%22%20fill%3D%22%23191919%22%2F%3E%3Cpath%20d%3D%22M27%2025.0945V25.1298C27%2025.4213%2026.9945%2025.7111%2026.984%2026L25.3718%2024.5773L23.2646%2022.7185L22.4211%2021.9743L22.1103%2021.7L20.739%2020.49L19.9411%2019.7862C19.5181%2019.413%2018.9918%2019.1791%2018.4348%2019.1292C18.2918%2019.1163%2018.1468%2019.1099%2018.0004%2019.1099C17.5083%2019.1099%2017.0335%2019.1838%2016.5856%2019.3223C16.3102%2019.407%2016.045%2019.5158%2015.7928%2019.6465C16.1297%2018.9706%2016.3195%2018.2057%2016.3195%2017.396C16.3195%2016.5864%2016.1297%2015.8211%2015.7928%2015.1456C16.4557%2015.4892%2017.2059%2015.6826%2018%2015.6826C18.7941%2015.6826%2019.5447%2015.4892%2020.2076%2015.1456C19.8707%2015.8215%2019.6809%2016.5864%2019.6809%2017.396C19.6809%2017.4008%2019.6809%2017.4059%2019.6809%2017.4107C19.683%2018.1979%2020.028%2018.9435%2020.6116%2019.4581L23.2667%2021.8006C23.2194%2019.0209%2022.678%2016.3641%2021.7279%2013.9172C21.6709%2013.7697%2021.6119%2013.6231%2021.5516%2013.4774C20.6652%2011.3289%2019.4612%209.3506%2017.9996%207.60281C16.538%209.3506%2015.3336%2011.3289%2014.4476%2013.4774C14.3877%2013.6236%2014.3286%2013.7697%2014.2717%2013.9172C13.2769%2016.4798%2012.73%2019.2728%2012.7295%2022.1957V22.1987C12.7295%2022.372%2012.7312%2022.5453%2012.7355%2022.7177L10.6282%2024.5764L9.01602%2025.9991C9.00548%2025.7106%209%2025.4204%209%2025.1289C9%2024.2565%209.04892%2023.3953%209.1438%2022.5487C9.17037%2022.3101%209.20031%2022.0727%209.23489%2021.8363C9.72111%2018.4529%2010.9453%2015.3146%2012.7363%2012.5964C12.902%2012.344%2013.0732%2012.095%2013.2487%2011.8504C14.5028%2010.103%2015.9977%208.54657%2017.6841%207.23261C17.7854%207.15393%2017.8866%207.0761%2017.989%207H18.0105C18.1126%207.07653%2018.2142%207.15393%2018.3154%207.23261C20.0018%208.54657%2021.4968%2010.1026%2022.7509%2011.8504C22.9268%2012.095%2023.098%2012.3436%2023.2633%2012.5964C25.0538%2015.3146%2026.2785%2018.4529%2026.7647%2021.8363C26.7988%2022.0723%2026.8292%2022.3096%2026.8558%2022.5483C26.9494%2023.3833%2026.9979%2024.2324%2026.9996%2025.0932L27%2025.0945Z%22%20fill%3D%22%23FFFFFF%22%2F%3E%3C%2Fsvg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2236%22%20height%3D%2236%22%20viewBox%3D%220%200%2036%2036%22%20fill%3D%22none%22%3E%3Ccircle%20cx%3D%2218%22%20cy%3D%2218%22%20r%3D%2217.25%22%20fill%3D%22%23FFFFFF%22%20stroke%3D%22%23191919%22%2F%3E%3Cpath%20d%3D%22M27%2025.0945V25.1298C27%2025.4213%2026.9945%2025.7111%2026.984%2026L25.3718%2024.5773L23.2646%2022.7185L22.4211%2021.9743L22.1103%2021.7L20.739%2020.49L19.9411%2019.7862C19.5181%2019.413%2018.9918%2019.1791%2018.4348%2019.1292C18.2918%2019.1163%2018.1468%2019.1099%2018.0004%2019.1099C17.5083%2019.1099%2017.0335%2019.1838%2016.5856%2019.3223C16.3102%2019.407%2016.045%2019.5158%2015.7928%2019.6465C16.1297%2018.9706%2016.3195%2018.2057%2016.3195%2017.396C16.3195%2016.5864%2016.1297%2015.8211%2015.7928%2015.1456C16.4557%2015.4892%2017.2059%2015.6826%2018%2015.6826C18.7941%2015.6826%2019.5447%2015.4892%2020.2076%2015.1456C19.8707%2015.8215%2019.6809%2016.5864%2019.6809%2017.396C19.6809%2017.4008%2019.6809%2017.4059%2019.6809%2017.4107C19.683%2018.1979%2020.028%2018.9435%2020.6116%2019.4581L23.2667%2021.8006C23.2194%2019.0209%2022.678%2016.3641%2021.7279%2013.9172C21.6709%2013.7697%2021.6119%2013.6231%2021.5516%2013.4774C20.6652%2011.3289%2019.4612%209.3506%2017.9996%207.60281C16.538%209.3506%2015.3336%2011.3289%2014.4476%2013.4774C14.3877%2013.6236%2014.3286%2013.7697%2014.2717%2013.9172C13.2769%2016.4798%2012.73%2019.2728%2012.7295%2022.1957V22.1987C12.7295%2022.372%2012.7312%2022.5453%2012.7355%2022.7177L10.6282%2024.5764L9.01602%2025.9991C9.00548%2025.7106%209%2025.4204%209%2025.1289C9%2024.2565%209.04892%2023.3953%209.1438%2022.5487C9.17037%2022.3101%209.20031%2022.0727%209.23489%2021.8363C9.72111%2018.4529%2010.9453%2015.3146%2012.7363%2012.5964C12.902%2012.344%2013.0732%2012.095%2013.2487%2011.8504C14.5028%2010.103%2015.9977%208.54657%2017.6841%207.23261C17.7854%207.15393%2017.8866%207.0761%2017.989%207H18.0105C18.1126%207.07653%2018.2142%207.15393%2018.3154%207.23261C20.0018%208.54657%2021.4968%2010.1026%2022.7509%2011.8504C22.9268%2012.095%2023.098%2012.3436%2023.2633%2012.5964C25.0538%2015.3146%2026.2785%2018.4529%2026.7647%2021.8363C26.7988%2022.0723%2026.8292%2022.3096%2026.8558%2022.5483C26.9494%2023.3833%2026.9979%2024.2324%2026.9996%2025.0932L27%2025.0945Z%22%20fill%3D%22%23191919%22%2F%3E%3C%2Fsvg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.aspensearch.com/_next/static/immutable/media/SuisseIntl_Regular_2-s.0q_h9x_e1ydmp.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 66813
+      },
+      {
+        "url": "data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAUABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAcGBf/EACYQAAEDAwQCAQUAAAAAAAAAAAIBAwQABREGBxIhE1ExFEJhgbH/xAAXAQADAQAAAAAAAAAAAAAAAAADBAUB/8QAHxEAAgEEAgMAAAAAAAAAAAAAAQIAAwQRURIhM3Hh/9oADAMBAAIRAxEAPwDcbo2WFF0zCusRjxXV5RaBfnv3+ql10aucS9w4j80pTEkcgZJjB+q7u8Gq7pEkWth1sWhYdTgyhZX13WM1lfJIX2zgZqLAmL3JVqcE5jpcfIUpTKHcpc++XaH9PH8wB42RTiHwlKMsszm0eYbQgX7s55fmlGFJcTA7Ykx3LcOTrYUeJSRXUXus5uKPC5ROKrhA67pSqNPwH3ELjq8UDUpmjpjzdgjCJ4TCfxKUpReI1FWdgSAZ/9k=",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAIAAAAmMtkJAAAACXBIWXMAAAsTAAALEwEAmpwYAAACaElEQVR4nF2SS0vjUBiG8xcEcVXRVWchOF24y1ARBCmMUFtdCArWhdv2J1gpqBR3XZhqU6wOXbRdOFAVRDHUC7hrq5l0QrEyNjnXnDT1Bww58TLMszlw4P3e5/Adods1TNMEAEAAMEIYY0qpaZrXtdrhYaFareq6zhjr9Xo2c7Ft97Q4gpuELhghSgillDGm63qpVJJl+eTkpNFoYIydfr/nYb9NYYwJAADkFRLCLMu7bTabec75+XmjXscI9V9f+xzHcdwJXECAECKECCEW7/RQHx8LhUJWks7Ozn6pKiXES37mbTcvIFcYEy5svTdrmibL8vb2drlSUVXVopSH+q99t9959xfgP9oWpRjjdrtdrVZTqVQymTw4OLi8vPzdahFCnJ7zn7lgGsZH/uXl5e7uLpvNxjmSJFUqlf29vdz+/u3tLYTQ4Xy+udvtGoYBADBN8+bmOplMzs/PT09Px1ZWyuWyoiibm5uxWGxnZ+fh4cG27TdlvjDhD8cwjFartbu7Ozv7XRTF4ORkJBKRZVlRlFQqFQ6H4/G4cnVFXfm3sNv89PTU6XSen59rtVoikZiYmAgEAqIozszMbGxsnJ6eptPpubnw6urqz+NjCMBHLbOYoOt6u93WNK1YLEajUf8X/8jIyNjYmPhNXFtbKxaLmUwmGo0uLCzk8/lOp2MzZlGLcgRVVTVNu7+/39raCgaDo6Ojg4ODw8O+8a/jkUgkK0m5XG5xcTEUCqXTaW/nmIMQEur1erPZvLi4SCQSgUDA5/MNDAwMDQ35/f5QKJTJZH4cHS0vL01NTa2vr3tfFSGEIIIQ/gXJ70Wk1g04EQAAAABJRU5ErkJggg==",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAAsTAAALEwEAmpwYAAACxUlEQVR4nF3RwUsiURwHcP+N3a6VQeQpgo1NC3JRWoIueYiykbGZLJ2a0BpLG0iTcLaJLI2ILWgKuiR1KSmSCJKI6tgmRDIbwajlzNOZ8bjoVLZ9D++dPu/33vep5E+RSkuhUGBZ9uzsLBaLXV1dcRxXKBTy7wF5AAAQBNV/sBxRFFmW3d/fpyjK7/eHQqF4PM6l0x99GYPPWJbl52z2+OjI7/MFAoFQKEQQhN/vv7y8BIKg6PLUUlTFYokV5fImSbIk/bm9pYJBm822tLS0s7MzMTHR09OzxTAcx4miCN6iYIUrR8iFfD5+coIiCARBi4uL67/XMQxrb28nSTKZTL5jobyqXmcquFgEABwcHEAQNDg4uLKysra2huO4VqtFUfT6+loUxdcHv+FKinIxl8vt7e319vb29fXRNL28vIyiaFNTEwT1JxKJj20BUG5bKVm5diqVomlap9O2tra63e7A7GxXV1d1dbXRaNje3np6eiphQVAaUylSkqR8Pp/JZE5PTxFkoLa2prGxcXR0ZHraazAYqqqq6urUdvvw+fl5LpdTJlcwAOD+/v74+IiiKKPRUFtb09bW5pmaoul5i8VSX1//9esXrVYbDocfHh4qXyWJoiRJmXQ6Ho8Hg0EYhltavmsaGn52dPh8vi2GCVLBzs5OtVqt0WgcDsfFxQXP8xUsiuJflo3u7no8nn6zWa/X63Q6U3e31+NhGGZjY8NuH/6h1zc3fzP3m2OHh8/ZbGk0z6uU9pN3d8zmJkEQNpsNhmErDA8N2Vwu18LCQiQSdhMEDMMmk8k6YI1GoxzHAQB4BQs8f3NzE4lEMAyz2+0kSfpmZiYnJ51Op5sgvF7P+LgLx3EURVAUYRjm8fHxFUuSlHt5SSQSvyjKCsMois7NzdHz8yRJOp3OEQzDHA4cHx0bG0MQxGKxrK6uplIpULo1/w/sD3q55L+YjgAAAABJRU5ErkJggg==",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAABYlAAAWJQFJUiTwAAADFklEQVR4nJWU3S/bURjH/TnipUQbraqLtomXhBCZvkRMMiqECRLtuqRdaa26UEr1hrSYKiYxQ0TccbUyS7RBRMTiRkP6ou2vvfsu57Etk7HZxZPf7+Q8z+d8z/NyMlKpFB6zWDSG/f19DA4OQqVSobW1FXNz73F+fo5EMvGHfzqdRgbHcXjIEokEgoEgLBYLSktLUVhYCLlcRtCVlRVcXV0RhPsthq0fBLKNcDiMT6uraGxsRG1tLYF0Oi1ev9ZjfHwcwWAQyWTy30DmxDZCoRCWlpag1+sxNDQEr9eL1Y+rWFhYhNvtht/vx+3t7T2Vf1XIgJubm6RmwunEzPQ0lj8sw+dbwOLiIg6+HFCOU08BMru5ucHO7i48Hjfsdjsco6OkbGZmBmtrazg6OkIsFvu/HH72+zE/Pw+n04l3NhscDgempqawvr6Ok5OTpwM5jqP8BIJBzM7Oor+/HzqdDiaTCQMDA/C4PQgEAuTDPQ2YpD47PT2Fy+VCc3MzOjs7YTabYTQaMeYYw+HhIbUWdw/4SB8m4nFcfLvA1tYWzOZ+KBQKKBRKtLS04GVHBwYsFmxsbNC1Q6EQ4vE4xaUfUhgJh+k6k5OTaGtrI3WaZg3UajUaGhrQ09MNbW8vKTaZ3sDn85F/NBq9f2XWf+y0nZ0dWK1WVFVVIT8/HzKZHO3tHTCZ+mAftsPlmkB3dzekUinEYjE1vX14mKrOGL+A19fX2N7ehlarpVFjsMzMTOTm5qK8vAJdXV2w2Wzo6+ujFLBRZD4CPh8qpZLGkXUGAVm12CNgMBjoZObI4/HIsrOzCVpcXIyKigqUlZWRMj6fD6FQCJFQSAJGRkdweXl5B2SDPuf1oqamhiBZWVnIyclBXn4eGfvPYmAeDwUFBRAIBAQUiUSQSIohl8thMBpwfHyMDFb6s7Mzmld2EnNkQT8DmDKxuIj+RUVFkEgkKCkpIZPKpCgvL0NlZSX0+lf4enCAjEgkQi8HG6/6+npSWV1dTd+6Z3X0DqrVKiiVCiiVyh9r9V3VnzegqekFNBoNrNa32Nvz4zsYKf4EncT6pwAAAABJRU5ErkJggg==",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAABYlAAAWJQFJUiTwAAAD8klEQVR4nHWU3S+jWRzH+18YVFstoQgd42qNDoppJxIrXNhJZCcxV1KZTbors0gk3UhqRlCsotWqTZBZW9raTiReQiw340LERLwE4/21T19U776T82trarN78cvz5DnnfM73+3x/5/ACgQBub28f1PX1NdbW1jA15YRtwobl5WUcHR3B4/HA6/VSsXcqjgPn5uB2u8FxHHh3d3dg0EAUbGFhAY2NjSgrK4NSpURNTQ1MJhM+f96ghdFAjgG5EPDm5ga8YBTQ7/djfX0d2t+0KCwsRGZmJqRpUqSnp6O0tBRWqxXHx8fw+XzfFHpCUPdNGBhRyJ7sg8vlwpuf3qC2thZv3/4KjeZn/PDyJUpKnqOlpQU7OzshIMfBGwG6/wd4cXEBh8MBna4Vg4NmOBxOOOwOdOr1UKvrYDAYsL+/f68wYt3NuUPA67Dluyjg7OwsBgcH0dfXRxb//PABbW1taGpqwsSEDaenp/D5/A/C4aItB4NBgrE6Pz/H0tI/GB8fh3HASFCLxQydTkd27XY7pe3z+0jlfTgcsx1S+QB4eXmJT59WMT09jSnnFAEYPKLY6XTiy5cDgvm8YSAXVkjAaIWBAE3Y3t7GzMwM7HYHJicnMTY2BpPRRPaXlpZwcXFO3RCtkItqHV7wLkgwFgybuLe3h79dLlgsQxge/gNmsxldXV0YHR3F5uYmASIwVhz3H0Dqw0AAJycnFMrQ0BB+7+2F0WhEf38/Ojo6YbPZcHBwQJv+W6EnXCFgMEgnhDUsaxmNRkPV0dEBQ28v2tvb8e7de4yMjGBxcREbGxsUzNXVFanyRDc3A7Jdtra2yFLN69fIycnBs2dy1Nf/gmGrFRazhfpvYGCAWqehoQGGPgMFtrq6irOzs4dAdm71ej2qqqoge/wYIpEIYrEYSuVzdHZ24qPrI/6y2dDT04Py8u8hk2UhT56H8vJyNDc3Y2Vlhc4/A1If1tXVQalUIisrC0lJSUgQCMDn85GSkoLq6mpKeW5uDt3d3VAoFBCJhLRhcnIyCgoKKLDd3d1vQDYpIyMDEomE1PET+ARk4Cc5T8gm60umNvfp03sHiYmJSE1NxatXP2J+fp5UUmPL5XIaEAqFBIqLiwsBExJoEbvCWNKtra34LjcXQpGIvjMwW5OXl0fjh4eHdEnw8vPzkSoNARksJiaGnoKwdZlMRqlrtVqwuQwmFIpow/j4eBLDxtmFTKEUFRWRZWZDkCDAo5hHiI2NpQ3YIvYrKisrUV9fj+LiYkgkSQSMuGHzKioq6NpjrcRTvXiB7OxspKWl0Y9myhhILBFTMWBJcTHUajVUKhWkUimFxywLhAJSrFAU0oliN9FX/hGFy4pk5IcAAAAASUVORK5CYII=",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEB0lEQVR4nFWSfU9aZxyGz7cx/QbaOENItqKGZMpAg6IkqwTEWIpUChWLAgWdpDqJGuJrnEtNOnzhYEQTdFE3UAko1lNAD4fz9pxX4CMsQG2y+6/nnyv3/Vz5Qfl8Hn1Ei8UiQRA0RQMAGIbhWJbjOL4WgRdqqb45jmMZBtA0QRDFYhFCURTDMIIgKIpiAMMyLMuyPMcJgiA+pfT0EGo8wzAURREEAWEYhuM4RVEAgCrGctUOjiNJslAo4DjO83zpKaIoCkKVBwBQFAV9G0zTDFMt5TmeY1kEQY6Ojv76/Png4OD29pZl2XK5XH7ieZ5nGZamaQjHcZIkv8OiIOI4Hg6Hp6am3C6X3+8PhUIoilbKT7hYEgSBZVlAAwgnCJKiAE2zVU+cKIooim5/+uR2u3+bnp6fn9/e3kYQpFQqVcqVcqlcn15f/r9mruapiOMRODIzM+P1ehcWFmAYzufz3+BytVwUxao2AKrCCBynvwvjeQBA/N/43Ozsm9FRn8+3s7ODIIgoipVKpa5NEASOrTVXlRaLJEkCugpzHEfT9GUi8fvcnM1m8/l8S0tLkUgkm81SNF03z/M8wzBVYY+Pj1ihULsQiqaobDZ7EostLi6azWaL5c3k5KTdbnc6ncvLy5FI5O4uAwCof5gkSSiXzT4+PGAYRhJELpuFYdjv9xuNxq5aNBpNT09Pf3+/yWT68METCoUQBGEAoGtHBiH3SJ0voGg8Hl9eWfF4PCMjI339fVKptKWlpatLNTQ0NDExMfvx49bWH/9cXGAFjCIpvIhDd5nM/f19LpdD7pHd3V2X2z1qtQ4NDfVqeltafmhqaqrD4+Pj/pmZQCDw59bW9dU1hmGFQgFKp9OZ29uvCJJKpTY3N8ccDvPIiF6v/0WpfP68qbm5WaFQDLx8+dpkslqtDodjfn7+NBbL53IPDw9QMplMpVKZ28z5+XkwGBx//95qtVrfvh0YGJBKpXK53GAwOMbGfF6vz+ebnp5eXVn5+/T0K4LkcjkokUhcX18nk8m9vb137+y9vb1qtXpwcFDTp5FIJJ2dnQaDwWKx2Gw2u91us9mmp6bC4f36WOjs7Cwej19cXKyvrxsMhh9rUalUL1781NjY2N7erlQqFQpFR0eHUqnUarVOp3N/fy+dTn+5u4NOYrHzs7OTk5PV1VWLxdLd3a1Wqw0GQ0fHzzKZTKfT6QZ0SqWqs7NTpVJptVqPx3N4eJhOp29ubqBoNBqLxY6Pjzc2Ntxu9/Dw8K+1tLa2ymQyk8lkNpv7+vp1Ot2rV8Nm82uv1xsOh5O1QDAMR6NRGIaDwaDL5TIajQqFQiKRNDQ0PHv2TCaTyeXytrY2vV7v8XgCgcDa2lo0Gr26urpMXP4H0BNIWvD30XEAAAAASUVORK5CYII=",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsTAAALEwEAmpwYAAADVklEQVR4nGXTT0zabBwHcO6+QiktB+qBXd6DcTvqzUQjybvEm8bo65REwg4QWCQvxCZwkEQ3vOyNBMQYNMFiJFsUdbxJI+ZdQEPqn0hiyMTT3g0BXddSW2i5vWnLpO/e7+k59NPv0+f5VSUIAs/zfENK/edwHMey7IMcpp0aLUYltHSbkyR5c3NzcXFxfn5+fX1drVZpmpbwg+Sk0DRNURJucfEFd3d3h+nDQCDgcrlmZ2cXFha2trZyuVy5XGZkLHta5Kpms/mI6xx3dnbm9XpfTE6+tFptNpvFYjGbzV6v9/j4mKJpRt77j+42FgSBYRgcx91u99LS0sHBQSqVCofDFotldHQUi2P39/csy7a721jghaaIM5nMysoKjuPFYvHy8nJnZwdF0fHx8eh6tFqpPGK5vIXlcBx3dXWVSCSSyWQ2k0l9+LC2tubz+Ww2WzyOVX7Cj82t+6rX//n8+a9UKo7F3797txWPx2KxYDDo9/v39vbuqlXltpW4ddskSebz+fRhOpFIrK+v7+7uxjHsz7dvj46OSJJkf1z2f75Zxo1Go1arFYtFHMdDodDi4uLy8vJSIBB48+bk5ISmKMn977Qfb4thmHw+v7q66vP5UBR1OBwTExNu9x+5XE6ejlqtpsSCsplj2etPn1bCYbvdbjabnz//rb+//9UrZzqdLn0tURQlu9Z4KprF2WzU69VKZX9/3+l0Dg8PDw0NTU1NvX69GIlEMAwjCKJcLkuQppRD0mg0GIb5+uVLNpMNhUIoino8Hr/fH41GI5HIzMyMyWSy2+3b29uFQuHbt3tFM89T37+fEqfBYHB6elp6zraxsZFMJmOxmMPhePbsKQTpjEajyWSan5//++PHUqmkagpNgRfYh4dTgvB4PL29vV1dXQiCDAwMuFyuubm5sbGx7u5uEATVarVGo4EgqKenx2q1bm5uqgRxqIXb29twKNTX1wfBkBgYRhDkVykGgwHQAhqNGgA0Wq0W0AIAABifPBkcHFTJx1UoFJxOp9Fo1EGQXq+HYBgEQa0ispEXGikgCIr/M8/zBEFMTv6OIAish2G92K7T6aQ9iAv5RaIGRKmW0tnZKR4Yz/PZbHZkZMRgMOj1ehiGdVJkrJRqjWh+kdLR0fEv/iEWb3AGjwgAAAAASUVORK5CYII=",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsTAAALEwEAmpwYAAADqklEQVR4nFWUTU8iSRjH+SRGP4AHL7OJNy6cdDiwsBfUOHEQBzcKERfdHrKzaDxwgDBqRneiJDsmcnCdDVlhwbcT48tscDOCgtDV1fXSVdXdfIZNd+/qzpO69OH3/Ov5/59ql6qqGGNCCGNMF8LQDdOwjmEYlFIIoaZp9pdh6Iau65xzSilCCELocmBN04Tghq5bsGlSSq+urvL5fCaT2d/fr9frmqaZdk9d1xljBGOkqi6EkCMrhNBtWFVhuVSORqPDw8ODg4Mej0eSpNPTU0KIaZiP4hjjr2BD1ykhR0d/hEKhoaGh/v7+vr6+gYGBb549kySpXq87sBBC0zRCiAupiGDCNCY4Nw3jrtlcWVlxu90ejycYDE5MTPj9/ufPR2dnZ8vlMmPMNE0hBGOMUvoEc851Xa/VanNzcz6fLx5fyGaz21tWbW5ubmxsFItFCGHP7P0Hay70ZJjgnFer1XA4HAwGE4kfMplMPp//1a69vb1yuQxk2bq50Dnjmqb9322rX6lUCoVCIyMjXq93ampqZSX1WpLm5+fT6XS1UlEhNG3DObdhCCFCiFIqhMAYHx4ehsPh0dFRt9vt8/kSiUTk1Su/3/9akk5OTgjGxlewoiBVJZhwzgEAex8+zH4/O2NXNBrNZLLpdHp5eTmXy52fnyOEDMN4MkxRFOfmjDEI4e8fPy4tLSUSiTdvfkomk7lcbmdn5/0v7wuFwuXFBcb4UdaKSpZlqCgYIUqIRulfnz+/ffs2Ho/HYtFwOByLxdbW1rbevSsWi81Gw1oHLpjGCCEIIVe32wUAqNAW1zRZlg8ODhYWFiYnJ8fGxl6+nFpcXMxms9VKRQGAc/4vqdq73el0HHF7cowQqlar8Xh8bCz44sVkJBKRfpS2t7YvPn1yQnEWE0KoAMXVbrc7nQ4AwLJdVVUIK5VKLBYLBALj4+ORSCSVSv12cHB/d0fswhirqgoAkGXZ1Wq1Hh4eZFlWgAIhbLVahUIhHA57vd5AIDA9Pb26ulo6OgIAOCZh+zECWe52uxbcsWBrclmW/765ye/uzszMfOvzffcIl0oqhFbCQjC7hSPukrtdaKelKEq327398qVcKq2vryeTyaVEIpX6eXd39+ryUqO0Z/Z6vZ61YcJ6WIwxF8aYUuo0k2W5dX9/c3NTq9XOzs4qf1aOj4+vr68BANazE8LaENtwXdd7Zs9FCLENtHJTAGi3Wo3b20aj0bKr2Wy2220IIUbWr8oZ28mVc/4P30CHiUJq3/QAAAAASUVORK5CYII=",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsSAAALEgHS3X78AAAEjUlEQVQ4jSXSW08TCRgG4PklmhitUrCHmWStUEpLB9eNpdGoy5oIJsQLI0i98BCJyMYINrE3GjFbt8thgZKVShdatpRCazs9zkydEy3TmSmdnhFpKf9gg7x5b598yZcX8Hq9/kAgEoniOE7TdHp7O8NxQjaby4k58ag7uZyQzWY4LpVOkySFYVgkGv0SDPo2NgC/34+EwyiG0TTNsmw2m83nC6KYpxkmFEIQJMwwWzlRFMU8zws/PIliWDgcDgQCQCgUiicSJEWxLLuTy5VKpUqlSpDkH1bro0ePnz59arPZSJIslcuFQoEXjjxBkvF4AkEQIBqN4snkViolZLOFYvHb3l6xVHI4Pg8+eDBwf2BwcPDhw4cOx6Io5qu7u2I+n+E4hmEwHI9Eo0A8HicIgs1kxHy+Uq3W6nVRFCenpp49G/748U+b7a/R0dHJyUleEL7v75dK5Wx2J53e/koQ8XgCSCRQiqI5nj8+22g0KpWK2706MTFhty8sLTntdvvm5mapVK7V65VqNSeKLJuhKArFMABFMZpmBCFbLpe/7+83Dg8PDg5oml5YWJiamvr0zyefz8fzfL1+UKvXd3e/5QuFTIajaRrDcQBF0WNcqVT2a7XDw8NGo5FOp+12+/v376enZ7xeL8dxtVq9Xj/Y29srFIscz9MMgyeTQCKRIEmK54VyuVzd3RUEIYQgMzMz7969s1qtf//I/Pz8xsZmKpUqFIuFQpHnBYbZOsKxWIwgiEyGE/N5DMcnJibu3r178+bNkZGRxU+Lnz8vjY+P9/b29vf3WywWBEF2dnIcx9M0g2E4EI5E8GSSZdmtrZTNZrt69apcLtdoNCMjI26X2+VyvXjxAobhCxcuXL9+3Wr9SDMMx/EUdTQ1IBgMoSiWSqX9fv/Q0BAEQU3SJq1W+/LlS6/Xu7q6Ojw8DMOwSqXq7Ox8/PiJPxDYZlmSohIoCvgDgUQCJQhydna2u7v77Lmz55rOtanbnj9/vu5dX1leMZlMOp2ura2ttbX11q1bc3PzJEV9JYhoLAb4fBuxWDwSiZjNZpVKdfLkydOnT0MQNDAw4HQ652bn7ty5o1arVSqVQqHQ62Gz2RwOh3E8iYTDwNraGoKEPR7P0JCppaXlxIkTp06dkkqlN27c+PDhg+WNxWAw/PQjMplMpVKZTCaX2x2Lx78Eg4Db7fb7/XPz8z2/9jQ3N0MQJJfLJRKJRqMxDZnu3bvX3t4OQZBOpzt+W89vPVPT08FQaNPvB5aXl//zeN6+favX60EQvHbtWkdHh0QikcvkMAzr9XoIgkAINBqN/f396nZ1Z2fnmzeW9XWfz7cBOJ3Of5eXx8bGNB0atVrd19en0+kkEklTU5NCoQBBUKlUgqDyyhXD/YGBrq4utVo9Ovq7y+32eNaAxcXFpaWlsbFxvR6GYfj27dutrW0SiUTa3CyTyUAQhCBIqVRqtdrevr7Lv1yGu+BXr16trLhcLhdgt9sdDsfr1+ZLl37WarVGoxGEwDOSM1Kp9Pz5lmOsUChUFy92G416vd5gMFgslpUVl9Pp/B8fh9qq8GQmWQAAAABJRU5ErkJggg==",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://cloud.umami.is/script.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3453
+      },
+      {
+        "url": "https://www.aspensearch.com/_next/static/immutable/chunks/0232gfqkb2veq.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1862
+      },
+      {
+        "url": "https://www.aspensearch.com/_next/static/immutable/chunks/2ias-i248vbtc.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 239311
+      },
+      {
+        "url": "https://www.aspensearch.com/_next/static/immutable/chunks/34id8vqyarpot.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 111872
+      },
+      {
+        "url": "https://gateway.umami.is/api/send",
+        "method": "OPTIONS",
+        "type": "OTHER",
+        "initiator": "preflight",
+        "status": 200,
+        "mime": "",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://gateway.umami.is/api/send",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 654
+      },
+      {
+        "url": "https://cdn.sanity.io/images/rxr9fhnm/production/984e2dddf5e6c4e2b1c4bde6d05650ffd18867d2-320x320.png?w=320&h=320&max-h=2048&max-w=2048&q=85&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 6418
+      },
+      {
+        "url": "https://www.aspensearch.com/_next/static/immutable/chunks/0iw2ssas44-48.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 5364
+      },
+      {
+        "url": "https://cdn.sanity.io/images/rxr9fhnm/production/5ad3ad0420927d47a3261b187ce0e84d89f8bb92-1280x348.png?w=1280&h=348&max-h=2048&max-w=2048&q=85&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 10804
+      },
+      {
+        "url": "https://cdn.sanity.io/images/rxr9fhnm/production/fa4b699af304c0a34367428ad309bd14bc16699a-1536x1024.png?rect=1,0,1535,1024&w=1000&h=667&fm=webp&max-h=2048&max-w=2048&q=85&auto=format",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 29491
+      },
+      {
+        "url": "https://cdn.sanity.io/images/rxr9fhnm/production/9323703b796fed9cae6a750a2f02fb377984368e-1447x1087.png?w=1000&h=751&fm=webp&max-h=2048&max-w=2048&q=85&auto=format",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 30419
+      },
+      {
+        "url": "https://cdn.sanity.io/images/rxr9fhnm/production/a1a1333de76fb2b9956fd07906dec52acc5b1c15-618x516.png?w=1000&h=835&fm=webp&max-h=2048&max-w=2048&q=85&auto=format",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 25152
+      },
+      {
+        "url": "https://cdn.sanity.io/images/rxr9fhnm/production/3dedfcc7fd604c30f42ed035357542b106f902b7-518x514.png?w=1000&h=992&fm=webp&max-h=2048&max-w=2048&q=85&auto=format",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 28091
+      },
+      {
+        "url": "https://cdn.sanity.io/images/rxr9fhnm/production/ceccef76e00a62a6a239aa367378db80865ee842-1254x1254.png?w=1000&h=1000&fm=webp&max-h=2048&max-w=2048&q=85&auto=format",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 73315
+      },
+      {
+        "url": "https://cdn.sanity.io/images/rxr9fhnm/production/41ff53823df89f3f3cc58c68acd19f1318e57b06-1254x1254.png?w=1000&h=1000&fm=webp&max-h=2048&max-w=2048&q=85&auto=format",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 37138
+      },
+      {
+        "url": "https://cdn.sanity.io/images/rxr9fhnm/production/d2daca672e27ee661c38cfe5cb5e4169b0f8c0f1-1254x1254.png?w=1000&h=1000&fm=webp&max-h=2048&max-w=2048&q=85&auto=format",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 41706
+      },
+      {
+        "url": "https://cdn.sanity.io/images/rxr9fhnm/production/f3b87f2487fff100d177ce92d873ff06d5df50dc-1254x1254.png?rect=181,22,894,810&w=1000&h=906&fm=webp&max-h=2048&max-w=2048&q=85&fit=crop&auto=format",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 41986
+      },
+      {
+        "url": "https://cdn.sanity.io/images/rxr9fhnm/production/6db00f8797c1f32da8da99a207602bbb5fd892a0-200x200.svg?w=200&h=200&max-h=2048&max-w=2048&q=85&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 4675
+      },
+      {
+        "url": "https://cdn.sanity.io/images/rxr9fhnm/production/c5ef32fa13e9d88d780cc4765eb7eaa24d646716-800x800.jpg?w=600&h=600&max-h=2048&max-w=2048&q=85&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 29007
+      },
+      {
+        "url": "https://cdn.sanity.io/images/rxr9fhnm/production/fa4b699af304c0a34367428ad309bd14bc16699a-1536x1024.png?w=1440&h=960&max-h=2048&max-w=2048&q=85&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 34510
+      },
+      {
+        "url": "https://cdn.sanity.io/images/rxr9fhnm/production/9323703b796fed9cae6a750a2f02fb377984368e-1447x1087.png?w=1440&h=1082&max-h=2048&max-w=2048&q=85&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 38802
+      },
+      {
+        "url": "https://cdn.sanity.io/images/rxr9fhnm/production/a1a1333de76fb2b9956fd07906dec52acc5b1c15-618x516.png?w=618&h=516&max-h=2048&max-w=2048&q=85&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 10693
+      },
+      {
+        "url": "https://cdn.sanity.io/images/rxr9fhnm/production/3dedfcc7fd604c30f42ed035357542b106f902b7-518x514.png?w=518&h=514&max-h=2048&max-w=2048&q=85&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 9258
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "marqyL",
+        "duration": 0,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "marqyL",
+        "duration": 0,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 500,
+        "delay": 150,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 800,
+        "delay": 80,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 500,
+        "delay": 150,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 800,
+        "delay": 80,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 500,
+        "delay": 150,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 800,
+        "delay": 80,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 500,
+        "delay": 150,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 800,
+        "delay": 80,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.87, 0, 0.13, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.87, 0, 0.13, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 300.00000000000006,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 300.00000000000006,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 500,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 600.0000000000001,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 700,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 650,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 300.00000000000006,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 500,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 600.0000000000001,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 700.0000000000001,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 800,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 900,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 1000,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 1100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 1200.0000000000002,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 1300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 1400.0000000000002,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 1500,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 1600,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0702000E4170000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x297c00a5c000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x297c00a5c000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x297c00a5c000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x297c00a5c000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0003502E4170000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0009707E4170000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0B0660BE4170000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A080270FE4170000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      }
+    ],
+    "exceptions": [],
+    "failed": [],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 8261,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 1560,
+      "typography": {
+        "families": [
+          [
+            "suisseIntl",
+            103
+          ],
+          [
+            "suisseIntlMono",
+            51
+          ]
+        ],
+        "weights": [
+          [
+            "450",
+            97
+          ],
+          [
+            "400",
+            55
+          ],
+          [
+            "500",
+            2
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            48
+          ]
+        ],
+        "sizeMin": 12,
+        "sizeMedian": 16,
+        "sizeMax": 80.7347,
+        "sizeMaxVw": 20.7,
+        "scaleRatio": 5,
+        "letterSpacingMean": 0,
+        "loadedFonts": [
+          {
+            "family": "suisseIntl",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "suisseIntl",
+            "weight": "450",
+            "style": "normal"
+          },
+          {
+            "family": "suisseIntlMono",
+            "weight": "400",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 154
+      },
+      "color": {
+        "background": "rgb(255, 255, 255)",
+        "backgroundLuminance": 1,
+        "backgrounds": [
+          [
+            "rgb(255, 255, 255)",
+            2526
+          ],
+          [
+            "rgb(35, 35, 35)",
+            1563
+          ],
+          [
+            "rgb(224, 224, 224)",
+            1246
+          ],
+          [
+            "rgb(161, 255, 203)",
+            808
+          ],
+          [
+            "rgb(217, 217, 217)",
+            127
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(35, 35, 35)",
+            614
+          ],
+          [
+            "rgb(255, 255, 255)",
+            351
+          ],
+          [
+            "oklab(0.256147 0.0000116229 0.000005126 / 0.65)",
+            4
+          ],
+          [
+            "oklab(0.999994 0.0000455678 0.0000200868 / 0.65)",
+            3
+          ],
+          [
+            "rgb(217, 217, 217)",
+            2
+          ]
+        ],
+        "meanSaturation": 0.07,
+        "rootVars": {
+          "--site-header-height": "calc(var(--spacing) * 60)",
+          "--sbw": "0px"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 27,
+        "sticky": 6,
+        "fixed": 18,
+        "grid": 45,
+        "flex": 250,
+        "absolute": 91,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 14947,
+        "pages": 17.7,
+        "spacing": [
+          [
+            8,
+            61
+          ],
+          [
+            20,
+            56
+          ],
+          [
+            12,
+            17
+          ],
+          [
+            1,
+            17
+          ],
+          [
+            24,
+            16
+          ],
+          [
+            16,
+            13
+          ],
+          [
+            4,
+            12
+          ],
+          [
+            80,
+            8
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 18,
+        "animationKinds": [
+          "CSSAnimation",
+          "Animation"
+        ],
+        "infiniteAnimations": 2,
+        "animationDurations": [
+          12800,
+          12800,
+          1000,
+          1000,
+          1000,
+          1000,
+          1000,
+          1000,
+          1000,
+          1000,
+          1000,
+          1000,
+          1000,
+          1000,
+          1000,
+          1000,
+          1000,
+          1000
+        ],
+        "easings": [
+          "linear",
+          "cubic-bezier(0.23, 1, 0.32, 1)"
+        ],
+        "transitionDurationsMs": [
+          [
+            800,
+            45
+          ],
+          [
+            600,
+            12
+          ],
+          [
+            650,
+            1
+          ],
+          [
+            200,
+            1
+          ],
+          [
+            450,
+            1
+          ]
+        ],
+        "keyframes": [
+          "theme-sweep-ltr",
+          "theme-sweep-rtl",
+          "hero-logo-coin",
+          "typewriter-cursor-blink",
+          "marqyL",
+          "marqyR",
+          "marqyU",
+          "marqyD"
+        ],
+        "viewTransitionCss": true,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 20,
+      "media": {
+        "canvases": [
+          {
+            "w": 390,
+            "h": 1514,
+            "area": 1.79
+          },
+          {
+            "w": 390,
+            "h": 389,
+            "area": 0.46
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0
+          },
+          {
+            "w": 390,
+            "h": 1290,
+            "area": 1.53
+          }
+        ],
+        "videos": [],
+        "svg": 40,
+        "images": 40,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "2d": 2,
+          "webgl2": 3
+        },
+        "raf": 633,
+        "io": 81,
+        "ro": 66,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Aspen Search - Executive Search for Quantitative Finance & Tech",
+      "lang": "en",
+      "description": "Boutique executive search specialists connecting exceptional engineering and research talent with leading quantitative trading firms and venture-backed technology companies"
+    },
+    "featuresBeforeScroll": {
+      "elements": 1427,
+      "canvases": 1,
+      "animations": 12,
+      "hidden": 34
+    },
+    "scrollReveal": 14,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 20294200,
+        "layoutCount": 364,
+        "recalcStyleCount": 590,
+        "scriptDuration": 0.91848,
+        "taskDuration": 5.64407,
+        "nodes": 2266
+      },
+      "timing": {
+        "domContentLoaded": 247,
+        "load": 248,
+        "first-paint": 168,
+        "first-contentful-paint": 168
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "marqyL",
+        "duration": 0,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "marqyL",
+        "duration": 0,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 500,
+        "delay": 150,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 800,
+        "delay": 80,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 500,
+        "delay": 150,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 800,
+        "delay": 80,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 500,
+        "delay": 150,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 800,
+        "delay": 80,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 500,
+        "delay": 150,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 800,
+        "delay": 80,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.87, 0, 0.13, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.87, 0, 0.13, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 300.00000000000006,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 300.00000000000006,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 500,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 600.0000000000001,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 300.00000000000006,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 500,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 600.0000000000001,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 700.0000000000001,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 800,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 900,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 1000,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 1100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 1200.0000000000002,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 1300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 1400.0000000000002,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 1500,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 1600,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 1700.0000000000002,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 1800,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 1900.0000000000002,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 2000,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 2100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 2200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 2300.0000000000005,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 2400.0000000000005,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 1000,
+        "delay": 2500,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.23, 1, 0.32, 1)"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0702000E4170000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A060720BE4170000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0B0660BE4170000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      }
+    ],
+    "exceptions": [],
+    "failed": [],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  }
+}

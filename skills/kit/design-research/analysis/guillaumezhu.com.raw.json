@@ -1,0 +1,1203 @@
+{
+  "url": "https://guillaumezhu.com/",
+  "at": "2026-10-10T09:03:01.445Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 53165,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 488,
+      "typography": {
+        "families": [
+          [
+            "Satoshi-Variable",
+            15
+          ],
+          [
+            "CabinetGrotesk-Variable",
+            8
+          ]
+        ],
+        "weights": [
+          [
+            "500",
+            12
+          ],
+          [
+            "400",
+            9
+          ],
+          [
+            "300",
+            1
+          ],
+          [
+            "700",
+            1
+          ]
+        ],
+        "textTransforms": [],
+        "sizeMin": 15.84,
+        "sizeMedian": 20,
+        "sizeMax": 100.8,
+        "sizeMaxVw": 7,
+        "scaleRatio": 5,
+        "letterSpacingMean": -0.025,
+        "loadedFonts": [
+          {
+            "family": "Satoshi-Variable",
+            "weight": "300 900",
+            "style": "normal"
+          },
+          {
+            "family": "Satoshi-VariableItalic",
+            "weight": "300 900",
+            "style": "italic"
+          },
+          {
+            "family": "CabinetGrotesk-Bold",
+            "weight": "700",
+            "style": "normal"
+          },
+          {
+            "family": "CabinetGrotesk-Variable",
+            "weight": "100 900",
+            "style": "normal"
+          }
+        ],
+        "variableFont": true,
+        "textElements": 23
+      },
+      "color": {
+        "background": "rgb(245, 231, 223)",
+        "backgroundLuminance": 0.8189201831125773,
+        "backgrounds": [
+          [
+            "rgb(31, 29, 29)",
+            24373
+          ],
+          [
+            "rgb(245, 231, 223)",
+            5977
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(245, 231, 223)",
+            178
+          ],
+          [
+            "rgb(31, 29, 29)",
+            95
+          ],
+          [
+            "rgb(0, 0, 0)",
+            25
+          ]
+        ],
+        "meanSaturation": 0.08,
+        "rootVars": {
+          "--color-cream": "#f5e7df",
+          "--color-dark": "#1f1d1d",
+          "--border-radius-block": "40px",
+          "--border-radius-card": "15px",
+          "--padding-min": "1rem",
+          "--letter-spacing-display": "-.025em"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 8,
+        "sticky": 0,
+        "fixed": 4,
+        "grid": 1,
+        "flex": 28,
+        "absolute": 62,
+        "asymmetricGrids": 1,
+        "splitScreen": false,
+        "scrollHeight": 31715,
+        "pages": 35.2,
+        "spacing": [
+          [
+            56,
+            2
+          ],
+          [
+            12,
+            2
+          ],
+          [
+            26,
+            1
+          ],
+          [
+            40,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            18,
+            1
+          ],
+          [
+            48,
+            1
+          ],
+          [
+            100,
+            1
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 0,
+        "animationKinds": [],
+        "infiniteAnimations": 0,
+        "animationDurations": [],
+        "easings": [],
+        "transitionDurationsMs": [
+          [
+            200,
+            16
+          ],
+          [
+            450,
+            6
+          ],
+          [
+            250,
+            3
+          ],
+          [
+            400,
+            2
+          ],
+          [
+            350,
+            1
+          ]
+        ],
+        "keyframes": [],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 10,
+      "media": {
+        "canvases": [
+          {
+            "w": 1425,
+            "h": 900,
+            "area": 0
+          },
+          {
+            "w": 1425,
+            "h": 900,
+            "area": 0.85
+          },
+          {
+            "w": 1425,
+            "h": 900,
+            "area": 0.99
+          },
+          {
+            "w": 259,
+            "h": 366,
+            "area": 0.13
+          }
+        ],
+        "videos": [],
+        "svg": 1,
+        "images": 17,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 3,
+          "webgl": 1
+        },
+        "raf": 536,
+        "io": 3,
+        "ro": 4,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Guillaume Zhu - Creative Front-End Developer & Art Director",
+      "lang": "en",
+      "description": "Portfolio of Guillaume Zhu, Front Creative Developer & Art Director, specializing in immersive web experiences, interactive interfaces and art direction."
+    },
+    "featuresBeforeScroll": {
+      "elements": 236,
+      "canvases": 4,
+      "animations": 0,
+      "hidden": 4
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 6,
+      "changed": 0
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 6595688,
+        "layoutCount": 340,
+        "recalcStyleCount": 2143,
+        "scriptDuration": 0.311143,
+        "taskDuration": 37.71686,
+        "nodes": 1917
+      },
+      "timing": {
+        "domContentLoaded": 398,
+        "load": 727,
+        "first-paint": 344,
+        "first-contentful-paint": 424
+      }
+    },
+    "network": [
+      {
+        "url": "https://guillaumezhu.com/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 5455
+      },
+      {
+        "url": "https://guillaumezhu.com/assets/home-Y5hht4vi.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 32828
+      },
+      {
+        "url": "https://guillaumezhu.com/assets/chunk-Deb1DmFP.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 717
+      },
+      {
+        "url": "https://guillaumezhu.com/assets/setupCrossPageTransitions-CltNm_Hf.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 48333
+      },
+      {
+        "url": "https://guillaumezhu.com/assets/Observer-C5OqvjuH.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4211
+      },
+      {
+        "url": "https://guillaumezhu.com/assets/ScrollTrigger-Or8JzwiZ.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 15040
+      },
+      {
+        "url": "https://guillaumezhu.com/assets/setupHeaderVisibility-D-FHk4jp.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 5827
+      },
+      {
+        "url": "https://guillaumezhu.com/assets/three.module-fBMLdKIM.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 140864
+      },
+      {
+        "url": "https://guillaumezhu.com/assets/setupCrossPageTransitions-D60GSfRM.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1114
+      },
+      {
+        "url": "https://guillaumezhu.com/assets/setupHeaderVisibility-fOJvfYOR.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 605
+      },
+      {
+        "url": "https://guillaumezhu.com/assets/home-BJ-xnR8D.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 6000
+      },
+      {
+        "url": "https://guillaumezhu.com/home/toolkit/frontend/en/javascript.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 4517
+      },
+      {
+        "url": "https://guillaumezhu.com/home/toolkit/frontend/en/threejs.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 3093
+      },
+      {
+        "url": "https://guillaumezhu.com/home/toolkit/frontend/en/glsl.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 6986
+      },
+      {
+        "url": "https://guillaumezhu.com/home/toolkit/frontend/en/gsap.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 5763
+      },
+      {
+        "url": "https://guillaumezhu.com/home/toolkit/frontend/en/vuejs.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 3441
+      },
+      {
+        "url": "https://guillaumezhu.com/home/toolkit/frontend/en/react.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 6477
+      },
+      {
+        "url": "https://guillaumezhu.com/home/toolkit/frontend/en/webflow.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 4781
+      },
+      {
+        "url": "https://guillaumezhu.com/home/toolkit/frontend/en/shopify.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 4786
+      },
+      {
+        "url": "https://guillaumezhu.com/home/toolkit/art-direction/en/figma.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 3483
+      },
+      {
+        "url": "https://guillaumezhu.com/home/toolkit/art-direction/en/photoshop.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 4869
+      },
+      {
+        "url": "https://guillaumezhu.com/home/toolkit/art-direction/en/illustrator.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 5001
+      },
+      {
+        "url": "https://guillaumezhu.com/home/toolkit/art-direction/en/indesign.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 3068
+      },
+      {
+        "url": "https://guillaumezhu.com/home/toolkit/art-direction/en/aftereffects.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 5121
+      },
+      {
+        "url": "https://guillaumezhu.com/home/toolkit/art-direction/en/capcut.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 4337
+      },
+      {
+        "url": "https://guillaumezhu.com/home/toolkit/art-direction/en/lightroom.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 4617
+      },
+      {
+        "url": "https://guillaumezhu.com/assets/CabinetGrotesk-Bold-ChXdH3YW.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 21083
+      },
+      {
+        "url": "https://guillaumezhu.com/assets/CabinetGrotesk-Variable-BZl-SSEF.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 42049
+      },
+      {
+        "url": "https://guillaumezhu.com/assets/Satoshi-VariableItalic-Bb7sdEFv.ttf",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/ttf",
+        "fromCache": false,
+        "bytes": 57985
+      },
+      {
+        "url": "https://guillaumezhu.com/assets/Satoshi-Variable-ChAXbpFa.ttf",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/ttf",
+        "fromCache": false,
+        "bytes": 56314
+      },
+      {
+        "url": "https://guillaumezhu.com/brand/logo-guillaume-zhu.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 902
+      },
+      {
+        "url": "https://guillaumezhu.com/home/hero/textures/desktop/scene-gradient.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 216881
+      },
+      {
+        "url": "https://guillaumezhu.com/home/hero/logo.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "model/gltf-binary",
+        "fromCache": false,
+        "bytes": 156110
+      },
+      {
+        "url": "https://guillaumezhu.com/home/hero/textures/desktop/texts/text-name.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 27515
+      },
+      {
+        "url": "https://guillaumezhu.com/home/hero/textures/desktop/texts/text-art-director-justified.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 29049
+      },
+      {
+        "url": "https://guillaumezhu.com/home/hero/textures/desktop/texts/text-creative-developer-justified.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 51908
+      },
+      {
+        "url": "https://guillaumezhu.com/assets/createImageDistortionScene-C3VU7ZZE.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 331
+      },
+      {
+        "url": "https://guillaumezhu.com/assets/createImageDistortionScene-DryuzL4t.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3735
+      },
+      {
+        "url": "https://guillaumezhu.com/home/trajectory/background.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 764827
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "width",
+        "duration": 450,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "width",
+        "duration": 450,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "width",
+        "duration": 450,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 0,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0702000941F0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0xd140013c800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0A02000941F0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0xd1400141000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0xd1400141000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0xd1400141000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0102401941F0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0802301941F0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      }
+    ],
+    "exceptions": [],
+    "failed": [],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 15869,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 432,
+      "typography": {
+        "families": [
+          [
+            "Satoshi-Variable",
+            16
+          ],
+          [
+            "CabinetGrotesk-Variable",
+            8
+          ]
+        ],
+        "weights": [
+          [
+            "500",
+            11
+          ],
+          [
+            "400",
+            11
+          ],
+          [
+            "300",
+            1
+          ],
+          [
+            "700",
+            1
+          ]
+        ],
+        "textTransforms": [],
+        "sizeMin": 15,
+        "sizeMedian": 18,
+        "sizeMax": 48,
+        "sizeMaxVw": 12.3,
+        "scaleRatio": 2.7,
+        "letterSpacingMean": -0.025,
+        "loadedFonts": [
+          {
+            "family": "Satoshi-Variable",
+            "weight": "300 900",
+            "style": "normal"
+          },
+          {
+            "family": "Satoshi-VariableItalic",
+            "weight": "300 900",
+            "style": "italic"
+          },
+          {
+            "family": "CabinetGrotesk-Bold",
+            "weight": "700",
+            "style": "normal"
+          },
+          {
+            "family": "CabinetGrotesk-Variable",
+            "weight": "100 900",
+            "style": "normal"
+          }
+        ],
+        "variableFont": true,
+        "textElements": 24
+      },
+      "color": {
+        "background": "rgb(245, 231, 223)",
+        "backgroundLuminance": 0.8189201831125773,
+        "backgrounds": [
+          [
+            "rgb(31, 29, 29)",
+            5264
+          ],
+          [
+            "rgb(245, 231, 223)",
+            1912
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(245, 231, 223)",
+            145
+          ],
+          [
+            "rgb(31, 29, 29)",
+            63
+          ],
+          [
+            "rgb(0, 0, 0)",
+            25
+          ]
+        ],
+        "meanSaturation": 0.08,
+        "rootVars": {
+          "--color-cream": "#f5e7df",
+          "--color-dark": "#1f1d1d",
+          "--border-radius-block": "40px",
+          "--border-radius-card": "15px",
+          "--padding-min": "1rem",
+          "--letter-spacing-display": "-.025em"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 8,
+        "sticky": 0,
+        "fixed": 5,
+        "grid": 0,
+        "flex": 28,
+        "absolute": 62,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 26639,
+        "pages": 31.6,
+        "spacing": [
+          [
+            8,
+            2
+          ],
+          [
+            17,
+            2
+          ],
+          [
+            10,
+            2
+          ],
+          [
+            24,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            48,
+            1
+          ],
+          [
+            30,
+            1
+          ],
+          [
+            21,
+            1
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 0,
+        "animationKinds": [],
+        "infiniteAnimations": 0,
+        "animationDurations": [],
+        "easings": [],
+        "transitionDurationsMs": [
+          [
+            200,
+            16
+          ],
+          [
+            450,
+            6
+          ],
+          [
+            250,
+            3
+          ],
+          [
+            400,
+            2
+          ],
+          [
+            350,
+            1
+          ]
+        ],
+        "keyframes": [],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 9,
+      "media": {
+        "canvases": [
+          {
+            "w": 780,
+            "h": 1688,
+            "area": 0
+          },
+          {
+            "w": 585,
+            "h": 1266,
+            "area": 0.91
+          },
+          {
+            "w": 780,
+            "h": 1688,
+            "area": 1
+          },
+          {
+            "w": 360,
+            "h": 508,
+            "area": 0.25
+          }
+        ],
+        "videos": [],
+        "svg": 1,
+        "images": 17,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 3,
+          "webgl": 1
+        },
+        "raf": 554,
+        "io": 3,
+        "ro": 4,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Guillaume Zhu - Creative Front-End Developer & Art Director",
+      "lang": "en",
+      "description": "Portfolio of Guillaume Zhu, Front Creative Developer & Art Director, specializing in immersive web experiences, interactive interfaces and art direction."
+    },
+    "featuresBeforeScroll": {
+      "elements": 180,
+      "canvases": 4,
+      "animations": 0,
+      "hidden": 3
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 6782664,
+        "layoutCount": 256,
+        "recalcStyleCount": 1408,
+        "scriptDuration": 0.215391,
+        "taskDuration": 12.081521,
+        "nodes": 1392
+      },
+      "timing": {
+        "domContentLoaded": 208,
+        "load": 497,
+        "first-paint": 164,
+        "first-contentful-paint": 224
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 0,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0700401941F0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0D00401941F0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0305A02941F0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0905A02941F0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      }
+    ],
+    "exceptions": [],
+    "failed": [],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  }
+}

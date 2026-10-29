@@ -1,0 +1,963 @@
+{
+  "url": "https://cipher.tv/",
+  "at": "2026-10-10T10:05:15.971Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 20198,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 144,
+      "typography": {
+        "families": [
+          [
+            "Favorit",
+            7
+          ]
+        ],
+        "weights": [
+          [
+            "500",
+            6
+          ],
+          [
+            "400",
+            1
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            6
+          ]
+        ],
+        "sizeMin": 11,
+        "sizeMedian": 12,
+        "sizeMax": 12,
+        "sizeMaxVw": 0.8,
+        "scaleRatio": 1,
+        "letterSpacingMean": 0,
+        "loadedFonts": [
+          {
+            "family": "Favorit",
+            "weight": "100 900",
+            "style": "normal"
+          }
+        ],
+        "variableFont": true,
+        "textElements": 7
+      },
+      "color": {
+        "background": "rgb(0, 0, 0)",
+        "backgroundLuminance": 0,
+        "backgrounds": [
+          [
+            "rgb(6, 4, 3)",
+            2592
+          ],
+          [
+            "rgb(255, 255, 255)",
+            0
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(233, 234, 228)",
+            104
+          ],
+          [
+            "rgb(0, 0, 0)",
+            22
+          ]
+        ],
+        "meanSaturation": 0.25,
+        "rootVars": {
+          "--color-dark": "#060403",
+          "--color-light": "#e9eae4",
+          "--fontXXS": "8px",
+          "--fontXS": "10px",
+          "--fontS": "12px",
+          "--fontM": "24px"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 2,
+        "sticky": 0,
+        "fixed": 11,
+        "grid": 2,
+        "flex": 16,
+        "absolute": 7,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 900,
+        "pages": 1,
+        "spacing": [
+          [
+            15,
+            5
+          ],
+          [
+            10,
+            4
+          ],
+          [
+            40,
+            2
+          ],
+          [
+            16,
+            2
+          ],
+          [
+            7,
+            1
+          ],
+          [
+            14,
+            1
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 0,
+        "animationKinds": [],
+        "infiniteAnimations": 0,
+        "animationDurations": [],
+        "easings": [],
+        "transitionDurationsMs": [
+          [
+            200,
+            7
+          ],
+          [
+            450,
+            3
+          ],
+          [
+            300,
+            2
+          ]
+        ],
+        "keyframes": [],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 2,
+      "media": {
+        "canvases": [
+          {
+            "w": 1440,
+            "h": 900,
+            "area": 1
+          },
+          {
+            "w": 1440,
+            "h": 900,
+            "area": 1
+          },
+          {
+            "w": 1440,
+            "h": 900,
+            "area": 1
+          }
+        ],
+        "videos": [],
+        "svg": 7,
+        "images": 1,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 3
+        },
+        "raf": 154,
+        "io": 0,
+        "ro": 1,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": true,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "CIPHER",
+      "lang": "en",
+      "description": "For culture and its counter."
+    },
+    "featuresBeforeScroll": {
+      "elements": 144,
+      "canvases": 3,
+      "animations": 0,
+      "hidden": 2
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 6,
+      "changed": 0
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 9993504,
+        "layoutCount": 68,
+        "recalcStyleCount": 141,
+        "scriptDuration": 0.156967,
+        "taskDuration": 19.614023,
+        "nodes": 391
+      },
+      "timing": {
+        "domContentLoaded": 231,
+        "load": 373,
+        "first-paint": 132,
+        "first-contentful-paint": 132
+      }
+    },
+    "network": [
+      {
+        "url": "https://cipher.tv/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 11312
+      },
+      {
+        "url": "https://cipher.tv/_nuxt/entry.BNNTYPWH.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1876
+      },
+      {
+        "url": "https://cipher.tv/_nuxt/JourLink.O7ntihK2.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 483
+      },
+      {
+        "url": "https://cipher.tv/fonts/ABCArizonaMixVariable.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 238337
+      },
+      {
+        "url": "https://cipher.tv/fonts/ABCFavoritVariable.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 127747
+      },
+      {
+        "url": "https://cipher.tv/_nuxt/DTrBnPh8.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 92625
+      },
+      {
+        "url": "https://cipher.tv/_nuxt/DhfWlwu_.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 51288
+      },
+      {
+        "url": "https://cipher.tv/_nuxt/Damk01WJ.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4871
+      },
+      {
+        "url": "https://cipher.tv/_nuxt/COyiC0O1.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2037
+      },
+      {
+        "url": "https://cipher.tv/_nuxt/CC4rACHb.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 979
+      },
+      {
+        "url": "https://cipher.tv/_nuxt/CAZ8W0WF.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 238
+      },
+      {
+        "url": "https://cipher.tv/.netlify/images?w=474&h=144&url=%2Fcommon%2Flogo.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 3143
+      },
+      {
+        "url": "https://cipher.tv/_nuxt/index.kw6Uep2r.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 958
+      },
+      {
+        "url": "https://cipher.tv/_nuxt/DCYoZBDY.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2813
+      },
+      {
+        "url": "https://cipher.tv/_nuxt/CO3m5LEz.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 117713
+      },
+      {
+        "url": "https://cipher.tv/_nuxt/6Ypisith.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3532
+      },
+      {
+        "url": "https://cipher.tv/_nuxt/P1uKqelY.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1475
+      },
+      {
+        "url": "https://cipher.tv/_nuxt/Contact.qdDeWgPw.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 872
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-SF7NWKB59Y",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 180636
+      },
+      {
+        "url": "https://images.prismic.io/cipherwebsite/adkdvJ1ZCF7ETFwF_Hero_Evidens_01.jpg?auto=format,compress&w=600&q=85&fm=webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 11415
+      },
+      {
+        "url": "https://images.prismic.io/cipherwebsite/ac5y3pGXnQHGZNK__ac4s2ZGXnQHGZMdC_CopiedeDSCF99072.webp?auto=format,compress&w=600&q=85&fm=webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 17889
+      },
+      {
+        "url": "https://images.prismic.io/cipherwebsite/aedqhsBOoF08xLEf_RICHARD_MILLE_R4-4.jpg?auto=format,compress&w=600&q=85&fm=webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 65299
+      },
+      {
+        "url": "https://images.prismic.io/cipherwebsite/aeeVUsBOoF08xLtY_SHOT_09_6880skycopy.jpg?auto=format,compress&w=600&q=85&fm=webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 9660
+      },
+      {
+        "url": "https://images.prismic.io/cipherwebsite/aeejS8BOoF08xL1K_Image-10-.jpeg?auto=format,compress&w=600&q=85&fm=webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 6045
+      },
+      {
+        "url": "https://images.prismic.io/cipherwebsite/aeo5-8BOoF08xQUX_photositecipher.png?auto=format,compress&w=600&q=85&fm=webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 10246
+      },
+      {
+        "url": "https://images.prismic.io/cipherwebsite/aejJKMBOoF08xNa8_Image-13-.jpeg?auto=format%2Ccompress&rect=631%2C355%2C2578%2C1450&w=3840&h=2160&w=600&q=85&fm=webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 12484
+      },
+      {
+        "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/c845253d-7b6c-40c9-bf2e-c2ea997d39df/994988ca-1edc0b9f?__token__=st=1791626693~exp=1791630293~acl=%2Fv3-1%2Fplayback%2Fc845253d-7b6c-40c9-bf2e-c2ea997d39df%2F994988ca-1edc0b9f%2A~hmac=3eedc8682916bcdc645f92afa980bbb7e892b942946fd7043f9ce34b74b39862&r=dXMtd2VzdDE%3D",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 498605
+      },
+      {
+        "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/f941c5d4-6a3e-4e27-bddc-843976f75a67/c3eedce2-ca73b28d?__token__=st=1791626693~exp=1791630293~acl=%2Fv3-1%2Fplayback%2Ff941c5d4-6a3e-4e27-bddc-843976f75a67%2Fc3eedce2-ca73b28d%2A~hmac=4a6a0ab11fb5555d90f44196a69d40333cb46282a70de3916b4cc73c37598be3&r=dXMtY2VudHJhbDE%3D",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 2559363
+      },
+      {
+        "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/e9f0b29c-6778-4879-b502-978b82b3a482/06e66d5d-4fe17cbd?__token__=st=1791626693~exp=1791630293~acl=%2Fv3-1%2Fplayback%2Fe9f0b29c-6778-4879-b502-978b82b3a482%2F06e66d5d-4fe17cbd%2A~hmac=7e27d2a8009005a42ab02d9d2cda30d512702ed0dacee1ebe89149e30a0f664a&r=dXMtd2VzdDE%3D",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 658754
+      },
+      {
+        "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/4149e4fc-8550-4240-bbcb-f5e0599e2b83/58415efa-ee77b568?__token__=st=1791626693~exp=1791630293~acl=%2Fv3-1%2Fplayback%2F4149e4fc-8550-4240-bbcb-f5e0599e2b83%2F58415efa-ee77b568%2A~hmac=4e55e6963c89210fa2a81612f003d6605fbc488f8b73a4d770cad22ba7277f9f&r=dXMtd2VzdDE%3D",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 844768
+      },
+      {
+        "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/84e1c506-ca92-4a83-b99e-892d7430ccb8/9aecf32b-581d22db?__token__=st=1791626693~exp=1791630293~acl=%2Fv3-1%2Fplayback%2F84e1c506-ca92-4a83-b99e-892d7430ccb8%2F9aecf32b-581d22db%2A~hmac=7513caaf33f551c7fbd4f53f907d072f2307854d7148748dcf5e85a370a8d015&r=dXMtY2VudHJhbDE%3D",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/b93cd68c-ed7c-436f-ae6f-cb73696101f9/60ac7408-07e085c5?__token__=st=1791626693~exp=1791630293~acl=%2Fv3-1%2Fplayback%2Fb93cd68c-ed7c-436f-ae6f-cb73696101f9%2F60ac7408-07e085c5%2A~hmac=d33ede95d9c474dd8de310b3fee8c9481fefa475b69f976deda69852ee19fa27&r=dXMtd2VzdDE%3D",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 2399678
+      },
+      {
+        "url": "https://cipher.tv/_nuxt/DaIaHkIU.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2834
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-SF7NWKB59Y&gtm=45je6a72v9253061216za208zd9253061216xf1&_p=1791626693616&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=742260364.1791626695&frm=0&ngs=1&pscdl=noapi&rcb=19&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=1&tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791626695&sct=1&seg=0&dl=https%3A%2F%2Fcipher.tv%2F&dt=CIPHER&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1849",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-SF7NWKB59Y&gtm=45je6a72v9253061216za200zd9253061216xf1&_p=1791626693616&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAAQ&ae=a&are=1&cid=742260364.1791626695&frm=0&ngs=1&pscdl=noapi&rcb=19&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=2&tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791626695&sct=1&seg=0&dl=https%3A%2F%2Fcipher.tv%2F&dt=CIPHER&en=scroll&epn.percent_scrolled=90&_et=102&tfd=7062",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false
+      }
+    ],
+    "animationsReported": [],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0702000AC2E0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x114c00143800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0A02000AC2E0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x114c00142c00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x114c00142c00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x114c00142c00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0D02000AC2E0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/84e1c506-ca92-4a83-b99e-892d7430ccb8/9aecf32b-581d22db?__token__=st=1791626693~exp=1791630293~acl=%2Fv3-1%2Fplayback%2F84e1c506-ca92-4a83-b99e-892d7430ccb8%2F9aecf32b-581d22db%2A~hmac=7513caaf33f551c7fbd4f53f907d072f2307854d7148748dcf5e85a370a8d015&r=dXMtY2VudHJhbDE%3D",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-SF7NWKB59Y&gtm=45je6a72v9253061216za208zd9253061216xf1&_p=1791626693616&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=742260364.1791626695&frm=0&ngs=1&pscdl=noapi&rcb=19&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=1&tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791626695&sct=1&seg=0&dl=https%3A%2F%2Fcipher.tv%2F&dt=CIPHER&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1849",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-SF7NWKB59Y&gtm=45je6a72v9253061216za200zd9253061216xf1&_p=1791626693616&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAAQ&ae=a&are=1&cid=742260364.1791626695&frm=0&ngs=1&pscdl=noapi&rcb=19&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=2&tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791626695&sct=1&seg=0&dl=https%3A%2F%2Fcipher.tv%2F&dt=CIPHER&en=scroll&epn.percent_scrolled=90&_et=102&tfd=7062",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 2445,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 83,
+      "typography": {
+        "families": [
+          [
+            "Favorit",
+            14
+          ]
+        ],
+        "weights": [
+          [
+            "500",
+            13
+          ],
+          [
+            "400",
+            1
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            13
+          ]
+        ],
+        "sizeMin": 11,
+        "sizeMedian": 12,
+        "sizeMax": 12,
+        "sizeMaxVw": 3.1,
+        "scaleRatio": 1,
+        "letterSpacingMean": 0,
+        "loadedFonts": [
+          {
+            "family": "Favorit",
+            "weight": "100 900",
+            "style": "normal"
+          }
+        ],
+        "variableFont": true,
+        "textElements": 14
+      },
+      "color": {
+        "background": "rgb(0, 0, 0)",
+        "backgroundLuminance": 0,
+        "backgrounds": [
+          [
+            "rgb(6, 4, 3)",
+            658
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(233, 234, 228)",
+            39
+          ],
+          [
+            "rgb(0, 0, 0)",
+            21
+          ]
+        ],
+        "meanSaturation": 0.5,
+        "rootVars": {
+          "--color-dark": "#060403",
+          "--color-light": "#e9eae4",
+          "--fontXXS": "8px",
+          "--fontXS": "10px",
+          "--fontS": "12px",
+          "--fontM": "24px"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 2,
+        "sticky": 0,
+        "fixed": 9,
+        "grid": 2,
+        "flex": 15,
+        "absolute": 8,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 844,
+        "pages": 1,
+        "spacing": [
+          [
+            4,
+            4
+          ],
+          [
+            15,
+            3
+          ],
+          [
+            10,
+            2
+          ],
+          [
+            16,
+            2
+          ],
+          [
+            40,
+            1
+          ],
+          [
+            20,
+            1
+          ],
+          [
+            6,
+            1
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 0,
+        "animationKinds": [],
+        "infiniteAnimations": 0,
+        "animationDurations": [],
+        "easings": [],
+        "transitionDurationsMs": [
+          [
+            300,
+            1
+          ],
+          [
+            450,
+            1
+          ]
+        ],
+        "keyframes": [],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 7,
+      "media": {
+        "canvases": [
+          {
+            "w": 780,
+            "h": 1688,
+            "area": 1
+          },
+          {
+            "w": 780,
+            "h": 1688,
+            "area": 1
+          }
+        ],
+        "videos": [],
+        "svg": 7,
+        "images": 1,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 2
+        },
+        "raf": 291,
+        "io": 0,
+        "ro": 1,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": true,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "CIPHER",
+      "lang": "en",
+      "description": "For culture and its counter."
+    },
+    "featuresBeforeScroll": {
+      "elements": 83,
+      "canvases": 2,
+      "animations": 0,
+      "hidden": 6
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 7662588,
+        "layoutCount": 19,
+        "recalcStyleCount": 56,
+        "scriptDuration": 0.102362,
+        "taskDuration": 0.296885,
+        "nodes": 198
+      },
+      "timing": {
+        "domContentLoaded": 82,
+        "load": 88,
+        "first-paint": 104,
+        "first-contentful-paint": 104
+      }
+    },
+    "animationsReported": [],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0702000AC2E0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0A02000AC2E0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-SF7NWKB59Y&gtm=45je6a72v9253061216za208zd9253061216xf1&_p=1791626713645&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=91041473.1791626714&frm=0&ngs=1&pscdl=noapi&rcb=17&sr=390x844&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=1&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=1&tag_exp=115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791626713&sct=1&seg=0&dl=https%3A%2F%2Fcipher.tv%2F&dt=CIPHER&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=296",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/c845253d-7b6c-40c9-bf2e-c2ea997d39df/994988ca-1edc0b9f?__token__=st=1791626713~exp=1791630313~acl=%2Fv3-1%2Fplayback%2Fc845253d-7b6c-40c9-bf2e-c2ea997d39df%2F994988ca-1edc0b9f%2A~hmac=d1b2c5470e4a24e33def5858a771eadb80da157d36e9e7146c56b3f5aa4b4327&r=dXMtd2VzdDE%3D",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/f941c5d4-6a3e-4e27-bddc-843976f75a67/c3eedce2-ca73b28d?__token__=st=1791626713~exp=1791630313~acl=%2Fv3-1%2Fplayback%2Ff941c5d4-6a3e-4e27-bddc-843976f75a67%2Fc3eedce2-ca73b28d%2A~hmac=1e6c1daf3ed304a441cddd1c12a3cc389f1b9736c06e69f0cf11a555dbf8923d&r=dXMtY2VudHJhbDE%3D",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/e9f0b29c-6778-4879-b502-978b82b3a482/06e66d5d-4fe17cbd?__token__=st=1791626713~exp=1791630313~acl=%2Fv3-1%2Fplayback%2Fe9f0b29c-6778-4879-b502-978b82b3a482%2F06e66d5d-4fe17cbd%2A~hmac=33697edcd2cbc6603e8c006916a42ab7b7c873724d6fb74cd36fb7839db64c8a&r=dXMtd2VzdDE%3D",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/84e1c506-ca92-4a83-b99e-892d7430ccb8/9aecf32b-581d22db?__token__=st=1791626713~exp=1791630313~acl=%2Fv3-1%2Fplayback%2F84e1c506-ca92-4a83-b99e-892d7430ccb8%2F9aecf32b-581d22db%2A~hmac=1ad66a9ec4c4bf389ba7a5939827f510bb69d3a53d571a728765c77c691e7f5b&r=dXMtY2VudHJhbDE%3D",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/4149e4fc-8550-4240-bbcb-f5e0599e2b83/58415efa-ee77b568?__token__=st=1791626713~exp=1791630313~acl=%2Fv3-1%2Fplayback%2F4149e4fc-8550-4240-bbcb-f5e0599e2b83%2F58415efa-ee77b568%2A~hmac=96e3fbc0d4704a22a7b548db16ff8c7cf30cbb4df2faf51def42147e2254a445&r=dXMtd2VzdDE%3D",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://download-video-ak.vimeocdn.com/v3-1/playback/b93cd68c-ed7c-436f-ae6f-cb73696101f9/60ac7408-07e085c5?__token__=st=1791626713~exp=1791630313~acl=%2Fv3-1%2Fplayback%2Fb93cd68c-ed7c-436f-ae6f-cb73696101f9%2F60ac7408-07e085c5%2A~hmac=cd7d295742a3d03bf3f67699e9f1024285d79fab9a24528ebf538e71738d75c8&r=dXMtd2VzdDE%3D",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  }
+}

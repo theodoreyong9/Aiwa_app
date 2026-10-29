@@ -1,0 +1,1771 @@
+{
+  "url": "https://pxpush.com/",
+  "at": "2026-10-10T10:09:24.191Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 104114,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 4776,
+      "typography": {
+        "families": [
+          [
+            "Mono",
+            47
+          ],
+          [
+            "SemiSqueezed",
+            25
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            72
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            15
+          ]
+        ],
+        "sizeMin": 10.8,
+        "sizeMedian": 17.136,
+        "sizeMax": 172.8,
+        "sizeMaxVw": 12,
+        "scaleRatio": 10.1,
+        "letterSpacingMean": -0.04,
+        "loadedFonts": [
+          {
+            "family": "Graphik",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "SemiSqueezed",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Mono",
+            "weight": "400",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 72
+      },
+      "color": {
+        "background": "rgb(26, 26, 26)",
+        "backgroundLuminance": 0.010329823029626936,
+        "backgrounds": [
+          [
+            "rgb(3, 4, 156)",
+            4990
+          ],
+          [
+            "rgb(113, 115, 125)",
+            2369
+          ],
+          [
+            "rgb(26, 26, 26)",
+            2189
+          ],
+          [
+            "rgb(186, 186, 186)",
+            1
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(17, 17, 17)",
+            1104
+          ],
+          [
+            "rgb(217, 217, 217)",
+            1021
+          ],
+          [
+            "rgb(26, 26, 26)",
+            34
+          ],
+          [
+            "rgb(186, 186, 186)",
+            26
+          ],
+          [
+            "rgb(255, 255, 255)",
+            18
+          ]
+        ],
+        "meanSaturation": 0.27,
+        "rootVars": {
+          "--bgcolor": "#1a1a1a",
+          "--primarycolor": "#bababa",
+          "--red": "#ff001a",
+          "--grey": "#bababa",
+          "--black": "#111",
+          "--lightblue": "#9fe4f3",
+          "--blue": "#03049c",
+          "--cream": "#bab5a6",
+          "--green": "#0f0",
+          "--pink": "#a7849d",
+          "--lightgrey": "#71737d",
+          "--columns": "20",
+          "--bannerHeight": "170vh",
+          "--radius": ".5vw",
+          "--border": "1px solid hsla(0,0%,100%,.7)",
+          "--borderFade": "1px solid hsla(0,0%,100%,.5)"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 2,
+        "sticky": 5,
+        "fixed": 18,
+        "grid": 8,
+        "flex": 84,
+        "absolute": 29,
+        "asymmetricGrids": 2,
+        "splitScreen": false,
+        "scrollHeight": 11435,
+        "pages": 12.7,
+        "spacing": [
+          [
+            7,
+            31
+          ],
+          [
+            14,
+            15
+          ],
+          [
+            22,
+            14
+          ],
+          [
+            4,
+            11
+          ],
+          [
+            12,
+            11
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            9,
+            3
+          ],
+          [
+            58,
+            3
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 5,
+        "animationKinds": [
+          "CSSTransition",
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 4,
+        "animationDurations": [
+          300,
+          8000,
+          1000,
+          500,
+          500
+        ],
+        "easings": [
+          "ease",
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            300,
+            34
+          ],
+          [
+            200,
+            1
+          ],
+          [
+            100,
+            1
+          ]
+        ],
+        "keyframes": [
+          "foreground",
+          "scanline",
+          "scanlines"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 173,
+      "media": {
+        "canvases": [
+          {
+            "w": 1008,
+            "h": 288,
+            "area": 0.22
+          },
+          {
+            "w": 1440,
+            "h": 900,
+            "area": 1
+          },
+          {
+            "w": 1440,
+            "h": 900,
+            "area": 1
+          }
+        ],
+        "videos": [
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://pxpush.com/img/home/pxpush.mp4"
+          }
+        ],
+        "svg": 7,
+        "images": 50,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 3,
+          "2d": 3
+        },
+        "raf": 164,
+        "io": 3,
+        "ro": 2,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": true,
+        "reactRoot": false,
+        "vue": true,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "PX PUSH — Design subscription service",
+      "lang": "en",
+      "description": "The best design subscription service for agencies, startups, and entrepreneurs."
+    },
+    "featuresBeforeScroll": {
+      "elements": 4776,
+      "canvases": 3,
+      "animations": 4,
+      "hidden": 173
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 6,
+      "changed": 0
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 10298236,
+        "layoutCount": 611,
+        "recalcStyleCount": 1795,
+        "scriptDuration": 0.593808,
+        "taskDuration": 102.181106,
+        "nodes": 9448
+      },
+      "timing": {
+        "domContentLoaded": 527,
+        "load": 10297,
+        "first-paint": 636,
+        "first-contentful-paint": 636
+      }
+    },
+    "network": [
+      {
+        "url": "https://pxpush.com/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 21913
+      },
+      {
+        "url": "https://pxpush.com/_nuxt/entry.CQSbLAcy.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1298
+      },
+      {
+        "url": "https://pxpush.com/_nuxt/default.Z9wDiTTt.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1219
+      },
+      {
+        "url": "https://pxpush.com/_nuxt/Footer.MRJrKAf5.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 652
+      },
+      {
+        "url": "https://pxpush.com/_nuxt/OS4hgONa.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 135068
+      },
+      {
+        "url": "https://pxpush.com/_nuxt/BJvwdrpy.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4432
+      },
+      {
+        "url": "https://pxpush.com/_nuxt/BbI7UGl8.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2361
+      },
+      {
+        "url": "https://pxpush.com/_nuxt/CC69miPM.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 11168
+      },
+      {
+        "url": "https://pxpush.com/_nuxt/CYqYa4ZY.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 143145
+      },
+      {
+        "url": "https://pxpush.com/_nuxt/DlAUqK2U.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 369
+      },
+      {
+        "url": "https://pxpush.com/_nuxt/D51e8WyG.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 31181
+      },
+      {
+        "url": "https://pxpush.com/_nuxt/kReKbN7K.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1206
+      },
+      {
+        "url": "https://pxpush.com/_nuxt/BB9HWyGd.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1433
+      },
+      {
+        "url": "https://pxpush.com/_nuxt/-qTsPo9v.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4549
+      },
+      {
+        "url": "https://pxpush.com/_nuxt/builds/meta/f03bfce6-d120-43b3-935f-067703ad0aa0.json",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 708
+      },
+      {
+        "url": "https://pxpush.com/img/home/benefit1.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 75639
+      },
+      {
+        "url": "https://pxpush.com/img/home/benefit2.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 71931
+      },
+      {
+        "url": "https://pxpush.com/img/home/benefit3.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 59619
+      },
+      {
+        "url": "https://pxpush.com/img/home/benefit4.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 96606
+      },
+      {
+        "url": "https://pxpush.com/img/home/benefit5.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 48806
+      },
+      {
+        "url": "https://pxpush.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1021
+      },
+      {
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 10438
+      },
+      {
+        "url": "https://pxpush.com/_nuxt/_slug_.DENrRFxM.css",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 3204
+      },
+      {
+        "url": "https://pxpush.com/_nuxt/akxrpVnn.js",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 16282
+      },
+      {
+        "url": "https://pxpush.com/_nuxt/BmeZKSMe.js",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2704
+      },
+      {
+        "url": "https://pxpush.com/_nuxt/BUeof1Q5.js",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 610
+      },
+      {
+        "url": "https://pxpush.com/_nuxt/Industries.BJpTkmyx.css",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 741
+      },
+      {
+        "url": "https://pxpush.com/_nuxt/BgiuCiKQ.js",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4435
+      },
+      {
+        "url": "https://pxpush.com/img/crt.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 18065
+      },
+      {
+        "url": "https://pxpush.com/img/noise.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 13395
+      },
+      {
+        "url": "https://pxpush.com/_nuxt/PPNeueMontrealMono-Book.D9DlBA0F.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 61019
+      },
+      {
+        "url": "https://pxpush.com/_nuxt/SemiSqueezedMedium.DVwdXl-1.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 43694
+      },
+      {
+        "url": "https://pxpush.com/_nuxt/Graphik-Regular-Web.C0YoM5Bw.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 37051
+      },
+      {
+        "url": "https://pxpush.com/img/works/work2.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 53769
+      },
+      {
+        "url": "https://pxpush.com/img/works/work3.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 121460
+      },
+      {
+        "url": "https://pxpush.com/img/works/work4.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 99579
+      },
+      {
+        "url": "https://pxpush.com/img/works/work5.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 190508
+      },
+      {
+        "url": "https://pxpush.com/img/works/work1.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 152949
+      },
+      {
+        "url": "https://pxpush.com/img/works/work6.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 61624
+      },
+      {
+        "url": "https://pxpush.com/img/works/work7.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 137668
+      },
+      {
+        "url": "https://pxpush.com/img/works/work8.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 138641
+      },
+      {
+        "url": "https://pxpush.com/img/works/work9.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 53910
+      },
+      {
+        "url": "https://pxpush.com/img/works/work10.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 68333
+      },
+      {
+        "url": "https://pxpush.com/img/works/work11.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 236096
+      },
+      {
+        "url": "https://pxpush.com/img/works/work12.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 42805
+      },
+      {
+        "url": "https://pxpush.com/img/works/work13.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 45269
+      },
+      {
+        "url": "https://pxpush.com/img/works/work14.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 138244
+      },
+      {
+        "url": "https://pxpush.com/img/works/work15.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 540164
+      },
+      {
+        "url": "https://pxpush.com/img/works/branding1.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 89752
+      },
+      {
+        "url": "https://pxpush.com/img/works/branding2.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 47865
+      },
+      {
+        "url": "https://pxpush.com/img/works/branding3.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 12581
+      },
+      {
+        "url": "https://pxpush.com/img/works/branding4.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 65767
+      },
+      {
+        "url": "https://pxpush.com/img/works/branding5.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 13725
+      },
+      {
+        "url": "https://pxpush.com/img/works/branding6.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 65497
+      },
+      {
+        "url": "https://pxpush.com/img/works/branding7.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 66890
+      },
+      {
+        "url": "https://pxpush.com/img/works/branding8.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 80924
+      },
+      {
+        "url": "https://pxpush.com/img/works/branding9.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 50682
+      },
+      {
+        "url": "https://pxpush.com/img/works/branding10.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 112565
+      },
+      {
+        "url": "https://pxpush.com/img/works/branding11.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 76111
+      },
+      {
+        "url": "https://pxpush.com/img/works/branding12.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 24088
+      },
+      {
+        "url": "https://pxpush.com/img/works/branding13.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 127835
+      },
+      {
+        "url": "https://pxpush.com/img/works/branding14.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 47426
+      },
+      {
+        "url": "https://pxpush.com/img/works/branding15.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 31337
+      },
+      {
+        "url": "https://pxpush.com/img/home/pxpush.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://pxpush.com/_nuxt/MarqueeText.DeyW-Ysn.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 927
+      },
+      {
+        "url": "https://pxpush.com/_nuxt/ScrollAccordion.BcEnng-O.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 900
+      },
+      {
+        "url": "https://pxpush.com/_nuxt/index.CEnG83Iu.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 3450
+      },
+      {
+        "url": "https://pxpush.com/img/home/pxpush.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 37049
+      },
+      {
+        "url": "https://pxpush.com/cdn-cgi/rum?",
+        "method": "POST",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 442
+      },
+      {
+        "url": "https://pxpush.com/cdn-cgi/rum?",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 439
+      },
+      {
+        "url": "https://pxpush.com/cdn-cgi/rum?",
+        "method": "POST",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 440
+      },
+      {
+        "url": "https://pxpush.com/cdn-cgi/rum?",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 441
+      },
+      {
+        "url": "https://pxpush.com/_nuxt/Logo3D.CaV_7exR.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 776
+      },
+      {
+        "url": "https://pxpush.com/img/pxpush.svg",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 2126
+      },
+      {
+        "url": "https://pxpush.com/img/home/cloud10.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 59094
+      },
+      {
+        "url": "https://pxpush.com/img/home/floppy_disk/scene.gltf",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "model/gltf+json",
+        "fromCache": false,
+        "bytes": 5097
+      },
+      {
+        "url": "https://pxpush.com/img/home/floppy_disk/textures/material_0_diffuse.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 1022931
+      },
+      {
+        "url": "https://pxpush.com/img/home/floppy_disk/textures/material_0_specularGlossiness.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 3578067
+      },
+      {
+        "url": "https://pxpush.com/img/cursor.obj",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "model/obj",
+        "fromCache": false,
+        "bytes": 10292
+      },
+      {
+        "url": "data:image/png;base64,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",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://pxpush.com/cdn-cgi/rum?",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 439
+      },
+      {
+        "url": "https://pxpush.com/img/home/floppy_disk/scene.bin",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 4987
+      },
+      {
+        "url": "https://pxpush.com/img/home/floppy_disk/textures/material_0_normal.png",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 1041698
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "foreground",
+        "duration": 500,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "scanlines",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "scanline",
+        "duration": 8000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "foreground",
+        "duration": 500,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 92.46094590185321,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "foreground",
+        "duration": 500,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "foreground",
+        "duration": 500,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0702000FC1E0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0D02000FC1E0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0A02000FC1E0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x27c402530000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x27c402530000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x27c402530000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x27c402530000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://pxpush.com/img/home/pxpush.mp4",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 54134,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 5410,
+      "typography": {
+        "families": [
+          [
+            "Mono",
+            49
+          ],
+          [
+            "SemiSqueezed",
+            34
+          ],
+          [
+            "Graphik",
+            1
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            84
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            17
+          ]
+        ],
+        "sizeMin": 10,
+        "sizeMedian": 14,
+        "sizeMax": 78,
+        "sizeMaxVw": 20,
+        "scaleRatio": 5.6,
+        "letterSpacingMean": -0.012,
+        "loadedFonts": [
+          {
+            "family": "Graphik",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "SemiSqueezed",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Mono",
+            "weight": "400",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 84
+      },
+      "color": {
+        "background": "rgb(26, 26, 26)",
+        "backgroundLuminance": 0.010329823029626936,
+        "backgrounds": [
+          [
+            "rgb(3, 4, 156)",
+            1283
+          ],
+          [
+            "rgb(113, 115, 125)",
+            960
+          ],
+          [
+            "rgb(26, 26, 26)",
+            422
+          ],
+          [
+            "rgb(186, 186, 186)",
+            0
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(17, 17, 17)",
+            1254
+          ],
+          [
+            "rgb(217, 217, 217)",
+            1044
+          ],
+          [
+            "rgb(255, 255, 255)",
+            31
+          ],
+          [
+            "rgb(186, 186, 186)",
+            16
+          ],
+          [
+            "rgb(0, 0, 0)",
+            2
+          ]
+        ],
+        "meanSaturation": 0.27,
+        "rootVars": {
+          "--bgcolor": "#1a1a1a",
+          "--primarycolor": "#bababa",
+          "--red": "#ff001a",
+          "--grey": "#bababa",
+          "--black": "#111",
+          "--lightblue": "#9fe4f3",
+          "--blue": "#03049c",
+          "--cream": "#bab5a6",
+          "--green": "#0f0",
+          "--pink": "#a7849d",
+          "--lightgrey": "#71737d",
+          "--columns": "20",
+          "--bannerHeight": "170vh",
+          "--radius": ".5vw",
+          "--border": "1px solid hsla(0,0%,100%,.7)",
+          "--borderFade": "1px solid hsla(0,0%,100%,.5)"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 2,
+        "sticky": 5,
+        "fixed": 17,
+        "grid": 8,
+        "flex": 66,
+        "absolute": 40,
+        "asymmetricGrids": 1,
+        "splitScreen": false,
+        "scrollHeight": 9285,
+        "pages": 11,
+        "spacing": [
+          [
+            5,
+            29
+          ],
+          [
+            10,
+            21
+          ],
+          [
+            3,
+            11
+          ],
+          [
+            1,
+            10
+          ],
+          [
+            2,
+            9
+          ],
+          [
+            14,
+            6
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            20,
+            5
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 2,
+        "animationKinds": [
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 2,
+        "animationDurations": [
+          8000,
+          1000
+        ],
+        "easings": [
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            300,
+            34
+          ],
+          [
+            200,
+            1
+          ],
+          [
+            100,
+            1
+          ]
+        ],
+        "keyframes": [
+          "foreground",
+          "scanline",
+          "scanlines"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 11,
+      "media": {
+        "canvases": [
+          {
+            "w": 546,
+            "h": 540,
+            "area": 0.01
+          },
+          {
+            "w": 390,
+            "h": 844,
+            "area": 1
+          },
+          {
+            "w": 1,
+            "h": 1,
+            "area": 0
+          }
+        ],
+        "videos": [
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://pxpush.com/img/home/pxpush.mp4"
+          }
+        ],
+        "svg": 7,
+        "images": 50,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 3,
+          "2d": 3
+        },
+        "raf": 162,
+        "io": 3,
+        "ro": 2,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": true,
+        "reactRoot": false,
+        "vue": true,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "PX PUSH — Design subscription service",
+      "lang": "en",
+      "description": "The best design subscription service for agencies, startups, and entrepreneurs."
+    },
+    "featuresBeforeScroll": {
+      "elements": 5410,
+      "canvases": 3,
+      "animations": 2,
+      "hidden": 166
+    },
+    "scrollReveal": 155,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 10726916,
+        "layoutCount": 477,
+        "recalcStyleCount": 1551,
+        "scriptDuration": 0.343698,
+        "taskDuration": 52.527848,
+        "nodes": 9600
+      },
+      "timing": {
+        "domContentLoaded": 283,
+        "load": 372,
+        "first-paint": 264,
+        "first-contentful-paint": 264
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "scanlines",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "scanline",
+        "duration": 8000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0702000FC1E0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0D02000FC1E0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0A02000FC1E0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://pxpush.com/img/home/pxpush.mp4",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  }
+}

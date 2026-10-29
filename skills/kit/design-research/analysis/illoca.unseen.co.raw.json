@@ -1,0 +1,1769 @@
+{
+  "url": "https://illoca.unseen.co/",
+  "at": "2026-10-10T09:48:40.869Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 126620,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 1171,
+      "typography": {
+        "families": [
+          [
+            "Graphik Web",
+            54
+          ],
+          [
+            "Geist Mono",
+            23
+          ],
+          [
+            "Architect Pro",
+            4
+          ],
+          [
+            "F37 Analog",
+            1
+          ]
+        ],
+        "weights": [
+          [
+            "500",
+            56
+          ],
+          [
+            "400",
+            26
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            2
+          ]
+        ],
+        "sizeMin": 9,
+        "sizeMedian": 12,
+        "sizeMax": 76.5,
+        "sizeMaxVw": 5.3,
+        "scaleRatio": 6.4,
+        "letterSpacingMean": -0.019,
+        "loadedFonts": [
+          {
+            "family": "Geist Mono",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "F37 Analog",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "Graphik Web",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Graphik Web",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "Architect Pro Symbols",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Architect Pro",
+            "weight": "400",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 82
+      },
+      "color": {
+        "background": "rgb(234, 223, 201)",
+        "backgroundLuminance": 0.7448482375106489,
+        "backgrounds": [
+          [
+            "rgb(234, 223, 201)",
+            5184
+          ],
+          [
+            "rgb(40, 63, 125)",
+            729
+          ],
+          [
+            "rgb(253, 248, 240)",
+            67
+          ],
+          [
+            "rgba(255, 251, 243, 0.95)",
+            28
+          ],
+          [
+            "rgb(255, 255, 255)",
+            25
+          ],
+          [
+            "rgb(229, 214, 188)",
+            5
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(55, 55, 55)",
+            200
+          ],
+          [
+            "rgb(0, 0, 0)",
+            69
+          ],
+          [
+            "rgb(234, 223, 201)",
+            54
+          ],
+          [
+            "rgba(0, 0, 0, 0)",
+            43
+          ],
+          [
+            "rgb(33, 33, 33)",
+            39
+          ]
+        ],
+        "meanSaturation": 0.18,
+        "rootVars": {
+          "--breakpoint-ipadpro": "(hover:none) and (pointer:coarse) and (min-width:1024px)",
+          "--breakpoint-touch": "(pointer:coarse)",
+          "--breakpoint-nottouch": "(hover:hover) and (pointer:fine)",
+          "--breakpoint-portrait": "(orientation:portrait)"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 4,
+        "sticky": 0,
+        "fixed": 18,
+        "grid": 1,
+        "flex": 86,
+        "absolute": 71,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 900,
+        "pages": 1,
+        "spacing": [
+          [
+            6,
+            19
+          ],
+          [
+            12,
+            15
+          ],
+          [
+            17,
+            10
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            72,
+            5
+          ],
+          [
+            21,
+            5
+          ],
+          [
+            9,
+            3
+          ],
+          [
+            18,
+            2
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 0,
+        "animationKinds": [],
+        "infiniteAnimations": 0,
+        "animationDurations": [],
+        "easings": [],
+        "transitionDurationsMs": [
+          [
+            300,
+            5
+          ],
+          [
+            500,
+            5
+          ],
+          [
+            200,
+            2
+          ],
+          [
+            150,
+            2
+          ],
+          [
+            100,
+            1
+          ]
+        ],
+        "keyframes": [],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 227,
+      "media": {
+        "canvases": [
+          {
+            "w": 2160,
+            "h": 1350,
+            "area": 1
+          }
+        ],
+        "videos": [],
+        "svg": 49,
+        "images": 0,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 1,
+          "2d": 1
+        },
+        "raf": 101,
+        "io": 1,
+        "ro": 31,
+        "mo": 1,
+        "startViewTransition": 0,
+        "workers": 8,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": true,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "illoca – Architectural design at the speed of thought",
+      "lang": "en",
+      "description": "illoca is an AI-native design engine built for professional architects. Explore, refine, and move from first ideas to editable 2D and 3D designs with more speed and control."
+    },
+    "featuresBeforeScroll": {
+      "elements": 1171,
+      "canvases": 1,
+      "animations": 0,
+      "hidden": 226
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 6,
+      "changed": 0
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 22615528,
+        "layoutCount": 875,
+        "recalcStyleCount": 1916,
+        "scriptDuration": 0.910713,
+        "taskDuration": 124.085662,
+        "nodes": 2498
+      },
+      "timing": {
+        "domContentLoaded": 396,
+        "load": 398,
+        "first-paint": 392,
+        "first-contentful-paint": 392
+      }
+    },
+    "network": [
+      {
+        "url": "https://illoca.unseen.co/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 17424
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Geist+Mono:wght@500&display=swap",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 577
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&family=Syne:wght@800&family=DM+Sans:wght@400;500&family=Space+Mono:wght@400&family=Caveat:wght@400&display=swap",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 495
+      },
+      {
+        "url": "https://illoca.unseen.co/_nuxt/entry.CIVqmn_L.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 12982
+      },
+      {
+        "url": "https://illoca.unseen.co/_nuxt/CookieBanner.CMLyqg0F.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 729
+      },
+      {
+        "url": "https://illoca.unseen.co/_nuxt/index.CT8Kotaq.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 831
+      },
+      {
+        "url": "https://illoca.unseen.co/_payload.json?b3131fd7-c83b-4eb9-9148-4ade3d4b8d21",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 205
+      },
+      {
+        "url": "https://illoca.unseen.co/_nuxt/DGk6hhCZ.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 553582
+      },
+      {
+        "url": "https://illoca.unseen.co/_nuxt/CqP-6LWZ.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 960
+      },
+      {
+        "url": "https://illoca.unseen.co/_nuxt/BAy5ZHsv.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 5582
+      },
+      {
+        "url": "https://illoca.unseen.co/_nuxt/DCGk3jTd.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 47417
+      },
+      {
+        "url": "https://illoca.unseen.co/_nuxt/B0jKvg3D.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 17436
+      },
+      {
+        "url": "https://illoca.unseen.co/_nuxt/spritemap.53a09954.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1880
+      },
+      {
+        "url": "https://illoca.unseen.co/images/pricing.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 69456
+      },
+      {
+        "url": "https://illoca.unseen.co/images/faqs.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 74936
+      },
+      {
+        "url": "data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='2' fill='none' viewBox='0 0 4 2'%3E%3Ccircle cx='1' cy='1' r='1' fill='%23414141'/%3E%3Ccircle cx='3' cy='1' r='1'/%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://illoca.unseen.co/images/pricing-1.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 108419
+      },
+      {
+        "url": "https://illoca.unseen.co/images/tick.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 464
+      },
+      {
+        "url": "https://illoca.unseen.co/images/pricing-2.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 109987
+      },
+      {
+        "url": "https://illoca.unseen.co/images/tick-light.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 463
+      },
+      {
+        "url": "https://illoca.unseen.co/images/pricing-3.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 109172
+      },
+      {
+        "url": "https://illoca.unseen.co/images/footer.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 108543
+      },
+      {
+        "url": "data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='2' fill='none' viewBox='0 0 4 2'%3E%3Ccircle cx='1' cy='1' r='1' fill='%23e76051'/%3E%3Ccircle cx='3' cy='1' r='1'/%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://illoca.unseen.co/images/grain-400.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 130361
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/geistmono/v6/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeEPKJ5T.ttf",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/ttf",
+        "fromCache": false,
+        "bytes": 36835
+      },
+      {
+        "url": "https://illoca.unseen.co/fonts/ArchitectProMarkerCap.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 47516
+      },
+      {
+        "url": "https://illoca.unseen.co/fonts/Graphik-Medium-Web.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 37426
+      },
+      {
+        "url": "https://illoca.unseen.co/fonts/F37Analog-Medium.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 54103
+      },
+      {
+        "url": "https://illoca.unseen.co/fonts/ArchitectProSymbols.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 19309
+      },
+      {
+        "url": "https://illoca.unseen.co/fonts/Graphik-Regular-Web.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 30929
+      },
+      {
+        "url": "https://illoca.unseen.co/_nuxt/B7tUkulH.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 14255
+      },
+      {
+        "url": "https://illoca.unseen.co/webgl/models/scene.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 1314085
+      },
+      {
+        "url": "https://illoca.unseen.co/webgl/models/building.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 3800627
+      },
+      {
+        "url": "https://illoca.unseen.co/webgl/textures/floorplan-ai.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 116054
+      },
+      {
+        "url": "https://illoca.unseen.co/webgl/textures/grid-texture.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 76297
+      },
+      {
+        "url": "https://illoca.unseen.co/webgl/textures/voronoi.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 436156
+      },
+      {
+        "url": "https://illoca.unseen.co/webgl/textures/second-sketch.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 83289
+      },
+      {
+        "url": "https://illoca.unseen.co/webgl/textures/facades.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 191426
+      },
+      {
+        "url": "https://illoca.unseen.co/webgl/textures/floor-plan-hand-drawn.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 48164
+      },
+      {
+        "url": "https://illoca.unseen.co/webgl/textures/second-floorplan.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 87972
+      },
+      {
+        "url": "https://illoca.unseen.co/webgl/models/letter_scene.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 19507
+      },
+      {
+        "url": "https://illoca.unseen.co/webgl/models/footer.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 12645
+      },
+      {
+        "url": "https://illoca.unseen.co/webgl/textures/blueprint/frame_0001.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 6096
+      },
+      {
+        "url": "https://illoca.unseen.co/webgl/textures/illoca_light.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 84274
+      },
+      {
+        "url": "https://illoca.unseen.co/webgl/textures/blueprint/frame_0002.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 5936
+      },
+      {
+        "url": "https://illoca.unseen.co/webgl/textures/blueprint/frame_0003.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 5913
+      },
+      {
+        "url": "https://illoca.unseen.co/webgl/textures/blueprint/frame_0004.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 5913
+      },
+      {
+        "url": "https://illoca.unseen.co/webgl/textures/blueprint/frame_0005.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 5913
+      },
+      {
+        "url": "https://illoca.unseen.co/webgl/textures/blueprint/frame_0006.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 5962
+      },
+      {
+        "url": "https://illoca.unseen.co/webgl/textures/blueprint/frame_0007.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 6011
+      },
+      {
+        "url": "https://illoca.unseen.co/webgl/textures/blueprint/frame_0008.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 6152
+      },
+      {
+        "url": "https://illoca.unseen.co/webgl/textures/blueprint/frame_0009.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 6035
+      },
+      {
+        "url": "https://illoca.unseen.co/webgl/textures/blueprint/frame_0010.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 6072
+      },
+      {
+        "url": "https://illoca.unseen.co/webgl/textures/blueprint/frame_0011.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 6081
+      },
+      {
+        "url": "https://illoca.unseen.co/webgl/textures/blueprint/frame_0012.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 6095
+      },
+      {
+        "url": "https://illoca.unseen.co/webgl/textures/blueprint/frame_0013.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 6139
+      },
+      {
+        "url": "https://illoca.unseen.co/webgl/textures/blueprint/frame_0014.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 6119
+      },
+      {
+        "url": "https://illoca.unseen.co/webgl/textures/blueprint/frame_0015.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 6163
+      },
+      {
+        "url": "https://illoca.unseen.co/webgl/textures/blueprint/frame_0016.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 6838
+      },
+      {
+        "url": "https://illoca.unseen.co/webgl/textures/blueprint/frame_0017.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 6304
+      },
+      {
+        "url": "https://illoca.unseen.co/webgl/textures/blueprint/frame_0018.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 6387
+      },
+      {
+        "url": "https://illoca.unseen.co/webgl/textures/blueprint/frame_0019.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 6471
+      },
+      {
+        "url": "https://illoca.unseen.co/webgl/textures/blueprint/frame_0020.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 6613
+      },
+      {
+        "url": "https://illoca.unseen.co/webgl/textures/blueprint/frame_0021.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 6612
+      },
+      {
+        "url": "https://illoca.unseen.co/webgl/textures/blueprint/frame_0022.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 6706
+      },
+      {
+        "url": "https://illoca.unseen.co/webgl/textures/blueprint/frame_0023.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 6878
+      },
+      {
+        "url": "https://illoca.unseen.co/webgl/textures/blueprint/frame_0024.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 7006
+      },
+      {
+        "url": "https://illoca.unseen.co/webgl/textures/blueprint/frame_0025.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 7290
+      },
+      {
+        "url": "https://illoca.unseen.co/webgl/textures/blueprint/frame_0026.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 7239
+      },
+      {
+        "url": "https://illoca.unseen.co/webgl/textures/blueprint/frame_0027.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 7463
+      },
+      {
+        "url": "https://illoca.unseen.co/webgl/textures/blueprint/frame_0028.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 7802
+      },
+      {
+        "url": "https://illoca.unseen.co/webgl/textures/blueprint/frame_0029.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 8260
+      },
+      {
+        "url": "https://illoca.unseen.co/webgl/textures/blueprint/frame_0030.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 8597
+      },
+      {
+        "url": "https://illoca.unseen.co/webgl/textures/blueprint/frame_0031.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 8759
+      },
+      {
+        "url": "https://illoca.unseen.co/webgl/textures/blueprint/frame_0032.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 8857
+      },
+      {
+        "url": "https://illoca.unseen.co/webgl/textures/blueprint/frame_0033.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 9532
+      },
+      {
+        "url": "https://illoca.unseen.co/webgl/textures/blueprint/frame_0034.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 8990
+      },
+      {
+        "url": "https://illoca.unseen.co/webgl/textures/blueprint/frame_0035.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 9003
+      },
+      {
+        "url": "https://illoca.unseen.co/webgl/textures/blueprint/frame_0036.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 9014
+      },
+      {
+        "url": "https://illoca.unseen.co/webgl/textures/blueprint/frame_0037.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 9027
+      },
+      {
+        "url": "https://illoca.unseen.co/webgl/textures/blueprint/frame_0038.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 9044
+      },
+      {
+        "url": "https://illoca.unseen.co/webgl/textures/blueprint/frame_0039.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 9021
+      },
+      {
+        "url": "https://illoca.unseen.co/webgl/textures/blueprint/frame_0040.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 9017
+      },
+      {
+        "url": "https://illoca.unseen.co/webgl/textures/blueprint/frame_0041.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 9625
+      },
+      {
+        "url": "https://illoca.unseen.co/webgl/textures/blueprint/frame_0042.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 8988
+      },
+      {
+        "url": "https://illoca.unseen.co/webgl/textures/blueprint/frame_0043.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 9029
+      },
+      {
+        "url": "https://illoca.unseen.co/webgl/textures/blueprint/frame_0044.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 8997
+      },
+      {
+        "url": "https://illoca.unseen.co/webgl/textures/blueprint/frame_0045.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 8986
+      },
+      {
+        "url": "https://illoca.unseen.co/webgl/textures/blueprint/frame_0046.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 9021
+      },
+      {
+        "url": "https://illoca.unseen.co/webgl/textures/blueprint/frame_0047.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 8987
+      },
+      {
+        "url": "https://illoca.unseen.co/webgl/textures/blueprint/frame_0048.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 8987
+      },
+      {
+        "url": "https://illoca.unseen.co/webgl/textures/blueprint/frame_0049.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 8986
+      },
+      {
+        "url": "https://illoca.unseen.co/draco/draco_wasm_wrapper.js",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 11211
+      },
+      {
+        "url": "https://illoca.unseen.co/draco/draco_decoder.wasm",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/wasm",
+        "fromCache": false,
+        "bytes": 79023
+      },
+      {
+        "url": "https://illoca.unseen.co/basis/basis_transcoder.js",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 14891
+      },
+      {
+        "url": "https://illoca.unseen.co/basis/basis_transcoder.wasm",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/wasm",
+        "fromCache": false,
+        "bytes": 232197
+      },
+      {
+        "url": "blob:https://illoca.unseen.co/1f4abe67-2583-4ec4-bbc6-78a056e576ef",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "blob:https://illoca.unseen.co/1f4abe67-2583-4ec4-bbc6-78a056e576ef",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "blob:https://illoca.unseen.co/1f4abe67-2583-4ec4-bbc6-78a056e576ef",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "blob:https://illoca.unseen.co/1f4abe67-2583-4ec4-bbc6-78a056e576ef",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "blob:https://illoca.unseen.co/e560fcb3-c056-458d-8f28-2aa00b046d94",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "blob:https://illoca.unseen.co/e560fcb3-c056-458d-8f28-2aa00b046d94",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "blob:https://illoca.unseen.co/e560fcb3-c056-458d-8f28-2aa00b046d94",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "blob:https://illoca.unseen.co/e560fcb3-c056-458d-8f28-2aa00b046d94",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "https://illoca.unseen.co/_nuxt/builds/meta/b3131fd7-c83b-4eb9-9148-4ade3d4b8d21.json",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 318
+      }
+    ],
+    "animationsReported": [],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0702000743E0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0xc6400f1fc00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "THREE.KTX2Loader: ETC1S and UASTC textures should use multiple-of-four dimensions."
+      },
+      {
+        "level": "warning",
+        "text": "THREE.KTX2Loader: ETC1S and UASTC textures should use multiple-of-four dimensions."
+      },
+      {
+        "level": "warning",
+        "text": "THREE.KTX2Loader: ETC1S and UASTC textures should use multiple-of-four dimensions."
+      },
+      {
+        "level": "warning",
+        "text": "THREE.KTX2Loader: ETC1S and UASTC textures should use multiple-of-four dimensions."
+      },
+      {
+        "level": "warning",
+        "text": "THREE.KTX2Loader: ETC1S and UASTC textures should use multiple-of-four dimensions."
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0xc6400f1fc00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0xc6400f1fc00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0xc6400f1fc00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+      }
+    ],
+    "exceptions": [],
+    "failed": [],
+    "targets": {
+      "frames": 1,
+      "workers": 8
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 25191,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 1157,
+      "typography": {
+        "families": [
+          [
+            "Graphik Web",
+            57
+          ],
+          [
+            "Geist Mono",
+            18
+          ],
+          [
+            "Architect Pro",
+            1
+          ],
+          [
+            "F37 Analog",
+            1
+          ]
+        ],
+        "weights": [
+          [
+            "500",
+            53
+          ],
+          [
+            "400",
+            24
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            2
+          ]
+        ],
+        "sizeMin": 10.8333,
+        "sizeMedian": 12.6389,
+        "sizeMax": 50.5555,
+        "sizeMaxVw": 13,
+        "scaleRatio": 4,
+        "letterSpacingMean": -0.019,
+        "loadedFonts": [
+          {
+            "family": "Geist Mono",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "F37 Analog",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "Graphik Web",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Graphik Web",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "Architect Pro Symbols",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Architect Pro",
+            "weight": "400",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 77
+      },
+      "color": {
+        "background": "rgb(234, 223, 201)",
+        "backgroundLuminance": 0.7448482375106489,
+        "backgrounds": [
+          [
+            "rgb(234, 223, 201)",
+            1218
+          ],
+          [
+            "rgb(40, 63, 125)",
+            184
+          ],
+          [
+            "rgb(253, 248, 240)",
+            52
+          ],
+          [
+            "rgba(255, 251, 243, 0.95)",
+            44
+          ],
+          [
+            "rgb(229, 214, 188)",
+            5
+          ],
+          [
+            "rgb(91, 91, 91)",
+            2
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(55, 55, 55)",
+            198
+          ],
+          [
+            "rgb(0, 0, 0)",
+            70
+          ],
+          [
+            "rgb(234, 223, 201)",
+            54
+          ],
+          [
+            "rgba(0, 0, 0, 0)",
+            44
+          ],
+          [
+            "rgb(33, 33, 33)",
+            36
+          ]
+        ],
+        "meanSaturation": 0.18,
+        "rootVars": {
+          "--breakpoint-ipadpro": "(hover:none) and (pointer:coarse) and (min-width:1024px)",
+          "--breakpoint-touch": "(pointer:coarse)",
+          "--breakpoint-nottouch": "(hover:hover) and (pointer:fine)",
+          "--breakpoint-portrait": "(orientation:portrait)"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 4,
+        "sticky": 0,
+        "fixed": 17,
+        "grid": 1,
+        "flex": 81,
+        "absolute": 66,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 844,
+        "pages": 1,
+        "spacing": [
+          [
+            7,
+            18
+          ],
+          [
+            29,
+            15
+          ],
+          [
+            14,
+            14
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            9,
+            5
+          ],
+          [
+            10,
+            4
+          ],
+          [
+            11,
+            3
+          ],
+          [
+            22,
+            3
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 0,
+        "animationKinds": [],
+        "infiniteAnimations": 0,
+        "animationDurations": [],
+        "easings": [],
+        "transitionDurationsMs": [
+          [
+            300,
+            5
+          ],
+          [
+            500,
+            5
+          ],
+          [
+            200,
+            2
+          ],
+          [
+            150,
+            2
+          ],
+          [
+            100,
+            1
+          ]
+        ],
+        "keyframes": [],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 147,
+      "media": {
+        "canvases": [
+          {
+            "w": 780,
+            "h": 1688,
+            "area": 1
+          }
+        ],
+        "videos": [],
+        "svg": 49,
+        "images": 0,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 1,
+          "2d": 1
+        },
+        "raf": 98,
+        "io": 1,
+        "ro": 30,
+        "mo": 1,
+        "startViewTransition": 0,
+        "workers": 8,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": true,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "illoca – Architectural design at the speed of thought",
+      "lang": "en",
+      "description": "illoca is an AI-native design engine built for professional architects. Explore, refine, and move from first ideas to editable 2D and 3D designs with more speed and control."
+    },
+    "featuresBeforeScroll": {
+      "elements": 1157,
+      "canvases": 1,
+      "animations": 0,
+      "hidden": 147
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 46730172,
+        "layoutCount": 954,
+        "recalcStyleCount": 1837,
+        "scriptDuration": 0.85576,
+        "taskDuration": 23.630765,
+        "nodes": 2234
+      },
+      "timing": {
+        "domContentLoaded": 359,
+        "load": 367,
+        "first-paint": 288,
+        "first-contentful-paint": 288
+      }
+    },
+    "animationsReported": [],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0C08116743E0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "THREE.KTX2Loader: ETC1S and UASTC textures should use multiple-of-four dimensions."
+      },
+      {
+        "level": "warning",
+        "text": "THREE.KTX2Loader: ETC1S and UASTC textures should use multiple-of-four dimensions."
+      },
+      {
+        "level": "warning",
+        "text": "THREE.KTX2Loader: ETC1S and UASTC textures should use multiple-of-four dimensions."
+      },
+      {
+        "level": "warning",
+        "text": "THREE.KTX2Loader: ETC1S and UASTC textures should use multiple-of-four dimensions."
+      },
+      {
+        "level": "warning",
+        "text": "THREE.KTX2Loader: ETC1S and UASTC textures should use multiple-of-four dimensions."
+      }
+    ],
+    "exceptions": [],
+    "failed": [],
+    "targets": {
+      "frames": 1,
+      "workers": 8
+    }
+  }
+}

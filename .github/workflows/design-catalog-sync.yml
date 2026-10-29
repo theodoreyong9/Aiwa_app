@@ -1,0 +1,55 @@
+name: Design catalogue
+
+# Every week: read the two registries, visit what is new, failed or stale, and commit the catalogue (JSONL, pictures, observations).
+on:
+  schedule:
+    - cron: '17 4 * * 1'
+  workflow_dispatch:
+    inputs:
+      crawls:
+        description: 'Visits at most'
+        default: '20'
+      pages:
+        description: 'Listing pages read per registry (2 = the recent ones; more goes back in time, politely: 1.5 s between requests)'
+        default: '2'
+      limit:
+        description: 'Projects kept per registry'
+        default: '30'
+      only:
+        description: 'One registry only (awwwards or csswinner); empty = both'
+        default: ''
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm install
+        working-directory: skills/kit/design-research
+      - run: npx playwright install --with-deps chromium
+        working-directory: skills/kit/design-research
+      - name: Sync
+        run: node skills/kit/design-research/src/cli.js sync --crawls=${{ github.event.inputs.crawls || '20' }} --pages=${{ github.event.inputs.pages || '2' }} --limit=${{ github.event.inputs.limit || '30' }} ${{ github.event.inputs.only && format('--only={0}', github.event.inputs.only) || '' }} | tee sync.json
+      - name: Health (every registry giving nothing is a markup change)
+        run: |
+          node -e "
+          const t = require('fs').readFileSync('sync.json','utf8');
+          const s = JSON.parse(t.slice(t.lastIndexOf('\n{') + 1));
+          const dead = Object.entries(s.registries).filter(([, r]) => r.found === 0);
+          if (dead.length) console.error('::warning::no project found at: ' + dead.map(([n]) => n).join(', '));
+          if (dead.length === Object.keys(s.registries).length) { console.error('no project found at: ' + dead.map(([n]) => n).join(', ') + '\n' + s.errors.slice(0, 10).join('\n')); process.exit(1); }
+          "
+      - name: Commit the catalogue
+        if: always()
+        run: |
+          git config user.name "design-research"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A skills/kit/design-research
+          git diff --cached --quiet || (git commit -m "Design catalogue: weekly sync" && git push)

@@ -1,0 +1,1884 @@
+{
+  "url": "https://edolus.com/",
+  "at": "2026-10-09T07:58:13.713Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 53443,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 153,
+      "typography": {
+        "families": [
+          [
+            "General Sans",
+            4
+          ],
+          [
+            "JetBrains Mono",
+            1
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            2
+          ],
+          [
+            "500",
+            2
+          ],
+          [
+            "300",
+            1
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            4
+          ]
+        ],
+        "sizeMin": 12,
+        "sizeMedian": 14,
+        "sizeMax": 96,
+        "sizeMaxVw": 6.7,
+        "scaleRatio": 6.9,
+        "letterSpacingMean": 0.098,
+        "loadedFonts": [
+          {
+            "family": "JetBrains Mono",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "General Sans",
+            "weight": "300",
+            "style": "normal"
+          },
+          {
+            "family": "General Sans",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "General Sans",
+            "weight": "700",
+            "style": "normal"
+          },
+          {
+            "family": "General Sans",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "General Sans",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "General Sans",
+            "weight": "700",
+            "style": "normal"
+          },
+          {
+            "family": "JetBrains Mono",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "JetBrains Mono",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "JetBrains Mono",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "JetBrains Mono",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "General Sans",
+            "weight": "400",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 5
+      },
+      "color": {
+        "background": "rgb(29, 41, 44)",
+        "backgroundLuminance": 0.02028936109400648,
+        "backgrounds": [
+          [
+            "rgb(0, 0, 0)",
+            2592
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(0, 0, 0)",
+            50
+          ],
+          [
+            "rgb(255, 255, 255)",
+            28
+          ],
+          [
+            "rgb(196, 199, 199)",
+            3
+          ]
+        ],
+        "meanSaturation": 0,
+        "rootVars": {}
+      },
+      "layout": {
+        "fullscreenSections": 6,
+        "sticky": 0,
+        "fixed": 13,
+        "grid": 0,
+        "flex": 16,
+        "absolute": 20,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 900,
+        "pages": 1,
+        "spacing": [
+          [
+            10,
+            2
+          ],
+          [
+            32,
+            1
+          ],
+          [
+            44,
+            1
+          ],
+          [
+            19,
+            1
+          ],
+          [
+            80,
+            1
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 2,
+        "animationKinds": [
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 2,
+        "animationDurations": [
+          6000,
+          8800
+        ],
+        "easings": [
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            180,
+            6
+          ],
+          [
+            350,
+            4
+          ],
+          [
+            3000,
+            2
+          ],
+          [
+            400,
+            2
+          ],
+          [
+            1500,
+            1
+          ]
+        ],
+        "keyframes": [
+          "ctaLabelBlink",
+          "ctaBlink",
+          "cursorOrbitSpin",
+          "pc-eq-dance",
+          "pc-o-loop"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 10,
+      "media": {
+        "canvases": [
+          {
+            "w": 1440,
+            "h": 900,
+            "area": 1
+          }
+        ],
+        "videos": [
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://edolus.com/files/assets/297340642/1/Space-compressNOAUDIO-YTfullHD.mp4?t=5a0a9ec555552bb84bfa533812619b4e"
+          }
+        ],
+        "svg": 10,
+        "images": 0,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 1,
+          "2d": 6
+        },
+        "raf": 124,
+        "io": 0,
+        "ro": 0,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 2,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": true,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "EDOLUS",
+      "lang": "",
+      "description": ""
+    },
+    "featuresBeforeScroll": {
+      "elements": 153,
+      "canvases": 1,
+      "animations": 2,
+      "hidden": 10
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 28923212,
+        "layoutCount": 71,
+        "recalcStyleCount": 150,
+        "scriptDuration": 2.502613,
+        "taskDuration": 50.073807,
+        "nodes": 559
+      },
+      "timing": {
+        "domContentLoaded": 234,
+        "load": 1117,
+        "first-paint": 224,
+        "first-contentful-paint": 240
+      }
+    },
+    "network": [
+      {
+        "url": "https://edolus.com/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 1073
+      },
+      {
+        "url": "https://edolus.com/styles.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 634
+      },
+      {
+        "url": "https://edolus.com/playcanvas-stable.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 618632
+      },
+      {
+        "url": "https://edolus.com/__settings__.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1217
+      },
+      {
+        "url": "https://edolus.com/__modules__.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 915
+      },
+      {
+        "url": "https://edolus.com/__start__.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 3853
+      },
+      {
+        "url": "https://edolus.com/__loading__.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 22787
+      },
+      {
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 10438
+      },
+      {
+        "url": "https://edolus.com/config.json",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 139372
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&display=swap",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 589
+      },
+      {
+        "url": "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 26198
+      },
+      {
+        "url": "blob:https://edolus.com/85639589-6b3b-4c1e-bca1-c3133b4f03a8",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "https://edolus.com/__game-scripts.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 232278
+      },
+      {
+        "url": "https://edolus.com/files/assets/292237431/1/settings.local.json?t=e0fef443d52948538346e4b1bd0adb5f",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 621
+      },
+      {
+        "url": "https://edolus.com/files/assets/292237877/1/settings.json?t=566b0c1891cc3e8d88010369b0caeb3c",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 541
+      },
+      {
+        "url": "https://edolus.com/files/assets/294606318/1/Take%20001.glb?t=92c8e5f8d31f59a30cf620634318bcd9",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 67726
+      },
+      {
+        "url": "https://edolus.com/files/assets/294606321/1/Solar_panel_normal.basis?t=09198b76cb21fd17f393d524e34d242a",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 196590
+      },
+      {
+        "url": "https://edolus.com/files/assets/294606322/1/StarlinkV2-1.glb?t=de925792652e508f31cca5c035cb07c7",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 3653873
+      },
+      {
+        "url": "https://edolus.com/files/assets/294606329/1/Solar_panel_gloss.basis?t=0917901a8e1434791e06f5ea88e0eb5b",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 110236
+      },
+      {
+        "url": "https://edolus.com/files/assets/294760775/1/Poliigon_TilesCeramicWhite_6956_AmbientOcclusion.basis?t=b974572a8b080d9f9de059daf9e34b0e",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 12702
+      },
+      {
+        "url": "https://edolus.com/files/assets/294760950/1/monochrome_studio_02_512k-sharp.png?t=8139f8aa6c8508093d0d6ef1660addad",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 206785
+      },
+      {
+        "url": "https://edolus.com/files/assets/294761251/1/EARTH.png?t=d0af63985b34c09358f004ad3e278425",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 1048522
+      },
+      {
+        "url": "https://edolus.com/files/assets/295657347/1/ComputeTrayJOINED.glb?t=8ce0797c7b650df871d236a54eead989",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 7509417
+      },
+      {
+        "url": "https://edolus.com/files/assets/295713684/1/processor.glb?t=7d4f897bae4c8eef6b8b6c19e564a496",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 542215
+      },
+      {
+        "url": "https://edolus.com/files/assets/296179108/1/Solar_panelDiffuse1.basis?t=3e43c8d02b3bd044973f54ed55ee6cbd",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 1499275
+      },
+      {
+        "url": "https://edolus.com/files/assets/296220070/1/Reflection1.png?t=0a2f15de9eb23fff14bded515031345c",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 522870
+      },
+      {
+        "url": "https://edolus.com/files/assets/296316509/1/ny%20copy.basis?t=d956002c2dc42ce6645fd811932a5b62",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 79836
+      },
+      {
+        "url": "https://edolus.com/files/assets/296316510/1/nz%20copy.basis?t=f90f1007bdc0cb49f50e7c898d5a2410",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 97378
+      },
+      {
+        "url": "https://edolus.com/files/assets/296316511/1/px%20copy.basis?t=c54dbceef59814a4d22364851e5df86a",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 112471
+      },
+      {
+        "url": "https://edolus.com/files/assets/296316512/1/pz%20copy.basis?t=2b9519dde6d56acb01fa5a1382ec7462",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 240327
+      },
+      {
+        "url": "https://edolus.com/files/assets/296316513/1/nx%20copy.basis?t=61891ef30ee03ba5eebd33976314a4b4",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 210887
+      },
+      {
+        "url": "https://edolus.com/files/assets/296316514/1/py%20copy.basis?t=99d57d944dcd14fcd7b5c61cb59ce1ac",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 281990
+      },
+      {
+        "url": "https://edolus.com/files/assets/296323877/1/Reflection3.png?t=aae9d2808879be11353b5a0766f97bca",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 383330
+      },
+      {
+        "url": "https://edolus.com/files/assets/296902347/1/GDX-JOIN2%20-%20FIXtop2.glb?t=68e0f4a3b8355314f77708f47cce0f16",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 825697
+      },
+      {
+        "url": "https://edolus.com/files/assets/297261766/1/GDX-3PODS-F2.glb?t=ab0a12f255fc890bc0fa03829ea3e56f",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 1535769
+      },
+      {
+        "url": "https://edolus.com/files/assets/297270891/1/Stitches_Opacity.webp?t=b2cffde13b4802e64230d85e680775e9",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 2860
+      },
+      {
+        "url": "https://edolus.com/files/assets/297270892/1/Carpet_Diffuse.basis?t=4f9b65e5ed7e6c78c1e7275dc07fec5b",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 157377
+      },
+      {
+        "url": "https://edolus.com/files/assets/297270893/1/Stitches_Opacity_1.webp?t=e9929fee4c9df13c31c696cf7911b902",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 17571
+      },
+      {
+        "url": "https://edolus.com/files/assets/297270895/1/Plastic_Bump.basis?t=c37ecb1352b51f58f6dd8fa6811fef5c",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 161877
+      },
+      {
+        "url": "https://edolus.com/files/assets/297270901/1/Leather_Perforated_Diffuse.basis?t=3515d73ccb9ae7c400ee782ecb8a6762",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 34370
+      },
+      {
+        "url": "https://edolus.com/files/assets/297298133/1/leather_Bump%20copy.basis?t=564da3f4a69c07af9607b392457c0abc",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 151685
+      },
+      {
+        "url": "https://edolus.com/files/assets/297329940/1/000395480029reflect.png?t=519403362bd35481144ace1056ba5409",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 432318
+      },
+      {
+        "url": "https://edolus.com/files/assets/297337347/1/card0screenshot.webp?t=770b85b0f211b313ffdb1fd35d225a56",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 28397
+      },
+      {
+        "url": "https://edolus.com/files/assets/297590896/1/GeneralSans-Medium.png?t=cb3acd5968fb8456d586286349ab27e6",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 174039
+      },
+      {
+        "url": "https://edolus.com/files/assets/297590897/1/GeneralSans-Light.png?t=c39918db5da4cfb2a105d84bca84e826",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 158851
+      },
+      {
+        "url": "https://edolus.com/files/assets/297590898/1/GeneralSans-Semibold.png?t=15ed265506c0cefee46c8a91618bef37",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 182845
+      },
+      {
+        "url": "https://edolus.com/files/assets/297590899/1/GeneralSans-Bold.png?t=b6eb0a357e4264b3fd2dfc451b4c5e6c",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 188446
+      },
+      {
+        "url": "https://edolus.com/files/assets/297590900/1/GeneralSans-Extralight.png?t=1d34452e3cbdc2b8f99b28fb2fe71d98",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 153052
+      },
+      {
+        "url": "https://edolus.com/files/assets/297590901/1/GeneralSans-Regular.png?t=f28ae9a89d8a008405830df372e61717",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 165571
+      },
+      {
+        "url": "https://edolus.com/files/assets/297699331/1/DiamondV4.glb?t=bbfd90494bc20c115f22090fa62ba6b1",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 1450964
+      },
+      {
+        "url": "https://edolus.com/files/assets/297721293/1/triangle3D.glb?t=2bbb325a08d7f23e2accabdf18913a85",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 2041
+      },
+      {
+        "url": "https://edolus.com/files/assets/297987501/1/Reflection2.png?t=e2da34ed53d92e20df2aabb2267482a0",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 35377
+      },
+      {
+        "url": "https://edolus.com/files/assets/298286654/1/MAP.glb?t=7f46450dde32eff01d0b14b506ebd9fb",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 456895
+      },
+      {
+        "url": "https://edolus.com/files/assets/298350544/1/6kgfa2umfqb91-edit.webp?t=aafb654c69b180967cacaa23ea6ed927",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 2485740
+      },
+      {
+        "url": "https://edolus.com/files/assets/298352572/1/CurvedScreen.glb?t=788088ea0348a2099d9c861bbcb719af",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 22208
+      },
+      {
+        "url": "https://edolus.com/files/assets/298497716/1/rearlightflare.webp?t=e995bd4f6cff11e12ecb13e44705150e",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 47227
+      },
+      {
+        "url": "https://edolus.com/files/assets/298499543/1/backflare.webp?t=35509e35401d2d7afe9efd62c085718f",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 19105
+      },
+      {
+        "url": "https://edolus.com/files/assets/298615133/1/shadowcar.basis?t=4ecacab2b8759d1d5e23dc83f5cea02f",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 59737
+      },
+      {
+        "url": "https://edolus.com/files/assets/298623365/1/reflectionPOD.basis?t=bd4040d3430673dcf38f78b97cf2e9bc",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 18217
+      },
+      {
+        "url": "https://edolus.com/files/assets/298863804/1/card4.webp?t=eff27160555eadbf07cce88cf88addbf",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 34021
+      },
+      {
+        "url": "https://edolus.com/files/assets/298888460/1/Poliigon_TilesCeramicWhite_6956_Normal.png?t=7130a78988a9e8d3a03c7205adda9c10",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 511537
+      },
+      {
+        "url": "https://edolus.com/files/assets/298936975/1/abstractwall_5_normal-1K.webp?t=ead84506baa2c731ef9922096f92c26d",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 109808
+      },
+      {
+        "url": "https://edolus.com/files/assets/298949851/1/Tesla-ready2.glb?t=2f3940419bc18acd7c2019d5206c3305",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 7326722
+      },
+      {
+        "url": "https://edolus.com/files/assets/298957981/1/card3-2.webp?t=c17f34c15b9e9e52bb3fc35c02d9941f",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 185519
+      },
+      {
+        "url": "https://edolus.com/files/assets/298958818/1/card2-2.webp?t=37996317367c5d6ee828af050a4a9173",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 59240
+      },
+      {
+        "url": "https://edolus.com/files/assets/298968097/1/card1-2.webp?t=f9196a49a0170dd5b3a31fb9075c8f25",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 49020
+      },
+      {
+        "url": "https://edolus.com/files/assets/298971146/1/Skybox.png?t=17d44521568257f497d9cd56447f0e09",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 182556
+      },
+      {
+        "url": "https://edolus.com/files/assets/298988831/1/AutonomousDeployment.glb?t=d5a6ecacb159d2fb79291a27407c133d",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 142188
+      },
+      {
+        "url": "https://edolus.com/files/assets/299229076/1/bass_stemAUDITION30.ogg?t=9552979410320fb2066b90eaeefe7fe1",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/ogg",
+        "fromCache": false,
+        "bytes": 615674
+      },
+      {
+        "url": "https://edolus.com/files/assets/299302867/1/melody_stem_AUDITION302.ogg?t=7698e8c9257628be5ec99a6321185aab",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/ogg",
+        "fromCache": false,
+        "bytes": 891182
+      },
+      {
+        "url": "https://edolus.com/files/assets/299304748/1/instruments_stemAUDITION305.ogg?t=beb6e776801a22c3919449bc050d4ba4",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/ogg",
+        "fromCache": false,
+        "bytes": 618715
+      },
+      {
+        "url": "https://edolus.com/files/assets/299306216/1/BTNclick2.ogg?t=60468d24c7ffeddffd1ebcad8d7df1d3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/ogg",
+        "fromCache": false,
+        "bytes": 9236
+      },
+      {
+        "url": "https://edolus.com/files/assets/299313827/1/diamond2.ogg?t=e7048091a56ddba0ec3eb7b1d6808f64",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/ogg",
+        "fromCache": false,
+        "bytes": 25462
+      },
+      {
+        "url": "https://edolus.com/files/assets/299314557/1/map.ogg?t=c86c5b1df2170126724fe07e652d603a",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/ogg",
+        "fromCache": false,
+        "bytes": 43461
+      },
+      {
+        "url": "https://edolus.com/files/assets/299338751/1/rack.ogg?t=00163cb1d0e3ef4b16a17fcf3eb515ad",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/ogg",
+        "fromCache": false,
+        "bytes": 15524
+      },
+      {
+        "url": "https://edolus.com/files/assets/299345449/1/wafertexure_upscayl2.basis?t=dc6f7ed560d539914753e8d74cf495cc",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 373615
+      },
+      {
+        "url": "https://edolus.com/files/assets/299456165/1/computecore2.ogg?t=98a02580916c8732a8f630aec7b83cdb",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/ogg",
+        "fromCache": false,
+        "bytes": 88155
+      },
+      {
+        "url": "https://edolus.com/files/assets/299456357/1/textrack.ogg?t=202e1b1883a5a080aa8b6010672af482",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/ogg",
+        "fromCache": false,
+        "bytes": 40954
+      },
+      {
+        "url": "https://edolus.com/files/assets/299456592/1/textchip2.ogg?t=9e7b57eb981f5e173d5b1f052971fe0d",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/ogg",
+        "fromCache": false,
+        "bytes": 103229
+      },
+      {
+        "url": "https://edolus.com/files/assets/299484005/1/quantum5.ogg?t=89adac43016ebbb89ff1e0e5828d714c",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/ogg",
+        "fromCache": false,
+        "bytes": 85443
+      },
+      {
+        "url": "https://edolus.com/files/assets/299492189/1/Scrambletext.ogg?t=276e2c3f2b2417828f45835a3bfb883f",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/ogg",
+        "fromCache": false,
+        "bytes": 29622
+      },
+      {
+        "url": "https://edolus.com/files/assets/299493082/1/intelligent.ogg?t=bd504de05bd511d0ca7d736f3ce6c1e5",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/ogg",
+        "fromCache": false,
+        "bytes": 15120
+      },
+      {
+        "url": "https://edolus.com/files/assets/299500275/1/UIscreen.ogg?t=734480243a8f0ae95dc23c7d53a03176",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/ogg",
+        "fromCache": false,
+        "bytes": 16300
+      },
+      {
+        "url": "https://edolus.com/files/assets/299520427/1/AICHIP.ogg?t=9a45efbf2e6c104ac0c35e77f7d6c10e",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/ogg",
+        "fromCache": false,
+        "bytes": 34425
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/jetbrainsmono/v24/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8-qxjPQ.ttf",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/ttf",
+        "fromCache": false,
+        "bytes": 54809
+      },
+      {
+        "url": "https://edolus.com/files/assets/298861850/1/basis.wasm.js",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 17521
+      },
+      {
+        "url": "https://edolus.com/files/assets/298861848/1/basis.wasm.wasm",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/wasm",
+        "fromCache": false,
+        "bytes": 292499
+      },
+      {
+        "url": "https://api.fontshare.com/v2/css?f[]=general-sans@200,300,400,500,600,700&display=swap",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1268
+      },
+      {
+        "url": "https://cdn.fontshare.com/wf/HFTXPYOBEE22ON2ZH2TDSTBQLGERA7LU/4AOH2PGTMHZO2YX5HMTOAV52ONC3WIXE/TW4KNQIPR4LNP4I6I6C6HKQ23B2EQAU5.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 24192
+      },
+      {
+        "url": "https://cdn.fontshare.com/wf/MFQT7HFGCR2L5ULQTW6YXYZXXHMPKLJ3/YWQ244D6TACUX5JBKATPOW5I5MGJ3G73/7YY3ZAAE3TRV2LANYOLXNHTPHLXVWTKH.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 24018
+      },
+      {
+        "url": "blob:https://edolus.com/d234477a-9ab9-43bb-b09f-ea82656dd872",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "https://edolus.com/cdn-cgi/rum?",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 440
+      },
+      {
+        "url": "https://edolus.com/2509662.json",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 30439
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 338
+      },
+      {
+        "url": "https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&display=swap",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1104
+      },
+      {
+        "url": "https://cdn.fontshare.com/wf/KWXO5X3YW4X7OLUMPO4X24HQJGJU7E2Q/VOWUQZS3YLP66ZHPTXAFSH6YACY4WJHT/NIQ54PVBBIWVK3PFSOIOUJSXIJ5WTNDP.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 22122
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;800&display=swap",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 271
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700;800&display=swap",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 272
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/jetbrainsmono/v24/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKxjPQ.ttf",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/ttf",
+        "fromCache": false,
+        "bytes": 53130
+      },
+      {
+        "url": "https://cdn.fontshare.com/wf/3RZHWSNONLLWJK3RLPEKUZOMM56GO4LJ/BPDRY7AHVI3MCDXXVXTQQ76H3UXA63S3/SB2OEB6IKZPRR6JT4GFJ2TFT6HBB6AZN.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 23845
+      },
+      {
+        "url": "https://edolus.com/files/assets/297340642/1/Space-compressNOAUDIO-YTfullHD.mp4?t=5a0a9ec555552bb84bfa533812619b4e",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 200,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://edolus.com/files/assets/297340642/1/Space-compressNOAUDIO-YTfullHD.mp4?t=5a0a9ec555552bb84bfa533812619b4e",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 200,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://edolus.com/files/assets/297340642/1/Space-compressNOAUDIO-YTfullHD.mp4?t=5a0a9ec555552bb84bfa533812619b4e",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 200,
+        "mime": "video/mp4",
+        "fromCache": false
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "cursorOrbitSpin",
+        "duration": 6000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "pc-o-loop",
+        "duration": 8800,
+        "delay": 6000,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 180,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.65, 0, 0.35, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.65, 0, 0.35, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 180,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 180,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 3000,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 3000,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.25, 0.1, 0.25, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 180,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0702000B4030000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0xf8400115a00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0xf8400115a00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0xf8400115a00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0xf8400115a00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+      }
+    ],
+    "exceptions": [
+      "NotSupportedError: Failed to load because no supported source was found."
+    ],
+    "failed": [
+      {
+        "url": "https://edolus.com/files/assets/297340642/1/Space-compressNOAUDIO-YTfullHD.mp4?t=5a0a9ec555552bb84bfa533812619b4e",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://edolus.com/files/assets/297340642/1/Space-compressNOAUDIO-YTfullHD.mp4?t=5a0a9ec555552bb84bfa533812619b4e",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://edolus.com/files/assets/297340642/1/Space-compressNOAUDIO-YTfullHD.mp4?t=5a0a9ec555552bb84bfa533812619b4e",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 1
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 28569,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 153,
+      "typography": {
+        "families": [
+          [
+            "General Sans",
+            3
+          ],
+          [
+            "JetBrains Mono",
+            1
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            2
+          ],
+          [
+            "300",
+            1
+          ],
+          [
+            "500",
+            1
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            3
+          ]
+        ],
+        "sizeMin": 9.6,
+        "sizeMedian": 12.48,
+        "sizeMax": 44,
+        "sizeMaxVw": 11.3,
+        "scaleRatio": 3.5,
+        "letterSpacingMean": 0.088,
+        "loadedFonts": [
+          {
+            "family": "JetBrains Mono",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "General Sans",
+            "weight": "300",
+            "style": "normal"
+          },
+          {
+            "family": "General Sans",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "General Sans",
+            "weight": "700",
+            "style": "normal"
+          },
+          {
+            "family": "General Sans",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "General Sans",
+            "weight": "700",
+            "style": "normal"
+          },
+          {
+            "family": "JetBrains Mono",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "JetBrains Mono",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "General Sans",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "General Sans",
+            "weight": "700",
+            "style": "normal"
+          },
+          {
+            "family": "JetBrains Mono",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "General Sans",
+            "weight": "400",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 4
+      },
+      "color": {
+        "background": "rgb(29, 41, 44)",
+        "backgroundLuminance": 0.02028936109400648,
+        "backgrounds": [
+          [
+            "rgb(0, 0, 0)",
+            659
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(0, 0, 0)",
+            50
+          ],
+          [
+            "rgb(255, 255, 255)",
+            27
+          ],
+          [
+            "rgb(196, 199, 199)",
+            3
+          ]
+        ],
+        "meanSaturation": 0,
+        "rootVars": {}
+      },
+      "layout": {
+        "fullscreenSections": 6,
+        "sticky": 0,
+        "fixed": 13,
+        "grid": 0,
+        "flex": 16,
+        "absolute": 20,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 844,
+        "pages": 1,
+        "spacing": [
+          [
+            10,
+            2
+          ],
+          [
+            32,
+            1
+          ],
+          [
+            28,
+            1
+          ],
+          [
+            15,
+            1
+          ],
+          [
+            14,
+            1
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 2,
+        "animationKinds": [
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 2,
+        "animationDurations": [
+          6000,
+          8800
+        ],
+        "easings": [
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            180,
+            6
+          ],
+          [
+            350,
+            4
+          ],
+          [
+            3000,
+            2
+          ],
+          [
+            400,
+            2
+          ],
+          [
+            1500,
+            1
+          ]
+        ],
+        "keyframes": [
+          "ctaLabelBlink",
+          "ctaBlink",
+          "cursorOrbitSpin",
+          "pc-eq-dance",
+          "pc-o-loop"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 9,
+      "media": {
+        "canvases": [
+          {
+            "w": 780,
+            "h": 1688,
+            "area": 1
+          }
+        ],
+        "videos": [
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://edolus.com/files/assets/297340642/1/Space-compressNOAUDIO-YTfullHD.mp4?t=5a0a9ec555552bb84bfa533812619b4e"
+          }
+        ],
+        "svg": 10,
+        "images": 0,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 1,
+          "2d": 10
+        },
+        "raf": 123,
+        "io": 0,
+        "ro": 0,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 2,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": true,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "EDOLUS",
+      "lang": "",
+      "description": ""
+    },
+    "featuresBeforeScroll": {
+      "elements": 153,
+      "canvases": 1,
+      "animations": 2,
+      "hidden": 9
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 30132504,
+        "layoutCount": 62,
+        "recalcStyleCount": 102,
+        "scriptDuration": 1.706347,
+        "taskDuration": 27.243412,
+        "nodes": 1886
+      },
+      "timing": {
+        "domContentLoaded": 218,
+        "load": 431,
+        "first-paint": 216,
+        "first-contentful-paint": 236
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 180,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 180,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "cursorOrbitSpin",
+        "duration": 6000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "pc-o-loop",
+        "duration": 8800,
+        "delay": 6000,
+        "iterations": null,
+        "easing": "linear"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A060D838B4030000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      }
+    ],
+    "exceptions": [
+      "NotSupportedError: Failed to load because no supported source was found."
+    ],
+    "failed": [
+      {
+        "url": "https://edolus.com/files/assets/297340642/1/Space-compressNOAUDIO-YTfullHD.mp4?t=5a0a9ec555552bb84bfa533812619b4e",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://edolus.com/files/assets/297340642/1/Space-compressNOAUDIO-YTfullHD.mp4?t=5a0a9ec555552bb84bfa533812619b4e",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://edolus.com/files/assets/297340642/1/Space-compressNOAUDIO-YTfullHD.mp4?t=5a0a9ec555552bb84bfa533812619b4e",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 1
+    }
+  }
+}

@@ -1,0 +1,2548 @@
+{
+  "url": "https://likova.space/",
+  "at": "2026-10-10T10:05:29.092Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 9608,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 3248,
+      "typography": {
+        "families": [
+          [
+            "TT Norms Pro",
+            44
+          ]
+        ],
+        "weights": [
+          [
+            "450",
+            42
+          ],
+          [
+            "400",
+            2
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            44
+          ]
+        ],
+        "sizeMin": 11,
+        "sizeMedian": 14,
+        "sizeMax": 85,
+        "sizeMaxVw": 5.9,
+        "scaleRatio": 6.1,
+        "letterSpacingMean": 0.03,
+        "loadedFonts": [
+          {
+            "family": "TT Norms Pro",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "TT Norms Pro",
+            "weight": "450",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 44
+      },
+      "color": {
+        "background": "rgb(255, 255, 255)",
+        "backgroundLuminance": 1,
+        "backgrounds": [
+          [
+            "rgb(7, 11, 32)",
+            18107
+          ],
+          [
+            "rgb(255, 255, 255)",
+            4491
+          ],
+          [
+            "rgb(227, 230, 235)",
+            3020
+          ],
+          [
+            "rgb(14, 18, 36)",
+            1296
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(255, 255, 255)",
+            342
+          ],
+          [
+            "rgb(7, 11, 32)",
+            62
+          ],
+          [
+            "rgba(255, 255, 255, 0.6)",
+            28
+          ],
+          [
+            "rgb(87, 86, 106)",
+            2
+          ],
+          [
+            "rgb(35, 39, 57)",
+            1
+          ]
+        ],
+        "meanSaturation": 0.36,
+        "rootVars": {
+          "--scale-px": "1px",
+          "--scale-rem": "1rem",
+          "--scale-em": "1em",
+          "--scale-text-px": "1px",
+          "--scale-text-rem": "1rem",
+          "--scale-text-em": "1em",
+          "--spacing": "var(--xxxl,calc(var(--scale-px) * 60)) var(--n-xxxl,var(--md,calc(var(--scale-px) * 40)) var(--n-md,calc(var(--scale-px) * 20)))",
+          "--spacing-layout": "var(--xxxl,calc(var(--scale-px) * 30)) var(--n-xxxl,calc(var(--scale-px) * 20))",
+          "--vw": "1vw",
+          "--vw100": "100vw",
+          "--c-white": "#fff",
+          "--c-white-rgb": "255,255,255",
+          "--c-blue-gray": "#070b20",
+          "--c-blue-gray-rgb": "7,11,32",
+          "--c-blue-dark": "#232739",
+          "--c-blue-dark-rgb": "35,39,57",
+          "--c-blue-deep": "#57566a",
+          "--c-blue-deep-rgb": "87,86,106",
+          "--c-gray": "#bdbec4",
+          "--c-gray-rgb": "189,190,196",
+          "--c-gray-light": "#e3e6eb",
+          "--c-gray-light-rgb": "227,230,235",
+          "--c-border": "#393c4d",
+          "--c-border-rgb": "57,60,77",
+          "--c-metal": "linear-gradient(180deg,#c7cbd4,#5a5f65)",
+          "--c-tap-highlight": "rgba(0,0,0,.2)",
+          "--c-tap-highlight-rgb": "0,0,0",
+          "--c-error": "#ce1d20",
+          "--c-error-rgb": "206,29,32",
+          "--container-max-width": "var(--vw100)",
+          "--container-content-width": "var(--vw100)",
+          "--container-h-padding-left": "0px",
+          "--container-h-padding-right": "0px",
+          "--grid-gutter": "var(--xxxl,calc(var(--scale-px) * 30)) var(--n-xxxl,var(--md,calc(var(--scale-px) * 20)) var(--n-md,calc(var(--scale-px) * 10)))",
+          "--grid-col-custom": "calc((var(--container-content-width) - var(--spacing-layout) * 2 - var(--grid-gutter) * 11) / 12)",
+          "--is-visible--sm-down": "block",
+          "--is-visible--md-xxl": "none",
+          "--is-visible--md-up": "none",
+          "--is-visible--xl-down": "block",
+          "--is-visible--xxl-up": "none"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 4,
+        "sticky": 0,
+        "fixed": 66,
+        "grid": 12,
+        "flex": 733,
+        "absolute": 486,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 900,
+        "pages": 1,
+        "spacing": [
+          [
+            10,
+            109
+          ],
+          [
+            20,
+            62
+          ],
+          [
+            40,
+            28
+          ],
+          [
+            80,
+            26
+          ],
+          [
+            30,
+            21
+          ],
+          [
+            5,
+            14
+          ],
+          [
+            15,
+            14
+          ],
+          [
+            120,
+            12
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 3,
+        "animationKinds": [
+          "CSSTransition",
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 1,
+        "animationDurations": [
+          750,
+          750,
+          1000
+        ],
+        "easings": [
+          "cubic-bezier(0.7, 0, 0.3, 1)",
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            500,
+            252
+          ],
+          [
+            1000,
+            12
+          ],
+          [
+            2000,
+            4
+          ]
+        ],
+        "keyframes": [
+          "arrowDown",
+          "loader"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 31,
+      "media": {
+        "canvases": [
+          {
+            "w": 2160,
+            "h": 1350,
+            "area": 1
+          }
+        ],
+        "videos": [
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://likova.space/uploads/video/landing/5.accessibility.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221080%22%20height=%221920%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox="
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://likova.space/uploads/video/landing/7.general-plan.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221080%22%20height=%221920%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox="
+          }
+        ],
+        "svg": 160,
+        "images": 96,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 1
+        },
+        "raf": 213,
+        "io": 210,
+        "ro": 1,
+        "mo": 15,
+        "startViewTransition": 0,
+        "workers": 4,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": true,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Class A Business Center",
+      "lang": "en",
+      "description": "Conveniently located, with flexible office layouts, extensive amenities, and spacious parking. Learn more."
+    },
+    "featuresBeforeScroll": {
+      "elements": 3248,
+      "canvases": 1,
+      "animations": 3,
+      "hidden": 31
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 6,
+      "changed": 5
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 9510136,
+        "layoutCount": 240,
+        "recalcStyleCount": 709,
+        "scriptDuration": 0.368846,
+        "taskDuration": 2.909195,
+        "nodes": 13480
+      },
+      "timing": {
+        "domContentLoaded": 1055,
+        "load": 1057,
+        "first-paint": 792,
+        "first-contentful-paint": 792
+      }
+    },
+    "network": [
+      {
+        "url": "https://likova.space/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 50593
+      },
+      {
+        "url": "https://likova.space/assets/stylesheets/global.css?v=1782384571",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 48255
+      },
+      {
+        "url": "https://likova.space/assets/stylesheets/landing.css?v=1782384571",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 17377
+      },
+      {
+        "url": "https://likova.space/assets/images/common/logo-en.svg?v=1782384571",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1143
+      },
+      {
+        "url": "https://likova.space/assets/images/media/preloader/image@xxl.webp?v=1782384571",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 125494
+      },
+      {
+        "url": "https://likova.space/assets/images/media/landing/1.intro/background@xxl.webp?v=1782384571",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 25284
+      },
+      {
+        "url": "https://likova.space/assets/images/media/landing/1.intro/building@xxl.webp?v=1782384571",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 466048
+      },
+      {
+        "url": "https://likova.space/assets/images/media/landing/1.intro/building-lights@xxl.webp?v=1782384571",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 506105
+      },
+      {
+        "url": "https://likova.space/assets/images/icons.svg?v=1782384571",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 11489
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22924%22%20height=%22924%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20924%20924%22%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22980%22%20height=%221073%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20980%201073%22%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%222044%22%20height=%221092%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%202044%201092%22%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://likova.space/assets/fonts/tt-norms-pro-normal.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 100664
+      },
+      {
+        "url": "https://likova.space/assets/fonts/tt-norms-pro-regular.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 100861
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221920%22%20height=%221080%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201920%201080%22%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%222044%22%20height=%222585%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%202044%202585%22%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%222044%22%20height=%221107%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%202044%201107%22%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22252%22%20height=%22280%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20252%20280%22%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221372%22%20height=%221002%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201372%201002%22%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22644%22%20height=%22750%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20644%20750%22%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221484%22%20height=%22896%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201484%20896%22%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%222044%22%20height=%221530%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%202044%201530%22%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%222044%22%20height=%221140%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%202044%201140%22%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22462%22%20height=%22308%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20462%20308%22%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221988%22%20height=%221246%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%201988%201246%22%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22220%22%20height=%2230%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20220%2030%22%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22220%22%20height=%2229%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20220%2029%22%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22220%22%20height=%2225%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20220%2025%22%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://likova.space/assets/images/media/menu/background@xxl.webp?v=1782384571",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 191190
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22413%22%20height=%22427%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20413%20427%22%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://likova.space/assets/javascripts/browser-message/browser-message.js?v=1782384571",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1753
+      },
+      {
+        "url": "https://likova.space/assets/javascripts/shared.js?v=1782384571",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 175603
+      },
+      {
+        "url": "https://likova.space/assets/javascripts/landing.js?v=1782384571",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 9925
+      },
+      {
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 10438
+      },
+      {
+        "url": "https://likova.space/cdn-cgi/rum?",
+        "method": "POST",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 451
+      },
+      {
+        "url": "https://likova.space/cdn-cgi/rum?",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 449
+      },
+      {
+        "url": "https://likova.space/assets/javascripts/threejs.js?v=1782384571",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 222147
+      },
+      {
+        "url": "https://likova.space/assets/javascripts/22.js?v=1782384571",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 7830
+      },
+      {
+        "url": "https://likova.space/assets/images/media/landing/2.idea/cube@xxl.webp?v=1782384571",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 289247
+      },
+      {
+        "url": "https://likova.space/assets/images/media/landing/2.idea/image-1@xxl.webp?v=1782384571",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 65322
+      },
+      {
+        "url": "https://likova.space/assets/images/media/landing/2.idea/image-2@xxl.webp?v=1782384571",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 50214
+      },
+      {
+        "url": "https://likova.space/assets/images/media/landing/4.location/intro@xxl.webp?v=1782384571",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 152057
+      },
+      {
+        "url": "https://likova.space/assets/images/media/landing/4.location/slider-1@xxl.webp?v=1782384571",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 60711
+      },
+      {
+        "url": "https://likova.space/assets/images/media/landing/4.location/slider-2@xxl.webp?v=1782384571",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 95903
+      },
+      {
+        "url": "https://likova.space/assets/images/media/landing/4.location/slider-3@xxl.webp?v=1782384571",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 44034
+      },
+      {
+        "url": "https://likova.space/assets/images/media/landing/5.accessibility/background@xxl.webp?v=1782384571",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 44800
+      },
+      {
+        "url": "https://likova.space/assets/images/media/landing/5.accessibility/map-1-en@xxl.webp?v=1782384571",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 41391
+      },
+      {
+        "url": "https://likova.space/assets/images/media/landing/6.environment/background-1@xxl.webp?v=1782384571",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 57363
+      },
+      {
+        "url": "https://likova.space/assets/images/media/landing/6.environment/background-2@xxl.webp?v=1782384571",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 54675
+      },
+      {
+        "url": "https://likova.space/assets/images/media/landing/6.environment/background-3@xxl.webp?v=1782384571",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 58848
+      },
+      {
+        "url": "https://likova.space/assets/images/media/landing/6.environment/image-1@xxl.webp?v=1782384571",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 80993
+      },
+      {
+        "url": "https://likova.space/assets/images/media/landing/6.environment/image-2@xxl.webp?v=1782384571",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 122135
+      },
+      {
+        "url": "https://likova.space/assets/images/media/landing/6.environment/image-3@xxl.webp?v=1782384571",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 136442
+      },
+      {
+        "url": "https://likova.space/assets/images/media/landing/7.general-plan/image@xxl.webp?v=1782384571",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 75142
+      },
+      {
+        "url": "https://likova.space/assets/images/media/landing/8.architecture/intro@xxl.webp?v=1782384571",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 183555
+      },
+      {
+        "url": "https://likova.space/assets/images/media/landing/8.architecture/slider-1@xxl.webp?v=1782384571",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 549964
+      },
+      {
+        "url": "https://likova.space/assets/images/media/landing/8.architecture/architect@xxl.webp?v=1782384571",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 80625
+      },
+      {
+        "url": "https://likova.space/assets/images/media/landing/8.architecture/architect-person@xxl.webp?v=1782384571",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 11136
+      },
+      {
+        "url": "https://likova.space/assets/images/media/landing/9.lobby/intro@xxl.webp?v=1782384571",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 112722
+      },
+      {
+        "url": "https://likova.space/assets/images/media/landing/9.lobby/decor-1@xxl.webp?v=1782384571",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 28366
+      },
+      {
+        "url": "https://likova.space/assets/images/media/landing/9.lobby/decor-2@xxl.webp?v=1782384571",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 7692
+      },
+      {
+        "url": "https://likova.space/assets/images/media/landing/9.lobby/decor-3@xxl.webp?v=1782384571",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 8888
+      },
+      {
+        "url": "https://likova.space/assets/images/media/landing/9.lobby/decor-4@xxl.webp?v=1782384571",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 21097
+      },
+      {
+        "url": "https://likova.space/assets/images/media/landing/9.lobby/decor-5@xxl.webp?v=1782384571",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 11787
+      },
+      {
+        "url": "https://likova.space/assets/images/media/landing/9.lobby/decor-6@xxl.webp?v=1782384571",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 10114
+      },
+      {
+        "url": "https://likova.space/assets/images/media/landing/9.lobby/decor-7@xxl.webp?v=1782384571",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 18767
+      },
+      {
+        "url": "https://likova.space/assets/images/media/landing/9.lobby/decor-8@xxl.webp?v=1782384571",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 11997
+      },
+      {
+        "url": "https://likova.space/assets/images/media/landing/9.lobby/image@xxl.webp?v=1782384571",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 23413
+      },
+      {
+        "url": "https://likova.space/assets/images/media/landing/9.lobby/slider-1@xxl.webp?v=1782384571",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 77123
+      },
+      {
+        "url": "https://likova.space/assets/images/media/landing/9.lobby/slider-2@xxl.webp?v=1782384571",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 89351
+      },
+      {
+        "url": "https://likova.space/assets/images/media/landing/9.lobby/slider-3@xxl.webp?v=1782384571",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 141221
+      },
+      {
+        "url": "https://likova.space/assets/images/media/landing/10.offices/intro@xxl.webp?v=1782384571",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 138053
+      },
+      {
+        "url": "https://likova.space/assets/images/media/landing/10.offices/slider-1@xxl.webp?v=1782384571",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 208035
+      },
+      {
+        "url": "https://likova.space/assets/images/media/landing/12.engineering/intro@xxl.webp?v=1782384571",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 286398
+      },
+      {
+        "url": "https://likova.space/assets/images/media/landing/12.engineering/image.svg?v=1782384571",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 2931
+      },
+      {
+        "url": "https://likova.space/cdn-cgi/rum?",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 452
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22390%22%20height=%22390%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20390%20390%22%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22350%22%20height=%22388%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20350%20388%22%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22390%22%20height=%22694%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20390%20694%22%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://likova.space/assets/webgl-dark/dark.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 2633583
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22390%22%20height=%22330%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20390%20330%22%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22390%22%20height=%22320%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20390%20320%22%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://likova.space/assets/images/media/landing/13.infrastructure/intro@xxl.webp?v=1782384571",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 351045
+      },
+      {
+        "url": "https://likova.space/assets/images/media/landing/13.infrastructure/content-1@xxl.webp?v=1782384571",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 144109
+      },
+      {
+        "url": "https://likova.space/assets/images/media/landing/13.infrastructure/content-2@xxl.webp?v=1782384571",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 237740
+      },
+      {
+        "url": "https://likova.space/assets/images/media/landing/13.infrastructure/content-3@xxl.webp?v=1782384571",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 175479
+      },
+      {
+        "url": "https://likova.space/assets/images/media/landing/13.infrastructure/content-4@xxl.webp?v=1782384571",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 64456
+      },
+      {
+        "url": "https://likova.space/assets/images/media/landing/13.infrastructure/content-5@xxl.webp?v=1782384571",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 97261
+      },
+      {
+        "url": "https://likova.space/assets/images/media/landing/13.infrastructure/content-6@xxl.webp?v=1782384571",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 133609
+      },
+      {
+        "url": "https://likova.space/assets/images/media/landing/13.infrastructure/slider-1@xxl.webp?v=1782384571",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 320792
+      },
+      {
+        "url": "https://likova.space/assets/images/media/landing/14.team/logo-1.svg?v=1782384571",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 870
+      },
+      {
+        "url": "https://likova.space/assets/images/media/landing/14.team/logo-2.svg?v=1782384571",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 2150
+      },
+      {
+        "url": "https://likova.space/assets/images/media/landing/14.team/logo-3.svg?v=1782384571",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 2033
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22390%22%20height=%22690%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20390%20690%22%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22390%22%20height=%22310%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20390%20310%22%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22390%22%20height=%22280%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20390%20280%22%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://likova.space/uploads/video/landing/5.accessibility.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://likova.space/uploads/video/landing/7.general-plan.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22390%22%20height=%22660%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20390%20660%22%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22390%22%20height=%22720%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20390%20720%22%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://likova.space/uploads/video/landing/7.general-plan.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 20790
+      },
+      {
+        "url": "https://likova.space/uploads/video/landing/7.general-plan.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": true
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22350%22%20height=%22256%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20350%20256%22%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22350%22%20height=%22338%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20350%20338%22%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22390%22%20height=%22410%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20390%20410%22%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22390%22%20height=%22960%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20390%20960%22%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22390%22%20height=%22400%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20390%20400%22%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%22110%22%20height=%22120%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox=%220%200%20110%20120%22%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://unpkg.com/three@0.180.0/examples/jsm/libs/draco/gltf/draco_wasm_wrapper.js",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 11901
+      },
+      {
+        "url": "https://unpkg.com/three@0.180.0/examples/jsm/libs/draco/gltf/draco_decoder.wasm",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "other",
+        "status": 200,
+        "mime": "application/wasm",
+        "fromCache": false,
+        "bytes": 63512
+      },
+      {
+        "url": "blob:https://likova.space/94a3bc8a-ee8b-4f92-b74c-315f122287bf",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://likova.space/5d36f19b-8322-40b8-bd5a-819dd8708b4c",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://likova.space/f7977301-eea7-48d2-baf0-44f9dffd7a3c",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://likova.space/bd04579d-ef0a-43bd-bfec-5b242a075823",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://likova.space/c44df3bf-bd23-4c09-bec3-fc6ac567034a",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://likova.space/db56196b-4a14-48d4-af94-9ec37af63797",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://likova.space/508cf717-8d60-46ca-9f20-41c6a6d25493",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://likova.space/e3659656-eb3a-44c2-9c03-a205b5a87046",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://likova.space/50714a57-15d8-4540-95b6-03c9e7d77c13",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "blob:https://likova.space/50714a57-15d8-4540-95b6-03c9e7d77c13",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "blob:https://likova.space/50714a57-15d8-4540-95b6-03c9e7d77c13",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "blob:https://likova.space/50714a57-15d8-4540-95b6-03c9e7d77c13",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "https://likova.space/en/favourites?ajax",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 12120
+      },
+      {
+        "url": "https://likova.space/assets/images/common/logo-bubble-en.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1663
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "loader",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-left-color",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-right-color",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-top-color",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-bottom-color",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 750,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 750,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 750,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 750,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 750,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 750,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1000,
+        "delay": 1000,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1000,
+        "delay": 1000,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 2000,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "width",
+        "duration": 1000,
+        "delay": 1000,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "height",
+        "duration": 1000,
+        "delay": 1000,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1000,
+        "delay": 1000,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1000,
+        "delay": 1000,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "width",
+        "duration": 1000,
+        "delay": 1000,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "height",
+        "duration": 1000,
+        "delay": 1000,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "width",
+        "duration": 1000,
+        "delay": 1000,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "height",
+        "duration": 1000,
+        "delay": 1000,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A07020004C210000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://likova.space/uploads/video/landing/7.general-plan.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://likova.space/uploads/video/landing/5.accessibility.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://likova.space/uploads/video/landing/7.general-plan.mp4",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 4
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 3298,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 3248,
+      "typography": {
+        "families": [
+          [
+            "TT Norms Pro",
+            110
+          ]
+        ],
+        "weights": [
+          [
+            "450",
+            99
+          ],
+          [
+            "400",
+            11
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            110
+          ]
+        ],
+        "sizeMin": 9,
+        "sizeMedian": 11,
+        "sizeMax": 86,
+        "sizeMaxVw": 22.1,
+        "scaleRatio": 7.8,
+        "letterSpacingMean": 0.022,
+        "loadedFonts": [
+          {
+            "family": "TT Norms Pro",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "TT Norms Pro",
+            "weight": "450",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 110
+      },
+      "color": {
+        "background": "rgb(255, 255, 255)",
+        "backgroundLuminance": 1,
+        "backgrounds": [
+          [
+            "rgb(7, 11, 32)",
+            8692
+          ],
+          [
+            "rgb(255, 255, 255)",
+            3885
+          ],
+          [
+            "rgb(227, 230, 235)",
+            767
+          ],
+          [
+            "rgb(14, 18, 36)",
+            329
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(255, 255, 255)",
+            589
+          ],
+          [
+            "rgb(7, 11, 32)",
+            304
+          ],
+          [
+            "rgba(255, 255, 255, 0.6)",
+            29
+          ],
+          [
+            "rgb(87, 86, 106)",
+            17
+          ],
+          [
+            "rgb(35, 39, 57)",
+            1
+          ]
+        ],
+        "meanSaturation": 0.36,
+        "rootVars": {
+          "--scale-px": "1px",
+          "--scale-rem": "1rem",
+          "--scale-em": "1em",
+          "--scale-text-px": "1px",
+          "--scale-text-rem": "1rem",
+          "--scale-text-em": "1em",
+          "--spacing": "var(--xxxl,calc(var(--scale-px) * 60)) var(--n-xxxl,var(--md,calc(var(--scale-px) * 40)) var(--n-md,calc(var(--scale-px) * 20)))",
+          "--spacing-layout": "var(--xxxl,calc(var(--scale-px) * 30)) var(--n-xxxl,calc(var(--scale-px) * 20))",
+          "--vw": "1vw",
+          "--vw100": "100vw",
+          "--c-white": "#fff",
+          "--c-white-rgb": "255,255,255",
+          "--c-blue-gray": "#070b20",
+          "--c-blue-gray-rgb": "7,11,32",
+          "--c-blue-dark": "#232739",
+          "--c-blue-dark-rgb": "35,39,57",
+          "--c-blue-deep": "#57566a",
+          "--c-blue-deep-rgb": "87,86,106",
+          "--c-gray": "#bdbec4",
+          "--c-gray-rgb": "189,190,196",
+          "--c-gray-light": "#e3e6eb",
+          "--c-gray-light-rgb": "227,230,235",
+          "--c-border": "#393c4d",
+          "--c-border-rgb": "57,60,77",
+          "--c-metal": "linear-gradient(180deg,#c7cbd4,#5a5f65)",
+          "--c-tap-highlight": "rgba(0,0,0,.2)",
+          "--c-tap-highlight-rgb": "0,0,0",
+          "--c-error": "#ce1d20",
+          "--c-error-rgb": "206,29,32",
+          "--container-max-width": "var(--vw100)",
+          "--container-content-width": "var(--vw100)",
+          "--container-h-padding-left": "0px",
+          "--container-h-padding-right": "0px",
+          "--grid-gutter": "var(--xxxl,calc(var(--scale-px) * 30)) var(--n-xxxl,var(--md,calc(var(--scale-px) * 20)) var(--n-md,calc(var(--scale-px) * 10)))",
+          "--grid-col-custom": "calc((var(--container-content-width) - var(--spacing-layout) * 2 - var(--grid-gutter) * 11) / 12)",
+          "--is-visible--sm-down": "block",
+          "--is-visible--md-xxl": "none",
+          "--is-visible--md-up": "none",
+          "--is-visible--xl-down": "block",
+          "--is-visible--xxl-up": "none"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 4,
+        "sticky": 0,
+        "fixed": 54,
+        "grid": 12,
+        "flex": 743,
+        "absolute": 476,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 844,
+        "pages": 1,
+        "spacing": [
+          [
+            10,
+            120
+          ],
+          [
+            20,
+            73
+          ],
+          [
+            30,
+            23
+          ],
+          [
+            15,
+            22
+          ],
+          [
+            40,
+            20
+          ],
+          [
+            60,
+            15
+          ],
+          [
+            5,
+            14
+          ],
+          [
+            80,
+            10
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 13,
+        "animationKinds": [
+          "CSSTransition",
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 1,
+        "animationDurations": [
+          1000,
+          1000,
+          1000,
+          1000,
+          1000,
+          1000,
+          1000,
+          1000,
+          1000,
+          1000,
+          1000,
+          1000,
+          1000
+        ],
+        "easings": [
+          "cubic-bezier(0.7, 0, 0.3, 1)",
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            500,
+            255
+          ],
+          [
+            1000,
+            7
+          ],
+          [
+            2000,
+            4
+          ]
+        ],
+        "keyframes": [
+          "arrowDown",
+          "loader"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 27,
+      "media": {
+        "canvases": [
+          {
+            "w": 585,
+            "h": 1266,
+            "area": 1
+          }
+        ],
+        "videos": [
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221920%22%20height=%221080%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox="
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://likova.space/uploads/video/landing/5.accessibility-mobile.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%221920%22%20height=%221080%22%20preserveAspectRatio=%22xMinYMax%20meet%22%20viewBox="
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://likova.space/uploads/video/landing/7.general-plan-mobile.mp4"
+          }
+        ],
+        "svg": 160,
+        "images": 96,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 1
+        },
+        "raf": 219,
+        "io": 203,
+        "ro": 1,
+        "mo": 13,
+        "startViewTransition": 0,
+        "workers": 4,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": true,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Class A Business Center",
+      "lang": "en",
+      "description": "Conveniently located, with flexible office layouts, extensive amenities, and spacious parking. Learn more."
+    },
+    "featuresBeforeScroll": {
+      "elements": 3248,
+      "canvases": 1,
+      "animations": 3,
+      "hidden": 27
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 11516276,
+        "layoutCount": 158,
+        "recalcStyleCount": 377,
+        "scriptDuration": 0.413298,
+        "taskDuration": 1.657669,
+        "nodes": 12397
+      },
+      "timing": {
+        "domContentLoaded": 708,
+        "load": 709,
+        "first-paint": 548,
+        "first-contentful-paint": 548
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "loader",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 750,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 750,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 750,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 750,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 750,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 750,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1000,
+        "delay": 1000,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1000,
+        "delay": 1000,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 2000,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "width",
+        "duration": 1000,
+        "delay": 1000,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "height",
+        "duration": 1000,
+        "delay": 1000,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "width",
+        "duration": 1000,
+        "delay": 1000,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "height",
+        "duration": 1000,
+        "delay": 1000,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1000,
+        "delay": 1000,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1000,
+        "delay": 1000,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "width",
+        "duration": 1000,
+        "delay": 1000,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "height",
+        "duration": 1000,
+        "delay": 1000,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.7, 0, 0.3, 1)"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0D020004C210000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://likova.space/uploads/video/landing/5.accessibility-mobile.mp4",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 4
+    }
+  }
+}

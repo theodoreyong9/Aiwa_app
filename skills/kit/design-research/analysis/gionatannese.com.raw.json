@@ -1,0 +1,1493 @@
+{
+  "url": "https://www.gionatannese.com/",
+  "at": "2026-10-10T09:46:08.808Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 58587,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 113,
+      "typography": {
+        "families": [
+          [
+            "LayGrotesk",
+            8
+          ],
+          [
+            "Teodor",
+            5
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            13
+          ]
+        ],
+        "textTransforms": [],
+        "sizeMin": 14,
+        "sizeMedian": 15,
+        "sizeMax": 16,
+        "sizeMaxVw": 1.1,
+        "scaleRatio": 1.1,
+        "letterSpacingMean": 0,
+        "loadedFonts": [
+          {
+            "family": "LayGrotesk",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "Teodor",
+            "weight": "400",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 13
+      },
+      "color": {
+        "background": "rgb(255, 255, 255)",
+        "backgroundLuminance": 1,
+        "backgrounds": [
+          [
+            "rgb(255, 255, 255)",
+            2592
+          ],
+          [
+            "rgba(237, 237, 237, 0.5)",
+            6
+          ],
+          [
+            "rgb(0, 0, 0)",
+            0
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(0, 0, 0)",
+            43
+          ],
+          [
+            "rgb(255, 255, 255)",
+            1
+          ]
+        ],
+        "meanSaturation": 0,
+        "rootVars": {}
+      },
+      "layout": {
+        "fullscreenSections": 3,
+        "sticky": 0,
+        "fixed": 5,
+        "grid": 0,
+        "flex": 14,
+        "absolute": 9,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 900,
+        "pages": 1,
+        "spacing": [
+          [
+            6,
+            5
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            14,
+            1
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 0,
+        "animationKinds": [],
+        "infiniteAnimations": 0,
+        "animationDurations": [],
+        "easings": [],
+        "transitionDurationsMs": [
+          [
+            450,
+            1
+          ],
+          [
+            300,
+            1
+          ]
+        ],
+        "keyframes": [],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 2,
+      "media": {
+        "canvases": [
+          {
+            "w": 1440,
+            "h": 900,
+            "area": 1
+          }
+        ],
+        "videos": [],
+        "svg": 1,
+        "images": 0,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 1
+        },
+        "raf": 54,
+        "io": 1,
+        "ro": 0,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Gionatan Nese — Multi-Disciplinary Designer",
+      "lang": "en",
+      "description": "Multi-disciplinary designer based in Italy. Gionatan Nese crafts websites, brand identities, and visual experiences that leave an impression."
+    },
+    "featuresBeforeScroll": {
+      "elements": 113,
+      "canvases": 1,
+      "animations": 0,
+      "hidden": 4
+    },
+    "scrollReveal": 2,
+    "hover": {
+      "probed": 6,
+      "changed": 0
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 6550452,
+        "layoutCount": 32,
+        "recalcStyleCount": 133,
+        "scriptDuration": 1.108765,
+        "taskDuration": 57.434082,
+        "nodes": 365
+      },
+      "timing": {
+        "domContentLoaded": 223,
+        "load": 393,
+        "first-paint": 236,
+        "first-contentful-paint": 236
+      }
+    },
+    "network": [
+      {
+        "url": "https://www.gionatannese.com/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 11180
+      },
+      {
+        "url": "https://www.gionatannese.com/_next/static/chunks/1i5qr_nk1dkbo.css?dpl=dpl_2SLjNw9C275RHhm3tVYGJe23YwXq",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 5125
+      },
+      {
+        "url": "https://www.gionatannese.com/_next/static/chunks/1t-m5_jfk04ia.js?dpl=dpl_2SLjNw9C275RHhm3tVYGJe23YwXq",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 8234
+      },
+      {
+        "url": "https://www.gionatannese.com/_next/static/chunks/1_0v6exngdege.js?dpl=dpl_2SLjNw9C275RHhm3tVYGJe23YwXq",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 9892
+      },
+      {
+        "url": "https://www.gionatannese.com/_next/static/chunks/3w8d8k_dca5rp.js?dpl=dpl_2SLjNw9C275RHhm3tVYGJe23YwXq",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 74179
+      },
+      {
+        "url": "https://www.gionatannese.com/_next/static/chunks/3ylc1rhil-pg1.js?dpl=dpl_2SLjNw9C275RHhm3tVYGJe23YwXq",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 39865
+      },
+      {
+        "url": "https://www.gionatannese.com/_next/static/chunks/turbopack-2g2ls71ooiv5b.js?dpl=dpl_2SLjNw9C275RHhm3tVYGJe23YwXq",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4716
+      },
+      {
+        "url": "https://www.gionatannese.com/_next/static/chunks/05-c3ty_6dwfk.js?dpl=dpl_2SLjNw9C275RHhm3tVYGJe23YwXq",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1650
+      },
+      {
+        "url": "https://www.gionatannese.com/_next/static/chunks/14mrh2-p_w84d.js?dpl=dpl_2SLjNw9C275RHhm3tVYGJe23YwXq",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 13550
+      },
+      {
+        "url": "https://www.gionatannese.com/_next/static/chunks/2b4n7zxxuniwz.js?dpl=dpl_2SLjNw9C275RHhm3tVYGJe23YwXq",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 487
+      },
+      {
+        "url": "https://www.gionatannese.com/_next/static/chunks/2t9ha_75cj8u2.js?dpl=dpl_2SLjNw9C275RHhm3tVYGJe23YwXq",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2428
+      },
+      {
+        "url": "https://www.gionatannese.com/_next/static/chunks/1ir0s561avd7s.js?dpl=dpl_2SLjNw9C275RHhm3tVYGJe23YwXq",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 28861
+      },
+      {
+        "url": "https://www.gionatannese.com/_next/static/chunks/1stgzxt_cesa3.js?dpl=dpl_2SLjNw9C275RHhm3tVYGJe23YwXq",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2364
+      },
+      {
+        "url": "https://www.gionatannese.com/_next/static/chunks/2ynhpsd-1i1m_.js?dpl=dpl_2SLjNw9C275RHhm3tVYGJe23YwXq",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1683
+      },
+      {
+        "url": "https://www.gionatannese.com/_next/static/chunks/3o99qjmm-sqd_.js?dpl=dpl_2SLjNw9C275RHhm3tVYGJe23YwXq",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 14116
+      },
+      {
+        "url": "https://www.gionatannese.com/_next/static/chunks/1r_mvu_vuwz3v.js?dpl=dpl_2SLjNw9C275RHhm3tVYGJe23YwXq",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 149614
+      },
+      {
+        "url": "https://www.gionatannese.com/_next/static/chunks/3ktnh4sigh0eb.js?dpl=dpl_2SLjNw9C275RHhm3tVYGJe23YwXq",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 14046
+      },
+      {
+        "url": "https://www.gionatannese.com/_next/static/chunks/0bqghpud0ytgb.js?dpl=dpl_2SLjNw9C275RHhm3tVYGJe23YwXq",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2086
+      },
+      {
+        "url": "https://www.gionatannese.com/_next/static/chunks/17gv23709kh0c.js?dpl=dpl_2SLjNw9C275RHhm3tVYGJe23YwXq",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 13771
+      },
+      {
+        "url": "https://www.gionatannese.com/_next/static/chunks/2g16axkqp2g6-.js?dpl=dpl_2SLjNw9C275RHhm3tVYGJe23YwXq",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 12657
+      },
+      {
+        "url": "https://www.gionatannese.com/fonts/LayGrotesk-Medium.woff",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff",
+        "fromCache": false,
+        "bytes": 70223
+      },
+      {
+        "url": "https://www.gionatannese.com/fonts/Teodor-Regular.woff",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff",
+        "fromCache": false,
+        "bytes": 74516
+      },
+      {
+        "url": "https://www.gionatannese.com/Model/model.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "model/gltf-binary",
+        "fromCache": false,
+        "bytes": 461503
+      },
+      {
+        "url": "https://www.gionatannese.com/fonts/Teodor-Light.woff",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "font/woff",
+        "fromCache": false,
+        "bytes": 74448
+      },
+      {
+        "url": "https://www.gionatannese.com/fonts/LayGrotesk-Medium.woff",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "font/woff",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.gionatannese.com/audio/SCRUBBLE.mp3",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 1855
+      },
+      {
+        "url": "https://www.gionatannese.com/Model/MatCap.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 858060
+      },
+      {
+        "url": "https://www.gionatannese.com/projects/ferrari?_rsc=5CB68i4pnAekjehf",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 610
+      },
+      {
+        "url": "https://www.gionatannese.com/projects/erica-basile?_rsc=5CB68i4pnAekjehf",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 843
+      },
+      {
+        "url": "https://www.gionatannese.com/projects/anchor?_rsc=5CB68i4pnAekjehf",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 631
+      },
+      {
+        "url": "https://www.gionatannese.com/projects/TengileMalaMala?_rsc=5CB68i4pnAekjehf",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 5974
+      },
+      {
+        "url": "https://www.gionatannese.com/Preloader.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 46688
+      },
+      {
+        "url": "https://www.gionatannese.com/sanity-files/b780051f3bf39567c936bf6ae21369bfaacf3c98.webm",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/webm",
+        "fromCache": false,
+        "bytes": 1017216
+      },
+      {
+        "url": "https://www.gionatannese.com/sanity-files/46a5dfbc6824a03e4d81293730048992df04d69b.webm",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/webm",
+        "fromCache": false,
+        "bytes": 303831
+      },
+      {
+        "url": "https://www.gionatannese.com/sanity-files/41132eacb5e4d16a79b851ffba910b866ba6d097.webm",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/webm",
+        "fromCache": false,
+        "bytes": 2723472
+      },
+      {
+        "url": "https://www.gionatannese.com/sanity-files/74cea00f7b65f5952472de2429d1708012281d4a.webm",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/webm",
+        "fromCache": false,
+        "bytes": 928435
+      },
+      {
+        "url": "https://www.gionatannese.com/sanity-files/d3b95a778819fbb2963ce9496e37c641e4da980d.webm",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/webm",
+        "fromCache": false,
+        "bytes": 72551
+      },
+      {
+        "url": "https://www.gionatannese.com/sanity-files/364ddff7e3c794bc237765f0b07d94a3dc2735ce.webm",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/webm",
+        "fromCache": false,
+        "bytes": 1987845
+      },
+      {
+        "url": "https://www.gionatannese.com/sanity-files/5dfbaea59950a6ae55e4fdf86bbdb3e5227612fd.webm",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/webm",
+        "fromCache": false,
+        "bytes": 4770382
+      },
+      {
+        "url": "https://www.gionatannese.com/audio/AMBIENT.mp3",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "audio/mpeg",
+        "fromCache": false
+      },
+      {
+        "url": "https://www.gionatannese.com/audio/ENTER.mp3",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 33617
+      },
+      {
+        "url": "https://www.gionatannese.com/audio/HIT.mp3",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 2171
+      },
+      {
+        "url": "https://www.gionatannese.com/audio/SOFT%20CLICK.mp3",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 49620
+      },
+      {
+        "url": "https://www.gionatannese.com/audio/SOFT%20CLICK%202.mp3",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 39487
+      },
+      {
+        "url": "https://www.gionatannese.com/audio/MENU%20HOVER.mp3",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 12756
+      },
+      {
+        "url": "https://www.gionatannese.com/audio/IMAGE%20HOVER.mp3",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 3097
+      },
+      {
+        "url": "https://www.gionatannese.com/audio/SCRUBBLE.mp3",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 73
+      },
+      {
+        "url": "https://www.gionatannese.com/audio/SCRUBBLE.mp3",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 137
+      },
+      {
+        "url": "https://www.gionatannese.com/audio/SCRUBBLE.mp3",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 46
+      },
+      {
+        "url": "https://www.gionatannese.com/audio/SCRUBBLE.mp3",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 121
+      },
+      {
+        "url": "https://www.gionatannese.com/audio/SCRUBBLE.mp3",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 46
+      },
+      {
+        "url": "https://www.gionatannese.com/audio/SCRUBBLE.mp3",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 46
+      },
+      {
+        "url": "https://www.gionatannese.com/25d2d272a2e9ce4d/script.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2345
+      },
+      {
+        "url": "https://www.gionatannese.com/projects/gionatannese?_rsc=5CB68i4pnAekjehf",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 628
+      },
+      {
+        "url": "https://www.gionatannese.com/_next/static/chunks/3zt4mi0z0e4-j.js?dpl=dpl_2SLjNw9C275RHhm3tVYGJe23YwXq",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 6172
+      },
+      {
+        "url": "https://www.gionatannese.com/about?_rsc=5CB68i4pnAekjehf",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 491
+      },
+      {
+        "url": "https://www.gionatannese.com/projects?_rsc=5CB68i4pnAekjehf",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 496
+      },
+      {
+        "url": "https://www.gionatannese.com/projects/ferrari?_rsc=7h4NYy5eoyMcNlUN",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 1820
+      },
+      {
+        "url": "https://cdn.sanity.io/images/3dmz0m4k/production/086331a00451c8b625f1a51bca925b436c73a86a-938x1250.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 28900
+      },
+      {
+        "url": "https://cdn.sanity.io/images/3dmz0m4k/production/4c7236c932bc7ba7953ae125c5d0a19c9160fe23-1880x2512.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 38093
+      },
+      {
+        "url": "https://cdn.sanity.io/images/3dmz0m4k/production/22437be2def8b2f70d7c76ff5a2c9d714ccf277b-1880x2512.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 343627
+      },
+      {
+        "url": "https://cdn.sanity.io/images/3dmz0m4k/production/b139a3918966c22869a981d9027dbf627d8cc3e5-1876x2508.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 168490
+      },
+      {
+        "url": "https://cdn.sanity.io/images/3dmz0m4k/production/c090efaf5c9029fcb5ea429e826ffe6446df1f95-1876x2508.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 43298
+      },
+      {
+        "url": "https://cdn.sanity.io/images/3dmz0m4k/production/395c46903cec9b1ed160db2f45169191df59d942-1876x2508.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 25473
+      },
+      {
+        "url": "https://cdn.sanity.io/images/3dmz0m4k/production/6290ef2612fb79b73749b2fbd5cd00470abb9f85-940x1256.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 85168
+      },
+      {
+        "url": "https://cdn.sanity.io/images/3dmz0m4k/production/b3e3faec1d70efd788be9c004721d22eba534f41-1876x2508.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 103498
+      },
+      {
+        "url": "https://cdn.sanity.io/images/3dmz0m4k/production/e4df6f0c0677569ca731913e8efafa2b10ebf24c-1876x2508.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 50154
+      },
+      {
+        "url": "https://cdn.sanity.io/images/3dmz0m4k/production/669280b863496991a4d24062c167e4fb9e0b8c82-940x1256.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 65161
+      },
+      {
+        "url": "https://cdn.sanity.io/images/3dmz0m4k/production/9b241d300125c0782893400f2103bc8a2c03ca52-940x1256.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 49805
+      },
+      {
+        "url": "https://www.gionatannese.com/projects/ferrari?_rsc=yNhwANY8t2Yi11GT",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 690
+      },
+      {
+        "url": "https://www.gionatannese.com/sanity-files/b780051f3bf39567c936bf6ae21369bfaacf3c98.webm",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/webm",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.gionatannese.com/sanity-files/46a5dfbc6824a03e4d81293730048992df04d69b.webm",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/webm",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.gionatannese.com/sanity-files/41132eacb5e4d16a79b851ffba910b866ba6d097.webm",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/webm",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.gionatannese.com/sanity-files/74cea00f7b65f5952472de2429d1708012281d4a.webm",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/webm",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.gionatannese.com/sanity-files/d3b95a778819fbb2963ce9496e37c641e4da980d.webm",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/webm",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.gionatannese.com/sanity-files/364ddff7e3c794bc237765f0b07d94a3dc2735ce.webm",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/webm",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.gionatannese.com/sanity-files/5dfbaea59950a6ae55e4fdf86bbdb3e5227612fd.webm",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/webm",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.gionatannese.com/projects/ferrari?_rsc=lXgVy4icVkuKRDeA",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 2283
+      },
+      {
+        "url": "https://www.gionatannese.com/projects/erica-basile?_rsc=7h4NYy5eoyMcNlUN",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 1611
+      },
+      {
+        "url": "https://www.gionatannese.com/projects/erica-basile?_rsc=yNhwANY8t2Yi11GT",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 731
+      },
+      {
+        "url": "https://www.gionatannese.com/projects/erica-basile?_rsc=lXgVy4icVkuKRDeA",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 2032
+      },
+      {
+        "url": "https://www.gionatannese.com/projects/anchor?_rsc=7h4NYy5eoyMcNlUN",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 1637
+      },
+      {
+        "url": "https://www.gionatannese.com/projects/anchor?_rsc=yNhwANY8t2Yi11GT",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 711
+      },
+      {
+        "url": "https://www.gionatannese.com/projects/anchor?_rsc=lXgVy4icVkuKRDeA",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 2258
+      },
+      {
+        "url": "https://www.gionatannese.com/projects/gionatannese?_rsc=7h4NYy5eoyMcNlUN",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 1646
+      },
+      {
+        "url": "https://www.gionatannese.com/projects/gionatannese?_rsc=yNhwANY8t2Yi11GT",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 715
+      },
+      {
+        "url": "https://www.gionatannese.com/projects/gionatannese?_rsc=lXgVy4icVkuKRDeA",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 2273
+      },
+      {
+        "url": "https://www.gionatannese.com/about?_rsc=7h4NYy5eoyMcNlUN",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 1692
+      },
+      {
+        "url": "https://www.gionatannese.com/about?_rsc=P3rfmQQOcnGmwwr1",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 670
+      },
+      {
+        "url": "https://www.gionatannese.com/about?_rsc=1ToE3sqSnQs2MqzF",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 2849
+      },
+      {
+        "url": "https://www.gionatannese.com/projects?_rsc=7h4NYy5eoyMcNlUN",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 1687
+      },
+      {
+        "url": "https://www.gionatannese.com/projects?_rsc=lbLjkEECon9rXzzA",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 3187
+      },
+      {
+        "url": "https://www.gionatannese.com/_next/static/chunks/088zle-265k-w.js?dpl=dpl_2SLjNw9C275RHhm3tVYGJe23YwXq",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 10114
+      },
+      {
+        "url": "https://www.gionatannese.com/_next/static/chunks/084_r2b5_j8fb.js?dpl=dpl_2SLjNw9C275RHhm3tVYGJe23YwXq",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 19803
+      },
+      {
+        "url": "https://www.gionatannese.com/?_rsc=7h4NYy5eoyMcNlUN",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 1630
+      },
+      {
+        "url": "https://www.gionatannese.com/?_rsc=gzSU19M5behYtFJ2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/x-component",
+        "fromCache": false,
+        "bytes": 4697
+      },
+      {
+        "url": "https://www.gionatannese.com/_next/static/chunks/1vv4ylf0apzor.js?dpl=dpl_2SLjNw9C275RHhm3tVYGJe23YwXq",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1740
+      },
+      {
+        "url": "https://www.gionatannese.com/_next/static/chunks/04xi6lk37w8d4.js?dpl=dpl_2SLjNw9C275RHhm3tVYGJe23YwXq",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 10177
+      }
+    ],
+    "animationsReported": [],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A07020005C3D0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x3aac0013ca00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x3aac0013ca00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x3aac0013ca00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x3aac0013ca00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://www.gionatannese.com/audio/AMBIENT.mp3",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 17013,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 112,
+      "typography": {
+        "families": [
+          [
+            "LayGrotesk",
+            6
+          ],
+          [
+            "Teodor",
+            4
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            10
+          ]
+        ],
+        "textTransforms": [],
+        "sizeMin": 14,
+        "sizeMedian": 16,
+        "sizeMax": 16,
+        "sizeMaxVw": 4.1,
+        "scaleRatio": 1,
+        "letterSpacingMean": 0,
+        "loadedFonts": [
+          {
+            "family": "LayGrotesk",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "Teodor",
+            "weight": "400",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 10
+      },
+      "color": {
+        "background": "rgb(255, 255, 255)",
+        "backgroundLuminance": 1,
+        "backgrounds": [
+          [
+            "rgb(255, 255, 255)",
+            658
+          ],
+          [
+            "rgba(237, 237, 237, 0.5)",
+            5
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(0, 0, 0)",
+            28
+          ],
+          [
+            "rgb(255, 255, 255)",
+            1
+          ]
+        ],
+        "meanSaturation": 0,
+        "rootVars": {}
+      },
+      "layout": {
+        "fullscreenSections": 2,
+        "sticky": 0,
+        "fixed": 3,
+        "grid": 0,
+        "flex": 12,
+        "absolute": 9,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 844,
+        "pages": 1,
+        "spacing": [
+          [
+            6,
+            5
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            14,
+            1
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 0,
+        "animationKinds": [],
+        "infiniteAnimations": 0,
+        "animationDurations": [],
+        "easings": [],
+        "transitionDurationsMs": [
+          [
+            450,
+            1
+          ],
+          [
+            300,
+            1
+          ]
+        ],
+        "keyframes": [],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 1,
+      "media": {
+        "canvases": [
+          {
+            "w": 780,
+            "h": 1688,
+            "area": 1
+          }
+        ],
+        "videos": [],
+        "svg": 1,
+        "images": 0,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 1
+        },
+        "raf": 60,
+        "io": 1,
+        "ro": 0,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Gionatan Nese — Multi-Disciplinary Designer",
+      "lang": "en",
+      "description": "Multi-disciplinary designer based in Italy. Gionatan Nese crafts websites, brand identities, and visual experiences that leave an impression."
+    },
+    "featuresBeforeScroll": {
+      "elements": 112,
+      "canvases": 1,
+      "animations": 0,
+      "hidden": 1
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 7019752,
+        "layoutCount": 34,
+        "recalcStyleCount": 77,
+        "scriptDuration": 0.669361,
+        "taskDuration": 15.994731,
+        "nodes": 299
+      },
+      "timing": {
+        "domContentLoaded": 231,
+        "load": 231,
+        "first-paint": 188,
+        "first-contentful-paint": 188
+      }
+    },
+    "animationsReported": [],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A07020005C3D0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      }
+    ],
+    "exceptions": [],
+    "failed": [],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  }
+}

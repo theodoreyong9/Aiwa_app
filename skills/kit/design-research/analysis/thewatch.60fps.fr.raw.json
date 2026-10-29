@@ -1,0 +1,779 @@
+{
+  "url": "https://thewatch.60fps.fr/",
+  "at": "2026-10-10T10:06:20.429Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 16315,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 16,
+      "typography": {
+        "families": [
+          [
+            "Inter",
+            2
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            2
+          ]
+        ],
+        "textTransforms": [],
+        "sizeMin": 12,
+        "sizeMedian": 12,
+        "sizeMax": 12,
+        "sizeMaxVw": 0.8,
+        "scaleRatio": 1,
+        "letterSpacingMean": 0,
+        "loadedFonts": [
+          {
+            "family": "Inter",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 2
+      },
+      "color": {
+        "background": "rgb(235, 235, 235)",
+        "backgroundLuminance": 0.8307698767746545,
+        "backgrounds": [
+          [
+            "rgb(235, 235, 235)",
+            1296
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(255, 255, 255)",
+            6
+          ],
+          [
+            "rgb(0, 0, 0)",
+            1
+          ],
+          [
+            "rgba(0, 0, 0, 0.4)",
+            1
+          ]
+        ],
+        "meanSaturation": 0,
+        "rootVars": {}
+      },
+      "layout": {
+        "fullscreenSections": 2,
+        "sticky": 0,
+        "fixed": 3,
+        "grid": 0,
+        "flex": 1,
+        "absolute": 2,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 900,
+        "pages": 1,
+        "spacing": []
+      },
+      "motion": {
+        "animations": 1,
+        "animationKinds": [
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 0,
+        "animationDurations": [
+          1200
+        ],
+        "easings": [
+          "linear"
+        ],
+        "transitionDurationsMs": [],
+        "keyframes": [
+          "fill-circle",
+          "stroke"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 0,
+      "media": {
+        "canvases": [
+          {
+            "w": 1440,
+            "h": 900,
+            "area": 1
+          }
+        ],
+        "videos": [],
+        "svg": 1,
+        "images": 0,
+        "iframes": 1,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "2d": 2,
+          "webgl2": 1
+        },
+        "raf": 133,
+        "io": 0,
+        "ro": 2,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": true,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "FS 60P - The timeless automatic watch by 60fps",
+      "lang": "en",
+      "description": ""
+    },
+    "featuresBeforeScroll": {
+      "elements": 16,
+      "canvases": 1,
+      "animations": 1,
+      "hidden": 0
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 7015392,
+        "layoutCount": 11,
+        "recalcStyleCount": 38,
+        "scriptDuration": 0.195967,
+        "taskDuration": 15.242097,
+        "nodes": 91
+      },
+      "timing": {
+        "domContentLoaded": 599,
+        "load": 783,
+        "first-paint": 540,
+        "first-contentful-paint": 540
+      }
+    },
+    "network": [
+      {
+        "url": "https://thewatch.60fps.fr/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 2325
+      },
+      {
+        "url": "https://thewatch.60fps.fr/assets/index-Ck-pEZ8v.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 194258
+      },
+      {
+        "url": "https://thewatch.60fps.fr/assets/index-DSKOTUpi.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1464
+      },
+      {
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 10438
+      },
+      {
+        "url": "https://thewatch.60fps.fr/assets/fonts/Inter/Inter-Regular.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 98979
+      },
+      {
+        "url": "https://thewatch.60fps.fr/cdn-cgi/challenge-platform/h/g/scripts/jsd/4df4a60fa397/main.js?",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 12785
+      },
+      {
+        "url": "https://thewatch.60fps.fr/assets/the-watch.D6O26wKS.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 51348
+      },
+      {
+        "url": "https://thewatch.60fps.fr/assets/hotReplace.BfRBVwiW.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 33034
+      },
+      {
+        "url": "https://thewatch.60fps.fr/assets/index-BDKORhKJ.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 8060
+      },
+      {
+        "url": "https://use.typekit.net/qgk0diq.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 949
+      },
+      {
+        "url": "https://thewatch.60fps.fr/cdn-cgi/challenge-platform/h/g/jsd/oneshot/4df4a60fa397/0.44872338426533653:1791623131:B5PwxiNBYq1gqrXO3BhXe6_e2fw-s0NsZXpuXXwkIMg/a484cf1f8bc5ebed",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 1484
+      },
+      {
+        "url": "https://p.typekit.net/p.css?s=1&k=qgk0diq&ht=tk&f=18482.18483&a=29737961&app=typekit&e=css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 172
+      },
+      {
+        "url": "https://thewatch.60fps.fr/cdn-cgi/rum?",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 455
+      },
+      {
+        "url": "https://thewatch.60fps.fr/assets/noise-solid-Lw93M9Kl.png",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 104683
+      },
+      {
+        "url": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAkACQAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wgARCAABAEADAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABQEABv/EABgBAQADAQAAAAAAAAAAAAAAAAQAAQIG/9oADAMBAAIQAxAAAAHoGcPGrMVZataRQuUy1RF//8QAFxABAQEBAAAAAAAAAAAAAAAAAAMBAv/aAAgBAQABBQLHaiiabhr/xAAYEQADAQEAAAAAAAAAAAAAAAAAAQMxIP/aAAgBAwEBPwGWC5ZXD//EABcRAQEBAQAAAAAAAAAAAAAAAAACAzH/2gAIAQIBAT8By4hCFrW14//EABQQAQAAAAAAAAAAAAAAAAAAADD/2gAIAQEABj8CD//EABYQAQEBAAAAAAAAAAAAAAAAADEAIP/aAAgBAQABPyExyBjf/9oADAMBAAIAAwAAABCpgFT/xAAXEQADAQAAAAAAAAAAAAAAAAAAARAx/9oACAEDAQE/EMIQhjjQ/8QAFhEBAQEAAAAAAAAAAAAAAAAAMQAg/9oACAECAQE/EC2A1//EABcQAAMBAAAAAAAAAAAAAAAAAAAQQTH/2gAIAQEAAT8QyTZZJKdj/9k=",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 590
+      },
+      {
+        "url": "https://thewatch.60fps.fr/assets/envmap-kW4EmG7W.exr",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 403,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 5092
+      },
+      {
+        "url": "https://thewatch.60fps.fr/assets/metal-B47qzO42.exr",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 403,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 5088
+      },
+      {
+        "url": "https://thewatch.60fps.fr/assets/watch-DXFPNOEl.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 403,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 5086
+      },
+      {
+        "url": "https://thewatch.60fps.fr/assets/fr_FR.DKItQTa6.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 2478
+      },
+      {
+        "url": "blob:https://thewatch.60fps.fr/75198ed9-54d4-4606-823f-63fef600c8d5",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://thewatch.60fps.fr/4c39744a-9389-473e-aecc-380fc9c764f7",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 0
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "fill-circle",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0702000BC250000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0xbdc0010f200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "error",
+        "text": "Failed to load resource: the server responded with a status of 403 ()"
+      },
+      {
+        "level": "error",
+        "text": "Failed to load resource: the server responded with a status of 403 ()"
+      },
+      {
+        "level": "error",
+        "text": "Failed to load resource: the server responded with a status of 403 ()"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0xbdc0010f200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0xbdc0010f200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0xbdc0010f200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+      }
+    ],
+    "exceptions": [
+      "TypeError: Cannot read properties of undefined (reading 'uuid')\n    at no (https://thewatch.60fps.fr/assets/hotReplace.BfRBVwiW.js:1:1678)\n    at oy.<anonymous> (https://thewatch.60fps.fr/assets/the-watch.D6O26wKS.js:431:3478)\n    at oy.emit (https://thewatch.60fps.fr/assets/index-Ck-pEZ8v.js:49:364"
+    ],
+    "failed": [],
+    "targets": {
+      "frames": 2,
+      "workers": 0
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 11699,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 16,
+      "typography": {
+        "families": [
+          [
+            "Inter",
+            2
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            2
+          ]
+        ],
+        "textTransforms": [],
+        "sizeMin": 11,
+        "sizeMedian": 11,
+        "sizeMax": 11,
+        "sizeMaxVw": 2.8,
+        "scaleRatio": 1,
+        "letterSpacingMean": 0,
+        "loadedFonts": [
+          {
+            "family": "Inter",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Inter",
+            "weight": "400",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 2
+      },
+      "color": {
+        "background": "rgb(235, 235, 235)",
+        "backgroundLuminance": 0.8307698767746545,
+        "backgrounds": [
+          [
+            "rgb(235, 235, 235)",
+            329
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(255, 255, 255)",
+            6
+          ],
+          [
+            "rgb(0, 0, 0)",
+            1
+          ],
+          [
+            "rgba(0, 0, 0, 0.4)",
+            1
+          ]
+        ],
+        "meanSaturation": 0,
+        "rootVars": {}
+      },
+      "layout": {
+        "fullscreenSections": 2,
+        "sticky": 0,
+        "fixed": 3,
+        "grid": 0,
+        "flex": 1,
+        "absolute": 2,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 844,
+        "pages": 1,
+        "spacing": []
+      },
+      "motion": {
+        "animations": 1,
+        "animationKinds": [
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 0,
+        "animationDurations": [
+          1200
+        ],
+        "easings": [
+          "linear"
+        ],
+        "transitionDurationsMs": [],
+        "keyframes": [
+          "fill-circle",
+          "stroke"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 0,
+      "media": {
+        "canvases": [
+          {
+            "w": 780,
+            "h": 1688,
+            "area": 1
+          }
+        ],
+        "videos": [],
+        "svg": 1,
+        "images": 0,
+        "iframes": 1,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "2d": 2,
+          "webgl2": 1
+        },
+        "raf": 130,
+        "io": 0,
+        "ro": 2,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": true,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "FS 60P - The timeless automatic watch by 60fps",
+      "lang": "en",
+      "description": ""
+    },
+    "featuresBeforeScroll": {
+      "elements": 16,
+      "canvases": 1,
+      "animations": 1,
+      "hidden": 0
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 5909700,
+        "layoutCount": 14,
+        "recalcStyleCount": 38,
+        "scriptDuration": 0.170164,
+        "taskDuration": 10.665131,
+        "nodes": 90
+      },
+      "timing": {
+        "domContentLoaded": 599,
+        "load": 710,
+        "first-paint": 520,
+        "first-contentful-paint": 520
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "fill-circle",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0702000BC250000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "error",
+        "text": "Failed to load resource: the server responded with a status of 403 ()"
+      },
+      {
+        "level": "error",
+        "text": "Failed to load resource: the server responded with a status of 403 ()"
+      },
+      {
+        "level": "error",
+        "text": "Failed to load resource: the server responded with a status of 403 ()"
+      }
+    ],
+    "exceptions": [
+      "TypeError: Cannot read properties of undefined (reading 'uuid')\n    at no (https://thewatch.60fps.fr/assets/hotReplace.BfRBVwiW.js:1:1678)\n    at oy.<anonymous> (https://thewatch.60fps.fr/assets/the-watch.D6O26wKS.js:431:3478)\n    at oy.emit (https://thewatch.60fps.fr/assets/index-Ck-pEZ8v.js:49:364"
+    ],
+    "failed": [],
+    "targets": {
+      "frames": 2,
+      "workers": 0
+    }
+  }
+}

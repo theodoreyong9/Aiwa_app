@@ -1,0 +1,2790 @@
+{
+  "url": "https://brand.squarespace.com/",
+  "at": "2026-10-10T09:50:59.333Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 8814,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 490,
+      "typography": {
+        "families": [
+          [
+            "Clarkson",
+            6
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            6
+          ]
+        ],
+        "textTransforms": [],
+        "sizeMin": 9.6,
+        "sizeMedian": 24,
+        "sizeMax": 80,
+        "sizeMaxVw": 5.6,
+        "scaleRatio": 3.3,
+        "letterSpacingMean": -0.036,
+        "loadedFonts": [
+          {
+            "family": "Clarkson",
+            "weight": "300",
+            "style": "normal"
+          },
+          {
+            "family": "Clarkson",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Clarkson",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "Clarkson",
+            "weight": "600",
+            "style": "normal"
+          },
+          {
+            "family": "Clarkson",
+            "weight": "700",
+            "style": "normal"
+          },
+          {
+            "family": "ClarksonSerifLightItalic",
+            "weight": "300",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 6
+      },
+      "color": {
+        "background": "rgb(17, 17, 17)",
+        "backgroundLuminance": 0.005605391624202723,
+        "backgrounds": [
+          [
+            "rgb(17, 17, 17)",
+            1296
+          ],
+          [
+            "rgba(0, 0, 0, 0.5)",
+            2
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(255, 255, 255)",
+            32
+          ],
+          [
+            "rgb(207, 207, 207)",
+            2
+          ]
+        ],
+        "meanSaturation": 0,
+        "rootVars": {
+          "--scss-breakpoint": "\"unknown\"",
+          "--color-black": "#000",
+          "--color-blackBg": "#111",
+          "--color-white": "#fff",
+          "--color-lightGray": "#f6f6f6",
+          "--color-grey": "#e1e1e1",
+          "--color-blue": "#1823bc",
+          "--color-orange": "#d2593b",
+          "--color-gold": "#c59d3d",
+          "--arrowGap": "2rem",
+          "--sideMargin": "1.6rem",
+          "--bottomMargin": "2rem",
+          "--columns": "12",
+          "--columnGap": "1.5rem",
+          "--columnWidth": "9.6rem",
+          "--headerHeight": "5.4rem",
+          "--safari-ui-block-height": "100px"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 1,
+        "sticky": 0,
+        "fixed": 10,
+        "grid": 11,
+        "flex": 21,
+        "absolute": 203,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 901,
+        "pages": 1,
+        "spacing": [
+          [
+            88,
+            2
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            10,
+            1
+          ],
+          [
+            25,
+            1
+          ],
+          [
+            48,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            20,
+            1
+          ],
+          [
+            7,
+            1
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 0,
+        "animationKinds": [],
+        "infiniteAnimations": 0,
+        "animationDurations": [],
+        "easings": [],
+        "transitionDurationsMs": [
+          [
+            500,
+            44
+          ],
+          [
+            300,
+            8
+          ],
+          [
+            200,
+            6
+          ],
+          [
+            400,
+            6
+          ],
+          [
+            2000,
+            2
+          ]
+        ],
+        "keyframes": [
+          "moveAndFade"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 13,
+      "media": {
+        "canvases": [
+          {
+            "w": 1440,
+            "h": 900,
+            "area": 0
+          }
+        ],
+        "videos": [
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://brand.squarespace.com/pages/home/campaign/01@lg.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://brand.squarespace.com/pages/home/campaign/02@lg.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://brand.squarespace.com/pages/home/campaign/03@lg.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://brand.squarespace.com/pages/home/campaign/04@lg.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://brand.squarespace.com/pages/home/campaign/05@lg.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://brand.squarespace.com/pages/home/campaign/06@lg.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://brand.squarespace.com/pages/home/motion/01@sm.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://brand.squarespace.com/pages/home/motion/02@sm.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://brand.squarespace.com/pages/home/motion/03@sm.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://brand.squarespace.com/pages/home/motion/04@sm.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://brand.squarespace.com/pages/home/motion/05@sm.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://brand.squarespace.com/pages/home/motion/06@sm.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://brand.squarespace.com/pages/home/motion/07@sm.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://brand.squarespace.com/pages/home/motion/08@sm.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://brand.squarespace.com/pages/home/motion/09@sm.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://brand.squarespace.com/pages/home/motion/10@sm.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://brand.squarespace.com/pages/home/motion/11@sm.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://brand.squarespace.com/pages/home/motion/12@sm.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://brand.squarespace.com/pages/home/motion/13@sm.mp4"
+          }
+        ],
+        "svg": 6,
+        "images": 62,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 1,
+          "2d": 1
+        },
+        "raf": 633,
+        "io": 1,
+        "ro": 58,
+        "mo": 1,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": true,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": true,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Squarespace Foundations | Squarespace Foundations",
+      "lang": "en",
+      "description": "Discover the essential guiding principles and distinctive visual elements that define the Squarespace identity."
+    },
+    "featuresBeforeScroll": {
+      "elements": 490,
+      "canvases": 1,
+      "animations": 4,
+      "hidden": 14
+    },
+    "scrollReveal": 1,
+    "hover": {
+      "probed": 5,
+      "changed": 1
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 16455176,
+        "layoutCount": 112,
+        "recalcStyleCount": 726,
+        "scriptDuration": 0.57418,
+        "taskDuration": 2.471622,
+        "nodes": 4004
+      },
+      "timing": {
+        "domContentLoaded": 416,
+        "load": 417,
+        "first-paint": 372,
+        "first-contentful-paint": 632
+      }
+    },
+    "network": [
+      {
+        "url": "https://brand.squarespace.com/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 5432
+      },
+      {
+        "url": "https://brand.squarespace.com/_nuxt/entry.CdBDcUZV.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 4436
+      },
+      {
+        "url": "https://brand.squarespace.com/_nuxt/default.DZC4eQB9.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1500
+      },
+      {
+        "url": "https://brand.squarespace.com/_nuxt/Menu.IFrxoLzb.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1432
+      },
+      {
+        "url": "https://brand.squarespace.com/_nuxt/Label.hrtqJTTw.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1323
+      },
+      {
+        "url": "https://brand.squarespace.com/_nuxt/Label2.DDkxFicW.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 858
+      },
+      {
+        "url": "https://brand.squarespace.com/_nuxt/MaskedElement.BLCSiSck.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1001
+      },
+      {
+        "url": "https://brand.squarespace.com/_nuxt/Media.BUECFh2v.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 692
+      },
+      {
+        "url": "https://brand.squarespace.com/_nuxt/HomeCarousel.DNaMRFfK.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1265
+      },
+      {
+        "url": "https://brand.squarespace.com/_nuxt/home-carousel-data.BXlCxOer.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 2445
+      },
+      {
+        "url": "https://brand.squarespace.com/_nuxt/Media.C8ogiTvz.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 583
+      },
+      {
+        "url": "https://brand.squarespace.com/_nuxt/Image.DmHQpN30.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 583
+      },
+      {
+        "url": "https://brand.squarespace.com/_nuxt/RiveStateMachine.BHUA4B17.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 598
+      },
+      {
+        "url": "https://brand.squarespace.com/_nuxt/ArrowBtn.9NDdcIBP.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 931
+      },
+      {
+        "url": "https://brand.squarespace.com/_nuxt/CursorLabel.e5SSBNBF.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1037
+      },
+      {
+        "url": "https://brand.squarespace.com/_nuxt/TapToExplore.Cn9alE9B.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 925
+      },
+      {
+        "url": "https://brand.squarespace.com/_nuxt/PageWrapper.DmaBo4aX.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 535
+      },
+      {
+        "url": "https://brand.squarespace.com/_payload.json?5360e27b-5797-486d-ae70-459e0348fe81",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 575
+      },
+      {
+        "url": "https://brand.squarespace.com/_nuxt/K2cKJ6Jp.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 198625
+      },
+      {
+        "url": "https://brand.squarespace.com/_nuxt/CbiHd6PZ.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 5889
+      },
+      {
+        "url": "https://brand.squarespace.com/_nuxt/re0j-Il1.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 2552
+      },
+      {
+        "url": "https://brand.squarespace.com/_nuxt/CBFU8ZkR.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 549
+      },
+      {
+        "url": "https://brand.squarespace.com/_nuxt/SWaqwi0p.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 2281
+      },
+      {
+        "url": "https://brand.squarespace.com/_nuxt/3Y1GYcf8.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 931
+      },
+      {
+        "url": "https://brand.squarespace.com/_nuxt/Dzn4bgYK.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1817
+      },
+      {
+        "url": "https://brand.squarespace.com/_nuxt/BeaFlgYD.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 688
+      },
+      {
+        "url": "https://brand.squarespace.com/_nuxt/Cpc1cBKW.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 3643
+      },
+      {
+        "url": "https://brand.squarespace.com/_nuxt/DfjGIFJy.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 594
+      },
+      {
+        "url": "https://brand.squarespace.com/_nuxt/o0notd_3.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 2183
+      },
+      {
+        "url": "https://brand.squarespace.com/_nuxt/C-MeU1VD.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1237
+      },
+      {
+        "url": "https://brand.squarespace.com/_nuxt/B5QXWltO.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1203
+      },
+      {
+        "url": "https://brand.squarespace.com/_nuxt/BMWnMh8f.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1215
+      },
+      {
+        "url": "https://brand.squarespace.com/_nuxt/BtEzIX57.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1002
+      },
+      {
+        "url": "https://brand.squarespace.com/_nuxt/lM7jE0E8.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 779
+      },
+      {
+        "url": "https://brand.squarespace.com/_nuxt/DVABGJj-.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1265
+      },
+      {
+        "url": "https://brand.squarespace.com/_nuxt/c6L-yBQa.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 5448
+      },
+      {
+        "url": "https://brand.squarespace.com/_nuxt/DfJrne9D.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1257
+      },
+      {
+        "url": "https://brand.squarespace.com/_nuxt/CFdWldsl.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1847
+      },
+      {
+        "url": "https://brand.squarespace.com/_nuxt/IwatA2kV.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1193
+      },
+      {
+        "url": "https://brand.squarespace.com/_nuxt/YsGlLjM2.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1113
+      },
+      {
+        "url": "https://brand.squarespace.com/_nuxt/DYTYruhw.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 8311
+      },
+      {
+        "url": "https://brand.squarespace.com/_nuxt/B5MQ8zww.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1616
+      },
+      {
+        "url": "https://brand.squarespace.com/_nuxt/BX2JebqZ.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1064
+      },
+      {
+        "url": "https://brand.squarespace.com/_nuxt/DUrT8dFw.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1318
+      },
+      {
+        "url": "https://brand.squarespace.com/_nuxt/DSKZ3Zus.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1319
+      },
+      {
+        "url": "https://brand.squarespace.com/_nuxt/z45D1Mch.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 899
+      },
+      {
+        "url": "https://brand.squarespace.com/_nuxt/BkVktjku.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 682
+      },
+      {
+        "url": "https://brand.squarespace.com/_nuxt/WDIYPxlD.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 167731
+      },
+      {
+        "url": "https://brand.squarespace.com/_nuxt/BNKoBCyY.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1438
+      },
+      {
+        "url": "https://brand.squarespace.com/_nuxt/Dp3xqFfM.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 41570
+      },
+      {
+        "url": "https://brand.squarespace.com/_nuxt/BdT36_8W.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 554
+      },
+      {
+        "url": "https://brand.squarespace.com/_nuxt/DzlrUV0O.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1323
+      },
+      {
+        "url": "https://brand.squarespace.com/_nuxt/DtSamhP8.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1651
+      },
+      {
+        "url": "https://brand.squarespace.com/_nuxt/DOhV67Fk.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1079
+      },
+      {
+        "url": "https://brand.squarespace.com/_nuxt/C5Id-w_m.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1333
+      },
+      {
+        "url": "https://brand.squarespace.com/_nuxt/C2mKnJOZ.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 44395
+      },
+      {
+        "url": "https://brand.squarespace.com/_nuxt/CHYMBOcx.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1084
+      },
+      {
+        "url": "https://brand.squarespace.com/_nuxt/BL_NoHxv.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 554
+      },
+      {
+        "url": "https://brand.squarespace.com/_nuxt/G8l3ttLm.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 582
+      },
+      {
+        "url": "https://brand.squarespace.com/_nuxt/h7jujQXH.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 556
+      },
+      {
+        "url": "https://brand.squarespace.com/_nuxt/DInC_pF2.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1747
+      },
+      {
+        "url": "https://brand.squarespace.com/_nuxt/C6JV7hxK.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 936
+      },
+      {
+        "url": "https://brand.squarespace.com/_nuxt/builds/meta/5360e27b-5797-486d-ae70-459e0348fe81.json",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 649
+      },
+      {
+        "url": "https://brand.squarespace.com/_nuxt/not-found.sqIrbkHW.css",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 543
+      },
+      {
+        "url": "https://brand.squarespace.com/_nuxt/CbdR4Y2U.js",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 746
+      },
+      {
+        "url": "https://brand.squarespace.com/fonts/clarkson-serif/clarkson-serif-ttf/ClarksonSerifTT-LightItalic.ttf",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/ttf",
+        "fromCache": false,
+        "bytes": 106679
+      },
+      {
+        "url": "https://brand.squarespace.com/fonts/clarkson/clarkson-book/Clarkson-BookProduct.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 43149
+      },
+      {
+        "url": "https://brand.squarespace.com/_i18n/en/messages.json",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 426
+      },
+      {
+        "url": "https://brand.squarespace.com/_i18n/en/messages.json",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://consent.trustarc.com/notice?domain=squarespace.com&c=teconsent&js=nj&noticeType=bb&text=true&pn=2&gtm=1&pcookie",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 16715
+      },
+      {
+        "url": "https://brand.squarespace.com/fonts/clarkson/clarkson-light/Clarkson-Light.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 41808
+      },
+      {
+        "url": "https://brand.squarespace.com/fonts/clarkson/clarkson-medium/Clarkson-Medium.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 43152
+      },
+      {
+        "url": "https://brand.squarespace.com/fonts/clarkson/clarkson-bold/Clarkson-Bold.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 41552
+      },
+      {
+        "url": "https://brand.squarespace.com/fonts/clarkson/clarkson-semibold/Clarkson-Semibold.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 40356
+      },
+      {
+        "url": "https://unpkg.com/@rive-app/canvas@2.32.2/rive.wasm",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/wasm",
+        "fromCache": false,
+        "bytes": 540779
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/color/01@lg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 232586
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/color/02@lg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 439045
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/color/03@lg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 380034
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/color/04@lg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 324668
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/color/05@lg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 441955
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/color/06@lg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 530305
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/color/07@lg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 274355
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/color/08@lg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 701011
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/color/09@lg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 234040
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/color/10@lg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 542782
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/color/11@lg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 419959
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/color/12@lg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 183225
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/photography/v2/set-1-bg-desktop@lg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 829982
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/photography/v2/set-1-1@lg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 148337
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/photography/v2/set-1-2@lg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 361660
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/photography/v2/set-1-3@lg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 431264
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/photography/v2/set-2-bg-desktop@lg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 3176711
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/photography/v2/set-2-1@lg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 268193
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/photography/v2/set-2-2@lg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 444597
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/photography/v2/set-2-3@lg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 265528
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/photography/v2/set-3-bg-desktop@lg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 2587221
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/photography/v2/set-3-1@lg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 408183
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/photography/v2/set-3-2@lg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 584553
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/photography/v2/set-3-3@lg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 795750
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/photography/v2/set-4-bg-desktop@lg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 845526
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/photography/v2/set-4-1@lg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 608069
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/photography/v2/set-4-2@lg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 559695
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/photography/v2/set-4-3@lg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 643487
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/photography/v2/set-5-bg-desktop@lg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 1237006
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/photography/v2/set-5-1@lg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 317091
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/photography/v2/set-5-2@lg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 572272
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/photography/v2/set-5-3@lg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 1061066
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/photography/v2/set-6-bg-desktop@lg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 3209087
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/photography/v2/set-6-1@lg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 609329
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/photography/v2/set-6-2@lg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 1112307
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/photography/v2/set-6-3@lg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 398752
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/photography/v2/set-7-bg-desktop@lg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 1806578
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/photography/v2/set-7-1@lg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 270697
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/photography/v2/set-7-2@lg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 558316
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/photography/v2/set-7-3@lg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 1251692
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/photography/v2/set-8-bg-desktop@lg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 2445214
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/photography/v2/set-8-1@lg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 696191
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/photography/v2/set-8-2@lg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 832493
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/photography/v2/set-8-3@lg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 674250
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/photography/v2/set-9-bg-desktop@lg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 3023072
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/photography/v2/set-9-1@lg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 659671
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/photography/v2/set-9-2@lg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 825139
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/photography/v2/set-9-3@lg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 529739
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/motion/01-poster@lg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 133411
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/motion/02-poster@lg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 23242
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/motion/03-poster@lg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 90332
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/motion/04-poster@lg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 121524
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/motion/05-poster@lg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 177289
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/motion/06-poster@lg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 12550
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/motion/07-poster@lg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 54021
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/motion/08-poster@lg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 450132
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/motion/09-poster@lg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 17438
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/motion/10-poster@lg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 14809
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/motion/11-poster@lg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 196255
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/motion/12-poster@lg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 198782
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/motion/13-poster@lg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 243342
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/campaign/01@lg.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "application/octet-stream",
+        "fromCache": false
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/campaign/02@lg.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "application/octet-stream",
+        "fromCache": false
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/campaign/03@lg.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "application/octet-stream",
+        "fromCache": false
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/campaign/04@lg.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "application/octet-stream",
+        "fromCache": false
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/campaign/05@lg.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "application/octet-stream",
+        "fromCache": false
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/campaign/06@lg.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "application/octet-stream",
+        "fromCache": false
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/motion/01@sm.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "application/octet-stream",
+        "fromCache": false
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/motion/02@sm.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "application/octet-stream",
+        "fromCache": false
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/motion/03@sm.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "application/octet-stream",
+        "fromCache": false
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/motion/04@sm.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "application/octet-stream",
+        "fromCache": false
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/motion/05@sm.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "application/octet-stream",
+        "fromCache": false
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/motion/06@sm.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "application/octet-stream",
+        "fromCache": false
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/motion/07@sm.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "application/octet-stream",
+        "fromCache": false
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/motion/08@sm.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "application/octet-stream",
+        "fromCache": false
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/motion/09@sm.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "application/octet-stream",
+        "fromCache": false
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/motion/10@sm.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "application/octet-stream",
+        "fromCache": false
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/motion/11@sm.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "application/octet-stream",
+        "fromCache": false
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/motion/12@sm.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "application/octet-stream",
+        "fromCache": false
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/motion/13@sm.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "application/octet-stream",
+        "fromCache": false
+      },
+      {
+        "url": "https://brand.squarespace.com/_payload.json?5360e27b-5797-486d-ae70-459e0348fe81",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://consent.trustarc.com/analytics?action=0&domain=squarespace.com&implied=1&session=e8189537fdbb4cfbab082755e8866818&new=1&referer=https://brand.squarespace.com",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false
+      },
+      {
+        "url": "https://consent.trustarc.com/asset/notice.js/v/62bb0e7",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 35805
+      },
+      {
+        "url": "https://consent.trustarc.com/get?name=privacy_choices_icon.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 10808
+      },
+      {
+        "url": "https://consent.trustarc.com/analytics?action=1&domain=squarespace.com&implied=1&session=e8189537fdbb4cfbab082755e8866818&new=1&referer=https://brand.squarespace.com",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/typography/letters.riv",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 86719
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.39, 0.575, 0.565, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0702000E41D0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://brand.squarespace.com/pages/home/campaign/01@lg.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/campaign/02@lg.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/campaign/04@lg.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/campaign/03@lg.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/campaign/05@lg.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/campaign/06@lg.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/motion/01@sm.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/motion/03@sm.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/motion/02@sm.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/motion/04@sm.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/motion/05@sm.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/motion/06@sm.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/motion/07@sm.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/motion/09@sm.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/motion/08@sm.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/motion/10@sm.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/motion/11@sm.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/motion/13@sm.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/motion/12@sm.mp4",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 3137,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 490,
+      "typography": {
+        "families": [
+          [
+            "Clarkson",
+            6
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            6
+          ]
+        ],
+        "textTransforms": [],
+        "sizeMin": 9.6,
+        "sizeMedian": 20.8,
+        "sizeMax": 41.6,
+        "sizeMaxVw": 10.7,
+        "scaleRatio": 2,
+        "letterSpacingMean": -0.036,
+        "loadedFonts": [
+          {
+            "family": "Clarkson",
+            "weight": "300",
+            "style": "normal"
+          },
+          {
+            "family": "Clarkson",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Clarkson",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "Clarkson",
+            "weight": "600",
+            "style": "normal"
+          },
+          {
+            "family": "Clarkson",
+            "weight": "700",
+            "style": "normal"
+          },
+          {
+            "family": "ClarksonSerifLightItalic",
+            "weight": "300",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 6
+      },
+      "color": {
+        "background": "rgb(17, 17, 17)",
+        "backgroundLuminance": 0.005605391624202723,
+        "backgrounds": [
+          [
+            "rgb(17, 17, 17)",
+            329
+          ],
+          [
+            "rgba(0, 0, 0, 0.5)",
+            2
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(255, 255, 255)",
+            32
+          ],
+          [
+            "rgb(207, 207, 207)",
+            2
+          ]
+        ],
+        "meanSaturation": 0,
+        "rootVars": {
+          "--scss-breakpoint": "\"unknown\"",
+          "--color-black": "#000",
+          "--color-blackBg": "#111",
+          "--color-white": "#fff",
+          "--color-lightGray": "#f6f6f6",
+          "--color-grey": "#e1e1e1",
+          "--color-blue": "#1823bc",
+          "--color-orange": "#d2593b",
+          "--color-gold": "#c59d3d",
+          "--arrowGap": "2rem",
+          "--sideMargin": "1.6rem",
+          "--bottomMargin": "2rem",
+          "--columns": "12",
+          "--columnGap": "1.5rem",
+          "--columnWidth": "9.6rem",
+          "--headerHeight": "5.4rem",
+          "--safari-ui-block-height": "100px"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 1,
+        "sticky": 0,
+        "fixed": 10,
+        "grid": 10,
+        "flex": 23,
+        "absolute": 203,
+        "asymmetricGrids": 1,
+        "splitScreen": false,
+        "scrollHeight": 845,
+        "pages": 1,
+        "spacing": [
+          [
+            50,
+            2
+          ],
+          [
+            10,
+            1
+          ],
+          [
+            26,
+            1
+          ],
+          [
+            16,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            21,
+            1
+          ],
+          [
+            7,
+            1
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 0,
+        "animationKinds": [],
+        "infiniteAnimations": 0,
+        "animationDurations": [],
+        "easings": [],
+        "transitionDurationsMs": [
+          [
+            500,
+            44
+          ],
+          [
+            300,
+            8
+          ],
+          [
+            200,
+            6
+          ],
+          [
+            400,
+            6
+          ],
+          [
+            2000,
+            2
+          ]
+        ],
+        "keyframes": [
+          "moveAndFade"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 13,
+      "media": {
+        "canvases": [
+          {
+            "w": 780,
+            "h": 1688,
+            "area": 0
+          }
+        ],
+        "videos": [
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://brand.squarespace.com/pages/home/campaign/01@lg.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://brand.squarespace.com/pages/home/campaign/02@lg.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://brand.squarespace.com/pages/home/campaign/03@lg.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://brand.squarespace.com/pages/home/campaign/04@lg.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://brand.squarespace.com/pages/home/campaign/05@lg.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://brand.squarespace.com/pages/home/campaign/06@lg.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://brand.squarespace.com/pages/home/motion/01@sm.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://brand.squarespace.com/pages/home/motion/02@sm.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://brand.squarespace.com/pages/home/motion/03@sm.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://brand.squarespace.com/pages/home/motion/04@sm.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://brand.squarespace.com/pages/home/motion/05@sm.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://brand.squarespace.com/pages/home/motion/06@sm.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://brand.squarespace.com/pages/home/motion/07@sm.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://brand.squarespace.com/pages/home/motion/08@sm.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://brand.squarespace.com/pages/home/motion/09@sm.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://brand.squarespace.com/pages/home/motion/10@sm.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://brand.squarespace.com/pages/home/motion/11@sm.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://brand.squarespace.com/pages/home/motion/12@sm.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://brand.squarespace.com/pages/home/motion/13@sm.mp4"
+          }
+        ],
+        "svg": 6,
+        "images": 62,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 1,
+          "2d": 1
+        },
+        "raf": 619,
+        "io": 1,
+        "ro": 46,
+        "mo": 1,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": true,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": true,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Squarespace Foundations | Squarespace Foundations",
+      "lang": "en",
+      "description": "Discover the essential guiding principles and distinctive visual elements that define the Squarespace identity."
+    },
+    "featuresBeforeScroll": {
+      "elements": 490,
+      "canvases": 1,
+      "animations": 4,
+      "hidden": 16
+    },
+    "scrollReveal": 3,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 11822148,
+        "layoutCount": 64,
+        "recalcStyleCount": 333,
+        "scriptDuration": 0.220924,
+        "taskDuration": 0.958151,
+        "nodes": 4041
+      },
+      "timing": {
+        "domContentLoaded": 368,
+        "load": 369,
+        "first-paint": 320,
+        "first-contentful-paint": 568
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.39, 0.575, 0.565, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0702000E41D0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://brand.squarespace.com/pages/home/campaign/02@lg.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/campaign/03@lg.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/campaign/04@lg.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/campaign/01@lg.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/campaign/05@lg.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/campaign/06@lg.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/motion/01@sm.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/motion/02@sm.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/motion/03@sm.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/motion/04@sm.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/motion/05@sm.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/motion/06@sm.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/motion/07@sm.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/motion/08@sm.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/motion/09@sm.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/motion/10@sm.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/motion/11@sm.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/motion/13@sm.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://brand.squarespace.com/pages/home/motion/12@sm.mp4",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  }
+}

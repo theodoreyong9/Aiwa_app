@@ -1,0 +1,2778 @@
+{
+  "url": "https://kinoria.studio/",
+  "at": "2026-10-09T11:24:22.625Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 224573,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 23,
+      "typography": {
+        "families": [],
+        "weights": [],
+        "textTransforms": [],
+        "sizeMin": 0,
+        "sizeMedian": 0,
+        "sizeMax": 0,
+        "sizeMaxVw": 0,
+        "scaleRatio": 0,
+        "letterSpacingMean": 0,
+        "loadedFonts": [],
+        "variableFont": false,
+        "textElements": 0
+      },
+      "color": {
+        "background": "rgb(0, 0, 0)",
+        "backgroundLuminance": 0,
+        "backgrounds": [],
+        "texts": [
+          [
+            "rgb(0, 0, 0)",
+            6
+          ]
+        ],
+        "meanSaturation": 0,
+        "rootVars": {}
+      },
+      "layout": {
+        "fullscreenSections": 5,
+        "sticky": 0,
+        "fixed": 6,
+        "grid": 0,
+        "flex": 0,
+        "absolute": 6,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 900,
+        "pages": 1,
+        "spacing": [
+          [
+            24,
+            1
+          ],
+          [
+            12,
+            1
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 0,
+        "animationKinds": [],
+        "infiniteAnimations": 0,
+        "animationDurations": [],
+        "easings": [],
+        "transitionDurationsMs": [
+          [
+            350,
+            1
+          ]
+        ],
+        "keyframes": [
+          "bootturn",
+          "bootbreathe"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 1,
+      "media": {
+        "canvases": [
+          {
+            "w": 1440,
+            "h": 900,
+            "area": 1
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 1
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0
+          },
+          {
+            "w": 1440,
+            "h": 900,
+            "area": 1
+          }
+        ],
+        "videos": [],
+        "svg": 1,
+        "images": 1,
+        "iframes": 0,
+        "customCursor": true
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 1,
+          "2d": 3
+        },
+        "raf": 13,
+        "io": 0,
+        "ro": 0,
+        "mo": 1,
+        "startViewTransition": 0,
+        "workers": 1,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "KINORIA",
+      "lang": "en",
+      "description": "KINORIA — 35mm, fully mechanical, no battery. Nothing on it decides for you: not the exposure, not the moment, not whether it was worth the frame."
+    },
+    "featuresBeforeScroll": {
+      "elements": 23,
+      "canvases": 4,
+      "animations": 0,
+      "hidden": 1
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 1,
+      "changed": 0
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 5837516,
+        "layoutCount": 12,
+        "recalcStyleCount": 28,
+        "scriptDuration": 0.526426,
+        "taskDuration": 215.908343,
+        "nodes": 1028
+      },
+      "timing": {
+        "domContentLoaded": 229,
+        "load": 458,
+        "first-paint": 240,
+        "first-contentful-paint": 33760
+      }
+    },
+    "network": [
+      {
+        "url": "https://kinoria.studio/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 36713
+      },
+      {
+        "url": "https://kinoria.studio/fonts/Archivo/Archivo-Variable.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 90336
+      },
+      {
+        "url": "https://kinoria.studio/assets/kinoria/wordmark.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 2164
+      },
+      {
+        "url": "https://kinoria.studio/assets/intro-Cm8D6Tbi.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 9624
+      },
+      {
+        "url": "https://kinoria.studio/assets/preload-helper-BlTxHScW.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 872
+      },
+      {
+        "url": "https://kinoria.studio/fotd/fwa_fotd_top_right.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 7668
+      },
+      {
+        "url": "blob:https://kinoria.studio/5d5fb2b8-8238-4299-9da6-4181dad83637",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "https://kinoria.studio/assets/intro-BfAO0Ivj.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 16943
+      },
+      {
+        "url": "https://kinoria.studio/assets/three.module-cPR_ZFD8.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 89374
+      },
+      {
+        "url": "https://kinoria.studio/assets/three.core-DCtJyEzy.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 61575
+      },
+      {
+        "url": "https://kinoria.studio/assets/lite-BKznOPEY.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2261
+      },
+      {
+        "url": "https://kinoria.studio/assets/sound-RFRPSRG3.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 6068
+      },
+      {
+        "url": "https://kinoria.studio/assets/va-4ECuEkJb.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1922
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/finder/barrel.json",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 378
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/finder/barrel_layers.json",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 793
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/finder/barrel.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 31470
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/plate/hero_frame1_proxy.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 81456
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/finder/b3_wall.webp",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 27996
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/finder/b2_bars.webp",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 11723
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/finder/b1_pillars.webp",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 12690
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/finder/b0_rim.webp",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 3369
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero_baked-YuF7XKap.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 22752
+      },
+      {
+        "url": "https://kinoria.studio/assets/touch_axis-D5Nr649C.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1660
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/frames.json",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 963
+      },
+      {
+        "url": "https://kinoria.studio/sound/v2/hero_settle.mp3",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 11093
+      },
+      {
+        "url": "https://kinoria.studio/sound/v2/flash.mp3",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 54157
+      },
+      {
+        "url": "https://kinoria.studio/sound/v2/main_shutter.mp3",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 21126
+      },
+      {
+        "url": "https://kinoria.studio/sound/v2/lamp_on.mp3",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 51607
+      },
+      {
+        "url": "https://kinoria.studio/sound/v2/footer_touch.mp3",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 8123
+      },
+      {
+        "url": "https://kinoria.studio/sound/v2/walk_click.mp3",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 13557
+      },
+      {
+        "url": "https://kinoria.studio/sound/v2/walk_whir.wav",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/wave",
+        "fromCache": false,
+        "bytes": 99021
+      },
+      {
+        "url": "https://kinoria.studio/sound/v2/walk_end.mp3",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 13254
+      },
+      {
+        "url": "https://kinoria.studio/sound/v2/mouse_air.wav",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/wave",
+        "fromCache": false,
+        "bytes": 185501
+      },
+      {
+        "url": "https://kinoria.studio/sound/v2/reroll_a.mp3",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 31537
+      },
+      {
+        "url": "https://kinoria.studio/sound/v2/reroll_b.mp3",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 8957
+      },
+      {
+        "url": "https://kinoria.studio/sound/v2/drop_whoosh.mp3",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 12304
+      },
+      {
+        "url": "https://kinoria.studio/sound/v2/print_pass.wav",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/wave",
+        "fromCache": false,
+        "bytes": 194332
+      },
+      {
+        "url": "https://kinoria.studio/sound/v2/tin_hover_a.mp3",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 7339
+      },
+      {
+        "url": "https://kinoria.studio/sound/v2/tin_hover_b.mp3",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 7288
+      },
+      {
+        "url": "https://kinoria.studio/sound/v2/tin_hover_c.mp3",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 6066
+      },
+      {
+        "url": "https://kinoria.studio/sound/v2/tin_select.mp3",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 17434
+      },
+      {
+        "url": "https://kinoria.studio/sound/v2/leader_pull.mp3",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 28613
+      },
+      {
+        "url": "https://kinoria.studio/sound/v2/zoom_friction.wav",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/wave",
+        "fromCache": false,
+        "bytes": 39899
+      },
+      {
+        "url": "https://kinoria.studio/sound/v2/shutter_a.mp3",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 8535
+      },
+      {
+        "url": "https://kinoria.studio/sound/v2/shutter_b.mp3",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 8536
+      },
+      {
+        "url": "https://kinoria.studio/sound/v2/advance_a.mp3",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 9376
+      },
+      {
+        "url": "https://kinoria.studio/sound/v2/advance_b.mp3",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 9404
+      },
+      {
+        "url": "https://kinoria.studio/sound/v2/roll_end.mp3",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 15228
+      },
+      {
+        "url": "https://kinoria.studio/sound/v2/paper_slide.wav",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/wave",
+        "fromCache": false,
+        "bytes": 493547
+      },
+      {
+        "url": "https://kinoria.studio/sound/v2/paper_float.mp3",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 23598
+      },
+      {
+        "url": "https://kinoria.studio/sound/v2/paper_touch_a.mp3",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 8126
+      },
+      {
+        "url": "https://kinoria.studio/sound/v2/paper_touch_b.mp3",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 8120
+      },
+      {
+        "url": "https://kinoria.studio/sound/v2/swim_in.mp3",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 18210
+      },
+      {
+        "url": "https://kinoria.studio/sound/v2/water_touch_a.mp3",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 8129
+      },
+      {
+        "url": "https://kinoria.studio/sound/v2/water_touch_b.mp3",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 10633
+      },
+      {
+        "url": "https://kinoria.studio/sound/v2/photo_place.mp3",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 8570
+      },
+      {
+        "url": "https://kinoria.studio/sound/v2/paper_air.wav",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/wave",
+        "fromCache": false,
+        "bytes": 160263
+      },
+      {
+        "url": "https://kinoria.studio/sound/v2/photo_slide.mp3",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 11893
+      },
+      {
+        "url": "https://kinoria.studio/sound/v2/section_turn.mp3",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 10627
+      },
+      {
+        "url": "https://kinoria.studio/sound/v2/section_move_p.wav",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/wave",
+        "fromCache": false,
+        "bytes": 128151
+      },
+      {
+        "url": "https://kinoria.studio/sound/v2/section_bed.wav",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/wave",
+        "fromCache": false,
+        "bytes": 128166
+      },
+      {
+        "url": "https://kinoria.studio/sound/v2/dry_tick.mp3",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 6031
+      },
+      {
+        "url": "https://kinoria.studio/sound/v2/section_move_p.wav",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/wave",
+        "fromCache": false,
+        "bytes": 69
+      },
+      {
+        "url": "https://kinoria.studio/sound/v2/room.wav",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/wave",
+        "fromCache": false,
+        "bytes": 352401
+      },
+      {
+        "url": "https://kinoria.studio/sound/v2/dark_room.wav",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/wave",
+        "fromCache": false,
+        "bytes": 352489
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/plate/bench_v2b_3344.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 809865
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_000.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 57007
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_001.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 57099
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_002.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 57044
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_003.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 56838
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_004.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 56698
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_005.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 56966
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_006.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 56634
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_007.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 56600
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_008.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 56266
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_009.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 56260
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_010.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 56278
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_011.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 57266
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_012.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 57055
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_013.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 56785
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_014.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 56767
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_015.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 56739
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_016.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 57148
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_017.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 56813
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_018.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 57115
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_019.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 56039
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_020.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 56232
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_021.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 56587
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_022.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 56166
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_023.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 56160
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_024.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 55907
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_025.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 54522
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_026.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 55444
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_027.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 55224
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_028.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 55376
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_029.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 55465
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_030.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 55351
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_031.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 55301
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_032.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 55558
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_033.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 55488
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_034.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 55434
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_035.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 55076
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_036.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 54919
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_037.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 54783
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_038.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 54736
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_039.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 54385
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_040.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 53415
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_041.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 54491
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_042.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 54540
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_043.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 54480
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_044.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 54206
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_045.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 54558
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_046.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 53247
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_047.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 54509
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_048.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 54168
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_049.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 54526
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_050.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 53174
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_051.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 54215
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_052.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 53986
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_053.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 53057
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_054.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 54524
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_055.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 54283
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_056.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 54028
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_057.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 54246
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_058.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 53935
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_059.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 53910
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_060.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 53717
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_061.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 53835
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_062.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 53881
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_063.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 53511
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_064.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 53466
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_065.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 51957
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_066.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 53225
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_067.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 53372
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_068.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 51788
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_069.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 52680
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_070.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 52791
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_071.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 52667
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/obj_072.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 52473
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_000.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4043
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_001.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4030
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_002.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4061
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_003.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4060
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_004.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4094
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_005.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4039
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_006.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4108
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_007.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4158
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_008.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4093
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_009.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4158
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_010.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4187
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_011.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4182
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_012.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4185
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_013.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4206
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_014.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4245
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_015.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4226
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_016.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4241
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_017.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4196
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_018.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4311
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_019.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4316
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_020.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4332
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_021.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4383
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_022.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4476
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_023.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4398
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_024.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4407
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_025.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4367
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_026.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4445
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_027.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4482
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_028.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4381
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_029.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4472
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_030.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4543
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_031.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4461
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_032.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4447
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_033.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4428
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_034.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4492
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_035.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4508
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_036.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4558
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_037.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4527
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_038.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4474
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_039.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4453
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_040.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4574
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_041.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4499
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_042.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4553
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_043.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4552
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_044.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4573
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_045.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4538
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_046.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4664
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_047.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4635
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_048.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4560
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_049.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4703
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_050.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4591
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_051.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4650
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_052.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4635
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_053.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4668
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_054.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4663
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_055.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4644
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_056.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4678
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_057.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4673
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_058.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4686
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_059.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4668
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_060.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4691
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_061.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4709
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_062.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4701
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_063.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4785
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_064.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4719
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_065.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4742
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_066.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4801
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_067.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4761
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_068.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4750
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_069.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4784
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_070.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4759
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_071.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4831
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/bake/shad_072.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4738
+      },
+      {
+        "url": "https://kinoria.studio/assets/hero/plate/bench_v2b_3344.webp",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://kinoria.studio/assets/heroui-BoUyo9_K.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 11094
+      },
+      {
+        "url": "https://kinoria.studio/assets/rail-DPOyqdsw.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 34901
+      },
+      {
+        "url": "https://kinoria.studio/assets/motion-BPh7FdTs.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 277
+      },
+      {
+        "url": "https://kinoria.studio/assets/face-C9P1gZe5.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 735
+      },
+      {
+        "url": "https://kinoria.studio/assets/mobile_intro-cga2vT_y.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1178
+      },
+      {
+        "url": "https://kinoria.studio/SHOT/warm.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 5271
+      },
+      {
+        "url": "https://kinoria.studio/assets/seam-C2laXc7I.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 13593
+      },
+      {
+        "url": "https://kinoria.studio/SHOT/shader.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 14110
+      },
+      {
+        "url": "blob:https://kinoria.studio/838b667a-b6f8-414d-a692-95df5837f103",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://kinoria.studio/SHOT/warm_worker.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "bootbreathe",
+        "duration": 1500,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "height",
+        "duration": 450,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "height",
+        "duration": 450,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "height",
+        "duration": 450,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "height",
+        "duration": 450,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0702000CC230000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x2d9400116200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x2d9400116200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x2d9400116200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://kinoria.studio/assets/kinoria/wordmark.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate "
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://kinoria.studio/fonts/Archivo/Archivo-Variable.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x2d9400116200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://kinoria.studio/assets/kinoria/wordmark.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate "
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://kinoria.studio/fonts/Archivo/Archivo-Variable.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app"
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://kinoria.studio/assets/kinoria/wordmark.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate "
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://kinoria.studio/fonts/Archivo/Archivo-Variable.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0208907CC230000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      }
+    ],
+    "exceptions": [],
+    "failed": [],
+    "targets": {
+      "frames": 1,
+      "workers": 1
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 75932,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 22,
+      "typography": {
+        "families": [],
+        "weights": [],
+        "textTransforms": [],
+        "sizeMin": 0,
+        "sizeMedian": 0,
+        "sizeMax": 0,
+        "sizeMaxVw": 0,
+        "scaleRatio": 0,
+        "letterSpacingMean": 0,
+        "loadedFonts": [],
+        "variableFont": false,
+        "textElements": 0
+      },
+      "color": {
+        "background": "rgb(0, 0, 0)",
+        "backgroundLuminance": 0,
+        "backgrounds": [],
+        "texts": [
+          [
+            "rgb(0, 0, 0)",
+            5
+          ]
+        ],
+        "meanSaturation": 0,
+        "rootVars": {}
+      },
+      "layout": {
+        "fullscreenSections": 4,
+        "sticky": 0,
+        "fixed": 5,
+        "grid": 0,
+        "flex": 0,
+        "absolute": 6,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 844,
+        "pages": 1,
+        "spacing": [
+          [
+            24,
+            1
+          ],
+          [
+            12,
+            1
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 0,
+        "animationKinds": [],
+        "infiniteAnimations": 0,
+        "animationDurations": [],
+        "easings": [],
+        "transitionDurationsMs": [
+          [
+            350,
+            1
+          ]
+        ],
+        "keyframes": [
+          "bootturn",
+          "bootbreathe"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 1,
+      "media": {
+        "canvases": [
+          {
+            "w": 585,
+            "h": 1266,
+            "area": 1
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0
+          },
+          {
+            "w": 585,
+            "h": 1266,
+            "area": 1
+          }
+        ],
+        "videos": [],
+        "svg": 1,
+        "images": 1,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 1,
+          "2d": 4
+        },
+        "raf": 16,
+        "io": 0,
+        "ro": 0,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "KINORIA",
+      "lang": "en",
+      "description": "KINORIA — 35mm, fully mechanical, no battery. Nothing on it decides for you: not the exposure, not the moment, not whether it was worth the frame."
+    },
+    "featuresBeforeScroll": {
+      "elements": 22,
+      "canvases": 3,
+      "animations": 0,
+      "hidden": 1
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 4470652,
+        "layoutCount": 7,
+        "recalcStyleCount": 24,
+        "scriptDuration": 0.19902,
+        "taskDuration": 70.884743,
+        "nodes": 455
+      },
+      "timing": {
+        "domContentLoaded": 166,
+        "load": 167,
+        "first-paint": 180,
+        "first-contentful-paint": 19344
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "bootbreathe",
+        "duration": 1500,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0702000CC230000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://kinoria.studio/assets/kinoria/wordmark.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate "
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://kinoria.studio/fonts/Archivo/Archivo-Variable.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app"
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://kinoria.studio/assets/kinoria/wordmark.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate "
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://kinoria.studio/fonts/Archivo/Archivo-Variable.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app"
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://kinoria.studio/assets/kinoria/wordmark.svg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate "
+      },
+      {
+        "level": "warning",
+        "text": "The resource https://kinoria.studio/fonts/Archivo/Archivo-Variable.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an app"
+      }
+    ],
+    "exceptions": [],
+    "failed": [],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  }
+}

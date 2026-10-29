@@ -1,0 +1,2191 @@
+{
+  "url": "https://sstr.tech/en/",
+  "at": "2026-10-10T10:06:45.741Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 15830,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 1182,
+      "typography": {
+        "families": [
+          [
+            "ABC Monument Grotesk",
+            132
+          ],
+          [
+            "Arial",
+            31
+          ],
+          [
+            "Abc Monument Grotesk",
+            17
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            155
+          ],
+          [
+            "500",
+            24
+          ],
+          [
+            "700",
+            1
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            111
+          ]
+        ],
+        "sizeMin": 12,
+        "sizeMedian": 14,
+        "sizeMax": 96,
+        "sizeMaxVw": 6.7,
+        "scaleRatio": 6.9,
+        "letterSpacingMean": 0.03,
+        "loadedFonts": [
+          {
+            "family": "Abc Monument Grotesk",
+            "weight": "200 1000",
+            "style": "normal"
+          },
+          {
+            "family": "Abc Monument Grotesk",
+            "weight": "200 1000",
+            "style": "normal"
+          }
+        ],
+        "variableFont": true,
+        "textElements": 180
+      },
+      "color": {
+        "background": "rgb(239, 240, 241)",
+        "backgroundLuminance": 0.8702177242866233,
+        "backgrounds": [
+          [
+            "rgb(239, 240, 241)",
+            15644
+          ],
+          [
+            "rgb(24, 25, 27)",
+            12385
+          ],
+          [
+            "rgb(195, 196, 200)",
+            5744
+          ],
+          [
+            "rgb(47, 48, 50)",
+            5311
+          ],
+          [
+            "rgb(224, 225, 227)",
+            1572
+          ],
+          [
+            "rgba(24, 25, 27, 0.5)",
+            1461
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(47, 48, 50)",
+            205
+          ],
+          [
+            "rgb(239, 240, 241)",
+            129
+          ],
+          [
+            "rgb(195, 196, 200)",
+            118
+          ],
+          [
+            "rgb(12, 12, 12)",
+            109
+          ],
+          [
+            "rgb(51, 51, 51)",
+            90
+          ]
+        ],
+        "meanSaturation": 0.05,
+        "rootVars": {
+          "--brand-orange-50": "#ffefea",
+          "--brand-orange-100": "#ffccbd",
+          "--brand-orange-200": "#ffb49d",
+          "--brand-orange-300": "#fe9170",
+          "--brand-orange-400": "#fe7c55",
+          "--brand-orange-500": "#fe5b2a",
+          "--brand-orange-600": "#e75326",
+          "--brand-orange-700": "#b4411e",
+          "--brand-orange-800": "#8c3217",
+          "--brand-orange-900": "#6b2612",
+          "--brand-grey-100": "#eff0f1",
+          "--brand-grey-150": "#e0e1e3",
+          "--brand-grey-200": "#c3c4c8",
+          "--brand-grey-250": "#b5b5b5",
+          "--brand-grey-300": "#a3a3a4",
+          "--brand-grey-400": "#8b8c8d",
+          "--brand-grey-500": "#747576",
+          "--brand-grey-600": "#464749",
+          "--brand-grey-700": "#2f3032",
+          "--brand-grey-750": "#222326",
+          "--brand-grey-800": "#18191b",
+          "--brand-grey-850": "#141415",
+          "--brand-grey-900": "#0c0c0c",
+          "--brand-grey-100-alpha": "#eff0f11a",
+          "--brand-grey-900-alpha": "#0c0c0c1a",
+          "--brand-scale-0": "0em",
+          "--brand-scale-25": "0.0625em",
+          "--brand-scale-50": "0.125em",
+          "--brand-scale-100": "0.25em",
+          "--brand-scale-200": "0.5em",
+          "--brand-scale-300": "0.75em",
+          "--brand-scale-400": "1em",
+          "--brand-scale-500": "1.25em",
+          "--brand-scale-600": "1.5em",
+          "--brand-scale-700": "1.75em",
+          "--brand-scale-800": "2em",
+          "--brand-scale-900": "2.5em",
+          "--brand-scale-1000": "3em",
+          "--brand-scale-1100": "4em",
+          "--brand-scale-1200": "5em"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 7,
+        "sticky": 0,
+        "fixed": 10,
+        "grid": 70,
+        "flex": 257,
+        "absolute": 119,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 14062,
+        "pages": 15.6,
+        "spacing": [
+          [
+            8,
+            74
+          ],
+          [
+            32,
+            66
+          ],
+          [
+            16,
+            36
+          ],
+          [
+            6,
+            31
+          ],
+          [
+            64,
+            26
+          ],
+          [
+            1,
+            17
+          ],
+          [
+            24,
+            13
+          ],
+          [
+            12,
+            11
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 6,
+        "animationKinds": [
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 6,
+        "animationDurations": [
+          1200,
+          1200,
+          3000,
+          3000,
+          3000,
+          2000
+        ],
+        "easings": [
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            250,
+            48
+          ],
+          [
+            500,
+            45
+          ],
+          [
+            350,
+            42
+          ],
+          [
+            375,
+            24
+          ],
+          [
+            150,
+            20
+          ]
+        ],
+        "keyframes": [
+          "cctpPreloaderBlink",
+          "cctpRevealFallback",
+          "scrollHintMove",
+          "scrollHintPulse"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 89,
+      "media": {
+        "canvases": [
+          {
+            "w": 1440,
+            "h": 830,
+            "area": 0.92
+          }
+        ],
+        "videos": [
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://sstr.tech/videos/main-framerate_webm.webm"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://sstr.tech/videos/frs-tool-video_static_webm.webm"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://sstr.tech/videos/svr-tool-video_static2_webm.webm"
+          }
+        ],
+        "svg": 38,
+        "images": 49,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 1,
+          "2d": 2
+        },
+        "raf": 974,
+        "io": 8,
+        "ro": 23,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 4,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": true,
+        "ScrollTrigger": true,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": true,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": true,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "SSTR — Friction Reduction Systems",
+      "lang": "en",
+      "description": "Friction, vibration, and load-transfer control in oil drilling. FRS, SVR, T&D modeling, on-site engineering support."
+    },
+    "featuresBeforeScroll": {
+      "elements": 1182,
+      "canvases": 1,
+      "animations": 5,
+      "hidden": 84
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 6,
+      "changed": 1
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 6889556,
+        "layoutCount": 575,
+        "recalcStyleCount": 1048,
+        "scriptDuration": 0.191616,
+        "taskDuration": 2.042471,
+        "nodes": 3859
+      },
+      "timing": {
+        "domContentLoaded": 2126,
+        "load": 3265,
+        "first-paint": 1624,
+        "first-contentful-paint": 1624
+      }
+    },
+    "network": [
+      {
+        "url": "https://sstr.tech/en/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 84295
+      },
+      {
+        "url": "https://sstr.tech/vendor/lenis.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 353
+      },
+      {
+        "url": "https://sstr.tech/css/normalize.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 7936
+      },
+      {
+        "url": "https://sstr.tech/css/tokens.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 12333
+      },
+      {
+        "url": "https://sstr.tech/css/styles.css?v=20260730c",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 66524
+      },
+      {
+        "url": "https://sstr.tech/css/animation.css?v=20260713h",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 33374
+      },
+      {
+        "url": "https://sstr.tech/css/base.css?v=20260730a",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 46757
+      },
+      {
+        "url": "https://sstr.tech/_astro/index.zyeS-wY5.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 4516
+      },
+      {
+        "url": "https://sstr.tech/images/shape-preloader.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 415
+      },
+      {
+        "url": "https://sstr.tech/vendor/gsap.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 73175
+      },
+      {
+        "url": "https://sstr.tech/vendor/ScrollTrigger.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 44795
+      },
+      {
+        "url": "https://sstr.tech/vendor/ScrollToPlugin.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4232
+      },
+      {
+        "url": "https://sstr.tech/vendor/CustomEase.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 7317
+      },
+      {
+        "url": "https://sstr.tech/vendor/SplitText.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 7421
+      },
+      {
+        "url": "https://sstr.tech/vendor/barba.umd.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 32019
+      },
+      {
+        "url": "https://sstr.tech/js/main.js?v=20260811a",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 218037
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M4 7h8v1H4zM7 4h1v8H7z' fill='%232f3032'/%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path d='M4 7h8v1H4zM7 4h1v8H7z' fill='black'/></svg>",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 11 10' fill='none' stroke='black' stroke-width='1.2' stroke-miterlimit='10'><path d='M7 3.88574L9.5 6.38574L7 8.88574'/><path d='M1.5 0.885742V4.88574L3 6.38574H9.5'/></svg>",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://sstr.tech/videos/main-framerate_poster.0000000.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 57145
+      },
+      {
+        "url": "https://sstr.tech/videos/frs-tool-video_static_poster.0000000.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 22428
+      },
+      {
+        "url": "https://sstr.tech/videos/svr-tool-video_static2_poster.0000000.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 16442
+      },
+      {
+        "url": "https://sstr.tech/fonts/ABC-Monument-Grotesk.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 391580
+      },
+      {
+        "url": "https://sstr.tech/images/shape.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 415
+      },
+      {
+        "url": "https://sstr.tech/images/process-rig.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 531363
+      },
+      {
+        "url": "https://sstr.tech/videos/main-framerate_webm.webm",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/webm",
+        "fromCache": false,
+        "bytes": 829530
+      },
+      {
+        "url": "https://sstr.tech/videos/frs-tool-video_static_webm.webm",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/webm",
+        "fromCache": false,
+        "bytes": 211387
+      },
+      {
+        "url": "https://sstr.tech/videos/svr-tool-video_static2_webm.webm",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/webm",
+        "fromCache": false,
+        "bytes": 64119
+      },
+      {
+        "url": "https://sstr.tech/vendor/lenis.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 26661
+      },
+      {
+        "url": "https://sstr.tech/images/frs-tool-preview-p-1600.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 24605
+      },
+      {
+        "url": "https://sstr.tech/webgl/sstr-scene.js?v=20260714n",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 680255
+      },
+      {
+        "url": "https://sstr.tech/webgl/assets/scenes/29-06-light.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 1714072
+      },
+      {
+        "url": "https://sstr.tech/webgl/draco/draco_wasm_wrapper.js",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 59001
+      },
+      {
+        "url": "https://sstr.tech/webgl/draco/draco_decoder.wasm",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/wasm",
+        "fromCache": false,
+        "bytes": 286187
+      },
+      {
+        "url": "blob:https://sstr.tech/40c20f87-f561-4be5-a182-0e49e2d56545",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "blob:https://sstr.tech/40c20f87-f561-4be5-a182-0e49e2d56545",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "blob:https://sstr.tech/40c20f87-f561-4be5-a182-0e49e2d56545",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "blob:https://sstr.tech/40c20f87-f561-4be5-a182-0e49e2d56545",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "https://sstr.tech/webgl/assets/scenes/PDC_Drill.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 477685
+      },
+      {
+        "url": "https://sstr.tech/webgl/assets/matcap/pipe-raw-steel.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 7188
+      },
+      {
+        "url": "https://sstr.tech/webgl/assets/matcap/pipe-satin-dark.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4664
+      },
+      {
+        "url": "https://sstr.tech/webgl/assets/matcap/lib-studio-grey.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 9531
+      },
+      {
+        "url": "https://sstr.tech/webgl/assets/scene-configs/scene-config.json",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 13869
+      },
+      {
+        "url": "https://sstr.tech/webgl/assets/matcap/pipe-satin-steel.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 5134
+      },
+      {
+        "url": "https://sstr.tech/webgl/assets/matcap/composite-matte-ps.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 5498
+      },
+      {
+        "url": "https://sstr.tech/webgl/assets/matcap/red-metal.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 8865
+      },
+      {
+        "url": "https://sstr.tech/webgl/assets/animations/manifest.json",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 182
+      },
+      {
+        "url": "https://sstr.tech/webgl/assets/animations/variant-1.json",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 1270
+      },
+      {
+        "url": "https://sstr.tech/webgl/assets/animations/variant-2.json",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 1943
+      },
+      {
+        "url": "https://sstr.tech/en/contacts/",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 43003
+      },
+      {
+        "url": "https://sstr.tech/en/products/",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 48673
+      },
+      {
+        "url": "https://sstr.tech/en/",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": true,
+        "bytes": 0
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "cctpPreloaderBlink",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 240,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 160,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 80,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 320,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 160,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 240,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 80,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 80,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 250,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 50,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 300.00000000000006,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 150.00000000000003,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 320,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 80,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 240,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 160,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 150.00000000000003,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 250,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 300.00000000000006,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 50,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 80,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 80,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 320,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 160,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 240,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 80,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 160,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 240,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 160,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 80,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 240,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "scrollHintPulse",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "scrollHintMove",
+        "duration": 3000,
+        "delay": 1000,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "scrollHintMove",
+        "duration": 3000,
+        "delay": 2000,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "scrollHintMove",
+        "duration": 3000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "cctpPreloaderBlink",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "clip-path",
+        "duration": 425,
+        "delay": 50,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.675, 0.15, 0.1, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "scale",
+        "duration": 350,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.675, 0.15, 0.1, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "clip-path",
+        "duration": 425,
+        "delay": 50,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.675, 0.15, 0.1, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "scale",
+        "duration": 350,
+        "delay": 50,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.675, 0.15, 0.1, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "clip-path",
+        "duration": 375,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.675, 0.15, 0.1, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 150,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "scale",
+        "duration": 350,
+        "delay": 50,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.675, 0.15, 0.1, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "scale",
+        "duration": 350,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.675, 0.15, 0.1, 1)"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A070200004110000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x393c03910800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      }
+    ],
+    "exceptions": [],
+    "failed": [],
+    "targets": {
+      "frames": 1,
+      "workers": 4
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 9311,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 1166,
+      "typography": {
+        "families": [
+          [
+            "ABC Monument Grotesk",
+            119
+          ],
+          [
+            "Arial",
+            31
+          ],
+          [
+            "Abc Monument Grotesk",
+            17
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            139
+          ],
+          [
+            "500",
+            28
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            109
+          ]
+        ],
+        "sizeMin": 12,
+        "sizeMedian": 14,
+        "sizeMax": 56,
+        "sizeMaxVw": 14.4,
+        "scaleRatio": 4,
+        "letterSpacingMean": 0.029,
+        "loadedFonts": [
+          {
+            "family": "Abc Monument Grotesk",
+            "weight": "200 1000",
+            "style": "normal"
+          },
+          {
+            "family": "Abc Monument Grotesk",
+            "weight": "200 1000",
+            "style": "normal"
+          }
+        ],
+        "variableFont": true,
+        "textElements": 167
+      },
+      "color": {
+        "background": "rgb(239, 240, 241)",
+        "backgroundLuminance": 0.8702177242866233,
+        "backgrounds": [
+          [
+            "rgb(239, 240, 241)",
+            4436
+          ],
+          [
+            "rgb(24, 25, 27)",
+            3075
+          ],
+          [
+            "rgb(195, 196, 200)",
+            2206
+          ],
+          [
+            "rgb(47, 48, 50)",
+            1403
+          ],
+          [
+            "rgb(32, 29, 29)",
+            332
+          ],
+          [
+            "rgba(0, 0, 0, 0.88)",
+            329
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(47, 48, 50)",
+            205
+          ],
+          [
+            "rgb(239, 240, 241)",
+            122
+          ],
+          [
+            "rgb(195, 196, 200)",
+            115
+          ],
+          [
+            "rgb(12, 12, 12)",
+            103
+          ],
+          [
+            "rgb(51, 51, 51)",
+            89
+          ]
+        ],
+        "meanSaturation": 0.05,
+        "rootVars": {
+          "--brand-orange-50": "#ffefea",
+          "--brand-orange-100": "#ffccbd",
+          "--brand-orange-200": "#ffb49d",
+          "--brand-orange-300": "#fe9170",
+          "--brand-orange-400": "#fe7c55",
+          "--brand-orange-500": "#fe5b2a",
+          "--brand-orange-600": "#e75326",
+          "--brand-orange-700": "#b4411e",
+          "--brand-orange-800": "#8c3217",
+          "--brand-orange-900": "#6b2612",
+          "--brand-grey-100": "#eff0f1",
+          "--brand-grey-150": "#e0e1e3",
+          "--brand-grey-200": "#c3c4c8",
+          "--brand-grey-250": "#b5b5b5",
+          "--brand-grey-300": "#a3a3a4",
+          "--brand-grey-400": "#8b8c8d",
+          "--brand-grey-500": "#747576",
+          "--brand-grey-600": "#464749",
+          "--brand-grey-700": "#2f3032",
+          "--brand-grey-750": "#222326",
+          "--brand-grey-800": "#18191b",
+          "--brand-grey-850": "#141415",
+          "--brand-grey-900": "#0c0c0c",
+          "--brand-grey-100-alpha": "#eff0f11a",
+          "--brand-grey-900-alpha": "#0c0c0c1a",
+          "--brand-scale-0": "0em",
+          "--brand-scale-25": "0.0625em",
+          "--brand-scale-50": "0.125em",
+          "--brand-scale-100": "0.25em",
+          "--brand-scale-200": "0.5em",
+          "--brand-scale-300": "0.75em",
+          "--brand-scale-400": "1em",
+          "--brand-scale-500": "1.25em",
+          "--brand-scale-600": "1.5em",
+          "--brand-scale-700": "1.75em",
+          "--brand-scale-800": "2em",
+          "--brand-scale-900": "2.5em",
+          "--brand-scale-1000": "3em",
+          "--brand-scale-1100": "4em",
+          "--brand-scale-1200": "5em"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 7,
+        "sticky": 0,
+        "fixed": 12,
+        "grid": 71,
+        "flex": 248,
+        "absolute": 100,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 14864,
+        "pages": 17.6,
+        "spacing": [
+          [
+            16,
+            104
+          ],
+          [
+            6,
+            86
+          ],
+          [
+            32,
+            59
+          ],
+          [
+            10,
+            25
+          ],
+          [
+            8,
+            20
+          ],
+          [
+            1,
+            17
+          ],
+          [
+            24,
+            10
+          ],
+          [
+            12,
+            10
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 6,
+        "animationKinds": [
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 6,
+        "animationDurations": [
+          1200,
+          1200,
+          3000,
+          3000,
+          3000,
+          2000
+        ],
+        "easings": [
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            250,
+            48
+          ],
+          [
+            500,
+            45
+          ],
+          [
+            350,
+            42
+          ],
+          [
+            375,
+            24
+          ],
+          [
+            150,
+            20
+          ]
+        ],
+        "keyframes": [
+          "cctpPreloaderBlink",
+          "cctpRevealFallback",
+          "scrollHintMove",
+          "scrollHintPulse"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 81,
+      "media": {
+        "canvases": [
+          {
+            "w": 585,
+            "h": 1161,
+            "area": 0.92
+          }
+        ],
+        "videos": [
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://sstr.tech/videos/main-framerate_webm.webm"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://sstr.tech/videos/frs-tool-video_static_webm.webm"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://sstr.tech/videos/svr-tool-video_static2_webm.webm"
+          }
+        ],
+        "svg": 38,
+        "images": 49,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 1,
+          "2d": 2
+        },
+        "raf": 942,
+        "io": 8,
+        "ro": 19,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 4,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": true,
+        "ScrollTrigger": true,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": true,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": true,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "SSTR — Friction Reduction Systems",
+      "lang": "en",
+      "description": "Friction, vibration, and load-transfer control in oil drilling. FRS, SVR, T&D modeling, on-site engineering support."
+    },
+    "featuresBeforeScroll": {
+      "elements": 1166,
+      "canvases": 1,
+      "animations": 5,
+      "hidden": 80
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 6506964,
+        "layoutCount": 460,
+        "recalcStyleCount": 880,
+        "scriptDuration": 0.164635,
+        "taskDuration": 1.271765,
+        "nodes": 3397
+      },
+      "timing": {
+        "domContentLoaded": 1867,
+        "load": 2462,
+        "first-paint": 1360,
+        "first-contentful-paint": 1360
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "cctpPreloaderBlink",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 80,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 160,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 240,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 80,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 160,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 240,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 320,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 80,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 300.00000000000006,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 150.00000000000003,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 50,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 250,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 160,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 320,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 80,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 240,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 300.00000000000006,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 150.00000000000003,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 250,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 50,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 80,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 160,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 240,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 320,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 80,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 160,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 240,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 80,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 240,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 80,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 160,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "scrollHintMove",
+        "duration": 3000,
+        "delay": 1000,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "scrollHintMove",
+        "duration": 3000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "scrollHintPulse",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "scrollHintMove",
+        "duration": 3000,
+        "delay": 2000,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "cctpPreloaderBlink",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A070200004110000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      }
+    ],
+    "exceptions": [],
+    "failed": [],
+    "targets": {
+      "frames": 1,
+      "workers": 4
+    }
+  }
+}

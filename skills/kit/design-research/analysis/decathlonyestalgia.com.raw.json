@@ -1,0 +1,3054 @@
+{
+  "url": "https://decathlonyestalgia.com/",
+  "at": "2026-10-10T09:51:57.164Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 16360,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 2360,
+      "typography": {
+        "families": [
+          [
+            "Roboto Flex",
+            60
+          ]
+        ],
+        "weights": [
+          [
+            "535",
+            30
+          ],
+          [
+            "600",
+            28
+          ],
+          [
+            "400",
+            2
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            60
+          ]
+        ],
+        "sizeMin": 12,
+        "sizeMedian": 14,
+        "sizeMax": 201.6,
+        "sizeMaxVw": 14,
+        "scaleRatio": 14.4,
+        "letterSpacingMean": 0,
+        "loadedFonts": [
+          {
+            "family": "Roboto Flex",
+            "weight": "400",
+            "style": "normal"
+          }
+        ],
+        "variableFont": true,
+        "textElements": 60
+      },
+      "color": {
+        "background": "rgb(244, 244, 244)",
+        "backgroundLuminance": 0.9046611743911496,
+        "backgrounds": [
+          [
+            "rgb(233, 218, 230)",
+            10887
+          ],
+          [
+            "rgb(234, 160, 205)",
+            7764
+          ],
+          [
+            "rgb(241, 243, 237)",
+            3888
+          ],
+          [
+            "rgb(244, 244, 244)",
+            1296
+          ],
+          [
+            "rgb(215, 221, 68)",
+            22
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(0, 0, 0)",
+            775
+          ],
+          [
+            "rgb(240, 147, 65)",
+            181
+          ],
+          [
+            "rgb(234, 160, 205)",
+            120
+          ],
+          [
+            "rgb(233, 218, 230)",
+            96
+          ],
+          [
+            "rgb(255, 255, 255)",
+            37
+          ]
+        ],
+        "meanSaturation": 0.22,
+        "rootVars": {
+          "--wp--preset--aspect-ratio--square": "1",
+          "--wp--preset--aspect-ratio--4-3": "4/3",
+          "--wp--preset--aspect-ratio--3-4": "3/4",
+          "--wp--preset--aspect-ratio--3-2": "3/2",
+          "--wp--preset--aspect-ratio--2-3": "2/3",
+          "--wp--preset--aspect-ratio--16-9": "16/9",
+          "--wp--preset--aspect-ratio--9-16": "9/16",
+          "--wp--preset--color--black": "#000000",
+          "--wp--preset--color--cyan-bluish-gray": "#abb8c3",
+          "--wp--preset--color--white": "#ffffff",
+          "--wp--preset--color--pale-pink": "#f78da7",
+          "--wp--preset--color--vivid-red": "#cf2e2e",
+          "--wp--preset--color--luminous-vivid-orange": "#ff6900",
+          "--wp--preset--color--luminous-vivid-amber": "#fcb900",
+          "--wp--preset--color--light-green-cyan": "#7bdcb5",
+          "--wp--preset--color--vivid-green-cyan": "#00d084",
+          "--wp--preset--color--pale-cyan-blue": "#8ed1fc",
+          "--wp--preset--color--vivid-cyan-blue": "#0693e3",
+          "--wp--preset--color--vivid-purple": "#9b51e0",
+          "--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple": "linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%)",
+          "--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan": "linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%)",
+          "--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange": "linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%)",
+          "--wp--preset--gradient--luminous-vivid-orange-to-vivid-red": "linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%)",
+          "--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray": "linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%)",
+          "--wp--preset--gradient--cool-to-warm-spectrum": "linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%)",
+          "--wp--preset--gradient--blush-light-purple": "linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%)",
+          "--wp--preset--gradient--blush-bordeaux": "linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%)",
+          "--wp--preset--gradient--luminous-dusk": "linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%)",
+          "--wp--preset--gradient--pale-ocean": "linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%)",
+          "--wp--preset--gradient--electric-grass": "linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%)",
+          "--wp--preset--gradient--midnight": "linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%)",
+          "--wp--preset--font-size--small": "13px",
+          "--wp--preset--font-size--medium": "20px",
+          "--wp--preset--font-size--large": "36px",
+          "--wp--preset--font-size--x-large": "42px",
+          "--wp--preset--spacing--20": "0.44rem",
+          "--wp--preset--spacing--30": "0.67rem",
+          "--wp--preset--spacing--40": "1rem",
+          "--wp--preset--spacing--50": "1.5rem",
+          "--wp--preset--spacing--60": "2.25rem"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 2,
+        "sticky": 2,
+        "fixed": 2,
+        "grid": 22,
+        "flex": 37,
+        "absolute": 281,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 17693,
+        "pages": 19.7,
+        "spacing": [
+          [
+            8,
+            26
+          ],
+          [
+            16,
+            15
+          ],
+          [
+            32,
+            14
+          ],
+          [
+            7,
+            7
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            15,
+            4
+          ],
+          [
+            192,
+            3
+          ],
+          [
+            48,
+            3
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 11,
+        "animationKinds": [
+          "CSSTransition",
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 8,
+        "animationDurations": [
+          300,
+          300,
+          300,
+          2000,
+          2000,
+          2000,
+          2000,
+          2000,
+          2000,
+          2000,
+          2000
+        ],
+        "easings": [
+          "cubic-bezier(0.215, 0.61, 0.355, 1)",
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            300,
+            50
+          ],
+          [
+            1600,
+            43
+          ],
+          [
+            1000,
+            42
+          ],
+          [
+            600,
+            19
+          ],
+          [
+            800,
+            6
+          ]
+        ],
+        "keyframes": [
+          "swiper-preloader-spin",
+          "spinner",
+          "ringRotate"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 34,
+      "media": {
+        "canvases": [
+          {
+            "w": 259,
+            "h": 247,
+            "area": 0.05
+          },
+          {
+            "w": 267,
+            "h": 255,
+            "area": 0.05
+          },
+          {
+            "w": 267,
+            "h": 255,
+            "area": 0.05
+          },
+          {
+            "w": 1440,
+            "h": 900,
+            "area": 1
+          },
+          {
+            "w": 936,
+            "h": 1307,
+            "area": 0.94
+          },
+          {
+            "w": 359,
+            "h": 402,
+            "area": 0.11
+          },
+          {
+            "w": 1440,
+            "h": 900,
+            "area": 1
+          }
+        ],
+        "videos": [
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-MASTER-16-9.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/OG2K-Green-2.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/Jacket.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/Short.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-VIEUX-9-16-.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-FILLE-9-16.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-GAMER-9-16.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-ROLLER-9-16.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-DARON-9-16.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-VIEUX-9-16-.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-FILLE-9-16.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-GAMER-9-16.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-ROLLER-9-16.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-DARON-9-16.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/Jacket.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/Short.mp4"
+          }
+        ],
+        "svg": 65,
+        "images": 37,
+        "iframes": 1,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "2d": 2,
+          "webgl2": 6
+        },
+        "raf": 2395,
+        "io": 21,
+        "ro": 29,
+        "mo": 6,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": true,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Decathlon Yestalgia",
+      "lang": "fr",
+      "description": "Decathlon Yestalgia collection - depuis 1976"
+    },
+    "featuresBeforeScroll": {
+      "elements": 2360,
+      "canvases": 7,
+      "animations": 8,
+      "hidden": 132
+    },
+    "scrollReveal": 98,
+    "hover": {
+      "probed": 6,
+      "changed": 0
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 9352856,
+        "layoutCount": 140,
+        "recalcStyleCount": 1792,
+        "scriptDuration": 0.948467,
+        "taskDuration": 7.902182,
+        "nodes": 15161
+      },
+      "timing": {
+        "domContentLoaded": 770,
+        "load": 1080,
+        "first-paint": 556,
+        "first-contentful-paint": 860
+      }
+    },
+    "network": [
+      {
+        "url": "https://decathlonyestalgia.com/fr/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 57801
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/themes/blueprint/theme/public/dist/app.DEmn3dlJ.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 17031
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wdth,wght,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,25..151,100..1000,96,468,79,-203,738,514,712&display=swap",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 869
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/themes/blueprint/theme/public/images/lines-1440.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4444
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/og2k.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 5652
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/themes/blueprint/theme/public/dist/app.DVbZGdKA.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 86582
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/dalkhafine-artist.png.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 708584
+      },
+      {
+        "url": "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><polyline points='2,4 6,9 10,4'/></svg>",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-MASTER-16-9.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/OG2K-Green-2.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 524172
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/Jacket.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 1057306
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/Short.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 1046579
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-VIEUX-9-16-.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-FILLE-9-16.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-GAMER-9-16.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/robotoflex/v30/NaNnepOXO_NexZs0b5QrzlOHb8wCikXpYqmZsWI-__OGbt8jZktqc2V3Zs0KvDLdBP8SBZtOs2IifRuUZQMsPJtUsR4DEK6cULNeUx9XgTnH37Ha_FIAp4Fm0PP1hw45DntW2x0wZGzhPmr1YNMYKYn9_1IQXGwJAiUJVUMdN5YUW4O8HtSoXjC1z3QSabshNFVe3e0O5j3ZjrZCu23Qd4G0EBysQNK-QKavMl1cKq3tHXtXi8mzLjaAQbE.ttf",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/ttf",
+        "fromCache": false,
+        "bytes": 46222
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-ROLLER-9-16.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-DARON-9-16.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-ROLLER-9-16.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-DARON-9-16.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/themes/blueprint/theme/public/dist/app.BBol_NRN.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 46536
+      },
+      {
+        "url": "https://decathlonyestalgia.com/cdn-cgi/challenge-platform/h/g/scripts/jsd/4df4a60fa397/main.js?",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 11502
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-MASTER-16-9.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": true
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/OG2K-Green-2.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/Jacket.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/Short.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-VIEUX-9-16-.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": true
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-FILLE-9-16.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": true
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-GAMER-9-16.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": true
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-ROLLER-9-16.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-DARON-9-16.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-ROLLER-9-16.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser"
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-DARON-9-16.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser"
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-MASTER-16-9.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": true
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-VIEUX-9-16-.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": true,
+        "bytes": 433075
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-FILLE-9-16.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": true,
+        "bytes": 302344
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-GAMER-9-16.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": true
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-ROLLER-9-16.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-DARON-9-16.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-ROLLER-9-16.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-DARON-9-16.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://decathlonyestalgia.com/cdn-cgi/challenge-platform/h/g/jsd/oneshot/4df4a60fa397/0.44872338426533653:1791623131:B5PwxiNBYq1gqrXO3BhXe6_e2fw-s0NsZXpuXXwkIMg/a484ba26b96ee16d",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 1505
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/themes/blueprint/theme/public/dist/app.8QP-6NQZ.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 45767
+      },
+      {
+        "url": "https://unpkg.com/@rive-app/webgl2@2.37.6/rive.wasm",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/wasm",
+        "fromCache": false,
+        "bytes": 801842
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/themes/blueprint/theme/public/rives/surfer.riv",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 407106
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/themes/blueprint/theme/public/rives/boom.riv",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 204961
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/themes/blueprint/theme/public/rives/palm_tree.riv",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 25285
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/themes/blueprint/theme/public/rives/palm_tree.riv",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/themes/blueprint/theme/public/rives/palm_tree.riv",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://decathlonyestalgia.com/edf5eabc-101f-4c3c-8d03-90a0135758d6",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://decathlonyestalgia.com/3dd3e28d-c08f-464f-8575-c83591a093a5",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://decathlonyestalgia.com/4bd6eabb-f930-47fa-8798-f28cb08abc40",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://decathlonyestalgia.com/16ff9f81-4fc9-48fc-b7d0-7efc0fdd9e23",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://decathlonyestalgia.com/2f08e5d9-d151-49d7-8039-713f1669491b",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://decathlonyestalgia.com/ad4f371a-fd9f-4ee2-a66c-082fb623fe64",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://decathlonyestalgia.com/11daa652-c3f8-4a6e-97a5-8ff8aafa8d73",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://decathlonyestalgia.com/cf3c8f85-954f-4357-a3fe-3186241bf6e3",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://decathlonyestalgia.com/6cc11da2-0098-4815-8d60-2397f6158a6d",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://decathlonyestalgia.com/fefded74-9ce1-4ad3-bd29-2353950adbb7",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://decathlonyestalgia.com/f7a2072f-e9eb-4fc6-a0cb-0bed8efbb6ff",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://decathlonyestalgia.com/d9ab94cc-5484-42e9-aea3-0185bef48dd2",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://decathlonyestalgia.com/c81b3c0e-a83f-4db3-a63c-ceccc67f228d",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://decathlonyestalgia.com/008ad4ee-df6d-4f8f-bf07-6879a5ae6dee",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://decathlonyestalgia.com/5d8d2268-4024-4627-aab3-dfe199916192",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://decathlonyestalgia.com/371e8388-0d10-4cf1-8906-91e180a208da",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://decathlonyestalgia.com/cd9dfa7b-8dd5-44df-8ceb-d623aacf8c07",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://decathlonyestalgia.com/ac7a76d8-3419-44d8-b602-dd219f92ddab",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://decathlonyestalgia.com/9a04dab6-6eac-41be-8c78-48cfeffefeb3",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://decathlonyestalgia.com/44e88a34-37ba-4295-8434-af60d31095e0",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://decathlonyestalgia.com/08f0fe6b-0a9d-4361-abc1-f690da98c8dc",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://decathlonyestalgia.com/ae8fa161-2528-4fa2-95c4-4524a43d7809",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://decathlonyestalgia.com/445f97f2-91aa-44ca-9dea-c2dfbbd3d000",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://decathlonyestalgia.com/59cb2196-7693-469f-bb4b-8cdd4546f48d",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://decathlonyestalgia.com/e2bd74cc-8bef-4284-b67c-f17cd749d799",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://decathlonyestalgia.com/ce95029b-cf1f-4365-b7b7-86269c11b423",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://decathlonyestalgia.com/1a292b73-5f9c-4f3c-94f0-0dd5a46e3ec5",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://decathlonyestalgia.com/69098f6c-0446-429c-a8be-455792774238",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://decathlonyestalgia.com/6190d515-c908-43c9-91c0-9ef5d6bd19de",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://decathlonyestalgia.com/d6ff7576-660e-41d6-8625-f5c469ebd302",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://decathlonyestalgia.com/16a08690-a081-459c-99c4-6457fa760c88",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://decathlonyestalgia.com/c40dfdc1-afc2-46a7-952d-302e82dd07fd",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://decathlonyestalgia.com/a53fb2f1-2fbb-4614-bfdc-762c714daf48",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://decathlonyestalgia.com/f79217e4-9365-4e99-aac1-3e0242ed7d87",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://decathlonyestalgia.com/100a124e-74de-4953-98a5-c2668ad0e6d9",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/Rectangle-7531-1.jpg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 37148
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/Rectangle-7532-1.jpg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 95105
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/04/1%E2%80%94-Graphic-Tee.jpg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 184265
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/04/2a%E2%80%94-OG2K-%E2%80%94-Bleu-ciel.jpg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 334741
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/4%E2%80%94-Graphic-CrewneckFix.jpg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 194705
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/5a%E2%80%94-Tracksuit-Pant-%E2%80%94-Bleu.jpg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 85164
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/04/6a%E2%80%94-Tee-shirt-crop.jpg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 87566
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/04/7%E2%80%94-Legging-Flared.jpg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 269916
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/04/8%E2%80%94-Bag.jpg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 283170
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/04/10%E2%80%94-Sunglasses.jpg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 207393
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/OG2K-Replacment.jpg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 105840
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/04/11%E2%80%94-Cap.jpg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 179266
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/04/12%E2%80%94-Roller.jpg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 326748
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/13%E2%80%94-Socks.jpg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 107704
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/Outline-White.png.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 456124
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/shoe.png.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 168852
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/1b%E2%80%94-Graphic-Tee.jpg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 124726
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/3b%E2%80%94-Tracksuit-Jacket-%E2%80%94-Grise.jpg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 133672
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/5b%E2%80%94-Tracksuit-Pant-%E2%80%94-Gris.jpg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 105578
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/04/6b%E2%80%94-Tee-shirt-crop.jpg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 91364
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1600,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.77, 0, 0.175, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1600,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.77, 0, 0.175, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1600,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.77, 0, 0.175, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "clip-path",
+        "duration": 1600,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.77, 0, 0.175, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "clip-path",
+        "duration": 1600,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.77, 0, 0.175, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1600,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.77, 0, 0.175, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "clip-path",
+        "duration": 1600,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.77, 0, 0.175, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1600,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.77, 0, 0.175, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1600,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.77, 0, 0.175, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "clip-path",
+        "duration": 1600,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.77, 0, 0.175, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1600,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.77, 0, 0.175, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "clip-path",
+        "duration": 1600,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.77, 0, 0.175, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1600,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.77, 0, 0.175, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1600,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.77, 0, 0.175, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1600,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.77, 0, 0.175, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "clip-path",
+        "duration": 1600,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.77, 0, 0.175, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "clip-path",
+        "duration": 1600,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.77, 0, 0.175, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1600,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.77, 0, 0.175, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "clip-path",
+        "duration": 1600,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.77, 0, 0.175, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "clip-path",
+        "duration": 1600,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.77, 0, 0.175, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1600,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.77, 0, 0.175, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "clip-path",
+        "duration": 1600,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.77, 0, 0.175, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1600,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.77, 0, 0.175, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "clip-path",
+        "duration": 1600,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.77, 0, 0.175, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "clip-path",
+        "duration": 1600,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.77, 0, 0.175, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "clip-path",
+        "duration": 1600,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.77, 0, 0.175, 1)"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A070200034320000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0A0200034320000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0D0200034320000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0809C0934320000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0B09C0934320000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0E09C0934320000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x12d40f724e00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x12d40f728a00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x12d40295e800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x12d40f724e00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-MASTER-16-9.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-ROLLER-9-16.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-DARON-9-16.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-VIEUX-9-16-.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-FILLE-9-16.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-GAMER-9-16.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-ROLLER-9-16.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-DARON-9-16.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-MASTER-16-9.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-ROLLER-9-16.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-DARON-9-16.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-VIEUX-9-16-.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-FILLE-9-16.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-GAMER-9-16.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-ROLLER-9-16.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-DARON-9-16.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-ROLLER-9-16.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-DARON-9-16.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-MASTER-16-9.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-GAMER-9-16.mp4",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 2,
+      "workers": 0
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 8101,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 2360,
+      "typography": {
+        "families": [
+          [
+            "Roboto Flex",
+            53
+          ]
+        ],
+        "weights": [
+          [
+            "535",
+            29
+          ],
+          [
+            "600",
+            22
+          ],
+          [
+            "400",
+            2
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            53
+          ]
+        ],
+        "sizeMin": 12,
+        "sizeMedian": 32,
+        "sizeMax": 62,
+        "sizeMaxVw": 15.9,
+        "scaleRatio": 1.9,
+        "letterSpacingMean": 0,
+        "loadedFonts": [
+          {
+            "family": "Roboto Flex",
+            "weight": "400",
+            "style": "normal"
+          }
+        ],
+        "variableFont": true,
+        "textElements": 53
+      },
+      "color": {
+        "background": "rgb(244, 244, 244)",
+        "backgroundLuminance": 0.9046611743911496,
+        "backgrounds": [
+          [
+            "rgb(233, 218, 230)",
+            2937
+          ],
+          [
+            "rgb(234, 160, 205)",
+            1739
+          ],
+          [
+            "rgb(241, 243, 237)",
+            620
+          ],
+          [
+            "rgb(244, 244, 244)",
+            329
+          ],
+          [
+            "rgb(215, 221, 68)",
+            16
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(0, 0, 0)",
+            689
+          ],
+          [
+            "rgb(240, 147, 65)",
+            129
+          ],
+          [
+            "rgb(233, 218, 230)",
+            96
+          ],
+          [
+            "rgb(234, 160, 205)",
+            82
+          ],
+          [
+            "rgb(255, 255, 255)",
+            37
+          ]
+        ],
+        "meanSaturation": 0.22,
+        "rootVars": {
+          "--wp--preset--aspect-ratio--square": "1",
+          "--wp--preset--aspect-ratio--4-3": "4/3",
+          "--wp--preset--aspect-ratio--3-4": "3/4",
+          "--wp--preset--aspect-ratio--3-2": "3/2",
+          "--wp--preset--aspect-ratio--2-3": "2/3",
+          "--wp--preset--aspect-ratio--16-9": "16/9",
+          "--wp--preset--aspect-ratio--9-16": "9/16",
+          "--wp--preset--color--black": "#000000",
+          "--wp--preset--color--cyan-bluish-gray": "#abb8c3",
+          "--wp--preset--color--white": "#ffffff",
+          "--wp--preset--color--pale-pink": "#f78da7",
+          "--wp--preset--color--vivid-red": "#cf2e2e",
+          "--wp--preset--color--luminous-vivid-orange": "#ff6900",
+          "--wp--preset--color--luminous-vivid-amber": "#fcb900",
+          "--wp--preset--color--light-green-cyan": "#7bdcb5",
+          "--wp--preset--color--vivid-green-cyan": "#00d084",
+          "--wp--preset--color--pale-cyan-blue": "#8ed1fc",
+          "--wp--preset--color--vivid-cyan-blue": "#0693e3",
+          "--wp--preset--color--vivid-purple": "#9b51e0",
+          "--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple": "linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%)",
+          "--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan": "linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%)",
+          "--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange": "linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%)",
+          "--wp--preset--gradient--luminous-vivid-orange-to-vivid-red": "linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%)",
+          "--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray": "linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%)",
+          "--wp--preset--gradient--cool-to-warm-spectrum": "linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%)",
+          "--wp--preset--gradient--blush-light-purple": "linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%)",
+          "--wp--preset--gradient--blush-bordeaux": "linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%)",
+          "--wp--preset--gradient--luminous-dusk": "linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%)",
+          "--wp--preset--gradient--pale-ocean": "linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%)",
+          "--wp--preset--gradient--electric-grass": "linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%)",
+          "--wp--preset--gradient--midnight": "linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%)",
+          "--wp--preset--font-size--small": "13px",
+          "--wp--preset--font-size--medium": "20px",
+          "--wp--preset--font-size--large": "36px",
+          "--wp--preset--font-size--x-large": "42px",
+          "--wp--preset--spacing--20": "0.44rem",
+          "--wp--preset--spacing--30": "0.67rem",
+          "--wp--preset--spacing--40": "1rem",
+          "--wp--preset--spacing--50": "1.5rem",
+          "--wp--preset--spacing--60": "2.25rem"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 2,
+        "sticky": 0,
+        "fixed": 2,
+        "grid": 21,
+        "flex": 37,
+        "absolute": 281,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 13131,
+        "pages": 15.6,
+        "spacing": [
+          [
+            8,
+            39
+          ],
+          [
+            16,
+            15
+          ],
+          [
+            7,
+            7
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            48,
+            5
+          ],
+          [
+            15,
+            4
+          ],
+          [
+            128,
+            2
+          ],
+          [
+            20,
+            1
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 23,
+        "animationKinds": [
+          "CSSTransition",
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 8,
+        "animationDurations": [
+          1000,
+          1000,
+          1000,
+          1000,
+          1000,
+          1000,
+          1000,
+          1000,
+          1000,
+          1000,
+          1000,
+          1000,
+          800,
+          800,
+          800,
+          2000,
+          2000,
+          2000,
+          2000,
+          2000
+        ],
+        "easings": [
+          "cubic-bezier(0.215, 0.61, 0.355, 1)",
+          "cubic-bezier(0.645, 0.045, 0.355, 1)",
+          "cubic-bezier(0.77, 0, 0.175, 1)",
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            300,
+            50
+          ],
+          [
+            1000,
+            42
+          ],
+          [
+            800,
+            29
+          ],
+          [
+            1600,
+            23
+          ],
+          [
+            600,
+            19
+          ]
+        ],
+        "keyframes": [
+          "swiper-preloader-spin",
+          "spinner",
+          "ringRotate"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 67,
+      "media": {
+        "canvases": [
+          {
+            "w": 390,
+            "h": 371,
+            "area": 0.11
+          },
+          {
+            "w": 224,
+            "h": 214,
+            "area": 0.04
+          },
+          {
+            "w": 224,
+            "h": 214,
+            "area": 0.04
+          },
+          {
+            "w": 780,
+            "h": 1948,
+            "area": 4.62
+          },
+          {
+            "w": 780,
+            "h": 1089,
+            "area": 0.65
+          },
+          {
+            "w": 560,
+            "h": 627,
+            "area": 0.27
+          },
+          {
+            "w": 780,
+            "h": 1688,
+            "area": 4
+          }
+        ],
+        "videos": [
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-MASTER-9-16.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/OG2K-Green-2.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/Jacket.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/Short.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-VIEUX-9-16-.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-FILLE-9-16.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-GAMER-9-16.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-ROLLER-9-16.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-DARON-9-16.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-VIEUX-9-16-.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-FILLE-9-16.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-GAMER-9-16.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-ROLLER-9-16.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-DARON-9-16.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/Jacket.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/Short.mp4"
+          }
+        ],
+        "svg": 65,
+        "images": 37,
+        "iframes": 1,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "2d": 2,
+          "webgl2": 6
+        },
+        "raf": 2604,
+        "io": 21,
+        "ro": 29,
+        "mo": 6,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": true,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Decathlon Yestalgia",
+      "lang": "fr",
+      "description": "Decathlon Yestalgia collection - depuis 1976"
+    },
+    "featuresBeforeScroll": {
+      "elements": 2360,
+      "canvases": 7,
+      "animations": 8,
+      "hidden": 113
+    },
+    "scrollReveal": 46,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 9855668,
+        "layoutCount": 143,
+        "recalcStyleCount": 1421,
+        "scriptDuration": 0.648061,
+        "taskDuration": 5.49319,
+        "nodes": 15119
+      },
+      "timing": {
+        "domContentLoaded": 507,
+        "load": 837,
+        "first-paint": 180,
+        "first-contentful-paint": 580
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.77, 0, 0.175, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.77, 0, 0.175, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "clip-path",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.77, 0, 0.175, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "clip-path",
+        "duration": 800,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.77, 0, 0.175, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.77, 0, 0.175, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.77, 0, 0.175, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "clip-path",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.77, 0, 0.175, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.77, 0, 0.175, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "clip-path",
+        "duration": 800,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.77, 0, 0.175, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "clip-path",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.77, 0, 0.175, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.77, 0, 0.175, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.77, 0, 0.175, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.77, 0, 0.175, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.77, 0, 0.175, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "clip-path",
+        "duration": 800,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.77, 0, 0.175, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "clip-path",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.77, 0, 0.175, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.77, 0, 0.175, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 400,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 1000,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "clip-path",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.77, 0, 0.175, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "clip-path",
+        "duration": 800,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.77, 0, 0.175, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.77, 0, 0.175, 1)"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A070200034320000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0A0200034320000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0D0200034320000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A000821134320000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A030821134320000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A060821134320000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-MASTER-9-16.mp4",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 2,
+      "workers": 0
+    }
+  }
+}

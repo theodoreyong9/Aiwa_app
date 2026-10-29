@@ -1,0 +1,3040 @@
+{
+  "url": "https://unitedcarriers.com/",
+  "at": "2026-10-10T09:44:52.383Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 20160,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 2977,
+      "typography": {
+        "families": [
+          [
+            "Helvetica Neue",
+            121
+          ],
+          [
+            "BT Steinhart Mono",
+            106
+          ],
+          [
+            "BT Steinhart",
+            54
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            134
+          ],
+          [
+            "500",
+            111
+          ],
+          [
+            "700",
+            36
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            160
+          ]
+        ],
+        "sizeMin": 7.5,
+        "sizeMedian": 13.3333,
+        "sizeMax": 80,
+        "sizeMaxVw": 5.6,
+        "scaleRatio": 6,
+        "letterSpacingMean": 0,
+        "loadedFonts": [
+          {
+            "family": "BT Steinhart",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "BT Steinhart",
+            "weight": "700",
+            "style": "normal"
+          },
+          {
+            "family": "Helvetica Neue",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "Helvetica Neue",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "BT Steinhart Mono",
+            "weight": "400",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 281
+      },
+      "color": {
+        "background": "rgb(255, 255, 255)",
+        "backgroundLuminance": 1,
+        "backgrounds": [
+          [
+            "rgb(255, 255, 255)",
+            18698
+          ],
+          [
+            "rgb(17, 17, 17)",
+            6760
+          ],
+          [
+            "rgb(0, 0, 0)",
+            4536
+          ],
+          [
+            "rgba(166, 134, 224, 0.3)",
+            1296
+          ],
+          [
+            "rgb(12, 12, 12)",
+            643
+          ],
+          [
+            "rgba(17, 17, 17, 0.72)",
+            0
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(17, 17, 17)",
+            722
+          ],
+          [
+            "rgb(255, 255, 255)",
+            325
+          ],
+          [
+            "rgba(255, 255, 255, 0.6)",
+            117
+          ],
+          [
+            "rgba(255, 255, 255, 0.24)",
+            92
+          ],
+          [
+            "rgb(128, 128, 128)",
+            61
+          ]
+        ],
+        "meanSaturation": 0.07,
+        "rootVars": {
+          "--font--heading": "\"BT Steinhart\",Arial,sans-serif",
+          "--_color---bg--main": "var(--_color---m-white)",
+          "--font--body": "\"Helvetica Neue\",Arial,sans-serif",
+          "--_color---content--main": "var(--_color---m-black)",
+          "--container--padding": "4rem",
+          "--font--button": "\"BT Steinhart Mono\",Arial,sans-serif",
+          "--_color---content--note": "#1116",
+          "--border--size": "max(1px,.1rem)",
+          "--_color---border--bold": "#1111114d",
+          "--_color---bg--sf-2": "var(--_color---m-black)",
+          "--_color---border--highlight": "var(--_color---m-black)",
+          "--_color---secondary": "#f50",
+          "--_color---m-white": "white",
+          "--_color---content--soft": "#111111b8",
+          "--_color---bg--sf-1": "#f4f4f4",
+          "--_color---border--light": "#1111111a",
+          "--_color---content--brand": "var(--_color---primary)",
+          "--_color---border--main": "#1113",
+          "--container--column-gap": "2rem",
+          "--container--one-column": "calc((var(--container--max-width) - ((var(--container--column) - 1)*var(--container--column-gap)) - (var(--container--padding)*2))/var(--container--column))",
+          "--_color---content--disable": "#11111129",
+          "--_color---content--sub": "#111111e0",
+          "--_color---m-black": "#111",
+          "--_color---content--black<deleted|variable-6e7d8137-8713-9ff4-5cea-f92e6216a872>": "black",
+          "--_color---bg--brand": "var(--_color---primary)",
+          "--_color---primary": "#0016cb",
+          "--container--max-width": "100vw",
+          "--container--column": "16",
+          "--container--width": "min(100vw,var(--container--max-width))",
+          "--swiper-pagination-bullet-size": "0.6rem",
+          "--swiper-pagination-bullet-horizontal-gap": "0.2rem",
+          "--swiper-theme-color": "var(--decor--primary)",
+          "--swiper-pagination-bullet-inactive-opacity": "0.1",
+          "--page-padding": "max((100vw - var(--container--max-width)) / 2, 0px)"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 8,
+        "sticky": 16,
+        "fixed": 9,
+        "grid": 110,
+        "flex": 439,
+        "absolute": 319,
+        "asymmetricGrids": 21,
+        "splitScreen": false,
+        "scrollHeight": 900,
+        "pages": 1,
+        "spacing": [
+          [
+            16,
+            40
+          ],
+          [
+            5,
+            33
+          ],
+          [
+            10,
+            25
+          ],
+          [
+            3,
+            19
+          ],
+          [
+            7,
+            16
+          ],
+          [
+            13,
+            10
+          ],
+          [
+            25,
+            8
+          ],
+          [
+            17,
+            6
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 60,
+        "animationKinds": [
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 60,
+        "animationDurations": [
+          8000,
+          8000,
+          8000,
+          8000,
+          8000,
+          8000,
+          15000,
+          3000,
+          3000,
+          3000,
+          3000,
+          3000,
+          3000,
+          3000,
+          3000,
+          3000,
+          3000,
+          3000,
+          3000,
+          3000
+        ],
+        "easings": [
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            300,
+            126
+          ],
+          [
+            400,
+            84
+          ],
+          [
+            700,
+            70
+          ],
+          [
+            450,
+            21
+          ],
+          [
+            500,
+            17
+          ]
+        ],
+        "keyframes": [
+          "spin",
+          "marquee",
+          "wave",
+          "in-icon",
+          "out-icon",
+          "in-icon-new",
+          "out-icon-new",
+          "out-icon-new-services",
+          "spin-wheel",
+          "world-wide-dot"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 35,
+      "media": {
+        "canvases": [
+          {
+            "w": 900,
+            "h": 900,
+            "area": 0.1
+          },
+          {
+            "w": 1339,
+            "h": 753,
+            "area": 0.78
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0.24
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0
+          },
+          {
+            "w": 1440,
+            "h": 900,
+            "area": 1
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0.11
+          }
+        ],
+        "videos": [
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://cdn.prod.website-files.com/6a44eec1ed1af2c4c403df6b%2F6a460d6f92801e715322d1d6_Sea-wave-2%20%281%29_webm.webm"
+          }
+        ],
+        "svg": 104,
+        "images": 168,
+        "iframes": 2,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 2,
+          "2d": 3
+        },
+        "raf": 318,
+        "io": 4,
+        "ro": 4,
+        "mo": 5,
+        "startViewTransition": 0,
+        "workers": 6,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": true,
+        "jQuery": true,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": true,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "United Carriers | Global Freight Forwarding and Logistics",
+      "lang": "en",
+      "description": "Freight forwarding, land transport, and customs brokerage, unified across APAC under one accountable team."
+    },
+    "featuresBeforeScroll": {
+      "elements": 2977,
+      "canvases": 6,
+      "animations": 60,
+      "hidden": 35
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 6,
+      "changed": 0
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 28250920,
+        "layoutCount": 518,
+        "recalcStyleCount": 1065,
+        "scriptDuration": 1.684011,
+        "taskDuration": 11.824403,
+        "nodes": 6298
+      },
+      "timing": {
+        "domContentLoaded": 1867,
+        "load": 2076,
+        "first-paint": 376,
+        "first-contentful-paint": 376
+      }
+    },
+    "network": [
+      {
+        "url": "https://unitedcarriers.com/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 87909
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a44eec1ed1af2c4c403df6b/css/united-carriers.webflow.shared.fc188c3b2.min.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 70854
+      },
+      {
+        "url": "https://unitedcarriers.com/9i1h7htkfq16NmE0NGVlYzFlZDFhZjJjNGM0MDNkZjZi/mhF8l1Ws1LN3_BS5Ibk2DnX-sDQ",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 189381
+      },
+      {
+        "url": "https://cdn-cookieyes.com/client_data/0a6585d8ae8b5c9d8163bd361b7824aa/script.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 5663
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/attributes.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1867
+      },
+      {
+        "url": "https://js.stripe.com/v3/",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 271940
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a44eec1ed1af2c4c403df6b/6a4c6cb6a5d96145b3b34612_start-blur.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 17778
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a44eec1ed1af2c4c403df6b/6a4b96c759907c751a922995_7eca9aaa3d4bf61032fb078c55b2ccf4_star-p-1080.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 70893
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a44eec1ed1af2c4c403df6b/6a45d26642ae122cd6bead49_Hero-MB.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 60127
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a44eec1ed1af2c4c403df6b/6a44eec1ed1af2c4c403e80a_7c37c07d7806d002bd48cbd8cdd56922_plain-p-1600.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 45743
+      },
+      {
+        "url": "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6a44eec1ed1af2c4c403df6b",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 31926
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a44eec1ed1af2c4c403df6b/js/webflow.schunk.e661489a1c70db1e.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 261744
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a44eec1ed1af2c4c403df6b/js/webflow.schunk.ebd01c7a24c3f681.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 79022
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a44eec1ed1af2c4c403df6b/js/webflow.9d979e0d.ce21502f658531f1.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 2548
+      },
+      {
+        "url": "https://united-carriers.netlify.app/main.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 13810
+      },
+      {
+        "url": "https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 34086
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/chunk-J3PPETVR.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 482
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/chunk-ADKL4AJZ.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 937
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/chunk-VDEO3AAR.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 816
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/chunk-WIALCYDY.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 484
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/chunk-OF4NI3Y7.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 252
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/chunk-N2ZCN6XY.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1041
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/chunk-L4B2V5MO.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 433
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/chunk-CB6LZ537.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 349
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/chunk-XRTLPMPO.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 712
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/chunk-ZI7TAH2K.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 947
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/chunk-GGDEANQW.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 303
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/chunk-K46K3RI5.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 450
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%201114%20257%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M228.791%20191C230.288%20192.069%20233.611%20195.788%20235.15%20198.354C236.69%20200.919%20241.351%20209.687%20243.489%20213.749H249.903V209.9H256.318V191.001H409.5L417.963%20234.916H719.443C719.443%20228.288%20721.111%20213.107%20727.782%20205.41C736.121%20195.788%20738.974%20191.643%20759.5%20191.001C779.045%20190.39%20784.405%20203.692%20785.946%20206.907C786.023%20207.066%20786.094%20207.213%20786.154%20207.334C786.347%20207.72%20786.598%20208.194%20786.893%20208.748L786.894%20208.75C788.553%20211.877%20791.576%20217.572%20793.21%20224.653V241.331H804.756V256.194H165.232V249.67L168.439%20248.387L169.081%20232.992L177%20191.001L228.791%20191Z%22%20fill%3D%22black%22%2F%3E%3C%2Fsvg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a44eec1ed1af2c4c403df6b/6a44eec1ed1af2c4c403e63d_road-line-big.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 716
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a44eec1ed1af2c4c403df6b/6a44eec1ed1af2c4c403e714_road-line-ver.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 729
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a44eec1ed1af2c4c403df6b/6a44eec1ed1af2c4c403df88_BTSteinhart-Bold-subset.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 18878
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a44eec1ed1af2c4c403df6b/6a44eec1ed1af2c4c403df8c_BTSteinhart-RegularMono-subset.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 17432
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a44eec1ed1af2c4c403df6b/6a44eec1ed1af2c4c403df89_BTSteinhart-Medium-subset.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 19777
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a44eec1ed1af2c4c403df6b/6a44eec1ed1af2c4c403df8a_HelveticaNeueRoman-subset.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 56918
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a44eec1ed1af2c4c403df6b/6a44eec1ed1af2c4c403df8b_HelveticaNeueMedium-subset.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 34437
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a44eec1ed1af2c4c403df6b/6a4cbda52be1c66e5c7763d0_b73f2865aae1538f233749f5a8900a99_map-pre-loader.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 20409
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a44eec1ed1af2c4c403df6b/6a4cec26b4baea74514d7ab5_hero-blur-black.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 12751
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a44eec1ed1af2c4c403df6b/6a4cc04b2bdf99e8d70e6ecb_17937c6d05957a16113fb6d519a37cda_hero-blur.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 323098
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a44eec1ed1af2c4c403df6b/6a44eec1ed1af2c4c403dfca_intro-thumb.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 117471
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a44eec1ed1af2c4c403df6b/6a44eec1ed1af2c4c403e36b_frame_df.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 14420
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a44eec1ed1af2c4c403df6b/6a44eec1ed1af2c4c403e3fb_container-white.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 11756
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a44eec1ed1af2c4c403df6b/6a44eec1ed1af2c4c403e3fa_container-blue.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 13151
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a44eec1ed1af2c4c403df6b/6a44eec1ed1af2c4c403e3fc_container-orange.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 15901
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a44eec1ed1af2c4c403df6b/6a44eec1ed1af2c4c403e664_frame_000-top.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 9212
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a44eec1ed1af2c4c403df6b/6a44eec1ed1af2c4c403e663_frame_000-bot.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 8045
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a44eec1ed1af2c4c403df6b/6a44eec1ed1af2c4c403e362_truck-static.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 50749
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a44eec1ed1af2c4c403df6b/6a44eec1ed1af2c4c403e363_0ce5a65ed3727488198a1e34ffd7fc23_only-car.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 33218
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a44eec1ed1af2c4c403df6b/6a44eec1ed1af2c4c403e364_only-container.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 14007
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a44eec1ed1af2c4c403df6b/6a44eec1ed1af2c4c403e63c_banh-truoc.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 3305
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a44eec1ed1af2c4c403df6b%2F6a460d6f92801e715322d1d6_Sea-wave-2%20%281%29_mp4.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 375613
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a44eec1ed1af2c4c403df6b/6a44eec1ed1af2c4c403e63a_banh%20sau.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2639
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/src-T7SM3ONB.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 33722
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-V8J933FGY0&gtg_health=1",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 385
+      },
+      {
+        "url": "https://unitedcarriers.com/9i1h7htkfq16NmE0NGVlYzFlZDFhZjJjNGM0MDNkZjZi/ga/g/c?v=2&tid=G-V8J933FGY0&gtm=45g92e6a72v9258180764za20czd9258180764xf4&_p=1791625468804&gcd=13l3l3l3l1l1&npa=0&dma=0&gdid=dZGVlNj.dYWYxNW.dNzQzZD&_uip=%3A%3A&are=1&cid=1877433286.1791625469&fp=1&frm=0&ngs=1&pscdl=noapi&rcb=15&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&ur=US-CA&_gsid=zfm2w_J3D28wY68s7nKcrqjQAKtxVR80wg&_s=1&tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791625469&sct=1&seg=0&dl=https%3A%2F%2Funitedcarriers.com%2F&dt=United%20Carriers%20%7C%20Global%20Freight%20Forwarding%20and%20Logistics&gtb=1&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&gap.gtb=1&tfd=458",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false
+      },
+      {
+        "url": "https://www.google-analytics.com/g/s/collect?v=2&_gsid=zfm2w_J3D28wY68s7nKcrqjQAKtxVR80wg&gtm=45g92e6a72v9258180764za20czd9258180764xf4",
+        "method": "POST",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 559
+      },
+      {
+        "url": "https://js.stripe.com/v3/controller-with-preconnect-9f7177e1ded748e893dbc1894b93f152.html",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false
+      },
+      {
+        "url": "https://unitedcarriers.com/.wf_graphql/csrf",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 381
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/chunk-WL5KIXHF.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 605
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/chunk-T2PNG2TC.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 696
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/chunk-7CAOOJVW.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 581
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/chunk-WO4GQJHX.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 477
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/chunk-ZZRTGM4V.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1277
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/dist/chunk-UAA7M346.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1002
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a44eec1ed1af2c4c403df6b%2F6a460d6f92801e715322d1d6_Sea-wave-2%20%281%29_webm.webm",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/webm",
+        "fromCache": false,
+        "bytes": 493405
+      },
+      {
+        "url": "blob:https://unitedcarriers.com/636a015c-71b6-4b7b-8a3e-0e7c0bc49d92",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "blob:https://unitedcarriers.com/619a1aeb-6b9f-4fb1-8879-244baf7a2a5d",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "blob:https://unitedcarriers.com/1fb852c9-5bca-4a1b-b407-e64732967bd3",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "blob:https://unitedcarriers.com/a6b25744-bc2b-44f1-943d-84cd0f64a8a0",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "https://unitedcarriers.com/.wf_graphql/apollo",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 444
+      },
+      {
+        "url": "https://united-carriers.netlify.app/chunks/rolldown-runtime-DdACKOZr.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 486
+      },
+      {
+        "url": "https://united-carriers.netlify.app/chunks/vendor-gsap-GRoENYFU.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 54055
+      },
+      {
+        "url": "https://united-carriers.netlify.app/chunks/helpers-1Wl9fi6w.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1619
+      },
+      {
+        "url": "https://united-carriers.netlify.app/chunks/lenis-_dxIi_hK.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 5979
+      },
+      {
+        "url": "https://united-carriers.netlify.app/chunks/vendor-barba-DgBrL9HN.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 10574
+      },
+      {
+        "url": "https://united-carriers.netlify.app/chunks/scroll-CRhVCsWB.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 583
+      },
+      {
+        "url": "https://united-carriers.netlify.app/chunks/layout-BqW6AIsF.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 26512
+      },
+      {
+        "url": "https://js.stripe.com/v3/m-outer-3437aaddcdf6922d623e172c2d6f9278.html",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false
+      },
+      {
+        "url": "https://united-carriers.netlify.app/chunks/Home-CZ3JhV-m.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 14454
+      },
+      {
+        "url": "https://united-carriers.netlify.app/chunks/my-flights-DRrlP7HY.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 8156
+      },
+      {
+        "url": "https://united-carriers.netlify.app/chunks/vendor-three-DebrQqf4.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 134476
+      },
+      {
+        "url": "https://united-carriers.netlify.app/chunks/frame-sequence-DVzLzLQ6.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3466
+      },
+      {
+        "url": "https://unitedcarriers.com/insights/china-australia-ocean-freight-rates-are-moving-higher----what-importers-should-watch",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 65961
+      },
+      {
+        "url": "https://unitedcarriers.com/insights/insights-united-carriers-christopher-lebon-2026-local-business-awards-finalists",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 64687
+      },
+      {
+        "url": "https://unitedcarriers.com/insights/uc-courtside-is-here",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 64743
+      },
+      {
+        "url": "https://unitedcarriers.com/about",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 123587
+      },
+      {
+        "url": "https://unitedcarriers.com/services",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 114058
+      },
+      {
+        "url": "https://unitedcarriers.com/industries",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 68642
+      },
+      {
+        "url": "https://unitedcarriers.com/insights",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 69733
+      },
+      {
+        "url": "https://unitedcarriers.com/careers",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 102722
+      },
+      {
+        "url": "https://unitedcarriers.com/contact",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 48121
+      },
+      {
+        "url": "https://unitedcarriers.com/community",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 67313
+      },
+      {
+        "url": "https://unpkg.com/world-atlas@2.0.2/land-110m.json",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "other",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 21159
+      },
+      {
+        "url": "https://united-carriers.netlify.app/chunks/OceanScene-CggVSafL.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 9163
+      },
+      {
+        "url": "https://united-carriers.netlify.app/chunks/WakeSimulation-BBrDm1Iz.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3399
+      },
+      {
+        "url": "blob:https://unitedcarriers.com/bc081ea7-182d-4c94-acc9-142a8882a413",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "blob:https://unitedcarriers.com/0160010e-8548-4130-8765-7f2cd9f1776e",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a44eec1ed1af2c4c403df6b/6a44eec1ed1af2c4c403e418_frame_000.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 18628
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a44eec1ed1af2c4c403df6b/6a44eec1ed1af2c4c403e425_frame_002.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 18784
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a44eec1ed1af2c4c403df6b/6a44eec1ed1af2c4c403e41e_frame_004.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 18757
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a44eec1ed1af2c4c403df6b/6a44eec1ed1af2c4c403e41a_frame_006.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 19068
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a44eec1ed1af2c4c403df6b/6a44eec1ed1af2c4c403e426_frame_008.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 19279
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a44eec1ed1af2c4c403df6b/6a44eec1ed1af2c4c403e421_frame_010.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 19071
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a44eec1ed1af2c4c403df6b/6a44eec1ed1af2c4c403e429_frame_012.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 19203
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a44eec1ed1af2c4c403df6b/6a44eec1ed1af2c4c403e436_frame_014.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 19365
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a44eec1ed1af2c4c403df6b/6a44eec1ed1af2c4c403e42c_frame_016.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 19277
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a44eec1ed1af2c4c403df6b/6a44eec1ed1af2c4c403e42d_frame_018.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 19140
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a44eec1ed1af2c4c403df6b/6a44eec1ed1af2c4c403e438_frame_020.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 19304
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a44eec1ed1af2c4c403df6b/6a44eec1ed1af2c4c403e431_frame_022.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 19198
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a44eec1ed1af2c4c403df6b/6a44eec1ed1af2c4c403e434_frame_024.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 19238
+      },
+      {
+        "url": "https://united-carriers.netlify.app/images/ocean/water-normal.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 160268
+      },
+      {
+        "url": "https://united-carriers.netlify.app/images/ocean/ocean-envmap.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 77509
+      },
+      {
+        "url": "https://united-carriers.netlify.app/images/ocean/ocean-overlay.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 37523
+      },
+      {
+        "url": "https://unitedcarriers.com/9i1h7htkfq16NmE0NGVlYzFlZDFhZjJjNGM0MDNkZjZi/ga/g/c?v=2&tid=G-V8J933FGY0&gtm=45g92e6a72v9258180764za204zd9258180764xf4&_p=1791625468804&gcd=13l3l3l3l1l1&npa=0&dma=0&gdid=dZGVlNj.dYWYxNW.dNzQzZD&_eu=AEAAAAQ&_uip=%3A%3A&ae=a&are=1&cid=1877433286.1791625469&fp=1&frm=0&ngs=1&pscdl=noapi&rcb=15&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&ur=US-CA&_gsid=zfm2w_J3D28wY68s7nKcrqjQAKtxVR80wg&_s=2&tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791625469&sct=1&seg=0&dl=https%3A%2F%2Funitedcarriers.com%2F&dt=United%20Carriers%20%7C%20Global%20Freight%20Forwarding%20and%20Logistics&gtb=1&en=scroll&gap.gtb=1&epn.percent_scrolled=90&_et=114&tfd=6801",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false
+      },
+      {
+        "url": "https://api-js.mixpanel.com/track/?verbose=1&ip=1&_=1791625475461",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 374
+      },
+      {
+        "url": "https://js.stripe.com/v3/fingerprinted/js/trusted-types-checker-e80b3cae3b1db2e27d3062d4e7b03473.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 543
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a44eec1ed1af2c4c403df6b/6a44eec1ed1af2c4c403e97d_road-line-mb.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 502
+      },
+      {
+        "url": "https://cdn.prod.website-files.com/6a44eec1ed1af2c4c403df6b%2F6a460d6f92801e715322d1d6_Sea-wave-2%20%281%29_poster.0000000.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 30013
+      },
+      {
+        "url": "blob:https://unitedcarriers.com/cc3bff16-d67c-4e05-987c-7d86ffffe534",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "blob:https://unitedcarriers.com/161fa0cd-e223-4f7e-8b92-4a20c6f8eb7b",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 360,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 100,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 20,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 3860,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 1500,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 3620,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 3570,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 1470,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 5060.000000000001,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 120,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 1589.9999999999998,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 3740,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 4820,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 6620,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 240,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 3600,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 1640,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 6440,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 4980,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 280,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 100,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 6220,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 3780.0000000000005,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 1680,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 1759.9999999999998,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 5120,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 4720,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 6270.000000000001,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 6390.000000000001,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 420,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 4890.000000000001,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 4770.000000000001,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 190,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 360,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 6480,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 1819.9999999999998,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 70,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 240,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 190,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "wave",
+        "duration": 15000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 6300,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 1520,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 6320,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 70,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 120,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 1420,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 420,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 3690,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 4800,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 6560.000000000001,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 3920,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 280,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 3520,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 20,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "wave",
+        "duration": 15000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0A02000BC120000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0B0E702BC120000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x293404385400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x293404385400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x293404385400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x293404385400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A080E702BC120000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://unitedcarriers.com/9i1h7htkfq16NmE0NGVlYzFlZDFhZjJjNGM0MDNkZjZi/ga/g/c?v=2&tid=G-V8J933FGY0&gtm=45g92e6a72v9258180764za20czd9258180764xf4&_p=1791625468804&gcd=13l3l3l3l1l1&npa=0&dma=0&gdid=dZGVlNj.dYWYxNW.dNzQzZD&_uip=%3A%3A&are=1&cid=1877433286.1791625469&fp=1&frm=0&ngs=1&pscdl=noapi&rcb=15&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&ur=US-CA&_gsid=zfm2w_J3D28wY68s7nKcrqjQAKtxVR80wg&_s=1&tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791625469&sct=1&seg=0&dl=https%3A%2F%2Funitedcarriers.com%2F&dt=United%20Carriers%20%7C%20Global%20Freight%20Forwarding%20and%20Logistics&gtb=1&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&gap.gtb=1&tfd=458",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://unitedcarriers.com/9i1h7htkfq16NmE0NGVlYzFlZDFhZjJjNGM0MDNkZjZi/ga/g/c?v=2&tid=G-V8J933FGY0&gtm=45g92e6a72v9258180764za204zd9258180764xf4&_p=1791625468804&gcd=13l3l3l3l1l1&npa=0&dma=0&gdid=dZGVlNj.dYWYxNW.dNzQzZD&_eu=AEAAAAQ&_uip=%3A%3A&ae=a&are=1&cid=1877433286.1791625469&fp=1&frm=0&ngs=1&pscdl=noapi&rcb=15&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&ur=US-CA&_gsid=zfm2w_J3D28wY68s7nKcrqjQAKtxVR80wg&_s=2&tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791625469&sct=1&seg=0&dl=https%3A%2F%2Funitedcarriers.com%2F&dt=United%20Carriers%20%7C%20Global%20Freight%20Forwarding%20and%20Logistics&gtb=1&en=scroll&gap.gtb=1&epn.percent_scrolled=90&_et=114&tfd=6801",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 4,
+      "workers": 5
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 3516,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 2898,
+      "typography": {
+        "families": [
+          [
+            "Helvetica Neue",
+            114
+          ],
+          [
+            "BT Steinhart Mono",
+            80
+          ],
+          [
+            "BT Steinhart",
+            50
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            105
+          ],
+          [
+            "500",
+            105
+          ],
+          [
+            "700",
+            34
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            130
+          ]
+        ],
+        "sizeMin": 8.9313,
+        "sizeMedian": 13.8931,
+        "sizeMax": 47.6336,
+        "sizeMaxVw": 12.2,
+        "scaleRatio": 3.4,
+        "letterSpacingMean": 0,
+        "loadedFonts": [
+          {
+            "family": "BT Steinhart",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "BT Steinhart",
+            "weight": "700",
+            "style": "normal"
+          },
+          {
+            "family": "Helvetica Neue",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "Helvetica Neue",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "BT Steinhart Mono",
+            "weight": "400",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 244
+      },
+      "color": {
+        "background": "rgb(255, 255, 255)",
+        "backgroundLuminance": 1,
+        "backgrounds": [
+          [
+            "rgb(255, 255, 255)",
+            4674
+          ],
+          [
+            "rgb(17, 17, 17)",
+            3292
+          ],
+          [
+            "rgb(0, 0, 0)",
+            329
+          ],
+          [
+            "rgb(26, 26, 26)",
+            236
+          ],
+          [
+            "rgba(17, 17, 17, 0.72)",
+            0
+          ],
+          [
+            "rgba(17, 17, 17, 0.16)",
+            0
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(17, 17, 17)",
+            690
+          ],
+          [
+            "rgb(255, 255, 255)",
+            198
+          ],
+          [
+            "rgba(255, 255, 255, 0.24)",
+            129
+          ],
+          [
+            "rgba(255, 255, 255, 0.6)",
+            65
+          ],
+          [
+            "rgb(128, 128, 128)",
+            49
+          ]
+        ],
+        "meanSaturation": 0,
+        "rootVars": {
+          "--font--heading": "\"BT Steinhart\",Arial,sans-serif",
+          "--_color---bg--main": "var(--_color---m-white)",
+          "--font--body": "\"Helvetica Neue\",Arial,sans-serif",
+          "--_color---content--main": "var(--_color---m-black)",
+          "--container--padding": "4rem",
+          "--font--button": "\"BT Steinhart Mono\",Arial,sans-serif",
+          "--_color---content--note": "#1116",
+          "--border--size": "max(1px,.1rem)",
+          "--_color---border--bold": "#1111114d",
+          "--_color---bg--sf-2": "var(--_color---m-black)",
+          "--_color---border--highlight": "var(--_color---m-black)",
+          "--_color---secondary": "#f50",
+          "--_color---m-white": "white",
+          "--_color---content--soft": "#111111b8",
+          "--_color---bg--sf-1": "#f4f4f4",
+          "--_color---border--light": "#1111111a",
+          "--_color---content--brand": "var(--_color---primary)",
+          "--_color---border--main": "#1113",
+          "--container--column-gap": "2rem",
+          "--container--one-column": "calc((var(--container--max-width) - ((var(--container--column) - 1)*var(--container--column-gap)) - (var(--container--padding)*2))/var(--container--column))",
+          "--_color---content--disable": "#11111129",
+          "--_color---content--sub": "#111111e0",
+          "--_color---m-black": "#111",
+          "--_color---content--black<deleted|variable-6e7d8137-8713-9ff4-5cea-f92e6216a872>": "black",
+          "--_color---bg--brand": "var(--_color---primary)",
+          "--_color---primary": "#0016cb",
+          "--container--max-width": "100vw",
+          "--container--column": "16",
+          "--container--width": "min(100vw,var(--container--max-width))",
+          "--swiper-pagination-bullet-size": "0.6rem",
+          "--swiper-pagination-bullet-horizontal-gap": "0.2rem",
+          "--swiper-theme-color": "var(--decor--primary)",
+          "--swiper-pagination-bullet-inactive-opacity": "0.1",
+          "--page-padding": "max((100vw - var(--container--max-width)) / 2, 0px)"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 7,
+        "sticky": 16,
+        "fixed": 9,
+        "grid": 113,
+        "flex": 440,
+        "absolute": 335,
+        "asymmetricGrids": 19,
+        "splitScreen": false,
+        "scrollHeight": 844,
+        "pages": 1,
+        "spacing": [
+          [
+            16,
+            35
+          ],
+          [
+            6,
+            28
+          ],
+          [
+            12,
+            24
+          ],
+          [
+            20,
+            24
+          ],
+          [
+            4,
+            22
+          ],
+          [
+            8,
+            20
+          ],
+          [
+            17,
+            15
+          ],
+          [
+            32,
+            12
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 54,
+        "animationKinds": [
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 54,
+        "animationDurations": [
+          15000,
+          3000,
+          3000,
+          3000,
+          3000,
+          3000,
+          3000,
+          3000,
+          3000,
+          3000,
+          3000,
+          3000,
+          3000,
+          3000,
+          3000,
+          3000,
+          3000,
+          3000,
+          3000,
+          3000
+        ],
+        "easings": [
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            300,
+            126
+          ],
+          [
+            400,
+            76
+          ],
+          [
+            700,
+            72
+          ],
+          [
+            500,
+            28
+          ],
+          [
+            450,
+            21
+          ]
+        ],
+        "keyframes": [
+          "spin",
+          "marquee",
+          "wave",
+          "in-icon",
+          "out-icon",
+          "in-icon-new",
+          "out-icon-new",
+          "out-icon-new-services",
+          "spin-wheel",
+          "world-wide-dot"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 72,
+      "media": {
+        "canvases": [
+          {
+            "w": 1688,
+            "h": 1688,
+            "area": 2.16
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0
+          },
+          {
+            "w": 481,
+            "h": 341,
+            "area": 0.5
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0
+          }
+        ],
+        "videos": [
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://cdn.prod.website-files.com/6a44eec1ed1af2c4c403df6b%2F6a460d6f92801e715322d1d6_Sea-wave-2%20%281%29_webm.webm"
+          }
+        ],
+        "svg": 94,
+        "images": 168,
+        "iframes": 2,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 1,
+          "2d": 3
+        },
+        "raf": 312,
+        "io": 2,
+        "ro": 5,
+        "mo": 5,
+        "startViewTransition": 0,
+        "workers": 6,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": true,
+        "jQuery": true,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": true,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "United Carriers | Global Freight Forwarding and Logistics",
+      "lang": "en",
+      "description": "Freight forwarding, land transport, and customs brokerage, unified across APAC under one accountable team."
+    },
+    "featuresBeforeScroll": {
+      "elements": 2898,
+      "canvases": 5,
+      "animations": 56,
+      "hidden": 92
+    },
+    "scrollReveal": 20,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 23231576,
+        "layoutCount": 212,
+        "recalcStyleCount": 498,
+        "scriptDuration": 0.506878,
+        "taskDuration": 1.975659,
+        "nodes": 4821
+      },
+      "timing": {
+        "domContentLoaded": 702,
+        "load": 951,
+        "first-paint": 244,
+        "first-contentful-paint": 244
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 1500,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 3570,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 280,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 6390.000000000001,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 6220,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 3690,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 1520,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 1819.9999999999998,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 20,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 4720,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 6620,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 1640,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 120,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 240,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 3920,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 420,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 3740,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 5060.000000000001,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 6440,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 70,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 120,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "wave",
+        "duration": 15000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 70,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 1680,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 3860,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 6300,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 240,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 100,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 6270.000000000001,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 4890.000000000001,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 420,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 6480,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 360,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 1759.9999999999998,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 6320,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 4800,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 1470,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 4820,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 1589.9999999999998,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 3600,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 4980,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 3620,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 5120,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 100,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 190,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 1420,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 280,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 4770.000000000001,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 6560.000000000001,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 190,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 3780.0000000000005,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 3520,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 360,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "world-wide-dot",
+        "duration": 3000,
+        "delay": 20,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "wave",
+        "duration": 15000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 396.38534103119815,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0A02000BC120000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://unitedcarriers.com/9i1h7htkfq16NmE0NGVlYzFlZDFhZjJjNGM0MDNkZjZi/ga/g/c?v=2&tid=G-V8J933FGY0&gtm=45g92e6a72v9258180764za20czd9258180764xf4&_p=1791625488953&gcd=13l3l3l3l1l1&npa=0&dma=0&gdid=dZGVlNj.dYWYxNW.dNzQzZD&_uip=%3A%3A&are=1&cid=49956963.1791625489&fp=1&frm=0&ngs=1&pscdl=noapi&rcb=7&sr=390x844&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=1&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&ur=US-CA&_gsid=R1z_7C4EC9T3pUl3ANpNucblLDzq7CdSIA&_s=1&tag_exp=115616985~115938466~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791625489&sct=1&seg=0&dl=https%3A%2F%2Funitedcarriers.com%2F&dt=United%20Carriers%20%7C%20Global%20Freight%20Forwarding%20and%20Logistics&gtb=1&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&gap.gtb=1&tfd=356",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 4,
+      "workers": 4
+    }
+  }
+}

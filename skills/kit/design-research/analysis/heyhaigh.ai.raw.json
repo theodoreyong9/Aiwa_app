@@ -1,0 +1,2839 @@
+{
+  "url": "https://heyhaigh.ai/",
+  "at": "2026-10-09T11:25:38.602Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 10401,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 1450,
+      "typography": {
+        "families": [
+          [
+            "Geist Mono",
+            52
+          ],
+          [
+            "Arial",
+            1
+          ],
+          [
+            "Material Symbols Outlined",
+            1
+          ]
+        ],
+        "weights": [
+          [
+            "500",
+            28
+          ],
+          [
+            "400",
+            26
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            4
+          ]
+        ],
+        "sizeMin": 9,
+        "sizeMedian": 12,
+        "sizeMax": 18,
+        "sizeMaxVw": 1.3,
+        "scaleRatio": 1.5,
+        "letterSpacingMean": 0.115,
+        "loadedFonts": [
+          {
+            "family": "Material Symbols Outlined",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Geist Mono",
+            "weight": "400",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 54
+      },
+      "color": {
+        "background": "rgb(230, 229, 222)",
+        "backgroundLuminance": 0.7813554360487743,
+        "backgrounds": [
+          [
+            "rgb(0, 0, 0)",
+            102
+          ],
+          [
+            "rgba(255, 255, 255, 0.2)",
+            23
+          ],
+          [
+            "rgba(74, 138, 80, 0.14)",
+            0
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(47, 47, 47)",
+            79
+          ],
+          [
+            "rgb(0, 0, 0)",
+            45
+          ],
+          [
+            "rgb(98, 98, 94)",
+            21
+          ],
+          [
+            "rgb(153, 153, 153)",
+            20
+          ],
+          [
+            "rgb(255, 255, 255)",
+            9
+          ]
+        ],
+        "meanSaturation": 0.15,
+        "rootVars": {
+          "--carousel-container-width": "100%",
+          "--carousel-scroll-padding": "0",
+          "--carousel-scroll-padding-breakout": "0",
+          "--modal-replacement-duration": "420ms",
+          "--modal-replacement-easing": "cubic-bezier(.16,1,.3,1)",
+          "--modal-incoming-x": "200px",
+          "--modal-incoming-scale": ".75",
+          "--modal-incoming-delay": "180ms",
+          "--modal-incoming-fade-duration": "calc(var(--modal-replacement-duration) * .1)",
+          "--modal-outgoing-x": "-200px",
+          "--modal-outgoing-scale": ".75",
+          "--modal-outgoing-brightness": ".34",
+          "--modal-outgoing-delay": "210ms",
+          "--modal-outgoing-fade-duration": "calc(var(--modal-replacement-duration) * .2)"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 3,
+        "sticky": 0,
+        "fixed": 13,
+        "grid": 19,
+        "flex": 103,
+        "absolute": 109,
+        "asymmetricGrids": 11,
+        "splitScreen": false,
+        "scrollHeight": 1360,
+        "pages": 1.5,
+        "spacing": [
+          [
+            12,
+            34
+          ],
+          [
+            10,
+            30
+          ],
+          [
+            18,
+            17
+          ],
+          [
+            8,
+            15
+          ],
+          [
+            2,
+            15
+          ],
+          [
+            4,
+            15
+          ],
+          [
+            7,
+            10
+          ],
+          [
+            6,
+            9
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 80,
+        "animationKinds": [
+          "CSSTransition",
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 52,
+        "animationDurations": [
+          1500,
+          1500,
+          1500,
+          1500,
+          5444.728733129619,
+          3195.172231363197,
+          4700.918550486943,
+          3519.554154244908,
+          4937.870452764491,
+          4830.861318275517,
+          5502.822533858455,
+          4205.574607581082,
+          5138.140694644657,
+          4370.7626118059015,
+          3271.506827638148,
+          3982.7156876982754,
+          4732.579295423119,
+          5391.922796180567,
+          3161.172351411701,
+          3687.9610272851
+        ],
+        "easings": [
+          "ease-in-out",
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            200,
+            74
+          ],
+          [
+            300,
+            34
+          ],
+          [
+            100,
+            33
+          ],
+          [
+            250,
+            20
+          ],
+          [
+            1500,
+            10
+          ]
+        ],
+        "keyframes": [
+          "subtleBlink",
+          "navFadeInUp",
+          "twinkle",
+          "fadeInUp",
+          "heartbeat",
+          "pulse-subtle",
+          "productFadeIn",
+          "spin",
+          "resultGroupFadeIn",
+          "skeleton-shimmer",
+          "loadingDots",
+          "buttonFadeIn",
+          "expandContainer",
+          "captionFadeIn",
+          "voice-settings-cog-spin",
+          "infoPanelItemFadeIn",
+          "skill-download-bounce",
+          "radial-hold",
+          "object-link-bounce",
+          "object-emoji-arrive"
+        ],
+        "viewTransitionCss": true,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 25,
+      "media": {
+        "canvases": [
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0
+          },
+          {
+            "w": 272,
+            "h": 228,
+            "area": 0
+          },
+          {
+            "w": 272,
+            "h": 228,
+            "area": 0
+          },
+          {
+            "w": 812,
+            "h": 457,
+            "area": 0.29
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0
+          }
+        ],
+        "videos": [
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://heyhaigh.ai/animation-library/autumn-v1/assets/light-edge-v2/autumn-light-typing.webm"
+          },
+          {
+            "autoplay": false,
+            "loop": false,
+            "muted": true,
+            "src": "https://heyhaigh.ai/animation-library/autumn-v1/assets/light-edge-v2/autumn-light-stretch.webm"
+          },
+          {
+            "autoplay": false,
+            "loop": false,
+            "muted": true,
+            "src": "https://heyhaigh.ai/animation-library/autumn-v1/assets/light-edge-v2/autumn-light-answer-original-timing.webm"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://heyhaigh.ai/animation-library/autumn-v1/assets/light-edge-v2/autumn-light-talking.webm"
+          },
+          {
+            "autoplay": false,
+            "loop": false,
+            "muted": true,
+            "src": "https://heyhaigh.ai/animation-library/autumn-v1/assets/light-edge-v2/autumn-light-hang-up-original-timing.webm"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://heyhaigh.ai/animation-library/autumn-v1/assets/autumn-dark-typing.webm"
+          },
+          {
+            "autoplay": false,
+            "loop": false,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": false,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": false,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          }
+        ],
+        "svg": 24,
+        "images": 24,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "2d": 6
+        },
+        "raf": 194,
+        "io": 3,
+        "ro": 3,
+        "mo": 3,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Desk of Ry | Ryan Haigh - AI Voice Agent & Product Builder",
+      "lang": "en",
+      "description": "Chat with RyBot, an AI voice clone of Ryan Haigh. Explore an interactive portfolio featuring voice technology, AI experiments, and thoughts on building products."
+    },
+    "featuresBeforeScroll": {
+      "elements": 1450,
+      "canvases": 5,
+      "animations": 77,
+      "hidden": 37
+    },
+    "scrollReveal": 12,
+    "hover": {
+      "probed": 6,
+      "changed": 2
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 4775616,
+        "layoutCount": 198,
+        "recalcStyleCount": 701,
+        "scriptDuration": 2.118439,
+        "taskDuration": 4.382863,
+        "nodes": 8806
+      },
+      "timing": {
+        "domContentLoaded": 880,
+        "load": 1159,
+        "first-paint": 472,
+        "first-contentful-paint": 536
+      }
+    },
+    "network": [
+      {
+        "url": "https://heyhaigh.ai/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 129098
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-R499JX7DJ7",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 183185
+      },
+      {
+        "url": "https://heyhaigh.ai/ry-pfp-static.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 1034
+      },
+      {
+        "url": "https://heyhaigh.ai/fonts/material-symbols-subset.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 3192
+      },
+      {
+        "url": "https://heyhaigh.ai/fonts/geist-mono-latin.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 14948
+      },
+      {
+        "url": "https://heyhaigh.ai/components/homepage.js?v=20261003-desk-analytics",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 526
+      },
+      {
+        "url": "https://heyhaigh.ai/components/homepage-resources.css?v=20261003-seven-row-reveal",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1493
+      },
+      {
+        "url": "https://heyhaigh.ai/components/ry-skills.js?v=20261003-glb-article",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1011
+      },
+      {
+        "url": "https://heyhaigh.ai/components/theme-vignette.css?v=20261003-seven-row-reveal",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 2135
+      },
+      {
+        "url": "https://heyhaigh.ai/components/live-control-wipe.js?v=20261009-no-scrollbar",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3477
+      },
+      {
+        "url": "https://heyhaigh.ai/components/theme-vignette.js?v=20260923-shared-reveal",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3985
+      },
+      {
+        "url": "https://heyhaigh.ai/components/theme-shortcut.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1112
+      },
+      {
+        "url": "https://heyhaigh.ai/components/mobile-controls.css?v=20260924-backdrop-2",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 719
+      },
+      {
+        "url": "https://heyhaigh.ai/components/desk-objects/objects.css?v=object-dismiss-no-shadow-20260929",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 2638
+      },
+      {
+        "url": "https://heyhaigh.ai/components/desk-objects/objects.js?v=modal-replacement-20260930",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3700
+      },
+      {
+        "url": "https://heyhaigh.ai/components/drawer-toys/drawer.css?v=16",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 2107
+      },
+      {
+        "url": "https://heyhaigh.ai/components/drawer-toys/init.js?v=23",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 231
+      },
+      {
+        "url": "https://heyhaigh.ai/components/voice-diagnostics.js?v=isolated-1",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1725
+      },
+      {
+        "url": "https://heyhaigh.ai/components/rybot-site-panels.js?v=4",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1378
+      },
+      {
+        "url": "https://heyhaigh.ai/components/caption-window.css?v=4",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1124
+      },
+      {
+        "url": "https://heyhaigh.ai/components/caption-window.js?v=2",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2081
+      },
+      {
+        "url": "https://heyhaigh.ai/components/rybot-panels.css?v=20260930-atlas-fill",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 2627
+      },
+      {
+        "url": "https://heyhaigh.ai/components/modal-background.css?v=7",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 904
+      },
+      {
+        "url": "https://heyhaigh.ai/components/modal-transitions.css?v=20260930-approved",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1159
+      },
+      {
+        "url": "https://heyhaigh.ai/components/modal-transitions.js?v=20260930-insets",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1734
+      },
+      {
+        "url": "https://heyhaigh.ai/components/modal-surface-insets.js?v=20260930-2",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1153
+      },
+      {
+        "url": "https://heyhaigh.ai/components/propagate-preview.js?v=1",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1029
+      },
+      {
+        "url": "https://heyhaigh.ai/gift-guide/klarna-badge.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 29008
+      },
+      {
+        "url": "https://heyhaigh.ai/animation-library/autumn-v1/assets/light-edge-v2/autumn-light-video-transparent.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 869239
+      },
+      {
+        "url": "https://heyhaigh.ai/animation-library/autumn-v1/assets/autumn-dark-video-transparent.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 689814
+      },
+      {
+        "url": "https://heyhaigh.ai/components/desk-scene.js?v=20260929-mobile-assets",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 6856
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/gh/idreezus/divs@v1.0.0/dist/carousel/v1.0.0/carousel.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4576
+      },
+      {
+        "url": "https://heyhaigh.ai/components/desk-canvas.js?v=20261008-no-blank-frame",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2860
+      },
+      {
+        "url": "https://heyhaigh.ai/components/ry-sidequests.js?v=20260930-preview-stills",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 9849
+      },
+      {
+        "url": "https://heyhaigh.ai/components/skills-catalog.generated.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1316
+      },
+      {
+        "url": "https://heyhaigh.ai/components/modal-dismiss-styles.js?v=20260825-performance",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 482
+      },
+      {
+        "url": "https://heyhaigh.ai/components/ry-launch-banner.js?v=20260923-safari-banner",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4128
+      },
+      {
+        "url": "https://heyhaigh.ai/components/ry-nav.js?v=20261002-nav-reveal-tap",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3908
+      },
+      {
+        "url": "https://heyhaigh.ai/components/engagement-analytics.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2262
+      },
+      {
+        "url": "https://heyhaigh.ai/components/drawer-toys/drawer.js?v=23",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1319
+      },
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-R499JX7DJ7&gtm=45je6a72v9236400526za208zd9236400526xf1&_p=1791545125033&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=1814375273&_eu=AAAAAGA&are=1&cid=1081236671.1791545125&frm=0&pscdl=noapi&rcb=3&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&gaf=2&_s=1&tag_exp=115616985~115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791545125&sct=1&seg=0&dl=https%3A%2F%2Fheyhaigh.ai%2F&dt=Desk%20of%20Ry%20%7C%20Ryan%20Haigh%20-%20AI%20Voice%20Agent%20%26%20Product%20Builder&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=360",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false
+      },
+      {
+        "url": "https://stats.g.doubleclick.net/g/collect?v=2&tid=G-R499JX7DJ7&cid=1081236671.1791545125&gtm=45je6a72v9236400526za208zd9236400526xf1&rcb=3&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115616985~115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034",
+        "method": "POST",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 546
+      },
+      {
+        "url": "https://heyhaigh.ai/components/nav-icon-motion.js?v=25-about-toss",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4692
+      },
+      {
+        "url": "https://heyhaigh.ai/components/drawer-toys/counter.js?v=6",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2366
+      },
+      {
+        "url": "https://heyhaigh.ai/components/drawer-toys/hover.js?v=3",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1896
+      },
+      {
+        "url": "https://heyhaigh.ai/styles/modal-dismiss.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 888
+      },
+      {
+        "url": "https://heyhaigh.ai/images/sidequests/atlas/categories-soft.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 28626
+      },
+      {
+        "url": "https://heyhaigh.ai/images/sidequests/retro-cam/hardware-02.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 45750
+      },
+      {
+        "url": "https://heyhaigh.ai/images/sidequests/retro-cam/hardware-01.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 43732
+      },
+      {
+        "url": "https://heyhaigh.ai/images/sidequests/clay-keeper/Damp-Box-Edited-01.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 14581
+      },
+      {
+        "url": "https://heyhaigh.ai/images/sidequests/clay-keeper/Damp-Box-Edited-02.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 31011
+      },
+      {
+        "url": "https://heyhaigh.ai/images/sidequests/clay-keeper/Damp-Box-Edited-03.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 26193
+      },
+      {
+        "url": "https://heyhaigh.ai/images/sidequests/donut/terminal-02.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 41276
+      },
+      {
+        "url": "https://heyhaigh.ai/images/sidequests/polymend/side-by-side.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 18172
+      },
+      {
+        "url": "https://heyhaigh.ai/images/sidequests/polymend/close-ups.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 10560
+      },
+      {
+        "url": "https://heyhaigh.ai/images/sidequests/critters/crew-v3.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 44243
+      },
+      {
+        "url": "https://heyhaigh.ai/images/sidequests/critters/wardrobe-v3.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 14731
+      },
+      {
+        "url": "https://heyhaigh.ai/images/sidequests/propagate/title.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 26699
+      },
+      {
+        "url": "https://heyhaigh.ai/images/sidequests/propagate/memory-web.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 45010
+      },
+      {
+        "url": "https://heyhaigh.ai/images/sidequests/propagate/day-one.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 28923
+      },
+      {
+        "url": "https://heyhaigh.ai/images/sidequests/retro-cam/app-gameboy.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 73200
+      },
+      {
+        "url": "https://heyhaigh.ai/images/sidequests/donut/trading-agent.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 30363
+      },
+      {
+        "url": "https://heyhaigh.ai/images/sidequests/atlas/environments-soft.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 5211
+      },
+      {
+        "url": "https://heyhaigh.ai/images/sidequests/critters/domains-static.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 2253538
+      },
+      {
+        "url": "https://heyhaigh.ai/components/drawer-toys/ticks.js?v=2",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1270
+      },
+      {
+        "url": "https://heyhaigh.ai/components/drawer-toys/pull.js?v=1",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1568
+      },
+      {
+        "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAAWCAYAAABXEBvcAAAJBklEQVR4AXyZh5LcRhIFC8DY3fP2X0lRGhrp/H2tdvwAyqztmsCaUARzX3UBaFQ/NMw0+91uN33+vJu+fHnm69fd9PXbbvomP+6mH+UnVP6Bwk//3E3Jv1D5N1r8h32K/xIX/9tN32Z8JU7+v5u+zPhMXOyI5Qe0+J64+ET8iX7kO7T4SPyR896hno/wQajzQ0HtH4TxfICPjC1hrB+FsX8nePFJ8OZ7fJIf8Ezv+q6L6PuIYYhYLmAZsV7BOmKzgW3E9iHi4fGZx9+i8ruIR/kDKn+MePjTM4/qn4lh+xeO/2vEBt2ga/kb/cPq75wPXcKCeGj0aNeYUBnRW+OKXjhGzsQn4oS+j8K5DugB3VODPFHTvvFErU/UnDCGvTCmJ9gzTjkw5iNjP+LBCS9OeHJZRlwWEbchYuwjpi6i7yLyz0DibiI7rdj5biQdaOaWDhM6f4AtJ7vzm4gH2FLEloJkM9P17yMSCl/BkkEs0QUqAyo92gmDjcaETuRGuDWuqFzo40J8Rk/CeU5w5NwHKDU+UNueGg9C7YfGnrFo2IHxiaYdGXMZd14+G1fm3fBq7DBQ74Kggx4WbJDlELHSRFgLHWxkFbGBLWw4wZarsy0l3lCABqsbipI1uqbQYkW8bCxQGRjQQNyjRdCeM7KtuLHtRvuKygWVM3qaw7mPBbWlOSq1HoTaVc06MKZjwVhPsog4Ny5DxBV/JM3DL73TtyAfAwnRQFmSXAkHrhprNA2l0w0Yp7GcbA3Gas5c2uqKoool8ZwFA0jID8Q92qNdI1CZUBnRkX1u6BW9qnAhnnOmXXjrpRnk1CN1lWbMOI5wKhjjeQ4eXEDj5IZPMjL7JmBThDOQfOgmxwZ9xYKELNGVsGeqsdBeN9XoNW31PbwYc7xAhY+OnpP6HFY7+knIdTAV5CcYafv8Ub2VHFThQOec2f89TrP8iTHkPmrhduILXIuIuEHOPnQijwS7RnRYaTCg1BcJ8WLGkpiLFyoXM1a23yHzXB7383hVjMVzlBpLz/49fanWIkFuzsR2GcmPxOoNLa4tVuVCW+4xx51bzvwc8+eIyFxTjyvyHOQ10JiuwlpIhZMuNNOiVQfioAoHu+CIARb0YJza4iUq5lKvEankF8RDYx735O5cIiruyHe0U4mjMaEJ29SRdkI7tbVvqFybVnyllguYTyVW5cq43J60+KYKhmtY4YUjleal4mAP+a/jr+Z1HOhMkIET9Q3jhOLupjCAobFQuYzZVl/R05ZBPUX0ja61O9pFEL/HRL4YjTlWLW62G8ZvoEZzV7WRMWPS7ITx3mBsZIwnzvhJxTn+4dbzvz5o5exjo7eMBorGdXRSs6PnhG+gWE1JGFCZknrEJDGvHmhDBz3tTohtR9OKY09xQt5t8/ZETsyrCX2NYDyyPaGdxqpCHdkupfaxYGzjazDV2T3hgWZqnuiRmrcw3j3PQII0EhM1L5+WHKiBdTulchJNdNbkbKGAVApMpbg0xnahEaA5CbGGdE/PJqmdOdtgLO4TtBO2T41sk8826n5TqftgoEZm3jZ1THOoMWexOWPGkG1UEyfG6GPiDj6UH2kcHulVwhBeGKi7iQdxBeoZFHQanOANFJC3GsU4I15A8Q4icxW3gaYJ5mzLz1SiivGv4T7iPqpUX3M1xsysoWLbhTVX/e+NzTHPPdATzZM24ag68hZON9mQDrtjI68CHeVVaeptkFeMk7+4shTklU8o+K7EDsJZcp81DHpqBmSedtgG81Lt0o5tcm9zjLPXi5H51nb2Zp7zZqxiWsbqIeLNXcJYvIN89ORLjLHeVRObH3lH4lNOsmZizsCM/cPGMjHvfw5WndoJVyqfG5xQIxOM8/lzhyLzGUTh42sYpIaNTTXKtiaoYvxraI64j6p5ak+fpT3nfQN19UK9PoPvMBaNSxhfPs8x0EeVz38fXamYmI83PMp3htMP0kBnoA/FfNOwow9N8a2UBmLkjU4TTuKb7MaJr6DKlcJur6HgG4ORMnMem9O0u6GYYFtz3kODirth9F9mDa9i2wM1DNQ1Z2Gb2gdYgOrXQcI4/ZLQNPGLwxeqOAP9OtFAPcO/8Mvl+bsGZ8tEv4N8fYvfTqJ5vvJfgJkXoQjNvKgUdwENNVem2q44ZygDe61525Mvzecn7Xz5zDRnEu3XWialQdRgW4NsL2mnUqO5Jbqk9oVgmp9hhQb63Sr56cak8ju4zHMmamKHgzkD290b9cGYBmJoflxysOpH54WZKGf0zEmNL2pBMZlHNVYDVTGWnK0UrxbzR0E9V4MBz6nn1vzWy5lDX6qmlBprjszjFXWaW6oFYzG/QpcFY/aHQaF5CUb5A0PTNA//nl8izjzxS1sT6yeM6s+bM2a+gBOc4cQJVbnH5l6RJpMrw53RCYNwZufzle3q/IVlfH+Ys69xPZvUnCnknSmSxtBPGkFeU95A3Wv2WaEyj1eMc878J6i/yNI8TMzZh3ob5y3McfWpE5omaRw75e/Epie0OLZYFfNHOlKTFqfx7KteyNlvKrHnyZ9SxM56L6Dki4xcvu3QvGVQixVnQ/6kJOfAlmjCedQ0gVhdo2u2pxJvWrwxBvPGauHv+TlzI3OdgKlXs1DVyKyVCxOuPrgKcWaOiqsVcqRdHFp84Gjj4tjaasJ+rnzMsc9aMfFcrqS4qiK5ysIxKvdGzMnVmi5CdQVHckWni6iVHleLXBWas2H7po+QbYvVO24jbzv3JVZdaRL7FFelXJ1azMwj5CXCAS7RuMYlmicOtAaeZmD9oaCXPWRbFZZqMoceWtsFygPtXHdjCcd1ONfnXKur9btc12PbrTGyvjcJ7Wh0aEeuh4FYFqjU+qJrjq4/1nqka5Nbzp0LwOiWmmw/NM22MWPKXIu3tDeCsXUhykBNdM1UXIVxGdA7ImdfmsdBzo4THbjAeERdbNSEPUXIE4XvhcE8FazuPsG+8cSq775RS+X5/wusDp9mnFk9vjSu6K0xohMrzhPaCXGPDo0Fumys0Fz1pl/VVXBXxF0Z35J7oA55VKnvAR4L6n+EB2FMj/DAOEWzXTTWTBeOXUyumZ4GMv2Ye/ELAAAA//9Hr2FHAAAABklEQVQDAPp+gLj/73sCAAAAAElFTkSuQmCC",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://heyhaigh.ai/animation-library/autumn-v1/assets/light-edge-v2/autumn-light-typing.webm",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/webm",
+        "fromCache": false
+      },
+      {
+        "url": "https://heyhaigh.ai/components/drawer-toys/drawer-open-light.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 78990
+      },
+      {
+        "url": "https://heyhaigh.ai/components/drawer-toys/drawer-open-dark.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 53133
+      },
+      {
+        "url": "https://ai-personality-production.up.railway.app/memory/user_1791545125254",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 136
+      },
+      {
+        "url": "https://ai-personality-production.up.railway.app/memory/user_1791545125254",
+        "method": "OPTIONS",
+        "type": "OTHER",
+        "initiator": "preflight",
+        "status": 204,
+        "mime": "",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://heyhaigh.ai/animation-library/autumn-v1/assets/autumn-dark-typing.webm",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/webm",
+        "fromCache": false,
+        "bytes": 490795
+      },
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-R499JX7DJ7&gtm=45je6a72v9236400526za200zd9236400526xf1&_p=1791545125033&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=1814375273&_eu=AEAAAGQ&ae=a&are=1&cid=1081236671.1791545125&frm=0&pscdl=noapi&rcb=3&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&gaf=2&_s=2&tag_exp=115616985~115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791545125&sct=1&seg=0&dl=https%3A%2F%2Fheyhaigh.ai%2F&dt=Desk%20of%20Ry%20%7C%20Ryan%20Haigh%20-%20AI%20Voice%20Agent%20%26%20Product%20Builder&en=scroll&epn.percent_scrolled=90&_et=8&tfd=2815",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false
+      },
+      {
+        "url": "https://heyhaigh.ai/animation-library/autumn-v1/assets/light-edge-v2/autumn-light-typing.webm",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/webm",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://heyhaigh.ai/ry-pfp.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 241451
+      },
+      {
+        "url": "https://heyhaigh.ai/animation-library/autumn-v1/assets/light-edge-v2/autumn-light-stretch.webm",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "script"
+      },
+      {
+        "url": "https://heyhaigh.ai/animation-library/autumn-v2/assets/autumn-light-stretch.webm",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/webm",
+        "fromCache": false,
+        "bytes": 1064562
+      },
+      {
+        "url": "https://heyhaigh.ai/animation-library/autumn-v2/assets/autumn-dark-stretch.webm",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/webm",
+        "fromCache": false,
+        "bytes": 614102
+      },
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-R499JX7DJ7&gtm=45je6a72v9236400526za200zd9236400526xf1&_p=1791545125033&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=1814375273&_eu=AAAAAGQ&are=1&cid=1081236671.1791545125&frm=0&pscdl=noapi&rcb=3&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&gaf=2&tag_exp=115616985~115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791545125&sct=1&seg=0&dl=https%3A%2F%2Fheyhaigh.ai%2F&dt=Desk%20of%20Ry%20%7C%20Ryan%20Haigh%20-%20AI%20Voice%20Agent%20%26%20Product%20Builder&_s=3&tfd=7816",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false
+      },
+      {
+        "url": "https://heyhaigh.ai/animation-library/autumn-v1/assets/light-edge-v2/autumn-light-answer-original-timing.webm",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "script"
+      },
+      {
+        "url": "https://heyhaigh.ai/animation-library/autumn-v1/assets/light-edge-v2/autumn-light-answer-original-timing.webm",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/webm",
+        "fromCache": false,
+        "bytes": 646356
+      },
+      {
+        "url": "https://heyhaigh.ai/animation-library/autumn-v1/assets/autumn-dark-answer-original-timing.webm",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/webm",
+        "fromCache": false
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 4732.579295423119,
+        "delay": 3428.6922114985696,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 4697.655793269819,
+        "delay": 1903.5247172609982,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 4943.468459596659,
+        "delay": 275.3627502746543,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 4514.872231953239,
+        "delay": 2858.5623557117683,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "loadingDots",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 5945.590858867849,
+        "delay": 403.95617883305766,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 3688.369362004294,
+        "delay": 1777.2262219013296,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 3628.0235713463126,
+        "delay": 2364.55273729941,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 5866.948736487602,
+        "delay": 2288.368195955057,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 5850.000538563539,
+        "delay": 2153.537454951251,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 3884.053146034,
+        "delay": 2667.790910154366,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 4205.574607581082,
+        "delay": 392.21326968322813,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 4809.58106432619,
+        "delay": 1352.4611885080694,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 5391.922796180567,
+        "delay": 1535.093026404594,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 3687.9610272851,
+        "delay": 2696.485862182117,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 4072.438744485634,
+        "delay": 414.78548413806936,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 3185.727566903678,
+        "delay": 2492.0481022490653,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 3480.8295660126955,
+        "delay": 2948.692593830503,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 5527.276229749753,
+        "delay": 1328.6753133550367,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 3195.172231363197,
+        "delay": 1103.100765799074,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 4980.96765774006,
+        "delay": 3734.1079649697435,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 3161.172351411701,
+        "delay": 630.2363900674752,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 5108.147097718703,
+        "delay": 3401.0659879756918,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 5219.565995472946,
+        "delay": 3878.900266339623,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 4952.462474883877,
+        "delay": 696.3857287509252,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 3778.3202180627036,
+        "delay": 1192.5647709863113,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 5104.0341077290705,
+        "delay": 195.10578206627383,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 5502.822533858455,
+        "delay": 3928.885802275832,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 4937.870452764491,
+        "delay": 1138.6634697205368,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 3113.515451008073,
+        "delay": 1236.9930136064459,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 4370.7626118059015,
+        "delay": 1087.062933188427,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 5544.526007426163,
+        "delay": 2567.4880653898153,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 4510.662082890095,
+        "delay": 3021.0817466461217,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 5389.268004163362,
+        "delay": 1011.5255613971797,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 3982.7156876982754,
+        "delay": 2880.0365439781035,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 4830.861318275517,
+        "delay": 2818.6062732307805,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 4961.087398406432,
+        "delay": 3729.5930875405907,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 5444.728733129619,
+        "delay": 2094.548302989956,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 3271.506827638148,
+        "delay": 1665.7774952545203,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 3640.6002895596635,
+        "delay": 154.43467624802932,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 3181.7410016295753,
+        "delay": 2719.750636182746,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 3519.554154244908,
+        "delay": 964.3384369994683,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "loadingDots",
+        "duration": 1200,
+        "delay": 300,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 3277.4460341270456,
+        "delay": 1394.576270524674,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 3226.5228495657534,
+        "delay": 2821.701341461672,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 4700.918550486943,
+        "delay": 1554.4708622841968,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 3203.290730620721,
+        "delay": 3993.794674172343,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "loadingDots",
+        "duration": 1200,
+        "delay": 150,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 4648.070410380398,
+        "delay": 2232.094035940785,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 4637.704411365475,
+        "delay": 1246.8117040896539,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 5138.140694644657,
+        "delay": 958.0993205839046,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 5983.769537061675,
+        "delay": 3841.6095922307186,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 5198.988993810617,
+        "delay": 478.2064587378354,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "buttonFadeIn",
+        "duration": 1000,
+        "delay": 1000,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "desktopCornerControlsFadeIn",
+        "duration": 500,
+        "delay": 1600,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "buttonFadeIn",
+        "duration": 800,
+        "delay": 1400,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "live-pulse",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "live-pulse",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "navFadeInUp",
+        "duration": 600,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "navFadeInUp",
+        "duration": 600,
+        "delay": 600,
+        "iterations": 1,
+        "easing": "linear"
+      }
+    ],
+    "console": [],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-R499JX7DJ7&gtm=45je6a72v9236400526za208zd9236400526xf1&_p=1791545125033&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=1814375273&_eu=AAAAAGA&are=1&cid=1081236671.1791545125&frm=0&pscdl=noapi&rcb=3&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&gaf=2&_s=1&tag_exp=115616985~115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791545125&sct=1&seg=0&dl=https%3A%2F%2Fheyhaigh.ai%2F&dt=Desk%20of%20Ry%20%7C%20Ryan%20Haigh%20-%20AI%20Voice%20Agent%20%26%20Product%20Builder&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=360",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://heyhaigh.ai/animation-library/autumn-v1/assets/light-edge-v2/autumn-light-typing.webm",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-R499JX7DJ7&gtm=45je6a72v9236400526za200zd9236400526xf1&_p=1791545125033&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=1814375273&_eu=AEAAAGQ&ae=a&are=1&cid=1081236671.1791545125&frm=0&pscdl=noapi&rcb=3&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&gaf=2&_s=2&tag_exp=115616985~115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791545125&sct=1&seg=0&dl=https%3A%2F%2Fheyhaigh.ai%2F&dt=Desk%20of%20Ry%20%7C%20Ryan%20Haigh%20-%20AI%20Voice%20Agent%20%26%20Product%20Builder&en=scroll&epn.percent_scrolled=90&_et=8&tfd=2815",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://heyhaigh.ai/animation-library/autumn-v1/assets/light-edge-v2/autumn-light-stretch.webm",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-R499JX7DJ7&gtm=45je6a72v9236400526za200zd9236400526xf1&_p=1791545125033&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=1814375273&_eu=AAAAAGQ&are=1&cid=1081236671.1791545125&frm=0&pscdl=noapi&rcb=3&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&gaf=2&tag_exp=115616985~115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791545125&sct=1&seg=0&dl=https%3A%2F%2Fheyhaigh.ai%2F&dt=Desk%20of%20Ry%20%7C%20Ryan%20Haigh%20-%20AI%20Voice%20Agent%20%26%20Product%20Builder&_s=3&tfd=7816",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://heyhaigh.ai/animation-library/autumn-v1/assets/light-edge-v2/autumn-light-answer-original-timing.webm",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 3298,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 1449,
+      "typography": {
+        "families": [
+          [
+            "Geist Mono",
+            49
+          ],
+          [
+            "Arial",
+            1
+          ],
+          [
+            "Material Symbols Outlined",
+            1
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            26
+          ],
+          [
+            "500",
+            25
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            4
+          ]
+        ],
+        "sizeMin": 9,
+        "sizeMedian": 11,
+        "sizeMax": 18,
+        "sizeMaxVw": 4.6,
+        "scaleRatio": 1.6,
+        "letterSpacingMean": 0.115,
+        "loadedFonts": [
+          {
+            "family": "Material Symbols Outlined",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Geist Mono",
+            "weight": "400",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 51
+      },
+      "color": {
+        "background": "rgb(230, 229, 222)",
+        "backgroundLuminance": 0.7813554360487743,
+        "backgrounds": [
+          [
+            "rgb(0, 0, 0)",
+            43
+          ],
+          [
+            "rgba(255, 255, 255, 0.2)",
+            16
+          ],
+          [
+            "rgba(74, 138, 80, 0.14)",
+            0
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(47, 47, 47)",
+            76
+          ],
+          [
+            "rgb(0, 0, 0)",
+            35
+          ],
+          [
+            "rgb(98, 98, 94)",
+            21
+          ],
+          [
+            "rgb(153, 153, 153)",
+            20
+          ],
+          [
+            "rgb(255, 255, 255)",
+            9
+          ]
+        ],
+        "meanSaturation": 0.15,
+        "rootVars": {
+          "--carousel-container-width": "100%",
+          "--carousel-scroll-padding": "0",
+          "--carousel-scroll-padding-breakout": "0",
+          "--modal-replacement-duration": "420ms",
+          "--modal-replacement-easing": "cubic-bezier(.16,1,.3,1)",
+          "--modal-incoming-x": "200px",
+          "--modal-incoming-scale": ".75",
+          "--modal-incoming-delay": "180ms",
+          "--modal-incoming-fade-duration": "calc(var(--modal-replacement-duration) * .1)",
+          "--modal-outgoing-x": "-200px",
+          "--modal-outgoing-scale": ".75",
+          "--modal-outgoing-brightness": ".34",
+          "--modal-outgoing-delay": "210ms",
+          "--modal-outgoing-fade-duration": "calc(var(--modal-replacement-duration) * .2)"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 3,
+        "sticky": 0,
+        "fixed": 17,
+        "grid": 17,
+        "flex": 105,
+        "absolute": 106,
+        "asymmetricGrids": 11,
+        "splitScreen": false,
+        "scrollHeight": 1456,
+        "pages": 1.7,
+        "spacing": [
+          [
+            12,
+            42
+          ],
+          [
+            10,
+            24
+          ],
+          [
+            8,
+            22
+          ],
+          [
+            4,
+            18
+          ],
+          [
+            16,
+            18
+          ],
+          [
+            2,
+            16
+          ],
+          [
+            7,
+            10
+          ],
+          [
+            6,
+            8
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 74,
+        "animationKinds": [
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 52,
+        "animationDurations": [
+          4558.589226381315,
+          5874.309059183954,
+          4967.11044873392,
+          4365.863883065442,
+          5004.582610730405,
+          5463.15802680398,
+          5384.861987522269,
+          4493.401856468715,
+          4310.658582509501,
+          5334.685717655443,
+          3153.1495084751837,
+          5917.885455056779,
+          4101.760163452858,
+          3416.314860548456,
+          5141.100034226175,
+          4009.8168776812536,
+          3694.117088576794,
+          4773.149857167699,
+          5401.9517331980915,
+          5272.498461699742
+        ],
+        "easings": [
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            200,
+            76
+          ],
+          [
+            300,
+            34
+          ],
+          [
+            100,
+            33
+          ],
+          [
+            250,
+            20
+          ],
+          [
+            1500,
+            6
+          ]
+        ],
+        "keyframes": [
+          "subtleBlink",
+          "navFadeInUp",
+          "twinkle",
+          "fadeInUp",
+          "heartbeat",
+          "pulse-subtle",
+          "productFadeIn",
+          "spin",
+          "resultGroupFadeIn",
+          "skeleton-shimmer",
+          "loadingDots",
+          "buttonFadeIn",
+          "expandContainer",
+          "captionFadeIn",
+          "voice-settings-cog-spin",
+          "infoPanelItemFadeIn",
+          "skill-download-bounce",
+          "radial-hold",
+          "object-link-bounce",
+          "object-emoji-arrive"
+        ],
+        "viewTransitionCss": true,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 33,
+      "media": {
+        "canvases": [
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0
+          },
+          {
+            "w": 272,
+            "h": 228,
+            "area": 0
+          },
+          {
+            "w": 272,
+            "h": 228,
+            "area": 0
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0
+          }
+        ],
+        "videos": [
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://heyhaigh.ai/animation-library/autumn-v1/assets/light-edge-v2/autumn-light-typing.webm"
+          },
+          {
+            "autoplay": false,
+            "loop": false,
+            "muted": true,
+            "src": "https://heyhaigh.ai/animation-library/autumn-v1/assets/light-edge-v2/autumn-light-stretch.webm"
+          },
+          {
+            "autoplay": false,
+            "loop": false,
+            "muted": true,
+            "src": "https://heyhaigh.ai/animation-library/autumn-v1/assets/light-edge-v2/autumn-light-answer-original-timing.webm"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://heyhaigh.ai/animation-library/autumn-v1/assets/light-edge-v2/autumn-light-talking.webm"
+          },
+          {
+            "autoplay": false,
+            "loop": false,
+            "muted": true,
+            "src": "https://heyhaigh.ai/animation-library/autumn-v1/assets/light-edge-v2/autumn-light-hang-up-original-timing.webm"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": false,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": false,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": false,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": ""
+          }
+        ],
+        "svg": 24,
+        "images": 24,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "2d": 3
+        },
+        "raf": 62,
+        "io": 3,
+        "ro": 2,
+        "mo": 3,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Desk of Ry | Ryan Haigh - AI Voice Agent & Product Builder",
+      "lang": "en",
+      "description": "Chat with RyBot, an AI voice clone of Ryan Haigh. Explore an interactive portfolio featuring voice technology, AI experiments, and thoughts on building products."
+    },
+    "featuresBeforeScroll": {
+      "elements": 1449,
+      "canvases": 4,
+      "animations": 77,
+      "hidden": 37
+    },
+    "scrollReveal": 4,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 5875812,
+        "layoutCount": 14,
+        "recalcStyleCount": 197,
+        "scriptDuration": 0.079832,
+        "taskDuration": 0.60215,
+        "nodes": 9480
+      },
+      "timing": {
+        "domContentLoaded": 357,
+        "load": 504,
+        "first-paint": 296,
+        "first-contentful-paint": 328
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 4493.401856468715,
+        "delay": 2566.8990847661457,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 5561.153924380574,
+        "delay": 2128.0330180594633,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 4310.658582509501,
+        "delay": 1020.337124417861,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 3416.314860548456,
+        "delay": 3653.296588926152,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 5714.406895529274,
+        "delay": 786.073696668168,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 3205.6503190177664,
+        "delay": 2010.6558981682147,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 3909.3690948153335,
+        "delay": 3492.404202491899,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 5401.9517331980915,
+        "delay": 2925.7365959572016,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 4833.813063831286,
+        "delay": 1049.7538441739648,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 5528.729005969793,
+        "delay": 1703.5871843803002,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 3209.2213529446285,
+        "delay": 2910.565571368424,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 5141.100034226175,
+        "delay": 1365.2472354797624,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 5247.2629663243,
+        "delay": 2522.8544324712266,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 5917.885455056779,
+        "delay": 1399.5119893083458,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 3222.5622445994154,
+        "delay": 1640.1800086952885,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 4009.8168776812536,
+        "delay": 429.86944163720995,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 3414.20610029323,
+        "delay": 874.6577235057065,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "loadingDots",
+        "duration": 1200,
+        "delay": 300,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 5004.415717169255,
+        "delay": 2508.9175884556325,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 3339.730953846732,
+        "delay": 378.33924516254046,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 4365.863883065442,
+        "delay": 674.6479995515391,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 5463.15802680398,
+        "delay": 2861.5093712498865,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 3153.1495084751837,
+        "delay": 771.5878949364736,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 4831.366507342828,
+        "delay": 92.65819828851684,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 5644.484263760114,
+        "delay": 102.9725775534045,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 4101.760163452858,
+        "delay": 3672.7706201777296,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 5473.030416170443,
+        "delay": 3692.661592252849,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 5742.380249752548,
+        "delay": 1283.5320095137984,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "loadingDots",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 3440.795556437833,
+        "delay": 2226.9840865051397,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 3674.6188001256496,
+        "delay": 3372.1807084792963,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 5874.309059183954,
+        "delay": 2890.5757940322283,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 4531.470125218573,
+        "delay": 1852.8686517508058,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 4558.589226381315,
+        "delay": 3009.8422908024386,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 4002.787040192514,
+        "delay": 477.9382791624145,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 4664.197508200178,
+        "delay": 3050.084932806461,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 4497.541574756797,
+        "delay": 965.0787588467829,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 5384.861987522269,
+        "delay": 206.49105638841723,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 5334.685717655443,
+        "delay": 2438.2250426455926,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 4773.149857167699,
+        "delay": 3863.144984518178,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 3257.2286338085955,
+        "delay": 732.5822426845497,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 3694.117088576794,
+        "delay": 694.4989148370064,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 5081.596531632762,
+        "delay": 674.729385649333,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 5882.896243165187,
+        "delay": 767.9197371877295,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 3979.8370638918204,
+        "delay": 2600.478674345003,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 3757.032810869643,
+        "delay": 2172.4943583567447,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "loadingDots",
+        "duration": 1200,
+        "delay": 150,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 5004.582610730405,
+        "delay": 415.4416207766398,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 4253.788579521841,
+        "delay": 3042.32216174447,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 5272.498461699742,
+        "delay": 1940.4442484747353,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 3134.329601095913,
+        "delay": 1631.770767222987,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 4967.11044873392,
+        "delay": 2826.8721870310296,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "twinkle",
+        "duration": 4934.740933245867,
+        "delay": 3192.4244738120815,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "live-pulse",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "live-pulse",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "filter",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "mobileCornerControlsFadeIn",
+        "duration": 500,
+        "delay": 1600,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "buttonFadeIn",
+        "duration": 800,
+        "delay": 1400,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "navFadeInUp",
+        "duration": 600,
+        "delay": 800,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 2000,
+        "delay": 500,
+        "iterations": 1,
+        "easing": "ease"
+      }
+    ],
+    "console": [],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-R499JX7DJ7&gtm=45je6a72h1v9236400526za208zd9236400526xf1&_p=1791545135417&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=1683282316&_eu=AAAAAGA&are=1&cid=1393607985.1791545136&frm=0&pscdl=noapi&rcb=17&sr=390x844&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=1&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&gaf=2&_s=1&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791545135&sct=1&seg=0&dl=https%3A%2F%2Fheyhaigh.ai%2F&dt=Desk%20of%20Ry%20%7C%20Ryan%20Haigh%20-%20AI%20Voice%20Agent%20%26%20Product%20Builder&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=249",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-R499JX7DJ7&gtm=45je6a72h1v9236400526za200zd9236400526xf1&_p=1791545135417&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=1683282316&_eu=AEAAAGQ&ae=a&are=1&cid=1393607985.1791545136&frm=0&pscdl=noapi&rcb=17&sr=390x844&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=1&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&gaf=2&_s=2&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791545135&sct=1&seg=0&dl=https%3A%2F%2Fheyhaigh.ai%2F&dt=Desk%20of%20Ry%20%7C%20Ryan%20Haigh%20-%20AI%20Voice%20Agent%20%26%20Product%20Builder&en=scroll&epn.percent_scrolled=90&_et=8&tfd=2147",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  }
+}

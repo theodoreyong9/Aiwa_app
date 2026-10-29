@@ -1,0 +1,1852 @@
+{
+  "url": "https://noho.ink/",
+  "at": "2026-10-09T08:21:16.761Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 20793,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 1755,
+      "typography": {
+        "families": [
+          [
+            "Switzer",
+            201
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            108
+          ],
+          [
+            "600",
+            93
+          ]
+        ],
+        "textTransforms": [],
+        "sizeMin": 10.512,
+        "sizeMedian": 18.72,
+        "sizeMax": 60.048,
+        "sizeMaxVw": 4.2,
+        "scaleRatio": 3.2,
+        "letterSpacingMean": -0.022,
+        "loadedFonts": [
+          {
+            "family": "Switzer",
+            "weight": "600",
+            "style": "normal"
+          },
+          {
+            "family": "Switzer",
+            "weight": "400",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 201
+      },
+      "color": {
+        "background": "rgb(241, 238, 233)",
+        "backgroundLuminance": 0.8573303574228076,
+        "backgrounds": [
+          [
+            "rgb(241, 238, 233)",
+            12917
+          ],
+          [
+            "rgb(231, 226, 218)",
+            7026
+          ],
+          [
+            "rgb(205, 192, 176)",
+            5783
+          ],
+          [
+            "rgb(60, 60, 60)",
+            2220
+          ],
+          [
+            "rgb(215, 209, 199)",
+            1395
+          ],
+          [
+            "rgb(255, 255, 255)",
+            634
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(60, 60, 60)",
+            1004
+          ],
+          [
+            "rgb(255, 255, 255)",
+            141
+          ],
+          [
+            "rgba(0, 0, 0, 0)",
+            65
+          ],
+          [
+            "rgba(60, 60, 60, 0.4)",
+            14
+          ],
+          [
+            "rgba(60, 60, 60, 0.6)",
+            11
+          ]
+        ],
+        "meanSaturation": 0.05,
+        "rootVars": {
+          "--bg-page": "#f1eee9",
+          "--txt-main": "#3c3c3c",
+          "--bg-form-element": "white",
+          "--raven-black-100": "#3c3c3c",
+          "--bg-switch": "#d7d1c7",
+          "--bg-inner-switch": "white",
+          "--bg-btn-pm": "#3c3c3c",
+          "--txt-btn-pm": "white",
+          "--bg-btn-sc": "white",
+          "--txt-btn-sc": "#3c3c3c",
+          "--bg-btn-big": "#3c3c3c",
+          "--txt-btn-big": "white",
+          "--transperent": "#0000",
+          "--raven-black-40": "#3c3c3c66",
+          "--offbeat": "#d7d1c7",
+          "--white": "white",
+          "--txt-form-element": "#3c3c3c",
+          "--bg-element": "#e7e2da",
+          "--txt-main-opacity-max": "#3c3c3c66",
+          "--icon-contrast": "#3c3c3c",
+          "--bg-header": "white",
+          "--text-form-element-opacity-med": "#3c3c3c99",
+          "--bg-element-third": "#cdc0b0",
+          "--txt-main-opacity-med": "#3c3c3c99",
+          "--text-form-header": "#3c3c3c99",
+          "--bg-element-second": "#d7d1c7",
+          "--bg-switch-active": "#3c3c3c",
+          "--indicator-red": "#dc5b5b",
+          "--black": "black",
+          "--text-form-header-active": "#3c3c3c",
+          "--hacienda-white": "#f1eee9",
+          "--toque-white": "#e7e2da",
+          "--indicator-green": "#88c159",
+          "--sandbar": "#cdc0b0",
+          "--raven-black-60": "#3c3c3c99",
+          "--dim-gray": "#686868",
+          "--bg-element-hover": "#cdc0b0",
+          "--text-form-element-opacity-max": "#3c3c3c66"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 8,
+        "sticky": 7,
+        "fixed": 6,
+        "grid": 6,
+        "flex": 416,
+        "absolute": 156,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 14965,
+        "pages": 16.6,
+        "spacing": [
+          [
+            4,
+            52
+          ],
+          [
+            15,
+            39
+          ],
+          [
+            30,
+            29
+          ],
+          [
+            6,
+            28
+          ],
+          [
+            5,
+            16
+          ],
+          [
+            2,
+            15
+          ],
+          [
+            7,
+            9
+          ],
+          [
+            23,
+            9
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 0,
+        "animationKinds": [],
+        "infiniteAnimations": 0,
+        "animationDurations": [],
+        "easings": [],
+        "transitionDurationsMs": [],
+        "keyframes": [
+          "spin"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 11,
+      "media": {
+        "canvases": [],
+        "videos": [],
+        "svg": 67,
+        "images": 70,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 3,
+          "2d": 9
+        },
+        "raf": 1098,
+        "io": 20,
+        "ro": 7,
+        "mo": 8,
+        "startViewTransition": 0,
+        "workers": 4,
+        "wasm": 1
+      },
+      "globals": {
+        "gsap": true,
+        "ScrollTrigger": true,
+        "THREE": false,
+        "Lenis": true,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": true,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": true,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": true,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Noho",
+      "lang": "en",
+      "description": ""
+    },
+    "featuresBeforeScroll": {
+      "elements": 1740,
+      "canvases": 0,
+      "animations": 0,
+      "hidden": 12
+    },
+    "scrollReveal": 1,
+    "hover": {
+      "probed": 6,
+      "changed": 0
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 11422264,
+        "layoutCount": 634,
+        "recalcStyleCount": 2157,
+        "scriptDuration": 10.558979,
+        "taskDuration": 13.754776,
+        "nodes": 4784
+      },
+      "timing": {
+        "domContentLoaded": 326,
+        "load": 509,
+        "first-paint": 256,
+        "first-contentful-paint": 256
+      }
+    },
+    "network": [
+      {
+        "url": "https://noho.ink/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 20191
+      },
+      {
+        "url": "https://noho.ink/assets/js/noho.bundle.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 27473
+      },
+      {
+        "url": "https://noho.ink/assets/js/noho.bundle.deferred-slim.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 461
+      },
+      {
+        "url": "https://noho.ink/assets/css/webflow.shared.min.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 25461
+      },
+      {
+        "url": "https://noho.ink/assets/css/noho.webflow.overrides.min.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 4714
+      },
+      {
+        "url": "https://noho.ink/assets/css/noho.bundle.min.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 4516
+      },
+      {
+        "url": "https://noho.ink/assets/fonts/667ab0784136240d5e8010d7_Switzer-Semibold.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 19977
+      },
+      {
+        "url": "https://noho.ink/assets/fonts/667ab07840bd3945abc5dc76_Switzer-Regular.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 17173
+      },
+      {
+        "url": "https://noho.ink/assets/media/6a394c9a94b85794c249539a_noho-hero-1.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 66353
+      },
+      {
+        "url": "https://noho.ink/assets/media/6a394c9ac6ce1832b2cd9cce_noho-hero-2.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 60420
+      },
+      {
+        "url": "https://noho.ink/assets/media/6a394c9a573f96c81e891bd1_noho-hero-3.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 91936
+      },
+      {
+        "url": "https://noho.ink/assets/media/6a394c9b536154d2e1bb35aa_noho-hero-4.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 36838
+      },
+      {
+        "url": "https://noho.ink/assets/media/6a394c9b0c3b2147b88721a1_noho-hero-5.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 169985
+      },
+      {
+        "url": "https://noho.ink/assets/media/6a394c9a8e927bfb3ba4a8f6_noho-hero-6.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 55149
+      },
+      {
+        "url": "https://noho.ink/assets/media/6a394c9ae1dac340f6a1403a_noho-hero-7.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 40660
+      },
+      {
+        "url": "https://noho.ink/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 911
+      },
+      {
+        "url": "https://noho.ink/assets/vendor/jquery.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 32639
+      },
+      {
+        "url": "https://noho.ink/assets/vendor/gsap.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 29903
+      },
+      {
+        "url": "https://noho.ink/assets/vendor/ScrollTrigger.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 18919
+      },
+      {
+        "url": "https://noho.ink/assets/vendor/CustomEase.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4355
+      },
+      {
+        "url": "https://noho.ink/assets/vendor/SplitText.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4185
+      },
+      {
+        "url": "https://noho.ink/assets/vendor/lenis.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 5750
+      },
+      {
+        "url": "https://noho.ink/assets/vendor/embla-carousel.umd.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 7898
+      },
+      {
+        "url": "https://noho.ink/assets/vendor/embla-carousel-auto-scroll.umd.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1699
+      },
+      {
+        "url": "https://static.cloudflareinsights.com/beacon.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 10438
+      },
+      {
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 10438
+      },
+      {
+        "url": "https://noho.ink/assets/media/69ef5060a87a00315b3c71fe_9e26b2b16be8101cbac182e9a917af0a_noho-quote-1.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 9427
+      },
+      {
+        "url": "https://noho.ink/assets/media/69ef5060494ab3f3ad124945_6622af31386237aa8d5948af1441e767_noho-quote-2.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 10155
+      },
+      {
+        "url": "https://noho.ink/assets/media/69ef50601183d11dfd46de63_0f383e2da3a236259c53c8719357e1ad_noho-quote-3.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 10591
+      },
+      {
+        "url": "https://noho.ink/assets/media/6a2ad530365d3290a62f4c33_ad2e87c4b77dea6d3f72e1235abcf072_noho-quote-4.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 13078
+      },
+      {
+        "url": "https://noho.ink/assets/media/6a29211978d211d609c882b1_lightly-no-topper.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 55936
+      },
+      {
+        "url": "https://noho.ink/assets/media/69ef50b8159c369edef59f0f_noho-gallery-1.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 147616
+      },
+      {
+        "url": "https://noho.ink/assets/media/6a34088c63e75681466064d4_noho-lightly-gallery-1-p-1600.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 48380
+      },
+      {
+        "url": "https://noho.ink/assets/media/6a34088c99fb6bbbbe26115f_noho-lightly-gallery-2-p-1600.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 36714
+      },
+      {
+        "url": "https://noho.ink/assets/media/6a34088c87df927e3a96f218_noho-lightly-gallery-3-p-1600.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 61645
+      },
+      {
+        "url": "https://noho.ink/assets/media/6a2920932fe3c453f8417d5f_move-no-topper.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 125559
+      },
+      {
+        "url": "https://noho.ink/assets/media/6a4b8cda0bdaaba4fc97676d_noho-move-popup-image-1.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 13517
+      },
+      {
+        "url": "https://noho.ink/assets/media/6a34086c63e7568146605066_noho-move-gallery-1-p-1600.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 44088
+      },
+      {
+        "url": "https://noho.ink/assets/media/6a34086c26199f7c6a755bc0_noho-move-gallery-2-p-1600.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 62052
+      },
+      {
+        "url": "https://noho.ink/assets/media/6a34086c1444463acf46929a_noho-move-gallery-3-p-1600.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 53653
+      },
+      {
+        "url": "https://noho.ink/assets/media/6a34086c7b363b2138ffd835_noho-move-gallery-4-p-1600.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 52445
+      },
+      {
+        "url": "https://noho.ink/assets/media/6a3407483e9b142380dab6d3_noho-gallery-1.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 32738
+      },
+      {
+        "url": "https://noho.ink/assets/media/6a3407b883db49289978e91f_noho-gallery-02.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 38074
+      },
+      {
+        "url": "https://noho.ink/assets/media/6a3407c12d3d23b9ed58b0d6_noho-gallery-03.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 26350
+      },
+      {
+        "url": "https://noho.ink/assets/media/6a3407cc2d3d23b9ed58bad7_noho-gallery-04.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 110145
+      },
+      {
+        "url": "https://noho.ink/assets/media/6a3407d869afa0c514672c28_noho-gallery-05.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 40706
+      },
+      {
+        "url": "https://noho.ink/assets/media/6a3407e7c088d4d5cd1e3675_noho-gallery-06.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 149216
+      },
+      {
+        "url": "https://noho.ink/assets/media/6a3408072d3d23b9ed58e6ae_noho-gallery-07.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 27964
+      },
+      {
+        "url": "https://noho.ink/assets/media/6a34080f0887446598748271_noho-gallery-08.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 35814
+      },
+      {
+        "url": "https://noho.ink/assets/media/6a34081df2f9c15217d89956_noho-gallery-09.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 45442
+      },
+      {
+        "url": "https://noho.ink/assets/media/6a3408247642bd825190feaf_noho-gallery-10.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 46521
+      },
+      {
+        "url": "https://noho.ink/assets/media/6a34082be15b758886a2c239_noho-gallery-11.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 28204
+      },
+      {
+        "url": "https://noho.ink/assets/media/6a34083354107e1a4da7ec40_noho-gallery-12.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 44111
+      },
+      {
+        "url": "https://noho.ink/assets/media/6a34083a534a177bb2cab9e0_noho-gallery-13.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 50449
+      },
+      {
+        "url": "https://noho.ink/assets/vendor/model-viewer.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 280238
+      },
+      {
+        "url": "https://noho.ink/assets/js/noho.bundle.deferred-heavy.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 61863
+      },
+      {
+        "url": "https://noho.ink/assets/vendor/ogl.esm.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 40248
+      },
+      {
+        "url": "https://noho.ink/assets/vendor/html2canvas.esm.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 47536
+      },
+      {
+        "url": "https://noho.ink/assets/media/67bc9262988905a5cbe8bbe2_move-random-poster.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 223866
+      },
+      {
+        "url": "https://cloudflareinsights.com/cdn-cgi/rum",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 36
+      },
+      {
+        "url": "https://cloudflareinsights.com/cdn-cgi/rum",
+        "method": "OPTIONS",
+        "type": "OTHER",
+        "initiator": "preflight",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://noho.ink/assets/media/6a29211978d211d609c882b1_lightly-no-topper.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://noho.ink/assets/models/67bc7aa56be8d59c6ca25efb_compressed-combined.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "model/gltf-binary",
+        "fromCache": false,
+        "bytes": 2255323
+      },
+      {
+        "url": "https://noho.ink/assets/media/6a2920932fe3c453f8417d5f_move-no-topper.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.gstatic.com/draco/versioned/decoders/1.5.6/draco_wasm_wrapper.js",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 12356
+      },
+      {
+        "url": "https://www.gstatic.com/draco/versioned/decoders/1.5.6/draco_decoder.wasm",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/wasm",
+        "fromCache": false,
+        "bytes": 88996
+      },
+      {
+        "url": "blob:https://noho.ink/ce714576-975c-4646-82bf-5a27d0ff6f1e",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://noho.ink/fb2a75e1-220a-4cf1-bdd8-9d7080018bd6",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://noho.ink/dbf7ee27-b1bd-4133-9e28-c909e3ce371b",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://noho.ink/e0c426f2-2bcc-4363-a7b0-ad4e4db9f119",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://noho.ink/34b60a1d-db23-408b-9586-d59c709919d6",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://noho.ink/db6a7b2e-93cb-404d-b3b4-3b67d88e5fd3",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://noho.ink/ae663907-58c5-4ae0-b657-2a3d88915cb1",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://noho.ink/490970d5-44e5-4682-807b-295e8cbe06a9",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://noho.ink/assets/media/6a3ebe2723c58f9d8b0a8f95_noho-lightly-usage-1.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 23664
+      },
+      {
+        "url": "https://noho.ink/assets/media/6a3ebdee04e7fa84a6a96014_noho-lightly-usage-2.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 64998
+      },
+      {
+        "url": "https://noho.ink/assets/media/6a29211978d211d609c882b1_lightly-no-topper.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://noho.ink/assets/media/6a29211978d211d609c882b1_lightly-no-topper.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://noho.ink/assets/media/6a34086c99d03a8870f077f2_noho-move-gallery-7.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 138794
+      },
+      {
+        "url": "https://noho.ink/assets/media/6a34086c26199f7c6a755bc0_noho-move-gallery-2.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 97319
+      },
+      {
+        "url": "blob:https://noho.ink/863710f6-dae0-4414-9886-13e2682f72be",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "blob:https://noho.ink/863710f6-dae0-4414-9886-13e2682f72be",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "blob:https://noho.ink/863710f6-dae0-4414-9886-13e2682f72be",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "blob:https://noho.ink/863710f6-dae0-4414-9886-13e2682f72be",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "https://noho.ink/assets/media/6a3409d3530be22d4ac85617_noho-review-1.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 78842
+      },
+      {
+        "url": "https://noho.ink/assets/media/6a340a06443bc2708d7eca58_noho-review-2.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 121433
+      },
+      {
+        "url": "https://noho.ink/assets/media/6a4b9b58f49a46286035e3fa_noho-review-3.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 57525
+      },
+      {
+        "url": "https://noho.ink/assets/media/6a340a4683db4928997b5071_noho-review-4.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 114039
+      },
+      {
+        "url": "https://noho.ink/assets/media/6a340a653e9b142380ddd518_noho-review-5.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 153319
+      },
+      {
+        "url": "https://noho.ink/assets/media/69ef506b0fd7cc11232bfc29_noho-about-1.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 70359
+      },
+      {
+        "url": "https://noho.ink/assets/media/6a2953f88ed06150441f463c_noho-about-1-hovered.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 19845
+      },
+      {
+        "url": "https://noho.ink/assets/media/69ef506bcccf5466373070ac_noho-about-2.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 32615
+      },
+      {
+        "url": "https://noho.ink/assets/media/6a2953f8b9600b5df851356f_noho-about-2-hovered.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 24409
+      },
+      {
+        "url": "https://noho.ink/assets/js/move-random-environments/neutral-tint-bg-element-light-e7e2da.hdr",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 777819
+      },
+      {
+        "url": "https://noho.ink/assets/js/move-random-environments/neutral-tint-ddc390.hdr",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 777587
+      },
+      {
+        "url": "https://noho.ink/assets/js/move-random-environments/neutral-tint-cb6951.hdr",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 775256
+      },
+      {
+        "url": "https://noho.ink/assets/js/move-random-environments/neutral-tint-b1a5db.hdr",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 777887
+      },
+      {
+        "url": "https://noho.ink/assets/js/move-random-environments/neutral-tint-f5e181.hdr",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 777728
+      },
+      {
+        "url": "https://noho.ink/assets/js/move-random-environments/neutral-tint-869157.hdr",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 777730
+      },
+      {
+        "url": "https://noho.ink/assets/js/move-random-environments/neutral-tint-bg-element-dark-4c392b.hdr",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 777279
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 90,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 90,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 90,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 1000,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 1000,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 1000,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 1000,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0702000DC0A0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0D02000DC0A0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x2d2402b0d800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0A02000DC0A0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x2d2400101800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x2d2402b0d800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x2d2400101800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+      }
+    ],
+    "exceptions": [],
+    "failed": [],
+    "targets": {
+      "frames": 1,
+      "workers": 4
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 12629,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 1758,
+      "typography": {
+        "families": [
+          [
+            "Switzer",
+            207
+          ]
+        ],
+        "weights": [
+          [
+            "600",
+            108
+          ],
+          [
+            "400",
+            99
+          ]
+        ],
+        "textTransforms": [],
+        "sizeMin": 12.6945,
+        "sizeMedian": 16.2513,
+        "sizeMax": 60.6684,
+        "sizeMaxVw": 15.6,
+        "scaleRatio": 3.7,
+        "letterSpacingMean": -0.035,
+        "loadedFonts": [
+          {
+            "family": "Switzer",
+            "weight": "600",
+            "style": "normal"
+          },
+          {
+            "family": "Switzer",
+            "weight": "400",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 207
+      },
+      "color": {
+        "background": "rgb(241, 238, 233)",
+        "backgroundLuminance": 0.8573303574228076,
+        "backgrounds": [
+          [
+            "rgb(241, 238, 233)",
+            5046
+          ],
+          [
+            "rgb(231, 226, 218)",
+            3019
+          ],
+          [
+            "rgb(205, 192, 176)",
+            1979
+          ],
+          [
+            "rgb(60, 60, 60)",
+            1011
+          ],
+          [
+            "rgb(255, 255, 255)",
+            689
+          ],
+          [
+            "rgb(215, 209, 199)",
+            661
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(60, 60, 60)",
+            1041
+          ],
+          [
+            "rgb(255, 255, 255)",
+            132
+          ],
+          [
+            "rgba(60, 60, 60, 0.4)",
+            14
+          ],
+          [
+            "rgba(0, 0, 0, 0)",
+            13
+          ],
+          [
+            "rgba(60, 60, 60, 0.6)",
+            11
+          ]
+        ],
+        "meanSaturation": 0.05,
+        "rootVars": {
+          "--bg-page": "#f1eee9",
+          "--txt-main": "#3c3c3c",
+          "--bg-form-element": "white",
+          "--raven-black-100": "#3c3c3c",
+          "--bg-switch": "#d7d1c7",
+          "--bg-inner-switch": "white",
+          "--bg-btn-pm": "#3c3c3c",
+          "--txt-btn-pm": "white",
+          "--bg-btn-sc": "white",
+          "--txt-btn-sc": "#3c3c3c",
+          "--bg-btn-big": "#3c3c3c",
+          "--txt-btn-big": "white",
+          "--transperent": "#0000",
+          "--raven-black-40": "#3c3c3c66",
+          "--offbeat": "#d7d1c7",
+          "--white": "white",
+          "--txt-form-element": "#3c3c3c",
+          "--bg-element": "#e7e2da",
+          "--txt-main-opacity-max": "#3c3c3c66",
+          "--icon-contrast": "#3c3c3c",
+          "--bg-header": "white",
+          "--text-form-element-opacity-med": "#3c3c3c99",
+          "--bg-element-third": "#cdc0b0",
+          "--txt-main-opacity-med": "#3c3c3c99",
+          "--text-form-header": "#3c3c3c99",
+          "--bg-element-second": "#d7d1c7",
+          "--bg-switch-active": "#3c3c3c",
+          "--indicator-red": "#dc5b5b",
+          "--black": "black",
+          "--text-form-header-active": "#3c3c3c",
+          "--hacienda-white": "#f1eee9",
+          "--toque-white": "#e7e2da",
+          "--indicator-green": "#88c159",
+          "--sandbar": "#cdc0b0",
+          "--raven-black-60": "#3c3c3c99",
+          "--dim-gray": "#686868",
+          "--bg-element-hover": "#cdc0b0",
+          "--text-form-element-opacity-max": "#3c3c3c66"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 16,
+        "sticky": 4,
+        "fixed": 8,
+        "grid": 3,
+        "flex": 429,
+        "absolute": 152,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 13976,
+        "pages": 16.6,
+        "spacing": [
+          [
+            5,
+            90
+          ],
+          [
+            11,
+            81
+          ],
+          [
+            9,
+            25
+          ],
+          [
+            22,
+            24
+          ],
+          [
+            1,
+            15
+          ],
+          [
+            16,
+            14
+          ],
+          [
+            2,
+            13
+          ],
+          [
+            32,
+            13
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 0,
+        "animationKinds": [],
+        "infiniteAnimations": 0,
+        "animationDurations": [],
+        "easings": [],
+        "transitionDurationsMs": [],
+        "keyframes": [
+          "spin"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 12,
+      "media": {
+        "canvases": [
+          {
+            "w": 736,
+            "h": 1247,
+            "area": 0.7
+          },
+          {
+            "w": 736,
+            "h": 1247,
+            "area": 0.7
+          }
+        ],
+        "videos": [],
+        "svg": 67,
+        "images": 70,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 3,
+          "2d": 4
+        },
+        "raf": 1101,
+        "io": 18,
+        "ro": 6,
+        "mo": 7,
+        "startViewTransition": 0,
+        "workers": 4,
+        "wasm": 1
+      },
+      "globals": {
+        "gsap": true,
+        "ScrollTrigger": true,
+        "THREE": false,
+        "Lenis": true,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": true,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": true,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": true,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Noho",
+      "lang": "en",
+      "description": ""
+    },
+    "featuresBeforeScroll": {
+      "elements": 1737,
+      "canvases": 0,
+      "animations": 0,
+      "hidden": 12
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 10556032,
+        "layoutCount": 476,
+        "recalcStyleCount": 1218,
+        "scriptDuration": 4.61194,
+        "taskDuration": 8.620154,
+        "nodes": 3638
+      },
+      "timing": {
+        "domContentLoaded": 277,
+        "load": 435,
+        "first-paint": 180,
+        "first-contentful-paint": 180
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 90,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 90,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 90,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 1000,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 1000,
+        "iterations": 1,
+        "easing": "ease"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A050F10EDC0A0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0D02000DC0A0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0702000DC0A0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      }
+    ],
+    "exceptions": [],
+    "failed": [],
+    "targets": {
+      "frames": 1,
+      "workers": 4
+    }
+  }
+}

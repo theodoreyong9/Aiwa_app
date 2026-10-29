@@ -1,0 +1,2004 @@
+{
+  "url": "https://huyml.co/",
+  "at": "2026-10-19T09:58:50.999Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 29957,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 2058,
+      "typography": {
+        "families": [
+          [
+            "BT Grotesk Medium",
+            196
+          ],
+          [
+            "F37 Bolton Trial Regular",
+            19
+          ],
+          [
+            "BT Glyphius Regular",
+            18
+          ],
+          [
+            "BT Grotesk Regular",
+            1
+          ]
+        ],
+        "weights": [
+          [
+            "500",
+            196
+          ],
+          [
+            "400",
+            38
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            3
+          ]
+        ],
+        "sizeMin": 10,
+        "sizeMedian": 10,
+        "sizeMax": 220,
+        "sizeMaxVw": 15.3,
+        "scaleRatio": 22,
+        "letterSpacingMean": 0.008,
+        "loadedFonts": [
+          {
+            "family": "BT Grotesk Medium",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "BT Grotesk Regular",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "F37 Bolton Trial Regular",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "BT Glyphius Regular",
+            "weight": "400",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 234
+      },
+      "color": {
+        "background": "rgb(236, 236, 236)",
+        "backgroundLuminance": 0.8387990117407399,
+        "backgrounds": [
+          [
+            "rgb(255, 255, 255)",
+            1302
+          ],
+          [
+            "rgb(236, 236, 236)",
+            1296
+          ],
+          [
+            "rgb(237, 237, 237)",
+            1296
+          ],
+          [
+            "rgb(23, 23, 23)",
+            130
+          ],
+          [
+            "rgb(212, 212, 212)",
+            89
+          ],
+          [
+            "rgb(0, 0, 0)",
+            3
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(0, 0, 0)",
+            857
+          ],
+          [
+            "rgb(0, 0, 238)",
+            285
+          ],
+          [
+            "rgb(255, 255, 255)",
+            230
+          ],
+          [
+            "rgba(255, 255, 255, 0.5)",
+            27
+          ],
+          [
+            "rgb(30, 30, 30)",
+            22
+          ]
+        ],
+        "meanSaturation": 0,
+        "rootVars": {
+          "--bt-grotesk-responsive-font-size": "12px"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 2,
+        "sticky": 0,
+        "fixed": 7,
+        "grid": 4,
+        "flex": 347,
+        "absolute": 132,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 900,
+        "pages": 1,
+        "spacing": [
+          [
+            10,
+            47
+          ],
+          [
+            8,
+            32
+          ],
+          [
+            18,
+            31
+          ],
+          [
+            4,
+            11
+          ],
+          [
+            24,
+            7
+          ],
+          [
+            32,
+            6
+          ],
+          [
+            20,
+            5
+          ],
+          [
+            6,
+            4
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 0,
+        "animationKinds": [],
+        "infiniteAnimations": 0,
+        "animationDurations": [],
+        "easings": [],
+        "transitionDurationsMs": [
+          [
+            320,
+            11
+          ],
+          [
+            450,
+            8
+          ],
+          [
+            220,
+            7
+          ],
+          [
+            520,
+            3
+          ],
+          [
+            600,
+            1
+          ]
+        ],
+        "keyframes": [],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 26,
+      "media": {
+        "canvases": [
+          {
+            "w": 1440,
+            "h": 900,
+            "area": 1
+          },
+          {
+            "w": 114,
+            "h": 100,
+            "area": 0.01
+          }
+        ],
+        "videos": [],
+        "svg": 3,
+        "images": 27,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "2d": 5,
+          "webgl2": 3
+        },
+        "raf": 282,
+        "io": 1,
+        "ro": 29,
+        "mo": 23,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": true,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Huy Phan - Award-winning designer",
+      "lang": "en",
+      "description": "Huy Phan (Huyml) is an award-winning designer and art director based in Ho Chi Minh city, Vietnam."
+    },
+    "featuresBeforeScroll": {
+      "elements": 2058,
+      "canvases": 2,
+      "animations": 0,
+      "hidden": 26
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 6,
+      "changed": 0
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 54596216,
+        "layoutCount": 194,
+        "recalcStyleCount": 414,
+        "scriptDuration": 11.97429,
+        "taskDuration": 29.81685,
+        "nodes": 4249
+      },
+      "timing": {
+        "domContentLoaded": 269,
+        "load": 2988,
+        "first-paint": 124,
+        "first-contentful-paint": 124
+      }
+    },
+    "network": [
+      {
+        "url": "https://huyml.co/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 35760
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-EM3JMY7NKM",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 170284
+      },
+      {
+        "url": "https://events.framer.com/script?v=2",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 11356
+      },
+      {
+        "url": "https://framerusercontent.com/assets/pczyWZYmicHp9LhGgMJo7tnDcHo.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 22573
+      },
+      {
+        "url": "https://framerusercontent.com/assets/oDqinH2S9k4fMbGueYwREUmNFM.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 21779
+      },
+      {
+        "url": "https://framerusercontent.com/images/FoYPkj63CnTXaljvLBaCO9gL9dE.jpg?width=910&height=732",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 64300
+      },
+      {
+        "url": "https://framerusercontent.com/images/PbGu32LciyVQZHUuKJCNLLV2qZc.jpg?width=910&height=732",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 286499
+      },
+      {
+        "url": "https://framerusercontent.com/images/F33bHKrCMVcgpBMdUPAEP579M.jpg?width=910&height=732",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 59545
+      },
+      {
+        "url": "https://framerusercontent.com/images/FP8bs8WqEOFTFST8L2YGqot9idA.jpg?width=910&height=732",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 150217
+      },
+      {
+        "url": "https://framerusercontent.com/images/Dr7ftrDUeUTFQY2afrDoalR8A.jpg?width=910&height=732",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 13075
+      },
+      {
+        "url": "https://framerusercontent.com/images/FZyOyyrz0ZctFkAK2kROsql2w1A.jpg?scale-down-to=512&width=910&height=732",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 4583
+      },
+      {
+        "url": "https://framerusercontent.com/images/AHnUuCwiIe3u0k9N4az6316yTbU.jpg?width=910&height=732",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 22604
+      },
+      {
+        "url": "https://framerusercontent.com/images/Ce5CMDqNJqwWN1TC3B0xbsBq47M.jpg?width=910&height=732",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 54062
+      },
+      {
+        "url": "https://framerusercontent.com/images/e4NzJl004YbfnXuKnhQEuGgUPU.png?scale-down-to=512&width=910&height=732",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 6649
+      },
+      {
+        "url": "https://framerusercontent.com/images/ZMZlhfAKVDPaWVzDIpnuU6HVRO4.jpg?width=1138&height=915",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 161021
+      },
+      {
+        "url": "https://framerusercontent.com/images/G6KRK08IYPVsspZ3za8etsb60.jpg?width=910&height=732",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 68574
+      },
+      {
+        "url": "https://framerusercontent.com/images/JXol5lZzzYBnMZSEp2JZHIhuuI.jpg?width=1138&height=915",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 125589
+      },
+      {
+        "url": "https://framerusercontent.com/images/bovi8JsQWnROEtE0WYyYwqPkiE.jpg?scale-down-to=512&lossless=1&width=1138&height=915",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 316196
+      },
+      {
+        "url": "https://framerusercontent.com/images/BsJb1GV0DDjj2B5ELG33XfWmQ.jpg?width=910&height=732",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 149427
+      },
+      {
+        "url": "https://framerusercontent.com/images/kyZpWmBOPtk7QyAeSE9QB3HmS2I.jpg?width=1138&height=915",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 46494
+      },
+      {
+        "url": "https://framerusercontent.com/images/QqqJqinqeONnjCz1ncYlYpFRbs.jpg?width=910&height=732",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 61680
+      },
+      {
+        "url": "https://framerusercontent.com/images/OUq4sSIJXVqet1DGXpjpnXuC1qc.jpg?width=1138&height=915",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 44341
+      },
+      {
+        "url": "https://framerusercontent.com/images/75mCZ5SdSy2FaX0ameAhFh9ynE.jpg?width=1138&height=915",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 180245
+      },
+      {
+        "url": "https://framerusercontent.com/images/JK0FqSLxHpj1w22TtNIaAQwr2uc.jpg?width=910&height=732",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 84623
+      },
+      {
+        "url": "https://framerusercontent.com/assets/R4RlD3IldAw8k5cRONJ8SJJgqG4.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 3401
+      },
+      {
+        "url": "https://framerusercontent.com/assets/Bi57PSNgEGNhXnUjCjYBKAacRQ.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 3401
+      },
+      {
+        "url": "https://framerusercontent.com/assets/EwHniTuZoV3ME15lpjBiKTAYilc.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 10651
+      },
+      {
+        "url": "https://framerusercontent.com/assets/JZyDNnSPROUpFuFHbWYIKApoHng.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 10628
+      },
+      {
+        "url": "data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 12 12%22><path d=%22M 1.5 1.5 L 10.5 10.5%22 fill=%22transparent%22 stroke=%22rgb(255, 255, 255)%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 stroke-dasharray=%22%22></path><path d=%22M 10.5 1.5 L 1.5 10.5%22 fill=%22transparent%22 stroke=%22rgb(255, 255, 255)%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 stroke-dasharray=%22%22></path></svg>",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 12 12%22 overflow=%22visible%22><g><path d=%22M 0 0 L 12 0 L 12 12 L 0 12 Z%22 fill=%22transparent%22></path><path d=%22M 10.2 5.4 L 2.7 0.15 C 2.473 -0.02 2.169 -0.048 1.915 0.079 C 1.661 0.206 1.5 0.466 1.5 0.75 L 1.5 11.25 C 1.5 11.85 2.175 12.225 2.7 11.85 L 10.2 6.6 C 10.378 6.452 10.482 6.232 10.482 6 C 10.482 5.768 10.378 5.548 10.2 5.4 Z%22 fill=%22rgb(0,0,0)%22></path></g></svg>",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://framerusercontent.com/assets/xirQ3g4Sv5q7MG0KvL1PiOOLLBA.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 23761
+      },
+      {
+        "url": "https://framerusercontent.com/assets/NjDO01jId5REkpwNN1pD7i8fBLY.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 8164
+      },
+      {
+        "url": "https://framerusercontent.com/sites/4CUEbC1Vb07LtNCTtfjk6i/rolldown-runtime.Dh6celcD.mjs",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1237
+      },
+      {
+        "url": "https://framerusercontent.com/sites/4CUEbC1Vb07LtNCTtfjk6i/react.BaDOPo3t.mjs",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 45634
+      },
+      {
+        "url": "https://framerusercontent.com/sites/4CUEbC1Vb07LtNCTtfjk6i/motion.BPkLvCVm.mjs",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 47218
+      },
+      {
+        "url": "https://framerusercontent.com/sites/4CUEbC1Vb07LtNCTtfjk6i/framer.BeBZUbg6.mjs",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 116792
+      },
+      {
+        "url": "https://framerusercontent.com/sites/4CUEbC1Vb07LtNCTtfjk6i/shared-lib.DyD4REXM.mjs",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 127571
+      },
+      {
+        "url": "https://framerusercontent.com/sites/4CUEbC1Vb07LtNCTtfjk6i/e8XHUPKsgUbD_j36i5m_YIM8UIU28O8o8aXrZlbi1A8.tux3-Cyy.mjs",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 234065
+      },
+      {
+        "url": "https://framerusercontent.com/sites/4CUEbC1Vb07LtNCTtfjk6i/Textstyle.BVJVhHaK.mjs",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1796
+      },
+      {
+        "url": "https://framerusercontent.com/sites/4CUEbC1Vb07LtNCTtfjk6i/LKjkg9Djy.C-MTg-Qi.mjs",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1455
+      },
+      {
+        "url": "https://framerusercontent.com/sites/4CUEbC1Vb07LtNCTtfjk6i/2PiN8Hecv5F6SLITrT0uqHl1FSHr-qhoYhoGOU3p53s.Q6_nXk9D.mjs",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1550
+      },
+      {
+        "url": "https://framerusercontent.com/sites/4CUEbC1Vb07LtNCTtfjk6i/script_main.eyJAZMFh.mjs",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 23516
+      },
+      {
+        "url": "https://framerusercontent.com/assets/NwRpkuqMO8dekRRBn6RJjQlpM.mp3",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 17793
+      },
+      {
+        "url": "https://framerusercontent.com/assets/hxSMzW8WhffneAE4dlHetxMRI.mp3",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 9655
+      },
+      {
+        "url": "https://framerusercontent.com/assets/NwRpkuqMO8dekRRBn6RJjQlpM.mp3",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://framerusercontent.com/assets/NwRpkuqMO8dekRRBn6RJjQlpM.mp3",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://framerusercontent.com/assets/NwRpkuqMO8dekRRBn6RJjQlpM.mp3",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://framerusercontent.com/assets/hxSMzW8WhffneAE4dlHetxMRI.mp3",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://framerusercontent.com/assets/hxSMzW8WhffneAE4dlHetxMRI.mp3",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://unpkg.com/@rive-app/canvas@2.38.5/rive.wasm",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/wasm",
+        "fromCache": false,
+        "bytes": 717187
+      },
+      {
+        "url": "https://framerusercontent.com/assets/TPy4R9I2nyWcMGl3iIx3nrZhdo.mp3",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 26066
+      },
+      {
+        "url": "https://framerusercontent.com/assets/TPy4R9I2nyWcMGl3iIx3nrZhdo.mp3",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://framerusercontent.com/images/JK0FqSLxHpj1w22TtNIaAQwr2uc.jpg?width=910&height=732",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://framerusercontent.com/images/75mCZ5SdSy2FaX0ameAhFh9ynE.jpg?width=1138&height=915",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://framerusercontent.com/images/OUq4sSIJXVqet1DGXpjpnXuC1qc.jpg?width=1138&height=915",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://framerusercontent.com/images/QqqJqinqeONnjCz1ncYlYpFRbs.jpg?width=910&height=732",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://framerusercontent.com/images/kyZpWmBOPtk7QyAeSE9QB3HmS2I.jpg?width=1138&height=915",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://framerusercontent.com/images/BsJb1GV0DDjj2B5ELG33XfWmQ.jpg?width=910&height=732",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://framerusercontent.com/images/bovi8JsQWnROEtE0WYyYwqPkiE.jpg?scale-down-to=512&lossless=1&width=1138&height=915",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://framerusercontent.com/images/JXol5lZzzYBnMZSEp2JZHIhuuI.jpg?width=1138&height=915",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://framerusercontent.com/images/G6KRK08IYPVsspZ3za8etsb60.jpg?width=910&height=732",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://framerusercontent.com/images/ZMZlhfAKVDPaWVzDIpnuU6HVRO4.jpg?width=1138&height=915",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://framerusercontent.com/images/e4NzJl004YbfnXuKnhQEuGgUPU.png?scale-down-to=512&width=910&height=732",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://framerusercontent.com/images/Ce5CMDqNJqwWN1TC3B0xbsBq47M.jpg?width=910&height=732",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://framerusercontent.com/images/AHnUuCwiIe3u0k9N4az6316yTbU.jpg?width=910&height=732",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://framerusercontent.com/images/FZyOyyrz0ZctFkAK2kROsql2w1A.jpg?scale-down-to=512&width=910&height=732",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://framerusercontent.com/images/Dr7ftrDUeUTFQY2afrDoalR8A.jpg?width=910&height=732",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://framerusercontent.com/images/FP8bs8WqEOFTFST8L2YGqot9idA.jpg?width=910&height=732",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://framerusercontent.com/images/F33bHKrCMVcgpBMdUPAEP579M.jpg?width=910&height=732",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://framerusercontent.com/images/PbGu32LciyVQZHUuKJCNLLV2qZc.jpg?width=910&height=732",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://framerusercontent.com/images/FoYPkj63CnTXaljvLBaCO9gL9dE.jpg?width=910&height=732",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://framerusercontent.com/assets/lS6ID9P8uuYjO76b2j9eAbrilA.json",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 51428
+      },
+      {
+        "url": "https://framerusercontent.com/assets/I7sDqjqViJfFWtj8WbkQgjeYP8.riv",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 523879
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-EM3JMY7NKM&gtm=45je6ae1v891074139za208zd891074139xf1&_p=1792403890159&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=891747645.1792403893&frm=0&ngs=1&pscdl=noapi&rcb=6&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=1&tag_exp=115616985~115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&sid=1792403892&sct=1&seg=0&dl=https%3A%2F%2Fhuyml.co%2F&dt=Huy%20Phan%20-%20Award-winning%20designer&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=2597",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false
+      },
+      {
+        "url": "blob:https://huyml.co/46b53791-c706-4561-b937-7c515d445f9a",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-EM3JMY7NKM&gtm=45je6ae1v891074139za200zd891074139xf1&_p=1792403890159&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAAQ&ae=a&are=1&cid=891747645.1792403893&frm=0&ngs=1&pscdl=noapi&rcb=6&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=2&tag_exp=115616985~115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&sid=1792403892&sct=1&seg=0&dl=https%3A%2F%2Fhuyml.co%2F&dt=Huy%20Phan%20-%20Award-winning%20designer&en=scroll&epn.percent_scrolled=90&_et=398&tfd=8622",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false
+      },
+      {
+        "url": "https://events.framer.com/anonymous",
+        "method": "POST",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 429
+      },
+      {
+        "url": "https://events.framer.com/anonymous",
+        "method": "POST",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 432
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 520,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 520,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 520,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 320,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 320,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 320,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 320,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 320,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 320,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 320,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 320,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 320,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 320,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 320,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 320,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 320,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 320,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 320,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 320,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 320,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 320,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 320,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 320,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 320,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 320,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 320,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 320,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 520,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 520,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 320,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 520,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 520,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 320,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 520,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 320,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 520,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 520,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 320,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 320,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 520,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 520,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 520,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 320,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 320,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 520,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 520,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 520,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 320,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 320,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 520,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 520,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 320,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 520,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 320,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 520,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 520,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 320,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 520,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 320,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 520,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A07020000C2E0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x1e4c00136800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0A020000C2E0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0D020000C2E0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x1e4c03d16400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x1e4c03d16400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x1e4c03d16400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+      }
+    ],
+    "exceptions": [
+      "TypeError: Cannot read properties of undefined (reading 'uvs')\n    at tp (https://framerusercontent.com/sites/4CUEbC1Vb07LtNCTtfjk6i/e8XHUPKsgUbD_j36i5m_YIM8UIU28O8o8aXrZlbi1A8.tux3-Cyy.mjs:3896:13260)\n    at Qp (https://framerusercontent.com/sites/4CUEbC1Vb07LtNCTtfjk6i/e8XHUPKsgUbD_j36i5m_YIM8UIU2"
+    ],
+    "failed": [
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-EM3JMY7NKM&gtm=45je6ae1v891074139za208zd891074139xf1&_p=1792403890159&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=891747645.1792403893&frm=0&ngs=1&pscdl=noapi&rcb=6&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=1&tag_exp=115616985~115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&sid=1792403892&sct=1&seg=0&dl=https%3A%2F%2Fhuyml.co%2F&dt=Huy%20Phan%20-%20Award-winning%20designer&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=2597",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-EM3JMY7NKM&gtm=45je6ae1v891074139za200zd891074139xf1&_p=1792403890159&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAAQ&ae=a&are=1&cid=891747645.1792403893&frm=0&ngs=1&pscdl=noapi&rcb=6&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=2&tag_exp=115616985~115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034&sid=1792403892&sct=1&seg=0&dl=https%3A%2F%2Fhuyml.co%2F&dt=Huy%20Phan%20-%20Award-winning%20designer&en=scroll&epn.percent_scrolled=90&_et=398&tfd=8622",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 10731,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 1701,
+      "typography": {
+        "families": [
+          [
+            "BT Grotesk Medium",
+            149
+          ],
+          [
+            "F37 Bolton Trial Regular",
+            20
+          ],
+          [
+            "BT Grotesk",
+            3
+          ],
+          [
+            "BT Glyphius Regular",
+            3
+          ]
+        ],
+        "weights": [
+          [
+            "500",
+            152
+          ],
+          [
+            "400",
+            23
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            2
+          ]
+        ],
+        "sizeMin": 12,
+        "sizeMedian": 12,
+        "sizeMax": 110,
+        "sizeMaxVw": 28.2,
+        "scaleRatio": 9.2,
+        "letterSpacingMean": 0.007,
+        "loadedFonts": [
+          {
+            "family": "BT Grotesk Medium",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "BT Grotesk Regular",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "F37 Bolton Trial Regular",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "BT Glyphius Regular",
+            "weight": "400",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 175
+      },
+      "color": {
+        "background": "rgb(236, 236, 236)",
+        "backgroundLuminance": 0.8387990117407399,
+        "backgrounds": [
+          [
+            "rgb(236, 236, 236)",
+            658
+          ],
+          [
+            "rgb(255, 255, 255)",
+            335
+          ],
+          [
+            "rgb(23, 23, 23)",
+            187
+          ],
+          [
+            "rgb(5, 18, 54)",
+            1
+          ],
+          [
+            "rgb(255, 253, 226)",
+            1
+          ],
+          [
+            "rgb(4, 87, 212)",
+            1
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(0, 0, 0)",
+            685
+          ],
+          [
+            "rgb(0, 0, 238)",
+            285
+          ],
+          [
+            "rgb(255, 255, 255)",
+            217
+          ],
+          [
+            "rgba(255, 255, 255, 0.5)",
+            14
+          ],
+          [
+            "rgba(255, 255, 255, 0.52)",
+            1
+          ]
+        ],
+        "meanSaturation": 0.33,
+        "rootVars": {
+          "--bt-grotesk-responsive-font-size": "12px"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 2,
+        "sticky": 0,
+        "fixed": 5,
+        "grid": 1,
+        "flex": 229,
+        "absolute": 79,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 844,
+        "pages": 1,
+        "spacing": [
+          [
+            10,
+            35
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            32,
+            5
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            16,
+            3
+          ],
+          [
+            8,
+            3
+          ],
+          [
+            24,
+            2
+          ],
+          [
+            3,
+            2
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 0,
+        "animationKinds": [],
+        "infiniteAnimations": 0,
+        "animationDurations": [],
+        "easings": [],
+        "transitionDurationsMs": [
+          [
+            520,
+            3
+          ],
+          [
+            300,
+            2
+          ],
+          [
+            220,
+            1
+          ],
+          [
+            600,
+            1
+          ]
+        ],
+        "keyframes": [],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 4,
+      "media": {
+        "canvases": [
+          {
+            "w": 780,
+            "h": 1688,
+            "area": 1
+          }
+        ],
+        "videos": [],
+        "svg": 2,
+        "images": 19,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "2d": 4,
+          "webgl2": 2
+        },
+        "raf": 182,
+        "io": 0,
+        "ro": 14,
+        "mo": 11,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": true,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Huy Phan - Award-winning designer",
+      "lang": "en",
+      "description": "Huy Phan (Huyml) is an award-winning designer and art director based in Ho Chi Minh city, Vietnam."
+    },
+    "featuresBeforeScroll": {
+      "elements": 1701,
+      "canvases": 1,
+      "animations": 0,
+      "hidden": 4
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 33621820,
+        "layoutCount": 100,
+        "recalcStyleCount": 201,
+        "scriptDuration": 3.116085,
+        "taskDuration": 10.381572,
+        "nodes": 3170
+      },
+      "timing": {
+        "domContentLoaded": 130,
+        "load": 2967,
+        "first-paint": 144,
+        "first-contentful-paint": 144
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 520,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 520,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 520,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 0.61, 0.36, 1)"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0A020000C2E0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0D020000C2E0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      }
+    ],
+    "exceptions": [
+      "TypeError: Cannot read properties of undefined (reading 'uvs')\n    at tp (https://framerusercontent.com/sites/4CUEbC1Vb07LtNCTtfjk6i/e8XHUPKsgUbD_j36i5m_YIM8UIU28O8o8aXrZlbi1A8.tux3-Cyy.mjs:3896:13260)\n    at Qp (https://framerusercontent.com/sites/4CUEbC1Vb07LtNCTtfjk6i/e8XHUPKsgUbD_j36i5m_YIM8UIU2"
+    ],
+    "failed": [
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-EM3JMY7NKM&gtm=45je6ae1v891074139za208zd891074139xf1&_p=1792403920341&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1317998454.1792403923&frm=0&ngs=1&pscdl=noapi&rcb=10&sr=390x844&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=1&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=1&tag_exp=115938465~115938468~118897920~118897930~119793973~120213116~120385422~120469145~120469153~121246026~121246034&sid=1792403922&sct=1&seg=0&dl=https%3A%2F%2Fhuyml.co%2F&dt=Huy%20Phan%20-%20Award-winning%20designer&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=2372",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-EM3JMY7NKM&gtm=45je6ae1v891074139za200zd891074139xf1&_p=1792403920341&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAAQ&ae=a&are=1&cid=1317998454.1792403923&frm=0&ngs=1&pscdl=noapi&rcb=10&sr=390x844&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=1&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=2&tag_exp=115938465~115938468~118897920~118897930~119793973~120213116~120385422~120469145~120469153~121246026~121246034&sid=1792403922&sct=1&seg=0&dl=https%3A%2F%2Fhuyml.co%2F&dt=Huy%20Phan%20-%20Award-winning%20designer&en=scroll&epn.percent_scrolled=90&_et=307&tfd=8330",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  }
+}

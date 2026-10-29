@@ -1,0 +1,911 @@
+{
+  "url": "https://thetiebreak.merci-michel.com/",
+  "at": "2026-10-09T08:02:50.353Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 2529,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 13,
+      "typography": {
+        "families": [],
+        "weights": [],
+        "textTransforms": [],
+        "sizeMin": 0,
+        "sizeMedian": 0,
+        "sizeMax": 0,
+        "sizeMaxVw": 0,
+        "scaleRatio": 0,
+        "letterSpacingMean": 0,
+        "loadedFonts": [],
+        "variableFont": false,
+        "textElements": 0
+      },
+      "color": {
+        "background": "rgb(255, 255, 255)",
+        "backgroundLuminance": 1,
+        "backgrounds": [
+          [
+            "rgb(5, 21, 45)",
+            1296
+          ],
+          [
+            "rgba(0, 0, 0, 0.6)",
+            0
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(255, 255, 255)",
+            8
+          ]
+        ],
+        "meanSaturation": 0.44,
+        "rootVars": {
+          "--base-text": "10px",
+          "--padding": "max(6px, calc(var(--base-text) * .15))",
+          "--ui-bps": "xs:400px / s:640px / sm:768px / md:1024px / lg:1200px / xl:1600px / xxl:1920px",
+          "--ui-colors": "bg-primary:#000 / primary:#fff / blue:#142a48 / primary-hover:#fff302",
+          "--ui-color-bg-primary": "#000",
+          "--ui-color-primary": "#fff",
+          "--ui-color-blue": "#142a48",
+          "--ui-color-primary-hover": "#fff302",
+          "--miumiu-header": "1.5em"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 2,
+        "sticky": 0,
+        "fixed": 2,
+        "grid": 0,
+        "flex": 1,
+        "absolute": 3,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 900,
+        "pages": 1,
+        "spacing": [
+          [
+            21,
+            1
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 3,
+        "animationKinds": [
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 3,
+        "animationDurations": [
+          800,
+          800,
+          800
+        ],
+        "easings": [
+          "linear"
+        ],
+        "transitionDurationsMs": [],
+        "keyframes": [
+          "joystick-y-3b1265d4",
+          "quick-flick-3b1265d4",
+          "circular-spin-3b1265d4",
+          "bounceAnim",
+          "squishAnim",
+          "shadowAnim",
+          "shake1",
+          "jitter-subtle",
+          "jitter-subtle-rtl",
+          "ken-burns"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 0,
+      "media": {
+        "canvases": [],
+        "videos": [],
+        "svg": 0,
+        "images": 2,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 2,
+          "webgl": 2,
+          "webgl-experimental": 1,
+          "experimental-webgl": 1
+        },
+        "raf": 276,
+        "io": 0,
+        "ro": 1,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 5,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": true,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "The Tie-break!",
+      "lang": "en",
+      "description": "Play the game and discover the latest New Balance X Miu Miu collection with Coco Gauff."
+    },
+    "featuresBeforeScroll": {
+      "elements": 13,
+      "canvases": 0,
+      "animations": 3,
+      "hidden": 0
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 5587496,
+        "layoutCount": 6,
+        "recalcStyleCount": 147,
+        "scriptDuration": 0.065666,
+        "taskDuration": 0.331257,
+        "nodes": 143
+      },
+      "timing": {
+        "domContentLoaded": 88,
+        "load": 100,
+        "first-paint": 47,
+        "first-contentful-paint": 47
+      }
+    },
+    "network": [
+      {
+        "url": "https://thetiebreak.merci-michel.com/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 6416
+      },
+      {
+        "url": "https://thetiebreak.merci-michel.com/assets/app.BJoZBxOG6b4d5903.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 3219
+      },
+      {
+        "url": "https://thetiebreak.merci-michel.com/assets/vendor.DSbQUwak6b4d5903.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1850
+      },
+      {
+        "url": "https://thetiebreak.merci-michel.com/preloader/logo.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 4972
+      },
+      {
+        "url": "https://thetiebreak.merci-michel.com/preloader/preloader.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 4057
+      },
+      {
+        "url": "https://thetiebreak.merci-michel.com/eu/en/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 6431
+      },
+      {
+        "url": "https://thetiebreak.merci-michel.com/assets/app.BJoZBxOG6b4d5903.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://thetiebreak.merci-michel.com/assets/vendor.DSbQUwak6b4d5903.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://thetiebreak.merci-michel.com/preloader/logo.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://thetiebreak.merci-michel.com/preloader/preloader.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://tags.tiqcdn.com/utag/prada/prada.iframe/prod/utag.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 11116
+      },
+      {
+        "url": "https://thetiebreak.merci-michel.com/assets/vendor.C2s8bVVS6b4d5903.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 187248
+      },
+      {
+        "url": "https://thetiebreak.merci-michel.com/assets/loader.CM330CYc6b4d5903.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 67847
+      },
+      {
+        "url": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACyAgCdASoCAAIALmk0mk0iIiIiIgBoSygABc6WWgAA/veff/0PP8bA//LwYAAA",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/avif;base64,AAAAIGZ0eXBhdmlmAAAAAGF2aWZtaWYxbWlhZk1BMUIAAADybWV0YQAAAAAAAAAoaGRscgAAAAAAAAAAcGljdAAAAAAAAAAAAAAAAGxpYmF2aWYAAAAADnBpdG0AAAAAAAEAAAAeaWxvYwAAAABEAAABAAEAAAABAAABGgAAAB0AAAAoaWluZgAAAAAAAQAAABppbmZlAgAAAAABAABhdjAxQ29sb3IAAAAAamlwcnAAAABLaXBjbwAAABRpc3BlAAAAAAAAAAIAAAACAAAAEHBpeGkAAAAAAwgICAAAAAxhdjFDgQ0MAAAAABNjb2xybmNseAACAAIAAYAAAAAXaXBtYQAAAAAAAAABAAEEAQKDBAAAACVtZGF0EgAKCBgANogQEAwgMg8f8D///8WfhwB8+ErK42A=",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://tags.tiqcdn.com/utag/prada/prada.iframe/prod/utag.1.js?utv=ut4.54.202511201011",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1287
+      },
+      {
+        "url": "https://thetiebreak.merci-michel.com/baluchon-umd6jr.manifest.json",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 1930
+      },
+      {
+        "url": "https://thetiebreak.merci-michel.com/b/dIkpG95Tjxla.m4a",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mp4",
+        "fromCache": false,
+        "bytes": 1056451
+      },
+      {
+        "url": "https://thetiebreak.merci-michel.com/b/JL9IU-tSIP4p.m4a",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mp4",
+        "fromCache": false,
+        "bytes": 388920
+      },
+      {
+        "url": "https://thetiebreak.merci-michel.com/vendors/draco/draco_wasm_wrapper.js",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 10514
+      },
+      {
+        "url": "https://thetiebreak.merci-michel.com/vendors/draco/draco_decoder.wasm",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/wasm",
+        "fromCache": false,
+        "bytes": 66537
+      },
+      {
+        "url": "https://thetiebreak.merci-michel.com/b/K-pGx3149FXG.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 653013
+      },
+      {
+        "url": "https://thetiebreak.merci-michel.com/b/jXqL9owD7VRN.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 517583
+      },
+      {
+        "url": "https://thetiebreak.merci-michel.com/b/JZNKhB7I431G.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "model/gltf-binary",
+        "fromCache": false,
+        "bytes": 9388
+      },
+      {
+        "url": "https://thetiebreak.merci-michel.com/b/VNsb28kHH4Zp.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 1682682
+      },
+      {
+        "url": "https://thetiebreak.merci-michel.com/b/DmpQve8flVsF.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 33950
+      },
+      {
+        "url": "https://thetiebreak.merci-michel.com/b/NIJhP3ZIqrvR.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2073
+      },
+      {
+        "url": "https://thetiebreak.merci-michel.com/b/szxtFhBQJv0N.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 50432
+      },
+      {
+        "url": "https://tags.tiqcdn.com/utag/prada/prada.iframe/prod/utag.v.js?a=prada/prada.iframe/202511201001&cb=1791532965603",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 438
+      },
+      {
+        "url": "blob:https://thetiebreak.merci-michel.com/09ffa82d-a03e-4bba-b36a-af1260f9bd0d",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "blob:https://thetiebreak.merci-michel.com/09ffa82d-a03e-4bba-b36a-af1260f9bd0d",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "https://thetiebreak.merci-michel.com/vendors/basis/basis_transcoder.js",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 14581
+      },
+      {
+        "url": "https://thetiebreak.merci-michel.com/vendors/basis/basis_transcoder.wasm",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/wasm",
+        "fromCache": false,
+        "bytes": 205370
+      },
+      {
+        "url": "https://thetiebreak.merci-michel.com/b/6QWp3K4bYyyd.json",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 915
+      },
+      {
+        "url": "blob:https://thetiebreak.merci-michel.com/d374be50-90fc-4015-8a27-7671e53a9dbd",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "blob:https://thetiebreak.merci-michel.com/d374be50-90fc-4015-8a27-7671e53a9dbd",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "https://thetiebreak.merci-michel.com/b/-KKEhWJkDkLT.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 665760
+      },
+      {
+        "url": "https://thetiebreak.merci-michel.com/b/0fd3Y1GqGZup.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 546460
+      },
+      {
+        "url": "https://thetiebreak.merci-michel.com/b/kd9dOSgAcXHs.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 636496
+      },
+      {
+        "url": "https://thetiebreak.merci-michel.com/b/1hfGf2cxOfrs.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 573753
+      },
+      {
+        "url": "blob:https://thetiebreak.merci-michel.com/d374be50-90fc-4015-8a27-7671e53a9dbd",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "bounceAnim",
+        "duration": 800,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "squishAnim",
+        "duration": 800,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "shadowAnim",
+        "duration": 800,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0702000F4230000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0A02000F4230000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0D02000F4230000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      }
+    ],
+    "exceptions": [
+      "EncodingError: Unable to decode audio data",
+      "EncodingError: Unable to decode audio data"
+    ],
+    "failed": [],
+    "targets": {
+      "frames": 1,
+      "workers": 5
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 2455,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 13,
+      "typography": {
+        "families": [],
+        "weights": [],
+        "textTransforms": [],
+        "sizeMin": 0,
+        "sizeMedian": 0,
+        "sizeMax": 0,
+        "sizeMaxVw": 0,
+        "scaleRatio": 0,
+        "letterSpacingMean": 0,
+        "loadedFonts": [],
+        "variableFont": false,
+        "textElements": 0
+      },
+      "color": {
+        "background": "rgb(255, 255, 255)",
+        "backgroundLuminance": 1,
+        "backgrounds": [
+          [
+            "rgb(5, 21, 45)",
+            329
+          ],
+          [
+            "rgba(0, 0, 0, 0.6)",
+            0
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(255, 255, 255)",
+            8
+          ]
+        ],
+        "meanSaturation": 0.44,
+        "rootVars": {
+          "--base-text": "10px",
+          "--padding": "max(6px, calc(var(--base-text) * .15))",
+          "--ui-bps": "xs:400px / s:640px / sm:768px / md:1024px / lg:1200px / xl:1600px / xxl:1920px",
+          "--ui-colors": "bg-primary:#000 / primary:#fff / blue:#142a48 / primary-hover:#fff302",
+          "--ui-color-bg-primary": "#000",
+          "--ui-color-primary": "#fff",
+          "--ui-color-blue": "#142a48",
+          "--ui-color-primary-hover": "#fff302",
+          "--miumiu-header": "1.5em"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 2,
+        "sticky": 0,
+        "fixed": 2,
+        "grid": 0,
+        "flex": 1,
+        "absolute": 3,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 844,
+        "pages": 1,
+        "spacing": [
+          [
+            21,
+            1
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 3,
+        "animationKinds": [
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 3,
+        "animationDurations": [
+          800,
+          800,
+          800
+        ],
+        "easings": [
+          "linear"
+        ],
+        "transitionDurationsMs": [],
+        "keyframes": [
+          "joystick-y-3b1265d4",
+          "quick-flick-3b1265d4",
+          "circular-spin-3b1265d4",
+          "bounceAnim",
+          "squishAnim",
+          "shadowAnim",
+          "shake1",
+          "jitter-subtle",
+          "jitter-subtle-rtl",
+          "ken-burns"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 0,
+      "media": {
+        "canvases": [],
+        "videos": [],
+        "svg": 0,
+        "images": 2,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 2,
+          "webgl": 2,
+          "webgl-experimental": 1,
+          "experimental-webgl": 1
+        },
+        "raf": 283,
+        "io": 0,
+        "ro": 1,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 6,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": true,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "The Tie-break!",
+      "lang": "en",
+      "description": "Play the game and discover the latest New Balance X Miu Miu collection with Coco Gauff."
+    },
+    "featuresBeforeScroll": {
+      "elements": 13,
+      "canvases": 0,
+      "animations": 3,
+      "hidden": 0
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 5706300,
+        "layoutCount": 17,
+        "recalcStyleCount": 160,
+        "scriptDuration": 0.05083,
+        "taskDuration": 0.269841,
+        "nodes": 143
+      },
+      "timing": {
+        "domContentLoaded": 72,
+        "load": 90,
+        "first-paint": 65,
+        "first-contentful-paint": 65
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "bounceAnim",
+        "duration": 800,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "squishAnim",
+        "duration": 800,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "shadowAnim",
+        "duration": 800,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0702000F4230000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0A02000F4230000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0D02000F4230000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      }
+    ],
+    "exceptions": [
+      "EncodingError: Unable to decode audio data",
+      "EncodingError: Unable to decode audio data"
+    ],
+    "failed": [],
+    "targets": {
+      "frames": 1,
+      "workers": 6
+    }
+  }
+}

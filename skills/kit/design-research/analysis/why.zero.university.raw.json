@@ -1,0 +1,1420 @@
+{
+  "url": "https://why.zero.university/",
+  "at": "2026-10-10T09:44:28.518Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 52837,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 391,
+      "typography": {
+        "families": [
+          [
+            "PP Supply Mono",
+            11
+          ],
+          [
+            "Supply Sans",
+            2
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            12
+          ],
+          [
+            "700",
+            1
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            10
+          ]
+        ],
+        "sizeMin": 10,
+        "sizeMedian": 12,
+        "sizeMax": 150.003,
+        "sizeMaxVw": 10.4,
+        "scaleRatio": 12.5,
+        "letterSpacingMean": 0.095,
+        "loadedFonts": [
+          {
+            "family": "Supply Sans",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "PP Supply Mono",
+            "weight": "400",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 13
+      },
+      "color": {
+        "background": "rgb(28, 72, 57)",
+        "backgroundLuminance": 0.05177013688065456,
+        "backgrounds": [
+          [
+            "rgb(28, 72, 57)",
+            1296
+          ],
+          [
+            "rgba(212, 212, 212, 0.15)",
+            5
+          ],
+          [
+            "rgb(255, 255, 255)",
+            0
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(0, 0, 0)",
+            137
+          ],
+          [
+            "rgb(255, 255, 255)",
+            26
+          ],
+          [
+            "rgba(255, 255, 255, 0.7)",
+            10
+          ],
+          [
+            "rgb(32, 29, 29)",
+            7
+          ],
+          [
+            "rgba(255, 255, 255, 0.6)",
+            5
+          ]
+        ],
+        "meanSaturation": 0.2,
+        "rootVars": {
+          "--lightningcss-light": "initial",
+          "--lightningcss-dark": ""
+        }
+      },
+      "layout": {
+        "fullscreenSections": 3,
+        "sticky": 0,
+        "fixed": 7,
+        "grid": 0,
+        "flex": 148,
+        "absolute": 176,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 900,
+        "pages": 1,
+        "spacing": [
+          [
+            8,
+            8
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            12,
+            2
+          ],
+          [
+            11,
+            1
+          ],
+          [
+            26,
+            1
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 7,
+        "animationKinds": [
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 7,
+        "animationDurations": [
+          9000,
+          2000,
+          700,
+          700,
+          700,
+          700,
+          700
+        ],
+        "easings": [
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            400,
+            140
+          ],
+          [
+            200,
+            11
+          ],
+          [
+            600,
+            3
+          ],
+          [
+            250,
+            2
+          ],
+          [
+            380,
+            1
+          ]
+        ],
+        "keyframes": [
+          "xpStrokeGlow",
+          "xpFlashWhite",
+          "xpFlashBlack",
+          "next-btn-ripple",
+          "scroll-indicator-bob",
+          "hud-status-shimmer",
+          "hud-status-chevron-bounce",
+          "scroll-ruler-nav-spin"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 11,
+      "media": {
+        "canvases": [
+          {
+            "w": 1440,
+            "h": 900,
+            "area": 1
+          }
+        ],
+        "videos": [
+          {
+            "autoplay": false,
+            "loop": false,
+            "muted": true,
+            "src": "blob:https://why.zero.university/86882aae-a2b0-4d8b-acb2-4a33b6ba776c"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://why.zero.university/assets/videos/stage2_background_video-desktop.mp4"
+          }
+        ],
+        "svg": 3,
+        "images": 1,
+        "iframes": 0,
+        "customCursor": true
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 1,
+          "2d": 1
+        },
+        "raf": 40,
+        "io": 0,
+        "ro": 0,
+        "mo": 1,
+        "startViewTransition": 0,
+        "workers": 7,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Zero — Human Infrastructure to Get Hired",
+      "lang": "en",
+      "description": "Zero is building human infrastructure for the AI era. Learn, build, and get hired through immersive, AI-native experiences designed by reverse-engineering real jobs."
+    },
+    "featuresBeforeScroll": {
+      "elements": 391,
+      "canvases": 1,
+      "animations": 7,
+      "hidden": 11
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 5,
+      "changed": 0
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 8508692,
+        "layoutCount": 8,
+        "recalcStyleCount": 81,
+        "scriptDuration": 0.558966,
+        "taskDuration": 51.781618,
+        "nodes": 885
+      },
+      "timing": {
+        "domContentLoaded": 366,
+        "load": 465,
+        "first-paint": 284,
+        "first-contentful-paint": 284
+      }
+    },
+    "network": [
+      {
+        "url": "https://why.zero.university/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 3187
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-N4VGV4H4EN",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 180633
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Google+Sans+Code:wght@400;700&family=Google+Sans+Flex:wght@500&family=Inter:wght@400;500;600&family=Newsreader:wght@400;500&display=swap",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 963
+      },
+      {
+        "url": "https://why.zero.university/assets/main-B9-HtP-f.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 354698
+      },
+      {
+        "url": "https://why.zero.university/assets/main-yeWZtezw.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 4701
+      },
+      {
+        "url": "https://why.zero.university/assets/fonts/PPSupplySans-Regular.otf",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/otf",
+        "fromCache": false,
+        "bytes": 25150
+      },
+      {
+        "url": "https://why.zero.university/assets/ui/cursors_atlas.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 5348
+      },
+      {
+        "url": "https://why.zero.university/assets/textures/frost.webp",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 145547
+      },
+      {
+        "url": "https://why.zero.university/assets/textures/frost_normal.webp",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 137045
+      },
+      {
+        "url": "https://why.zero.university/assets/models/loader_hand.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "model/gltf-binary",
+        "fromCache": false,
+        "bytes": 12033
+      },
+      {
+        "url": "https://why.zero.university/assets/textures/matcap-hand.webp",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 8065
+      },
+      {
+        "url": "https://why.zero.university/assets/ui/xp.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 3253
+      },
+      {
+        "url": "https://why.zero.university/assets/fonts/PPSupplyMono-Regular.otf",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/otf",
+        "fromCache": false,
+        "bytes": 16501
+      },
+      {
+        "url": "https://why.zero.university/vendor/draco/draco_wasm_wrapper.js",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 11440
+      },
+      {
+        "url": "https://why.zero.university/vendor/draco/draco_decoder.wasm",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/wasm",
+        "fromCache": false,
+        "bytes": 56685
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-N4VGV4H4EN&gtm=45je6a72v9257711552za208zd9257711552xf1&_p=1791625398781&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1513904809.1791625399&frm=0&ngs=1&pscdl=noapi&rcb=0&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=1&tag_exp=115938466~115938469~118897920~118897930~119860443~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034~123235076&sid=1791625399&sct=1&seg=0&dl=https%3A%2F%2Fwhy.zero.university%2F&dt=Zero%20%E2%80%94%20Human%20Infrastructure%20to%20Get%20Hired&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=461",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false
+      },
+      {
+        "url": "blob:https://why.zero.university/ee689647-a519-48a6-8dd4-4186fac0d60d",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "https://why.zero.university/assets/videos/star_animation_720.mp4",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 95828
+      },
+      {
+        "url": "https://why.zero.university/assets/audio/amb_stage1.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 231081
+      },
+      {
+        "url": "https://why.zero.university/assets/audio/amb_stage2-3.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 114701
+      },
+      {
+        "url": "https://why.zero.university/assets/audio/fx_loader-drag.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 7824
+      },
+      {
+        "url": "https://why.zero.university/assets/audio/fx_hand-entry.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 5466
+      },
+      {
+        "url": "https://why.zero.university/assets/audio/fx_whoosh.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 5728
+      },
+      {
+        "url": "https://why.zero.university/assets/audio/fx_click.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 2371
+      },
+      {
+        "url": "https://why.zero.university/assets/audio/fx_loader.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 77285
+      },
+      {
+        "url": "https://why.zero.university/assets/audio/fx_xp-topup.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 21332
+      },
+      {
+        "url": "https://why.zero.university/assets/audio/fx_tunnel.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 19690
+      },
+      {
+        "url": "https://why.zero.university/assets/audio/fx_glass-shatter.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 20967
+      },
+      {
+        "url": "https://why.zero.university/assets/audio/fx_hold-button.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 36052
+      },
+      {
+        "url": "https://why.zero.university/assets/audio/fx_money-burn.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 13345
+      },
+      {
+        "url": "https://why.zero.university/assets/audio/amb_stage4-5.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 336319
+      },
+      {
+        "url": "https://why.zero.university/assets/audio/amb_stage5.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 108653
+      },
+      {
+        "url": "https://why.zero.university/assets/brand/nav_logo_white.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1897
+      },
+      {
+        "url": "https://why.zero.university/assets/videos/stage2_background_video-desktop.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 300908
+      },
+      {
+        "url": "https://why.zero.university/assets/textures/frost.webp",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://why.zero.university/assets/models/fancy_hand_2.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "model/gltf-binary",
+        "fromCache": false,
+        "bytes": 386990
+      },
+      {
+        "url": "https://why.zero.university/assets/models/human_hand_1.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "model/gltf-binary",
+        "fromCache": false,
+        "bytes": 352833
+      },
+      {
+        "url": "https://why.zero.university/assets/models/camera_1.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "model/gltf-binary",
+        "fromCache": false,
+        "bytes": 19873
+      },
+      {
+        "url": "https://why.zero.university/assets/textures/matcap-hand.webp",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://why.zero.university/assets/atlases/human_hands.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 970590
+      },
+      {
+        "url": "blob:https://why.zero.university/86882aae-a2b0-4d8b-acb2-4a33b6ba776c",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://why.zero.university/ee689647-a519-48a6-8dd4-4186fac0d60d",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "https://why.zero.university/assets/atlases/shards-petals-coins.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 169812
+      },
+      {
+        "url": "blob:https://why.zero.university/ee689647-a519-48a6-8dd4-4186fac0d60d",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "https://why.zero.university/vendor/basis/basis_transcoder.js",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 15897
+      },
+      {
+        "url": "https://why.zero.university/vendor/basis/basis_transcoder.wasm",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/wasm",
+        "fromCache": false,
+        "bytes": 231309
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-N4VGV4H4EN&gtm=45je6a72v9257711552za200zd9257711552xf1&_p=1791625398781&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAAQ&ae=a&are=1&cid=1513904809.1791625399&frm=0&ngs=1&pscdl=noapi&rcb=0&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=2&tag_exp=115938466~115938469~118897920~118897930~119860443~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034~123235076&sid=1791625399&sct=1&seg=0&dl=https%3A%2F%2Fwhy.zero.university%2F&dt=Zero%20%E2%80%94%20Human%20Infrastructure%20to%20Get%20Hired&en=scroll&epn.percent_scrolled=90&_et=12&tfd=6787",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false
+      },
+      {
+        "url": "blob:https://why.zero.university/e18b80a9-0b59-419c-923a-7f3665313f29",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "blob:https://why.zero.university/e18b80a9-0b59-419c-923a-7f3665313f29",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "https://why.zero.university/assets/atlases/texts.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 541132
+      },
+      {
+        "url": "https://why.zero.university/assets/models/stage2_glass-shatter.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "model/gltf-binary",
+        "fromCache": false,
+        "bytes": 309827
+      },
+      {
+        "url": "https://why.zero.university/assets/models/glass_shards.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "model/gltf-binary",
+        "fromCache": false,
+        "bytes": 156870
+      },
+      {
+        "url": "https://why.zero.university/assets/models/human_hand_2.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "model/gltf-binary",
+        "fromCache": false,
+        "bytes": 230959
+      },
+      {
+        "url": "blob:https://why.zero.university/e18b80a9-0b59-419c-923a-7f3665313f29",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "blob:https://why.zero.university/ee689647-a519-48a6-8dd4-4186fac0d60d",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "https://why.zero.university/assets/models/camera_2.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "model/gltf-binary",
+        "fromCache": false,
+        "bytes": 25902
+      },
+      {
+        "url": "https://why.zero.university/assets/textures/stage2_background2.webp",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 11772
+      },
+      {
+        "url": "https://why.zero.university/assets/models/tunnel_new_new.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "model/gltf-binary",
+        "fromCache": false,
+        "bytes": 10315
+      },
+      {
+        "url": "https://why.zero.university/assets/textures/stage3_background1.webp",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 23961
+      },
+      {
+        "url": "https://why.zero.university/assets/atlases/leather-money-shreds.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 208915
+      },
+      {
+        "url": "https://why.zero.university/assets/atlases/board-certificates.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 177971
+      },
+      {
+        "url": "https://why.zero.university/assets/textures/matcap-certificate.webp",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 3277
+      },
+      {
+        "url": "https://why.zero.university/assets/atlases/clouds.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 83859
+      },
+      {
+        "url": "https://why.zero.university/assets/brand/nav_logo_white.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": true,
+        "bytes": 0
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "scroll-indicator-bob",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "scroll-ruler-nav-spin",
+        "duration": 700,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "scroll-ruler-nav-spin",
+        "duration": 700,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "hud-status-shimmer",
+        "duration": 9000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "scroll-ruler-nav-spin",
+        "duration": 700,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "scroll-ruler-nav-spin",
+        "duration": 700,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "scroll-ruler-nav-spin",
+        "duration": 700,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A07020009C270000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x2b340013fe00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x2b340013fe00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x2b340013fe00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x2b340013fe00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-N4VGV4H4EN&gtm=45je6a72v9257711552za208zd9257711552xf1&_p=1791625398781&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1513904809.1791625399&frm=0&ngs=1&pscdl=noapi&rcb=0&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=1&tag_exp=115938466~115938469~118897920~118897930~119860443~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034~123235076&sid=1791625399&sct=1&seg=0&dl=https%3A%2F%2Fwhy.zero.university%2F&dt=Zero%20%E2%80%94%20Human%20Infrastructure%20to%20Get%20Hired&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=461",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-N4VGV4H4EN&gtm=45je6a72v9257711552za200zd9257711552xf1&_p=1791625398781&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAAQ&ae=a&are=1&cid=1513904809.1791625399&frm=0&ngs=1&pscdl=noapi&rcb=0&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=2&tag_exp=115938466~115938469~118897920~118897930~119860443~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034~123235076&sid=1791625399&sct=1&seg=0&dl=https%3A%2F%2Fwhy.zero.university%2F&dt=Zero%20%E2%80%94%20Human%20Infrastructure%20to%20Get%20Hired&en=scroll&epn.percent_scrolled=90&_et=12&tfd=6787",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 7
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 17067,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 117,
+      "typography": {
+        "families": [
+          [
+            "PP Supply Mono",
+            6
+          ],
+          [
+            "Supply Sans",
+            2
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            7
+          ],
+          [
+            "700",
+            1
+          ]
+        ],
+        "textTransforms": [],
+        "sizeMin": 11,
+        "sizeMedian": 11,
+        "sizeMax": 85.9614,
+        "sizeMaxVw": 22,
+        "scaleRatio": 7.8,
+        "letterSpacingMean": 0.058,
+        "loadedFonts": [
+          {
+            "family": "Supply Sans",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "PP Supply Mono",
+            "weight": "400",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 8
+      },
+      "color": {
+        "background": "rgb(28, 72, 57)",
+        "backgroundLuminance": 0.05177013688065456,
+        "backgrounds": [
+          [
+            "rgb(28, 72, 57)",
+            329
+          ],
+          [
+            "rgba(212, 212, 212, 0.15)",
+            22
+          ],
+          [
+            "rgb(255, 255, 255)",
+            0
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(255, 255, 255)",
+            26
+          ],
+          [
+            "rgb(32, 29, 29)",
+            14
+          ],
+          [
+            "rgb(0, 0, 0)",
+            8
+          ],
+          [
+            "rgba(255, 255, 255, 0.85)",
+            5
+          ],
+          [
+            "rgba(255, 255, 255, 0.92)",
+            2
+          ]
+        ],
+        "meanSaturation": 0.2,
+        "rootVars": {
+          "--lightningcss-light": "initial",
+          "--lightningcss-dark": ""
+        }
+      },
+      "layout": {
+        "fullscreenSections": 3,
+        "sticky": 0,
+        "fixed": 7,
+        "grid": 0,
+        "flex": 15,
+        "absolute": 39,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 844,
+        "pages": 1,
+        "spacing": [
+          [
+            8,
+            14
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            12,
+            2
+          ],
+          [
+            11,
+            1
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            10,
+            1
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 7,
+        "animationKinds": [
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 7,
+        "animationDurations": [
+          9000,
+          2000,
+          700,
+          700,
+          700,
+          700,
+          700
+        ],
+        "easings": [
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            400,
+            10
+          ],
+          [
+            200,
+            6
+          ],
+          [
+            600,
+            2
+          ],
+          [
+            50,
+            1
+          ],
+          [
+            180,
+            1
+          ]
+        ],
+        "keyframes": [
+          "xpStrokeGlow",
+          "xpFlashWhite",
+          "xpFlashBlack",
+          "next-btn-ripple",
+          "scroll-indicator-bob",
+          "hud-status-shimmer",
+          "hud-status-chevron-bounce",
+          "scroll-ruler-nav-spin"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 5,
+      "media": {
+        "canvases": [
+          {
+            "w": 780,
+            "h": 1688,
+            "area": 1
+          }
+        ],
+        "videos": [
+          {
+            "autoplay": false,
+            "loop": false,
+            "muted": true,
+            "src": "blob:https://why.zero.university/98be790e-a316-4104-bc8d-6193710972d5"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://why.zero.university/assets/videos/stage2_background_video-mobile.mp4"
+          }
+        ],
+        "svg": 2,
+        "images": 1,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 1,
+          "2d": 1
+        },
+        "raf": 45,
+        "io": 0,
+        "ro": 0,
+        "mo": 1,
+        "startViewTransition": 0,
+        "workers": 1,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Zero — Human Infrastructure to Get Hired",
+      "lang": "en",
+      "description": "Zero is building human infrastructure for the AI era. Learn, build, and get hired through immersive, AI-native experiences designed by reverse-engineering real jobs."
+    },
+    "featuresBeforeScroll": {
+      "elements": 117,
+      "canvases": 1,
+      "animations": 7,
+      "hidden": 5
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 7265292,
+        "layoutCount": 9,
+        "recalcStyleCount": 34,
+        "scriptDuration": 0.178048,
+        "taskDuration": 16.173053,
+        "nodes": 592
+      },
+      "timing": {
+        "domContentLoaded": 180,
+        "load": 273,
+        "first-paint": 216,
+        "first-contentful-paint": 216
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "hud-status-shimmer",
+        "duration": 9000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "scroll-indicator-bob",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "scroll-ruler-nav-spin",
+        "duration": 700,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "scroll-ruler-nav-spin",
+        "duration": 700,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "scroll-ruler-nav-spin",
+        "duration": 700,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "scroll-ruler-nav-spin",
+        "duration": 700,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "scroll-ruler-nav-spin",
+        "duration": 700,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A07020009C270000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-N4VGV4H4EN&gtm=45je6a72v9257711552za208zd9257711552xf1&_p=1791625451475&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=145705533.1791625452&frm=0&ngs=1&pscdl=noapi&rcb=6&sr=390x844&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=1&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=1&tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791625451&sct=1&seg=0&dl=https%3A%2F%2Fwhy.zero.university%2F&dt=Zero%20%E2%80%94%20Human%20Infrastructure%20to%20Get%20Hired&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=270",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-N4VGV4H4EN&gtm=45je6a72v9257711552za200zd9257711552xf1&_p=1791625451475&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEAAAAQ&ae=a&are=1&cid=145705533.1791625452&frm=0&ngs=1&pscdl=noapi&rcb=6&sr=390x844&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=1&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=2&tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791625451&sct=1&seg=0&dl=https%3A%2F%2Fwhy.zero.university%2F&dt=Zero%20%E2%80%94%20Human%20Infrastructure%20to%20Get%20Hired&en=scroll&epn.percent_scrolled=90&_et=12&tfd=6728",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 1
+    }
+  }
+}

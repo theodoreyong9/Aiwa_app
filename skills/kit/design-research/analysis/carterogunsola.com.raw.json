@@ -1,0 +1,1371 @@
+{
+  "url": "https://carterogunsola.com/",
+  "at": "2026-10-09T11:19:03.584Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 13052,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 916,
+      "typography": {
+        "families": [
+          [
+            "Oracle",
+            60
+          ],
+          [
+            "PP Neue Montreal Mono",
+            15
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            54
+          ],
+          [
+            "600",
+            12
+          ],
+          [
+            "580",
+            9
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            34
+          ]
+        ],
+        "sizeMin": 9.92,
+        "sizeMedian": 12,
+        "sizeMax": 96,
+        "sizeMaxVw": 6.7,
+        "scaleRatio": 8,
+        "letterSpacingMean": -0.024,
+        "loadedFonts": [
+          {
+            "family": "Oracle",
+            "weight": "200 1000",
+            "style": "oblique 0deg 13deg"
+          },
+          {
+            "family": "PP Neue Montreal Mono",
+            "weight": "300 450",
+            "style": "normal"
+          },
+          {
+            "family": "PP Neue Montreal Mono",
+            "weight": "451 650",
+            "style": "normal"
+          }
+        ],
+        "variableFont": true,
+        "textElements": 75
+      },
+      "color": {
+        "background": "rgb(30, 30, 30)",
+        "backgroundLuminance": 0.01298303234217301,
+        "backgrounds": [
+          [
+            "rgba(247, 247, 247, 0.08)",
+            51
+          ],
+          [
+            "rgb(38, 38, 38)",
+            19
+          ],
+          [
+            "rgb(110, 155, 209)",
+            1
+          ],
+          [
+            "rgb(181, 181, 117)",
+            1
+          ],
+          [
+            "rgb(213, 167, 180)",
+            1
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(247, 247, 247)",
+            295
+          ],
+          [
+            "color(srgb 0.968627 0.968627 0.968627 / 0.6)",
+            34
+          ],
+          [
+            "color(srgb 0.968627 0.968627 0.968627 / 0.32)",
+            6
+          ],
+          [
+            "color(srgb 0.968627 0.968627 0.968627 / 0.66)",
+            6
+          ],
+          [
+            "rgb(110, 155, 209)",
+            4
+          ]
+        ],
+        "meanSaturation": 0.21,
+        "rootVars": {
+          "--s-0": "0rem",
+          "--s-2": ".125rem",
+          "--s-4": ".25rem",
+          "--s-6": ".375rem",
+          "--s-8": ".5rem",
+          "--s-10": ".625rem",
+          "--s-12": ".75rem",
+          "--s-14": ".875rem",
+          "--s-16": "1rem",
+          "--s-18": "1.125rem",
+          "--s-20": "1.25rem",
+          "--s-24": "1.5rem",
+          "--s-30": "1.875rem",
+          "--s-32": "2rem",
+          "--s-36": "2.25rem",
+          "--s-38": "2.375rem",
+          "--s-40": "2.5rem",
+          "--s-48": "3rem",
+          "--s-56": "3.5rem",
+          "--s-64": "4rem",
+          "--s-80": "5rem",
+          "--s-88": "5.5rem",
+          "--s-92": "5.75rem",
+          "--s-96": "6rem",
+          "--s-100": "6.25rem",
+          "--s-112": "7rem",
+          "--s-120": "7.5rem",
+          "--s-128": "8rem",
+          "--s-144": "9rem",
+          "--s-160": "10rem",
+          "--mono-100": "#f7f7f7",
+          "--mono-500": "#484848",
+          "--mono-900": "#1e1e1e",
+          "--surface-warm": "#fdfcfb",
+          "--white": "#fff",
+          "--r-xs": "var(--s-2)",
+          "--r-sm": "var(--s-4)",
+          "--r-md": ".375rem",
+          "--r-lg": "var(--s-8)",
+          "--r-xl": "var(--s-12)"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 15,
+        "sticky": 0,
+        "fixed": 15,
+        "grid": 52,
+        "flex": 134,
+        "absolute": 82,
+        "asymmetricGrids": 1,
+        "splitScreen": false,
+        "scrollHeight": 955,
+        "pages": 1.1,
+        "spacing": [
+          [
+            4,
+            84
+          ],
+          [
+            12,
+            60
+          ],
+          [
+            8,
+            47
+          ],
+          [
+            2,
+            33
+          ],
+          [
+            10,
+            14
+          ],
+          [
+            24,
+            3
+          ],
+          [
+            16,
+            3
+          ],
+          [
+            5,
+            2
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 0,
+        "animationKinds": [],
+        "infiniteAnimations": 0,
+        "animationDurations": [],
+        "easings": [],
+        "transitionDurationsMs": [
+          [
+            500,
+            104
+          ],
+          [
+            300,
+            80
+          ],
+          [
+            400,
+            63
+          ],
+          [
+            250,
+            18
+          ],
+          [
+            200,
+            6
+          ]
+        ],
+        "keyframes": [
+          "astroFadeInOut",
+          "astroFadeIn",
+          "astroFadeOut",
+          "astroSlideFromRight",
+          "astroSlideFromLeft",
+          "astroSlideToRight",
+          "astroSlideToLeft",
+          "grain-jump",
+          "veil-failsafe",
+          "labd-stage-rise",
+          "labd-stage-sink",
+          "spin-turn",
+          "hud-pulse",
+          "bell-badge-in"
+        ],
+        "viewTransitionCss": true,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 7,
+      "media": {
+        "canvases": [
+          {
+            "w": 1440,
+            "h": 900,
+            "area": 0.99
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0.99
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0.99
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0.99
+          },
+          {
+            "w": 1440,
+            "h": 900,
+            "area": 0.99
+          }
+        ],
+        "videos": [],
+        "svg": 97,
+        "images": 0,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 4,
+          "2d": 1
+        },
+        "raf": 328,
+        "io": 0,
+        "ro": 3,
+        "mo": 9,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Carter Ogunsola :: Creative Developer & Brand Engineer",
+      "lang": "en",
+      "description": "I’m a creative developer, director and entrepreneur, crafting web experiences with a taste for pure digital originality. Born in Lagos, based in Utah."
+    },
+    "featuresBeforeScroll": {
+      "elements": 910,
+      "canvases": 5,
+      "animations": 0,
+      "hidden": 7
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 6,
+      "changed": 0
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 7415912,
+        "layoutCount": 72,
+        "recalcStyleCount": 545,
+        "scriptDuration": 0.205043,
+        "taskDuration": 8.245338,
+        "nodes": 2015
+      },
+      "timing": {
+        "domContentLoaded": 507,
+        "load": 1028,
+        "first-paint": 468,
+        "first-contentful-paint": 468
+      }
+    },
+    "network": [
+      {
+        "url": "https://carterogunsola.com/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 15325
+      },
+      {
+        "url": "https://carterogunsola.com/fonts/oracle/Oracle-Variable.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 247849
+      },
+      {
+        "url": "https://carterogunsola.com/_astro/ClientRouter.astro_astro_type_script_index_0_lang.DplsW-2c.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1171
+      },
+      {
+        "url": "https://carterogunsola.com/_astro/Base.C-Njm2nK.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 11854
+      },
+      {
+        "url": "https://carterogunsola.com/_astro/page.CENh9UKf.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 348
+      },
+      {
+        "url": "https://carterogunsola.com/_astro/Base.astro_astro_type_script_index_0_lang.BmT7DZU3.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 46417
+      },
+      {
+        "url": "https://static.cloudflareinsights.com/beacon.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 10438
+      },
+      {
+        "url": "https://carterogunsola.com/_astro/prefetch.BhDfpIsL.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1679
+      },
+      {
+        "url": "https://carterogunsola.com/_astro/client.dBBHJp23.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4970
+      },
+      {
+        "url": "https://carterogunsola.com/_astro/mesh.DnpBQ695.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 90503
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='600'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.015' numOctaves='5' seed='7' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3CfeComponentTransfer%3E%3CfeFuncA type='linear' slope='0.016'/%3E%3C/feComponentTransfer%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23g)'/%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3CfeComponentTransfer%3E%3CfeFuncA type='linear' slope='0.034'/%3E%3C/feComponentTransfer%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23g)'/%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cg fill='%23808080' fill-opacity='0.04'%3E%3Ccircle cx='4' cy='4' r='1.05'/%3E%3Ccircle cx='0' cy='0' r='1.05'/%3E%3Ccircle cx='8' cy='0' r='1.05'/%3E%3Ccircle cx='0' cy='8' r='1.05'/%3E%3Ccircle cx='8' cy='8' r='1.05'/%3E%3C/g%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.05' numOctaves='3' seed='11' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3CfeComponentTransfer%3E%3CfeFuncA type='linear' slope='0.028'/%3E%3C/feComponentTransfer%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23g)'/%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://carterogunsola.com/fonts/pp-neue-montreal-mono/PPNeueMontrealMono-Medium.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 84065
+      },
+      {
+        "url": "https://carterogunsola.com/fonts/pp-neue-montreal-mono/PPNeueMontrealMono-Book.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 82061
+      },
+      {
+        "url": "https://carter-2026-presence.carterogunsola7589.workers.dev/parties/vitals/vitals",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 610
+      },
+      {
+        "url": "https://carterogunsola.com/_astro/wheels.BhfWC7Qa.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 36272
+      },
+      {
+        "url": "https://carterogunsola.com/_astro/three.module.DBbmgHoE.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 150510
+      },
+      {
+        "url": "https://carterogunsola.com/_astro/gl-warm.Cs1frxOX.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 781
+      },
+      {
+        "url": "https://carterogunsola.com/_astro/RoomEnvironment.CsPbsEjR.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1394
+      },
+      {
+        "url": "https://cloudflareinsights.com/cdn-cgi/rum",
+        "method": "OPTIONS",
+        "type": "OTHER",
+        "initiator": "preflight",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://cloudflareinsights.com/cdn-cgi/rum",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 35
+      },
+      {
+        "url": "https://carterogunsola.com/_astro/dist.C3hNWf9G.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 5663
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-BQSNNQ5M5R",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 185655
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-BQSNNQ5M5R&gtm=45je6a72v887185215za208zd887185215xf1&_p=1791544727508&gcs=G101&gcd=13p3t3p3p5l1&npa=1&dma_cps=-&dma=0&ecid=1178283615&_eu=EAAAAGA&are=1&cid=696627073.1791544728&ec_mode=a&frm=0&ir=1&pscdl=denied&rcb=10&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&gaf=2&_s=1&tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791544728&sct=1&seg=0&dl=https%3A%2F%2Fcarterogunsola.com%2F&dt=Carter%20Ogunsola%20%3A%3A%20Creative%20Developer%20%26%20Brand%20Engineer&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1381",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-BQSNNQ5M5R&gtm=45je6a72v887185215za200zd887185215xf1&_p=1791544727508&gcs=G101&gcd=13p3t3p3p5l1&npa=1&dma_cps=-&dma=0&ecid=1178283615&_eu=EEAAAGQ&ae=a&are=1&cid=696627073.1791544728&frm=0&ir=1&pscdl=denied&rcb=10&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&gaf=2&_s=2&tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791544728&sct=1&seg=0&dl=https%3A%2F%2Fcarterogunsola.com%2F&dt=Carter%20Ogunsola%20%3A%3A%20Creative%20Developer%20%26%20Brand%20Engineer&en=scroll&epn.percent_scrolled=90&_et=5&tfd=6709",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false
+      },
+      {
+        "url": "https://carterogunsola.com/_astro/canvas.D0rBfPBj.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 5648
+      },
+      {
+        "url": "https://carterogunsola.com/_astro/deck.Ds1_Jh-g.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 8868
+      },
+      {
+        "url": "https://carterogunsola.com/_astro/mesh-wire.CQ-5TR8b.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 859
+      },
+      {
+        "url": "https://carterogunsola.com/_astro/studio-env.ExNDzFhz.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 929
+      },
+      {
+        "url": "https://carterogunsola.com/_astro/css3d.DQxlWk7_.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1750
+      },
+      {
+        "url": "https://carterogunsola.com/_astro/frank-card.BYMmn-HQ.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4897
+      },
+      {
+        "url": "https://carterogunsola.com/_astro/console.Ci-JS3a4.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4646
+      },
+      {
+        "url": "https://carterogunsola.com/about",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 21383
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 1, 0.89, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 1, 0.89, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 0,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear(0 0%, 1 100%)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 900,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear(0 0%, 0.005 1.1235955056179776%, 0.019 2.247191011235955%, 0.039 3.370786516853933%, 0.066 4.49438202247191%, 0.096 5.617977528089888%, 0.129 6.741573033707866%, 0.165 7.865168539325843%, 0.202 8.98876404494382%, 0.24 10.112359550561798%, 0.278 11.235955056179776%, 0.316 12.359550561797754%, 0.354 13.483146067415731%, 0.39 14.606741573033709%, 0.426 15.730337078651687%, 0.461 16.853932584269664%, 0.494 17.97752808988764%, 0.526 19.10112359550562%, 0.557 20.224719101123597%, 0.586 21.348314606741575%, 0.614 22.471910112359552%, 0.64 23.59550561797753%, 0.665 24.719101123595507%, 0.689 25.842696629213485%, 0.711 26.966292134831463%, 0.731 28.08988764044944%, 0.751 29.213483146067418%, 0.769 30.337078651685395%, 0.786 31.460674157303373%, 0.802 32.58426966292135%, 0.817 33.70786516853933%, 0.831 34.831460674157306%, 0.844 35.95505617977528%, 0.856 37.07865168539326%, 0.867 38.20224719101124%, 0.877 39.325842696629216%, 0.887 40.449438202247194%, 0.896 41.57303370786517%, 0.904 42.69662921348315%, 0.912 43.82022471910113%, 0.919 44.943820224719104%, 0.925 46.06741573033708%, 0.931 47.19101123595506%, 0.937 48.31460674157304%, 0.942 49.438202247191015%, 0.947 50.56179775280899%, 0.951 51.68539325842697%, 0.955 52.80898876404495%, 0.959 53.932584269662925%, 0.962 55.0561797752809%, 0.965 56.17977528089888%, 0.968 57.30337078651686%, 0.971 58.426966292134836%, 0.973 59.55056179775281%, 0.976 60.67415730337079%, 0.978 61.79775280898877%, 0.98 62.921348314606746%, 0.981 64.04494382022472%, 0.983 65.16853932584269%, 0.984 66.29213483146067%, 0.986 67.41573033707866%, 0.987 68.53932584269663%, 0.988 69.6629213483146%, 0.989 70.78651685393258%, 0.99 71.91011235955057%, 0.991 73.03370786516854%, 0.992 74.15730337078651%, 0.992 75.28089887640449%, 0.993 76.40449438202248%, 0.994 77.52808988764045%, 0.994 78.65168539325842%, 0.995 79.7752808988764%, 0.995 80.89887640449439%, 0.996 82.02247191011236%, 0.996 83.14606741573033%, 0.9963 84.26966292134831%, 0.9967 85.3932584269663%, 0.9969 86.51685393258427%, 0.9972 87.64044943820224%, 0.9975 88.76404494382022%, 0.9977 89.88764044943821%, 0.9979 91.01123595505618%, 0.9981 92.13483146067415%, 0.9982 93.25842696629213%, 0.9984 94.38202247191012%, 0.9985 95.50561797752809%, 0.9987 96.62921348314606%, 0.9988 97.75280898876404%, 0.9989 98.87640449438203%, 1 100%)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 900,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear(0 0%, 0.005 1.1235955056179776%, 0.019 2.247191011235955%, 0.039 3.370786516853933%, 0.066 4.49438202247191%, 0.096 5.617977528089888%, 0.129 6.741573033707866%, 0.165 7.865168539325843%, 0.202 8.98876404494382%, 0.24 10.112359550561798%, 0.278 11.235955056179776%, 0.316 12.359550561797754%, 0.354 13.483146067415731%, 0.39 14.606741573033709%, 0.426 15.730337078651687%, 0.461 16.853932584269664%, 0.494 17.97752808988764%, 0.526 19.10112359550562%, 0.557 20.224719101123597%, 0.586 21.348314606741575%, 0.614 22.471910112359552%, 0.64 23.59550561797753%, 0.665 24.719101123595507%, 0.689 25.842696629213485%, 0.711 26.966292134831463%, 0.731 28.08988764044944%, 0.751 29.213483146067418%, 0.769 30.337078651685395%, 0.786 31.460674157303373%, 0.802 32.58426966292135%, 0.817 33.70786516853933%, 0.831 34.831460674157306%, 0.844 35.95505617977528%, 0.856 37.07865168539326%, 0.867 38.20224719101124%, 0.877 39.325842696629216%, 0.887 40.449438202247194%, 0.896 41.57303370786517%, 0.904 42.69662921348315%, 0.912 43.82022471910113%, 0.919 44.943820224719104%, 0.925 46.06741573033708%, 0.931 47.19101123595506%, 0.937 48.31460674157304%, 0.942 49.438202247191015%, 0.947 50.56179775280899%, 0.951 51.68539325842697%, 0.955 52.80898876404495%, 0.959 53.932584269662925%, 0.962 55.0561797752809%, 0.965 56.17977528089888%, 0.968 57.30337078651686%, 0.971 58.426966292134836%, 0.973 59.55056179775281%, 0.976 60.67415730337079%, 0.978 61.79775280898877%, 0.98 62.921348314606746%, 0.981 64.04494382022472%, 0.983 65.16853932584269%, 0.984 66.29213483146067%, 0.986 67.41573033707866%, 0.987 68.53932584269663%, 0.988 69.6629213483146%, 0.989 70.78651685393258%, 0.99 71.91011235955057%, 0.991 73.03370786516854%, 0.992 74.15730337078651%, 0.992 75.28089887640449%, 0.993 76.40449438202248%, 0.994 77.52808988764045%, 0.994 78.65168539325842%, 0.995 79.7752808988764%, 0.995 80.89887640449439%, 0.996 82.02247191011236%, 0.996 83.14606741573033%, 0.9963 84.26966292134831%, 0.9967 85.3932584269663%, 0.9969 86.51685393258427%, 0.9972 87.64044943820224%, 0.9975 88.76404494382022%, 0.9977 89.88764044943821%, 0.9979 91.01123595505618%, 0.9981 92.13483146067415%, 0.9982 93.25842696629213%, 0.9984 94.38202247191012%, 0.9985 95.50561797752809%, 0.9987 96.62921348314606%, 0.9988 97.75280898876404%, 0.9989 98.87640449438203%, 1 100%)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 900,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear(0 0%, 0.005 1.1235955056179776%, 0.019 2.247191011235955%, 0.039 3.370786516853933%, 0.066 4.49438202247191%, 0.096 5.617977528089888%, 0.129 6.741573033707866%, 0.165 7.865168539325843%, 0.202 8.98876404494382%, 0.24 10.112359550561798%, 0.278 11.235955056179776%, 0.316 12.359550561797754%, 0.354 13.483146067415731%, 0.39 14.606741573033709%, 0.426 15.730337078651687%, 0.461 16.853932584269664%, 0.494 17.97752808988764%, 0.526 19.10112359550562%, 0.557 20.224719101123597%, 0.586 21.348314606741575%, 0.614 22.471910112359552%, 0.64 23.59550561797753%, 0.665 24.719101123595507%, 0.689 25.842696629213485%, 0.711 26.966292134831463%, 0.731 28.08988764044944%, 0.751 29.213483146067418%, 0.769 30.337078651685395%, 0.786 31.460674157303373%, 0.802 32.58426966292135%, 0.817 33.70786516853933%, 0.831 34.831460674157306%, 0.844 35.95505617977528%, 0.856 37.07865168539326%, 0.867 38.20224719101124%, 0.877 39.325842696629216%, 0.887 40.449438202247194%, 0.896 41.57303370786517%, 0.904 42.69662921348315%, 0.912 43.82022471910113%, 0.919 44.943820224719104%, 0.925 46.06741573033708%, 0.931 47.19101123595506%, 0.937 48.31460674157304%, 0.942 49.438202247191015%, 0.947 50.56179775280899%, 0.951 51.68539325842697%, 0.955 52.80898876404495%, 0.959 53.932584269662925%, 0.962 55.0561797752809%, 0.965 56.17977528089888%, 0.968 57.30337078651686%, 0.971 58.426966292134836%, 0.973 59.55056179775281%, 0.976 60.67415730337079%, 0.978 61.79775280898877%, 0.98 62.921348314606746%, 0.981 64.04494382022472%, 0.983 65.16853932584269%, 0.984 66.29213483146067%, 0.986 67.41573033707866%, 0.987 68.53932584269663%, 0.988 69.6629213483146%, 0.989 70.78651685393258%, 0.99 71.91011235955057%, 0.991 73.03370786516854%, 0.992 74.15730337078651%, 0.992 75.28089887640449%, 0.993 76.40449438202248%, 0.994 77.52808988764045%, 0.994 78.65168539325842%, 0.995 79.7752808988764%, 0.995 80.89887640449439%, 0.996 82.02247191011236%, 0.996 83.14606741573033%, 0.9963 84.26966292134831%, 0.9967 85.3932584269663%, 0.9969 86.51685393258427%, 0.9972 87.64044943820224%, 0.9975 88.76404494382022%, 0.9977 89.88764044943821%, 0.9979 91.01123595505618%, 0.9981 92.13483146067415%, 0.9982 93.25842696629213%, 0.9984 94.38202247191012%, 0.9985 95.50561797752809%, 0.9987 96.62921348314606%, 0.9988 97.75280898876404%, 0.9989 98.87640449438203%, 1 100%)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 900,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear(0 0%, 0.005 1.1235955056179776%, 0.019 2.247191011235955%, 0.039 3.370786516853933%, 0.066 4.49438202247191%, 0.096 5.617977528089888%, 0.129 6.741573033707866%, 0.165 7.865168539325843%, 0.202 8.98876404494382%, 0.24 10.112359550561798%, 0.278 11.235955056179776%, 0.316 12.359550561797754%, 0.354 13.483146067415731%, 0.39 14.606741573033709%, 0.426 15.730337078651687%, 0.461 16.853932584269664%, 0.494 17.97752808988764%, 0.526 19.10112359550562%, 0.557 20.224719101123597%, 0.586 21.348314606741575%, 0.614 22.471910112359552%, 0.64 23.59550561797753%, 0.665 24.719101123595507%, 0.689 25.842696629213485%, 0.711 26.966292134831463%, 0.731 28.08988764044944%, 0.751 29.213483146067418%, 0.769 30.337078651685395%, 0.786 31.460674157303373%, 0.802 32.58426966292135%, 0.817 33.70786516853933%, 0.831 34.831460674157306%, 0.844 35.95505617977528%, 0.856 37.07865168539326%, 0.867 38.20224719101124%, 0.877 39.325842696629216%, 0.887 40.449438202247194%, 0.896 41.57303370786517%, 0.904 42.69662921348315%, 0.912 43.82022471910113%, 0.919 44.943820224719104%, 0.925 46.06741573033708%, 0.931 47.19101123595506%, 0.937 48.31460674157304%, 0.942 49.438202247191015%, 0.947 50.56179775280899%, 0.951 51.68539325842697%, 0.955 52.80898876404495%, 0.959 53.932584269662925%, 0.962 55.0561797752809%, 0.965 56.17977528089888%, 0.968 57.30337078651686%, 0.971 58.426966292134836%, 0.973 59.55056179775281%, 0.976 60.67415730337079%, 0.978 61.79775280898877%, 0.98 62.921348314606746%, 0.981 64.04494382022472%, 0.983 65.16853932584269%, 0.984 66.29213483146067%, 0.986 67.41573033707866%, 0.987 68.53932584269663%, 0.988 69.6629213483146%, 0.989 70.78651685393258%, 0.99 71.91011235955057%, 0.991 73.03370786516854%, 0.992 74.15730337078651%, 0.992 75.28089887640449%, 0.993 76.40449438202248%, 0.994 77.52808988764045%, 0.994 78.65168539325842%, 0.995 79.7752808988764%, 0.995 80.89887640449439%, 0.996 82.02247191011236%, 0.996 83.14606741573033%, 0.9963 84.26966292134831%, 0.9967 85.3932584269663%, 0.9969 86.51685393258427%, 0.9972 87.64044943820224%, 0.9975 88.76404494382022%, 0.9977 89.88764044943821%, 0.9979 91.01123595505618%, 0.9981 92.13483146067415%, 0.9982 93.25842696629213%, 0.9984 94.38202247191012%, 0.9985 95.50561797752809%, 0.9987 96.62921348314606%, 0.9988 97.75280898876404%, 0.9989 98.87640449438203%, 1 100%)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 900,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear(0 0%, 0.005 1.1235955056179776%, 0.019 2.247191011235955%, 0.039 3.370786516853933%, 0.066 4.49438202247191%, 0.096 5.617977528089888%, 0.129 6.741573033707866%, 0.165 7.865168539325843%, 0.202 8.98876404494382%, 0.24 10.112359550561798%, 0.278 11.235955056179776%, 0.316 12.359550561797754%, 0.354 13.483146067415731%, 0.39 14.606741573033709%, 0.426 15.730337078651687%, 0.461 16.853932584269664%, 0.494 17.97752808988764%, 0.526 19.10112359550562%, 0.557 20.224719101123597%, 0.586 21.348314606741575%, 0.614 22.471910112359552%, 0.64 23.59550561797753%, 0.665 24.719101123595507%, 0.689 25.842696629213485%, 0.711 26.966292134831463%, 0.731 28.08988764044944%, 0.751 29.213483146067418%, 0.769 30.337078651685395%, 0.786 31.460674157303373%, 0.802 32.58426966292135%, 0.817 33.70786516853933%, 0.831 34.831460674157306%, 0.844 35.95505617977528%, 0.856 37.07865168539326%, 0.867 38.20224719101124%, 0.877 39.325842696629216%, 0.887 40.449438202247194%, 0.896 41.57303370786517%, 0.904 42.69662921348315%, 0.912 43.82022471910113%, 0.919 44.943820224719104%, 0.925 46.06741573033708%, 0.931 47.19101123595506%, 0.937 48.31460674157304%, 0.942 49.438202247191015%, 0.947 50.56179775280899%, 0.951 51.68539325842697%, 0.955 52.80898876404495%, 0.959 53.932584269662925%, 0.962 55.0561797752809%, 0.965 56.17977528089888%, 0.968 57.30337078651686%, 0.971 58.426966292134836%, 0.973 59.55056179775281%, 0.976 60.67415730337079%, 0.978 61.79775280898877%, 0.98 62.921348314606746%, 0.981 64.04494382022472%, 0.983 65.16853932584269%, 0.984 66.29213483146067%, 0.986 67.41573033707866%, 0.987 68.53932584269663%, 0.988 69.6629213483146%, 0.989 70.78651685393258%, 0.99 71.91011235955057%, 0.991 73.03370786516854%, 0.992 74.15730337078651%, 0.992 75.28089887640449%, 0.993 76.40449438202248%, 0.994 77.52808988764045%, 0.994 78.65168539325842%, 0.995 79.7752808988764%, 0.995 80.89887640449439%, 0.996 82.02247191011236%, 0.996 83.14606741573033%, 0.9963 84.26966292134831%, 0.9967 85.3932584269663%, 0.9969 86.51685393258427%, 0.9972 87.64044943820224%, 0.9975 88.76404494382022%, 0.9977 89.88764044943821%, 0.9979 91.01123595505618%, 0.9981 92.13483146067415%, 0.9982 93.25842696629213%, 0.9984 94.38202247191012%, 0.9985 95.50561797752809%, 0.9987 96.62921348314606%, 0.9988 97.75280898876404%, 0.9989 98.87640449438203%, 1 100%)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 900,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear(0 0%, 0.005 1.1235955056179776%, 0.019 2.247191011235955%, 0.039 3.370786516853933%, 0.066 4.49438202247191%, 0.096 5.617977528089888%, 0.129 6.741573033707866%, 0.165 7.865168539325843%, 0.202 8.98876404494382%, 0.24 10.112359550561798%, 0.278 11.235955056179776%, 0.316 12.359550561797754%, 0.354 13.483146067415731%, 0.39 14.606741573033709%, 0.426 15.730337078651687%, 0.461 16.853932584269664%, 0.494 17.97752808988764%, 0.526 19.10112359550562%, 0.557 20.224719101123597%, 0.586 21.348314606741575%, 0.614 22.471910112359552%, 0.64 23.59550561797753%, 0.665 24.719101123595507%, 0.689 25.842696629213485%, 0.711 26.966292134831463%, 0.731 28.08988764044944%, 0.751 29.213483146067418%, 0.769 30.337078651685395%, 0.786 31.460674157303373%, 0.802 32.58426966292135%, 0.817 33.70786516853933%, 0.831 34.831460674157306%, 0.844 35.95505617977528%, 0.856 37.07865168539326%, 0.867 38.20224719101124%, 0.877 39.325842696629216%, 0.887 40.449438202247194%, 0.896 41.57303370786517%, 0.904 42.69662921348315%, 0.912 43.82022471910113%, 0.919 44.943820224719104%, 0.925 46.06741573033708%, 0.931 47.19101123595506%, 0.937 48.31460674157304%, 0.942 49.438202247191015%, 0.947 50.56179775280899%, 0.951 51.68539325842697%, 0.955 52.80898876404495%, 0.959 53.932584269662925%, 0.962 55.0561797752809%, 0.965 56.17977528089888%, 0.968 57.30337078651686%, 0.971 58.426966292134836%, 0.973 59.55056179775281%, 0.976 60.67415730337079%, 0.978 61.79775280898877%, 0.98 62.921348314606746%, 0.981 64.04494382022472%, 0.983 65.16853932584269%, 0.984 66.29213483146067%, 0.986 67.41573033707866%, 0.987 68.53932584269663%, 0.988 69.6629213483146%, 0.989 70.78651685393258%, 0.99 71.91011235955057%, 0.991 73.03370786516854%, 0.992 74.15730337078651%, 0.992 75.28089887640449%, 0.993 76.40449438202248%, 0.994 77.52808988764045%, 0.994 78.65168539325842%, 0.995 79.7752808988764%, 0.995 80.89887640449439%, 0.996 82.02247191011236%, 0.996 83.14606741573033%, 0.9963 84.26966292134831%, 0.9967 85.3932584269663%, 0.9969 86.51685393258427%, 0.9972 87.64044943820224%, 0.9975 88.76404494382022%, 0.9977 89.88764044943821%, 0.9979 91.01123595505618%, 0.9981 92.13483146067415%, 0.9982 93.25842696629213%, 0.9984 94.38202247191012%, 0.9985 95.50561797752809%, 0.9987 96.62921348314606%, 0.9988 97.75280898876404%, 0.9989 98.87640449438203%, 1 100%)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 1, 0.89, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "translate",
+        "duration": 400,
+        "delay": 50,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 1, 0.89, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "translate",
+        "duration": 400,
+        "delay": 12.5,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "translate",
+        "duration": 400,
+        "delay": 37.50000000000001,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 1, 0.89, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 1, 0.89, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "translate",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "translate",
+        "duration": 400,
+        "delay": 25,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 1, 0.89, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 900,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear(0 0%, 0.005 1.1235955056179776%, 0.019 2.247191011235955%, 0.039 3.370786516853933%, 0.066 4.49438202247191%, 0.096 5.617977528089888%, 0.129 6.741573033707866%, 0.165 7.865168539325843%, 0.202 8.98876404494382%, 0.24 10.112359550561798%, 0.278 11.235955056179776%, 0.316 12.359550561797754%, 0.354 13.483146067415731%, 0.39 14.606741573033709%, 0.426 15.730337078651687%, 0.461 16.853932584269664%, 0.494 17.97752808988764%, 0.526 19.10112359550562%, 0.557 20.224719101123597%, 0.586 21.348314606741575%, 0.614 22.471910112359552%, 0.64 23.59550561797753%, 0.665 24.719101123595507%, 0.689 25.842696629213485%, 0.711 26.966292134831463%, 0.731 28.08988764044944%, 0.751 29.213483146067418%, 0.769 30.337078651685395%, 0.786 31.460674157303373%, 0.802 32.58426966292135%, 0.817 33.70786516853933%, 0.831 34.831460674157306%, 0.844 35.95505617977528%, 0.856 37.07865168539326%, 0.867 38.20224719101124%, 0.877 39.325842696629216%, 0.887 40.449438202247194%, 0.896 41.57303370786517%, 0.904 42.69662921348315%, 0.912 43.82022471910113%, 0.919 44.943820224719104%, 0.925 46.06741573033708%, 0.931 47.19101123595506%, 0.937 48.31460674157304%, 0.942 49.438202247191015%, 0.947 50.56179775280899%, 0.951 51.68539325842697%, 0.955 52.80898876404495%, 0.959 53.932584269662925%, 0.962 55.0561797752809%, 0.965 56.17977528089888%, 0.968 57.30337078651686%, 0.971 58.426966292134836%, 0.973 59.55056179775281%, 0.976 60.67415730337079%, 0.978 61.79775280898877%, 0.98 62.921348314606746%, 0.981 64.04494382022472%, 0.983 65.16853932584269%, 0.984 66.29213483146067%, 0.986 67.41573033707866%, 0.987 68.53932584269663%, 0.988 69.6629213483146%, 0.989 70.78651685393258%, 0.99 71.91011235955057%, 0.991 73.03370786516854%, 0.992 74.15730337078651%, 0.992 75.28089887640449%, 0.993 76.40449438202248%, 0.994 77.52808988764045%, 0.994 78.65168539325842%, 0.995 79.7752808988764%, 0.995 80.89887640449439%, 0.996 82.02247191011236%, 0.996 83.14606741573033%, 0.9963 84.26966292134831%, 0.9967 85.3932584269663%, 0.9969 86.51685393258427%, 0.9972 87.64044943820224%, 0.9975 88.76404494382022%, 0.9977 89.88764044943821%, 0.9979 91.01123595505618%, 0.9981 92.13483146067415%, 0.9982 93.25842696629213%, 0.9984 94.38202247191012%, 0.9985 95.50561797752809%, 0.9987 96.62921348314606%, 0.9988 97.75280898876404%, 0.9989 98.87640449438203%, 1 100%)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 900,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear(0 0%, 0.005 1.1235955056179776%, 0.019 2.247191011235955%, 0.039 3.370786516853933%, 0.066 4.49438202247191%, 0.096 5.617977528089888%, 0.129 6.741573033707866%, 0.165 7.865168539325843%, 0.202 8.98876404494382%, 0.24 10.112359550561798%, 0.278 11.235955056179776%, 0.316 12.359550561797754%, 0.354 13.483146067415731%, 0.39 14.606741573033709%, 0.426 15.730337078651687%, 0.461 16.853932584269664%, 0.494 17.97752808988764%, 0.526 19.10112359550562%, 0.557 20.224719101123597%, 0.586 21.348314606741575%, 0.614 22.471910112359552%, 0.64 23.59550561797753%, 0.665 24.719101123595507%, 0.689 25.842696629213485%, 0.711 26.966292134831463%, 0.731 28.08988764044944%, 0.751 29.213483146067418%, 0.769 30.337078651685395%, 0.786 31.460674157303373%, 0.802 32.58426966292135%, 0.817 33.70786516853933%, 0.831 34.831460674157306%, 0.844 35.95505617977528%, 0.856 37.07865168539326%, 0.867 38.20224719101124%, 0.877 39.325842696629216%, 0.887 40.449438202247194%, 0.896 41.57303370786517%, 0.904 42.69662921348315%, 0.912 43.82022471910113%, 0.919 44.943820224719104%, 0.925 46.06741573033708%, 0.931 47.19101123595506%, 0.937 48.31460674157304%, 0.942 49.438202247191015%, 0.947 50.56179775280899%, 0.951 51.68539325842697%, 0.955 52.80898876404495%, 0.959 53.932584269662925%, 0.962 55.0561797752809%, 0.965 56.17977528089888%, 0.968 57.30337078651686%, 0.971 58.426966292134836%, 0.973 59.55056179775281%, 0.976 60.67415730337079%, 0.978 61.79775280898877%, 0.98 62.921348314606746%, 0.981 64.04494382022472%, 0.983 65.16853932584269%, 0.984 66.29213483146067%, 0.986 67.41573033707866%, 0.987 68.53932584269663%, 0.988 69.6629213483146%, 0.989 70.78651685393258%, 0.99 71.91011235955057%, 0.991 73.03370786516854%, 0.992 74.15730337078651%, 0.992 75.28089887640449%, 0.993 76.40449438202248%, 0.994 77.52808988764045%, 0.994 78.65168539325842%, 0.995 79.7752808988764%, 0.995 80.89887640449439%, 0.996 82.02247191011236%, 0.996 83.14606741573033%, 0.9963 84.26966292134831%, 0.9967 85.3932584269663%, 0.9969 86.51685393258427%, 0.9972 87.64044943820224%, 0.9975 88.76404494382022%, 0.9977 89.88764044943821%, 0.9979 91.01123595505618%, 0.9981 92.13483146067415%, 0.9982 93.25842696629213%, 0.9984 94.38202247191012%, 0.9985 95.50561797752809%, 0.9987 96.62921348314606%, 0.9988 97.75280898876404%, 0.9989 98.87640449438203%, 1 100%)"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A07020008C390000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0A020008C390000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x33940013e200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x33940013ca00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x33940013e200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0D020008C390000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x33940013e200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-BQSNNQ5M5R&gtm=45je6a72v887185215za208zd887185215xf1&_p=1791544727508&gcs=G101&gcd=13p3t3p3p5l1&npa=1&dma_cps=-&dma=0&ecid=1178283615&_eu=EAAAAGA&are=1&cid=696627073.1791544728&ec_mode=a&frm=0&ir=1&pscdl=denied&rcb=10&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&gaf=2&_s=1&tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791544728&sct=1&seg=0&dl=https%3A%2F%2Fcarterogunsola.com%2F&dt=Carter%20Ogunsola%20%3A%3A%20Creative%20Developer%20%26%20Brand%20Engineer&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1381",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-BQSNNQ5M5R&gtm=45je6a72v887185215za200zd887185215xf1&_p=1791544727508&gcs=G101&gcd=13p3t3p3p5l1&npa=1&dma_cps=-&dma=0&ecid=1178283615&_eu=EEAAAGQ&ae=a&are=1&cid=696627073.1791544728&frm=0&ir=1&pscdl=denied&rcb=10&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&gaf=2&_s=2&tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791544728&sct=1&seg=0&dl=https%3A%2F%2Fcarterogunsola.com%2F&dt=Carter%20Ogunsola%20%3A%3A%20Creative%20Developer%20%26%20Brand%20Engineer&en=scroll&epn.percent_scrolled=90&_et=5&tfd=6709",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 3412,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 904,
+      "typography": {
+        "families": [
+          [
+            "Oracle",
+            60
+          ],
+          [
+            "PP Neue Montreal Mono",
+            1
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            52
+          ],
+          [
+            "580",
+            9
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            34
+          ]
+        ],
+        "sizeMin": 9.92,
+        "sizeMedian": 12,
+        "sizeMax": 48.6765,
+        "sizeMaxVw": 12.5,
+        "scaleRatio": 4.1,
+        "letterSpacingMean": -0.022,
+        "loadedFonts": [
+          {
+            "family": "Oracle",
+            "weight": "200 1000",
+            "style": "oblique 0deg 13deg"
+          },
+          {
+            "family": "PP Neue Montreal Mono",
+            "weight": "300 450",
+            "style": "normal"
+          },
+          {
+            "family": "PP Neue Montreal Mono",
+            "weight": "451 650",
+            "style": "normal"
+          }
+        ],
+        "variableFont": true,
+        "textElements": 61
+      },
+      "color": {
+        "background": "rgb(30, 30, 30)",
+        "backgroundLuminance": 0.01298303234217301,
+        "backgrounds": [
+          [
+            "rgba(247, 247, 247, 0.08)",
+            51
+          ],
+          [
+            "rgb(38, 38, 38)",
+            9
+          ],
+          [
+            "rgb(213, 167, 180)",
+            1
+          ],
+          [
+            "rgb(72, 72, 72)",
+            0
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(247, 247, 247)",
+            258
+          ],
+          [
+            "color(srgb 0.968627 0.968627 0.968627 / 0.6)",
+            34
+          ],
+          [
+            "rgb(213, 167, 180)",
+            4
+          ],
+          [
+            "rgba(247, 247, 247, 0.5)",
+            3
+          ],
+          [
+            "rgb(30, 30, 30)",
+            1
+          ]
+        ],
+        "meanSaturation": 0.05,
+        "rootVars": {
+          "--s-0": "0rem",
+          "--s-2": ".125rem",
+          "--s-4": ".25rem",
+          "--s-6": ".375rem",
+          "--s-8": ".5rem",
+          "--s-10": ".625rem",
+          "--s-12": ".75rem",
+          "--s-14": ".875rem",
+          "--s-16": "1rem",
+          "--s-18": "1.125rem",
+          "--s-20": "1.25rem",
+          "--s-24": "1.5rem",
+          "--s-30": "1.875rem",
+          "--s-32": "2rem",
+          "--s-36": "2.25rem",
+          "--s-38": "2.375rem",
+          "--s-40": "2.5rem",
+          "--s-48": "3rem",
+          "--s-56": "3.5rem",
+          "--s-64": "4rem",
+          "--s-80": "5rem",
+          "--s-88": "5.5rem",
+          "--s-92": "5.75rem",
+          "--s-96": "6rem",
+          "--s-100": "6.25rem",
+          "--s-112": "7rem",
+          "--s-120": "7.5rem",
+          "--s-128": "8rem",
+          "--s-144": "9rem",
+          "--s-160": "10rem",
+          "--mono-100": "#f7f7f7",
+          "--mono-500": "#484848",
+          "--mono-900": "#1e1e1e",
+          "--surface-warm": "#fdfcfb",
+          "--white": "#fff",
+          "--r-xs": "var(--s-2)",
+          "--r-sm": "var(--s-4)",
+          "--r-md": ".375rem",
+          "--r-lg": "var(--s-8)",
+          "--r-xl": "var(--s-12)"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 15,
+        "sticky": 0,
+        "fixed": 15,
+        "grid": 54,
+        "flex": 131,
+        "absolute": 78,
+        "asymmetricGrids": 2,
+        "splitScreen": false,
+        "scrollHeight": 936,
+        "pages": 1.1,
+        "spacing": [
+          [
+            4,
+            84
+          ],
+          [
+            12,
+            60
+          ],
+          [
+            8,
+            47
+          ],
+          [
+            2,
+            31
+          ],
+          [
+            10,
+            14
+          ],
+          [
+            16,
+            5
+          ],
+          [
+            24,
+            3
+          ],
+          [
+            5,
+            2
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 0,
+        "animationKinds": [],
+        "infiniteAnimations": 0,
+        "animationDurations": [],
+        "easings": [],
+        "transitionDurationsMs": [
+          [
+            500,
+            104
+          ],
+          [
+            300,
+            80
+          ],
+          [
+            400,
+            63
+          ],
+          [
+            250,
+            18
+          ],
+          [
+            200,
+            6
+          ]
+        ],
+        "keyframes": [
+          "astroFadeInOut",
+          "astroFadeIn",
+          "astroFadeOut",
+          "astroSlideFromRight",
+          "astroSlideFromLeft",
+          "astroSlideToRight",
+          "astroSlideToLeft",
+          "grain-jump",
+          "veil-failsafe",
+          "labd-stage-rise",
+          "labd-stage-sink",
+          "spin-turn",
+          "hud-pulse",
+          "bell-badge-in"
+        ],
+        "viewTransitionCss": true,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 7,
+      "media": {
+        "canvases": [
+          {
+            "w": 585,
+            "h": 1266,
+            "area": 1
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 1
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 1
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 1
+          },
+          {
+            "w": 390,
+            "h": 844,
+            "area": 1
+          }
+        ],
+        "videos": [],
+        "svg": 95,
+        "images": 0,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 4,
+          "2d": 1
+        },
+        "raf": 340,
+        "io": 0,
+        "ro": 3,
+        "mo": 9,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Carter Ogunsola :: Creative Developer & Brand Engineer",
+      "lang": "en",
+      "description": "I’m a creative developer, director and entrepreneur, crafting web experiences with a taste for pure digital originality. Born in Lagos, based in Utah."
+    },
+    "featuresBeforeScroll": {
+      "elements": 904,
+      "canvases": 5,
+      "animations": 0,
+      "hidden": 7
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 7312304,
+        "layoutCount": 25,
+        "recalcStyleCount": 170,
+        "scriptDuration": 0.145584,
+        "taskDuration": 0.735842,
+        "nodes": 1496
+      },
+      "timing": {
+        "domContentLoaded": 342,
+        "load": 656,
+        "first-paint": 304,
+        "first-contentful-paint": 304
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 1, 0.89, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.5, 1, 0.89, 1)"
+      },
+      {
+        "type": "WebAnimation",
+        "name": "",
+        "duration": 0,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear(0 0%, 1 100%)"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A07020008C390000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0A020008C390000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0D020008C390000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-BQSNNQ5M5R&gtm=45je6a72v887185215za208zd887185215xf1&_p=1791544740452&gcs=G101&gcd=13p3t3p3p5l1&npa=1&dma_cps=-&dma=0&ecid=2042432103&_eu=EAAAAGA&are=1&cid=1273991137.1791544741&ec_mode=a&frm=0&ir=1&pscdl=denied&rcb=0&sr=390x844&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=1&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&gaf=2&_s=1&tag_exp=115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791544741&sct=1&seg=0&dl=https%3A%2F%2Fcarterogunsola.com%2F&dt=Carter%20Ogunsola%20%3A%3A%20Creative%20Developer%20%26%20Brand%20Engineer&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=907",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  }
+}

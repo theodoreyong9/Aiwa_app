@@ -1,0 +1,2063 @@
+{
+  "url": "https://mesh3d.gallery/the-state-of-the-gallery",
+  "at": "2026-10-10T10:04:36.454Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 326722,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 1057,
+      "typography": {
+        "families": [
+          [
+            "Geist",
+            1
+          ],
+          [
+            "overusedGrotesk",
+            1
+          ]
+        ],
+        "weights": [
+          [
+            "600",
+            1
+          ],
+          [
+            "400",
+            1
+          ]
+        ],
+        "textTransforms": [],
+        "sizeMin": 14,
+        "sizeMedian": 200,
+        "sizeMax": 200,
+        "sizeMaxVw": 13.9,
+        "scaleRatio": 1,
+        "letterSpacingMean": 0,
+        "loadedFonts": [
+          {
+            "family": "Geist",
+            "weight": "100 900",
+            "style": "normal"
+          },
+          {
+            "family": "overusedGrotesk",
+            "weight": "400",
+            "style": "normal"
+          }
+        ],
+        "variableFont": true,
+        "textElements": 2
+      },
+      "color": {
+        "background": "rgb(8, 9, 13)",
+        "backgroundLuminance": 0.002760565750062453,
+        "backgrounds": [
+          [
+            "rgb(8, 9, 13)",
+            2566
+          ],
+          [
+            "rgb(236, 255, 62)",
+            17
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(207, 222, 229)",
+            303
+          ],
+          [
+            "rgb(186, 186, 186)",
+            139
+          ],
+          [
+            "rgb(255, 255, 255)",
+            132
+          ],
+          [
+            "rgba(0, 0, 0, 0)",
+            1
+          ],
+          [
+            "rgb(8, 9, 13)",
+            1
+          ]
+        ],
+        "meanSaturation": 0.57,
+        "rootVars": {
+          "--ir-copy": "var(--ir-copy-desktop-px, 18px)"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 2,
+        "sticky": 0,
+        "fixed": 2,
+        "grid": 6,
+        "flex": 18,
+        "absolute": 15,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 900,
+        "pages": 1,
+        "spacing": [
+          [
+            16,
+            3
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            24,
+            1
+          ],
+          [
+            12,
+            1
+          ],
+          [
+            18,
+            1
+          ],
+          [
+            56,
+            1
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 1,
+        "animationKinds": [
+          "CSSTransition"
+        ],
+        "infiniteAnimations": 0,
+        "animationDurations": [
+          180
+        ],
+        "easings": [
+          "cubic-bezier(0.33, 1, 0.68, 1)"
+        ],
+        "transitionDurationsMs": [
+          [
+            700,
+            373
+          ],
+          [
+            320,
+            51
+          ],
+          [
+            360,
+            9
+          ],
+          [
+            200,
+            2
+          ],
+          [
+            150,
+            1
+          ]
+        ],
+        "keyframes": [
+          "count-in",
+          "accordion-down",
+          "accordion-up",
+          "collapsible-down",
+          "collapsible-up",
+          "nav-from-left",
+          "nav-from-right",
+          "nav-viewport-in",
+          "nav-viewport-out",
+          "ring-text-rotate",
+          "spin",
+          "pulse",
+          "enter",
+          "exit",
+          "swipe-out-left",
+          "swipe-out-right",
+          "swipe-out-up",
+          "swipe-out-down",
+          "sonner-fade-in",
+          "sonner-fade-out"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 136,
+      "media": {
+        "canvases": [
+          {
+            "w": 1425,
+            "h": 900,
+            "area": 0.99
+          },
+          {
+            "w": 1425,
+            "h": 900,
+            "area": 0.99
+          }
+        ],
+        "videos": [],
+        "svg": 1,
+        "images": 1,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "2d": 8,
+          "webgl2": 1
+        },
+        "raf": 151,
+        "io": 2,
+        "ro": 2,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "The state of the gallery | mesh3d",
+      "lang": "en",
+      "description": "A Three.js showcase for the current state of the mesh3d gallery."
+    },
+    "featuresBeforeScroll": {
+      "elements": 811,
+      "canvases": 2,
+      "animations": 1,
+      "hidden": 93
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 6,
+      "changed": 0
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 13737396,
+        "layoutCount": 54,
+        "recalcStyleCount": 94,
+        "scriptDuration": 1.133818,
+        "taskDuration": 315.337053,
+        "nodes": 1767
+      },
+      "timing": {
+        "domContentLoaded": 1216,
+        "load": 1218,
+        "first-paint": 928,
+        "first-contentful-paint": 928
+      }
+    },
+    "network": [
+      {
+        "url": "https://mesh3d.gallery/the-state-of-the-gallery",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 8802
+      },
+      {
+        "url": "https://mesh3d.gallery/_next/static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2?dpl=a23a31d148a70b047df5179a92d6c0a57b567a47",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 23508
+      },
+      {
+        "url": "https://mesh3d.gallery/_next/static/media/OverusedGrotesk_Roman-s.p.0gue6lbcd8qie.woff2?dpl=a23a31d148a70b047df5179a92d6c0a57b567a47",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 62297
+      },
+      {
+        "url": "https://mesh3d.gallery/_next/static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2?dpl=a23a31d148a70b047df5179a92d6c0a57b567a47",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 30272
+      },
+      {
+        "url": "https://mesh3d.gallery/logo/logotype.svg?dpl=a23a31d148a70b047df5179a92d6c0a57b567a47",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 3091
+      },
+      {
+        "url": "https://mesh3d.gallery/_next/static/chunks/19jwc9-0wk_-w.css?dpl=a23a31d148a70b047df5179a92d6c0a57b567a47",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1447
+      },
+      {
+        "url": "https://mesh3d.gallery/_next/static/chunks/3i8b57la20mzl.css?dpl=a23a31d148a70b047df5179a92d6c0a57b567a47",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 23551
+      },
+      {
+        "url": "https://mesh3d.gallery/_next/static/chunks/19kjsbykcf8n3.js?dpl=a23a31d148a70b047df5179a92d6c0a57b567a47",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3681
+      },
+      {
+        "url": "https://mesh3d.gallery/_next/static/chunks/38bkfr3cr5jer.js?dpl=a23a31d148a70b047df5179a92d6c0a57b567a47",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 10396
+      },
+      {
+        "url": "https://mesh3d.gallery/_next/static/chunks/2j79mx1bg9i4j.js?dpl=a23a31d148a70b047df5179a92d6c0a57b567a47",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 9714
+      },
+      {
+        "url": "https://mesh3d.gallery/_next/static/chunks/3u5fv4bbs18da.js?dpl=a23a31d148a70b047df5179a92d6c0a57b567a47",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 35633
+      },
+      {
+        "url": "https://mesh3d.gallery/_next/static/chunks/2fx5lfk8bo0kw.js?dpl=a23a31d148a70b047df5179a92d6c0a57b567a47",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 15439
+      },
+      {
+        "url": "https://mesh3d.gallery/_next/static/chunks/2y4lkta0t5md9.js?dpl=a23a31d148a70b047df5179a92d6c0a57b567a47",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 117418
+      },
+      {
+        "url": "https://mesh3d.gallery/_next/static/chunks/turbopack-34msky_2rgwvd.js?dpl=a23a31d148a70b047df5179a92d6c0a57b567a47",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 5593
+      },
+      {
+        "url": "https://mesh3d.gallery/_next/static/chunks/1frwa2qsbcyh9.js?dpl=a23a31d148a70b047df5179a92d6c0a57b567a47",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 8530
+      },
+      {
+        "url": "https://mesh3d.gallery/_next/static/chunks/0kwf1321lduy0.js?dpl=a23a31d148a70b047df5179a92d6c0a57b567a47",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 16056
+      },
+      {
+        "url": "https://mesh3d.gallery/_next/static/chunks/0epqsqadfvt1w.js?dpl=a23a31d148a70b047df5179a92d6c0a57b567a47",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1550
+      },
+      {
+        "url": "https://mesh3d.gallery/_next/static/chunks/1p6p5uwyj444d.js?dpl=a23a31d148a70b047df5179a92d6c0a57b567a47",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 10148
+      },
+      {
+        "url": "https://mesh3d.gallery/_next/static/chunks/2ivbn34m2mwiu.js?dpl=a23a31d148a70b047df5179a92d6c0a57b567a47",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 8941
+      },
+      {
+        "url": "https://mesh3d.gallery/_next/static/chunks/3x89wwxetptzk.js?dpl=a23a31d148a70b047df5179a92d6c0a57b567a47",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 85618
+      },
+      {
+        "url": "https://mesh3d.gallery/_next/static/chunks/3lhgmfmikhmb6.js?dpl=a23a31d148a70b047df5179a92d6c0a57b567a47",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 46174
+      },
+      {
+        "url": "https://mesh3d.gallery/_next/static/chunks/2qmyz175xge-i.js?dpl=a23a31d148a70b047df5179a92d6c0a57b567a47",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 68839
+      },
+      {
+        "url": "https://mesh3d.gallery/_next/static/chunks/24b5rrmipqpg5.js?dpl=a23a31d148a70b047df5179a92d6c0a57b567a47",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 10347
+      },
+      {
+        "url": "https://mesh3d.gallery/_next/static/chunks/1ub82t6txp4-h.js?dpl=a23a31d148a70b047df5179a92d6c0a57b567a47",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 6933
+      },
+      {
+        "url": "https://mesh3d.gallery/_next/static/chunks/2d0cfji1lr1y0.js?dpl=a23a31d148a70b047df5179a92d6c0a57b567a47",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4405
+      },
+      {
+        "url": "https://mesh3d.gallery/_next/static/chunks/3nu9gw56gzh4i.js?dpl=a23a31d148a70b047df5179a92d6c0a57b567a47",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 8008
+      },
+      {
+        "url": "https://mesh3d.gallery/_next/static/chunks/1fmc6qsenvxxx.js?dpl=a23a31d148a70b047df5179a92d6c0a57b567a47",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 8188
+      },
+      {
+        "url": "https://mesh3d.gallery/_next/static/chunks/1ige7frx99cur.js?dpl=a23a31d148a70b047df5179a92d6c0a57b567a47",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 9152
+      },
+      {
+        "url": "https://mesh3d.gallery/_next/static/chunks/2q_l_rlcelfzh.js?dpl=a23a31d148a70b047df5179a92d6c0a57b567a47",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 11037
+      },
+      {
+        "url": "https://mesh3d.gallery/_next/static/chunks/1fs9i8jrj8-b3.js?dpl=a23a31d148a70b047df5179a92d6c0a57b567a47",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 11194
+      },
+      {
+        "url": "https://mesh3d.gallery/_next/static/chunks/1swj5_fbilnhr.js?dpl=a23a31d148a70b047df5179a92d6c0a57b567a47",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 7682
+      },
+      {
+        "url": "https://mesh3d.gallery/_next/static/chunks/1aajfeaw9fd3u.js?dpl=a23a31d148a70b047df5179a92d6c0a57b567a47",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 16419
+      },
+      {
+        "url": "https://mesh3d.gallery/_next/static/chunks/0csn9nqi8b28k.js?dpl=a23a31d148a70b047df5179a92d6c0a57b567a47",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 12412
+      },
+      {
+        "url": "https://umami.mesh3d.gallery/script.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2794
+      },
+      {
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser"
+      },
+      {
+        "url": "https://o4510732891389952.ingest.de.sentry.io/api/4510732893945936/envelope/?sentry_version=7&sentry_key=647aa348edc2ba8df20b65f40d1a521c&sentry_client=sentry.javascript.nextjs%2F10.74.0",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 281
+      },
+      {
+        "url": "https://o4510732891389952.ingest.de.sentry.io/api/4510732893945936/envelope/?sentry_version=7&sentry_key=647aa348edc2ba8df20b65f40d1a521c&sentry_client=sentry.javascript.nextjs%2F10.74.0",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 56
+      },
+      {
+        "url": "https://mesh3d.gallery/_next/static/chunks/3ikk2qb6wq8s5.js?dpl=a23a31d148a70b047df5179a92d6c0a57b567a47",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1425
+      },
+      {
+        "url": "https://mesh3d.gallery/_next/static/chunks/3mgqz_qdia67r.js?dpl=a23a31d148a70b047df5179a92d6c0a57b567a47",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 63568
+      },
+      {
+        "url": "https://mesh3d.gallery/_next/static/chunks/1-d8y95fs809a.js?dpl=a23a31d148a70b047df5179a92d6c0a57b567a47",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 134755
+      },
+      {
+        "url": "https://umami.mesh3d.gallery/api/send",
+        "method": "OPTIONS",
+        "type": "OTHER",
+        "initiator": "preflight",
+        "status": 204,
+        "mime": "",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://umami.mesh3d.gallery/api/send",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 752
+      },
+      {
+        "url": "https://mesh3d.gallery/api/in-review/stats",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 8422
+      },
+      {
+        "url": "https://cdn.mesh3d.gallery/previews/1781177554431-nd49g68-unseen.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 9607
+      },
+      {
+        "url": "https://cdn.mesh3d.gallery/videos/1768394623120-ygq9vqt-1768308726303-igloo.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://cdn.mesh3d.gallery/videos/1768394623120-ygq9vqt-1768308726303-igloo.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 33609
+      },
+      {
+        "url": "https://cdn.mesh3d.gallery/videos/1781863119051-u5c24y0-shopify.com.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://cdn.mesh3d.gallery/videos/1783588683706-zkdol9s-why.zero.university.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 280,
+        "delay": 324,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 320,
+        "delay": 324,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 280,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 320,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 280,
+        "delay": 162,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 320,
+        "delay": 162,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 280,
+        "delay": 180,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 320,
+        "delay": 180,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 280,
+        "delay": 18,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 320,
+        "delay": 18,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 280,
+        "delay": 252,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 320,
+        "delay": 252,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 280,
+        "delay": 36,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 320,
+        "delay": 36,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 280,
+        "delay": 90,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 320,
+        "delay": 90,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 280,
+        "delay": 288,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 320,
+        "delay": 288,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 280,
+        "delay": 126,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 320,
+        "delay": 126,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 280,
+        "delay": 234,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 320,
+        "delay": 234,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 280,
+        "delay": 36,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 320,
+        "delay": 36,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 280,
+        "delay": 198,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 320,
+        "delay": 198,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 280,
+        "delay": 18,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 320,
+        "delay": 18,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 280,
+        "delay": 342,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 320,
+        "delay": 342,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 280,
+        "delay": 144,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 320,
+        "delay": 144,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 280,
+        "delay": 54,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 320,
+        "delay": 54,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 280,
+        "delay": 216,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 320,
+        "delay": 216,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 280,
+        "delay": 72,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 320,
+        "delay": 72,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 280,
+        "delay": 270,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 320,
+        "delay": 270,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 280,
+        "delay": 108,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 320,
+        "delay": 108,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 280,
+        "delay": 306,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 320,
+        "delay": 306,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 280,
+        "delay": 72,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 320,
+        "delay": 72,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 280,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 320,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 280,
+        "delay": 54,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 320,
+        "delay": 54,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "width",
+        "duration": 180,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "width",
+        "duration": 180,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "width",
+        "duration": 180,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "width",
+        "duration": 180,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "width",
+        "duration": 180,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "width",
+        "duration": 180,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "width",
+        "duration": 180,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "width",
+        "duration": 180,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "width",
+        "duration": 180,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "width",
+        "duration": 180,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      }
+    ],
+    "console": [
+      {
+        "level": "error",
+        "text": "Refused to load the script 'https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920' because it violates the following Content Security Policy directive: \"sc"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0702000AC0E0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x3aa400140200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x3aa400140200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x3aa400140200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x3aa400140200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920",
+        "error": ""
+      },
+      {
+        "url": "https://cdn.mesh3d.gallery/videos/1768394623120-ygq9vqt-1768308726303-igloo.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://cdn.mesh3d.gallery/videos/1781863119051-u5c24y0-shopify.com.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://cdn.mesh3d.gallery/videos/1783588683706-zkdol9s-why.zero.university.mp4",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 33026,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 815,
+      "typography": {
+        "families": [
+          [
+            "overusedGrotesk",
+            1
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            1
+          ]
+        ],
+        "textTransforms": [],
+        "sizeMin": 85.8,
+        "sizeMedian": 85.8,
+        "sizeMax": 85.8,
+        "sizeMaxVw": 22,
+        "scaleRatio": 1,
+        "letterSpacingMean": 0,
+        "loadedFonts": [
+          {
+            "family": "overusedGrotesk",
+            "weight": "400",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 1
+      },
+      "color": {
+        "background": "rgb(8, 9, 13)",
+        "backgroundLuminance": 0.002760565750062453,
+        "backgrounds": [
+          [
+            "rgb(8, 9, 13)",
+            658
+          ],
+          [
+            "rgb(236, 255, 62)",
+            1
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(207, 222, 229)",
+            281
+          ],
+          [
+            "rgb(255, 255, 255)",
+            83
+          ],
+          [
+            "rgb(186, 186, 186)",
+            43
+          ],
+          [
+            "rgba(0, 0, 0, 0)",
+            1
+          ]
+        ],
+        "meanSaturation": 0.57,
+        "rootVars": {
+          "--ir-copy": "var(--ir-copy-desktop-px, 18px)"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 2,
+        "sticky": 0,
+        "fixed": 2,
+        "grid": 6,
+        "flex": 9,
+        "absolute": 19,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 844,
+        "pages": 1,
+        "spacing": [
+          [
+            12,
+            2
+          ],
+          [
+            24,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            86,
+            1
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 1,
+        "animationKinds": [
+          "CSSTransition"
+        ],
+        "infiniteAnimations": 0,
+        "animationDurations": [
+          180
+        ],
+        "easings": [
+          "cubic-bezier(0.33, 1, 0.68, 1)"
+        ],
+        "transitionDurationsMs": [
+          [
+            700,
+            264
+          ],
+          [
+            320,
+            51
+          ],
+          [
+            200,
+            2
+          ],
+          [
+            180,
+            1
+          ]
+        ],
+        "keyframes": [
+          "count-in",
+          "accordion-down",
+          "accordion-up",
+          "collapsible-down",
+          "collapsible-up",
+          "nav-from-left",
+          "nav-from-right",
+          "nav-viewport-in",
+          "nav-viewport-out",
+          "ring-text-rotate",
+          "spin",
+          "pulse",
+          "enter",
+          "exit",
+          "swipe-out-left",
+          "swipe-out-right",
+          "swipe-out-up",
+          "swipe-out-down",
+          "sonner-fade-in",
+          "sonner-fade-out"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 67,
+      "media": {
+        "canvases": [
+          {
+            "w": 780,
+            "h": 1688,
+            "area": 1
+          },
+          {
+            "w": 780,
+            "h": 1688,
+            "area": 1
+          }
+        ],
+        "videos": [],
+        "svg": 1,
+        "images": 1,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "2d": 8,
+          "webgl2": 1
+        },
+        "raf": 71,
+        "io": 2,
+        "ro": 2,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "The state of the gallery | mesh3d",
+      "lang": "en",
+      "description": "A Three.js showcase for the current state of the mesh3d gallery."
+    },
+    "featuresBeforeScroll": {
+      "elements": 682,
+      "canvases": 2,
+      "animations": 0,
+      "hidden": 51
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 12550052,
+        "layoutCount": 16,
+        "recalcStyleCount": 27,
+        "scriptDuration": 11.902496,
+        "taskDuration": 27.392199,
+        "nodes": 1305
+      },
+      "timing": {
+        "domContentLoaded": 1149,
+        "load": 1289,
+        "first-paint": 1088,
+        "first-contentful-paint": 12508
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 280,
+        "delay": 72,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 320,
+        "delay": 72,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 280,
+        "delay": 108,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 320,
+        "delay": 108,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 280,
+        "delay": 90,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 320,
+        "delay": 90,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 280,
+        "delay": 54,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 320,
+        "delay": 54,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 280,
+        "delay": 36,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 320,
+        "delay": 36,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 280,
+        "delay": 72,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 320,
+        "delay": 72,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 280,
+        "delay": 162,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 320,
+        "delay": 162,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 280,
+        "delay": 252,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 320,
+        "delay": 252,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 280,
+        "delay": 270,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 320,
+        "delay": 270,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 280,
+        "delay": 144,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 320,
+        "delay": 144,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 280,
+        "delay": 198,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 320,
+        "delay": 198,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 280,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 320,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 280,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 320,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 280,
+        "delay": 18,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 320,
+        "delay": 18,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 280,
+        "delay": 180,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 320,
+        "delay": 180,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 280,
+        "delay": 306,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 320,
+        "delay": 306,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 280,
+        "delay": 324,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 320,
+        "delay": 324,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 280,
+        "delay": 342,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 320,
+        "delay": 342,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 280,
+        "delay": 18,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 320,
+        "delay": 18,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 280,
+        "delay": 126,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 320,
+        "delay": 126,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 280,
+        "delay": 216,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 320,
+        "delay": 216,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 280,
+        "delay": 36,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 320,
+        "delay": 36,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 280,
+        "delay": 54,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 320,
+        "delay": 54,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 280,
+        "delay": 288,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 320,
+        "delay": 288,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 280,
+        "delay": 234,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 320,
+        "delay": 234,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "width",
+        "duration": 180,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "width",
+        "duration": 180,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "width",
+        "duration": 180,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "width",
+        "duration": 180,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "width",
+        "duration": 180,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "width",
+        "duration": 180,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      }
+    ],
+    "console": [
+      {
+        "level": "error",
+        "text": "Refused to load the script 'https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920' because it violates the following Content Security Policy directive: \"sc"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0702000AC0E0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920",
+        "error": ""
+      },
+      {
+        "url": "https://cdn.mesh3d.gallery/videos/1768394623120-ygq9vqt-1768308726303-igloo.mp4",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  }
+}

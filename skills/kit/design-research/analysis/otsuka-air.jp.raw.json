@@ -1,0 +1,4999 @@
+{
+  "url": "https://otsuka-air.jp/",
+  "at": "2026-10-10T09:58:18.570Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 166735,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 1645,
+      "typography": {
+        "families": [
+          [
+            "HelveticaNowDisplay-Regular",
+            64
+          ],
+          [
+            "TazuganeGothicStdN-Regular",
+            60
+          ],
+          [
+            "TazuganeGothicStdN-Medium",
+            9
+          ],
+          [
+            "IwaOGoPro-Db",
+            2
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            133
+          ],
+          [
+            "500",
+            2
+          ]
+        ],
+        "textTransforms": [
+          [
+            "capitalize",
+            9
+          ]
+        ],
+        "sizeMin": 12,
+        "sizeMedian": 18,
+        "sizeMax": 60,
+        "sizeMaxVw": 4.2,
+        "scaleRatio": 3.3,
+        "letterSpacingMean": 0.113,
+        "loadedFonts": [
+          {
+            "family": "fpbf_ac93d8111",
+            "weight": "normal",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 135
+      },
+      "color": {
+        "background": "rgb(17, 19, 18)",
+        "backgroundLuminance": 0.006285879338419347,
+        "backgrounds": [
+          [
+            "rgb(0, 168, 82)",
+            2372
+          ],
+          [
+            "rgb(255, 255, 255)",
+            822
+          ],
+          [
+            "rgb(169, 177, 174)",
+            168
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(255, 255, 255)",
+            309
+          ],
+          [
+            "rgb(0, 0, 0)",
+            234
+          ],
+          [
+            "rgb(17, 19, 18)",
+            107
+          ],
+          [
+            "rgb(0, 168, 82)",
+            34
+          ],
+          [
+            "rgba(255, 255, 255, 0.4)",
+            8
+          ]
+        ],
+        "meanSaturation": 0.35,
+        "rootVars": {
+          "--header-color": "#ffffff",
+          "--header-color-duration": ".5s",
+          "--header-color-easing": "cubic-bezier(.3, .26, .38, 1)",
+          "--progress-bar-color": "#ffffff",
+          "--l-padding-left": "34px",
+          "--l-padding-right": "10px"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 4,
+        "sticky": 17,
+        "fixed": 8,
+        "grid": 110,
+        "flex": 289,
+        "absolute": 361,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 44335,
+        "pages": 49.3,
+        "spacing": [
+          [
+            10,
+            57
+          ],
+          [
+            30,
+            39
+          ],
+          [
+            5,
+            14
+          ],
+          [
+            4,
+            11
+          ],
+          [
+            60,
+            10
+          ],
+          [
+            40,
+            8
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            14,
+            4
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 0,
+        "animationKinds": [],
+        "infiniteAnimations": 0,
+        "animationDurations": [],
+        "easings": [],
+        "transitionDurationsMs": [
+          [
+            300,
+            211
+          ],
+          [
+            500,
+            63
+          ],
+          [
+            1000,
+            4
+          ]
+        ],
+        "keyframes": [
+          "enter",
+          "exit"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 90,
+      "media": {
+        "canvases": [
+          {
+            "w": 1440,
+            "h": 900,
+            "area": 1
+          }
+        ],
+        "videos": [
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://otsuka-air.jp/assets/video/about.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://otsuka-air.jp/assets/video/about.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://otsuka-air.jp/assets/video/science_technology.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://otsuka-air.jp/assets/video/science_technology.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://otsuka-air.jp/assets/video/product.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://otsuka-air.jp/assets/video/product.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://otsuka-air.jp/assets/video/interview.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://otsuka-air.jp/assets/video/interview.mp4"
+          }
+        ],
+        "svg": 61,
+        "images": 58,
+        "iframes": 4,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 1
+        },
+        "raf": 330,
+        "io": 29,
+        "ro": 38,
+        "mo": 2,
+        "startViewTransition": 0,
+        "workers": 8,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": true,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "/zeroz（ゼロズ）公式サイト | 大塚製薬",
+      "lang": "ja",
+      "description": "大塚製薬は、からだ本来の力を呼び覚ます、“Active Inner Resource”という思想にたどり着きました。その思想を形にしたのが、酸素を活かす成分「ケンフェロール」を含有したセルフコンディショニングフード「/zeroz（ゼロズ）」です。"
+    },
+    "featuresBeforeScroll": {
+      "elements": 1677,
+      "canvases": 1,
+      "animations": 0,
+      "hidden": 46
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 6,
+      "changed": 0
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 50666952,
+        "layoutCount": 116,
+        "recalcStyleCount": 305,
+        "scriptDuration": 65.71471,
+        "taskDuration": 162.154341,
+        "nodes": 12888
+      },
+      "timing": {
+        "domContentLoaded": 2132,
+        "load": 16414,
+        "first-paint": 1624,
+        "first-contentful-paint": 3264
+      }
+    },
+    "network": [
+      {
+        "url": "https://otsuka-air.jp/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 169135
+      },
+      {
+        "url": "https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique&display=swap",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 596
+      },
+      {
+        "url": "https://webfont.fontplus.jp/accessor/script/fontplus.js?qeKl1mCCy7A%3D&box=QAczRizjTNQ%3D&timeout=15&aa=1&ab=2",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/x-javascript",
+        "fromCache": false,
+        "bytes": 16963
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/interview/yujiemoto01/hero-top.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 836375
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/interview/takashidoi01/hero-top.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 425791
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/interview/takashidoi01/hero.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 172206
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/interview/takashidoi02/hero.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 185669
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/interview/yukarimiwa01/hero-top.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 545827
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/interview/yukarimiwa01/hero.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 284124
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/interview/yukarimiwa02/hero.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 282311
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/interview/shinyaoi-hanakohirose01/hero-top.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 550937
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/interview/shinyaoi-hanakohirose01/hero.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 224961
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/interview/shinyaoi-hanakohirose02/hero.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 300776
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/interview/masaoyoshida01/hero-top.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 803377
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/interview/masaoyoshida01/hero.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 386425
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/interview/masaoyoshida02/hero.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 303835
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/interview/yokonakano01/hero-top.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 558948
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/interview/yokonakano01/hero.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 211734
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/interview/yokonakano02/hero.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 193706
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/interview/makikootuka01/hero-top.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 392577
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/interview/makikootuka01/hero.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 196734
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/interview/makikootuka02/hero.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 283193
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/interview/scarz01/hero-top.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 823528
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/interview/scarz01/hero.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 396079
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/interview/scarz02/hero.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 487984
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/interview/takahiromatsui01/hero-top.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 426836
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/interview/takahiromatsui01/hero.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 190067
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/interview/takahiromatsui02/hero.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 321518
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/interview/akikayasuda01/hero-top.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 394724
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/interview/akikayasuda01/hero.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 206812
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/interview/akikayasuda02/hero.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 161950
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/interview/kawada01/hero-top.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 321451
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/interview/kawada01/hero.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 172156
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/interview/kawada02/hero.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 143130
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/interview/yujiemoto01/hero.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 320411
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/interview/yujiemoto02/hero.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 418832
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/high/intro01.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 485300
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/high/intro02.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 573267
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/high/intro03.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 569891
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/high/intro04.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 492707
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/high/intro05.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 987393
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/video/about-cover.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 55529
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/video/science_technology-cover.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 28863
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/video/product-cover.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 34845
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/video/interview-cover.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 88754
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-PFCFBJ",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 225243
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-WS3WF7B",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 207573
+      },
+      {
+        "url": "https://otsuka-air.jp/_astro/index.BT-Sj3JQ.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 3961
+      },
+      {
+        "url": "https://otsuka-air.jp/_astro/index.CLgkj-mm.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 13246
+      },
+      {
+        "url": "https://otsuka-air.jp/_astro/index.B7gqp806.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 4437
+      },
+      {
+        "url": "https://otsuka-air.jp/_astro/index.DFTYarXz.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1352
+      },
+      {
+        "url": "https://otsuka-air.jp/_astro/index.BdmgOIwl.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 2171
+      },
+      {
+        "url": "https://otsuka-air.jp/_astro/_slug_.1OTmi9eD.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 2230
+      },
+      {
+        "url": "https://otsuka-air.jp/_astro/hoisted.B1SGfLJ6.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 541046
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/video/about.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 112532
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/video/about.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 112542
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/video/science_technology.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 120360
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/video/science_technology.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 120361
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/video/product.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 210279
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/video/product.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/video/interview.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/video/interview.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/video/interview.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 12873
+      },
+      {
+        "url": "https://s.yimg.jp/images/listing/tool/cv/ytag.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 12043
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-TFSNN4N8&gtm=4e6a72",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 119275
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-KMFPJPCH&gtm=4e6a72",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 132884
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-KS9LXQGJ&gtm=4e6a72",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 119276
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-5NQT69KM&gtm=4e6a72",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 119280
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-TRKBBZFM&gtm=4e6a72",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 119278
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-K4R9KGGN&gtm=4e6a72",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 134054
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-MVNDX6Q3&gtm=4e6a72",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 156654
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-NXXSXJXR&gtm=4e6a72",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 119270
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-KL7BRGJ4&gtm=4e6a72",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 119269
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-MD3HRP8C&gtm=4e6a72",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 119271
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-KT35N2SJ&gtm=4e6a72",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 119269
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-TPFNSZJ6&gtm=4e6a72",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 119276
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-NGZP6X9K&gtm=4e6a72",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 119269
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-PRN8SKKG&gtm=4e6a72",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 119274
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-5BZ8C2WJ&gtm=4e6a72",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 119268
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-K9H2S437&gtm=4e6a72",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 130798
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-WTP72FWX&gtm=4e6a72",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 119269
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-NCLGSKDQ&gtm=4e6a72",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 140325
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-WLR8TPDV&gtm=4e6a72",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 168391
+      },
+      {
+        "url": "https://tr.webantenna.info/js/webantenna.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 3782
+      },
+      {
+        "url": "https://dmp.im-apps.net/js/11310/0001/itm.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 2617
+      },
+      {
+        "url": "https://cs.nakanohito.jp/b3/bi.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 21190
+      },
+      {
+        "url": "https://img.ak.impact-ad.jp/ut/aa68307d2e7cbaa0_2738.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 6596
+      },
+      {
+        "url": "https://connect.facebook.net/en_US/fbevents.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/x-javascript",
+        "fromCache": false,
+        "bytes": 115788
+      },
+      {
+        "url": "https://static.ads-twitter.com/uwt.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 17673
+      },
+      {
+        "url": "https://cd.ladsp.com/script/pixel2.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 4931
+      },
+      {
+        "url": "https://cd.ladsp.com/script/pixel2_p_delay.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 4164
+      },
+      {
+        "url": "https://cdn.hera.d2c.ne.jp/1.0/index.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 7610
+      },
+      {
+        "url": "https://cdn.smartnews-ads.com/i/pixel.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 3773
+      },
+      {
+        "url": "https://dmp.im-apps.net/js/1024683/0001/itm.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 2268
+      },
+      {
+        "url": "https://tag.flvcdn.net/lytag.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 9815
+      },
+      {
+        "url": "https://www.google.com/ccm/collect?rcb=8&frm=0&apvc=1&ae=g&auid=1610156508.1791626031&dt=%2Fzeroz%EF%BC%88%E3%82%BC%E3%83%AD%E3%82%BA%EF%BC%89%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%7C%20%E5%A4%A7%E5%A1%9A%E8%A3%BD%E8%96%AC&en=page_view&dl=https%3A%2F%2Fotsuka-air.jp%2F&scrsrc=www.googletagmanager.com&rnd=732557959.1791626031&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He6a72v6626330za200zd6626330xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~120385422~120469145~120469153~121046263~121046271~121246026~121246034&tft=1791626030698&tfd=1185&fmt=8",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false
+      },
+      {
+        "url": "https://ad.doubleclick.net/ccm/s/collect?auid=1610156508.1791626031&gtm=45He6a72v6626330za200zd6626330xeaxf1&fmt=8",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/html",
+        "fromCache": false
+      },
+      {
+        "url": "https://b0.yahoo.co.jp/b?_s=9e&_a=7050&_d=0002&_r=0cd90bc8&url=https%3A%2F%2Fotsuka-air.jp%2F&referrer=&device=PC&pv_time=1791626030686&device_url=%3APC%3Ahttps%3A%2F%2Fotsuka-air.jp%2F%3A",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 564
+      },
+      {
+        "url": "https://pixel-tag.insight.rakuten.co.jp/bw/?cpid=A-202603-291194-2-1",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 1065
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-EPYRMKR13P&cx=c&gtm=4e6a80h2",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 182146
+      },
+      {
+        "url": "https://www.google.com/ccm/collect?rcb=15&frm=0&apvc=0&ae=g&auid=1610156508.1791626031&dt=%2Fzeroz%EF%BC%88%E3%82%BC%E3%83%AD%E3%82%BA%EF%BC%89%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%7C%20%E5%A4%A7%E5%A1%9A%E8%A3%BD%E8%96%AC&en=page_view&dl=https%3A%2F%2Fotsuka-air.jp%2F&scrsrc=www.googletagmanager.com&rnd=732557959.1791626031&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He6a80h2v9117177521za200zd9117177521xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~120385422~120469145~120469153~121046263~121046271~121246026~121246034&tft=1791626030883&tfd=1371&fmt=8",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false
+      },
+      {
+        "url": "https://img.ak.impact-ad.jp/ut/a1/tracking.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 42813
+      },
+      {
+        "url": "https://connect.facebook.net/signals/config/1433269845159599?v=2.9.415&r=stable&domain=otsuka-air.jp&hme=a4c28c8787325ac3f8f9eac68364f47df2a8c4266e43177443e5d7f6289c9774&ex_m=117%2C240%2C170%2C27%2C81%2C82%2C161%2C77%2C76%2C11%2C180%2C101%2C20%2C152%2C140%2C46%2C84%2C89%2C148%2C175%2C182%2C8%2C4%2C5%2C7%2C6%2C3%2C102%2C114%2C32%2C17%2C31%2C18%2C33%2C34%2C35%2C37%2C55%2C162%2C86%2C125%2C22%2C24%2C51%2C47%2C49%2C48%2C94%2C103%2C107%2C123%2C159%2C163%2C53%2C124%2C29%2C26%2C132%2C78%2C43%2C165%2C164%2C166%2C156%2C154%2C30%2C42%2C66%2C122%2C177%2C79%2C21%2C127%2C92%2C75%2C23%2C96%2C97%2C129%2C95%2C150%2C149%2C153%2C108%2C176%2C179%2C41%2C56%2C126%2C54%2C160%2C71%2C184%2C109%2C183%2C209%2C254%2C83%2C273%2C272%2C271%2C14%2C25%2C28%2C40%2C62%2C116%2C68%2C10%2C72%2C110%2C111%2C112%2C118%2C143%2C38%2C36%2C145%2C146%2C147%2C142%2C141%2C171%2C85%2C174%2C172%2C173%2C57%2C67%2C136%2C19%2C178%2C52%2C322%2C323%2C324%2C321%2C337%2C359%2C247%2C236%2C69%2C237%2C235%2C362%2C353%2C59%2C248%2C120%2C144%2C91%2C134%2C61%2C133%2C139%2C138%2C65%2C73%2C167%2C87%2C88%2C128%2C44%2C39%2C60%2C63%2C113%2C181%2C1%2C137%2C16%2C135%2C12%2C2%2C64%2C104%2C15%2C74%2C70%2C131%2C100%2C99%2C186%2C187%2C105%2C106%2C9%2C115%2C185%2C58%2C157%2C98%2C90%2C80%2C130%2C119%2C168%2C50%2C158%2C0%2C93%2C151%2C155%2C169%2C45%2C121%2C13%2C188",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/x-javascript",
+        "fromCache": false,
+        "bytes": 98847
+      },
+      {
+        "url": "https://t.co/1/i/adsctp",
+        "method": "POST",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 775
+      },
+      {
+        "url": "https://analytics.twitter.com/1/i/adsctp",
+        "method": "POST",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 1119
+      },
+      {
+        "url": "https://px.ladsp.com/pixel?cr=true&advertiser_id=00027053&f=1&su=2&site_url=https%3A%2F%2Fotsuka-air.jp%2F&fm=&sfp=&ts=1791626031048&sua=eyJhcmNoaXRlY3R1cmUiOiJ4ODYiLCJiaXRuZXNzIjoiNjQiLCJtb2RlbCI6IiIsIm1vYmlsZSI6ZmFsc2UsInBsYXRmb3JtIjoiV2luZG93cyIsInBsYXRmb3JtVmVyc2lvbiI6IiIsImZ1bGxWZXJzaW9uTGlzdCI6W3siYnJhbmQiOiJIZWFkbGVzc0Nocm9tZSIsInZlcnNpb24iOiIxNDEuMC43MzkwLjM3In0seyJicmFuZCI6Ik5vdD9BX0JyYW5kIiwidmVyc2lvbiI6IjguMC4wLjAifSx7ImJyYW5kIjoiQ2hyb21pdW0iLCJ2ZXJzaW9uIjoiMTQxLjAuNzM5MC4zNyJ9XX0%3D&ismc=1",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 616
+      },
+      {
+        "url": "https://tr.webantenna.info/_webantenna.png?ga=WAe4O9-1&sc=VXdgF0og6kpBBonM&r=&u=https%3A%2F%2Fotsuka-air.jp%2F&jse=1&ce=1&pt=%2Fzeroz%EF%BC%88%E3%82%BC%E3%83%AD%E3%82%BA%EF%BC%89%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%7C%20%E5%A4%A7%E5%A1%9A%E8%A3%BD%E8%96%AC&je=0&fv=&w=1440&h=900&cd=24&ww=1440&wh=900",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 329
+      },
+      {
+        "url": "https://i.smartnews-ads.com/p?id=52c1b753ebcf997e70335859&t=1791626031&url=https%3A%2F%2Fotsuka-air.jp%2F&referrer=&e=PageView&v=1.0.1&pv=8.18.0&s%5Blangs%5D=en-US%40posix&s%5Bhc%5D=h12&s%5Btz%5D=UTC&s%5Bdpr%5D=1&s%5Bsh%5D=900&s%5Bsw%5D=1440&s%5Bsah%5D=900&s%5Bsaw%5D=1440&s%5Bscd%5D=24&s%5Bspd%5D=24&s%5Bmtp%5D=0&s%5Bhwc%5D=4&s%5Bdm%5D=8&s%5Bcdl%5D=9.8&s%5Bcet%5D=4g&s%5Bcrtt%5D=0&s%5Bcsd%5D=false&exid=96139d13-bd87-4dc0-9588-ec28cfa5b034&exid_r=96139d13-bd87-4dc0-9588-ec28cfa5b034",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 208
+      },
+      {
+        "url": "https://i6.smartnews-ads.com/smallest.png?id=52c1b753ebcf997e70335859&t=1791626031&url=https%3A%2F%2Fotsuka-air.jp%2F&referrer=&e=PageView&v=1.0.1&pv=8.18.0&s%5Blangs%5D=en-US%40posix&s%5Bhc%5D=h12&s%5Btz%5D=UTC&s%5Bdpr%5D=1&s%5Bsh%5D=900&s%5Bsw%5D=1440&s%5Bsah%5D=900&s%5Bsaw%5D=1440&s%5Bscd%5D=24&s%5Bspd%5D=24&s%5Bmtp%5D=0&s%5Bhwc%5D=4&s%5Bdm%5D=8&s%5Bcdl%5D=9.8&s%5Bcet%5D=4g&s%5Bcrtt%5D=0&s%5Bcsd%5D=false&exid=96139d13-bd87-4dc0-9588-ec28cfa5b034&exid_r=96139d13-bd87-4dc0-9588-ec28cfa5b034",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 489
+      },
+      {
+        "url": "https://js.api.nidan.d2c.ne.jp/id/nidan/pre?callback=d2c.nidan.ns&origin=https%3A%2F%2Fotsuka-air.jp&domain=otsuka-air.jp&referrer=&nv=h2",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 159
+      },
+      {
+        "url": "https://nidan.addlv.smt.docomo.ne.jp/id/daisy/sync?callback=d2c.nidan.ds&origin=https%3A%2F%2Fotsuka-air.jp&domain=otsuka-air.jp&referrer=",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 104
+      },
+      {
+        "url": "https://otsuka-air.jp/_astro/index.CYOdfaCW.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 8300
+      },
+      {
+        "url": "https://webfont.fontplus.jp/accessor/mkfont",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script"
+      },
+      {
+        "url": "https://s3-ap-northeast-1.amazonaws.com/fp-bf/3d4c80e6",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 9875
+      },
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-EPYRMKR13P&gtm=45je6a80h2v9241879387za20ozb9117177521zd9117177521xf1&_p=1791626030474&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=524483318&_eu=AAAAAGA&are=1&cid=372341585.1791626032&frm=0&pscdl=noapi&rcb=17&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&gaf=2&_s=1&tag_exp=115616985~115938466~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791626031&sct=1&seg=0&dl=https%3A%2F%2Fotsuka-air.jp%2F&dt=%2Fzeroz%EF%BC%88%E3%82%BC%E3%83%AD%E3%82%BA%EF%BC%89%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%7C%20%E5%A4%A7%E5%A1%9A%E8%A3%BD%E8%96%AC&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=2193",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false
+      },
+      {
+        "url": "https://stats.g.doubleclick.net/g/collect?v=2&tid=G-EPYRMKR13P&cid=372341585.1791626032&gtm=45je6a80h2v9241879387za20ozb9117177521zd9117177521xf1&rcb=17&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115616985~115938466~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034",
+        "method": "POST",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 547
+      },
+      {
+        "url": "https://sync6.im-apps.net/11310/segment?token=X19pbV9zaWRzMA&compat=VXoW9wEaCAYxiIkb8Mzm7Q",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 532
+      },
+      {
+        "url": "https://b6.im-apps.net/topics",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false
+      },
+      {
+        "url": "https://sync6.im-apps.net/1024683/uid",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 532
+      },
+      {
+        "url": "https://b6.im-apps.net/pv/Empqer?cid=1024683&url=https%3A%2F%2Fotsuka-air.jp%2F&ref=&title=%2Fzeroz%EF%BC%88%E3%82%BC%E3%83%AD%E3%82%BA%EF%BC%89%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%7C%20%E5%A4%A7%E5%A1%9A%E8%A3%BD%E8%96%AC&lang=en-us@posix",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 177
+      },
+      {
+        "url": "https://bs.nakanohito.jp/b3/",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 377
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=DC-17023704",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 146509
+      },
+      {
+        "url": "https://apm.yahoo.co.jp/tags/6df87183-2e30-4fe3-abf8-560a18afe4c2/events/page_view?lysu=f7820d51-63c7-4c8d-ad95-7c60778e711f&ref=https%3A%2F%2Fotsuka-air.jp%2F&rref=&impl=lytag&pvid=3d06jwrq2k9mv27vpuy&sosu=c&r=1791626033.0263972&v=1.1.29&is_ext_tx=1&hc=0",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 1744
+      },
+      {
+        "url": "https://capig.stape.pw/events/ca5226fbdac43cbad8823aedabd77fabc471b588e08228f2b967b0cb3e31944c",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false
+      },
+      {
+        "url": "https://www.facebook.com/tr/?id=1433269845159599&ev=PageView&dl=https%3A%2F%2Fotsuka-air.jp&rl=&if=false&ts=1791626032135&iw=false&sw=1440&sh=900&v=2.9.415&r=stable&ec=0&o=12316&aems=0%3B0&fbp=fb.1.1791626032131.357693330287791564&eid=ob3_plugin-set_8468c1f48d3c10622ad3fbe598ce8120b4102a8b4bd65ca0583c1aa4b5a55f6b&pm=1&hrl=d9e190&ler=empty&plt=2132.4000000001397&ups[pv]=%7B%7D&ups[rpv]=%7B%7D&it=1791626031009&coo=false&cs_cc=1&ccs=1938397426884396&cas=28775762315423171%2C28738933742370374%2C28046795061578947%2C27856676810632332%2C27780780738275142%2C27634171989549794%2C37293940140191094%2C27340133735607845%2C27117550574594397&dlc=1&cf=1&expv2[0]=pl1&expv2[1]=el2&expv2[2]=bc1&expv2[3]=ra0&expv2[4]=rp0&expv2[5]=ct2&expv2[6]=hf0&expv2[7]=sd1&expv2[8]=sp1&expv2[9]=ek1&expv2[10]=pc1&expv2[11]=gs1&expv2[12]=zs1&expv2[13]=cp1&expv2[14]=es1&expv2[15]=ac1&expv2[16]=so1&expv2[17]=wc1&expv2[18]=la1&expv2[19]=sf1&expv2[20]=da1&expv2[21]=io1&expv2[22]=ae1&expv2[23]=sx1&expv2[24]=if1&expv2[25]=fd1&expv2[26]=bg1&expv2[27]=mg1&expv2[28]=kl1&expv2[29]=sg1&expv2[30]=mk1&expv2[31]=sn1&expv2[32]=ec1&expv2[33]=mp1&expv2[34]=ps1&expv2[35]=fx1&expv2[36]=vt1&expv2[37]=dp1&expv2[38]=fw1&expv2[39]=cn1&expv2[40]=tz1&expv2[41]=pe1&expv2[42]=ee1&expv2[43]=bu1&expv2[44]=ta1&expv2[45]=ot1&expv2[46]=hv1&expv2[47]=ep1&expv2[48]=rh0&expv2[49]=ah0&rqm=GET",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 274
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/models/otsuka_kv_export.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "model/gltf-binary",
+        "fromCache": false,
+        "bytes": 452383
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/models/otsuka_tablet_tantai_export.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "model/gltf-binary",
+        "fromCache": false,
+        "bytes": 478358
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/models/otsuka_bag_tantai_export.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "model/gltf-binary",
+        "fromCache": false,
+        "bytes": 716623
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/common/zeroz-logo.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 16368
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/common/zeroz-logo-t.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 72868
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/common/disc.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 629
+      },
+      {
+        "url": "https://id5-sync.com/bounce",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 521
+      },
+      {
+        "url": "https://lb.eu-1-id5-sync.com/lb/v1",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 332
+      },
+      {
+        "url": "https://um.ladsp.com/match/iframe?pids=1_3_10_11_13_14_15_16_17_20_25_27_28_30_32_42_43&ts=1791626031485&svid=72",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 2740
+      },
+      {
+        "url": "https://cdn.hera.d2c.ne.jp/v1/third-party/e6785-0c72450d-ff00-49dd-a786-831c87330585/pv/measure.js",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1221
+      },
+      {
+        "url": "https://cdn.hera.d2c.ne.jp/v1/third-party/124ae-63fb2215-0bb4-401d-aa9e-361b2a0753b7/pv/measure.js",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1223
+      },
+      {
+        "url": "https://meas.hera.d2c.ne.jp/v1/events/e6785-0c72450d-ff00-49dd-a786-831c87330585/pv/tag.gif?a=laaQobaXjiqhUcsaZkPG&nt=navigate&r=https%3A%2F%2Fotsuka-air.jp%2F&cb=1791626032175147",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 306
+      },
+      {
+        "url": "https://meas.hera.d2c.ne.jp/v1/events/124ae-63fb2215-0bb4-401d-aa9e-361b2a0753b7/pv/tag.gif?a=laaQobaXjiqhUcsaZkPG&nt=navigate&r=https%3A%2F%2Fotsuka-air.jp%2F&cb=179162603217559",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 306
+      },
+      {
+        "url": "https://www.google.com/ccm/collect?rcb=16&frm=0&apvc=0&auid=1610156508.1791626031&dt=%2Fzeroz%EF%BC%88%E3%82%BC%E3%83%AD%E3%82%BA%EF%BC%89%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%7C%20%E5%A4%A7%E5%A1%9A%E8%A3%BD%E8%96%AC&tid=DC-17023704&en=page_view&dl=https%3A%2F%2Fotsuka-air.jp%2F&scrsrc=www.googletagmanager.com&rnd=732557959.1791626031&navt=n&npa=0&gtm=45fe6a72v9253229939za208zd9253229939xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034&tft=1791626032262&tfd=2750&tids=DC-17023704&fmt=8",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false
+      },
+      {
+        "url": "https://t.co/1/i/adsctp",
+        "method": "POST",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 160
+      },
+      {
+        "url": "https://analytics.twitter.com/1/i/adsctp",
+        "method": "POST",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 157
+      },
+      {
+        "url": "https://i.smartnews-ads.com/p?id=29b65a9622836b3b74e77c90&t=1791626032&url=https%3A%2F%2Fotsuka-air.jp%2F&referrer=&e=PageView&v=1.0.1&pv=8.18.0&s%5Blangs%5D=en-US%40posix&s%5Bhc%5D=h12&s%5Btz%5D=UTC&s%5Bdpr%5D=1&s%5Bsh%5D=900&s%5Bsw%5D=1440&s%5Bsah%5D=900&s%5Bsaw%5D=1440&s%5Bscd%5D=24&s%5Bspd%5D=24&s%5Bmtp%5D=0&s%5Bhwc%5D=4&s%5Bdm%5D=8&s%5Bcdl%5D=9.8&s%5Bcet%5D=4g&s%5Bcrtt%5D=0&s%5Bcsd%5D=false&exid=96139d13-bd87-4dc0-9588-ec28cfa5b034&exid_r=96139d13-bd87-4dc0-9588-ec28cfa5b034",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 205
+      },
+      {
+        "url": "https://i6.smartnews-ads.com/smallest.png?id=29b65a9622836b3b74e77c90&t=1791626032&url=https%3A%2F%2Fotsuka-air.jp%2F&referrer=&e=PageView&v=1.0.1&pv=8.18.0&s%5Blangs%5D=en-US%40posix&s%5Bhc%5D=h12&s%5Btz%5D=UTC&s%5Bdpr%5D=1&s%5Bsh%5D=900&s%5Bsw%5D=1440&s%5Bsah%5D=900&s%5Bsaw%5D=1440&s%5Bscd%5D=24&s%5Bspd%5D=24&s%5Bmtp%5D=0&s%5Bhwc%5D=4&s%5Bdm%5D=8&s%5Bcdl%5D=9.8&s%5Bcet%5D=4g&s%5Bcrtt%5D=0&s%5Bcsd%5D=false&exid=96139d13-bd87-4dc0-9588-ec28cfa5b034&exid_r=96139d13-bd87-4dc0-9588-ec28cfa5b034",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 488
+      },
+      {
+        "url": "https://cd.ladsp.com/script/pb_pixel2.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 4934
+      },
+      {
+        "url": "https://cd.ladsp.com/script/pb_pixel2_p_delay.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 4160
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-PBZQ7J&l=itm_dl1_11310",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 184698
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-T3NCB9N3&l=itm_dl1_1024683",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 122203
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/models/draco/draco_wasm_wrapper.js",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 11681
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/models/draco/draco_decoder.wasm",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "",
+        "fromCache": false,
+        "bytes": 286539
+      },
+      {
+        "url": "data:image/webp;base64,UklGRiIAAABXRUJQVlA4IBYAAAAwAQCdASoBAAEADsD+JaQAA3AAAAAA",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://otsuka-air.jp/9d310676-018c-4d0e-ad92-38bdead3f375",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://otsuka-air.jp/11c742e1-e2ad-4f28-8519-c2846fba47ef",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://otsuka-air.jp/ad79869f-7795-4630-bedb-808107d4b190",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://otsuka-air.jp/1184068b-03dc-4bdf-88d8-a627f160eafc",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://otsuka-air.jp/75483aa9-5dd5-45a5-b9e3-2a80ce69fa05",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://otsuka-air.jp/5d951232-6ae8-4bd0-9095-14f44d58a326",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://otsuka-air.jp/8e6cf8c8-84cc-40bc-8b9b-dc970d38618d",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://otsuka-air.jp/b0335b21-ce3d-4def-b882-107f4bcda348",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://otsuka-air.jp/436c6770-0b68-4ffa-adc6-3fd755796d0e",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://px.ladsp.com/match/google?logicad_uid=AR6TdT7zWCezks8AKc_X3StQzcA&svid=03&google_error=15",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 283
+      },
+      {
+        "url": "https://jp-u.openx.net/w/1.0/sd?cc=1&id=537072451&val=AcdPenY7cOpLks8AKc_X3StQzc8AAAGhJTu0wA",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 171
+      },
+      {
+        "url": "https://simage2.pubmatic.com/AdServer/Pug?vcode=bz0yJnR5cGU9MSZjb2RlPTMwMzEmdGw9MTI5NjAw&piggybackCookie=AcdPenY7cOpLks8AKc_X3StQzc8AAAGhJTu0wA",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 445
+      },
+      {
+        "url": "https://ib.adnxs.com/setuid?entity=276&code=AcdPenY7cOpLks8AKc_X3StQzc8AAAGhJTu0wA",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 526
+      },
+      {
+        "url": "https://s-cs.send.microad.jp/hs?k=logicad_2&id=AcdPenY7cOpLks8AKc_X3StQzc8AAAGhJTu0zQ",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 562
+      },
+      {
+        "url": "https://sync.ad-stir.com/?symbol=LOGICAD&uid=AcdPenY7cOpLks8AKc_X3StQzc8AAAGhJTu0wA",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 101
+      },
+      {
+        "url": "https://dsum.casalemedia.com/rum?cm_dsp_id=51&external_user_id=1d5996c3-4e91-4141-8937-5658f251a07c&gdpr=&gdpr_consent=&us_privacy=&C=1",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 315
+      },
+      {
+        "url": "https://pixel.rubiconproject.com/tap.php?v=143202&nid=4016&expires=30&put=AR6TdT7zWCezks8AKc_X3StQzRA",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 1470
+      },
+      {
+        "url": "https://ssl.socdm.com/rtb/sync?proto=adgen&dspid=12",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 680
+      },
+      {
+        "url": "https://cs.adingo.jp/sync/?from=logicad&id=AcdPenY7cOpLks8AKc_X3StQzc8AAAGhJTu01A",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 275
+      },
+      {
+        "url": "https://sync.taboola.com/sg/sonet-mediartb-network/1/rtb-h/?taboola_hm=AcdPenY7cOpLks8AKc_X3StQzc8AAAGhJTu02Q",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 94
+      },
+      {
+        "url": "https://adn.caprofitx.com/v1/cookiesync?logicad_uid=AcdPenY7cOpLks8AKc_X3StQzc8AAAGhJTu02w",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 567
+      },
+      {
+        "url": "https://cs.gssprt.jp/yie/ld/cs?dspid=logicad&uid=AR6TdT7zWCezks8AKc_X3StQzRw",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 447
+      },
+      {
+        "url": "https://sync.outbrain.com/cookie-sync?p=logicad&uid=AcdPenY7cOpLks8AKc_X3StQzc8AAAGhJTu03g",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 360
+      },
+      {
+        "url": "https://sp.gmossp-sp.jp/ads/sync.ad?dsp=logicad&dspuid=AcdPenY7cOpLks8AKc_X3StQzc8AAAGhJTu04A",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser"
+      },
+      {
+        "url": "https://ad.as.amanad.adtdp.com/v1/sync?dsp_id=29&uid=AcdPenY7cOpLks8AKc_X3StQzc8AAAGhJTu06g",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 669
+      },
+      {
+        "url": "https://partners.tremorhub.com/sync?UILD=AcdPenY7cOpLks8AKc_X3StQzc8AAAGhJTu06w",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 175
+      },
+      {
+        "url": "blob:https://otsuka-air.jp/891b7572-e805-4d58-9321-7fbd920672fc",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://otsuka-air.jp/cfeee5c2-a818-4234-9612-5cd99cd076fd",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://otsuka-air.jp/8168270b-4d2e-4a2e-ac43-24503eb65774",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-17790302747",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 167347
+      },
+      {
+        "url": "https://px.ladsp.com/pixel?advertiser_id=27465&f=1&su=2&site_url=https%3A%2F%2Fotsuka-air.jp%2F&fm=&sfp=&ts=1791626032488&sua=eyJhcmNoaXRlY3R1cmUiOiJ4ODYiLCJiaXRuZXNzIjoiNjQiLCJtb2RlbCI6IiIsIm1vYmlsZSI6ZmFsc2UsInBsYXRmb3JtIjoiV2luZG93cyIsInBsYXRmb3JtVmVyc2lvbiI6IiIsImZ1bGxWZXJzaW9uTGlzdCI6W3siYnJhbmQiOiJIZWFkbGVzc0Nocm9tZSIsInZlcnNpb24iOiIxNDEuMC43MzkwLjM3In0seyJicmFuZCI6Ik5vdD9BX0JyYW5kIiwidmVyc2lvbiI6IjguMC4wLjAifSx7ImJyYW5kIjoiQ2hyb21pdW0iLCJ2ZXJzaW9uIjoiMTQxLjAuNzM5MC4zNyJ9XX0%3D&ismc=1",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 585
+      },
+      {
+        "url": "https://px.ladsp.com/pixel?advertiser_id=27422&f=1&su=2&site_url=https%3A%2F%2Fotsuka-air.jp%2F&fm=&sfp=&ts=1791626032488&sua=eyJhcmNoaXRlY3R1cmUiOiJ4ODYiLCJiaXRuZXNzIjoiNjQiLCJtb2RlbCI6IiIsIm1vYmlsZSI6ZmFsc2UsInBsYXRmb3JtIjoiV2luZG93cyIsInBsYXRmb3JtVmVyc2lvbiI6IiIsImZ1bGxWZXJzaW9uTGlzdCI6W3siYnJhbmQiOiJIZWFkbGVzc0Nocm9tZSIsInZlcnNpb24iOiIxNDEuMC43MzkwLjM3In0seyJicmFuZCI6Ik5vdD9BX0JyYW5kIiwidmVyc2lvbiI6IjguMC4wLjAifSx7ImJyYW5kIjoiQ2hyb21pdW0iLCJ2ZXJzaW9uIjoiMTQxLjAuNzM5MC4zNyJ9XX0%3D&ismc=1",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 585
+      },
+      {
+        "url": "https://dmp.im-apps.net/sdk/log.3.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 23047
+      },
+      {
+        "url": "blob:https://otsuka-air.jp/8e84f00b-15bf-43c2-9d28-ab32cd3ac650",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "blob:https://otsuka-air.jp/8e84f00b-15bf-43c2-9d28-ab32cd3ac650",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "blob:https://otsuka-air.jp/8e84f00b-15bf-43c2-9d28-ab32cd3ac650",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "blob:https://otsuka-air.jp/8e84f00b-15bf-43c2-9d28-ab32cd3ac650",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "https://dm.slim02.jp/tppa/v2/vs?adv_id=5000000244218781&cnropq=eyJ0YWdfaWQiOiI2ZGY4NzE4My0yZTMwLTRmZTMtYWJmOC01NjBhMThhZmU0YzIiLCJsYWJlbCI6IiIsImV2ZW50IjoicGFnZV92aWV3IiwicmVmIjoiaHR0cHM6Ly9vdHN1a2EtYWlyLmpwLyIsInJlcV90eXBlIjoibHl0YWcifQ&evt=5&pid=5000000244218780&xci=f7820d51-63c7-4c8d-ad95-7c60778e711f",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "",
+        "fromCache": false
+      },
+      {
+        "url": "https://id5-sync.com/gm/v3",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 2387
+      },
+      {
+        "url": "https://penta.a.one.impact-ad.jp/ul_cb/combo?oid=aa68307d2e7cbaa0&dd_rft=k&dd_jsonp=a1tracker.cb._10&fu=91e5356f-f82b-4f6b-ae9c-d5c72bfc7d9e&i5=ID5*UJVl9g06upKU2MxcuyDYDf40iUjqZcxcuyDYDf40iUj__2rKCzBaAQEBCmrKCzAA64m4Fud2stDcRr4k64px1Q&src=https%3A%2F%2Fotsuka-air.jp%2F&l=en-us%40posix&sr=1440x900&vp=1440x900&cd=24-bit&tgsrc=itm_a1common&dsc=%E5%A4%A7%E5%A1%9A%E8%A3%BD%E8%96%AC%E3%81%AF%E3%80%81%E3%81%8B%E3%82%89%E3%81%9F%E3%82%99%E6%9C%AC%E6%9D%A5%E3%81%AE%E5%8A%9B%E3%82%92%E5%91%BC%E3%81%B2%E3%82%99%E8%A6%9A%E3%81%BE%E3%81%99%E3%80%81%E2%80%9CActive%20Inner%20Resource%E2%80%9D%E3%81%A8%E3%81%84%E3%81%86%E6%80%9D%E6%83%B3%E3%81%AB%E3%81%9F%E3%81%A8%E3%82%99%E3%82%8A%E7%9D%80%E3%81%8D%E3%81%BE%E3%81%97%E3%81%9F%E3%80%82%E3%81%9D%E3%81%AE%E6%80%9D%E6%83%B3%E3%82%92%E5%BD%A2%E3%81%AB%E3%81%97%E3%81%9F%E3%81%AE%E3%81%8B%E3%82%99%E3%80%81%E9%85%B8%E7%B4%A0%E3%82%92%E6%B4%BB%E3%81%8B%E3%81%99%E6%88%90%E5%88%86%E3%80%8C%E3%82%B1%E3%83%B3%E3%83%95%E3%82%A7%E3%83%AD%E3%83%BC%E3%83%AB%E3%80%8D%E3%82%92%E5%90%AB%E6%9C%89%E3%81%97%E3%81%9F%E3%82%BB%E3%83%AB%E3%83%95%E3%82%B3%E3%83%B3%E3%83%86%E3%82%99%E3%82%A3%E3%82%B7%E3%83%A7%E3%83%8B%E3%83%B3%E3%82%AF%E3%82%99%E3%83%95%E3%83%BC%E3%83%88%E3%82%99%E3%80%8C%2Fzeroz%EF%BC%88%E3%82%BC%E3%83%AD%E3%82%BA%EF%BC%89%E3%80%8D%E3%81%A7%E3%81%99%E3%80%82&dt=%2Fzeroz%EF%BC%88%E3%82%BC%E3%83%AD%E3%82%BA%EF%BC%89%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%7C%20%E5%A4%A7%E5%A1%9A%E8%A3%BD%E8%96%AC",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1161
+      },
+      {
+        "url": "https://dmp.im-apps.net/sdk/log.2.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 23280
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/destination?id=DC-8133062&l=itm_dl1_11310&cx=c&gtm=4e6a80h2",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 145948
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/destination?id=AW-11310_GDN_RE_%E6%88%90%E6%9E%9C%E5%A0%B1%E9%85%AC&l=itm_dl1_11310&cx=c&gtm=4e6a80h2",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 152306
+      },
+      {
+        "url": "https://b92.yahoo.co.jp/js/s_retargeting.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 549
+      },
+      {
+        "url": "https://amplify.outbrain.com/cp/obtp.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 18596
+      },
+      {
+        "url": "https://score.im-apps.net/v1/fraud?escvid=18436&imid=&callback=im1791626032991",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 187
+      },
+      {
+        "url": "https://dmp.im-apps.net/sdk/im-uid.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3440
+      },
+      {
+        "url": "https://dmp.im-apps.net/scripts/set.js?cid=11310&sid=10104568&token=6b825cf5b3339ce50a7dc764f0d8c304",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 590
+      },
+      {
+        "url": "https://www.google.com/ccm/collect?rcb=19&frm=0&apvc=0&ae=g&auid=1610156508.1791626031&dt=%2Fzeroz%EF%BC%88%E3%82%BC%E3%83%AD%E3%82%BA%EF%BC%89%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%7C%20%E5%A4%A7%E5%A1%9A%E8%A3%BD%E8%96%AC&en=page_view&dl=https%3A%2F%2Fotsuka-air.jp%2F&scrsrc=www.googletagmanager.com&rnd=732557959.1791626031&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He6a80h2v72432624za200zd72432624xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938469~118897920~118897930~120385423~120469145~120469153~121046263~121046271~121246026~121246034&tft=1791626033002&tfd=3490&fmt=8",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false
+      },
+      {
+        "url": "https://atm.im-apps.net/a/beacon.gif?cid=11310&c1=undefined,undefined",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 112
+      },
+      {
+        "url": "https://atm.im-apps.net/a/beacon.gif?cid=1004154&c1=11310&c2=GTM-PBZQ7J&c3=&c4=&c5=&d=order.aspx",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 231
+      },
+      {
+        "url": "https://b6.im-apps.net/11310/site/targeting",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 94
+      },
+      {
+        "url": "https://b.im-apps.net/tracker",
+        "method": "POST",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 187
+      },
+      {
+        "url": "https://audiencedata.im-apps.net/imuid/get?cid=11310&vid=01M4JKQDWTRNN05A1F5TGSD1GF",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 172
+      },
+      {
+        "url": "https://b6.im-apps.net/collect",
+        "method": "POST",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 13
+      },
+      {
+        "url": "https://apm.yahoo.co.jp/tags/cea941b3-b47c-4736-a347-a71aa708f9f8/events/page_view?lysu=f7820d51-63c7-4c8d-ad95-7c60778e711f&ref=https%3A%2F%2Fotsuka-air.jp%2F&rref=&impl=lytag&pvid=3d06jwrq2k9mv27vpuy&sosu=c&r=1791626033.7696922&v=1.1.29&is_ext_tx=1&hc=0",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 794
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/chapter01/chapter01.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 73634
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/chapter01/chapter02.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 108448
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/chapter01/chapter03.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 263741
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/chapter01/chapter04.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 120191
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/chapter01/chapter05.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 75678
+      },
+      {
+        "url": "https://wave.outbrain.com/mtWavesBundler/handler/00c5c78b7a4e70a39a3896dbe827df4dc0",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 539
+      },
+      {
+        "url": "https://tr.outbrain.com/unifiedPixel?au=false&bust=05427084560782525&referrer=https%3A%2F%2Fotsuka-air.jp%2F&pRef=&marketerId=00c5c78b7a4e70a39a3896dbe827df4dc0&name=PAGE_VIEW&dl=https%3A%2F%2Fotsuka-air.jp%2F&g=1&zone=all&pld=3575&obApiVersion=1.1&obtpVersion=50be27650cc1_2026-10-05",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 321
+      },
+      {
+        "url": "https://tr.outbrain.com/cachedClickId?marketerId=00c5c78b7a4e70a39a3896dbe827df4dc0",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 293
+      },
+      {
+        "url": "https://www.google.com/gmp/conversion/_dc_unique_id=1089992519722783205;_dc_ptd=ChEI8MSn1gYQmdS374P3upbQARIfAGPuq4MMUesiiPgD-ZuOi6mvcQxavxb7DQxWL1QXJw;_dc_time=1791626033;src=8133062;type=invmedia;cat=w8pjhp1v;rcb=12;ord=9901522828470;npa=0;auiddc=1610156508.1791626031;u1=https%3A%2F%2Fotsuka-air.jp%2F;u3=%2F;u2=null;uaa=x86;uab=64;uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37;uamb=0;uam=;uap=Windows;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6a80h2v9189686268z872432624za20gzb72432624zd72432624xeaxf1;gcd=13l3l3l3l1l1;dma=0;dc_fmt=6;tag_exp=115938466~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034;dc_random=1791626033__L6SvZR7xLs2HjeHtUcpSO4XKhPzVAsAyA;epver=2?",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 63
+      },
+      {
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/11310_GDN_RE_%E6%88%90%E6%9E%9C%E5%A0%B1%E9%85%AC/?random=1791626033217&cv=11&fst=1791626033217&bg=ffffff&guid=ON&async=1&gtm=45be6a80h2z872432624za20gzb72432624zd72432624xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~120385423~120469145~120469153~121046263~121046271~121246026~121246034&u_w=1440&u_h=900&url=https%3A%2F%2Fotsuka-air.jp%2F&rcb=15&frm=0&tiba=%2Fzeroz%EF%BC%88%E3%82%BC%E3%83%AD%E3%82%BA%EF%BC%89%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%7C%20%E5%A4%A7%E5%A1%9A%E8%A3%BD%E8%96%AC&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1610156508.1791626031&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uamb=0&uam=&uap=Windows&uapv=&uaw=0&_tu=CA&ept=9&rfmt=3&fmt=4",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 3979
+      },
+      {
+        "url": "https://www.google.com/rmkt/collect/11310_GDN_RE_%E6%88%90%E6%9E%9C%E5%A0%B1%E9%85%AC/?random=1791626033217&cv=11&fst=1791626033217&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be6a80h2z872432624za20gzb72432624zd72432624xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~120385423~120469145~120469153~121046263~121046271~121246026~121246034&u_w=1440&u_h=900&url=https%3A%2F%2Fotsuka-air.jp%2F&rcb=15&frm=0&tiba=%2Fzeroz%EF%BC%88%E3%82%BC%E3%83%AD%E3%82%BA%EF%BC%89%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%7C%20%E5%A4%A7%E5%A1%9A%E8%A3%BD%E8%96%AC&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1610156508.1791626031&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uamb=0&uam=&uap=Windows&uapv=&uaw=0&_tu=CA&ept=68&gcp=5",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false
+      },
+      {
+        "url": "https://www.google.com/ccm/collect?rcb=15&frm=0&apvc=0&ae=g&auid=1610156508.1791626031&dt=%2Fzeroz%EF%BC%88%E3%82%BC%E3%83%AD%E3%82%BA%EF%BC%89%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%7C%20%E5%A4%A7%E5%A1%9A%E8%A3%BD%E8%96%AC&tid=AW-11310_GDN_RE_%E6%88%90%E6%9E%9C%E5%A0%B1%E9%85%AC&dl=https%3A%2F%2Fotsuka-air.jp%2F&scrsrc=www.googletagmanager.com&rnd=732557959.1791626031&navt=n&npa=0&_tu=CA&gtm=45be6a80h2z872432624za20gzb72432624zd72432624xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~120385423~120469145~120469153~121046263~121046271~121246026~121246034&tft=1791626033274&tfd=3762&tids=AW-11310_GDN_RE_%E6%88%90%E6%9E%9C%E5%A0%B1%E9%85%AC&fmt=8",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false
+      },
+      {
+        "url": "https://b6.im-apps.net/11310/set/10104568/?vid=01M4JKQDWTRNN05A1F5TGSD1GF",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 58
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/chapter01/chapter06.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 59841
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/chapter01/chapter07.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 109488
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/chapter01/chapter08.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 77514
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/chapter01/chapter09.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 126866
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/chapter01/chapter10.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 76582
+      },
+      {
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/17790302747/?random=1791626033392&cv=11&fst=1791626033392&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6a80h2v9253564939za208zd9253564939xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034&u_w=1440&u_h=900&url=https%3A%2F%2Fotsuka-air.jp%2F&rcb=14&frm=0&tiba=%2Fzeroz%EF%BC%88%E3%82%BC%E3%83%AD%E3%82%BA%EF%BC%89%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%7C%20%E5%A4%A7%E5%A1%9A%E8%A3%BD%E8%96%AC&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1610156508.1791626031&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uamb=0&uam=&uap=Windows&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 3382
+      },
+      {
+        "url": "https://www.google.com/rmkt/collect/17790302747/?random=1791626033392&cv=11&fst=1791626033392&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6a80h2v9253564939za208zd9253564939xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034&u_w=1440&u_h=900&url=https%3A%2F%2Fotsuka-air.jp%2F&rcb=14&frm=0&tiba=%2Fzeroz%EF%BC%88%E3%82%BC%E3%83%AD%E3%82%BA%EF%BC%89%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%7C%20%E5%A4%A7%E5%A1%9A%E8%A3%BD%E8%96%AC&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1610156508.1791626031&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uamb=0&uam=&uap=Windows&uapv=&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=AW-18208083204",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 155534
+      },
+      {
+        "url": "https://www.google.com/ccm/collect?rcb=14&frm=0&apvc=0&auid=1610156508.1791626031&dt=%2Fzeroz%EF%BC%88%E3%82%BC%E3%83%AD%E3%82%BA%EF%BC%89%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%7C%20%E5%A4%A7%E5%A1%9A%E8%A3%BD%E8%96%AC&tid=AW-17790302747&en=page_view&dl=https%3A%2F%2Fotsuka-air.jp%2F&scrsrc=www.googletagmanager.com&rnd=732557959.1791626031&navt=n&npa=0&gtm=45be6a80h2v9253564939za208zd9253564939xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034&tft=1791626033427&tfd=3915&tids=AW-17790302747&fmt=8",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false
+      },
+      {
+        "url": "https://www.google.com/pagead/1p-user-list/11310_GDN_RE_%E6%88%90%E6%9E%9C%E5%A0%B1%E9%85%AC/?random=1791626033217&cv=11&fst=1791622800000&bg=ffffff&guid=ON&async=1&gtm=45be6a80h2z872432624za20gzb72432624zd72432624xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~120385423~120469145~120469153~121046263~121046271~121246026~121246034&u_w=1440&u_h=900&url=https%3A%2F%2Fotsuka-air.jp%2F&rcb=15&frm=0&tiba=%2Fzeroz%EF%BC%88%E3%82%BC%E3%83%AD%E3%82%BA%EF%BC%89%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%7C%20%E5%A4%A7%E5%A1%9A%E8%A3%BD%E8%96%AC&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1610156508.1791626031&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uamb=0&uam=&uap=Windows&uapv=&uaw=0&_tu=CA&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS4QEAQM4h3I76o0tj0UG4yTteVin31ScQF1cGejfTY1rG6lFAek1d5qS-xzZGqrYPz1JvuppKPFWXkd7xYoDtz8aSyVbZwX6XSdbVGgls90jHB79znjHEcAu6ts1xcyoA4AJg0BUnkFqmkki8vRRoTVQ7DHxatae7QOIkgN9p7w2Uav0APux4zSHQcQYD8SP9crxnh3SXy2CB5ndyG8JdA31wQf6RJ0330gSkoIOA2jg0g7H5yiSkuvNAYPZ6CkeLw-AZ0JjDerAS4vK5HMXk9lDGXMsWi-FCweejVLJkx2dN2g8&random=905967903&rmt_tld=0&ipr=y",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 64
+      },
+      {
+        "url": "https://um.ladsp.com/match/iframe?pids=10000&ts=1791626032663&svid=71",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 1022
+      },
+      {
+        "url": "https://um.ladsp.com/match/iframe?pids=10000&ts=1791626032664&svid=66",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 1019
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/chapter01/chapter11.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 77882
+      },
+      {
+        "url": "https://www.google.com/pagead/1p-user-list/17790302747/?random=1791626033392&cv=11&fst=1791622800000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6a80h2v9253564939za208zd9253564939xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034&u_w=1440&u_h=900&url=https%3A%2F%2Fotsuka-air.jp%2F&rcb=14&frm=0&tiba=%2Fzeroz%EF%BC%88%E3%82%BC%E3%83%AD%E3%82%BA%EF%BC%89%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%7C%20%E5%A4%A7%E5%A1%9A%E8%A3%BD%E8%96%AC&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1610156508.1791626031&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uamb=0&uam=&uap=Windows&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS4QEAQM4h3KxHNxpHOcOeYWbJws5s-03a2_AFGYSwW4JW2Ta-bMCo3dtcFewb1RHzPq24eCuMzqgX1gp1sy6jirHzwoJyKMAtkBc_OfEvdRreNfM45NXCE1nPSJmWCmXRX496Mn0aQlEkFLi3jZU1BQ2stRLpQXFGppKUNbsrqpqjNOMtin7v7PeT_RF54Tzs45lRlKgH64KpIHrLCPUjkYVfhriIO6YkRhm0wkf9Zhrw23sxRJsfAyOPlgyhpMdIe7tnM2_qWyRq3ovnf8w42ZzNAMIJtPGGtxohmZr6S0itwK8&random=962961950&rmt_tld=0&ipr=y",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 64
+      },
+      {
+        "url": "https://img.ak.impact-ad.jp/ut/pb.html",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 451
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/chapter01/chapter12.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 123616
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/chapter01/chapter13.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 176372
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/chapter01/chapter14.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 124547
+      },
+      {
+        "url": "https://wiseads.ad-stir.com/map",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 219
+      },
+      {
+        "url": "https://image6.pubmatic.com/AdServer/UCookieSetPug?rd=https%3A%2F%2Faw.dw.impact-ad.jp%2Fc%2Fmap%2F%3Fsp%3Dpbm%26oid%3D207d81ffda0cc019%26cid%3D%23PM_USER_ID&rdf=1",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 42
+      },
+      {
+        "url": "https://aw.dw.impact-ad.jp/c/map/?cid=36127286316291442858065272725373350654&sp=aam&oid=aa68307d2e7cbaa0",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 195
+      },
+      {
+        "url": "https://in.treasuredata.com/postback/v3/event/aoneweb/tdsync?td_format=pixel&td_write_key=851/aab6611c99cfb30870a9e4a48711710e9a7fc192&td_global_id=td_global_id&aoneuid=1e778c9a-2d74-40d2-99e6-36e6ee88845d&td_ua=td_ua&td_ip=td_ip",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 473
+      },
+      {
+        "url": "https://aw.dw.impact-ad.jp/c/map/?sp=ttd&oid=207d81ffda0cc019&cid=bf42cc2e-5b59-43b7-95ec-891d37902624",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 337
+      },
+      {
+        "url": "https://analytics.twitter.com/i/adsct?p_user_id=1e778c9a-2d74-40d2-99e6-36e6ee88845d&p_id=981",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 155
+      },
+      {
+        "url": "https://aw.dw.impact-ad.jp/c/map/?sp=cro&oid=207d81ffda0cc019&cid=2s_fn19CRGpuNFgyVTY1QUpVaW8lMkJlN1JUdnpYMTZHM29Ed0pOd2ROVk9ldGZmS3pzQ2RKRTllcmRzSThaUzZqJTJGaTBPJTJC",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 195
+      },
+      {
+        "url": "https://aw.dw.impact-ad.jp/c/map/?sp=uni&oid=207d81ffda0cc019&cid=v_2c2eb32a-fa8c-4ffe-8ee6-32cee68c6a34",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 195
+      },
+      {
+        "url": "https://aw.dw.impact-ad.jp/c/map/?cid=&google_error=15&oid=aa68307d2e7cbaa0&sp=ddp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 195
+      },
+      {
+        "url": "https://otsuka-air.jp/",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 169147
+      },
+      {
+        "url": "https://otsuka-air.jp/about/",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 149181
+      },
+      {
+        "url": "https://otsuka-air.jp/science_technology/",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 141065
+      },
+      {
+        "url": "https://otsuka-air.jp/product/zeroz/",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 164770
+      },
+      {
+        "url": "https://otsuka-air.jp/interview/",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 60182
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/chapter01/chapter15.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 219042
+      },
+      {
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/18208083204/?random=1791626033681&cv=11&fst=1791626033681&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6a72v9254364091za208zd9254364091xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034&u_w=1440&u_h=900&url=https%3A%2F%2Fotsuka-air.jp%2F&rcb=10&frm=0&tiba=%2Fzeroz%EF%BC%88%E3%82%BC%E3%83%AD%E3%82%BA%EF%BC%89%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%7C%20%E5%A4%A7%E5%A1%9A%E8%A3%BD%E8%96%AC&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1610156508.1791626031&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uamb=0&uam=&uap=Windows&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 3333
+      },
+      {
+        "url": "https://www.google.com/rmkt/collect/18208083204/?random=1791626033681&cv=11&fst=1791626033681&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6a72v9254364091za208zd9254364091xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034&u_w=1440&u_h=900&url=https%3A%2F%2Fotsuka-air.jp%2F&rcb=10&frm=0&tiba=%2Fzeroz%EF%BC%88%E3%82%BC%E3%83%AD%E3%82%BA%EF%BC%89%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%7C%20%E5%A4%A7%E5%A1%9A%E8%A3%BD%E8%96%AC&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1610156508.1791626031&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uamb=0&uam=&uap=Windows&uapv=&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false
+      },
+      {
+        "url": "https://cdn.d2-apps.net/js/tr.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3293
+      },
+      {
+        "url": "https://www.google.com/ccm/collect?rcb=10&frm=0&apvc=0&auid=1610156508.1791626031&dt=%2Fzeroz%EF%BC%88%E3%82%BC%E3%83%AD%E3%82%BA%EF%BC%89%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%7C%20%E5%A4%A7%E5%A1%9A%E8%A3%BD%E8%96%AC&tid=AW-18208083204&en=page_view&dl=https%3A%2F%2Fotsuka-air.jp%2F&scrsrc=www.googletagmanager.com&rnd=732557959.1791626031&navt=n&npa=0&gtm=45be6a72v9254364091za208zd9254364091xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034&tft=1791626033724&tfd=4211&tids=AW-18208083204&fmt=8",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false
+      },
+      {
+        "url": "https://pixel-tag.insight.rakuten.co.jp/bw/?cpid=A-202603-291194-2-7",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 863
+      },
+      {
+        "url": "https://sync.im-apps.net/imid/set?cid=7064&tid=lid&uid=AR6TdT7zWCezks8AKc_X3StQzc0nEA",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 123
+      },
+      {
+        "url": "https://dmp.im-apps.net/sdk/log.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 23278
+      },
+      {
+        "url": "https://sync.im-apps.net/imid/set?cid=7064&tid=lid&uid=AR6TdT7zWCezks8AKc_X3StQzc0nEA",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.google.com/pagead/1p-user-list/18208083204/?random=1791626033681&cv=11&fst=1791622800000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6a72v9254364091za208zd9254364091xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034&u_w=1440&u_h=900&url=https%3A%2F%2Fotsuka-air.jp%2F&rcb=10&frm=0&tiba=%2Fzeroz%EF%BC%88%E3%82%BC%E3%83%AD%E3%82%BA%EF%BC%89%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%7C%20%E5%A4%A7%E5%A1%9A%E8%A3%BD%E8%96%AC&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1610156508.1791626031&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uamb=0&uam=&uap=Windows&uapv=&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS4QEAQM4h3KxPy0ca2VTVZaRhKRn7GQuFXfhR_SK9lS-LOhC8ObHZJ98H71iPsqHQP_gfc2tYON0l2NvYoWuafqMddGE7cHWoDNWBJ8sCZjhu_-vPnutZgnl_jYuWLmDlyosu5-NjprTMEXBEv-8YXLrMb3aE96_ZkI6oYiFhxV37o_7Vi57wOz5JX6zoaMl8cCsZk8sS2PTJEYpg60RVOzUh0VGffH0OtFlVnL6MnXlQ0RkSNica2wkPMKqPagacO_my67-w8kxsB5WejG82Cmyc8rU3YFScWdekfc1kai8nf9w&random=869262807&rmt_tld=0&ipr=y",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 64
+      },
+      {
+        "url": "https://pp.d2-apps.net/v1/impressions/log?client_id=172&site_url=https%3A%2F%2Fotsuka-air.jp%2F&referer=&__version=1.0.0&__ord=3702412287596&callback=__pfunc&viewport=1440x900&language=en-US@posix&first_party_uid=M9bToXpNhxfG0pInd7VYhvqPXxWd469d&local_storage_uid=pSauK7yfsiiqABmdVW6SU3Ru9dHVygi7&c_1=otona-kenja&c_2=CPsite&c_3=page_view",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 397
+      },
+      {
+        "url": "https://b6.im-apps.net/collect",
+        "method": "POST",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 13
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/chapter02/chapter02-01.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 127944
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/chapter02/chapter02-02.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 73283
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/chapter02/chapter02-03.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 80148
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/chapter02/chapter02-04.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 108780
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/chapter02/chapter02-05.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 73078
+      },
+      {
+        "url": "https://t.co/i/adsctp",
+        "method": "POST",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 157
+      },
+      {
+        "url": "https://analytics.twitter.com/i/adsctp",
+        "method": "POST",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 157
+      },
+      {
+        "url": "https://t.co/i/adsctp",
+        "method": "POST",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 137
+      },
+      {
+        "url": "https://analytics.twitter.com/i/adsctp",
+        "method": "POST",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 138
+      },
+      {
+        "url": "https://px.ladsp.com/pixel_p?advertiser_id=00027053&f=1&fm=&sfp=&rp=--d10s--&su=2&site_url=https%3A%2F%2Fotsuka-air.jp%2F&ts=1791626044315&ismc=1",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 312
+      },
+      {
+        "url": "https://px.ladsp.com/pixel_p?advertiser_id=27465&f=1&fm=&sfp=&rp=--d10s--&su=2&site_url=https%3A%2F%2Fotsuka-air.jp%2F&ts=1791626044320&ismc=1",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 321
+      },
+      {
+        "url": "https://px.ladsp.com/pixel_p?advertiser_id=27422&f=1&fm=&sfp=&rp=--d10s--&su=2&site_url=https%3A%2F%2Fotsuka-air.jp%2F&ts=1791626044322&ismc=1",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 321
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/chapter02/chapter02-06.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 69500
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/chapter02/chapter02-07.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 95144
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/chapter02/chapter02-08.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 217939
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/chapter02/chapter02-09.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 116983
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/chapter02/chapter02-10.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 135719
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/chapter02/chapter02-11.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 123905
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/chapter02/chapter02-12.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 63837
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/chapter02/chapter02-13.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 138554
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/chapter02/chapter02-14.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 51719
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/chapter02/chapter02-15.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 105048
+      },
+      {
+        "url": "https://aw.dw.impact-ad.jp/ut/rep?u=2738&v=9&r=https%3A%2F%2Fotsuka-air.jp%2F&t=15000",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 93
+      },
+      {
+        "url": "https://px.ladsp.com/pixel_p?advertiser_id=00027053&f=1&fm=&sfp=&rp=--d30s--&su=2&site_url=https%3A%2F%2Fotsuka-air.jp%2F&ts=1791626061187&ismc=1",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 320
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/chapter04/chapter04-01.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 122009
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/chapter04/chapter04-02.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 133155
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/chapter04/chapter04-03.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 132376
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/chapter04/chapter04-04.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 135968
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/chapter04/chapter04-05.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 126369
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/chapter04/chapter04-06.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 130611
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/chapter04/chapter04-07.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 130493
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/chapter04/chapter04-08.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 123398
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/chapter04/chapter04-09.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 88246
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/chapter04/chapter04-10.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 92223
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/chapter04/chapter04-11.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 102981
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/chapter04/chapter04-12.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 106658
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/chapter04/chapter04-13.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 119297
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/chapter04/chapter04-14.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 120969
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/chapter04/chapter04-15.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 117151
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/chapter04/chapter04-16.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 119957
+      },
+      {
+        "url": "https://px.ladsp.com/pixel_p?advertiser_id=27465&f=1&fm=&sfp=&rp=--d30s--&su=2&site_url=https%3A%2F%2Fotsuka-air.jp%2F&ts=1791626062488&ismc=1",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 320
+      },
+      {
+        "url": "https://px.ladsp.com/pixel_p?advertiser_id=27422&f=1&fm=&sfp=&rp=--d30s--&su=2&site_url=https%3A%2F%2Fotsuka-air.jp%2F&ts=1791626062490&ismc=1",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 320
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/interview/interview01.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 52740
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/interview/interview02.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 50145
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/interview/interview04.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 75660
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/interview/interview05.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 103338
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/interview/interview07.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 79388
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/interview/interview08.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 56219
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/interview/interview10.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 75072
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/interview/interview11.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 94952
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/interview/interview13.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 75343
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/interview/interview14.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 54160
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/interview/interview16.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 67226
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/interview/interview17.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 73590
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/interview/interview19.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 88716
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/interview/interview20.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 97071
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/interview/interview22.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 57471
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/interview/interview23.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 71649
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/interview/interview25.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 59742
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/interview/interview26.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 47432
+      },
+      {
+        "url": "https://px.ladsp.com/pixel_p?advertiser_id=00027053&f=1&fm=&sfp=&rp=--d60s--&su=2&site_url=https%3A%2F%2Fotsuka-air.jp%2F&ts=1791626115340&ismc=1",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 321
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/interview/interview28.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 50884
+      },
+      {
+        "url": "https://px.ladsp.com/pixel_p?advertiser_id=27465&f=1&fm=&sfp=&rp=--d60s--&su=2&site_url=https%3A%2F%2Fotsuka-air.jp%2F&ts=1791626115346&ismc=1",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 321
+      },
+      {
+        "url": "https://px.ladsp.com/pixel_p?advertiser_id=27422&f=1&fm=&sfp=&rp=--d60s--&su=2&site_url=https%3A%2F%2Fotsuka-air.jp%2F&ts=1791626124637&ismc=1",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 321
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/interview/interview29.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 54243
+      },
+      {
+        "url": "https://px.ladsp.com/pixel_p?advertiser_id=00027053&f=1&fm=&sfp=&rp=--d90s--&su=2&site_url=https%3A%2F%2Fotsuka-air.jp%2F&ts=1791626124646&ismc=1",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 321
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/interview/interview31.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 146216
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/interview/interview32.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 192494
+      },
+      {
+        "url": "https://px.ladsp.com/pixel_p?advertiser_id=27465&f=1&fm=&sfp=&rp=--d90s--&su=2&site_url=https%3A%2F%2Fotsuka-air.jp%2F&ts=1791626124647&ismc=1",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 321
+      },
+      {
+        "url": "https://px.ladsp.com/pixel_p?advertiser_id=27422&f=1&fm=&sfp=&rp=--d90s--&su=2&site_url=https%3A%2F%2Fotsuka-air.jp%2F&ts=1791626124647&ismc=1",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 321
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/models/otsuka_main_export.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "model/gltf-binary",
+        "fromCache": false,
+        "bytes": 4442289
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/models/draco/draco_wasm_wrapper.js",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/models/draco/draco_decoder.wasm",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "data:image/webp;base64,UklGRiIAAABXRUJQVlA4IBYAAAAwAQCdASoBAAEADsD+JaQAA3AAAAAA",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://otsuka-air.jp/dacf4555-5c9c-430c-929a-18807c052362",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://otsuka-air.jp/a20d0f07-98b0-429e-8a0d-639da2a278f9",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://otsuka-air.jp/ffc18c43-ea8b-488f-b99a-9d939d767605",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://otsuka-air.jp/11b8c53c-e785-4d2b-8518-1fb5c9b49b31",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://otsuka-air.jp/820ddd93-d493-4874-bc02-60e7e7133d2e",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://otsuka-air.jp/9a6a337a-ed09-431e-b29d-6da44c2a396b",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://otsuka-air.jp/d895c521-cf08-4eb2-a453-17b8c90c9564",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://otsuka-air.jp/caddf281-236e-485e-9d4c-83730cbf62b8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://otsuka-air.jp/7abc2310-e40d-4ef6-a10b-8d7bec9a4e87",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://otsuka-air.jp/86a59a7b-5a5f-43ce-8973-14c761ffed5f",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://otsuka-air.jp/55e3ab94-f880-4a95-b57e-099bf0c9f526",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://otsuka-air.jp/64fe80f7-1aeb-4bb8-a238-51bc3e45115b",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://otsuka-air.jp/0485ebf5-da8b-4f35-aa99-b8f2190806ea",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://otsuka-air.jp/1d6ca1ac-073a-486e-833a-6c60bdc783b9",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://otsuka-air.jp/d96cac2e-8549-4c7c-a68f-565e711b61b6",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://otsuka-air.jp/8452e2bf-9f5e-4d1e-983e-d8c0368c91d6",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://otsuka-air.jp/1ea4ff4a-80db-4bb8-aed7-22127c93a4f4",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "blob:https://otsuka-air.jp/1ea4ff4a-80db-4bb8-aed7-22127c93a4f4",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "blob:https://otsuka-air.jp/1ea4ff4a-80db-4bb8-aed7-22127c93a4f4",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "blob:https://otsuka-air.jp/1ea4ff4a-80db-4bb8-aed7-22127c93a4f4",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/chapter-on/chapter-on-01.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 65088
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/chapter-on/chapter-on-02.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 53084
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/chapter-on/chapter-on-03.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 68354
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/chapter-on/chapter-on-04.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 112488
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/chapter-on/chapter-on-05.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 82609
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/chapter-on/chapter-on-06.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 259146
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/chapter-on/chapter-on-07.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 140538
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/chapter-on/chapter-on-08.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 71449
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/chapter-off/chapter-off-01.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 79352
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/chapter-off/chapter-off-02.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 91339
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/chapter-off/chapter-off-03.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 68021
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/chapter-off/chapter-off-04.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 46495
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/chapter-off/chapter-off-05.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 193910
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/chapter-off/chapter-off-06.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 47622
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/chapter-off/chapter-off-07.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 102090
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/images/textures/medium/chapter-off/chapter-off-08.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 59522
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.3, 0.26, 0.38, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.3, 0.26, 0.38, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.3, 0.26, 0.38, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.3, 0.26, 0.38, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.3, 0.26, 0.38, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.3, 0.26, 0.38, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.3, 0.26, 0.38, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.3, 0.26, 0.38, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.3, 0.26, 0.38, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.3, 0.26, 0.38, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.3, 0.26, 0.38, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.3, 0.26, 0.38, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.3, 0.26, 0.38, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.3, 0.26, 0.38, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.3, 0.26, 0.38, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.3, 0.26, 0.38, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.3, 0.26, 0.38, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 500,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.3, 0.26, 0.38, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.3, 0.26, 0.38, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.3, 0.26, 0.38, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.3, 0.26, 0.38, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.3, 0.26, 0.38, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.3, 0.26, 0.38, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.3, 0.26, 0.38, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.3, 0.26, 0.38, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.3, 0.26, 0.38, 1)"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A07020004C200000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "error",
+        "text": "Access to XMLHttpRequest at 'https://webfont.fontplus.jp/accessor/mkfont' from origin 'https://otsuka-air.jp' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the"
+      },
+      {
+        "level": "error",
+        "text": "Failed to load resource: net::ERR_FAILED"
+      },
+      {
+        "level": "error",
+        "text": "Refused to execute script from 'https://pp.d2-apps.net/v1/impressions/log?client_id=172&site_url=https%3A%2F%2Fotsuka-air.jp%2F&referer=&__version=1.0.0&__ord=3702412287596&callback=__pfunc&viewport=1"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x2eac0011e000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x2eac0011e000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x2eac0011e000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x2eac0011e000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://otsuka-air.jp/assets/video/interview.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/video/product.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://otsuka-air.jp/assets/video/interview.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google.com/ccm/collect?rcb=8&frm=0&apvc=1&ae=g&auid=1610156508.1791626031&dt=%2Fzeroz%EF%BC%88%E3%82%BC%E3%83%AD%E3%82%BA%EF%BC%89%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%7C%20%E5%A4%A7%E5%A1%9A%E8%A3%BD%E8%96%AC&en=page_view&dl=https%3A%2F%2Fotsuka-air.jp%2F&scrsrc=www.googletagmanager.com&rnd=732557959.1791626031&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He6a72v6626330za200zd6626330xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~120385422~120469145~120469153~121046263~121046271~121246026~121246034&tft=1791626030698&tfd=1185&fmt=8",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://ad.doubleclick.net/ccm/s/collect?auid=1610156508.1791626031&gtm=45He6a72v6626330za200zd6626330xeaxf1&fmt=8",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google.com/ccm/collect?rcb=15&frm=0&apvc=0&ae=g&auid=1610156508.1791626031&dt=%2Fzeroz%EF%BC%88%E3%82%BC%E3%83%AD%E3%82%BA%EF%BC%89%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%7C%20%E5%A4%A7%E5%A1%9A%E8%A3%BD%E8%96%AC&en=page_view&dl=https%3A%2F%2Fotsuka-air.jp%2F&scrsrc=www.googletagmanager.com&rnd=732557959.1791626031&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He6a80h2v9117177521za200zd9117177521xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~120385422~120469145~120469153~121046263~121046271~121246026~121246034&tft=1791626030883&tfd=1371&fmt=8",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-EPYRMKR13P&gtm=45je6a80h2v9241879387za20ozb9117177521zd9117177521xf1&_p=1791626030474&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=524483318&_eu=AAAAAGA&are=1&cid=372341585.1791626032&frm=0&pscdl=noapi&rcb=17&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&gaf=2&_s=1&tag_exp=115616985~115938466~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791626031&sct=1&seg=0&dl=https%3A%2F%2Fotsuka-air.jp%2F&dt=%2Fzeroz%EF%BC%88%E3%82%BC%E3%83%AD%E3%82%BA%EF%BC%89%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%7C%20%E5%A4%A7%E5%A1%9A%E8%A3%BD%E8%96%AC&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=2193",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://webfont.fontplus.jp/accessor/mkfont",
+        "error": "net::ERR_FAILED"
+      },
+      {
+        "url": "https://www.google.com/ccm/collect?rcb=16&frm=0&apvc=0&auid=1610156508.1791626031&dt=%2Fzeroz%EF%BC%88%E3%82%BC%E3%83%AD%E3%82%BA%EF%BC%89%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%7C%20%E5%A4%A7%E5%A1%9A%E8%A3%BD%E8%96%AC&tid=DC-17023704&en=page_view&dl=https%3A%2F%2Fotsuka-air.jp%2F&scrsrc=www.googletagmanager.com&rnd=732557959.1791626031&navt=n&npa=0&gtm=45fe6a72v9253229939za208zd9253229939xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034&tft=1791626032262&tfd=2750&tids=DC-17023704&fmt=8",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://capig.stape.pw/events/ca5226fbdac43cbad8823aedabd77fabc471b588e08228f2b967b0cb3e31944c",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://sp.gmossp-sp.jp/ads/sync.ad?dsp=logicad&dspuid=AcdPenY7cOpLks8AKc_X3StQzc8AAAGhJTu04A",
+        "error": "net::ERR_BLOCKED_BY_ORB"
+      },
+      {
+        "url": "https://www.google.com/ccm/collect?rcb=19&frm=0&apvc=0&ae=g&auid=1610156508.1791626031&dt=%2Fzeroz%EF%BC%88%E3%82%BC%E3%83%AD%E3%82%BA%EF%BC%89%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%7C%20%E5%A4%A7%E5%A1%9A%E8%A3%BD%E8%96%AC&en=page_view&dl=https%3A%2F%2Fotsuka-air.jp%2F&scrsrc=www.googletagmanager.com&rnd=732557959.1791626031&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He6a80h2v72432624za200zd72432624xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938469~118897920~118897930~120385423~120469145~120469153~121046263~121046271~121246026~121246034&tft=1791626033002&tfd=3490&fmt=8",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://dm.slim02.jp/tppa/v2/vs?adv_id=5000000244218781&cnropq=eyJ0YWdfaWQiOiI2ZGY4NzE4My0yZTMwLTRmZTMtYWJmOC01NjBhMThhZmU0YzIiLCJsYWJlbCI6IiIsImV2ZW50IjoicGFnZV92aWV3IiwicmVmIjoiaHR0cHM6Ly9vdHN1a2EtYWlyLmpwLyIsInJlcV90eXBlIjoibHl0YWcifQ&evt=5&pid=5000000244218780&xci=f7820d51-63c7-4c8d-ad95-7c60778e711f",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google.com/rmkt/collect/11310_GDN_RE_%E6%88%90%E6%9E%9C%E5%A0%B1%E9%85%AC/?random=1791626033217&cv=11&fst=1791626033217&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be6a80h2z872432624za20gzb72432624zd72432624xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~120385423~120469145~120469153~121046263~121046271~121246026~121246034&u_w=1440&u_h=900&url=https%3A%2F%2Fotsuka-air.jp%2F&rcb=15&frm=0&tiba=%2Fzeroz%EF%BC%88%E3%82%BC%E3%83%AD%E3%82%BA%EF%BC%89%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%7C%20%E5%A4%A7%E5%A1%9A%E8%A3%BD%E8%96%AC&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1610156508.1791626031&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uamb=0&uam=&uap=Windows&uapv=&uaw=0&_tu=CA&ept=68&gcp=5",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google.com/ccm/collect?rcb=15&frm=0&apvc=0&ae=g&auid=1610156508.1791626031&dt=%2Fzeroz%EF%BC%88%E3%82%BC%E3%83%AD%E3%82%BA%EF%BC%89%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%7C%20%E5%A4%A7%E5%A1%9A%E8%A3%BD%E8%96%AC&tid=AW-11310_GDN_RE_%E6%88%90%E6%9E%9C%E5%A0%B1%E9%85%AC&dl=https%3A%2F%2Fotsuka-air.jp%2F&scrsrc=www.googletagmanager.com&rnd=732557959.1791626031&navt=n&npa=0&_tu=CA&gtm=45be6a80h2z872432624za20gzb72432624zd72432624xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~120385423~120469145~120469153~121046263~121046271~121246026~121246034&tft=1791626033274&tfd=3762&tids=AW-11310_GDN_RE_%E6%88%90%E6%9E%9C%E5%A0%B1%E9%85%AC&fmt=8",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google.com/rmkt/collect/17790302747/?random=1791626033392&cv=11&fst=1791626033392&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6a80h2v9253564939za208zd9253564939xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034&u_w=1440&u_h=900&url=https%3A%2F%2Fotsuka-air.jp%2F&rcb=14&frm=0&tiba=%2Fzeroz%EF%BC%88%E3%82%BC%E3%83%AD%E3%82%BA%EF%BC%89%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%7C%20%E5%A4%A7%E5%A1%9A%E8%A3%BD%E8%96%AC&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1610156508.1791626031&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uamb=0&uam=&uap=Windows&uapv=&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google.com/ccm/collect?rcb=14&frm=0&apvc=0&auid=1610156508.1791626031&dt=%2Fzeroz%EF%BC%88%E3%82%BC%E3%83%AD%E3%82%BA%EF%BC%89%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%7C%20%E5%A4%A7%E5%A1%9A%E8%A3%BD%E8%96%AC&tid=AW-17790302747&en=page_view&dl=https%3A%2F%2Fotsuka-air.jp%2F&scrsrc=www.googletagmanager.com&rnd=732557959.1791626031&navt=n&npa=0&gtm=45be6a80h2v9253564939za208zd9253564939xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034&tft=1791626033427&tfd=3915&tids=AW-17790302747&fmt=8",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google.com/rmkt/collect/18208083204/?random=1791626033681&cv=11&fst=1791626033681&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6a72v9254364091za208zd9254364091xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034&u_w=1440&u_h=900&url=https%3A%2F%2Fotsuka-air.jp%2F&rcb=10&frm=0&tiba=%2Fzeroz%EF%BC%88%E3%82%BC%E3%83%AD%E3%82%BA%EF%BC%89%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%7C%20%E5%A4%A7%E5%A1%9A%E8%A3%BD%E8%96%AC&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1610156508.1791626031&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uamb=0&uam=&uap=Windows&uapv=&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google.com/ccm/collect?rcb=10&frm=0&apvc=0&auid=1610156508.1791626031&dt=%2Fzeroz%EF%BC%88%E3%82%BC%E3%83%AD%E3%82%BA%EF%BC%89%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%7C%20%E5%A4%A7%E5%A1%9A%E8%A3%BD%E8%96%AC&tid=AW-18208083204&en=page_view&dl=https%3A%2F%2Fotsuka-air.jp%2F&scrsrc=www.googletagmanager.com&rnd=732557959.1791626031&navt=n&npa=0&gtm=45be6a72v9254364091za208zd9254364091xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034&tft=1791626033724&tfd=4211&tids=AW-18208083204&fmt=8",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 5,
+      "workers": 0
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 101134,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 1645,
+      "typography": {
+        "families": [
+          [
+            "TazuganeGothicStdN-Regular",
+            56
+          ],
+          [
+            "HelveticaNowDisplay-Regular",
+            48
+          ],
+          [
+            "TazuganeGothicStdN-Medium",
+            9
+          ],
+          [
+            "IwaOGoPro-Db",
+            2
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            113
+          ],
+          [
+            "500",
+            2
+          ]
+        ],
+        "textTransforms": [
+          [
+            "capitalize",
+            5
+          ]
+        ],
+        "sizeMin": 12,
+        "sizeMedian": 15,
+        "sizeMax": 36,
+        "sizeMaxVw": 9.2,
+        "scaleRatio": 2.4,
+        "letterSpacingMean": 0.113,
+        "loadedFonts": [
+          {
+            "family": "fpbf_ac93d8111",
+            "weight": "normal",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 115
+      },
+      "color": {
+        "background": "rgb(17, 19, 18)",
+        "backgroundLuminance": 0.006285879338419347,
+        "backgrounds": [
+          [
+            "rgb(0, 168, 82)",
+            931
+          ],
+          [
+            "rgb(255, 255, 255)",
+            404
+          ],
+          [
+            "rgb(169, 177, 174)",
+            80
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(255, 255, 255)",
+            249
+          ],
+          [
+            "rgb(0, 0, 0)",
+            234
+          ],
+          [
+            "rgb(17, 19, 18)",
+            70
+          ],
+          [
+            "rgb(0, 168, 82)",
+            27
+          ],
+          [
+            "rgba(255, 255, 255, 0.4)",
+            12
+          ]
+        ],
+        "meanSaturation": 0.35,
+        "rootVars": {
+          "--header-color": "#ffffff",
+          "--header-color-duration": ".5s",
+          "--header-color-easing": "cubic-bezier(.3, .26, .38, 1)",
+          "--progress-bar-color": "#ffffff",
+          "--l-padding-left": "34px",
+          "--l-padding-right": "10px"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 4,
+        "sticky": 17,
+        "fixed": 8,
+        "grid": 110,
+        "flex": 287,
+        "absolute": 361,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 27968,
+        "pages": 33.1,
+        "spacing": [
+          [
+            10,
+            40
+          ],
+          [
+            30,
+            27
+          ],
+          [
+            20,
+            17
+          ],
+          [
+            5,
+            14
+          ],
+          [
+            16,
+            11
+          ],
+          [
+            4,
+            11
+          ],
+          [
+            40,
+            7
+          ],
+          [
+            48,
+            5
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 0,
+        "animationKinds": [],
+        "infiniteAnimations": 0,
+        "animationDurations": [],
+        "easings": [],
+        "transitionDurationsMs": [
+          [
+            300,
+            189
+          ],
+          [
+            500,
+            85
+          ]
+        ],
+        "keyframes": [
+          "enter",
+          "exit"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 67,
+      "media": {
+        "canvases": [
+          {
+            "w": 780,
+            "h": 1688,
+            "area": 1
+          }
+        ],
+        "videos": [
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://otsuka-air.jp/assets/video/about.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://otsuka-air.jp/assets/video/about.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://otsuka-air.jp/assets/video/science_technology.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://otsuka-air.jp/assets/video/science_technology.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://otsuka-air.jp/assets/video/product.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://otsuka-air.jp/assets/video/product.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://otsuka-air.jp/assets/video/interview.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://otsuka-air.jp/assets/video/interview.mp4"
+          }
+        ],
+        "svg": 61,
+        "images": 58,
+        "iframes": 4,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 1
+        },
+        "raf": 270,
+        "io": 29,
+        "ro": 38,
+        "mo": 2,
+        "startViewTransition": 0,
+        "workers": 8,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": true,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "/zeroz（ゼロズ）公式サイト | 大塚製薬",
+      "lang": "ja",
+      "description": "大塚製薬は、からだ本来の力を呼び覚ます、“Active Inner Resource”という思想にたどり着きました。その思想を形にしたのが、酸素を活かす成分「ケンフェロール」を含有したセルフコンディショニングフード「/zeroz（ゼロズ）」です。"
+    },
+    "featuresBeforeScroll": {
+      "elements": 1677,
+      "canvases": 1,
+      "animations": 1,
+      "hidden": 40
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 44991792,
+        "layoutCount": 102,
+        "recalcStyleCount": 253,
+        "scriptDuration": 8.4983,
+        "taskDuration": 98.688446,
+        "nodes": 9962
+      },
+      "timing": {
+        "domContentLoaded": 791,
+        "load": 19019,
+        "first-paint": 660,
+        "first-contentful-paint": 1964
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.3, 0.26, 0.38, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.3, 0.26, 0.38, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.3, 0.26, 0.38, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.3, 0.26, 0.38, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.3, 0.26, 0.38, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.3, 0.26, 0.38, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.3, 0.26, 0.38, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.3, 0.26, 0.38, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.3, 0.26, 0.38, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.3, 0.26, 0.38, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.3, 0.26, 0.38, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.3, 0.26, 0.38, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.3, 0.26, 0.38, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.3, 0.26, 0.38, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.3, 0.26, 0.38, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.3, 0.26, 0.38, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.3, 0.26, 0.38, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.3, 0.26, 0.38, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.3, 0.26, 0.38, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 500,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.3, 0.26, 0.38, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.3, 0.26, 0.38, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.3, 0.26, 0.38, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.3, 0.26, 0.38, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.3, 0.26, 0.38, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.3, 0.26, 0.38, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.3, 0.26, 0.38, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.3, 0.26, 0.38, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.3, 0.26, 0.38, 1)"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0105B254C200000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "error",
+        "text": "Access to XMLHttpRequest at 'https://webfont.fontplus.jp/accessor/mkfont' from origin 'https://otsuka-air.jp' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the"
+      },
+      {
+        "level": "error",
+        "text": "Failed to load resource: net::ERR_FAILED"
+      },
+      {
+        "level": "error",
+        "text": "Refused to execute script from 'https://pp.d2-apps.net/v1/impressions/log?client_id=172&site_url=https%3A%2F%2Fotsuka-air.jp%2F&referer=&__version=1.0.0&__ord=6101985961655&callback=__pfunc&viewport=3"
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://otsuka-air.jp/assets/video/science_technology.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://webfont.fontplus.jp/accessor/mkfont",
+        "error": "net::ERR_FAILED"
+      },
+      {
+        "url": "https://ad.doubleclick.net/ccm/s/collect?auid=345883571.1791626199&gtm=45He6a72v6626330za200zd6626330xeaxf1&fmt=8",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google.com/ccm/collect?rcb=8&frm=0&apvc=1&ae=g&auid=345883571.1791626199&dt=%2Fzeroz%EF%BC%88%E3%82%BC%E3%83%AD%E3%82%BA%EF%BC%89%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%7C%20%E5%A4%A7%E5%A1%9A%E8%A3%BD%E8%96%AC&en=page_view&dl=https%3A%2F%2Fotsuka-air.jp%2F&scrsrc=www.googletagmanager.com&rnd=2090851002.1791626199&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He6a72v6626330za200zd6626330xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938465~115938468~118897920~118897930~120385423~120412528~120469145~120469153~121046263~121046271~121246026~121246034&tft=1791626198605&tfd=1169&fmt=8",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google.com/ccm/collect?rcb=4&frm=0&apvc=0&ae=g&auid=345883571.1791626199&dt=%2Fzeroz%EF%BC%88%E3%82%BC%E3%83%AD%E3%82%BA%EF%BC%89%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%7C%20%E5%A4%A7%E5%A1%9A%E8%A3%BD%E8%96%AC&en=page_view&dl=https%3A%2F%2Fotsuka-air.jp%2F&scrsrc=www.googletagmanager.com&rnd=2090851002.1791626199&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He6a72v9117177521za200zd9117177521xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938465~115938469~118897920~118897930~120385422~120469145~120469153~121046263~121046271~121246026~121246034&tft=1791626199001&tfd=1565&fmt=8",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-EPYRMKR13P&gtm=45je6a72v9241879387za20ozb9117177521zd9117177521xf1&_p=1791626197937&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=544470593&_eu=AAAAAGA&are=1&cid=770394817.1791626205&frm=0&pscdl=noapi&rcb=7&sr=390x844&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=1&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&gaf=2&_s=1&tag_exp=115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791626204&sct=1&seg=0&dl=https%3A%2F%2Fotsuka-air.jp%2F&dt=%2Fzeroz%EF%BC%88%E3%82%BC%E3%83%AD%E3%82%BA%EF%BC%89%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%7C%20%E5%A4%A7%E5%A1%9A%E8%A3%BD%E8%96%AC&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=7200",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://capig.stape.pw/events/ca5226fbdac43cbad8823aedabd77fabc471b588e08228f2b967b0cb3e31944c",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google.com/ccm/collect?rcb=17&frm=0&apvc=0&auid=345883571.1791626199&dt=%2Fzeroz%EF%BC%88%E3%82%BC%E3%83%AD%E3%82%BA%EF%BC%89%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%7C%20%E5%A4%A7%E5%A1%9A%E8%A3%BD%E8%96%AC&tid=DC-17023704&en=page_view&dl=https%3A%2F%2Fotsuka-air.jp%2F&scrsrc=www.googletagmanager.com&rnd=2090851002.1791626199&navt=n&npa=0&gtm=45fe6a72v9253229939za208zd9253229939xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034&tft=1791626205181&tfd=7745&tids=DC-17023704&fmt=8",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google.com/ccm/collect?rcb=4&frm=0&apvc=0&ae=g&auid=345883571.1791626199&dt=%2Fzeroz%EF%BC%88%E3%82%BC%E3%83%AD%E3%82%BA%EF%BC%89%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%7C%20%E5%A4%A7%E5%A1%9A%E8%A3%BD%E8%96%AC&en=page_view&dl=https%3A%2F%2Fotsuka-air.jp%2F&scrsrc=www.googletagmanager.com&rnd=2090851002.1791626199&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He6a72v72432624za200zd72432624xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938465~115938469~118897920~118897930~120385422~120469145~120469153~121046263~121046271~121246026~121246034&tft=1791626205441&tfd=8005&fmt=8",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google.com/ccm/collect?rcb=1&frm=0&apvc=0&ae=g&auid=345883571.1791626199&dt=%2Fzeroz%EF%BC%88%E3%82%BC%E3%83%AD%E3%82%BA%EF%BC%89%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%7C%20%E5%A4%A7%E5%A1%9A%E8%A3%BD%E8%96%AC&tid=AW-11310_GDN_RE_%E6%88%90%E6%9E%9C%E5%A0%B1%E9%85%AC&dl=https%3A%2F%2Fotsuka-air.jp%2F&scrsrc=www.googletagmanager.com&rnd=2090851002.1791626199&navt=n&npa=0&_tu=CA&gtm=45be6a72z872432624za20gzb72432624zd72432624xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~120385423~120469145~120469153~121046263~121046271~121246026~121246034&tft=1791626205824&tfd=8388&tids=AW-11310_GDN_RE_%E6%88%90%E6%9E%9C%E5%A0%B1%E9%85%AC&fmt=8",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google.com/rmkt/collect/11310_GDN_RE_%E6%88%90%E6%9E%9C%E5%A0%B1%E9%85%AC/?random=1791626205755&cv=11&fst=1791626205755&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be6a72z872432624za20gzb72432624zd72432624xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~120385423~120469145~120469153~121046263~121046271~121246026~121246034&u_w=390&u_h=844&url=https%3A%2F%2Fotsuka-air.jp%2F&rcb=1&frm=0&tiba=%2Fzeroz%EF%BC%88%E3%82%BC%E3%83%AD%E3%82%BA%EF%BC%89%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%7C%20%E5%A4%A7%E5%A1%9A%E8%A3%BD%E8%96%AC&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=345883571.1791626199&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uamb=1&uam=&uap=Windows&uapv=&uaw=0&_tu=CA&ept=68&gcp=5",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google.com/rmkt/collect/17790302747/?random=1791626205906&cv=11&fst=1791626205906&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6a72v9253564939za208zd9253564939xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034&u_w=390&u_h=844&url=https%3A%2F%2Fotsuka-air.jp%2F&rcb=18&frm=0&tiba=%2Fzeroz%EF%BC%88%E3%82%BC%E3%83%AD%E3%82%BA%EF%BC%89%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%7C%20%E5%A4%A7%E5%A1%9A%E8%A3%BD%E8%96%AC&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=345883571.1791626199&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uamb=1&uam=&uap=Windows&uapv=&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google.com/ccm/collect?rcb=18&frm=0&apvc=0&auid=345883571.1791626199&dt=%2Fzeroz%EF%BC%88%E3%82%BC%E3%83%AD%E3%82%BA%EF%BC%89%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%7C%20%E5%A4%A7%E5%A1%9A%E8%A3%BD%E8%96%AC&tid=AW-17790302747&en=page_view&dl=https%3A%2F%2Fotsuka-air.jp%2F&scrsrc=www.googletagmanager.com&rnd=2090851002.1791626199&navt=n&npa=0&gtm=45be6a72v9253564939za208zd9253564939xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034&tft=1791626205937&tfd=8501&tids=AW-17790302747&fmt=8",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google.com/rmkt/collect/18208083204/?random=1791626206048&cv=11&fst=1791626206048&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6a72h1v9254364091za208zd9254364091xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034&u_w=390&u_h=844&url=https%3A%2F%2Fotsuka-air.jp%2F&rcb=15&frm=0&tiba=%2Fzeroz%EF%BC%88%E3%82%BC%E3%83%AD%E3%82%BA%EF%BC%89%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%7C%20%E5%A4%A7%E5%A1%9A%E8%A3%BD%E8%96%AC&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=345883571.1791626199&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uamb=1&uam=&uap=Windows&uapv=&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google.com/ccm/collect?rcb=15&frm=0&apvc=0&auid=345883571.1791626199&dt=%2Fzeroz%EF%BC%88%E3%82%BC%E3%83%AD%E3%82%BA%EF%BC%89%E5%85%AC%E5%BC%8F%E3%82%B5%E3%82%A4%E3%83%88%20%7C%20%E5%A4%A7%E5%A1%9A%E8%A3%BD%E8%96%AC&tid=AW-18208083204&en=page_view&dl=https%3A%2F%2Fotsuka-air.jp%2F&scrsrc=www.googletagmanager.com&rnd=2090851002.1791626199&navt=n&npa=0&gtm=45be6a72h1v9254364091za208zd9254364091xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034&tft=1791626206073&tfd=8637&tids=AW-18208083204&fmt=8",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://sp.gmossp-sp.jp/ads/sync.ad?dsp=logicad&dspuid=AeWdhBLJ2jEKks8AKctLtfWXts8AAAGhJT5X8w",
+        "error": "net::ERR_BLOCKED_BY_ORB"
+      },
+      {
+        "url": "https://dm.slim02.jp/tppa/v2/vs?adv_id=5000000244218781&cnropq=eyJ0YWdfaWQiOiI2ZGY4NzE4My0yZTMwLTRmZTMtYWJmOC01NjBhMThhZmU0YzIiLCJsYWJlbCI6IiIsImV2ZW50IjoicGFnZV92aWV3IiwicmVmIjoiaHR0cHM6Ly9vdHN1a2EtYWlyLmpwLyIsInJlcV90eXBlIjoibHl0YWcifQ&evt=5&pid=5000000244218780&xci=204f6b1d-6685-4137-aef8-2924855cbce6",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 5,
+      "workers": 0
+    }
+  }
+}

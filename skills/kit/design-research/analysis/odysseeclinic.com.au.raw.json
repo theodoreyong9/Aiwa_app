@@ -1,0 +1,1672 @@
+{
+  "url": "https://www.odysseeclinic.com.au/",
+  "at": "2026-10-09T07:56:10.588Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 9554,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 481,
+      "typography": {
+        "families": [
+          [
+            "psTimes",
+            77
+          ],
+          [
+            "baselGrotesk",
+            49
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            126
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            16
+          ]
+        ],
+        "sizeMin": 12,
+        "sizeMedian": 32,
+        "sizeMax": 48,
+        "sizeMaxVw": 3.3,
+        "scaleRatio": 1.5,
+        "letterSpacingMean": 0.029,
+        "loadedFonts": [
+          {
+            "family": "baselGrotesk",
+            "weight": "430",
+            "style": "normal"
+          },
+          {
+            "family": "psTimes",
+            "weight": "350",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 126
+      },
+      "color": {
+        "background": "rgb(255, 252, 248)",
+        "backgroundLuminance": 0.9765811812876042,
+        "backgrounds": [
+          [
+            "rgb(255, 252, 248)",
+            8625
+          ],
+          [
+            "rgb(40, 41, 42)",
+            298
+          ],
+          [
+            "rgb(30, 48, 94)",
+            298
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(30, 48, 94)",
+            262
+          ],
+          [
+            "rgb(255, 255, 255)",
+            104
+          ],
+          [
+            "rgb(232, 10, 28)",
+            1
+          ]
+        ],
+        "meanSaturation": 0.25,
+        "rootVars": {}
+      },
+      "layout": {
+        "fullscreenSections": 3,
+        "sticky": 4,
+        "fixed": 5,
+        "grid": 17,
+        "flex": 17,
+        "absolute": 39,
+        "asymmetricGrids": 4,
+        "splitScreen": false,
+        "scrollHeight": 8840,
+        "pages": 9.8,
+        "spacing": [
+          [
+            10,
+            9
+          ],
+          [
+            20,
+            9
+          ],
+          [
+            15,
+            7
+          ],
+          [
+            24,
+            5
+          ],
+          [
+            12,
+            4
+          ],
+          [
+            28,
+            3
+          ],
+          [
+            42,
+            1
+          ],
+          [
+            40,
+            1
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 0,
+        "animationKinds": [],
+        "infiniteAnimations": 0,
+        "animationDurations": [],
+        "easings": [],
+        "transitionDurationsMs": [
+          [
+            500,
+            21
+          ],
+          [
+            300,
+            21
+          ],
+          [
+            400,
+            5
+          ],
+          [
+            1000,
+            3
+          ]
+        ],
+        "keyframes": [
+          "pulse"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 6,
+      "media": {
+        "canvases": [],
+        "videos": [
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "blob:https://www.odysseeclinic.com.au/53689d36-fa91-4307-8c79-d3a8bba22e58"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "blob:https://www.odysseeclinic.com.au/b03dd11d-cf00-4c98-a8d7-b55be526ab4a"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "blob:https://www.odysseeclinic.com.au/944c9325-3390-48c7-ac7e-bf693bc006d5"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "blob:https://www.odysseeclinic.com.au/5df7e7f0-d5ca-4794-8a1d-7b82cd1d80a0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "blob:https://www.odysseeclinic.com.au/01ba1601-3b11-4ee8-8ebc-05255e405595"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "blob:https://www.odysseeclinic.com.au/9ae98aee-2585-405e-8bb4-3fcc72eca666"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "blob:https://www.odysseeclinic.com.au/6ea08ddb-2f81-4974-95b9-423a120664dd"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "blob:https://www.odysseeclinic.com.au/76a999e8-8dbb-4e7d-8134-6c518bab6fd5"
+          }
+        ],
+        "svg": 3,
+        "images": 9,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl": 1
+        },
+        "raf": 707,
+        "io": 10,
+        "ro": 16,
+        "mo": 1,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Odyssée",
+      "lang": "en",
+      "description": "At Odyssée, we prioritise a personalised approach. Visit our Hunters Hill space for a transformative experience in your aesthetic journey.\n"
+    },
+    "featuresBeforeScroll": {
+      "elements": 481,
+      "canvases": 0,
+      "animations": 0,
+      "hidden": 83
+    },
+    "scrollReveal": 77,
+    "hover": {
+      "probed": 6,
+      "changed": 0
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 15364876,
+        "layoutCount": 333,
+        "recalcStyleCount": 1397,
+        "scriptDuration": 0.560523,
+        "taskDuration": 1.529821,
+        "nodes": 2149
+      },
+      "timing": {
+        "domContentLoaded": 202,
+        "load": 311,
+        "first-paint": 276,
+        "first-contentful-paint": 276
+      }
+    },
+    "network": [
+      {
+        "url": "https://www.odysseeclinic.com.au/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 25516
+      },
+      {
+        "url": "https://www.odysseeclinic.com.au/_next/static/media/Basel_Grotesk_Regular-s.p.03d388.7g3205.woff2?dpl=dpl_BgLS3Tf4iR2L6YTHZdS7S3UhDCCj",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 81906
+      },
+      {
+        "url": "https://www.odysseeclinic.com.au/_next/static/media/PSTimes_Regular-s.p.0poli67eyc7.0.otf?dpl=dpl_BgLS3Tf4iR2L6YTHZdS7S3UhDCCj",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/otf",
+        "fromCache": false,
+        "bytes": 64091
+      },
+      {
+        "url": "https://www.odysseeclinic.com.au/_next/static/chunks/07i.5xsf~6_5q.css?dpl=dpl_BgLS3Tf4iR2L6YTHZdS7S3UhDCCj",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 10007
+      },
+      {
+        "url": "https://www.odysseeclinic.com.au/_next/static/chunks/0d0byesuun2b4.js?dpl=dpl_BgLS3Tf4iR2L6YTHZdS7S3UhDCCj",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 5751
+      },
+      {
+        "url": "https://www.odysseeclinic.com.au/_next/static/chunks/10qd__0r7a~.l.js?dpl=dpl_BgLS3Tf4iR2L6YTHZdS7S3UhDCCj",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 9347
+      },
+      {
+        "url": "https://www.odysseeclinic.com.au/_next/static/chunks/0zt2rzvmyhwl-.js?dpl=dpl_BgLS3Tf4iR2L6YTHZdS7S3UhDCCj",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 31596
+      },
+      {
+        "url": "https://www.odysseeclinic.com.au/_next/static/chunks/0ayhydy3m9_9r.js?dpl=dpl_BgLS3Tf4iR2L6YTHZdS7S3UhDCCj",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 73944
+      },
+      {
+        "url": "https://www.odysseeclinic.com.au/_next/static/chunks/0c.be5dw7au_i.js?dpl=dpl_BgLS3Tf4iR2L6YTHZdS7S3UhDCCj",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 11972
+      },
+      {
+        "url": "https://www.odysseeclinic.com.au/_next/static/chunks/turbopack-0c_hx_1t0~ho5.js?dpl=dpl_BgLS3Tf4iR2L6YTHZdS7S3UhDCCj",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4780
+      },
+      {
+        "url": "https://www.odysseeclinic.com.au/_next/static/chunks/0wiobjxwd1ldk.js?dpl=dpl_BgLS3Tf4iR2L6YTHZdS7S3UhDCCj",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2761
+      },
+      {
+        "url": "https://www.odysseeclinic.com.au/_next/static/chunks/0q4.v-ch2t2-r.js?dpl=dpl_BgLS3Tf4iR2L6YTHZdS7S3UhDCCj",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 7881
+      },
+      {
+        "url": "https://www.odysseeclinic.com.au/_next/static/chunks/03ak18kxjhm58.js?dpl=dpl_BgLS3Tf4iR2L6YTHZdS7S3UhDCCj",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 12688
+      },
+      {
+        "url": "https://www.odysseeclinic.com.au/_next/static/chunks/0c4vo7lg2di3r.js?dpl=dpl_BgLS3Tf4iR2L6YTHZdS7S3UhDCCj",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 61708
+      },
+      {
+        "url": "https://www.odysseeclinic.com.au/_next/static/chunks/09v3hk6cq8q8h.js?dpl=dpl_BgLS3Tf4iR2L6YTHZdS7S3UhDCCj",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 238445
+      },
+      {
+        "url": "https://www.odysseeclinic.com.au/_next/static/chunks/06cl5e73t7m~-.js?dpl=dpl_BgLS3Tf4iR2L6YTHZdS7S3UhDCCj",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 57633
+      },
+      {
+        "url": "https://www.odysseeclinic.com.au/_next/static/chunks/121saa-6z_u.t.js?dpl=dpl_BgLS3Tf4iR2L6YTHZdS7S3UhDCCj",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 14555
+      },
+      {
+        "url": "https://www.odysseeclinic.com.au/_next/static/chunks/0fgv_afr2sqyi.js?dpl=dpl_BgLS3Tf4iR2L6YTHZdS7S3UhDCCj",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1011
+      },
+      {
+        "url": "https://www.odysseeclinic.com.au/_next/static/chunks/020n4noiewojw.js?dpl=dpl_BgLS3Tf4iR2L6YTHZdS7S3UhDCCj",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 814
+      },
+      {
+        "url": "https://www.odysseeclinic.com.au/_next/static/chunks/0-qc3rz1sh1t9.js?dpl=dpl_BgLS3Tf4iR2L6YTHZdS7S3UhDCCj",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 10225
+      },
+      {
+        "url": "https://image.mux.com/KPGV1XD6O5cOIjbvgI9gju6ONgFCF3f600Vx00SLBswTw/thumbnail.webp?width=1280&time=0",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 20110
+      },
+      {
+        "url": "https://cdn.sanity.io/images/jk7ok3ks/production/7b0fe4636ce1a622cb71e46f97ce9e27cf6bac7a-2821x1667.jpg/SHOT02_0309.jpg?rect=134,42,2492,1625&fp-x=0.4892718294797087&fp-y=0.5124781804086795&w=2200&h=1435&q=90&fit=crop&crop=focalpoint&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 49196
+      },
+      {
+        "url": "https://image.mux.com/gRXYsybggkati9pUJcHePiC413BdzliVVGUg39Ws8fQ/thumbnail.webp?width=1280&time=0",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 18271
+      },
+      {
+        "url": "https://image.mux.com/re6Lo25WbVgeWIsN01jomX6301gkIIbAeVnHOXHWma1fg/thumbnail.webp?width=1280&time=0",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 22228
+      },
+      {
+        "url": "https://image.mux.com/fS8PkAXku8vh2p1T7Bo7Eg3M028nSKQ00jlKhFjy1028d8/thumbnail.webp?width=1280&time=0",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 38954
+      },
+      {
+        "url": "https://image.mux.com/Px1Sfy2K9oqHG0286pMT4zEL5lZKP00bY2pSSr52v3Y7U/thumbnail.webp?width=1280&time=0",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 46405
+      },
+      {
+        "url": "https://image.mux.com/ut01RvbnOMm3QzJ84DXgMj6KLwvE5cFLDncuzqAsSdGM/thumbnail.webp?width=1280&time=0",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 65840
+      },
+      {
+        "url": "https://image.mux.com/X9qWHUe7kN9p7300ndaqW6N92ZiE1ys5ZykKrVjbx01NU/thumbnail.webp?width=1280&time=0",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 33373
+      },
+      {
+        "url": "https://image.mux.com/uLAgBUf02802G4C9mFa00XQh69epXcUxW6reJ6zHrRFQzk/thumbnail.webp?width=1280&time=0",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 5634
+      },
+      {
+        "url": "https://cdn.sanity.io/images/jk7ok3ks/production/e15987c97e76d4c3d6521ea669903d5a3a70569b-1668x2500.jpg/e15987c97e76d4c3d6521ea669903d5a3a70569b.jpg?rect=1,0,1667,2500&w=320&h=480&q=90&fit=min&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 8691
+      },
+      {
+        "url": "https://cdn.sanity.io/images/jk7ok3ks/production/e007bf68879e72e879605abf15f147bac664a2bd-2001x3000.jpg/SHOT05_00410_Web.jpg?rect=0,0,2001,2660&fp-x=0.5&fp-y=0.3766418643736657&w=1024&h=1361&q=90&fit=crop&crop=focalpoint&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 29300
+      },
+      {
+        "url": "https://cdn.sanity.io/images/jk7ok3ks/production/8f5c091f5a453bdd3196efd191589789f15e5318-7934x5292.jpg/SHOT01_0106_Web.jpg?rect=1282,645,2780,3455&fp-x=0.3584056066543349&fp-y=0.44068176246968765&w=1024&h=1273&q=90&fit=crop&crop=focalpoint&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 74973
+      },
+      {
+        "url": "https://cdn.sanity.io/images/jk7ok3ks/production/854e3909493c914faad6408954aa816f8b3650e0-4096x2732.jpg/854e3909493c914faad6408954aa816f8b3650e0.jpg?rect=1,0,4095,2732&w=1920&h=1281&q=90&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 106295
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-M33W3S74",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 163029
+      },
+      {
+        "url": "https://www.odysseeclinic.com.au/_next/static/chunks/02omy4zi4tnwb.js?dpl=dpl_BgLS3Tf4iR2L6YTHZdS7S3UhDCCj",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 161076
+      },
+      {
+        "url": "https://stream.mux.com/KPGV1XD6O5cOIjbvgI9gju6ONgFCF3f600Vx00SLBswTw.m3u8",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": false,
+        "bytes": 1053
+      },
+      {
+        "url": "https://stream.mux.com/gRXYsybggkati9pUJcHePiC413BdzliVVGUg39Ws8fQ.m3u8",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": false,
+        "bytes": 1055
+      },
+      {
+        "url": "https://stream.mux.com/re6Lo25WbVgeWIsN01jomX6301gkIIbAeVnHOXHWma1fg.m3u8",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": false,
+        "bytes": 1058
+      },
+      {
+        "url": "https://stream.mux.com/fS8PkAXku8vh2p1T7Bo7Eg3M028nSKQ00jlKhFjy1028d8.m3u8",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": false,
+        "bytes": 1054
+      },
+      {
+        "url": "https://stream.mux.com/Px1Sfy2K9oqHG0286pMT4zEL5lZKP00bY2pSSr52v3Y7U.m3u8",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": false,
+        "bytes": 1052
+      },
+      {
+        "url": "https://stream.mux.com/ut01RvbnOMm3QzJ84DXgMj6KLwvE5cFLDncuzqAsSdGM.m3u8",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": false,
+        "bytes": 1062
+      },
+      {
+        "url": "https://stream.mux.com/X9qWHUe7kN9p7300ndaqW6N92ZiE1ys5ZykKrVjbx01NU.m3u8",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": false,
+        "bytes": 1409
+      },
+      {
+        "url": "https://stream.mux.com/uLAgBUf02802G4C9mFa00XQh69epXcUxW6reJ6zHrRFQzk.m3u8",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": false,
+        "bytes": 1054
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-25T9HZF4MC&cx=c&gtm=4e6a72",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 196762
+      },
+      {
+        "url": "https://www.odysseeclinic.com.au/%E2%80%9Chttps:/odysseeaesthetic.dapplecrm.com/visitor.js%E2%80%9D",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other",
+        "status": 404,
+        "mime": "text/html",
+        "fromCache": false
+      },
+      {
+        "url": "https://connect.facebook.net/en_US/fbevents.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/x-javascript",
+        "fromCache": false,
+        "bytes": 115851
+      },
+      {
+        "url": "https://analytics.odysseeclinic.com.au/nomaintel.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 36275
+      },
+      {
+        "url": "https://www.google.com/ccm/collect?rcb=14&frm=0&apvc=1&ae=g&auid=1914195269.1791532555&dt=Odyss%C3%A9e&en=page_view&dl=https%3A%2F%2Fwww.odysseeclinic.com.au%2F&scrsrc=www.googletagmanager.com&rnd=382224256.1791532555&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He6a72v9237158156za200zd9237158156xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~120385422~120469145~120469153~121046263~121046271~121246026~121246034~123227969&tft=1791532555099&tfd=518&fmt=8",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false
+      },
+      {
+        "url": "https://ad.doubleclick.net/ccm/s/collect?auid=1914195269.1791532555&gtm=45He6a72v9237158156za200zd9237158156xeaxf1&fmt=8",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/html",
+        "fromCache": false
+      },
+      {
+        "url": "https://connect.facebook.net/signals/config/888350660426749?v=2.9.415&r=stable&domain=www.odysseeclinic.com.au&hme=a4c28c8787325ac3f8f9eac68364f47df2a8c4266e43177443e5d7f6289c9774&ex_m=117%2C240%2C170%2C27%2C81%2C82%2C161%2C77%2C76%2C11%2C180%2C101%2C20%2C152%2C140%2C46%2C84%2C89%2C148%2C175%2C182%2C8%2C4%2C5%2C7%2C6%2C3%2C102%2C114%2C32%2C17%2C31%2C18%2C33%2C34%2C35%2C37%2C55%2C162%2C86%2C125%2C22%2C24%2C51%2C47%2C49%2C48%2C94%2C103%2C107%2C123%2C159%2C163%2C53%2C124%2C29%2C26%2C132%2C78%2C43%2C165%2C164%2C166%2C156%2C154%2C30%2C42%2C66%2C122%2C177%2C79%2C21%2C127%2C92%2C75%2C23%2C96%2C97%2C129%2C95%2C150%2C149%2C153%2C108%2C176%2C179%2C41%2C56%2C126%2C54%2C160%2C71%2C184%2C109%2C183%2C209%2C254%2C83%2C273%2C272%2C271%2C14%2C25%2C28%2C40%2C62%2C116%2C68%2C10%2C72%2C110%2C111%2C112%2C118%2C143%2C38%2C36%2C145%2C146%2C147%2C142%2C141%2C171%2C85%2C174%2C172%2C173%2C57%2C67%2C136%2C19%2C178%2C52%2C322%2C323%2C324%2C321%2C337%2C359%2C247%2C236%2C69%2C237%2C235%2C362%2C353%2C59%2C248%2C120%2C144%2C91%2C134%2C61%2C133%2C139%2C138%2C65%2C73%2C167%2C87%2C88%2C128%2C44%2C39%2C60%2C63%2C113%2C181%2C1%2C137%2C16%2C135%2C12%2C2%2C64%2C104%2C15%2C74%2C70%2C131%2C100%2C99%2C186%2C187%2C105%2C106%2C9%2C115%2C185%2C58%2C157%2C98%2C90%2C80%2C130%2C119%2C168%2C50%2C158%2C0%2C93%2C151%2C155%2C169%2C45%2C121%2C13%2C188",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/x-javascript",
+        "fromCache": false,
+        "bytes": 92006
+      },
+      {
+        "url": "https://analytics.odysseeclinic.com.au/collect",
+        "method": "OPTIONS",
+        "type": "OTHER",
+        "initiator": "preflight",
+        "status": 204,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.odysseeclinic.com.au/wp-json/noma/v1/id?cb=mv0o86ooqs9ve2ap",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 403,
+        "mime": "text/plain",
+        "fromCache": false
+      },
+      {
+        "url": "https://analytics.odysseeclinic.com.au/tag-config?clid=ODY001",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 519
+      },
+      {
+        "url": "https://analytics.odysseeclinic.com.au/collect",
+        "method": "POST",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 463
+      },
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-25T9HZF4MC&gtm=45je6a72v9256276019za20ozb9237158156zd9237158156xf1&_p=1791532554937&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACAC&are=1&cid=1793657263.1791532555&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=10&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=1&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791532555&sct=1&seg=0&dl=https%3A%2F%2Fwww.odysseeclinic.com.au%2F&dt=Odyss%C3%A9e&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=682",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false
+      },
+      {
+        "url": "https://stats.g.doubleclick.net/g/collect?v=2&ngs=1&ibt=1&tid=G-25T9HZF4MC&cid=1793657263.1791532555&gtm=45je6a72v9256276019za20ozb9237158156zd9237158156xf1&rcb=10&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034",
+        "method": "POST",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 564
+      },
+      {
+        "url": "https://www.odysseeclinic.com.au/wp-json/noma/v1/id?cb=mv0o86qrid9gk6ec",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 403,
+        "mime": "text/plain",
+        "fromCache": false
+      },
+      {
+        "url": "https://mpc-prod-25-s6uit34pua-wl.a.run.app/events?cee=no",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false
+      },
+      {
+        "url": "https://www.facebook.com/tr/?id=888350660426749&ev=PageView&dl=https%3A%2F%2Fwww.odysseeclinic.com.au&rl=&if=false&ts=1791532555418&iw=false&sw=1440&sh=900&v=2.9.415&r=stable&ec=0&o=12316&aems=0%3B0&fbp=fb.2.1791532555415.108945456298858816&eid=ob3_plugin-set_1aa37d1b0081821a8d245d042ab32961d6a8560157bffa289cef91a50fc02c7c&cs_est=true&pm=1&hrl=cd89ae&ler=empty&plt=202&ups[pv]=%7B%7D&ups[rpv]=%7B%7D&it=1791532555211&coo=false&cs_cc=1&cas=28117206587914668%2C25394100290288716&dlc=1&cf=1&expv2[0]=pl1&expv2[1]=el3&expv2[2]=bc1&expv2[3]=ra0&expv2[4]=rp0&expv2[5]=ct2&expv2[6]=hf1&expv2[7]=ai1&expv2[8]=sd1&expv2[9]=sp1&expv2[10]=ek1&expv2[11]=pc1&expv2[12]=gs1&expv2[13]=zs1&expv2[14]=cp1&expv2[15]=es1&expv2[16]=ac1&expv2[17]=so1&expv2[18]=wc1&expv2[19]=la1&expv2[20]=sf1&expv2[21]=da1&expv2[22]=io1&expv2[23]=ae1&expv2[24]=sx1&expv2[25]=if1&expv2[26]=fd1&expv2[27]=bg1&expv2[28]=mg1&expv2[29]=kl1&expv2[30]=sg1&expv2[31]=mk1&expv2[32]=sn1&expv2[33]=ec1&expv2[34]=mp1&expv2[35]=ps1&expv2[36]=fx1&expv2[37]=vt1&expv2[38]=dp1&expv2[39]=fw1&expv2[40]=cn1&expv2[41]=tz1&expv2[42]=pe1&expv2[43]=ee1&expv2[44]=bu1&expv2[45]=ta1&expv2[46]=ot1&expv2[47]=hv1&expv2[48]=ep1&expv2[49]=rh0&expv2[50]=ah1&rqm=GET",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 398
+      },
+      {
+        "url": "https://cdn.sanity.io/images/jk7ok3ks/production/c762884e694a9e04d78ceae2b04aba058518c1fe-2500x1667.jpg/SHOT02_0300_collaged_Web.jpg?rect=147,0,2275,1469&fp-x=0.5474243494020029&fp-y=0.4481215816397982&w=1920&h=1240&q=90&fit=crop&crop=focalpoint&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 82395
+      },
+      {
+        "url": "https://cdn.sanity.io/images/jk7ok3ks/production/a882186ef21fc35c8eb2671c07c44c8f008e2d9e-5412x8114.png/SHOT05_0465.png?rect=1112,3251,3362,4523&fp-x=0.5160088956512576&fp-y=0.651393432454424&w=420&h=518&q=90&fit=crop&crop=focalpoint&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 5580
+      },
+      {
+        "url": "https://cdn.sanity.io/images/jk7ok3ks/production/9e284294e96ad7d01dbb9adfd40879149fcb2bc7-3689x4611.jpg/SHOT01_0100.jpg?fp-x=0.5203481496007387&fp-y=0.4258733089025302&w=420&h=518&q=90&fit=crop&crop=focalpoint&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 5247
+      },
+      {
+        "url": "https://cdn.sanity.io/images/jk7ok3ks/production/d79b706712ca778de35a2204f49c5a51ebd8d6f3-8192x5464.png/SHOT07_00660.png?rect=1821,1112,3097,3965&fp-x=0.41133750690075394&fp-y=0.6308382340407397&w=420&h=518&q=90&fit=crop&crop=focalpoint&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 18839
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.1, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 864.3391915385571,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.1, 0, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "scale",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 498.77656285652034,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "scale",
+        "duration": 498.77656285652034,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "scale",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 498.7780687689641,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "scale",
+        "duration": 498.7780687689641,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "scale",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 498.77354809735374,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "scale",
+        "duration": 498.77354809735374,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "scale",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      }
+    ],
+    "console": [
+      {
+        "level": "error",
+        "text": "Failed to load resource: the server responded with a status of 404 ()"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0702000B4000000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "error",
+        "text": "Failed to load resource: the server responded with a status of 403 ()"
+      },
+      {
+        "level": "error",
+        "text": "Failed to load resource: the server responded with a status of 403 ()"
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://www.odysseeclinic.com.au/%E2%80%9Chttps:/odysseeaesthetic.dapplecrm.com/visitor.js%E2%80%9D",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://ad.doubleclick.net/ccm/s/collect?auid=1914195269.1791532555&gtm=45He6a72v9237158156za200zd9237158156xeaxf1&fmt=8",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google.com/ccm/collect?rcb=14&frm=0&apvc=1&ae=g&auid=1914195269.1791532555&dt=Odyss%C3%A9e&en=page_view&dl=https%3A%2F%2Fwww.odysseeclinic.com.au%2F&scrsrc=www.googletagmanager.com&rnd=382224256.1791532555&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He6a72v9237158156za200zd9237158156xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~120385422~120469145~120469153~121046263~121046271~121246026~121246034~123227969&tft=1791532555099&tfd=518&fmt=8",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-25T9HZF4MC&gtm=45je6a72v9256276019za20ozb9237158156zd9237158156xf1&_p=1791532554937&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACAC&are=1&cid=1793657263.1791532555&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=10&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=1&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791532555&sct=1&seg=0&dl=https%3A%2F%2Fwww.odysseeclinic.com.au%2F&dt=Odyss%C3%A9e&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=682",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://mpc-prod-25-s6uit34pua-wl.a.run.app/events?cee=no",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 6413,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 481,
+      "typography": {
+        "families": [
+          [
+            "psTimes",
+            58
+          ],
+          [
+            "baselGrotesk",
+            44
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            102
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            12
+          ]
+        ],
+        "sizeMin": 12,
+        "sizeMedian": 24,
+        "sizeMax": 32,
+        "sizeMaxVw": 8.2,
+        "scaleRatio": 1.3,
+        "letterSpacingMean": 0.03,
+        "loadedFonts": [
+          {
+            "family": "baselGrotesk",
+            "weight": "430",
+            "style": "normal"
+          },
+          {
+            "family": "psTimes",
+            "weight": "350",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 102
+      },
+      "color": {
+        "background": "rgb(255, 252, 248)",
+        "backgroundLuminance": 0.9765811812876042,
+        "backgrounds": [
+          [
+            "rgb(255, 252, 248)",
+            2254
+          ],
+          [
+            "rgb(40, 41, 42)",
+            248
+          ],
+          [
+            "rgb(30, 48, 94)",
+            248
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(30, 48, 94)",
+            238
+          ],
+          [
+            "rgb(255, 255, 255)",
+            77
+          ]
+        ],
+        "meanSaturation": 0.25,
+        "rootVars": {}
+      },
+      "layout": {
+        "fullscreenSections": 3,
+        "sticky": 2,
+        "fixed": 6,
+        "grid": 17,
+        "flex": 17,
+        "absolute": 40,
+        "asymmetricGrids": 4,
+        "splitScreen": false,
+        "scrollHeight": 8711,
+        "pages": 10.3,
+        "spacing": [
+          [
+            20,
+            9
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            15,
+            7
+          ],
+          [
+            24,
+            5
+          ],
+          [
+            12,
+            4
+          ],
+          [
+            28,
+            3
+          ],
+          [
+            42,
+            1
+          ],
+          [
+            40,
+            1
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 0,
+        "animationKinds": [],
+        "infiniteAnimations": 0,
+        "animationDurations": [],
+        "easings": [],
+        "transitionDurationsMs": [
+          [
+            500,
+            21
+          ],
+          [
+            300,
+            21
+          ],
+          [
+            400,
+            5
+          ],
+          [
+            1000,
+            3
+          ]
+        ],
+        "keyframes": [
+          "pulse"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 25,
+      "media": {
+        "canvases": [],
+        "videos": [
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "blob:https://www.odysseeclinic.com.au/f968f904-38b0-4a5d-8914-87ef5e9df8fd"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "blob:https://www.odysseeclinic.com.au/b493caad-d4e8-47d2-a61a-3ea941c6061e"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "blob:https://www.odysseeclinic.com.au/82effb0e-c9da-4fe0-8887-eb07801a2c53"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "blob:https://www.odysseeclinic.com.au/b0ab5e6c-c055-4249-9d3a-6857df1380ad"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "blob:https://www.odysseeclinic.com.au/a4a49c5b-df13-4e34-87a5-25e340046eb0"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "blob:https://www.odysseeclinic.com.au/d9740fdf-6f0a-4e07-997d-86fc2dbc3009"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "blob:https://www.odysseeclinic.com.au/c7a72941-2f94-4a1b-8027-58029c5f71b6"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "blob:https://www.odysseeclinic.com.au/2a4755f4-980e-4777-a0a2-73e79b201c87"
+          }
+        ],
+        "svg": 3,
+        "images": 9,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl": 1
+        },
+        "raf": 744,
+        "io": 10,
+        "ro": 16,
+        "mo": 1,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Odyssée",
+      "lang": "en",
+      "description": "At Odyssée, we prioritise a personalised approach. Visit our Hunters Hill space for a transformative experience in your aesthetic journey.\n"
+    },
+    "featuresBeforeScroll": {
+      "elements": 481,
+      "canvases": 0,
+      "animations": 0,
+      "hidden": 80
+    },
+    "scrollReveal": 55,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 16331188,
+        "layoutCount": 84,
+        "recalcStyleCount": 693,
+        "scriptDuration": 0.457382,
+        "taskDuration": 0.999699,
+        "nodes": 2324
+      },
+      "timing": {
+        "domContentLoaded": 74,
+        "load": 162,
+        "first-paint": 172,
+        "first-contentful-paint": 172
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      }
+    ],
+    "console": [
+      {
+        "level": "error",
+        "text": "Failed to load resource: the server responded with a status of 404 ()"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0A02000B4000000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "error",
+        "text": "Failed to load resource: the server responded with a status of 403 ()"
+      },
+      {
+        "level": "error",
+        "text": "Failed to load resource: the server responded with a status of 403 ()"
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://ad.doubleclick.net/ccm/s/collect?auid=214663722.1791532565&gtm=45He6a72v9237158156za200zd9237158156xeaxf1&fmt=8",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google.com/ccm/collect?rcb=18&frm=0&apvc=1&ae=g&auid=214663722.1791532565&dt=Odyss%C3%A9e&en=page_view&dl=https%3A%2F%2Fwww.odysseeclinic.com.au%2F&scrsrc=www.googletagmanager.com&rnd=1199452027.1791532565&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He6a72v9237158156za200zd9237158156xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~117776796~118897920~118897930~120385422~120469145~120469153~121046263~121046271~121246026~121246034~123227969&tft=1791532564543&tfd=367&fmt=8",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.odysseeclinic.com.au/%E2%80%9Chttps:/odysseeaesthetic.dapplecrm.com/visitor.js%E2%80%9D",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-25T9HZF4MC&gtm=45je6a72v9256276019za20ozb9237158156zd9237158156xf1&_p=1791532564390&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACAC&are=1&cid=1875387196.1791532565&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=19&sr=390x844&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=1&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=1&tag_exp=115616986~115938466~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246026~121246034&sid=1791532564&sct=1&seg=0&dl=https%3A%2F%2Fwww.odysseeclinic.com.au%2F&dt=Odyss%C3%A9e&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=538",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://connect.facebook.net//log/error?p=capig_pixel&pn=openbridge3&sl=2&v=2.9.415&e=%5Bopenbridge3%5D%20arm_state%3Darmed%20arm_source%3Dconfig&ue=0&rs=stable&ed=%7B%22pixel_id%22%3A%22888350660426749%22%2C%22arm_state%22%3A%22armed%22%2C%22arm_source%22%3A%22config%22%2C%22event_name%22%3A%22PageView%22%2C%22fork_parent_id%22%3Anull%7D&rqm=FGET",
+        "error": "net::ERR_BLOCKED_BY_ORB"
+      },
+      {
+        "url": "https://mpc-prod-25-s6uit34pua-wl.a.run.app/events?cee=no",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  }
+}

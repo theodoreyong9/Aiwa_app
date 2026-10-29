@@ -1,0 +1,1772 @@
+{
+  "url": "https://overworldaudio.com/",
+  "at": "2026-10-19T09:58:09.960Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 49009,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 136,
+      "typography": {
+        "families": [
+          [
+            "PPFrama",
+            4
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            4
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            3
+          ]
+        ],
+        "sizeMin": 8,
+        "sizeMedian": 9,
+        "sizeMax": 12,
+        "sizeMaxVw": 0.8,
+        "scaleRatio": 1.3,
+        "letterSpacingMean": 0.308,
+        "loadedFonts": [
+          {
+            "family": "IvarHeadline",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "PPFrama",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "IvarHeadline",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "PPFrama",
+            "weight": "400",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 4
+      },
+      "color": {
+        "background": "rgb(19, 21, 31)",
+        "backgroundLuminance": 0.007737068615835261,
+        "backgrounds": [],
+        "texts": [
+          [
+            "rgb(233, 236, 238)",
+            33
+          ],
+          [
+            "rgb(110, 135, 153)",
+            1
+          ],
+          [
+            "rgb(153, 153, 153)",
+            1
+          ]
+        ],
+        "meanSaturation": 0,
+        "rootVars": {
+          "--font-serif": "\"IvarHeadline\",-apple-system,system-ui,BlinkMacSystemFont,\"Helvetica\",\"Arial\",sans-serif",
+          "--font-sans": "\"PPFrama\",-apple-system,system-ui,BlinkMacSystemFont,\"Helvetica\",\"Arial\",sans-serif",
+          "--off-white": "#e9ecee",
+          "--off-black": "#13151f",
+          "--color-secondary": "#aab9c7",
+          "--gray": "#6e8799",
+          "--dark-gray": "#4c5e6b",
+          "--expo-out": "cubic-bezier(.14,1,.34,1)",
+          "--quint-out": "cubic-bezier(.23,1,.32,1)",
+          "--z-sound-toggle": "100",
+          "--chrome-bottom": "2.6rem",
+          "--gl-bleed": "0px",
+          "--border": "hsla(0,0%,91%,.1)",
+          "--surface": "#1a1a1a",
+          "--grid-cols": "12",
+          "--grid-gutter": "1rem",
+          "--grid-max-width": "calc(100% - 4.9rem)",
+          "--grid-width": "95vw",
+          "--grid-margin": "calc((100vw - var(--grid-width))/2)",
+          "--grid-track": "calc((var(--grid-width) - (var(--grid-cols) - 1)*var(--grid-gutter))/var(--grid-cols))",
+          "--panel-col-start": "6",
+          "--panel-col-end": "12",
+          "--panel-content-left": "calc(var(--grid-margin) + (var(--panel-col-start) - 1)*(var(--grid-track) + var(--grid-gutter)))",
+          "--panel-content-width": "calc((var(--panel-col-end) - var(--panel-col-start))*var(--grid-track) + (var(--panel-col-end) - var(--panel-col-start) - 1)*var(--grid-gutter))",
+          "--panel-cut": "calc(var(--grid-margin) + (var(--panel-col-start) - 2)*(var(--grid-track) + var(--grid-gutter)) + var(--grid-track)/2)"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 0,
+        "sticky": 0,
+        "fixed": 8,
+        "grid": 2,
+        "flex": 13,
+        "absolute": 20,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 900,
+        "pages": 1,
+        "spacing": [
+          [
+            2,
+            8
+          ],
+          [
+            14,
+            4
+          ],
+          [
+            10,
+            4
+          ],
+          [
+            12,
+            2
+          ],
+          [
+            16,
+            2
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            30,
+            1
+          ],
+          [
+            8,
+            1
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 4,
+        "animationKinds": [
+          "CSSTransition"
+        ],
+        "infiniteAnimations": 0,
+        "animationDurations": [
+          300,
+          300,
+          800,
+          800
+        ],
+        "easings": [
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            300,
+            15
+          ],
+          [
+            800,
+            8
+          ],
+          [
+            500,
+            4
+          ],
+          [
+            400,
+            2
+          ],
+          [
+            600,
+            2
+          ]
+        ],
+        "keyframes": [
+          "block-video-spin-2651e29b",
+          "reel-modal-in-b1439b63"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 9,
+      "media": {
+        "canvases": [
+          {
+            "w": 1080,
+            "h": 675,
+            "area": 1
+          }
+        ],
+        "videos": [],
+        "svg": 10,
+        "images": 0,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl": 1,
+          "webgl2": 1
+        },
+        "raf": 64,
+        "io": 1,
+        "ro": 4,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": true,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Overworld Audio",
+      "lang": "en",
+      "description": "Audio co-development for games and interactive experiences, from prototype to final mix."
+    },
+    "featuresBeforeScroll": {
+      "elements": 136,
+      "canvases": 1,
+      "animations": 0,
+      "hidden": 10
+    },
+    "scrollReveal": 1,
+    "hover": {
+      "probed": 6,
+      "changed": 0
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 12250000,
+        "layoutCount": 52,
+        "recalcStyleCount": 69,
+        "scriptDuration": 0.893867,
+        "taskDuration": 47.802328,
+        "nodes": 535
+      },
+      "timing": {
+        "domContentLoaded": 298,
+        "load": 299,
+        "first-paint": 248,
+        "first-contentful-paint": 456
+      }
+    },
+    "network": [
+      {
+        "url": "https://overworldaudio.com/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 10090
+      },
+      {
+        "url": "https://overworldaudio.com/_nuxt/entry.B6zjpOmH.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 5162
+      },
+      {
+        "url": "https://overworldaudio.com/_nuxt/CmsText.BXNuEsZZ.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 352
+      },
+      {
+        "url": "https://overworldaudio.com/fonts/IvarHeadline-Regular.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 33414
+      },
+      {
+        "url": "https://overworldaudio.com/fonts/PPFrama-Regular.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 47462
+      },
+      {
+        "url": "https://overworldaudio.com/_payload.json?e72145f1-be02-435f-aa30-73e872487b00",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 428
+      },
+      {
+        "url": "https://overworldaudio.com/_nuxt/B5B1E9Dr.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 436823
+      },
+      {
+        "url": "https://overworldaudio.com/_nuxt/BRgeLmVy.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4575
+      },
+      {
+        "url": "https://overworldaudio.com/_nuxt/Cn6bT5a5.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 622
+      },
+      {
+        "url": "https://overworldaudio.com/_nuxt/B2Em7_D3.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1078
+      },
+      {
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 10478
+      },
+      {
+        "url": "https://overworldaudio.com/textures/grain.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 108681
+      },
+      {
+        "url": "https://overworldaudio.com/textures/grain-bg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 369288
+      },
+      {
+        "url": "https://overworldaudio.com/images/spritesheet.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 62550
+      },
+      {
+        "url": "https://overworldaudio.com/cdn-cgi/rum?",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 460
+      },
+      {
+        "url": "https://overworldaudio.com/_nuxt/index.Dj2Gf2E5.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 2538
+      },
+      {
+        "url": "https://overworldaudio.com/textures/grain-bg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://overworldaudio.com/textures/color-correction.bin",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 131637
+      },
+      {
+        "url": "https://overworldaudio.com/models/trees.gltf",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "model/gltf+json",
+        "fromCache": false,
+        "bytes": 4009
+      },
+      {
+        "url": "https://overworldaudio.com/_nuxt/Cju2zt-6.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4263
+      },
+      {
+        "url": "https://overworldaudio.com/textures/perlin.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 8592
+      },
+      {
+        "url": "https://overworldaudio.com/images/logo_msdf.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 45207
+      },
+      {
+        "url": "https://overworldaudio.com/textures/blue-noise.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 12648
+      },
+      {
+        "url": "https://overworldaudio.com/textures/displacement/logo.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 182026
+      },
+      {
+        "url": "https://overworldaudio.com/textures/displacement/fbm-mask.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 13901
+      },
+      {
+        "url": "https://overworldaudio.com/textures/displacement/02.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 70407
+      },
+      {
+        "url": "https://overworldaudio.com/textures/simplex-noise.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 140375
+      },
+      {
+        "url": "https://overworldaudio.com/textures/water/normal_1.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 29947
+      },
+      {
+        "url": "https://overworldaudio.com/textures/water/normal_2.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 38986
+      },
+      {
+        "url": "https://overworldaudio.com/textures/terrain-diffuse.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 307191
+      },
+      {
+        "url": "https://overworldaudio.com/textures/displacement/displace-background.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 128088
+      },
+      {
+        "url": "https://overworldaudio.com/textures/bg.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 198014
+      },
+      {
+        "url": "https://overworldaudio.com/cms/6d7117f7a107d3a620309c8a9371d36754510ee5-w1024q75.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 111760
+      },
+      {
+        "url": "https://overworldaudio.com/cms/2c8f8124abcdf3e32e5285db52edccb818ddfb89-w800q75.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 75755
+      },
+      {
+        "url": "https://overworldaudio.com/cms/a8b548c83f9b60e09737caa091bd98128f829fdc-w1024q75.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 43547
+      },
+      {
+        "url": "https://overworldaudio.com/cms/67f48c1a239385a496f75350b21d927c6b6f5fd6-w1000q75.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 88500
+      },
+      {
+        "url": "https://overworldaudio.com/cms/a1c40580a8a6d6c4183f014a5c0125c026c253d7-w1024q75.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 65929
+      },
+      {
+        "url": "https://overworldaudio.com/cms/3dc2ce31e997b92b2fca8449f71657919f1b3139-w480q75.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 32845
+      },
+      {
+        "url": "https://overworldaudio.com/cms/eb6c78ef5af25ff26458abf8ecf7d97fe717df8b-w686q75.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 29281
+      },
+      {
+        "url": "https://overworldaudio.com/cms/a139ab5c5654f30a0cb33ab6b13ff4274713dd18-w1024q75.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 63610
+      },
+      {
+        "url": "https://overworldaudio.com/cms/883d9f6ce3d018caa9a3026a753cdc07ccfdef15-w686q75.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 58233
+      },
+      {
+        "url": "https://overworldaudio.com/cms/11a625163796cff0a4d99059819de90df7e46fe3-w1024q75.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 35475
+      },
+      {
+        "url": "https://overworldaudio.com/models/trees.bin",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 28871
+      },
+      {
+        "url": "https://overworldaudio.com/models/textures/Tree_Branches_01_baseColor.webp",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 87201
+      },
+      {
+        "url": "https://overworldaudio.com/_nuxt/9bGBf_ln.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 949
+      },
+      {
+        "url": "https://overworldaudio.com/_nuxt/iyihH68q.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 5916
+      },
+      {
+        "url": "https://overworldaudio.com/_nuxt/smrkeggE.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 808
+      },
+      {
+        "url": "https://overworldaudio.com/_nuxt/Content.1LKoFEHE.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1545
+      },
+      {
+        "url": "https://overworldaudio.com/_nuxt/D-uwnDvt.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 774
+      },
+      {
+        "url": "https://overworldaudio.com/_nuxt/Copyright.DXb5ao4Z.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 627
+      },
+      {
+        "url": "https://overworldaudio.com/_nuxt/CrpAMVSw.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2097
+      },
+      {
+        "url": "https://overworldaudio.com/_nuxt/BRCWKBTb.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 6763
+      },
+      {
+        "url": "https://overworldaudio.com/_nuxt/SmoothScroll.DKqVLV82.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1051
+      },
+      {
+        "url": "https://overworldaudio.com/_nuxt/MaskedPanel.BpStOWwq.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1065
+      },
+      {
+        "url": "https://overworldaudio.com/_nuxt/studio.X8S_GsKx.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 676
+      },
+      {
+        "url": "https://overworldaudio.com/_nuxt/nCoIyfAo.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1312
+      },
+      {
+        "url": "https://overworldaudio.com/_nuxt/contact.CxtBL95Q.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1014
+      },
+      {
+        "url": "https://overworldaudio.com/_nuxt/D4zJ5I84.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3472
+      },
+      {
+        "url": "https://overworldaudio.com/_nuxt/jZ4h2aQc.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 5321
+      },
+      {
+        "url": "https://overworldaudio.com/_nuxt/Video.CPTtw-mq.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1885
+      },
+      {
+        "url": "https://overworldaudio.com/_nuxt/index.Do8mgWGu.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1746
+      },
+      {
+        "url": "https://overworldaudio.com/_nuxt/builds/meta/e72145f1-be02-435f-aa30-73e872487b00.json",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 843
+      },
+      {
+        "url": "https://overworldaudio.com/_payload.json?e72145f1-be02-435f-aa30-73e872487b00",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://overworldaudio.com/studio/_payload.json?e72145f1-be02-435f-aa30-73e872487b00",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 569
+      },
+      {
+        "url": "https://overworldaudio.com/contact/_payload.json?e72145f1-be02-435f-aa30-73e872487b00",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 572
+      },
+      {
+        "url": "https://overworldaudio.com/work/_payload.json?e72145f1-be02-435f-aa30-73e872487b00",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 574
+      },
+      {
+        "url": "https://overworldaudio.com/textures/logo-texture.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 6971
+      },
+      {
+        "url": "https://overworldaudio.com/sound/opus/sfx_web_oa_enterwithsound_click.opus",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/ogg",
+        "fromCache": false,
+        "bytes": 274289
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSTransition",
+        "name": "max-width",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.14, 1, 0.34, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 800,
+        "delay": 500,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 800,
+        "delay": 500,
+        "iterations": 1,
+        "easing": "linear"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0702000B40D0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0A02000B40D0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x7400137c00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x7400137c00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x7400137c00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x7400137c00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+      }
+    ],
+    "exceptions": [],
+    "failed": [],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 24553,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 136,
+      "typography": {
+        "families": [
+          [
+            "PPFrama",
+            4
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            4
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            4
+          ]
+        ],
+        "sizeMin": 8,
+        "sizeMedian": 9,
+        "sizeMax": 12,
+        "sizeMaxVw": 3.1,
+        "scaleRatio": 1.3,
+        "letterSpacingMean": 0.32,
+        "loadedFonts": [
+          {
+            "family": "IvarHeadline",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "PPFrama",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "IvarHeadline",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "PPFrama",
+            "weight": "400",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 4
+      },
+      "color": {
+        "background": "rgb(19, 21, 31)",
+        "backgroundLuminance": 0.007737068615835261,
+        "backgrounds": [],
+        "texts": [
+          [
+            "rgb(233, 236, 238)",
+            32
+          ],
+          [
+            "rgb(76, 94, 107)",
+            2
+          ],
+          [
+            "rgb(110, 135, 153)",
+            1
+          ]
+        ],
+        "meanSaturation": 0,
+        "rootVars": {
+          "--font-serif": "\"IvarHeadline\",-apple-system,system-ui,BlinkMacSystemFont,\"Helvetica\",\"Arial\",sans-serif",
+          "--font-sans": "\"PPFrama\",-apple-system,system-ui,BlinkMacSystemFont,\"Helvetica\",\"Arial\",sans-serif",
+          "--off-white": "#e9ecee",
+          "--off-black": "#13151f",
+          "--color-secondary": "#aab9c7",
+          "--gray": "#6e8799",
+          "--dark-gray": "#4c5e6b",
+          "--expo-out": "cubic-bezier(.14,1,.34,1)",
+          "--quint-out": "cubic-bezier(.23,1,.32,1)",
+          "--z-sound-toggle": "100",
+          "--chrome-bottom": "2.6rem",
+          "--gl-bleed": "0px",
+          "--border": "hsla(0,0%,91%,.1)",
+          "--surface": "#1a1a1a",
+          "--grid-cols": "12",
+          "--grid-gutter": "1rem",
+          "--grid-max-width": "calc(100% - 4.9rem)",
+          "--grid-width": "95vw",
+          "--grid-margin": "calc((100vw - var(--grid-width))/2)",
+          "--grid-track": "calc((var(--grid-width) - (var(--grid-cols) - 1)*var(--grid-gutter))/var(--grid-cols))",
+          "--panel-col-start": "6",
+          "--panel-col-end": "12",
+          "--panel-content-left": "calc(var(--grid-margin) + (var(--panel-col-start) - 1)*(var(--grid-track) + var(--grid-gutter)))",
+          "--panel-content-width": "calc((var(--panel-col-end) - var(--panel-col-start))*var(--grid-track) + (var(--panel-col-end) - var(--panel-col-start) - 1)*var(--grid-gutter))",
+          "--panel-cut": "calc(var(--grid-margin) + (var(--panel-col-start) - 2)*(var(--grid-track) + var(--grid-gutter)) + var(--grid-track)/2)"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 0,
+        "sticky": 0,
+        "fixed": 8,
+        "grid": 1,
+        "flex": 13,
+        "absolute": 20,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 844,
+        "pages": 1,
+        "spacing": [
+          [
+            2,
+            8
+          ],
+          [
+            14,
+            4
+          ],
+          [
+            10,
+            4
+          ],
+          [
+            12,
+            2
+          ],
+          [
+            16,
+            2
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            22,
+            1
+          ],
+          [
+            8,
+            1
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 0,
+        "animationKinds": [],
+        "infiniteAnimations": 0,
+        "animationDurations": [],
+        "easings": [],
+        "transitionDurationsMs": [
+          [
+            300,
+            15
+          ],
+          [
+            800,
+            8
+          ],
+          [
+            500,
+            4
+          ],
+          [
+            400,
+            2
+          ],
+          [
+            600,
+            2
+          ]
+        ],
+        "keyframes": [
+          "block-video-spin-2651e29b",
+          "reel-modal-in-b1439b63"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 8,
+      "media": {
+        "canvases": [
+          {
+            "w": 487,
+            "h": 1205,
+            "area": 1.14
+          }
+        ],
+        "videos": [],
+        "svg": 10,
+        "images": 0,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl": 1,
+          "webgl2": 1
+        },
+        "raf": 93,
+        "io": 1,
+        "ro": 4,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": true,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Overworld Audio",
+      "lang": "en",
+      "description": "Audio co-development for games and interactive experiences, from prototype to final mix."
+    },
+    "featuresBeforeScroll": {
+      "elements": 136,
+      "canvases": 1,
+      "animations": 0,
+      "hidden": 8
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 12960636,
+        "layoutCount": 36,
+        "recalcStyleCount": 48,
+        "scriptDuration": 0.839561,
+        "taskDuration": 23.774845,
+        "nodes": 319
+      },
+      "timing": {
+        "domContentLoaded": 210,
+        "load": 1466,
+        "first-paint": 228,
+        "first-contentful-paint": 344
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSTransition",
+        "name": "max-width",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.14, 1, 0.34, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 800,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 800,
+        "delay": 500,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 800,
+        "delay": 500,
+        "iterations": 1,
+        "easing": "linear"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0A02000B40D0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0702000B40D0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      }
+    ],
+    "exceptions": [],
+    "failed": [],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  }
+}

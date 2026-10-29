@@ -1,0 +1,1298 @@
+{
+  "url": "https://lisa.locomotive.ca/en",
+  "at": "2026-10-09T08:20:19.544Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 37117,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 401,
+      "typography": {
+        "families": [
+          [
+            "HelveticaNowDisplay",
+            2
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            2
+          ]
+        ],
+        "textTransforms": [],
+        "sizeMin": 26,
+        "sizeMedian": 26,
+        "sizeMax": 26,
+        "sizeMaxVw": 1.8,
+        "scaleRatio": 1,
+        "letterSpacingMean": 0,
+        "loadedFonts": [
+          {
+            "family": "HelveticaNowDisplay",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "LocomotiveNew",
+            "weight": "400",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 2
+      },
+      "color": {
+        "background": "rgb(255, 255, 255)",
+        "backgroundLuminance": 1,
+        "backgrounds": [
+          [
+            "rgb(0, 0, 0)",
+            1299
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(0, 0, 0)",
+            109
+          ],
+          [
+            "rgb(255, 255, 255)",
+            48
+          ]
+        ],
+        "meanSaturation": 0,
+        "rootVars": {
+          "--color": "#000000",
+          "--color-bg": "#FFFFFF",
+          "--font-size": "15px",
+          "--spacing-micro-mobile": "8",
+          "--spacing-micro": "14",
+          "--spacing-tiny-mobile": "20",
+          "--spacing-tiny": "20",
+          "--spacing-small-mobile": "30",
+          "--spacing-small": "30",
+          "--spacing-medium-mobile": "40",
+          "--spacing-medium": "40",
+          "--spacing-large-mobile": "52",
+          "--spacing-large": "80",
+          "--spacing-big-mobile": "80",
+          "--spacing-big": "150",
+          "--spacing-huge-mobile": "100",
+          "--spacing-huge": "200",
+          "--spacing-enormous-mobile": "140",
+          "--spacing-enormous": "250",
+          "--border": "solid var(--border-size)",
+          "--grid-columns": "12",
+          "--grid-gutter": "20px",
+          "--grid-margin": "2.6666666667rem",
+          "--header-height": "4rem",
+          "--head-padding-vh": "0.25",
+          "--about-head-content-offset-vh": "0.15",
+          "--menu-color": "#FFFFFF",
+          "--menu-color-bg": "#312DFB",
+          "--font-size-medium": "1.7333333333rem",
+          "--font-size-huge": "7.6388888889vw",
+          "--font-size-h1": "4.6666666667rem",
+          "--font-size-h2": "1.7333333333rem",
+          "--font-size-h3": "1.4666666667rem",
+          "--font-size-h4": "1.3333333333rem",
+          "--font-size-h5": "1.2rem",
+          "--font-size-h6": "1.0666666667rem",
+          "--swiper-theme-color": "#007aff",
+          "--swiper-navigation-size": "44px",
+          "--cc-font-family": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\"",
+          "--cc-modal-border-radius": ".5rem"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 5,
+        "sticky": 0,
+        "fixed": 8,
+        "grid": 3,
+        "flex": 10,
+        "absolute": 8,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 900,
+        "pages": 1,
+        "spacing": [
+          [
+            20,
+            3
+          ],
+          [
+            60,
+            1
+          ],
+          [
+            80,
+            1
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 1,
+        "animationKinds": [
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 1,
+        "animationDurations": [
+          1000
+        ],
+        "easings": [
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            300,
+            6
+          ],
+          [
+            900,
+            1
+          ],
+          [
+            200,
+            1
+          ],
+          [
+            250,
+            1
+          ]
+        ],
+        "keyframes": [
+          "preloaderAppear",
+          "swiper-preloader-spin",
+          "spin",
+          "shake",
+          "fall",
+          "featuredProjectsAllFlash",
+          "lisaDisclaimerFlash",
+          "lisaDisclaimerProcedure",
+          "lisaLoader",
+          "lisaCursor"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": true
+      },
+      "hiddenElements": 17,
+      "media": {
+        "canvases": [
+          {
+            "w": 1440,
+            "h": 900,
+            "area": 1
+          }
+        ],
+        "videos": [],
+        "svg": 3,
+        "images": 0,
+        "iframes": 1,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl": 1,
+          "2d": 1,
+          "webgl2": 1
+        },
+        "raf": 96,
+        "io": 0,
+        "ro": 3,
+        "mo": 1,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": true,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Locomotive",
+      "lang": "en",
+      "description": "We are Locomotive®. An independent agency with a deep skill set, big ideas, lots of heart and a global reputation."
+    },
+    "featuresBeforeScroll": {
+      "elements": 401,
+      "canvases": 1,
+      "animations": 0,
+      "hidden": 10
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 4,
+      "changed": 0
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 16250048,
+        "layoutCount": 274,
+        "recalcStyleCount": 855,
+        "scriptDuration": 0.676239,
+        "taskDuration": 36.632256,
+        "nodes": 1037
+      },
+      "timing": {
+        "domContentLoaded": 494,
+        "load": 598,
+        "first-paint": 152,
+        "first-contentful-paint": 152
+      }
+    },
+    "network": [
+      {
+        "url": "https://lisa.locomotive.ca/en",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 34764
+      },
+      {
+        "url": "https://www.google.com/recaptcha/api.js?render=explicit",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 1106
+      },
+      {
+        "url": "https://lisa.locomotive.ca/assets/scripts/vendors.js?v=1773158732955",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 2280
+      },
+      {
+        "url": "https://lisa.locomotive.ca/assets/scripts/app.js?v=1773158732955",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 710970
+      },
+      {
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 10438
+      },
+      {
+        "url": "https://lisa.locomotive.ca/assets/styles/main.css?v=1773158732955",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 31423
+      },
+      {
+        "url": "https://lisa.locomotive.ca/assets/lisa/fx/ambient.mp3",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "audio/mpeg",
+        "fromCache": false
+      },
+      {
+        "url": "https://www.gstatic.com/recaptcha/releases/nY0xPItgwtlvjEjk2TqdwOQz/recaptcha__en.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/javascript",
+        "fromCache": false,
+        "bytes": 355346
+      },
+      {
+        "url": "https://lisa.locomotive.ca/assets/fonts/HelveticaNowDisplay-Regular.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 42208
+      },
+      {
+        "url": "https://lisa.locomotive.ca/assets/fonts/PPLocomotiveNew-Light.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 67873
+      },
+      {
+        "url": "https://lisa.locomotive.ca/cdn-cgi/challenge-platform/h/g/scripts/jsd/4df4a60fa397/main.js?",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 12284
+      },
+      {
+        "url": "https://lisa.locomotive.ca/cdn-cgi/rum?",
+        "method": "POST",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 490
+      },
+      {
+        "url": "https://lisa.locomotive.ca/cdn-cgi/rum?",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 498
+      },
+      {
+        "url": "https://lisa.locomotive.ca/assets/lisa/sixty/lisa.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 2894920
+      },
+      {
+        "url": "https://lisa.locomotive.ca/assets/lisa/sixty/envmap.exr",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 350238
+      },
+      {
+        "url": "https://lisa.locomotive.ca/cdn-cgi/challenge-platform/h/g/jsd/oneshot/4df4a60fa397/0.845824276743121:1791529252:mLBwmY5aIql_WlZ7M-PkQM2fjaCz6CIsKp0ktJZNMtA/a47bf60c0b1ec93c",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 1490
+      },
+      {
+        "url": "https://lisa.locomotive.ca/cdn-cgi/rum?",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 487
+      },
+      {
+        "url": "blob:https://lisa.locomotive.ca/d410b70b-0a79-4258-8897-a9bd223bb0b4",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://lisa.locomotive.ca/348738a9-c7a1-47c6-9bba-4574f6cfa128",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://lisa.locomotive.ca/d71e4fc4-174f-446e-85f5-8b6bd9ce719a",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://lisa.locomotive.ca/9c11c482-d917-4a31-8625-a1253da6ecd7",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://lisa.locomotive.ca/a4e5de77-0058-48d4-bc87-50f6faf3f8db",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://lisa.locomotive.ca/de71ab3f-d63f-4b4a-b76d-022e32b1cfd3",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://lisa.locomotive.ca/ea38c3c5-024b-4d46-95c6-2c96792fe723",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://lisa.locomotive.ca/ee8f564f-bbe0-45b3-9adf-5eb4a6b5bc11",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://lisa.locomotive.ca/d1e542d6-5763-4ad3-854c-800d06425fa2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://lisa.locomotive.ca/15181ab8-5455-4abb-b0c1-d74db3478447",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://lisa.locomotive.ca/3a75072b-bcdc-4856-96d7-a57012ddb00f",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://lisa.locomotive.ca/b47dbb5d-6b7f-494e-ba79-86e953435dbd",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://lisa.locomotive.ca/5f6b6ccf-8286-42dc-baed-88522503480c",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://lisa.locomotive.ca/cf183452-cac3-41a2-8731-d7c6a5ff463c",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://lisa.locomotive.ca/assets/lisa/sixty/running_code.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 403,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 7460
+      },
+      {
+        "url": "https://lisa.locomotive.ca/assets/lisa/fx/ambient.mp3",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "audio/mpeg",
+        "fromCache": true
+      },
+      {
+        "url": "https://stream.mux.com/aCO5naKzdS662xMPN2NjH9ZW9ZdeL0100i301tF024QPWyg.m3u8",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script"
+      },
+      {
+        "url": "https://stream.mux.com/aCO5naKzdS662xMPN2NjH9ZW9ZdeL0100i301tF024QPWyg.m3u8",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script"
+      },
+      {
+        "url": "https://stream.mux.com/mAXu5600Bhp70101nP4EU66jdEgBhSl4MIpBIbROPGCdis.m3u8",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script"
+      },
+      {
+        "url": "https://stream.mux.com/mAXu5600Bhp70101nP4EU66jdEgBhSl4MIpBIbROPGCdis.m3u8",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": false,
+        "bytes": 836
+      },
+      {
+        "url": "https://lisa.locomotive.ca/assets/images/sprite.svg?v=1773158732955",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1711
+      },
+      {
+        "url": "https://lisa.locomotive.ca/assets/lisa/en/lisa.intro.2.mp3?v=1773158732955",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 132113
+      },
+      {
+        "url": "https://stream.mux.com/5Q3pTwEulaTwVGHEHscqcNiczpzKtiZaYDbjd02xHKw00.m3u8",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script"
+      },
+      {
+        "url": "https://stream.mux.com/5Q3pTwEulaTwVGHEHscqcNiczpzKtiZaYDbjd02xHKw00.m3u8",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script"
+      },
+      {
+        "url": "https://stream.mux.com/aCO5naKzdS662xMPN2NjH9ZW9ZdeL0100i301tF024QPWyg.m3u8",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script"
+      },
+      {
+        "url": "https://stream.mux.com/aCO5naKzdS662xMPN2NjH9ZW9ZdeL0100i301tF024QPWyg.m3u8",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script"
+      },
+      {
+        "url": "https://stream.mux.com/9j6zPcyvCPt9dJEDRlIUdl00h7SiYSUbUwfbsh00eFnX8.m3u8",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script"
+      },
+      {
+        "url": "https://stream.mux.com/9j6zPcyvCPt9dJEDRlIUdl00h7SiYSUbUwfbsh00eFnX8.m3u8",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": false,
+        "bytes": 842
+      },
+      {
+        "url": "https://lisa.locomotive.ca/assets/lisa/en/lisa.greeting.2.mp3?v=1773158732955",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 108103
+      },
+      {
+        "url": "https://stream.mux.com/SlDvk8aCjdGxd00Kkb02U01YSSVSU1agBMlwUpDExfOGH00.m3u8",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script"
+      },
+      {
+        "url": "https://stream.mux.com/SlDvk8aCjdGxd00Kkb02U01YSSVSU1agBMlwUpDExfOGH00.m3u8",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script"
+      },
+      {
+        "url": "https://stream.mux.com/SlDvk8aCjdGxd00Kkb02U01YSSVSU1agBMlwUpDExfOGH00.m3u8",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script"
+      },
+      {
+        "url": "https://stream.mux.com/SlDvk8aCjdGxd00Kkb02U01YSSVSU1agBMlwUpDExfOGH00.m3u8",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/vnd.apple.mpegurl",
+        "fromCache": false,
+        "bytes": 980
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "preloaderAppear",
+        "duration": 900,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "lisaCursor",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "lisaCursor",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 300,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0702000441D0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0A02000441D0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x170c0013c200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "error",
+        "text": "Failed to load resource: the server responded with a status of 403 ()"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x170c0013c200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x170c0013c200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x170c0013c200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+      }
+    ],
+    "exceptions": [
+      "AbortError: The play() request was interrupted by a new load request. https://goo.gl/LdLk22",
+      "AbortError: The play() request was interrupted by a new load request. https://goo.gl/LdLk22",
+      "AbortError: The play() request was interrupted by a new load request. https://goo.gl/LdLk22",
+      "AbortError: The play() request was interrupted by a new load request. https://goo.gl/LdLk22",
+      "AbortError: The play() request was interrupted by a new load request. https://goo.gl/LdLk22",
+      "AbortError: The play() request was interrupted by a new load request. https://goo.gl/LdLk22",
+      "AbortError: The play() request was interrupted by a new load request. https://goo.gl/LdLk22",
+      "AbortError: The play() request was interrupted by a new load request. https://goo.gl/LdLk22",
+      "AbortError: The play() request was interrupted by a new load request. https://goo.gl/LdLk22",
+      "AbortError: The play() request was interrupted by a new load request. https://goo.gl/LdLk22"
+    ],
+    "failed": [
+      {
+        "url": "https://lisa.locomotive.ca/assets/lisa/fx/ambient.mp3",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://stream.mux.com/aCO5naKzdS662xMPN2NjH9ZW9ZdeL0100i301tF024QPWyg.m3u8",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://stream.mux.com/aCO5naKzdS662xMPN2NjH9ZW9ZdeL0100i301tF024QPWyg.m3u8",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://stream.mux.com/mAXu5600Bhp70101nP4EU66jdEgBhSl4MIpBIbROPGCdis.m3u8",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://stream.mux.com/5Q3pTwEulaTwVGHEHscqcNiczpzKtiZaYDbjd02xHKw00.m3u8",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://stream.mux.com/5Q3pTwEulaTwVGHEHscqcNiczpzKtiZaYDbjd02xHKw00.m3u8",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://stream.mux.com/aCO5naKzdS662xMPN2NjH9ZW9ZdeL0100i301tF024QPWyg.m3u8",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://stream.mux.com/aCO5naKzdS662xMPN2NjH9ZW9ZdeL0100i301tF024QPWyg.m3u8",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://stream.mux.com/9j6zPcyvCPt9dJEDRlIUdl00h7SiYSUbUwfbsh00eFnX8.m3u8",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://stream.mux.com/SlDvk8aCjdGxd00Kkb02U01YSSVSU1agBMlwUpDExfOGH00.m3u8",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://stream.mux.com/SlDvk8aCjdGxd00Kkb02U01YSSVSU1agBMlwUpDExfOGH00.m3u8",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://stream.mux.com/SlDvk8aCjdGxd00Kkb02U01YSSVSU1agBMlwUpDExfOGH00.m3u8",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 2,
+      "workers": 0
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 7698,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 401,
+      "typography": {
+        "families": [
+          [
+            "HelveticaNowDisplay",
+            2
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            2
+          ]
+        ],
+        "textTransforms": [],
+        "sizeMin": 18,
+        "sizeMedian": 18,
+        "sizeMax": 18,
+        "sizeMaxVw": 4.6,
+        "scaleRatio": 1,
+        "letterSpacingMean": 0,
+        "loadedFonts": [
+          {
+            "family": "HelveticaNowDisplay",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "LocomotiveNew",
+            "weight": "400",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 2
+      },
+      "color": {
+        "background": "rgb(255, 255, 255)",
+        "backgroundLuminance": 1,
+        "backgrounds": [
+          [
+            "rgb(0, 0, 0)",
+            331
+          ],
+          [
+            "rgb(255, 255, 255)",
+            69
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(0, 0, 0)",
+            109
+          ],
+          [
+            "rgb(255, 255, 255)",
+            47
+          ]
+        ],
+        "meanSaturation": 0,
+        "rootVars": {
+          "--color": "#000000",
+          "--color-bg": "#FFFFFF",
+          "--font-size": "15px",
+          "--spacing-micro-mobile": "8",
+          "--spacing-micro": "14",
+          "--spacing-tiny-mobile": "20",
+          "--spacing-tiny": "20",
+          "--spacing-small-mobile": "30",
+          "--spacing-small": "30",
+          "--spacing-medium-mobile": "40",
+          "--spacing-medium": "40",
+          "--spacing-large-mobile": "52",
+          "--spacing-large": "80",
+          "--spacing-big-mobile": "80",
+          "--spacing-big": "150",
+          "--spacing-huge-mobile": "100",
+          "--spacing-huge": "200",
+          "--spacing-enormous-mobile": "140",
+          "--spacing-enormous": "250",
+          "--border": "solid var(--border-size)",
+          "--grid-columns": "12",
+          "--grid-gutter": "20px",
+          "--grid-margin": "2.6666666667rem",
+          "--header-height": "4rem",
+          "--head-padding-vh": "0.25",
+          "--about-head-content-offset-vh": "0.15",
+          "--menu-color": "#FFFFFF",
+          "--menu-color-bg": "#312DFB",
+          "--font-size-medium": "1.7333333333rem",
+          "--font-size-huge": "7.6388888889vw",
+          "--font-size-h1": "4.6666666667rem",
+          "--font-size-h2": "1.7333333333rem",
+          "--font-size-h3": "1.4666666667rem",
+          "--font-size-h4": "1.3333333333rem",
+          "--font-size-h5": "1.2rem",
+          "--font-size-h6": "1.0666666667rem",
+          "--swiper-theme-color": "#007aff",
+          "--swiper-navigation-size": "44px",
+          "--cc-font-family": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\"",
+          "--cc-modal-border-radius": ".5rem"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 5,
+        "sticky": 0,
+        "fixed": 8,
+        "grid": 3,
+        "flex": 10,
+        "absolute": 8,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 844,
+        "pages": 1,
+        "spacing": [
+          [
+            20,
+            3
+          ],
+          [
+            60,
+            1
+          ],
+          [
+            80,
+            1
+          ],
+          [
+            10,
+            1
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 1,
+        "animationKinds": [
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 1,
+        "animationDurations": [
+          1000
+        ],
+        "easings": [
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            300,
+            7
+          ],
+          [
+            900,
+            1
+          ],
+          [
+            200,
+            1
+          ],
+          [
+            250,
+            1
+          ]
+        ],
+        "keyframes": [
+          "preloaderAppear",
+          "swiper-preloader-spin",
+          "spin",
+          "shake",
+          "fall",
+          "featuredProjectsAllFlash",
+          "lisaDisclaimerFlash",
+          "lisaDisclaimerProcedure",
+          "lisaLoader",
+          "lisaCursor"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": true
+      },
+      "hiddenElements": 5,
+      "media": {
+        "canvases": [
+          {
+            "w": 390,
+            "h": 844,
+            "area": 1
+          }
+        ],
+        "videos": [],
+        "svg": 3,
+        "images": 0,
+        "iframes": 1,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl": 1,
+          "2d": 1,
+          "webgl2": 1
+        },
+        "raf": 102,
+        "io": 0,
+        "ro": 3,
+        "mo": 1,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": true,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Locomotive",
+      "lang": "en",
+      "description": "We are Locomotive®. An independent agency with a deep skill set, big ideas, lots of heart and a global reputation."
+    },
+    "featuresBeforeScroll": {
+      "elements": 401,
+      "canvases": 1,
+      "animations": 0,
+      "hidden": 5
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 15687860,
+        "layoutCount": 264,
+        "recalcStyleCount": 629,
+        "scriptDuration": 0.528252,
+        "taskDuration": 7.358925,
+        "nodes": 4146
+      },
+      "timing": {
+        "domContentLoaded": 450,
+        "load": 477,
+        "first-paint": 84,
+        "first-contentful-paint": 84
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "preloaderAppear",
+        "duration": 900,
+        "delay": 300,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "top",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.215, 0.61, 0.355, 1)"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "lisaCursor",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0A02000441D0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A010580F441D0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "error",
+        "text": "Failed to load resource: the server responded with a status of 403 ()"
+      }
+    ],
+    "exceptions": [
+      "AbortError: The play() request was interrupted by a new load request. https://goo.gl/LdLk22",
+      "AbortError: The play() request was interrupted by a new load request. https://goo.gl/LdLk22",
+      "AbortError: The play() request was interrupted by a new load request. https://goo.gl/LdLk22"
+    ],
+    "failed": [
+      {
+        "url": "https://lisa.locomotive.ca/assets/lisa/fx/ambient.mp3",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://stream.mux.com/SlDvk8aCjdGxd00Kkb02U01YSSVSU1agBMlwUpDExfOGH00.m3u8",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://stream.mux.com/SlDvk8aCjdGxd00Kkb02U01YSSVSU1agBMlwUpDExfOGH00.m3u8",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://stream.mux.com/mAXu5600Bhp70101nP4EU66jdEgBhSl4MIpBIbROPGCdis.m3u8",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 2,
+      "workers": 0
+    }
+  }
+}
