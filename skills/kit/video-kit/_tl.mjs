@@ -1,0 +1,11 @@
+import { chromium } from 'playwright';
+import { writeFileSync } from 'node:fs';
+const out = process.argv[2], q = process.argv[3] || '';
+const b = await chromium.launch();
+const p = await b.newPage({ viewport: { width: 1920, height: 1080 } });
+await p.goto('file:///home/user/aiwa_store/docs/video-vision/video.html' + q);
+await p.waitForTimeout(800);
+const r = await p.evaluate(() => window.TIMELINE);
+writeFileSync(out, JSON.stringify(r));
+console.log(r.length, r[r.length - 1].t1);
+await b.close();

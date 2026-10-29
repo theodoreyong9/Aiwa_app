@@ -1,0 +1,86 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Aiwa film</title>
+<style>
+@font-face{font-family:SG;src:url(fonts/SpaceGrotesk.ttf);font-weight:300 700}
+@font-face{font-family:FR;src:url(fonts/Fraunces-Italic.ttf);font-style:italic;font-weight:100 900}
+@font-face{font-family:JB;src:url(fonts/JetBrainsMono.ttf);font-weight:100 800}
+html,body{margin:0;background:#05060A}canvas{display:block}</style></head><body><canvas id="c" width="1920" height="1080"></canvas>
+<script>
+// The generic stage of the conductor: any film plan (video-kit/conductor) becomes a film. Places (videos of real places) graded by the mood of each beat, a camera that drifts
+// with its energy, hand-overs between places (iris, zoom, whip, dissolve, cut), a field of points that follows the mood (the Aiwa signature), the line spoken by each beat as a
+// caption, the picture of the user's creation as a card when a beat has one, and the credits of the clips on the last beat. Built by stage.mjs; read by `video-kit render`.
+const PLAN=__PLAN__, WORLDS=__WORLDS__, CARDS=__CARDS__, CREDITS=__CREDITS__;
+const cv=document.getElementById('c'),cx=cv.getContext('2d'),W=1920,H=1080,BEATS=PLAN.beats;
+const clamp=(x,a=0,b=1)=>Math.max(a,Math.min(b,x)),sm=x=>x*x*(3-2*x),hs=(i,s)=>{const v=Math.sin(i*127.1+s*311.7)*43758.5453;return v-Math.floor(v)};
+const beatAt=t=>{let k=0;for(let i=0;i<BEATS.length;i++)if(t>=BEATS[i].t0)k=i;return k};
+const IMGC=new Map();
+const loadImg=src=>{if(!IMGC.has(src))IMGC.set(src,new Promise(res=>{const im=new Image();im.onload=()=>res(im);im.onerror=()=>res(null);im.src=src}));return IMGC.get(src)};
+function plateIndex(wid,t){const w=WORLDS[wid],n=w.i1-w.i0+1,loc=Math.max(0,t-w.from)*w.fps;let i=Math.floor(loc);const m=n>1?i%(2*n-2):0;return w.i0+Math.max(0,Math.min(n-1,m>=n?2*n-2-m:m))}
+// auto-exposure: a clip that was shot dark is lifted towards a common level, frame by frame (its luminance is measured once, one value a second)
+function gainAt(wid,i){const w=WORLDS[wid],L=w.luma,x=i/w.fps,a=Math.min(L.length-1,Math.floor(x)),b=Math.min(L.length-1,a+1),l=L[a]+(L[b]-L[a])*(x-a);return Math.max(.9,Math.min(4,78/Math.max(6,l)))}
+const plateSrc=(wid,i)=>`${WORLDS[wid].dir}/${String(i+1).padStart(5,'0')}.jpg`;
+const CUR={};
+async function prepare(t){
+ const bi=beatAt(t),b=BEATS[bi],need=new Set([b.world]);
+ if(b.transition&&b.transition.t0&&t>=b.transition.t0&&BEATS[bi+1])need.add(BEATS[bi+1].world);
+ for(const k of Object.keys(CUR))delete CUR[k];
+ await Promise.all([...need].map(async wid=>{const k=plateIndex(wid,t),im=await loadImg(plateSrc(wid,k));if(im)im.gain=gainAt(wid,k);CUR[wid]=im}));
+ for(const wid of need)loadImg(plateSrc(wid,Math.min(WORLDS[wid].i1,plateIndex(wid,t)+2)));
+ if(IMGC.size>36){const ks=[...IMGC.keys()];for(let j=0;j<18;j++)IMGC.delete(ks[j])}
+ for(const x of [b,BEATS[bi+1]])if(x&&x.image&&CARDS[x.image])CARD[x.image]=await loadImg(CARDS[x.image]);
+}
+const CARD={};
+function cam(t,b){const c=b.camera,e=b.mood.energy;
+ return{dx:Math.sin(t*.45)*W*.012*c.swing*c.parallax+Math.sin(t*3.1)*3*c.shake,dy:Math.cos(t*.37)*H*.01*c.parallax,z:1.06+c.zoom*.6*(1+Math.sin(t*.3))+(t-b.t0)*(.004+.006*e),rot:c.roll*Math.sin(t*.5)*.6}}
+function draw(im,c,g,alpha,ox,oy,zm){
+ if(!im)return;cx.save();cx.globalAlpha=alpha;
+ cx.filter=`brightness(${g.brightness*(im.gain||1)}) contrast(${g.contrast}) saturate(${g.saturate}) hue-rotate(${g.hue}deg)${g.blur>.3?` blur(${g.blur}px)`:''}`;
+ const s=Math.max(W/im.width,H/im.height)*c.z*(zm||1),w=im.width*s,h=im.height*s,px=ox==null?W/2:ox,py=oy==null?H/2:oy;
+ cx.translate(px+c.dx*(zm||1),py+c.dy*(zm||1));cx.rotate(c.rot);cx.drawImage(im,-(w*(px/W)),-(h*(py/H)),w,h);cx.restore();
+ cx.save();cx.globalAlpha=g.tintAlpha*alpha;cx.globalCompositeOperation='soft-light';cx.fillStyle=`rgb(${g.tint[0]},${g.tint[1]},${g.tint[2]})`;cx.fillRect(0,0,W,H);cx.restore()}
+function places(t){
+ const bi=beatAt(t),b=BEATS[bi],nb=BEATS[bi+1],tr=b.transition,c=cam(t,b);
+ cx.globalCompositeOperation='source-over';cx.globalAlpha=1;cx.filter='none';cx.fillStyle='#05060A';cx.fillRect(0,0,W,H);
+ const A=CUR[b.world];
+ if(!(tr&&nb&&tr.t0&&t>=tr.t0&&tr.kind!=='continue')){draw(A,c,b.grade,1);return}
+ const u=clamp((t-tr.t0)/(tr.t1-tr.t0)),e=sm(u),B=CUR[nb.world],cB=cam(t,nb),x0=W/2,y0=H/2;
+ switch(tr.kind){
+  case 'dissolve':draw(A,c,b.grade,1);draw(B,cB,nb.grade,e,null,null,1+(1-e)*.06);break;
+  case 'cut':draw(e<.5?A:B,e<.5?c:cB,e<.5?b.grade:nb.grade,1);break;
+  case 'whip':{const sh=e*W*1.05;draw(A,{...c,dx:c.dx-sh},b.grade,1-sm(clamp((u-.35)/.4)));
+   for(let q=0;q<5;q++)draw(A,{...c,dx:c.dx-sh*(1+q*.05)},b.grade,.18*(1-u));
+   draw(B,{...cB,dx:cB.dx+(1-e)*W*1.05},nb.grade,sm(clamp((u-.25)/.5)));
+   for(let q=0;q<5;q++)draw(B,{...cB,dx:cB.dx+(1-e)*W*1.05*(1+q*.05)},nb.grade,.18*u);break}
+  case 'zoom':draw(A,c,b.grade,1-sm(clamp((u-.15)/.6)),x0,y0,1+3.2*e*e);draw(B,cB,nb.grade,sm(clamp(u/.7)),x0,y0,1.9-.9*e);break;
+  default:{draw(A,c,b.grade,1,x0,y0,1+1.6*e*e);const R=Math.pow(e,1.5)*Math.hypot(W,H)*.75;
+   if(R>2){cx.save();cx.beginPath();cx.arc(x0,y0,R,0,7);cx.clip();draw(B,cB,nb.grade,1,x0,y0,.55+.45*e);cx.restore();
+    cx.save();cx.globalCompositeOperation='lighter';cx.lineWidth=5+14*(1-e);cx.strokeStyle=`rgba(255,200,170,${.8*(1-e)})`;cx.beginPath();cx.arc(x0,y0,R,0,7);cx.stroke();cx.restore()}}}
+}
+// the points: a slow constellation whose density, glow and threads follow the mood of the beat; it is the signature, not the subject
+function points(t,b){
+ const sc=b.sculpture,n=Math.round(70+120*b.mood.energy*sc.size),pts=[];
+ for(let i=0;i<n;i++){const a=hs(i,1)*6.283+t*(.05+.1*b.mood.energy)*(hs(i,2)>.5?1:-1),r=(.18+.5*hs(i,3))*Math.min(W,H)*.55;
+  pts.push([W/2+Math.cos(a)*r*1.4+Math.sin(t*.4+i)*8,H/2+Math.sin(a)*r*.8+Math.cos(t*.3+i)*8,.4+hs(i,4)])}
+ cx.save();cx.globalCompositeOperation='lighter';cx.lineWidth=1;
+ for(let i=0;i<n;i++)for(let j=i+1;j<Math.min(n,i+4);j++){const d=Math.hypot(pts[i][0]-pts[j][0],pts[i][1]-pts[j][1]);if(d<170){cx.strokeStyle=`rgba(241,237,228,${.16*sc.threads*(1-d/170)})`;cx.beginPath();cx.moveTo(pts[i][0],pts[i][1]);cx.lineTo(pts[j][0],pts[j][1]);cx.stroke()}}
+ for(const p of pts){cx.fillStyle=`rgba(255,${190+40*b.mood.warmth|0},${160+60*b.mood.warmth|0},${.55*sc.glow*p[2]})`;cx.beginPath();cx.arc(p[0],p[1],1.2+1.8*p[2]*sc.glow,0,7);cx.fill()}
+ cx.restore()}
+function card(t,b){
+ const im=b.image&&CARD[b.image];if(!im)return;const a=sm(clamp((t-b.t0)/.5))*(1-sm(clamp((t-(b.t1-.5))/.5)));
+ const k=Math.min(W*.5/im.width,H*.55/im.height),w=im.width*k,h=im.height*k,x=W*.5,y=H*.44+Math.sin(t*1.3)*6;
+ cx.save();cx.globalAlpha=a;cx.shadowColor='rgba(0,0,0,.6)';cx.shadowBlur=50;cx.drawImage(im,x-w/2,y-h/2,w,h);cx.restore()}
+function caption(t,b){
+ if(!b.say)return;const a=sm(clamp((t-b.t0-.15)/.4))*(1-sm(clamp((t-(b.t1-.35))/.3)));if(a<=0)return;
+ const words=b.say.split(/\s+/),mid=Math.max(1,Math.ceil(words.length/2));
+ const lines=b.say.length>34?[words.slice(0,mid).join(' '),words.slice(mid).join(' ')]:[b.say];
+ const sg=cx.createLinearGradient(0,H*.6,0,H);sg.addColorStop(0,'rgba(3,4,8,0)');sg.addColorStop(1,`rgba(3,4,8,${.62*a})`);cx.fillStyle=sg;cx.fillRect(0,H*.6,W,H*.4);
+ cx.save();cx.globalAlpha=a;cx.textAlign='center';cx.font='500 52px SG';cx.shadowColor='rgba(0,0,0,.75)';cx.shadowBlur=22;cx.fillStyle='#F1EDE4';
+ lines.forEach((l,i)=>cx.fillText(l,W/2,H*.82+i*62-(lines.length-1)*31+(1-a)*14));cx.restore()}
+function credits(t){
+ const last=BEATS[BEATS.length-1];if(t<last.t0+.5||!CREDITS.length)return;
+ cx.save();cx.globalAlpha=sm(clamp((t-last.t0-.5)/.8))*.75;cx.font='400 17px JB';cx.fillStyle='#F1EDE4';cx.textAlign='left';cx.fillText('Vidéos : '+CREDITS.join(' · '),44,H-34);cx.restore()}
+function vignette(b){const g=cx.createRadialGradient(W/2,H/2,H*.35,W/2,H/2,H*.95);g.addColorStop(0,'rgba(0,0,0,0)');g.addColorStop(1,`rgba(0,0,0,${b.grade.vignette})`);cx.fillStyle=g;cx.fillRect(0,0,W,H)}
+function frame(t){const b=BEATS[beatAt(t)];places(t);cx.filter='none';vignette(b);points(t,b);card(t,b);caption(t,b);credits(t);
+ cx.fillStyle='#FF4B1F';cx.fillRect(0,H-4,W*t/PLAN.total,4)}
+window.READY=(async()=>{await Promise.all(['500 40px SG','italic 500 40px FR','500 40px JB'].map(f=>document.fonts.load(f)));await document.fonts.ready})();
+window.render=async t=>{await prepare(t);frame(t)};
+</script></body></html>

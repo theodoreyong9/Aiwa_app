@@ -1,0 +1,9 @@
+{
+  "name": "aiwa-music-research",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A register of music that can be used in a promotional video without asking anyone (CC0, public domain, CC BY): tempo, mood, instruments, length, licence and the credit line to show. The agent searches it, then downloads only the one track it picks.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": { "test": "node --test" }
+}

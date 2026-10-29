@@ -1,0 +1,58 @@
+<!doctype html>
+<!-- A timeline page. window.render(t) draws the picture at time t (seconds) and is a pure function of t. Edit STORYBOARD (and the brand) only:
+     the layout adapts to 9:16, 16:9, 1:1 and 4:5 and keeps text out of the zones the platforms cover. Nothing displayed may be invented:
+     every claim comes from what the user gave or from the creation itself. -->
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root { --bg:#0b0b12; --ink:#f4f4f8; --muted:#a9a9bd; --accent:#cc785c; }
+  html, body { margin:0; background:#000; overflow:hidden; }
+  #stage { position:relative; width:100vw; height:100vh; overflow:hidden; background:var(--bg); color:var(--ink); font-family:"Liberation Sans", Arial, sans-serif; }
+  .scene { position:absolute; inset:0; opacity:0; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; }
+  .safe { width:calc(100% - 2 * var(--side)); }
+  .title { font-weight:800; letter-spacing:-.03em; line-height:1.02; text-wrap:balance; }
+  .text { color:var(--muted); line-height:1.25; margin-top:.8em; text-wrap:balance; }
+  .shot { max-width:100%; border-radius:4vmin; box-shadow:0 4vmin 12vmin rgba(0,0,0,.6); }
+  .cta { margin-top:1.2em; padding:.5em 1.1em; border-radius:99px; background:var(--accent); color:#111; font-weight:800; }
+  #logo { position:absolute; left:50%; transform:translateX(-50%); }
+</style></head><body><div id="stage"></div>
+<script>
+// ---- the storyboard: one object per scene (id, seconds, headline, text, image, cta). Images are paths relative to this page.
+const STORYBOARD = window.STORYBOARD || [
+  { id: 'hook', seconds: 3, headline: 'Une idée.', text: '' },
+  { id: 'what', seconds: 4, headline: 'Votre produit', text: 'Ce qu\'il fait, en une phrase.' },
+  { id: 'cta', seconds: 3, headline: 'Essayez-le', text: '', cta: 'Lien dans la description' },
+];
+const BRAND = window.BRAND || { name: '', logo: null };
+
+const W = innerWidth, H = innerHeight, vmin = Math.min(W, H) / 100;
+const portrait = H / W >= 1.2;
+// Platform interfaces cover the top and the bottom of vertical formats: text stays inside these margins.
+const topSafe = portrait ? H * 0.10 : H * 0.06, bottomSafe = portrait ? H * 0.17 : H * 0.07;
+document.documentElement.style.setProperty('--side', (W * 0.07) + 'px');
+const stage = document.getElementById('stage');
+const total = STORYBOARD.reduce((n, s) => n + s.seconds, 0);
+let acc = 0;
+const els = STORYBOARD.map((s) => {
+  s.t0 = acc; acc += s.seconds;
+  const el = document.createElement('div'); el.className = 'scene'; el.style.padding = `${topSafe}px 0 ${bottomSafe}px`;
+  el.innerHTML = `<div class="safe">${s.image ? `<img class="shot" src="${s.image}" style="max-height:${H * 0.5}px">` : ''}
+    <div class="title" style="font-size:${(portrait ? 9 : 7) * vmin}px">${s.headline ?? ''}</div>
+    ${s.text ? `<div class="text" style="font-size:${(portrait ? 4.2 : 3.4) * vmin}px">${s.text}</div>` : ''}
+    ${s.cta ? `<div class="cta" style="font-size:${(portrait ? 4.4 : 3.6) * vmin}px;display:inline-block">${s.cta}</div>` : ''}</div>`;
+  stage.append(el); return el;
+});
+if (BRAND.logo) { const l = document.createElement('img'); l.id = 'logo'; l.src = BRAND.logo; l.style.cssText = `top:${topSafe * 0.3}px;height:${H * 0.05}px`; stage.append(l); }
+const ease = (x) => 1 - Math.pow(1 - Math.min(1, Math.max(0, x)), 3);
+
+window.TOTAL_SECONDS = total;
+window.render = (t) => {
+  STORYBOARD.forEach((s, i) => {
+    const local = t - s.t0;
+    const inP = ease(local / 0.5), outP = ease((s.seconds - local) / 0.4);
+    const v = local < 0 || local > s.seconds ? 0 : Math.min(inP, outP);
+    els[i].style.opacity = v;
+    els[i].style.transform = `translateY(${(1 - inP) * 3 * vmin}px) scale(${0.97 + 0.03 * Math.min(inP, outP)})`;
+  });
+};
+window.render(0);
+</script></body></html>

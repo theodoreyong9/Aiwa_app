@@ -22,12 +22,7 @@ class PapersActivity : FloatActivity() {
         private const val BLOB = "https://github.com/theodoreyong9/Aiwa_app/blob/main/docs"
         private val PAPERS = listOf(
             Triple("Yellow paper", "Le protocole : événements signés, minage, conservation, règles formelles.", "yellow-paper.md"),
-            Triple("Explication simple", "La même chose, en mots simples, avec ce qui n'est pas résolu.", "explained.md"),
             Triple("Valeur", "L'ontologie de la valeur.", "valeur.pdf"),
-            Triple("Société augmentée", "La vision que sert le produit.", "societe-augmentee.md"),
-            Triple("Plan", "Ce qu'est la version 1, et ce qu'elle n'est pas.", "plan.md"),
-            Triple("Business", "Le modèle.", "business.md"),
-            Triple("Carrousel", "Seize pages pour présenter Aiwa.", "carrousel.pdf"),
             Triple("Readme", "Ce que fait le produit, écran par écran.", "readme.md"),
         )
     }

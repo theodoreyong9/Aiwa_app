@@ -1,0 +1,10 @@
+{
+  "name": "aiwa-video-kit",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Tools a Claude Code session uses to make a promotional video of a creation: frame-by-frame rendering in Chromium, ffmpeg assembly, an automatic check.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": { "test": "node --test" },
+  "dependencies": { "playwright": "1.56.1" }
+}

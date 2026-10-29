@@ -1,0 +1,9 @@
+{
+  "name": "aiwa-video-research",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A catalogue of advertising campaigns (idea, credits, sector, links) read politely from Ads of the World, for a Claude Code session to draw ideas from before it writes the script of a promotional video. No film is downloaded or stored.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": { "test": "node --test" }
+}

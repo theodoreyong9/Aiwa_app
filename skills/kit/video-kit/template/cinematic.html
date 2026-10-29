@@ -1,0 +1,41 @@
+<!doctype html>
+<!-- A cinematic timeline page (see cinematic.js for every layer and option). Copy it next to your pictures, edit THEME and SHOTS only, then:
+       node video-kit/src/cli.js capture page.html page-full.png        (only for a "page" layer: the real page as one tall picture)
+       node video-kit/src/cli.js render video.html frames --seconds=<TOTAL> --width=1920 --height=1080
+       python3 video-kit/src/beat.py bed.wav <TOTAL> --cuts-file=frames/cuts.json
+       python3 video-kit/src/voice.py cues.json vo.wav <TOTAL>           (optional voice-over)
+       node video-kit/src/cli.js assemble frames out.mp4 --audio=bed.wav [--voice=vo.wav]
+       node video-kit/src/cli.js check out.mp4
+     <TOTAL> is printed in frames/cuts.json ("total"). Nothing displayed may be invented. -->
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<style>html,body{margin:0;background:#000;overflow:hidden}</style></head>
+<body><div id="stage"></div>
+<script src="motion.js"></script>
+<script>
+window.THEME = { bg: '#0b0b12', ink: '#f4f4f8', muted: '#a9a9bd', accent: '#cc785c', grain: 0.06, vignette: 0.45 };
+const A = '#cc785c';
+window.SHOTS = [
+  // 1. the hook: the first two seconds must hold the attention
+  { seconds: 3.4, bg: { type: 'blobs', colors: ['rgba(204,120,92,.30)', 'rgba(80,60,160,.30)', 'rgba(20,20,40,.5)'], base: '#0b0b12' }, layers: [
+    { type: 'text', text: 'Une idée.', size: [14, 20], upper: true, mode: 'chars', effect: 'mask', stagger: 0.06, at: 0.25, y: 44, out: { at: 2.85, effect: 'mask' } },
+    { type: 'shape', kind: 'bar', x: 50, y: 62, w: 10, h: 0.5, at: 1.2, dur: 0.8, from: { s: 0 }, out: { at: 2.9 } },
+  ] },
+  // 2. the promise: kinetic text, a figure that counts up, a line that draws itself
+  { seconds: 5, transition: { type: 'push', seconds: 0.55 }, bg: { type: 'gradient', colors: ['#14141d', '#0b0b12'], angle: 160, drift: true }, layers: [
+    { type: 'text', text: 'Ce que ça change,\nen une phrase.', mode: 'lines', effect: 'mask', size: [7, 7.2], x: 50, y: 34, at: 0.4, stagger: 0.18, accent: {} },
+    { type: 'counter', from: 0, to: 100, at: 0.6, dur: 1.6, suffix: ' %', size: [16, 18], x: 50, y: 66, color: A },
+    { type: 'svg', markup: '<svg viewBox="0 0 400 20" width="100%"><path class="d" d="M2 10 H398"/></svg>', x: 50, y: 82, w: 40, at: 1.4, dur: 1.2 },
+    // any HTML at a design size, animated by tick(root, t, M): here a card whose bar fills
+    { type: 'html', id: 'sample-card', css: '.sc{font-family:sans-serif;color:#f4f4f8;background:#1b1b26;border-radius:40px;padding:36px;width:900px;box-sizing:border-box}.sc i{display:block;height:24px;border-radius:12px;background:#cc785c;width:0;margin-top:24px}',
+      markup: '<div class="sc"><b style="font-size:46px">Une carte</b><i id="sc-bar"></i></div>', design: [1000, 220], w: [80, 30], x: [50, 84], y: [8, 12], at: 0.8, dur: 0.7,
+      tick: (root, t, M) => { root.querySelector('#sc-bar').style.width = (M.prog(t, 1.2, 1.4, M.ease.outExpo) * 100) + '%'; } },
+  ] },
+  // 3. the close: the name, the address
+  { seconds: 4, transition: { type: 'iris', seconds: 0.6 }, bg: { type: 'blobs', colors: ['rgba(204,120,92,.35)', 'rgba(60,50,140,.3)', 'rgba(20,20,40,.5)'], base: '#0b0b12' }, layers: [
+    { type: 'text', text: 'Le nom', size: [20, 26], upper: true, mode: 'chars', effect: 'mask', stagger: 0.1, at: 0.3, y: 44, accent: { Le: A } },
+    { type: 'text', text: 'adresse.exemple', size: [3.4, 3.4], weight: 600, spacing: 0.04, x: 50, y: 70, effect: 'blur', mode: 'chars', stagger: 0.025, at: 1.2 },
+  ] },
+];
+</script>
+<script src="cinematic.js"></script>
+</body></html>

@@ -1,0 +1,24 @@
+{
+  "_": "The tools the conductor can use, each with the mood it suits. A new tool is a new line here (and its code): the conductor finds it by mood, nothing else changes.",
+  "transitions": [
+    { "id": "iris",     "needs": "through", "mood": { "energy": 0.5, "scale": 0.5, "awe": 0.8 }, "says": "the camera goes through a thing (a lens, a screen, a planet) and the next place is on the other side" },
+    { "id": "zoom",     "needs": "through", "mood": { "energy": 0.6, "scale": 0.7, "awe": 0.6 }, "says": "a fall into the picture until it fills the frame; the next place opens from the same point" },
+    { "id": "whip",     "mood": { "energy": 0.9, "tension": 0.6 }, "says": "a fast turn of the camera with motion blur: the next place arrives sideways" },
+    { "id": "dissolve", "mood": { "energy": 0.2, "warmth": 0.6, "awe": 0.6 }, "says": "one place melts into the next: calm, a breath between two ideas" },
+    { "id": "cut",      "mood": { "energy": 0.8, "tension": 0.8 }, "says": "a hard cut: a shock" },
+    { "id": "continue", "mood": { "energy": 0.4 }, "says": "same place, the idea changes inside it" }
+  ],
+  "sound_beds": [
+    { "id": "void",    "mood": { "energy": 0.1, "scale": 0.9, "warmth": 0.3 }, "says": "a deep low drone, almost nothing" },
+    { "id": "air",     "mood": { "energy": 0.2, "scale": 0.6, "warmth": 0.6 }, "says": "soft moving air: clouds, a morning" },
+    { "id": "city",    "mood": { "energy": 0.6, "scale": 0.4, "warmth": 0.4 }, "says": "a low rumble and a hiss, far traffic" },
+    { "id": "machine", "mood": { "energy": 0.5, "scale": 0.4, "tension": 0.6 }, "says": "a low machine hum with metal ticks" },
+    { "id": "shimmer", "mood": { "energy": 0.4, "awe": 0.9 }, "says": "a high airy shimmer: an aurora, a wonder" },
+    { "id": "room",    "mood": { "energy": 0.2, "scale": 0.1, "warmth": 0.6 }, "says": "a quiet room tone" }
+  ],
+  "actors": [
+    { "id": "phone_on",  "sprite": "phone_on",  "mood": { "scale": 0.1, "energy": 0.5 }, "says": "a phone, screen lit: the widget" },
+    { "id": "phone_off", "sprite": "phone_off", "mood": { "scale": 0.1, "energy": 0.3, "warmth": 0.2 }, "says": "a phone, screen off: the open microphone in the dark" },
+    { "id": "glasses",   "sprite": "glasses",   "mood": { "scale": 0.2, "energy": 0.5 }, "says": "round glasses: the connected glasses" }
+  ]
+}

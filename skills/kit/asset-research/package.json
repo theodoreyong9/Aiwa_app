@@ -1,0 +1,9 @@
+{
+  "name": "aiwa-asset-research",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A register of free (CC0) 3D models, HDRI lights and PBR textures for the shots of a film: what each is, its size, its tags, where to get it. The agent searches it, downloads only what it keeps, and transforms it in the shot (video-kit/shots/blender/kit.py).",
+  "license": "MIT",
+  "type": "module",
+  "scripts": { "test": "node --test" }
+}

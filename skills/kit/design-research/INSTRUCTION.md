@@ -1,0 +1,5 @@
+Before designing a significant interface, run `design-research research "<the brief>" --format=<site|pwa|apk|contract_ui>` and read `.research/latest/synthesis.md`, `references.json` and the screenshots.
+
+Use the references as research material: take what several of them share for the fundamentals (legibility, structure, performance) and take the risk elsewhere: references say what is possible at this level, not where to stop. Respect what the format can hold (`transposable_to_format`). The traits are measurements; art direction, tone and why a reference works are for you to judge from the pictures. Do not copy a site's identity, layout, content, assets or distinctive implementation.
+
+Traceability: write `aiwa-design/references.md` in the repository with the 2 or 3 references actually kept: name and address, catalogue `id`, the screenshots looked at, the measurements taken from the catalogue, what the pictures show that the measurements do not, and what was taken, with where it shows in the creation. Never cite a reference that was not looked at.
