@@ -173,3 +173,18 @@ class Github(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class ResumeMailboxTest(unittest.TestCase):
+    def test_watch_resumes_after_a_restart_only_for_a_recent_message(self):
+        from unittest import mock
+        from aiwa_brain import relay, state
+        entry = {"repo": "me/app", "work": "aiwa/20261029-215133"}
+        with mock.patch.object(state, "current_cloud", "session_X"), mock.patch.object(relay.sessions, "entry_of", return_value=entry), mock.patch.object(relay, "mailbox_watch") as watch:
+            with mock.patch.object(state, "last_message_at", int(time.time()) - 600):
+                self.assertTrue(relay.resume_mailbox())
+            watch.assert_called_once_with("me/app", "aiwa/20261029-215133")
+            with mock.patch.object(state, "last_message_at", int(time.time()) - 10_000):
+                self.assertFalse(relay.resume_mailbox())
+            with mock.patch.object(state, "last_message_at", 0):
+                self.assertFalse(relay.resume_mailbox())

@@ -432,6 +432,7 @@ def serve():
         state.voice.install()        # the natural voice is installed by default, in the background (about 80 MB, once); the person only switches it on or off
         state.llm.prepare()
         github_login.resume()        # a GitHub code shown before a restart is still waited for
+        relay.resume_mailbox()       # so is what Claude pushed to its branch while the brain restarted
         claude_cli.login_state()     # looks the login up in the background, so the first status already knows
         files.warm()
         threading.Thread(target=live.progress_loop, daemon=True).start()
