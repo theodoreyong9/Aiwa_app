@@ -48,10 +48,10 @@ object CellModels {
         val single = FilesScope.repo(context, status?.repo) != null
         out["repoview"] = CellModel("Voir le dépôt", "grey", enabled = single)
         out["reposession"] = CellModel("Changer de session", "grey", enabled = single)
-        out["scope"] = CellModel(FilesScope.label(context, status?.repo) + " ▾", if (FilesScope.repo(context, status?.repo) == null) "green" else "grey")
+        out["scope"] = CellModel(FilesScope.label(context, status?.repo) + " ▾", "green")
         for ((kind, label) in listOf("docs" to "Docs", "image" to "Images", "video" to "Vidéos", "app" to "Apps", "page" to "Pages")) {
             val found = (snap.fileCounts[kind] ?: 0) > 0
-            out[kind] = CellModel(label, if (!found) "grey" else if (kind == "page") "yellow" else "green", enabled = found)
+            out[kind] = CellModel(label, if (found) "green" else "grey", enabled = found)
         }
         out["scenario"] = CellModel("Scénario", "grey")
         out["cast"] = CellModel("Cast TV", "grey")

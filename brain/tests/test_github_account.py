@@ -46,5 +46,46 @@ class TrustFolderTest(unittest.TestCase):
         finally:
             config_file.unlink(missing_ok=True)
 
+
+class RateLimitTest(unittest.TestCase):
+    def tearDown(self):
+        github._blocked_until = 0.0
+        github._etags.clear()
+
+    def test_an_unchanged_answer_is_served_from_memory_and_the_limit_stops_the_questions(self):
+        import io
+        import urllib.error
+
+        class Reply(io.BytesIO):
+            headers = {"ETag": '"v1"'}
+
+            def __enter__(self):
+                return self
+
+            def __exit__(self, *a):
+                return False
+
+        calls = []
+
+        def opener(request, timeout=0):
+            calls.append(dict(request.header_items()))
+            if len(calls) == 1:
+                return Reply(b'{"a": 1}')
+            if len(calls) == 2:
+                raise urllib.error.HTTPError("u", 304, "same", {}, None)
+            raise urllib.error.HTTPError("u", 403, "limit", {"X-RateLimit-Remaining": "0", "X-RateLimit-Reset": "9999999999"}, None)
+
+        with mock.patch("urllib.request.urlopen", opener):
+            self.assertEqual(github.api("/x"), {"a": 1})
+            self.assertEqual(github.api("/x"), {"a": 1})                    # 304: the same data, no cost
+            self.assertIn("If-none-match", calls[1])
+            with self.assertRaises(github.GithubError) as caught:
+                github.api("/y")
+            self.assertTrue(caught.exception.limited)
+            before = len(calls)
+            with self.assertRaises(github.GithubError):
+                github.api("/z")
+            self.assertEqual(len(calls), before, "nothing is asked while the limit lasts")
+
 if __name__ == "__main__":
     unittest.main()

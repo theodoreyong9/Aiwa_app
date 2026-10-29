@@ -9,7 +9,7 @@ from . import config, github, repos, state
 
 PAGE_MAX = 3_000_000       # bytes of a page the brain hands to the app
 CACHE_SECONDS = 45
-ALL_REPOS_MAX = 12         # « Tous » reads this many repositories, the most recently used first
+ALL_REPOS_MAX = 12         # « Tous » reads this many repositories, the most recently used first (fewer without a GitHub connection: its limit is 60 questions an hour)
 _cache = {}                # repo -> (time, items)
 _lock = threading.Lock()
 
@@ -59,7 +59,7 @@ def forget(repo=None):
 def listing(repo=None):
     """{"repo": the repository asked or None for all, "repos": [names], "error": str|None, "items": {kind: [item…]}} with the newest first inside each kind."""
     wanted = repo if repo and github.REPO_RE.fullmatch(repo) else None
-    names = [wanted] if wanted else repos.names()[:ALL_REPOS_MAX]
+    names = [wanted] if wanted else repos.names()[:ALL_REPOS_MAX if github.token_value() else 5]
     items, errors = [], []
 
     def one(name):
