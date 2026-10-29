@@ -1,7 +1,6 @@
 """GitHub's device flow: the phone shows a short code, the person types it once on github.com, and the brain waits for the token (no token to copy, nothing to paste). It is how the first Aiwa did it.
 The application is the one of deployment.json (github.clientId); a device-flow application has no secret. The token it hands over is kept like any other (github.set_token), after GitHub has named the account."""
 import json
-import os
 import threading
 import time
 import urllib.error
