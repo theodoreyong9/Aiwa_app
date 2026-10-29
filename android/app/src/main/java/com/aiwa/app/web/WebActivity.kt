@@ -137,6 +137,7 @@ class WebActivity : ComponentActivity() {
         val json = try { JSONObject(message.data ?: return) } catch (err: Exception) { return }
         val id = json.optInt("id", 0)
         when (json.optString("cmd")) {
+            "favorites" -> json.optJSONArray("list")?.let { com.aiwa.app.voir.VoirFavorites.save(this, it) }
             "save" -> saveToDownloads(json.optString("name"), json.optString("mime", "application/json"), json.optString("text"))
             "profile" -> {
                 val list = json.optJSONArray("repos")

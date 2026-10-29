@@ -6,11 +6,11 @@ import pathlib
 OUT = pathlib.Path(__file__).resolve().parent.parent / "android/app/src/main/res/layout/fast_widget.xml"
 # page letter, weights of the cells of the first row, of the second row (None: the page is one row)
 PAGES = [
-    ("a", [1, 3, 1], [1, 1, 1, 1]),    # Agent: Chambre en cours (when there is one) | Super agent | Claude ; Écoute | Ajouter | Scénario | Cast TV
+    ("a", [1, 3, 1], [1, 1, 1, 1, 1]), # Agent: Chambre en cours (when there is one) | Super agent | Claude ; Écoute | Ajouter | Scénario | Cast TV | Question
     ("f", [1], [1, 1, 1, 1, 1]),       # Files: the repository ; docs | images | vidéos | apps | pages
-    ("v", [1, 1, 1, 1], None),         # Voir: Proximité | Lien | QR code | Favoris
+    ("v", [1], [1, 1, 1, 1]),          # Game: Wallet ; Proximité | Lien | QR code | Favoris
 ]
-TABS = [("t_agent", 100), ("t_files", 100), ("t_voir", 100), ("t_upd", 55), ("t_ask", 55), ("t_settings", 55)]
+TABS = [("t_agent", 100), ("t_files", 100), ("t_voir", 100), ("t_upd", 55), ("t_settings", 55)]
 
 
 def build():

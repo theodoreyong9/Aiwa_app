@@ -64,6 +64,7 @@ a{color:inherit}
 .go .desk{opacity:1;transform:none;transition:opacity .5s ease-out 1.7s,transform .6s cubic-bezier(.2,.9,.2,1) 1.7s}
 /* les scénarios de la page, en haut : une rangée de cartes qu'on fait défiler, chacune se lance chez celui qui regarde */
 .scen{grid-area:scen;min-width:0}
+.favs:not([hidden]){margin:6px 0}
 .scen:not([hidden]){display:flex;gap:8px;overflow-x:auto;padding:2px 0 6px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
 .scen::-webkit-scrollbar{display:none}
 .scen .aiwa-scn{flex:0 0 min(74vw,270px);background:linear-gradient(180deg,rgba(255,255,255,.2),rgba(255,255,255,.05));backdrop-filter:blur(8px);border:0;border-left:3px solid var(--acc);border-radius:4px 14px 14px 4px;padding:9px 12px;gap:3px}
@@ -112,6 +113,7 @@ a{color:inherit}
   <div class="info">
     <p class="say">Je construis <b>Aiwa</b> : un assistant qui vit sur le téléphone, parle à Claude, et fait des sites, des vidéos, des pages et des apps, à la voix, et qui construit des agents, se construit lui-même et développe une identité et une intimité.</p>
     <section class="desk" aria-label="Aiwa"><span data-aiwa-button="widget"></span><span data-aiwa-button="wallet"></span><span data-aiwa-button="room"></span><span data-aiwa-button="settings"></span></section>
+    <section class="favs" aria-label="Mes favoris" data-aiwa-favorites hidden></section>
     <nav class="dock" aria-label="Mes liens">
       <a class="cell g" style="--i:3" href="https://github.com/theodoreyong9/Aiwa_app"><b>Source</b><span>le dépôt d'Aiwa</span></a>
       <a class="cell v" style="--i:4" href="https://github.com/theodoreyong9/Aiwa_app/blob/main/docs/yellow-paper.md"><b>Yellow paper</b><span>comment ça marche</span></a>

@@ -30,7 +30,8 @@ import com.aiwa.app.web.WebActivity
  * A tap on a tab only turns the two ViewFlippers (a partial update): nothing is read, nothing is drawn again, so it is instant. The pictures are drawn again whenever the state changes.
  *
  * Pages: Agent (a Chambre en cours cell at the left of the Super agent while a room is open, Claude; below: Écoute, Ajouter, Scénario, Cast TV) · Files (the repository or all, then docs, images,
- * vidéos, apps, pages) · Voir (Proximité, Lien, QR code, Favoris). The top bar, at the right of the tabs: Mise à jour (only when an update exists), Question (the report is in it), Réglages.
+ * vidéos, apps, pages) · Game (Wallet; Proximité, Lien, QR code, Favoris). The top bar, at the right of the tabs: Mise à jour (only when an update exists), Réglages.
+ * Question (the report is in it) is the last cell of the Agent page.
  * The Chambre has no page here: it lives in the application.
  */
 object AiwaWidget {
@@ -103,15 +104,13 @@ object AiwaWidget {
         val tabs = listOfNotNull(
             WidgetArt.Tab(R.drawable.fw_i_build, "Agent", if (alert) "red" else "orange", always = alert, dot = snap.agentOpen || snap.listening),
             WidgetArt.Tab(R.drawable.fw_i_files, "Files", "green"),
-            WidgetArt.Tab(R.drawable.fw_i_voir, "Voir", "violet"),
+            WidgetArt.Tab(R.drawable.fw_i_game, "Game", "violet"),
             if (snap.appUpdateReady) WidgetArt.Tab(R.drawable.fw_i_update, "Mise à jour", "green", weight = 0.55f, always = true) else null,
-            WidgetArt.Tab(R.drawable.fw_i_question, "Question", if (status?.ask != null) "red" else "grey", weight = 0.55f, always = status?.ask != null),
             WidgetArt.Tab(R.drawable.fw_i_settings, "Réglages", "grey", weight = 0.55f),
         )
         v.setViewVisibility(R.id.t_upd, if (snap.appUpdateReady) View.VISIBLE else View.GONE)
         WidgetTab.PAGES.forEachIndexed { i, name -> v.setOnClickPendingIntent(id(context, TAB_IDS[i]), broadcast(context, 1 + i, ACTION_TAB, "tab" to name)) }
         v.setOnClickPendingIntent(R.id.t_upd, activity(context, 6, InstallUpdateActivity::class.java))
-        v.setOnClickPendingIntent(R.id.t_ask, activity(context, 7, AskActivity::class.java))
         v.setOnClickPendingIntent(R.id.t_settings, activity(context, 8, SettingsActivity::class.java))
         val models = CellModels.of(context, snap)
         fun btn(icon: Int, id: String, iconOnly: Boolean = false): WidgetArt.Btn { val m = models.getValue(id); return WidgetArt.Btn(icon, m.label, m.tone, m.enabled, iconOnly) }
@@ -137,6 +136,7 @@ object AiwaWidget {
                 Cell(btn(R.drawable.fw_i_plus, "plus", iconOnly = true), 1f, activity(context, 13, AddActivity::class.java)),
                 Cell(btn(R.drawable.fw_i_scenario, "scenario", iconOnly = true), 1f, activity(context, 30, ScenariosActivity::class.java)),
                 Cell(btn(R.drawable.fw_i_cast, "cast", iconOnly = true), 1f, activity(context, 31, CastActivity::class.java)),
+                Cell(btn(R.drawable.fw_i_question, "question", iconOnly = true), 1f, activity(context, 7, AskActivity::class.java)),
             ),
         )
         // ---- Files ----
@@ -147,12 +147,15 @@ object AiwaWidget {
         val files = listOf(listOf(Cell(btn(R.drawable.fw_i_files, "scope"), 1f, activity(context, 19, RepoPickerActivity::class.java))), kindCells)
         // ---- Voir ----
         fun voir(code: Int, mode: String) = activity(context, code, Intent(context, WebActivity::class.java).putExtra(WebActivity.EXTRA_PAGE, "voir").putExtra(WebActivity.EXTRA_MODE, mode))
-        val voirPage = listOf(listOf(
-            Cell(btn(R.drawable.fw_i_pin, "nearby"), 1f, voir(40, "proche")),
-            Cell(btn(R.drawable.fw_i_link, "link"), 1f, voir(41, "lien")),
-            Cell(btn(R.drawable.fw_i_qr, "qr"), 1f, voir(42, "qr")),
-            Cell(btn(R.drawable.fw_i_star, "favorites"), 1f, voir(43, "favoris")),
-        ))
+        val voirPage = listOf(
+            listOf(Cell(btn(R.drawable.fw_i_wallet, "wallet"), 1f, activity(context, 44, Intent(context, WebActivity::class.java).putExtra(WebActivity.EXTRA_PAGE, "wallet")))),
+            listOf(
+                Cell(btn(R.drawable.fw_i_pin, "nearby", iconOnly = true), 1f, voir(40, "proche")),
+                Cell(btn(R.drawable.fw_i_link, "link", iconOnly = true), 1f, voir(41, "lien")),
+                Cell(btn(R.drawable.fw_i_qr, "qr", iconOnly = true), 1f, voir(42, "qr")),
+                Cell(btn(R.drawable.fw_i_star, "favorites", iconOnly = true), 1f, voir(43, "favoris")),
+            ),
+        )
         val pages = listOf(agentPage, files, voirPage)
         // ---- the pictures and the touch zones ----
         val (pw, ph) = sizePx(context)

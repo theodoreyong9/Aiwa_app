@@ -65,6 +65,12 @@ class Routes(unittest.TestCase):
         status = json.loads(self.get("/api/status")[2])
         self.assertEqual((status["repo"], status["cloud_session"]), ("me/app", "session_AAA"))
 
+    def test_choosing_a_repository_without_session_makes_one(self):
+        out = self.post("/api/repo", "https://github.com/me/fresh")
+        self.assertEqual((out["accepted"], out["cloud_session"], out["creating"]), (True, None, True))
+        self.assertTrue(self.post("/api/session/new", "me/fresh")["accepted"])
+        self.assertFalse(self.post("/api/session/new", "pas un depot")["accepted"])
+
     def test_selecting_a_session_takes_its_repository(self):
         sessions.save_cloud_session("session_AAA", "App", None, repo="me/app", work="aiwa/1", base="main", direct=True)
         self.assertTrue(self.post("/api/cloud/select", "session_AAA")["accepted"])

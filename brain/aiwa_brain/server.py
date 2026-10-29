@@ -94,14 +94,26 @@ def _set_effort(requested):
 
 
 def _set_repo(text):
-    """The repository the person works on, given by its name or a link. Its session is the one linked to it (made with the next message when there is none)."""
+    """The repository the person works on, given by its name or a link. Its session is the one linked to it, made now when there is none."""
     repo = github.parse_repo(text)
     if repo is None:
         return {"accepted": False, "reason": "aucun dépôt GitHub dans ce texte"}
     with state.lock:
         state.repo_access_missing = None      # a new choice starts afresh: the alert is shown again only if the next session fails again
-    linked = sessions.focus(repo)
-    return {"accepted": True, "repo": repo, "cloud_session": linked}
+    linked = sessions.start_session(repo)
+    return {"accepted": True, "repo": repo, "cloud_session": linked, "creating": linked is None}
+
+
+def _new_session(text):
+    """A second (or first) session on a repository, made now."""
+    repo = github.parse_repo(text)
+    if repo is None:
+        return {"accepted": False, "reason": "aucun dépôt GitHub dans ce texte"}
+    with state.lock:
+        if state.cloud_busy:
+            return {"accepted": False, "reason": "un envoi est en cours"}
+    sessions.start_session(repo, force=True)
+    return {"accepted": True, "repo": repo, "creating": True}
 
 
 def _set_options(options):
@@ -223,6 +235,7 @@ POST = {
     "/api/model": lambda body, data: _set_model(body.strip()),
     "/api/effort": lambda body, data: _set_effort(body.strip()),
     "/api/repo": lambda body, data: _set_repo(body),
+    "/api/session/new": lambda body, data: _new_session(body),
     "/api/options": lambda body, data: _set_options(data if body.strip() else {}),
     "/api/attach": lambda body, data: attachments.attach_add(body),
     "/api/attach/clear": lambda body, data: attachments.attach_clear(),

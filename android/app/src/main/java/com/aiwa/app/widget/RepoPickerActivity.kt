@@ -61,10 +61,10 @@ class RepoPickerActivity : FloatActivity() {
             CoroutineScope(Dispatchers.Main).launch {
                 val out = withContext(Dispatchers.IO) {
                     if (i < mine.size) Aiwa.brain.select(mine[i].id)
-                    else { val r = Aiwa.brain.setRepo(repo); if (r.ok) Aiwa.brain.select("new") else r }
+                    else Aiwa.brain.newSession(repo)
                 }
                 withContext(Dispatchers.IO) { com.aiwa.app.brain.BrainSync.refresh() }
-                toastOnMain(applicationContext, if (!out.ok) "Refusé : ${out.error}" else if (i < mine.size) "Session : ${mine[i].title}" else "Nouvelle session sur ${repo.substringAfter('/')} au prochain message")
+                toastOnMain(applicationContext, if (!out.ok) "Refusé : ${out.error}" else if (i < mine.size) "Session : ${mine[i].title}" else "Je crée une session sur ${repo.substringAfter('/')}…")
                 AiwaWidget.render(applicationContext, force = true)
                 reload()
             }

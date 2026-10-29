@@ -15,6 +15,13 @@ object VoirSettings {
     fun setRadius(context: Context, radius: Int) = prefs(context).put("radius", radius.coerceIn(0, 3))
 }
 
+/** The favourites the Voir page keeps (links of repositories), copied here so that her own profile can show them. */
+object VoirFavorites {
+    private fun prefs(context: Context) = Prefs(context, "aiwa_voir")
+    fun save(context: Context, list: JSONArray) = prefs(context).put("favs", list.toString())
+    fun load(context: Context): JSONArray = try { JSONArray(prefs(context).string("favs", "[]")) } catch (err: Exception) { JSONArray() }
+}
+
 /** The public links of what the person has made, one per kind: the page of the newest release of that kind (a stranger opens it on GitHub). Only a public repository has any: a private one shows nothing. */
 object VoirLinks {
     /** Blocking: it asks the brain, which reads the releases. */

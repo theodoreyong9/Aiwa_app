@@ -40,6 +40,7 @@ import org.json.JSONObject
  */
 object HomeRuntime {
     private var cached: String? = null
+    private val ownViews = java.util.WeakHashMap<WebView, Boolean>()      // the pages that are the person's own: only they get her favourites
 
     /** The runtime, read once from the assets. */
     fun script(context: Context): String {
@@ -57,6 +58,7 @@ object HomeRuntime {
      * `own`: the page is the person's own; `source` says whose page it is (a repository « owner/name »).
      */
     fun attach(web: WebView, own: Boolean, source: () -> String?) {
+        ownViews[web] = own
         if (!WebViewFeature.isFeatureSupported(WebViewFeature.WEB_MESSAGE_LISTENER)) return
         try {
             WebViewCompat.addWebMessageListener(web, "AiwaHomeHost", setOf("*")) { _, message: WebMessageCompat, _, isMainFrame, _ ->
@@ -82,6 +84,7 @@ object HomeRuntime {
     fun pushState(web: WebView) {
         val json = try { HomeActions.state(web.context).toString() } catch (err: Exception) { "{}" }
         web.evaluateJavascript("(window.aiwa&&window.aiwa.setState)&&window.aiwa.setState($json)", null)
+        if (ownViews[web] == true) web.evaluateJavascript("(window.aiwa&&window.aiwa.setFavorites)&&window.aiwa.setFavorites(${com.aiwa.app.voir.VoirFavorites.load(web.context)})", null)
     }
 
     /** What the buttons show (the agent listening, the repository, the chamber…) is sent again every few seconds, while the page is on the screen. */

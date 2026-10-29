@@ -39,7 +39,10 @@ class Brain(private val net: Transport = HttpTransport()) {
     fun addSession(text: String): Outcome = act("/api/cloud/add", text, 60_000)
     fun clearSessions(): Outcome = act("/api/cloud/clear")
     fun rename(id: String, title: String): Outcome = act("/api/cloud/rename", JSONObject().put("id", id).put("title", title))
+    /** The repository in use; its session is made now when it has none. */
     fun setRepo(textOrLink: String): Outcome = act("/api/repo", textOrLink, 30_000)
+    /** One more session on a repository, made now. */
+    fun newSession(repo: String): Outcome = act("/api/session/new", repo, 30_000)
     fun setModel(model: String?): Outcome = act("/api/model", model ?: "")
     fun setEffort(level: String?): Outcome = act("/api/effort", level ?: "")
     fun setPushMain(on: Boolean): Outcome = act("/api/options", JSONObject().put("push_main", on))

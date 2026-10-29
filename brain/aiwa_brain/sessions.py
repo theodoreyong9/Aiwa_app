@@ -1,5 +1,6 @@
 """The Claude Code sessions: which session belongs to which repository, creating one, sending it a message."""
 import json
+import os
 import re
 import shlex
 import shutil
@@ -63,6 +64,24 @@ def entry_of(session_id):
 def session_for_repo(repo):
     """The session linked to a repository: the most recent one that works on it (the list is kept newest first), or None when there is none yet."""
     return next((e["id"] for e in load_all() if e.get("id") and e.get("repo") == repo), None)
+
+
+KICKOFF = "Nouvelle session Aiwa sur ce dépôt. Regarde-le, dis-moi en une phrase ce que tu y vois, puis attends mes consignes."
+
+
+def start_session(repo, force=False):
+    """The person works on this repository: it becomes the one in use and a session is made for it at once (the first message is a short look at the repository), unless one is already linked to it
+    and `force` is not asked. Creating takes a while: it runs in the background, the widget shows it as a message being sent. Returns the linked session, or None while it is being made."""
+    linked = focus(repo)
+    if linked and not force:
+        return linked
+    if force:
+        with state.lock:
+            state.current_cloud = None
+            state.save()
+    if not os.environ.get("AIWA_TEST"):      # the tests make no session
+        threading.Thread(target=cloud_send, args=(KICKOFF,), daemon=True).start()
+    return None
 
 
 def focus(repo):

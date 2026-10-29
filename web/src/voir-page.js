@@ -13,7 +13,11 @@ import { cellsAround, cleanLinks, checkEntry, messageOf, parseCard, cardText, pa
 const kindName = { docs: 'Docs', image: 'Images', video: 'Vidéos', app: 'Apps', page: 'Pages' };
 const FAVS = 'aiwa-voir-favs';
 const readFavs = () => { try { const v = JSON.parse(localStorage.getItem(FAVS) ?? '[]'); return Array.isArray(v) ? v.slice(0, 200) : []; } catch { return []; } };
-const writeFavs = (list) => { try { localStorage.setItem(FAVS, JSON.stringify(list)); } catch { /* it lasts until the page closes */ } };
+const writeFavs = (list) => {
+  try { localStorage.setItem(FAVS, JSON.stringify(list)); } catch { /* it lasts until the page closes */ }
+  // the app keeps a copy: the person's own profile shows her favourites
+  if (hostAvailable()) { try { hostPost({ cmd: 'favorites', list: list.slice(0, 50).map((f) => ({ repo: f.repo, links: f.links })) }); } catch { /* the page works without */ } }
+};
 const hostOf = (url) => { try { return new URL(url).host; } catch { return url; } };
 
 /** One card (a person, a pasted link, a favourite): her name, her links (they open in the browser), and the buttons given. */
@@ -75,6 +79,7 @@ function renderNear(entries, blocked, mode, view) {
 }
 
 export function initVoirPage(params) {
+  writeFavs(readFavs());      // the app learns the favourites kept before it listened
   const mode = ['lien', 'proche', 'qr', 'favoris'].includes(params.get('m')) ? params.get('m') : 'proche';
   const publish = params.get('pub') === '1';
   const repo = params.get('repo') ?? '';
