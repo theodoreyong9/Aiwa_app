@@ -1,0 +1,32 @@
+name: Promote
+# Nobody has to push to main by hand: when a build of a work branch (claude/**) passes, GitHub itself brings that branch into main and starts the build that publishes the APK.
+on:
+  workflow_run:
+    workflows: [Android]
+    types: [completed]
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  promote:
+    if: github.event.workflow_run.conclusion == 'success' && startsWith(github.event.workflow_run.head_branch, 'claude/') && github.event.workflow_run.event == 'push'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: main
+      - name: Bring the branch into main
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SHA: ${{ github.event.workflow_run.head_sha }}
+        run: |
+          git config user.name "aiwa-promote"
+          git config user.email "aiwa-promote@users.noreply.github.com"
+          if git merge-base --is-ancestor "$SHA" HEAD; then echo "main already holds $SHA"; exit 0; fi
+          git merge --no-edit "$SHA" -m "Promote $SHA to main" || { echo "Conflict: main and the branch changed the same lines; nothing promoted."; git merge --abort; exit 1; }
+          git push origin HEAD:main
+          # a push made with the workflow's own token starts no other workflow: the build that publishes the APK is started here
+          gh workflow run android.yml --ref main
