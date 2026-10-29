@@ -2,7 +2,7 @@
 The long how-to of each kind lives in the skills (skills/<kind>/SKILL.md of the product's repository): the first message holds one line per skill, with a short mark so that a changed skill is told again."""
 import hashlib
 
-from . import config, profile_lib, relay, sessions, state
+from . import config, profile_lib, relay, sessions, state, studio
 
 KIND_LABELS = {
     "docs": "Documents (lettre, CV, rapport, contrat, présentation, tableur…)",
@@ -11,7 +11,7 @@ KIND_LABELS = {
     "app": "Apps (une application qui s'installe ou s'ouvre sur le téléphone)",
     "page": "Pages (une page web d'un seul fichier HTML)",
 }
-LABELS = {"repo": "dépôt", "push": "push", "ask": "questions", "alert": "alerte", "release": "productions en release", "profile": "profil", **{f"skill_{k}": k for k in config.KINDS}}
+LABELS = {"repo": "dépôt", "push": "push", "ask": "questions", "alert": "alerte", "release": "productions en release", "profile": "profil", "stock": "clips libres", **{f"skill_{k}": k for k in config.KINDS}}
 
 
 def mailbox_signal(kind, work):
@@ -117,6 +117,8 @@ def lines(repo, work, base, direct, origin=None):
         out.append(("release", release_line(repo)))
         out.extend((f"skill_{kind}", skill_line(kind)) for kind in config.KINDS)
         out.append(("release_how", skill_line_release()))
+        if studio.published():
+            out.append(("stock", studio.stock_line(repo)))
         mine = profile_lib.repo()
         if mine:
             out.append(("profile", profile_lib.instruction(mine)))

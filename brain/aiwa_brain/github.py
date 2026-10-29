@@ -145,6 +145,32 @@ def api(path, method="GET", body=None, timeout=15):
     return json.loads(raw) if raw else None
 
 
+def release_upload(repo, tag, title, notes, path, name, timeout=1800):
+    """Puts a file in the release `tag` of a repository (made when it is not there), replacing a file of the same name. Needs the person's GitHub access. Raises GithubError."""
+    if not token_value():
+        raise GithubError("GitHub n'est pas connecté")
+    try:
+        release = api(f"/repos/{repo}/releases/tags/{urllib.parse.quote(tag)}")
+    except GithubError as err:
+        if "404" not in str(err):
+            raise
+        release = api(f"/repos/{repo}/releases", "POST", {"tag_name": tag, "name": title, "body": notes})
+    for old in (release or {}).get("assets", []):
+        if old.get("name") == name:
+            api(f"/repos/{repo}/releases/assets/{old['id']}", "DELETE")
+    size = Path(path).stat().st_size
+    with open(path, "rb") as handle:
+        request = urllib.request.Request(
+            f"https://uploads.github.com/repos/{repo}/releases/{release['id']}/assets?name={urllib.parse.quote(name)}", data=handle, method="POST",
+            headers={"Authorization": f"Bearer {token_value()}", "Content-Type": "application/octet-stream", "Content-Length": str(size), "User-Agent": "aiwa", "Accept": "application/vnd.github+json"})
+        try:
+            urllib.request.urlopen(request, timeout=timeout).read()
+        except urllib.error.HTTPError as err:
+            raise GithubError(f"GitHub {err.code} : l'envoi est refusé (jeton sans le droit « repo » ?)")
+        except OSError as err:
+            raise GithubError(f"GitHub injoignable : {err}")
+
+
 # ---------- the repositories ----------
 
 _owner_cache = {}

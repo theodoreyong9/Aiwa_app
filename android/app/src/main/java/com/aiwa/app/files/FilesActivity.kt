@@ -51,6 +51,10 @@ class FilesActivity : FloatActivity() {
     override fun fill() {
         val scope = FilesScope.repo(this, Aiwa.state.value.status?.repo)
         note(if (scope == null) "Tous tes dépôts" else scope, Palette.GOLD)
+        if (kind == "video") {
+            entry("Faire un film", "Un film de toi ou de ton produit, avec ta clé fal.ai · vidéos libres") { startActivity(android.content.Intent(this, com.aiwa.app.studio.FilmActivity::class.java)) }
+            entry("Chercher une vidéo libre", "Pexels, Pixabay") { startActivity(android.content.Intent(this, com.aiwa.app.studio.StockSearchActivity::class.java)) }
+        }
         val files = listing
         if (failed) { note("Le cerveau ne répond pas."); return }
         if (files == null) { note("Je lis les releases…"); return }

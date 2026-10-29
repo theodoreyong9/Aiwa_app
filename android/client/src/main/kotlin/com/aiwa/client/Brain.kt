@@ -151,6 +151,34 @@ class Brain(private val net: Transport = HttpTransport()) {
     fun setProfileRepo(repo: String): Outcome = act("/api/profile", JSONObject().put("repo", repo))
     fun profileCheck(): JSONObject? = getJson("/api/profile/check")
 
+    // ---------- the studio: the free stock clips and « Film de moi » ----------
+    fun stockStatus(): JSONObject? = getJson("/api/stock/status")
+    fun stockKey(source: String, key: String): Outcome = act("/api/stock/key", JSONObject().put("source", source).put("key", key))
+    fun stockKeyClear(source: String): Outcome = act("/api/stock/key_clear", JSONObject().put("source", source))
+    fun stockSearch(query: String, source: String): Outcome = act("/api/stock/search", JSONObject().put("query", query).put("source", source), 60_000)
+    fun stockDownload(clip: JSONObject): Outcome = act("/api/stock/download", JSONObject().put("clip", clip), 5 * 60_000)
+    fun stockPublish(id: String): Outcome = act("/api/stock/publish", JSONObject().put("id", id))
+    fun filmStatus(): JSONObject? = getJson("/api/film/status")
+    fun filmInfo(): JSONObject? = getJson("/api/film/info")
+    fun filmGet(id: String): JSONObject? = getJson("/api/film/get?id=" + java.net.URLEncoder.encode(id, "UTF-8"))
+    fun filmKey(key: String): Outcome = act("/api/film/key", JSONObject().put("key", key))
+    fun filmKeyClear(): Outcome = act("/api/film/key_clear")
+    fun filmCap(usd: Double): Outcome = act("/api/film/cap", JSONObject().put("cap", usd))
+    fun filmVoice(base64: String, ext: String): Outcome = act("/api/film/voice", JSONObject().put("data", base64).put("ext", ext), 60_000)
+    fun filmPrepare(direction: String, says: String, aspect: String, photos: List<String>, consent: Boolean, kind: String, photosProduct: List<String>, swap: String): Outcome =
+        act("/api/film/prepare", JSONObject().put("direction", direction).put("says", says).put("aspect", aspect).put("photos", JSONArray(photos)).put("consent", consent).put("kind", kind)
+            .put("photos_product", JSONArray(photosProduct)).put("swap", swap), 5 * 60_000)
+    fun filmSource(id: String, input: java.io.InputStream, length: Long): Outcome = try {
+        val j = JSONObject(net.upload("/api/film/source?id=" + java.net.URLEncoder.encode(id, "UTF-8"), input, length))
+        Outcome(j.optBoolean("ok"), if (j.optBoolean("ok")) null else j.optString("error").ifBlank { "refusé" }, j)
+    } catch (e: Exception) { Outcome(false, e.message ?: "le cerveau ne répond pas") }
+    fun filmEdit(id: String, index: Int, situation: String?, says: String?, remove: Boolean = false): Outcome =
+        act("/api/film/edit", JSONObject().put("id", id).put("index", index).put("situation", situation ?: JSONObject.NULL).put("says", says ?: JSONObject.NULL).put("remove", remove))
+    fun filmStart(id: String): Outcome = act("/api/film/start", JSONObject().put("id", id).put("confirmed", true))
+    fun filmPublish(id: String): Outcome = act("/api/film/publish", JSONObject().put("id", id))
+    /** Where the brain serves a finished film (the player seeks in it). */
+    fun filmAddress(id: String): String = HttpTransport.DEFAULT_BASE + "/api/film/file/" + id + ".mp4"
+
     // ---------- Claude's login on the phone ----------
     fun loginState(): JSONObject? = getJson("/api/claude/login")
     fun loginStart(): Outcome = act("/api/claude/login/start", "", 60_000)

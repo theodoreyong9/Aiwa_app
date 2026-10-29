@@ -17,6 +17,9 @@ interface Transport {
 
     /** A POST whose answer is bytes (the natural voice's sound). */
     fun postBytes(path: String, body: String, timeoutMs: Int = 60000): ByteArray?
+
+    /** A POST whose body is bytes read from `input` (the person's own video, which can be big): sent as they are, `length` known or -1. */
+    fun upload(path: String, input: java.io.InputStream, length: Long, timeoutMs: Int = 10 * 60_000): String = throw IOException("no upload")
 }
 
 class HttpTransport(private val base: String = DEFAULT_BASE) : Transport {
@@ -54,6 +57,15 @@ class HttpTransport(private val base: String = DEFAULT_BASE) : Transport {
             if (c.responseCode !in 200..299) return null
             val type = c.contentType.orEmpty()
             return if (type.startsWith("audio/")) c.inputStream.use { it.readBytes() } else null
+        } finally { c.disconnect() }
+    }
+
+    override fun upload(path: String, input: java.io.InputStream, length: Long, timeoutMs: Int): String {
+        val c = open(path, "POST", timeoutMs)
+        try {
+            if (length >= 0) c.setFixedLengthStreamingMode(length) else c.setChunkedStreamingMode(1 shl 16)
+            c.outputStream.use { out -> input.use { it.copyTo(out) } }
+            return read(c)
         } finally { c.disconnect() }
     }
 

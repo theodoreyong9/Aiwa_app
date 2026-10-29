@@ -1,12 +1,13 @@
 """The brain's HTTP server (127.0.0.1, for the app and the pages of the WebView only). It routes: every route calls a function of the module that owns the thing."""
 import json
 import os
+import re
 import threading
 import time
 import urllib.parse
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
-from . import agent, agent_lib, asks, attachments, cast, chamber, claude_cli, config, files, github, github_login, instructions, live, profile, questions, relay, repos, scenarios, sessions, state, update
+from . import agent, agent_lib, asks, attachments, cast, chamber, claude_cli, config, files, github, github_login, instructions, studio, live, profile, questions, relay, repos, scenarios, sessions, state, update
 
 
 def status():
@@ -218,6 +219,10 @@ GET = {
     "/api/instructions": lambda q: {"text": instructions.preview()},
     "/api/claude/login": lambda q: claude_cli.login_snapshot(),
     "/api/github/login": lambda q: github_login.snapshot(),
+    "/api/stock/status": lambda q: studio.stock_status(),
+    "/api/film/info": lambda q: studio.info(),
+    "/api/film/status": lambda q: {"ok": True, **studio.film.status()},
+    "/api/film/get": lambda q: studio.film.get((q.get("id") or [""])[0]),
     "/api/files": lambda q: files.listing((q.get("repo") or [""])[0] or None),
     "/api/scenarios": lambda q: scenarios.scenario_api("/api/scenarios", ""),
     "/api/chamber": lambda q: chamber.chamber_api("/api/chamber", ""),
@@ -268,6 +273,8 @@ POST = {
 POST_PREFIX = (
     ("/api/agent/", lambda path, body, data: _agent_api(path.rsplit("/", 1)[1], data)),
     ("/api/scenarios/", lambda path, body, data: scenarios.scenario_api(path, body)),
+    ("/api/stock/", lambda path, body, data: studio.stock_api(path, body)),
+    ("/api/film/", lambda path, body, data: studio.film_api(path, body)),
     ("/api/chamber", lambda path, body, data: chamber.chamber_api(path, body)),
     ("/api/match", lambda path, body, data: chamber.chamber_api(path, body)),
 )
@@ -307,6 +314,44 @@ class Handler(BaseHTTPRequestHandler):
             pass
         self.close_connection = True
 
+    def _send_film(self, name):
+        """A finished film, with Range support (the player seeks)."""
+        job = re.fullmatch(r"([0-9a-f]{10})\.mp4", name or "")
+        path = studio.film.home / job.group(1) / "film.mp4" if job else None
+        if not path or not path.exists():
+            self.send_error(404)
+            return
+        size = path.stat().st_size
+        start, end, status = 0, size - 1, 200
+        m = re.fullmatch(r"bytes=(\d*)-(\d*)", self.headers.get("Range") or "")
+        if m and (m.group(1) or m.group(2)):
+            if m.group(1):
+                start = int(m.group(1))
+                end = int(m.group(2)) if m.group(2) else size - 1
+            else:
+                start = max(0, size - int(m.group(2)))
+            end = min(end, size - 1)
+            status = 206
+        self.send_response(status)
+        self.send_header("Content-Type", "video/mp4")
+        self.send_header("Accept-Ranges", "bytes")
+        self.send_header("Content-Length", str(end - start + 1))
+        if status == 206:
+            self.send_header("Content-Range", f"bytes {start}-{end}/{size}")
+        self.end_headers()
+        try:
+            with open(path, "rb") as handle:
+                handle.seek(start)
+                left = end - start + 1
+                while left > 0:
+                    chunk = handle.read(min(1 << 16, left))
+                    if not chunk:
+                        break
+                    self.wfile.write(chunk)
+                    left -= len(chunk)
+        except (BrokenPipeError, ConnectionResetError):
+            pass
+
     def do_GET(self):
         parts = urllib.parse.urlsplit(self.path)
         query = urllib.parse.parse_qs(parts.query)
@@ -322,6 +367,9 @@ class Handler(BaseHTTPRequestHandler):
             self.end_headers()
             self.wfile.write(body)
             return
+        if parts.path.startswith("/api/film/file/"):
+            self._send_film(parts.path.rsplit("/", 1)[-1])
+            return
         route = GET.get(parts.path)
         if route is None:
             self.send_error(404)
@@ -334,8 +382,13 @@ class Handler(BaseHTTPRequestHandler):
         except ValueError:
             self.send_error(400, "invalid Content-Length")
             return
-        body = self.rfile.read(length).decode()
         path = urllib.parse.urlsplit(self.path).path
+        if path == "/api/film/source":
+            # the person's own video, for a swap: raw bytes (not JSON, not base64: it can be big)
+            job_id = (urllib.parse.parse_qs(urllib.parse.urlsplit(self.path).query).get("id") or [""])[0]
+            self.reply_json(studio.film.set_source(job_id, self.rfile.read(length)))
+            return
+        body = self.rfile.read(length).decode()
         data = _json_of(body)
         if path == "/api/answer_stream":
             self._stream(lambda emit: {"ok": questions.answer_stream(data.get("question"), emit)})
