@@ -63,9 +63,9 @@ class ProfileActivity : ComponentActivity() {
         root.addView(chip, FrameLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT, Gravity.TOP or Gravity.CENTER_HORIZONTAL).apply { topMargin = dp(8) })
         bar = ProfileBar.build(this, listOf(
             ProfileBar.Spec("🤝", "Match", ProfileBar.VIOLET) { match(force = true) },
-            ProfileBar.Spec("📍", "Zone", ProfileBar.VIOLET) { WebActivity.zone(this) },
             ProfileBar.Spec("🚪", "Chambre", ProfileBar.BLUE) { startActivity(Intent(this, com.aiwa.app.chamber.ChamberActivity::class.java).putExtra(com.aiwa.app.chamber.ChamberActivity.EXTRA_REPO, urls[pager.currentItem])) },
             ProfileBar.Spec("☕", "Café", ProfileBar.GOLD) { coffee() },
+            ProfileBar.Spec("📍", "Zone", ProfileBar.VIOLET) { WebActivity.zone(this) },
             ProfileBar.Spec("🏆", "Mur", ProfileBar.GREEN) { wall() },
             ProfileBar.Spec("✦", "Widget", ProfileBar.WHITE) { pages[pager.currentItem]?.let { HomeRuntime.openPanel(it) } },
         ))
@@ -102,7 +102,7 @@ class ProfileActivity : ComponentActivity() {
         val i = pager.currentItem
         val pub = pubs.getOrNull(i).orEmpty()
         bar.keys[0].label(scores[urls[i]] ?: "Match")
-        bar.keys[3].available(CoffeeSettings.walletConnected(this) && pub.isNotEmpty())
+        bar.keys[2].available(CoffeeSettings.walletConnected(this) && pub.isNotEmpty())
         bar.keys[4].available(pub.isNotEmpty())
         if (pub.isEmpty()) findPub(i)
         match()
