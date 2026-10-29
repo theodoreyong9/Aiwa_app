@@ -80,8 +80,19 @@ def start_session(repo, force=False):
             state.current_cloud = None
             state.save()
     if not os.environ.get("AIWA_TEST"):      # the tests make no session
-        threading.Thread(target=cloud_send, args=(KICKOFF,), daemon=True).start()
+        threading.Thread(target=make_session, daemon=True).start()
     return None
+
+
+def make_session():
+    """The first message of a new session, and what became of it: a failure is kept (the widget and the state page say why there is no session) instead of being lost in a thread."""
+    try:
+        result = cloud_send(KICKOFF)
+    except Exception as err:      # a bad round must not end silently
+        result = {"ok": False, "error": str(err)}
+    with state.lock:
+        state.session_error = None if result.get("ok") else (str(result.get("error") or "échec")[:300])
+    return result
 
 
 def focus(repo):
