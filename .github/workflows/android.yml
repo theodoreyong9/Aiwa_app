@@ -53,6 +53,9 @@ jobs:
           OLD=$(gh release view android-latest --json body -q .body 2>/dev/null | grep -o 'Tree: [0-9a-f]*' | cut -d' ' -f2 || true)
           if [ "$OLD" = "$TREE" ]; then echo "Same files as the published build: not published again."; exit 0; fi
           gh release delete android-latest --cleanup-tag --yes || true
+          # the application is also a production of this repository (Files, Apps): the same file, in a release whose tag says « app »
+          gh release view app-aiwa-app >/dev/null 2>&1 || gh release create app-aiwa-app --title "Aiwa App (application Android)" --notes "Dernière version de l'application." >/dev/null
+          gh release upload app-aiwa-app "$APK" --clobber
           gh release create android-latest "$APK" \
             --target "$GITHUB_SHA" \
             --title "Debug APK (latest build)" \

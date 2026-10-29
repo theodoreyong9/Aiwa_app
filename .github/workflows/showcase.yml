@@ -1,0 +1,32 @@
+name: Showcase
+# What Aiwa itself offers is published the way every production is: as releases whose tag says the kind, so that the Files page shows documents, a video, a page and an image when the repository in
+# use is this one. Run when docs/ or Profile/ change (and by hand).
+on:
+  push:
+    branches: [main]
+    paths: ['docs/**', 'Profile/**', '.github/workflows/showcase.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Releases
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -e
+          put() {   # tag, title, file
+            if gh release view "$1" >/dev/null 2>&1; then gh release edit "$1" --title "$2" >/dev/null; else gh release create "$1" --title "$2" --notes "Publié par Aiwa (dossier docs/ ou Profile/ du dépôt)." >/dev/null; fi
+            gh release upload "$1" "$3" --clobber
+          }
+          put docs-yellow-paper "Yellow paper" docs/yellow-paper.md
+          put docs-valeur "Valeur : l'ontologie de la valeur" docs/valeur.pdf
+          put docs-readme "Readme : Aiwa écran par écran" docs/readme.md
+          put video-film-aiwa "Le film d'Aiwa" docs/film.mp4
+          put page-accueil "Page d'accueil" Profile/index.html
+          put image-accueil "Image de l'accueil" Profile/media/poster.jpg

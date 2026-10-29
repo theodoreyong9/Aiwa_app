@@ -37,7 +37,7 @@ object CellModels {
             snap.link == Link.DOWN || snap.link == Link.STARTING -> CellModel("Cerveau en route…", "grey")
             else -> CellModel("Super agent", "orange")
         }
-        out["claude"] = CellModel("Claude", if (waiting) "red" else "grey", enabled = hasSession)
+        out["claude"] = CellModel("Claude", if (waiting) "red" else "grey")
         out["listen"] = CellModel(if (ear) "Écoute active" else "Écoute", if (ear) "green" else "grey", on = ear)
         out["plus"] = CellModel(if (attachments > 0) "$attachments jointe(s)" else "Ajouter", if (attachments > 0) "green" else "grey")
         val single = FilesScope.repo(context, status?.repo) != null
