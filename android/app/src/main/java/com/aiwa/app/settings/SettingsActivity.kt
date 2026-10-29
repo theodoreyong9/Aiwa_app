@@ -30,6 +30,8 @@ class SettingsActivity : FloatActivity() {
     private fun open(cls: Class<*>) = startActivity(Intent(this, cls))
 
     override fun fill() {
+        entry("Wallet", "Phrase secrète, taux, brûlage, à réclamer, historique.", Palette.CARD) { com.aiwa.app.web.WebActivity.wallet(this) }
+
         note("Vie privée", Palette.GOLD)
         switch("Se cacher", "Tes liens ne sont pas montrés aux gens à proximité.", !VoirSettings.on(this)) { VoirSettings.setOn(this, !it) }
         switch("Chambre ouverte écran éteint", "La chambre reste ouverte quand l'écran s'éteint.", ChamberSettings.awake(this)) { ChamberSettings.setAwake(this, it) }
