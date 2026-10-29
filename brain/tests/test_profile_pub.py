@@ -42,3 +42,20 @@ class ProfilePubTest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class ProfileContractsTest(ProfilePubTest):
+    EVENT = {"id": "e1", "type": "contract-spec", "author": "creator1", "payload": {"name": "Vote", "sourceCode": "x"}}
+
+    def test_written_once_for_the_same_content(self):
+        with mock.patch("aiwa_brain.profile.github.put_file") as put:
+            self.assertTrue(profile.publish_contracts([self.EVENT])["ok"])
+            self.assertTrue(profile.publish_contracts([self.EVENT])["unchanged"])
+        self.assertEqual(put.call_count, 1)
+        self.assertEqual(put.call_args[0][1], "Profile/aiwa-contracts.json")
+
+    def test_refuses_what_is_not_one_persons_contracts(self):
+        other = dict(self.EVENT, author="creator2")
+        self.assertFalse(profile.publish_contracts([self.EVENT, other])["ok"])
+        self.assertFalse(profile.publish_contracts([])["ok"])
+        self.assertFalse(profile.publish_contracts([{"type": "burn", "author": "a", "payload": {}}])["ok"])

@@ -258,6 +258,7 @@ POST = {
     "/api/profile": lambda body, data: profile.profile_apply(data),
     "/api/diagram/set": lambda body, data: {"ok": True, "on": diagram.set_on(data.get("on"))},
     "/api/profile/pub": lambda body, data: profile.publish_pub(data.get("pub")),
+    "/api/profile/contracts": lambda body, data: profile.publish_contracts(data.get("events")),
     "/api/waiting/clear": lambda body, data: (relay.clear_waiting(), {"accepted": True})[1],
     "/api/waiting/test": lambda body, data: _relay_test(),
     "/api/relay/retest": lambda body, data: _retest_relay(),
