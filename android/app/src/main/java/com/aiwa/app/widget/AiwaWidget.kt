@@ -129,7 +129,7 @@ object AiwaWidget {
             // the room in progress, at the left of the Super agent: only while there is one (its touch zone is gone otherwise, the rest keeps its shares)
             if (roomOpen) add(Cell(WidgetArt.Btn(R.drawable.fw_i_room, "Chambre en cours", "violet", true, true), 1f, activity(context, 15, com.aiwa.app.chamber.ChamberActivity::class.java), zone = 0))
             add(Cell(btn(R.drawable.fw_i_robot, "agent"), 3f, activity(context, 10, robotTarget), zone = 1))
-            add(Cell(btn(R.drawable.fw_i_claude, "claude", iconOnly = true), 1f, if (hasSession) activity(context, 11, OpenClaudeActivity::class.java) else null, zone = 2))
+            add(Cell(btn(R.drawable.fw_i_claude, "claude", iconOnly = true), 1f, activity(context, 11, OpenClaudeActivity::class.java), zone = 2))
         }
         val agentPage = listOf(
             firstRow,

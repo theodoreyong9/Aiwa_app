@@ -76,7 +76,13 @@ class ClaudeLoginActivity : FloatActivity() {
     private suspend fun connectedNow() {
         connected = true; busy = false
         reload()
-        withContext(Dispatchers.IO) { BrainSync.refresh() }
+        withContext(Dispatchers.IO) {
+            BrainSync.refresh()
+            // the repository in use has no session yet (it could not be made before Claude was connected): it is made now
+            val s = Aiwa.state.value
+            val repo = s.status?.repo
+            if (repo != null && s.sessionId == null && s.status?.lastSession == null) { Aiwa.brain.setRepo(repo); BrainSync.refresh() }
+        }
         AiwaWidget.render(applicationContext, force = true)
         delay(1200)
         finish()

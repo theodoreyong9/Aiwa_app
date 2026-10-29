@@ -27,6 +27,18 @@ class OpenClaudeActivity : ComponentActivity() {
         wakeAiwa(applicationContext)
         val known = Aiwa.state.value.let { it.sessionId != null || it.status?.lastSession != null }
         if (known && open()) { finish(); return }
+        // No session yet: one is made on the repository in use (this is what the button is for, not a greyed cell); without a repository, the list of them opens.
+        val repo = Aiwa.state.value.status?.repo
+        if (!known && repo == null) {
+            toastOnMain(this, "Choisis d'abord un dépôt.")
+            startActivity(Intent(this, RepoPickerActivity::class.java)); finish(); return
+        }
+        if (!known && repo != null) {
+            toastOnMain(this, "Je crée une session sur ${repo.substringAfter('/')}… elle apparaîtra dans Claude.")
+            val app = applicationContext
+            CoroutineScope(Dispatchers.IO).launch { Aiwa.brain.setRepo(repo); BrainSync.refresh(); AiwaWidget.render(app, force = true) }
+            finish(); return
+        }
         // No session known: the process may have restarted since the widget last drew, so ask the brain which one is current (a session if there is one, else Claude's Code tab).
         CoroutineScope(Dispatchers.Main).launch {
             withContext(Dispatchers.IO) { BrainSync.refresh() }

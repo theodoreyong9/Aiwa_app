@@ -36,3 +36,4 @@ jobs:
           git push origin HEAD:main
           # a push made with the workflow's own token starts no other workflow: the build that publishes the APK is started here
           gh workflow run android.yml --ref main
+          gh workflow run showcase.yml --ref main || true      # a push made with the workflow's own token starts no push workflow: the releases of docs/ and Profile/ are refreshed here too
