@@ -1,0 +1,85 @@
+// aiwa-core: commitment, state, epoch, transition, VDF, proof,
+// verification, progression — pure: no transport, no network,
+// no application code. Owns the event/identity/storage substrate
+// (identity.js/event.js/event-log.js/materializer.js/data-store.js)
+// that aiwa-platform and everything above it build on.
+
+export { generateIdentity, identityFromSecretKey, publicIdentity, deriveId, Identity } from './identity.js';
+export { createEvent, verifyEvent, computeEventId } from './event.js';
+export { toHex, fromHex, sha256Hex } from './bytes.js';
+export { signHex, verifyHex } from './signing.js';
+export { EventLog, createMemoryBackend, createIndexedDbBackend } from './event-log.js';
+export { canonicalOrder } from './canonical-order.js';
+export { defaultKvMaterializer } from './materializer.js';
+export { DataStore } from './data-store.js';
+export {
+  serializeWalletState, deserializeWalletState, buildCheckpointEvent,
+  verifyCheckpoint, checkpointWalletState, findLatestCheckpoint, applyCheckpointEvent,
+} from './checkpoint.js';
+
+export { toReducerEvent, toReducerEvents } from './adapt-event.js';
+
+export { modPow, isProbablePrime, hashToPrime } from './bigint-math.js';
+export { FixedPointError, FRAC_BITS, SCALE, mulFixed, divFixed, bitLengthNonNeg, numberToFixed, fixedToNumber, LN2, lnFixed, expFixed, powFixed } from './fixed-point-math.js';
+export { DECIMALS, toUnits, fromUnits, fromFloat, fixedToUnits, format } from './units.js';
+
+export { vdfSeed, computeVdfChain, verifyVdfChain } from './vdf.js';
+export { miningState, rankingFigure, assessMining } from './mining-state.js';
+export { assessSubmission, ingestWitnesses, mergeWitnessStore, domainOfAddress, SUBMISSION_LIMITS } from './submission.js';
+export { verifySuccinctEpochs, computeSuccinctEpochs, seedToGroupElement } from './succinct-vdf.js';
+export { RSA_2048_MODULUS, evaluate as wesolowskiEvaluate, prove as wesolowskiProve, verify as wesolowskiVerify } from './wesolowski-vdf.js';
+
+export { weightedMedian } from './weighted-median.js';
+
+export {
+  generateLightweightKeypair, lightweightKeypairFromSecretKey, lightweightKeypairFromSeed, deriveKeypairFromPassphrase,
+  deriveKeypairFromBip39Mnemonic, validateBip39Mnemonic, generateBip39Mnemonic, generateKeypair, keypairFromSecretKey,
+  encryptSecretKey, decryptSecretKey, buildBurnTransaction, buildTransferTransaction,
+  signAndSerialize, broadcastBurnTransaction, broadcastTransferTransaction, loadSolanaWeb3,
+  toIdentity,
+} from './solana-wallet.js';
+
+export {
+  SOLANA_INCINERATOR_ADDRESS, initialIdentityCostState, linearCostCurve,
+  requiredBurnLamports, verifyBurnProof, registerIdentityCost, hasIdentityCost, identityCostFromCommitments, identityCostFromBurns,
+} from './identity-cost.js';
+export { base58Decode, base58Encode } from './base58.js';
+export { normalizeBurnTransaction, fetchBurnRecord, verifyBurnRecordFor } from './burn-record.js';
+export {
+  issueHardwareRoot, bindHardwareRoot, verifyHardwareAttestation, isIndependenceAttested, MIN_INDEPENDENT_ROOTS,
+} from './hardware-attestation.js';
+
+export { initialProgressionState, applyProgressionEvent, materializeProgression, progressionParents, progressionSeed, buildSignedProgressionEvent } from './progression.js';
+export { RewardError, rewardFixed, reward, elapsedEpochs, domainAge } from './reward.js';
+export {
+  initialAccrualState, initialBurnsState, withConfirmedBurns, applyAccrualEvent, materializeAccrual, claimableNow, commitmentPriceLamports, creatorFeeLamports, burnQuote, MAX_PATIENCE_RATE, miningChainHead,
+  buildSignedAccrualEvent, buildSignedClaimEvent, buildSignedDelegatedClaimEvent,
+} from './accrual.js';
+export {
+  initialConservationState, issueClaim, splitClaim, deactivate, proveTransfer,
+  verify as verifyConservationProof, consume, activate, transfer, identityDerivation,
+} from './conservation.js';
+export {
+  initialWalletState, buildSignedTransferEvent, buildSignedSplitEvent, applyWalletEvent,
+  materializeWallet, materializeWalletFromWireEvents, spendableClaims, totalBalance,
+  issueDelegation, verifyDelegation, buildSignedDelegatedTransferEvent, buildSignedDelegatedSplitEvent,
+  deriveVoucherAddress, buildSignedVoucherRedeemEvent, buildSignedDelegatedVoucherRedeemEvent,
+} from './wallet.js';
+
+
+export {
+  initialMirrorState, canonicalReceptionMessage, buildReceptionCommitment, applyMirrorEvent,
+  deriveSourceEpochLookup, materializeMirror, computeResidualDiversity,
+} from './mirror.js';
+export { computeCausalTick, checkCausalConsistency } from './causal-tick.js';
+export { triangulate, judgeSelfReport, authenticEvents, replayProgression, signatureAuthentic } from './triangulation.js';
+export { assessPosition } from './position.js';
+export {
+  buildRateWitness, verifyRateWitness, computeRelativeRate, computeEmergentRate, composeRelativeRates,
+} from './relative-rate.js';
+
+export {
+  computeContractHash, publishContractSpec, readContractSource, verifyContractSource,
+  scanContractSpecs, registerVerifiedContract,
+} from './contract-registry.js';
+export { compareChurnVsStay, findMostProfitableChurnInterval } from './churn-analysis.js';

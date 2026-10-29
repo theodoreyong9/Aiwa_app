@@ -1,0 +1,21 @@
+{
+  "name": "aiwa-platform",
+  "version": "0.1.0",
+  "description": "Distributed infrastructure: transport, replication, permissions, and a graph-shaped data store, built on aiwa-core's event/identity substrate.",
+  "type": "module",
+  "license": "MIT",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./archive-server": "./src/archive-server.js"
+  },
+  "bin": {
+    "aiwa-node": "node/aiwa-node.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "dependencies": {
+    "aiwa-core": "^0.1.0"
+  }
+}

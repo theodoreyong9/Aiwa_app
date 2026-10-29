@@ -1,0 +1,136 @@
+import { test } from 'node:test';
+import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
+import { fileURLToPath } from 'node:url';
+import path from 'node:path';
+import { EventLog } from '../src/event-log.js';
+import { generateIdentity } from '../src/identity.js';
+import { createEvent } from '../src/event.js';
+import { computeContractHash, publishContractSpec, verifyContractSource, readContractSource, registerVerifiedContract, scanContractSpecs } from '../src/contract-registry.js';
+import { toReducerEvent } from '../src/adapt-event.js';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const realRewardFormulaSource = readFileSync(path.join(__dirname, '../src/reward.js'), 'utf-8');
+
+test('the identical source always produces the identical hash', async () => {
+  const h1 = await computeContractHash('const x = 1;');
+  const h2 = await computeContractHash('const x = 1;');
+  assert.equal(h1, h2);
+});
+
+test('a single-character difference in source produces a different hash', async () => {
+  const h1 = await computeContractHash('const x = 1;');
+  const h2 = await computeContractHash('const x = 2;');
+  assert.notEqual(h1, h2);
+});
+
+test('THE PUBLISHING PROPERTY: a contract, published against an EventLog, gets a content-addressed event id', async () => {
+  const log = new EventLog();
+  const identity = await generateIdentity();
+  const { specEventId, sourceHash } = await publishContractSpec(identity, log, 'test-domain', {
+    name: 'reward-formula', version: 1, sourceCode: realRewardFormulaSource, description: 'the real Q128 fixed-point reward core',
+  });
+  assert.ok(specEventId, 'a real event id must be produced');
+  assert.equal(sourceHash, await computeContractHash(realRewardFormulaSource));
+});
+
+test('THE VERIFICATION PROPERTY: a correctly-matching source verifies against the already-published spec', async () => {
+  const log = new EventLog();
+  const identity = await generateIdentity();
+  const { specEventId } = await publishContractSpec(identity, log, 'test-domain', { name: 'reward-formula', version: 1, sourceCode: realRewardFormulaSource, description: '' });
+  const specEvent = toReducerEvent(await log.get(specEventId));
+  assert.equal(await verifyContractSource(specEvent, realRewardFormulaSource), true);
+});
+
+test('SECURITY: source that has been altered by even one character fails verification against the already-published spec', async () => {
+  const log = new EventLog();
+  const identity = await generateIdentity();
+  const { specEventId } = await publishContractSpec(identity, log, 'test-domain', { name: 'reward-formula', version: 1, sourceCode: realRewardFormulaSource, description: '' });
+  const specEvent = toReducerEvent(await log.get(specEventId));
+  const tampered = realRewardFormulaSource + '\n// a real, added line, never in the original';
+  assert.equal(await verifyContractSource(specEvent, tampered), false);
+});
+
+test('SECURITY: verification of a non-contract-spec event is refused outright', async () => {
+  const log = new EventLog();
+  const identity = await generateIdentity();
+  const genesisEvent = await createEvent(identity, { domain: 'test-domain', parents: [], type: 'genesis', payload: {} });
+  await log.append(genesisEvent);
+  const otherEvent = toReducerEvent(await log.get(genesisEvent.id));
+  assert.equal(await verifyContractSource(otherEvent, 'anything'), false);
+});
+
+test('THE RETRIEVAL PROPERTY: the source code is recoverable from an already-published event, never just its fingerprint', async () => {
+  const log = new EventLog();
+  const identity = await generateIdentity();
+  const { specEventId } = await publishContractSpec(identity, log, 'test-domain', { name: 'reward-formula', version: 1, sourceCode: realRewardFormulaSource, description: '' });
+  const specEvent = toReducerEvent(await log.get(specEventId));
+  const recovered = readContractSource(specEvent);
+  assert.equal(recovered, realRewardFormulaSource, 'the exact, real, complete source must come back unchanged');
+});
+
+test('readContractSource returns null, never throws, for a non-contract-spec event', () => {
+  const notASpec = { payload: { type: 'genesis' } };
+  assert.equal(readContractSource(notASpec), null);
+});
+
+test('scanContractSpecs finds every published contract-spec event', async () => {
+  const log = new EventLog();
+  const identity = await generateIdentity();
+  await publishContractSpec(identity, log, 'test-domain', { name: 'contract-a', version: 1, sourceCode: 'code-a', description: '' });
+  await publishContractSpec(identity, log, 'test-domain', { name: 'contract-b', version: 1, sourceCode: 'code-b', description: '' });
+  const allIds = await log.backend.allIds();
+  const events = await Promise.all(allIds.map((id) => log.get(id)));
+  const specs = scanContractSpecs(events.map(toReducerEvent));
+  assert.equal(specs.length, 2);
+  assert.deepEqual(specs.map((s) => s.name).sort(), ['contract-a', 'contract-b']);
+});
+
+test('scanContractSpecs ignores non-contract-spec events', async () => {
+  const log = new EventLog();
+  const identity = await generateIdentity();
+  const genesisEvent = await createEvent(identity, { domain: 'test-domain', parents: [], type: 'genesis', payload: {} });
+  await log.append(genesisEvent);
+  const events = [toReducerEvent(await log.get(genesisEvent.id))];
+  assert.equal(scanContractSpecs(events).length, 0);
+});
+
+test('THE STRUCTURAL CLOSE TO CONTRACTID COLLISION: registration succeeds when the current source matches the pinned expected hash', async () => {
+  const realHash = await computeContractHash(realRewardFormulaSource);
+  const fakeVerifier = () => 'this would be the real, trusted verifyPayout';
+  const registry = await registerVerifiedContract({}, {
+    contractId: 'aiwa-reward-formula-v1', sourceCode: realRewardFormulaSource, expectedHash: realHash, verifyPayoutFn: fakeVerifier,
+  });
+  assert.equal(registry['aiwa-reward-formula-v1'], fakeVerifier);
+});
+
+test('SECURITY, THE EXACT ATTACK JUST DEMONSTRATED, NOW CLOSED: a different, malicious source claiming a trusted contractId is refused outright — a name alone can never pass this check', async () => {
+  const realHash = await computeContractHash(realRewardFormulaSource);
+  const maliciousSource = 'export function verifyPayout() { return { claimId: "steal-everything" }; }'; // a different, malicious module
+  const maliciousVerifier = () => ({ claimId: 'steal-everything' });
+
+  await assert.rejects(
+    registerVerifiedContract({}, {
+      contractId: 'aiwa-reward-formula-v1', // the trusted name, claimed by an impostor
+      sourceCode: maliciousSource, // but different source
+      expectedHash: realHash, // the pinned hash of the contract
+      verifyPayoutFn: maliciousVerifier,
+    }),
+    /does not match the expected, pinned/,
+    'a real, different source must never be registered under a trusted name, no matter what it claims to be'
+  );
+});
+
+test('SECURITY: a mismatch never leaves a partial or silent registration — the existing registry is unchanged', async () => {
+  const existingRegistry = { 'some-other-real-contract-v1': () => 'unrelated' };
+  const realHash = await computeContractHash(realRewardFormulaSource);
+  try {
+    await registerVerifiedContract(existingRegistry, {
+      contractId: 'aiwa-reward-formula-v1', sourceCode: 'not the real source at all', expectedHash: realHash, verifyPayoutFn: () => {},
+    });
+    assert.fail('must have thrown');
+  } catch {
+    // expected
+  }
+  assert.deepEqual(Object.keys(existingRegistry), ['some-other-real-contract-v1'], 'the real, pre-existing registry must never be mutated by a failed real registration attempt');
+});

@@ -1,0 +1,42 @@
+{
+  "name": "Aiwa",
+  "version": 1,
+  "repository": "theodoreyong9/Aiwa_app",
+  "cluster": "devnet",
+  "rpc": "https://api.devnet.solana.com",
+  "github": {
+    "clientId": "Ov23liFW2Lx7ja8xoYi4"
+  },
+  "progress": {
+    "eventMs": 30000
+  },
+  "nearby": {
+    "iceServers": [
+      {
+        "urls": "stun:stun.l.google.com:19302"
+      },
+      {
+        "urls": [
+          "turn:openrelay.metered.ca:80",
+          "turn:openrelay.metered.ca:443",
+          "turn:openrelay.metered.ca:443?transport=tcp",
+          "turns:openrelay.metered.ca:443?transport=tcp"
+        ],
+        "username": "openrelayproject",
+        "credential": "openrelayproject"
+      }
+    ]
+  },
+  "rewardParams": {
+    "alpha": 1.1,
+    "beta": 2.2,
+    "gamma": 3,
+    "C": 35937,
+    "minQ": 1,
+    "epochIterations": 100000
+  },
+  "creatorFee": {
+    "address": "GABatPZGUZbURx1FfvS3YBFkqjUWxMNCgze2b4NqvWEp",
+    "rateOfT": 0.001
+  }
+}

@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#10132e">
+<title>Aiwa · Wallet</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-page="wallet">
+<main>
+  <section class="card" id="welcome" hidden>
+    <h2>Ton wallet</h2>
+    <p class="muted">Un appui le crée. Il vit sur ce téléphone. Ses 12 mots te sont montrés une fois : sur un autre téléphone, ils sont le seul chemin de retour.</p>
+    <button id="btn-create" class="primary wide">Créer mon wallet</button>
+    <details class="plain">
+      <summary>J'ai déjà une phrase</summary>
+      <input id="mnemonic" type="text" placeholder="Les 12 mots" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Phrase de récupération">
+      <button id="btn-restore" class="wide">Utiliser cette phrase</button>
+    </details>
+    <div id="connect-error" class="error"></div>
+  </section>
+
+  <div id="wallet" hidden>
+    <section class="card notice" id="phrase-notice" hidden>
+      <h2>Écris tes 12 mots</h2>
+      <p class="muted">Ils sont ton wallet. Si ce téléphone est perdu, c'est le seul moyen de le retrouver ; celui qui les a, a ton wallet.</p>
+      <code class="phrase" id="phrase-words"></code>
+      <button id="btn-phrase-done" class="wide">Je les ai écrits</button>
+    </section>
+
+    <section class="card hero">
+      <div class="label">Dépensable</div>
+      <div class="num" id="out-spendable">—</div>
+      <div class="head">
+        <span class="sub">À réclamer <b id="out-claimable">—</b> · Total <span id="out-balance">—</span></span>
+        <button id="btn-claim" class="light">Claim</button>
+      </div>
+      <div class="sub" id="out-mining">Pas encore de burn</div>
+      <div class="sub" id="restore-note" hidden></div>
+    </section>
+
+    <section class="card">
+      <div class="head"><h2>Burn</h2><span class="chip"><span id="out-sol-balance">— SOL</span><button id="btn-refresh-sol" class="icon" title="Actualiser" aria-label="Actualiser le solde SOL">↻</button></span></div>
+      <div class="line">
+        <input id="burn-amount" type="number" step="0.001" min="0" inputmode="decimal" placeholder="SOL à brûler" aria-label="SOL à brûler">
+        <input id="burn-t" class="narrow" type="number" step="1" min="0" max="40" inputmode="numeric" placeholder="Taux T %" aria-label="Taux de patience T, en pour cent, de 0 à 40">
+        <button id="btn-burn" class="primary">Burn</button>
+      </div>
+      <div id="burn-preview" class="muted"></div>
+      <div id="burn-result" class="muted"></div>
+      <button id="btn-faucet" type="button" class="light" hidden>Demander 1 SOL de test</button>
+    </section>
+
+    <details class="card" id="history-section">
+      <summary>Historique</summary>
+      <div id="history-list"><p class="hint">Rien pour l'instant.</p></div>
+    </details>
+
+    <details class="card" id="phrase-section">
+      <summary>Phrase de récupération</summary>
+      <p class="muted" id="recovery-where"></p>
+      <button id="btn-show-phrase" class="wide">Voir mes 12 mots</button>
+      <code class="phrase" id="out-phrase" hidden></code>
+      <input id="replace-phrase" type="text" placeholder="Une autre phrase, pour l'utiliser sur ce téléphone à la place" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Une autre phrase">
+      <button id="btn-replace" class="wide">Utiliser cette phrase</button>
+      <p class="error" id="replace-confirm" hidden>Ce téléphone oublie son wallet actuel. Si ses 12 mots ne sont pas écrits, il est perdu. Appuie encore pour confirmer.</p>
+      <div id="replace-result" class="error"></div>
+    </details>
+  </div>
+</main>
+<script type="module" src="wallet.js"></script>
+</body>
+</html>

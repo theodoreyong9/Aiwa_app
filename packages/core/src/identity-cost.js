@@ -1,0 +1,116 @@
+// Identity activation cost: an irrecoverable SOL burn to Solana's
+// well-known incinerator address. A burn, not a bond: its protection
+// doesn't depend on later enforcement (slashing) ever propagating,
+// which matters for a protocol that must keep working through
+// arbitrarily long partitions.
+//
+// This module verifies an already-fetched, normalized transaction
+// record — it never touches the network itself.
+
+export const SOLANA_INCINERATOR_ADDRESS = '1nc1nerator11111111111111111111111111111111';
+
+export function initialIdentityCostState() {
+  return { registered: {}, usedSignatures: {} };
+}
+
+// A deployment-chosen cost curve: burn lamports required as a function
+// of slots elapsed since the deployment's own genesis slot. Optional —
+// closes a churn attack where abandoning an aged domain for a fresh
+// one would otherwise cost nothing beyond the ordinary burn.
+export function linearCostCurve({ baseLamports, lamportsPerSlot }) {
+  return (slotsSinceGenesis) => baseLamports + Math.max(0, slotsSinceGenesis) * lamportsPerSlot;
+}
+
+export function requiredBurnLamports(registrationSlot, genesisSlot, costCurve) {
+  if (registrationSlot === null || registrationSlot === undefined || !Number.isFinite(registrationSlot)) return 0;
+  return costCurve(Math.max(0, registrationSlot - genesisSlot));
+}
+
+export function verifyBurnProof(tx, { minLamports = 0 } = {}) {
+  if (tx.err !== null) return { valid: false, reason: 'transaction failed on-chain' };
+  if (tx.commitment !== 'finalized') return { valid: false, reason: `commitment is '${tx.commitment}', not 'finalized'` };
+  if (!Number.isFinite(tx.incineratorBalanceDeltaLamports) || tx.incineratorBalanceDeltaLamports <= 0) {
+    return { valid: false, reason: 'no positive burn detected' };
+  }
+  if (tx.incineratorBalanceDeltaLamports < minLamports) {
+    return { valid: false, reason: `burned ${tx.incineratorBalanceDeltaLamports} lamports, need >= ${minLamports}` };
+  }
+  return { valid: true };
+}
+
+// Accumulates every valid burn from a domain — a domain that
+// commits additional capital later must see its total
+// committed capital reflected, exactly like accrual.js's own `b`
+// already does. Each individual burn is still checked against the
+// churn cost curve at its own slot — a commitment made
+// later in protocol time must still meet whatever the curve requires
+// at that later time, never grandfathered in at the original
+// registration's own, possibly much lower, requirement.
+export function registerIdentityCost(state, { domain, tx, minLamports = 0, now = Date.now(), churnConfig } = {}) {
+  if (state.usedSignatures[tx.signature]) {
+    return { state, accepted: false, reason: `signature ${tx.signature} already used` };
+  }
+
+  let effectiveMinLamports = minLamports;
+  if (churnConfig) {
+    const required = requiredBurnLamports(tx.slot ?? null, churnConfig.genesisSlot, churnConfig.costCurve);
+    effectiveMinLamports = Math.max(minLamports, required);
+  }
+
+  const check = verifyBurnProof(tx, { minLamports: effectiveMinLamports });
+  if (!check.valid) return { state, accepted: false, reason: check.reason };
+
+  const prior = state.registered[domain];
+  const totalBurnedLamports = (prior?.burnedLamports ?? 0) + tx.incineratorBalanceDeltaLamports;
+  return {
+    state: {
+      registered: {
+        ...state.registered,
+        [domain]: {
+          domain,
+          burnedLamports: totalBurnedLamports,
+          signature: tx.signature, // the most recent contributing signature — every signature that ever contributed remains individually verifiable via usedSignatures
+          registeredAt: prior?.registeredAt ?? now, // when this domain FIRST proved identity cost — never moves on a later, additional burn
+          slot: prior?.slot ?? (tx.slot ?? null), // the same original registration slot
+        },
+      },
+      usedSignatures: { ...state.usedSignatures, [tx.signature]: true },
+    },
+    accepted: true,
+  };
+}
+
+export function hasIdentityCost(state, domain) {
+  return Boolean(state.registered[domain]);
+}
+
+/**
+ * The state `computeCausalTick` reads, built from COMMITTED CAPITAL instead of from burn proofs: the yellow paper
+ * weights a witness by its `b` (§19.1: w_i = b_i, §9), and `b` is what each domain signed into its own position
+ * (accrual.js — the reducer has already checked the signature, the domain binding and the nonce). `positions` is
+ * accrual state's `positions`: { [domain]: { b } }, b in whole units (SOL, as AIWA.burn() records it); the result
+ * is in lamports, which is what the causal tick reads.
+ * HONEST LIMIT: `b` is the domain's own signed statement. Nothing here checks it against a Solana burn — that is
+ * verifyBurnProof / registerIdentityCost's job, when a reader has the transaction record.
+ */
+export function identityCostFromCommitments(positions, { lamportsPerUnit = 1_000_000_000 } = {}) {
+  const registered = {};
+  for (const [domain, position] of Object.entries(positions ?? {})) {
+    const lamports = Math.round((position?.b ?? 0) * lamportsPerUnit);
+    if (lamports > 0) registered[domain] = { domain, burnedLamports: lamports, signature: null, registeredAt: null, slot: null };
+  }
+  return { registered, usedSignatures: {} };
+}
+
+/**
+ * The same state, built from burns THIS READER CONFIRMED (accrual state's `burns`: what 'burn-record' events
+ * pointed at and the reader's own fetch from Solana bore out). This is the certified form of the witness weight;
+ * identityCostFromCommitments is the weaker one, for deployments that opted out of backed commitments.
+ */
+export function identityCostFromBurns(burns) {
+  const registered = {};
+  for (const [domain, lamports] of Object.entries(burns?.covered ?? {})) {
+    if (lamports > 0) registered[domain] = { domain, burnedLamports: lamports, signature: null, registeredAt: null, slot: null };
+  }
+  return { registered, usedSignatures: { ...(burns?.used ?? {}) } };
+}

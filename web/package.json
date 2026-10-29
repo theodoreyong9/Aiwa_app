@@ -1,0 +1,23 @@
+{
+  "name": "aiwa-app-web",
+  "version": "0.1.0",
+  "private": true,
+  "description": "What runs in the application's WebView: the wallet, « Voir », the chamber, and the home runtime.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.98.0",
+    "@trystero-p2p/nostr": "0.25.4",
+    "aiwa-core": "^0.1.0",
+    "aiwa-lib": "^0.1.0",
+    "jsqr": "^1.4.0",
+    "qrcode": "^1.5.4"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.12"
+  }
+}

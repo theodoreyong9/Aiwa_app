@@ -1,0 +1,10 @@
+{
+  "name": "Aiwa",
+  "short_name": "Aiwa",
+  "description": "Un assistant qui vit sur le téléphone, parle à Claude, et fait des documents, des images, des vidéos, des apps et des pages, à la voix.",
+  "start_url": "./wallet.html",
+  "display": "standalone",
+  "background_color": "#10132e",
+  "theme_color": "#10132e",
+  "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }, { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" }]
+}

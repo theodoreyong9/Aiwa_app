@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Aiwa</title>
+<style>
+/* L'accueil d'Aiwa pour quelqu'un qui n'a pas encore de profil : tous les boutons, et un mot qui dit comment faire sa propre page (qui remplacera celle-ci). */
+:root{color-scheme:dark;--ink:#f6f6ff;--dim:#aeb3e8;--acc:#52d6a0;--blue:#6b9bf5;--violet:#a77bd6;--mono:ui-monospace,Menlo,Consolas,monospace}
+*{box-sizing:border-box}html,body{margin:0;min-height:100%;overflow-x:hidden}
+body{background:radial-gradient(80% 55% at 70% 20%,#2b2170,transparent 70%),radial-gradient(70% 50% at 10% 90%,#0d4a55,transparent 70%),#06081a;color:var(--ink);font:16px/1.4 system-ui,-apple-system,sans-serif}
+.stage{min-height:100svh;display:grid;grid-template-rows:auto 1fr auto;gap:12px;padding:max(14px,env(safe-area-inset-top)) 16px 16px;min-width:0}
+.bar{font:12px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--dim)}
+h1{margin:0;align-self:center;font-weight:900;font-size:clamp(64px,22vw,200px);letter-spacing:-.05em;line-height:.85}
+p{margin:6px 0 0;max-width:28em;color:#d7dbff;font-size:clamp(14px,3.6vw,18px)}
+.info{display:grid;gap:12px;min-width:0}
+/* les boutons d'Aiwa : l'application les met dans les emplacements ; ici ils prennent la taille des cellules du widget */
+.desk{display:grid;gap:6px;min-width:0}
+.desk [data-aiwa-button]{display:block}
+.desk .aiwa-btn{--c:var(--violet);all:unset;box-sizing:border-box;width:100%;position:relative;display:flex;align-items:center;justify-content:center;gap:10px;min-height:60px;padding:8px 14px 8px 20px;cursor:pointer;color:var(--ink);font-size:clamp(15px,4.2vw,20px);font-weight:800;text-transform:uppercase;
+  background:linear-gradient(180deg,rgba(255,255,255,.24),rgba(255,255,255,.05));backdrop-filter:blur(8px);clip-path:polygon(12px 0,100% 0,calc(100% - 12px) 100%,0 100%);-webkit-tap-highlight-color:transparent}
+.desk .aiwa-btn::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,color-mix(in srgb,var(--c) 62%,transparent),transparent 92%)}
+.desk .aiwa-btn svg{width:1.4em;height:1.4em;flex:none}
+</style></head><body>
+<main class="stage">
+  <div class="bar">Aiwa · accueil</div>
+  <div><h1>Aiwa</h1><p>__WORD__</p></div>
+  <section class="info desk" aria-label="Aiwa"><span data-aiwa-button="widget"></span></section>
+</main></body></html>

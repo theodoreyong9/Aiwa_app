@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#10132e">
+<title>Aiwa · Voir</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-page="voir">
+<main>
+  <section class="card">
+    <h2 id="voir-title">Voir</h2>
+    <p class="muted" id="voir-status">…</p>
+    <p class="muted" id="voir-mine"></p>
+  </section>
+  <section class="card" id="voir-lien" hidden>
+    <h3>Voir par lien</h3>
+    <p class="muted">Le nom GitHub et le dépôt suffisent : tu vois ses fichiers (docs, médias, app, page) et tu peux le garder en favori.</p>
+    <input id="voir-owner" type="text" autocapitalize="off" autocomplete="off" spellcheck="false" placeholder="Nom GitHub (ex. theodoreyong9)">
+    <input id="voir-repo" type="text" autocapitalize="off" autocomplete="off" spellcheck="false" placeholder="Dépôt (ex. Aiwa_app)">
+    <button type="button" id="voir-go" class="primary">Voir</button>
+  </section>
+  <section class="card" id="voir-qr" hidden>
+    <h3>Par QR code</h3>
+    <p class="muted" id="voir-qr-note">Montre ce code : la personne en face scanne et voit tes fichiers.</p>
+    <div id="voir-qr-draw"></div>
+    <video id="voir-scan" hidden playsinline muted></video>
+    <button type="button" id="voir-scan-btn">Scanner un code</button>
+  </section>
+  <section class="card" id="voir-result" hidden>
+    <h3>Résultat</h3>
+    <ul id="voir-result-list" class="voir-list"></ul>
+  </section>
+  <section class="card" id="voir-list-card" hidden>
+    <h3 id="voir-list-title">Autour de toi</h3>
+    <ul id="voir-list" class="voir-strip"></ul>
+    <p class="muted" id="voir-empty"></p>
+    <div id="voir-filters" class="voir-filters" hidden>
+      <label>Portée : <b id="voir-dist-label">50 m</b>
+        <input id="voir-dist" type="range" min="0" max="7" step="1" value="0" aria-label="Distance, de 50 mètres au monde">
+      </label>
+    </div>
+  </section>
+</main>
+<script type="module" src="voir.js"></script>
+</body>
+</html>
