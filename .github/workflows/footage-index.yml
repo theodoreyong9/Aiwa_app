@@ -34,4 +34,4 @@ jobs:
         run: |
           git config user.name "aiwa-index"; git config user.email "aiwa-index@users.noreply.github.com"
           git add skills/kit/asset-research/catalog/footage.jsonl
-          git diff --cached --quiet && echo "nothing new" || (git commit -m "Footage index: new clips" && git push)
+          git diff --cached --quiet && echo "nothing new" || (git commit -m "Footage index: new clips" && git pull --rebase origin main && git push)

@@ -52,4 +52,4 @@ jobs:
           git config user.name "design-research"
           git config user.email "actions@users.noreply.github.com"
           git add -A skills/kit/design-research
-          git diff --cached --quiet || (git commit -m "Design catalogue: weekly sync" && git push)
+          git diff --cached --quiet || (git commit -m "Design catalogue: weekly sync" && git pull --rebase origin main && git push)
