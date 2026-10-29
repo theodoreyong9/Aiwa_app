@@ -42,7 +42,7 @@ object ProfileSettings {
     }
 }
 
-/** The coffee button on the profiles one visits works when the wallet is connected (its 12 words are kept on this phone): no other switch. */
+/** The coffee button on the profiles one visits works when the wallet is connected: the wallet has derived its address from the 12 words and left it here (it does so at each start). No other switch. */
 object CoffeeSettings {
-    fun walletConnected(context: Context): Boolean = !com.aiwa.app.web.SecretStore(context).get("phrase").isNullOrEmpty()
+    fun walletConnected(context: Context): Boolean = !com.aiwa.app.web.SecretStore(context).get("address").isNullOrEmpty()
 }

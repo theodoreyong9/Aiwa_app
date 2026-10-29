@@ -11,6 +11,7 @@ import { config } from './config.js';
 import { loadSecret, saveSecret } from './keys.js';
 
 const PHRASE = 'phrase';
+const ADDRESS = 'address';      // the public address the phrase gave: the phone's own code reads it to know that a wallet is really connected
 
 // @solana/web3.js is part of this app (a separate chunk, loaded when a burn or a balance needs it): aiwa-core looks
 // for it on window.solanaWeb3 before it would fetch it from a CDN.
@@ -36,6 +37,7 @@ export async function startWallet({ mnemonic } = {}) {
   const aiwa = new AIWA({ rewardParams: config.rewardParams, dbName: `aiwa-wallet-${keypair.publicKey.toBase58().slice(0, 12)}` });
   await aiwa.connect({ mnemonic: phrase });
   await saveSecret(PHRASE, phrase);
+  await saveSecret(ADDRESS, keypair.publicKey.toBase58());
   // Burns that arrive with other domains' events are confirmed against Solana by themselves once the wallet has a
   // connection. Never blocks: offline, it just stays unset.
   solanaConnection().then((connection) => { aiwa.connection = connection; }).catch(() => {});
