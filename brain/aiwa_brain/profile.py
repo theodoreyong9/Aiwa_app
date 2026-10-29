@@ -1,4 +1,5 @@
 """The person's profile: the repository whose `Profile/` folder is her page (the page itself is the work of a session), and the check of what falls short."""
+import hashlib
 import json
 import re
 import urllib.request
@@ -38,6 +39,33 @@ def publish_pub(pub):
     except github.GithubError as err:
         return {"ok": False, "error": str(err)}
     data["pub_sent"] = mark
+    profile_lib.PROFILE_FILE.write_text(json.dumps(data), encoding="utf-8")
+    return {"ok": True}
+
+
+def publish_contracts(events):
+    """Leaves the person's own `contract-spec` events in `Profile/aiwa-contracts.json` (public, each event signed: whoever reads it checks them), once for the same content."""
+    repo = profile_lib.repo()
+    if not repo:
+        return {"ok": False, "error": "pas de dépôt de profil"}
+    if not isinstance(events, list) or not events or len(events) > 200:
+        return {"ok": False, "error": "rien à publier"}
+    clean = [e for e in events if isinstance(e, dict) and e.get("type") == "contract-spec" and isinstance(e.get("author"), str) and isinstance(e.get("payload"), dict)]
+    creators = {e["author"] for e in clean}
+    if not clean or len(creators) != 1:
+        return {"ok": False, "error": "des contrats d'une seule personne"}
+    raw = json.dumps({"v": 1, "creator": creators.pop(), "events": clean}, sort_keys=True, separators=(",", ":")).encode()
+    if len(raw) > 400_000:
+        return {"ok": False, "error": "trop gros"}
+    data = profile_lib.load()
+    mark = f"{repo.lower()}:{hashlib.sha256(raw).hexdigest()}"
+    if data.get("contracts_sent") == mark:
+        return {"ok": True, "unchanged": True}
+    try:
+        github.put_file(repo, f"{profile_lib.FOLDER}/aiwa-contracts.json", raw, "Aiwa : mes contrats (événements signés)")
+    except github.GithubError as err:
+        return {"ok": False, "error": str(err)}
+    data["contracts_sent"] = mark
     profile_lib.PROFILE_FILE.write_text(json.dumps(data), encoding="utf-8")
     return {"ok": True}
 
