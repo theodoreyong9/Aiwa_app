@@ -39,9 +39,10 @@ class RepoSessionActivity : FloatActivity() {
         val list = sessions
         if (list == null) { note("Je cherche les sessions…"); return }
         val current = Aiwa.state.value.status?.session
-        val mine = list.filter { it.repo.equals(repo, ignoreCase = true) }
+        // the sessions of this repository, and those made before a repository was known (they have none noted): the one in use is always there, first
+        val mine = list.filter { it.repo.equals(repo, ignoreCase = true) || it.repo.isNullOrBlank() || it.id == current }.sortedByDescending { it.id == current }
         if (mine.isEmpty()) note("Aucune session sur ce dépôt pour l'instant.")
-        for (s in mine) entry((if (s.id == current) "● " else "○ ") + s.title, if (s.id == current) "en cours" else "Touche pour en faire la session en cours", if (s.id == current) Palette.CARD else Palette.CARD) {
+        for (s in mine) entry((if (s.id == current) "● " else "○ ") + s.title, if (s.id == current) "en cours" else if (s.repo.isNullOrBlank()) "dépôt non noté · touche pour en faire la session en cours" else "Touche pour en faire la session en cours", Palette.CARD) {
             act("Session : ${s.title}") { Aiwa.brain.select(s.id) }
         }
         entry("＋ Nouvelle session", "Je la crée tout de suite sur ce dépôt") { act("Je crée une session sur ${repo.substringAfter('/')}…") { Aiwa.brain.newSession(repo) } }

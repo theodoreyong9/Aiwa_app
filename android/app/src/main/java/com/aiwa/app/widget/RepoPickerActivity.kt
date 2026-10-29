@@ -4,8 +4,6 @@ import android.os.Bundle
 import com.aiwa.app.brain.Aiwa
 import com.aiwa.app.brain.ensureBrain
 import com.aiwa.app.common.FloatActivity
-import com.aiwa.app.common.clipboardText
-import com.aiwa.app.common.toastOnMain
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -30,12 +28,6 @@ class RepoPickerActivity : FloatActivity() {
         val list = repos
         if (list == null) { note("Je cherche tes dépôts…"); return }
         list.take(30).forEach { name -> entry(name, null, if (chosen == name) com.aiwa.app.common.Palette.GREEN else com.aiwa.app.common.Palette.CARD) { pick(name) } }
-        entry("Un autre dépôt", "copie son lien GitHub, puis touche ici") {
-            val text = clipboardText(this)?.trim().orEmpty()
-            val repo = Regex("github\\.com[/:]([A-Za-z0-9_.-]+)/([A-Za-z0-9_.-]+?)(?:\\.git)?(?:[/?#\\s]|$)").find(text)?.let { it.groupValues[1] + "/" + it.groupValues[2] }
-                ?: text.takeIf { Regex("[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+").matches(it) }
-            if (repo == null) toastOnMain(this, "Copie d'abord le lien du dépôt (github.com/…/…).") else pick(repo)
-        }
     }
 
     private fun pick(scope: String) { FilesScope.set(this, scope); com.aiwa.app.files.FilesWatch.refreshNow(applicationContext); finish() }
