@@ -31,6 +31,7 @@ object CellModels {
         out["agent"] = when {
             snap.link == Link.MISSING -> CellModel("Installation manquante", "red")
             needsSetup -> CellModel("Autoriser Aiwa", "red")
+            status?.claudeLogin == "needed" -> CellModel("Connecter Claude", "red")
             agentNeeds -> CellModel("Il a quelque chose à dire", "red", on = true)
             snap.agentOpen -> CellModel("Super agent · à l'écoute", "green", on = true)
             snap.link == Link.DOWN || snap.link == Link.STARTING -> CellModel("Cerveau en route…", "grey")

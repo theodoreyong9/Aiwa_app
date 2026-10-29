@@ -120,6 +120,7 @@ object AiwaWidget {
         val robotTarget: Class<*> = when {
             snap.link == Link.MISSING -> com.aiwa.app.brain.InstallHelpActivity::class.java
             needsSetup -> com.aiwa.app.brain.SetupActivity::class.java
+            status?.claudeLogin == "needed" -> com.aiwa.app.settings.ClaudeLoginActivity::class.java
             else -> AgentToggleActivity::class.java
         }
         val hasSession = snap.sessionId != null || status?.lastSession != null
