@@ -102,7 +102,9 @@ class Routes(unittest.TestCase):
         self.assertFalse(self.post("/api/llm/key", {"key": "pas une clé"})["ok"])
         self.assertFalse(self.post("/api/github/token", {"token": "trop court"})["ok"])
         token = "ghp_" + "a" * 36
-        self.assertTrue(self.post("/api/github/token", {"token": token})["github_token"])
+        with unittest.mock.patch("aiwa_brain.github.api", return_value={"login": "me"}):
+            out = self.post("/api/github/token", {"token": token})
+        self.assertEqual((out["github_token"], out["user"]), (True, "me"))
         self.assertFalse(self.post("/api/github/token", {"clear": True})["github_token"])
 
     def test_push_mode_is_an_option_and_the_model_is_checked(self):
