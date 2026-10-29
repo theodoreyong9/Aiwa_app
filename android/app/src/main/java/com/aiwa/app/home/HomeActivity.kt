@@ -51,7 +51,16 @@ class HomeActivity : ComponentActivity() {
         }
         HomeRuntime.attach(web, true) { ProfileSettings.repo(this) }
         val root = FrameLayout(this).apply { setBackgroundColor(Color.parseColor("#10132E")) }
-        root.addView(web, FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT))
+        root.addView(web, FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT).apply { bottomMargin = (64 * resources.displayMetrics.density).toInt() })
+        // her page is the profile and nothing else; the keys under it are the application's: the matches around her, her room, her wallet (the coffees she is offered), the wall of those who offered, the widget
+        val bar = ProfileBar.build(this, listOf(
+            "Match" to { startActivity(Intent(this, com.aiwa.app.web.WebActivity::class.java).putExtra(com.aiwa.app.web.WebActivity.EXTRA_PAGE, "voir").putExtra(com.aiwa.app.web.WebActivity.EXTRA_MODE, "proche")) },
+            "Chambre" to { startActivity(Intent(this, com.aiwa.app.chamber.ChamberActivity::class.java)) },
+            "☕" to { com.aiwa.app.web.WebActivity.wallet(this) },
+            "Mur" to { com.aiwa.app.web.WebActivity.wall(this) },
+            "Widget" to { HomeRuntime.openPanel(web) },
+        ))
+        root.addView(bar, FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT, android.view.Gravity.BOTTOM))
         setContentView(root)
         ViewCompat.setOnApplyWindowInsetsListener(root) { view, insets ->
             val bars = insets.getInsets(WindowInsetsCompat.Type.systemBars())

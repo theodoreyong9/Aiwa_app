@@ -57,6 +57,8 @@ function row({ badge, label, detail, when }) {
   return el;
 }
 
+let wallMode = false;       // « le mur »: only what others sent (the donors), under the title of the wall
+
 async function renderHistory() {
   const aiwa = session.aiwa;
   if (!aiwa || !aiwa.identity || !$('history-section').open) return;
@@ -74,12 +76,13 @@ async function renderHistory() {
     else if (event.type === 'claim' && p.domain === myId) rows.push({ badge: 'claim', label: 'Réclamé', detail: `${p.amount} AIWA`, when: event.createdAt });
     else if (event.type === 'transfer' && (p.from === myId || p.to === myId)) {
       const out = p.from === myId;
+      if (wallMode && out) continue;
       rows.push({ badge: out ? 'sent' : 'received', label: out ? 'Envoyé' : 'Reçu', detail: `${amountFor(p.claimId)} AIWA ${out ? 'à ' + short(p.to) : 'de ' + short(p.from)}`, when: event.createdAt });
     }
   }
   const list = $('history-list');
   list.replaceChildren();
-  if (rows.length === 0) { const hint = document.createElement('p'); hint.className = 'hint'; hint.textContent = 'Rien pour l\'instant.'; list.append(hint); return; }
+  if (rows.length === 0) { const hint = document.createElement('p'); hint.className = 'hint'; hint.textContent = wallMode ? 'Personne ne t\'a encore offert de café.' : 'Rien pour l\'instant.'; list.append(hint); return; }
   for (const r of rows) list.append(row(r));
 }
 
@@ -174,6 +177,8 @@ async function show(aiwa) {
 }
 
 export async function initWalletPage(params) {
+  wallMode = params.get('wall') === '1';
+  if (wallMode) { $('history-section').open = true; $('history-section').querySelector('summary').textContent = 'Mur des donateurs'; }
   $('btn-create').addEventListener('click', () => switchWallet(undefined, $('connect-error')));
   $('btn-restore').addEventListener('click', () => {
     const mnemonic = $('mnemonic').value.trim();
