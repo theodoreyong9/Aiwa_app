@@ -23,7 +23,7 @@ object ProfileBar {
         fun available(on: Boolean) { view.alpha = if (on) 1f else .4f }
     }
 
-    class Bar(val view: LinearLayout, val keys: List<Key>)
+    class Bar(val view: LinearLayout, val keys: List<Key>, val named: Map<String, Key> = emptyMap())
 
     val VIOLET = Color.parseColor("#A77BD6")
     val BLUE = Color.parseColor("#6B9BF5")
@@ -33,7 +33,8 @@ object ProfileBar {
 
     fun height(activity: Activity) = activity.dp(78)
 
-    fun build(activity: Activity, specs: List<Spec>): Bar {
+    /** `ids`: the name of each key (parallel to `specs`, "" for one that has none), so that the activity finds its keys by name whatever the order is. */
+    fun build(activity: Activity, specs: List<Spec>, ids: List<String> = emptyList()): Bar {
         val bar = LinearLayout(activity).apply {
             orientation = LinearLayout.HORIZONTAL; setPadding(activity.dp(10), activity.dp(8), activity.dp(10), activity.dp(10))
             background = GradientDrawable(GradientDrawable.Orientation.TOP_BOTTOM, intArrayOf(0x0010132E, 0xE610132E.toInt()))
@@ -53,6 +54,6 @@ object ProfileBar {
             bar.addView(cell, LinearLayout.LayoutParams(0, ViewGroup.LayoutParams.WRAP_CONTENT, 1f).apply { setMargins(activity.dp(3), 0, activity.dp(3), 0) })
             Key(cell, label)
         }
-        return Bar(bar, keys)
+        return Bar(bar, keys, ids.zip(keys).filter { it.first.isNotEmpty() }.toMap())
     }
 }

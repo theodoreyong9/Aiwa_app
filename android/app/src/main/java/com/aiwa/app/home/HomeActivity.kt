@@ -53,16 +53,9 @@ class HomeActivity : ComponentActivity() {
         val root = FrameLayout(this).apply { setBackgroundColor(Color.parseColor("#10132E")) }
         root.addView(web, FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT).apply { bottomMargin = ProfileBar.height(this@HomeActivity) })
         // her page is the profile and nothing else; the keys under it are the application's: the matches around her, her room, her wallet (the coffees she is offered), the wall of those who offered, the widget
-        val bar = ProfileBar.build(this, listOf(
-            ProfileBar.Spec("🤝", "Match", ProfileBar.VIOLET) { com.aiwa.app.common.toastOnMain(this, "Le match se fait sur le profil d'une autre personne : ouvre-en un depuis Voir.") },
-            ProfileBar.Spec("🚪", "Chambre", ProfileBar.BLUE) { startActivity(Intent(this, com.aiwa.app.chamber.ChamberActivity::class.java)) },
-            ProfileBar.Spec("☕", "Café", ProfileBar.GOLD) { com.aiwa.app.common.toastOnMain(this, "Le café s'offre à quelqu'un d'autre : ouvre son profil depuis Voir.") },
-            ProfileBar.Spec("📍", "Zone", ProfileBar.VIOLET) { com.aiwa.app.web.WebActivity.zone(this) },
-            ProfileBar.Spec("🏆", "Mur", ProfileBar.GREEN) { com.aiwa.app.web.WebActivity.wall(this) },
-            ProfileBar.Spec("✦", "Widget", ProfileBar.WHITE) { HomeRuntime.openPanel(web) },
-        ))
-        bar.keys[0].available(false); bar.keys[2].available(false)   // nobody to match or to offer a coffee to on her own page: they say so instead of opening something else
-        root.addView(bar.view, FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT, android.view.Gravity.BOTTOM))
+        this.root = root
+        applyBar(BarConfig.last)
+        loadBar(null)
         setContentView(root)
         ViewCompat.setOnApplyWindowInsetsListener(root) { view, insets ->
             val bars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
@@ -90,13 +83,38 @@ class HomeActivity : ComponentActivity() {
         ProfileView.load(web, ProfileSettings.repo(this), own = true)
     }
 
+    private lateinit var root: FrameLayout
+    private var barView: android.view.View? = null
+
+    /** The keys the application has on her own page (nobody to match or to offer a coffee to here: those two say so instead of opening something else). */
+    private fun builtinKeys() = linkedMapOf(
+        "match" to ProfileBar.Spec("🤝", "Match", ProfileBar.VIOLET) { com.aiwa.app.common.toastOnMain(this, "Le match se fait sur le profil d'une autre personne : ouvre-en un depuis Voir.") },
+        "chambre" to ProfileBar.Spec("🚪", "Chambre", ProfileBar.BLUE) { startActivity(Intent(this, com.aiwa.app.chamber.ChamberActivity::class.java)) },
+        "cafe" to ProfileBar.Spec("☕", "Café", ProfileBar.GOLD) { com.aiwa.app.common.toastOnMain(this, "Le café s'offre à quelqu'un d'autre : ouvre son profil depuis Voir.") },
+        "zone" to ProfileBar.Spec("📍", "Zone", ProfileBar.VIOLET) { com.aiwa.app.web.WebActivity.zone(this) },
+        "mur" to ProfileBar.Spec("🏆", "Mur", ProfileBar.GREEN) { com.aiwa.app.web.WebActivity.wall(this) },
+        "widget" to ProfileBar.Spec("✦", "Widget", ProfileBar.WHITE) { HomeRuntime.openPanel(web) },
+    )
+
+    /** Draws the bar (the file of her profile, or the application's own) in place of the one on the screen. */
+    private fun applyBar(entries: List<com.aiwa.client.BarEntry>?) {
+        val (specs, ids) = BarConfig.resolve(this, entries, builtinKeys())
+        barView?.let { root.removeView(it) }
+        val drawn = ProfileBar.build(this, specs, ids)
+        drawn.named["match"]?.available(false); drawn.named["cafe"]?.available(false)
+        barView = drawn.view
+        root.addView(drawn.view, FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT, android.view.Gravity.BOTTOM))
+    }
+
+    private fun loadBar(sha: String?) = BarConfig.load(ProfileSettings.repo(this), sha, builtinKeys().keys) { entries -> runOnUiThread { if (!isFinishing && !isDestroyed) applyBar(entries) } }
+
     private fun startWatch() {
         val repo = ProfileSettings.repo(this)
         if (!ProfileView.valid(repo)) { watch?.stop(); watch = null; return }
         if (watch != null && watched == repo) return
         watch?.stop()
         if (watched != repo) { watched = repo; ProfileView.load(web, repo, own = true) }       // another repository chosen in the settings
-        watch = ProfileWatch(repo!!) { sha -> runOnUiThread { ProfileView.load(web, repo, own = true, sha = sha) } }.also { it.start() }
+        watch = ProfileWatch(repo!!) { sha -> runOnUiThread { ProfileView.load(web, repo, own = true, sha = sha); loadBar(sha) } }.also { it.start() }
     }
 
     private fun startEar() {
