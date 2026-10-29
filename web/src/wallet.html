@@ -30,6 +30,14 @@
       <button id="btn-phrase-done" class="wide">Je les ai écrits</button>
     </section>
 
+    <nav class="tabs" id="tabs" aria-label="Sections du wallet">
+      <button type="button" data-tab="wallet" aria-selected="true">Wallet</button>
+      <button type="button" data-tab="publish" aria-selected="false">Publish</button>
+      <button type="button" data-tab="contracts" aria-selected="false">Contrats</button>
+      <button type="button" data-tab="search" aria-selected="false">Chercher</button>
+    </nav>
+
+    <div id="tab-wallet">
     <section class="card hero">
       <div class="label">Dépensable</div>
       <div class="num" id="out-spendable">—</div>
@@ -68,6 +76,59 @@
       <p class="error" id="replace-confirm" hidden>Ce téléphone oublie son wallet actuel. Si ses 12 mots ne sont pas écrits, il est perdu. Appuie encore pour confirmer.</p>
       <div id="replace-result" class="error"></div>
     </details>
+    </div>
+
+    <div id="tab-publish" hidden>
+      <section class="card">
+        <h2>Publier un contrat</h2>
+        <p class="muted">Un contrat distribué n'a pas de machine qui l'exécute pour tout le monde : ce sont des règles, « état + événement → nouvel état », que chaque personne rejoue avec les événements qu'elle détient. Deux personnes qui ont les mêmes événements obtiennent le même état.</p>
+        <h3>Écrire le contrat</h3>
+        <p class="muted">Un fichier JavaScript qui déclare l'état de départ et un gestionnaire par type d'événement, avec <code>defineContract</code> (paquet <code>aiwa-lib</code>). Toute action qui compte (une voix, un transfert) est signée avec <code>signedAction</code> et vérifiée avec <code>verifySignedAction</code> dans le gestionnaire : un simple champ <code>from</code> ne prouve rien.</p>
+        <pre class="code" id="example-code"></pre>
+        <h3>Les champs</h3>
+        <ul class="muted fields">
+          <li><b>Nom</b> : ce que les gens liront (60 caractères au plus).</li>
+          <li><b>Version</b> : 1, 1.1… (20 au plus). Une nouvelle version est un nouveau contrat, avec son propre identifiant.</li>
+          <li><b>Description</b> : à quoi il sert, quels types d'événements il comprend (500 au plus).</li>
+          <li><b>Code</b> : le fichier complet (50 000 caractères au plus). Il est publié en entier, pas seulement son empreinte : tout le monde peut le récupérer.</li>
+        </ul>
+        <p class="muted">L'<b>identifiant du contrat</b> est celui de l'événement de publication : il dérive du contenu, donc il ne change plus. L'<b>empreinte</b> (SHA du code) permet de vérifier qu'un code est bien celui-là.</p>
+        <label class="muted" for="pub-name">Nom</label>
+        <input id="pub-name" type="text" maxlength="60" autocomplete="off" spellcheck="false">
+        <label class="muted" for="pub-version">Version</label>
+        <input id="pub-version" type="text" maxlength="20" value="1" autocomplete="off" spellcheck="false">
+        <label class="muted" for="pub-description">Description</label>
+        <textarea id="pub-description" rows="3" maxlength="500"></textarea>
+        <label class="muted" for="pub-code">Code</label>
+        <textarea id="pub-code" rows="10" spellcheck="false" autocapitalize="off" autocomplete="off" class="mono"></textarea>
+        <button id="btn-pub-example" type="button" class="light wide">Partir de l'exemple</button>
+        <button id="btn-publish" type="button" class="primary wide">Publier</button>
+        <div id="pub-result" class="muted"></div>
+      </section>
+      <section class="card">
+        <h2>Utiliser un contrat dans tes autres fichiers</h2>
+        <p class="muted">Le code publié est ton fichier de contrat. Dans un autre fichier de ton application, tu prends sa <code>definition</code> et tu la donnes à <code>Contract</code>, avec ton identité et le journal de ton wallet : tu envoies des actions et tu lis l'état.</p>
+        <pre class="code" id="use-code"></pre>
+        <p class="muted">Si le code vient d'un contrat publié par quelqu'un d'autre, ne l'exécute qu'après avoir comparé son empreinte à celle que tu as notée de confiance (<code>verifyContractSource</code>, ou <code>registerVerifiedContract</code> quand le contrat doit déplacer de l'AIWA). Un identifiant ou un nom ne prouvent rien : il n'y a pas de registre central, et chacun choisit à quels contrats il fait confiance. Le protocole ne fournit pas de chargeur : charger le code vérifié est le travail de ton application.</p>
+      </section>
+    </div>
+
+    <div id="tab-contracts" hidden>
+      <section class="card">
+        <div class="head"><h2>Contrats</h2><button id="btn-contracts-refresh" type="button" class="icon" title="Actualiser" aria-label="Actualiser la liste">↻</button></div>
+        <p class="muted">Les contrats que ce téléphone connaît : les tiens et ceux qui lui sont parvenus.</p>
+        <div id="contracts-list"><p class="hint">Rien pour l'instant.</p></div>
+      </section>
+    </div>
+
+    <div id="tab-search" hidden>
+      <section class="card">
+        <h2>Chercher un contrat</h2>
+        <p class="muted">Par identifiant de contrat, par identifiant de créateur (le début suffit), ou par un mot du nom. Je cherche parmi ce que ce téléphone a reçu : il n'y a pas de registre central.</p>
+        <input id="search-query" type="search" placeholder="Identifiant du contrat ou du créateur, ou un nom" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Chercher un contrat">
+        <div id="search-list"><p class="hint">Rien pour l'instant.</p></div>
+      </section>
+    </div>
   </div>
 </main>
 <script type="module" src="wallet.js"></script>

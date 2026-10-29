@@ -32,3 +32,19 @@ details.plain { margin-top: 12px; }
 .who { display: flex; justify-content: space-between; gap: 8px; font-weight: 600; } .score { color: var(--muted); font-weight: 400; font-size: .85rem; }
 .voir-filters label { display: grid; gap: 6px; } .voir-filters input[type=range] { padding: 0; }
 video { width: 100%; border-radius: 12px; }
+
+/* the sections of the wallet: wallet, publish, contracts, search */
+.tabs { display: flex; gap: 6px; margin: 0 0 12px; }
+.tabs button { flex: 1; padding: 9px 4px; font-size: .85rem; }
+.tabs button[aria-selected="true"] { background: var(--accent); border-color: transparent; color: #0b0d22; }
+#wallet { display: flex; flex-direction: column; gap: 14px; }
+#wallet[hidden], #wallet > div[hidden] { display: none; }
+#wallet > div[id^="tab-"] { display: flex; flex-direction: column; gap: 14px; }
+h3 { margin: 14px 0 4px; font-size: 1rem; }
+pre.code { overflow: auto; background: #00000050; border: 1px solid var(--edge); border-radius: 10px; padding: 10px; font-size: .74rem; line-height: 1.4; white-space: pre; margin: 6px 0; }
+textarea.mono { font-family: ui-monospace, monospace; font-size: .8rem; }
+ul.fields { padding-left: 18px; margin: 4px 0 8px; }
+.spec { border-top: 1px solid var(--edge); padding: 10px 0; }
+.spec .name { font-weight: 700; }
+.spec .meta { color: var(--muted); font-size: .8rem; word-break: break-all; }
+.spec details { margin-top: 6px; }
