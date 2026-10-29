@@ -6,3 +6,6 @@ android/local.properties
 __pycache__/
 *.pyc
 .DS_Store
+android/**/build/
+android/.gradle/
+android/local.properties

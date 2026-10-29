@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The same rule for Android 11 and older (see data_extraction_rules.xml for what it keeps and why). -->
+<full-backup-content>
+    <exclude domain="sharedpref" path="aiwa_secrets.xml" />
+</full-backup-content>

@@ -1,0 +1,5 @@
+<resources>
+    <style name="Theme.Aiwa" parent="android:style/Theme.Material.Light.NoActionBar"><item name="android:fontFamily">sans</item></style>
+    <!-- The small windows the widget opens (a list, a choice): translucent, no preview window, no transition, so that a tap on the widget shows the window at once. -->
+    <style name="Theme.Float" parent="android:style/Theme.Translucent.NoTitleBar"><item name="android:windowDisablePreview">true</item><item name="android:windowAnimationStyle">@null</item></style>
+</resources>

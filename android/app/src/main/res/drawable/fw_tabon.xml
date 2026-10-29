@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The open tab: a blue glass, so that its white icon and white word stand out (a white block hid the icon). -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item><shape android:shape="rectangle"><gradient android:angle="270" android:startColor="#E65B8DF0" android:endColor="#E62F5DB8" /><corners android:radius="100dp" /><stroke android:width="1dp" android:color="#B3B8C4FF" /></shape></item>
+</layer-list>
