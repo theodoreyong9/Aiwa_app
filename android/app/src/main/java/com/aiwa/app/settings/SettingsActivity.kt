@@ -3,6 +3,7 @@ package com.aiwa.app.settings
 import android.content.Intent
 import android.text.InputType
 import android.widget.EditText
+import kotlinx.coroutines.launch
 import com.aiwa.app.brain.Aiwa
 import com.aiwa.app.common.FloatActivity
 import com.aiwa.app.common.Palette
@@ -22,7 +23,12 @@ import com.aiwa.app.widget.AiwaWidget
 class SettingsActivity : FloatActivity() {
     override val title = "Réglages"
 
-    override fun onResume() { super.onResume(); reload() }
+    override fun onResume() {
+        super.onResume()
+        reload()
+        // the state shown (GitHub connected or not) is the brain's of now, not the one the window opened with
+        kotlinx.coroutines.CoroutineScope(kotlinx.coroutines.Dispatchers.Main).launch { kotlinx.coroutines.withContext(kotlinx.coroutines.Dispatchers.IO) { com.aiwa.app.brain.BrainSync.refresh() }; reload() }
+    }
 
     private fun switch(label: String, detail: String, on: Boolean, flip: (Boolean) -> Unit) {
         entry((if (on) "● " else "○ ") + label, detail, if (on) Palette.CARD else Palette.CARD) { flip(!on); reload() }

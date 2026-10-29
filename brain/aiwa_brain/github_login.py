@@ -8,12 +8,14 @@ import urllib.parse
 import urllib.request
 
 from . import config, files, github
+from .paths import DATA
 
 SCOPE = "repo"      # all the repositories (the private ones too), and the releases a production is deleted from
 BASE = "https://github.com"
 
 lock = threading.Lock()
 flow = {"phase": "idle", "user_code": None, "uri": None, "message": "", "id": 0}
+PENDING = DATA / "github_device.json"       # the code being waited for: a brain that restarts while the person is on github.com goes on waiting for it
 
 
 def client_id():
@@ -59,15 +61,19 @@ def _wait(mine, code, interval, expires, post):
         with lock:
             if flow["id"] != mine or flow["phase"] != "code":
                 return
-        reply = post("/login/oauth/access_token", {"client_id": client_id(), "device_code": code, "grant_type": "urn:ietf:params:oauth:grant-type:device_code"})
+        try:
+            reply = post("/login/oauth/access_token", {"client_id": client_id(), "device_code": code, "grant_type": "urn:ietf:params:oauth:grant-type:device_code"})
+        except (OSError, ValueError):
+            continue      # the network blinked: GitHub is asked again at the next turn
         token = reply.get("access_token")
         if isinstance(token, str):
             try:
                 github.set_token(token)
-            except github.GithubError as err:
-                _fail(str(err), mine)
+                files.forget()
+            except Exception as err:      # whatever went wrong is told to the person, never lost in a thread
+                _fail(str(err) or "la connexion n'a pas abouti", mine)
                 return
-            files.forget()
+            PENDING.unlink(missing_ok=True)
             with lock:
                 if flow["id"] == mine:
                     flow.update(phase="done", message="")
@@ -93,13 +99,41 @@ def start(post=_post, background=True):
         flow["id"] += 1
         mine = flow["id"]
         flow.update(phase="code", user_code=reply["user_code"], uri=reply["verification_uri"], message="")
-    args = (mine, reply["device_code"], int(reply.get("interval") or 5), int(reply.get("expires_in") or 900), post)
+    expires = int(reply.get("expires_in") or 900)
+    try:
+        PENDING.write_text(json.dumps({"device_code": reply["device_code"], "user_code": reply["user_code"], "uri": reply["verification_uri"], "interval": int(reply.get("interval") or 5),
+                                       "until": time.time() + expires}), encoding="utf-8")
+        PENDING.chmod(0o600)
+    except OSError:
+        pass
+    args = (mine, reply["device_code"], int(reply.get("interval") or 5), expires, post)
     if background:
         threading.Thread(target=_wait, args=args, daemon=True).start()
     return {"ok": True, **snapshot()}
 
 
+def resume(post=_post, background=True):
+    """After a restart of the brain: a code that was shown and has not expired is waited for again."""
+    try:
+        saved = json.loads(PENDING.read_text(encoding="utf-8"))
+        left = int(saved["until"] - time.time())
+    except (OSError, ValueError, KeyError, TypeError):
+        return False
+    if left <= 5 or github.token_value():
+        PENDING.unlink(missing_ok=True)
+        return False
+    with lock:
+        flow["id"] += 1
+        mine = flow["id"]
+        flow.update(phase="code", user_code=saved.get("user_code"), uri=saved.get("uri"), message="")
+    args = (mine, saved["device_code"], int(saved.get("interval") or 5), left, post)
+    if background:
+        threading.Thread(target=_wait, args=args, daemon=True).start()
+    return True
+
+
 def cancel():
+    PENDING.unlink(missing_ok=True)
     with lock:
         flow["id"] += 1
         flow.update(phase="idle", user_code=None, uri=None, message="")

@@ -10,6 +10,7 @@ import com.aiwa.app.common.Palette
 import com.aiwa.app.common.copyToClipboard
 import com.aiwa.app.common.toastOnMain
 import com.aiwa.app.update.AppUpdater
+import kotlinx.coroutines.launch
 import com.aiwa.client.BOOTSTRAP_COMMAND
 
 /** « État d'Aiwa »: every part that has to work, one line each, green or red, and the gesture that fixes a red one. */
@@ -36,7 +37,16 @@ class HealthActivity : FloatActivity() {
             line(status.claudeLogin == "ok", "Claude : " + if (status.claudeLogin == "ok") "connecté" else "à connecter")
             if (status.claudeLogin != "ok") entry("Connecter Claude") { startActivity(android.content.Intent(this, ClaudeLoginActivity::class.java)) }
             line(status.llm.state == "ready", "Clé du super agent : " + if (status.llm.state == "ready") "en place" else "absente (il passera par le Claude du téléphone)")
-            line(status.relayCloud == "ok", "Relais (Claude te prévient) : " + status.relayCloud)
+            line(status.relayCloud == "ok", "Relais (Claude te prévient) : " + when (status.relayCloud) {
+                "ok" -> "ça marche"
+                "pending" -> "en attente : Claude doit d'abord faire le test dans sa session"
+                "missing" -> "Claude n'a pas répondu : son environnement bloque peut-être ntfy.sh"
+                else -> "pas encore testé"
+            })
+            if (status.relayCloud != "ok" && (snap.sessionId != null || status.lastSession != null)) entry("Retester le relais", "Demande à Claude de refaire le test") {
+                kotlinx.coroutines.CoroutineScope(kotlinx.coroutines.Dispatchers.IO).launch { Aiwa.brain.retestRelay(); com.aiwa.app.brain.BrainSync.refresh() }
+                toastOnMain(this, "Test demandé à Claude")
+            }
             line(status.githubToken, "GitHub : " + if (status.githubToken) "connecté" + (status.githubUser?.let { " ($it)" } ?: "") else "pas connecté (dépôts publics seulement)")
             if (!status.githubToken) entry("Connecter GitHub") { startActivity(android.content.Intent(this, GithubConnectActivity::class.java)) }
             line(status.voice == "ready", "Voix naturelle : " + (status.voice ?: "pas installée"))

@@ -43,6 +43,32 @@ class DeviceFlowTest(unittest.TestCase):
         self.assertFalse(out["ok"])
         self.assertIn("device flow", out["error"])
 
+    def test_a_code_shown_before_a_restart_is_waited_for_again(self):
+        def post(path, form):
+            if path == "/login/device/code":
+                return {"device_code": "dev", "user_code": "ABCD-1234", "verification_uri": "u", "interval": 0, "expires_in": 600}
+            return {"access_token": "gho_" + "y" * 30}
+
+        github_login.start(post, background=False)
+        github_login.flow.update(phase="idle", user_code=None)       # the brain restarted: nothing in memory
+        with mock.patch.object(github, "api", return_value={"login": "me"}), mock.patch("time.sleep"):
+            self.assertTrue(github_login.resume(post, background=False))
+            self.assertEqual(github_login.snapshot()["user_code"], "ABCD-1234")
+            github_login._wait(github_login.flow["id"], "dev", 0, 600, post)
+        self.assertEqual(github.connected_user(), "me")
+        self.assertFalse(github_login.PENDING.exists())
+
+    def test_a_failure_inside_the_keeping_is_told_not_lost(self):
+        def post(path, form):
+            if path == "/login/device/code":
+                return {"device_code": "dev", "user_code": "X", "verification_uri": "u", "interval": 0, "expires_in": 30}
+            return {"access_token": "gho_" + "z" * 30}
+
+        with mock.patch.object(github, "set_token", side_effect=RuntimeError("disque plein")), mock.patch("time.sleep"):
+            github_login.start(post, background=False)
+            github_login._wait(github_login.flow["id"], "dev", 0, 30, post)
+        self.assertEqual((github_login.snapshot()["phase"], github_login.snapshot()["message"]), ("failed", "disque plein"))
+
 
 if __name__ == "__main__":
     unittest.main()

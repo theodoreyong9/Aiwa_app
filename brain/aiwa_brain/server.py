@@ -427,6 +427,7 @@ def serve():
     if not os.environ.get("AIWA_TEST"):      # the tests start the server alone: nothing installs, listens or updates
         state.voice.install()        # the natural voice is installed by default, in the background (about 80 MB, once); the person only switches it on or off
         state.llm.prepare()
+        github_login.resume()        # a GitHub code shown before a restart is still waited for
         claude_cli.login_state()     # looks the login up in the background, so the first status already knows
         files.warm()
         threading.Thread(target=live.progress_loop, daemon=True).start()
