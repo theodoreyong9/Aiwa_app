@@ -51,6 +51,12 @@ object AgentScreens {
             "wallet" -> go(context, Intent(context, WebActivity::class.java).putExtra(WebActivity.EXTRA_PAGE, "wallet"))
             "report" -> go(context, ReportActivity::class.java)
             "home" -> go(context, HomeActivity::class.java)
+            "github" -> go(context, com.aiwa.app.settings.GithubConnectActivity::class.java)
+            "health" -> go(context, com.aiwa.app.settings.HealthActivity::class.java)
+            "claude_login" -> go(context, com.aiwa.app.settings.ClaudeLoginActivity::class.java)
+            "keys" -> go(context, com.aiwa.app.settings.KeysActivity::class.java)
+            "style" -> go(context, com.aiwa.app.settings.StyleActivity::class.java)
+            "wall" -> WebActivity.wall(context)
         }
     }
 
