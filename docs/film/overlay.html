@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><title>overlay</title>
+<style>
+@font-face{font-family:SG;src:url(../aiwa-v25/fonts/SpaceGrotesk.ttf);font-weight:300 700}
+@font-face{font-family:JB;src:url(../aiwa-v25/fonts/JetBrainsMono.ttf);font-weight:100 800}
+html,body{margin:0;width:100%;height:100%;overflow:hidden;background:transparent}
+canvas{position:absolute;inset:0}
+#ov{position:absolute;inset:0;pointer-events:none;font-family:SG,sans-serif;color:#f4f6ff}
+.lbl{position:absolute;white-space:nowrap;font:500 22px JB,monospace;letter-spacing:.14em;text-transform:uppercase;opacity:0;transform:translate(14px,-50%);text-shadow:0 0 18px #000}
+.lbl::before{content:"";position:absolute;left:-14px;top:50%;width:9px;height:9px;margin:-4.5px 0 0 -4.5px;border-radius:50%;background:var(--c,#7cf);box-shadow:0 0 14px var(--c,#7cf)}
+.lbl span{display:block;font:400 17px JB,monospace;opacity:.6;letter-spacing:.08em;margin-top:4px;text-transform:none}
+#big{position:absolute;left:0;right:0;text-align:center;opacity:0;font-weight:700}
+</style>
+</head><body><div id="ov"><svg id="ln" width="1920" height="1080" style="position:absolute;left:0;top:0;overflow:visible"></svg></div>
+<script>
+// What is drawn OVER the 3D render: the labels that follow the objects (their positions come from anchors.json, written by scene3d.py) and the title cards.
+const Q=new URLSearchParams(location.search),W=+(Q.get('w')||1920),H=+(Q.get('h')||1080),FPS=24;
+const TL=__TIMELINE__,T=TL.T;
+const clamp=(x,a=0,b=1)=>Math.min(b,Math.max(a,x)),ramp=(t,a,b)=>clamp((t-a)/(b-a)),sm=x=>x*x*(3-2*x);
+let ANCH={};
+const ov=document.getElementById('ov');
+const big=document.createElement('div');big.id='big';ov.appendChild(big);
+const labels={},ln=document.getElementById('ln');
+// [id, title, subtitle, colour, leader angle, leader length, dx, dy]
+[['cc1','Claude Code','session 1','#ff9a5c',-25,50,70,-80],['cc2','Claude Code','session 2','#ff9a5c',25,50,70,80],['cc3','Claude Code','session 3','#ff9a5c',200,50,-330,-60],
+ 
+ ['p1','Anna','120 m','#ffd05a',-20,34,40,-20],['p2','Théo','340 m','#ffd05a',20,34,40,-20],['p3','Lina','580 m','#ffd05a',0,34,40,-20],
+ ['w1','Tokyo','12 builders','#ffd05a',-30,46,50,-50],['w2','Lagos','8 builders','#ffd05a',30,46,50,50],['w3','Lisbonne','21 builders','#ffd05a',0,46,-320,0],
+ ['doc','Docs','','#52d6a0',-20,30,0,-60],['med','Médias','','#6b9bf5',-20,30,0,-60],['app','App','','#e09a7c',-20,30,0,-60],['pag','Page','','#e8c14a',-20,30,0,-60],['colf','Fichiers','Docs · Médias · App · Page · Contrat','#52d6a0',-20,30,-40,-70],['colr','Destinataires','','#ff8fb3',-20,30,-40,-70],['colc','Canaux','mail · réseaux','#4aa3ff',-20,30,-40,-70],
+ ['agent','Super agent','reçoit · multiplie · diffuse','#35f08a',-25,40,70,-110],['sc','Contrat intelligent','','#ffe27a',-25,40,40,60],['listen','J’écoute','','#35f08a',-10,40,30,-30]].forEach(([id,k,s,c,r,l,dx,dy])=>{
+ const d=document.createElement('div');d.className='lbl';d.style.setProperty('--c',c);d.style.setProperty('--r',r+'deg');d.style.setProperty('--l',l+'px');d.innerHTML=`${k}<span>${s||''}</span>`;ov.appendChild(d);const sv=document.createElementNS('http://www.w3.org/2000/svg','g');sv.innerHTML=`<line stroke="${c}" stroke-width="1.5" stroke-opacity=".75"/><circle r="7" fill="none" stroke="${c}" stroke-width="2"/><circle r="2.5" fill="${c}"/>`;ln.appendChild(sv);labels[id]={d,dx,dy,sv}});
+function bigText(t){ // title cards, in the film's own voice
+ const rows=TL.E.rows.map(r=>[r[0],r[1],r[2],r[3],H*r[4]]);
+ let on=null;for(const r of rows)if(t>=r[0]&&t<=r[1]){on=r;break}
+ if(!on){big.style.opacity=0;return}
+ const [a,b,l1,l2,y]=on;const k=ramp(t,a,a+.5)*(1-ramp(t,b-.5,b)),isAiwa=l1==='Aiwa.';
+ big.style.opacity=k;big.style.top=y+'px';
+ const fs=isAiwa?220:(l1==='Ton univers.'?110:l1.startsWith('Fini')?52:(l1.startsWith('1')?58:70));
+ big.style.fontSize=fs+'px';big.style.letterSpacing=isAiwa?'.06em':'-.01em';big.style.lineHeight=1.15;
+ big.style.transform=`translateY(${(1-sm(ramp(t,a,a+.8)))*24}px)`;
+ big.innerHTML=l1+(l2?`<div style="font-weight:400;opacity:.78;font-size:${fs*.82}px">${l2}</div>`:'');
+ if(l1==='Ton univers.')big.innerHTML=`Ton univers.<div style="color:#35f08a;text-shadow:0 0 40px #35f08a88">Ta volonté.</div>`}
+
+
+window.render=async function(t){
+ if(!Object.keys(ANCH).length){ANCH=await (await fetch(Q.get('a')||'file:///tmp/os3/anchors.json')).json()}
+ const f=String(Math.round(t*FPS)),A=ANCH[f]||{};
+ for(const id in labels){const L=labels[id],a=A[id];if(!a||a[3]<.01||a[2]<=0){L.d.style.opacity=0;L.sv.style.opacity=0;continue}
+  // the label lives at an offset from its object, a thin line (the leader) joins them: the dot sits on the object
+  const x=a[0]*W+L.dx,y=a[1]*H+L.dy;const lx=Math.min(Math.max(40,x),W-340),ly=Math.min(Math.max(40,y),H-60);L.d.style.opacity=a[3];L.d.style.left=lx+'px';L.d.style.top=ly+'px';
+  const ox=a[0]*W,oy=a[1]*H,ln_=L.sv.firstChild;ln_.setAttribute('x1',ox);ln_.setAttribute('y1',oy);ln_.setAttribute('x2',lx);ln_.setAttribute('y2',ly);L.sv.children[1].setAttribute('cx',ox);L.sv.children[1].setAttribute('cy',oy);L.sv.children[2].setAttribute('cx',ox);L.sv.children[2].setAttribute('cy',oy);L.sv.style.opacity=a[3]}
+ bigText(t);
+ await document.fonts.ready;
+};
+window.READY=document.fonts.ready;
+</script></body></html>

@@ -1,0 +1,23 @@
+<!doctype html><html><head><meta charset="utf-8"><title>contract card</title>
+<style>
+@font-face{font-family:JB;src:url(../aiwa-v25/fonts/JetBrainsMono.ttf);font-weight:100 800}
+@font-face{font-family:SG;src:url(../aiwa-v25/fonts/SpaceGrotesk.ttf);font-weight:300 700}
+html,body{margin:0;width:1024px;height:640px;overflow:hidden;background:#07091a}
+#c{position:absolute;inset:0;border-radius:36px;background:linear-gradient(160deg,#101536,#090b1f 70%);border:2px solid #ffffff30;box-sizing:border-box;padding:34px 44px;font:500 31px/1.5 JB,monospace;color:#cfd8ff}
+.dots i{display:inline-block;width:16px;height:16px;border-radius:50%;margin-right:10px;background:#ff6b6b}.dots i:nth-child(2){background:#ffd36b}.dots i:nth-child(3){background:#52e0a0}
+.t{font:600 22px SG;letter-spacing:.14em;text-transform:uppercase;color:#8fa0ff;margin:12px 0 18px}
+.am{color:#ffd05a}.dm{color:#5a6598;margin-right:18px}
+.sig{position:absolute;right:44px;bottom:34px;padding:12px 30px;border-radius:50px;background:linear-gradient(#ffffff30,#ffffff10);border:2px solid #52e0a0;color:#52e0a0;font:600 30px SG}
+</style></head><body><div id="c"></div>
+<script>
+const TL=__TIMELINE__,T=TL.T;const clamp=(x,a=0,b=1)=>Math.min(b,Math.max(a,x)),ramp=(t,a,b)=>clamp((t-a)/(b-a));
+const code=['export default {','  init: () => ({ total: 0 }),','  apply(state, event) {','    state.total += event.amount','    return state','  }','}'];
+window.render=async function(t){
+ const u=t-T.contract[0],nn=Math.floor(Math.max(0,u-.3)*30);let used=0,o='';
+ code.forEach((l,i)=>{const take=Math.max(0,Math.min(l.length,nn-used));used+=l.length+1;o+=`<div><span class="dm">${i+1}</span>${l.slice(0,take).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/(export|default|return)/g,'<span class="am">$1</span>')}</div>`});
+ const s=ramp(u,2.0,2.5);
+ document.getElementById('c').innerHTML=`<div class="dots"><i></i><i></i><i></i></div><div class="t">contrat intelligent</div>${o}<div class="sig" style="opacity:${s};transform:scale(${.9+.1*s})">signé ✓ · rejoué = même état</div>`;
+ await document.fonts.ready;
+};
+window.READY=document.fonts.ready;
+</script></body></html>
