@@ -353,11 +353,11 @@ class VoiceService : Service() {
         }
         agent = AgentVoice.fresh()
         agent?.proposal?.let { p ->
-            showLine(p.readBack + " On y va ?", mine = false)
-            val (reply, heard) = if (preConfirmed) { preConfirmed = false; Reply.CONFIRM to "" } else askAloud(applicationContext, p.readBack + " On y va ?")
+            showLine(p.readBack + if (DirectSendSettings.enabled(applicationContext)) "" else " On y va ?", mine = false)
+            val (reply, heard) = if (preConfirmed || DirectSendSettings.enabled(applicationContext)) { preConfirmed = false; Reply.CONFIRM to "" } else askAloud(applicationContext, p.readBack + " On y va ?")
             when (reply) {
                 Reply.CONFIRM -> {
-                    Speaker.speakNatural(applicationContext, "C'est parti.")
+                    Speaker.speakNatural(applicationContext, if (DirectSendSettings.enabled(applicationContext)) "J'envoie." else "C'est parti.")
                     sendInBackground(p.id)
                     closeAgent()      // the order is given: the agent goes back to sleep (the button of the widget with it), the wake word calls it again
                 }

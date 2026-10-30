@@ -58,6 +58,7 @@ class SettingsActivity : FloatActivity() {
 
         note("Voix", Palette.GOLD)
         switch("Voix naturelle", "Sinon, la voix du téléphone parle.", NaturalVoice.enabled(this)) { NaturalVoice.setEnabled(this, it) }
+        switch("Envoi direct", "Ce que le super agent prépare pour une session part tout de suite, sans relecture ni « on y va ? ».", com.aiwa.app.voice.DirectSendSettings.enabled(this)) { com.aiwa.app.voice.DirectSendSettings.set(this, it) }
         switch("Création à la volée", "Le super agent suit ce que tu dis pendant que tu construis, sans relecture.", LiveSettings.enabled(this)) { LiveSettings.set(this, it) }
         switch("« C'est prêt »", "Dit à voix haute qu'une production vient d'arriver.", ReadySettings.enabled(this)) { ReadySettings.set(this, it) }
 

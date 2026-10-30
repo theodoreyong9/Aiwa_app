@@ -36,6 +36,12 @@ object LiveSettings {
     fun set(context: Context, on: Boolean) = prefs(context).put("live", on)
 }
 
+/** What the super agent proposes for a session goes at once, without the read-back and the « on y va ? »: on by default for now. (Changes of settings are still read back.) */
+object DirectSendSettings {
+    fun enabled(context: Context): Boolean = prefs(context).bool("direct_send", true)
+    fun set(context: Context, on: Boolean) = prefs(context).put("direct_send", on)
+}
+
 /** « C'est prêt », said aloud when a new production arrives: on by default. */
 object ReadySettings {
     fun enabled(context: Context): Boolean = prefs(context).bool("say_ready", true)
