@@ -178,6 +178,11 @@ def apply_command(command_id):
     items = command["items"]
     if "extra" in items:
         instructions.set_extra(items["extra"])
+    if items.get("rename"):
+        with state.lock:
+            target = items["rename"].get("session") or state.current_cloud
+        if target:
+            sessions.session_rename(target, items["rename"]["title"])
     if items.get("repo"):
         sessions.focus(items["repo"])
     session = items.get("session")

@@ -7,10 +7,13 @@ import android.provider.Settings
 import android.webkit.MimeTypeMap
 import androidx.core.content.FileProvider
 import com.aiwa.app.brain.Aiwa
+import com.aiwa.app.brain.isTermuxInstalled
+import com.aiwa.app.common.copyToClipboard
 import com.aiwa.app.common.openUrl
 import com.aiwa.app.common.shareText
 import com.aiwa.app.common.toastOnMain
 import com.aiwa.client.Production
+import com.aiwa.client.TERMUX_DOWNLOAD_URL
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -32,7 +35,7 @@ object FileActions {
             "image" -> context.startActivity(Intent(context, ImageActivity::class.java).putExtra(ImageActivity.EXTRA_URL, item.url).putExtra(ImageActivity.EXTRA_TITLE, item.title).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK))
             "app" -> if (item.file.endsWith(".html", true)) {
                 context.startActivity(Intent(context, PageActivity::class.java).putExtra(PageActivity.EXTRA_REPO, item.repo).putExtra(PageActivity.EXTRA_TAG, item.tag).putExtra(PageActivity.EXTRA_TITLE, item.title).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK))
-            } else if (item.file.endsWith(".apk", true)) install(app, item) else openFile(app, item)
+            } else if (item.file.endsWith(".apk", true)) openApk(app, item) else openFile(app, item)
             else -> openFile(app, item)
         }
     }
@@ -51,6 +54,38 @@ object FileActions {
                 if (!openUrl(app, item.url)) toastOnMain(app, "Aucune application pour ouvrir « ${item.file} ».")
             }
         }
+    }
+
+    /**
+     * An APK: when the repository declares that the app needs Termux (`aiwa-android.json` at its root, written by Claude: {"termux": "<the line to paste>"}), the line is copied and Termux opened:
+     * it installs what is needed and downloads the APK too. Nothing is run here: the person pastes the line and validates it. Otherwise the APK is installed as it is.
+     */
+    private fun openApk(app: Context, item: Production) {
+        CoroutineScope(Dispatchers.Main).launch {
+            val line = withContext(Dispatchers.IO) { termuxLine(item.repo) }
+            if (line == null) { install(app, item); return@launch }
+            copyToClipboard(app, line)
+            val shown = "« ${line.take(70)}${if (line.length > 70) "…" else ""} »"
+            if (!isTermuxInstalled(app)) {
+                toastOnMain(app, "Termux n'est pas installé : installe-le depuis F-Droid, puis colle la ligne (déjà copiée) dedans : $shown")
+                if (!openUrl(app, TERMUX_DOWNLOAD_URL)) toastOnMain(app, "Va sur $TERMUX_DOWNLOAD_URL")
+            } else {
+                toastOnMain(app, "Ligne copiée : colle-la dans Termux et valide, elle installe tout, l'APK compris. $shown")
+                app.packageManager.getLaunchIntentForPackage("com.termux")?.let { app.startActivity(it.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)) }
+            }
+        }
+    }
+
+    /** The line of `aiwa-android.json` of a public repository, or null (no file, not one line, too long). */
+    private fun termuxLine(repo: String): String? {
+        if (!Regex("[A-Za-z0-9_.-]{1,100}/[A-Za-z0-9_.-]{1,100}").matches(repo)) return null
+        return try {
+            val c = URL("https://raw.githubusercontent.com/$repo/HEAD/aiwa-android.json").openConnection() as HttpURLConnection
+            c.connectTimeout = 10_000; c.readTimeout = 15_000
+            if (c.responseCode != 200) return null
+            val line = org.json.JSONObject(c.inputStream.bufferedReader().use { it.readText().take(8_000) }).optString("termux").trim()
+            line.takeIf { it.isNotEmpty() && it.length <= 1_500 && !it.contains('\n') }
+        } catch (err: Exception) { null }
     }
 
     /** An app delivered as an APK: downloaded, then the system's installer (Android asks the person's consent). */
