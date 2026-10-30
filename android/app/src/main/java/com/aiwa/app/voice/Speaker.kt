@@ -126,12 +126,40 @@ object Speaker {
         }
     }
 
+    /**
+     * The voice as a call's voice (for the echo cancelling of BargeIn) goes to the EARPIECE of the phone when no headset is there: nobody hears it, whatever the volume. So, without a headset, the call's
+     * voice is sent to the loudspeaker; with a headset (wired, Bluetooth), the system already sends it there. True when the loudspeaker was forced (to be given back by `releaseSpeaker`).
+     */
+    private fun forceSpeaker(am: android.media.AudioManager): Boolean {
+        val headsetTypes = setOf(3, 4, 7, 8, 22, 23, 26)      // wired headset, wired headphones, Bluetooth SCO, A2DP, USB headset, hearing aid, BLE headset
+        if (am.getDevices(android.media.AudioManager.GET_DEVICES_OUTPUTS).any { it.type in headsetTypes }) return false
+        return try {
+            am.mode = android.media.AudioManager.MODE_IN_COMMUNICATION
+            if (android.os.Build.VERSION.SDK_INT >= 31) {
+                val speaker = am.availableCommunicationDevices.firstOrNull { it.type == android.media.AudioDeviceInfo.TYPE_BUILTIN_SPEAKER }
+                if (speaker != null) am.setCommunicationDevice(speaker) else am.isSpeakerphoneOn = true
+            } else am.isSpeakerphoneOn = true
+            true
+        } catch (err: Exception) { false }
+    }
+
+    private fun releaseSpeaker(am: android.media.AudioManager) {
+        try {
+            if (android.os.Build.VERSION.SDK_INT >= 31) am.clearCommunicationDevice()
+            am.isSpeakerphoneOn = false
+            am.mode = android.media.AudioManager.MODE_NORMAL
+        } catch (err: Exception) { }
+    }
+
     private suspend fun playFile(context: Context, file: java.io.File): Boolean = withContext(Dispatchers.Main) {
         withTimeoutOrNull(60_000L) {
             suspendCancellableCoroutine<Boolean> { cont ->
                 val player = android.media.MediaPlayer()
+                val am = context.getSystemService(Context.AUDIO_SERVICE) as android.media.AudioManager
+                val onSpeaker = BargeIn.active && forceSpeaker(am)
                 fun end(ok: Boolean) {
                     cancelCurrent = null
+                    if (onSpeaker) releaseSpeaker(am)
                     try { player.release() } catch (err: Exception) { /* already gone */ }
                     if (cont.isActive) cont.resume(ok)
                 }
