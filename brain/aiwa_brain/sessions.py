@@ -343,7 +343,7 @@ def _cloud_send(text, command=False, session=None, repo=None):
                 if entry.get("repo"):
                     work, base = _session_targets(session_id, entry)
                     entry = entry_of(session_id)
-                extra_text, fingerprint = instructions.compose(entry, entry.get("repo"), work, base, entry.get("direct", True), entry.get("origin"))
+                extra_text, fingerprint = instructions.compose(entry, entry.get("repo"), work, base, direct_now, entry.get("origin"))      # the setting of the moment, for every session (a session added by its link used to be told « intégration = non » for good)
                 sent += extra_text
             result = queue_followup(session_id, sent)
             if not result["ok"]:
