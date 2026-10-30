@@ -355,14 +355,25 @@ class VoiceService : Service() {
             when (reply) {
                 Reply.CONFIRM -> {
                     Speaker.speakNatural(applicationContext, "C'est parti.")
-                    val sent = withContext(Dispatchers.IO) { Aiwa.brain.agentConfirm(p.id) }
-                    if (!sent.ok) Speaker.speakNatural(applicationContext, sent.error ?: "Le message n'est pas parti.")
-                    withContext(Dispatchers.IO) { BrainSync.refresh() }
-                    AiwaWidget.render(applicationContext, force = true)
+                    sendInBackground(p.id)
                 }
                 Reply.OTHER -> { withContext(Dispatchers.IO) { Aiwa.brain.agentCancel(p.id) }; if (heard.isNotBlank()) turn(heard) }
                 else -> { withContext(Dispatchers.IO) { Aiwa.brain.agentCancel(p.id) }; Speaker.speakNatural(applicationContext, "J'annule.") }
             }
+        }
+    }
+
+    /** The sending can last minutes (the cloud machine has to start): the ear comes back at once, and the outcome is told on the screen when it is known. */
+    private fun sendInBackground(proposalId: String) {
+        scope.launch {
+            val sent = withContext(Dispatchers.IO) { Aiwa.brain.agentConfirm(proposalId) }
+            if (!sent.ok) {
+                val why = if (sent.error == "busy") "un envoi est déjà en cours" else sent.error ?: "le message n'est pas parti"
+                toastOnMain(applicationContext, "Envoi : $why")
+                if (agentMode) showLine("Le message n'est pas parti : $why", mine = false)
+            }
+            withContext(Dispatchers.IO) { BrainSync.refresh() }
+            AiwaWidget.render(applicationContext, force = true)
         }
     }
 
