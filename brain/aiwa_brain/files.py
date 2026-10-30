@@ -41,7 +41,8 @@ def _items_of(repo):
         for asset in release["assets"]:
             items.append({
                 "repo": repo, "kind": kind, "tag": release["tag"], "release": release["id"], "title": _title(release, asset), "file": asset["name"], "size": asset["size"],
-                "url": asset["url"], "ts": release["published"], "page": release["page"],
+                "url": asset["url"], "ts": max(release["published"] or 0, asset.get("updated") or 0),   # a file put again into the same release (the film of the repository) is the newest
+                "page": release["page"],
             })
     with _lock:
         _cache[repo] = (time.time(), items)

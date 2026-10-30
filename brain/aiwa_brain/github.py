@@ -390,7 +390,7 @@ def releases(repo):
             continue
         out.append({
             "id": rel.get("id"), "tag": rel["tag_name"], "name": rel.get("name") or rel["tag_name"], "published": _epoch(rel.get("published_at")), "page": rel.get("html_url"),
-            "assets": [{"id": a.get("id"), "name": a.get("name"), "size": a.get("size"), "url": a.get("browser_download_url")} for a in rel.get("assets") or [] if isinstance(a, dict)],
+            "assets": [{"id": a.get("id"), "name": a.get("name"), "size": a.get("size"), "url": a.get("browser_download_url"), "updated": _epoch(a.get("updated_at"))} for a in rel.get("assets") or [] if isinstance(a, dict)],
         })
     return out
 
