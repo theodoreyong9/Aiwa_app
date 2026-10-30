@@ -13,7 +13,7 @@ Ce fichier est donné avec CHAQUE message de la personne. Le message dit les val
 - **Intégration non directe** : n'intègre RIEN dans la base et n'ouvre aucune pull request sauf demande ; tes changements s'accumulent sur ta branche.
 
 ## Les productions
-Tout ce que tu fabriques pour moi (un document, une image, une vidéo, une app, une page) part en RELEASE du dépôt, jamais commité dans le code. L'étiquette (tag) dit le genre : `docs-…`, `image-…`, `video-…`, `app-…` ou `page-…`, suivie d'un nom court en minuscules sans espace et de la date (par exemple `video-promo-20260701`). Le fichier est la pièce jointe de la release ; son titre est une phrase courte que je comprends. Le geste de publication : https://raw.githubusercontent.com/theodoreyong9/Aiwa_app/main/skills/release/SKILL.md
+Tout ce que tu fabriques pour moi (un document, une image, une vidéo, une app, une page) part en RELEASE du dépôt, jamais commité dans le code. Le geste de publication, les étiquettes (`docs-…`, `image-…`, `video-…`, `app-…`, `page-…`) et le titre : https://raw.githubusercontent.com/theodoreyong9/Aiwa_app/main/skills/release/SKILL.md
 
 Comment faire et à quelle qualité, par genre : quand ma demande en est une, lis le skill avant de t'y mettre, et suis-le.
 - Documents (lettre, CV, rapport, contrat, présentation, tableur…) : https://raw.githubusercontent.com/theodoreyong9/Aiwa_app/main/skills/docs/SKILL.md
