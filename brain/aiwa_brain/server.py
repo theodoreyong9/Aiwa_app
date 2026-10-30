@@ -22,7 +22,7 @@ def status():
     with state.chamber_lock:
         room = {"active": state.chamber["active"], "peer": state.chamber["peer"], "name": state.chamber["name"]}
     return {
-        "version": config.BACKEND_VERSION, "sending": sending, "sending_since": sending_since, "sending_note": sending_note or None, "model": model, "effort": effort,
+        "version": config.BACKEND_VERSION, "sending": sending, "last_send": state.last_send, "sending_since": sending_since, "sending_note": sending_note or None, "model": model, "effort": effort,
         "cloud_session": cloud_session, "last_session": last or next((e.get("id") for e in sessions.load_all() if e.get("id")), None),
         "repo": repo, "push_main": direct, "waiting": is_waiting, "attachments": len(state.attachments), "attachment_files": attachments.attach_list(),
         "self_update": dict(state.self_update_last), "alert_last": last_ping, "silence_minutes": relay.silence_minutes(), "cast": cast.ready(),

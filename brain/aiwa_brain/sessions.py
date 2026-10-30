@@ -284,6 +284,25 @@ def _cli_repo_verdict(repo):
 
 
 def cloud_send(text, command=False, session=None, repo=None):
+    """The send, with what came of it kept for the Santé screen (when, how long, the error): « it sends nothing » can then be answered."""
+    started = time.time()
+    try:
+        result = _cloud_send(text, command, session, repo)
+    except Exception as err:
+        result = {"ok": False, "error": f"{type(err).__name__}: {err}"}
+        _note_send(command, started, result)
+        raise
+    _note_send(command, started, result)
+    return result
+
+
+def _note_send(command, started, result):
+    if command or result.get("error") == "busy":
+        return
+    state.last_send = {"at": int(time.time()), "seconds": round(time.time() - started, 1), "ok": bool(result.get("ok")), "error": (result.get("error") or "")[:300]}
+
+
+def _cloud_send(text, command=False, session=None, repo=None):
     """Sends one message to the current cloud session — creating a new
     one when none is selected. Synchronous: creating a session can take a
     while, the cloud machine has to start.
