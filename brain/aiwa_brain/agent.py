@@ -153,7 +153,7 @@ def snapshot():
     """What the phone takes: the words to say, the proposal to read back, the command to apply."""
     with state.agent_lock:
         say = state.agent["say"] if state.agent["say"] and not state.agent["say"]["spoken"] else None
-        proposal = dict(state.agent["proposal"]) if state.agent["proposal"] else None
+        proposal = dict(state.agent["proposal"]) if state.agent["proposal"] and not state.agent["proposal"].get("sending") else None
         command = dict(state.agent["command"]) if state.agent["command"] else None
         out = {"busy": state.agent["busy"], "error": state.agent["error"], "voice": state.voice.state, "llm": state.llm.state,
                "voice_error": (state.voice.error or "")[:200] if state.voice.state == "error" else None,
@@ -225,10 +225,20 @@ def confirm(proposal_id):
     """The person confirmed (« c'est bon vas-y »): the messages go to their sessions, as the person's own."""
     with state.agent_lock:
         proposal = dict(state.agent["proposal"]) if state.agent["proposal"] else None
+        if proposal is not None and proposal["id"] == proposal_id:
+            if state.agent["proposal"].get("sending"):
+                return {"ok": True, "sending": True}          # already on its way (a second « c'est bon »): not sent twice
+            state.agent["proposal"]["sending"] = True        # hidden from the phone while it goes: nobody is asked again for the same thing
     if proposal is None or proposal["id"] != proposal_id:
         return {"ok": False, "error": "cette proposition n'est plus d'actualité"}
-    sent, error = _deliver([proposal] + proposal.get("more", []))
+    try:
+        sent, error = _deliver([proposal] + proposal.get("more", []))
+    except Exception as err:
+        sent, error = [], f"{type(err).__name__}: {err}"
     if error:
+        with state.agent_lock:
+            if state.agent["proposal"] and state.agent["proposal"]["id"] == proposal_id:
+                state.agent["proposal"].pop("sending", None)   # it did not go: it is shown again, with the error of the send
         return {"ok": False, "error": error, "sent": sent}
     with state.agent_lock:
         if state.agent["proposal"] and state.agent["proposal"]["id"] == proposal_id:
