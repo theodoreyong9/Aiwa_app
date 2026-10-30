@@ -1,4 +1,4 @@
-# Le film d'Aiwa (version 7)
+# Le film d'Aiwa (version 9)
 
 77 secondes : une scène 3D (Blender), des écrans dessinés en HTML (le téléphone, la télévision), une voix de synthèse (Piper « siwis », en local), des bruitages synthétisés et une musique.
 
@@ -10,3 +10,5 @@
 
 - Version 7 : le premier mot est « le premier jumeau virtuel » (le titre et le point vert sont là dès la première image) ; le passage du téléphone vers la télévision est coupé ; « et dessine des schémas si besoin » avec un petit schéma à l'écran ; la pause de la télévision montre l'application restylée à la voix, puis les matchs, puis les super agents (plus de scénarios ni de scoring d'autres profils) ; musique « Inspired » ; le crédit de la musique est écrit en bas de l'image. Refaire : `retime7.py`, `overlay.html`, `sound5.py`, `cues8.json` (les rendus 3D intermédiaires sont dans `/tmp/os3`).
 **Musique** : « Inspired », Kevin MacLeod (incompetech.com), licence CC BY 4.0.
+
+- Version 9 : le schéma se dessine sur la télévision (le téléphone reste éteint, plus de flux vers la télé, la caméra ne coupe plus : les plans 3D de la séquence sont rendus à nouveau) ; l'ordre est « Il parle avec toi. Même écran éteint. Et dessine des schémas, si besoin. » Refaire : `cues9.json`, `screens.html`, `retime.py`, `scene3d.py --from 556 --to 766`, `overlay.html`, `sound5.py`.
