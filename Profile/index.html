@@ -11,7 +11,7 @@
    Les boutons ne sont pas dessinés ici : l'application les pose dans les EMPLACEMENTS (data-aiwa-slot) avec ce style. Chez quelqu'un qui visite ce profil, ce sont SES boutons à lui ; tout le reste (le nom, la phrase, mes liens) est à moi.
    Références retenues dans aiwa-design/references.md. Le fond est une boucle de 4 s rendue avec Blender (verre, chrome et lumière devant une ville la nuit), un champ WebGL coule par-dessus. */
 @property --a{syntax:"<angle>";inherits:false;initial-value:0deg}
-:root{color-scheme:dark;--ink:#f6f6ff;--dim:#aeb3e8;--acc:#52d6a0;--blue:#6b9bf5;--violet:#a77bd6;--line:rgba(255,255,255,.24);--mono:ui-monospace,"SFMono-Regular",Menlo,Consolas,monospace}
+:root{color-scheme:dark;--ink:#f6f6ff;--dim:#aeb3e8;--acc:#52d6a0;--blue:#6b9bf5;--red:#ff4d5e;--violet:#a77bd6;--line:rgba(255,255,255,.24);--mono:ui-monospace,"SFMono-Regular",Menlo,Consolas,monospace}
 *{box-sizing:border-box}
 html,body{margin:0;min-height:100%;overflow-x:hidden}
 body{background:#06081a;color:var(--ink);font:16px/1.4 system-ui,-apple-system,"Segoe UI",sans-serif}
@@ -28,10 +28,10 @@ a{color:inherit}
 .bar{grid-area:bar;display:flex;justify-content:space-between;gap:16px}
 .bar span:last-child{color:var(--dim);text-align:right}
 
-.name{grid-area:name;align-self:center;margin:0;color:var(--blue);justify-self:start;max-width:100%;box-sizing:border-box;padding:.08em .16em .1em;background:rgba(255,255,255,.06);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);border:1px solid rgba(255,255,255,.35);border-radius:.12em;font-weight:900;line-height:.84;letter-spacing:-.045em;text-transform:uppercase;font-size:clamp(40px,min(21vw,13.5svh),210px);
+.name{grid-area:name;align-self:center;margin:0;color:var(--red);justify-self:start;max-width:100%;box-sizing:border-box;padding:.08em .16em .1em;background:rgba(255,255,255,.06);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);border:1px solid rgba(255,255,255,.35);border-radius:.12em;font-weight:900;line-height:.84;letter-spacing:-.045em;text-transform:uppercase;font-size:clamp(40px,min(21vw,13.5svh),210px);
   transform:translate(calc(var(--px,0)*-12px),calc(var(--py,0)*-8px));transition:transform .25s ease-out}
-.name .l2{display:block;color:transparent;-webkit-text-stroke:1.5px var(--blue);animation:fill 8s ease-in-out infinite}
-@keyframes fill{0%,100%{color:transparent}50%{color:var(--blue)}}
+.name .l2{display:block;color:transparent;-webkit-text-stroke:1.5px var(--red);animation:fill 8s ease-in-out infinite}
+@keyframes fill{0%,100%{color:transparent}50%{color:var(--red)}}
 
 .info{grid-area:info;display:grid;gap:clamp(8px,.1svh,14px)}
 .say{margin:0;max-width:30em;text-shadow:0 1px 14px rgba(0,0,0,.9),0 0 3px rgba(0,0,0,.6);font-size:clamp(14px,3.6vw,19px);color:#e3e6ff}
