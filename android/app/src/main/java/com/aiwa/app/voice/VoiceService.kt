@@ -118,6 +118,7 @@ class VoiceService : Service() {
     private var liveWatch: Job? = null
     private var bargeIn: BargeIn? = null
     private var preConfirmed = false
+    private var directMode = false       // opened by « mon agent »: what is dictated is sent at once; « mon super agent » and the button of the widget open the conversation
     private val convo = ArrayDeque<Pair<Boolean, String>>()
     private var openWhenReady = false
 
@@ -200,6 +201,7 @@ class VoiceService : Service() {
         detector = null
         when (kind) {
             WakeKind.CALL -> openAgent()
+            WakeKind.DIRECT -> { directMode = true; openAgent() }
             WakeKind.STOP -> { stopEverything(); listen() }
             WakeKind.OFF -> switchOff()
         }
@@ -246,6 +248,7 @@ class VoiceService : Service() {
     fun closeAgent() {
         if (!agentMode) return
         agentMode = false
+        directMode = false
         listener?.stop(); listener = null
         scenarioPoll?.cancel(); scenarioPoll = null; scenario = null
         liveWatch?.cancel(); liveWatch = null
@@ -353,11 +356,11 @@ class VoiceService : Service() {
         }
         agent = AgentVoice.fresh()
         agent?.proposal?.let { p ->
-            showLine(p.readBack + if (DirectSendSettings.enabled(applicationContext)) "" else " On y va ?", mine = false)
-            val (reply, heard) = if (preConfirmed || DirectSendSettings.enabled(applicationContext)) { preConfirmed = false; Reply.CONFIRM to "" } else askAloud(applicationContext, p.readBack + " On y va ?")
+            showLine(p.readBack + if (directMode) "" else " On y va ?", mine = false)
+            val (reply, heard) = if (preConfirmed || directMode) { preConfirmed = false; Reply.CONFIRM to "" } else askAloud(applicationContext, p.readBack + " On y va ?")
             when (reply) {
                 Reply.CONFIRM -> {
-                    Speaker.speakNatural(applicationContext, if (DirectSendSettings.enabled(applicationContext)) "J'envoie." else "C'est parti.")
+                    Speaker.speakNatural(applicationContext, if (directMode) "J'envoie." else "C'est parti.")
                     sendInBackground(p.id)
                     closeAgent()      // the order is given: the agent goes back to sleep (the button of the widget with it), the wake word calls it again
                 }

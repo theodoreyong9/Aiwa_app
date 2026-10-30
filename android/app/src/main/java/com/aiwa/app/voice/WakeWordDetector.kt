@@ -115,7 +115,7 @@ class WakeWordDetector(
                     val heard = result.optString("text")
                     var kind = if (heard.isEmpty()) null else WakeWords.kind(heard, customs)
                     // Only the wake words are checked against the owner's voice: « stop », « éteins » and the others always work
-                    if (kind != null && print != null && speaker != null && kind == WakeKind.CALL) {
+                    if (kind != null && print != null && speaker != null && (kind == WakeKind.CALL || kind == WakeKind.DIRECT)) {
                         val array = result.optJSONArray("spk")
                         // no print in the result (too little voice to measure): not refused, a measure that cannot be made must not lock the owner out
                         if (array != null && array.length() >= 64) {
