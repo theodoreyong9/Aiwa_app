@@ -565,7 +565,7 @@ def update(t, f, win=None):
     # halo under the levitating phone
     HALO.hide_render = lev < .02; HALO.location = (pp.x, pp.y, .004); HALO.rotation_euler = (0, 0, 0); HALO.scale = ((1 + lev * .4),) * 3; glow_set(HALO, 2.4 * lev)
     # the stream to the television
-    cast_on = seg(t, T['cast'][0] - .4, T['cast'][0] + .3) * (1 - seg(t, T['cast'][1] - .2, T['cast'][1] + .8)); CAST.hide_render = cast_on < .01
+    cast_on = 0.0; CAST.hide_render = True        # no stream from the phone to the television any more: the television shows a schema drawn by the agent (screens.html)
     if cast_on >= .01:
         a_ = phone.matrix_world @ V(0, 0, .02); b_ = V(TVC.x, TVC.y - .02, TVC.z); m_ = (a_ + b_) / 2 + V(0, 0, .25)
         arr = np.zeros((NC, 3))
