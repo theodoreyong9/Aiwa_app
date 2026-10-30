@@ -31,10 +31,9 @@ class CastActivity : FloatActivity() {
         super.onCreate(savedInstanceState)
         val url = intent.getStringExtra(EXTRA_URL).orEmpty()
         if (url.isNotBlank()) { chosen = Production("", "video", "", intent.getStringExtra(EXTRA_TITLE).orEmpty().ifBlank { "Vidéo Aiwa" }, "", 0, url, 0); search(); reload(); return }
-        CoroutineScope(Dispatchers.Main).launch {
-            videos = withContext(Dispatchers.IO) { ensureBrain(applicationContext); Aiwa.brain.files(null)?.items?.get("video").orEmpty() }
-            reload()
-        }
+        // Cast = the screen of the phone, by the system's own cast (it finds the televisions, Chromecast and others). A video or a site goes by voice: the agent sends it.
+        try { startActivity(Intent(Settings.ACTION_CAST_SETTINGS).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)) } catch (err: Exception) { toastOnMain(this, "Ouvre le partage d'écran dans les réglages d'Android.") }
+        finish()
     }
 
     override fun fill() {
