@@ -356,6 +356,7 @@ class VoiceService : Service() {
                 Reply.CONFIRM -> {
                     Speaker.speakNatural(applicationContext, "C'est parti.")
                     sendInBackground(p.id)
+                    closeAgent()      // the order is given: the agent goes back to sleep (the button of the widget with it), the wake word calls it again
                 }
                 Reply.OTHER -> { withContext(Dispatchers.IO) { Aiwa.brain.agentCancel(p.id) }; if (heard.isNotBlank()) turn(heard) }
                 else -> { withContext(Dispatchers.IO) { Aiwa.brain.agentCancel(p.id) }; Speaker.speakNatural(applicationContext, "J'annule.") }
