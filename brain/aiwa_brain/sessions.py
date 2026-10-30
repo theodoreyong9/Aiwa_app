@@ -323,12 +323,6 @@ def cloud_send(text, command=False, session=None, repo=None):
                 work = base = None
                 if entry.get("repo"):
                     work, base = _session_targets(session_id, entry)
-                    # The default branch can change after the session started (the first branch pushed into an empty repository becomes it):
-                    # the instructions follow it, so Claude never has to ask which branch to integrate into.
-                    fresh = github.default_branch_or_none(entry["repo"])
-                    if fresh and fresh != base:
-                        update_session(session_id, base=fresh)
-                        base = fresh
                     entry = entry_of(session_id)
                 extra_text, fingerprint = instructions.compose(entry, entry.get("repo"), work, base, entry.get("direct", True), entry.get("origin"))
                 sent += extra_text
