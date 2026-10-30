@@ -84,7 +84,7 @@ L'application a son propre identifiant, `com.aiwa.app` : elle s'installe À CÔT
 
 ## 3. Ce qui n'y est plus
 
-Les boucles et les liens entre sessions, les campagnes et leurs propositions, les connecteurs (mail, réseaux), les agents externes (MCP), le sélecteur de projet, l'onglet Domaine, la boutique d'apps et son registre, la recherche de musique, de vidéos et d'images, les films. Les films et les recherches restent dans `Aiwa_store`.
+Les boucles et les liens entre sessions, les campagnes et leurs propositions, les connecteurs (mail, réseaux), les agents externes (MCP), le sélecteur de projet, l'onglet Domaine, la boutique d'apps et son registre. Restent dans `Aiwa_store` : la boutique et son registre, et les films de l'ancienne version. Sont ici, au contraire : la banque de vidéos libres (Pexels, Pixabay, avec ta propre clé), « Film de moi » (fal.ai, avec ta propre clé), les registres de musique, de séquences, d'images et de design et leurs outils (`skills/kit`), le film d'Aiwa (`docs/film/`).
 
 ## 4. Les productions
 
