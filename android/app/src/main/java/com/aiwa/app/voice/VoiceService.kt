@@ -56,7 +56,6 @@ import org.vosk.SpeakerModel
  */
 class VoiceService : Service() {
     companion object {
-        private val CONFIRM_TAIL = Regex("[\\s,.…!]*\\b(?:c'?est bon[\\s,.…]*)?(?:vas[- ]?y|c'?est bon)[\\s.!…]*$", RegexOption.IGNORE_CASE)
         private val OFF_PHRASE = Regex("^(?:aiwa )?(?:eteins toi|eteins agent|ferme agent|quitte agent|ferme toi|a toute|au revoir|eteins)$")
         private const val CHANNEL_ID = "aiwa_listen"
         private const val NOTIFICATION_ID = 7
@@ -280,9 +279,15 @@ class VoiceService : Service() {
         working = true
         showLine(text)
         // « … c'est bon vas-y » said in the same breath as the order: it is the confirmation, the read-back is not asked again.
-        val tail = CONFIRM_TAIL.find(text)
-        val order = if (tail != null && tail.range.first > 0) text.substring(0, tail.range.first).trim() else text
-        preConfirmed = tail != null && order.isNotBlank() && order != text
+        // the words are the ones of the settings (Validation) and the ones of origin
+        val words = text.trim().split(Regex("\\s+"))
+        val extra = Words.extraConfirm(applicationContext)
+        val cut = (1..minOf(4, words.size - 1)).firstOrNull { k ->
+            val tail = words.takeLast(k).joinToString(" ")
+            Spoken.reply(tail) == Reply.CONFIRM || WakeWords.plain(tail).let { it.isNotEmpty() && it in extra }
+        }
+        val order = if (cut != null) words.dropLast(cut).joinToString(" ").trim() else text
+        preConfirmed = cut != null && order.isNotBlank()
         try {
             val scenarioNow = scenario
             when {
