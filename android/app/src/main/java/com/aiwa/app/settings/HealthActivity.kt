@@ -35,6 +35,7 @@ class HealthActivity : FloatActivity() {
         if (status != null && status.version < EXPECTED_BRAIN_VERSION) line(false, "Cerveau trop ancien (${status.version}, il faut ${EXPECTED_BRAIN_VERSION}) : relance la ligne d'installation")
         if (snap.link != Link.UP) entry("Copier la ligne d'installation", "À coller dans Termux.") { copyToClipboard(this, BOOTSTRAP_COMMAND); toastOnMain(this, "Ligne copiée") }
         if (status != null) {
+            status.lastSend?.let { line(it.startsWith("parti"), "Dernier envoi à une session : $it") }
             line(status.claudeLogin == "ok", "Claude : " + if (status.claudeLogin == "ok") "connecté" else "à connecter")
             if (status.claudeLogin != "ok") entry("Connecter Claude") { startActivity(android.content.Intent(this, ClaudeLoginActivity::class.java)) }
             line(status.llm.state == "ready", "Clé du super agent : " + if (status.llm.state == "ready") "en place" else "absente (il passera par le Claude du téléphone)")
