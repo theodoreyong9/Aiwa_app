@@ -227,6 +227,7 @@ class VoiceService : Service() {
         scenario = pendingScenario; pendingScenario = null
         Aiwa.update { it.copy(agentOpen = true) }
         AiwaWidget.render(applicationContext, force = true)
+        LiveBubble.askOnce(applicationContext)
         scope.launch {
             Speaker.resetInterrupt()
             val name = scenario?.name
@@ -245,6 +246,7 @@ class VoiceService : Service() {
         scenarioPoll?.cancel(); scenarioPoll = null; scenario = null
         liveWatch?.cancel(); liveWatch = null
         stopBarge()
+        LiveBubble.hide()
         Aiwa.update { it.copy(agentOpen = false) }
         AiwaWidget.render(applicationContext, force = true)
         if (ListenSettings.enabled(this) && model != null) listen() else if (!ListenSettings.enabled(this)) stopSelf()
@@ -296,7 +298,7 @@ class VoiceService : Service() {
         val said = StringBuilder()
         startBarge()
         val speaking = scope.launch { Speaker.speakFlow(applicationContext, sentences) }
-        val ok = withContext(Dispatchers.IO) { Aiwa.brain.answerStream(text) { s -> said.append(s).append(' '); sentences.trySend(s) } }
+        val ok = withContext(Dispatchers.IO) { Aiwa.brain.answerStream(text) { s -> said.append(s).append(' '); sentences.trySend(s); LiveBubble.said(applicationContext, false, s) } }
         sentences.close()
         speaking.join()
         stopBarge()
@@ -354,7 +356,7 @@ class VoiceService : Service() {
         val sentences = kotlinx.coroutines.channels.Channel<String>(kotlinx.coroutines.channels.Channel.UNLIMITED)
         val speaking = scope.launch { Speaker.speakFlow(applicationContext, sentences) }
         startBarge()
-        withContext(Dispatchers.IO) { Aiwa.brain.liveStream(text) { s -> sentences.trySend(s) } }
+        withContext(Dispatchers.IO) { Aiwa.brain.liveStream(text) { s -> sentences.trySend(s); LiveBubble.said(applicationContext, false, s) } }
         sentences.close()
         speaking.join()
         stopBarge()
@@ -415,6 +417,7 @@ class VoiceService : Service() {
         if (text.isBlank()) return
         if (!partial) { convo.addLast(mine to text.trim()); while (convo.size > 4) convo.removeFirst() }
         val lines = convo.map { (me, t) -> (if (me) "▸ " else "◂ ") + t } + (if (partial) listOf("▸ $text …") else emptyList())
+        if (agentMode) { if (partial) LiveBubble.partial(this, text) else LiveBubble.said(this, mine, text.trim()) }
         say(lines.joinToString("\n"))
     }
 
@@ -447,7 +450,7 @@ class VoiceService : Service() {
 
     override fun onDestroy() {
         instance = null
-        listener?.stop(); detector?.stop(); stopBarge()
+        listener?.stop(); detector?.stop(); stopBarge(); LiveBubble.hide()
         try { model?.close() } catch (err: Throwable) { }
         try { speakerModel?.close() } catch (err: Throwable) { }
         try { lock?.takeIf { it.isHeld }?.release() } catch (err: Exception) { }
