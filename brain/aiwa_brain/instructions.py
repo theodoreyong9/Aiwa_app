@@ -60,7 +60,7 @@ def personal(repo, work, base, direct, origin=None):
     from . import relay
     parts = [f"RELAIS = {relay.relay_url()}"]
     if repo:
-        parts += [f"dépôt = {repo}", f"ta branche = {work}", f"base = {base}", "intégration = " + ("directe" if direct else "non")]
+        parts += [f"dépôt = {repo}", f"ta branche = {work}", f"base = {base} (la branche par défaut du dépôt : si elle a changé depuis, lis-la toi-même avec `git remote show origin` et intègre dans celle-là)", "intégration = " + ("directe" if direct else "non")]
         if origin is not None and origin != repo:
             parts.append(f"ta session a démarré sur {origin or 'aucun dépôt'} : tu travailles maintenant sur {repo} (rattache-le avec add_repo)")
         if studio.published():

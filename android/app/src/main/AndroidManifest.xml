@@ -31,7 +31,7 @@
             <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/update_paths" />
         </provider>
         <!-- The home: the page of the person. -->
-        <activity android:name=".home.HomeActivity" android:exported="true" android:launchMode="singleTask" android:windowSoftInputMode="adjustResize">
+        <activity android:name=".home.HomeActivity" android:configChanges="orientation|screenSize|smallestScreenSize|screenLayout|keyboardHidden|uiMode|density" android:exported="true" android:launchMode="singleTask" android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -72,7 +72,7 @@
         <activity android:name=".voice.DiagramToggleActivity" android:exported="false" android:theme="@style/Theme.Float" android:taskAffinity="" android:excludeFromRecents="true" />
         <activity android:name=".voice.EarToggleActivity" android:exported="false" android:theme="@style/Theme.Float" android:taskAffinity="" android:excludeFromRecents="true" />
         <activity android:name=".update.InstallUpdateActivity" android:exported="false" android:theme="@style/Theme.Float" android:taskAffinity="" android:excludeFromRecents="true" />
-        <activity android:name=".home.ProfileActivity" android:exported="false" />
+        <activity android:name=".home.ProfileActivity" android:configChanges="orientation|screenSize|smallestScreenSize|screenLayout|keyboardHidden|uiMode|density" android:exported="false" />
         <activity android:name=".brain.InstallHelpActivity" android:exported="false" android:theme="@style/Theme.Float" android:taskAffinity="" android:excludeFromRecents="true" />
         <activity android:name=".widget.ReportActivity" android:exported="false" android:theme="@style/Theme.Float" android:taskAffinity="" android:excludeFromRecents="true" />
         <activity android:name=".widget.OpenClaudeActivity" android:exported="false" android:theme="@style/Theme.Float" android:taskAffinity="" android:excludeFromRecents="true" />
