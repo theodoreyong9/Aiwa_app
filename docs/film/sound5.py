@@ -77,11 +77,10 @@ put(sub(36, 3.8, .4), T['end'][0], 0, .85); put(bell(1568, 3.0), T['end'][0] + .
 put(bell(784, 3.0), 60.6, 0, .18)
 W0 = 44.5                                                                                              # the pause: new film time
 putn(sub(50, 1.4, .3), W0 + .55, 0, .3); putn(bell(880, 1.4), W0 + .75, .2, .2)
-for dt in (2.0, 3.0, 3.9): putn(blip(988, .15), W0 + dt - 1.4, -.3, .14)                                  # the three profiles arrive
-for dt in (2.7, 3.5): putn(blip(1175, .15), W0 + dt, .3, .2); putn(bell(1568, .9), W0 + dt + .05, .3, .14)     # the match pro, the match perso
+for t_ in (1.2, 3.0): putn(bell(1047 * (1 + (t_ > 2) * .25), 1.0), W0 + t_ + .1, .1, .16); putn(blip(880, .12), W0 + t_ - .6, -.2, .12)   # the application is restyled by voice
 putn(lp(noise_sweep(1.0, 300, 2600), .2), W0 + 5.0, 0, .3); putn(bell(1047, 1.4), W0 + 5.1, -.2, .2)
-for i in range(14): putn(blip(900 + i * 38, .06), W0 + 5.6 + i * .09, -.3, .1)                              # the score counts up
-for i in range(3): putn(bell(1319 * 2 ** (i * 2 / 12), .8), W0 + 6.4 + i * .55, .3, .16); putn(tick(.05, 2600), W0 + 6.4 + i * .55, .3, .12)   # the scenarios land
+for dt in (5.3, 5.9, 6.5): putn(blip(988, .15), W0 + dt, -.3, .14)                                                                   # the three profiles arrive
+for dt in (7.7, 8.5): putn(blip(1175, .15), W0 + dt, .3, .2); putn(bell(1568, .9), W0 + dt + .05, .3, .14)               # the match pro, the match perso
 putn(lp(noise_sweep(1.2, 400, 3000), .2), W0 + 9.6, 0, .3); putn(sub(60, 1.6, .3), W0 + 9.65, 0, .25)
 for i, t_ in enumerate((10.1, 11.1, 12.2, 13.3)): putn(blip(660 + (i % 2) * 220, .2), W0 + t_, -.2 + (i % 2) * .4, .16)                            # the agents speak
 putn(lp(noise_sweep(1.8, 200, 2400), .12), W0 + 13.2, 0, .3); putn(bell(1760, 1.2), W0 + 14.9, .2, .16)                                      # the intimacy rises
