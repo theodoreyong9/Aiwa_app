@@ -231,6 +231,7 @@ class VoiceService : Service() {
         Aiwa.update { it.copy(agentOpen = true) }
         AiwaWidget.render(applicationContext, force = true)
         LiveBubble.askOnce(applicationContext)
+        QuietSounds.restore(applicationContext)
         scope.launch {
             Speaker.resetInterrupt()
             val name = scenario?.name
@@ -341,24 +342,26 @@ class VoiceService : Service() {
         agent?.command?.let { c ->
             if (c.auto) AgentScreens.apply(applicationContext, c)
             else {
+                showLine(c.readBack + " C'est bon ?", mine = false)
                 val (reply, heard) = if (preConfirmed) Reply.CONFIRM to "" else askAloud(applicationContext, c.readBack + " C'est bon ?")
                 when (reply) {
                     Reply.CONFIRM -> AgentScreens.apply(applicationContext, c)
-                    Reply.OTHER -> { withContext(Dispatchers.IO) { Aiwa.brain.agentCancel(c.id) }; if (heard.isNotBlank()) { turn(heard); return } }
+                    Reply.OTHER -> if (heard.isNotBlank()) { withContext(Dispatchers.IO) { Aiwa.brain.agentCancel(c.id) }; turn(heard); return } else toastOnMain(applicationContext, "Je n'ai rien entendu : la proposition attend, touche le bouton rouge du widget.")
                     else -> withContext(Dispatchers.IO) { Aiwa.brain.agentCancel(c.id) }
                 }
             }
         }
         agent = AgentVoice.fresh()
         agent?.proposal?.let { p ->
-            val (reply, heard) = askAloud(applicationContext, p.readBack + " On y va ?")
+            showLine(p.readBack + " On y va ?", mine = false)
+            val (reply, heard) = if (preConfirmed) { preConfirmed = false; Reply.CONFIRM to "" } else askAloud(applicationContext, p.readBack + " On y va ?")
             when (reply) {
                 Reply.CONFIRM -> {
                     Speaker.speakNatural(applicationContext, "C'est parti.")
                     sendInBackground(p.id)
                     closeAgent()      // the order is given: the agent goes back to sleep (the button of the widget with it), the wake word calls it again
                 }
-                Reply.OTHER -> { withContext(Dispatchers.IO) { Aiwa.brain.agentCancel(p.id) }; if (heard.isNotBlank()) turn(heard) }
+                Reply.OTHER -> if (heard.isNotBlank()) { withContext(Dispatchers.IO) { Aiwa.brain.agentCancel(p.id) }; turn(heard) } else toastOnMain(applicationContext, "Je n'ai rien entendu : la proposition attend, touche le bouton rouge du widget.")
                 else -> { withContext(Dispatchers.IO) { Aiwa.brain.agentCancel(p.id) }; Speaker.speakNatural(applicationContext, "J'annule.") }
             }
         }

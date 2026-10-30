@@ -82,7 +82,7 @@ class ConfirmListener(private val context: Context, private val onAnswer: (Reply
 
 /** The phone says the sentence and listens for the answer: confirmation, refusal, stop, or something else (what was said comes with it). Main thread. */
 suspend fun askAloud(context: Context, sentence: String, speak: suspend (String) -> Boolean = { Speaker.speakNatural(context, it) }): Pair<Reply, String> {
-    if (!speak(sentence)) return Reply.OTHER to ""
+    speak(sentence)    // a voice that fails does not drop the question: the words are on the screen too, the answer is still listened for
     delay(400)   // the end of the voice must not be heard as the answer
     return suspendCancellableCoroutine { cont ->
         val confirm = ConfirmListener(context) { reply, heard -> if (cont.isActive) cont.resume(reply to heard) }
@@ -97,6 +97,14 @@ suspend fun askAloud(context: Context, sentence: String, speak: suspend (String)
  * Nothing is spoken while a listener runs, so the voice (Speaker) is never cut. Music playing on the phone is silent for those seconds.
  */
 class QuietSounds(context: Context) {
+    companion object {
+        /** A listener that was killed (the process, a crash) leaves the music stream muted, and the voice is then silent: given back before the voice speaks. */
+        fun restore(context: Context) {
+            val audio = context.applicationContext.getSystemService(Context.AUDIO_SERVICE) as android.media.AudioManager
+            try { if (audio.isStreamMute(android.media.AudioManager.STREAM_MUSIC)) audio.adjustStreamVolume(android.media.AudioManager.STREAM_MUSIC, android.media.AudioManager.ADJUST_UNMUTE, 0) } catch (err: Exception) { }
+        }
+    }
+
     private val audio = context.applicationContext.getSystemService(Context.AUDIO_SERVICE) as android.media.AudioManager
     private val muted = mutableListOf<Int>()
     private var held = false
