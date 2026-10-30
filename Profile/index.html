@@ -28,7 +28,7 @@ a{color:inherit}
 .bar{grid-area:bar;display:flex;justify-content:space-between;gap:16px}
 .bar span:last-child{color:var(--dim);text-align:right}
 
-.name{grid-area:name;align-self:center;margin:0;color:var(--red);justify-self:start;max-width:100%;box-sizing:border-box;padding:.08em .16em .1em;background:rgba(255,255,255,.06);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);border:1px solid rgba(255,255,255,.35);border-radius:.12em;font-weight:900;line-height:.84;letter-spacing:-.045em;text-transform:uppercase;font-size:clamp(40px,min(21vw,13.5svh),210px);
+.name{grid-area:name;align-self:center;margin:0;mix-blend-mode:difference;font-weight:900;line-height:.84;letter-spacing:-.045em;text-transform:uppercase;font-size:clamp(40px,min(21vw,13.5svh),210px);
   transform:translate(calc(var(--px,0)*-12px),calc(var(--py,0)*-8px));transition:transform .25s ease-out}
 .name .l2{display:block;color:transparent;-webkit-text-stroke:1.5px var(--red);animation:fill 8s ease-in-out infinite}
 @keyframes fill{0%,100%{color:transparent}50%{color:var(--red)}}
