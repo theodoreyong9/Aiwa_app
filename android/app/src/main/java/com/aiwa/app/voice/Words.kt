@@ -18,6 +18,7 @@ object Words {
 
     val MINE = listOf(
         Slot("call", "Réveil", listOf("mon super agent", "heille wa"), "Ce que tu dis pour réveiller le super agent, écran verrouillé ou non : il répond et prend ta demande.", heard = true),
+        Slot("direct", "Envoi direct", listOf("mon agent"), "Ce que tu dis pour que l'agent envoie tout de suite ce que tu lui dictes, sans relecture ni confirmation. (« Mon super agent » discute avec toi et envoie quand tu le lui demandes.)", heard = true),
         Slot("stop", "Stop", listOf("stop claude", "arrête claude"), "Arrête la production en cours et fait oublier à la dernière session le dernier commentaire du super agent.", heard = true),
         Slot("off", "Éteins", listOf("éteins toi"), "Éteint l'écoute permanente et le super agent.", heard = true),
         Slot("confirm", "Validation", listOf("vas-y", "c'est bon", "oui"), "Ce que tu dis pour confirmer ce que le super agent vient de te lire : rien ne part avant.", heard = false),
@@ -47,7 +48,7 @@ object Words {
     fun clearWritten(context: Context, slot: String) { prefs(context).remove("w_$slot") }
 
     /** The spellings of the words chosen by voice, for the small model. */
-    fun customs(context: Context) = WakeCustoms(call = variants(context, "call"), stop = variants(context, "stop"), off = variants(context, "off"))
+    fun customs(context: Context) = WakeCustoms(call = variants(context, "call"), stop = variants(context, "stop"), off = variants(context, "off"), direct = variants(context, "direct"))
 
     /** What Aiwa says for one of its words: the one the person wrote, or the one of origin. */
     fun spoken(context: Context, slot: String): String = written(context, slot).firstOrNull() ?: slot(slot)?.defaults?.first().orEmpty()

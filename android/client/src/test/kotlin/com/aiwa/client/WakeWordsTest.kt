@@ -16,7 +16,7 @@ class WakeWordsTest {
     @Test fun `the words of origin are understood`() {
         assertEquals(WakeKind.CALL, WakeWords.kind("heille wa"))
         assertEquals(WakeKind.CALL, WakeWords.kind("mon super agent"))
-        assertEquals(WakeKind.CALL, WakeWords.kind("mon agent"))
+        assertEquals(WakeKind.DIRECT, WakeWords.kind("mon agent"))
         assertEquals(WakeKind.STOP, WakeWords.kind("stop claude"))
         assertEquals(WakeKind.STOP, WakeWords.kind("arrête la commande"))
         assertEquals(WakeKind.OFF, WakeWords.kind("éteins toi"))

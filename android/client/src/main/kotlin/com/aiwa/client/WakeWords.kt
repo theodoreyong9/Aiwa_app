@@ -2,12 +2,12 @@ package com.aiwa.client
 
 import java.text.Normalizer
 
-/** What the small listening model hears: CALL wakes the super agent, STOP silences it, OFF puts the permanent listening to sleep. */
-enum class WakeKind { CALL, STOP, OFF }
+/** What the small listening model hears: CALL wakes the super agent (a conversation: it sends when asked to), DIRECT wakes the agent that sends at once what is dictated, STOP silences it, OFF puts the permanent listening to sleep. */
+enum class WakeKind { CALL, DIRECT, STOP, OFF }
 
 /** The spellings (as the small model hears them) of the words the person chose; empty lists mean the words of origin only. */
-data class WakeCustoms(val call: List<String> = emptyList(), val stop: List<String> = emptyList(), val off: List<String> = emptyList()) {
-    fun all(): List<String> = call + stop + off
+data class WakeCustoms(val call: List<String> = emptyList(), val stop: List<String> = emptyList(), val off: List<String> = emptyList(), val direct: List<String> = emptyList()) {
+    fun all(): List<String> = call + stop + off + direct
 }
 
 /**
@@ -21,7 +21,8 @@ object WakeWords {
     const val MIN_LETTERS = 5
     const val MAX_VARIANTS = 6
 
-    private val CALL_PAIRS = listOf("heille" to "wa", "haye" to "wa", "mon" to "agent", "super" to "agent")
+    private val CALL_PAIRS = listOf("heille" to "wa", "haye" to "wa", "super" to "agent")
+    private val DIRECT_PAIRS = listOf("mon" to "agent")
     private val STOP_WORDS = setOf("stop", "arrete")
     private val STOP_TARGETS = setOf("claude", "aiwa", "commande")
 
@@ -82,7 +83,9 @@ object WakeWords {
         for (i in 2 until words.size) if (words[i] == "commande" && words[i - 1] == "la" && words[i - 2] in STOP_WORDS) return WakeKind.STOP
         if (customs.stop.isNotEmpty() && heardCustom(heard, customs.stop)) return WakeKind.STOP
         if (words.any { it == "eteins" } || (customs.off.isNotEmpty() && heardCustom(heard, customs.off))) return WakeKind.OFF
+        if (customs.direct.isNotEmpty() && heardCustom(heard, customs.direct)) return WakeKind.DIRECT
         if (customs.call.isNotEmpty() && heardCustom(heard, customs.call)) return WakeKind.CALL
+        for (i in 1 until words.size) if ((words[i - 1] to words[i]) in DIRECT_PAIRS) return WakeKind.DIRECT
         for (i in 1 until words.size) if ((words[i - 1] to words[i]) in CALL_PAIRS) return WakeKind.CALL
         return null
     }
