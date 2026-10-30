@@ -84,3 +84,12 @@ class Point(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class ExtraInstructionTest(unittest.TestCase):
+    def test_a_standing_instruction_is_read_and_may_be_emptied(self):
+        from aiwa_brain import agent_lib
+        self.assertEqual(agent_lib.parse_command({"extra": "  Réponds   court. "}, set())["extra"], "Réponds court.")
+        self.assertEqual(agent_lib.parse_command({"extra": ""}, set())["extra"], "")
+        self.assertEqual(len(agent_lib.parse_command({"extra": "x" * 2000}, set())["extra"]), 600)
+        self.assertIsNone(agent_lib.parse_command({"extra": 5}, set()))

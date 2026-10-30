@@ -5,7 +5,7 @@ import subprocess
 import threading
 import time
 
-from . import agent_lib, asks, config, diagram, files, github, llm_lib, profile_lib, repos, scen_lib, sessions, state
+from . import agent_lib, asks, config, diagram, instructions, files, github, llm_lib, profile_lib, repos, scen_lib, sessions, state
 
 _cache = {}      # ("age", repo, branch) / ("ci", repo) -> (time, value): GitHub is asked at most once in two minutes for the same thing
 CACHE_SECONDS = 120
@@ -176,6 +176,8 @@ def apply_command(command_id):
     if command is None or command["id"] != command_id:
         return {"ok": False, "error": "ces réglages ne sont plus d'actualité"}
     items = command["items"]
+    if "extra" in items:
+        instructions.set_extra(items["extra"])
     if items.get("repo"):
         sessions.focus(items["repo"])
     session = items.get("session")
