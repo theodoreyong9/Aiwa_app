@@ -43,6 +43,9 @@ object AppUpdater {
         else sha to "https://github.com/theodoreyong9/Aiwa_app/releases/download/android-latest/Aiwa_app.apk"
     } catch (e: Exception) { null }
 
+    /** The version name written inside an APK file (null if it cannot be read). */
+    fun archiveVersion(app: Context, file: File): String? = try { app.packageManager.getPackageArchiveInfo(file.absolutePath, 0)?.versionName } catch (e: Exception) { null }
+
     fun installedVersion(app: Context): String? = try { app.packageManager.getPackageInfo(app.packageName, 0).versionName } catch (e: Exception) { null }
 
     /** The installer for a downloaded build. INSTALL_PACKAGE, not VIEW: see below. */
@@ -89,12 +92,23 @@ object AppUpdater {
         else {
             val dir = File(app.cacheDir, "update").apply { mkdirs() }
             val target = File(dir, "Aiwa_app_${sha.take(7)}.apk")
-            if (!target.exists()) {
+            val matched = "$sha ${installedVersion(app)}"
+            if (prefs.getString("matched", null) == matched) null          // already seen: the file of this release IS the installed build (the page was a build ahead of the file)
+            else if (!target.exists()) {
                 dir.listFiles()?.forEach { it.delete() }
                 val part = File(dir, "download.part")
                 get(apkUrl).inputStream.use { input -> part.outputStream().use { input.copyTo(it) } }
                 val head = part.inputStream().use { st -> ByteArray(2).also { st.read(it) } }
-                if (!looksLikeApk(head, part.length())) { part.delete(); null } else { part.renameTo(target); target }
+                if (!looksLikeApk(head, part.length())) { part.delete(); null }
+                else {
+                    // What the file really is, read from the file: the rolling release is recreated at each build, so the file can be a newer build than the commit the page showed a moment before.
+                    val real = archiveVersion(app, part)
+                    if (real != null && real == installedVersion(app)) { part.delete(); prefs.edit().putString("matched", matched).apply(); null }
+                    else {
+                        val named = File(dir, "Aiwa_app_${(real?.substringAfterLast('.') ?: sha).take(7)}.apk")
+                        part.renameTo(named); named
+                    }
+                }
             } else target
         }
     } catch (e: Exception) { null }
@@ -134,6 +148,7 @@ object AppUpdater {
                 }
                 // INSTALL_PACKAGE, not VIEW: only the system's installer answers it. A plain VIEW of a file also matches the applications that take any file
                 // (Termux offers to « save the file in ~/downloads »), which is not an installation.
+                if (archiveVersion(app, file) == installedVersion(app)) { toastOnMain(app, "Aiwa est déjà à jour (${installedVersion(app)})."); file.delete(); return@launch }
                 app.startActivity(installIntent(app, file))
             } catch (e: Exception) {
                 toastOnMain(app, "Mise à jour impossible : ${e.message ?: e.javaClass.simpleName}")
