@@ -13,6 +13,8 @@ import hashlib
 import json
 import re
 
+from . import config
+
 SAY_MAX = 400
 MESSAGE_MAX = 1500
 MAX_TARGETS = 4
@@ -56,7 +58,7 @@ def schema():
     return (
         '{"say":"<ce que tu dis à voix haute, une ou deux phrases courtes>",'
         '"send":[{"repo":"<propriétaire/nom du dépôt>","session":"<session_… si tu vises une session précise>","message":"<le message à lui envoyer>"}],'
-        '"do":{"repo":"<propriétaire/nom>","session":"<session_… ou nouvelle>","open":"<' + OPEN_LIST + '>","cast":{"tv":"<nom de la TV, ou vide>","wait":false},"extra":"<consigne durable donnée aux sessions, ou vide pour l\'effacer>","rename":{"session":"<session_… ou vide pour la session en cours>","title":"<nouveau nom>"}}}'
+        '"do":{"repo":"<propriétaire/nom>","session":"<session_… ou nouvelle>","open":"<' + OPEN_LIST + '>","cast":{"tv":"<nom de la TV, ou vide>","wait":false},"extra":"<consigne durable donnée aux sessions, ou vide pour l\'effacer>","rename":{"session":"<session_… ou vide pour la session en cours>","title":"<nouveau nom>"},"model":"<opus, sonnet, haiku, un identifiant, ou auto>","effort":"<low, medium, high, xhigh, max, ou auto>","push":"<direct ou branche>"}}'
     )
 
 
@@ -190,6 +192,25 @@ def parse_command(raw, known_ids):
         out["session"] = session
     if isinstance(raw.get("extra"), str):
         out["extra"] = _clean(raw["extra"], 600)      # a standing instruction for the sessions (empty: forgotten)
+    model = raw.get("model")
+    if isinstance(model, str):
+        value = _clean(model, 64)
+        if value.lower() in ("auto", "automatique", "défaut", "defaut", ""):
+            out["model"] = ""
+        elif config.MODEL_RE.fullmatch(value):
+            out["model"] = value                      # what `claude --model` takes: an alias (opus, sonnet, haiku) or an identifier
+    effort = raw.get("effort")
+    if isinstance(effort, str):
+        value = _clean(effort, 20).lower()
+        if value in ("auto", "automatique", ""):
+            out["effort"] = ""
+        elif value in config.EFFORT_LEVELS:
+            out["effort"] = value
+    push = raw.get("push")
+    if isinstance(push, bool):
+        out["push"] = push
+    elif isinstance(push, str) and push.strip().lower() in ("direct", "branche"):
+        out["push"] = push.strip().lower() == "direct"
     rename = raw.get("rename")
     if isinstance(rename, str):
         rename = {"title": rename}
@@ -224,6 +245,16 @@ def command_phrase(command, title_of=lambda x: x):
     if cast:
         tv = f" « {cast['tv']} »" if cast.get("tv") else ""
         spoken.append(("la prochaine vidéo sur la télévision" if cast.get("wait") else "la dernière vidéo sur la télévision") + tv)
+    if "model" in command:
+        spoken.append("le modèle " + (command["model"] or "automatique"))
+    if "effort" in command:
+        spoken.append("l'effort " + (command["effort"] or "automatique"))
+    if "push" in command:
+        spoken.append("le push direct" if command["push"] else "le push sur la branche seulement")
+    if command.get("rename"):
+        spoken.append("le nom « " + command["rename"]["title"] + " » pour la session")
+    if "extra" in command:
+        spoken.append("ta consigne : " + command["extra"] if command["extra"] else "ta consigne effacée")
     return "J'applique : " + ", ".join(spoken) + "."
 
 

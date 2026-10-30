@@ -178,6 +178,14 @@ def apply_command(command_id):
     items = command["items"]
     if "extra" in items:
         instructions.set_extra(items["extra"])
+    if "model" in items or "effort" in items or "push" in items:
+        from . import server       # the same settings as the widget's: one place decides what is valid
+        if "model" in items:
+            server._set_model(items["model"])
+        if "effort" in items:
+            server._set_effort(items["effort"])
+        if "push" in items:
+            server._set_options({"push_main": items["push"]})
     if items.get("rename"):
         with state.lock:
             target = items["rename"].get("session") or state.current_cloud
