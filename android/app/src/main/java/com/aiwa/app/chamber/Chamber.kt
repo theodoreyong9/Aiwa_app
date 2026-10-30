@@ -88,7 +88,7 @@ object ChamberActions {
         when {
             closed -> ChamberHost.send(context, JSONObject().put("cmd", "visit").put("repo", repo))
             status.optString("room") == repo -> ChamberHost.send(context, JSONObject().put("cmd", "close"))
-            else -> toastOnMain(context, "Tu es déjà dans une autre chambre : ferme-la d'abord.")
+            else -> { ChamberHost.send(context, JSONObject().put("cmd", "close")); toastOnMain(context, "L'ancienne chambre est fermée : touche encore pour entrer ici.") }     // never stuck on a room that is not there
         }
     }
 
@@ -104,7 +104,7 @@ object ChamberActions {
                 when {
                     mode == "closed" -> ChamberHost.send(context, JSONObject().put("cmd", "open").put("repo", here))
                     status.optString("room") == here -> ChamberHost.send(context, JSONObject().put("cmd", "close"))
-                    else -> toastOnMain(context, "Tu es déjà dans une autre chambre : ferme-la d'abord.")
+                    else -> { ChamberHost.send(context, JSONObject().put("cmd", "close")); toastOnMain(context, "L'ancienne chambre est fermée : touche encore pour ouvrir la tienne.") }
                 }
             }
             "roomtalk" -> when {

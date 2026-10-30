@@ -32,6 +32,7 @@ object CellModels {
             snap.link == Link.MISSING -> CellModel("Installation manquante", "red")
             needsSetup -> CellModel("Autoriser Aiwa", "red")
             status?.claudeLogin == "needed" -> CellModel("Connecter Claude", "red")
+            status != null && !status.githubToken -> CellModel("Connecter GitHub", "red")          // right after Claude, on the same button
             agentNeeds -> CellModel(if (status?.lastSend?.startsWith("ÉCHEC") == true) "Envoi échoué : touche pour voir" else "Il a quelque chose à dire", "red", on = true)
             snap.agentOpen -> CellModel("Super agent · à l'écoute", "green", on = true)
             snap.link == Link.DOWN || snap.link == Link.STARTING -> CellModel("Cerveau en route…", "grey")
@@ -50,7 +51,7 @@ object CellModels {
         out["reposession"] = CellModel("Changer de session", "grey", enabled = single)
         val drawing = status?.diagramOn == true
         out["diagram"] = CellModel(if (drawing) "Schéma actif" else "Schéma", if (drawing) "green" else "grey", on = drawing)
-        out["scope"] = if (status != null && !status.githubToken) CellModel("Connecter GitHub", "red") else CellModel(FilesScope.label(context, status?.repo) + " ▾", "green")
+        out["scope"] = CellModel(FilesScope.label(context, status?.repo) + " ▾", if (status?.githubToken == false) "grey" else "green")
         for ((kind, label) in listOf("docs" to "Docs", "image" to "Images", "video" to "Vidéos", "app" to "Apps", "page" to "Pages")) {
             val found = (snap.fileCounts[kind] ?: 0) > 0
             out[kind] = CellModel(label, if (found) "green" else "grey", enabled = found)

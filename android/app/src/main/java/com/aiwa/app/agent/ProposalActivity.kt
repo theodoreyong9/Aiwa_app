@@ -50,7 +50,11 @@ class ProposalActivity : FloatActivity() {
                 entry("Appliquer", "C'est bon") { CoroutineScope(Dispatchers.Main).launch { AgentScreens.apply(applicationContext, command); finish() } }
                 entry("Annuler", "Rien n'est changé") { drop(command.id) }
             }
-            view?.say != null -> { note(view!!.say!!.text, Palette.TEXT); entry("Fermer") { finish() } }
+            view?.say != null -> {
+                val say = view!!.say!!
+                note(say.text, Palette.TEXT)
+                entry("Lu", "L'agent ne le redira plus") { CoroutineScope(Dispatchers.Main).launch { withContext(Dispatchers.IO) { Aiwa.brain.agentSpoken(say.id); BrainSync.refresh() }; finish() } }
+            }
             else -> { note("Rien n'attend de toi."); entry("Fermer") { finish() } }
         }
     }

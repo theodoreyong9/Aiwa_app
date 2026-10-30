@@ -27,10 +27,12 @@ class OpenClaudeActivity : ComponentActivity() {
         wakeAiwa(applicationContext)
         val known = Aiwa.state.value.let { it.sessionId != null || it.status?.lastSession != null }
         if (known && open()) { finish(); return }
+        if (!known && Aiwa.state.value.status != null) { toastOnMain(this, "Aucune session n'est rattachée à ce dépôt : dis ta commande au super agent, il en crée une."); finish(); return }
         // No session known: the process may have restarted since the widget last drew, so ask the brain which one is current (a session if there is one, else Claude's Code tab).
         CoroutineScope(Dispatchers.Main).launch {
             withContext(Dispatchers.IO) { BrainSync.refresh() }
-            if (!open()) toastOnMain(this@OpenClaudeActivity, "Impossible d'ouvrir l'appli Claude.")
+            if (Aiwa.state.value.let { it.sessionId == null && it.status?.lastSession == null }) toastOnMain(this@OpenClaudeActivity, "Aucune session n'est rattachée à ce dépôt : dis ta commande au super agent, il en crée une.")
+            else if (!open()) toastOnMain(this@OpenClaudeActivity, "Impossible d'ouvrir l'appli Claude.")
             finish()
         }
     }
