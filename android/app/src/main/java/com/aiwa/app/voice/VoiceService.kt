@@ -28,6 +28,7 @@ import com.aiwa.client.AgentView
 import com.aiwa.client.Reply
 import com.aiwa.client.Scenario
 import com.aiwa.client.Spoken
+import com.aiwa.client.WakeWords
 import com.aiwa.client.WakeKind
 import com.aiwa.client.isQuestion
 import kotlinx.coroutines.CoroutineScope
@@ -55,6 +56,7 @@ import org.vosk.SpeakerModel
  */
 class VoiceService : Service() {
     companion object {
+        private val OFF_PHRASE = Regex("^(?:aiwa )?(?:eteins toi|eteins agent|ferme agent|quitte agent|ferme toi|a toute|au revoir|eteins)$")
         private const val CHANNEL_ID = "aiwa_listen"
         private const val NOTIFICATION_ID = 7
         private const val ACTION_STOP = "com.aiwa.app.LISTEN_STOP"
@@ -115,6 +117,7 @@ class VoiceService : Service() {
     private var scenarioPoll: Job? = null
     private var liveWatch: Job? = null
     private var bargeIn: BargeIn? = null
+    private var preConfirmed = false
     private val convo = ArrayDeque<Pair<Boolean, String>>()
     private var openWhenReady = false
 
@@ -227,6 +230,8 @@ class VoiceService : Service() {
         scenario = pendingScenario; pendingScenario = null
         Aiwa.update { it.copy(agentOpen = true) }
         AiwaWidget.render(applicationContext, force = true)
+        LiveBubble.askOnce(applicationContext)
+        QuietSounds.restore(applicationContext)
         scope.launch {
             Speaker.resetInterrupt()
             val name = scenario?.name
@@ -245,6 +250,7 @@ class VoiceService : Service() {
         scenarioPoll?.cancel(); scenarioPoll = null; scenario = null
         liveWatch?.cancel(); liveWatch = null
         stopBarge()
+        LiveBubble.hide()
         Aiwa.update { it.copy(agentOpen = false) }
         AiwaWidget.render(applicationContext, force = true)
         if (ListenSettings.enabled(this) && model != null) listen() else if (!ListenSettings.enabled(this)) stopSelf()
@@ -273,20 +279,34 @@ class VoiceService : Service() {
         if (!agentMode) return
         working = true
         showLine(text)
+        // « … c'est bon vas-y » said in the same breath as the order: it is the confirmation, the read-back is not asked again.
+        // the words are the ones of the settings (Validation) and the ones of origin
+        val words = text.trim().split(Regex("\\s+"))
+        val extra = Words.extraConfirm(applicationContext)
+        val cut = (1..minOf(4, words.size - 1)).firstOrNull { k ->
+            val tail = words.takeLast(k).joinToString(" ")
+            Spoken.reply(tail) == Reply.CONFIRM || WakeWords.plain(tail).let { it.isNotEmpty() && it in extra }
+        }
+        val order = if (cut != null) words.dropLast(cut).joinToString(" ").trim() else text
+        preConfirmed = cut != null && order.isNotBlank()
         try {
             val scenarioNow = scenario
             when {
+                OFF_PHRASE.containsMatchIn(WakeWords.plain(order.replace('-', ' '))) -> { Speaker.speakNatural(applicationContext, Words.spoken(applicationContext, "asleep")); closeAgent(); return }
                 Spoken.reply(text) == Reply.STOP -> { stopEverything(); Speaker.speakNatural(applicationContext, "D'accord.") }
                 scenarioNow != null -> talkToScenario(scenarioNow, text)
                 LiveSettings.enabled(applicationContext) -> live(text)
-                isQuestion(text) -> answerAloud(text)
-                else -> turn(text)
+                isQuestion(order) -> answerAloud(order)
+                else -> turn(order)
             }
+        } catch (err: kotlinx.coroutines.CancellationException) {
+            // the turn was cut short (not an error to show): the microphone must come back, or the widget stays green with nobody listening
         } catch (err: Exception) {
             toastOnMain(applicationContext, "Super agent : ${err.message ?: err.javaClass.simpleName}")
         } finally {
+            preConfirmed = false
             working = false
-            if (agentMode) { delay(300); listenAgent() }
+            withContext(kotlinx.coroutines.NonCancellable) { if (agentMode) { delay(300); listenAgent() } }
         }
     }
 
@@ -296,7 +316,7 @@ class VoiceService : Service() {
         val said = StringBuilder()
         startBarge()
         val speaking = scope.launch { Speaker.speakFlow(applicationContext, sentences) }
-        val ok = withContext(Dispatchers.IO) { Aiwa.brain.answerStream(text) { s -> said.append(s).append(' '); sentences.trySend(s) } }
+        val ok = withContext(Dispatchers.IO) { Aiwa.brain.answerStream(text) { s -> said.append(s).append(' '); sentences.trySend(s); LiveBubble.said(applicationContext, false, s) } }
         sentences.close()
         speaking.join()
         stopBarge()
@@ -322,28 +342,42 @@ class VoiceService : Service() {
         agent?.command?.let { c ->
             if (c.auto) AgentScreens.apply(applicationContext, c)
             else {
-                val (reply, heard) = askAloud(applicationContext, c.readBack + " C'est bon ?")
+                showLine(c.readBack + " C'est bon ?", mine = false)
+                val (reply, heard) = if (preConfirmed) Reply.CONFIRM to "" else askAloud(applicationContext, c.readBack + " C'est bon ?")
                 when (reply) {
                     Reply.CONFIRM -> AgentScreens.apply(applicationContext, c)
-                    Reply.OTHER -> { withContext(Dispatchers.IO) { Aiwa.brain.agentCancel(c.id) }; if (heard.isNotBlank()) { turn(heard); return } }
+                    Reply.OTHER -> if (heard.isNotBlank()) { withContext(Dispatchers.IO) { Aiwa.brain.agentCancel(c.id) }; turn(heard); return } else toastOnMain(applicationContext, "Je n'ai rien entendu : la proposition attend, touche le bouton rouge du widget.")
                     else -> withContext(Dispatchers.IO) { Aiwa.brain.agentCancel(c.id) }
                 }
             }
         }
         agent = AgentVoice.fresh()
         agent?.proposal?.let { p ->
-            val (reply, heard) = askAloud(applicationContext, p.readBack + " On y va ?")
+            showLine(p.readBack + " On y va ?", mine = false)
+            val (reply, heard) = if (preConfirmed) { preConfirmed = false; Reply.CONFIRM to "" } else askAloud(applicationContext, p.readBack + " On y va ?")
             when (reply) {
                 Reply.CONFIRM -> {
                     Speaker.speakNatural(applicationContext, "C'est parti.")
-                    val sent = withContext(Dispatchers.IO) { Aiwa.brain.agentConfirm(p.id) }
-                    if (!sent.ok) Speaker.speakNatural(applicationContext, sent.error ?: "Le message n'est pas parti.")
-                    withContext(Dispatchers.IO) { BrainSync.refresh() }
-                    AiwaWidget.render(applicationContext, force = true)
+                    sendInBackground(p.id)
+                    closeAgent()      // the order is given: the agent goes back to sleep (the button of the widget with it), the wake word calls it again
                 }
-                Reply.OTHER -> { withContext(Dispatchers.IO) { Aiwa.brain.agentCancel(p.id) }; if (heard.isNotBlank()) turn(heard) }
+                Reply.OTHER -> if (heard.isNotBlank()) { withContext(Dispatchers.IO) { Aiwa.brain.agentCancel(p.id) }; turn(heard) } else toastOnMain(applicationContext, "Je n'ai rien entendu : la proposition attend, touche le bouton rouge du widget.")
                 else -> { withContext(Dispatchers.IO) { Aiwa.brain.agentCancel(p.id) }; Speaker.speakNatural(applicationContext, "J'annule.") }
             }
+        }
+    }
+
+    /** The sending can last minutes (the cloud machine has to start): the ear comes back at once, and the outcome is told on the screen when it is known. */
+    private fun sendInBackground(proposalId: String) {
+        scope.launch {
+            val sent = withContext(Dispatchers.IO) { Aiwa.brain.agentConfirm(proposalId) }
+            if (!sent.ok) {
+                val why = if (sent.error == "busy") "un envoi est déjà en cours" else sent.error ?: "le message n'est pas parti"
+                toastOnMain(applicationContext, "Envoi : $why")
+                if (agentMode) showLine("Le message n'est pas parti : $why", mine = false)
+            }
+            withContext(Dispatchers.IO) { BrainSync.refresh() }
+            AiwaWidget.render(applicationContext, force = true)
         }
     }
 
@@ -354,7 +388,7 @@ class VoiceService : Service() {
         val sentences = kotlinx.coroutines.channels.Channel<String>(kotlinx.coroutines.channels.Channel.UNLIMITED)
         val speaking = scope.launch { Speaker.speakFlow(applicationContext, sentences) }
         startBarge()
-        withContext(Dispatchers.IO) { Aiwa.brain.liveStream(text) { s -> sentences.trySend(s) } }
+        withContext(Dispatchers.IO) { Aiwa.brain.liveStream(text) { s -> sentences.trySend(s); LiveBubble.said(applicationContext, false, s) } }
         sentences.close()
         speaking.join()
         stopBarge()
@@ -415,6 +449,7 @@ class VoiceService : Service() {
         if (text.isBlank()) return
         if (!partial) { convo.addLast(mine to text.trim()); while (convo.size > 4) convo.removeFirst() }
         val lines = convo.map { (me, t) -> (if (me) "▸ " else "◂ ") + t } + (if (partial) listOf("▸ $text …") else emptyList())
+        if (agentMode) { if (partial) LiveBubble.partial(this, text) else LiveBubble.said(this, mine, text.trim()) }
         say(lines.joinToString("\n"))
     }
 
@@ -447,7 +482,7 @@ class VoiceService : Service() {
 
     override fun onDestroy() {
         instance = null
-        listener?.stop(); detector?.stop(); stopBarge()
+        listener?.stop(); detector?.stop(); stopBarge(); LiveBubble.hide()
         try { model?.close() } catch (err: Throwable) { }
         try { speakerModel?.close() } catch (err: Throwable) { }
         try { lock?.takeIf { it.isHeld }?.release() } catch (err: Exception) { }

@@ -34,6 +34,15 @@ class SettingsActivity : FloatActivity() {
 
     private fun open(cls: Class<*>) = startActivity(Intent(this, cls))
 
+    /** The next value of a short list (the first after the last one); the brain keeps it, the window shows it again. */
+    private fun cycle(choices: List<String?>, now: String?, set: (String?) -> Unit) {
+        val next = choices[(choices.indexOf(now).let { if (it < 0) 0 else it } + 1) % choices.size]
+        kotlinx.coroutines.CoroutineScope(kotlinx.coroutines.Dispatchers.Main).launch {
+            kotlinx.coroutines.withContext(kotlinx.coroutines.Dispatchers.IO) { set(next); com.aiwa.app.brain.BrainSync.refresh() }
+            reload()
+        }
+    }
+
     override fun fill() {
         note("Vie privée", Palette.GOLD)
         switch("Se cacher", "Tes liens ne sont pas montrés aux gens à proximité.", !VoirSettings.on(this)) { VoirSettings.setOn(this, !it) }
@@ -51,6 +60,17 @@ class SettingsActivity : FloatActivity() {
         switch("Voix naturelle", "Sinon, la voix du téléphone parle.", NaturalVoice.enabled(this)) { NaturalVoice.setEnabled(this, it) }
         switch("Création à la volée", "Le super agent suit ce que tu dis pendant que tu construis, sans relecture.", LiveSettings.enabled(this)) { LiveSettings.set(this, it) }
         switch("« C'est prêt »", "Dit à voix haute qu'une production vient d'arriver.", ReadySettings.enabled(this)) { ReadySettings.set(this, it) }
+
+        note("Sessions", Palette.GOLD)
+        val status = Aiwa.state.value.status
+        entry("Modèle", (status?.model ?: "automatique") + " : touche pour changer (ou dis-le à ton agent)") { cycle(listOf(null, "opus", "sonnet", "haiku"), status?.model) { m -> Aiwa.brain.setModel(m) } }
+        entry("Effort", (status?.effort ?: "automatique") + " : touche pour changer (ou dis-le à ton agent)") { cycle(listOf(null, "low", "medium", "high", "xhigh", "max"), status?.effort) { e -> Aiwa.brain.setEffort(e) } }
+        switch("Push direct", "Quand c'est fini, la session intègre son travail dans la branche principale ; sinon il reste sur sa branche.", status?.pushMain ?: true) { on ->
+            kotlinx.coroutines.CoroutineScope(kotlinx.coroutines.Dispatchers.IO).launch { Aiwa.brain.setPushMain(on); com.aiwa.app.brain.BrainSync.refresh() }
+        }
+
+        note("Widget", Palette.GOLD)
+        entry("Fond du widget", com.aiwa.app.widget.WidgetBackground.label(this) + " : touche pour changer") { com.aiwa.app.widget.WidgetBackground.next(this); reload() }
 
         note("Comptes", Palette.GOLD)
         entry("Clés et plafonds", "Ta clé Anthropic, son plafond du jour, ton jeton GitHub.") { open(KeysActivity::class.java) }

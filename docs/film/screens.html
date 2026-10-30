@@ -56,7 +56,7 @@ function phoneScreen(t){const s=phoneState(t),W=715,H=1470;
   <div style="position:absolute;left:36px;right:36px;bottom:90px;height:130px;border-radius:44px;background:#ffffff18;border:2px solid #ffffff30;display:flex;justify-content:space-around;align-items:center">${['#7b8cff','#ea4335','#25d366','#2aa3ef'].map(c=>`<div style="width:90px;height:90px;border-radius:26px;background:${c};opacity:.85"></div>`).join('')}</div>
   ${s.listen?`<div style="position:absolute;left:0;right:0;top:360px;text-align:center;font-size:60px;font-weight:600;opacity:${eo(ramp(u,.1,.7))*(1-ramp(u,2.4,3.1))}">J'écoute<span style="color:#52d6a0">.</span></div>`:''}
   ${s.wave?waveSVG(t):''}`}
- const ripple=(t>=T.cast[0]&&t<T.cast[0]+1.6)?`<div style="position:absolute;left:${W/2-60-ramp(t,T.cast[0],T.cast[0]+1.6)*500}px;top:${H/2-60-ramp(t,T.cast[0],T.cast[0]+1.6)*500}px;width:${120+ramp(t,T.cast[0],T.cast[0]+1.6)*1000}px;height:${120+ramp(t,T.cast[0],T.cast[0]+1.6)*1000}px;border-radius:50%;border:8px solid #9db8ff;opacity:${1-ramp(t,T.cast[0],T.cast[0]+1.6)}"></div>`:'';
+ const ripple='';
  return wall+bar+body+ripple}
 function waveSVG(t){let b='';for(let i=0;i<32;i++){const a=(Math.sin(i*.7+t*9)*.5+Math.sin(i*1.3-t*6)*.5)*.5+.5,h=16+a*120*Math.sin(i/32*Math.PI);b+=`<rect x="${70+i*17.5}" y="${430-h/2}" width="9" height="${h}" rx="4" fill="${i%2?'#6b9bf5':'#a77bd6'}"/>`}return `<svg style="position:absolute;left:0;top:0" width="715" height="1470">${b}</svg>`}
 
@@ -96,9 +96,13 @@ function renderTV(t){const root=$('root');root.style.width='1920px';root.style.h
  if(t<T.tvContract[0]-.1){const nm=drawShapes(t,ctx);const u=t-T.tvShapes[0];extra+=`<div class="big" style="top:760px;font-size:96px;opacity:${eo(ramp(u,.1,.5))}">${nm}</div>`}
  else if(t<T.cast[0]){const u=t-T.tvContract[0],code=['export default {','  init: () => ({ total: 0 }),','  apply(state, event) {','    state.total += event.amount','    return state','  }','}'];const nn=Math.floor(Math.max(0,u-.2)*34);let used=0,o='';code.forEach((l,i)=>{const take=Math.max(0,Math.min(l.length,nn-used));used+=l.length+1;o+=`<span class="dm">${i+1}</span>  ${l.slice(0,take).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/(export|default|return)/g,'<span class="am">$1</span>').replace(/(total)/g,'<span class="ok">$1</span>')}\n`});
   const tv=T.tvContract[1],show=1-ramp(t,T.rise[0]+1,T.rise[0]+2);extra+=`<div class="term" style="left:260px;top:140px;width:1400px;height:640px;font-size:42px;opacity:${eo(ramp(u,0,.4))*show}">${o}</div><div style="position:absolute;left:1180px;top:700px;padding:16px 36px;border-radius:70px;background:linear-gradient(#ffffff38,#ffffff10);border:2px solid #ffffff60;font-size:44px;font-weight:600;color:#52e0a0;opacity:${eo(ramp(u,1.5,2.0))*show}">signé ✓ · rejoué = même état</div>`}
- // the cast: the screen of the phone comes to the television
- if(t>=T.cast[0]-.2&&t<T.net[0]+8){const v=eo(ramp(t,T.cast[0]+.4,T.cast[0]+1.6));extra+=`<div style="position:absolute;left:${960-662*.62/2}px;top:${40}px;width:662px;height:1470px;transform:scale(${.62*v+.3*(1-v)});transform-origin:50% 0;opacity:${v};border-radius:104px;overflow:hidden;box-shadow:0 0 120px #6b9bf588"><img src="file://${PHDIR}/${String(Math.min(1607,Math.round(t*24))).padStart(5,'0')}.jpg" style="width:662px;height:1470px;display:block"></div>`;
-  extra+=`<div style="position:absolute;left:0;top:0;right:0;bottom:0;background:radial-gradient(circle at 50% 50%,transparent ${(1-v)*60}%,#04050a${Math.round((1-v)*255).toString(16).padStart(2,'0')} 100%)"></div>`}
+ // the schema: the super agent draws it on the television while it speaks (the phone stays dark in the meantime)
+ if(t>=T.cast[0]-.2&&t<T.net[0]+3.2){const u=t-T.cast[0],v=eo(ramp(t,T.cast[0],T.cast[0]+.7))*(1-ramp(t,T.net[0]+1.6,T.net[0]+3.0));
+  const N=[['Toi',300,540,'#9db8ff'],['Super agent',880,270,'#35f08a'],['Session',880,810,'#ff9a5c'],['Résultat',1480,540,'#ffe27a']],E2=[[0,1],[0,2],[1,3],[2,3]];
+  let g=`<svg width="1920" height="1080" style="position:absolute;left:0;top:0">`;
+  E2.forEach(([i,j],k)=>{const A=N[i],B=N[j],p=eo(ramp(u,.5+k*.6,1.3+k*.6));g+=`<line x1="${A[1]}" y1="${A[2]}" x2="${A[1]+(B[1]-A[1])*p}" y2="${A[2]+(B[2]-A[2])*p}" stroke="#ffffffcc" stroke-width="7" stroke-linecap="round"/>`});
+  N.forEach(([n,x,y,col],i)=>{const p=eo(ramp(u,.1+i*.45,.7+i*.45));g+=`<g opacity="${p}"><rect x="${x-190}" y="${y-62}" width="380" height="124" rx="40" fill="#070a1c"/><rect x="${x-190}" y="${y-62}" width="380" height="124" rx="40" fill="${col}2a" stroke="${col}" stroke-width="6"/><text x="${x}" y="${y+18}" text-anchor="middle" fill="#fff" font-family="SG" font-size="52" font-weight="600">${n}</text></g>`});
+  extra+=`<div style="position:absolute;inset:0;opacity:${v}"><div class="k" style="left:96px;top:92px;font-size:28px">Schéma · dessiné pendant qu'il parle</div>${g}</svg></div>`}
  // a profile found nearby
  if(t>=T.profileTV[0]-.4&&t<T.closed[1]){const u=t-T.profileTV[0],v=eo(ramp(u,-.4,.5))*(1-ramp(t,T.closed[0]+1,T.closed[0]+2.5));const b=blobCanvas(t,.05+.95*eo(ramp(u,0,1.4)),[.5+Math.sin(u*.8)*.25,.5]);if(b){ctx.save();ctx.globalAlpha=v;ctx.globalCompositeOperation='lighter';ctx.drawImage(b,960,0,960,1080);ctx.restore()}
   extra+=`<div class="big" style="left:90px;right:auto;text-align:left;top:260px;font-size:200px;font-weight:900;text-transform:uppercase;letter-spacing:-.05em;line-height:.86;opacity:${v}">vibe<br>anna</div><div class="k" style="left:96px;top:120px;font-size:26px;opacity:${v}">Profil découvert · à 120 m</div>
@@ -111,6 +115,23 @@ const lerpC=(a,b,k)=>{const x=hex(a),y=hex(b);return rgb(x.map((v,i)=>mix(v,y[i]
 const ease=eio,pill=(x,y,txt,col,o={})=>`<div style="position:absolute;left:${x}px;top:${y}px;padding:${o.py||14}px ${o.px||30}px;border-radius:60px;background:${o.bg||'linear-gradient(#ffffff2e,#ffffff10)'};border:2px solid ${col||'#ffffff50'};font-size:${o.fs||38}px;font-weight:600;white-space:nowrap;opacity:${o.a??1};${o.extra||''}">${txt}</div>`;
 function typed(txt,u,speed=34){const n=Math.floor(Math.max(0,u)*speed);return txt.slice(0,n)+(n<txt.length&&u>0?'<span style="opacity:.6">▍</span>':'')}
 function gauge(x,y,r,val,label,col){const C=2*Math.PI*r,v=clamp(val/100);return `<div style="position:absolute;left:${x}px;top:${y}px;width:${r*2+30}px;text-align:center"><svg width="${r*2+30}" height="${r*2+30}" viewBox="-15 -15 ${r*2+30} ${r*2+30}"><circle cx="${r}" cy="${r}" r="${r}" fill="none" stroke="#ffffff22" stroke-width="16"/><circle cx="${r}" cy="${r}" r="${r}" fill="none" stroke="${col}" stroke-width="16" stroke-linecap="round" stroke-dasharray="${C*v} ${C}" transform="rotate(-90 ${r} ${r})" style="filter:drop-shadow(0 0 14px ${col})"/></svg><div style="position:absolute;left:0;right:0;top:${r-34}px;font-size:${r*.78}px;font-weight:700;line-height:1">${Math.round(val)}</div><div class="k" style="position:static;margin-top:6px;font-size:28px;letter-spacing:.2em">${label}</div></div>`}
+function sceneApp(u,ctx,a){  // the own application, restyled by voice while it runs
+ const k1=ease(ramp(u,1.2,1.9)),k2=ease(ramp(u,3.0,3.7));
+ const c1=lerpC(lerpC('#6b4fd6','#1fbf8f',k1),'#ff8a3d',k2),c2=lerpC(lerpC('#2b3f8f','#0e6e6e',k1),'#b02e6a',k2);
+ const skew=Math.round(mix(mix(24,0,k1),-18,k2)),rad=mix(mix(14,40,k1),8,k2);
+ const prompts=[['“Mets mon accueil en vert, avec des boutons ronds.”',0.1],['“Maintenant en orange, et mon objet en chrome plus grand.”',2.0]];
+ let h=`<div class="k" style="left:96px;top:92px;font-size:28px;opacity:${a}">Ton application · en temps réel</div>`;
+ // the application: a window of the home, drawn with the palette of the moment
+ const X=980,Y=150,W=860,H=780;
+ h+=`<div style="position:absolute;left:${X}px;top:${Y}px;width:${W}px;height:${H}px;border-radius:${rad+22}px;overflow:hidden;background:radial-gradient(700px 500px at 30% 20%,${c2},transparent 70%),radial-gradient(600px 500px at 90% 90%,${c1}99,transparent 70%),#080a1c;border:3px solid ${c1}88;box-shadow:0 0 120px ${c1}55;opacity:${a}">
+  <div style="position:absolute;left:44px;top:34px;font-size:46px;font-weight:700">Mon accueil</div><div class="k" style="left:46px;top:100px;font-size:22px">anna · Aiwa</div>
+  <div style="position:absolute;left:44px;top:560px;display:flex;gap:12px;flex-wrap:wrap;width:780px">${[['green','page','Page'],['blue','docs','Docs'],['violet','app','App'],['orange','media','Films']].map(x=>`<div style="position:relative;width:180px;height:92px;border-radius:${rad}px;overflow:hidden">${cellH(0,0,180,92,'grey',x[1],x[2],{fs:30,skew:Math.max(0,skew)}).replace('linear-gradient(180deg','linear-gradient(180deg,'+c1+'cc,'+c1+'66);background:linear-gradient(180deg')}</div>`).join('')}</div>
+  <div style="position:absolute;left:44px;top:680px;display:flex;gap:14px"><div style="padding:18px 26px;border-radius:${rad}px;background:#ffffff16;border:2px solid ${c1}66;font-size:28px">▶ Veille de prix</div><div style="padding:18px 26px;border-radius:${rad}px;background:#ffffff16;border:2px solid ${c1}66;font-size:28px">▶ Résumé du matin</div></div></div>`;
+ const b=blobCanvas(s_global,.5+.5*ease(ramp(u,3.0,4.2)),[.5+Math.sin(u*.8)*.25,.5]);if(b){const sc=mix(.8,1.18,ease(ramp(u,3.0,4.2))),cx=X+W/2+60,cy=Y+345,R=185*sc;ctx.save();ctx.globalAlpha=a;ctx.beginPath();ctx.arc(cx,cy,R,0,7);ctx.clip();ctx.globalCompositeOperation='lighter';ctx.drawImage(b,cx-480*sc*.74,cy-270*sc*.74,960*sc*.74,540*sc*.74);ctx.restore()}
+ // the voice that asks: typed on the left
+ prompts.forEach(([txt,t0],i)=>{const on=u>=t0,gone=i===0&&u>1.95;if(on)h+=`<div style="position:absolute;left:96px;top:${230+i*250}px;width:800px;font-size:44px;font-weight:600;line-height:1.25;opacity:${a*(gone?.45:1)}"><span style="color:#35f08a">🎙</span> ${typed(txt,u-t0)}</div>`});
+ [[1.9,'✓ déployé · vert'],[3.7,'✓ déployé · orange']].forEach(([t0,txt],i)=>{if(u>=t0)h+=pill(96,i?640:380,txt,'#35f08a88',{fs:34,a:a*ease(ramp(u,t0,t0+.3)),extra:'color:#35f08a'})});
+ return h}
 function sceneHome(u,ctx,a){  // « Découvre tes potentiels matchs, personnel et professionnel »: the profiles around, each one noted PRO and PERSO by one's own super agent
  let h=`<div class="k" style="left:96px;top:92px;font-size:28px;opacity:${a}">Tes matchs · autour de toi</div>
  <div class="big" style="left:90px;right:auto;text-align:left;top:190px;font-size:150px;font-weight:900;text-transform:uppercase;letter-spacing:-.05em;line-height:.86;opacity:${a}">pro<br>&amp; perso</div>`;
@@ -129,19 +150,6 @@ function sceneHome(u,ctx,a){  // « Découvre tes potentiels matchs, personnel e
  h+=pill(100,810,'noté par ton super agent',lerpC('#ffffff','#9db8ff',.5)+'66',{fs:30,a:a*ease(ramp(u,1.8,2.3))});
  return h}
 let s_global=0;
-function sceneProfiles(u,ctx,a){  // the profile of someone else: the score of one's own super agent, and the scenarios shared
- const cnt=ease(ramp(u,.5,1.9));
- let h=`<div class="k" style="left:96px;top:92px;font-size:28px;opacity:${a}">Profil d'Anna · à 120 m</div>
- <div class="big" style="left:90px;right:auto;text-align:left;top:170px;font-size:150px;font-weight:900;text-transform:uppercase;letter-spacing:-.05em;line-height:.86;opacity:${a}">vibe<br>anna</div>`;
- h+=`<div style="opacity:${a}">${gauge(110,500,88,72*cnt,'PRO','#35f08a')}${gauge(430,500,88,41*cnt,'PERSO','#e8c14a')}</div>`;
- h+=pill(100,820,'ton super agent la note · rien n’est envoyé',lerpC('#ffffff','#9db8ff',.5)+'66',{fs:32,a:a*ease(ramp(u,1.6,2.1))});
- // scenarios that leave her page and land in the own list
- const cards=[['Veille de prix','#52d6a0'],['Résumé du matin','#6b9bf5'],['Relance clients','#e8c14a']];
- h+=`<div class="k" style="left:1160px;top:92px;font-size:28px;opacity:${a}">Mes scénarios</div><div style="position:absolute;left:1120px;top:150px;width:700px;height:700px;border-radius:44px;background:#ffffff0c;border:2px solid #ffffff2a;opacity:${a}"></div>`;
- cards.forEach(([name,col],i)=>{const t0=1.2+i*.55,k=ease(ramp(u,t0,t0+.9));const x=mix(560,1160,k),y=mix(300+i*70,210+i*190,k);
-  h+=`<div style="position:absolute;left:${x}px;top:${y}px;width:620px;height:150px;border-radius:30px;background:linear-gradient(135deg,${col}66,${col}22);border:2px solid ${col};display:flex;align-items:center;gap:22px;padding:0 34px;font-size:44px;font-weight:600;opacity:${a*ease(ramp(u,t0-.1,t0+.2))};box-shadow:0 0 ${40*k}px ${col}66"><span style="font-size:52px">▶</span>${name}${k>=1?`<span style="margin-left:auto;font-size:30px;color:#35f08a">ajouté</span>`:''}</div>`});
- h+=`<div style="position:absolute;left:880px;top:430px;font-size:120px;color:#9db8ff;opacity:${a*ease(ramp(u,.9,1.4))*(1-ramp(u,3.4,3.9))}">➜</div>`;
- return h}
 function sceneAgents(u,ctx,a){  // two super agents talking pair to pair; the person chooses how intimate, and watches
  const L=[330,300],R=[1590,300],lvl=ease(ramp(u,3.6,5.4)),sel=lvl<.34?0:lvl<.82?1:2;
  let h=`<div class="k" style="left:96px;top:92px;font-size:28px;opacity:${a}">Super agents · pair à pair</div>`;
@@ -173,7 +181,7 @@ function renderX(s){
  if(prof>0){const u=tp-T.profileTV[0],v=prof;const b=blobCanvas(tp,.05+.95*eo(ramp(u,0,1.4)),[.5+Math.sin(u*.8)*.25,.5]);if(b){ctx.save();ctx.globalAlpha=v;ctx.globalCompositeOperation='lighter';ctx.drawImage(b,960,0,960,1080);ctx.restore()}
   extra+=`<div class="big" style="left:90px;right:auto;text-align:left;top:260px;font-size:200px;font-weight:900;text-transform:uppercase;letter-spacing:-.05em;line-height:.86;opacity:${v}">vibe<br>anna</div><div class="k" style="left:96px;top:120px;font-size:26px;opacity:${v}">Profil découvert · à 120 m</div>
   <div style="position:absolute;left:90px;top:800px;display:flex;gap:10px;opacity:${v}">${[['green','page','Page'],['blue','docs','Docs'],['violet','app','App'],['orange','media','Films']].map(x=>`<div style="position:relative;width:240px;height:96px">${cellH(0,0,240,96,x[0],x[1],x[2],{fs:32,skew:22})}</div>`).join('')}</div>`}
- if(aH>0)extra+=sceneHome(s-.7,ctx,aH);if(aP>0)extra+=sceneProfiles(s-5.0,ctx,aP);if(aA>0)extra+=sceneAgents(s-9.6,ctx,aA);
+ if(aH>0)extra+=sceneApp(s-.7,ctx,aH);if(aP>0)extra+=sceneHome(s-5.0,ctx,aP);if(aA>0)extra+=sceneAgents(s-9.6,ctx,aA);
  root.innerHTML=`<div style="position:absolute;inset:0">${ambient(tp,1)}${extra}</div>`;root.firstChild.appendChild(tvCanvas())}
 
 function renderPhone(t){const root=$('root');root.style.width='715px';root.style.height='1470px';root.innerHTML=`<div style="position:absolute;inset:0;overflow:hidden;background:#05060c">${phoneScreen(t)}</div>`}

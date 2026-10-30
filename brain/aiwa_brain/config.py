@@ -9,7 +9,7 @@ HOST = "127.0.0.1"
 PORT = int(os.environ.get("AIWA_PORT", "8788"))
 
 # Bumped whenever the app starts depending on a new brain feature; the app compares it (via /api/status) with the version it expects.
-BACKEND_VERSION = 215
+BACKEND_VERSION = 224
 
 HOME = Path.home()
 # The brain's own folder (scenarios, style, the voice) and its files: all under ~/.aiwa_app, so that another Aiwa on the same phone (the first one, on port 8787) is never touched.

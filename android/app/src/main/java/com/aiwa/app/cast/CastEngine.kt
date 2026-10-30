@@ -31,10 +31,14 @@ object CastEngine {
         try {
             DatagramSocket().use { socket ->
                 socket.soTimeout = 500
-                val request = Dlna.searchRequest().toByteArray()
                 val target = InetAddress.getByName(Dlna.SSDP_ADDRESS)
-                // sent twice: a datagram can be lost
-                repeat(2) { socket.send(DatagramPacket(request, request.size, target, Dlna.SSDP_PORT)) }
+                // sent twice, for the renderers and for every device: some televisions only answer the general searches (the description decides what is a renderer)
+                repeat(2) {
+                    for (st in listOf(Dlna.RENDERER, "upnp:rootdevice", "ssdp:all")) {
+                        val request = Dlna.searchRequest(target = st).toByteArray()
+                        socket.send(DatagramPacket(request, request.size, target, Dlna.SSDP_PORT))
+                    }
+                }
                 val buffer = ByteArray(4096)
                 val end = System.currentTimeMillis() + waitMs
                 while (System.currentTimeMillis() < end) {

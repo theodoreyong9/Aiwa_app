@@ -2,7 +2,7 @@
    python3 retime.py OUT_DIR     writes OUT_DIR/00000.jpg … (links, or blends where the old time is played faster) and OUT_DIR/anchors.json
 Sources: /tmp/os3/f4 (the old film, frame by frame: b26 where it was redone, b24 elsewhere), /tmp/os3/b27 (the new campaign), /tmp/os3/b27w (the pause)."""
 import json, os, subprocess, sys
-OUT = sys.argv[1]; F4, CAMP, WINDIR = '/tmp/os3/f4', '/tmp/os3/b27', '/tmp/os3/b27w6'
+OUT = sys.argv[1]; F4, CAMP, WINDIR, SCHEMA = '/tmp/os3/f4', '/tmp/os3/b27', '/tmp/os3/b28w', '/tmp/os3/b29'
 PTS = [(0, 0), (379, 379), (408, 420), (466, 552), (540, 672), (554, 686)]            # (new frame, old frame): the old time is played faster between them
 SHIFT, W0, WN, W1, OLD_AFTER = 132, 1068, 408, 1476, 1200                               # new n = old n - 132 up to the pause; the pause; then the old film goes on from old frame 1200
 TOTAL = W1 + (1608 - OLD_AFTER)
@@ -10,6 +10,7 @@ os.makedirs(OUT, exist_ok=True)
 
 def old_src(i):                                              # a frame of the old film, the campaign being the new one
     i = max(0, min(1607, int(round(i))))
+    if 556 <= i < 766: return os.path.join(SCHEMA, '%05d.jpg' % i)                 # the television shows the schema, the phone stays dark (film 7)
     return os.path.join(CAMP if 860 <= i < 992 else F4, '%05d.jpg' % i)
 
 def old_pos(n):                                              # the old frame (a real number) that new frame n shows, or None in the pause

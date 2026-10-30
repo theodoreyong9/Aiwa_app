@@ -49,3 +49,12 @@ class Profile(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class UiFileTest(unittest.TestCase):
+    def test_sessions_are_told_how_to_write_the_look_of_the_application(self):
+        text = P.instruction()
+        self.assertIn("Profile/aiwa-ui.json", text)
+        self.assertIn("la barre du bas", text)
+        for word in ("match", "zone", "url:https://", "le widget n'est jamais touché"):
+            self.assertIn(word, text)

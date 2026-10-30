@@ -5,7 +5,7 @@ import subprocess
 import threading
 import time
 
-from . import agent_lib, asks, config, diagram, files, github, llm_lib, profile_lib, repos, scen_lib, sessions, state
+from . import agent_lib, asks, config, diagram, instructions, files, github, llm_lib, profile_lib, repos, scen_lib, sessions, state
 
 _cache = {}      # ("age", repo, branch) / ("ci", repo) -> (time, value): GitHub is asked at most once in two minutes for the same thing
 CACHE_SECONDS = 120
@@ -153,7 +153,7 @@ def snapshot():
     """What the phone takes: the words to say, the proposal to read back, the command to apply."""
     with state.agent_lock:
         say = state.agent["say"] if state.agent["say"] and not state.agent["say"]["spoken"] else None
-        proposal = dict(state.agent["proposal"]) if state.agent["proposal"] else None
+        proposal = dict(state.agent["proposal"]) if state.agent["proposal"] and not state.agent["proposal"].get("sending") else None
         command = dict(state.agent["command"]) if state.agent["command"] else None
         out = {"busy": state.agent["busy"], "error": state.agent["error"], "voice": state.voice.state, "llm": state.llm.state,
                "voice_error": (state.voice.error or "")[:200] if state.voice.state == "error" else None,
@@ -176,6 +176,21 @@ def apply_command(command_id):
     if command is None or command["id"] != command_id:
         return {"ok": False, "error": "ces réglages ne sont plus d'actualité"}
     items = command["items"]
+    if "extra" in items:
+        instructions.set_extra(items["extra"])
+    if "model" in items or "effort" in items or "push" in items:
+        from . import server       # the same settings as the widget's: one place decides what is valid
+        if "model" in items:
+            server._set_model(items["model"])
+        if "effort" in items:
+            server._set_effort(items["effort"])
+        if "push" in items:
+            server._set_options({"push_main": items["push"]})
+    if items.get("rename"):
+        with state.lock:
+            target = items["rename"].get("session") or state.current_cloud
+        if target:
+            sessions.session_rename(target, items["rename"]["title"])
     if items.get("repo"):
         sessions.focus(items["repo"])
     session = items.get("session")
@@ -210,10 +225,20 @@ def confirm(proposal_id):
     """The person confirmed (« c'est bon vas-y »): the messages go to their sessions, as the person's own."""
     with state.agent_lock:
         proposal = dict(state.agent["proposal"]) if state.agent["proposal"] else None
+        if proposal is not None and proposal["id"] == proposal_id:
+            if state.agent["proposal"].get("sending"):
+                return {"ok": True, "sending": True}          # already on its way (a second « c'est bon »): not sent twice
+            state.agent["proposal"]["sending"] = True        # hidden from the phone while it goes: nobody is asked again for the same thing
     if proposal is None or proposal["id"] != proposal_id:
         return {"ok": False, "error": "cette proposition n'est plus d'actualité"}
-    sent, error = _deliver([proposal] + proposal.get("more", []))
+    try:
+        sent, error = _deliver([proposal] + proposal.get("more", []))
+    except Exception as err:
+        sent, error = [], f"{type(err).__name__}: {err}"
     if error:
+        with state.agent_lock:
+            if state.agent["proposal"] and state.agent["proposal"]["id"] == proposal_id:
+                state.agent["proposal"].pop("sending", None)   # it did not go: it is shown again, with the error of the send
         return {"ok": False, "error": error, "sent": sent}
     with state.agent_lock:
         if state.agent["proposal"] and state.agent["proposal"]["id"] == proposal_id:

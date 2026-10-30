@@ -16,7 +16,7 @@
 html,body{margin:0;min-height:100%;overflow-x:hidden}
 body{background:#06081a;color:var(--ink);font:16px/1.4 system-ui,-apple-system,"Segoe UI",sans-serif}
 a{color:inherit}
-.bg{position:fixed;inset:0;width:100%;height:100%;object-fit:cover;z-index:0;background:#06081a url("media/poster.jpg") center/cover no-repeat}
+.bg{position:fixed;inset:0;width:100%;height:100%;object-fit:cover;z-index:0;background:radial-gradient(circle at 30% 20%,#14183f,#06081a 70%)}
 #gl{position:fixed;inset:0;width:100%;height:100%;z-index:1;pointer-events:none}
 .gl-ok .bg{display:none}
 .veil{position:fixed;inset:0;z-index:2;background:radial-gradient(90% 60% at 50% 42%,transparent,rgba(4,5,16,.55) 100%),linear-gradient(180deg,transparent 55%,rgba(4,5,16,.7))}
@@ -33,6 +33,9 @@ a{color:inherit}
 .name .l2{display:block;color:transparent;-webkit-text-stroke:1.5px var(--red);animation:fill 8s ease-in-out infinite}
 @keyframes fill{0%,100%{color:transparent}50%{color:var(--red)}}
 
+/* le cadre du film d'Aiwa : un vrai lecteur, visible, par-dessus le fond qui vit */
+.frame{margin:0;border:1px solid var(--line);border-radius:18px;overflow:hidden;background:rgba(6,8,26,.55);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);box-shadow:0 10px 40px rgba(0,0,0,.45),inset 0 1px 0 rgba(255,255,255,.18)}
+.frame video{display:block;width:100%;aspect-ratio:16/9;background:#06081a;object-fit:cover}
 .info{grid-area:info;display:grid;gap:clamp(8px,.1svh,14px)}
 .say{margin:0;max-width:30em;text-shadow:0 1px 14px rgba(0,0,0,.9),0 0 3px rgba(0,0,0,.6);font-size:clamp(14px,3.6vw,19px);color:#e3e6ff}
 .say b{color:var(--acc)}
@@ -96,14 +99,17 @@ a{color:inherit}
 </style>
 </head>
 <body>
-<video class="bg" poster="media/poster.jpg" autoplay muted loop playsinline preload="auto" aria-hidden="true"><source src="https://github.com/theodoreyong9/Aiwa_app/releases/download/video-film-aiwa/film.mp4" type="video/mp4"><source src="media/loop.mp4" type="video/mp4"></video>
+<video class="bg" src="media/loop.mp4" autoplay muted loop playsinline preload="auto" aria-hidden="true"></video>
 <canvas id="gl" aria-hidden="true"></canvas>
 <div class="veil"></div><div class="grain"></div>
 <main class="stage">
   <div class="bar mono"><span>Aiwa · bureau</span><span>2026 · en ligne</span></div>
   <h1 class="name" aria-label="theodoreyong9"><span data-split data-delay="0">theo</span><br><span data-split data-delay="120">dore</span><span class="l2" data-split data-delay="240">yong9</span></h1>
   <div class="info">
-    <p class="say">Je construis <b>Aiwa</b> : un assistant qui vit sur le téléphone, parle à Claude, et fait des sites, des vidéos, des pages et des apps, à la voix, et qui construit des agents, se construit lui-même et développe une identité et une intimité.</p>
+    <figure class="frame" aria-label="Le film d'Aiwa">
+      <video id="film" controls autoplay loop playsinline preload="auto"><source src="https://raw.githubusercontent.com/theodoreyong9/Aiwa_app/HEAD/docs/film.mp4" type="video/mp4"><source src="https://github.com/theodoreyong9/Aiwa_app/releases/download/video-film-aiwa/film.mp4" type="video/mp4"></video>
+    </figure>
+    <p class="say">Je construis <b>Aiwa</b> : un assistant qui vit sur le téléphone, parle à Claude, et fait des sites, des vidéos, des pages et des apps, à la voix, et qui construit des agents, se construit lui-même et développe une identité et une intimité, grâce à tes boucles.</p>
     <section class="favs" aria-label="Mes favoris" data-aiwa-favorites hidden></section>
     <nav class="dock" aria-label="Mes liens">
       <a class="cell g" style="--i:3" href="https://github.com/theodoreyong9/Aiwa_app"><b>Source</b><span>le dépôt d'Aiwa</span></a>
@@ -182,6 +188,19 @@ a{color:inherit}
   size(); root.classList.add('gl-ok');
   if (reduce) { draw(performance.now() + 2500); } else { raf = requestAnimationFrame(loop); }
   document.addEventListener('visibilitychange', function () { if (reduce) return; if (document.hidden) cancelAnimationFrame(raf); else raf = requestAnimationFrame(loop); });
+})();
+</script>
+<script>
+/* le film : avec le son, tout de suite. Dans l'application l'ouverture est permise ; ailleurs le navigateur peut refuser le son avant un geste : le film part alors muet et prend le son au premier toucher. */
+(function () {
+  var v = document.getElementById('film');
+  if (!v) return;
+  v.muted = false;
+  var p = v.play();
+  if (p && p.catch) p.catch(function () {
+    v.muted = true; v.play();
+    document.addEventListener('pointerdown', function () { v.muted = false; }, { once: true });
+  });
 })();
 </script>
 </body>

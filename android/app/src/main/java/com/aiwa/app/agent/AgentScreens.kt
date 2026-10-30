@@ -31,6 +31,12 @@ object AgentScreens {
     private fun files(context: Context, kind: String) = go(context, Intent(context, FilesActivity::class.java).putExtra(FilesActivity.EXTRA_KIND, kind))
     private fun voir(context: Context, mode: String) = go(context, Intent(context, WebActivity::class.java).putExtra(WebActivity.EXTRA_PAGE, "voir").putExtra(WebActivity.EXTRA_MODE, mode))
 
+    /** What `open` knows how to open: also what the file of the application's look may name as an action. */
+    val TOKENS = setOf(
+        "files_docs", "files_image", "files_video", "files_app", "files_page", "files", "build", "scenario", "cast", "voir", "voir_near", "voir_link", "voir_qr", "voir_fav", "voir_on", "voir_off",
+        "chambre", "settings", "update", "question", "claude", "add", "listen", "wallet", "report", "home", "github", "health", "claude_login", "keys", "style", "wall",
+    )
+
     fun open(context: Context, token: String) {
         when (token) {
             "files_docs" -> files(context, "docs"); "files_image" -> files(context, "image"); "files_video" -> files(context, "video"); "files_app" -> files(context, "app"); "files_page" -> files(context, "page")

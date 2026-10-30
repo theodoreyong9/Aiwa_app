@@ -84,3 +84,44 @@ class Point(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class ExtraInstructionTest(unittest.TestCase):
+    def test_a_standing_instruction_is_read_and_may_be_emptied(self):
+        from aiwa_brain import agent_lib
+        self.assertEqual(agent_lib.parse_command({"extra": "  Réponds   court. "}, set())["extra"], "Réponds court.")
+        self.assertEqual(agent_lib.parse_command({"extra": ""}, set())["extra"], "")
+        self.assertEqual(len(agent_lib.parse_command({"extra": "x" * 2000}, set())["extra"]), 600)
+        self.assertIsNone(agent_lib.parse_command({"extra": 5}, set()))
+
+
+class RenameTest(unittest.TestCase):
+    def test_a_session_is_renamed_by_voice_the_one_in_use_or_a_known_one(self):
+        from aiwa_brain import agent_lib
+        self.assertEqual(agent_lib.parse_command({"rename": "Mon site"}, set())["rename"], {"session": "", "title": "Mon site"})
+        out = agent_lib.parse_command({"rename": {"session": "session_ABC", "title": "Film"}}, {"session_ABC"})
+        self.assertEqual(out["rename"], {"session": "session_ABC", "title": "Film"})
+        self.assertIsNone(agent_lib.parse_command({"rename": {"session": "session_ZZZ", "title": "Film"}}, {"session_ABC"}))
+        self.assertIsNone(agent_lib.parse_command({"rename": {"title": "<script>"}}, set()))
+
+
+class SettingsByVoiceTest(unittest.TestCase):
+    def test_model_effort_and_push_are_read(self):
+        from aiwa_brain import agent_lib
+        out = agent_lib.parse_command({"model": "opus", "effort": "MAX", "push": "direct"}, set())
+        self.assertEqual((out["model"], out["effort"], out["push"]), ("opus", "max", True))
+        out = agent_lib.parse_command({"model": "auto", "effort": "automatique", "push": "branche"}, set())
+        self.assertEqual((out["model"], out["effort"], out["push"]), ("", "", False))
+        self.assertEqual(agent_lib.parse_command({"push": False}, set())["push"], False)
+
+    def test_what_is_not_valid_is_dropped(self):
+        from aiwa_brain import agent_lib
+        self.assertIsNone(agent_lib.parse_command({"model": "opus; rm -rf", "effort": "enormous", "push": "peut-être"}, set()))
+
+
+class ReadBackTest(unittest.TestCase):
+    def test_the_new_settings_are_read_back(self):
+        from aiwa_brain import agent_lib
+        text = agent_lib.command_phrase({"model": "opus", "effort": "", "push": False, "rename": {"session": "", "title": "Film"}, "extra": ""})
+        for part in ("le modèle opus", "l'effort automatique", "le push sur la branche seulement", "« Film »", "consigne effacée"):
+            self.assertIn(part, text)

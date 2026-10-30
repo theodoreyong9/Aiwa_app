@@ -39,6 +39,7 @@ last_message_at = 0       # when the person last sent a message through Aiwa (ep
 github_error = None       # the last GitHub problem worth showing in the app
 session_error = None      # why the last session made on a repository could not be made (None: it was, or none was asked)
 cloud_busy = False
+last_send = None   # {at, seconds, ok, error} of the last message sent to a session
 cloud_busy_since = None   # when the running send began (epoch seconds): the widget says how long it has lasted
 cloud_progress = ""       # what the running send is doing right now (a step of ours, then the last line the CLI printed)
 store_lock = threading.Lock()
