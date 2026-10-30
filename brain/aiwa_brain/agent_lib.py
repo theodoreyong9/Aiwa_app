@@ -56,7 +56,7 @@ def schema():
     return (
         '{"say":"<ce que tu dis à voix haute, une ou deux phrases courtes>",'
         '"send":[{"repo":"<propriétaire/nom du dépôt>","session":"<session_… si tu vises une session précise>","message":"<le message à lui envoyer>"}],'
-        '"do":{"repo":"<propriétaire/nom>","session":"<session_… ou nouvelle>","open":"<' + OPEN_LIST + '>","cast":{"tv":"<nom de la TV, ou vide>","wait":false}}}'
+        '"do":{"repo":"<propriétaire/nom>","session":"<session_… ou nouvelle>","open":"<' + OPEN_LIST + '>","cast":{"tv":"<nom de la TV, ou vide>","wait":false},"extra":"<consigne durable donnée aux sessions, ou vide pour l\'effacer>"}}'
     )
 
 
@@ -188,6 +188,8 @@ def parse_command(raw, known_ids):
     session = _clean(raw.get("session"), 60)
     if session and (session.lower() in ("nouvelle", "new") or (SESSION_RE.fullmatch(session) and session in known_ids)):
         out["session"] = session
+    if isinstance(raw.get("extra"), str):
+        out["extra"] = _clean(raw["extra"], 600)      # a standing instruction for the sessions (empty: forgotten)
     kind = OPEN_KINDS.get(_clean(raw.get("open"), 40).lower())
     if kind:
         out["open"] = kind

@@ -47,22 +47,37 @@ class Linked(unittest.TestCase):
         self.assertEqual(result["session_id"], "session_AAA")
         self.assertEqual(sent[0][0], "session_AAA")
         self.assertIn("fais une page", sent[0][1])
-        self.assertIn("Dépôt : me/app", sent[0][1])
+        self.assertIn("dépôt = me/app", sent[0][1])
         self.assertEqual(state.current_cloud, "session_AAA", "the person works there now")
 
-    def test_the_instructions_are_told_once_and_again_only_when_they_change(self):
+    def test_every_message_carries_the_link_of_the_file_and_changes_are_told(self):
         text, told = instructions.compose({}, "me/app", "aiwa/1", "main", True)
-        for word in ("Dépôt : me/app", "RELEASE", "docs-", "video-", "skills/video/SKILL.md", "skills/release/SKILL.md", "Alerte", "aiwa-ask", "CLAUDE.local.md"):
+        for word in ("skills/instructions/SKILL.md", "dépôt = me/app", "ta branche = aiwa/1", "base = main", "intégration = directe", "RELAIS = ", "REPLI = ", "jamais lues"):
             self.assertIn(word, text)
         again, _ = instructions.compose({"instr": told}, "me/app", "aiwa/1", "main", True)
-        self.assertEqual(again, "")
-        changed, _ = instructions.compose({"instr": told}, "me/app", "aiwa/1", "main", False)
-        self.assertIn("N'intègre RIEN", changed)
-        self.assertNotIn("Dépôt : me/app", changed)
+        self.assertIn("skills/instructions/SKILL.md", again)
+        self.assertNotIn("MODIFIÉES", again)
+        self.assertNotIn("jamais lues", again)
+        stale, _ = instructions.compose({"instr": {"mark": "old000"}}, "me/app", "aiwa/1", "main", False)
+        self.assertIn("MODIFIÉES", stale)
+        self.assertIn("intégration = non", stale)
 
-    def test_the_text_is_short_enough_for_a_first_message(self):
+    def test_the_message_part_stays_short_and_the_file_holds_the_rules(self):
         text, _ = instructions.compose({}, "me/app", "aiwa/20260701-120000", "main", True)
-        self.assertLess(len(text), 12000)
+        self.assertLess(len(text), 1500)
+        body = (config.REPO_ROOT / instructions.FILE).read_text(encoding="utf-8")
+        for word in ("RELEASE", "docs-", "video-", "skills/video/SKILL.md", "skills/release/SKILL.md", "L'alerte", "aiwa-ask", "La vérification", "Playwright", "Pages", "aiwa-android.json",
+                     "simple, moyen, extra ou max", "consigne perso", "aiwa-ui.json", "Le travail long"):
+            self.assertIn(word, body)
+
+    def test_the_persons_own_instruction_goes_with_the_messages(self):
+        with unittest.mock.patch.object(instructions, "EXTRA_FILE", config.DATA / "extra_test.json"):
+            instructions.set_extra("Réponds toujours en trois phrases.")
+            text, _ = instructions.compose({}, "me/app", "aiwa/1", "main", True)
+            self.assertIn("consigne perso = Réponds toujours en trois phrases.", text)
+            instructions.set_extra("")
+            text, _ = instructions.compose({}, "me/app", "aiwa/1", "main", True)
+            self.assertNotIn("consigne perso", text)
 
     def test_nothing_is_sent_while_another_send_runs(self):
         with state.lock:
