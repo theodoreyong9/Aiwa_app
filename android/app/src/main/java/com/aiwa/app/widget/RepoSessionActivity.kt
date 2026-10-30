@@ -35,6 +35,22 @@ class RepoSessionActivity : FloatActivity() {
         }
     }
 
+    /** A long touch on a session: its name, as the person wants it (the widget and the lists show it). */
+    private fun rename(s: com.aiwa.client.Session) {
+        val field = android.widget.EditText(this).apply { setText(s.title); setSelection(text.length); setSingleLine(true); filters = arrayOf(android.text.InputFilter.LengthFilter(60)) }
+        android.app.AlertDialog.Builder(this).setTitle("Renommer la session").setView(field)
+            .setPositiveButton("Renommer") { _, _ ->
+                val title = field.text.toString().trim()
+                if (title.isNotEmpty()) CoroutineScope(Dispatchers.Main).launch {
+                    val out = withContext(Dispatchers.IO) { val o = Aiwa.brain.rename(s.id, title); BrainSync.refresh(); o }
+                    toastOnMain(applicationContext, if (out.ok) "Session renommée : $title" else "Refusé : ${out.error}")
+                    sessions = withContext(Dispatchers.IO) { Aiwa.brain.sessions() }
+                    AiwaWidget.render(applicationContext, force = true)
+                    reload()
+                }
+            }.setNegativeButton("Annuler", null).show()
+    }
+
     override fun fill() {
         val list = sessions
         if (list == null) { note("Je cherche les sessions…"); return }
@@ -42,9 +58,9 @@ class RepoSessionActivity : FloatActivity() {
         // the sessions of this repository, and those made before a repository was known (they have none noted): the one in use is always there, first
         val mine = list.filter { it.repo.equals(repo, ignoreCase = true) || it.repo.isNullOrBlank() || it.id == current }.sortedByDescending { it.id == current }
         if (mine.isEmpty()) note("Aucune session sur ce dépôt pour l'instant.")
-        for (s in mine) entry((if (s.id == current) "● " else "○ ") + s.title, if (s.id == current) "en cours" else if (s.repo.isNullOrBlank()) "dépôt non noté · touche pour en faire la session en cours" else "Touche pour en faire la session en cours", Palette.CARD) {
+        for (s in mine) entry((if (s.id == current) "● " else "○ ") + s.title, (if (s.id == current) "en cours" else if (s.repo.isNullOrBlank()) "dépôt non noté · touche pour en faire la session en cours" else "Touche pour en faire la session en cours") + " · appui long : renommer", Palette.CARD) {
             act("Session : ${s.title}") { Aiwa.brain.select(s.id) }
-        }
+        }.setOnLongClickListener { rename(s); true }
         entry("＋ Nouvelle session", "Je la crée tout de suite sur ce dépôt") { act("Je crée une session sur ${repo.substringAfter('/')}…") { Aiwa.brain.newSession(repo) } }
     }
 

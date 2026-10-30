@@ -52,6 +52,9 @@ class SettingsActivity : FloatActivity() {
         switch("Création à la volée", "Le super agent suit ce que tu dis pendant que tu construis, sans relecture.", LiveSettings.enabled(this)) { LiveSettings.set(this, it) }
         switch("« C'est prêt »", "Dit à voix haute qu'une production vient d'arriver.", ReadySettings.enabled(this)) { ReadySettings.set(this, it) }
 
+        note("Widget", Palette.GOLD)
+        entry("Fond du widget", com.aiwa.app.widget.WidgetBackground.label(this) + " : touche pour changer") { com.aiwa.app.widget.WidgetBackground.next(this); reload() }
+
         note("Comptes", Palette.GOLD)
         entry("Clés et plafonds", "Ta clé Anthropic, son plafond du jour, ton jeton GitHub.") { open(KeysActivity::class.java) }
         entry("Connecter Claude", "Relier le Claude du téléphone à ton compte.") { open(ClaudeLoginActivity::class.java) }

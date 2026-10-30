@@ -56,7 +56,7 @@ def schema():
     return (
         '{"say":"<ce que tu dis à voix haute, une ou deux phrases courtes>",'
         '"send":[{"repo":"<propriétaire/nom du dépôt>","session":"<session_… si tu vises une session précise>","message":"<le message à lui envoyer>"}],'
-        '"do":{"repo":"<propriétaire/nom>","session":"<session_… ou nouvelle>","open":"<' + OPEN_LIST + '>","cast":{"tv":"<nom de la TV, ou vide>","wait":false},"extra":"<consigne durable donnée aux sessions, ou vide pour l\'effacer>"}}'
+        '"do":{"repo":"<propriétaire/nom>","session":"<session_… ou nouvelle>","open":"<' + OPEN_LIST + '>","cast":{"tv":"<nom de la TV, ou vide>","wait":false},"extra":"<consigne durable donnée aux sessions, ou vide pour l\'effacer>","rename":{"session":"<session_… ou vide pour la session en cours>","title":"<nouveau nom>"}}}'
     )
 
 
@@ -190,6 +190,14 @@ def parse_command(raw, known_ids):
         out["session"] = session
     if isinstance(raw.get("extra"), str):
         out["extra"] = _clean(raw["extra"], 600)      # a standing instruction for the sessions (empty: forgotten)
+    rename = raw.get("rename")
+    if isinstance(rename, str):
+        rename = {"title": rename}
+    if isinstance(rename, dict):
+        title = _clean(rename.get("title"), 60)
+        which = _clean(rename.get("session"), 60)
+        if title and not UNSAFE_RE.search(title) and (not which or which.lower() in ("courante", "current") or (SESSION_RE.fullmatch(which) and which in known_ids)):
+            out["rename"] = {"session": which if SESSION_RE.fullmatch(which) else "", "title": title}      # the name Aiwa shows for a session
     kind = OPEN_KINDS.get(_clean(raw.get("open"), 40).lower())
     if kind:
         out["open"] = kind

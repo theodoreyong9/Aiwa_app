@@ -93,3 +93,13 @@ class ExtraInstructionTest(unittest.TestCase):
         self.assertEqual(agent_lib.parse_command({"extra": ""}, set())["extra"], "")
         self.assertEqual(len(agent_lib.parse_command({"extra": "x" * 2000}, set())["extra"]), 600)
         self.assertIsNone(agent_lib.parse_command({"extra": 5}, set()))
+
+
+class RenameTest(unittest.TestCase):
+    def test_a_session_is_renamed_by_voice_the_one_in_use_or_a_known_one(self):
+        from aiwa_brain import agent_lib
+        self.assertEqual(agent_lib.parse_command({"rename": "Mon site"}, set())["rename"], {"session": "", "title": "Mon site"})
+        out = agent_lib.parse_command({"rename": {"session": "session_ABC", "title": "Film"}}, {"session_ABC"})
+        self.assertEqual(out["rename"], {"session": "session_ABC", "title": "Film"})
+        self.assertIsNone(agent_lib.parse_command({"rename": {"session": "session_ZZZ", "title": "Film"}}, {"session_ABC"}))
+        self.assertIsNone(agent_lib.parse_command({"rename": {"title": "<script>"}}, set()))
