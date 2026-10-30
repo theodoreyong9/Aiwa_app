@@ -42,13 +42,28 @@ object ProfileView {
         }.start()
     }
 
-    /** No profile to show: for the person, the home of the application (the page every account has, with all the buttons) and the word that says what to do; for a visitor, a plain word. */
+    /** The page shown to the person while she has none of her own: the one of the author of Aiwa (a profile as it can be), under a banner that says how to make hers. */
+    const val SHOWCASE = "theodoreyong9/Aiwa_app"
+    private const val BANNER = "<div style=\"position:fixed;left:0;right:0;top:0;z-index:2147483647;padding:10px 16px;background:rgba(16,19,46,.92);color:#fff;font:600 14px system-ui;text-align:center;border-bottom:1px solid #ffffff44\">Dis à Aiwa comment tu veux ton profil.</div>"
+
+    /** No profile to show: for the person, the page of the author under the banner (the home of the application, with every button, when even that cannot be read) and the word that says what to do; for a visitor, a plain word. */
     private fun fallback(web: WebView, main: Handler, context: Context, own: Boolean, word: String) {
-        if (own) {
-            val home = HomeRuntime.defaultPage(context)
-            if (home.isNotEmpty()) { show(web, main, "about:blank", home.replace("__WORD__", word)); return }
-        }
-        show(web, main, null, "<html><body style='margin:0;background:#10132e;color:#d4d8ff;font:16px system-ui;display:grid;place-items:center;height:100vh;text-align:center;padding:24px'>$word</body></html>")
+        if (!own) { show(web, main, null, "<html><body style='margin:0;background:#10132e;color:#d4d8ff;font:16px system-ui;display:grid;place-items:center;height:100vh;text-align:center;padding:24px'>$word</body></html>"); return }
+        Thread {
+            val showcase = try {
+                val c = URL(base(SHOWCASE) + "index.html").openConnection() as HttpURLConnection
+                c.connectTimeout = 10_000; c.readTimeout = 15_000
+                if (c.responseCode == 200) c.inputStream.bufferedReader().use { it.readText() } else null
+            } catch (err: Exception) { null }
+            if (showcase != null) {
+                val page = Regex("<body[^>]*>", RegexOption.IGNORE_CASE).find(showcase)?.let { showcase.replaceRange(it.range.last + 1, it.range.last + 1, BANNER) } ?: (BANNER + showcase)
+                show(web, main, base(SHOWCASE), page)
+            } else {
+                val home = HomeRuntime.defaultPage(context)
+                if (home.isNotEmpty()) show(web, main, "about:blank", home.replace("__WORD__", word))
+                else show(web, main, null, "<html><body style='margin:0;background:#10132e;color:#d4d8ff;font:16px system-ui;display:grid;place-items:center;height:100vh;text-align:center;padding:24px'>$word</body></html>")
+            }
+        }.start()
     }
 
     private fun show(web: WebView, main: Handler, base: String?, page: String) {
