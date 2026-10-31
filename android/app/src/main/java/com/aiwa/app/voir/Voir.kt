@@ -41,6 +41,29 @@ object FavoriteRepos {
     }
 }
 
+/** The profiles the person jumped into, the latest first (kept here, and left in her profile repository with her favourites so that her friends can swipe them). */
+object JumpRepos {
+    private fun prefs(context: Context) = Prefs(context, "aiwa_voir")
+    fun all(context: Context): List<String> = try { JSONArray(prefs(context).string("jumps", "[]")).let { a -> (0 until a.length()).map { a.optString(it) } } } catch (err: Exception) { emptyList() }
+    @Synchronized fun note(context: Context, repo: String) {
+        val kept = listOf(repo) + all(context).filter { !it.equals(repo, ignoreCase = true) }
+        prefs(context).put("jumps", JSONArray(kept.take(200)).toString())
+    }
+}
+
+/** The favourites and the jumps go into the person's own profile repository (names only): the brain writes them when they changed, at most every five minutes. */
+object ListPublisher {
+    fun now(context: Context) {
+        if (!com.aiwa.app.home.ProfileView.valid(com.aiwa.app.home.ProfileSettings.repo(context))) return
+        val favs = FavoriteRepos.all(context)
+        val jumps = JumpRepos.all(context)
+        Thread {
+            try { if (favs.isNotEmpty()) Aiwa.brain.publishProfileList("favs", favs) } catch (err: Exception) { }
+            try { if (jumps.isNotEmpty()) Aiwa.brain.publishProfileList("jumps", jumps) } catch (err: Exception) { }
+        }.start()
+    }
+}
+
 /**
  * What « Swipe » navigates: the profiles this phone saw in the last week and at which reach (level 0 = 50 m … 7 = the world), and the lists of the profiles the people met had seen themselves (gossip: repository names
  * only, no place and no time). A week old, an item is forgotten.
@@ -96,6 +119,7 @@ object SeenPublisher {
         val now = System.currentTimeMillis()
         if (now - last < 10 * 60 * 1000) return
         last = now
+        ListPublisher.now(context)      // her favourites (also changed from the Voir page) and her jumps go along
         val list = SwipeData.observed(context, 7)
         if (list.isEmpty() || !com.aiwa.app.home.ProfileView.valid(com.aiwa.app.home.ProfileSettings.repo(context))) return
         Thread { try { Aiwa.brain.publishProfileSeen(list) } catch (err: Exception) { } }.start()

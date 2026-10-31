@@ -78,3 +78,23 @@ class ProfileContractsTest(ProfilePubTest):
         self.assertFalse(profile.publish_contracts([self.EVENT, other])["ok"])
         self.assertFalse(profile.publish_contracts([])["ok"])
         self.assertFalse(profile.publish_contracts([{"type": "burn", "author": "a", "payload": {}}])["ok"])
+
+
+class NetworkTest(ProfilePubTest):
+    def test_lists_are_written_once_each_and_only_names(self):
+        with mock.patch("aiwa_brain.profile.github.put_file") as put:
+            self.assertTrue(profile.publish_list("favs", ["a/b", "me/me", "bad name"])["ok"])
+            self.assertTrue(profile.publish_list("favs", ["a/b", "me/me"])["unchanged"])
+            self.assertTrue(profile.publish_list("jumps", ["c/d"])["ok"])
+        self.assertEqual([c[0][1] for c in put.call_args_list], ["Profile/aiwa-favorites.json", "Profile/aiwa-jumps.json"])
+        self.assertEqual(json.loads(put.call_args_list[0][0][2]), {"v": 1, "favs": ["a/b"]})
+        self.assertFalse(profile.publish_list("autre", [])["ok"])
+
+    def test_the_network_deck_mixes_jumps_and_favourites_of_my_favourites(self):
+        files = {("f/one", "jumps"): ["x/1", "x/2", "me/me"], ("f/one", "favs"): ["y/1", "f/two"], ("f/two", "jumps"): ["x/1"], ("f/two", "favs"): ["y/1", "z/1"]}
+        with mock.patch.object(profile, "list_of", side_effect=lambda repo, kind: files.get((repo, kind), [])):
+            out = profile.network(["f/one", "f/two"])
+        self.assertEqual(out["deck"][:2], ["x/1", "y/1"])        # mentioned by both friends, first
+        self.assertNotIn("me/me", out["deck"])
+        self.assertNotIn("f/two", out["deck"])                    # already a favourite
+        self.assertEqual((out["read"], out["of"]), (2, 2))
