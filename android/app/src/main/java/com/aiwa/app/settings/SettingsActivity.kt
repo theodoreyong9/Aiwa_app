@@ -52,6 +52,7 @@ class SettingsActivity : FloatActivity() {
         entry("Ma description", "Ce que ton super agent dit de toi dans une chambre.") { open(DescriptionActivity::class.java) }
         entry("Ma voix", "Pour que seul toi réveilles le super agent.") { open(VoicePrintActivity::class.java) }
         entry("Mon style", "Il te répond comme tu parles.") { open(StyleActivity::class.java) }
+        entry("Personnalité", "Son ton (vanneur, sec…) et le mode jeu avec des points.") { open(PersonaActivity::class.java) }
         entry("Mes mots", "Ce que tu dis : réveil, stop, éteins, validation.") { startActivity(Intent(this, WordsActivity::class.java).putExtra(WordsActivity.EXTRA_MINE, true)) }
         entry("Ses mots", "Ce que dit Aiwa : j'écoute, à toute, c'est prêt.") { startActivity(Intent(this, WordsActivity::class.java).putExtra(WordsActivity.EXTRA_MINE, false)) }
         entry("Profil", "Le dépôt qui contient ta page : " + (ProfileSettings.repo(this) ?: "pas encore choisi")) { chooseProfile() }

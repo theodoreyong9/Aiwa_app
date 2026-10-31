@@ -132,4 +132,5 @@ data class Session(val id: String, val title: String, val repo: String?, val url
     companion object { fun parse(o: JSONObject) = Session(o.optString("id"), o.optString("title").ifBlank { o.optString("id") }, o.str("repo"), o.str("url")) }
 }
 
+data class PersonaView(val style: String, val styles: List<Pair<String, String>>, val game: Boolean, val points: Int?)
 data class StyleView(val enabled: Boolean, val count: Int, val ready: Boolean, val note: String)

@@ -140,6 +140,13 @@ class Brain(private val net: Transport = HttpTransport()) {
     fun style(): StyleView? = getJson("/api/style")?.let { StyleView(it.optBoolean("enabled"), it.optInt("count"), it.optBoolean("ready"), it.optString("note")) }
     fun styleSet(enabled: Boolean): Outcome = act("/api/style/set", JSONObject().put("enabled", enabled))
     fun styleClear(): Outcome = act("/api/style/clear")
+    fun persona(): PersonaView? = getJson("/api/persona")?.let { j ->
+        val list = j.optJSONArray("styles")
+        PersonaView(j.optString("style"), (0 until (list?.length() ?: 0)).map { i -> list!!.getJSONObject(i).let { it.optString("id") to it.optString("label") } }, j.optBoolean("game"), if (j.isNull("points")) null else j.optInt("points"))
+    }
+    fun personaStyle(id: String): Outcome = act("/api/persona/set", JSONObject().put("style", id))
+    fun personaGame(on: Boolean): Outcome = act("/api/persona/set", JSONObject().put("game", on))
+    fun personaPoints(n: Int): Outcome = act("/api/persona/set", JSONObject().put("points", n))
     fun llmKey(key: String): Outcome = act("/api/llm/key", JSONObject().put("key", key), 60_000)
     fun llmClearKey(): Outcome = act("/api/llm/key", JSONObject().put("clear", true))
     fun llmCap(tokens: Long): Outcome = act("/api/llm/key", JSONObject().put("cap", tokens))

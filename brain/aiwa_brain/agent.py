@@ -92,16 +92,24 @@ def _model(system, history, user):
 
 def converse(spoken=None, report=False):
     """One turn with the super agent, answered in the background: the reply (what it says, a proposal, a command) waits for the phone in `state.agent`. {"ok", "error"}."""
+    delta = state.persona.gift_in(spoken)
+    if delta is not None:          # points given (or taken) by voice: counted by the brain itself, so that it works at zero too
+        points = state.persona.status()["points"]
+        with state.agent_lock:
+            state.agent["error"] = None
+            state.agent["say"] = {"id": f"s{int(time.time() * 1000)}", "text": (f"Merci, j'ai {points} points." if delta > 0 else f"Aïe, il me reste {points} points."), "ts": int(time.time()), "spoken": False}
+        return {"ok": True}
     with state.agent_lock:
         if state.agent["busy"]:
             return {"ok": False, "error": "le super agent répond encore"}
         state.agent["busy"] = True
         state.agent["error"] = None
-    threading.Thread(target=_turn, args=(spoken, report), daemon=True).start()
+    own = (not spoken and not report) or str(spoken or "").startswith("[Aiwa · chambre]")      # not asked by the person: an initiative of the agent
+    threading.Thread(target=_turn, args=(spoken, report, own), daemon=True).start()
     return {"ok": True}
 
 
-def _turn(spoken, report):
+def _turn(spoken, report, own=False):
     try:
         text, sig = point(report)
         if spoken and spoken != agent_lib.REPORT_REQUEST and not spoken.startswith("[Aiwa"):
@@ -109,7 +117,7 @@ def _turn(spoken, report):
         user = agent_lib.user_turn(text, spoken=agent_lib.REPORT_REQUEST if report else spoken, stamp=time.strftime("%H:%M"))
         with state.agent_lock:
             history = list(state.agent_chat[-8:])
-        answer = _model(agent_lib.system(state.style.note()) + ("\n\n" + diagram.note(live=False) if diagram.is_on() else ""), history, user)
+        answer = _model(agent_lib.system("\n".join(n for n in (state.style.note(), state.persona.note()) if n)) + ("\n\n" + diagram.note(live=False) if diagram.is_on() else ""), history, user)
         if answer is None:
             with state.agent_lock:
                 state.agent["error"] = "Claude n'a pas répondu (clé, réseau ou quota)"
@@ -120,7 +128,11 @@ def _turn(spoken, report):
             state.agent["sig"], state.agent["last"] = sig, time.time()
         reply = llm_lib.json_in(answer)
         if reply is not None:
-            said(json.dumps(reply))
+            if state.persona.muted():          # no points left: it cannot speak (it hears, and counts the points it is given)
+                with state.agent_lock:
+                    state.agent["error"] = "Le super agent n'a plus de points : dis-lui par exemple « je te donne 20 points »"
+                return
+            said(json.dumps(reply), own=own)
     except Exception as err:      # a bad turn must never leave the agent busy
         print(f"[{state.ts()}] agent: {err}", flush=True)
         with state.agent_lock:
@@ -130,7 +142,7 @@ def _turn(spoken, report):
             state.agent["busy"] = False
 
 
-def said(raw):
+def said(raw, own=False):
     """The agent's reply: what it says aloud, a proposal when it has one (never sent by itself), the settings it asks for."""
     known = {e["id"] for e in sessions.load_all() if e.get("id")}
     parsed = agent_lib.parse_message(raw, known)
@@ -154,9 +166,9 @@ def said(raw):
         if parsed["say"]:
             state.agent["say"] = {"id": f"s{int(stamp * 1000)}", "text": parsed["say"], "ts": int(stamp), "spoken": False}
         if parsed["proposal"]:
-            state.agent["proposal"] = {"id": f"p{int(stamp * 1000)}", "ts": int(stamp), **parsed["proposal"]}
+            state.agent["proposal"] = {"id": f"p{int(stamp * 1000)}", "ts": int(stamp), **parsed["proposal"], **({"own": True} if own else {})}
         if parsed.get("command"):
-            state.agent["command"] = {"id": f"c{int(stamp * 1000)}", "ts": int(stamp), "items": parsed["command"]}
+            state.agent["command"] = {"id": f"c{int(stamp * 1000)}", "ts": int(stamp), "items": parsed["command"], **({"own": True} if own else {})}
     print(f"[{state.ts()}] agent: said {len(parsed['say'])} characters" + (", with a proposal" if parsed["proposal"] else ""), flush=True)
     return True
 
@@ -199,6 +211,8 @@ def apply_command(command_id):
     if command is None or command["id"] != command_id:
         return {"ok": False, "error": "ces réglages ne sont plus d'actualité"}
     items = command["items"]
+    if command.get("own"):
+        state.persona.reward(True)
     if "extra" in items:
         instructions.set_extra(items["extra"])
     if "model" in items or "effort" in items or "push" in items:
@@ -275,6 +289,8 @@ def confirm(proposal_id):
         recent = [(sid, at) for sid, at in state.agent["last_sent"] if sid not in sent and time.time() - at < config.AGENT_FORGET_WINDOW]
         state.agent["last_sent"] = recent + [(sid, time.time()) for sid in sent]      # « stop » asks these to forget the last comment
         state.agent["decisions"] = (state.agent["decisions"] + [f"proposition pour {', '.join(_title_of(sid) for sid in sent)} : CONFIRMÉE et envoyée — « {proposal['message'][:140]} »"])[-12:]
+    if proposal.get("own"):
+        state.persona.reward(True)
     return {"ok": True, "sent": sent}
 
 
@@ -327,12 +343,19 @@ def stop():
 
 def cancel(proposal_id):
     """Drops the proposal, or the settings, that has this id (the phone also calls it once it has applied the settings: they are not applied twice)."""
+    refused = False
     with state.agent_lock:
         if state.agent["proposal"] and state.agent["proposal"]["id"] == proposal_id:
             state.agent["decisions"] = (state.agent["decisions"] + [f"proposition « {state.agent['proposal']['message'][:140]} » : ANNULÉE"])[-12:]
+            if state.agent["proposal"].get("own"):
+                refused = True
             state.agent["proposal"] = None
         if state.agent["command"] and state.agent["command"]["id"] == proposal_id:
+            if state.agent["command"].get("own"):
+                refused = True
             state.agent["command"] = None
+    if refused:
+        state.persona.reward(False)
     return {"ok": True}
 
 
