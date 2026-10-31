@@ -160,3 +160,30 @@ class OpenIntentTests(unittest.TestCase):
             with state.agent_lock:
                 state.agent.clear()
                 state.agent.update(saved)
+
+
+class OpenWithoutTheModelTests(unittest.TestCase):
+    def test_an_order_to_open_never_waits_for_the_model(self):
+        import time
+        from unittest import mock
+        from aiwa_brain import agent, state
+        with state.agent_lock:
+            saved = dict(state.agent)
+            state.agent.update(busy=False, command=None, say=None)
+        try:
+            with mock.patch.object(agent, "_model", side_effect=AssertionError("the model must not be asked")):
+                self.assertTrue(agent.converse(spoken="ouvre l'application aiwa")["ok"])
+                for _ in range(50):
+                    with state.agent_lock:
+                        if state.agent["command"] and not state.agent["busy"]:
+                            break
+                    time.sleep(0.05)
+            with state.agent_lock:
+                command, say = state.agent["command"], state.agent["say"]
+            self.assertEqual(command["items"]["open"], "home")
+            self.assertTrue(command["auto"])
+            self.assertIn("J'ouvre", say["text"])
+        finally:
+            with state.agent_lock:
+                state.agent.clear()
+                state.agent.update(saved)

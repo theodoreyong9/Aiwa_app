@@ -242,6 +242,7 @@ GET = {
     "/api/scenarios": lambda q: scenarios.scenario_api("/api/scenarios", ""),
     "/api/chamber": lambda q: chamber.chamber_api("/api/chamber", ""),
     "/api/live/events": lambda q: live.live_api("/api/live/events", ""),
+    "/api/agent/log": lambda q: {"ok": True, "log": list(state.agent_log)},
     "/api/persona": lambda q: {"ok": True, **state.persona.status()},
     "/api/style": lambda q: {"ok": True, **state.style.status()},
     "/api/profile": lambda q: profile.profile_state(),

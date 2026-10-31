@@ -11,6 +11,13 @@ _cache = {}      # ("age", repo, branch) / ("ci", repo) -> (time, value): GitHub
 CACHE_SECONDS = 120
 
 
+def log(line):
+    """A line in the journal of the super agent (the last forty, shown in « État d'Aiwa »): what was asked, what the model answered, what was decided and applied. For the day it does not do what it said."""
+    with state.agent_lock:
+        state.agent_log.append(f"{time.strftime('%H:%M:%S')} {line}"[:300])
+        del state.agent_log[:-40]
+
+
 def _cached(key, fetch):
     now = time.time()
     hit = _cache.get(key)
@@ -110,9 +117,27 @@ def converse(spoken=None, report=False):
             return {"ok": False, "error": "le super agent répond encore"}
         state.agent["busy"] = True
         state.agent["error"] = None
+    log(("demande : " + str(spoken)[:100]) if spoken else ("tour sans parole (rapport)" if report else "tour à l'initiative de l'agent"))
+    word = agent_lib.open_intent(spoken) if spoken and not report and not str(spoken).startswith("[Aiwa") else None
+    if word:
+        threading.Thread(target=_open_now, args=(word,), daemon=True).start()      # an order to open a screen does not wait for the model (30 seconds without a key): it is done now
+        return {"ok": True}
     own = (not spoken and not report) or str(spoken or "").startswith("[Aiwa · chambre]")      # not asked by the person: an initiative of the agent
     threading.Thread(target=_turn, args=(spoken, report, own), daemon=True).start()
     return {"ok": True}
+
+
+def _open_now(word):
+    """« ouvre … »: the screen is opened at once, with a short word to say, and no model in between."""
+    try:
+        name = agent_lib.OPEN_SPOKEN.get(agent_lib.OPEN_KINDS.get(word, ""), word)
+        log(f"ordre d'ouvrir « {word} » compris sans le modèle")
+        said(json.dumps({"say": f"J'ouvre {name}.", "do": {"open": word}}))
+    except Exception as err:
+        log(f"échec de l'ouverture : {err}")
+    finally:
+        with state.agent_lock:
+            state.agent["busy"] = False
 
 
 def _turn(spoken, report, own=False):
@@ -123,11 +148,15 @@ def _turn(spoken, report, own=False):
         user = agent_lib.user_turn(text, spoken=agent_lib.REPORT_REQUEST if report else spoken, stamp=time.strftime("%H:%M"))
         with state.agent_lock:
             history = list(state.agent_chat[-8:])
+        mode = "avec clé" if state.llm.state == "ready" else "sans clé (programme Claude du téléphone)"
+        t0 = time.time()
         answer = _model(agent_lib.system("\n".join(n for n in (state.style.note(), state.persona.note()) if n)) + ("\n\n" + diagram.note(live=False) if diagram.is_on() else ""), history, user)
         if answer is None:
+            log(f"le modèle n'a pas répondu ({mode}, {time.time() - t0:.0f} s)")
             with state.agent_lock:
                 state.agent["error"] = "Claude n'a pas répondu (clé, réseau ou quota)"
             return
+        log(f"le modèle a répondu en {time.time() - t0:.0f} s ({mode}) : " + " ".join(str(answer).split())[:160])
         with state.agent_lock:
             state.agent_chat.extend([{"role": "user", "content": user}, {"role": "assistant", "content": answer}])
             del state.agent_chat[:-16]
@@ -136,6 +165,7 @@ def _turn(spoken, report, own=False):
         word = agent_lib.open_intent(spoken) if spoken and not report else None
         if word and isinstance(reply, dict) and not (isinstance(reply.get("do"), dict) and reply["do"].get("open")):
             reply["do"] = {**(reply.get("do") if isinstance(reply.get("do"), dict) else {}), "open": word}      # asked to open a screen: it is opened, whatever the model wrote
+            log(f"le modèle n'avait pas demandé d'ouvrir : j'ajoute l'ouverture « {word} »")
         elif word and reply is None:
             reply = {"say": "", "do": {"open": word}}
         if reply is not None:
@@ -179,6 +209,7 @@ def said(raw, own=False):
             harmless = set(parsed["command"]) <= {"open"}      # opening a screen changes nothing: no question asked, it is done
             state.agent["command"] = {"id": f"c{int(stamp * 1000)}", "ts": int(stamp), "items": parsed["command"], **({"own": True} if own else {}), **({"auto": True} if harmless else {})}
     print(f"[{state.ts()}] agent: said {len(parsed['say'])} characters" + (", with a proposal" if parsed["proposal"] else ""), flush=True)
+    log("réponse comprise : " + ", ".join(x for x in (f"dit {len(parsed['say'])} caractères" if parsed["say"] else "", "proposition à une session" if parsed["proposal"] else "", ("commande " + "/".join(sorted(parsed["command"]))) if parsed.get("command") else "") if x) )
     return True
 
 
@@ -242,6 +273,7 @@ def apply_command(command_id):
     if command is None or command["id"] != command_id:
         return {"ok": False, "error": "ces réglages ne sont plus d'actualité"}
     items = command["items"]
+    log("commande appliquée : " + "/".join(sorted(items)) + (f" (ouvrir {items['open']})" if items.get("open") else ""))
     if command.get("own"):
         state.persona.reward(True)
     if "extra" in items:
