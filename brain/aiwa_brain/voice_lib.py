@@ -39,9 +39,50 @@ def to_wav(samples, rate):
     return out.getvalue()
 
 
+def _pip_available():
+    try:
+        return subprocess.run([sys.executable, "-m", "pip", "--version"], capture_output=True, text=True, timeout=60).returncode == 0
+    except (OSError, subprocess.SubprocessError):
+        return False
+
+
+def ensure_pip(timeout=900):
+    """pip itself, when the Python of the phone's Linux has none (« No module named pip »: Debian ships it as a separate package): ensurepip, then the Debian package, then get-pip.py.
+    Raises with the last words of what failed when none works."""
+    if _pip_available():
+        return
+    last = ""
+    env = dict(os.environ, DEBIAN_FRONTEND="noninteractive")
+    steps = [[sys.executable, "-m", "ensurepip", "--upgrade"], ["apt-get", "update", "-qq"], ["apt-get", "install", "-y", "-qq", "python3-pip"]]
+    for cmd in steps:
+        try:
+            done = subprocess.run(cmd, capture_output=True, text=True, timeout=timeout, env=env)
+        except (OSError, subprocess.SubprocessError) as err:
+            last = str(err)
+            continue
+        if done.returncode != 0:
+            last = " ".join((done.stderr or done.stdout or "").split())[-200:]
+        if _pip_available():
+            return
+    try:
+        target = os.path.join(os.path.expanduser("~"), ".cache", "aiwa-video")
+        os.makedirs(target, exist_ok=True)
+        script = os.path.join(target, "get-pip.py")
+        urllib.request.urlretrieve("https://bootstrap.pypa.io/get-pip.py", script)
+        for extra in (["--break-system-packages"], []):
+            done = subprocess.run([sys.executable, script, "-q"] + extra, capture_output=True, text=True, timeout=timeout)
+            if done.returncode == 0 and _pip_available():
+                return
+            last = " ".join((done.stderr or done.stdout or "").split())[-200:] or last
+    except (OSError, subprocess.SubprocessError) as err:
+        last = str(err)
+    raise RuntimeError("pip est absent et n'a pas pu être installé : " + (last or "?"))
+
+
 def pip_install(package, timeout=1500):
     """pip install of one package. The Linux of the phone is a Debian whose Python refuses installs outside a virtualenv (« externally-managed-environment », PEP 668): then once more with
     --break-system-packages, the package going where the app's own Python looks for it. Raises with pip's own last words when it fails."""
+    ensure_pip()
     base = [sys.executable, "-m", "pip", "install", "-q", "--no-input", package]
     done = subprocess.run(base, capture_output=True, text=True, timeout=timeout)
     if done.returncode != 0 and "externally-managed" in (done.stderr or ""):
