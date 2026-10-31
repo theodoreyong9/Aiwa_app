@@ -29,8 +29,12 @@ object AgentVoice {
             if (say.id == spokenId) return@withLock false
             spokenId = say.id
             Speaker.resetInterrupt()
-            if (!Speaker.speakNaturalStreamed(context, say.text)) Speaker.complain(context)
-            withContext(Dispatchers.IO) { Aiwa.brain.agentSpoken(say.id) }
+            try {
+                if (!Speaker.speakNaturalStreamed(context, say.text)) Speaker.complain(context)
+            } finally {
+                // said or not, even when the turn is cut: it is marked, otherwise the words wait for good and the tab stays red
+                withContext(kotlinx.coroutines.NonCancellable + Dispatchers.IO) { Aiwa.brain.agentSpoken(say.id) }
+            }
             true
         }
     }

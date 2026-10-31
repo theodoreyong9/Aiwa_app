@@ -26,7 +26,26 @@ import kotlinx.coroutines.withContext
 
 /** What the super agent may open or do on the phone: the same screens as a tap on the widget. The words it uses are agent_lib.OPEN_KINDS of the brain. */
 object AgentScreens {
-    private fun go(context: Context, intent: Intent) { try { context.startActivity(intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)) } catch (err: Exception) { toastOnMain(context, "Je ne peux pas ouvrir cet écran d'ici : ouvre Aiwa d'abord.") } }
+    /**
+     * Opens a screen. From the background (the voice service, an answer that came after thirty seconds) Android 10+ lets an application start a window only if it has the overlay right; otherwise the start is
+     * dropped WITHOUT an error, and the agent would say « c'est ouvert » for nothing. So without that right a notification is offered (a touch opens the screen, and it comes up by itself when the phone allows it).
+     */
+    private fun go(context: Context, intent: Intent) {
+        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+        if (context !is android.app.Activity && android.os.Build.VERSION.SDK_INT >= 29 && !android.provider.Settings.canDrawOverlays(context)) { offer(context, intent); return }
+        try { context.startActivity(intent) } catch (err: Exception) { offer(context, intent) }
+    }
+
+    private fun offer(context: Context, intent: Intent) {
+        try {
+            val nm = context.getSystemService(Context.NOTIFICATION_SERVICE) as android.app.NotificationManager
+            nm.createNotificationChannel(android.app.NotificationChannel("aiwa_open", "Ouvrir ce que tu demandes", android.app.NotificationManager.IMPORTANCE_HIGH))
+            val pending = android.app.PendingIntent.getActivity(context, intent.toString().hashCode(), intent, android.app.PendingIntent.FLAG_IMMUTABLE or android.app.PendingIntent.FLAG_UPDATE_CURRENT)
+            nm.notify(7311, android.app.Notification.Builder(context, "aiwa_open").setSmallIcon(com.aiwa.app.R.drawable.ic_aiwa).setContentTitle("Aiwa").setContentText("Touche pour ouvrir ce que tu as demandé")
+                .setContentIntent(pending).setFullScreenIntent(pending, true).setAutoCancel(true).build())
+        } catch (err: Exception) { /* no notification right: the toast below is all there is */ }
+        toastOnMain(context, "Android ne me laisse pas ouvrir l'écran depuis l'arrière-plan : touche la notification (ou autorise « Afficher par-dessus d'autres applis » pour Aiwa).")
+    }
     private fun go(context: Context, cls: Class<*>) = go(context, Intent(context, cls))
     private fun files(context: Context, kind: String) = go(context, Intent(context, FilesActivity::class.java).putExtra(FilesActivity.EXTRA_KIND, kind))
     private fun voir(context: Context, mode: String) = go(context, Intent(context, WebActivity::class.java).putExtra(WebActivity.EXTRA_PAGE, "voir").putExtra(WebActivity.EXTRA_MODE, mode))
