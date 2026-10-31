@@ -62,6 +62,22 @@ class RepoSessionActivity : FloatActivity() {
             act("Session : ${s.title}") { Aiwa.brain.select(s.id) }
         }.setOnLongClickListener { rename(s); true }
         entry("＋ Nouvelle session", "Je la crée tout de suite sur ce dépôt") { act("Je crée une session sur ${repo.substringAfter('/')}…") { Aiwa.brain.newSession(repo) } }
+        entry("Une session qui existe déjà", "copie son lien (claude.ai/code/session_…) ou le nom de sa branche, puis touche ici") { addExisting() }
+    }
+
+    /** A session of Claude's that already exists (its link or its branch, copied): it is added and becomes the one in use. */
+    private fun addExisting() {
+        val text = com.aiwa.app.common.clipboardText(this)?.trim().orEmpty()
+        if (text.isEmpty()) { toastOnMain(this, "Copie d'abord le lien de la session (claude.ai/code/session_…) ou le nom de sa branche."); return }
+        val app = applicationContext
+        CoroutineScope(Dispatchers.Main).launch {
+            toastOnMain(app, "Je cherche la session…")
+            val out = withContext(Dispatchers.IO) { ensureBrain(app); Aiwa.brain.addSession(text) }
+            toastOnMain(app, if (out.ok) "Session ajoutée : elle est celle en cours." else (out.error ?: "Session introuvable."))
+            withContext(Dispatchers.IO) { BrainSync.refresh() }
+            AiwaWidget.render(app, force = true)
+            if (out.ok) finish()
+        }
     }
 
     companion object { const val EXTRA_REPO = "repo" }
