@@ -55,7 +55,15 @@ class ProposalActivity : FloatActivity() {
                 note(say.text, Palette.TEXT)
                 entry("Lu", "L'agent ne le redira plus") { CoroutineScope(Dispatchers.Main).launch { withContext(Dispatchers.IO) { Aiwa.brain.agentSpoken(say.id); BrainSync.refresh() }; finish() } }
             }
-            else -> { note("Rien n'attend de toi."); entry("Fermer") { finish() } }
+            else -> {
+                val why = com.aiwa.app.widget.WidgetAlert.reasons.filter { it != "Le super agent attend ta réponse." }
+                if (why.isEmpty()) note("Rien n'attend de toi.") else {
+                    note("Pourquoi l'onglet est rouge :", Palette.GOLD)
+                    for (line in why) note("• $line", Palette.TEXT)
+                }
+                entry("Allumer ou éteindre l'agent", "Le bouton Super agent, comme d'habitude") { startActivity(android.content.Intent(this@ProposalActivity, com.aiwa.app.voice.AgentToggleActivity::class.java)); finish() }
+                entry("Fermer") { finish() }
+            }
         }
     }
 
