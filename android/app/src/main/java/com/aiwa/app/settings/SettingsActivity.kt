@@ -23,6 +23,7 @@ import com.aiwa.app.widget.AiwaWidget
 class SettingsActivity : FloatActivity() {
     override val title = "Réglages"
     override val compactRows = true      // an icon and a name, no explanation
+    override val gridColumns = 3         // several icons on a row
 
     override fun onResume() {
         super.onResume()
@@ -74,12 +75,12 @@ class SettingsActivity : FloatActivity() {
         section("Voix")
         switchRow(R.drawable.fw_i_volume, "Voix naturelle", "Sinon, la voix du téléphone parle.", NaturalVoice.enabled(this), Color.parseColor("#7FD0FF")) { NaturalVoice.setEnabled(this, it) }
         switchRow(R.drawable.fw_i_create, "Création à la volée", "Le super agent suit ce que tu dis pendant que tu construis, sans relecture.", LiveSettings.enabled(this), Color.parseColor("#F29B6B")) { LiveSettings.set(this, it) }
+        entryIcon(R.drawable.fw_i_papers, "Papers", "Yellow paper, valeur, readme, film.", Palette.GOLD) { open(PapersActivity::class.java) }
         switchRow(R.drawable.fw_i_report, "« C'est prêt »", "Dit à voix haute qu'une production vient d'arriver.", ReadySettings.enabled(this), Color.parseColor("#52D6A0")) { ReadySettings.set(this, it) }
         entryIcon(R.drawable.fw_i_ear, "Ma voix", "Pour que seul toi réveilles le super agent.", Color.parseColor("#E8C14A")) { open(VoicePrintActivity::class.java) }
         entryIcon(R.drawable.fw_i_note, "Mon style", "Il te répond comme tu parles.", Color.parseColor("#B79CFF")) { open(StyleActivity::class.java) }
 
         section("Aiwa")
-        entryIcon(R.drawable.fw_i_papers, "Papers", "Yellow paper, valeur, readme, film.", Palette.GOLD) { open(PapersActivity::class.java) }
 
         section("Vie privée")
         switchRow(R.drawable.fw_i_voir, "Se cacher", "Tes liens ne sont pas montrés aux gens à proximité.", !VoirSettings.on(this), Color.parseColor("#B79CFF")) { VoirSettings.setOn(this, !it) }
