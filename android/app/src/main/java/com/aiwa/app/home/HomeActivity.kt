@@ -88,17 +88,22 @@ class HomeActivity : ComponentActivity() {
 
     /** The keys the application has on her own page (nobody to match or to offer a coffee to here: those two say so instead of opening something else). */
     private fun builtinKeys() = linkedMapOf(
-        "match" to ProfileBar.Spec("🤝", "Match", ProfileBar.VIOLET) { com.aiwa.app.common.toastOnMain(this, "Le match se fait sur le profil d'une autre personne : ouvre-en un depuis Voir.") },
+        "favoris" to ProfileBar.Spec("☆", "Favoris", ProfileBar.GOLD) { startActivity(Intent(this, com.aiwa.app.web.WebActivity::class.java).putExtra(com.aiwa.app.web.WebActivity.EXTRA_PAGE, "voir").putExtra(com.aiwa.app.web.WebActivity.EXTRA_MODE, "favoris")) },
+        "swipe" to ProfileBar.Spec("👣", "Swipe", ProfileBar.VIOLET) { startActivity(ProfileActivity.zoneIntent(this)) },
+        "give" to ProfileBar.Spec("🎁", "Give", ProfileBar.GREEN) { startActivity(Intent(this, GiveActivity::class.java)) },
+        "match" to ProfileBar.Spec("🤝", "Match", ProfileBar.VIOLET) { com.aiwa.app.common.toastOnMain(this, "Le match se fait sur le profil d'une autre personne : ouvre-en un depuis Swipe.") },
         "chambre" to ProfileBar.Spec("🚪", "Chambre", ProfileBar.BLUE) { startActivity(Intent(this, com.aiwa.app.chamber.ChamberActivity::class.java)) },
-        "cafe" to ProfileBar.Spec("☕", "Café", ProfileBar.GOLD) { com.aiwa.app.common.toastOnMain(this, "Le café s'offre à quelqu'un d'autre : ouvre son profil depuis Voir.") },
-        "zone" to ProfileBar.Spec("📍", "Zone", ProfileBar.VIOLET) { com.aiwa.app.web.WebActivity.zone(this) },
+        "cafe" to ProfileBar.Spec("☕", "Café", ProfileBar.GOLD) { com.aiwa.app.common.toastOnMain(this, "Le café s'offre à quelqu'un d'autre : ouvre son profil depuis Swipe.") },
+        "zone" to ProfileBar.Spec("📍", "Swipe", ProfileBar.VIOLET) { startActivity(ProfileActivity.zoneIntent(this)) },
         "mur" to ProfileBar.Spec("🏆", "Mur", ProfileBar.GREEN) { com.aiwa.app.web.WebActivity.wall(this) },
         "widget" to ProfileBar.Spec("✦", "Widget", ProfileBar.WHITE) { HomeRuntime.openPanel(web) },
     )
 
+    private fun defaultKeys() = listOf("favoris", "swipe", "give", "widget")
+
     /** Draws the bar (the file of her profile, or the application's own) in place of the one on the screen. */
     private fun applyBar(entries: List<com.aiwa.client.BarEntry>?) {
-        val (specs, ids) = BarConfig.resolve(this, entries, builtinKeys())
+        val (specs, ids) = BarConfig.resolve(this, entries, builtinKeys(), defaultKeys())
         barView?.let { root.removeView(it) }
         val drawn = ProfileBar.build(this, specs, ids)
         drawn.named["match"]?.available(false); drawn.named["cafe"]?.available(false)

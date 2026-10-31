@@ -61,7 +61,14 @@ export function cleanLinks(raw) {
 }
 
 /** The bytes that are signed: a fixed order of fields, so that the sender and the receiver read the same message. */
-export const messageOf = (e) => utf8.encode(JSON.stringify({ v: 1, cell: e.cell, repo: e.repo, links: e.links, score: e.score, laps: e.laps, ts: e.ts, pub: e.pub }));
+export const messageOf = (e) => utf8.encode(JSON.stringify({ v: 1, cell: e.cell, repo: e.repo, links: e.links, score: e.score, laps: e.laps, ts: e.ts, pub: e.pub, seen: e.seen }));
+
+/** The list of the profiles a person saw in the last week (gossip): only repository names, no place and no time. At most 40. */
+export const SEEN_MAX = 40;
+export const cleanSeen = (raw) => (Array.isArray(raw) ? [...new Set(raw.filter((r) => typeof r === 'string' && /^[\w.-]{1,60}\/[\w.-]{1,100}$/.test(r)))].slice(0, SEEN_MAX) : []);
+
+/** The smallest level of the reach (0 = 50 m … 7 = the world) that holds this distance in metres. */
+export const levelOfDistance = (meters) => { const i = LEVELS.findIndex((l) => meters <= Math.max(l.meters, 60)); return i < 0 ? LEVELS.length - 1 : i; };
 
 /** The reach of « Voir », from the nearest to the whole world: the length of the geohash that names the room (8 = a cell of 38 x 19 m) and the distance it stands for. A wider reach is a wider room: only the people who joined it are seen. */
 export const LEVELS = [
@@ -99,7 +106,7 @@ export function checkEntry(entry, cells, now = Date.now()) {
   const links = cleanLinks(entry.links);
   const repo = typeof entry.repo === 'string' && /^[\w.-]{1,60}\/[\w.-]{1,100}$/.test(entry.repo) ? entry.repo : '';
   const score = Number.isFinite(entry.score) ? entry.score : 0, laps = Number.isFinite(entry.laps) ? entry.laps : 0;
-  const clean = { v: 1, cell: entry.cell, repo, links, score, laps, ts: entry.ts, pub: entry.pub };
+  const clean = { v: 1, cell: entry.cell, repo, links, score, laps, ts: entry.ts, pub: entry.pub, seen: cleanSeen(entry.seen) };
   if (!verifyHex(messageOf(entry), entry.sig, entry.pub)) return null;
   return { ...clean, sig: entry.sig };
 }
