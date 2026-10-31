@@ -43,6 +43,7 @@
             <intent-filter><action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" /></intent-filter>
         </activity>
         <activity android:name=".agent.ProposalActivity" android:exported="false" android:theme="@style/Theme.Float" android:taskAffinity="" android:excludeFromRecents="true" />
+        <activity android:name=".home.GiveActivity" android:exported="false" android:theme="@style/Theme.Float" android:taskAffinity="" android:excludeFromRecents="true" />
         <activity android:name=".cast.CastActivity" android:exported="false" android:theme="@style/Theme.Float" android:windowSoftInputMode="adjustResize" android:taskAffinity="" android:excludeFromRecents="true" />
         <activity android:name=".files.FilesActivity" android:exported="false" android:theme="@style/Theme.Float" android:windowSoftInputMode="adjustResize" android:taskAffinity="" android:excludeFromRecents="true" />
         <activity android:name=".scenario.ScenariosActivity" android:exported="false" android:theme="@style/Theme.Float" android:windowSoftInputMode="adjustResize" android:taskAffinity="" android:excludeFromRecents="true" />

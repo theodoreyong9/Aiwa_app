@@ -163,7 +163,7 @@ object AiwaWidget {
         val voirPage = listOf(
             listOf(
                 Cell(btn(R.drawable.fw_i_wallet, "wallet"), 1f, activity(context, 44, Intent(context, WebActivity::class.java).putExtra(WebActivity.EXTRA_PAGE, "wallet"))),
-                Cell(btn(R.drawable.fw_i_pin, "nearby"), 1f, voir(40, "proche")),
+                Cell(btn(R.drawable.fw_i_pin, "nearby"), 1f, activity(context, 40, com.aiwa.app.home.ProfileActivity.zoneIntent(context))),
             ),
             listOf(
                 Cell(btn(R.drawable.fw_i_link, "link", iconOnly = true), 1f, voir(41, "lien")),

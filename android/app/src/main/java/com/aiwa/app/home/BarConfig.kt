@@ -40,8 +40,11 @@ object BarConfig {
     }
 
     /** The keys to draw and their names: the file's, or (no file) the application's own, in its own order. */
-    fun resolve(activity: Activity, entries: List<BarEntry>?, builtin: LinkedHashMap<String, ProfileBar.Spec>): Pair<List<ProfileBar.Spec>, List<String>> {
-        if (entries == null) return builtin.values.toList() to builtin.keys.toList()
+    fun resolve(activity: Activity, entries: List<BarEntry>?, builtin: LinkedHashMap<String, ProfileBar.Spec>, defaults: List<String>? = null): Pair<List<ProfileBar.Spec>, List<String>> {
+        if (entries == null) {
+            val names = defaults?.filter { it in builtin } ?: builtin.keys.toList()
+            return names.map { builtin.getValue(it) } to names
+        }
         val specs = ArrayList<ProfileBar.Spec>()
         val ids = ArrayList<String>()
         for (e in entries) {

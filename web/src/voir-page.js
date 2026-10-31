@@ -8,7 +8,7 @@ import { session, connected, onSession } from './session.js';
 import { $ } from './ui.js';
 import { hostAvailable, hostPost } from './host.js';
 import { drawQr, scanQr } from './qr.js';
-import { cellsAround, cleanLinks, checkEntry, messageOf, parseCard, cardText, parseRepo, repoLinks, linksFromReleases, LEVELS, roomName, filterRows, scoreRange, readBlocked, writeBlocked, utf8, PERIOD_MS } from './voir-core.js';
+import { cleanSeen, levelOfDistance, distanceTo, SEEN_MAX, cellsAround, cleanLinks, checkEntry, messageOf, parseCard, cardText, parseRepo, repoLinks, linksFromReleases, LEVELS, roomName, filterRows, scoreRange, readBlocked, writeBlocked, utf8, PERIOD_MS } from './voir-core.js';
 
 const kindName = { docs: 'Docs', image: 'Images', video: 'Vidéos', app: 'Apps', page: 'Pages' };
 const FAVS = 'aiwa-voir-favs';
@@ -18,6 +18,11 @@ const writeFavs = (list) => {
   // the app keeps a copy: the person's own profile shows her favourites
   if (hostAvailable()) { try { hostPost({ cmd: 'favorites', list: list.slice(0, 50).map((f) => ({ repo: f.repo, links: f.links })) }); } catch { /* the page works without */ } }
 };
+// what this phone saw in the last week (repository names only): it is what it tells to the people it meets (gossip), and what the app keeps for « Swipe »
+const SEEN = 'aiwa-seen', WEEK = 7 * 24 * 3600 * 1000;
+const readSeen = () => { try { const v = JSON.parse(localStorage.getItem(SEEN) ?? '{}'); const now = Date.now(); return Object.fromEntries(Object.entries(v).filter(([r, t]) => typeof t === 'number' && now - t < WEEK)); } catch { return {}; } };
+const noteSeen = (repo) => { if (!repo) return; const v = readSeen(); v[repo] = Date.now(); try { localStorage.setItem(SEEN, JSON.stringify(v)); } catch { /* it lasts until the page closes */ } };
+const mySeen = () => cleanSeen(Object.entries(readSeen()).sort((a, b) => b[1] - a[1]).map(([r]) => r));
 const hostOf = (url) => { try { return new URL(url).host; } catch { return url; } };
 
 /** One card (a person, a pasted link, a favourite): her name, her links (they open in the browser), and the buttons given. */
@@ -79,6 +84,15 @@ function renderNear(entries, blocked, mode, view) {
 }
 
 export function initVoirPage(params) {
+  // the favourites put in the app from a profile are merged with the ones kept here
+  try {
+    const fromApp = JSON.parse(params.get('nfavs') ?? '[]');
+    if (Array.isArray(fromApp)) {
+      const list = readFavs();
+      for (const repo of fromApp.filter((r) => typeof r === 'string' && /^[\w.-]{1,60}\/[\w.-]{1,100}$/.test(r))) if (!list.some((f) => f.repo === repo)) list.unshift({ repo, links: repoLinks(repo), pub: '', at: Date.now() });
+      writeFavs(list);
+    }
+  } catch { /* nothing to merge */ }
   writeFavs(readFavs());      // the app learns the favourites kept before it listened
   const mode = ['lien', 'proche', 'qr', 'favoris'].includes(params.get('m')) ? params.get('m') : 'proche';
   const publish = params.get('pub') === '1';
@@ -139,7 +153,7 @@ export function initVoirPage(params) {
       if (!publish || !connected() || mine.length === 0) return null;
       let figure = { score: 0, laps: 0 };
       try { figure = (await session.aiwa.ranking()) ?? figure; } catch { /* no burn yet: zero */ }
-      const e = { v: 1, cell: own, repo, links: mine, score: Number(figure.score) || 0, laps: Number(figure.laps) || 0, ts: Date.now(), pub: session.aiwa.identity.publicKey };
+      const e = { v: 1, cell: own, repo, links: mine, score: Number(figure.score) || 0, laps: Number(figure.laps) || 0, ts: Date.now(), pub: session.aiwa.identity.publicKey, seen: mySeen() };
       e.sig = await session.aiwa.identity.sign(messageOf(e));
       return e;
     };
@@ -155,7 +169,11 @@ export function initVoirPage(params) {
         action.onMessage = (data) => {
           let entry; try { entry = JSON.parse(decoder.decode(data instanceof Uint8Array ? data : new Uint8Array(data))); } catch { return; }
           const ok = checkEntry(entry, prefixes);
-          if (ok && ok.pub !== session.aiwa?.identity?.publicKey) { entries.set(ok.pub, ok); renderNear(entries, blocked, mode, view); }
+          if (ok && ok.pub !== session.aiwa?.identity?.publicKey) {
+            entries.set(ok.pub, ok); renderNear(entries, blocked, mode, view);
+            // the app keeps who was seen, at which reach, and the list that person saw (the list of the one whose place the visitor takes in « Swipe »)
+            if (ok.repo) { noteSeen(ok.repo); if (hostAvailable()) { try { hostPost({ cmd: 'seen', repo: ok.repo, level: levelOfDistance(distanceTo(here.lat, here.lon, ok.cell)), seen: ok.seen, pub: ok.pub }); } catch { /* the page works without */ } } }
+          }
         };
         room.onPeerJoin = (peerId) => { announce(action, peerId).catch(() => {}); };
         return { room, action };
