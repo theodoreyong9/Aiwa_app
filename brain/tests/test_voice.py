@@ -43,3 +43,35 @@ class PipInstallTests(unittest.TestCase):
             with self.assertRaises(RuntimeError) as ctx:
                 v.pip_install("sherpa-onnx")
         self.assertIn("no matching distribution", str(ctx.exception))
+
+
+class SelfHealingTests(unittest.TestCase):
+    def _ready(self, home):
+        voice = v.Voice(home)
+        voice.state = "ready"
+        return voice
+
+    def test_one_failed_sentence_does_not_take_the_voice_away_but_three_in_a_row_do(self):
+        import sys
+        broken = unittest.mock.MagicMock()
+        broken.OfflineTts.side_effect = RuntimeError("boom")
+        with tempfile.TemporaryDirectory() as home, unittest.mock.patch.dict(sys.modules, {"sherpa_onnx": broken}):
+            voice = self._ready(home)
+            self.assertIsNone(voice.say("Un"))
+            self.assertEqual(voice.state, "ready")
+            self.assertIsNone(voice.say("Deux"))
+            self.assertEqual(voice.state, "ready")
+            self.assertIsNone(voice.say("Trois"))
+            self.assertEqual(voice.state, "error")
+            self.assertIn("boom", voice.error)
+
+    def test_a_voice_in_error_is_installed_again_after_a_while_not_before(self):
+        with tempfile.TemporaryDirectory() as home:
+            voice = v.Voice(home)
+            voice.state, voice.attempt_at = "error", 1000.0
+            with unittest.mock.patch.object(v.time, "time", return_value=1100.0), unittest.mock.patch.object(voice, "install") as install:
+                voice.retry_if_failed(wait=600)
+                install.assert_not_called()
+            with unittest.mock.patch.object(v.time, "time", return_value=1700.0), unittest.mock.patch.object(voice, "install") as install:
+                voice.retry_if_failed(wait=600)
+                install.assert_called_once()
