@@ -9,6 +9,8 @@ import time
 from . import github, state
 from .film_lib import Film
 from .stock_lib import Stock
+from .hf_lib import Hf
+from . import video_sources
 from .paths import DATA
 
 
@@ -58,6 +60,7 @@ def _film_planner(direction, says, seconds, kind="me"):
 
 film = Film(planner=_film_planner, voiceover=lambda text: state.voice.say(text))
 stock = Stock()
+hf = Hf(stock)
 PUBLISHED = DATA / "stock" / "published.json"       # the clips put in the release `stock` (the sessions are told of them only then)
 stock_saved = {}                                    # clip id -> {"state": pending | saved | failed, "error"}
 STOCK_TAG = "stock"
@@ -133,6 +136,11 @@ def stock_status():
     return {"ok": True, **stock.status(), "clips": [{**c, "saved": stock_saved.get(c.get("id", ""), {}).get("state", "none"), "saved_error": stock_saved.get(c.get("id", ""), {}).get("error", "")} for c in stock.clips()]}
 
 
+def sources():
+    keys = {**stock.status(), "fal": film._key() is not None}
+    return {"ok": True, "sources": video_sources.catalogue(keys), "line": video_sources.line(keys)}
+
+
 def film_publish(job_id):
     """The finished film, as a release of the repository in use whose tag says it is a video (the Files page lists it)."""
     job = film.jobs.get(job_id)
@@ -179,6 +187,13 @@ def stock_api(path, body):
             return {"ok": False, "error": str(err)}
     if path == "/api/stock/download":
         return stock.download(data.get("clip") if isinstance(data.get("clip"), dict) else {})
+    if path == "/api/stock/hf_shot":
+        image = data.get("image")
+        return hf.start(data.get("prompt"), image if isinstance(image, str) and image else None)
+    if path == "/api/stock/hf_job":
+        return hf.job(str(data.get("id") or ""))
+    if path == "/api/stock/hf_api":
+        return hf.api("image" if data.get("mode") == "image" else "text")
     if path == "/api/stock/publish":
         return stock_publish(str(data.get("id") or ""))
     return {"ok": False, "error": "route inconnue"}

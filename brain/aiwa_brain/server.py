@@ -220,6 +220,7 @@ GET = {
     "/api/claude/login": lambda q: claude_cli.login_snapshot(),
     "/api/github/login": lambda q: github_login.snapshot(),
     "/api/stock/status": lambda q: studio.stock_status(),
+    "/api/video/sources": lambda q: studio.sources(),
     "/api/film/info": lambda q: studio.info(),
     "/api/film/status": lambda q: {"ok": True, **studio.film.status()},
     "/api/film/get": lambda q: studio.film.get((q.get("id") or [""])[0]),

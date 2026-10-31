@@ -51,6 +51,11 @@ def point(report=False):
         chamber = f"en cours avec {name}" if state.chamber["active"] else None
     current = (sessions.entry_of(in_use) or {}).get("title") or in_use if in_use else None
     extra = []
+    try:
+        from . import studio
+        extra.append(studio.sources()["line"])
+    except Exception:
+        pass
     if report:
         failing = sorted({s["repo"] for s in listed if s.get("ci") == "failure"})
         extra.append("Rapport demandé. Workflows en échec : " + (", ".join(failing) if failing else "aucun") + ".")

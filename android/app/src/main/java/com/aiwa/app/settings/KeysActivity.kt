@@ -100,6 +100,8 @@ class KeysActivity : FloatActivity() {
         if (bank == null) note("Le cerveau ne répond pas (ou il est trop ancien).") else {
             keyBlock("Pexels", bank.optBoolean("pexels"), { Aiwa.brain.stockKey("pexels", it) }, { Aiwa.brain.stockKeyClear("pexels") })
             keyBlock("Pixabay", bank.optBoolean("pixabay"), { Aiwa.brain.stockKey("pixabay", it) }, { Aiwa.brain.stockKeyClear("pixabay") })
+            note("Plans générés gratuitement (Wan 2.2, LTX-Video sur Hugging Face). Sans clé, le calcul gratuit du jour ne dure que quelques minutes ; un jeton gratuit (huggingface.co/settings/tokens) en donne plus. Il reste dans ton téléphone, le cerveau l'utilise lui-même.")
+            keyBlock("Hugging Face", bank.optBoolean("hf"), { Aiwa.brain.stockKey("hf", it) }, { Aiwa.brain.stockKeyClear("hf") })
             entry("Chercher une vidéo libre", "Garde un clip, il part dans ton dépôt pour tes films.") { startActivity(android.content.Intent(this, StockSearchActivity::class.java)) }
         }
     }

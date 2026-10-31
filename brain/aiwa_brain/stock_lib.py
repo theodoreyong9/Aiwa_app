@@ -17,6 +17,7 @@ from pathlib import Path
 from .paths import DATA
 
 SOURCES = ("pexels", "pixabay")
+KEYS = SOURCES + ("hf",)           # the two banks, and the Hugging Face token (free generated shots: hf_lib.py)
 KEY_RE = re.compile(r"[A-Za-z0-9_\-:.]{16,120}")
 LICENCES = {"pexels": "Pexels licence (free to use; credit appreciated)", "pixabay": "Pixabay Content License (free to use, no credit needed)"}
 MAX_CLIP_BYTES = 60_000_000
@@ -38,6 +39,10 @@ class Stock:
     def _key_file(self, source):
         return self.home / f"{source}_key"
 
+    def key_of(self, source):
+        """For the brain's own calls to the service (never returned by the backend)."""
+        return self._key(source) if source in KEYS else None
+
     def _key(self, source):
         try:
             key = self._key_file(source).read_text(encoding="utf-8").strip()
@@ -46,7 +51,7 @@ class Stock:
         return key if KEY_RE.fullmatch(key) else None
 
     def save_key(self, source, key):
-        if source not in SOURCES:
+        if source not in KEYS:
             return {"ok": False, "error": "banque inconnue"}
         key = str(key or "").strip()
         if not KEY_RE.fullmatch(key):
@@ -58,13 +63,13 @@ class Stock:
         return {"ok": True}
 
     def clear_key(self, source):
-        if source in SOURCES:
+        if source in KEYS:
             self._key_file(source).unlink(missing_ok=True)
         return {"ok": True}
 
     def status(self):
         """Never the keys themselves."""
-        return {"pexels": self._key("pexels") is not None, "pixabay": self._key("pixabay") is not None}
+        return {"pexels": self._key("pexels") is not None, "pixabay": self._key("pixabay") is not None, "hf": self._key("hf") is not None}
 
     # ---- the services ----
     def _http(self, url, headers=None):
