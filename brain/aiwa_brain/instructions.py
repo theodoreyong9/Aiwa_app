@@ -64,7 +64,7 @@ def personal(repo, work, base, direct, origin=None):
         if origin is not None and origin != repo:
             parts.append(f"ta session a démarré sur {origin or 'aucun dépôt'} : tu travailles maintenant sur {repo} (rattache-le avec add_repo)")
         if studio.published():
-            parts.append("clips libres = release stock du dépôt")
+            parts.append("clips libres = release stock du dépôt (les plans générés par IA y sont aussi : fiche `.json`, à présenter comme générés)")
         mine = profile_lib.repo()
         if mine:
             parts.append(f"profil = {mine}")
