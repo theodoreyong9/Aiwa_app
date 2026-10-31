@@ -58,7 +58,7 @@ def schema():
     return (
         '{"say":"<ce que tu dis à voix haute, une ou deux phrases courtes>",'
         '"send":[{"repo":"<propriétaire/nom du dépôt>","session":"<session_… si tu vises une session précise>","message":"<le message à lui envoyer>"}],'
-        '"do":{"repo":"<propriétaire/nom>","session":"<session_… ou nouvelle>","open":"<' + OPEN_LIST + '>","cast":{"tv":"<nom de la TV, ou vide>","wait":false},"shot":{"prompt":"<le plan à fabriquer, concret>","source":"<hf, stock ou auto>"},"film":{"kind":"<me, product ou both>","direction":"<ce que la personne veut voir, ses mots>","says":"<ses paroles, ou vide>","seconds":0,"aspect":"<9:16, 16:9 ou 1:1>","me":["<noms des photos jointes qui sont elle>"],"product":["<noms des photos jointes du produit>"]},"extra":"<consigne durable donnée aux sessions, ou vide pour l\'effacer>","rename":{"session":"<session_… ou vide pour la session en cours>","title":"<nouveau nom>"},"model":"<opus, sonnet, haiku, un identifiant, ou auto>","effort":"<low, medium, high, xhigh, max, ou auto>","push":"<direct ou branche>"}}'
+        '"do":{"repo":"<propriétaire/nom>","session":"<session_… ou nouvelle>","open":"<' + OPEN_LIST + '>","cast":{"tv":"<nom de la TV, ou vide>","wait":false},"persona":{"style":"<neutre, vanneur, chaleureux ou sec>","game":true,"restart":false},"shot":{"prompt":"<le plan à fabriquer, concret>","source":"<hf, stock ou auto>"},"film":{"kind":"<me, product ou both>","direction":"<ce que la personne veut voir, ses mots>","says":"<ses paroles, ou vide>","seconds":0,"aspect":"<9:16, 16:9 ou 1:1>","me":["<noms des photos jointes qui sont elle>"],"product":["<noms des photos jointes du produit>"]},"extra":"<consigne durable donnée aux sessions, ou vide pour l\'effacer>","rename":{"session":"<session_… ou vide pour la session en cours>","title":"<nouveau nom>"},"model":"<opus, sonnet, haiku, un identifiant, ou auto>","effort":"<low, medium, high, xhigh, max, ou auto>","push":"<direct ou branche>"}}'
     )
 
 
@@ -69,6 +69,7 @@ ROLE = (
     "Tu COMPRENDS de quel dépôt on parle d'après ce que la personne dit et la liste de ses dépôts : mets alors `repo` dans `send`, sans `session` ; le téléphone retrouve lui-même la session liée à ce dépôt, ou en crée une. "
     "N'invente jamais un dépôt qui n'est pas dans le point ; si deux dépôts conviennent, demande lequel, en `say`. Tu peux proposer le même travail à plusieurs dépôts ou sessions (`send` est une liste). "
     "`do` ouvre un écran du widget quand la personne le demande (« montre-moi mes vidéos » : `open` video), change le dépôt ou la session en cours, ou envoie une vidéo à la télévision (`cast`, avec `wait` à vrai pour celle qui va arriver). "
+    "`do.persona` change ton style (neutre, vanneur, chaleureux, sec), lance ou arrête la course (`game`), ou recommence une manche (`restart`) quand elle le demande ; si elle te demande ses points ou les tiens, réponds en `say` avec la ligne « Course » du point. "
     "`do.shot` fabrique UN plan vidéo isolé que la personne demande (« génère-moi un plan de… », « trouve-moi un clip de… ») : `source` hf (généré, gratuit mais limité), stock (séquence réelle d'une banque, si la clé existe) ou auto ; "
     "regarde la ligne « Sources vidéo prêtes » du point. `do.film` fait un FILM de la personne (kind me), de son produit (product) ou des deux (both) à partir des photos qu'elle a jointes (liste « Fichiers joints » du point : si elle n'en a pas joint, dis-le-lui en `say`, sans `film`) ; "
     "pour both, nomme les photos de chaque sorte. Le téléphone lit le prix et lui demande son accord, rien n'est dépensé avant. Un film de sessions (schémas, décors 3D, Blender, titres) va dans `send` (une session). `shot` ne sert qu'à UN plan isolé, jamais à un film. "
@@ -222,6 +223,18 @@ def parse_command(raw, known_ids):
         which = _clean(rename.get("session"), 60)
         if title and not UNSAFE_RE.search(title) and (not which or which.lower() in ("courante", "current") or (SESSION_RE.fullmatch(which) and which in known_ids)):
             out["rename"] = {"session": which if SESSION_RE.fullmatch(which) else "", "title": title}      # the name Aiwa shows for a session
+    persona = raw.get("persona")
+    if isinstance(persona, dict):
+        item = {}
+        style = _clean(persona.get("style"), 30).lower()
+        if style in ("neutre", "vanneur", "chaleureux", "sec"):
+            item["style"] = style
+        if isinstance(persona.get("game"), bool):
+            item["game"] = persona["game"]
+        if persona.get("restart") is True:
+            item["restart"] = True
+        if item:
+            out["persona"] = item          # the style he speaks in, the race on or off, a new round
     shot = raw.get("shot")
     if isinstance(shot, str):
         shot = {"prompt": shot}
@@ -267,6 +280,14 @@ def command_phrase(command, title_of=lambda x: x):
     if cast:
         tv = f" « {cast['tv']} »" if cast.get("tv") else ""
         spoken.append(("la prochaine vidéo sur la télévision" if cast.get("wait") else "la dernière vidéo sur la télévision") + tv)
+    persona = command.get("persona")
+    if persona:
+        if "style" in persona:
+            spoken.append("le style " + {"neutre": "neutre", "vanneur": "condescendant et vanneur", "chaleureux": "chaleureux", "sec": "sec et direct"}[persona["style"]])
+        if "game" in persona:
+            spoken.append("la course lancée (100 points chacun)" if persona["game"] else "la course arrêtée")
+        if persona.get("restart"):
+            spoken.append("une nouvelle manche")
     film = command.get("film")
     if film and film.get("summary"):
         spoken.append(film["summary"])

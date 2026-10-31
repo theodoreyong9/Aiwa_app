@@ -56,6 +56,9 @@ def point(report=False):
         extra.append(studio.sources()["line"])
         if studio.shots_line():
             extra.append(studio.shots_line())
+        game = state.persona.status()["game"]
+        if game.get("on"):
+            extra.append(f"Course : toi (l'agent) {game['agent']} points, la personne {game['user']} points ; jour {game['day'] + 1}/{game['days']}, minimum {game['minimum']} pour gagner ; manches gagnées : toi {game['wins']['agent']}, elle {game['wins']['user']}." + (" Manche finie." if game.get("ended") else ""))
         if studio.film_progress_line():
             extra.append(studio.film_progress_line())
         with state.attach_lock:
@@ -241,6 +244,14 @@ def apply_command(command_id):
                 if repo and not items.get("repo"):
                     state.current_repo = repo
             state.save()
+    if items.get("persona"):
+        pr = items["persona"]
+        if "style" in pr:
+            state.persona.set_style(pr["style"])
+        if "game" in pr:
+            state.persona.set_game(pr["game"])
+        if pr.get("restart"):
+            state.persona.restart()
     if items.get("shot"):
         from . import studio
         studio.shoot(items["shot"]["prompt"], items["shot"]["source"])
