@@ -1,9 +1,10 @@
 """The scenarios: a prompt the person would repeat by hand, kept under a launch word of her own. Each one is a double of her (a session of its own) that she talks to; the report is a scenario too."""
 import json
+import re
 import threading
 import time
 
-from . import agent, config, relay, scen_lib, sessions, state
+from . import agent, config, github, live, relay, scen_lib, sessions, state
 
 
 def _scen_sessions():
@@ -31,12 +32,39 @@ def _scenario_view(sc):
     with state.scenario_lock:
         run = dict(_scen_run(sc["id"]))
     titles = {e.get("id"): e.get("title") for e in sessions.load_all() if e.get("id")}
-    return {**scen_lib.public(sc), "session": mine.get("current"), "creating": run["creating"], "error": run["error"],
+    with state.scenario_lock:
+        watch = state.scenario_watch.get(sc["id"]) or {}
+    return {**scen_lib.public(sc), "session": mine.get("current"), "creating": run["creating"], "error": run["error"], "repo": mine.get("repo"), "watching": bool(watch.get("on")), "turns": int(watch.get("turns") or 0),
             "sessions": [{"id": x["id"], "title": str(titles.get(x["id"]) or sc["name"])[:60], "current": x["id"] == mine.get("current")} for x in mine.get("list", []) if isinstance(x, dict) and x.get("id")]}
 
 
+def _dedicated_repo(sc):
+    """The repository that is the home of the scenario's double (private, made once with the person's GitHub account: `aiwa-<scenario>`), or None when it cannot be made."""
+    mine = _scen_sessions().get(sc["id"]) or {}
+    if mine.get("repo"):
+        return mine["repo"]
+    owner = github.connected_user()
+    if not owner:
+        return None
+    name = "aiwa-" + re.sub(r"[^a-z0-9-]+", "-", str(sc["id"]).lower()).strip("-")[:60]
+    repo = f"{owner}/{name}"
+    try:
+        github.api("/user/repos", method="POST", body={"name": name, "private": True, "auto_init": True, "description": f"Le dépôt du double du scénario Aiwa « {sc['name']} » : ses notes."}, timeout=30)
+    except github.GithubError as err:
+        # already there: it is the one to use; anything else: the double lives on the repository in use
+        try:
+            github.api(f"/repos/{repo}")
+        except github.GithubError:
+            print(f"[{state.ts()}] scenario {sc['id']}: no dedicated repository ({str(err)[:120]})", flush=True)
+            return None
+    data = _scen_sessions()
+    data.setdefault(sc["id"], {"current": None, "list": []})["repo"] = repo
+    _scen_sessions_save(data)
+    return repo
+
+
 def scenario_create(sc, fresh=False):
-    """The session of the scenario (a super agent of its own, on the repository in use), made in the background. With `fresh`, a new one even if there is one. {"ok", "error"}."""
+    """The session of the scenario (a super agent of its own, in a repository of its own), made in the background. With `fresh`, a new one even if there is one. {"ok", "error"}."""
     with state.scenario_lock:
         run = _scen_run(sc["id"])
         if run["creating"]:
@@ -46,16 +74,24 @@ def scenario_create(sc, fresh=False):
         run.update(creating=True, error=None)
 
     def work():
+        dedicated = _dedicated_repo(sc)
         with state.lock:
-            previous = (state.current_cloud, state.last_cloud)
+            previous = (state.current_cloud, state.last_cloud, state.current_repo)
             state.current_cloud = None            # a new session is made, and the one in use stays the one in use
+            if dedicated:
+                state.current_repo = dedicated
         try:
-            result = sessions.cloud_send(scen_lib.charter(sc, relay.relay_url()))
+            result = sessions.cloud_send(scen_lib.charter(sc, relay.relay_url(), dedicated))
+            if not result.get("ok") and dedicated:
+                # the cloud cannot reach the new repository (Claude's access to it): the double lives on the repository in use, as before
+                with state.lock:
+                    state.current_cloud, state.current_repo = None, previous[2]
+                result = sessions.cloud_send(scen_lib.charter(sc, relay.relay_url()))
         except Exception as err:
             result = {"ok": False, "error": str(err)}
         finally:
             with state.lock:
-                state.current_cloud, state.last_cloud = previous
+                state.current_cloud, state.last_cloud, state.current_repo = previous
                 state.save()
         with state.scenario_lock:
             run = _scen_run(sc["id"])
@@ -72,6 +108,161 @@ def scenario_create(sc, fresh=False):
     return {"ok": True, "creating": True}
 
 
+# ---------- the watch: a double that criticises what a session did, again and again, until the person says stop ----------
+
+WATCH_EVERY = 45            # seconds between two looks at the watched branches
+WATCH_BUSY_MAX = 20 * 60    # a double that does not answer in twenty minutes is asked again at the next change
+WATCH_IDLE_STOP = 3 * 3600  # nothing from the watched sessions for three hours: the loop ends and says so
+
+
+def _resolve_targets(send):
+    """[{session, repo, work, title}] of the sessions a double sent to (by session, or by repository: the session linked to it)."""
+    entries = sessions.load_all()
+    out = []
+    for item in (send if isinstance(send, list) else [send]):
+        if not isinstance(item, dict):
+            continue
+        sid, repo = str(item.get("session") or ""), str(item.get("repo") or "")
+        entry = next((e for e in entries if sid and e.get("id") == sid), None) or next((e for e in entries if repo and e.get("repo") == repo and e.get("work")), None)
+        if entry and entry.get("id") and entry.get("repo") and entry.get("work") and github.REPO_RE.fullmatch(str(entry["repo"])):
+            out.append({"session": entry["id"], "repo": entry["repo"], "work": entry["work"], "title": str(entry.get("title") or entry["id"])[:40]})
+    return out
+
+
+def watch_start(scenario_id, send):
+    """The double asked to watch (`watch: true`): the sessions it sent to are looked at from now on, and it is woken at each turn they finish."""
+    targets = _resolve_targets(send)
+    baseline = {}
+    for t in targets:
+        try:
+            baseline[t["session"]] = live.look_branch(t["repo"], t["work"])
+        except github.GithubError:
+            baseline[t["session"]] = None
+    with state.scenario_lock:
+        w = state.scenario_watch.setdefault(scenario_id, {"on": True, "busy": False, "turns": 0, "targets": {}})
+        w["on"], w["busy"] = True, False
+        for t in targets:
+            w["targets"][t["session"]] = {**t, "snap": baseline.get(t["session"]), "pending": False, "changed": time.time()}
+
+
+def _say_to_phone(scenario_id, text):
+    with state.scenario_lock:
+        items = _scen_run(scenario_id)["said"]
+        items.append({"id": f"{int(time.time() * 1000)}", "say": text, "note": "", "ts": int(time.time()), "do": False})
+        del items[:-20]
+
+
+def watch_stop(scenario_id, why=None):
+    with state.scenario_lock:
+        w = state.scenario_watch.get(scenario_id)
+        if not w:
+            return
+        w["on"] = False
+    if why:
+        _say_to_phone(scenario_id, why)
+
+
+def watch_stop_all():
+    """« stop »: every double stops watching and is told to launch nothing more."""
+    with state.scenario_lock:
+        stopped = [sid for sid, w in state.scenario_watch.items() if w.get("on")]
+        for sid in stopped:
+            state.scenario_watch[sid]["on"] = False
+    for sid in stopped:
+        double = _scen_sessions().get(sid, {}).get("current")
+        if double:
+            threading.Thread(target=_scenario_send, args=(double, "[Aiwa — stop scénario] La personne a dit stop : tu ne lances plus rien et tu ne veilles plus."), daemon=True).start()
+
+
+def _wake_message(fired, turn):
+    parts = []
+    for t, now in fired:
+        ci = {"success": "réussi", "failure": "ÉCHOUÉ", "running": "en cours", None: "aucun"}.get(now.get("ci"), "?")
+        parts.append(f"La session « {t['title']} » [{t['session']}] vient de finir un tour. Dernier commit : « {str(now.get('message') or '')[:120]} ». Workflow : {ci}. "
+                     f"Regarde le résultat : dépôt {t['repo']}, branche {t['work']} (fais un `git fetch` de cette branche et lis ce qui a changé).")
+    return ("[Aiwa — veille, tour " + str(turn) + "] " + " ".join(parts) + " Critique ce résultat et envoie ta critique à cette session avec `send` (session : l'identifiant ci-dessus), "
+            "en gardant `\"watch\":true` dans ta commande pour continuer de veiller. Si le résultat te satisfait, dis-le et mets `\"watch\":false`.")
+
+
+def _wake(scenario_id, double, text):
+    ok = False
+    try:
+        result = sessions.queue_followup(double, text)
+        ok = result.get("ok") is True
+    except Exception as err:
+        print(f"[{state.ts()}] scenario watch: {err}", flush=True)
+    with state.scenario_lock:
+        w = state.scenario_watch.get(scenario_id)
+        if not w:
+            return
+        if ok:
+            w["fails"] = 0
+        else:
+            w["busy"] = False
+            w["fails"] = int(w.get("fails") or 0) + 1
+            stop = w["fails"] >= 3
+    if not ok and stop:
+        watch_stop(scenario_id, "La veille s'arrête : je n'arrive pas à joindre le double du scénario.")
+
+
+def watch_once():
+    with state.scenario_lock:
+        ids = [sid for sid, w in state.scenario_watch.items() if w.get("on")]
+    for sid in ids:
+        with state.scenario_lock:
+            w = state.scenario_watch.get(sid)
+            if not w or not w.get("on"):
+                continue
+            if w.get("busy") and time.time() - float(w.get("busy_since") or 0) > WATCH_BUSY_MAX:
+                w["busy"] = False
+            targets = list(w["targets"].values())
+        double = _scen_sessions().get(sid, {}).get("current")
+        if not double or not targets:
+            continue
+        fired = []
+        for t in targets:
+            try:
+                now = live.look_branch(t["repo"], t["work"])
+            except github.GithubError:
+                continue
+            prev = t["snap"]
+            t["snap"] = now
+            if prev is None:
+                t["changed"] = time.time()
+                continue
+            if (now["sha"] and now["sha"] != prev.get("sha")) or now["ci"] != prev.get("ci"):
+                t["changed"], t["pending"] = time.time(), True
+            if t["pending"] and now["ci"] != "running":
+                t["pending"] = False
+                fired.append((t, now))
+        with state.scenario_lock:
+            w = state.scenario_watch.get(sid)
+            if not w or not w.get("on"):
+                continue
+            if fired and not w.get("busy"):
+                w["busy"], w["busy_since"] = True, time.time()
+                w["turns"] = int(w.get("turns") or 0) + 1
+                turn = w["turns"]
+                message = _wake_message(fired, turn)
+            else:
+                turn = None
+            idle = time.time() - max(t["changed"] for t in targets) > WATCH_IDLE_STOP and not w.get("busy")
+        if turn:
+            threading.Thread(target=_wake, args=(sid, double, message), daemon=True).start()
+        elif idle:
+            watch_stop(sid, "La veille s'arrête : plus rien de la session depuis trois heures.")
+
+
+def watch_loop():
+    time.sleep(90)
+    while True:
+        try:
+            watch_once()
+        except Exception as err:
+            print(f"[{state.ts()}] scenario watch: {err}", flush=True)
+        time.sleep(WATCH_EVERY)
+
+
 def said(raw):
     """What the session of a scenario says through the relay (title aiwa-scenario): {"scenario", "say", "note"}, kept until the phone comes to take it."""
     try:
@@ -84,6 +275,15 @@ def said(raw):
     # what it proposes for the other sessions (`send`, `do`) goes the way the super agent's proposals go: read back by the phone, confirmed by the person, never sent by itself
     # A scenario is its own master: launching it was the person's agreement, so what it sends to the sessions goes at once, and what it asks the phone to do (open, cast) is applied at once.
     did = agent.act(data.get("send"), data.get("do"))
+    sid_ = data["scenario"]
+    if data.get("watch") is True and data.get("send"):
+        watch_start(sid_, data.get("send"))
+    elif data.get("watch") is False:
+        watch_stop(sid_)
+    with state.scenario_lock:
+        w_ = state.scenario_watch.get(sid_)
+        if w_:
+            w_["busy"] = False           # the double answered: it can be woken again at the next turn
     if not say and not note:
         return bool(data.get("send") or data.get("do"))
     with state.scenario_lock:

@@ -291,6 +291,8 @@ def stop():
                 pass
     if targets:
         threading.Thread(target=run, daemon=True).start()
+    from . import scenarios       # « stop » also ends the watch of the doubles (imported here: scenarios imports this module)
+    scenarios.watch_stop_all()
     return {"ok": True, "told": len(targets)}
 
 

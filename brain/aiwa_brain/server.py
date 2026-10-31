@@ -438,6 +438,7 @@ def serve():
         claude_cli.login_state()     # looks the login up in the background, so the first status already knows
         files.warm()
         threading.Thread(target=live.progress_loop, daemon=True).start()
+        threading.Thread(target=scenarios.watch_loop, daemon=True).start()
         threading.Thread(target=relay.listen, daemon=True).start()
         threading.Thread(target=update.update_loop, daemon=True).start()
     print(f"{time.strftime('%H:%M:%S')} Aiwa brain listening on http://{config.HOST}:{config.PORT}", flush=True)

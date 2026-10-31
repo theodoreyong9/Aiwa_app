@@ -92,8 +92,8 @@ def _live_sessions():
     return entries[:3], current
 
 
-def _live_look(repo, work, label):
-    """One look at a branch (its latest commit and workflow): what changed since the last look becomes a sentence for the person, kept for the phone to take."""
+def look_branch(repo, work):
+    """One look at a branch: its latest commit and the state of its latest workflow, {"sha", "message", "ci"} (ci: running / success / failure / None)."""
     now = {"sha": None, "message": "", "ci": None}
     branch = urllib.parse.quote(work, safe="")
     commits = github.api(f"/repos/{repo}/commits?sha={branch}&per_page=1")
@@ -104,6 +104,12 @@ def _live_look(repo, work, label):
     run = ((runs or {}).get("workflow_runs") or [None])[0] if isinstance(runs, dict) else None
     if run:
         now["ci"] = "running" if run.get("status") != "completed" else ("success" if run.get("conclusion") == "success" else "failure")
+    return now
+
+
+def _live_look(repo, work, label):
+    """One look at a branch (its latest commit and workflow): what changed since the last look becomes a sentence for the person, kept for the phone to take."""
+    now = look_branch(repo, work)
     with state.live_lock:
         prev = state.live["snap"].get((repo, work))
         state.live["snap"][(repo, work)] = now
