@@ -58,7 +58,7 @@ def schema():
     return (
         '{"say":"<ce que tu dis à voix haute, une ou deux phrases courtes>",'
         '"send":[{"repo":"<propriétaire/nom du dépôt>","session":"<session_… si tu vises une session précise>","message":"<le message à lui envoyer>"}],'
-        '"do":{"repo":"<propriétaire/nom>","session":"<session_… ou nouvelle>","open":"<' + OPEN_LIST + '>","cast":{"tv":"<nom de la TV, ou vide>","wait":false},"extra":"<consigne durable donnée aux sessions, ou vide pour l\'effacer>","rename":{"session":"<session_… ou vide pour la session en cours>","title":"<nouveau nom>"},"model":"<opus, sonnet, haiku, un identifiant, ou auto>","effort":"<low, medium, high, xhigh, max, ou auto>","push":"<direct ou branche>"}}'
+        '"do":{"repo":"<propriétaire/nom>","session":"<session_… ou nouvelle>","open":"<' + OPEN_LIST + '>","cast":{"tv":"<nom de la TV, ou vide>","wait":false},"shot":{"prompt":"<le plan à fabriquer, concret>","source":"<hf, stock ou auto>"},"extra":"<consigne durable donnée aux sessions, ou vide pour l\'effacer>","rename":{"session":"<session_… ou vide pour la session en cours>","title":"<nouveau nom>"},"model":"<opus, sonnet, haiku, un identifiant, ou auto>","effort":"<low, medium, high, xhigh, max, ou auto>","push":"<direct ou branche>"}}'
     )
 
 
@@ -69,6 +69,8 @@ ROLE = (
     "Tu COMPRENDS de quel dépôt on parle d'après ce que la personne dit et la liste de ses dépôts : mets alors `repo` dans `send`, sans `session` ; le téléphone retrouve lui-même la session liée à ce dépôt, ou en crée une. "
     "N'invente jamais un dépôt qui n'est pas dans le point ; si deux dépôts conviennent, demande lequel, en `say`. Tu peux proposer le même travail à plusieurs dépôts ou sessions (`send` est une liste). "
     "`do` ouvre un écran du widget quand la personne le demande (« montre-moi mes vidéos » : `open` video), change le dépôt ou la session en cours, ou envoie une vidéo à la télévision (`cast`, avec `wait` à vrai pour celle qui va arriver). "
+    "`do.shot` fabrique UN plan vidéo isolé que la personne demande (« génère-moi un plan de… », « trouve-moi un clip de… ») : `source` hf (généré, gratuit mais limité), stock (séquence réelle d'une banque, si la clé existe) ou auto ; "
+    "regarde la ligne « Sources vidéo prêtes » du point. Un FILM entier, un schéma, un décor 3D ou le visage de la personne vont dans `send` (une session), jamais dans `shot`. "
     "AVANT que quoi que ce soit parte, ton `say` annonce en une phrase brève ce qui va être fait : le téléphone relit, la personne valide ou corrige. "
 )
 
@@ -219,6 +221,14 @@ def parse_command(raw, known_ids):
         which = _clean(rename.get("session"), 60)
         if title and not UNSAFE_RE.search(title) and (not which or which.lower() in ("courante", "current") or (SESSION_RE.fullmatch(which) and which in known_ids)):
             out["rename"] = {"session": which if SESSION_RE.fullmatch(which) else "", "title": title}      # the name Aiwa shows for a session
+    shot = raw.get("shot")
+    if isinstance(shot, str):
+        shot = {"prompt": shot}
+    if isinstance(shot, dict):
+        prompt = _clean(shot.get("prompt"), 600)
+        source = _clean(shot.get("source"), 20).lower()
+        if prompt and not UNSAFE_RE.search(prompt):
+            out["shot"] = {"prompt": prompt, "source": source if source in ("hf", "stock", "auto") else "auto"}      # one shot made or fetched by the brain itself
     kind = OPEN_KINDS.get(_clean(raw.get("open"), 40).lower())
     if kind:
         out["open"] = kind
@@ -245,6 +255,9 @@ def command_phrase(command, title_of=lambda x: x):
     if cast:
         tv = f" « {cast['tv']} »" if cast.get("tv") else ""
         spoken.append(("la prochaine vidéo sur la télévision" if cast.get("wait") else "la dernière vidéo sur la télévision") + tv)
+    shot = command.get("shot")
+    if shot:
+        spoken.append("un plan « " + shot["prompt"][:60] + " » " + {"hf": "généré sur Hugging Face", "stock": "pris dans une banque libre"}.get(shot["source"], "(source choisie pour toi)"))
     if "model" in command:
         spoken.append("le modèle " + (command["model"] or "automatique"))
     if "effort" in command:

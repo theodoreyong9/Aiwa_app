@@ -141,6 +141,42 @@ def sources():
     return {"ok": True, "sources": video_sources.catalogue(keys), "line": video_sources.line(keys)}
 
 
+CREATIVE = re.compile(r"imagin|fantas|dessin|anim[ée]|futur|magi|rêve|reve|surréal|surreal|dragon|robot|cartoon", re.I)
+shots = {}                                          # what `shoot` started: id -> {"source", "state", "error"}
+
+
+def choose(prompt, source="auto"):
+    """The source of a shot when the agent leaves it to the brain: a real footage bank when a key is there and the plan is of the real world, else a generated shot (Hugging Face). Only these two are
+    made by the brain; the others (Blender, the film of the person, the archives) are the sessions' or the film screen's."""
+    if source in ("hf", "stock"):
+        return source
+    banks = stock.status()
+    return "stock" if (banks.get("pexels") or banks.get("pixabay")) and not CREATIVE.search(prompt or "") else "hf"
+
+
+def shoot(prompt, source="auto"):
+    """One shot, in the background: a stock clip (the first result of the search, with its card) or a generated one. {"ok", "source", "id"}; the clip is then saved like the others (`stock_publish`)."""
+    source = choose(prompt, source)
+    if source == "hf":
+        started = hf.start(prompt)
+        if started.get("ok"):
+            shots[started["id"]] = {"source": "hf", "state": "running", "error": ""}
+        return {**started, "source": "hf"}
+    bank = "pexels" if stock.status().get("pexels") else "pixabay"
+    shot_id = f"s{int(time.time() * 1000) % 10**8}"
+    shots[shot_id] = {"source": "stock", "state": "running", "error": ""}
+
+    def run():
+        try:
+            found = stock.search(prompt, bank)
+            done = stock.download(found[0]) if found else {"ok": False, "error": "aucun clip trouvé"}
+            shots[shot_id].update(state="done" if done.get("ok") else "failed", error=done.get("error", ""), clip=done.get("id", ""))
+        except Exception as err:
+            shots[shot_id].update(state="failed", error=str(err))
+    threading.Thread(target=run, daemon=True).start()
+    return {"ok": True, "source": "stock", "id": shot_id}
+
+
 def film_publish(job_id):
     """The finished film, as a release of the repository in use whose tag says it is a video (the Files page lists it)."""
     job = film.jobs.get(job_id)
@@ -190,6 +226,8 @@ def stock_api(path, body):
     if path == "/api/stock/hf_shot":
         image = data.get("image")
         return hf.start(data.get("prompt"), image if isinstance(image, str) and image else None)
+    if path == "/api/stock/shoot":
+        return shoot(" ".join(str(data.get("prompt") or "").split())[:600], str(data.get("source") or "auto"))
     if path == "/api/stock/hf_job":
         return hf.job(str(data.get("id") or ""))
     if path == "/api/stock/hf_api":
