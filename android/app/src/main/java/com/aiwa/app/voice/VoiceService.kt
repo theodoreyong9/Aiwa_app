@@ -354,7 +354,7 @@ class VoiceService : Service() {
     private suspend fun resolvePending() {
         var agent: AgentView? = AgentVoice.fresh()
         agent?.command?.let { c ->
-            if (c.auto) AgentScreens.apply(applicationContext, c)
+            if (c.auto || (!c.film && sendsAtOnce())) AgentScreens.apply(applicationContext, c)      // without an Anthropic key nothing waits for a word (a film, which costs, always does)
             else {
                 showLine(c.readBack + " C'est bon ?", mine = false)
                 val (reply, heard) = if (preConfirmed) Reply.CONFIRM to "" else askAloud(applicationContext, c.readBack + " C'est bon ?")

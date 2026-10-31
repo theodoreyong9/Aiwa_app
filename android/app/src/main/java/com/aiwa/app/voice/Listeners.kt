@@ -82,7 +82,7 @@ class ConfirmListener(private val context: Context, private val onAnswer: (Reply
 
 /** The phone says the sentence and listens for the answer: confirmation, refusal, stop, or something else (what was said comes with it). Main thread. */
 suspend fun askAloud(context: Context, sentence: String, speak: suspend (String) -> Boolean = { Speaker.speakNatural(context, it) }): Pair<Reply, String> {
-    speak(sentence)    // a voice that fails does not drop the question: the words are on the screen too, the answer is still listened for
+    if (!speak(sentence)) Speaker.complain(context)    // a voice that fails does not drop the question: the words are on the screen too, and now said why; the answer is still listened for
     delay(400)   // the end of the voice must not be heard as the answer
     return suspendCancellableCoroutine { cont ->
         val confirm = ConfirmListener(context) { reply, heard -> if (cont.isActive) cont.resume(reply to heard) }
