@@ -27,6 +27,11 @@ abstract class FloatActivity : ComponentActivity() {
     /** True for a window whose lines are an icon and a name only (the settings): the explanations of `entryIcon` are not shown. */
     protected open val compactRows: Boolean = false
 
+    /** More than one: the lines of `entryIcon` become tiles (an icon over a name), this many on a row, and the section titles are not drawn (the tiles flow on). */
+    protected open val gridColumns: Int = 1
+    private var gridRow: LinearLayout? = null
+    private var gridCount = 0
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         window.setBackgroundDrawable(ColorDrawable(Color.parseColor("#AA000000")))
@@ -46,8 +51,46 @@ abstract class FloatActivity : ComponentActivity() {
 
     protected fun reload() {
         card.removeAllViews()
+        gridRow = null; gridCount = 0
         card.addView(TextView(this).apply { text = title; setTextColor(Palette.TEXT); textSize = 20f; setTypeface(null, Typeface.BOLD); setPadding(0, 0, 0, dp(8)) })
         fill()
+        closeGridRow()
+    }
+
+    /** The last row of tiles is completed with empty places, so that the tiles keep the same width. */
+    private fun closeGridRow() {
+        val row = gridRow ?: return
+        while (gridCount < gridColumns) { row.addView(View(this), LinearLayout.LayoutParams(0, dp(1), 1f).apply { setMargins(dp(4), 0, dp(4), 0) }); gridCount++ }
+        gridRow = null; gridCount = 0
+    }
+
+    /** A tile: a round badge with the icon in the colour of the tile, the name under it, and the state (if there is one) in small letters. */
+    private fun tile(icon: Int, label: String, accent: Int, state: String?, stateColor: Int, onClick: () -> Unit) {
+        if (gridRow == null || gridCount >= gridColumns) {
+            closeGridRow()
+            gridRow = LinearLayout(this).apply { orientation = LinearLayout.HORIZONTAL }
+            card.addView(gridRow, LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT).apply { topMargin = dp(8) })
+            gridCount = 0
+        }
+        val box = LinearLayout(this).apply {
+            orientation = LinearLayout.VERTICAL
+            gravity = Gravity.CENTER_HORIZONTAL
+            minimumHeight = dp(112)
+            background = GradientDrawable().apply { setColor(Palette.CARD); cornerRadius = dp(16).toFloat(); setStroke(dp(1), Color.parseColor("#22FFFFFF")) }
+            setPadding(dp(6), dp(12), dp(6), dp(10))
+            setOnClickListener { onClick() }
+        }
+        val badge = FrameLayout(this).apply {
+            background = GradientDrawable().apply { shape = GradientDrawable.OVAL; setColor(Color.argb(46, Color.red(accent), Color.green(accent), Color.blue(accent))); setStroke(dp(1), Color.argb(90, Color.red(accent), Color.green(accent), Color.blue(accent))) }
+        }
+        badge.addView(android.widget.ImageView(this).apply { setImageResource(icon); setColorFilter(accent) }, FrameLayout.LayoutParams(dp(24), dp(24), Gravity.CENTER))
+        box.addView(badge, LinearLayout.LayoutParams(dp(46), dp(46)))
+        box.addView(TextView(this).apply { text = label; setTextColor(Palette.TEXT); textSize = 12.5f; gravity = Gravity.CENTER; maxLines = 2; setPadding(0, dp(7), 0, 0) },
+            LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT))
+        if (state != null) box.addView(TextView(this).apply { text = state; setTextColor(stateColor); textSize = 11f; setTypeface(null, Typeface.BOLD); gravity = Gravity.CENTER; maxLines = 1; setPadding(0, dp(3), 0, 0) },
+            LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT))
+        gridRow!!.addView(box, LinearLayout.LayoutParams(0, ViewGroup.LayoutParams.MATCH_PARENT, 1f).apply { setMargins(dp(4), 0, dp(4), 0) })
+        gridCount++
     }
 
     /** A line of explanation. */
@@ -72,6 +115,7 @@ abstract class FloatActivity : ComponentActivity() {
 
     /** A section title: small, spaced, with a thin line after it. */
     protected fun section(text: String) {
+        if (gridColumns > 1) return
         val row = LinearLayout(this).apply { orientation = LinearLayout.HORIZONTAL; gravity = Gravity.CENTER_VERTICAL }
         row.addView(TextView(this).apply { this.text = text.uppercase(); setTextColor(Palette.GOLD); textSize = 12f; letterSpacing = 0.12f; setTypeface(null, Typeface.BOLD) })
         row.addView(View(this).apply { setBackgroundColor(Color.parseColor("#33FFFFFF")) }, LinearLayout.LayoutParams(0, dp(1), 1f).apply { leftMargin = dp(10) })
@@ -80,6 +124,7 @@ abstract class FloatActivity : ComponentActivity() {
 
     /** A styled line: a round badge with the icon in the colour of the row, the title and what it does, and at the right either what state it is in (a pill) or an arrow. */
     protected fun entryIcon(icon: Int, label: String, detail: String? = null, accent: Int = Palette.DIM, state: String? = null, stateColor: Int = Palette.DIM, onClick: () -> Unit): View {
+        if (gridColumns > 1) { tile(icon, label, accent, state, stateColor, onClick); return card }
         val row = LinearLayout(this).apply {
             orientation = LinearLayout.HORIZONTAL
             gravity = Gravity.CENTER_VERTICAL
