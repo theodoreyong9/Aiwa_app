@@ -110,6 +110,10 @@ class SettingsActivity : FloatActivity() {
     }
 
     private fun voice() {
+        switchRow(R.drawable.fw_i_ear, "Écoute permanente", "", com.aiwa.app.voice.ListenSettings.enabled(this), PEACH) { on ->
+            com.aiwa.app.voice.ListenSettings.setEnabled(this, on)
+            if (on) com.aiwa.app.voice.VoiceService.start(this) else { com.aiwa.app.voice.VoiceService.stop(this); Aiwa.update { it.copy(listening = false) } }
+        }
         switchRow(R.drawable.fw_i_volume, "Voix naturelle", "", NaturalVoice.enabled(this), SKY) { NaturalVoice.setEnabled(this, it) }
         switchRow(R.drawable.fw_i_create, "Création à la volée", "", LiveSettings.enabled(this), PEACH) { LiveSettings.set(this, it) }
         entryIcon(R.drawable.fw_i_ear, "Ma voix", null, Palette.GOLD) { open(VoicePrintActivity::class.java) }

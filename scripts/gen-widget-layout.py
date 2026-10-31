@@ -6,7 +6,7 @@ import pathlib
 OUT = pathlib.Path(__file__).resolve().parent.parent / "android/app/src/main/res/layout/fast_widget.xml"
 # page letter, weights of the cells of the first row, of the second row (None: the page is one row)
 PAGES = [
-    ("a", [3, 1, 1], [1, 1, 1, 1, 1]),    # Agent: Super agent | Claude | Question ; Écoute | Ajouter | Scénario | Cast TV | Schéma
+    ("a", [3, 1, 1], [1, 1, 1, 1]),       # Agent: Super agent | Claude | Question ; Ajouter | Scénario | Cast TV | Schéma (the ear is a switch of the settings)
     ("f", [6, 1, 1], [1, 1, 1, 1, 1]), # Files: the repository | see it | change its session ; docs | images | vidéos | apps | pages
     ("v", [1, 1, 1], [1, 1, 1]),       # Game: Wallet | Chambre en cours (when there is one) | Swipe ; Lien | QR code | Favoris
 ]

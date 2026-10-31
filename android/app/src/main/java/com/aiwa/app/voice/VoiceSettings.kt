@@ -8,17 +8,14 @@ private fun prefs(context: Context) = Prefs(context, "aiwa_listen")
 
 /** Whether the person turned the permanent listening (the ear) on: off until she does. */
 object ListenSettings {
-    // OFF at each installation and each update (Android lets a microphone service start only while Aiwa is on screen: the person turns it on, with the Écoute cell of the widget, and it then stays on).
-    fun enabled(context: Context): Boolean = prefs(context).bool("on_v3", false)
+    // ON by default (the settings hold the switch; the ear of the widget is gone). The microphone service can only be started while Aiwa is on screen: it starts each time the home opens, and the
+    // person's own choice (the switch in the settings, the old Écoute toggle) is kept across updates.
+    fun enabled(context: Context): Boolean = prefs(context).bool("on_v4", true)
 
-    /** Called when the application starts: a new version (or a first installation) closes the switch. */
-    fun resetForNewVersion(context: Context) {
-        val version = try { androidx.core.content.pm.PackageInfoCompat.getLongVersionCode(context.packageManager.getPackageInfo(context.packageName, 0)) } catch (err: Exception) { return }
-        val p = prefs(context)
-        if (p.long("listen_version", -1L) != version) { p.put("on_v3", false); p.put("listen_version", version) }
-    }
+    /** Kept for the application's start: the switch is no longer closed by an update. */
+    fun resetForNewVersion(context: Context) {}
 
-    fun setEnabled(context: Context, on: Boolean) = prefs(context).put("on_v3", on)
+    fun setEnabled(context: Context, on: Boolean) = prefs(context).put("on_v4", on)
 }
 
 /** « Voix naturelle »: on by default; off, the phone's own voice speaks. Installed by default in the background (see the brain); only the switch is the person's. */

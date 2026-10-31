@@ -30,7 +30,7 @@ import com.aiwa.app.web.WebActivity
  * A tap on a tab only turns the two ViewFlippers (a partial update): nothing is read, nothing is drawn again, so it is instant. The pictures are drawn again whenever the state changes.
  *
  * The tab strip, from the left: Réglages (opens the settings), Agent, Files, Game, then Mise à jour (only when an update exists).
- * Pages: Agent (Super agent, Claude; below: Écoute, Ajouter, Scénario, Cast TV) · Files (the repository or all, with a button to see it and one to change its session, then docs, images,
+ * Pages: Agent (Super agent, Claude; below: Ajouter, Scénario, Cast TV, Schéma; the ear is a switch of the settings, on by default) · Files (the repository or all, with a button to see it and one to change its session, then docs, images,
  * vidéos, apps, pages) · Game (Wallet, a Chambre en cours cell between Wallet and Swipe while a room is open; Lien, QR code, Favoris). The top bar, at the right of the tabs: Mise à jour (only when an update exists), Réglages.
  * Question (the report is in it) is the last cell of the Agent page.
  * The Chambre has no page here: it lives in the application.
@@ -147,7 +147,6 @@ object AiwaWidget {
         val agentPage = listOf(
             firstRow,
             listOf(
-                Cell(btn(R.drawable.fw_i_ear, "listen", iconOnly = true), 1f, activity(context, 12, EarToggleActivity::class.java)),
                 Cell(btn(R.drawable.fw_i_plus, "plus", iconOnly = true), 1f, activity(context, 13, AddActivity::class.java)),
                 Cell(btn(R.drawable.fw_i_scenario, "scenario", iconOnly = true), 1f, activity(context, 30, ScenariosActivity::class.java)),
                 Cell(btn(R.drawable.fw_i_cast, "cast", iconOnly = true), 1f, activity(context, 31, CastActivity::class.java)),
