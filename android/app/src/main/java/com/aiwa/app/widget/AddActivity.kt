@@ -10,7 +10,6 @@ import com.aiwa.app.brain.BrainSync
 import com.aiwa.app.brain.ensureBrain
 import com.aiwa.app.brain.wakeAiwa
 import com.aiwa.app.common.FloatActivity
-import com.aiwa.app.common.clipboardText
 import com.aiwa.app.common.toastOnMain
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
@@ -21,8 +20,8 @@ import kotlinx.coroutines.withContext
 private const val ATTACH_MAX_BYTES = 12 * 1024 * 1024
 
 /**
- * The « Ajouter » of the widget: a file that goes with the next message (a document, a photo, a video, a sound), the files already joined (each can be taken back), and a session of Claude's
- * that already exists (its link or its branch, copied), to be talked to from here.
+ * The « Ajouter » of the widget: a file that goes with the next message (a document, a photo, a video, a sound), and the files already joined (each can be taken back). A session of Claude's that
+ * already exists is added from the list of the sessions of the repository (Files).
  */
 class AddActivity : FloatActivity() {
     override val title = "Ajouter"
@@ -55,21 +54,6 @@ class AddActivity : FloatActivity() {
         }
         entry("Document", "un fichier joint au prochain message") { types = arrayOf("*/*"); picker.launch(types) }
         entry("Média", "photo, vidéo ou son, joint au prochain message") { types = arrayOf("image/*", "video/*", "audio/*"); picker.launch(types) }
-        entry("Une session qui existe déjà", "copie son lien (claude.ai/code/session_…) ou le nom de sa branche, puis touche ici") { addSession() }
-    }
-
-    private fun addSession() {
-        val text = clipboardText(this)?.trim().orEmpty()
-        if (text.isEmpty()) { toastOnMain(this, "Copie d'abord le lien de la session (claude.ai/code/session_…) ou le nom de sa branche."); return }
-        val app = applicationContext
-        CoroutineScope(Dispatchers.Main).launch {
-            toastOnMain(app, "Je cherche la session…")
-            val out = withContext(Dispatchers.IO) { ensureBrain(app); Aiwa.brain.addSession(text) }
-            toastOnMain(app, if (out.ok) "Session ajoutée : elle est celle en cours." else (out.error ?: "Session introuvable."))
-            withContext(Dispatchers.IO) { BrainSync.refresh() }
-            AiwaWidget.render(app, force = true)
-            finish()
-        }
     }
 
     private fun attach(uri: Uri) {
