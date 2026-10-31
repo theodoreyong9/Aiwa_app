@@ -94,6 +94,7 @@ data class ScenarioWord(val word: String, val does: String)
 data class Scenario(
     val id: String, val name: String, val word: String, val kind: String, val prompt: String, val speak: String, val words: List<ScenarioWord>,
     val session: String? = null, val creating: Boolean = false, val error: String? = null,
+    val sessions: List<ScenarioSession> = emptyList(), val repo: String? = null, val watching: Boolean = false, val turns: Int = 0,
 ) {
     fun toJson(): JSONObject = JSONObject().put("id", id).put("name", name).put("word", word).put("kind", kind).put("prompt", prompt).put("speak", speak)
         .put("words", JSONArray(words.map { JSONObject().put("word", it.word).put("does", it.does) }))
@@ -102,9 +103,13 @@ data class Scenario(
         fun parse(o: JSONObject) = Scenario(
             o.optString("id"), o.optString("name"), o.optString("word"), o.optString("kind", "double"), o.optString("prompt"), o.optString("speak"),
             o.optJSONArray("words").objects().map { ScenarioWord(it.optString("word"), it.optString("does")) }, o.str("session"), o.optBoolean("creating"), o.str("error"),
+            o.optJSONArray("sessions").objects().map { ScenarioSession(it.optString("id"), it.optString("title"), it.optBoolean("current")) }, o.str("repo"), o.optBoolean("watching"), o.optInt("turns"),
         )
     }
 }
+
+/** One of the sessions a scenario's double has had (the current one is flagged). */
+data class ScenarioSession(val id: String, val title: String, val current: Boolean)
 
 data class ScenarioSay(val id: String, val say: String, val note: String, val screen: Boolean)
 

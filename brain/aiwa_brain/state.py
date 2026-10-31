@@ -74,6 +74,7 @@ match_cache = {}
 
 # The scenarios: a prompt under a launch word of the person's own, each one a super agent of its own.
 scenario_lock = threading.Lock()
+scenario_watch = {}       # scenario id -> {"on", "busy", "turns", "targets": {session id: {repo, work, title, snap, pending, changed}}}: the sessions a double watches (in memory)
 scenario_run = {}         # scenario id -> {"creating": bool, "error": str|None, "said": [{"id", "say", "note", "ts"}]}   (in memory: only what is in flight)
 # « Création à la volée »: the super agent in a fluid conversation while the person builds.
 live = {"on": False, "events": [], "recent": [], "snap": {}}

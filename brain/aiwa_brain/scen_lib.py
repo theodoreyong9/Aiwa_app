@@ -127,7 +127,7 @@ def reply_command(sc, relay_url):
             + agent_lib.schema()[len('{"say":"<ce que tu dis à voix haute, une ou deux phrases courtes>",'):-1] + "}' " + relay_url)
 
 
-def charter(sc, relay_url):
+def charter(sc, relay_url, repo=None):
     """The first message of the scenario's session: a super agent of its own (a session of the cloud, like the liaison agent), the double of the person for this scenario. It answers only through the relay command."""
     words = "".join(f"\n- « {w['word']} » : {w['does']}" for w in sc.get("words", []))
     return (
@@ -141,7 +141,10 @@ def charter(sc, relay_url):
         "Tu ne réponds QUE par cette commande shell (le seul moyen d'être entendu) : `" + reply_command(sc, relay_url) + "`. `say` est ce que le téléphone dira (une ou deux phrases courtes, naturelles, sans liste ni symbole) ; "
         "`note` est seulement affichée ; `send` et `do` sont facultatifs. Si rien ne mérite d'être dit, noté ou fait, ne lance pas la commande. "
         "3. Les consignes de travail d'Aiwa qui accompagnent ce premier message (push, productions, vérification…) ne te concernent pas. "
-        "4. Réponds à chaque message dans la foulée, brièvement, et garde en mémoire tout ce qui s'est dit dans cette session."
+        "4. Réponds à chaque message dans la foulée, brièvement, et garde en mémoire tout ce qui s'est dit dans cette session. "
+        "5. VEILLE : si la personne te demande de faire faire un travail, de regarder le résultat sur GitHub, de critiquer et de continuer, envoie le travail avec `send` et ajoute `\"watch\":true` à ta commande : Aiwa te réveille ensuite à chaque fois que la session a fini un tour, avec le message « [Aiwa — veille, tour N] » (dépôt, branche, dernier commit, workflow). "
+        "Tu lis alors le résultat (`git fetch` de la branche indiquée), tu envoies ta critique à cette session avec `send`, et tu gardes `\"watch\":true` : tu continues jusqu'à ce que la personne dise stop (« [Aiwa — stop scénario] »), ou que le résultat te satisfasse (mets alors `\"watch\":false`). Il n'y a pas de nombre de tours à respecter."
+        + (" Ta session vit dans un dépôt à toi, `" + repo + "` : tu peux y garder tes notes ; tu ne modifies toujours pas le code des autres dépôts." if repo else "")
     )
 
 
