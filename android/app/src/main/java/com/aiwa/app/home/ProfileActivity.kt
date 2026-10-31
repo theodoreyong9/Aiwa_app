@@ -35,6 +35,8 @@ import com.aiwa.app.chamber.ChamberActions
 import com.aiwa.app.common.dp
 import com.aiwa.app.common.toastOnMain
 import com.aiwa.app.voir.FavoriteRepos
+import com.aiwa.app.voir.JumpRepos
+import com.aiwa.app.voir.ListPublisher
 import com.aiwa.app.voir.SwipeData
 import com.aiwa.app.web.WebActivity
 import kotlinx.coroutines.CoroutineScope
@@ -147,6 +149,7 @@ class ProfileActivity : ComponentActivity() {
         "swipe" to ProfileBar.Spec("⤴", "Jump", ProfileBar.VIOLET) { swipeIn() },
         "precedent" to ProfileBar.Spec("↩", "Précédent", ProfileBar.WHITE) { back() },
         "give" to ProfileBar.Spec("🤲", "Give", ProfileBar.GREEN) { give() },
+        "reseau" to ProfileBar.Spec("◎", "Réseau", ProfileBar.VIOLET) { network() },
         "match" to ProfileBar.Spec("🤝", "Match", ProfileBar.VIOLET) { match(force = true) },
         "chambre" to ProfileBar.Spec("🚪", "Chambre", ProfileBar.BLUE) { startActivity(Intent(this, com.aiwa.app.chamber.ChamberActivity::class.java).putExtra(com.aiwa.app.chamber.ChamberActivity.EXTRA_REPO, urls[pager.currentItem])) },
         "cafe" to ProfileBar.Spec("☕", "Café", ProfileBar.GOLD) { coffee() },
@@ -158,7 +161,7 @@ class ProfileActivity : ComponentActivity() {
     /** The page on the screen is the person's own: the first of the home, while no profile of the zone is entered. */
     private fun isOwn(i: Int = pager.currentItem) = ownFirst && stack.isEmpty() && i == 0
 
-    private fun defaultKeys() = if (isOwn()) listOf("favoris", "mur", "widget") else listOfNotNull("favoris", "swipe", "give", "match", "widget", if (urls.size > 1) "rang" else null)
+    private fun defaultKeys() = if (isOwn()) listOf("favoris", "reseau", "mur", "widget") else listOfNotNull("favoris", "swipe", "reseau", "give", "match", "widget", if (urls.size > 1) "rang" else null)
 
     private fun applyBar(entries: List<com.aiwa.client.BarEntry>?) {
         val (specs, ids) = BarConfig.resolve(this, entries, builtinKeys(), defaultKeys())
@@ -174,6 +177,7 @@ class ProfileActivity : ComponentActivity() {
         if (isOwn()) return
         val repo = urls[pager.currentItem]
         val on = FavoriteRepos.toggle(this, repo)
+        ListPublisher.now(applicationContext)
         toastOnMain(this, if (on) "$repo est dans tes favoris." else "$repo n'est plus dans tes favoris.")
         refreshKeys()
     }
@@ -196,8 +200,24 @@ class ProfileActivity : ComponentActivity() {
             val list = (fromRepo.ifEmpty { SwipeData.listFor(this@ProfileActivity, repo) }).filter { ProfileView.valid(it) && it != repo }
             if (list.isEmpty()) { toastOnMain(this@ProfileActivity, "Cette personne n'a pas de liste : elle n'a rien croisé, ou elle n'utilise pas Aiwa."); return@launch }
             if (urls.getOrNull(pager.currentItem) != repo) return@launch      // she moved on while it was read
+            JumpRepos.note(applicationContext, repo)
+            ListPublisher.now(applicationContext)
             stack.add(Level(urls, pubs, pager.currentItem))
             setDeck(list, MutableList(list.size) { "" }, 0)
+            updateChrome()
+        }
+    }
+
+    /** « Réseau »: a deck to swipe made of what my favourites jumped into and of their own favourites (read from their profile repositories); back is the usual right drag. */
+    private fun network() {
+        val mine = FavoriteRepos.all(this).filter { ProfileView.valid(it) }
+        if (mine.isEmpty()) { toastOnMain(this, "Aucun favori : touche ☆ Favoris sur un profil, le réseau se construit avec eux."); return }
+        toastOnMain(this, "Je regarde chez tes ${mine.size} favoris…")
+        CoroutineScope(Dispatchers.Main).launch {
+            val deck = withContext(Dispatchers.IO) { try { Aiwa.brain.profileNetwork(mine) } catch (err: Exception) { emptyList() } }.filter { ProfileView.valid(it) }
+            if (deck.isEmpty()) { toastOnMain(this@ProfileActivity, "Rien pour l'instant : tes favoris n'ont pas encore publié leurs favoris et leurs jumps."); return@launch }
+            stack.add(Level(urls, pubs, pager.currentItem))
+            setDeck(deck, MutableList(deck.size) { "" }, 0)
             updateChrome()
         }
     }

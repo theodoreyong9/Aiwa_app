@@ -12,6 +12,12 @@ PUB_RE = re.compile(r"[0-9a-f]{64}")
 SEEN_FILE = "aiwa-seen.json"   # in Profile/: {"v": 1, "seen": ["owner/name", …]}, the profiles this person crossed in the last week: names only, no place, no distance, no time (public)
 SEEN_MAX = 5000
 SEEN_EVERY = 3600             # at most one write an hour
+FAVS_FILE = "aiwa-favorites.json"      # in Profile/: {"v": 1, "favs": ["owner/name", …]}, the profiles this person keeps as favourites (names only, public)
+JUMPS_FILE = "aiwa-jumps.json"         # in Profile/: {"v": 1, "jumps": ["owner/name", …]}, the profiles this person jumped into, the latest first (names only, public)
+LISTS = {"favs": FAVS_FILE, "jumps": JUMPS_FILE}
+LIST_EVERY = 300              # these two change by hand: written within five minutes
+NETWORK_MAX = 100
+NETWORK_FAVORITES = 25
 
 
 def profile_state():
@@ -112,6 +118,68 @@ def seen_of(repo):
         return {"ok": True, "seen": []}
     names = [r for r in dict.fromkeys(str(x) for x in (listed if isinstance(listed, list) else [])) if profile_lib.REPO_RE.fullmatch(r) and r.lower() != repo.lower()]
     return {"ok": True, "seen": names[:SEEN_MAX]}
+
+
+def publish_list(kind, repos):
+    """The favourites (`favs`) or the jumps (`jumps`) of the person, in her own profile repository, so that her friends can swipe what she keeps and where she went. Written when it changed, at most every five minutes."""
+    if kind not in LISTS:
+        return {"ok": False, "error": "liste inconnue"}
+    repo = profile_lib.repo()
+    if not repo:
+        return {"ok": False, "error": "pas de dépôt de profil"}
+    clean = [r for r in dict.fromkeys(str(x) for x in (repos if isinstance(repos, list) else [])) if profile_lib.REPO_RE.fullmatch(r) and r.lower() != repo.lower()][:SEEN_MAX]
+    raw = json.dumps({"v": 1, kind: clean}, separators=(",", ":")).encode()
+    data = profile_lib.load()
+    mark = f"{repo.lower()}:{hashlib.sha256(raw).hexdigest()}"
+    if data.get(f"{kind}_sent") == mark:
+        return {"ok": True, "unchanged": True}
+    if time.time() - float(data.get(f"{kind}_at") or 0) < LIST_EVERY:
+        return {"ok": True, "waiting": True}
+    try:
+        github.put_file(repo, f"{profile_lib.FOLDER}/{LISTS[kind]}", raw, "Aiwa : " + ("mes favoris" if kind == "favs" else "mes jumps"))
+    except github.GithubError as err:
+        return {"ok": False, "error": str(err)}
+    data[f"{kind}_sent"] = mark
+    data[f"{kind}_at"] = time.time()
+    profile_lib.PROFILE_FILE.write_text(json.dumps(data), encoding="utf-8")
+    return {"ok": True}
+
+
+def list_of(repo, kind):
+    """A person's favourites or jumps as she left them (GitHub's raw files); [] when there is none."""
+    if kind not in LISTS or not isinstance(repo, str) or not profile_lib.REPO_RE.fullmatch(repo):
+        return []
+    url = f"https://raw.githubusercontent.com/{repo}/HEAD/{profile_lib.FOLDER}/{LISTS[kind]}"
+    try:
+        with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "aiwa"}), timeout=10) as resp:
+            listed = (json.loads(resp.read(1_000_000)) or {}).get(kind)
+    except (OSError, ValueError, AttributeError):
+        return []
+    return [r for r in dict.fromkeys(str(x) for x in (listed if isinstance(listed, list) else [])) if profile_lib.REPO_RE.fullmatch(r) and r.lower() != repo.lower()][:SEEN_MAX]
+
+
+def network(favorites):
+    """The deck to swipe from the « Réseau » key: the profiles my favourites jumped into and the favourites of my favourites, the most mentioned first, without me, without my own favourites. {"ok", "deck", "read"}."""
+    from concurrent.futures import ThreadPoolExecutor
+    mine = {r.lower() for r in (favorites if isinstance(favorites, list) else []) if isinstance(r, str)}
+    mine_repo = (profile_lib.repo() or "").lower()
+    chosen = [r for r in dict.fromkeys(str(x) for x in (favorites if isinstance(favorites, list) else [])) if profile_lib.REPO_RE.fullmatch(r)][:NETWORK_FAVORITES]
+    count = {}
+    names = {}
+
+    def read(friend):
+        return list_of(friend, "jumps") + list_of(friend, "favs")
+    with ThreadPoolExecutor(max_workers=6) as pool:
+        lists = list(pool.map(read, chosen))
+    for found in lists:
+        for r in dict.fromkeys(found):
+            key = r.lower()
+            if key in mine or key == mine_repo:
+                continue
+            count[key] = count.get(key, 0) + 1
+            names.setdefault(key, r)
+    deck = [names[k] for k in sorted(count, key=lambda k: (-count[k], k))][:NETWORK_MAX]
+    return {"ok": True, "deck": deck, "read": sum(1 for found in lists if found), "of": len(chosen)}
 
 
 def pub_of(repo):
