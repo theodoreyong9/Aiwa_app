@@ -15,7 +15,6 @@ import android.webkit.WebViewClient
 import android.widget.ArrayAdapter
 import android.widget.FrameLayout
 import android.widget.ListView
-import android.widget.SeekBar
 import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.activity.ComponentActivity
@@ -53,21 +52,18 @@ class ProfileActivity : ComponentActivity() {
     private lateinit var bar: ProfileBar.Bar
     private val scores = HashMap<String, String>()      // repository -> « Pro 72 · Perso 41 »
 
-    // « Swipe »: the person is always navigating. Level 0 is her own zone (what this phone saw, within the reach of the gauge); each « Swipe » on a profile puts her in the place of that profile (the list IT saw),
+    // « Swipe »: the person is always navigating. Level 0 is her own zone (what this phone saw, the nearest first); each « Swipe » on a profile puts her in the place of that profile (the list IT saw),
     // and the levels left behind are kept so that « Précédent » comes back to them.
     private class Level(val urls: List<String>, val pubs: MutableList<String>, val index: Int)
     private val stack = ArrayList<Level>()
-    private var zoneDeck = false            // level 0 is the zone of this phone (the gauge applies)
-    private var reach = 2                   // the reach of the gauge: 0 = 50 m … 7 = the world
-    private lateinit var gaugeBox: LinearLayout
-    private lateinit var gaugeLabel: TextView
+    private var zoneDeck = false            // level 0 is the zone of this phone
     private lateinit var place: TextView
 
     @SuppressLint("SetJavaScriptEnabled")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         zoneDeck = intent.getBooleanExtra(EXTRA_ZONE, false)
-        urls = if (zoneDeck) SwipeData.observed(this, reach).filter { ProfileView.valid(it) }.take(60)
+        urls = if (zoneDeck) SwipeData.observed(this, 7).filter { ProfileView.valid(it) }
         else try { JSONArray(intent.getStringExtra(EXTRA_URLS) ?: "[]").let { a -> (0 until a.length()).map { a.getString(it) } } } catch (err: Exception) { emptyList() }.filter { ProfileView.valid(it) }.take(60)
         if (urls.isEmpty()) {
             if (zoneDeck) { toastOnMain(this, "Rien de vu autour de toi pour l'instant : Aiwa regarde, reviens dans un moment."); WebActivity.zone(this) }
@@ -83,22 +79,6 @@ class ProfileActivity : ComponentActivity() {
             background = GradientDrawable().apply { setColor(Color.parseColor("#99000000")); cornerRadius = dp(14).toFloat() }
         }
         root.addView(chip, FrameLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT, Gravity.TOP or Gravity.CENTER_HORIZONTAL).apply { topMargin = dp(8) })
-        // the gauge of the reach, between the keys and the profile (level 0 only), and where the person stands when she is in the place of someone
-        gaugeLabel = TextView(this).apply { setTextColor(Color.WHITE); textSize = 12f; text = SwipeData.LEVEL_LABELS[reach]; minWidth = dp(64); gravity = Gravity.CENTER }
-        val seek = SeekBar(this).apply {
-            max = 7; progress = reach
-            setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener {
-                override fun onProgressChanged(bar: SeekBar, value: Int, fromUser: Boolean) { gaugeLabel.text = SwipeData.LEVEL_LABELS[value] }
-                override fun onStartTrackingTouch(bar: SeekBar) {}
-                override fun onStopTrackingTouch(bar: SeekBar) { reach = bar.progress; reopenZone() }
-            })
-        }
-        gaugeBox = LinearLayout(this).apply {
-            orientation = LinearLayout.HORIZONTAL; gravity = Gravity.CENTER_VERTICAL; setPadding(dp(14), dp(4), dp(14), dp(4)); visibility = android.view.View.GONE
-            background = GradientDrawable().apply { setColor(Color.parseColor("#CC10132E")) }
-            addView(gaugeLabel); addView(seek, LinearLayout.LayoutParams(0, ViewGroup.LayoutParams.WRAP_CONTENT, 1f))
-        }
-        root.addView(gaugeBox, FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, dp(GAUGE_DP), Gravity.BOTTOM).apply { bottomMargin = ProfileBar.height(this@ProfileActivity) })
         place = TextView(this).apply {
             setTextColor(Color.WHITE); textSize = 12f; visibility = android.view.View.GONE; setPadding(dp(10), dp(4), dp(10), dp(4))
             background = GradientDrawable().apply { setColor(Color.parseColor("#99000000")); cornerRadius = dp(12).toFloat() }
@@ -113,13 +93,13 @@ class ProfileActivity : ComponentActivity() {
             WindowInsetsCompat.CONSUMED
         }
         pager.setCurrentItem(start, false)
-        pager.registerOnPageChangeCallback(object : ViewPager2.OnPageChangeCallback() { override fun onPageSelected(position: Int) { chip.visibility = android.view.View.GONE; refreshKeys() } })
+        pager.registerOnPageChangeCallback(object : ViewPager2.OnPageChangeCallback() { override fun onPageSelected(position: Int) { chip.visibility = android.view.View.GONE; refreshKeys(); if (position % 6 == 0) noteAround() } })
         built = true
         updateChrome()
         refreshKeys()
         BarConfig.load(ProfileSettings.repo(this), null, builtinKeys().keys) { entries -> runOnUiThread { if (!isFinishing && !isDestroyed) applyBar(entries) } }
         // the profiles of the zone are noted in the background by small groups, nothing is ranked on its own: « Rang » shows what is known
-        if (urls.size > 1) CoroutineScope(Dispatchers.IO).launch { try { Aiwa.brain.matchBatch(urls) } catch (err: Exception) { } }
+        noteAround()
     }
 
     private lateinit var root: FrameLayout
@@ -168,7 +148,7 @@ class ProfileActivity : ComponentActivity() {
     /** « Swipe » on a profile: the person takes its place and navigates the list it saw (the levels left behind are kept). */
     private fun swipeIn() {
         val repo = urls[pager.currentItem]
-        val list = SwipeData.listFor(this, repo).filter { ProfileView.valid(it) && it != repo }.take(60)
+        val list = SwipeData.listFor(this, repo).filter { ProfileView.valid(it) && it != repo }
         if (list.isEmpty()) { toastOnMain(this, "Aucune liste connue pour ce profil : il faut l'avoir croisé."); return }
         stack.add(Level(urls, pubs, pager.currentItem))
         setDeck(list, MutableList(list.size) { "" }, 0)
@@ -184,15 +164,7 @@ class ProfileActivity : ComponentActivity() {
         updateChrome()
     }
 
-    /** The gauge was moved: the zone of the phone is read again within the new reach. */
-    private fun reopenZone() {
-        if (!zoneDeck || stack.isNotEmpty()) return
-        val list = SwipeData.observed(this, reach).filter { ProfileView.valid(it) }.take(60)
-        if (list.isEmpty()) { toastOnMain(this, "Personne vu dans cette portée."); return }
-        setDeck(list, MutableList(list.size) { "" }, 0)
-    }
-
-    /** A new list of profiles in the pager (a level entered, left, or a new reach). */
+    /** A new list of profiles in the pager (a level entered or left). */
     private fun setDeck(newUrls: List<String>, newPubs: MutableList<String>, index: Int) {
         urls = newUrls; pubs = newPubs
         val old = pages.values.toList()
@@ -200,17 +172,20 @@ class ProfileActivity : ComponentActivity() {
         pager.adapter = Pages()
         pager.setCurrentItem(index.coerceIn(0, urls.size - 1), false)
         old.forEach { HomeRuntime.release(it); it.destroy() }
-        if (urls.size > 1) CoroutineScope(Dispatchers.IO).launch { try { Aiwa.brain.matchBatch(urls) } catch (err: Exception) { } }
+        noteAround()
     }
 
-    /** What changes with the level: the gauge (level 0 of a zone only), where the person stands, and the keys (Précédent only when there is a level behind). */
+    /** What changes with the level: where the person stands, and the keys (Précédent only when there is a level behind). */
     private fun updateChrome() {
-        val gauge = zoneDeck && stack.isEmpty()
-        gaugeBox.visibility = if (gauge) android.view.View.VISIBLE else android.view.View.GONE
         place.visibility = if (stack.isNotEmpty()) android.view.View.VISIBLE else android.view.View.GONE
-        (pager.layoutParams as FrameLayout.LayoutParams).bottomMargin = ProfileBar.height(this) + if (gauge) dp(GAUGE_DP) else 0
-        pager.requestLayout()
         applyBar(BarConfig.last)
+    }
+
+    /** The profiles are noted progressively: the one on the screen and the next ones first, a few at a time (each note is a question to the person's own model), never the whole list at once. */
+    private fun noteAround() {
+        val from = pager.currentItem.coerceIn(0, (urls.size - 1).coerceAtLeast(0))
+        val window = urls.drop(from).take(12)
+        if (window.isNotEmpty()) CoroutineScope(Dispatchers.IO).launch { try { Aiwa.brain.matchBatch(window) } catch (err: Exception) { } }
     }
 
     /** The ranking known so far, as a list that grows while the profiles are noted; a touch on a line goes to that profile. */
@@ -337,8 +312,7 @@ class ProfileActivity : ComponentActivity() {
         const val EXTRA_URLS = "urls"
         const val EXTRA_INDEX = "index"
         const val EXTRA_PUBS = "pubs"
-        const val EXTRA_ZONE = "zone"       // level 0 = the zone of this phone (what it saw), with the gauge of the reach
-        private const val GAUGE_DP = 44
+        const val EXTRA_ZONE = "zone"       // level 0 = the zone of this phone (what it saw, the nearest first)
         fun zoneIntent(context: Context): Intent = Intent(context, ProfileActivity::class.java).putExtra(EXTRA_ZONE, true).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
         fun open(context: Context, repos: List<String>, index: Int = 0, pubs: List<String> = emptyList()) =
             context.startActivity(Intent(context, ProfileActivity::class.java).putExtra(EXTRA_URLS, JSONArray(repos).toString()).putExtra(EXTRA_PUBS, JSONArray(pubs).toString()).putExtra(EXTRA_INDEX, index).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK))

@@ -52,7 +52,7 @@ def _match(repo):
     return {"ok": True, **score}
 
 
-RANK_MAX = 60       # profiles of a zone noted at most
+RANK_MAX = 60       # profiles asked for at once (the window the person is looking at); the profiles noted over time are not limited
 RANK_BATCH = 3      # noted at the same time: each note is a question to the person's own model
 _rank = {"queue": [], "scores": {}, "total": 0, "running": False}
 _rank_lock = threading.Lock()
@@ -75,11 +75,12 @@ def _rank_work():
 
 
 def _rank_start(repos):
-    """Queues the profiles of a zone to be noted (those already noted are not asked again). Nothing is ranked on its own: the person asks to see the ranking."""
+    """Queues the profiles to be noted, the latest asked first (those already noted are not asked again). Nothing is ranked on its own: the person asks to see the ranking."""
     wanted = [r for r in dict.fromkeys(str(x) for x in (repos if isinstance(repos, list) else [])) if chamber_lib.REPO_RE.fullmatch(r) and r != profile_lib.repo()][:RANK_MAX]
     with _rank_lock:
-        fresh = [r for r in wanted if r not in _rank["scores"] and r not in _rank["queue"]]
-        _rank["queue"] += fresh
+        fresh = [r for r in wanted if r not in _rank["scores"]]
+        # the ones asked for last are the ones the person is looking at: they go first, the older waiting ones follow
+        _rank["queue"] = fresh + [r for r in _rank["queue"] if r not in fresh]
         _rank["total"] = len(set(wanted) | set(_rank["scores"]))
         launch = bool(_rank["queue"]) and not _rank["running"]
         if launch:
