@@ -278,9 +278,20 @@ def open_intent(spoken):
         return None
     best = None
     for word in OPEN_KINDS:
-        if re.search(r"(?<![\w'])" + re.escape(word) + r"(?![\w])", text) and (best is None or len(word) > len(best)):
+        if re.search(r"(?<!\w)" + re.escape(word) + r"(?![\w])", text) and (best is None or len(word) > len(best)):
             best = word
     return best
+
+
+ASKS_FOR_A_SWITCH = re.compile(r"d[ée]p[ôo]t|repo\b|repository|session|projet|nouvelle|\bsur [\w.-]+/[\w.-]+", re.I)
+
+
+def guard_do(spoken, do):
+    """What the model adds on its own to `do` is not taken: the repository and the session are changed only when the person talked about them (it kept repeating the ones in use, and a simple « ouvre l'accueil »
+    came back as « change de session » to confirm)."""
+    if not isinstance(do, dict) or not spoken or ASKS_FOR_A_SWITCH.search(str(spoken)):
+        return do
+    return {k: v for k, v in do.items() if k not in ("repo", "session")}
 
 
 def command_phrase(command, title_of=lambda x: x):

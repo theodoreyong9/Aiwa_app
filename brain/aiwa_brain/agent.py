@@ -162,6 +162,11 @@ def _turn(spoken, report, own=False):
             del state.agent_chat[:-16]
             state.agent["sig"], state.agent["last"] = sig, time.time()
         reply = llm_lib.json_in(answer)
+        if isinstance(reply, dict) and spoken and not report and not str(spoken).startswith("[Aiwa") and isinstance(reply.get("do"), dict):
+            kept = agent_lib.guard_do(spoken, reply["do"])
+            if kept != reply["do"]:
+                log("le modèle voulait changer de dépôt ou de session sans qu'on lui demande : refusé")
+                reply["do"] = kept
         word = agent_lib.open_intent(spoken) if spoken and not report else None
         if word and isinstance(reply, dict) and not (isinstance(reply.get("do"), dict) and reply["do"].get("open")):
             reply["do"] = {**(reply.get("do") if isinstance(reply.get("do"), dict) else {}), "open": word}      # asked to open a screen: it is opened, whatever the model wrote
