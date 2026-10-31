@@ -60,7 +60,18 @@ def _film_planner(direction, says, seconds, kind="me"):
 
 film = Film(planner=_film_planner, voiceover=lambda text: state.voice.say(text))
 stock = Stock()
-hf = Hf(stock)
+
+
+def _after(clip_id):
+    """A shot is only material for a film: once made it goes by itself into the release `stock` of the repository in use, so that the session that makes the film finds it. Without GitHub or a repository it stays
+    on the phone (said only when the person asks where it stands)."""
+    try:
+        stock_publish(clip_id)
+    except Exception:
+        pass
+
+
+hf = Hf(stock, on_clip=_after)
 PUBLISHED = DATA / "stock" / "published.json"       # the clips put in the release `stock` (the sessions are told of them only then)
 stock_saved = {}                                    # clip id -> {"state": pending | saved | failed, "error"}
 STOCK_TAG = "stock"
@@ -160,21 +171,43 @@ def shoot(prompt, source="auto"):
     if source == "hf":
         started = hf.start(prompt)
         if started.get("ok"):
-            shots[started["id"]] = {"source": "hf", "state": "running", "error": ""}
+            shots[started["id"]] = {"source": "hf", "state": "running", "error": "", "prompt": prompt[:60], "ts": int(time.time())}
         return {**started, "source": "hf"}
     bank = "pexels" if stock.status().get("pexels") else "pixabay"
     shot_id = f"s{int(time.time() * 1000) % 10**8}"
-    shots[shot_id] = {"source": "stock", "state": "running", "error": ""}
+    shots[shot_id] = {"source": "stock", "state": "running", "error": "", "prompt": prompt[:60], "ts": int(time.time())}
 
     def run():
         try:
             found = stock.search(prompt, bank)
             done = stock.download(found[0]) if found else {"ok": False, "error": "aucun clip trouvé"}
             shots[shot_id].update(state="done" if done.get("ok") else "failed", error=done.get("error", ""), clip=done.get("id", ""))
+            if done.get("ok"):
+                _after(done["id"])
         except Exception as err:
             shots[shot_id].update(state="failed", error=str(err))
     threading.Thread(target=run, daemon=True).start()
     return {"ok": True, "source": "stock", "id": shot_id}
+
+
+def shots_line(window=6 * 3600):
+    """For the super agent, when she asks where things stand: the shots of the last hours (running, ready in the repository or only on the phone, failed with the reason). Empty when there are none."""
+    parts = []
+    for shot_id, shot in list(shots.items()):
+        if time.time() - shot.get("ts", 0) > window:
+            continue
+        job = hf.jobs.get(shot_id) if shot["source"] == "hf" else shot
+        job = job or shot
+        clip = job.get("clip") or ""
+        if job.get("state") == "running":
+            what = "en cours"
+        elif job.get("state") == "failed":
+            what = "échec : " + (job.get("error") or "inconnu")
+        else:
+            saved = stock_saved.get(clip, {})
+            what = {"saved": "prêt dans le dépôt", "pending": "prêt, en cours d'envoi au dépôt", "failed": "prêt sur le téléphone, envoi au dépôt échoué : " + saved.get("error", "")}.get(saved.get("state"), "prêt sur le téléphone (pas de dépôt ou GitHub non connecté)")
+        parts.append(f"« {shot.get('prompt', '')} » ({'généré' if shot['source'] == 'hf' else 'banque libre'}) {what}")
+    return ("Plans pour les films : " + " ; ".join(parts) + ".") if parts else ""
 
 
 def film_publish(job_id):

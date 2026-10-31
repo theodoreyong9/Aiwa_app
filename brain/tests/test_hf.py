@@ -71,3 +71,24 @@ class ShotTests(unittest.TestCase):
                 self.assertEqual(studio.choose("une rue de Paris"), "stock")
                 self.assertEqual(studio.choose("un dragon imaginaire"), "hf")
                 self.assertEqual(studio.choose("une rue", "hf"), "hf")
+
+
+class AutoSaveTests(unittest.TestCase):
+    def test_a_made_shot_goes_to_the_repository_by_itself_and_is_told_on_demand(self):
+        from unittest import mock
+        from aiwa_brain import studio
+        with tempfile.TemporaryDirectory() as tmp:
+            bank = stock_lib.Stock(home=Path(tmp), transport=lambda *a: (200, {}))
+            video = Path(tmp) / "v.mp4"
+            video.write_bytes(b"x")
+            sent = []
+            gen = hf_lib.Hf(bank, runner=lambda cfg, p, i, t: str(video), on_clip=lambda cid: (sent.append(cid), studio.stock_saved.update({cid: {"state": "saved", "error": ""}})))
+            with mock.patch.object(studio, "stock", bank), mock.patch.object(studio, "hf", gen):
+                shot = studio.shoot("un renard", "hf")
+                for _ in range(50):
+                    if gen.job(shot["id"])["state"] != "running":
+                        break
+                    time.sleep(0.05)
+                time.sleep(0.1)
+                self.assertEqual(sent, ["hf-" + shot["id"]])
+                self.assertIn("prêt dans le dépôt", studio.shots_line())
