@@ -146,7 +146,7 @@ class ProfileActivity : ComponentActivity() {
         "favoris" to ProfileBar.Spec("☆", "Favoris", ProfileBar.GOLD) { if (isOwn()) startActivity(favoritesIntent(this)) else toggleFavorite() },
         "swipe" to ProfileBar.Spec("⤴", "Jump", ProfileBar.VIOLET) { swipeIn() },
         "precedent" to ProfileBar.Spec("↩", "Précédent", ProfileBar.WHITE) { back() },
-        "give" to ProfileBar.Spec("🎁", "Give", ProfileBar.GREEN) { give() },
+        "give" to ProfileBar.Spec("🤲", "Give", ProfileBar.GREEN) { give() },
         "match" to ProfileBar.Spec("🤝", "Match", ProfileBar.VIOLET) { match(force = true) },
         "chambre" to ProfileBar.Spec("🚪", "Chambre", ProfileBar.BLUE) { startActivity(Intent(this, com.aiwa.app.chamber.ChamberActivity::class.java).putExtra(com.aiwa.app.chamber.ChamberActivity.EXTRA_REPO, urls[pager.currentItem])) },
         "cafe" to ProfileBar.Spec("☕", "Café", ProfileBar.GOLD) { coffee() },
