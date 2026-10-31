@@ -15,6 +15,8 @@ class GiveActivity : FloatActivity() {
     override fun fill() {
         val visited = repo
         note(if (visited == null) "Chez toi" else visited, Palette.GOLD)
+        val github = visited ?: ProfileSettings.repo(this)
+        if (ProfileView.valid(github)) entry("GitHub", "github.com/$github") { com.aiwa.app.common.openUrl(this, "https://github.com/$github"); finish() }
         entry("Chambre", if (visited == null) "Ta chambre" else "Entrer dans sa chambre") {
             startActivity(Intent(this, com.aiwa.app.chamber.ChamberActivity::class.java).apply { if (visited != null) putExtra(com.aiwa.app.chamber.ChamberActivity.EXTRA_REPO, visited) })
             finish()
