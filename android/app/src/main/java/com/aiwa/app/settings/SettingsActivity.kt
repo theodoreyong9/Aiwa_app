@@ -21,7 +21,7 @@ import com.aiwa.app.widget.AiwaWidget
 
 /** « Réglages »: the whole list, one line each. A line with a switch shows its state and flips on a touch; the others open their own window. */
 class SettingsActivity : FloatActivity() {
-    override val title = "Réglages"
+    override val title: String get() = when (intent.getStringExtra(EXTRA_GROUP)) { "words" -> "Les mots"; "me" -> "Moi"; "voice" -> "Voix"; "model" -> "Modèle"; else -> "Réglages" }
     override val compactRows = true      // an icon and a name, no explanation
     override val gridColumns = 3         // several icons on a row
 
@@ -54,49 +54,72 @@ class SettingsActivity : FloatActivity() {
         }
     }
 
+    private val group: String? by lazy { intent.getStringExtra(EXTRA_GROUP) }
+
+    private fun openGroup(id: String) = startActivity(Intent(this, SettingsActivity::class.java).putExtra(EXTRA_GROUP, id))
+
+    private val SKY = Color.parseColor("#7FD0FF")
+    private val PEACH = Color.parseColor("#F29B6B")
+    private val MINT = Color.parseColor("#52D6A0")
+    private val LILAC = Color.parseColor("#B79CFF")
+
     override fun fill() {
+        when (group) {
+            "words" -> words()
+            "me" -> me()
+            "voice" -> voice()
+            "model" -> model()
+            else -> main()
+        }
+    }
+
+    /** The first window: the groups, each one a tile that opens its own. */
+    private fun main() {
         val status = Aiwa.state.value.status
         val game = persona?.game
-        section("Mes comptes")
-        entryIcon(R.drawable.fw_i_claude, "Connexion Claude", "Relier le Claude du téléphone à ton compte.", Color.parseColor("#F29B6B"),
+        entryIcon(R.drawable.fw_i_claude, "Connexion Claude", null, PEACH,
             if (status?.claudeLogin == "needed") "À relier" else if (status?.claudeLogin == "ok") "Relié" else null, if (status?.claudeLogin == "needed") Palette.RED else Palette.GREEN) { open(ClaudeLoginActivity::class.java) }
-        entryIcon(R.drawable.fw_i_github, "Connexion GitHub", if (status?.githubToken == true) "Connecté" + (status.githubUser?.let { " : $it" } ?: "") else "Pour que tes productions arrivent dans tes dépôts.", Color.parseColor("#B79CFF"),
+        entryIcon(R.drawable.fw_i_github, "Connexion GitHub", null, LILAC,
             if (status?.githubToken == true) "Connecté" else "À connecter", if (status?.githubToken == true) Palette.GREEN else Palette.RED) { open(GithubConnectActivity::class.java) }
-
-        section("Mon super agent")
-        entryIcon(R.drawable.fw_i_talk, "Mes mots", "Ce que tu dis : réveil, stop, éteins, validation.", Color.parseColor("#7FD0FF")) { startActivity(Intent(this, WordsActivity::class.java).putExtra(WordsActivity.EXTRA_MINE, true)) }
-        entryIcon(R.drawable.fw_i_robot, "Ses mots", "Ce que dit Aiwa : j'écoute, à toute, c'est prêt.", Color.parseColor("#F29B6B")) { startActivity(Intent(this, WordsActivity::class.java).putExtra(WordsActivity.EXTRA_MINE, false)) }
-        entryIcon(R.drawable.fw_i_trophy, "Mode jeu", "La course de points entre toi et ton super agent.", Palette.GOLD,
+        entryIcon(R.drawable.fw_i_talk, "Les mots", null, SKY) { openGroup("words") }
+        entryIcon(R.drawable.fw_i_trophy, "Jeu et personnalité", null, Palette.GOLD,
             if (game?.on == true) (if (game.ended != null) "Manche finie" else "${game.user} · ${game.agent}") else "Arrêté", if (game?.on == true) Palette.GOLD else Palette.DIM) { open(PersonaActivity::class.java) }
-        entryIcon(R.drawable.fw_i_talk, "Personnalité", "Son ton : neutre, vanneur, chaleureux, sec.", Color.parseColor("#7FD0FF"), persona?.styles?.firstOrNull { it.first == persona?.style }?.second, Palette.DIM) { open(PersonaActivity::class.java) }
-        entryIcon(R.drawable.fw_i_note, "Ma description", "Ce que ton super agent dit de toi dans une chambre.", Color.parseColor("#52D6A0")) { open(DescriptionActivity::class.java) }
-        entryIcon(R.drawable.fw_i_aiwa, "Mon profil", ProfileSettings.repo(this) ?: "Le dépôt qui contient ta page : pas encore choisi", Color.parseColor("#B79CFF")) { chooseProfile() }
-
-        section("Voix")
-        switchRow(R.drawable.fw_i_volume, "Voix naturelle", "Sinon, la voix du téléphone parle.", NaturalVoice.enabled(this), Color.parseColor("#7FD0FF")) { NaturalVoice.setEnabled(this, it) }
-        switchRow(R.drawable.fw_i_create, "Création à la volée", "Le super agent suit ce que tu dis pendant que tu construis, sans relecture.", LiveSettings.enabled(this), Color.parseColor("#F29B6B")) { LiveSettings.set(this, it) }
-        entryIcon(R.drawable.fw_i_papers, "Papers", "Yellow paper, valeur, readme, film.", Palette.GOLD) { open(PapersActivity::class.java) }
-        switchRow(R.drawable.fw_i_report, "« C'est prêt »", "Dit à voix haute qu'une production vient d'arriver.", ReadySettings.enabled(this), Color.parseColor("#52D6A0")) { ReadySettings.set(this, it) }
-        entryIcon(R.drawable.fw_i_ear, "Ma voix", "Pour que seul toi réveilles le super agent.", Color.parseColor("#E8C14A")) { open(VoicePrintActivity::class.java) }
-        entryIcon(R.drawable.fw_i_note, "Mon style", "Il te répond comme tu parles.", Color.parseColor("#B79CFF")) { open(StyleActivity::class.java) }
-
-        section("Aiwa")
-
-        section("Vie privée")
-        switchRow(R.drawable.fw_i_voir, "Se cacher", "Tes liens ne sont pas montrés aux gens à proximité.", !VoirSettings.on(this), Color.parseColor("#B79CFF")) { VoirSettings.setOn(this, !it) }
-        switchRow(R.drawable.fw_i_room, "Chambre ouverte écran éteint", "La chambre reste ouverte quand l'écran s'éteint.", ChamberSettings.awake(this), Color.parseColor("#7FD0FF")) { ChamberSettings.setAwake(this, it) }
-
-        section("Sessions")
-        entryIcon(R.drawable.fw_i_tools, "Modèle", "Touche pour changer (ou dis-le à ton agent).", Color.parseColor("#F29B6B"), status?.model ?: "automatique", Palette.DIM) { cycle(listOf(null, "opus", "sonnet", "haiku"), status?.model) { m -> Aiwa.brain.setModel(m) } }
-        entryIcon(R.drawable.fw_i_build, "Effort", "Touche pour changer (ou dis-le à ton agent).", Color.parseColor("#E8C14A"), status?.effort ?: "automatique", Palette.DIM) { cycle(listOf(null, "low", "medium", "high", "xhigh", "max"), status?.effort) { e -> Aiwa.brain.setEffort(e) } }
-        switchRow(R.drawable.fw_i_swap, "Push direct", "Quand c'est fini, la session intègre son travail dans la branche principale ; sinon il reste sur sa branche.", status?.pushMain ?: true, Color.parseColor("#52D6A0")) { on ->
+        entryIcon(R.drawable.fw_i_aiwa, "Moi", null, MINT) { openGroup("me") }
+        entryIcon(R.drawable.fw_i_volume, "Voix", null, SKY) { openGroup("voice") }
+        entryIcon(R.drawable.fw_i_papers, "Papers", null, Palette.GOLD) { open(PapersActivity::class.java) }
+        entryIcon(R.drawable.fw_i_tools, "Modèle", null, PEACH, status?.model ?: "auto", Palette.DIM) { openGroup("model") }
+        switchRow(R.drawable.fw_i_report, "« C'est prêt »", "", ReadySettings.enabled(this), MINT) { ReadySettings.set(this, it) }
+        switchRow(R.drawable.fw_i_swap, "Push direct", "", status?.pushMain ?: true, MINT) { on ->
             kotlinx.coroutines.CoroutineScope(kotlinx.coroutines.Dispatchers.IO).launch { Aiwa.brain.setPushMain(on); com.aiwa.app.brain.BrainSync.refresh() }
         }
+        entryIcon(R.drawable.fw_i_image, "Fond du widget", null, SKY, com.aiwa.app.widget.WidgetBackground.label(this), Palette.DIM) { com.aiwa.app.widget.WidgetBackground.next(this); reload() }
+        entryIcon(R.drawable.fw_i_key, "Clés et plafonds", null, Palette.GOLD) { open(KeysActivity::class.java) }
+        entryIcon(R.drawable.fw_i_report, "État d'Aiwa", null, Palette.GREEN) { open(HealthActivity::class.java) }
+    }
 
-        section("Widget et clés")
-        entryIcon(R.drawable.fw_i_image, "Fond du widget", "Touche pour changer.", Color.parseColor("#7FD0FF"), com.aiwa.app.widget.WidgetBackground.label(this), Palette.DIM) { com.aiwa.app.widget.WidgetBackground.next(this); reload() }
-        entryIcon(R.drawable.fw_i_key, "Clés et plafonds", "Ta clé Anthropic et son plafond, fal, Pexels, Pixabay, Hugging Face.", Palette.GOLD) { open(KeysActivity::class.java) }
-        entryIcon(R.drawable.fw_i_report, "État d'Aiwa", "Ce qui marche, ce qui manque.", Palette.GREEN) { open(HealthActivity::class.java) }
+    private fun words() {
+        entryIcon(R.drawable.fw_i_talk, "Mes mots", null, SKY) { startActivity(Intent(this, WordsActivity::class.java).putExtra(WordsActivity.EXTRA_MINE, true)) }
+        entryIcon(R.drawable.fw_i_robot, "Ses mots", null, PEACH) { startActivity(Intent(this, WordsActivity::class.java).putExtra(WordsActivity.EXTRA_MINE, false)) }
+    }
+
+    private fun me() {
+        entryIcon(R.drawable.fw_i_note, "Ma description", null, MINT) { open(DescriptionActivity::class.java) }
+        entryIcon(R.drawable.fw_i_aiwa, "Mon profil", null, LILAC) { chooseProfile() }
+        switchRow(R.drawable.fw_i_voir, "Se cacher", "", !VoirSettings.on(this), LILAC) { VoirSettings.setOn(this, !it) }
+        switchRow(R.drawable.fw_i_room, "Chambre ouverte écran éteint", "", ChamberSettings.awake(this), SKY) { ChamberSettings.setAwake(this, it) }
+    }
+
+    private fun voice() {
+        switchRow(R.drawable.fw_i_volume, "Voix naturelle", "", NaturalVoice.enabled(this), SKY) { NaturalVoice.setEnabled(this, it) }
+        switchRow(R.drawable.fw_i_create, "Création à la volée", "", LiveSettings.enabled(this), PEACH) { LiveSettings.set(this, it) }
+        entryIcon(R.drawable.fw_i_ear, "Ma voix", null, Palette.GOLD) { open(VoicePrintActivity::class.java) }
+        entryIcon(R.drawable.fw_i_note, "Mon style", null, LILAC) { open(StyleActivity::class.java) }
+    }
+
+    private fun model() {
+        val status = Aiwa.state.value.status
+        entryIcon(R.drawable.fw_i_tools, "Modèle", null, PEACH, status?.model ?: "auto", Palette.DIM) { cycle(listOf(null, "opus", "sonnet", "haiku"), status?.model) { m -> Aiwa.brain.setModel(m) } }
+        entryIcon(R.drawable.fw_i_build, "Effort", null, Palette.GOLD, status?.effort ?: "auto", Palette.DIM) { cycle(listOf(null, "low", "medium", "high", "xhigh", "max"), status?.effort) { e -> Aiwa.brain.setEffort(e) } }
     }
 
     override fun onPause() { super.onPause(); AiwaWidget.render(applicationContext, force = true) }
@@ -110,4 +133,6 @@ class SettingsActivity : FloatActivity() {
             .setNegativeButton("Annuler", null)
             .show()
     }
+
+    companion object { const val EXTRA_GROUP = "group" }
 }
