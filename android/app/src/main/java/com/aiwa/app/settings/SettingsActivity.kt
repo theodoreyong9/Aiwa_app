@@ -62,6 +62,8 @@ class SettingsActivity : FloatActivity() {
             if (status?.githubToken == true) "Connecté" else "À connecter", if (status?.githubToken == true) Palette.GREEN else Palette.RED) { open(GithubConnectActivity::class.java) }
 
         section("Mon super agent")
+        entryIcon(R.drawable.fw_i_talk, "Mes mots", "Ce que tu dis : réveil, stop, éteins, validation.", Color.parseColor("#7FD0FF")) { startActivity(Intent(this, WordsActivity::class.java).putExtra(WordsActivity.EXTRA_MINE, true)) }
+        entryIcon(R.drawable.fw_i_robot, "Ses mots", "Ce que dit Aiwa : j'écoute, à toute, c'est prêt.", Color.parseColor("#F29B6B")) { startActivity(Intent(this, WordsActivity::class.java).putExtra(WordsActivity.EXTRA_MINE, false)) }
         entryIcon(R.drawable.fw_i_trophy, "Mode jeu", "La course de points entre toi et ton super agent.", Palette.GOLD,
             if (game?.on == true) (if (game.ended != null) "Manche finie" else "${game.user} · ${game.agent}") else "Arrêté", if (game?.on == true) Palette.GOLD else Palette.DIM) { open(PersonaActivity::class.java) }
         entryIcon(R.drawable.fw_i_talk, "Personnalité", "Son ton : neutre, vanneur, chaleureux, sec.", Color.parseColor("#7FD0FF"), persona?.styles?.firstOrNull { it.first == persona?.style }?.second, Palette.DIM) { open(PersonaActivity::class.java) }
@@ -73,8 +75,6 @@ class SettingsActivity : FloatActivity() {
         switchRow(R.drawable.fw_i_create, "Création à la volée", "Le super agent suit ce que tu dis pendant que tu construis, sans relecture.", LiveSettings.enabled(this), Color.parseColor("#F29B6B")) { LiveSettings.set(this, it) }
         switchRow(R.drawable.fw_i_report, "« C'est prêt »", "Dit à voix haute qu'une production vient d'arriver.", ReadySettings.enabled(this), Color.parseColor("#52D6A0")) { ReadySettings.set(this, it) }
         entryIcon(R.drawable.fw_i_ear, "Ma voix", "Pour que seul toi réveilles le super agent.", Color.parseColor("#E8C14A")) { open(VoicePrintActivity::class.java) }
-        entryIcon(R.drawable.fw_i_talk, "Mes mots", "Ce que tu dis : réveil, stop, éteins, validation.", Color.parseColor("#7FD0FF")) { startActivity(Intent(this, WordsActivity::class.java).putExtra(WordsActivity.EXTRA_MINE, true)) }
-        entryIcon(R.drawable.fw_i_robot, "Ses mots", "Ce que dit Aiwa : j'écoute, à toute, c'est prêt.", Color.parseColor("#F29B6B")) { startActivity(Intent(this, WordsActivity::class.java).putExtra(WordsActivity.EXTRA_MINE, false)) }
         entryIcon(R.drawable.fw_i_note, "Mon style", "Il te répond comme tu parles.", Color.parseColor("#B79CFF")) { open(StyleActivity::class.java) }
 
         section("Aiwa")
