@@ -133,6 +133,11 @@ def _turn(spoken, report, own=False):
             del state.agent_chat[:-16]
             state.agent["sig"], state.agent["last"] = sig, time.time()
         reply = llm_lib.json_in(answer)
+        word = agent_lib.open_intent(spoken) if spoken and not report else None
+        if word and isinstance(reply, dict) and not (isinstance(reply.get("do"), dict) and reply["do"].get("open")):
+            reply["do"] = {**(reply.get("do") if isinstance(reply.get("do"), dict) else {}), "open": word}      # asked to open a screen: it is opened, whatever the model wrote
+        elif word and reply is None:
+            reply = {"say": "", "do": {"open": word}}
         if reply is not None:
             state.persona.apply_agent(reply.get("game") if isinstance(reply, dict) else None)      # its verdict on a proposal of the person, a gift
             said(json.dumps(reply), own=own)
@@ -171,7 +176,8 @@ def said(raw, own=False):
         if parsed["proposal"]:
             state.agent["proposal"] = {"id": f"p{int(stamp * 1000)}", "ts": int(stamp), **parsed["proposal"], **({"own": True} if own else {})}
         if parsed.get("command"):
-            state.agent["command"] = {"id": f"c{int(stamp * 1000)}", "ts": int(stamp), "items": parsed["command"], **({"own": True} if own else {})}
+            harmless = set(parsed["command"]) <= {"open"}      # opening a screen changes nothing: no question asked, it is done
+            state.agent["command"] = {"id": f"c{int(stamp * 1000)}", "ts": int(stamp), "items": parsed["command"], **({"own": True} if own else {}), **({"auto": True} if harmless else {})}
     print(f"[{state.ts()}] agent: said {len(parsed['say'])} characters" + (", with a proposal" if parsed["proposal"] else ""), flush=True)
     return True
 

@@ -134,3 +134,29 @@ class StaleAgentTests(unittest.TestCase):
             with state.agent_lock:
                 state.agent.clear()
                 state.agent.update(saved)
+
+
+class OpenIntentTests(unittest.TestCase):
+    def test_a_plain_order_to_open_is_understood_without_the_model(self):
+        from aiwa_brain import agent_lib
+        self.assertEqual(agent_lib.parse_command({"open": agent_lib.open_intent("ouvre l'application aiwa")}, set())["open"], "home")
+        self.assertEqual(agent_lib.parse_command({"open": agent_lib.open_intent("montre-moi mes vidéos")}, set())["open"], "files_video")
+        self.assertIsNone(agent_lib.open_intent("la page est belle"))
+        self.assertIsNone(agent_lib.open_intent("je veux ouvrir le wallet"))
+
+    def test_a_reply_that_only_says_it_is_open_gets_the_command_and_it_needs_no_question(self):
+        from unittest import mock
+        from aiwa_brain import agent, state
+        with state.agent_lock:
+            saved = dict(state.agent)
+        try:
+            with mock.patch.object(agent, "point", return_value=("", "")), mock.patch.object(agent, "_model", return_value='{"say": "Voilà, c\'est ouvert."}'):
+                agent._turn("ouvre l'application aiwa", False)
+            with state.agent_lock:
+                command = state.agent["command"]
+            self.assertEqual(command["items"]["open"], "home")
+            self.assertTrue(command.get("auto"))
+        finally:
+            with state.agent_lock:
+                state.agent.clear()
+                state.agent.update(saved)

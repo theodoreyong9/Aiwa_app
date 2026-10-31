@@ -267,6 +267,22 @@ def parse_command(raw, known_ids):
     return out or None
 
 
+OPEN_VERB = re.compile(r"^(?:(?:s'il te pla[iî]t|stp|peux[- ]tu|tu peux|pourrais[- ]tu|vas?[- ]y|alors|bon|ok)\s+)*(?:ouvre|ouvrir|affiche|afficher|montre|montrer|lance|lancer|va|vas|aller|emm[eè]ne)\b", re.I)
+
+
+def open_intent(spoken):
+    """The screen the person asked to open in plain words (« ouvre l'application Aiwa », « montre-moi mes vidéos »), found here without the model: a model can answer « c'est ouvert » and open nothing.
+    The word of OPEN_KINDS to put in `do.open`, or None. Only a sentence that BEGINS with the verb counts (a question about a page is not an order)."""
+    text = " ".join(str(spoken or "").lower().replace("’", "'").replace("-", " ").split())
+    if not OPEN_VERB.match(text):
+        return None
+    best = None
+    for word in OPEN_KINDS:
+        if re.search(r"(?<![\w'])" + re.escape(word) + r"(?![\w])", text) and (best is None or len(word) > len(best)):
+            best = word
+    return best
+
+
 def command_phrase(command, title_of=lambda x: x):
     """What the phone reads back before it applies a command."""
     spoken = []
