@@ -27,14 +27,14 @@ UNSAFE_RE = re.compile(r"[<>{}\\`$;|&]")
 # What `open` may name: the word the agent writes -> the screen of the app, and what the phone says.
 OPEN_KINDS = {
     "documents": "files_docs", "document": "files_docs", "docs": "files_docs", "images": "files_image", "image": "files_image", "photos": "files_image",
-    "video": "files_video", "vidéo": "files_video", "videos": "files_video", "vidéos": "files_video", "apps": "files_app", "app": "files_app", "application": "files_app", "applications": "files_app",
+    "video": "files_video", "vidéo": "files_video", "videos": "files_video", "vidéos": "files_video", "apps": "files_app", "app": "files_app", "applications": "files_app", "mes applications": "files_app",
     "pages": "files_page", "page": "files_page", "site": "files_page", "files": "files", "fichiers": "files", "productions": "files",
     "scenario": "scenario", "scénario": "scenario", "scenarios": "scenario", "scénarios": "scenario", "cast": "cast", "tv": "cast", "télé": "cast", "television": "cast", "télévision": "cast",
     "voir": "voir", "les autres": "voir", "visible": "voir_on", "me rendre visible": "voir_on", "cache": "voir_off", "caché": "voir_off", "me cacher": "voir_off", "invisible": "voir_off",
     "zone": "voir_near", "la zone": "voir_near", "proximite": "voir_near", "proximité": "voir_near", "autour": "voir_near", "lien": "voir_link", "par lien": "voir_link", "qr": "voir_qr", "qr code": "voir_qr", "favoris": "voir_fav",
     "chambre": "chambre", "reglages": "settings", "réglages": "settings", "parametres": "settings", "paramètres": "settings", "mise a jour": "update", "mise à jour": "update",
     "question": "question", "claude": "claude", "conversation": "claude", "ajouter": "add", "ecoute": "listen", "écoute": "listen", "micro": "listen", "wallet": "wallet", "portefeuille": "wallet",
-    "rapport": "report", "build": "build", "accueil": "home", "profil": "home",
+    "rapport": "report", "build": "build", "accueil": "home", "profil": "home", "aiwa": "home", "l'application": "home", "l'appli": "home", "application": "home", "swipe": "home", "jump": "home", "mon profil": "home",
     "github": "github", "connexion github": "github", "etat": "health", "état": "health", "etat d'aiwa": "health", "état d'aiwa": "health",
     "connexion claude": "claude_login", "mur": "wall", "cles": "keys", "clés": "keys", "style": "style",
 }
@@ -43,9 +43,9 @@ OPEN_SPOKEN = {
     "scenario": "les scénarios", "cast": "le choix de la télé", "voir": "la fenêtre Voir", "voir_on": "Voir : visible", "voir_off": "Voir : caché", "voir_near": "la zone",
     "voir_link": "Voir par lien", "voir_qr": "Voir par QR code", "voir_fav": "Voir mes favoris", "chambre": "la chambre", "settings": "les réglages", "update": "la mise à jour",
     "question": "la question", "claude": "la conversation Claude", "add": "l'ajout d'un fichier", "listen": "l'écoute permanente (bascule)", "wallet": "le wallet", "report": "le rapport",
-    "build": "le widget", "home": "l'accueil", "github": "la connexion GitHub", "health": "l'état d'Aiwa", "claude_login": "la connexion Claude", "wall": "le mur", "keys": "les clés", "style": "le style",
+    "build": "le widget", "home": "Aiwa (le Swipe)", "github": "la connexion GitHub", "health": "l'état d'Aiwa", "claude_login": "la connexion Claude", "wall": "le mur", "keys": "les clés", "style": "le style",
 }
-OPEN_LIST = "documents, images, videos, apps, pages, fichiers, scenario, cast, voir, visible, cache, zone, lien, qr, favoris, chambre, reglages, mise a jour, question, claude, ajouter, ecoute, wallet, rapport, accueil, github, etat, connexion claude, mur, cles, style"
+OPEN_LIST = "documents, images, videos, apps, pages, fichiers, scenario, cast, voir, visible, cache, zone, lien, qr, favoris, chambre, reglages, mise a jour, question, claude, ajouter, ecoute, wallet, rapport, accueil, aiwa, swipe, aiwa, swipe, github, etat, connexion claude, mur, cles, style"
 
 REPORT_REQUEST = (
     "Fais-moi le rapport de toute mon activité depuis le dernier message que je t'ai envoyé : les sessions, les dépôts, les productions nouvelles, les workflows (pour chaque échec, l'étape en cause "
