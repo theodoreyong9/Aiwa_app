@@ -127,3 +127,53 @@ class CleanupTests(unittest.TestCase):
             with mock.patch.object(studio, "stock", bank), mock.patch.object(studio, "published", lambda: ["hf-b"]):
                 studio.reconcile()
             self.assertFalse(video.exists())
+
+
+class FilmByWordsTests(unittest.TestCase):
+    def test_film_command_is_parsed_and_unsafe_characters_are_dropped(self):
+        from aiwa_brain import agent_lib
+        cmd = agent_lib.parse_command({"film": {"kind": "both", "direction": "moi avec mon sac, ça coûte 5 $", "me": ["a.jpg"], "product": ["b.jpg"], "aspect": "16:9"}}, set())
+        film = cmd["film"]
+        self.assertEqual((film["kind"], film["aspect"], film["me"], film["product"]), ("both", "16:9", ["a.jpg"], ["b.jpg"]))
+        self.assertNotIn("$", film["direction"])
+        self.assertIsNone(agent_lib.parse_command({"film": {"direction": "  "}}, set()))
+
+    def test_without_a_joined_picture_nothing_is_prepared(self):
+        from aiwa_brain import studio, state
+        with state.attach_lock:
+            saved, state.attachments[:] = list(state.attachments), []
+        try:
+            made = studio.film_from_attachments({"kind": "me", "direction": "x"})
+        finally:
+            with state.attach_lock:
+                state.attachments[:] = saved
+        self.assertFalse(made["ok"])
+        self.assertIn("photo", made["error"])
+
+    def test_the_read_back_carries_the_price_and_the_consent_question(self):
+        from aiwa_brain import agent_lib
+        phrase = agent_lib.command_phrase({"film": {"summary": "un film de toi, 5 scènes, environ 3.40 $ sur ta clé fal. Tu confirmes que c'est bien toi sur les photos"}})
+        self.assertIn("3.40", phrase)
+        self.assertIn("bien toi", phrase)
+
+
+class JoinedPictureTests(unittest.TestCase):
+    def test_a_picture_stays_on_the_phone_until_a_message_takes_it(self):
+        import base64
+        import json
+        from unittest import mock
+        from aiwa_brain import attachments, state
+        with tempfile.TemporaryDirectory() as tmp, mock.patch.object(attachments, "LOCAL", Path(tmp)):
+            with mock.patch.object(attachments, "_upload", side_effect=AssertionError("must not upload")):
+                out = attachments.attach_add(json.dumps({"name": "moi.jpg", "data": base64.b64encode(b"\xff\xd8\xff" + bytes(40000)).decode()}))
+            self.assertTrue(out["ok"])
+            with state.attach_lock:
+                item = state.attachments.pop()
+            self.assertTrue(Path(item["local"]).exists())
+
+            def fake(entry, raw, name):
+                entry["path"], entry["repo"] = "aiwa-inputs/moi.jpg", "a/b"
+            with mock.patch.object(attachments, "_upload", side_effect=fake):
+                text = attachments.block([item])
+            self.assertIn("aiwa-inputs/moi.jpg", text)
+            self.assertFalse(Path(item["local"]).exists())

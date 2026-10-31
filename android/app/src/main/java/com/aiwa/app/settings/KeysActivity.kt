@@ -7,7 +7,6 @@ import com.aiwa.app.brain.BrainSync
 import com.aiwa.app.common.FloatActivity
 import com.aiwa.app.common.Palette
 import com.aiwa.app.common.toastOnMain
-import com.aiwa.app.studio.StockSearchActivity
 import com.aiwa.app.studio.VoiceSampleActivity
 import org.json.JSONObject
 import kotlinx.coroutines.CoroutineScope
@@ -82,7 +81,7 @@ class KeysActivity : FloatActivity() {
         entry("GitHub", if (status?.githubToken == true) "Connecté" + (status.githubUser?.let { " : $it" } ?: "") else "Pas connecté") { startActivity(android.content.Intent(this, GithubConnectActivity::class.java)) }
 
         note("Film (fal.ai)", Palette.GOLD)
-        note("Pour fabriquer un film de toi ou de ton produit : l'image, la voix, la bouche. Tu crées un compte sur fal.ai, tu y mets des crédits, et tu colles ici ta clé. Chaque film est facturé par fal.ai sur ton compte, jamais par Aiwa. Un devis est montré avant toute dépense.")
+        note("Pour fabriquer un film de toi ou de ton produit : l'image, la voix, la bouche. Tu joins tes photos avec le trombone et tu le demandes au super agent, sans écran. Tu crées un compte sur fal.ai, tu y mets des crédits, et tu colles ici ta clé. Chaque film est facturé par fal.ai sur ton compte, jamais par Aiwa. Un devis est montré avant toute dépense.")
         val f = film
         if (f == null) note("Le cerveau ne répond pas (ou il est trop ancien).") else {
             keyBlock("fal", f.optBoolean("key"), { Aiwa.brain.filmKey(it) }, { Aiwa.brain.filmKeyClear() })
@@ -95,14 +94,13 @@ class KeysActivity : FloatActivity() {
         }
 
         note("Banques de vidéos libres", Palette.GOLD)
-        note("Des clips libres de droits pour tes films, avec tes propres clés gratuites (pexels.com/api et pixabay.com/api/docs).")
+        note("Des clips libres de droits pour tes films, avec tes propres clés gratuites (pexels.com/api et pixabay.com/api/docs). Tu n'as rien à chercher : le super agent choisit.")
         val bank = stock
         if (bank == null) note("Le cerveau ne répond pas (ou il est trop ancien).") else {
             keyBlock("Pexels", bank.optBoolean("pexels"), { Aiwa.brain.stockKey("pexels", it) }, { Aiwa.brain.stockKeyClear("pexels") })
             keyBlock("Pixabay", bank.optBoolean("pixabay"), { Aiwa.brain.stockKey("pixabay", it) }, { Aiwa.brain.stockKeyClear("pixabay") })
             note("Plans générés gratuitement (Wan 2.2, LTX-Video sur Hugging Face). Sans clé, le calcul gratuit du jour ne dure que quelques minutes ; un jeton gratuit (huggingface.co/settings/tokens) en donne plus. Il reste dans ton téléphone, le cerveau l'utilise lui-même.")
             keyBlock("Hugging Face", bank.optBoolean("hf"), { Aiwa.brain.stockKey("hf", it) }, { Aiwa.brain.stockKeyClear("hf") })
-            entry("Chercher une vidéo libre", "Garde un clip, il part dans ton dépôt pour tes films.") { startActivity(android.content.Intent(this, StockSearchActivity::class.java)) }
         }
     }
 }

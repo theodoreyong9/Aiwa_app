@@ -58,7 +58,7 @@ def _film_planner(direction, says, seconds, kind="me"):
         return None
 
 
-film = Film(planner=_film_planner, voiceover=lambda text: state.voice.say(text))
+film = Film(planner=_film_planner, voiceover=lambda text: state.voice.say(text), on_done=lambda job_id: film_publish(job_id))
 stock = Stock()
 
 
@@ -265,6 +265,58 @@ def shots_line(window=6 * 3600):
             what = {"saved": "prêt dans le dépôt", "pending": "prêt, en cours d'envoi au dépôt", "failed": "prêt sur le téléphone, envoi au dépôt échoué : " + saved.get("error", "")}.get(saved.get("state"), "prêt sur le téléphone (pas de dépôt ou GitHub non connecté)")
         parts.append(f"« {shot.get('prompt', '')} » ({'généré' if shot['source'] == 'hf' else 'banque libre'}) {what}")
     return ("Plans pour les films : " + " ; ".join(parts) + ".") if parts else ""
+
+
+def film_from_attachments(film_cmd):
+    """The film asked in words: the pictures joined to the message are the references (they stay on the phone and never go to a repository), the plan and the quote are made now, nothing is sent to fal. Returns
+    {"ok", "id", "summary"} or {"ok": False, "error"}."""
+    from . import attachments
+    kind = film_cmd.get("kind") if film_cmd.get("kind") in ("me", "product", "both") else "me"
+    with state.attach_lock:
+        images = [a for a in state.attachments if a.get("local")]
+    if not images:
+        return {"ok": False, "error": "il me faut au moins une photo : ajoute-la avec le trombone, puis redis ta demande"}
+    names = lambda key: set(film_cmd.get(key) or [])
+    mine = [a for a in images if a["name"] in names("me")] if names("me") else (images if kind != "both" else [])
+    prod = [a for a in images if a["name"] in names("product")] if names("product") else (images if kind == "product" else [])
+    if kind == "product":
+        mine = []
+    if kind == "both" and (not mine or not prod):
+        return {"ok": False, "error": "pour toi et ton produit, dis-moi lesquelles des photos jointes sont toi et lesquelles sont le produit"}
+
+    def read(items):
+        out = []
+        for a in items:
+            try:
+                out.append(open(a["local"], "rb").read())
+            except OSError:
+                pass
+        return out
+    main = read(prod if kind == "product" else mine)
+    result = film.prepare(film_cmd.get("direction"), film_cmd.get("says") or "", film_cmd.get("seconds"), film_cmd.get("aspect") or "9:16", main, True, kind, read(prod) if kind == "both" else None)
+    if not result.get("ok"):
+        return result
+    used = set(id(a) for a in (mine + prod))
+    with state.attach_lock:
+        gone = [a for a in state.attachments if id(a) in used]
+        state.attachments[:] = [a for a in state.attachments if id(a) not in used]
+    attachments.release_local(gone)
+    who = {"me": "de toi", "product": "de ton produit", "both": "de toi et de ton produit"}[kind]
+    total = result.get("total", 0)
+    cap = film.cap()
+    summary = f"un film {who}, {len(result.get('scenes') or [])} scènes, environ {total:.2f} $ sur ta clé fal" + (f", ce qui dépasse ton plafond de {cap:.0f} $ : il ne partira pas" if result.get("over_cap") else "") + \
+              {"me": ". Tu confirmes que c'est bien toi sur les photos", "product": ". Tu confirmes que c'est ton produit ou que tu as le droit de l'utiliser", "both": ". Tu confirmes que c'est toi et que le produit est à toi ou que tu as le droit de l'utiliser"}[kind]
+    return {"ok": True, "id": result["id"], "summary": summary}
+
+
+def film_progress_line():
+    """For the super agent when she asks where her film stands."""
+    parts = []
+    for job in list(film.jobs.values()):
+        if job.get("state") in ("running", "done", "error") and time.time() - (job["dir"].stat().st_mtime if job["dir"].exists() else 0) < 12 * 3600:
+            what = {"running": "en cours (" + (job.get("step") or "départ") + ")", "error": "échec : " + str(job.get("error") or "inconnu"), "done": "terminé" + (", dans ton dépôt" if job.get("saved") == "saved" else ", envoi au dépôt en cours" if job.get("saved") == "pending" else "")}[job["state"]]
+            parts.append(f"« {(job.get('direction') or '')[:50]} » {what}")
+    return ("Films : " + " ; ".join(parts) + ".") if parts else ""
 
 
 def film_publish(job_id):
