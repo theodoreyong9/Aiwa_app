@@ -6,7 +6,7 @@ import secrets
 import threading
 import time
 
-from . import config, github, llm_lib, style_lib, voice_lib
+from . import config, github, llm_lib, persona_lib, style_lib, voice_lib
 
 
 def ts():
@@ -64,6 +64,7 @@ agent = {"decisions": [], "sig": None, "last": 0.0, "say": None, "proposal": Non
 agent_chat = []
 voice = voice_lib.Voice()
 llm = llm_lib.Llm()
+persona = persona_lib.Persona(config.APP_DIR / "persona.json")      # the chosen style of the agent and the points of the game
 style = style_lib.Style(config.APP_DIR / "style.json")      # the person's way of speaking (counts only), so that the agent talks like her
 
 # The chamber: the super agent meets the one of someone else, in a room they both pressed the button of (chamber_lib has the rules). A super agent is in ONE chamber at a time; the lines are what was said.

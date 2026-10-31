@@ -169,6 +169,16 @@ def _agent_api(action, data):
     return None
 
 
+def _persona(data):
+    if isinstance(data.get("style"), str):
+        state.persona.set_style(data["style"])
+    if isinstance(data.get("game"), bool):
+        state.persona.set_game(data["game"])
+    if isinstance(data.get("points"), int) and not isinstance(data.get("points"), bool):
+        state.persona.add(max(-1000, min(1000, data["points"])))
+    return {"ok": True, **state.persona.status()}
+
+
 def _style(path, data):
     if path.endswith("clear"):
         state.style.clear()
@@ -228,6 +238,7 @@ GET = {
     "/api/scenarios": lambda q: scenarios.scenario_api("/api/scenarios", ""),
     "/api/chamber": lambda q: chamber.chamber_api("/api/chamber", ""),
     "/api/live/events": lambda q: live.live_api("/api/live/events", ""),
+    "/api/persona": lambda q: {"ok": True, **state.persona.status()},
     "/api/style": lambda q: {"ok": True, **state.style.status()},
     "/api/profile": lambda q: profile.profile_state(),
     "/api/profile/check": lambda q: profile.profile_check(),
@@ -255,6 +266,7 @@ POST = {
     "/api/cast/pending": lambda body, data: cast.cast_register(data.get("tv")),
     "/api/cast/clear": lambda body, data: cast.cast_clear(),
     "/api/live/set": lambda body, data: live.live_api("/api/live/set", body),
+    "/api/persona/set": lambda body, data: _persona(data),
     "/api/style/set": lambda body, data: _style("set", data),
     "/api/style/clear": lambda body, data: _style("clear", data),
     "/api/profile": lambda body, data: profile.profile_apply(data),
