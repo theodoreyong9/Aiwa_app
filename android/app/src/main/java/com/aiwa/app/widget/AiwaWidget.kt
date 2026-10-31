@@ -109,6 +109,8 @@ object AiwaWidget {
             if (status?.waiting == true) add("Une session attend ta réponse : touche le bouton Question.")
             if ((status?.silenceMinutes ?: 0) > 0) add("Une session est silencieuse depuis ${status?.silenceMinutes} minutes.")
             if (agentNeeds) add("Le super agent attend ta réponse.")
+            val version = status?.version ?: 0
+            if (version in 1 until com.aiwa.app.brain.EXPECTED_BRAIN_VERSION) add("Le cerveau est plus ancien que l'application ($version, il faut ${com.aiwa.app.brain.EXPECTED_BRAIN_VERSION}) : il se met à jour, ça peut prendre quelques minutes.")
         }
         // ---- the tabs, then the top bar ----
         val tabs = listOfNotNull(
