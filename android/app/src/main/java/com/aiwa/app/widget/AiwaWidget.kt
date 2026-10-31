@@ -101,6 +101,15 @@ object AiwaWidget {
         val brainBad = snap.link == Link.DOWN || snap.link == Link.MISSING || status?.claudeLogin == "needed"
         val waiting = status?.waiting == true || (status?.silenceMinutes ?: 0) > 0
         val alert = waiting || agentNeeds || !hasTermuxPermission(context) || brainBad
+        WidgetAlert.reasons = buildList {
+            if (snap.link == Link.MISSING) add("Termux n'est pas installé : le cerveau ne peut pas tourner.")
+            else if (snap.link == Link.DOWN) add("Le cerveau ne répond pas (Termux est arrêté ou plante).")
+            if (!hasTermuxPermission(context)) add("Aiwa n'a pas l'autorisation de lancer Termux : touche le bouton Super agent pour la donner.")
+            if (status?.claudeLogin == "needed") add("Claude n'est pas relié à ton compte.")
+            if (status?.waiting == true) add("Une session attend ta réponse : touche le bouton Question.")
+            if ((status?.silenceMinutes ?: 0) > 0) add("Une session est silencieuse depuis ${status?.silenceMinutes} minutes.")
+            if (agentNeeds) add("Le super agent attend ta réponse.")
+        }
         // ---- the tabs, then the top bar ----
         val tabs = listOfNotNull(
             WidgetArt.Tab(R.drawable.fw_i_settings, "Réglages", "grey", weight = 0.55f),
@@ -123,6 +132,7 @@ object AiwaWidget {
             needsSetup -> com.aiwa.app.brain.SetupActivity::class.java
             status?.claudeLogin == "needed" -> com.aiwa.app.settings.ClaudeLoginActivity::class.java
             status != null && !status.githubToken -> com.aiwa.app.settings.GithubConnectActivity::class.java
+            status?.waiting == true || (status?.silenceMinutes ?: 0) > 0 || snap.link == Link.DOWN -> com.aiwa.app.agent.ProposalActivity::class.java      // red for another reason: the window says which, and still lets her switch the agent
             else -> AgentToggleActivity::class.java
         }
         val hasSession = snap.sessionId != null || status?.lastSession != null
