@@ -187,3 +187,30 @@ class OpenWithoutTheModelTests(unittest.TestCase):
             with state.agent_lock:
                 state.agent.clear()
                 state.agent.update(saved)
+
+
+class RealCaseTests(unittest.TestCase):
+    """The journal of the phone: « ouvre l'accueil » went to the model (42 s) which answered with a change of repository and session to confirm."""
+
+    def test_l_accueil_is_understood_and_a_switch_nobody_asked_for_is_dropped(self):
+        import json
+        from unittest import mock
+        from aiwa_brain import agent, agent_lib, state
+        self.assertEqual(agent_lib.open_intent("ouvre l'accueil"), "accueil")
+        reply = {"say": "Bon, j'ouvre l'accueil.", "do": {"repo": "theodoreyong9/Aiwa_app", "session": "session_01XnZ", "open": "accueil"}}
+        self.assertEqual(agent_lib.guard_do("ouvre l'accueil", reply["do"]), {"open": "accueil"})
+        self.assertIn("session", agent_lib.guard_do("passe sur la session de l'app", reply["do"]))
+        with state.agent_lock:
+            saved = dict(state.agent)
+            state.agent.update(busy=False, command=None, say=None)
+        try:
+            with mock.patch.object(agent, "point", return_value=("", "")), mock.patch.object(agent, "_model", return_value=json.dumps(reply)):
+                agent._turn("dis donc, affiche-moi l'accueil", False)
+            with state.agent_lock:
+                command = state.agent["command"]
+            self.assertEqual(sorted(command["items"]), ["open"])
+            self.assertTrue(command["auto"])
+        finally:
+            with state.agent_lock:
+                state.agent.clear()
+                state.agent.update(saved)
