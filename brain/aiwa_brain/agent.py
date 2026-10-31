@@ -56,6 +56,12 @@ def point(report=False):
         extra.append(studio.sources()["line"])
         if studio.shots_line():
             extra.append(studio.shots_line())
+        if studio.film_progress_line():
+            extra.append(studio.film_progress_line())
+        with state.attach_lock:
+            joined = [a["name"] for a in state.attachments]
+        if joined:
+            extra.append("Fichiers joints en attente : " + ", ".join(joined) + ".")
     except Exception:
         pass
     if report:
@@ -132,6 +138,16 @@ def said(raw):
         print(f"[{state.ts()}] agent: a reply that is not one", flush=True)
         return False
     stamp = time.time()
+    if parsed.get("command") and parsed["command"].get("film"):
+        from . import studio
+        made = studio.film_from_attachments(parsed["command"]["film"])
+        if made.get("ok"):
+            parsed["command"]["film"].update(id=made["id"], summary=made["summary"])
+        else:
+            parsed["command"].pop("film")
+            parsed["say"] = (parsed["say"] + " " if parsed["say"] else "") + str(made.get("error"))
+            if not parsed["command"]:
+                parsed["command"] = None
     if parsed.get("diagram"):
         diagram.show(parsed["diagram"])
     with state.agent_lock:
@@ -214,6 +230,9 @@ def apply_command(command_id):
     if items.get("shot"):
         from . import studio
         studio.shoot(items["shot"]["prompt"], items["shot"]["source"])
+    if items.get("film") and items["film"].get("id"):
+        from . import studio
+        studio.film.start(items["film"]["id"], confirmed=True)       # the person said yes to the price and to the faces, read back to her
     with state.agent_lock:
         if state.agent["command"] and state.agent["command"]["id"] == command_id:
             state.agent["command"] = None

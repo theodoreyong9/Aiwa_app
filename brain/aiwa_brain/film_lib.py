@@ -50,13 +50,14 @@ def _safe(text, limit=300):
 
 
 class Film:
-    def __init__(self, home=None, transport=None, planner=None, sleep=time.sleep, voiceover=None):
+    def __init__(self, home=None, transport=None, planner=None, sleep=time.sleep, voiceover=None, on_done=None):
         self.home = Path(home) if home else DATA / "film"
         self.key_file = self.home / "fal_key"
         self.voice_file = self.home / "voice_sample"
         self.transport = transport or self._http
         self.planner = planner            # (direction, says, seconds, kind) -> {"scenes": [...]} or None; None = the fallback plan
         self.sleep = sleep
+        self.on_done = on_done            # job id -> (called once a film is finished: it goes by itself into the repository)
         self.voiceover = voiceover        # text -> WAV bytes (the phone's natural voice, free) or None: the voice-over of a product film
         self.lock = threading.Lock()
         self.jobs = {}
@@ -506,6 +507,7 @@ class Film:
             job["film"] = self._assemble(job, clips)
             job.update(state="done", step="terminé")
             self._save(job)
+            self._finished(job)
         except FilmError as err:
             job.update(state="error", error=str(err))
         except Exception as err:      # never silent: the person sees why
@@ -559,6 +561,14 @@ class Film:
         job["film"] = self._assemble(job, [clip])
         job.update(state="done", step="terminé")
         self._save(job)
+        self._finished(job)
+
+    def _finished(self, job):
+        if self.on_done:
+            try:
+                self.on_done(job["id"])
+            except Exception as err:
+                print(f"film: l'envoi au dépôt a échoué ({err})", flush=True)
 
     def _add_voiceover(self, raw, text, out):
         """The voice-over (the phone's natural voice) laid on the generated clip; the clip's length wins (a text longer than the scene is cut)."""
