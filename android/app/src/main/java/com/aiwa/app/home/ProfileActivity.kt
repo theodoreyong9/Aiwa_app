@@ -145,15 +145,21 @@ class ProfileActivity : ComponentActivity() {
         startActivity(Intent(this, GiveActivity::class.java).putExtra(GiveActivity.EXTRA_REPO, urls[i]).putExtra(GiveActivity.EXTRA_PUB, pubs.getOrNull(i).orEmpty()))
     }
 
-    /** « Swipe » on a profile: the person takes its place and navigates the list it saw (the levels left behind are kept). */
+    /** « Swipe » on a profile: the person takes its place and navigates the list it left in its own repository (what this phone was told when it met it is the second choice); the levels left behind are kept. */
     private fun swipeIn() {
-        val repo = urls[pager.currentItem]
-        val list = SwipeData.listFor(this, repo).filter { ProfileView.valid(it) && it != repo }
-        if (list.isEmpty()) { toastOnMain(this, "Aucune liste connue pour ce profil : il faut l'avoir croisé."); return }
-        stack.add(Level(urls, pubs, pager.currentItem))
-        setDeck(list, MutableList(list.size) { "" }, 0)
-        place.text = "À la place de ${repo.substringBefore('/')} · Précédent revient"
-        updateChrome()
+        val i = pager.currentItem
+        val repo = urls[i]
+        toastOnMain(this, "Je lis la liste de ${repo.substringBefore('/')}…")
+        CoroutineScope(Dispatchers.Main).launch {
+            val fromRepo = withContext(Dispatchers.IO) { try { Aiwa.brain.profileSeen(repo) } catch (err: Exception) { emptyList() } }
+            val list = (fromRepo.ifEmpty { SwipeData.listFor(this@ProfileActivity, repo) }).filter { ProfileView.valid(it) && it != repo }
+            if (list.isEmpty()) { toastOnMain(this@ProfileActivity, "Cette personne n'a pas de liste : elle n'a rien croisé, ou elle n'utilise pas Aiwa."); return@launch }
+            if (urls.getOrNull(pager.currentItem) != repo) return@launch      // she moved on while it was read
+            stack.add(Level(urls, pubs, pager.currentItem))
+            setDeck(list, MutableList(list.size) { "" }, 0)
+            place.text = "À la place de ${repo.substringBefore('/')} · Précédent revient"
+            updateChrome()
+        }
     }
 
     /** « Précédent »: back to the level before. */

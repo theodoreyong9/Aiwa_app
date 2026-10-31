@@ -231,6 +231,7 @@ GET = {
     "/api/profile": lambda q: profile.profile_state(),
     "/api/profile/check": lambda q: profile.profile_check(),
     "/api/profile/pub": lambda q: profile.pub_of((q.get("repo") or [""])[0]),
+    "/api/profile/seen": lambda q: profile.seen_of((q.get("repo") or [""])[0]),
 }
 POST = {
     "/api/cloud/message": lambda body, data: sessions.cloud_send(body),
@@ -258,6 +259,7 @@ POST = {
     "/api/profile": lambda body, data: profile.profile_apply(data),
     "/api/diagram/set": lambda body, data: {"ok": True, "on": diagram.set_on(data.get("on"))},
     "/api/profile/pub": lambda body, data: profile.publish_pub(data.get("pub")),
+    "/api/profile/seen": lambda body, data: profile.publish_seen(data.get("repos")),
     "/api/profile/contracts": lambda body, data: profile.publish_contracts(data.get("events")),
     "/api/waiting/clear": lambda body, data: (relay.clear_waiting(), {"accepted": True})[1],
     "/api/waiting/test": lambda body, data: _relay_test(),

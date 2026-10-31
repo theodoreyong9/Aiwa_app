@@ -121,7 +121,7 @@ class WebActivity : ComponentActivity() {
                     // the links of what the person has to show, read from the releases of her repository (nothing is published unless she turned « Visible » on)
                     val links = withContext(Dispatchers.IO) { if (repo.isEmpty()) JSONArray() else VoirLinks.of(repo) }
                     val favs = com.aiwa.app.voir.FavoriteRepos.all(this@WebActivity)
-                    val query = "m=$mode&nfavs=${Uri.encode(JSONArray(favs).toString())}&pub=${if (VoirSettings.on(this@WebActivity) && links.length() > 0) "1" else "0"}&repo=${Uri.encode(repo)}&links=${Uri.encode(links.toString())}"
+                    val query = "m=$mode&nfavs=${Uri.encode(JSONArray(favs).toString())}&pub=${if (VoirSettings.on(this@WebActivity) && repo.isNotEmpty()) "1" else "0"}&repo=${Uri.encode(repo)}&links=${Uri.encode(links.toString())}"
                     web.loadUrl(WebHost.pageUrl("voir", query))
                 }
             }
@@ -144,9 +144,7 @@ class WebActivity : ComponentActivity() {
         when (json.optString("cmd")) {
             "favorites" -> json.optJSONArray("list")?.let { com.aiwa.app.voir.VoirFavorites.save(this, it) }
             "seen" -> {
-                val repo = json.optString("repo")
-                val list = json.optJSONArray("seen")
-                if (ProfileView.valid(repo)) com.aiwa.app.voir.SwipeData.note(this, repo, json.optInt("level", 0), if (list == null) emptyList() else (0 until list.length()).map { list.optString(it) }.filter { ProfileView.valid(it) })
+                com.aiwa.app.voir.SwipeBridge.seen(this, json)
             }
             "save" -> saveToDownloads(json.optString("name"), json.optString("mime", "application/json"), json.optString("text"))
             "profile" -> {

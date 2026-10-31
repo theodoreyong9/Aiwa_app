@@ -2,12 +2,16 @@
 import hashlib
 import json
 import re
+import time
 import urllib.request
 
 from . import github, profile_lib
 
 PUB_FILE = "aiwa.json"     # in Profile/: {"v": 1, "pub": "<64 hex>"}, the key a coffee is sent to
 PUB_RE = re.compile(r"[0-9a-f]{64}")
+SEEN_FILE = "aiwa-seen.json"   # in Profile/: {"v": 1, "seen": ["owner/name", …]}, the profiles this person crossed in the last week: names only, no place, no distance, no time (public)
+SEEN_MAX = 5000
+SEEN_EVERY = 3600             # at most one write an hour
 
 
 def profile_state():
@@ -68,6 +72,46 @@ def publish_contracts(events):
     data["contracts_sent"] = mark
     profile_lib.PROFILE_FILE.write_text(json.dumps(data), encoding="utf-8")
     return {"ok": True}
+
+
+def publish_seen(repos):
+    """Leaves the list of the profiles the person crossed this week in `Profile/aiwa-seen.json` of her profile repository (names of public repositories only): whoever takes her place in « Swipe » reads it
+    from GitHub. Written when it changed, and at most once an hour."""
+    repo = profile_lib.repo()
+    if not repo:
+        return {"ok": False, "error": "pas de dépôt de profil"}
+    clean = [r for r in dict.fromkeys(str(x) for x in (repos if isinstance(repos, list) else [])) if profile_lib.REPO_RE.fullmatch(r) and r.lower() != repo.lower()][:SEEN_MAX]
+    if not clean:
+        return {"ok": False, "error": "rien à publier"}
+    raw = json.dumps({"v": 1, "seen": clean}, separators=(",", ":")).encode()
+    data = profile_lib.load()
+    mark = f"{repo.lower()}:{hashlib.sha256(raw).hexdigest()}"
+    if data.get("seen_sent") == mark:
+        return {"ok": True, "unchanged": True}
+    if time.time() - float(data.get("seen_at") or 0) < SEEN_EVERY:
+        return {"ok": True, "waiting": True}
+    try:
+        github.put_file(repo, f"{profile_lib.FOLDER}/{SEEN_FILE}", raw, "Aiwa : les profils croisés cette semaine")
+    except github.GithubError as err:
+        return {"ok": False, "error": str(err)}
+    data["seen_sent"] = mark
+    data["seen_at"] = time.time()
+    profile_lib.PROFILE_FILE.write_text(json.dumps(data), encoding="utf-8")
+    return {"ok": True}
+
+
+def seen_of(repo):
+    """The profiles a person crossed this week, as she left them in her `Profile/aiwa-seen.json` (GitHub's raw files: no question against the API's limit); an empty list when there is none."""
+    if not isinstance(repo, str) or not profile_lib.REPO_RE.fullmatch(repo):
+        return {"ok": False, "seen": []}
+    url = f"https://raw.githubusercontent.com/{repo}/HEAD/{profile_lib.FOLDER}/{SEEN_FILE}"
+    try:
+        with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "aiwa"}), timeout=15) as resp:
+            listed = (json.loads(resp.read(1_000_000)) or {}).get("seen")
+    except (OSError, ValueError, AttributeError):
+        return {"ok": True, "seen": []}
+    names = [r for r in dict.fromkeys(str(x) for x in (listed if isinstance(listed, list) else [])) if profile_lib.REPO_RE.fullmatch(r) and r.lower() != repo.lower()]
+    return {"ok": True, "seen": names[:SEEN_MAX]}
 
 
 def pub_of(repo):
