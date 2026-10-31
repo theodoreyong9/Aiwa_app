@@ -187,8 +187,30 @@ def _target(entry):
     return f"à la session du dépôt {entry['repo']}"
 
 
+STALE_SAY = 300          # words nobody heard (the voice failed, the phone was off): dropped after five minutes
+STALE_COMMAND = 900      # settings that nobody confirmed: fifteen minutes
+STALE_PROPOSAL = 1800    # a message for a session that nobody confirmed: half an hour
+
+
+def expire(now=None):
+    """What waited too long for the person is dropped, so that the widget does not stay red for good over something nobody will answer."""
+    now = now or time.time()
+    with state.agent_lock:
+        say = state.agent["say"]
+        if say and not say["spoken"] and now - say.get("ts", now) > STALE_SAY:
+            say["spoken"] = True
+        command = state.agent["command"]
+        if command and not command.get("auto") and now - command.get("ts", now) > STALE_COMMAND:
+            state.agent["command"] = None
+        proposal = state.agent["proposal"]
+        if proposal and not proposal.get("sending") and now - proposal.get("ts", now) > STALE_PROPOSAL:
+            state.agent["decisions"] = (state.agent["decisions"] + [f"proposition « {proposal['message'][:140]} » : EXPIRÉE (personne n'a répondu)"])[-12:]
+            state.agent["proposal"] = None
+
+
 def snapshot():
     """What the phone takes: the words to say, the proposal to read back, the command to apply."""
+    expire()
     with state.agent_lock:
         say = state.agent["say"] if state.agent["say"] and not state.agent["say"]["spoken"] else None
         proposal = dict(state.agent["proposal"]) if state.agent["proposal"] and not state.agent["proposal"].get("sending") else None

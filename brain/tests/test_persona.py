@@ -115,3 +115,22 @@ class OpenAiwaTests(unittest.TestCase):
         for word in ("aiwa", "l'application", "swipe", "accueil"):
             self.assertEqual(agent_lib.parse_command({"open": word}, set())["open"], "home", word)
         self.assertEqual(agent_lib.parse_command({"open": "apps"}, set())["open"], "files_app")
+
+
+class StaleAgentTests(unittest.TestCase):
+    def test_what_nobody_answered_is_dropped_so_the_widget_does_not_stay_red(self):
+        import time
+        from aiwa_brain import agent, state
+        now = time.time()
+        with state.agent_lock:
+            saved = dict(state.agent)
+            state.agent.update(say={"id": "s1", "text": "bon j'ouvre", "ts": int(now - 400), "spoken": False}, command={"id": "c1", "ts": int(now - 1000), "items": {"open": "home"}}, proposal=None)
+        try:
+            agent.expire(now)
+            with state.agent_lock:
+                self.assertTrue(state.agent["say"]["spoken"])
+                self.assertIsNone(state.agent["command"])
+        finally:
+            with state.agent_lock:
+                state.agent.clear()
+                state.agent.update(saved)
