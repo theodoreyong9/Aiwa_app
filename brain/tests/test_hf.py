@@ -50,3 +50,24 @@ class HfTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class ShotTests(unittest.TestCase):
+    def test_command_with_a_shot_is_read_back_and_unsafe_is_dropped(self):
+        from aiwa_brain import agent_lib
+        cmd = agent_lib.parse_command({"shot": {"prompt": "un renard dans la neige", "source": "hf"}}, set())
+        self.assertEqual(cmd["shot"]["source"], "hf")
+        self.assertIn("Hugging Face", agent_lib.command_phrase(cmd))
+        self.assertEqual(agent_lib.parse_command({"shot": {"prompt": "x", "source": "bizarre"}}, set())["shot"]["source"], "auto")
+
+    def test_auto_choice_follows_keys_and_the_kind_of_plan(self):
+        from unittest import mock
+        from aiwa_brain import studio
+        with tempfile.TemporaryDirectory() as tmp:
+            bank = stock_lib.Stock(home=Path(tmp), transport=lambda *a: (200, {}))
+            with mock.patch.object(studio, "stock", bank):
+                self.assertEqual(studio.choose("une rue de Paris"), "hf")
+                bank.save_key("pexels", "abcdefghijklmnopqrstuvwx")
+                self.assertEqual(studio.choose("une rue de Paris"), "stock")
+                self.assertEqual(studio.choose("un dragon imaginaire"), "hf")
+                self.assertEqual(studio.choose("une rue", "hf"), "hf")

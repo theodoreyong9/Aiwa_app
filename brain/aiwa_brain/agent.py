@@ -209,6 +209,9 @@ def apply_command(command_id):
                 if repo and not items.get("repo"):
                     state.current_repo = repo
             state.save()
+    if items.get("shot"):
+        from . import studio
+        studio.shoot(items["shot"]["prompt"], items["shot"]["source"])
     with state.agent_lock:
         if state.agent["command"] and state.agent["command"]["id"] == command_id:
             state.agent["command"] = None
