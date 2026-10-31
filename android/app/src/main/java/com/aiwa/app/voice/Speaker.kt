@@ -16,6 +16,17 @@ object Speaker {
     // Cutting the voice off (the person speaks over it, see BargeIn): whatever is playing ends at once and the sentences that follow are not said.
     @Volatile private var interrupted = false
     @Volatile private var cancelCurrent: (() -> Unit)? = null
+    /** Why the phone's own voice could not say the last sentence (null when it could). */
+    @Volatile var lastFailure: String? = null
+    private var complained = 0L
+
+    /** Tells, on the screen, that the voice does not work and why (at most once every 30 seconds): a silent failure leaves nobody a way to know. */
+    fun complain(context: Context) {
+        val now = System.currentTimeMillis()
+        if (now - complained < 30_000L) return
+        complained = now
+        com.aiwa.app.common.toastOnMain(context.applicationContext, "Je n'arrive pas à parler : " + (lastFailure ?: "la voix n'a rien dit") + ". Les mots sont à l'écran.")
+    }
 
     /** The voice stops now; the sentences still to come are dropped until resetInterrupt(). Any thread. */
     fun interrupt() {
@@ -27,6 +38,7 @@ object Speaker {
 
     /** Says the text and returns when it has been said: true if it was, false when the phone has no French voice, no engine, or it took too long. */
     suspend fun speakAndWait(context: Context, text: String, pitch: Float = 1f): Boolean = withContext(Dispatchers.Main) {
+        lastFailure = null
         withTimeoutOrNull(20_000L) {
             suspendCancellableCoroutine<Boolean> { cont ->
                 var engine: TextToSpeech? = null
@@ -40,10 +52,12 @@ object Speaker {
                 engine = TextToSpeech(context.applicationContext) { status ->
                     val tts = engine
                     if (status != TextToSpeech.SUCCESS || tts == null) {
+                        lastFailure = "le moteur de voix du téléphone ne démarre pas (Réglages Android, synthèse vocale)"
                         end(false)
                     } else {
                         val language = tts.setLanguage(Locale.FRENCH)
                         if (language == TextToSpeech.LANG_MISSING_DATA || language == TextToSpeech.LANG_NOT_SUPPORTED) {
+                            lastFailure = "le téléphone n'a pas de voix française installée"
                             end(false)
                         } else {
                             tts.setPitch(pitch)
@@ -51,15 +65,15 @@ object Speaker {
                                 override fun onStart(utteranceId: String?) {}
                                 override fun onDone(utteranceId: String?) { end(true) }
                                 @Suppress("OVERRIDE_DEPRECATION")
-                                override fun onError(utteranceId: String?) { end(false) }
+                                override fun onError(utteranceId: String?) { lastFailure = "la voix du téléphone a échoué en parlant"; end(false) }
                             })
-                            if (tts.speak(text, TextToSpeech.QUEUE_FLUSH, null, UUID.randomUUID().toString()) != TextToSpeech.SUCCESS) end(false)
+                            if (tts.speak(text, TextToSpeech.QUEUE_FLUSH, null, UUID.randomUUID().toString()) != TextToSpeech.SUCCESS) { lastFailure = "la voix du téléphone a refusé le texte"; end(false) }
                         }
                     }
                 }
                 cont.invokeOnCancellation { try { engine?.shutdown() } catch (err: Exception) { /* already gone */ } }
             }
-        } ?: false
+        } ?: false.also { lastFailure = "la voix du téléphone ne répond pas (20 secondes)" }
     }
 
     /**

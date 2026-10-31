@@ -29,7 +29,7 @@ object AgentVoice {
             if (say.id == spokenId) return@withLock false
             spokenId = say.id
             Speaker.resetInterrupt()
-            Speaker.speakNaturalStreamed(context, say.text)
+            if (!Speaker.speakNaturalStreamed(context, say.text)) Speaker.complain(context)
             withContext(Dispatchers.IO) { Aiwa.brain.agentSpoken(say.id) }
             true
         }
