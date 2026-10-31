@@ -150,10 +150,10 @@ export function initVoirPage(params) {
     const rooms = new Map();          // level -> { room, action }
     const status2 = () => status(publish ? `Tu es visible (zone ${own}), portée ${LEVELS[view.level].label}.` : 'Tu regardes sans te montrer. Active « Visible » dans le widget pour publier tes liens.');
     const mineEntry = async () => {
-      if (!publish || !connected() || mine.length === 0) return null;
+      if (!publish || !connected() || !repo) return null;     // the announcement is the profile (its repository), the score and the list: no links of productions any more
       let figure = { score: 0, laps: 0 };
       try { figure = (await session.aiwa.ranking()) ?? figure; } catch { /* no burn yet: zero */ }
-      const e = { v: 1, cell: own, repo, links: mine, score: Number(figure.score) || 0, laps: Number(figure.laps) || 0, ts: Date.now(), pub: session.aiwa.identity.publicKey, seen: mySeen() };
+      const e = { v: 1, cell: own, repo, links: [], score: Number(figure.score) || 0, laps: Number(figure.laps) || 0, ts: Date.now(), pub: session.aiwa.identity.publicKey, seen: mySeen() };
       e.sig = await session.aiwa.identity.sign(messageOf(e));
       return e;
     };

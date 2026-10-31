@@ -9,7 +9,7 @@ import org.json.JSONObject
 /** « Voir »: whether the person publishes the links of her productions to the people near (off by default, « Se cacher » in the settings), and how far (0 = 100 m, 1 = 1 km, 2 = 10 km, 3 = the town). */
 object VoirSettings {
     private fun prefs(context: Context) = Prefs(context, "aiwa_voir")
-    fun on(context: Context): Boolean = prefs(context).bool("on", false)
+    fun on(context: Context): Boolean = prefs(context).bool("on", true)
     fun setOn(context: Context, on: Boolean) { prefs(context).put("on", on); com.aiwa.app.widget.AiwaWidget.render(context, force = true) }
     fun radius(context: Context): Int = prefs(context).int("radius", 1).coerceIn(0, 3)
     fun setRadius(context: Context, radius: Int) = prefs(context).put("radius", radius.coerceIn(0, 3))
@@ -74,6 +74,31 @@ object SwipeData {
     fun listFor(context: Context, repo: String): List<String> {
         val repos = read(context).optJSONObject("lists")?.optJSONObject(repo)?.optJSONArray("repos") ?: return emptyList()
         return (0 until repos.length()).map { repos.optString(it) }.filter { it.isNotBlank() }
+    }
+}
+
+/** What the Voir page tells the app when it meets someone: who was seen, and (kept as a copy) the list that person saw. */
+object SwipeBridge {
+    fun seen(context: Context, json: JSONObject) {
+        val repo = json.optString("repo")
+        if (!com.aiwa.app.home.ProfileView.valid(repo)) return
+        val list = json.optJSONArray("seen")
+        val names = if (list == null) emptyList() else (0 until list.length()).map { list.optString(it) }.filter { com.aiwa.app.home.ProfileView.valid(it) }
+        SwipeData.note(context, repo, json.optInt("level", 0), names)
+        SeenPublisher.maybe(context)
+    }
+}
+
+/** The list of the profiles crossed this week goes into the person's own profile repository (names only), whenever something new was seen; the brain writes it when it changed and at most once an hour. */
+object SeenPublisher {
+    @Volatile private var last = 0L
+    fun maybe(context: Context) {
+        val now = System.currentTimeMillis()
+        if (now - last < 10 * 60 * 1000) return
+        last = now
+        val list = SwipeData.observed(context, 7)
+        if (list.isEmpty() || !com.aiwa.app.home.ProfileView.valid(com.aiwa.app.home.ProfileSettings.repo(context))) return
+        Thread { try { Aiwa.brain.publishProfileSeen(list) } catch (err: Exception) { } }.start()
     }
 }
 

@@ -30,6 +30,7 @@ class HomeActivity : ComponentActivity() {
     private lateinit var web: WebView
     private var watch: ProfileWatch? = null
     private var watched: String? = null
+    private lateinit var collector: com.aiwa.app.voir.ZoneCollector
 
     // The ear listens whenever Aiwa is opened and the microphone is allowed; it asks for the microphone once, at the first opening
     private val micPermission = registerForActivityResult(ActivityResultContracts.RequestPermission()) { granted -> if (granted) VoiceService.ensureStarted(applicationContext) }
@@ -54,6 +55,7 @@ class HomeActivity : ComponentActivity() {
         root.addView(web, FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT).apply { bottomMargin = ProfileBar.height(this@HomeActivity) })
         // her page is the profile and nothing else; the keys under it are the application's: the matches around her, her room, her wallet (the coffees she is offered), the wall of those who offered, the widget
         this.root = root
+        collector = com.aiwa.app.voir.ZoneCollector(this, root)
         applyBar(BarConfig.last)
         loadBar(null)
         setContentView(root)
@@ -70,13 +72,14 @@ class HomeActivity : ComponentActivity() {
         CoffeeSettings.publishPub(this)
         startWatch()
         startEar()
+        collector.start()
         // The widget is asked for at every opening while there is none (the system's window, one tap on « Ajouter »), once the screen is really in front and has settled.
         window.decorView.postDelayed({ if (!isFinishing && !isDestroyed) WidgetPin.offerOnce(this) }, 800)
         // Claude first (essential), then GitHub (once): see Onboarding
         window.decorView.postDelayed({ if (!isFinishing && !isDestroyed) Onboarding.next(this) }, 1500)
     }
 
-    override fun onPause() { watch?.stop(); watch = null; super.onPause() }
+    override fun onPause() { watch?.stop(); watch = null; collector.pause(); super.onPause() }
 
     override fun onNewIntent(intent: Intent) {
         super.onNewIntent(intent)
@@ -130,6 +133,7 @@ class HomeActivity : ComponentActivity() {
     }
 
     override fun onDestroy() {
+        collector.destroy()
         watch?.stop()
         HomeRuntime.release(web)
         web.destroy()

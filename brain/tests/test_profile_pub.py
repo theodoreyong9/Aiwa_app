@@ -40,6 +40,25 @@ class ProfilePubTest(unittest.TestCase):
         self.assertIsNone(profile.pub_of("not a repo")["pub"])
 
 
+class ProfileSeenTest(ProfilePubTest):
+    def test_the_list_is_written_when_it_changed_and_not_more_than_once_an_hour(self):
+        with mock.patch("aiwa_brain.profile.github.put_file") as put:
+            self.assertTrue(profile.publish_seen(["a/one", "b/two", "a/one", "me/me", "pas un depot"])["ok"])
+            self.assertTrue(profile.publish_seen(["a/one", "b/two", "a/one", "me/me"])["unchanged"])
+            self.assertTrue(profile.publish_seen(["a/one", "b/two", "c/three"])["waiting"])
+        self.assertEqual(put.call_count, 1)
+        self.assertEqual(put.call_args[0][:2], ("me/me", "Profile/aiwa-seen.json"))
+        self.assertEqual(json.loads(put.call_args[0][2])["seen"], ["a/one", "b/two"])
+        self.assertFalse(profile.publish_seen([])["ok"])
+
+    def test_reads_the_list_of_a_visited_profile(self):
+        reply = io.BytesIO(json.dumps({"v": 1, "seen": ["x/y", "bad name", "her/repo", "z/w"]}).encode())
+        with mock.patch("aiwa_brain.profile.urllib.request.urlopen", return_value=mock.MagicMock(__enter__=lambda s: reply, __exit__=lambda *a: False)):
+            self.assertEqual(profile.seen_of("her/repo")["seen"], ["x/y", "z/w"])
+        with mock.patch("aiwa_brain.profile.urllib.request.urlopen", side_effect=OSError):
+            self.assertEqual(profile.seen_of("her/repo")["seen"], [])
+
+
 if __name__ == "__main__":
     unittest.main()
 

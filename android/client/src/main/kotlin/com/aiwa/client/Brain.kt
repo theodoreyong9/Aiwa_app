@@ -155,6 +155,13 @@ class Brain(private val net: Transport = HttpTransport()) {
     fun profileCheck(): JSONObject? = getJson("/api/profile/check")
     fun publishProfileContracts(events: JSONArray): Outcome = act("/api/profile/contracts", JSONObject().put("events", events), 60_000)
     fun publishProfilePub(pub: String): Outcome = act("/api/profile/pub", JSONObject().put("pub", pub))
+    /** Leaves the list of the profiles crossed this week in the person's own profile repository (the brain writes it at most once an hour). */
+    fun publishProfileSeen(repos: List<String>): Outcome = act("/api/profile/seen", JSONObject().put("repos", JSONArray(repos)), 60_000)
+    /** The profiles a person crossed this week, from her own profile repository (empty when she left none). */
+    fun profileSeen(repo: String): List<String> {
+        val list = getJson("/api/profile/seen?repo=" + java.net.URLEncoder.encode(repo, "UTF-8"))?.optJSONArray("seen") ?: return emptyList()
+        return (0 until list.length()).map { list.optString(it) }.filter { it.isNotBlank() }
+    }
     fun profilePub(repo: String): String? = getJson("/api/profile/pub?repo=" + java.net.URLEncoder.encode(repo, "UTF-8"))?.optString("pub")?.takeIf { it.length == 64 }
 
     // ---------- the studio: the free stock clips and « Film de moi » ----------
