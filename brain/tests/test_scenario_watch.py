@@ -1,5 +1,3 @@
-import threading
-import time
 import unittest
 from unittest import mock
 
