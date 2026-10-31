@@ -57,7 +57,6 @@ class ProfileActivity : ComponentActivity() {
     private class Level(val urls: List<String>, val pubs: MutableList<String>, val index: Int)
     private val stack = ArrayList<Level>()
     private var zoneDeck = false            // level 0 is the zone of this phone
-    private lateinit var place: TextView
 
     @SuppressLint("SetJavaScriptEnabled")
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -79,11 +78,6 @@ class ProfileActivity : ComponentActivity() {
             background = GradientDrawable().apply { setColor(Color.parseColor("#99000000")); cornerRadius = dp(14).toFloat() }
         }
         root.addView(chip, FrameLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT, Gravity.TOP or Gravity.CENTER_HORIZONTAL).apply { topMargin = dp(8) })
-        place = TextView(this).apply {
-            setTextColor(Color.WHITE); textSize = 12f; visibility = android.view.View.GONE; setPadding(dp(10), dp(4), dp(10), dp(4))
-            background = GradientDrawable().apply { setColor(Color.parseColor("#99000000")); cornerRadius = dp(12).toFloat() }
-        }
-        root.addView(place, FrameLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT, Gravity.TOP or Gravity.START).apply { topMargin = dp(8); leftMargin = dp(8) })
         this.root = root
         applyBar(BarConfig.last)
         setContentView(root)
@@ -102,6 +96,22 @@ class ProfileActivity : ComponentActivity() {
         noteAround()
     }
 
+    // The levels are not shown: a Like goes into the list of the profile, and a swipe toward the previous one from the FIRST profile of a level goes back to the level before.
+    private val backGesture by lazy {
+        android.view.GestureDetector(this, object : android.view.GestureDetector.SimpleOnGestureListener() {
+            override fun onFling(e1: android.view.MotionEvent?, e2: android.view.MotionEvent, velocityX: Float, velocityY: Float): Boolean {
+                val dx = e2.x - (e1?.x ?: e2.x); val dy = e2.y - (e1?.y ?: e2.y)
+                if (stack.isNotEmpty() && pager.currentItem == 0 && dx > dp(80) && Math.abs(dx) > Math.abs(dy) * 1.5f) back()
+                return false
+            }
+        })
+    }
+
+    override fun dispatchTouchEvent(ev: android.view.MotionEvent): Boolean {
+        if (::pager.isInitialized) backGesture.onTouchEvent(ev)
+        return super.dispatchTouchEvent(ev)
+    }
+
     private lateinit var root: FrameLayout
     private var barView: android.view.View? = null
     private var built = false      // the window is complete: the keys may ask about the profile on the screen
@@ -109,18 +119,18 @@ class ProfileActivity : ComponentActivity() {
     /** The keys the application has on a visited profile: the person's own file (her profile repository) may reorder, restyle or leave out any of them, and add others. Without a file: Favoris, Swipe, Précédent (in the place of someone), Give, Match, Widget, Rang. */
     private fun builtinKeys() = linkedMapOf(
         "favoris" to ProfileBar.Spec("☆", "Favoris", ProfileBar.GOLD) { toggleFavorite() },
-        "swipe" to ProfileBar.Spec("👣", "Swipe", ProfileBar.VIOLET) { swipeIn() },
+        "swipe" to ProfileBar.Spec("♥", "Like", ProfileBar.VIOLET) { swipeIn() },
         "precedent" to ProfileBar.Spec("↩", "Précédent", ProfileBar.WHITE) { back() },
         "give" to ProfileBar.Spec("🎁", "Give", ProfileBar.GREEN) { give() },
         "match" to ProfileBar.Spec("🤝", "Match", ProfileBar.VIOLET) { match(force = true) },
         "chambre" to ProfileBar.Spec("🚪", "Chambre", ProfileBar.BLUE) { startActivity(Intent(this, com.aiwa.app.chamber.ChamberActivity::class.java).putExtra(com.aiwa.app.chamber.ChamberActivity.EXTRA_REPO, urls[pager.currentItem])) },
         "cafe" to ProfileBar.Spec("☕", "Café", ProfileBar.GOLD) { coffee() },
-        "zone" to ProfileBar.Spec("📍", "Swipe", ProfileBar.VIOLET) { swipeIn() },
+        "zone" to ProfileBar.Spec("♥", "Like", ProfileBar.VIOLET) { swipeIn() },
         "mur" to ProfileBar.Spec("🏆", "Mur", ProfileBar.GREEN) { wall() },
         "widget" to ProfileBar.Spec("✦", "Widget", ProfileBar.WHITE) { pages[pager.currentItem]?.let { HomeRuntime.openPanel(it) } },
     ).also { table -> if (urls.size > 1) table["rang"] = ProfileBar.Spec("🏅", "Rang", ProfileBar.GOLD) { ranking() } }
 
-    private fun defaultKeys() = listOfNotNull("favoris", "swipe", if (stack.isNotEmpty()) "precedent" else null, "give", "match", "widget", if (urls.size > 1) "rang" else null)
+    private fun defaultKeys() = listOfNotNull("favoris", "swipe", "give", "match", "widget", if (urls.size > 1) "rang" else null)
 
     private fun applyBar(entries: List<com.aiwa.client.BarEntry>?) {
         val (specs, ids) = BarConfig.resolve(this, entries, builtinKeys(), defaultKeys())
@@ -157,7 +167,6 @@ class ProfileActivity : ComponentActivity() {
             if (urls.getOrNull(pager.currentItem) != repo) return@launch      // she moved on while it was read
             stack.add(Level(urls, pubs, pager.currentItem))
             setDeck(list, MutableList(list.size) { "" }, 0)
-            place.text = "À la place de ${repo.substringBefore('/')} · Précédent revient"
             updateChrome()
         }
     }
@@ -183,7 +192,6 @@ class ProfileActivity : ComponentActivity() {
 
     /** What changes with the level: where the person stands, and the keys (Précédent only when there is a level behind). */
     private fun updateChrome() {
-        place.visibility = if (stack.isNotEmpty()) android.view.View.VISIBLE else android.view.View.GONE
         applyBar(BarConfig.last)
     }
 
