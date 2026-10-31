@@ -129,7 +129,7 @@ object WidgetArt {
             cell(canvas, poly, tone, true, 6f * unit, unit, raised = isOpen, seam = !isOpen)
             val cx = (x0 + x1) / 2f + skew / 2f - (if (last) skew else 0f)
             content(context, canvas, RectF(cx - (x1 - x0) / 2f, top, cx + (x1 - x0) / 2f, tabH), tab.icon, "", true, unit, if (isOpen) 255 else 215)
-            if (tab.dot) { val dr = 3.2f * unit; canvas.drawCircle(cx + 12f * unit, top + (tabH - top) / 2f - 9f * unit, dr, paint().apply { color = 0xCC52D6A0.toInt() }) }
+            if (tab.dot) { val dr = 3.2f * unit; canvas.drawCircle(cx + 12f * unit, top + (tabH - top) / 2f - 9f * unit, dr, paint().apply { color = 0xDDE8C14A.toInt() }) }
         }
         // the body: rows of cells that touch; the seams are slanted
         // the first row of the body (the middle of the widget) is the thickest; the tabs and the last row are thinner
