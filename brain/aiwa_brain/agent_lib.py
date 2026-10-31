@@ -45,7 +45,7 @@ OPEN_SPOKEN = {
     "question": "la question", "claude": "la conversation Claude", "add": "l'ajout d'un fichier", "listen": "l'écoute permanente (bascule)", "wallet": "le wallet", "report": "le rapport",
     "build": "le widget", "home": "Aiwa (le Swipe)", "github": "la connexion GitHub", "health": "l'état d'Aiwa", "claude_login": "la connexion Claude", "wall": "le mur", "keys": "les clés", "style": "le style",
 }
-OPEN_LIST = "documents, images, videos, apps, pages, fichiers, scenario, cast, voir, visible, cache, zone, lien, qr, favoris, chambre, reglages, mise a jour, question, claude, ajouter, ecoute, wallet, rapport, accueil, aiwa (ou swipe : ouvre le Swipe), aiwa, swipe, github, etat, connexion claude, mur, cles, style"
+OPEN_LIST = "documents, images, videos, apps, pages, fichiers, scenario, cast, voir, visible, cache, zone, lien, qr, favoris, chambre, reglages, mise a jour, question, claude, ajouter, ecoute, wallet, rapport, accueil, aiwa, swipe, aiwa, swipe, github, etat, connexion claude, mur, cles, style"
 
 REPORT_REQUEST = (
     "Fais-moi le rapport de toute mon activité depuis le dernier message que je t'ai envoyé : les sessions, les dépôts, les productions nouvelles, les workflows (pour chaque échec, l'étape en cause "
