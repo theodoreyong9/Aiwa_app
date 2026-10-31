@@ -118,7 +118,6 @@ class VoiceService : Service() {
     private var liveWatch: Job? = null
     private var bargeIn: BargeIn? = null
     private var preConfirmed = false
-    private var directMode = false       // opened by « mon agent »: what is dictated is sent at once; « mon super agent » and the button of the widget open the conversation
     private val convo = ArrayDeque<Pair<Boolean, String>>()
     private var openWhenReady = false
 
@@ -201,7 +200,6 @@ class VoiceService : Service() {
         detector = null
         when (kind) {
             WakeKind.CALL -> openAgent()
-            WakeKind.DIRECT -> { directMode = true; openAgent() }
             WakeKind.STOP -> { stopEverything(); listen() }
             WakeKind.OFF -> switchOff()
         }
@@ -248,7 +246,6 @@ class VoiceService : Service() {
     fun closeAgent() {
         if (!agentMode) return
         agentMode = false
-        directMode = false
         listener?.stop(); listener = null
         scenarioPoll?.cancel(); scenarioPoll = null; scenario = null
         liveWatch?.cancel(); liveWatch = null
@@ -340,11 +337,10 @@ class VoiceService : Service() {
     }
 
     /**
-     * What the agent proposes for a session goes at once when the person woke « mon agent », and also when there is no Anthropic key: without it every turn of the super agent goes through the phone's own
+     * The mode follows the key, there is only one way to wake the agent: with an Anthropic key the agent discusses (read-back, then the person's word); without one, what the agent proposes for a session goes at once: without it every turn of the super agent goes through the phone's own
      * Claude program, which starts cold (10 to 30 seconds), and a conversation with a read-back is then painful. The person is told once.
      */
     private fun sendsAtOnce(): Boolean {
-        if (directMode) return true
         if (Aiwa.state.value.status?.llm?.state == "ready") return false
         val prefs = getSharedPreferences("aiwa_hints", MODE_PRIVATE)
         if (!prefs.getBoolean("direct_without_key", false)) {
