@@ -137,6 +137,7 @@ def stock_publish(clip_id):
                 github.release_upload(repo, STOCK_TAG, "Stock", "", card, f"{clip_id}.json")
             _remember_published(clip_id)
             stock_saved[clip_id] = {"state": "saved", "error": ""}
+            path.unlink(missing_ok=True)        # the release has it: nothing stays on the phone but the card
         except (github.GithubError, OSError) as err:
             stock_saved[clip_id] = {"state": "failed", "error": str(err)}
     threading.Thread(target=run, daemon=True).start()
@@ -193,7 +194,9 @@ def reconcile():
     done = set(published())
     for clip in stock.clips():
         clip_id = clip.get("id", "")
-        if clip_id and clip_id not in done and stock_saved.get(clip_id, {}).get("state") != "pending":
+        if clip_id in done:
+            (stock.home / "clips" / f"{clip_id}.mp4").unlink(missing_ok=True)       # already in the release (an older copy)
+        elif clip_id and stock_saved.get(clip_id, {}).get("state") != "pending":
             _after(clip_id)
 
 

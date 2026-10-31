@@ -112,3 +112,18 @@ class RestartTests(unittest.TestCase):
                 self.assertIn("interrompu", studio.shots_line())
                 studio.reconcile()
                 self.assertEqual(sent, ["hf-a"])
+
+
+class CleanupTests(unittest.TestCase):
+    def test_a_clip_already_in_the_release_leaves_the_phone(self):
+        from unittest import mock
+        from aiwa_brain import studio
+        with tempfile.TemporaryDirectory() as tmp:
+            bank = stock_lib.Stock(home=Path(tmp), transport=lambda *a: (200, {}))
+            (Path(tmp) / "clips").mkdir()
+            video = Path(tmp) / "clips" / "hf-b.mp4"
+            video.write_bytes(b"x")
+            (Path(tmp) / "clips" / "hf-b.json").write_text('{"id": "hf-b", "file": "hf-b.mp4"}')
+            with mock.patch.object(studio, "stock", bank), mock.patch.object(studio, "published", lambda: ["hf-b"]):
+                studio.reconcile()
+            self.assertFalse(video.exists())
