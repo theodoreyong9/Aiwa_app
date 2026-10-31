@@ -54,6 +54,8 @@ def point(report=False):
     try:
         from . import studio
         extra.append(studio.sources()["line"])
+        if studio.shots_line():
+            extra.append(studio.shots_line())
     except Exception:
         pass
     if report:

@@ -40,8 +40,9 @@ def find_video(result):
 
 
 class Hf:
-    def __init__(self, stock, runner=None):
+    def __init__(self, stock, runner=None, on_clip=None):
         self.stock = stock
+        self.on_clip = on_clip
         self.runner = runner or self._predict
         self.jobs = {}
         self.lock = threading.Lock()
@@ -121,6 +122,8 @@ class Hf:
                     "licence": "Généré par IA (Hugging Face, " + cfg["space"] + ") : à présenter comme tel", "file": f"{clip_id}.mp4"}
             (folder / f"{clip_id}.json").write_text(json.dumps(card, ensure_ascii=False), encoding="utf-8")
             job.update(state="done", clip=clip_id)
+            if self.on_clip:
+                self.on_clip(clip_id)
         except Exception as err:
             text = str(err)
             quota = any(w in text.lower() for w in QUOTA_WORDS)
