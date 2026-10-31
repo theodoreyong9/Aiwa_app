@@ -32,7 +32,7 @@ class StockTests(unittest.TestCase):
             self.stock.search("homme canapé", "pexels")
         self.assertFalse(self.stock.save_key("pexels", "x!")["ok"])
         self.assertTrue(self.stock.save_key("pexels", "abcdefghij0123456789")["ok"])
-        self.assertEqual(self.stock.status(), {"pexels": True, "pixabay": False})
+        self.assertEqual(self.stock.status(), {"pexels": True, "pixabay": False, "hf": False})
         self.assertNotIn("abcdefghij", json.dumps(self.stock.status()))
         self.assertEqual((self.stock._key_file("pexels").stat().st_mode & 0o777), 0o600)
 
