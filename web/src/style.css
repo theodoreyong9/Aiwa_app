@@ -1,7 +1,9 @@
 :root { color-scheme: dark; --bg:#10132e; --card:#ffffff10; --edge:#ffffff26; --text:#f4f4ff; --muted:#a9b0d8; --accent:#7b8cff; --ok:#35f08a; --bad:#ff7a7a; }
 * { box-sizing: border-box; }
 html, body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.45 system-ui, sans-serif; }
-main { max-width: 640px; margin: 0 auto; padding: 16px 16px calc(24px + env(safe-area-inset-bottom)); display: grid; gap: 14px; }
+main { max-width: 640px; margin: 0 auto; padding: 16px 16px calc(24px + env(safe-area-inset-bottom)); display: grid; grid-template-columns: minmax(0, 1fr); gap: 14px; }
+main > *, .card > * { min-width: 0; }
+.card, code, pre, .phrase { overflow-wrap: anywhere; }
 h2, h3 { margin: 0 0 8px; }
 h2 { font-size: 1.15rem; } h3 { font-size: 1rem; }
 .card { background: var(--card); border: 1px solid var(--edge); border-radius: 18px; padding: 16px; }
@@ -35,11 +37,12 @@ video { width: 100%; border-radius: 12px; }
 
 /* the sections of the wallet: wallet, publish, contracts, search */
 .tabs { display: flex; gap: 6px; margin: 0 0 12px; }
-.tabs button { flex: 1; padding: 9px 4px; font-size: .85rem; }
+.tabs button { flex: 1; min-width: 0; padding: 9px 4px; font-size: .85rem; }
 .tabs button[aria-selected="true"] { background: var(--accent); border-color: transparent; color: #0b0d22; }
 #wallet { display: flex; flex-direction: column; gap: 14px; }
 #wallet[hidden], #wallet > div[hidden] { display: none; }
 #wallet > div[id^="tab-"] { display: flex; flex-direction: column; gap: 14px; }
+#wallet > div[id^="tab-"][hidden] { display: none; }       /* the tabs not chosen stay hidden (the rule above had the same weight as the one that hides them, and came later) */
 h3 { margin: 14px 0 4px; font-size: 1rem; }
 pre.code { overflow: auto; background: #00000050; border: 1px solid var(--edge); border-radius: 10px; padding: 10px; font-size: .74rem; line-height: 1.4; white-space: pre; margin: 6px 0; }
 textarea.mono { font-family: ui-monospace, monospace; font-size: .8rem; }
