@@ -28,7 +28,7 @@ def status():
         "self_update": dict(state.self_update_last), "alert_last": last_ping, "silence_minutes": relay.silence_minutes(), "cast": cast.ready(),
         "github_error": problem, "repo_access_missing": missing_access, "github_app_url": config.GITHUB_APP_URL, "github_token": github.token_value() is not None, "github_user": github.connected_user(), "session_error": state.session_error, "github_rate": github.rate(),
         "claude_login": claude_cli.login_state(), "relay_cloud": relay.cloud_state(), "ask": asks.snapshot(), "agent": agent.snapshot(), "diagram": diagram.snapshot(),
-        "chamber": room, "llm": {"state": state.llm.state, **state.llm.usage()}, "voice": state.voice.state, "profile": profile.profile_state().get("repo"),
+        "chamber": room, "llm": {"state": state.llm.state, **state.llm.usage()}, "voice": state.voice.state, "voice_error": (state.voice.error or "")[:300] if state.voice.state == "error" else None, "profile": profile.profile_state().get("repo"),
     }
 
 
@@ -401,6 +401,7 @@ class Handler(BaseHTTPRequestHandler):
         elif path == "/api/live_stream":
             self._stream(lambda emit: live.live_stream(data.get("text"), emit))
         elif path == "/api/voice/say":
+            state.voice.retry_if_failed()
             wav = state.voice.say(str(data.get("text", "")))
             if wav is None:
                 self.reply_json({"ok": False, "state": state.voice.state, "error": state.voice.error})

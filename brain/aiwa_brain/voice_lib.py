@@ -6,6 +6,7 @@ import subprocess
 import sys
 import tarfile
 import threading
+import time
 import urllib.request
 import wave
 
@@ -59,6 +60,8 @@ class Voice:
         self.error = None
         self._tts = None
         self._lock = threading.Lock()
+        self._fails = 0            # sentences that failed in a row: one failure does not take the voice away
+        self.attempt_at = 0.0      # when an installation was last started
 
     @staticmethod
     def _library():
@@ -74,7 +77,14 @@ class Voice:
             if self.state in ("installing", "ready"):
                 return
             self.state, self.error = "installing", None
+            self.attempt_at = time.time()
         threading.Thread(target=self._install, daemon=True).start()
+
+    def retry_if_failed(self, wait=600):
+        """A voice in error is installed again, at most every `wait` seconds (a network that was down, a download cut short): nobody has to find the button."""
+        if self.state == "error" and time.time() - self.attempt_at > wait:
+            self._tts = None
+            self.install()
 
     def _install(self):
         try:
@@ -93,6 +103,7 @@ class Voice:
                 os.remove(archive)
             if not (model_present(self.home) and self._library()):
                 raise RuntimeError("installation incomplète")
+            self._fails = 0
             self.state = "ready"
         except Exception as err:
             self.state, self.error = "error", str(err)[-400:]
@@ -112,7 +123,13 @@ class Voice:
                         model=os.path.join(d, "fr_FR-siwis-medium.onnx"), tokens=os.path.join(d, "tokens.txt"), data_dir=os.path.join(d, "espeak-ng-data")), num_threads=2), max_num_sentences=1)
                     self._tts = so.OfflineTts(cfg)
                 audio = self._tts.generate(text, sid=0, speed=1.0)
+            self._fails = 0
             return to_wav(audio.samples, audio.sample_rate)
         except Exception as err:
-            self.state, self.error = "error", str(err)
+            # one sentence that fails (a text the voice cannot read, a memory shortage) does not stop the voice: it is made again from scratch at the next one; after three in a row it is in error
+            self._tts = None
+            self._fails += 1
+            self.error = str(err)[-400:]
+            if self._fails >= 3:
+                self.state = "error"
             return None
