@@ -156,8 +156,6 @@ class Brain(private val net: Transport = HttpTransport()) {
     fun publishProfileContracts(events: JSONArray): Outcome = act("/api/profile/contracts", JSONObject().put("events", events), 60_000)
     fun publishProfilePub(pub: String): Outcome = act("/api/profile/pub", JSONObject().put("pub", pub))
     /** Leaves the list of the profiles crossed this week in the person's own profile repository (the brain writes it at most once an hour). */
-    /** Asks the brain to install the natural voice again (it also does it by itself, every ten minutes, while it is in error). */
-    fun voiceSetup(): Outcome = act("/api/voice/setup")
     fun publishProfileSeen(repos: List<String>): Outcome = act("/api/profile/seen", JSONObject().put("repos", JSONArray(repos)), 60_000)
     /** The profiles a person crossed this week, from her own profile repository (empty when she left none). */
     fun profileSeen(repo: String): List<String> {
