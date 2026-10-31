@@ -67,6 +67,41 @@ abstract class FloatActivity : ComponentActivity() {
         return row
     }
 
+    /** A section title: small, spaced, with a thin line after it. */
+    protected fun section(text: String) {
+        val row = LinearLayout(this).apply { orientation = LinearLayout.HORIZONTAL; gravity = Gravity.CENTER_VERTICAL }
+        row.addView(TextView(this).apply { this.text = text.uppercase(); setTextColor(Palette.GOLD); textSize = 12f; letterSpacing = 0.12f; setTypeface(null, Typeface.BOLD) })
+        row.addView(View(this).apply { setBackgroundColor(Color.parseColor("#33FFFFFF")) }, LinearLayout.LayoutParams(0, dp(1), 1f).apply { leftMargin = dp(10) })
+        card.addView(row, LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT).apply { topMargin = dp(18) })
+    }
+
+    /** A styled line: a round badge with the icon in the colour of the row, the title and what it does, and at the right either what state it is in (a pill) or an arrow. */
+    protected fun entryIcon(icon: Int, label: String, detail: String? = null, accent: Int = Palette.DIM, state: String? = null, stateColor: Int = Palette.DIM, onClick: () -> Unit): View {
+        val row = LinearLayout(this).apply {
+            orientation = LinearLayout.HORIZONTAL
+            gravity = Gravity.CENTER_VERTICAL
+            background = GradientDrawable().apply { setColor(Palette.CARD); cornerRadius = dp(16).toFloat(); setStroke(dp(1), Color.parseColor("#22FFFFFF")) }
+            setPadding(dp(12), dp(10), dp(12), dp(10))
+            setOnClickListener { onClick() }
+        }
+        val badge = FrameLayout(this).apply {
+            background = GradientDrawable().apply { shape = GradientDrawable.OVAL; setColor(Color.argb(46, Color.red(accent), Color.green(accent), Color.blue(accent))); setStroke(dp(1), Color.argb(90, Color.red(accent), Color.green(accent), Color.blue(accent))) }
+        }
+        badge.addView(android.widget.ImageView(this).apply { setImageResource(icon); setColorFilter(accent) }, FrameLayout.LayoutParams(dp(22), dp(22), Gravity.CENTER))
+        row.addView(badge, LinearLayout.LayoutParams(dp(42), dp(42)))
+        val texts = LinearLayout(this).apply { orientation = LinearLayout.VERTICAL }
+        texts.addView(TextView(this).apply { text = label; setTextColor(Palette.TEXT); textSize = 16f; setTypeface(null, Typeface.BOLD) })
+        if (detail != null) texts.addView(TextView(this).apply { text = detail; setTextColor(Palette.DIM); textSize = 12.5f; setLineSpacing(2f, 1f) })
+        row.addView(texts, LinearLayout.LayoutParams(0, ViewGroup.LayoutParams.WRAP_CONTENT, 1f).apply { leftMargin = dp(12); rightMargin = dp(8) })
+        if (state != null) row.addView(TextView(this).apply {
+            text = state; setTextColor(stateColor); textSize = 12f; setTypeface(null, Typeface.BOLD); setPadding(dp(10), dp(4), dp(10), dp(4))
+            background = GradientDrawable().apply { cornerRadius = dp(12).toFloat(); setColor(Color.argb(40, Color.red(stateColor), Color.green(stateColor), Color.blue(stateColor))) }
+        })
+        else row.addView(TextView(this).apply { text = "›"; setTextColor(Palette.DIM); textSize = 22f })
+        card.addView(row, LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT).apply { topMargin = dp(8) })
+        return row
+    }
+
     /** Anything else to put in the card (a field, a row of buttons). */
     protected fun add(view: View, topMargin: Int = 8) { card.addView(view, LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT).apply { this.topMargin = dp(topMargin) }) }
 }
