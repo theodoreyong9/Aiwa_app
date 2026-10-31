@@ -22,6 +22,7 @@ import com.aiwa.app.widget.AiwaWidget
 /** « Réglages »: the whole list, one line each. A line with a switch shows its state and flips on a touch; the others open their own window. */
 class SettingsActivity : FloatActivity() {
     override val title = "Réglages"
+    override val compactRows = true      // an icon and a name, no explanation
 
     override fun onResume() {
         super.onResume()

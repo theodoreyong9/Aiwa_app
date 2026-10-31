@@ -24,6 +24,9 @@ abstract class FloatActivity : ComponentActivity() {
 
     private lateinit var card: LinearLayout
 
+    /** True for a window whose lines are an icon and a name only (the settings): the explanations of `entryIcon` are not shown. */
+    protected open val compactRows: Boolean = false
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         window.setBackgroundDrawable(ColorDrawable(Color.parseColor("#AA000000")))
@@ -91,7 +94,7 @@ abstract class FloatActivity : ComponentActivity() {
         row.addView(badge, LinearLayout.LayoutParams(dp(42), dp(42)))
         val texts = LinearLayout(this).apply { orientation = LinearLayout.VERTICAL }
         texts.addView(TextView(this).apply { text = label; setTextColor(Palette.TEXT); textSize = 16f; setTypeface(null, Typeface.BOLD) })
-        if (detail != null) texts.addView(TextView(this).apply { text = detail; setTextColor(Palette.DIM); textSize = 12.5f; setLineSpacing(2f, 1f) })
+        if (detail != null && !compactRows) texts.addView(TextView(this).apply { text = detail; setTextColor(Palette.DIM); textSize = 12.5f; setLineSpacing(2f, 1f) })
         row.addView(texts, LinearLayout.LayoutParams(0, ViewGroup.LayoutParams.WRAP_CONTENT, 1f).apply { leftMargin = dp(12); rightMargin = dp(8) })
         if (state != null) row.addView(TextView(this).apply {
             text = state; setTextColor(stateColor); textSize = 12f; setTypeface(null, Typeface.BOLD); setPadding(dp(10), dp(4), dp(10), dp(4))
