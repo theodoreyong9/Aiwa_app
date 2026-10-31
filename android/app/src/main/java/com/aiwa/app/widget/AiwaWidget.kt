@@ -30,8 +30,8 @@ import com.aiwa.app.web.WebActivity
  * A tap on a tab only turns the two ViewFlippers (a partial update): nothing is read, nothing is drawn again, so it is instant. The pictures are drawn again whenever the state changes.
  *
  * The tab strip, from the left: Réglages (opens the settings), Agent, Files, Game, then Mise à jour (only when an update exists).
- * Pages: Agent (a Chambre en cours cell at the left of the Super agent while a room is open, Claude; below: Écoute, Ajouter, Scénario, Cast TV) · Files (the repository or all, with a button to see it and one to change its session, then docs, images,
- * vidéos, apps, pages) · Game (Wallet; Zone, Lien, QR code, Favoris). The top bar, at the right of the tabs: Mise à jour (only when an update exists), Réglages.
+ * Pages: Agent (Super agent, Claude; below: Écoute, Ajouter, Scénario, Cast TV) · Files (the repository or all, with a button to see it and one to change its session, then docs, images,
+ * vidéos, apps, pages) · Game (Wallet, a Chambre en cours cell between Wallet and Swipe while a room is open; Lien, QR code, Favoris). The top bar, at the right of the tabs: Mise à jour (only when an update exists), Réglages.
  * Question (the report is in it) is the last cell of the Agent page.
  * The Chambre has no page here: it lives in the application.
  */
@@ -128,11 +128,9 @@ object AiwaWidget {
         val hasSession = snap.sessionId != null || status?.lastSession != null
         val roomOpen = snap.chamberMode != "closed" || status?.chamber?.active == true
         val firstRow = buildList {
-            // the room in progress, at the left of the Super agent: only while there is one (its touch zone is gone otherwise, the rest keeps its shares)
-            if (roomOpen) add(Cell(WidgetArt.Btn(R.drawable.fw_i_room, "Chambre en cours", "violet", true, true), 1f, activity(context, 15, com.aiwa.app.chamber.ChamberActivity::class.java), zone = 0))
-            add(Cell(btn(R.drawable.fw_i_robot, "agent"), 3f, activity(context, 10, robotTarget), zone = 1))
-            add(Cell(btn(R.drawable.fw_i_claude, "claude", iconOnly = true), 1f, activity(context, 11, OpenClaudeActivity::class.java), zone = 2))
-            add(Cell(btn(R.drawable.fw_i_question, "question", iconOnly = true), 1f, activity(context, 7, AskActivity::class.java), zone = 3))
+            add(Cell(btn(R.drawable.fw_i_robot, "agent"), 3f, activity(context, 10, robotTarget), zone = 0))
+            add(Cell(btn(R.drawable.fw_i_claude, "claude", iconOnly = true), 1f, activity(context, 11, OpenClaudeActivity::class.java), zone = 1))
+            add(Cell(btn(R.drawable.fw_i_question, "question", iconOnly = true), 1f, activity(context, 7, AskActivity::class.java), zone = 2))
         }
         val agentPage = listOf(
             firstRow,
@@ -161,10 +159,12 @@ object AiwaWidget {
         // ---- Voir ----
         fun voir(code: Int, mode: String) = activity(context, code, Intent(context, WebActivity::class.java).putExtra(WebActivity.EXTRA_PAGE, "voir").putExtra(WebActivity.EXTRA_MODE, mode))
         val voirPage = listOf(
-            listOf(
-                Cell(btn(R.drawable.fw_i_wallet, "wallet"), 1f, activity(context, 44, Intent(context, WebActivity::class.java).putExtra(WebActivity.EXTRA_PAGE, "wallet"))),
-                Cell(btn(R.drawable.fw_i_pin, "nearby"), 1f, activity(context, 40, com.aiwa.app.home.HomeActivity::class.java)),
-            ),
+            buildList {
+                add(Cell(btn(R.drawable.fw_i_wallet, "wallet"), 1f, activity(context, 44, Intent(context, WebActivity::class.java).putExtra(WebActivity.EXTRA_PAGE, "wallet")), zone = 0))
+                // the room in progress, between the Wallet and the Swipe: only while there is one (its touch zone is gone otherwise, the two others share the row)
+                if (roomOpen) add(Cell(WidgetArt.Btn(R.drawable.fw_i_room, "Chambre en cours", "violet", true, true), 1f, activity(context, 15, com.aiwa.app.chamber.ChamberActivity::class.java), zone = 1))
+                add(Cell(btn(R.drawable.fw_i_pin, "nearby"), 1f, activity(context, 40, com.aiwa.app.home.HomeActivity::class.java), zone = 2))
+            },
             listOf(
                 Cell(btn(R.drawable.fw_i_link, "link", iconOnly = true), 1f, voir(41, "lien")),
                 Cell(btn(R.drawable.fw_i_qr, "qr", iconOnly = true), 1f, voir(42, "qr")),
@@ -180,7 +180,7 @@ object AiwaWidget {
                 row.forEachIndexed { c, cell -> id(context, "z_${LETTER[p]}_${r}_${cell.zone ?: c}").let { zid -> v.setViewVisibility(zid, View.VISIBLE); cell.click?.let { v.setOnClickPendingIntent(zid, it) } } }
             }
         }
-        if (!roomOpen) v.setViewVisibility(id(context, "z_a_0_0"), View.GONE)
+        if (!roomOpen) v.setViewVisibility(id(context, "z_v_0_1"), View.GONE)
         val page = WidgetTab.PAGES.indexOf(tab).coerceAtLeast(0)
         v.setDisplayedChild(R.id.fw_img_flip, page)
         v.setDisplayedChild(R.id.fw_zone_flip, page)
