@@ -92,3 +92,23 @@ class AutoSaveTests(unittest.TestCase):
                 time.sleep(0.1)
                 self.assertEqual(sent, ["hf-" + shot["id"]])
                 self.assertIn("prêt dans le dépôt", studio.shots_line())
+
+
+class RestartTests(unittest.TestCase):
+    def test_after_a_restart_a_running_shot_is_said_interrupted_and_the_unsent_clip_is_sent(self):
+        from unittest import mock
+        from aiwa_brain import studio
+        with tempfile.TemporaryDirectory() as tmp:
+            bank = stock_lib.Stock(home=Path(tmp), transport=lambda *a: (200, {}))
+            (Path(tmp) / "clips").mkdir()
+            (Path(tmp) / "clips" / "hf-a.mp4").write_bytes(b"x")
+            (Path(tmp) / "clips" / "hf-a.json").write_text('{"id": "hf-a", "file": "hf-a.mp4"}')
+            sent = []
+            file = Path(tmp) / "shots.json"
+            file.write_text('{"r1": {"source": "hf", "state": "running", "error": "", "prompt": "un chat", "ts": %d}}' % int(time.time()))
+            with mock.patch.object(studio, "stock", bank), mock.patch.object(studio, "SHOTS_FILE", file), mock.patch.object(studio, "shots", {}), \
+                    mock.patch.object(studio, "published", lambda: []), mock.patch.object(studio, "_after", sent.append):
+                studio.load_shots()
+                self.assertIn("interrompu", studio.shots_line())
+                studio.reconcile()
+                self.assertEqual(sent, ["hf-a"])

@@ -443,5 +443,7 @@ def serve():
         threading.Thread(target=scenarios.watch_loop, daemon=True).start()
         threading.Thread(target=relay.listen, daemon=True).start()
         threading.Thread(target=update.update_loop, daemon=True).start()
+        studio.load_shots()
+        threading.Thread(target=studio.reconcile_loop, daemon=True).start()
     print(f"{time.strftime('%H:%M:%S')} Aiwa brain listening on http://{config.HOST}:{config.PORT}", flush=True)
     ThreadingHTTPServer((config.HOST, config.PORT), Handler).serve_forever()
