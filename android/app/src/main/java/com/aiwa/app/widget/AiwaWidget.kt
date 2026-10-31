@@ -119,10 +119,10 @@ object AiwaWidget {
         val needsSetup = !hasTermuxPermission(context)
         val robotTarget: Class<*> = when {
             snap.link == Link.MISSING -> com.aiwa.app.brain.InstallHelpActivity::class.java
+            status?.agent?.let { it.say != null || it.proposal != null || (it.command != null && !it.command!!.auto) } == true -> com.aiwa.app.agent.ProposalActivity::class.java      // what waits for her word first: it is the only way to clear a red tab
             needsSetup -> com.aiwa.app.brain.SetupActivity::class.java
             status?.claudeLogin == "needed" -> com.aiwa.app.settings.ClaudeLoginActivity::class.java
             status != null && !status.githubToken -> com.aiwa.app.settings.GithubConnectActivity::class.java
-            status?.agent?.let { it.say != null || it.proposal != null || (it.command != null && !it.command!!.auto) } == true -> com.aiwa.app.agent.ProposalActivity::class.java      // something waits for her word: written in full, answered with a finger
             else -> AgentToggleActivity::class.java
         }
         val hasSession = snap.sessionId != null || status?.lastSession != null
