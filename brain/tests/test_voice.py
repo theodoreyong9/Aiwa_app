@@ -33,13 +33,13 @@ class PipInstallTests(unittest.TestCase):
             if "--break-system-packages" in cmd:
                 return subprocess.CompletedProcess(cmd, 0, "", "")
             return subprocess.CompletedProcess(cmd, 1, "", "error: externally-managed-environment")
-        with unittest.mock.patch.object(v.subprocess, "run", fake):
+        with unittest.mock.patch.object(v, "_pip_available", return_value=True), unittest.mock.patch.object(v.subprocess, "run", fake):
             v.pip_install("sherpa-onnx")
         self.assertEqual(len(calls), 2)
 
     def test_failure_carries_pips_own_words(self):
         import subprocess
-        with unittest.mock.patch.object(v.subprocess, "run", lambda cmd, **kw: subprocess.CompletedProcess(cmd, 1, "", "ERROR: no matching distribution")):
+        with unittest.mock.patch.object(v, "_pip_available", return_value=True), unittest.mock.patch.object(v.subprocess, "run", lambda cmd, **kw: subprocess.CompletedProcess(cmd, 1, "", "ERROR: no matching distribution")):
             with self.assertRaises(RuntimeError) as ctx:
                 v.pip_install("sherpa-onnx")
         self.assertIn("no matching distribution", str(ctx.exception))
@@ -75,3 +75,34 @@ class SelfHealingTests(unittest.TestCase):
             with unittest.mock.patch.object(v.time, "time", return_value=1700.0), unittest.mock.patch.object(voice, "install") as install:
                 voice.retry_if_failed(wait=600)
                 install.assert_called_once()
+
+
+class EnsurePipTests(unittest.TestCase):
+    def test_pip_is_installed_from_the_debian_package_when_the_python_has_none(self):
+        import subprocess
+        calls = []
+        have = {"pip": False}
+
+        def fake(cmd, **kw):
+            calls.append(cmd)
+            if cmd[:2] == ["apt-get", "install"]:
+                have["pip"] = True
+                return subprocess.CompletedProcess(cmd, 0, "", "")
+            if "pip" in cmd and "--version" in cmd:
+                return subprocess.CompletedProcess(cmd, 0 if have["pip"] else 1, "", "No module named pip")
+            if "ensurepip" in cmd:
+                return subprocess.CompletedProcess(cmd, 1, "", "ensurepip is disabled in Debian/Ubuntu")
+            return subprocess.CompletedProcess(cmd, 0, "", "")
+        with unittest.mock.patch.object(v.subprocess, "run", fake):
+            v.ensure_pip()
+        self.assertTrue(any(c[:2] == ["apt-get", "install"] for c in calls))
+        self.assertTrue(have["pip"])
+
+    def test_it_says_so_when_nothing_gives_a_pip(self):
+        import subprocess
+        def fake(cmd, **kw):
+            return subprocess.CompletedProcess(cmd, 1, "", "nope")
+        with unittest.mock.patch.object(v.subprocess, "run", fake), unittest.mock.patch.object(v.urllib.request, "urlretrieve", side_effect=OSError("hors ligne")):
+            with self.assertRaises(RuntimeError) as ctx:
+                v.ensure_pip()
+        self.assertIn("pip est absent", str(ctx.exception))

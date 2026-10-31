@@ -71,7 +71,7 @@ proot-distro login "$DISTRO" --bind "$REPO_DIR:/aiwa_app" -- \
   bash -c '
 set -euo pipefail
 apt-get update -y
-apt-get install -y curl python3 git
+apt-get install -y curl python3 python3-pip git
 
 node_is_real_linux() {
   command -v node >/dev/null 2>&1 && [ "$(node -p process.platform 2>/dev/null)" = "linux" ]
