@@ -153,7 +153,57 @@ def sources():
 
 
 CREATIVE = re.compile(r"imagin|fantas|dessin|anim[ée]|futur|magi|rêve|reve|surréal|surreal|dragon|robot|cartoon", re.I)
-shots = {}                                          # what `shoot` started: id -> {"source", "state", "error"}
+SHOTS_FILE = DATA / "stock" / "shots.json"
+shots = {}                                          # what `shoot` started: id -> {"source", "state", "error", "prompt", "ts", "clip"}
+
+
+def _save_shots():
+    try:
+        SHOTS_FILE.write_text(json.dumps(shots), encoding="utf-8")
+    except OSError:
+        pass
+
+
+def load_shots():
+    """After a restart (the brain updates itself): what was running cannot go on, it is said so; the rest is read back."""
+    try:
+        data = json.loads(SHOTS_FILE.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return
+    if isinstance(data, dict):
+        for shot_id, shot in data.items():
+            if isinstance(shot, dict):
+                if shot.get("state") == "running":
+                    shot.update(state="failed", error="interrompu par une mise à jour du cerveau : à relancer")
+                shots[shot_id] = shot
+        _save_shots()
+
+
+def _sync_shots():
+    """Brings the state of the generated shots (kept by hf_lib) into `shots`, and saves."""
+    for shot_id, shot in shots.items():
+        job = hf.jobs.get(shot_id) if shot.get("source") == "hf" else None
+        if job:
+            shot.update(state=job["state"], error=job.get("error", ""), clip=job.get("clip", ""))
+    _save_shots()
+
+
+def reconcile():
+    """The truth is read where it is, not remembered: a clip on the phone that is not in the release yet is sent (the repository in use and GitHub permitting). Called regularly by the brain."""
+    done = set(published())
+    for clip in stock.clips():
+        clip_id = clip.get("id", "")
+        if clip_id and clip_id not in done and stock_saved.get(clip_id, {}).get("state") != "pending":
+            _after(clip_id)
+
+
+def reconcile_loop(every=300):
+    while True:
+        time.sleep(every)
+        try:
+            reconcile()
+        except Exception:
+            pass
 
 
 def choose(prompt, source="auto"):
@@ -172,20 +222,24 @@ def shoot(prompt, source="auto"):
         started = hf.start(prompt)
         if started.get("ok"):
             shots[started["id"]] = {"source": "hf", "state": "running", "error": "", "prompt": prompt[:60], "ts": int(time.time())}
+            _save_shots()
         return {**started, "source": "hf"}
     bank = "pexels" if stock.status().get("pexels") else "pixabay"
     shot_id = f"s{int(time.time() * 1000) % 10**8}"
     shots[shot_id] = {"source": "stock", "state": "running", "error": "", "prompt": prompt[:60], "ts": int(time.time())}
+    _save_shots()
 
     def run():
         try:
             found = stock.search(prompt, bank)
             done = stock.download(found[0]) if found else {"ok": False, "error": "aucun clip trouvé"}
             shots[shot_id].update(state="done" if done.get("ok") else "failed", error=done.get("error", ""), clip=done.get("id", ""))
+            _save_shots()
             if done.get("ok"):
                 _after(done["id"])
         except Exception as err:
             shots[shot_id].update(state="failed", error=str(err))
+            _save_shots()
     threading.Thread(target=run, daemon=True).start()
     return {"ok": True, "source": "stock", "id": shot_id}
 
@@ -193,18 +247,18 @@ def shoot(prompt, source="auto"):
 def shots_line(window=6 * 3600):
     """For the super agent, when she asks where things stand: the shots of the last hours (running, ready in the repository or only on the phone, failed with the reason). Empty when there are none."""
     parts = []
+    _sync_shots()
     for shot_id, shot in list(shots.items()):
         if time.time() - shot.get("ts", 0) > window:
             continue
-        job = hf.jobs.get(shot_id) if shot["source"] == "hf" else shot
-        job = job or shot
+        job = shot
         clip = job.get("clip") or ""
         if job.get("state") == "running":
             what = "en cours"
         elif job.get("state") == "failed":
             what = "échec : " + (job.get("error") or "inconnu")
         else:
-            saved = stock_saved.get(clip, {})
+            saved = {"state": "saved"} if clip in published() else stock_saved.get(clip, {})
             what = {"saved": "prêt dans le dépôt", "pending": "prêt, en cours d'envoi au dépôt", "failed": "prêt sur le téléphone, envoi au dépôt échoué : " + saved.get("error", "")}.get(saved.get("state"), "prêt sur le téléphone (pas de dépôt ou GitHub non connecté)")
         parts.append(f"« {shot.get('prompt', '')} » ({'généré' if shot['source'] == 'hf' else 'banque libre'}) {what}")
     return ("Plans pour les films : " + " ; ".join(parts) + ".") if parts else ""
