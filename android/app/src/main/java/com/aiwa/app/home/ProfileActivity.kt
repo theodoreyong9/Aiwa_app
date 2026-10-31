@@ -62,14 +62,19 @@ class ProfileActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         zoneDeck = intent.getBooleanExtra(EXTRA_ZONE, false)
-        urls = if (zoneDeck) SwipeData.observed(this, 7).filter { ProfileView.valid(it) }
-        else try { JSONArray(intent.getStringExtra(EXTRA_URLS) ?: "[]").let { a -> (0 until a.length()).map { a.getString(it) } } } catch (err: Exception) { emptyList() }.filter { ProfileView.valid(it) }.take(60)
+        val favoritesDeck = intent.getBooleanExtra(EXTRA_FAVORITES, false)
+        urls = when {
+            zoneDeck -> SwipeData.observed(this, 7).filter { ProfileView.valid(it) }
+            favoritesDeck -> FavoriteRepos.all(this).filter { ProfileView.valid(it) }
+            else -> try { JSONArray(intent.getStringExtra(EXTRA_URLS) ?: "[]").let { a -> (0 until a.length()).map { a.getString(it) } } } catch (err: Exception) { emptyList() }.filter { ProfileView.valid(it) }.take(60)
+        }
         if (urls.isEmpty()) {
-            if (zoneDeck) { toastOnMain(this, "Rien de vu autour de toi pour l'instant : Aiwa regarde, reviens dans un moment."); WebActivity.zone(this) }
+            if (zoneDeck) toastOnMain(this, "Aiwa regarde autour de toi : reviens dans un moment, la liste se remplit toute seule.")
+            else if (favoritesDeck) toastOnMain(this, "Aucun favori : touche ☆ Favoris sur un profil pour le garder.")
             finish(); return
         }
-        val start = if (zoneDeck) 0 else intent.getIntExtra(EXTRA_INDEX, 0).coerceIn(0, urls.size - 1)
-        pubs = if (zoneDeck) urls.map { "" }.toMutableList() else try { JSONArray(intent.getStringExtra(EXTRA_PUBS) ?: "[]").let { a -> urls.indices.map { a.optString(it) }.toMutableList() } } catch (err: Exception) { urls.map { "" }.toMutableList() }
+        val start = if (zoneDeck || favoritesDeck) 0 else intent.getIntExtra(EXTRA_INDEX, 0).coerceIn(0, urls.size - 1)
+        pubs = if (zoneDeck || favoritesDeck) urls.map { "" }.toMutableList() else try { JSONArray(intent.getStringExtra(EXTRA_PUBS) ?: "[]").let { a -> urls.indices.map { a.optString(it) }.toMutableList() } } catch (err: Exception) { urls.map { "" }.toMutableList() }
         val root = FrameLayout(this).apply { setBackgroundColor(Color.parseColor("#10132E")) }
         pager = ViewPager2(this).apply { offscreenPageLimit = 1; adapter = Pages() }
         root.addView(pager, FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT).apply { bottomMargin = ProfileBar.height(this@ProfileActivity) })
@@ -326,6 +331,8 @@ class ProfileActivity : ComponentActivity() {
         const val EXTRA_URLS = "urls"
         const val EXTRA_INDEX = "index"
         const val EXTRA_PUBS = "pubs"
+        const val EXTRA_FAVORITES = "favorites"     // the deck is the favourites
+        fun favoritesIntent(context: Context): Intent = Intent(context, ProfileActivity::class.java).putExtra(EXTRA_FAVORITES, true).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
         const val EXTRA_ZONE = "zone"       // level 0 = the zone of this phone (what it saw, the nearest first)
         fun zoneIntent(context: Context): Intent = Intent(context, ProfileActivity::class.java).putExtra(EXTRA_ZONE, true).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
         fun open(context: Context, repos: List<String>, index: Int = 0, pubs: List<String> = emptyList()) =
