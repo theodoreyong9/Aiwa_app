@@ -107,3 +107,11 @@ class PersonaCommandTests(unittest.TestCase):
         self.assertIn("vanneur", phrase)
         self.assertIn("course lancée", phrase)
         self.assertIsNone(agent_lib.parse_command({"persona": {"style": "inconnu"}}, set()))
+
+
+class OpenAiwaTests(unittest.TestCase):
+    def test_open_aiwa_or_the_application_or_swipe_opens_the_home(self):
+        from aiwa_brain import agent_lib
+        for word in ("aiwa", "l'application", "swipe", "accueil"):
+            self.assertEqual(agent_lib.parse_command({"open": word}, set())["open"], "home", word)
+        self.assertEqual(agent_lib.parse_command({"open": "apps"}, set())["open"], "files_app")

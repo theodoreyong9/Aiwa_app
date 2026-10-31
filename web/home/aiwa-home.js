@@ -23,7 +23,7 @@
   var TABS = [['settings', 'Réglages'], ['build', 'Agent'], ['files', 'Files'], ['voir', 'Game']];
   // the keys that open a window instead of a page of buttons: Question always, Mise à jour only while there is an update
   var ACTIONS = { settings: 1, question: 1, update: 1 };
-  function tabsNow() { var t = TABS.slice(); t.push(['question', 'Question']); if (STATE.update && STATE.update.on) t.push(['update', 'Mise à jour']); return t; }
+  function tabsNow() { var t = TABS.slice(); if (STATE.update && STATE.update.on) t.push(['update', 'Mise à jour']); return t; }
   CATALOG.forEach(function (g) { GROUPS[g[0]] = g[1].map(function (b) { return b[0]; }); g[1].forEach(function (b) { BY[b[0]] = { id: b[0], group: g[0], label: b[1], tone: b[2] }; }); });
   var STATE = {};
   var BASE = '.aiwa-btn{all:unset;box-sizing:border-box;display:inline-flex;align-items:center;gap:.55em;padding:.7em 1em;cursor:pointer;font:inherit;color:var(--aiwa-fg,#fff);' +

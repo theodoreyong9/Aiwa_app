@@ -158,7 +158,7 @@ class ProfileActivity : ComponentActivity() {
     /** The page on the screen is the person's own: the first of the home, while no profile of the zone is entered. */
     private fun isOwn(i: Int = pager.currentItem) = ownFirst && stack.isEmpty() && i == 0
 
-    private fun defaultKeys() = if (isOwn()) listOf("favoris", "give", "widget") else listOfNotNull("favoris", "swipe", "give", "match", "widget", if (urls.size > 1) "rang" else null)
+    private fun defaultKeys() = if (isOwn()) listOf("favoris", "mur", "widget") else listOfNotNull("favoris", "swipe", "give", "match", "widget", if (urls.size > 1) "rang" else null)
 
     private fun applyBar(entries: List<com.aiwa.client.BarEntry>?) {
         val (specs, ids) = BarConfig.resolve(this, entries, builtinKeys(), defaultKeys())
