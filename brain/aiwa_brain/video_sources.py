@@ -6,6 +6,10 @@ def catalogue(keys):
     k = lambda name: bool(keys.get(name))
     return [
         {"id": "blender", "name": "Blender et frames", "ready": True, "needs": "", "does": "schémas, plans 3D, paysages, titres et écrans, montage ffmpeg", "limit": "fait par une session, pas de prises de vue réelles"},
+        {"id": "decors", "name": "Décors 3D (Poly Haven)", "ready": True, "needs": "", "does": "521 modèles 3D, 997 HDRI (ciels et lumières), 869 textures, tous CC0 : le décor d'un plan rendu dans Blender (`asset-research`, à chercher puis à transformer)",
+         "limit": "une caméra qui filme le décor, pas de déplacement libre dans une scène ; une base, jamais une scène finie"},
+        {"id": "archives", "name": "Archives du domaine public (NASA, Commons, Internet Archive)", "ready": True, "needs": "", "does": "environ 800 séquences réelles référencées (espace, nature, histoire), licence et crédit notés (`asset-research`, footage)", "limit": "qualité et durée très variables ; crédit à mettre"},
+        {"id": "webfx", "name": "Effets web (animations HTML)", "ready": True, "needs": "", "does": "animations de pages (GSAP, Lottie, WebGL…) rendues en frames par le moteur HTML du kit ; `design-research` répertorie des sites primés et leurs techniques", "limit": "un effet se réécrit, il ne se copie pas ; le lien design-research vers vidéo n'est pas vérifié"},
         {"id": "stock", "name": "Pexels / Pixabay", "ready": k("pexels") or k("pixabay"), "needs": "clé Pexels ou Pixabay (gratuite)", "does": "séquences réelles libres de droits (paysages, villes, foules)", "limit": "ce qui existe déjà ; licence et auteur notés avec chaque clip"},
         {"id": "hf", "name": "Hugging Face (Wan 2.2, LTX-Video)", "ready": True, "needs": "clé Hugging Face (gratuite) pour un quota plus large",
          "does": "plan généré depuis un texte ou une image, sans référence d'identité", "limit": "sans clé quelques minutes de calcul par jour ; l'identité ou un produit ne tiennent pas d'un plan à l'autre"},
