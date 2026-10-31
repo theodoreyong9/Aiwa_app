@@ -21,10 +21,9 @@
 <ViewFlipper android:id="@+id/fw_zone_flip" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="15" android:inAnimation="@null" android:outAnimation="@null">
 <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
 <LinearLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="10" android:orientation="horizontal">
-<FrameLayout android:id="@+id/z_a_0_0" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
-<FrameLayout android:id="@+id/z_a_0_1" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="3"/>
+<FrameLayout android:id="@+id/z_a_0_0" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="3"/>
+<FrameLayout android:id="@+id/z_a_0_1" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
 <FrameLayout android:id="@+id/z_a_0_2" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
-<FrameLayout android:id="@+id/z_a_0_3" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
 </LinearLayout>
 <LinearLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="5" android:orientation="horizontal">
 <FrameLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="7"/>
@@ -60,6 +59,7 @@
 <LinearLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="10" android:orientation="horizontal">
 <FrameLayout android:id="@+id/z_v_0_0" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
 <FrameLayout android:id="@+id/z_v_0_1" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+<FrameLayout android:id="@+id/z_v_0_2" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
 </LinearLayout>
 <LinearLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="5" android:orientation="horizontal">
 <FrameLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="7"/>
