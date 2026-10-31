@@ -1,9 +1,11 @@
-"""The style the person picks and the game: one point lost an hour, +10 / -5 for the agent's own proposals, silence at zero, points given by voice."""
+"""The style the person picks and the race between the person and her agent: 100 each, a point a day, +10/-5, verdicts kept with their reason, gifts as transfers, the end of a round, ten rounds."""
 import tempfile
 import unittest
 from pathlib import Path
 
 from aiwa_brain import persona_lib
+
+DAY = 86400
 
 
 class PersonaTests(unittest.TestCase):
@@ -16,45 +18,80 @@ class PersonaTests(unittest.TestCase):
     def test_style_is_told_only_when_chosen_and_never_for_the_sessions(self):
         self.assertEqual(self.p.note(), "")
         self.p.set_style("vanneur")
-        note = self.p.note()
-        self.assertIn("vanneur", note)
-        self.assertIn("jamais les messages", note)
+        self.assertIn("jamais les messages", self.p.note())
         self.p.set_style("inconnu")
         self.assertEqual(self.p.status()["style"], "vanneur")
 
-    def test_one_point_an_hour_and_silence_at_zero(self):
+    def test_both_start_at_100_and_lose_a_point_a_day(self):
         self.p.set_game(True)
-        self.assertEqual(self.p.status()["points"], 48)
-        self.now[0] += 5 * 3600 + 100
-        self.assertEqual(self.p.status()["points"], 43)
-        self.now[0] += 100 * 3600
-        self.assertTrue(self.p.muted())
+        self.now[0] += 5 * DAY + 100
+        g = self.p.status()["game"]
+        self.assertEqual((g["user"], g["agent"]), (95, 95))
 
-    def test_own_proposal_answered(self):
+    def test_own_proposal_and_verdicts(self):
         self.p.set_game(True)
-        self.assertEqual(self.p.reward(True), 58)
-        self.assertEqual(self.p.reward(False), 53)
+        self.p.reward(True)
+        self.p.reward(False)
+        self.p.apply_agent({"verdict": "non", "raison": "pas faisable"})
+        self.p.apply_agent({"verdict": "oui"})
+        g = self.p.status()["game"]
+        self.assertEqual((g["agent"], g["user"]), (105, 105))
+        self.assertTrue(any("pas faisable" in h["reason"] for h in g["history"]))
 
-    def test_points_given_by_voice_work_at_zero(self):
+    def test_a_gift_is_a_transfer_and_never_ruins_the_giver(self):
         self.p.set_game(True)
-        self.now[0] += 100 * 3600
-        self.assertTrue(self.p.muted())
         self.assertEqual(self.p.gift_in("allez je te donne 20 points"), 20)
-        self.assertFalse(self.p.muted())
-        self.assertEqual(self.p.status()["points"], 20)
-        self.assertEqual(self.p.gift_in("je te retire 5 points"), -5)
-        self.assertEqual(self.p.status()["points"], 15)
+        g = self.p.status()["game"]
+        self.assertEqual((g["user"], g["agent"]), (80, 120))
+        self.assertEqual(self.p.give("user", 5000), 79)
+
+    def test_zero_ends_the_round_and_the_other_wins(self):
+        self.p.set_game(True)
+        self.now[0] += 100 * DAY
+        g = self.p.status()["game"]
+        self.assertEqual(g["ended"], "draw")        # both at zero on the same day
+        self.assertIn("nulle", self.p.pop_event())
+        self.assertIsNone(self.p.pop_event())
+        self.p.restart()
+        self.p.add("agent", -100)
+        self.p.add("user", 5)
+        self.assertEqual(self.p.status()["game"]["ended"], "user")
+        self.assertEqual(self.p.status()["game"]["wins"]["user"], 1)
+
+    def test_after_thirty_days_the_best_wins_only_with_the_minimum(self):
+        self.p.set_game(True)
+        self.p.add("user", 80)
+        self.now[0] += 30 * DAY
+        g = self.p.status()["game"]
+        self.assertEqual(g["ended"], "user")         # 150 at least (180 - 30 = 150)
+        self.p.restart()
+        self.p.add("user", 20)
+        self.now[0] += 30 * DAY
+        self.assertEqual(self.p.status()["game"]["ended"], "draw")      # nobody reached 150
+
+    def test_ten_rounds_make_the_grand_winner_and_a_restart_keeps_the_wins(self):
+        self.p.set_game(True)
+        for _ in range(10):
+            self.p.add("agent", -100)
+            self.p.restart()
+        self.p.restart()           # no new round once there is a grand winner
+        g = self.p.status()["game"]
+        self.assertEqual(g["wins"]["user"], 10)
+        self.assertEqual(g["grand"], "user")
+        self.p.reset_all()
+        self.assertEqual(self.p.status()["game"]["wins"]["user"], 0)
 
     def test_nothing_counts_when_the_game_is_off(self):
         self.assertIsNone(self.p.gift_in("je te donne 20 points"))
-        self.assertIsNone(self.p.status()["points"])
-        self.assertFalse(self.p.muted())
+        self.assertEqual(self.p.status()["game"], {"on": False, "wins": {"user": 0, "agent": 0}})
+        self.assertNotIn("JEU", self.p.note())
 
-    def test_kept_across_a_restart(self):
+    def test_kept_across_a_restart_and_the_aim_is_to_win(self):
         self.p.set_game(True)
         self.p.set_style("sec")
+        self.assertIn("GAGNER", self.p.note())
         again = persona_lib.Persona(Path(self.tmp.name) / "p.json", clock=lambda: self.now[0])
-        self.assertEqual((again.status()["style"], again.status()["points"]), ("sec", 48))
+        self.assertEqual((again.status()["style"], again.status()["game"]["user"]), ("sec", 100))
 
 
 if __name__ == "__main__":

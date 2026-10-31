@@ -174,8 +174,12 @@ def _persona(data):
         state.persona.set_style(data["style"])
     if isinstance(data.get("game"), bool):
         state.persona.set_game(data["game"])
-    if isinstance(data.get("points"), int) and not isinstance(data.get("points"), bool):
-        state.persona.add(max(-1000, min(1000, data["points"])))
+    if data.get("restart") is True:
+        state.persona.restart()
+    if data.get("reset_all") is True:
+        state.persona.reset_all()
+    if isinstance(data.get("give"), int) and not isinstance(data.get("give"), bool):
+        state.persona.give("user", max(0, min(1000, data["give"])))
     return {"ok": True, **state.persona.status()}
 
 

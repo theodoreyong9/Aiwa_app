@@ -93,12 +93,15 @@ def _model(system, history, user):
 def converse(spoken=None, report=False):
     """One turn with the super agent, answered in the background: the reply (what it says, a proposal, a command) waits for the phone in `state.agent`. {"ok", "error"}."""
     delta = state.persona.gift_in(spoken)
-    if delta is not None:          # points given (or taken) by voice: counted by the brain itself, so that it works at zero too
-        points = state.persona.status()["points"]
+    event = state.persona.pop_event()
+    if delta is not None or event:          # points given by voice: counted by the brain itself; or a round that ended
+        game = state.persona.status()["game"]
+        text = event or (f"Merci pour les {delta} points, j'en ai {game.get('agent')}." if delta else "Tu n'as pas de quoi m'en donner.")
         with state.agent_lock:
             state.agent["error"] = None
-            state.agent["say"] = {"id": f"s{int(time.time() * 1000)}", "text": (f"Merci, j'ai {points} points." if delta > 0 else f"Aïe, il me reste {points} points."), "ts": int(time.time()), "spoken": False}
-        return {"ok": True}
+            state.agent["say"] = {"id": f"s{int(time.time() * 1000)}", "text": text, "ts": int(time.time()), "spoken": False}
+        if delta is not None:
+            return {"ok": True}
     with state.agent_lock:
         if state.agent["busy"]:
             return {"ok": False, "error": "le super agent répond encore"}
@@ -128,10 +131,7 @@ def _turn(spoken, report, own=False):
             state.agent["sig"], state.agent["last"] = sig, time.time()
         reply = llm_lib.json_in(answer)
         if reply is not None:
-            if state.persona.muted():          # no points left: it cannot speak (it hears, and counts the points it is given)
-                with state.agent_lock:
-                    state.agent["error"] = "Le super agent n'a plus de points : dis-lui par exemple « je te donne 20 points »"
-                return
+            state.persona.apply_agent(reply.get("game") if isinstance(reply, dict) else None)      # its verdict on a proposal of the person, a gift
             said(json.dumps(reply), own=own)
     except Exception as err:      # a bad turn must never leave the agent busy
         print(f"[{state.ts()}] agent: {err}", flush=True)

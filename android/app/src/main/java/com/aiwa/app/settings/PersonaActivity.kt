@@ -36,9 +36,18 @@ class PersonaActivity : FloatActivity() {
         note("Style", Palette.GOLD)
         note("Le ton de ce que le super agent te dit à voix haute. Les messages qu'il envoie à tes sessions restent neutres. La vanne reste un ton : jamais d'insulte.")
         for ((id, label) in p.styles) entry((if (id == p.style) "● " else "○ ") + label) { call { Aiwa.brain.personaStyle(id) } }
-        note("Mode jeu", Palette.GOLD)
-        note("Tu lui donnes des points à voix haute (« je te donne 20 points »). Il en perd un par heure, cinq quand tu refuses ce qu'il propose de lui-même, il en gagne dix quand tu acceptes. À zéro, il ne peut plus parler jusqu'à ce que tu lui en redonnes.")
-        entry(if (p.game) "● Mode jeu activé" + (p.points?.let { " : $it points" } ?: "") else "○ Mode jeu désactivé", if (p.game) "Touche pour l'arrêter." else "Touche pour le lancer (il commence avec 48 points).") { call { Aiwa.brain.personaGame(!p.game) } }
-        if (p.game) entry("Lui donner 10 points", "Ou dis-le à voix haute.") { call { Aiwa.brain.personaPoints(10) } }
+        note("La course", Palette.GOLD)
+        note("Toi et ton super agent partez à 100 points et en perdez un par jour. Il en gagne 10 quand tu acceptes ce qu'il propose de lui-même, 5 de moins quand tu refuses. Tes propositions, il les juge : oui +10, non -5 pour toi, avec sa raison. Vous pouvez vous donner des points (« je te donne 20 points »). Manche finie quand l'un tombe à zéro (l'autre gagne), ou après 30 jours : le meilleur gagne s'il a au moins ${p.game.minimum} points. Le premier à 10 manches est le grand gagnant. Son but est de gagner.")
+        val g = p.game
+        entry(if (g.on) "● Course lancée" else "○ Course arrêtée", if (g.on) "Touche pour l'arrêter." else "Touche pour la lancer.") { call { Aiwa.brain.personaGame(!g.on) } }
+        if (g.on) {
+            note("Toi ${g.user} · lui ${g.agent} · jour ${g.day + 1}/${g.days} · manches : toi ${g.winsUser}, lui ${g.winsAgent}", Palette.GREEN)
+            g.grand?.let { note((if (it == "user") "Tu es" else "Il est") + " le grand gagnant !", Palette.GOLD) }
+            if (g.ended != null && g.grand == null) note(when (g.ended) { "user" -> "Manche gagnée par toi."; "agent" -> "Manche gagnée par lui."; else -> "Manche nulle." } + " Plus aucun point ne bouge : recommence.", Palette.GOLD)
+            if (g.ended == null) entry("Lui donner 10 points", "Ou dis-le à voix haute.") { call { Aiwa.brain.personaGive(10) } }
+            if (g.grand == null) entry("Recommencer la manche", "Vous repartez à 100 chacun, les victoires restent.") { call { Aiwa.brain.personaRestart() } }
+            entry("Tout remettre à zéro", "Efface aussi les victoires.") { call { Aiwa.brain.personaResetAll() } }
+            if (g.history.isNotEmpty()) { note("Derniers verdicts et points", Palette.GOLD); for (h in g.history) note(h) }
+        }
     }
 }
