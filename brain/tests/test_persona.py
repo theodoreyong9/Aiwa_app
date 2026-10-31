@@ -96,3 +96,14 @@ class PersonaTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class PersonaCommandTests(unittest.TestCase):
+    def test_style_and_game_by_voice_are_parsed_and_read_back(self):
+        from aiwa_brain import agent_lib
+        cmd = agent_lib.parse_command({"persona": {"style": "vanneur", "game": True, "restart": True}}, set())
+        self.assertEqual(cmd["persona"], {"style": "vanneur", "game": True, "restart": True})
+        phrase = agent_lib.command_phrase(cmd)
+        self.assertIn("vanneur", phrase)
+        self.assertIn("course lancée", phrase)
+        self.assertIsNone(agent_lib.parse_command({"persona": {"style": "inconnu"}}, set()))
