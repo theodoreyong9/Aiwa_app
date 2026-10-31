@@ -339,6 +339,21 @@ class VoiceService : Service() {
         resolvePending()
     }
 
+    /**
+     * What the agent proposes for a session goes at once when the person woke « mon agent », and also when there is no Anthropic key: without it every turn of the super agent goes through the phone's own
+     * Claude program, which starts cold (10 to 30 seconds), and a conversation with a read-back is then painful. The person is told once.
+     */
+    private fun sendsAtOnce(): Boolean {
+        if (directMode) return true
+        if (Aiwa.state.value.status?.llm?.state == "ready") return false
+        val prefs = getSharedPreferences("aiwa_hints", MODE_PRIVATE)
+        if (!prefs.getBoolean("direct_without_key", false)) {
+            prefs.edit().putBoolean("direct_without_key", true).apply()
+            toastOnMain(applicationContext, "Sans clé Anthropic, le super agent envoie directement : mets ta clé dans Réglages pour discuter avec lui.")
+        }
+        return true
+    }
+
     /** Settings and proposals the agent made: each is read back and applied or sent only on the person's word (an automatic command, from a master, goes at once). */
     private suspend fun resolvePending() {
         var agent: AgentView? = AgentVoice.fresh()
@@ -356,11 +371,12 @@ class VoiceService : Service() {
         }
         agent = AgentVoice.fresh()
         agent?.proposal?.let { p ->
-            showLine(p.readBack + if (directMode) "" else " On y va ?", mine = false)
-            val (reply, heard) = if (preConfirmed || directMode) { preConfirmed = false; Reply.CONFIRM to "" } else askAloud(applicationContext, p.readBack + " On y va ?")
+            val direct = sendsAtOnce()
+            showLine(p.readBack + if (direct) "" else " On y va ?", mine = false)
+            val (reply, heard) = if (preConfirmed || direct) { preConfirmed = false; Reply.CONFIRM to "" } else askAloud(applicationContext, p.readBack + " On y va ?")
             when (reply) {
                 Reply.CONFIRM -> {
-                    Speaker.speakNatural(applicationContext, if (directMode) "J'envoie." else "C'est parti.")
+                    Speaker.speakNatural(applicationContext, if (direct) "J'envoie." else "C'est parti.")
                     sendInBackground(p.id)
                     closeAgent()      // the order is given: the agent goes back to sleep (the button of the widget with it), the wake word calls it again
                 }
