@@ -44,7 +44,7 @@ object AgentScreens {
             "build" -> { WidgetTab.set(context, "agent"); AiwaWidget.render(context, force = true) }
             "scenario" -> go(context, ScenariosActivity::class.java)
             "cast" -> go(context, CastActivity::class.java)
-            "voir" -> go(context, com.aiwa.app.home.ProfileActivity.zoneIntent(context)); "voir_near" -> go(context, com.aiwa.app.home.ProfileActivity.zoneIntent(context)); "voir_link" -> voir(context, "lien"); "voir_qr" -> voir(context, "qr"); "voir_fav" -> voir(context, "favoris")
+            "voir" -> go(context, com.aiwa.app.home.ProfileActivity.homeIntent(context)); "voir_near" -> go(context, com.aiwa.app.home.ProfileActivity.homeIntent(context)); "voir_link" -> voir(context, "lien"); "voir_qr" -> voir(context, "qr"); "voir_fav" -> voir(context, "favoris")
             "voir_on" -> com.aiwa.app.voir.VoirSettings.setOn(context, true)
             "voir_off" -> com.aiwa.app.voir.VoirSettings.setOn(context, false)
             "chambre" -> go(context, ChamberActivity::class.java)

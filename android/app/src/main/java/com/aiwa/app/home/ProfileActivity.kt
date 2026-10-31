@@ -1,9 +1,11 @@
 package com.aiwa.app.home
 
+import android.Manifest
 import android.annotation.SuppressLint
 import android.app.AlertDialog
 import android.content.Context
 import android.content.Intent
+import android.content.pm.PackageManager
 import android.graphics.Color
 import android.graphics.drawable.GradientDrawable
 import android.os.Bundle
@@ -18,11 +20,17 @@ import android.widget.ListView
 import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.activity.ComponentActivity
+import androidx.activity.result.contract.ActivityResultContracts
+import androidx.core.content.ContextCompat
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager2.widget.ViewPager2
 import com.aiwa.app.brain.Aiwa
+import com.aiwa.app.brain.wakeAiwa
+import com.aiwa.app.voice.ListenSettings
+import com.aiwa.app.voice.VoiceService
+import com.aiwa.app.widget.WidgetPin
 import com.aiwa.app.chamber.ChamberActions
 import com.aiwa.app.common.dp
 import com.aiwa.app.common.toastOnMain
@@ -56,25 +64,36 @@ class ProfileActivity : ComponentActivity() {
     // and the levels left behind are kept so that « Précédent » comes back to them.
     private class Level(val urls: List<String>, val pubs: MutableList<String>, val index: Int)
     private val stack = ArrayList<Level>()
+    // The HOME of the application is this same pager: her own profile is the first page (her page, scripts allowed, followed live), the profiles of her zone come after it.
+    private var ownFirst = false
+    private var ownWatch: ProfileWatch? = null
+    private var ownWatched: String? = null
+    private lateinit var collector: com.aiwa.app.voir.ZoneCollector
+    private val micPermission = registerForActivityResult(ActivityResultContracts.RequestPermission()) { granted -> if (granted) VoiceService.ensureStarted(applicationContext) }
+    private var zoneTicker: Runnable? = null
     private var zoneDeck = false            // level 0 is the zone of this phone
 
     @SuppressLint("SetJavaScriptEnabled")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        ownFirst = intent.getBooleanExtra(EXTRA_HOME, false)
         zoneDeck = intent.getBooleanExtra(EXTRA_ZONE, false)
         val favoritesDeck = intent.getBooleanExtra(EXTRA_FAVORITES, false)
+        if (ownFirst) wakeAiwa(applicationContext)
+        val own = ProfileSettings.repo(this)
         urls = when {
+            ownFirst -> listOf(own.orEmpty()) + SwipeData.observed(this, 7).filter { ProfileView.valid(it) && !it.equals(own, ignoreCase = true) }
             zoneDeck -> SwipeData.observed(this, 7).filter { ProfileView.valid(it) }
             favoritesDeck -> FavoriteRepos.all(this).filter { ProfileView.valid(it) }
-            else -> try { JSONArray(intent.getStringExtra(EXTRA_URLS) ?: "[]").let { a -> (0 until a.length()).map { a.getString(it) } } } catch (err: Exception) { emptyList() }.filter { ProfileView.valid(it) }.take(60)
+            else -> try { JSONArray(intent.getStringExtra(EXTRA_URLS) ?: "[]").let { a -> (0 until a.length()).map { a.getString(it) } } } catch (err: Exception) { emptyList() }.filter { ProfileView.valid(it) }
         }
         if (urls.isEmpty()) {
             if (zoneDeck) toastOnMain(this, "Aiwa regarde autour de toi : reviens dans un moment, la liste se remplit toute seule.")
             else if (favoritesDeck) toastOnMain(this, "Aucun favori : touche ☆ Favoris sur un profil pour le garder.")
             finish(); return
         }
-        val start = if (zoneDeck || favoritesDeck) 0 else intent.getIntExtra(EXTRA_INDEX, 0).coerceIn(0, urls.size - 1)
-        pubs = if (zoneDeck || favoritesDeck) urls.map { "" }.toMutableList() else try { JSONArray(intent.getStringExtra(EXTRA_PUBS) ?: "[]").let { a -> urls.indices.map { a.optString(it) }.toMutableList() } } catch (err: Exception) { urls.map { "" }.toMutableList() }
+        val start = if (zoneDeck || favoritesDeck || ownFirst) 0 else intent.getIntExtra(EXTRA_INDEX, 0).coerceIn(0, urls.size - 1)
+        pubs = if (zoneDeck || favoritesDeck || ownFirst) urls.map { "" }.toMutableList() else try { JSONArray(intent.getStringExtra(EXTRA_PUBS) ?: "[]").let { a -> urls.indices.map { a.optString(it) }.toMutableList() } } catch (err: Exception) { urls.map { "" }.toMutableList() }
         val root = FrameLayout(this).apply { setBackgroundColor(Color.parseColor("#10132E")) }
         pager = ViewPager2(this).apply { offscreenPageLimit = 1; adapter = Pages() }
         root.addView(pager, FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT).apply { bottomMargin = ProfileBar.height(this@ProfileActivity) })
@@ -84,6 +103,7 @@ class ProfileActivity : ComponentActivity() {
         }
         root.addView(chip, FrameLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT, Gravity.TOP or Gravity.CENTER_HORIZONTAL).apply { topMargin = dp(8) })
         this.root = root
+        collector = com.aiwa.app.voir.ZoneCollector(this, root)
         applyBar(BarConfig.last)
         setContentView(root)
         ViewCompat.setOnApplyWindowInsetsListener(root) { view, insets ->
@@ -92,7 +112,7 @@ class ProfileActivity : ComponentActivity() {
             WindowInsetsCompat.CONSUMED
         }
         pager.setCurrentItem(start, false)
-        pager.registerOnPageChangeCallback(object : ViewPager2.OnPageChangeCallback() { override fun onPageSelected(position: Int) { chip.visibility = android.view.View.GONE; refreshKeys(); if (position % 6 == 0) noteAround() } })
+        pager.registerOnPageChangeCallback(object : ViewPager2.OnPageChangeCallback() { override fun onPageSelected(position: Int) { chip.visibility = android.view.View.GONE; applyBar(BarConfig.last); if (position % 6 == 0) noteAround() } })
         built = true
         updateChrome()
         refreshKeys()
@@ -123,7 +143,7 @@ class ProfileActivity : ComponentActivity() {
 
     /** The keys the application has on a visited profile: the person's own file (her profile repository) may reorder, restyle or leave out any of them, and add others. Without a file: Favoris, Swipe, Précédent (in the place of someone), Give, Match, Widget, Rang. */
     private fun builtinKeys() = linkedMapOf(
-        "favoris" to ProfileBar.Spec("☆", "Favoris", ProfileBar.GOLD) { toggleFavorite() },
+        "favoris" to ProfileBar.Spec("☆", "Favoris", ProfileBar.GOLD) { if (isOwn()) startActivity(favoritesIntent(this)) else toggleFavorite() },
         "swipe" to ProfileBar.Spec("⤴", "Jump", ProfileBar.VIOLET) { swipeIn() },
         "precedent" to ProfileBar.Spec("↩", "Précédent", ProfileBar.WHITE) { back() },
         "give" to ProfileBar.Spec("🎁", "Give", ProfileBar.GREEN) { give() },
@@ -135,7 +155,10 @@ class ProfileActivity : ComponentActivity() {
         "widget" to ProfileBar.Spec("✦", "Widget", ProfileBar.WHITE) { pages[pager.currentItem]?.let { HomeRuntime.openPanel(it) } },
     ).also { table -> if (urls.size > 1) table["rang"] = ProfileBar.Spec("🏅", "Rang", ProfileBar.GOLD) { ranking() } }
 
-    private fun defaultKeys() = listOfNotNull("favoris", "swipe", "give", "match", "widget", if (urls.size > 1) "rang" else null)
+    /** The page on the screen is the person's own: the first of the home, while no profile of the zone is entered. */
+    private fun isOwn(i: Int = pager.currentItem) = ownFirst && stack.isEmpty() && i == 0
+
+    private fun defaultKeys() = if (isOwn()) listOf("favoris", "give", "widget") else listOfNotNull("favoris", "swipe", "give", "match", "widget", if (urls.size > 1) "rang" else null)
 
     private fun applyBar(entries: List<com.aiwa.client.BarEntry>?) {
         val (specs, ids) = BarConfig.resolve(this, entries, builtinKeys(), defaultKeys())
@@ -148,6 +171,7 @@ class ProfileActivity : ComponentActivity() {
 
     /** The star: the profile on the screen is kept (or let go) among the favourites. */
     private fun toggleFavorite() {
+        if (isOwn()) return
         val repo = urls[pager.currentItem]
         val on = FavoriteRepos.toggle(this, repo)
         toastOnMain(this, if (on) "$repo est dans tes favoris." else "$repo n'est plus dans tes favoris.")
@@ -157,6 +181,7 @@ class ProfileActivity : ComponentActivity() {
     /** Give: the room, the coffee and the wall of the person, in one window. */
     private fun give() {
         val i = pager.currentItem
+        if (isOwn(i)) { startActivity(Intent(this, GiveActivity::class.java)); return }
         startActivity(Intent(this, GiveActivity::class.java).putExtra(GiveActivity.EXTRA_REPO, urls[i]).putExtra(GiveActivity.EXTRA_PUB, pubs.getOrNull(i).orEmpty()))
     }
 
@@ -246,6 +271,7 @@ class ProfileActivity : ComponentActivity() {
 
     /** The score of the profile on the screen for the person who looks, made by her own super agent (the brain keeps it): it is written on the Match key itself, « Pro 72 · Perso 41 ». */
     private fun match(force: Boolean = false) {
+        if (isOwn()) return
         val repo = urls[pager.currentItem]
         val key = bar.named["match"] ?: return
         scores[repo]?.let { key.label(it); if (!force) return }
@@ -263,6 +289,7 @@ class ProfileActivity : ComponentActivity() {
     /** What the keys say for the profile on the screen: the score (asked at once), the coffee and the wall only when her card is known (and the coffee turned on). */
     private fun refreshKeys() {
         val i = pager.currentItem
+        if (isOwn(i)) return
         val pub = pubs.getOrNull(i).orEmpty()
         bar.named["match"]?.label(scores[urls[i]] ?: "Match")
         bar.named["swipe"]?.available(!urls[i].equals(ProfileSettings.repo(this), ignoreCase = true))
@@ -299,7 +326,80 @@ class ProfileActivity : ComponentActivity() {
         }
     }
 
-    override fun onDestroy() { pages.values.forEach { HomeRuntime.release(it); it.destroy() }; pages.clear(); super.onDestroy() }
+    override fun onResume() {
+        super.onResume()
+        if (!ownFirst) return
+        CoffeeSettings.publishPub(this)
+        startOwnWatch()
+        startEar()
+        collector.start()
+        startZoneTicker()
+        // The widget is asked for at every opening while there is none (the system's window, one tap on « Ajouter »), once the screen is really in front and has settled.
+        window.decorView.postDelayed({ if (!isFinishing && !isDestroyed) WidgetPin.offerOnce(this) }, 800)
+        // Claude first (essential), then GitHub: see Onboarding
+        window.decorView.postDelayed({ if (!isFinishing && !isDestroyed) Onboarding.next(this) }, 1500)
+    }
+
+    override fun onPause() {
+        ownWatch?.stop(); ownWatch = null
+        if (ownFirst) { collector.pause(); zoneTicker?.let { root.removeCallbacks(it) } }
+        super.onPause()
+    }
+
+    /** Her own page follows her `Profile/` on GitHub: a new commit replaces it on the screen within seconds (a change asked of the super agent shows at once). */
+    private fun startOwnWatch() {
+        val repo = ProfileSettings.repo(this)
+        if (!ProfileView.valid(repo)) { ownWatch?.stop(); ownWatch = null; return }
+        if (ownWatch != null && ownWatched == repo) return
+        ownWatch?.stop()
+        ownWatched = repo
+        ownWatch = ProfileWatch(repo!!) { sha ->
+            runOnUiThread {
+                if (isFinishing || isDestroyed) return@runOnUiThread
+                pages[0]?.takeIf { isOwnPageBound() }?.let { ProfileView.load(it, repo, own = true, sha = sha) }
+                BarConfig.load(repo, sha, builtinKeys().keys) { entries -> runOnUiThread { if (!isFinishing && !isDestroyed) applyBar(entries) } }
+            }
+        }.also { it.start() }
+    }
+
+    private fun isOwnPageBound() = ownFirst && stack.isEmpty()
+
+    private fun startEar() {
+        if (!ListenSettings.enabled(this)) return
+        if (ContextCompat.checkSelfPermission(this, Manifest.permission.RECORD_AUDIO) == PackageManager.PERMISSION_GRANTED) { VoiceService.ensureStarted(applicationContext); return }
+        val prefs = getSharedPreferences("aiwa_hints", MODE_PRIVATE)
+        if (!prefs.getBoolean("mic_asked", false)) { prefs.edit().putBoolean("mic_asked", true).apply(); micPermission.launch(Manifest.permission.RECORD_AUDIO) }
+    }
+
+    /** What the zone notes by itself is added at the end of the home, without touching the pages already there (her own page keeps playing). */
+    private fun startZoneTicker() {
+        zoneTicker?.let { root.removeCallbacks(it) }
+        val tick = object : Runnable {
+            override fun run() {
+                appendZone()
+                root.postDelayed(this, 20_000)
+            }
+        }
+        zoneTicker = tick
+        root.postDelayed(tick, 6_000)
+    }
+
+    private fun appendZone() {
+        if (!isOwnPageBound()) return
+        val own = ProfileSettings.repo(this)
+        val fresh = SwipeData.observed(this, 7).filter { ProfileView.valid(it) && !it.equals(own, ignoreCase = true) && it !in urls }
+        if (fresh.isEmpty()) return
+        val from = urls.size
+        urls = urls + fresh
+        pubs.addAll(fresh.map { "" })
+        pager.adapter?.notifyItemRangeInserted(from, fresh.size)
+    }
+
+    override fun onDestroy() {
+        if (::collector.isInitialized) collector.destroy()
+        zoneTicker?.let { root.removeCallbacks(it) }
+        pages.values.forEach { HomeRuntime.release(it); it.destroy() }; pages.clear(); super.onDestroy()
+    }
 
     private inner class Pages : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
         override fun getItemCount() = urls.size
@@ -324,8 +424,13 @@ class ProfileActivity : ComponentActivity() {
         override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {
             val web = holder.itemView as WebView
             pages[position] = web
-            HomeRuntime.attach(web, false) { urls[position] }
-            ProfileView.load(web, urls[position])
+            if (ownFirst && stack.isEmpty() && position == 0) {
+                HomeRuntime.attach(web, true) { ProfileSettings.repo(this@ProfileActivity) }
+                ProfileView.load(web, ProfileSettings.repo(this@ProfileActivity), own = true)
+            } else {
+                HomeRuntime.attach(web, false) { urls[position] }
+                ProfileView.load(web, urls[position])
+            }
         }
     }
 
@@ -333,6 +438,8 @@ class ProfileActivity : ComponentActivity() {
         const val EXTRA_URLS = "urls"
         const val EXTRA_INDEX = "index"
         const val EXTRA_PUBS = "pubs"
+        const val EXTRA_HOME = "home"           // the home of the application: her own profile first, then her zone
+        fun homeIntent(context: Context): Intent = Intent(context, ProfileActivity::class.java).putExtra(EXTRA_HOME, true).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP)
         const val EXTRA_FAVORITES = "favorites"     // the deck is the favourites
         fun favoritesIntent(context: Context): Intent = Intent(context, ProfileActivity::class.java).putExtra(EXTRA_FAVORITES, true).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
         const val EXTRA_ZONE = "zone"       // level 0 = the zone of this phone (what it saw, the nearest first)
