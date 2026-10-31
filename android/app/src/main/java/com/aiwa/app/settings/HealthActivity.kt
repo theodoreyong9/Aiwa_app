@@ -20,7 +20,16 @@ class HealthActivity : FloatActivity() {
 
     private fun line(ok: Boolean, text: String) = note((if (ok) "✓ " else "✗ ") + text, if (ok) Palette.GREEN else Palette.RED)
 
-    override fun onResume() { super.onResume(); reload() }
+    private var journal: List<String> = emptyList()
+
+    override fun onResume() {
+        super.onResume()
+        reload()
+        kotlinx.coroutines.CoroutineScope(kotlinx.coroutines.Dispatchers.Main).launch {
+            journal = kotlinx.coroutines.withContext(kotlinx.coroutines.Dispatchers.IO) { try { Aiwa.brain.agentLog() } catch (err: Exception) { emptyList() } }
+            reload()
+        }
+    }
 
     override fun fill() {
         val snap = Aiwa.state.value
@@ -76,5 +85,9 @@ class HealthActivity : FloatActivity() {
         if (!Battery.isExempt(this)) entry("Autoriser en arrière-plan") { try { startActivity(Battery.requestIntent(this)) } catch (err: Exception) { toastOnMain(this, "Écran indisponible") } }
         line(!snap.appUpdateReady, "Application : version ${AppUpdater.installedVersion(this) ?: "?"}" + if (snap.appUpdateReady) " (une mise à jour attend)" else "")
         line(snap.listening, "Écoute : " + if (snap.listening) "active" else "éteinte")
+        if (journal.isNotEmpty()) {
+            note("Journal du super agent (les dernières lignes)", Palette.GOLD)
+            for (l in journal.takeLast(14)) note(l, Palette.DIM)
+        }
     }
 }

@@ -140,6 +140,11 @@ class Brain(private val net: Transport = HttpTransport()) {
     fun style(): StyleView? = getJson("/api/style")?.let { StyleView(it.optBoolean("enabled"), it.optInt("count"), it.optBoolean("ready"), it.optString("note")) }
     fun styleSet(enabled: Boolean): Outcome = act("/api/style/set", JSONObject().put("enabled", enabled))
     fun styleClear(): Outcome = act("/api/style/clear")
+    /** The journal of the super agent (what was asked, answered, decided, applied): shown in « État d'Aiwa ». */
+    fun agentLog(): List<String> {
+        val list = getJson("/api/agent/log")?.optJSONArray("log") ?: return emptyList()
+        return (0 until list.length()).map { list.optString(it) }
+    }
     fun persona(): PersonaView? = getJson("/api/persona")?.let { j ->
         val list = j.optJSONArray("styles")
         val g = j.optJSONObject("game") ?: org.json.JSONObject()

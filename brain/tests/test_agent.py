@@ -78,7 +78,7 @@ class Turn(unittest.TestCase):
         self.assertIn("ANNULÉE", state.agent["decisions"][-1])
 
     def test_settings_are_read_back_then_applied_by_the_brain_and_the_screen_is_left_to_the_phone(self):
-        self.run_turn(json.dumps({"say": "Je te montre.", "do": {"repo": "me/app", "open": "vidéos"}}), spoken="montre-moi mes vidéos")
+        self.run_turn(json.dumps({"say": "Je te montre.", "do": {"repo": "me/app", "open": "vidéos"}}), spoken="dans le dépôt me/app, montre-moi mes vidéos")
         command = agent.snapshot()["command"]
         self.assertEqual((command["open"], command["read_back"]), ("files_video", "J'applique : dépôt me/app, ouvrir les vidéos."))
         out = agent.apply_command(command["id"])

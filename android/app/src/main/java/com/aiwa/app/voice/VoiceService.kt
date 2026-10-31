@@ -327,6 +327,7 @@ class VoiceService : Service() {
     private suspend fun turn(text: String) {
         val asked = withContext(Dispatchers.IO) { Aiwa.brain.agentAsk(text) }
         if (!asked.ok) { Speaker.speakNatural(applicationContext, asked.error ?: "Le cerveau ne répond pas."); return }
+        if (!Aiwa.state.value.status?.llm?.state.equals("ready")) showLine("Je réfléchis… (sans clé Anthropic ça peut durer jusqu'à une minute)", mine = false) else showLine("Je réfléchis…", mine = false)
         val agent = AgentVoice.awaitAnswer()
         if (agent == null || agent.error != null) { Speaker.speakNatural(applicationContext, agent?.error ?: "Je n'ai pas de réponse."); return }
         startBarge()

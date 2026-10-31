@@ -97,7 +97,7 @@ object AiwaWidget {
         val v = RemoteViews(context.packageName, R.layout.fast_widget)
         val status = snap.status
         val agent = status?.agent
-        val agentNeeds = agent != null && (agent.say != null || agent.proposal != null || agent.command != null)
+        val agentNeeds = agent != null && (agent.proposal != null || (agent.command != null && !agent.command!!.auto))      // red only for what calls for her answer: words to hear or a command already on its way are not that
         val brainBad = snap.link == Link.DOWN || snap.link == Link.MISSING || status?.claudeLogin == "needed"
         val waiting = status?.waiting == true || (status?.silenceMinutes ?: 0) > 0
         val alert = waiting || agentNeeds || !hasTermuxPermission(context) || brainBad
