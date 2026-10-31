@@ -142,11 +142,19 @@ class Brain(private val net: Transport = HttpTransport()) {
     fun styleClear(): Outcome = act("/api/style/clear")
     fun persona(): PersonaView? = getJson("/api/persona")?.let { j ->
         val list = j.optJSONArray("styles")
-        PersonaView(j.optString("style"), (0 until (list?.length() ?: 0)).map { i -> list!!.getJSONObject(i).let { it.optString("id") to it.optString("label") } }, j.optBoolean("game"), if (j.isNull("points")) null else j.optInt("points"))
+        val g = j.optJSONObject("game") ?: org.json.JSONObject()
+        val wins = g.optJSONObject("wins") ?: org.json.JSONObject()
+        val hist = g.optJSONArray("history")
+        PersonaView(j.optString("style"), (0 until (list?.length() ?: 0)).map { i -> list!!.getJSONObject(i).let { it.optString("id") to it.optString("label") } },
+            GameView(g.optBoolean("on"), g.optInt("user"), g.optInt("agent"), g.optInt("minimum"), g.optInt("day"), g.optInt("days"), wins.optInt("user"), wins.optInt("agent"),
+                if (g.isNull("ended")) null else g.optString("ended"), if (g.isNull("grand")) null else g.optString("grand"),
+                (0 until (hist?.length() ?: 0)).map { i -> hist!!.getJSONObject(i).let { h -> (if (h.optString("who") == "user") "toi " else "moi ") + (if (h.optInt("delta") > 0) "+" else "") + h.optInt("delta") + " : " + h.optString("reason") } }.reversed()))
     }
     fun personaStyle(id: String): Outcome = act("/api/persona/set", JSONObject().put("style", id))
     fun personaGame(on: Boolean): Outcome = act("/api/persona/set", JSONObject().put("game", on))
-    fun personaPoints(n: Int): Outcome = act("/api/persona/set", JSONObject().put("points", n))
+    fun personaRestart(): Outcome = act("/api/persona/set", JSONObject().put("restart", true))
+    fun personaResetAll(): Outcome = act("/api/persona/set", JSONObject().put("reset_all", true))
+    fun personaGive(n: Int): Outcome = act("/api/persona/set", JSONObject().put("give", n))
     fun llmKey(key: String): Outcome = act("/api/llm/key", JSONObject().put("key", key), 60_000)
     fun llmClearKey(): Outcome = act("/api/llm/key", JSONObject().put("clear", true))
     fun llmCap(tokens: Long): Outcome = act("/api/llm/key", JSONObject().put("cap", tokens))
