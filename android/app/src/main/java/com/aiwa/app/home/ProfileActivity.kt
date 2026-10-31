@@ -124,13 +124,13 @@ class ProfileActivity : ComponentActivity() {
     /** The keys the application has on a visited profile: the person's own file (her profile repository) may reorder, restyle or leave out any of them, and add others. Without a file: Favoris, Swipe, Précédent (in the place of someone), Give, Match, Widget, Rang. */
     private fun builtinKeys() = linkedMapOf(
         "favoris" to ProfileBar.Spec("☆", "Favoris", ProfileBar.GOLD) { toggleFavorite() },
-        "swipe" to ProfileBar.Spec("♥", "Like", ProfileBar.VIOLET) { swipeIn() },
+        "swipe" to ProfileBar.Spec("⤴", "Jump", ProfileBar.VIOLET) { swipeIn() },
         "precedent" to ProfileBar.Spec("↩", "Précédent", ProfileBar.WHITE) { back() },
         "give" to ProfileBar.Spec("🎁", "Give", ProfileBar.GREEN) { give() },
         "match" to ProfileBar.Spec("🤝", "Match", ProfileBar.VIOLET) { match(force = true) },
         "chambre" to ProfileBar.Spec("🚪", "Chambre", ProfileBar.BLUE) { startActivity(Intent(this, com.aiwa.app.chamber.ChamberActivity::class.java).putExtra(com.aiwa.app.chamber.ChamberActivity.EXTRA_REPO, urls[pager.currentItem])) },
         "cafe" to ProfileBar.Spec("☕", "Café", ProfileBar.GOLD) { coffee() },
-        "zone" to ProfileBar.Spec("♥", "Like", ProfileBar.VIOLET) { swipeIn() },
+        "zone" to ProfileBar.Spec("⤴", "Jump", ProfileBar.VIOLET) { swipeIn() },
         "mur" to ProfileBar.Spec("🏆", "Mur", ProfileBar.GREEN) { wall() },
         "widget" to ProfileBar.Spec("✦", "Widget", ProfileBar.WHITE) { pages[pager.currentItem]?.let { HomeRuntime.openPanel(it) } },
     ).also { table -> if (urls.size > 1) table["rang"] = ProfileBar.Spec("🏅", "Rang", ProfileBar.GOLD) { ranking() } }
@@ -164,6 +164,7 @@ class ProfileActivity : ComponentActivity() {
     private fun swipeIn() {
         val i = pager.currentItem
         val repo = urls[i]
+        if (repo.equals(ProfileSettings.repo(this), ignoreCase = true)) return      // on her own profile there is nothing to jump to
         toastOnMain(this, "Je lis la liste de ${repo.substringBefore('/')}…")
         CoroutineScope(Dispatchers.Main).launch {
             val fromRepo = withContext(Dispatchers.IO) { try { Aiwa.brain.profileSeen(repo) } catch (err: Exception) { emptyList() } }
@@ -264,6 +265,7 @@ class ProfileActivity : ComponentActivity() {
         val i = pager.currentItem
         val pub = pubs.getOrNull(i).orEmpty()
         bar.named["match"]?.label(scores[urls[i]] ?: "Match")
+        bar.named["swipe"]?.available(!urls[i].equals(ProfileSettings.repo(this), ignoreCase = true))
         bar.named["favoris"]?.label(if (FavoriteRepos.has(this, urls[i])) "★ Favori" else "☆ Favoris")
         bar.named["cafe"]?.available(CoffeeSettings.walletConnected(this) && pub.isNotEmpty())
         bar.named["mur"]?.available(pub.isNotEmpty())
