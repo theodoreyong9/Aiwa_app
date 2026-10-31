@@ -91,7 +91,7 @@ class HomeActivity : ComponentActivity() {
 
     /** The keys the application has on her own page (nobody to match or to offer a coffee to here: those two say so instead of opening something else). */
     private fun builtinKeys() = linkedMapOf(
-        "favoris" to ProfileBar.Spec("☆", "Favoris", ProfileBar.GOLD) { startActivity(Intent(this, com.aiwa.app.web.WebActivity::class.java).putExtra(com.aiwa.app.web.WebActivity.EXTRA_PAGE, "voir").putExtra(com.aiwa.app.web.WebActivity.EXTRA_MODE, "favoris")) },
+        "favoris" to ProfileBar.Spec("☆", "Favoris", ProfileBar.GOLD) { startActivity(ProfileActivity.favoritesIntent(this)) },
         "swipe" to ProfileBar.Spec("👣", "Swipe", ProfileBar.VIOLET) { startActivity(ProfileActivity.zoneIntent(this)) },
         "give" to ProfileBar.Spec("🎁", "Give", ProfileBar.GREEN) { startActivity(Intent(this, GiveActivity::class.java)) },
         "match" to ProfileBar.Spec("🤝", "Match", ProfileBar.VIOLET) { com.aiwa.app.common.toastOnMain(this, "Le match se fait sur le profil d'une autre personne : ouvre-en un depuis Swipe.") },
