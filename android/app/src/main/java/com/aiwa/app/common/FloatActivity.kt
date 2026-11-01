@@ -29,6 +29,7 @@ abstract class FloatActivity : ComponentActivity() {
 
     /** More than one: the lines of `entryIcon` become tiles (an icon over a name), this many on a row, and the section titles are not drawn (the tiles flow on). */
     protected open val gridColumns: Int = 1
+    private val TILE_HEIGHT = 128
     private var gridRow: LinearLayout? = null
     private var gridCount = 0
 
@@ -60,7 +61,7 @@ abstract class FloatActivity : ComponentActivity() {
     /** The last row of tiles is completed with empty places, so that the tiles keep the same width. */
     private fun closeGridRow() {
         val row = gridRow ?: return
-        while (gridCount < gridColumns) { row.addView(View(this), LinearLayout.LayoutParams(0, ViewGroup.LayoutParams.MATCH_PARENT, 1f).apply { setMargins(dp(4), 0, dp(4), 0) }); gridCount++      // MATCH_PARENT like the tiles: a fixed height here made the whole row collapse }
+        while (gridCount < gridColumns) { row.addView(View(this), LinearLayout.LayoutParams(0, dp(TILE_HEIGHT), 1f).apply { setMargins(dp(4), 0, dp(4), 0) }); gridCount++      // MATCH_PARENT like the tiles: a fixed height here made the whole row collapse }
         gridRow = null; gridCount = 0
     }
 
@@ -75,7 +76,6 @@ abstract class FloatActivity : ComponentActivity() {
         val box = LinearLayout(this).apply {
             orientation = LinearLayout.VERTICAL
             gravity = Gravity.CENTER_HORIZONTAL
-            minimumHeight = dp(112)
             background = GradientDrawable().apply { setColor(Palette.CARD); cornerRadius = dp(16).toFloat(); setStroke(dp(1), Color.parseColor("#22FFFFFF")) }
             setPadding(dp(6), dp(12), dp(6), dp(10))
             setOnClickListener { onClick() }
@@ -89,7 +89,7 @@ abstract class FloatActivity : ComponentActivity() {
             LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT))
         if (state != null) box.addView(TextView(this).apply { text = state; setTextColor(stateColor); textSize = 11f; setTypeface(null, Typeface.BOLD); gravity = Gravity.CENTER; maxLines = 1; setPadding(0, dp(3), 0, 0) },
             LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT))
-        gridRow!!.addView(box, LinearLayout.LayoutParams(0, ViewGroup.LayoutParams.MATCH_PARENT, 1f).apply { setMargins(dp(4), 0, dp(4), 0) })
+        gridRow!!.addView(box, LinearLayout.LayoutParams(0, dp(TILE_HEIGHT), 1f).apply { setMargins(dp(4), 0, dp(4), 0) })      // a fixed height, the same for the tiles and the empty places: no row can collapse
         gridCount++
     }
 
