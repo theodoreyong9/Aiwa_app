@@ -21,7 +21,7 @@ import com.aiwa.app.widget.AiwaWidget
 
 /** « Réglages »: the whole list, one line each. A line with a switch shows its state and flips on a touch; the others open their own window. */
 class SettingsActivity : FloatActivity() {
-    override val title: String get() = when (intent.getStringExtra(EXTRA_GROUP)) { "words" -> "Les mots"; "me" -> "Moi"; "voice" -> "Voix"; "model" -> "Modèle"; else -> "Réglages" }
+    override val title: String get() = when (intent.getStringExtra(EXTRA_GROUP)) { "accounts" -> "Connexions"; "words" -> "Les mots"; "me" -> "Moi"; "voice" -> "Voix"; "model" -> "Modèle"; else -> "Réglages" }
     override val compactRows = true      // an icon and a name, no explanation
     override val gridColumns = 3         // several icons on a row
 
@@ -65,6 +65,7 @@ class SettingsActivity : FloatActivity() {
 
     override fun fill() {
         when (group) {
+            "accounts" -> accounts()
             "words" -> words()
             "me" -> me()
             "voice" -> voice()
@@ -77,15 +78,17 @@ class SettingsActivity : FloatActivity() {
     private fun main() {
         val status = Aiwa.state.value.status
         val game = persona?.game
-        entryIcon(R.drawable.fw_i_claude, "Connexion Claude", null, PEACH,
-            if (status?.claudeLogin == "needed") "À relier" else if (status?.claudeLogin == "ok") "Relié" else null, if (status?.claudeLogin == "needed") Palette.RED else Palette.GREEN) { open(ClaudeLoginActivity::class.java) }
-        entryIcon(R.drawable.fw_i_github, "Connexion GitHub", null, LILAC,
-            if (status?.githubToken == true) "Connecté" else "À connecter", if (status?.githubToken == true) Palette.GREEN else Palette.RED) { open(GithubConnectActivity::class.java) }
+        val accountsOk = status?.claudeLogin == "ok" && status.githubToken
+        entryIcon(R.drawable.fw_i_key, "Connexions", null, Palette.GOLD, if (accountsOk) "OK" else "À régler", if (accountsOk) Palette.GREEN else Palette.RED) { openGroup("accounts") }
         entryIcon(R.drawable.fw_i_talk, "Les mots", null, SKY) { openGroup("words") }
         entryIcon(R.drawable.fw_i_trophy, "Jeu et personnalité", null, Palette.GOLD,
             if (game?.on == true) (if (game.ended != null) "Manche finie" else "${game.user} · ${game.agent}") else "Arrêté", if (game?.on == true) Palette.GOLD else Palette.DIM) { open(PersonaActivity::class.java) }
         entryIcon(R.drawable.fw_i_aiwa, "Moi", null, MINT) { openGroup("me") }
         entryIcon(R.drawable.fw_i_volume, "Voix", null, SKY) { openGroup("voice") }
+        switchRow(R.drawable.fw_i_ear, "Écoute permanente", "", com.aiwa.app.voice.ListenSettings.enabled(this), PEACH) { on ->
+            com.aiwa.app.voice.ListenSettings.setEnabled(this, on)
+            if (on) com.aiwa.app.voice.VoiceService.start(this) else { com.aiwa.app.voice.VoiceService.stop(this); Aiwa.update { it.copy(listening = false) } }
+        }
         entryIcon(R.drawable.fw_i_papers, "Papers", null, Palette.GOLD) { open(PapersActivity::class.java) }
         entryIcon(R.drawable.fw_i_tools, "Modèle", null, PEACH, status?.model ?: "auto", Palette.DIM) { openGroup("model") }
         switchRow(R.drawable.fw_i_report, "« C'est prêt »", "", ReadySettings.enabled(this), MINT) { ReadySettings.set(this, it) }
@@ -93,8 +96,16 @@ class SettingsActivity : FloatActivity() {
             kotlinx.coroutines.CoroutineScope(kotlinx.coroutines.Dispatchers.IO).launch { Aiwa.brain.setPushMain(on); com.aiwa.app.brain.BrainSync.refresh() }
         }
         entryIcon(R.drawable.fw_i_image, "Fond du widget", null, SKY, com.aiwa.app.widget.WidgetBackground.label(this), Palette.DIM) { com.aiwa.app.widget.WidgetBackground.next(this); reload() }
-        entryIcon(R.drawable.fw_i_key, "Clés et plafonds", null, Palette.GOLD) { open(KeysActivity::class.java) }
         entryIcon(R.drawable.fw_i_report, "État d'Aiwa", null, Palette.GREEN) { open(HealthActivity::class.java) }
+    }
+
+    private fun accounts() {
+        val status = Aiwa.state.value.status
+        entryIcon(R.drawable.fw_i_claude, "Connexion Claude", null, PEACH,
+            if (status?.claudeLogin == "needed") "À relier" else if (status?.claudeLogin == "ok") "Relié" else null, if (status?.claudeLogin == "needed") Palette.RED else Palette.GREEN) { open(ClaudeLoginActivity::class.java) }
+        entryIcon(R.drawable.fw_i_github, "Connexion GitHub", null, LILAC,
+            if (status?.githubToken == true) "Connecté" else "À connecter", if (status?.githubToken == true) Palette.GREEN else Palette.RED) { open(GithubConnectActivity::class.java) }
+        entryIcon(R.drawable.fw_i_key, "Clés et plafonds", null, Palette.GOLD) { open(KeysActivity::class.java) }
     }
 
     private fun words() {
@@ -110,10 +121,6 @@ class SettingsActivity : FloatActivity() {
     }
 
     private fun voice() {
-        switchRow(R.drawable.fw_i_ear, "Écoute permanente", "", com.aiwa.app.voice.ListenSettings.enabled(this), PEACH) { on ->
-            com.aiwa.app.voice.ListenSettings.setEnabled(this, on)
-            if (on) com.aiwa.app.voice.VoiceService.start(this) else { com.aiwa.app.voice.VoiceService.stop(this); Aiwa.update { it.copy(listening = false) } }
-        }
         switchRow(R.drawable.fw_i_volume, "Voix naturelle", "", NaturalVoice.enabled(this), SKY) { NaturalVoice.setEnabled(this, it) }
         switchRow(R.drawable.fw_i_create, "Création à la volée", "", LiveSettings.enabled(this), PEACH) { LiveSettings.set(this, it) }
         entryIcon(R.drawable.fw_i_ear, "Ma voix", null, Palette.GOLD) { open(VoicePrintActivity::class.java) }
