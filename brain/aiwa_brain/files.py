@@ -4,6 +4,7 @@ import json
 import re
 import threading
 import time
+import urllib.parse
 from concurrent.futures import ThreadPoolExecutor
 
 from . import config, github, repos, sessions, state
@@ -70,6 +71,38 @@ def _cibles_of(asset):
     return found
 
 
+_branch_cache = {}                  # repo -> (time, {file: [cible]})
+BRANCH_CARDS_SECONDS = 120
+
+
+def _branch_cards(repo):
+    """Cards written on the BRANCH of a session (`aiwa-out/<file>.cibles.json`) when that session may not write into releases (a 403): the same card, read from where it was pushed. {file: [cible]}."""
+    with _lock:
+        cached = _branch_cache.get(repo)
+    if cached and time.time() - cached[0] < BRANCH_CARDS_SECONDS:
+        return cached[1]
+    found = {}
+    works = []
+    for entry in sessions.load_all():
+        if str(entry.get("repo") or "").lower() == repo.lower() and entry.get("work") and entry["work"] not in works:
+            works.append(entry["work"])
+    for work in works[:4]:
+        try:
+            listed = github.api(f"/repos/{repo}/contents/aiwa-out?ref={urllib.parse.quote(work, safe='/')}")
+        except github.GithubError:
+            continue
+        for node in listed if isinstance(listed, list) else []:
+            name = str(node.get("name") or "")
+            if name.endswith(CIBLES_SUFFIX) and node.get("download_url") and name[:-len(CIBLES_SUFFIX)] not in found:
+                raw = github.fetch(node["download_url"], 8000)
+                cards = parse_cibles(raw.decode("utf-8", "replace")) if raw else []
+                if cards:
+                    found[name[:-len(CIBLES_SUFFIX)]] = cards
+    with _lock:
+        _branch_cache[repo] = (time.time(), found)
+    return found
+
+
 def _items_of(repo):
     """The productions of one repository, newest first: one item per file of a production release."""
     with _lock:
@@ -90,6 +123,11 @@ def _items_of(repo):
                 "url": asset["url"], "ts": max(release["published"] or 0, asset.get("updated") or 0),   # a file put again into the same release (the film of the repository) is the newest
                 "page": release["page"], "cibles": _cibles_of(cards[asset["name"]]) if asset["name"] in cards else [],
             })
+    if any(not i["cibles"] for i in items):
+        on_branch = _branch_cards(repo)
+        for i in items:
+            if not i["cibles"] and i["file"] in on_branch:
+                i["cibles"] = on_branch[i["file"]]
     with _lock:
         _cache[repo] = (time.time(), items)
     return items

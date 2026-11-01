@@ -97,3 +97,17 @@ class CiblesTests(unittest.TestCase):
         self.assertEqual([c["kind"] for c in got], ["mail", "url", "social"])
         self.assertEqual([c["verified"] for c in got], [True, False, True])
         self.assertEqual(files.parse_cibles("pas du json"), [])
+
+
+class BranchCardsTests(unittest.TestCase):
+    def test_a_card_pushed_on_the_branch_of_the_session_is_read_when_the_release_has_none(self):
+        from unittest import mock
+        from aiwa_brain import files
+        card = json.dumps({"v": 1, "cibles": [{"kind": "mail", "value": "a@b.fr", "label": "A", "source": "https://b.fr"}]}).encode()
+        files._branch_cache.clear()
+        with mock.patch.object(files.sessions, "load_all", return_value=[{"repo": "me/app", "work": "aiwa/x"}]), \
+                mock.patch.object(files.github, "api", return_value=[{"name": "valeur.pdf.cibles.json", "download_url": "https://raw.example/valeur.pdf.cibles.json"}, {"name": "SIGNAL", "download_url": "https://raw.example/SIGNAL"}]), \
+                mock.patch.object(files.github, "fetch", return_value=card):
+            cards = files._branch_cards("me/app")
+        self.assertEqual(list(cards), ["valeur.pdf"])
+        self.assertEqual(cards["valeur.pdf"][0]["value"], "a@b.fr")
