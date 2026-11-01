@@ -70,6 +70,7 @@ class CiblesActivity : FloatActivity() {
     private fun use(c: Cible) {
         when (c.kind) {
             "mail" -> {
+                if (c.body.isNotBlank()) copyToClipboard(this, c.body)      // also in the clipboard: some messageries drop the text of a mailto
                 val uri = android.net.Uri.parse("mailto:" + android.net.Uri.encode(c.value, "@") + "?subject=" + android.net.Uri.encode(c.subject) + "&body=" + android.net.Uri.encode(c.body))
                 try { startActivity(Intent(Intent.ACTION_SENDTO, uri).putExtra(Intent.EXTRA_SUBJECT, c.subject).putExtra(Intent.EXTRA_TEXT, c.body)) } catch (err: Exception) { copyToClipboard(this, c.value); toastOnMain(this, "Adresse copiée : ${c.value}") }
             }
