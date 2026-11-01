@@ -143,7 +143,7 @@ object ChamberActions {
     }
 
     /** What a press of a cell of the chamber does. `activity` is needed for the questions (the description, Create): without one, the person is asked to open Aiwa. */
-    fun press(context: Context, id: String, activity: Activity? = context as? Activity, onDone: () -> Unit = {}, repo: String? = null) {
+    fun press(context: Context, id: String, activity: Activity? = context as? Activity, repo: String? = null, onDone: () -> Unit = {}) {
         val status = ChamberState.forRepo(repo) ?: ChamberState.status
         val key = status.optString("room").ifBlank { null }
         val partnered = status.optJSONObject("partner") != null

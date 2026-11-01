@@ -72,7 +72,7 @@ class ChamberService : Service() {
 
     override fun onDestroy() {
         ChamberHost.runner = null
-        ChamberState.update(this, JSONObject())
+        ChamberState.update(this, emptyList())
         web?.destroy(); web = null
         try { lock?.release() } catch (err: Exception) { /* not held */ }
         try { wifi?.release() } catch (err: Exception) { /* not held */ }
