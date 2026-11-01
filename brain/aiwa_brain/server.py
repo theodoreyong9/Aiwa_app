@@ -7,7 +7,7 @@ import time
 import urllib.parse
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
-from . import agent, agent_lib, asks, diagram, attachments, cast, chamber, claude_cli, config, files, github, github_login, instructions, studio, live, profile, questions, relay, repos, scenarios, sessions, state, update
+from . import agent, agent_lib, asks, attachments, cast, chamber, claude_cli, config, diagram, files, github, github_login, instructions, links, live, profile, questions, relay, repos, scenarios, sessions, state, studio, update
 
 
 def status():
@@ -238,6 +238,7 @@ GET = {
     "/api/film/info": lambda q: studio.info(),
     "/api/film/status": lambda q: {"ok": True, **studio.film.status()},
     "/api/film/get": lambda q: studio.film.get((q.get("id") or [""])[0]),
+    "/api/links": lambda q: {"ok": True, "links": links.get((q.get("repo") or [""])[0], (q.get("tag") or [""])[0], (q.get("file") or [""])[0])},
     "/api/files": lambda q: files.listing((q.get("repo") or [""])[0] or None),
     "/api/scenarios": lambda q: scenarios.scenario_api("/api/scenarios", ""),
     "/api/chamber": lambda q: chamber.chamber_api("/api/chamber", ""),
@@ -272,6 +273,7 @@ POST = {
     "/api/cast/clear": lambda body, data: cast.cast_clear(),
     "/api/live/set": lambda body, data: live.live_api("/api/live/set", body),
     "/api/persona/set": lambda body, data: _persona(data),
+    "/api/links/set": lambda body, data: links.set_links(data.get("repo"), data.get("tag"), data.get("file"), data.get("cible"), data.get("files")),
     "/api/style/set": lambda body, data: _style("set", data),
     "/api/style/clear": lambda body, data: _style("clear", data),
     "/api/profile": lambda body, data: profile.profile_apply(data),

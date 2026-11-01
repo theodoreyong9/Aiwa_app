@@ -53,7 +53,7 @@ import org.json.JSONArray
  * made by her own super agent from the two pages: nothing is sent to the other person), Chambre (to enter the room of the person), Café (a direct send of AIWA from her wallet, when she turned it on in
  * the settings and the person gave her signed card in « Voir »), and Widget (the buttons of Aiwa over the page).
  */
-class ProfileActivity : ComponentActivity() {
+class ProfileActivity : ComponentActivity(), com.aiwa.app.nav.VoiceNav {
     private val pages = HashMap<Int, WebView>()
     private lateinit var pager: ViewPager2
     private lateinit var urls: List<String>
@@ -160,6 +160,36 @@ class ProfileActivity : ComponentActivity() {
 
     /** The page on the screen is the person's own: the first of the home, while no profile of the zone is entered. */
     private fun isOwn(i: Int = pager.currentItem) = ownFirst && stack.isEmpty() && i == 0
+
+    // ---- the voice navigation of the Swipe: next and previous profile, open = Jump into the profile, close = back one level (or leave) ----
+    private fun nameAt(i: Int) = if (isOwn(i)) "ton profil" else urls.getOrNull(i)?.substringBefore('/').orEmpty()
+
+    override fun navNext(): String? {
+        val i = pager.currentItem
+        if (i + 1 >= urls.size) return "C'est le dernier profil."
+        pager.setCurrentItem(i + 1, true)
+        return "${i + 2} sur ${urls.size} : ${nameAt(i + 1)}"
+    }
+
+    override fun navPrev(): String? {
+        val i = pager.currentItem
+        if (i <= 0) return "C'est le premier profil."
+        pager.setCurrentItem(i - 1, true)
+        return "$i sur ${urls.size} : ${nameAt(i - 1)}"
+    }
+
+    override fun navOpen(): String? {
+        val i = pager.currentItem
+        if (isOwn(i)) return "C'est ton profil : dis suivant pour voir les autres."
+        swipeIn()
+        return "J'entre chez ${nameAt(i)}."
+    }
+
+    override fun navClose(): String? {
+        if (stack.isNotEmpty()) { back(); return "Je remonte d'un niveau." }
+        finish()
+        return "Fermé."
+    }
 
     private fun defaultKeys() = if (isOwn()) listOf("favoris", "reseau", "mur", "widget") else listOfNotNull("favoris", "swipe", "reseau", "give", "match", "widget", if (urls.size > 1) "rang" else null)
 

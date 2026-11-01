@@ -55,7 +55,8 @@ def parse_cibles(raw):
         if kind not in ("mail", "url", "social") or not value:
             continue
         source = str(c.get("source") or "").strip()
-        out.append({"kind": kind, "value": value, "label": " ".join(str(c.get("label") or "").split())[:60], "source": source if source.startswith("https://") else "", "verified": source.startswith("https://")})
+        out.append({"kind": kind, "value": value, "label": " ".join(str(c.get("label") or "").split())[:160], "source": source if source.startswith("https://") else "", "verified": source.startswith("https://"),
+                    "subject": " ".join(str(c.get("subject") or c.get("objet") or "").split())[:150], "body": str(c.get("body") or c.get("texte") or "").strip()[:3000]})
         if len(out) >= CIBLES_MAX:
             break
     return out

@@ -18,7 +18,7 @@ import androidx.activity.ComponentActivity
  * The small windows the widget opens (a list, a choice, a form): a card in the middle of a dimmed screen. A tap outside closes it. The theme is translucent and has no transition, so that a tap on
  * the widget shows the window at once. The card is built by `fill`, called once the window exists; `reload` empties it and calls `fill` again (the list of a window that changed).
  */
-abstract class FloatActivity : ComponentActivity() {
+abstract class FloatActivity : ComponentActivity(), com.aiwa.app.nav.VoiceNav {
     protected abstract val title: String
     protected abstract fun fill()
 
@@ -50,12 +50,66 @@ abstract class FloatActivity : ComponentActivity() {
         reload()
     }
 
+    // ---- the voice navigation: a cursor over what can be touched (never over a button: « ouvre » must not delete anything) ----
+    private var navIndex = -1
+
+    private fun navRows(): List<View> {
+        val out = ArrayList<View>()
+        fun walk(v: View) {
+            if (v.visibility != View.VISIBLE) return
+            if (v !is android.widget.Button && v.hasOnClickListeners()) { out.add(v); return }
+            if (v is ViewGroup) for (i in 0 until v.childCount) walk(v.getChildAt(i))
+        }
+        walk(card)
+        return out
+    }
+
+    private fun firstText(v: View): String {
+        if (v is TextView && v.text.isNotBlank()) return v.text.toString().trim().trimStart('●', '○', '☑', '☐', '✓', '✗', ' ').take(80)
+        if (v is ViewGroup) for (i in 0 until v.childCount) { val t = firstText(v.getChildAt(i)); if (t.isNotEmpty()) return t }
+        return ""
+    }
+
+    private fun showCursor(rows: List<View>) {
+        rows.forEachIndexed { i, v ->
+            v.foreground = if (i == navIndex) GradientDrawable().apply { setColor(Color.TRANSPARENT); setStroke(dp(2), Palette.GOLD); cornerRadius = dp(16).toFloat() } else null
+        }
+        rows.getOrNull(navIndex)?.let { v -> v.post { v.requestRectangleOnScreen(android.graphics.Rect(0, 0, v.width, v.height), false) } }
+    }
+
+    override fun navNext(): String? = navMove(1)
+    override fun navPrev(): String? = navMove(-1)
+
+    private fun navMove(delta: Int): String? {
+        val rows = navRows()
+        if (rows.isEmpty()) return null
+        val to = if (navIndex < 0) (if (delta > 0) 0 else rows.size - 1) else navIndex + delta
+        if (to < 0) return "C'est le premier."
+        if (to >= rows.size) return "C'est le dernier."
+        navIndex = to
+        showCursor(rows)
+        return "${to + 1} sur ${rows.size} : ${firstText(rows[to])}"
+    }
+
+    override fun navOpen(): String? {
+        val rows = navRows()
+        val v = rows.getOrNull(navIndex) ?: return if (rows.isEmpty()) null else "Dis suivant pour choisir d'abord."
+        val name = firstText(v)
+        v.performClick()
+        return "J'ouvre $name."
+    }
+
+    override fun navClose(): String? { finish(); return "Fermé." }
+
     protected fun reload() {
         card.removeAllViews()
         gridRow = null; gridCount = 0
         card.addView(TextView(this).apply { text = title; setTextColor(Palette.TEXT); textSize = 20f; setTypeface(null, Typeface.BOLD); setPadding(0, 0, 0, dp(8)) })
         fill()
         closeGridRow()
+        val rows = navRows()
+        navIndex = navIndex.coerceIn(-1, rows.size - 1)
+        showCursor(rows)
     }
 
     /** The last row of tiles is completed with empty places, so that the tiles keep the same width. */
