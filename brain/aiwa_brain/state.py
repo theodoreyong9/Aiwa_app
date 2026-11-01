@@ -62,6 +62,7 @@ self_update_last = {"at": 0.0, "result": "pas encore vérifié"}
 agent_lock = threading.Lock()
 agent = {"decisions": [], "sig": None, "last": 0.0, "say": None, "proposal": None, "command": None, "last_sent": [], "busy": False, "error": None}
 agent_chat = []
+session_reports = []     # the last short line of each session (reports.py)
 agent_log = []           # the journal of the super agent (agent.log)
 voice = voice_lib.Voice()
 llm = llm_lib.Llm()

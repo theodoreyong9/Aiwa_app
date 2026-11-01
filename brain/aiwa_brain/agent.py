@@ -66,6 +66,9 @@ def point(report=False):
         game = state.persona.status()["game"]
         if game.get("on"):
             extra.append(f"Course : toi (l'agent) {game['agent']} points, la personne {game['user']} points ; jour {game['day'] + 1}/{game['days']}, minimum {game['minimum']} pour gagner ; manches gagnées : toi {game['wins']['agent']}, elle {game['wins']['user']}." + (" Manche finie." if game.get("ended") else ""))
+        from . import reports
+        if reports.line():
+            extra.append(reports.line())
         if studio.film_progress_line():
             extra.append(studio.film_progress_line())
         with state.attach_lock:
