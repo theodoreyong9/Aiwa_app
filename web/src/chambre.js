@@ -15,7 +15,7 @@
 // What comes from the other is bounded text; plain words are the conversation, a "dm" (message or proposal) is given on only if BOTH pressed the danger button.
 import { joinRoom as trysteroJoin } from '@trystero-p2p/nostr';
 import { hostAvailable, hostCall } from './host.js';
-import { createChamber, nameOf } from './chambre-core.js';
+import { createChambers, nameOf } from './chambre-core.js';
 
 const APP_ID = 'aiwa-chambre-v1';
 
@@ -37,7 +37,7 @@ export function startChambre(params) {
       leave: () => room.leave(),
     };
   };
-  const chamber = createChamber({ join, me: { repo, name }, call: (cmd, args) => hostCall(cmd, args, { timeoutMs: 120_000 }), post: (c) => { if (hostAvailable()) window.AiwaHost.postMessage(JSON.stringify(c)); } });
-  window.aiwaChamber = { cmd: (c) => chamber.cmd(c), status: () => chamber.status() };
+  const chamber = createChambers({ join, me: { repo, name }, call: (cmd, args) => hostCall(cmd, args, { timeoutMs: 120_000 }), post: (c) => { if (hostAvailable()) window.AiwaHost.postMessage(JSON.stringify(c)); } });
+  window.aiwaChamber = { cmd: (c) => chamber.cmd(c), status: () => chamber.status(), speaking: () => chamber.speaking() };
   return chamber;
 }
