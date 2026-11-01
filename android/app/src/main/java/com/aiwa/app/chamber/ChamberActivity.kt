@@ -61,7 +61,7 @@ class ChamberActivity : FloatActivity() {
     /** Draws the window again only when something it shows changed (the buttons are touched while it is open). */
     private fun redraw() {
         val shown = ChamberActions.cellsFor(room)
-        val signature = statusLine() + "|" + shown.entries.joinToString { "${it.key}:${it.value.label}:${it.value.on}" } + "|" + (offers?.toString() ?: "")
+        val signature = statusLine() + "|" + ChamberState.rooms.joinToString { it.optBoolean("knock").toString() } + "|" + shown.entries.joinToString { "${it.key}:${it.value.label}:${it.value.on}" } + "|" + (offers?.toString() ?: "")
         if (signature != shownSignature) { shownSignature = signature; reload() }
     }
 
@@ -73,6 +73,13 @@ class ChamberActivity : FloatActivity() {
                 if (id == "room" && !isOwn) ChamberActions.visit(this, about) else ChamberActions.press(this, id, repo = about)
                 main.postDelayed({ redraw() }, 400)
             }
+        }
+        val knocking = ChamberState.rooms.firstOrNull { it.optBoolean("knock") }
+        if (knocking != null) {
+            val who = knocking.optJSONObject("partner")?.optString("name").orEmpty().ifBlank { "Quelqu'un" }
+            note("$who demande à parler avec ton super agent.", Palette.GOLD)
+            entry("Accepter", null, Palette.GREEN) { ChamberActions.answer(this, knocking, true); main.postDelayed({ redraw() }, 400) }
+            entry("Refuser") { ChamberActions.answer(this, knocking, false); main.postDelayed({ redraw() }, 400) }
         }
         note(statusLine())
         val list = offers ?: return

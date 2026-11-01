@@ -118,6 +118,7 @@ class SettingsActivity : FloatActivity() {
         entryIcon(R.drawable.fw_i_aiwa, "Mon profil", null, LILAC) { chooseProfile() }
         switchRow(R.drawable.fw_i_voir, "Se cacher", "", !VoirSettings.on(this), LILAC) { VoirSettings.setOn(this, !it) }
         switchRow(R.drawable.fw_i_room, "Chambre ouverte écran éteint", "", ChamberSettings.awake(this), SKY) { ChamberSettings.setAwake(this, it) }
+        switchRow(R.drawable.fw_i_room, "Recevoir les demandes de chambre", "", ChamberSettings.door(this), SKY) { ChamberSettings.setDoor(this, it); com.aiwa.app.chamber.ChamberActions.door(this, it) }
     }
 
     private fun voice() {

@@ -86,6 +86,18 @@ class ChamberService : Service() {
             .setContentIntent(open).addAction(Notification.Action.Builder(null, "Fermer la chambre", close).build()).setOngoing(true).build()
     }
 
+    /** Someone asks to talk with her agent: a notification, a line on the screen and the voice; nothing starts before she says yes. */
+    private fun announceKnock(room: JSONObject) {
+        val name = room.optJSONObject("partner")?.optString("name").orEmpty().ifBlank { "Quelqu'un" }
+        val open = PendingIntent.getActivity(this, 2, Intent(this, ChamberActivity::class.java).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK), PendingIntent.FLAG_IMMUTABLE or PendingIntent.FLAG_UPDATE_CURRENT)
+        val manager = getSystemService(NotificationManager::class.java)
+        manager.createNotificationChannel(NotificationChannel(CHANNEL_KNOCK, "Demandes de chambre", NotificationManager.IMPORTANCE_HIGH))
+        manager.notify(NOTIFICATION + 1, Notification.Builder(this, CHANNEL_KNOCK).setSmallIcon(android.R.drawable.stat_notify_chat).setContentTitle("$name veut parler à ton super agent").setContentText("Touche pour accepter ou refuser.").setContentIntent(open).setAutoCancel(true).build())
+        com.aiwa.app.common.toastOnMain(this, "$name demande à parler dans la chambre.")
+        val app = applicationContext
+        CoroutineScope(Dispatchers.IO).launch { try { Speaker.speakNatural(app, "$name demande à parler avec ton super agent. Ouvre la chambre pour accepter ou refuser.") } catch (err: Exception) { } }
+    }
+
     private fun command(cmd: JSONObject) {
         ensureWeb()
         if (ready) web?.evaluateJavascript("(window.aiwaChamber&&window.aiwaChamber.cmd($cmd))", null) else queue.add(cmd)
@@ -126,8 +138,10 @@ class ChamberService : Service() {
             "chamber-status" -> {
                 val list = json.optJSONArray("rooms")
                 val rooms = if (list != null) (0 until list.length()).mapNotNull { list.optJSONObject(it) } else listOfNotNull(json.optJSONObject("status")?.takeIf { it.optString("mode", "closed") != "closed" })
+                val knocked = rooms.filter { it.optBoolean("knock") && ChamberState.rooms.none { old -> old.optString("room") == it.optString("room") && old.optBoolean("knock") } }
                 ChamberState.update(this, rooms)
-                if (rooms.isEmpty()) main.postDelayed({ if (ChamberState.rooms.isEmpty()) stopSelf() }, 1500)
+                knocked.forEach { announceKnock(it) }
+                if (rooms.isEmpty() && !ChamberSettings.door(this)) main.postDelayed({ if (ChamberState.rooms.isEmpty()) stopSelf() }, 1500)
             }
             "chamber-active", "chamber-deliver", "chamber-note", "chamber-human" -> CoroutineScope(Dispatchers.IO).launch {
                 val path = when (json.optString("cmd")) { "chamber-active" -> "/api/chamber/active"; "chamber-note" -> "/api/chamber/note"; "chamber-human" -> "/api/chamber/human"; else -> "/api/chamber/deliver" }
@@ -159,6 +173,7 @@ class ChamberService : Service() {
 
     companion object {
         private const val CHANNEL = "aiwa_chamber"
+        private const val CHANNEL_KNOCK = "aiwa_chamber_knock"
         private const val NOTIFICATION = 8301
         private const val ACTION_CLOSE = "com.aiwa.app.CHAMBER_CLOSE"
     }

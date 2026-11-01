@@ -82,12 +82,13 @@ object ChamberActions {
         return mapOf(
             "room" to when {
                 room?.optString("refused") == "busy" -> RoomCell("Occupé", "red", false)
+                room?.optString("refused") == "refus" -> RoomCell("Refusé", "red", false)
                 closed -> RoomCell("Entrer", "grey", false)
                 conversing -> RoomCell("Avec $name", "green", true)
                 name != null -> RoomCell("$name est là", "green", true)
                 else -> RoomCell("En attente", "violet", true)
             },
-            "roomtalk" to RoomCell(if (conversing) "Couper" else "Converser", if (conversing) "red" else "green", conversing, name != null),
+            "roomtalk" to RoomCell(when { conversing -> "Couper"; room?.optBoolean("asking") == true -> "Demande envoyée"; room?.optString("mode") == "visit" -> "Demander"; else -> "Converser" }, if (conversing) "red" else "green", conversing || room?.optBoolean("asking") == true, name != null),
             "roomear" to RoomCell("Écouter", "violet", room?.optBoolean("ear") == true, !closed),
             "roomspeak" to RoomCell("Parler", "violet", room?.optBoolean("speak") == true, !closed),
             "roomcreate" to RoomCell(if (both) "Create actif" else "Create", "red", create, !closed),
@@ -128,6 +129,20 @@ object ChamberActions {
         val on = !room.optBoolean(mode)
         ChamberHost.send(context, JSONObject().put("cmd", mode).put("room", key).put("on", on))
         if (mode == "speak" && on) toastOnMain(context, "Ce que tu dis va dans cette chambre. Touche encore pour revenir à ton super agent.")
+    }
+
+    /** The door: the own room opens (someone can knock, the person accepts or not) or closes. */
+    fun door(context: Context, on: Boolean) {
+        val here = ProfileSettings.repo(context)
+        if (!ProfileView.valid(here)) return
+        val open = ChamberState.rooms.any { it.optString("room") == here }
+        if (on && !open) ChamberHost.send(context, JSONObject().put("cmd", "open").put("repo", here))
+        else if (!on && open) ChamberHost.send(context, JSONObject().put("cmd", "close").put("room", here))
+    }
+
+    /** She answers the one who knocked. */
+    fun answer(context: Context, room: JSONObject, yes: Boolean) {
+        ChamberHost.send(context, JSONObject().put("cmd", if (yes) "accept" else "refuse").put("room", room.optString("room")))
     }
 
     /** She went to another profile: nobody listens or speaks any more; the chambers themselves go on. */
