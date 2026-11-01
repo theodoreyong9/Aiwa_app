@@ -4,7 +4,7 @@ import re
 import threading
 import time
 
-from . import agent, config, github, live, relay, scen_lib, scen_sync, sessions, state
+from . import agent, config, github, live, relay, scen_invent, scen_lib, scen_sync, sessions, state
 
 
 def _scen_sessions():
@@ -306,6 +306,8 @@ def scenario_api(path, body):
         data = {}
     data = data if isinstance(data, dict) else {}
     sid = str(data.get("id") or "")
+    if path == "/api/scenarios/invent":
+        return scen_invent.invent(str(data.get("repo") or "") or None, str(data.get("session") or "") or None)      # only proposes: nothing is saved here
     scenarios = scen_lib.load(config.SCENARIOS_FILE)
 
     def listing():

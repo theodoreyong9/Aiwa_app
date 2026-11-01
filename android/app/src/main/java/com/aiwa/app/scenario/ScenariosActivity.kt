@@ -46,6 +46,43 @@ class ScenariosActivity : FloatActivity() {
             entry(sc.name, "« ${sc.word} » · $state" + (sc.repo?.let { " · $it" } ?: ""), Palette.CARD) { menu(sc) }
         }
         entry("＋ Nouveau scénario", "un mot, une consigne, ce que son double dit et ce qu'il se tait") { startActivity(Intent(this, ScenarioEditActivity::class.java)) }
+        entry("✨ Inventer", "Aiwa en propose un à partir de ton dépôt, de ta session, ou des deux") { inventChoose() }
+    }
+
+    /** « Inventer »: from which source? The repository and the session in use now. */
+    private fun inventChoose() {
+        val status = Aiwa.state.value.status
+        val repo = status?.repo
+        val session = status?.session
+        val labels = mutableListOf<String>()
+        val picks = mutableListOf<Pair<String?, String?>>()
+        if (repo != null) { labels.add("Le dépôt : $repo"); picks.add(repo to null) }
+        if (session != null) { labels.add("La session en cours"); picks.add(null to session) }
+        if (repo != null && session != null) { labels.add("Les deux"); picks.add(repo to session) }
+        if (labels.isEmpty()) { toastOnMain(applicationContext, "Choisis d'abord un dépôt ou une session."); return }
+        AlertDialog.Builder(this).setTitle("Inventer à partir de…").setItems(labels.toTypedArray()) { _, i -> invent(picks[i].first, picks[i].second) }.setNegativeButton("Annuler", null).show()
+    }
+
+    private fun invent(repo: String?, session: String?) {
+        CoroutineScope(Dispatchers.Main).launch {
+            toastOnMain(applicationContext, "J'invente un scénario… (jusqu'à une minute sans clé Anthropic)")
+            val out = withContext(Dispatchers.IO) { Aiwa.brain.scenarioInvent(repo, session) }
+            val raw = out.json.optJSONObject("scenario")
+            if (!out.ok || raw == null) { toastOnMain(applicationContext, out.error ?: "Rien d'inventé."); return@launch }
+            val sc = Scenario.parse(raw)
+            val words = if (sc.words.isEmpty()) "" else "\n\nMots spéciaux : " + sc.words.joinToString(" ; ") { "« ${it.word} » : ${it.does}" }
+            AlertDialog.Builder(this@ScenariosActivity).setTitle(sc.name)
+                .setMessage("Mot de lancement : « ${sc.word} »\n\n${sc.prompt}\n\nCe qu'il dit : ${sc.speak}$words")
+                .setPositiveButton("Garder") { _, _ ->
+                    CoroutineScope(Dispatchers.Main).launch {
+                        val saved = withContext(Dispatchers.IO) { Aiwa.brain.scenarioSave(sc) }
+                        toastOnMain(applicationContext, if (saved.ok) "Scénario « ${sc.name} » gardé." else (saved.error ?: "Pas gardé."))
+                        load()
+                    }
+                }
+                .setNeutralButton("Modifier") { _, _ -> startActivity(Intent(this@ScenariosActivity, ScenarioEditActivity::class.java).putExtra("invented", raw.toString())) }
+                .setNegativeButton("Jeter", null).show()
+        }
     }
 
     private fun menu(sc: Scenario) {
