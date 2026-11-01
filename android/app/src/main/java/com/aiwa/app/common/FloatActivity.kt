@@ -61,7 +61,11 @@ abstract class FloatActivity : ComponentActivity() {
     /** The last row of tiles is completed with empty places, so that the tiles keep the same width. */
     private fun closeGridRow() {
         val row = gridRow ?: return
-        while (gridCount < gridColumns) { row.addView(View(this), LinearLayout.LayoutParams(0, dp(TILE_HEIGHT), 1f).apply { setMargins(dp(4), 0, dp(4), 0) }); gridCount++      // MATCH_PARENT like the tiles: a fixed height here made the whole row collapse }
+        // the empty places have the height of the tiles (a different height made the whole row collapse)
+        while (gridCount < gridColumns) {
+            row.addView(View(this), LinearLayout.LayoutParams(0, dp(TILE_HEIGHT), 1f).apply { setMargins(dp(4), 0, dp(4), 0) })
+            gridCount++
+        }
         gridRow = null; gridCount = 0
     }
 
