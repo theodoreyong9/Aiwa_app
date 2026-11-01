@@ -32,6 +32,6 @@ class AiwaApp : Application() {
         val build = try { packageManager.getPackageInfo(packageName, 0).versionName } catch (err: Exception) { null } ?: return
         if (prefs.getString("brain_for_build", null) == build) return
         prefs.edit().putString("brain_for_build", build).apply()
-        if (hasTermuxPermission(this)) startBrainViaTermux(this, forceRestart = true)
+        if (hasTermuxPermission(this)) startBrainViaTermux(this)      // pulls the latest code; the brain restarts only if the code really changed
     }
 }
