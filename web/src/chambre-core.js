@@ -18,6 +18,8 @@ export function createChamber({ join, call, post, me }) {
   let conversing = false;
   let dangerMe = false, dangerThem = false;
   let ear = false;
+  let asking = false;                  // the visitor knocked and waits for the answer of the one visited
+  let knock = false;                   // the visitor of my room knocked: the person says yes or no
   let speak = false;                   // what the person says by voice goes into this chamber, as from her human (the phone decides which chamber, only one at a time)
   let myNote = '';                     // what the person wrote for the agent of the other (never shown to the other person; it goes to the other's brain only)
   let refused = null;                  // why a conversation did not start ("busy": the other is already in one)
@@ -26,7 +28,7 @@ export function createChamber({ join, call, post, me }) {
   let last = '';
 
   const status = () => ({
-    mode, room: roomRepo, partner: partner ? { repo: partner.repo, name: partner.name } : null, conversing, dangerMe, dangerThem, ear, speak, refused,
+    mode, room: roomRepo, partner: partner ? { repo: partner.repo, name: partner.name } : null, conversing, asking, knock, dangerMe, dangerThem, ear, speak, refused,
     connected: mode !== 'closed', waiting: mode !== 'closed' && !partner,
   });
   const emit = () => { const s = status(); const key = JSON.stringify(s); if (key !== last) { last = key; post({ cmd: 'chamber-status', status: s }); } };
@@ -89,11 +91,20 @@ export function createChamber({ join, call, post, me }) {
         // the other is in a chamber already (or its super agent is): nothing starts, and a conversation we had begun stops
         if (partner && partner.id === id) { await stop(false); partner = null; dangerThem = false; }
         else if (!partner) { /* a stranger said it, before any hello */ }
-        refused = 'busy'; emit();
+        asking = false; refused = 'busy'; emit();
         return;
       }
+      case 'knock': {
+        // the visitor asks to talk: nothing starts until the person visited accepts
+        if (mode !== 'host' || !partner || partner.id !== id || conversing) return;
+        if (typeof message.note === 'string') partner.note = clip(message.note, 400);
+        knock = true; emit();
+        return;
+      }
+      case 'refuse': if (partner && partner.id === id && asking) { asking = false; refused = 'refus'; emit(); } return;
       case 'begin': {
         if (!partner || partner.id !== id || conversing) return;
+        asking = false;
         if (typeof message.note === 'string') partner.note = clip(message.note, 400);
         starting = (async () => {
           try { const out = await call('chamber-active', { on: true, peer: partner.repo, name: partner.name }); if (out?.busy || out?.ok === false) throw new Error(out?.busy ? 'busy' : (out.error || 'refusé')); }
@@ -129,6 +140,7 @@ export function createChamber({ join, call, post, me }) {
       case 'end': {
         if (starting) await starting;
         if (partner && partner.id === id && conversing) { stop(false); emit(); }
+        else if (partner && partner.id === id) { knock = false; asking = false; emit(); }
         return;
       }
       default:
@@ -149,7 +161,7 @@ export function createChamber({ join, call, post, me }) {
   const leave = async () => {
     await stop(true);
     try { room?.leave(); } catch { /* already out */ }
-    room = null; mode = 'closed'; roomRepo = null; partner = null; dangerThem = false; refused = null; ear = false; speak = false;
+    room = null; mode = 'closed'; roomRepo = null; partner = null; dangerThem = false; refused = null; ear = false; speak = false; asking = false; knock = false;
     emit();
   };
 
@@ -162,14 +174,20 @@ export function createChamber({ join, call, post, me }) {
       case 'close': await leave(); break;
       case 'begin': {
         if (!partner || conversing) break;
+        if (mode === 'visit') {                                                                               // the visitor asks; the visited accepts or not
+          await loadNote(); refused = null; asking = true; send({ t: 'knock', note: myNote }); emit(); break;
+        }
+        knock = false;
         await loadNote();
         try { const out = await call('chamber-active', { on: true, peer: partner.repo, name: partner.name }); if (out?.busy || out?.ok === false) throw new Error(out?.busy ? 'busy' : (out.error || 'refusé')); }
-        catch (err) { refused = String(err?.message || 'busy').slice(0, 160); emit(); break; }
+        catch (err) { refused = String(err?.message || 'busy').slice(0, 160); send({ t: 'busy' }); emit(); break; }
         conversing = true; refused = null; send({ t: 'begin', note: myNote }); emit();
         takeTurn(null);                                                                                       // the one who starts opens the conversation
         break;
       }
-      case 'end': await stop(true); emit(); break;
+      case 'accept': if (knock) { knock = false; return run({ cmd: 'begin' }); } break;
+      case 'refuse': if (knock) { knock = false; send({ t: 'refuse' }); emit(); } break;
+      case 'end': asking = false; await stop(true); emit(); break;
       case 'danger': dangerMe = c.on === true || (c.on === undefined && !dangerMe); send({ t: 'danger', on: dangerMe }); emit(); break;
       case 'ear': ear = c.on === true || (c.on === undefined && !ear); emit(); break;
       case 'speak': speak = c.on === true || (c.on === undefined && !speak); emit(); break;
