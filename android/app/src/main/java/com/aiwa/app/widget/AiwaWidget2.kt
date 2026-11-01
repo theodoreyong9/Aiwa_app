@@ -14,16 +14,15 @@ import com.aiwa.app.cast.CastActivity
 import com.aiwa.app.scenario.ScenariosActivity
 import com.aiwa.app.settings.SettingsActivity
 import com.aiwa.app.update.InstallUpdateActivity
-import com.aiwa.app.voice.EarToggleActivity
 import com.aiwa.app.web.WebActivity
 
 /**
- * The second widget: the same functions as the first, in a grid. Tabs: Réglages (opens the settings), Aiwa (the page shown) and Mise à jour (opens the update); in Aiwa twelve buttons: Question, Oreille, Fichiers
+ * The second widget: the same functions as the first, in a grid. Tabs: Réglages (opens the settings), Aiwa (the page shown) and Mise à jour (opens the update); in Aiwa twelve buttons: Question, Super agent (the ear), Fichiers
  * (the kinds of files and Ajouter), Cast, Scénarios, Swipe, Chambre, Favoris, Repo (the choice of the repository, a link on each line), Session (the linked session, a Claude button on each line), Wallet and
  * Search (Lien and QR code). Native views (res/layout/widget2.xml), no drawing: a tap opens the same windows as the first widget.
  */
 object AiwaWidget2 {
-    private val CELLS = listOf("question", "ear", "files", "cast", "scenario", "swipe", "room", "fav", "repo", "session", "wallet", "search")
+    private val CELLS = listOf("question", "agent", "files", "cast", "scenario", "swipe", "room", "fav", "repo", "session", "wallet", "search")
 
     fun ids(context: Context): IntArray = AppWidgetManager.getInstance(context).getAppWidgetIds(ComponentName(context, AiwaWidget2Provider::class.java))
 
@@ -43,7 +42,7 @@ object AiwaWidget2 {
         val roomOpen = snap.chamberMode != "closed"
         val targets = mapOf(
             "question" to activity(context, 1, com.aiwa.app.question.AskActivity::class.java),
-            "ear" to activity(context, 2, EarToggleActivity::class.java),
+            "agent" to activity(context, 2, AiwaWidget.agentTarget(context, snap)),
             "files" to activity(context, 3, FilesHubActivity::class.java),
             "cast" to activity(context, 4, CastActivity::class.java),
             "scenario" to activity(context, 5, ScenariosActivity::class.java),
@@ -55,7 +54,7 @@ object AiwaWidget2 {
             "wallet" to activity(context, 11, Intent(context, WebActivity::class.java).putExtra(WebActivity.EXTRA_PAGE, "wallet")),
             "search" to activity(context, 12, SearchHubActivity::class.java),
         )
-        val on = setOf("ear").filter { snap.listening }.toSet() + (if (roomOpen) setOf("room") else emptySet()) + (if (status?.ask != null) setOf("question") else emptySet())
+        val on = (if (snap.agentOpen || snap.listening) setOf("agent") else emptySet()) + (if (roomOpen) setOf("room") else emptySet()) + (if (status?.ask != null) setOf("question") else emptySet())
         CELLS.forEachIndexed { i, id ->
             val cell = context.resources.getIdentifier("w2_c_$id", "id", context.packageName)
             val text = context.resources.getIdentifier("w2_t_$id", "id", context.packageName)
@@ -63,7 +62,7 @@ object AiwaWidget2 {
             v.setInt(cell, "setBackgroundResource", if (id in on) R.drawable.preview_cell_agent else R.drawable.preview_cell)
             if (id == "repo") v.setTextViewText(text, FilesScope.label(context, status?.repo).take(10))
             if (id == "session") v.setTextViewText(text, (snap.sessionTitle ?: "Session").take(10))
-            if (id == "ear") v.setTextViewText(text, if (snap.listening) "Écoute" else "Oreille")
+            if (id == "agent") v.setTextViewText(text, CellModels.of(context, snap).getValue("agent").label.take(14))
             if (id == "room") v.setTextViewText(text, if (roomOpen) "En cours" else "Chambre")
         }
         v.setOnClickPendingIntent(R.id.w2_tab_settings, activity(context, 20, SettingsActivity::class.java))

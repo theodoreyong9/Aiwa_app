@@ -92,6 +92,21 @@ object AiwaWidget {
     /** One cell of a page: what is drawn, its share of the row, and what a tap does (none = nothing). */
     private class Cell(val btn: WidgetArt.Btn, val weight: Float, val click: PendingIntent?, val zone: Int? = null)
 
+    /** What the Super agent button opens: the window that gives what is missing first, else the switch of the agent. */
+    fun agentTarget(context: Context, snap: Snapshot): Class<*> {
+        val status = snap.status
+        val needsSetup = !hasTermuxPermission(context)
+        return when {
+            snap.link == Link.MISSING -> com.aiwa.app.brain.InstallHelpActivity::class.java
+            status?.agent?.let { it.say != null || it.proposal != null || (it.command != null && !it.command!!.auto) } == true -> com.aiwa.app.agent.ProposalActivity::class.java      // what waits for her word first: it is the only way to clear a red tab
+            needsSetup -> com.aiwa.app.brain.SetupActivity::class.java
+            status?.claudeLogin == "needed" -> com.aiwa.app.settings.ClaudeLoginActivity::class.java
+            status != null && !status.githubToken -> com.aiwa.app.settings.GithubConnectActivity::class.java
+            status?.waiting == true || (status?.silenceMinutes ?: 0) > 0 || snap.link == Link.DOWN -> com.aiwa.app.agent.ProposalActivity::class.java      // red for another reason: the window says which, and still lets her switch the agent
+            else -> AgentToggleActivity::class.java
+        }
+    }
+
     private fun id(context: Context, name: String): Int = context.resources.getIdentifier(name, "id", context.packageName)
 
     private fun build(context: Context, snap: Snapshot, tab: String): RemoteViews {
@@ -129,15 +144,7 @@ object AiwaWidget {
         fun btn(icon: Int, id: String, iconOnly: Boolean = false): WidgetArt.Btn { val m = models.getValue(id); return WidgetArt.Btn(icon, m.label, m.tone, m.enabled, iconOnly) }
         // ---- Build ----
         val needsSetup = !hasTermuxPermission(context)
-        val robotTarget: Class<*> = when {
-            snap.link == Link.MISSING -> com.aiwa.app.brain.InstallHelpActivity::class.java
-            status?.agent?.let { it.say != null || it.proposal != null || (it.command != null && !it.command!!.auto) } == true -> com.aiwa.app.agent.ProposalActivity::class.java      // what waits for her word first: it is the only way to clear a red tab
-            needsSetup -> com.aiwa.app.brain.SetupActivity::class.java
-            status?.claudeLogin == "needed" -> com.aiwa.app.settings.ClaudeLoginActivity::class.java
-            status != null && !status.githubToken -> com.aiwa.app.settings.GithubConnectActivity::class.java
-            status?.waiting == true || (status?.silenceMinutes ?: 0) > 0 || snap.link == Link.DOWN -> com.aiwa.app.agent.ProposalActivity::class.java      // red for another reason: the window says which, and still lets her switch the agent
-            else -> AgentToggleActivity::class.java
-        }
+        val robotTarget: Class<*> = agentTarget(context, snap)
         val hasSession = snap.sessionId != null || status?.lastSession != null
         val roomOpen = snap.chamberMode != "closed" || status?.chamber?.active == true
         val firstRow = buildList {
