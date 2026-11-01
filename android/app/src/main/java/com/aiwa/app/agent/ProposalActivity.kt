@@ -47,7 +47,7 @@ class ProposalActivity : FloatActivity() {
             }
             command != null -> {
                 note(command.readBack, Palette.TEXT)
-                entry("Appliquer", "C'est bon") { CoroutineScope(Dispatchers.Main).launch { AgentScreens.apply(applicationContext, command); finish() } }
+                entry("Appliquer", "C'est bon") { CoroutineScope(Dispatchers.Main).launch { AgentScreens.apply(this@ProposalActivity, command); finish() } }
                 entry("Annuler", "Rien n'est changé") { drop(command.id) }
             }
             view?.say != null -> {
