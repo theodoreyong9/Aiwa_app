@@ -97,6 +97,16 @@ class Brain(private val net: Transport = HttpTransport()) {
 
     // ---------- the productions ----------
     fun files(repo: String? = null): Files? = getJson("/api/files" + (if (repo != null) "?repo=" + java.net.URLEncoder.encode(repo, "UTF-8") else ""))?.let { Files.parse(it) }
+    /** The files ticked for each recipient of a file: {recipient value: ["repo|tag|file", …]}. */
+    fun links(repo: String, tag: String, file: String): Map<String, List<String>> {
+        val o = getJson("/api/links?repo=" + java.net.URLEncoder.encode(repo, "UTF-8") + "&tag=" + java.net.URLEncoder.encode(tag, "UTF-8") + "&file=" + java.net.URLEncoder.encode(file, "UTF-8"))?.optJSONObject("links") ?: return emptyMap()
+        val out = LinkedHashMap<String, List<String>>()
+        for (k in o.keys()) { val a = o.optJSONArray(k) ?: continue; out[k] = (0 until a.length()).mapNotNull { a.optJSONObject(it)?.let { f -> f.optString("repo") + "|" + f.optString("tag") + "|" + f.optString("file") } } }
+        return out
+    }
+    fun setLinks(repo: String, tag: String, file: String, cible: String, files: List<String>): Outcome =
+        act("/api/links/set", JSONObject().put("repo", repo).put("tag", tag).put("file", file).put("cible", cible)
+            .put("files", JSONArray(files.map { f -> val p = f.split("|", limit = 3); JSONObject().put("repo", p[0]).put("tag", p.getOrElse(1) { "" }).put("file", p.getOrElse(2) { "" }) })))
     fun fileDelete(repo: String, tag: String): Outcome = act("/api/files/delete", JSONObject().put("repo", repo).put("tag", tag))
     fun fileShare(repo: String, tag: String, file: String): ShareInfo? {
         val o = act("/api/files/share", JSONObject().put("repo", repo).put("tag", tag).put("file", file))
