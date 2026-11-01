@@ -58,11 +58,17 @@ class RepoSessionActivity : FloatActivity() {
         // the sessions of this repository, and those made before a repository was known (they have none noted): the one in use is always there, first
         val mine = list.filter { it.repo.equals(repo, ignoreCase = true) || it.repo.isNullOrBlank() || it.id == current }.sortedByDescending { it.id == current }
         if (mine.isEmpty()) note("Aucune session sur ce dépôt pour l'instant.")
-        for (s in mine) entry((if (s.id == current) "● " else "○ ") + s.title, (if (s.id == current) "en cours" else if (s.repo.isNullOrBlank()) "dépôt non noté · touche pour en faire la session en cours" else "Touche pour en faire la session en cours") + " · appui long : renommer", Palette.CARD) {
-            act("Session : ${s.title}") { Aiwa.brain.select(s.id) }
-        }.setOnLongClickListener { rename(s); true }
+        for (s in mine) entryWithAction((if (s.id == current) "● " else "○ ") + s.title, (if (s.id == current) "en cours" else if (s.repo.isNullOrBlank()) "dépôt non noté · touche pour en faire la session en cours" else "Touche pour en faire la session en cours") + " · appui long : renommer", Palette.CARD, "Claude",
+            { act("Session : ${s.title}") { Aiwa.brain.select(s.id) } }, { openInClaude(s) }).setOnLongClickListener { rename(s); true }
         entry("＋ Nouvelle session", "Je la crée tout de suite sur ce dépôt") { act("Je crée une session sur ${repo.substringAfter('/')}…") { Aiwa.brain.newSession(repo) } }
         entry("Une session qui existe déjà", "copie son lien (claude.ai/code/session_…) ou le nom de sa branche, puis touche ici") { addExisting() }
+    }
+
+    /** The Claude button of a line: that session, in the Claude app (the browser without it). */
+    private fun openInClaude(s: com.aiwa.client.Session) {
+        val target = android.net.Uri.parse(s.url?.takeIf { it.startsWith("https://claude.ai/") } ?: "https://claude.ai/code/${s.id}")
+        fun view() = android.content.Intent(android.content.Intent.ACTION_VIEW, target).addFlags(android.content.Intent.FLAG_ACTIVITY_NEW_TASK)
+        try { startActivity(view().setPackage("com.anthropic.claude")) } catch (err: Exception) { try { startActivity(view()) } catch (err2: Exception) { toastOnMain(this, "Impossible d'ouvrir Claude.") } }
     }
 
     /** A session of Claude's that already exists (its link or its branch, copied): it is added and becomes the one in use. */

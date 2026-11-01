@@ -87,6 +87,12 @@
                 <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
             </intent-filter>
         </receiver>
+        <receiver android:name=".widget.AiwaWidget2Provider" android:label="Aiwa (grille)" android:exported="true">
+            <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE" /></intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/aiwa_widget2_info" />
+        </receiver>
+        <activity android:name=".widget.FilesHubActivity" android:exported="false" android:theme="@style/Theme.Float" android:taskAffinity="" android:excludeFromRecents="true" />
+        <activity android:name=".widget.SearchHubActivity" android:exported="false" android:theme="@style/Theme.Float" android:taskAffinity="" android:excludeFromRecents="true" />
         <receiver android:name=".widget.AiwaWidgetProvider" android:exported="true">
             <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE" /></intent-filter>
             <meta-data android:name="android.appwidget.provider" android:resource="@xml/aiwa_widget_info" />
