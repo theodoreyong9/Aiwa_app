@@ -53,7 +53,7 @@ class CiblesActivity : FloatActivity() {
             tools.addView(android.widget.Button(this).apply {
                 text = if (n == 0) "PJ" else "PJ ($n)"; isAllCaps = false; textSize = 13f
                 if (n > 0) setTextColor(Palette.GREEN)
-                setOnClickListener { startActivity(PjActivity.intent(this@CiblesActivity, repo, tag, file, c.value, title)) }
+                setOnClickListener { startActivity(PjActivity.intent(this@CiblesActivity, this@CiblesActivity.repo, this@CiblesActivity.tag, this@CiblesActivity.file, c.value, this@CiblesActivity.title)) }
             })
             if (c.body.isNotBlank()) tools.addView(android.widget.Button(this).apply { text = "Texte"; isAllCaps = false; textSize = 13f; setOnClickListener { showText(c) } })
             add(tools, 2)
