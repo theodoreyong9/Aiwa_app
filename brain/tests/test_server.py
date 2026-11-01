@@ -119,7 +119,7 @@ class Routes(unittest.TestCase):
         self.assertTrue(json.loads(self.get("/api/scenarios")[2])["scenarios"])
         self.assertFalse(json.loads(self.get("/api/chamber")[2])["active"])
         self.assertTrue(self.post("/api/chamber/active", {"on": True, "peer": "anna/profil", "name": "Anna"})["active"])
-        self.assertFalse(self.post("/api/chamber/active", {"on": False})["active"])
+        self.assertFalse(self.post("/api/chamber/active", {"on": False, "peer": "anna/profil"})["active"])
 
 
 if __name__ == "__main__":

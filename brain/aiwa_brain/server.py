@@ -20,7 +20,7 @@ def status():
     with state.waiting_lock:
         is_waiting, last_ping = state.waiting["since"] is not None, state.waiting["last_ping"]
     with state.chamber_lock:
-        room = {"active": state.chamber["active"], "peer": state.chamber["peer"], "name": state.chamber["name"]}
+        room = {"active": bool(state.chambers), "rooms": [{"peer": p, "name": r["name"]} for p, r in state.chambers.items()]}
     return {
         "version": config.BACKEND_VERSION, "sending": sending, "last_send": state.last_send, "sending_since": sending_since, "sending_note": sending_note or None, "model": model, "effort": effort,
         "cloud_session": cloud_session, "last_session": last or next((e.get("id") for e in sessions.load_all() if e.get("id")), None),

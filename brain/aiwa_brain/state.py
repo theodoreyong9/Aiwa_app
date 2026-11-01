@@ -72,7 +72,7 @@ style = style_lib.Style(config.APP_DIR / "style.json")      # the person's way o
 # The chamber: the super agent meets the one of someone else, in a room they both pressed the button of (chamber_lib has the rules). A super agent is in ONE chamber at a time; the lines are what was said.
 chamber_lock = threading.Lock()
 chamber_offers = []       # what the others proposed with something attached (a slide, a video…): the person sees it and opens it or not
-chamber = {"active": False, "peer": None, "name": None, "lines": []}
+chambers = {}             # peer repository -> {"name", "lines"}: one chamber per other person, several at once
 match_cache = {}
 
 # The scenarios: a prompt under a launch word of the person's own, each one a super agent of its own.
