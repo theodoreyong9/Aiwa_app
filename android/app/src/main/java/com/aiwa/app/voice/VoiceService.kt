@@ -294,6 +294,7 @@ class VoiceService : Service() {
             when {
                 OFF_PHRASE.containsMatchIn(WakeWords.plain(order.replace('-', ' '))) -> { Speaker.speakNatural(applicationContext, Words.spoken(applicationContext, "asleep")); closeAgent(); return }
                 Spoken.reply(text) == Reply.STOP -> { stopEverything(); Speaker.speakNatural(applicationContext, "D'accord.") }
+                com.aiwa.client.NavWords.commandOf(text) != null -> navigate(com.aiwa.client.NavWords.commandOf(text)!!)
                 scenarioNow != null -> talkToScenario(scenarioNow, text)
                 LiveSettings.enabled(applicationContext) -> live(text)
                 isQuestion(order) -> answerAloud(order)
@@ -308,6 +309,13 @@ class VoiceService : Service() {
             working = false
             withContext(kotlinx.coroutines.NonCancellable) { if (agentMode) { delay(300); listenAgent() } }
         }
+    }
+
+    /** « suivant », « précédent », « ouvre », « ferme » said alone: they move on the screen that is open, with no model in between. What is reached is said in a few words. */
+    private suspend fun navigate(cmd: String) {
+        val said = withContext(Dispatchers.Main) { com.aiwa.app.nav.Navigator.run(cmd) }
+        showLine(said, mine = false)
+        Speaker.speakNatural(applicationContext, said)
     }
 
     /** A question: answered sentence by sentence, the voice starts on the first one. */

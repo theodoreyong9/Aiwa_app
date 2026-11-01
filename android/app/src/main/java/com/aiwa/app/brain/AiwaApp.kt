@@ -17,6 +17,15 @@ class AiwaApp : Application() {
         ListenSettings.resetForNewVersion(this)
         wakeAiwa(this)
         updateBrainWithTheBody()
+        registerActivityLifecycleCallbacks(object : android.app.Application.ActivityLifecycleCallbacks {
+            override fun onActivityResumed(activity: android.app.Activity) { com.aiwa.app.nav.Navigator.resumed(activity) }
+            override fun onActivityPaused(activity: android.app.Activity) { com.aiwa.app.nav.Navigator.paused(activity) }
+            override fun onActivityCreated(activity: android.app.Activity, savedInstanceState: android.os.Bundle?) {}
+            override fun onActivityStarted(activity: android.app.Activity) {}
+            override fun onActivityStopped(activity: android.app.Activity) {}
+            override fun onActivitySaveInstanceState(activity: android.app.Activity, outState: android.os.Bundle) {}
+            override fun onActivityDestroyed(activity: android.app.Activity) {}
+        })
         val app = this
         CoroutineScope(Dispatchers.Default).launch { Aiwa.state.sample(300).collect { AiwaWidget.render(app) } }
         // a diagram the super agent has just drawn (when the person turned the option on) is shown at once
