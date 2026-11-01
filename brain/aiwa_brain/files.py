@@ -117,7 +117,7 @@ def _items_of(repo):
             continue
         cards = {a["name"][:-len(CIBLES_SUFFIX)]: a for a in release["assets"] if a["name"].endswith(CIBLES_SUFFIX)}
         for asset in release["assets"]:
-            if asset["name"].endswith(CIBLES_SUFFIX):
+            if asset["name"].endswith(CIBLES_SUFFIX) or asset["name"].endswith(".pj.json"):
                 continue
             items.append({
                 "repo": repo, "kind": kind, "tag": release["tag"], "release": release["id"], "title": _title(release, asset), "file": asset["name"], "size": asset["size"],

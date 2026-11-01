@@ -421,6 +421,21 @@ def put_file(repo, path, raw, message):
     return path
 
 
+def delete_file(repo, path, message):
+    """Removes a file of the default branch of a repository (nothing when it is not there). Raises GithubError."""
+    if not token_value():
+        raise GithubError("pas de jeton GitHub (réglages : clés et plafonds)")
+    route = f"/repos/{repo}/contents/{urllib.parse.quote(path)}"
+    try:
+        old = api(route)
+    except GithubError as err:
+        if "404" in str(err):
+            return
+        raise
+    if isinstance(old, dict) and old.get("sha"):
+        api(route, method="DELETE", body={"message": message, "sha": old["sha"]}, timeout=60)
+
+
 def fetch(url, limit):
     """The bytes at an https address (a release's file: the redirect is followed), None when it is not a 200 or larger than `limit`."""
     if not url.startswith("https://"):

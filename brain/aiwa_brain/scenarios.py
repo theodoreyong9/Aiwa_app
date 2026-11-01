@@ -4,7 +4,7 @@ import re
 import threading
 import time
 
-from . import agent, config, github, live, relay, scen_lib, sessions, state
+from . import agent, config, github, live, relay, scen_lib, scen_sync, sessions, state
 
 
 def _scen_sessions():
@@ -316,10 +316,12 @@ def scenario_api(path, body):
             if error:
                 return {"ok": False, "error": error}
             scen_lib.save(config.SCENARIOS_FILE, scenarios)
+            scen_sync.sync_soon()
         elif path == "/api/scenarios/delete":
             scenarios = [s for s in scenarios if s["id"] != sid]
             scen_lib.save(config.SCENARIOS_FILE, scenarios)
             state.scenario_run.pop(sid, None)
+            scen_sync.sync_soon()
     if path in ("/api/scenarios", "/api/scenarios/save", "/api/scenarios/delete"):
         return listing()
     sc = next((s for s in scenarios if s["id"] == sid), None) if sid else scen_lib.match(str(data.get("text") or ""), scenarios)
