@@ -5,6 +5,7 @@ import android.os.Looper
 import com.aiwa.app.brain.Aiwa
 import com.aiwa.app.common.FloatActivity
 import com.aiwa.app.common.Palette
+import com.aiwa.app.home.ProfileSettings
 import org.json.JSONArray
 import org.json.JSONObject
 
@@ -19,6 +20,11 @@ class ChamberActivity : FloatActivity() {
     private var offers: JSONArray? = null
     private var shownSignature = ""
     private val visited: String? get() = intent.getStringExtra(EXTRA_REPO)
+    private val mine: String? get() = ProfileSettings.repo(this)
+    /** The profile this window is about: the one shown (never her own room's name unless it is hers). */
+    private val about: String? get() = visited ?: mine
+    private val isOwn: Boolean get() = about == null || about == mine
+    private val room: org.json.JSONObject? get() = ChamberState.forRepo(about)
 
     override fun onCreate(savedInstanceState: android.os.Bundle?) {
         super.onCreate(savedInstanceState)
@@ -38,29 +44,33 @@ class ChamberActivity : FloatActivity() {
     }
 
     private fun statusLine(): String {
-        val s = ChamberState.status
-        val partner = s.optJSONObject("partner")?.optString("name")
-        return when {
-            s.optString("mode", "closed") == "closed" -> "Ta chambre est fermée."
+        val s = room
+        val partner = s?.optJSONObject("partner")?.optString("name")
+        val others = ChamberState.rooms.count { it !== s }
+        val tail = if (others > 0) " ($others autre${if (others > 1) "s" else ""} chambre${if (others > 1) "s" else ""} en cours.)" else ""
+        val line = when {
+            s == null || s.optString("mode", "closed") == "closed" -> if (isOwn) "Ta chambre est fermée." else "Tu n'es pas dans la chambre de cette personne."
+            s.optBoolean("speak") -> "Ce que tu dis va dans cette chambre."
             s.optBoolean("conversing") -> "En conversation avec $partner."
             partner != null -> "$partner est là."
-            else -> "Ta chambre est ouverte : en attente."
+            else -> if (isOwn) "Ta chambre est ouverte : en attente." else "En attente de l'autre : il faut qu'il ouvre sa chambre."
         }
+        return line + tail
     }
 
     /** Draws the window again only when something it shows changed (the buttons are touched while it is open). */
     private fun redraw() {
-        val shown = ChamberActions.cells(Aiwa.state.value)
+        val shown = ChamberActions.cellsFor(room)
         val signature = statusLine() + "|" + shown.entries.joinToString { "${it.key}:${it.value.label}:${it.value.on}" } + "|" + (offers?.toString() ?: "")
         if (signature != shownSignature) { shownSignature = signature; reload() }
     }
 
     override fun fill() {
-        val shown = ChamberActions.cells(Aiwa.state.value)
-        for (id in listOf("room", "roomtalk", "roomear", "roomcreate")) {
+        val shown = ChamberActions.cellsFor(room)
+        for (id in listOf("room", "roomtalk", "roomear", "roomspeak", "roomcreate")) {
             val cell = shown[id] ?: continue
             entry(cell.label, null, if (cell.on) Palette.GREEN else Palette.CARD) {
-                if (id == "room" && visited != null) ChamberActions.visit(this, visited) else ChamberActions.press(this, id)
+                if (id == "room" && !isOwn) ChamberActions.visit(this, about) else ChamberActions.press(this, id, repo = about)
                 main.postDelayed({ redraw() }, 400)
             }
         }

@@ -295,6 +295,7 @@ class VoiceService : Service() {
                 OFF_PHRASE.containsMatchIn(WakeWords.plain(order.replace('-', ' '))) -> { Speaker.speakNatural(applicationContext, Words.spoken(applicationContext, "asleep")); closeAgent(); return }
                 Spoken.reply(text) == Reply.STOP -> { stopEverything(); Speaker.speakNatural(applicationContext, "D'accord.") }
                 com.aiwa.client.NavWords.commandOf(text) != null -> navigate(com.aiwa.client.NavWords.commandOf(text)!!)
+                com.aiwa.app.chamber.ChamberState.speakRoom() != null -> com.aiwa.app.chamber.ChamberActions.say(applicationContext, text)      // she speaks in a chamber: her words go to it, not to her super agent
                 scenarioNow != null -> talkToScenario(scenarioNow, text)
                 LiveSettings.enabled(applicationContext) -> live(text)
                 isQuestion(order) -> answerAloud(order)
