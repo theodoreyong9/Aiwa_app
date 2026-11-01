@@ -213,3 +213,64 @@ test('a proposal carries what the agent made: a kind, a title and an address, on
   assert.deepEqual(got.attach, attach);
   await jean.chamber.cmd({ cmd: 'end' }); await anna.chamber.cmd({ cmd: 'close' }); await jean.chamber.cmd({ cmd: 'close' });
 });
+
+// ---- several chambers at once, the voice of the person into one of them ----
+import { createChambers } from '../src/chambre-core.js';
+
+function phones(net, id, repo, name, { words = ['ok'] } = {}) {
+  const log = { statuses: [], humans: [], turns: [] };
+  let n = 0;
+  const call = async (cmd, args) => {
+    await new Promise((r) => setTimeout(r, 2));
+    if (cmd === 'chamber-active') return { ok: true };
+    if (cmd === 'chamber-turn') { log.turns.push(args); return { ok: true, say: words[n++ % words.length] }; }
+    if (cmd === 'chamber-note') return { ok: true, text: '' };
+    if (cmd === 'chamber-human') { log.humans.push(args); return { ok: true }; }
+    if (cmd === 'chamber-deliver') return { ok: true };
+    throw new Error('?');
+  };
+  const chambers = createChambers({ join: (r) => net.join(`${r}`, id), call, post: (c) => { if (c.cmd === 'chamber-status') log.statuses.push(c.rooms); }, me: { repo, name } });
+  return { chambers, log };
+}
+
+test('a person is in two chambers at once, speaks into one only, and leaving the profile switches the modes off but the chambers go on', async () => {
+  const rooms = new Map();                    // each room name is a room of its own
+  const net = { join: (name, id) => { if (!rooms.has(name)) rooms.set(name, room()); return rooms.get(name).join(name, id); } };
+  const anna = phones(net, 'A', 'anna/site', 'Anna', { words: ['Anna parle.'] });
+  const luc = phones(net, 'L', 'luc/site', 'Luc', { words: ['Luc parle.'] });
+  const jean = phones(net, 'J', 'jean/aiwa', 'Jean', { words: ['Jean parle.'] });
+  await anna.chambers.cmd({ cmd: 'open' });
+  await luc.chambers.cmd({ cmd: 'open' });
+  await jean.chambers.cmd({ cmd: 'visit', repo: 'anna/site' });
+  await jean.chambers.cmd({ cmd: 'visit', repo: 'luc/site' });
+  await tick(20);
+  assert.equal(jean.chambers.status().length, 2);
+  await jean.chambers.cmd({ cmd: 'begin', room: 'anna/site' });
+  await jean.chambers.cmd({ cmd: 'begin', room: 'luc/site' });
+  await tick(30);
+  assert.deepEqual(jean.chambers.status().map((s) => s.conversing), [true, true]);
+
+  await jean.chambers.cmd({ cmd: 'speak', room: 'anna/site', on: true });
+  await jean.chambers.cmd({ cmd: 'speak', room: 'luc/site', on: true });
+  assert.equal(jean.chambers.speaking(), 'luc/site', 'one voice at a time');
+  await jean.chambers.cmd({ cmd: 'human', text: 'Dis-lui que je cherche un associé' });
+  await tick(30);
+  assert.equal(jean.log.humans.length, 1);
+  assert.equal(jean.log.humans[0].peer, 'luc/site');
+  assert.ok(luc.log.turns.some((t) => t.incoming?.human && /associé/.test(t.incoming.text)), 'the agent of Luc hears her human');
+  assert.ok(!anna.log.turns.some((t) => t.incoming?.human), 'Anna heard nothing of it');
+
+  await jean.chambers.cmd({ cmd: 'ear', room: 'luc/site', on: true });
+  await jean.chambers.cmd({ cmd: 'quiet' });
+  const after = jean.chambers.status();
+  assert.deepEqual(after.map((s) => [s.ear, s.speak]), [[false, false], [false, false]]);
+  assert.deepEqual(after.map((s) => s.conversing), [true, true], 'the chambers themselves go on');
+  assert.equal(jean.chambers.speaking(), null);
+
+  await jean.chambers.cmd({ cmd: 'close', room: 'anna/site' });
+  assert.deepEqual(jean.chambers.status().map((s) => s.room), ['luc/site']);
+  assert.deepEqual(jean.chambers.status().map((s) => s.conversing), [true]);
+  await jean.chambers.cmd({ cmd: 'close' });
+  await luc.chambers.cmd({ cmd: 'close' });
+  await anna.chambers.cmd({ cmd: 'close' });
+});

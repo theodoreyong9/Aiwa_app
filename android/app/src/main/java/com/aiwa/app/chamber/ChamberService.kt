@@ -72,7 +72,7 @@ class ChamberService : Service() {
 
     override fun onDestroy() {
         ChamberHost.runner = null
-        ChamberState.update(this, JSONObject())
+        ChamberState.update(this, emptyList())
         web?.destroy(); web = null
         try { lock?.release() } catch (err: Exception) { /* not held */ }
         try { wifi?.release() } catch (err: Exception) { /* not held */ }
@@ -123,12 +123,14 @@ class ChamberService : Service() {
         val json = try { JSONObject(message.data ?: return) } catch (err: Exception) { return }
         val id = json.optInt("id", 0)
         when (json.optString("cmd")) {
-            "chamber-status" -> json.optJSONObject("status")?.let { status ->
-                ChamberState.update(this, status)
-                if (status.optString("mode") == "closed") main.postDelayed({ if (ChamberState.status.optString("mode") == "closed") stopSelf() }, 1500)
+            "chamber-status" -> {
+                val list = json.optJSONArray("rooms")
+                val rooms = if (list != null) (0 until list.length()).mapNotNull { list.optJSONObject(it) } else listOfNotNull(json.optJSONObject("status")?.takeIf { it.optString("mode", "closed") != "closed" })
+                ChamberState.update(this, rooms)
+                if (rooms.isEmpty()) main.postDelayed({ if (ChamberState.rooms.isEmpty()) stopSelf() }, 1500)
             }
-            "chamber-active", "chamber-deliver", "chamber-note" -> CoroutineScope(Dispatchers.IO).launch {
-                val path = when (json.optString("cmd")) { "chamber-active" -> "/api/chamber/active"; "chamber-note" -> "/api/chamber/note"; else -> "/api/chamber/deliver" }
+            "chamber-active", "chamber-deliver", "chamber-note", "chamber-human" -> CoroutineScope(Dispatchers.IO).launch {
+                val path = when (json.optString("cmd")) { "chamber-active" -> "/api/chamber/active"; "chamber-note" -> "/api/chamber/note"; "chamber-human" -> "/api/chamber/human"; else -> "/api/chamber/deliver" }
                 post(reply, id, Aiwa.brain.chamberCall(path, JSONObject(json.toString())))
             }
             "chamber-turn" -> turn(json, reply, id)
@@ -141,11 +143,13 @@ class ChamberService : Service() {
         CoroutineScope(Dispatchers.IO).launch {
             try {
                 val heard = json.optJSONObject("incoming")?.optString("text").orEmpty()
-                if (ChamberState.status.optBoolean("ear") && heard.isNotBlank()) Speaker.speakAndWait(app, heard, 0.8f)
+                // each chamber has its own listening: only the one the person listens to is said aloud
+                val listening = ChamberState.forRepo(json.optString("peer"))?.optBoolean("ear") == true
+                if (listening && heard.isNotBlank()) Speaker.speakAndWait(app, heard, 0.8f)
                 val body = JSONObject(json.toString())
                 val answer = Aiwa.brain.chamberCall("/api/chamber/turn", body)
                 val say = answer.optString("say")
-                if (ChamberState.status.optBoolean("ear") && answer.optBoolean("ok", false) && say.isNotBlank()) Speaker.speakNatural(app, say)
+                if (listening && answer.optBoolean("ok", false) && say.isNotBlank()) Speaker.speakNatural(app, say)
                 post(reply, id, answer)
             } catch (err: Exception) {
                 post(reply, id, JSONObject().put("ok", false).put("error", err.message ?: "?"))

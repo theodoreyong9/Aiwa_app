@@ -114,7 +114,7 @@ class ProfileActivity : ComponentActivity(), com.aiwa.app.nav.VoiceNav {
             WindowInsetsCompat.CONSUMED
         }
         pager.setCurrentItem(start, false)
-        pager.registerOnPageChangeCallback(object : ViewPager2.OnPageChangeCallback() { override fun onPageSelected(position: Int) { chip.visibility = android.view.View.GONE; applyBar(BarConfig.last); if (position % 6 == 0) noteAround() } })
+        pager.registerOnPageChangeCallback(object : ViewPager2.OnPageChangeCallback() { override fun onPageSelected(position: Int) { chip.visibility = android.view.View.GONE; com.aiwa.app.chamber.ChamberActions.quiet(applicationContext); applyBar(BarConfig.last); if (position % 6 == 0) noteAround() } })
         built = true
         updateChrome()
         refreshKeys()
