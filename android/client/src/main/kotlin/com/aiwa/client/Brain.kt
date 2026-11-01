@@ -125,6 +125,8 @@ class Brain(private val net: Transport = HttpTransport()) {
     fun scenarios(): List<Scenario>? = getJson("/api/scenarios")?.let { list(it) }
     private fun list(j: JSONObject) = j.optJSONArray("scenarios").objects().map { Scenario.parse(it) }
     fun scenarioSave(sc: Scenario): Outcome = act("/api/scenarios/save", sc.toJson())
+    /** A scenario proposed from a repository and/or a session (nothing is saved: the person reads it, then saves it with scenarioSave). The scenario is in the answer's `scenario`. */
+    fun scenarioInvent(repo: String?, session: String?): Outcome = act("/api/scenarios/invent", JSONObject().put("repo", repo ?: "").put("session", session ?: ""), 180_000)
     fun scenarioDelete(id: String): Outcome = act("/api/scenarios/delete", JSONObject().put("id", id))
     fun scenarioLaunch(id: String = "", text: String = ""): Outcome = act("/api/scenarios/launch", JSONObject().put("id", id).put("text", text), 60_000)
     fun scenarioCreate(id: String, fresh: Boolean): Outcome = act("/api/scenarios/create", JSONObject().put("id", id).put("fresh", fresh))

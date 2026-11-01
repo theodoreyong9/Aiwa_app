@@ -17,6 +17,8 @@ import kotlinx.coroutines.withContext
 class ScenarioEditActivity : FloatActivity() {
     override val title: String get() = if (editing == null) "Nouveau scénario" else "Modifier le scénario"
     private var editing: Scenario? = null
+    /** A scenario proposed by « Inventer » and sent here to be changed before it is kept: a new scenario, with its fields filled in. */
+    private val draft: Scenario? by lazy { intent.getStringExtra("invented")?.let { try { Scenario.parse(org.json.JSONObject(it)) } catch (err: Exception) { null } } }
     private lateinit var name: EditText
     private lateinit var word: EditText
     private lateinit var prompt: EditText
@@ -41,7 +43,7 @@ class ScenarioEditActivity : FloatActivity() {
     }
 
     override fun fill() {
-        val sc = editing
+        val sc = editing ?: draft
         name = field("Nom (par exemple Entretien)", sc?.name.orEmpty())
         word = field("Mot de lancement (quatre lettres au moins : « scénario entretien »)", sc?.word.orEmpty())
         prompt = field("Ce que son double fait", sc?.prompt.orEmpty(), 4)
@@ -56,7 +58,7 @@ class ScenarioEditActivity : FloatActivity() {
             val parts = line.split('=', limit = 2)
             if (parts.size == 2 && parts[0].isNotBlank() && parts[1].isNotBlank()) ScenarioWord(parts[0].trim(), parts[1].trim()) else null
         }
-        val sc = Scenario(editing?.id.orEmpty(), name.text.toString().trim(), word.text.toString().trim(), editing?.kind ?: "double", prompt.text.toString().trim(), speak.text.toString().trim(), list)
+        val sc = Scenario(editing?.id ?: draft?.id.orEmpty(), name.text.toString().trim(), word.text.toString().trim(), editing?.kind ?: "double", prompt.text.toString().trim(), speak.text.toString().trim(), list)
         CoroutineScope(Dispatchers.Main).launch {
             val out = withContext(Dispatchers.IO) { Aiwa.brain.scenarioSave(sc) }
             if (out.ok) finish() else toastOnMain(applicationContext, out.error ?: "Scénario refusé.")
