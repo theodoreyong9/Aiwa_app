@@ -6,7 +6,7 @@ import urllib.error
 import urllib.parse
 import urllib.request
 
-from . import asks, config, github, instructions, scenarios, sessions, state
+from . import asks, config, github, instructions, reports, scenarios, sessions, state
 
 
 def relay_url():
@@ -87,7 +87,7 @@ def _mailbox_once(repo, work):
     raw_signal = raw_get(f"{base}/SIGNAL?t={stamp}", 300)
     line = raw_signal.decode("utf-8", "replace").strip() if raw_signal else ""
     parts = line.split()
-    if len(parts) == 2 and parts[0] in ("attend", "check", "ask", "scenario") and parts[1].isdigit():
+    if len(parts) == 2 and parts[0] in ("attend", "check", "ask", "scenario", "report") and parts[1].isdigit():
         kind, moment = parts[0], int(parts[1])
     else:
         return False
@@ -104,6 +104,10 @@ def _mailbox_once(repo, work):
         raw = raw_get(f"{base}/ask.json?t={stamp}", 4000)
         if raw:
             asks.ask_set(raw.decode("utf-8", "replace"), f"github:{repo}@{work}:{moment}")
+    if kind == "report":
+        raw = raw_get(f"{base}/report.json?t={stamp}", 2000)
+        if raw:
+            reports.report_set(raw.decode("utf-8", "replace"))
     if kind == "scenario":
         raw = raw_get(f"{base}/scenario.json?t={stamp}", 6000)
         if raw:
@@ -170,6 +174,9 @@ def _relay_event(event):
         _cloud_check_seen()
     elif title == "aiwa-ask":
         asks.ask_set(event.get("message"), event.get("id"))
+        _cloud_check_seen()
+    elif title == "aiwa-report":
+        reports.report_set(event.get("message"))
         _cloud_check_seen()
     else:
         text = str(event.get("message", ""))
