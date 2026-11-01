@@ -68,7 +68,10 @@ data class Status(
 }
 
 /** One production: a file of a release. `kind` is docs / image / video / app / page. */
-data class Production(val repo: String, val kind: String, val tag: String, val title: String, val file: String, val size: Long, val url: String, val ts: Long) {
+/** Someone a production could be sent to: a mail address, a web address or a social identifier, with where it was found (empty source = not verified). */
+data class Cible(val kind: String, val value: String, val label: String, val source: String, val verified: Boolean)
+
+data class Production(val repo: String, val kind: String, val tag: String, val title: String, val file: String, val size: Long, val url: String, val ts: Long, val cibles: List<Cible> = emptyList()) {
     val repoName: String get() = repo.substringAfter('/')
 }
 
@@ -79,7 +82,8 @@ data class Files(val repo: String?, val repos: List<String>, val error: String?,
             val by = o.obj("items")
             for (kind in KINDS) {
                 items[kind] = by?.optJSONArray(kind).objects().map {
-                    Production(it.optString("repo"), kind, it.optString("tag"), it.optString("title"), it.optString("file"), it.optLong("size"), it.optString("url"), it.optLong("ts"))
+                    Production(it.optString("repo"), kind, it.optString("tag"), it.optString("title"), it.optString("file"), it.optLong("size"), it.optString("url"), it.optLong("ts"),
+                        it.optJSONArray("cibles").objects().map { c -> Cible(c.optString("kind"), c.optString("value"), c.optString("label"), c.optString("source"), c.optBoolean("verified")) })
                 }
             }
             return Files(o.str("repo"), o.optJSONArray("repos").strings(), o.str("error"), items)

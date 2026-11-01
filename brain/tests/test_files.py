@@ -1,4 +1,5 @@
 """The productions: releases read by their tag, the list per kind, delete and share."""
+import json
 import unittest
 import unittest.mock
 
@@ -79,3 +80,20 @@ class Productions(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class CiblesTests(unittest.TestCase):
+    def test_the_card_of_recipients_is_checked(self):
+        from aiwa_brain import files
+        raw = json.dumps({"v": 1, "cibles": [
+            {"kind": "mail", "value": "rh@exemple.fr", "label": "RH", "source": "https://exemple.fr/jobs"},
+            {"kind": "mail", "value": "pas une adresse", "label": "x", "source": "https://a.fr"},
+            {"kind": "url", "value": "http://pas-https.fr", "label": "x"},
+            {"kind": "url", "value": "https://exemple.fr/postuler", "label": "Formulaire"},
+            {"kind": "social", "value": "@maison_hote", "label": "Instagram", "source": "https://a.fr"},
+            {"kind": "fax", "value": "0102030405"},
+        ]})
+        got = files.parse_cibles(raw)
+        self.assertEqual([c["kind"] for c in got], ["mail", "url", "social"])
+        self.assertEqual([c["verified"] for c in got], [True, False, True])
+        self.assertEqual(files.parse_cibles("pas du json"), [])

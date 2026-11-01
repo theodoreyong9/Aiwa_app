@@ -2,6 +2,8 @@
 
 Une page web d'un seul fichier HTML.
 
+Plusieurs sites liés entre eux (par exemple une proposition par destinataire, avec un sommaire) : un dépôt peut en porter plusieurs, un sous-dossier par site (`/nom-du-site/index.html`) et des liens RELATIFS entre eux, publiés ensemble par GitHub Pages sous une seule adresse. Dans la release `page-…`, mets chaque site comme une page (son `index.html` seul quand il tient dans un fichier, sinon son archive `.zip`) et son adresse Pages dans sa fiche de destinataires (`kind` `url`).
+
 - Un seul `.html` autonome : CSS et JS dedans, aucune dépendance locale ; bibliothèques seulement depuis un CDN avec version exacte.
 - Adapté au téléphone : `viewport`, texte lisible, boutons de 44 px, pas de défilement horizontal.
 - Ouvre-la dans un navigateur sans interface et regarde une capture avant de publier.

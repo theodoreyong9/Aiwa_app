@@ -1,5 +1,6 @@
 """The productions: everything a session makes for the person is a file in a release of a repository, and the tag says the kind (`docs-…`, `image-…`, `video-…`, `app-…`, `page-…`).
 This module lists them (for one repository, or all), deletes one, and says how to share one."""
+import json
 import re
 import threading
 import time
@@ -27,6 +28,48 @@ def _title(release, asset):
     return re.sub(r"[-_]+", " ", re.sub(r"\.[A-Za-z0-9]{1,5}$", "", asset["name"] or release["tag"])).strip() or release["tag"]
 
 
+CIBLES_SUFFIX = ".cibles.json"      # next to a file of a release: who it could be sent to {"v":1,"cibles":[{"kind":"mail|url|social","value":"…","label":"…","source":"https://…"}]}
+MAIL_RE = re.compile(r"[^@\s<>]{1,64}@[A-Za-z0-9.-]{1,120}\.[A-Za-z]{2,}")
+CIBLES_MAX = 6
+_cibles_cache = {}                  # (asset id, updated) -> [cible]
+
+
+def parse_cibles(raw):
+    """The recipients a session wrote for a production, checked: a mail address that looks like one, an https address, an identifier; a label, and the page where it was found (`source`). A target without a
+    source is kept but marked `verified: false` (the person sees it dimmed). Nothing else is kept."""
+    try:
+        data = json.loads(raw) if isinstance(raw, (str, bytes)) else raw
+    except ValueError:
+        return []
+    listed = data.get("cibles") if isinstance(data, dict) else None
+    out = []
+    for c in listed if isinstance(listed, list) else []:
+        if not isinstance(c, dict):
+            continue
+        kind, value = str(c.get("kind") or "").lower(), " ".join(str(c.get("value") or "").split())[:200]
+        if kind == "mail" and not MAIL_RE.fullmatch(value):
+            continue
+        if kind == "url" and not value.startswith("https://"):
+            continue
+        if kind not in ("mail", "url", "social") or not value:
+            continue
+        source = str(c.get("source") or "").strip()
+        out.append({"kind": kind, "value": value, "label": " ".join(str(c.get("label") or "").split())[:60], "source": source if source.startswith("https://") else "", "verified": source.startswith("https://")})
+        if len(out) >= CIBLES_MAX:
+            break
+    return out
+
+
+def _cibles_of(asset):
+    key = (asset.get("id"), asset.get("updated"))
+    if key in _cibles_cache:
+        return _cibles_cache[key]
+    raw = github.fetch(asset["url"], 8000)
+    found = parse_cibles(raw.decode("utf-8", "replace")) if raw else []
+    _cibles_cache[key] = found
+    return found
+
+
 def _items_of(repo):
     """The productions of one repository, newest first: one item per file of a production release."""
     with _lock:
@@ -38,11 +81,14 @@ def _items_of(repo):
         kind = kind_of(release["tag"])
         if kind is None:
             continue
+        cards = {a["name"][:-len(CIBLES_SUFFIX)]: a for a in release["assets"] if a["name"].endswith(CIBLES_SUFFIX)}
         for asset in release["assets"]:
+            if asset["name"].endswith(CIBLES_SUFFIX):
+                continue
             items.append({
                 "repo": repo, "kind": kind, "tag": release["tag"], "release": release["id"], "title": _title(release, asset), "file": asset["name"], "size": asset["size"],
                 "url": asset["url"], "ts": max(release["published"] or 0, asset.get("updated") or 0),   # a file put again into the same release (the film of the repository) is the newest
-                "page": release["page"],
+                "page": release["page"], "cibles": _cibles_of(cards[asset["name"]]) if asset["name"] in cards else [],
             })
     with _lock:
         _cache[repo] = (time.time(), items)
