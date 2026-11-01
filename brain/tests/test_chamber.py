@@ -1,16 +1,16 @@
-"""The chamber's routes: one at a time, Create on both sides, an offer kept for the person, the agent that speaks is the normal one."""
+"""The chamber's routes: several at once, one per person, Create on both sides, an offer kept for the person, the agent that speaks is the normal one."""
 import json
 import time
 import unittest
 import unittest.mock
 from unittest import mock
 
-from aiwa_brain import chamber, state
+from aiwa_brain import chamber, chamber_lib, state
 
 
 def reset():
     with state.chamber_lock:
-        state.chamber.update(active=False, peer=None, name=None, lines=[])
+        state.chambers.clear()
         state.chamber_offers.clear()
     with state.agent_lock:
         state.agent.update(say=None, proposal=None, command=None, busy=False)
@@ -26,13 +26,34 @@ class Routes(unittest.TestCase):
         reset()
         self.addCleanup(reset)
 
-    def test_one_chamber_at_a_time(self):
+    def test_several_chambers_at_once_one_per_person(self):
         self.assertTrue(post("/api/chamber/active", on=True, peer="anna/profil", name="Anna")["active"])
-        busy = post("/api/chamber/active", on=True, peer="luc/profil", name="Luc")
-        self.assertEqual((busy["ok"], busy.get("busy")), (False, True))
+        self.assertTrue(post("/api/chamber/active", on=True, peer="luc/profil", name="Luc")["ok"])
+        self.assertEqual(sorted(r["peer"] for r in post("/api/chamber")["rooms"]), ["anna/profil", "luc/profil"])
         self.assertTrue(post("/api/chamber/active", on=True, peer="anna/profil")["ok"], "the same room again is fine")
         self.assertFalse(post("/api/chamber/active", on=True, peer="pas un depot")["ok"])
-        self.assertFalse(post("/api/chamber/active", on=False)["active"])
+        self.assertEqual([r["peer"] for r in post("/api/chamber/active", on=False, peer="anna/profil")["rooms"]], ["luc/profil"])
+
+    def test_the_person_speaks_into_one_chamber_as_her_human(self):
+        post("/api/chamber/active", on=True, peer="anna/profil", name="Anna")
+        post("/api/chamber/active", on=True, peer="luc/profil", name="Luc")
+        self.assertTrue(post("/api/chamber/human", peer="anna/profil", me="Jean", text="Dis-lui que je cherche un associé")["ok"])
+        self.assertEqual(len(post("/api/chamber", peer="anna/profil")["lines"]), 1)
+        self.assertEqual(post("/api/chamber", peer="luc/profil")["lines"], [])
+        said = chamber_lib.messages([{"who": "them", "kind": "say", "text": "Salut"}, {"who": "me", "kind": "say", "text": "Je cherche", "human": True}, {"who": "them", "kind": "say", "text": "Ok"}])
+        self.assertIn("ta personne dit", said[1]["content"])
+        self.assertFalse(post("/api/chamber/human", peer="anna/profil", me="Jean", text="  ")["ok"])
+
+    def test_no_key_the_phone_claude_answers(self):
+        post("/api/chamber/active", on=True, peer="anna/profil", name="Anna")
+        done = unittest.mock.Mock(returncode=0, stdout=json.dumps({"say": "Bonjour"}))
+        with unittest.mock.patch.object(type(state.llm), "state", new_callable=unittest.mock.PropertyMock, return_value="none"), \
+                unittest.mock.patch("aiwa_brain.chamber.subprocess.run", return_value=done) as run, \
+                unittest.mock.patch("aiwa_brain.agent.point", return_value=("P", "s")):
+            out = post("/api/chamber/turn", peer="anna/profil", me="Jean", danger=False, incoming={"text": "Salut", "human": True})
+        self.assertEqual(out["say"], "Bonjour")
+        self.assertEqual(run.call_args.args[0][:2], ["claude", "-p"])
+        self.assertTrue(state.chambers["anna/profil"]["lines"][0]["human"])
 
     def test_words_only_without_create_and_the_offer_is_kept_with_it(self):
         post("/api/chamber/active", on=True, peer="anna/profil", name="Anna")
@@ -65,11 +86,6 @@ class Routes(unittest.TestCase):
             self.assertIn(word, seen["system"])
         self.assertEqual(seen["messages"][-1]["content"], "Salut, tu fais quoi ?")
         self.assertEqual([line["who"] for line in post("/api/chamber")["lines"]], ["them", "me"])
-
-    def test_no_key_no_voice_in_the_chamber(self):
-        post("/api/chamber/active", on=True, peer="anna/profil", name="Anna")
-        with unittest.mock.patch.object(type(state.llm), "state", new_callable=unittest.mock.PropertyMock, return_value="none"):
-            self.assertIn("clé", post("/api/chamber/turn", peer="anna/profil", me="Jean")["error"])
 
     def test_the_description_is_kept_and_the_score_needs_the_key(self):
         self.assertEqual(post("/api/chamber/note", text="je cherche un associé")["text"], "je cherche un associé")

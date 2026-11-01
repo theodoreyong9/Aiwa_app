@@ -54,8 +54,8 @@ def point(report=False):
         waiting = list(asks.pending_list())
     titles = [{"session": (sessions.entry_of(a.get("session")) or {}).get("title") if a.get("session") else None, "question": a["question"]} for a in waiting]
     with state.chamber_lock:
-        name = state.chamber["name"] or "quelqu'un"
-        chamber = f"en cours avec {name}" if state.chamber["active"] else None
+        names = [r["name"] or "quelqu'un" for r in state.chambers.values()]
+        chamber = ("en cours avec " + ", ".join(names)) if names else None
     current = (sessions.entry_of(in_use) or {}).get("title") or in_use if in_use else None
     extra = []
     try:
