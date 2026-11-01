@@ -27,7 +27,11 @@ class RepoPickerActivity : FloatActivity() {
         entry("Tous les dépôts", "les productions de tous tes dépôts, ensemble", if (chosen == FilesScope.ALL) com.aiwa.app.common.Palette.GREEN else com.aiwa.app.common.Palette.CARD) { pick(FilesScope.ALL) }
         val list = repos
         if (list == null) { note("Je cherche tes dépôts…"); return }
-        list.take(30).forEach { name -> entry(name, null, if (chosen == name) com.aiwa.app.common.Palette.GREEN else com.aiwa.app.common.Palette.CARD) { pick(name) } }
+        list.take(30).forEach { name ->
+            entryWithAction(name, null, if (chosen == name) com.aiwa.app.common.Palette.GREEN else com.aiwa.app.common.Palette.CARD, "Lien", { pick(name) }) {
+                try { startActivity(android.content.Intent(android.content.Intent.ACTION_VIEW, android.net.Uri.parse("https://github.com/$name")).addFlags(android.content.Intent.FLAG_ACTIVITY_NEW_TASK)) } catch (err: Exception) { }
+            }
+        }
     }
 
     private fun pick(scope: String) { FilesScope.set(this, scope); com.aiwa.app.files.FilesWatch.refreshNow(applicationContext); finish() }

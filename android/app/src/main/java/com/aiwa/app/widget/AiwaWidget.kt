@@ -60,6 +60,7 @@ object AiwaWidget {
 
     /** Draws the widget again from the current state; `force` also when nothing visible changed (a new widget, a new size). */
     fun render(context: Context, force: Boolean = false) {
+        AiwaWidget2.render(context)
         val ids = ids(context)
         if (ids.isEmpty()) return
         val snap = Aiwa.state.value

@@ -171,6 +171,26 @@ abstract class FloatActivity : ComponentActivity(), com.aiwa.app.nav.VoiceNav {
         return row
     }
 
+    /** A line to touch with a second button at its right (a link, a Claude button): the line does one thing, the button another. */
+    protected fun entryWithAction(label: String, detail: String?, tone: Int = Palette.CARD, action: String, onClick: () -> Unit, onAction: () -> Unit): View {
+        val row = LinearLayout(this).apply {
+            orientation = LinearLayout.HORIZONTAL
+            gravity = Gravity.CENTER_VERTICAL
+            background = GradientDrawable().apply { setColor(tone); cornerRadius = dp(14).toFloat() }
+            setPadding(dp(14), dp(8), dp(8), dp(8))
+        }
+        val texts = LinearLayout(this).apply { orientation = LinearLayout.VERTICAL; setOnClickListener { onClick() } }
+        texts.addView(TextView(this).apply { text = label; setTextColor(Palette.TEXT); textSize = 16f })
+        if (detail != null) texts.addView(TextView(this).apply { text = detail; setTextColor(Palette.DIM); textSize = 13f })
+        row.addView(texts, LinearLayout.LayoutParams(0, ViewGroup.LayoutParams.WRAP_CONTENT, 1f))
+        row.addView(TextView(this).apply {
+            text = action; setTextColor(Palette.TEXT); textSize = 13f; setTypeface(null, Typeface.BOLD); setPadding(dp(12), dp(8), dp(12), dp(8)); setOnClickListener { onAction() }
+            background = GradientDrawable().apply { cornerRadius = dp(12).toFloat(); setColor(Color.parseColor("#33FFFFFF")) }
+        }, LinearLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT).apply { leftMargin = dp(8) })
+        card.addView(row, LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT).apply { topMargin = dp(8) })
+        return row
+    }
+
     /** A section title: small, spaced, with a thin line after it. */
     protected fun section(text: String) {
         if (gridColumns > 1) return
