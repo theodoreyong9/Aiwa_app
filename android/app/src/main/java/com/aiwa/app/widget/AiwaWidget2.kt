@@ -163,7 +163,10 @@ object AiwaWidget2 {
             v.setInt(rid("i"), "setColorFilter", android.graphics.Color.WHITE)
             v.setInt(rid("i"), "setImageAlpha", if (slot.state == 0) 70 else 120)      // the big icon behind: a watermark, clearer when the tile is lit
             v.setTextViewText(rid("t"), slot.label)
-            v.setTextViewText(rid("d"), slot.desc)
+            // the short word under the name is for the Réglages page only (the tiles of Aiwa are known by their icon and their name)
+            val desc = if (onSettings) slot.desc else ""
+            v.setTextViewText(rid("d"), desc)
+            v.setViewVisibility(rid("d"), if (desc.isEmpty()) android.view.View.GONE else android.view.View.VISIBLE)
             val diagonal = (i / 4) + (i % 4)                        // the row plus the column: 0 to 5
             v.setViewVisibility(rid("c"), if (hideDiagonal(diagonal)) android.view.View.INVISIBLE else android.view.View.VISIBLE)
         }
