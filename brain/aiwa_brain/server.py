@@ -298,6 +298,7 @@ POST = {
     "/api/github/login/start": lambda body, data: github_login.start(),
     "/api/github/login/cancel": lambda body, data: github_login.cancel(),
     "/api/voice/setup": lambda body, data: (state.voice.install(), {"ok": True, "state": state.voice.state})[1],
+    "/api/screen": lambda body, data: agent.set_screen(data),
 }
 POST_PREFIX = (
     ("/api/agent/", lambda path, body, data: _agent_api(path.rsplit("/", 1)[1], data)),

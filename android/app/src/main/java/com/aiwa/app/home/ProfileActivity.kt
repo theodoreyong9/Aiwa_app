@@ -114,7 +114,7 @@ class ProfileActivity : ComponentActivity(), com.aiwa.app.nav.VoiceNav {
             WindowInsetsCompat.CONSUMED
         }
         pager.setCurrentItem(start, false)
-        pager.registerOnPageChangeCallback(object : ViewPager2.OnPageChangeCallback() { override fun onPageSelected(position: Int) { chip.visibility = android.view.View.GONE; com.aiwa.app.chamber.ChamberActions.quiet(applicationContext); applyBar(BarConfig.last); if (position % 6 == 0) noteAround() } })
+        pager.registerOnPageChangeCallback(object : ViewPager2.OnPageChangeCallback() { override fun onPageSelected(position: Int) { chip.visibility = android.view.View.GONE; com.aiwa.app.chamber.ChamberActions.quiet(applicationContext); reportScreen(true); applyBar(BarConfig.last); if (position % 6 == 0) noteAround() } })
         built = true
         updateChrome()
         refreshKeys()
@@ -378,6 +378,7 @@ class ProfileActivity : ComponentActivity(), com.aiwa.app.nav.VoiceNav {
 
     override fun onResume() {
         super.onResume()
+        reportScreen(true)
         if (!ownFirst) return
         CoffeeSettings.publishPub(this)
         startOwnWatch()
@@ -391,9 +392,18 @@ class ProfileActivity : ComponentActivity(), com.aiwa.app.nav.VoiceNav {
     }
 
     override fun onPause() {
+        reportScreen(false)
         ownWatch?.stop(); ownWatch = null
         if (ownFirst) { collector.pause(); zoneTicker?.let { root.removeCallbacks(it) } }
         super.onPause()
+    }
+
+    /** The profile on the screen is told to the brain (and none when the window goes away), so that the super agent knows what « cette page » is. */
+    private fun reportScreen(on: Boolean) {
+        if (!::pager.isInitialized) return
+        val repo = if (on) urls.getOrNull(pager.currentItem) else null
+        val own = on && isOwn()
+        Thread { try { com.aiwa.app.brain.Aiwa.brain.screen(repo, own) } catch (err: Exception) { } }.start()
     }
 
     /** Her own page follows her `Profile/` on GitHub: a new commit replaces it on the screen within seconds (a change asked of the super agent shows at once). */
