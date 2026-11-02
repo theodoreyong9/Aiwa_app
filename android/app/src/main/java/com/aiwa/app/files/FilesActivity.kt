@@ -39,12 +39,20 @@ class FilesActivity : FloatActivity() {
     }
 
     private fun load() {
+        val scope = FilesScope.repo(this, Aiwa.state.value.status?.repo)
+        val key = "files|" + (scope ?: "all")
+        // the last list known is shown at once; the new one replaces it when the brain has answered
+        com.aiwa.app.common.ListCache.read(this, key)?.let { text ->
+            try { listing = Files.parse(org.json.JSONObject(text)); reload() } catch (err: Exception) { /* a damaged copy: the list is waited for */ }
+        }
         CoroutineScope(Dispatchers.Main).launch {
-            val scope = FilesScope.repo(this@FilesActivity, Aiwa.state.value.status?.repo)
-            val got = withContext(Dispatchers.IO) { ensureBrain(applicationContext); Aiwa.brain.files(scope) }
-            failed = got == null
-            listing = got
-            reload()
+            val got = withContext(Dispatchers.IO) { ensureBrain(applicationContext); Aiwa.brain.filesJson(scope) }
+            if (got != null) {
+                com.aiwa.app.common.ListCache.write(applicationContext, key, got.toString())
+                failed = false
+                listing = Files.parse(got)
+                reload()
+            } else if (listing == null) { failed = true; reload() }       // no answer and nothing to show
         }
     }
 
