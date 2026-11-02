@@ -68,7 +68,7 @@ object AiwaWidget {
         val signature = listOf(
             tab, snap.link, snap.status?.repo, snap.status?.session, snap.status?.sending, snap.status?.waiting, snap.status?.silenceMinutes, snap.status?.attachments, snap.status?.claudeLogin, snap.status?.githubToken, snap.status?.diagramOn,
             snap.status?.ask?.id, snap.status?.agent?.say?.id, snap.status?.agent?.proposal?.id, snap.status?.agent?.command?.id, snap.status?.githubError, snap.listening, snap.agentOpen, snap.appUpdateReady,
-            snap.fileCounts, FilesScope.chosen(context), com.aiwa.app.chamber.ChamberState.rooms.joinToString { it.optString("room") + it.optJSONObject("partner")?.optString("name") + it.optBoolean("knock") + it.optBoolean("conversing") },
+            snap.fileCounts, FilesScope.chosen(context), com.aiwa.app.chamber.ChamberState.rooms.joinToString { it.optString("room") + it.optJSONObject("partner")?.optString("name") + it.optBoolean("conversing") },
             hasTermuxPermission(context), WidgetBackground.key(context), snap.sessionTitle,
         ).joinToString("|")
         if (!force && signature == lastSignature) return
@@ -175,7 +175,7 @@ object AiwaWidget {
         val needsSetup = !hasTermuxPermission(context)
         val robotTarget: Class<*> = agentTarget(context, snap)
         val hasSession = snap.sessionId != null || status?.lastSession != null
-        val roomOpen = com.aiwa.app.chamber.ChamberState.rooms.any { it.optJSONObject("partner") != null || it.optBoolean("knock") }
+        val roomOpen = com.aiwa.app.chamber.ChamberState.rooms.any { it.optJSONObject("partner") != null }
         val firstRow = buildList {
             add(Cell(btn(R.drawable.fw_i_robot, "agent"), 3f, activity(context, 10, robotTarget), zone = 0))
             add(Cell(btn(R.drawable.fw_i_question, "question", iconOnly = true), 1f, activity(context, 7, AskActivity::class.java), zone = 1))

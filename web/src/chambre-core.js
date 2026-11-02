@@ -4,6 +4,13 @@ const TEXT_MAX = 700;
 /** What comes with a proposal, as plain bounded text (the brain checks it again before anything is kept): a kind, a short title, a https address. */
 export const attachOf = (a) => ({ kind: clip(a?.kind, 10), title: clip(a?.title, 60), url: clip(a?.url, 300) });
 export const clip = (text, max = TEXT_MAX) => String(text ?? '').replace(/[\u0000-\u0008\u000b-\u001f\u007f]/g, ' ').split(/\s+/).filter(Boolean).join(' ').slice(0, max);
+/** The name of the room two people meet in: a fingerprint of the two repositories in a fixed order. Only the two of them can work it out, so nobody else can guess it or come in; the relay only sees a name. */
+export async function pairKey(a, b) {
+  const [x, y] = [String(a).toLowerCase(), String(b).toLowerCase()].sort();
+  const bytes = new TextEncoder().encode(`aiwa-chambre|${x}|${y}`);
+  const digest = new Uint8Array(await globalThis.crypto.subtle.digest('SHA-256', bytes));
+  return [...digest].slice(0, 20).map((n) => n.toString(16).padStart(2, '0')).join('');
+}
 export const nameOf = (repo) => String(repo || '').split('/')[0] || 'quelqu\'un';
 
 /**
@@ -12,14 +19,12 @@ export const nameOf = (repo) => String(repo || '').split('/')[0] || 'quelqu\'un'
  */
 export function createChamber({ join, call, post, me }) {
   let room = null;
-  let mode = 'closed';                 // 'host' (my own room) | 'visit' (the room of the person I visit) | 'closed'
-  let roomRepo = null;                 // the person the room is named for
+  let mode = 'closed';                 // 'call' (I called the person and wait for her call) | 'closed'
+  let roomRepo = null;                 // the person I called
   let partner = null;                  // { id, repo, name } the one other we talk to
   let conversing = false;
   let dangerMe = false, dangerThem = false;
   let ear = false;
-  let asking = false;                  // the visitor knocked and waits for the answer of the one visited
-  let knock = false;                   // the visitor of my room knocked: the person says yes or no
   let speak = false;                   // what the person says by voice goes into this chamber, as from her human (the phone decides which chamber, only one at a time)
   let myNote = '';                     // what the person wrote for the agent of the other (never shown to the other person; it goes to the other's brain only)
   let refused = null;                  // why a conversation did not start ("busy": the other is already in one)
@@ -28,7 +33,7 @@ export function createChamber({ join, call, post, me }) {
   let last = '';
 
   const status = () => ({
-    mode, room: roomRepo, partner: partner ? { repo: partner.repo, name: partner.name } : null, conversing, asking, knock, dangerMe, dangerThem, ear, speak, refused,
+    mode, room: roomRepo, partner: partner ? { repo: partner.repo, name: partner.name } : null, conversing, dangerMe, dangerThem, ear, speak, refused,
     connected: mode !== 'closed', waiting: mode !== 'closed' && !partner,
   });
   const emit = () => { const s = status(); const key = JSON.stringify(s); if (key !== last) { last = key; post({ cmd: 'chamber-status', status: s }); } };
@@ -78,12 +83,14 @@ export function createChamber({ join, call, post, me }) {
       case 'hello': {
         const repo = clip(message.repo, 201);
         if (!REPO.test(repo)) return;
-        // the visitor joins the room of the person he visits: the host must really claim that room; the host takes one visitor only
-        if (mode === 'visit' && repo !== roomRepo) return;
+        // the room is the pair's: the one who says hello must be the person I called
+        if (repo !== roomRepo) return;
         if (partner && partner.id !== id) { send({ t: 'busy' }, id); return; }
         partner = { id, repo, name: clip(message.name, 60) || nameOf(repo), note: clip(message.note, 400) };
         dangerThem = message.danger === true;
         emit();
+        // the two have called each other: that is the match. The conversation starts by itself, opened by the one whose repository comes first (no request, no acceptance)
+        if (me.repo.toLowerCase() < repo.toLowerCase()) cmd({ cmd: 'begin' });
         return;
       }
       case 'note': if (partner && partner.id === id) partner.note = clip(message.text, 400); return;
@@ -91,20 +98,11 @@ export function createChamber({ join, call, post, me }) {
         // the other is in a chamber already (or its super agent is): nothing starts, and a conversation we had begun stops
         if (partner && partner.id === id) { await stop(false); partner = null; dangerThem = false; }
         else if (!partner) { /* a stranger said it, before any hello */ }
-        asking = false; refused = 'busy'; emit();
+        refused = 'busy'; emit();
         return;
       }
-      case 'knock': {
-        // the visitor asks to talk: nothing starts until the person visited accepts
-        if (mode !== 'host' || !partner || partner.id !== id || conversing) return;
-        if (typeof message.note === 'string') partner.note = clip(message.note, 400);
-        knock = true; emit();
-        return;
-      }
-      case 'refuse': if (partner && partner.id === id && asking) { asking = false; refused = 'refus'; emit(); } return;
       case 'begin': {
         if (!partner || partner.id !== id || conversing) return;
-        asking = false;
         if (typeof message.note === 'string') partner.note = clip(message.note, 400);
         starting = (async () => {
           try { const out = await call('chamber-active', { on: true, peer: partner.repo, name: partner.name }); if (out?.busy || out?.ok === false) throw new Error(out?.busy ? 'busy' : (out.error || 'refusé')); }
@@ -140,18 +138,18 @@ export function createChamber({ join, call, post, me }) {
       case 'end': {
         if (starting) await starting;
         if (partner && partner.id === id && conversing) { stop(false); emit(); }
-        else if (partner && partner.id === id) { knock = false; asking = false; emit(); }
+
         return;
       }
       default:
     }
   };
 
-  const enter = (repo, asMode) => {
+  const enter = async (repo) => {
     if (room) return;
-    mode = asMode; roomRepo = repo; partner = null; refused = null;
+    mode = 'call'; roomRepo = repo; partner = null; refused = null;
     loadNote();
-    room = join(`chambre:${repo}`);
+    room = join(`chambre:${await pairKey(me.repo, repo)}`);
     room.onMessage(onMessage);
     room.onPeerJoin((id) => hello(id));
     room.onPeerLeave((id) => { if (partner?.id === id) { stop(false).then(() => { partner = null; dangerThem = false; emit(); }); } });
@@ -161,7 +159,7 @@ export function createChamber({ join, call, post, me }) {
   const leave = async () => {
     await stop(true);
     try { room?.leave(); } catch { /* already out */ }
-    room = null; mode = 'closed'; roomRepo = null; partner = null; dangerThem = false; refused = null; ear = false; speak = false; asking = false; knock = false;
+    room = null; mode = 'closed'; roomRepo = null; partner = null; dangerThem = false; refused = null; ear = false; speak = false;
     emit();
   };
 
@@ -169,15 +167,10 @@ export function createChamber({ join, call, post, me }) {
   const cmd = (c) => { queue = queue.then(() => run(c), () => run(c)); return queue; };
   const run = async (c) => {
     switch (c?.cmd) {
-      case 'open': if (REPO.test(me.repo || '')) enter(me.repo, 'host'); break;                                  // on my own page: my room opens, I wait for a visitor
-      case 'visit': if (REPO.test(c.repo || '')) enter(c.repo, 'visit'); break;                                  // on the profile of someone: I go to her room
+      case 'call': if (REPO.test(c.repo || '') && c.repo.toLowerCase() !== String(me.repo).toLowerCase()) await enter(c.repo); break;      // I call the person: her call is awaited in the room of the two of us
       case 'close': await leave(); break;
       case 'begin': {
         if (!partner || conversing) break;
-        if (mode === 'visit') {                                                                               // the visitor asks; the visited accepts or not
-          await loadNote(); refused = null; asking = true; send({ t: 'knock', note: myNote }); emit(); break;
-        }
-        knock = false;
         await loadNote();
         try { const out = await call('chamber-active', { on: true, peer: partner.repo, name: partner.name }); if (out?.busy || out?.ok === false) throw new Error(out?.busy ? 'busy' : (out.error || 'refusé')); }
         catch (err) { refused = String(err?.message || 'busy').slice(0, 160); send({ t: 'busy' }); emit(); break; }
@@ -185,9 +178,7 @@ export function createChamber({ join, call, post, me }) {
         takeTurn(null);                                                                                       // the one who starts opens the conversation
         break;
       }
-      case 'accept': if (knock) { knock = false; return run({ cmd: 'begin' }); } break;
-      case 'refuse': if (knock) { knock = false; send({ t: 'refuse' }); emit(); } break;
-      case 'end': asking = false; await stop(true); emit(); break;
+      case 'end': await stop(true); emit(); break;
       case 'danger': dangerMe = c.on === true || (c.on === undefined && !dangerMe); send({ t: 'danger', on: dangerMe }); emit(); break;
       case 'ear': ear = c.on === true || (c.on === undefined && !ear); emit(); break;
       case 'speak': speak = c.on === true || (c.on === undefined && !speak); emit(); break;
@@ -231,8 +222,7 @@ export function createChambers({ join, call, post, me }) {
   const cmd = (c) => { queue = queue.then(() => run(c), () => run(c)); return queue; };
   const run = async (c) => {
     switch (c?.cmd) {
-      case 'open': if (REPO.test(me.repo || '')) { const ch = open(me.repo); await ch.cmd(c); } break;
-      case 'visit': if (REPO.test(c.repo || '')) { const ch = open(c.repo); await ch.cmd(c); } break;
+      case 'call': if (REPO.test(c.repo || '')) { const ch = open(c.repo); await ch.cmd(c); } break;
       case 'close': {
         const targets = c.room ? [find(c.room)].filter(Boolean) : [...rooms.values()];
         for (const ch of targets) await ch.cmd({ cmd: 'close' });

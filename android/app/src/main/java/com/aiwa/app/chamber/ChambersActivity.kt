@@ -8,7 +8,7 @@ import com.aiwa.app.common.Palette
 import com.aiwa.app.home.ProfileSettings
 
 /**
- * The chambers, one line per person: who the person is in a chamber with (and what stands: a conversation, a wait, a knock), then her own door. A touch on a line opens the window of THAT person's chamber
+ * The chambers, one line per person she called: a conversation, or a call that waits for the call of the other. A touch on a line opens the window of THAT person's chamber
  * (Entrer / Converser / Écouter / Parler / Create for her alone); nothing general is done from here.
  */
 class ChambersActivity : FloatActivity() {
@@ -29,31 +29,19 @@ class ChambersActivity : FloatActivity() {
     }
 
     override fun fill() {
-        val mine = ProfileSettings.repo(this)
-        val own = ChamberState.rooms.firstOrNull { it.optString("room") == mine }
-        val others = ChamberState.rooms.filter { it.optString("room") != mine }
-        if (others.isEmpty()) note("Tu n'es dans la chambre de personne pour l'instant. Pour en ouvrir une, va sur le profil de la personne et touche Chambre.")
-        for (room in others) {
+        val rooms = ChamberState.rooms
+        if (rooms.isEmpty()) note("Tu n'as appelé personne. Pour appeler quelqu'un, va sur son profil et touche Chambre : la chambre s'ouvre quand il t'appellera aussi.")
+        for (room in rooms) {
             val partner = room.optJSONObject("partner")
             val name = partner?.optString("name").orEmpty().ifBlank { room.optString("room").substringBefore('/') }
             val state = when {
                 room.optBoolean("conversing") -> "en conversation"
-                room.optBoolean("asking") -> "demande envoyée, en attente de sa réponse"
                 partner != null -> "est là"
-                room.optString("refused") == "refus" -> "a refusé"
-                else -> "en attente"
+                else -> "appel en attente"
             } + if (room.optBoolean("speak")) " · tu lui parles" else if (room.optBoolean("ear")) " · tu écoutes" else ""
             entry(name, state, if (room.optBoolean("conversing")) Palette.GREEN else Palette.CARD) {
                 startActivity(Intent(this, ChamberActivity::class.java).putExtra(ChamberActivity.EXTRA_REPO, room.optString("room")))
             }
         }
-        val knocking = own?.optBoolean("knock") == true
-        val ownPartner = own?.optJSONObject("partner")?.optString("name")
-        section("Ta porte")
-        entry(
-            if (knocking) "${ownPartner ?: "Quelqu'un"} demande à parler" else if (own == null) "Ta porte est fermée" else if (ownPartner != null) "$ownPartner est à ta porte" else "Ta porte est ouverte",
-            if (knocking) "touche pour accepter ou refuser" else "les demandes de chambre arrivent ici",
-            if (knocking) Palette.GOLD else Palette.CARD,
-        ) { startActivity(Intent(this, ChamberActivity::class.java)) }
     }
 }

@@ -5,9 +5,11 @@ import { createChamber } from '../src/chambre-core.js';
 
 // two phones in the same room: whatever one sends, the other receives (as a copy, as the network would)
 function room() {
-  const members = new Map();
+  const rooms = new Map();          // each room name is a room of its own
   return {
     join(name, id) {
+      if (!rooms.has(name)) rooms.set(name, new Map());
+      const members = rooms.get(name);
       const ends = { handlers: { message: () => {}, join: () => {}, leave: () => {} } };
       const api = {
         send: (m, to) => { for (const [other, e] of members) if (other !== id && (!to || to === other)) queueMicrotask(() => e.handlers.message(JSON.parse(JSON.stringify(m)), id)); },
@@ -42,22 +44,20 @@ function phone(net, id, repo, name, { words = [], busy = false, note = '' } = {}
   return { chamber, log };
 }
 
-test('each presses its button, they find each other, and one starts a conversation that goes on until someone stops it', async () => {
+test('each calls the other, they find each other, and it starts by itself, with no request and no acceptance, and goes on until someone stops it', async () => {
   const net = room();
   const anna = phone(net, 'A', 'anna/site', 'Anna', { words: ['Je suis Anna, je fais un site.', 'Ah super, je peux t\'aider.'] });
   const jean = phone(net, 'J', 'jean/aiwa', 'Jean', { words: ['Salut, je construis Aiwa.', 'Merci, je regarde.', 'Parfait.'] });
-  await anna.chamber.cmd({ cmd: 'open' });
-  assert.equal(anna.chamber.status().waiting, true, 'the host waits for a visitor');
-  await jean.chamber.cmd({ cmd: 'visit', repo: 'anna/site' });
+  await anna.chamber.cmd({ cmd: 'call', repo: 'jean/aiwa' });
+  assert.equal(anna.chamber.status().waiting, true, 'she waits for the call of the other');
+  await jean.chamber.cmd({ cmd: 'call', repo: 'anna/site' });
   await tick();
   assert.equal(anna.chamber.status().partner.repo, 'jean/aiwa');
   assert.equal(jean.chamber.status().partner.repo, 'anna/site');
-  assert.equal(jean.chamber.status().conversing, false, 'nothing is said until one of them starts it');
-  await jean.chamber.cmd({ cmd: 'begin' }); await tick(); await anna.chamber.cmd({ cmd: 'accept' });
   await tick(40);
   assert.equal(anna.chamber.status().conversing, true);
   assert.ok(jean.log.turns.length >= 3 && anna.log.turns.length >= 3, 'it goes on with no limit, each answering the other');
-  assert.equal(anna.log.turns[0].incoming, null, 'the one who starts opens (the one visited, once she accepted)');
+  assert.equal(anna.log.turns[0].incoming, null, 'the one who starts opens (the one whose repository comes first, by itself once both called)');
   assert.equal(jean.log.turns[0].incoming.text, 'Je suis Anna, je fais un site.');
   assert.equal(anna.log.turns[1].incoming.text, 'Salut, je construis Aiwa.');
   await anna.chamber.cmd({ cmd: 'end' });
@@ -68,29 +68,49 @@ test('each presses its button, they find each other, and one starts a conversati
   assert.deepEqual(anna.log.active.map((a) => a.on), [true, false]);
 });
 
-test('a super agent already in a chamber takes no other: the second visitor is told it is busy', async () => {
+test('the room is the pair\'s: a third person who calls Anna is not in the room of Anna and Jean, and nothing starts for her alone', async () => {
   const net = room();
   const anna = phone(net, 'A', 'anna/site', 'Anna', { words: ['ok'] });
   const jean = phone(net, 'J', 'jean/aiwa', 'Jean', { words: ['salut'] });
   const max = phone(net, 'M', 'max/x', 'Max', { words: ['hey'] });
-  await anna.chamber.cmd({ cmd: 'open' });
-  await jean.chamber.cmd({ cmd: 'visit', repo: 'anna/site' });
-  await tick();
-  await max.chamber.cmd({ cmd: 'visit', repo: 'anna/site' });
-  await tick();
-  assert.equal(max.chamber.status().refused, 'busy', 'Max is told');
-  assert.equal(anna.chamber.status().partner.repo, 'jean/aiwa', 'Anna keeps her one partner');
-  assert.equal(max.chamber.status().partner?.repo, undefined);
+  await anna.chamber.cmd({ cmd: 'call', repo: 'jean/aiwa' });
+  await jean.chamber.cmd({ cmd: 'call', repo: 'anna/site' });
+  await max.chamber.cmd({ cmd: 'call', repo: 'anna/site' });
+  await tick(30);
+  assert.equal(anna.chamber.status().partner.repo, 'jean/aiwa', 'Anna talks with Jean');
+  assert.equal(anna.chamber.status().conversing, true, 'they called each other: it started by itself');
+  assert.equal(max.chamber.status().partner, null, 'Max waits alone: Anna did not call him');
+  assert.equal(max.chamber.status().conversing, false);
+  assert.equal(max.log.turns.length, 0);
+  await anna.chamber.cmd({ cmd: 'end' });
+  await tick(10);
+});
+
+test('one call alone starts nothing: the chamber waits for the call of the other', async () => {
+  const net = room();
+  const anna = phone(net, 'A', 'anna/site', 'Anna', { words: ['ok'] });
+  const jean = phone(net, 'J', 'jean/aiwa', 'Jean', { words: ['salut'] });
+  await jean.chamber.cmd({ cmd: 'call', repo: 'anna/site' });
+  await tick(15);
+  assert.equal(jean.chamber.status().waiting, true);
+  assert.equal(jean.log.turns.length + anna.log.turns.length, 0);
+  assert.equal(jean.log.active.length, 0, 'his agent is not engaged');
+  await anna.chamber.cmd({ cmd: 'call', repo: 'jean/aiwa' });
+  await tick(30);
+  assert.equal(anna.chamber.status().conversing, true);
+  assert.equal(jean.chamber.status().conversing, true);
+  await anna.chamber.cmd({ cmd: 'end' });
+  await tick(10);
 });
 
 test('a phone whose brain says it is busy (it is in a chamber elsewhere) does not start one', async () => {
   const net = room();
   const anna = phone(net, 'A', 'anna/site', 'Anna', { busy: true, words: ['x'] });
   const jean = phone(net, 'J', 'jean/aiwa', 'Jean', { words: ['salut'] });
-  await anna.chamber.cmd({ cmd: 'open' });
-  await jean.chamber.cmd({ cmd: 'visit', repo: 'anna/site' });
+  await anna.chamber.cmd({ cmd: 'call', repo: 'jean/aiwa' });
+  await jean.chamber.cmd({ cmd: 'call', repo: 'anna/site' });
   await tick();
-  await jean.chamber.cmd({ cmd: 'begin' }); await tick(); await anna.chamber.cmd({ cmd: 'accept' });
+ 
   await tick(20);
   assert.equal(anna.chamber.status().conversing, false);
   assert.equal(jean.chamber.status().conversing, false, 'the starter is told and stops');
@@ -101,11 +121,11 @@ test('messages and proposals pass only if BOTH pressed the danger button', async
   const net = room();
   const anna = phone(net, 'A', 'anna/site', 'Anna', { words: ['ok'] });
   const jean = phone(net, 'J', 'jean/aiwa', 'Jean', { words: [{ say: 'Regarde', message: 'va voir mon dépôt', proposal: 'fais un test' }] });
-  await anna.chamber.cmd({ cmd: 'open' });
-  await jean.chamber.cmd({ cmd: 'visit', repo: 'anna/site' });
+  await anna.chamber.cmd({ cmd: 'call', repo: 'jean/aiwa' });
+  await jean.chamber.cmd({ cmd: 'call', repo: 'anna/site' });
   await tick();
   await jean.chamber.cmd({ cmd: 'danger', on: true });          // only one side
-  await jean.chamber.cmd({ cmd: 'begin' }); await tick(); await anna.chamber.cmd({ cmd: 'accept' });
+ 
   await tick(30);
   assert.deepEqual(anna.log.delivered, [], 'one button is not enough');
   assert.equal(jean.log.turns.at(-1).danger, false);
@@ -127,7 +147,7 @@ test('somebody who claims another room, or a malformed repository, is not taken 
   const net = room();
   const jean = phone(net, 'J', 'jean/aiwa', 'Jean', { words: ['salut'] });
   const fake = net.join('chambre:anna/site', 'F');
-  await jean.chamber.cmd({ cmd: 'visit', repo: 'anna/site' });
+  await jean.chamber.cmd({ cmd: 'call', repo: 'anna/site' });
   await tick();
   fake.send({ t: 'hello', repo: 'mallory/evil', name: 'Anna' });
   await tick();
@@ -144,9 +164,9 @@ test('closing leaves the room and ends the conversation', async () => {
   const net = room();
   const anna = phone(net, 'A', 'anna/site', 'Anna', { words: ['ok'] });
   const jean = phone(net, 'J', 'jean/aiwa', 'Jean', { words: ['salut'] });
-  await anna.chamber.cmd({ cmd: 'open' });
-  await jean.chamber.cmd({ cmd: 'visit', repo: 'anna/site' });
-  await tick(); await jean.chamber.cmd({ cmd: 'begin' }); await tick(); await anna.chamber.cmd({ cmd: 'accept' }); await tick(20);
+  await anna.chamber.cmd({ cmd: 'call', repo: 'jean/aiwa' });
+  await jean.chamber.cmd({ cmd: 'call', repo: 'anna/site' });
+  await tick(); await tick(20);
   await anna.chamber.cmd({ cmd: 'close' });
   await tick(20);
   assert.equal(anna.chamber.status().mode, 'closed');
@@ -157,10 +177,10 @@ test('closing leaves the room and ends the conversation', async () => {
 test('the commands of the phone go one after the other: leaving a room and entering another do not cross', async () => {
   const net = room();
   const jean = phone(net, 'J', 'jean/aiwa', 'Jean', { words: ['x'] });
-  jean.chamber.cmd({ cmd: 'open' });
+  jean.chamber.cmd({ cmd: 'call', repo: 'luc/site' });
   jean.chamber.cmd({ cmd: 'close' });
-  await jean.chamber.cmd({ cmd: 'visit', repo: 'anna/site' });
-  assert.equal(jean.chamber.status().mode, 'visit');
+  await jean.chamber.cmd({ cmd: 'call', repo: 'anna/site' });
+  assert.equal(jean.chamber.status().mode, 'call');
   assert.equal(jean.chamber.status().room, 'anna/site');
   await jean.chamber.cmd({ cmd: 'close' });
 });
@@ -169,10 +189,10 @@ test('a brain that refuses a turn (no key, no quota) ends the conversation inste
   const net = room();
   const anna = phone(net, 'A', 'anna/site', 'Anna', { words: ['ok'] });
   const jean = createChamber({ join: (n) => net.join(n, 'J'), post: () => {}, me: { repo: 'jean/aiwa', name: 'Jean' }, call: async (cmd) => (cmd === 'chamber-turn' ? { ok: false, error: 'il faut ta clé' } : { ok: true }) });
-  await anna.chamber.cmd({ cmd: 'open' });
-  await jean.cmd({ cmd: 'visit', repo: 'anna/site' });
+  await anna.chamber.cmd({ cmd: 'call', repo: 'jean/aiwa' });
+  await jean.cmd({ cmd: 'call', repo: 'anna/site' });
   await tick();
-  await jean.cmd({ cmd: 'begin' }); await tick(); await anna.chamber.cmd({ cmd: 'accept' });
+  
   await tick(20);
   assert.equal(jean.status().conversing, false);
   assert.match(jean.status().refused, /clé/);
@@ -183,10 +203,10 @@ test('the note of one person goes to the agent of the other and to no screen: it
   const net = room();
   const anna = phone(net, 'A', 'anna/site', 'Anna', { words: ['Bonjour.'], note: 'cherche un associé pour un site' });
   const jean = phone(net, 'J', 'jean/aiwa', 'Jean', { words: ['Salut.', 'Merci.'], note: 'budget limité' });
-  await anna.chamber.cmd({ cmd: 'open' });
-  await jean.chamber.cmd({ cmd: 'visit', repo: 'anna/site' });
+  await anna.chamber.cmd({ cmd: 'call', repo: 'jean/aiwa' });
+  await jean.chamber.cmd({ cmd: 'call', repo: 'anna/site' });
   await tick();
-  await jean.chamber.cmd({ cmd: 'begin' }); await tick(); await anna.chamber.cmd({ cmd: 'accept' });
+ 
   await tick(30);
   assert.equal(jean.log.turns[0].peer_note, 'cherche un associé pour un site', "Jean's agent knows what Anna wrote");
   assert.equal(anna.log.turns[0].peer_note, 'budget limité', "Anna's agent knows what Jean wrote");
@@ -201,12 +221,12 @@ test('a proposal carries what the agent made: a kind, a title and an address, on
   const attach = { kind: 'docs', title: 'Diapo pour Anna', url: 'https://example.com/d' };
   const anna = phone(net, 'A', 'anna/site', 'Anna', { words: ['Bonjour.'] });
   const jean = phone(net, 'J', 'jean/aiwa', 'Jean', { words: [{ say: 'Voilà.', proposal: 'Une diapo pour toi', attach }, 'Merci.'] });
-  await anna.chamber.cmd({ cmd: 'open' });
-  await jean.chamber.cmd({ cmd: 'visit', repo: 'anna/site' });
+  await anna.chamber.cmd({ cmd: 'call', repo: 'jean/aiwa' });
+  await jean.chamber.cmd({ cmd: 'call', repo: 'anna/site' });
   await tick();
   await anna.chamber.cmd({ cmd: 'danger', on: true }); await jean.chamber.cmd({ cmd: 'danger', on: true });
   await tick();
-  await jean.chamber.cmd({ cmd: 'begin' }); await tick(); await anna.chamber.cmd({ cmd: 'accept' });
+ 
   await tick(30);
   const got = anna.log.delivered.find((d) => d.kind === 'proposal');
   assert.ok(got, 'the proposal arrives');
@@ -234,22 +254,16 @@ function phones(net, id, repo, name, { words = ['ok'] } = {}) {
 }
 
 test('a person is in two chambers at once, speaks into one only, and leaving the profile switches the modes off but the chambers go on', async () => {
-  const rooms = new Map();                    // each room name is a room of its own
-  const net = { join: (name, id) => { if (!rooms.has(name)) rooms.set(name, room()); return rooms.get(name).join(name, id); } };
+  const net = room();                         // each room name is a room of its own
   const anna = phones(net, 'A', 'anna/site', 'Anna', { words: ['Anna parle.'] });
   const luc = phones(net, 'L', 'luc/site', 'Luc', { words: ['Luc parle.'] });
   const jean = phones(net, 'J', 'jean/aiwa', 'Jean', { words: ['Jean parle.'] });
-  await anna.chambers.cmd({ cmd: 'open' });
-  await luc.chambers.cmd({ cmd: 'open' });
-  await jean.chambers.cmd({ cmd: 'visit', repo: 'anna/site' });
-  await jean.chambers.cmd({ cmd: 'visit', repo: 'luc/site' });
+  await anna.chambers.cmd({ cmd: 'call', repo: 'jean/aiwa' });
+  await luc.chambers.cmd({ cmd: 'call', repo: 'jean/aiwa' });
+  await jean.chambers.cmd({ cmd: 'call', repo: 'anna/site' });
+  await jean.chambers.cmd({ cmd: 'call', repo: 'luc/site' });
   await tick(20);
   assert.equal(jean.chambers.status().length, 2);
-  await jean.chambers.cmd({ cmd: 'begin', room: 'anna/site' });
-  await jean.chambers.cmd({ cmd: 'begin', room: 'luc/site' });
-  await tick(10);
-  await anna.chambers.cmd({ cmd: 'accept', room: 'jean/aiwa' });
-  await luc.chambers.cmd({ cmd: 'accept', room: 'jean/aiwa' });
   await tick(30);
   assert.deepEqual(jean.chambers.status().map((s) => s.conversing), [true, true]);
 
@@ -276,34 +290,4 @@ test('a person is in two chambers at once, speaks into one only, and leaving the
   await jean.chambers.cmd({ cmd: 'close' });
   await luc.chambers.cmd({ cmd: 'close' });
   await anna.chambers.cmd({ cmd: 'close' });
-});
-
-test('the visitor knocks, nothing starts until the person visited accepts; she may refuse', async () => {
-  const net = room();
-  const anna = phone(net, 'A', 'anna/site', 'Anna', { words: ['Bonjour.'] });
-  const jean = phone(net, 'J', 'jean/aiwa', 'Jean', { words: ['Salut.'] });
-  await anna.chamber.cmd({ cmd: 'open' });
-  await jean.chamber.cmd({ cmd: 'visit', repo: 'anna/site' });
-  await tick();
-  await jean.chamber.cmd({ cmd: 'begin' });
-  await tick(10);
-  assert.equal(jean.chamber.status().asking, true);
-  assert.equal(anna.chamber.status().knock, true, 'she is asked');
-  assert.equal(anna.chamber.status().conversing, false);
-  assert.equal(anna.log.active.length, 0, 'her agent is not engaged before she says yes');
-  await anna.chamber.cmd({ cmd: 'refuse' });
-  await tick(10);
-  assert.equal(anna.chamber.status().knock, false);
-  assert.equal(jean.chamber.status().asking, false);
-  assert.equal(jean.chamber.status().refused, 'refus');
-  assert.equal(jean.chamber.status().conversing, false);
-  await jean.chamber.cmd({ cmd: 'begin' });                 // he may ask again
-  await tick(10);
-  await anna.chamber.cmd({ cmd: 'accept' });
-  await tick(30);
-  assert.equal(anna.chamber.status().conversing, true);
-  assert.equal(jean.chamber.status().conversing, true);
-  assert.equal(jean.chamber.status().asking, false);
-  await anna.chamber.cmd({ cmd: 'end' });
-  await tick(10);
 });
