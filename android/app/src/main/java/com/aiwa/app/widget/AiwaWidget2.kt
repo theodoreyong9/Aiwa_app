@@ -36,12 +36,17 @@ object AiwaWidget2 {
     fun render(context: Context) {
         val ids = ids(context)
         if (ids.isEmpty()) return
+        try { AppWidgetManager.getInstance(context).updateAppWidget(ids, views(context)) } catch (err: Exception) { /* the next change draws it again */ }
+    }
+
+    /** The widget as it is now (also what the picker is shown as its preview). */
+    fun views(context: Context): RemoteViews {
         val snap = Aiwa.state.value
         val status = snap.status
         val v = RemoteViews(context.packageName, R.layout.widget2)
         fun voir(code: Int, mode: String) = activity(context, code, Intent(context, WebActivity::class.java).putExtra(WebActivity.EXTRA_PAGE, "voir").putExtra(WebActivity.EXTRA_MODE, mode))
         val scopeRepo = FilesScope.repo(context, status?.repo) ?: status?.repo
-        val roomOpen = snap.chamberMode != "closed"
+        val roomOpen = com.aiwa.app.chamber.ChamberState.rooms.any { it.optJSONObject("partner") != null || it.optBoolean("knock") }
         // the ear carries the alerts of the first widget's Super agent button (what is missing, what the agent has to say): then it is red and opens the window that answers it
         val alert = AiwaWidget.agentTarget(context, snap) != AgentToggleActivity::class.java
         val targets = mapOf(
@@ -51,7 +56,7 @@ object AiwaWidget2 {
             "cast" to activity(context, 4, CastActivity::class.java),
             "scenario" to activity(context, 5, ScenariosActivity::class.java),
             "swipe" to activity(context, 6, com.aiwa.app.home.HomeActivity::class.java),
-            "room" to activity(context, 7, com.aiwa.app.chamber.ChamberActivity::class.java),
+            "room" to activity(context, 7, com.aiwa.app.chamber.ChambersActivity::class.java),
             "fav" to voir(8, "favoris"),
             "repo" to activity(context, 9, RepoPickerActivity::class.java),
             "session" to (if (scopeRepo != null) activity(context, 10, Intent(context, RepoSessionActivity::class.java).putExtra(RepoSessionActivity.EXTRA_REPO, scopeRepo)) else activity(context, 10, RepoPickerActivity::class.java)),
@@ -63,16 +68,16 @@ object AiwaWidget2 {
             val cell = context.resources.getIdentifier("w2_c_$id", "id", context.packageName)
             val text = context.resources.getIdentifier("w2_t_$id", "id", context.packageName)
             v.setOnClickPendingIntent(cell, targets.getValue(id))
-            v.setInt(cell, "setBackgroundResource", if (id == "ear" && alert) R.drawable.preview_cell_alert else if (id in on) R.drawable.preview_cell_agent else R.drawable.preview_cell)
+            v.setInt(cell, "setBackgroundResource", if (id == "ear" && alert) R.drawable.w2_cell_alert else if (id in on) R.drawable.w2_cell_on else R.drawable.w2_cell)
             if (id == "repo") v.setTextViewText(text, FilesScope.label(context, status?.repo).take(10))
             if (id == "session") v.setTextViewText(text, (snap.sessionTitle ?: "Session").take(10))
             if (id == "ear") v.setTextViewText(text, if (alert) CellModels.of(context, snap).getValue("agent").label.take(14) else if (snap.listening) "Écoute" else "Oreille")
-            if (id == "room") v.setTextViewText(text, if (roomOpen) "En cours" else "Chambre")
+            if (id == "room") v.setTextViewText(text, if (roomOpen) "En cours" else "Chambres")
         }
         v.setOnClickPendingIntent(R.id.w2_tab_settings, activity(context, 20, SettingsActivity::class.java))
         v.setOnClickPendingIntent(R.id.w2_tab_update, activity(context, 21, InstallUpdateActivity::class.java))
-        v.setInt(R.id.w2_tab_update, "setBackgroundResource", if (snap.appUpdateReady) R.drawable.preview_cell_agent else R.drawable.preview_cell)
-        try { AppWidgetManager.getInstance(context).updateAppWidget(ids, v) } catch (err: Exception) { /* the next change draws it again */ }
+        v.setInt(R.id.w2_tab_update, "setBackgroundResource", if (snap.appUpdateReady) R.drawable.w2_tab_ready else R.drawable.w2_tab_off)
+        return v
     }
 }
 
