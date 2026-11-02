@@ -16,11 +16,12 @@ import com.aiwa.app.voice.EarToggleActivity
 import com.aiwa.app.web.WebActivity
 
 /**
- * The third widget: ONE row, in the look of the second one. Oreille (the same state and the same alerts as the Super agent button of the first widget), Wallet, Search (Lien and QR code) and,
+ * The third widget: ONE row with no background, each button a name at the left and a big coloured icon at the right. Oreille (the same state and the same alerts as the Super agent button of the first widget), Wallet, Search (Lien and QR code) and,
  * only while there is an update, Mise à jour. Native views (res/layout/widget3.xml), not resizable.
  */
 object AiwaWidget3 {
     private val SLOTS = listOf("ear", "wallet", "search", "update")
+    private val COLORS = mapOf("ear" to "#5AC8FA", "wallet" to "#2DD4BF", "search" to "#38BDF8", "files" to "#34D399")
 
     fun ids(context: Context): IntArray = AppWidgetManager.getInstance(context).getAppWidgetIds(ComponentName(context, AiwaWidget3Provider::class.java))
 
@@ -49,28 +50,20 @@ object AiwaWidget3 {
             "search" to Tile(R.drawable.fw_i_link, "Search", "search", activity(context, 3, SearchHubActivity::class.java)),
             "update" to Tile(R.drawable.fw_i_update, "Mise à jour", "files", activity(context, 5, InstallUpdateActivity::class.java), 1),
         )
-        var shown = 0
         SLOTS.forEach { id ->
             fun rid(prefix: String) = context.resources.getIdentifier("w3_${prefix}_$id", "id", context.packageName)
-            if (id == "update" && !update) { v.setViewVisibility(rid("c"), View.GONE); return@forEach }       // like the others: the update tile is there only when there is an update
+            if (id == "update" && !update) { v.setViewVisibility(rid("c"), View.GONE); return@forEach }       // like the others: the update is there only when there is one
             val tile = tiles.getValue(id)
-            val shape = if (shown % 2 == 0) "a" else "b"
-            shown++
-            val name = if (tile.state == 2) "alert" else tile.color
-            val drawable = context.resources.getIdentifier("w2_g_${name}_$shape" + (if (tile.state == 1) "_on" else ""), "drawable", context.packageName)
             v.setViewVisibility(rid("c"), View.VISIBLE)
             v.setOnClickPendingIntent(rid("c"), tile.click)
-            v.setInt(rid("c"), "setBackgroundResource", drawable)
             v.setImageViewResource(rid("i"), tile.icon)
-            v.setInt(rid("i"), "setColorFilter", android.graphics.Color.WHITE)
-            v.setInt(rid("i"), "setImageAlpha", if (tile.state == 0) 70 else 120)
+            // no background: the colour is in the icon (red when it calls for an answer, brighter when it is on) and in the name
+            val iconColor = if (tile.state == 2) "#FF6B6B" else COLORS.getValue(tile.color)
+            v.setInt(rid("i"), "setColorFilter", android.graphics.Color.parseColor(iconColor))
+            v.setInt(rid("i"), "setImageAlpha", if (tile.state == 0) 235 else 255)
+            v.setTextColor(rid("t"), android.graphics.Color.parseColor(if (tile.state == 2) "#FFB4B4" else if (tile.state == 1) "#B8FFE0" else "#FFFFFF"))
             v.setTextViewText(rid("t"), tile.label)
         }
-        // the photo chosen in the settings (Fond du widget), under a dark veil; none: the deep card alone
-        val photo = WidgetBackground.res(context)
-        v.setViewVisibility(R.id.w3_photo, if (photo != 0) View.VISIBLE else View.GONE)
-        v.setViewVisibility(R.id.w3_scrim, if (photo != 0) View.VISIBLE else View.GONE)
-        if (photo != 0) v.setImageViewResource(R.id.w3_photo, photo)
         return v
     }
 }
