@@ -67,6 +67,23 @@ object CellModels {
         out["question"] = CellModel("Question", if (status?.ask != null) "red" else "grey", on = status?.ask != null)
         out["settings"] = CellModel("Réglages", "grey")
         out["wallet"] = CellModel("Wallet", "grey")
+        // the twelve tiles of the settings (a page of the widget): the groups open their window, the switches show their state
+        val accountsOk = status?.claudeLogin == "ok" && status.githubToken
+        out["set_accounts"] = CellModel("Connexions", if (accountsOk) "grey" else "red", on = !accountsOk)
+        out["set_words"] = CellModel("Les mots", "grey")
+        out["set_persona"] = CellModel("Jeu", "grey")
+        out["set_me"] = CellModel("Moi", "grey")
+        out["set_voice"] = CellModel("Voix", "grey")
+        val listen = com.aiwa.app.voice.ListenSettings.enabled(context)
+        out["set_ear"] = CellModel(if (listen) "Écoute ✓" else "Écoute", if (listen) "green" else "grey", on = listen)
+        out["set_papers"] = CellModel("Papers", "grey")
+        out["set_model"] = CellModel("Modèle", "grey")
+        val ready = com.aiwa.app.voice.ReadySettings.enabled(context)
+        out["set_ready"] = CellModel(if (ready) "Prêt ✓" else "Prêt", if (ready) "green" else "grey", on = ready)
+        val push = status?.pushMain ?: true
+        out["set_push"] = CellModel(if (push) "Push ✓" else "Push", if (push) "green" else "grey", on = push)
+        out["set_bg"] = CellModel(WidgetBackground.label(context).take(10), "grey")
+        out["set_health"] = CellModel("État", "grey")
         return out
     }
 }

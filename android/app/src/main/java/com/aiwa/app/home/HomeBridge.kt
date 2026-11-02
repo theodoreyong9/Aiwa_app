@@ -155,6 +155,19 @@ object HomeActions {
             "update" -> go(context, InstallUpdateActivity::class.java)
             "question" -> go(context, AskActivity::class.java)
             "settings" -> go(context, SettingsActivity::class.java)
+            // the settings as a page of the widget: the groups open their window, the switches flip on the spot
+            "set_accounts" -> go(context, Intent(context, SettingsActivity::class.java).putExtra(SettingsActivity.EXTRA_GROUP, "accounts"))
+            "set_words" -> go(context, Intent(context, SettingsActivity::class.java).putExtra(SettingsActivity.EXTRA_GROUP, "words"))
+            "set_me" -> go(context, Intent(context, SettingsActivity::class.java).putExtra(SettingsActivity.EXTRA_GROUP, "me"))
+            "set_voice" -> go(context, Intent(context, SettingsActivity::class.java).putExtra(SettingsActivity.EXTRA_GROUP, "voice"))
+            "set_model" -> go(context, Intent(context, SettingsActivity::class.java).putExtra(SettingsActivity.EXTRA_GROUP, "model"))
+            "set_persona" -> go(context, com.aiwa.app.settings.PersonaActivity::class.java)
+            "set_papers" -> go(context, com.aiwa.app.settings.PapersActivity::class.java)
+            "set_health" -> go(context, com.aiwa.app.settings.HealthActivity::class.java)
+            "set_ear" -> com.aiwa.app.widget.AiwaWidget2.flip(context, "ear")
+            "set_ready" -> com.aiwa.app.widget.AiwaWidget2.flip(context, "ready")
+            "set_push" -> com.aiwa.app.widget.AiwaWidget2.flip(context, "push")
+            "set_bg" -> com.aiwa.app.widget.AiwaWidget2.flip(context, "bg")
             "wallet" -> WebActivity.wallet(context)
         }
     }

@@ -17,12 +17,15 @@
     ['files', [['docs', 'Docs', 'green'], ['image', 'Images', 'green'], ['video', 'Vidéos', 'green'], ['app', 'Apps', 'green'], ['page', 'Pages', 'green']]],
     ['voir', [['wallet', 'Wallet', 'grey'], ['nearby', 'Zone', 'violet'], ['link', 'Lien', 'grey'], ['qr', 'QR code', 'grey'], ['favorites', 'Favoris', 'grey']]],
     ['chamber', [['room', 'Chambre', 'grey'], ['roomtalk', 'Converser', 'green'], ['roomear', 'Écouter', 'violet'], ['roomcreate', 'Create', 'red']]],
-    ['bar', [['update', 'Mise à jour', 'grey'], ['settings', 'Réglages', 'grey']]]
+    ['bar', [['update', 'Mise à jour', 'grey'], ['settings', 'Réglages', 'grey']]],
+    // the twelve tiles of the settings, as a page of the widget (the groups open their window, the switches flip on the spot)
+    ['settings', [['set_accounts', 'Connexions', 'grey'], ['set_words', 'Les mots', 'grey'], ['set_persona', 'Jeu', 'grey'], ['set_me', 'Moi', 'grey'], ['set_voice', 'Voix', 'grey'], ['set_ear', 'Écoute', 'grey'],
+      ['set_papers', 'Papers', 'grey'], ['set_model', 'Modèle', 'grey'], ['set_ready', 'Prêt', 'grey'], ['set_push', 'Push', 'grey'], ['set_bg', 'Fond', 'grey'], ['set_health', 'État', 'grey']]]
   ];
   var BY = { widget: { id: 'widget', group: 'widget', label: 'Widget', tone: 'violet' } }, GROUPS = {};
   var TABS = [['settings', 'Réglages'], ['build', 'Agent'], ['files', 'Files'], ['voir', 'Game']];
   // the keys that open a window instead of a page of buttons: Question always, Mise à jour only while there is an update
-  var ACTIONS = { settings: 1, question: 1, update: 1 };
+  var ACTIONS = { question: 1, update: 1 };      // Réglages is a page of the widget like the others
   function tabsNow() { var t = TABS.slice(); if (STATE.update && STATE.update.on) t.push(['update', 'Mise à jour']); return t; }
   CATALOG.forEach(function (g) { GROUPS[g[0]] = g[1].map(function (b) { return b[0]; }); g[1].forEach(function (b) { BY[b[0]] = { id: b[0], group: g[0], label: b[1], tone: b[2] }; }); });
   var STATE = {};
@@ -45,7 +48,8 @@
     '.aiwa-scn h3{margin:0;font-size:1.05em}.aiwa-scn p{margin:0;opacity:.8;font-size:.9em}.aiwa-launch{all:unset;cursor:pointer;justify-self:start;padding:.5em 1em;border-radius:999px;background:var(--aiwa-launch,rgba(120,255,190,.3));font-weight:700}' +
     '.aiwa-dock{position:fixed;right:14px;bottom:14px;z-index:2147483000;font:15px system-ui,sans-serif;color:#fff}.aiwa-dock>button{all:unset;cursor:pointer;width:52px;height:52px;border-radius:50%;display:grid;place-items:center;background:#3a2fa8;box-shadow:0 6px 24px #0008;font-weight:700}' +
     '.aiwa-dock>div{display:none;position:absolute;right:0;bottom:62px;width:min(86vw,340px);max-height:70vh;overflow:auto;padding:12px;border-radius:18px;background:rgba(14,16,40,.92);backdrop-filter:blur(14px);flex-direction:column;gap:10px}.aiwa-dock[data-open="1"]>div{display:flex}';
-  function svg(id) { return '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + (ICONS[id] || '') + '</svg>'; }
+  var ALIAS = { set_accounts: 'link', set_words: 'roomtalk', set_persona: 'favorites', set_me: 'nearby', set_voice: 'roomear', set_ear: 'listen', set_papers: 'docs', set_model: 'agent', set_ready: 'report', set_push: 'update', set_bg: 'image', set_health: 'settings' };
+  function svg(id) { return '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + (ICONS[id] || ICONS[ALIAS[id]] || '') + '</svg>'; }
   function send(msg, evt) {
     if (window.AiwaHomeHost && window.AiwaHomeHost.postMessage) { try { window.AiwaHomeHost.postMessage(JSON.stringify(msg)); return; } catch (e) { } }
     document.dispatchEvent(new CustomEvent(evt, { detail: msg }));
@@ -65,7 +69,7 @@
       var b = document.createElement('button'); b.type = 'button'; b.className = 'aiwa-tab'; b.textContent = t[1]; b.setAttribute('data-on', t[0] === tab ? '1' : '0');
       b.addEventListener('click', function () { if (ACTIONS[t[0]]) { closePanel(); press(t[0]); return; } tab = t[0]; drawPanel(); }); tabs.appendChild(b);
     });
-    (GROUPS[tab] || []).forEach(function (id) { var b = make(id, ''); b.addEventListener('click', closePanel); body.appendChild(b); });
+    (GROUPS[tab] || []).forEach(function (id) { var b = make(id, ''); if (!/^set_(ear|ready|push|bg)$/.test(id)) b.addEventListener('click', closePanel); body.appendChild(b); });      // the switches of the settings stay in view, to show their new state
   }
   function togglePanel() {
     if (sheet) { closePanel(); return; }
@@ -94,7 +98,7 @@
   }
   function ids(slot) {
     var spec = (slot.getAttribute('data-aiwa-slot') || '').split(/[\s,]+/).filter(Boolean), out = [];
-    spec.forEach(function (g) { (g === 'all' ? Object.keys(BY).filter(function (k) { return k !== 'widget'; }) : (GROUPS[g] || [])).forEach(function (i) { if (out.indexOf(i) < 0) out.push(i); }); });
+    spec.forEach(function (g) { (g === 'all' ? Object.keys(BY).filter(function (k) { return k !== 'widget' && BY[k].group !== 'settings'; }) : (GROUPS[g] || [])).forEach(function (i) { if (out.indexOf(i) < 0) out.push(i); }); });
     var only = (slot.getAttribute('data-aiwa-only') || '').split(/[\s,]+/).filter(Boolean), skip = (slot.getAttribute('data-aiwa-skip') || '').split(/[\s,]+/).filter(Boolean);
     if (only.length) out = out.filter(function (i) { return only.indexOf(i) >= 0; });
     return out.filter(function (i) { return skip.indexOf(i) < 0; });
