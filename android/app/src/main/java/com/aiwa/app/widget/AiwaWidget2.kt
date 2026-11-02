@@ -127,11 +127,15 @@ object AiwaWidget2 {
         CELLS.forEachIndexed { i, id ->
             val slot = slots[i]
             fun rid(prefix: String) = context.resources.getIdentifier("w2_${prefix}_$id", "id", context.packageName)
+            // solid tiles of two shapes in a checkerboard (the big corners change diagonal), each in the colour of its function; lit: a white edge; calling for an answer: red
+            val shape = if (((i / 4) + (i % 4)) % 2 == 0) "a" else "b"
+            val name = if (slot.state == 2) "alert" else (COLORS.entries.firstOrNull { it.value == slot.color }?.key ?: "question")
+            val drawable = context.resources.getIdentifier("w2_g_${name}_$shape" + (if (slot.state == 1) "_on" else ""), "drawable", context.packageName)
             v.setOnClickPendingIntent(rid("c"), slot.click)
-            v.setInt(rid("c"), "setBackgroundResource", when (slot.state) { 2 -> R.drawable.w2_cell_alert; 1 -> R.drawable.w2_cell_on; else -> R.drawable.w2_cell })
+            v.setInt(rid("c"), "setBackgroundResource", drawable)
             v.setImageViewResource(rid("i"), slot.icon)
-            v.setInt(rid("i"), "setColorFilter", android.graphics.Color.parseColor(slot.color))
-            v.setInt(rid("b"), "setBackgroundResource", badge(slot.color))
+            v.setInt(rid("i"), "setColorFilter", android.graphics.Color.WHITE)
+            v.setInt(rid("i"), "setImageAlpha", if (slot.state == 0) 70 else 120)      // the big icon behind: a watermark, clearer when the tile is lit
             v.setTextViewText(rid("t"), slot.label)
         }
         // the photo chosen in the settings (Fond du widget), the same as the first widget's; none: the deep card alone
@@ -147,16 +151,6 @@ object AiwaWidget2 {
         v.setViewVisibility(R.id.w2_tab_update, if (snap.appUpdateReady) android.view.View.VISIBLE else android.view.View.GONE)      // like the first widget: the update tab is there only when there is an update
         v.setInt(R.id.w2_tab_update, "setBackgroundResource", if (snap.appUpdateReady) R.drawable.w2_tab_ready else R.drawable.w2_tab_off)
         return v
-    }
-
-    /** The badge (a round glass of the colour of the icon) for a colour of the table above. */
-    private fun badge(color: String): Int {
-        val key = COLORS.entries.firstOrNull { it.value == color }?.key ?: "question"
-        return when (key) {
-            "question" -> R.drawable.w2_badge_question; "ear" -> R.drawable.w2_badge_ear; "files" -> R.drawable.w2_badge_files; "cast" -> R.drawable.w2_badge_cast
-            "scenario" -> R.drawable.w2_badge_scenario; "swipe" -> R.drawable.w2_badge_swipe; "room" -> R.drawable.w2_badge_room; "fav" -> R.drawable.w2_badge_fav
-            "repo" -> R.drawable.w2_badge_repo; "session" -> R.drawable.w2_badge_session; "wallet" -> R.drawable.w2_badge_wallet; else -> R.drawable.w2_badge_search
-        }
     }
 }
 
