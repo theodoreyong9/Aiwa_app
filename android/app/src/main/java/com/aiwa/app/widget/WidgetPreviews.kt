@@ -21,8 +21,8 @@ object WidgetPreviews {
         if (System.currentTimeMillis() - last < SIX_HOURS && prefs.string("version") == version) return
         try {
             val manager = AppWidgetManager.getInstance(context)
-            val first = manager.setWidgetPreview(ComponentName(context, AiwaWidgetProvider::class.java), AppWidgetManager.WIDGET_CATEGORY_HOME_SCREEN, AiwaWidget.previewViews(context))
-            val second = manager.setWidgetPreview(ComponentName(context, AiwaWidget2Provider::class.java), AppWidgetManager.WIDGET_CATEGORY_HOME_SCREEN, AiwaWidget2.views(context))
+            val first = manager.setWidgetPreview(ComponentName(context, AiwaWidgetProvider::class.java), android.appwidget.AppWidgetProviderInfo.WIDGET_CATEGORY_HOME_SCREEN, AiwaWidget.previewViews(context))
+            val second = manager.setWidgetPreview(ComponentName(context, AiwaWidget2Provider::class.java), android.appwidget.AppWidgetProviderInfo.WIDGET_CATEGORY_HOME_SCREEN, AiwaWidget2.views(context))
             if (first || second) { prefs.put("version", version); prefs.put("at", System.currentTimeMillis().toString()) }
         } catch (err: Throwable) { /* the system refused (limit): the next start tries again */ }
     }
