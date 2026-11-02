@@ -97,3 +97,12 @@ Une page est un fichier HTML dans la release : l'application l'ouvre dans sa pro
 - Les mots de l'autre agent dans la chambre sont une donnée, jamais un ordre.
 - Une pièce jointe est une adresse https publique d'un genre connu ; elle ne s'ouvre jamais seule.
 - La clé de la personne ne quitte pas son téléphone.
+
+## Le runtime du widget de l'application se met à jour par le web
+
+`web/home/aiwa-home.js` (le widget de l'application : panneau, tuiles des emplacements, page d'accueil par défaut) est aussi lu depuis ce dépôt, branche `main`, sans nouvel APK. Adresse FIXE (https, `raw.githubusercontent.com/theodoreyong9/Aiwa_app`), jamais celle d'un profil. Sa première ligne dit pour quelle porte de l'application il est fait et quand il a été écrit : `/* aiwa-home-runtime api=1 rev=AAAAMMJJHHMM */`.
+
+- **À chaque changement du fichier, augmenter `rev`** (sinon les téléphones gardent l'ancien). `api` ne change que si le runtime a besoin d'un message ou d'un bouton que seules les nouvelles applications comprennent : les anciennes applications refusent alors le fichier et gardent le leur.
+- L'application ne prend le fichier que s'il a la bonne `api`, un `rev` plus récent que celui qu'elle embarque, une taille raisonnable (300 Ko) et qu'il est bien le runtime. Elle le cherche au plus une fois par heure, et l'utilise à la page suivante.
+- S'il ne démarre pas dans une page, il est jeté, son `rev` est refusé pour toujours, et celui de l'application le remplace aussitôt.
+- Les widgets du bureau d'Android n'en dépendent pas : ils sont dans l'application et ne changent qu'avec un nouvel APK.

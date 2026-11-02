@@ -1,3 +1,4 @@
+/* aiwa-home-runtime api=1 rev=202611021500 */
 /* Aiwa home runtime: fills the SLOTS of a page with the buttons of the application (the widget's buttons), whoever wrote the page.
  *  <div data-aiwa-slot="build"></div>            all the buttons of a group: build (Agent) | files | voir (Game) | chamber | bar      (several groups: "build voir"; "all": every group)
  *  <button data-aiwa-button="docs"></button>     one button (any id of the catalogue below); "widget" is ONE button that opens the widget (its three tabs) over the page

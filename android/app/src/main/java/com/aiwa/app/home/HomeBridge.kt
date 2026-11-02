@@ -39,16 +39,21 @@ import org.json.JSONObject
  * see), and only a press of the main frame counts. The pages of the others run no script of their own (see lockScripts); the runtime is put in by the application, outside of the page's reach.
  */
 object HomeRuntime {
-    private var cached: String? = null
+    private var cached: RemoteRuntime.Choice? = null
     private val ownViews = java.util.WeakHashMap<WebView, Boolean>()      // the pages that are the person's own: only they get her favourites
 
-    /** The runtime, read once from the assets. */
-    fun script(context: Context): String {
+    /** What is put in the pages: the runtime refreshed from the web when there is a good one, else the one inside the application (see RemoteRuntime). */
+    fun choice(context: Context): RemoteRuntime.Choice {
         cached?.let { return it }
-        val text = try { context.assets.open("web/home/aiwa-home.js").use { String(it.readBytes(), Charsets.UTF_8) } } catch (err: Exception) { "" }
-        cached = text
-        return text
+        val c = RemoteRuntime.choose(context)
+        cached = c
+        return c
     }
+
+    fun script(context: Context): String = choice(context).text
+
+    /** A new file of the web has arrived, or one was thrown away: the next page reads again. */
+    fun forget() { cached = null }
 
     /** The home of the application, for the person who has no profile page yet: every button, and a word that says how to make her own (the page replaces __WORD__). */
     fun defaultPage(context: Context): String = try { context.assets.open("web/home/default.html").use { String(it.readBytes(), Charsets.UTF_8) } } catch (err: Exception) { "" }
@@ -74,9 +79,21 @@ object HomeRuntime {
 
     /** Puts the runtime in the page (once it is loaded) and tells it what the buttons show now. */
     fun inject(web: WebView) {
-        val code = script(web.context)
-        if (code.isEmpty()) return
-        web.evaluateJavascript(code, null)
+        val picked = choice(web.context)
+        if (picked.text.isEmpty()) return
+        RemoteRuntime.refresh(web.context)
+        web.evaluateJavascript(picked.text, null)
+        if (picked.remote) {
+            // the runtime of the web must start: if it did not (an error in it, a page that blocked it), it is thrown away and the one inside the application takes its place
+            web.postDelayed({
+                web.evaluateJavascript("!!(window.aiwa && window.aiwa.press)") { ok ->
+                    if (ok != "true") {
+                        RemoteRuntime.reject(web.context, picked.rev)
+                        web.evaluateJavascript("window.__aiwaHome=false;" + RemoteRuntime.bundled(web.context), null)
+                    }
+                }
+            }, 1500)
+        }
         pushState(web)
         pump(web)
     }
