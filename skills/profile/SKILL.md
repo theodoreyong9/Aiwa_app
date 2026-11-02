@@ -14,7 +14,7 @@ Les boutons ne s'écrivent pas : tu poses des EMPLACEMENTS et l'application y me
 - `<div data-aiwa-scenarios></div>` : les scénarios de la page (`Profile/scenarios.json` à côté) ; `<section data-aiwa-favorites></section>` : les favoris de la personne, sur sa propre page seulement.
 - Le style est de la CSS ordinaire sur la classe `.aiwa-btn`, les attributs `data-tone`, `data-on`, `data-id`, et les variables `--aiwa-fg`, `--aiwa-bg`, `--aiwa-edge`, `--aiwa-radius`, `--aiwa-gap`.
 - Une page sans aucun emplacement garde un bouton rond (en bas à droite) qui ouvre le catalogue complet ; `<meta name="aiwa-home" content="none">` le retire.
-- Repartir de zéro : supprimer `Profile/index.html` ramène la page par défaut d'Aiwa (tous les boutons, avec un mot qui explique comment faire sa page).
+
 
 ## La barre du bas de l'application (`Profile/aiwa-ui.json`)
 
@@ -27,3 +27,7 @@ Les boutons ne s'écrivent pas : tu poses des EMPLACEMENTS et l'application y me
 - Le widget du bureau d'Android n'est jamais touché par ce fichier ni par la page : il est dans l'application.
 
 Pousse sur la branche par défaut : le changement apparaît dans les secondes qui suivent ton commit.
+
+## Tout remettre par défaut
+
+Quand la personne demande de rétablir le défaut, de tout remettre à zéro ou de recommencer son profil : supprime `Profile/index.html` et `Profile/aiwa-ui.json` dans son dépôt de profil (sur la branche par défaut). L'application affiche alors l'accueil d'origine d'Aiwa, exactement celui d'une application neuve (tous les boutons, avec un mot qui explique comment faire sa propre page), avec le moteur et le design d'aujourd'hui : ils ne sont pas dans son dépôt et ne se rétablissent pas, ils ne changent pas. Ses médias, ses scénarios (`Profile/scenarios/`) et sa fiche `Profile/profile.json` restent, sauf si elle demande aussi de les effacer. Dis-lui ensuite qu'elle peut recommencer sa page en te la demandant.

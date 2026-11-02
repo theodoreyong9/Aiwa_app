@@ -56,7 +56,7 @@ object HomeRuntime {
     fun forget() { cached = null }
 
     /** The home of the application, for the person who has no profile page yet: every button, and a word that says how to make her own (the page replaces __WORD__). */
-    fun defaultPage(context: Context): String = try { context.assets.open("web/home/default.html").use { String(it.readBytes(), Charsets.UTF_8) } } catch (err: Exception) { "" }
+    fun defaultPage(context: Context): String { RemoteRuntime.refresh(context); return RemoteRuntime.defaultPage(context) }      // follows the web like the runtime (the one of the application until the first one comes)
 
     /**
      * The channel from the page to the phone: a message {"cmd":"press","id":"docs"} or {"cmd":"scenario","scenario":{…}} (a scenario of the page, launched in the account of whoever looks).
