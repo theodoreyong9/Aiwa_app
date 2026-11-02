@@ -31,6 +31,7 @@ android {
         targetCompatibility = JavaVersion.VERSION_17
     }
     kotlinOptions { jvmTarget = "17" }
+    testOptions { unitTests { isIncludeAndroidResources = true } }
     // The web app (wallet, voir, chambre, home) is part of the APK: its build is copied into the assets, never committed.
     sourceSets["main"].assets.srcDir(layout.buildDirectory.dir("generated/web-assets"))
 }
@@ -54,4 +55,8 @@ dependencies {
     // The speech recognizer that listens for the wake word on the phone itself: Apache 2.0, offline.
     implementation("com.alphacephei:vosk-android:0.3.47")
     implementation("net.java.dev.jna:jna:5.13.0@aar")
+    // Only to draw the widget once, with its own code, into a picture (the preview of the picker): WidgetPreviewShot.
+    testImplementation("junit:junit:4.13.2")
+    testImplementation("org.robolectric:robolectric:4.14.1")
+    testImplementation("androidx.test:core:1.6.1")
 }
