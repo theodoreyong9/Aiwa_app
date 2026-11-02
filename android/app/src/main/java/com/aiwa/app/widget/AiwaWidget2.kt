@@ -102,6 +102,23 @@ object AiwaWidget2 {
         AiwaWidget.render(app, force = true)
     }
 
+    /**
+     * What the ear says: the state of the Super agent button of the first widget whenever it says something (« Cerveau en route… », « Autoriser Aiwa », « Connecter Claude »… alert or not), in a few letters; else the ear itself.
+     */
+    private fun earLabel(context: Context, snap: com.aiwa.app.brain.Snapshot, alert: Boolean): String {
+        val said = CellModels.of(context, snap).getValue("agent").label
+        val short = mapOf(
+            "Cerveau en route…" to "Cerveau…", "Installation manquante" to "Installer", "Autoriser Aiwa" to "Autoriser", "Connecter Claude" to "Claude ?", "Connecter GitHub" to "GitHub ?",
+            "Il a quelque chose à dire" to "À écouter", "Envoi échoué : touche pour voir" to "Échec envoi",
+        )
+        val plain = said == "Super agent" || said.startsWith("Super agent")
+        return when {
+            !plain || alert -> short[said] ?: said.take(14)
+            snap.listening -> "Écoute"
+            else -> "Oreille"
+        }
+    }
+
     /** The widget as it is now (also what the picker is shown as its preview). */
     fun views(context: Context, page: String = tab(context), hideDiagonal: (Int) -> Boolean = { false }): RemoteViews {
         val snap = Aiwa.state.value
@@ -117,7 +134,7 @@ object AiwaWidget2 {
             val alert = AiwaWidget.alertInfo(context, snap).alert      // the same alert, the same reasons and the same window as the Super agent button of the first widget
             listOf(
                 Slot(R.drawable.fw_i_question, "Question", COLORS.getValue("question"), activity(context, 1, com.aiwa.app.question.AskActivity::class.java), if (status?.ask != null) 1 else 0, if (status?.ask != null) "En attente" else "Dialogue"),
-                Slot(R.drawable.fw_i_ear, if (alert) CellModels.of(context, snap).getValue("agent").label.take(14) else if (snap.listening) "Écoute" else "Oreille", COLORS.getValue("ear"),
+                Slot(R.drawable.fw_i_ear, earLabel(context, snap, alert), COLORS.getValue("ear"),
                     activity(context, 2, if (alert) AiwaWidget.agentTarget(context, snap) else EarToggleActivity::class.java), if (alert) 2 else if (snap.listening) 1 else 0, if (alert) "À traiter" else "Alertes"),
                 Slot(R.drawable.fw_i_files, "Fichiers", COLORS.getValue("files"), activity(context, 3, FilesHubActivity::class.java), 0, "Productions"),
                 Slot(R.drawable.fw_i_cast, "Cast", COLORS.getValue("cast"), activity(context, 4, CastActivity::class.java), 0, "Vers la télé"),
