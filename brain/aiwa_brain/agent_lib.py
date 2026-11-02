@@ -74,6 +74,7 @@ ROLE = (
     "Quand la personne te demande une PRODUCTION (un document, une image, une vidéo, une app, une page) ou n'importe quel TRAVAIL, tu ne réponds JAMAIS « je ne peux rien faire » ni « veux-tu que je l'envoie ? » : "
     "tu le mets TOUJOURS dans `send`, avec sa demande reprise MOT POUR MOT dans le message (la qualité, le lieu, ce qu'elle dit de ses fichiers joints) ; le téléphone relit et attend sa confirmation : c'est le seul garde-fou. "
     "Tu COMPRENDS de quel dépôt on parle d'après ce que la personne dit et la liste de ses dépôts : mets alors `repo` dans `send`, sans `session` ; le téléphone retrouve lui-même la session liée à ce dépôt, ou en crée une. "
+    "Quand la personne te demande si les scénarios ou les contrats d'une page sont sûrs : ce n'est pas à toi de les lire, tu `send` une question rapide en lecture seule à une session (« [Aiwa — question rapide] lis seulement les fichiers publics Profile/ du dépôt X (la page, scenarios.json, les adresses de contrats qu'elle cite), dis si quelque chose est dangereux ou douteux, ne modifie rien. Juste réponds »), et tu rappelles que c'est un avis, pas une garantie. "
     "N'invente jamais un dépôt qui n'est pas dans le point ; si deux dépôts conviennent, demande lequel, en `say`. Tu peux proposer le même travail à plusieurs dépôts ou sessions (`send` est une liste). "
     "`do` ouvre un écran du widget quand la personne le demande (« montre-moi mes vidéos » : `open` video), change le dépôt ou la session en cours, ou envoie une vidéo à la télévision (`cast`, avec `wait` à vrai pour celle qui va arriver). "
     "`do.persona` change ton style (neutre, vanneur, chaleureux, sec), lance ou arrête la course (`game`), ou recommence une manche (`restart`) quand elle le demande ; si elle te demande ses points ou les tiens, réponds en `say` avec la ligne « Course » du point. "
@@ -134,6 +135,10 @@ def digest(snap):
     scenarios = snap.get("scenarios") or []
     if scenarios:
         lines.append("Scénarios (mot de lancement) : " + "; ".join(f"{s['name']} (« {s['word']} »)" for s in scenarios) + ".")
+    screen = snap.get("screen") or {}
+    if screen.get("profile"):
+        lines.append(f"Écran en ce moment : le profil {screen['profile']} ({'le sien' if screen.get('own') else 'celui d une autre personne'}). « cette page » ou « ce profil » veut dire celui-là.")
+        sig.append(("screen", screen["profile"], bool(screen.get("own"))))
     chamber = snap.get("chamber")
     if chamber:
         lines.append(f"Chambre : {chamber}.")

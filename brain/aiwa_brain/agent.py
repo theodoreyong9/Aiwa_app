@@ -38,6 +38,14 @@ def _ci_state(repo):
     return (run or {}).get("state")
 
 
+def set_screen(data):
+    """The phone tells which profile is on its screen (none when she is elsewhere): what « cette page » means when she talks to the super agent."""
+    repo = str(data.get("profile") or "")
+    with state.lock:
+        state.screen = {"profile": repo if github.REPO_RE.fullmatch(repo) else None, "own": data.get("own") is True}
+    return {"ok": True}
+
+
 def point(report=False):
     """What the super agent is told before each turn, as (text, signature): the sessions with what GitHub shows of them, the repositories, the productions, the scenarios, the chamber, the questions
     that wait. For a report the workflows of the repositories are read too."""
@@ -83,7 +91,7 @@ def point(report=False):
     snap = {
         "pills": {"repo": current_repo, "session": current, "direct": direct, "profile": profile_lib.repo()},
         "sessions": listed, "repos": repos.names(), "productions": files.summary(), "scenarios": [scen_lib.public(s) for s in scen_lib.load(config.SCENARIOS_FILE)],
-        "chamber": chamber, "asks": titles, "extra": extra,
+        "chamber": chamber, "asks": titles, "extra": extra, "screen": dict(state.screen),
     }
     return agent_lib.digest(snap)
 

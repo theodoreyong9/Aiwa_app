@@ -140,3 +140,18 @@ class Masters(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class ScreenTest(unittest.TestCase):
+    def test_the_profile_on_the_screen_is_told_to_the_agent(self):
+        from aiwa_brain import agent, agent_lib, state
+        self.assertTrue(agent.set_screen({"profile": "anna/profil", "own": False})["ok"])
+        self.assertEqual(state.screen, {"profile": "anna/profil", "own": False})
+        text, sig = agent_lib.digest({"pills": {}, "screen": dict(state.screen)})
+        self.assertIn("anna/profil", text)
+        self.assertIn("une autre personne", text)
+        agent.set_screen({"profile": "pas un depot", "own": True})
+        self.assertIsNone(state.screen["profile"], "a name that is not a repository is not kept")
+        agent.set_screen({"profile": ""})
+        text, _ = agent_lib.digest({"pills": {}, "screen": dict(state.screen)})
+        self.assertNotIn("Écran en ce moment", text)
