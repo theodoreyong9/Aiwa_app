@@ -68,7 +68,7 @@ object AiwaWidget {
         val signature = listOf(
             tab, snap.link, snap.status?.repo, snap.status?.session, snap.status?.sending, snap.status?.waiting, snap.status?.silenceMinutes, snap.status?.attachments, snap.status?.claudeLogin, snap.status?.githubToken, snap.status?.diagramOn,
             snap.status?.ask?.id, snap.status?.agent?.say?.id, snap.status?.agent?.proposal?.id, snap.status?.agent?.command?.id, snap.status?.githubError, snap.listening, snap.agentOpen, snap.appUpdateReady,
-            snap.fileCounts, FilesScope.chosen(context), snap.chamberMode, snap.status?.chamber?.active,
+            snap.fileCounts, FilesScope.chosen(context), com.aiwa.app.chamber.ChamberState.rooms.joinToString { it.optString("room") + it.optJSONObject("partner")?.optString("name") + it.optBoolean("knock") + it.optBoolean("conversing") },
             hasTermuxPermission(context), WidgetBackground.key(context), snap.sessionTitle,
         ).joinToString("|")
         if (!force && signature == lastSignature) return
@@ -106,6 +106,9 @@ object AiwaWidget {
             else -> AgentToggleActivity::class.java
         }
     }
+
+    /** The first widget as it is now (also what the picker is shown as its preview). */
+    fun previewViews(context: Context): RemoteViews = build(context, Aiwa.state.value, WidgetTab.get(context))
 
     private fun id(context: Context, name: String): Int = context.resources.getIdentifier(name, "id", context.packageName)
 
@@ -146,7 +149,7 @@ object AiwaWidget {
         val needsSetup = !hasTermuxPermission(context)
         val robotTarget: Class<*> = agentTarget(context, snap)
         val hasSession = snap.sessionId != null || status?.lastSession != null
-        val roomOpen = snap.chamberMode != "closed" || status?.chamber?.active == true
+        val roomOpen = com.aiwa.app.chamber.ChamberState.rooms.any { it.optJSONObject("partner") != null || it.optBoolean("knock") }
         val firstRow = buildList {
             add(Cell(btn(R.drawable.fw_i_robot, "agent"), 3f, activity(context, 10, robotTarget), zone = 0))
             add(Cell(btn(R.drawable.fw_i_question, "question", iconOnly = true), 1f, activity(context, 7, AskActivity::class.java), zone = 1))
@@ -181,7 +184,7 @@ object AiwaWidget {
             buildList {
                 add(Cell(btn(R.drawable.fw_i_wallet, "wallet"), 1f, activity(context, 44, Intent(context, WebActivity::class.java).putExtra(WebActivity.EXTRA_PAGE, "wallet")), zone = 0))
                 // the room in progress, between the Wallet and the Swipe: only while there is one (its touch zone is gone otherwise, the two others share the row)
-                if (roomOpen) add(Cell(WidgetArt.Btn(R.drawable.fw_i_room, "Chambre en cours", "violet", true, true), 1f, activity(context, 15, com.aiwa.app.chamber.ChamberActivity::class.java), zone = 1))
+                if (roomOpen) add(Cell(WidgetArt.Btn(R.drawable.fw_i_room, "Chambre en cours", "violet", true, true), 1f, activity(context, 15, com.aiwa.app.chamber.ChambersActivity::class.java), zone = 1))
                 add(Cell(btn(R.drawable.fw_i_pin, "nearby"), 1f, activity(context, 40, com.aiwa.app.home.HomeActivity::class.java), zone = 2))
             },
             listOf(

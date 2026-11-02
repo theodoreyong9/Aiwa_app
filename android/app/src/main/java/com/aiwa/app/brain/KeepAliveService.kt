@@ -267,6 +267,7 @@ class KeepAliveService : Service() {
     override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
         // the door of the chamber: the person's own room stays open so that someone can knock (nothing starts before she accepts)
         try { if (com.aiwa.app.voice.ChamberSettings.door(applicationContext)) com.aiwa.app.chamber.ChamberActions.door(applicationContext, true) } catch (err: Exception) { /* no profile yet, or the start was refused */ }
+        try { com.aiwa.app.widget.WidgetPreviews.publish(applicationContext) } catch (err: Throwable) { }
         return START_STICKY
     }
 }
