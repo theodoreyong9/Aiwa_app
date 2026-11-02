@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- The third widget: one row of tiles (Oreille, Wallet, Search, Mise à jour), four cells wide and one high, not resizable. -->
-<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android" android:minWidth="250dp" android:minHeight="70dp" android:targetCellWidth="4" android:targetCellHeight="1"
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android" android:minWidth="250dp" android:minHeight="40dp" android:targetCellWidth="4" android:targetCellHeight="1"
     android:resizeMode="none" android:updatePeriodMillis="0" android:initialLayout="@layout/widget3" android:previewLayout="@layout/widget3" android:description="@string/widget3_description"
     android:widgetCategory="home_screen" />
