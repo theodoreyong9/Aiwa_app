@@ -39,6 +39,8 @@ OPEN_KINDS = {
     "connexion claude": "claude_login", "mur": "wall", "cles": "keys", "clés": "keys", "style": "style",
     # the choice of the repository and the sessions, the tiles of the settings one by one and their switches (what the widgets show)
     "depot": "repo", "dépôt": "repo", "depots": "repo", "dépôts": "repo", "repo": "repo", "repos": "repo", "session": "session", "sessions": "session", "la session": "session", "les sessions": "session",
+    "scan": "scan", "scanne": "scan", "scanne cette page": "scan", "scanne ce profil": "scan", "donne l'accès": "trust_open", "donne l'acces": "trust_open", "autorise l'accès": "trust_open",
+    "retire l'accès": "trust_close", "retire l'acces": "trust_close", "ferme l'accès": "trust_close", "ferme l'acces": "trust_close",
     "connexions": "set_accounts", "les mots": "set_words", "mes mots": "set_words", "jeu": "set_persona", "le jeu": "set_persona", "personnalite": "set_persona", "personnalité": "set_persona", "moi": "set_me", "ma description": "set_me",
     "voix": "set_voice", "la voix": "set_voice", "papers": "set_papers", "modele": "set_model", "modèle": "set_model", "le modèle": "set_model",
     "ecoute permanente": "set_ear", "écoute permanente": "set_ear", "c'est prêt": "set_ready", "c'est pret": "set_ready", "push": "set_push", "push direct": "set_push", "fond": "set_bg", "fond du widget": "set_bg", "le fond": "set_bg",
@@ -48,11 +50,11 @@ OPEN_SPOKEN = {
     "scenario": "les scénarios", "cast": "le choix de la télé", "voir": "la fenêtre Voir", "voir_on": "Voir : visible", "voir_off": "Voir : caché", "voir_near": "la zone",
     "voir_link": "Voir par lien", "voir_qr": "Voir par QR code", "voir_fav": "Voir mes favoris", "chambre": "la chambre", "chambres": "la liste des chambres", "settings": "les réglages", "update": "la mise à jour",
     "question": "la question", "claude": "la conversation Claude", "add": "l'ajout d'un fichier", "listen": "l'écoute permanente (bascule)", "wallet": "le wallet", "report": "le rapport",
-    "repo": "le choix du dépôt", "session": "les sessions", "set_accounts": "les connexions", "set_words": "les mots", "set_persona": "le jeu et la personnalité", "set_me": "mon profil (réglages)", "set_voice": "la voix",
+    "repo": "le choix du dépôt", "session": "les sessions", "scan": "le scan du profil affiché (un avis, pas une garantie)", "trust_open": "l'accès du profil affiché au widget (je te demande confirmation)", "trust_close": "la fermeture de l'accès du profil affiché", "set_accounts": "les connexions", "set_words": "les mots", "set_persona": "le jeu et la personnalité", "set_me": "mon profil (réglages)", "set_voice": "la voix",
     "set_papers": "les papers", "set_model": "le modèle", "set_health": "l'état d'Aiwa", "set_ear": "l'écoute permanente (bascule)", "set_ready": "« C'est prêt » (bascule)", "set_push": "le push direct (bascule)", "set_bg": "le fond du widget (change)",
     "build": "le widget", "home": "Aiwa", "github": "la connexion GitHub", "health": "l'état d'Aiwa", "claude_login": "la connexion Claude", "wall": "le mur", "keys": "les clés", "style": "le style",
 }
-OPEN_LIST = "documents, images, videos, apps, pages, fichiers, scenario, cast, voir, visible, cache, zone, lien, qr, favoris, chambre, chambres, depot, sessions, connexions, les mots, jeu, moi, voix, papers, modele, ecoute permanente, c'est prêt, push, fond, reglages, mise a jour, question, claude, ajouter, ecoute, wallet, rapport, accueil, aiwa, swipe, aiwa, swipe, github, etat, connexion claude, mur, cles, style"
+OPEN_LIST = "scan, scanne, donne l'accès, retire l'accès, documents, images, videos, apps, pages, fichiers, scenario, cast, voir, visible, cache, zone, lien, qr, favoris, chambre, chambres, depot, sessions, connexions, les mots, jeu, moi, voix, papers, modele, ecoute permanente, c'est prêt, push, fond, reglages, mise a jour, question, claude, ajouter, ecoute, wallet, rapport, accueil, aiwa, swipe, aiwa, swipe, github, etat, connexion claude, mur, cles, style"
 
 REPORT_REQUEST = (
     "Fais-moi le rapport de toute mon activité depuis le dernier message que je t'ai envoyé : les sessions, les dépôts, les productions nouvelles, les workflows (pour chaque échec, l'étape en cause "
@@ -280,7 +282,7 @@ def parse_command(raw, known_ids):
     return out or None
 
 
-OPEN_VERB = re.compile(r"^(?:(?:s'il te pla[iî]t|stp|peux[- ]tu|tu peux|pourrais[- ]tu|vas?[- ]y|alors|bon|ok)\s+)*(?:ouvre|ouvrir|affiche|afficher|montre|montrer|lance|lancer|va|vas|aller|emm[eè]ne)\b", re.I)
+OPEN_VERB = re.compile(r"^(?:(?:s'il te pla[iî]t|stp|peux[- ]tu|tu peux|pourrais[- ]tu|vas?[- ]y|alors|bon|ok)\s+)*(?:ouvre|ouvrir|affiche|afficher|montre|montrer|lance|lancer|va|vas|aller|emm[eè]ne|scanne|scanner|donne|retire|autorise|ferme)\b", re.I)
 
 
 def open_intent(spoken):

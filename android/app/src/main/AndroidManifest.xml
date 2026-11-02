@@ -51,6 +51,8 @@
         <activity android:name=".scenario.ScenarioEditActivity" android:exported="false" android:theme="@style/Theme.Float" android:windowSoftInputMode="adjustResize" android:taskAffinity="" android:excludeFromRecents="true" />
         <activity android:name=".voice.WordsActivity" android:exported="false" android:theme="@style/Theme.Float" android:windowSoftInputMode="adjustResize" android:taskAffinity="" android:excludeFromRecents="true" />
         <activity android:name=".voice.VoicePrintActivity" android:exported="false" android:theme="@style/Theme.Float" android:windowSoftInputMode="adjustResize" android:taskAffinity="" android:excludeFromRecents="true" />
+        <activity android:name=".home.WidgetPanelActivity" android:exported="false" android:theme="@style/Theme.Float" android:taskAffinity="" android:excludeFromRecents="true" />
+        <activity android:name=".home.TrustConfirmActivity" android:exported="false" android:theme="@style/Theme.Float" android:taskAffinity="" android:excludeFromRecents="true" />
         <activity android:name=".settings.SettingsActivity" android:exported="false" android:theme="@style/Theme.Float" android:windowSoftInputMode="adjustResize" android:taskAffinity="" android:excludeFromRecents="true" />
         <activity android:name=".settings.GithubConnectActivity" android:exported="false" android:theme="@style/Theme.Float" android:windowSoftInputMode="adjustResize" android:taskAffinity="" android:excludeFromRecents="true" />
         <activity android:name=".studio.VoiceSampleActivity" android:exported="false" android:theme="@style/Theme.Float" android:taskAffinity="" android:excludeFromRecents="true" />

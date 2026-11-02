@@ -55,7 +55,7 @@ object AgentScreens {
         "files_docs", "files_image", "files_video", "files_app", "files_page", "files", "build", "scenario", "cast", "voir", "voir_near", "voir_link", "voir_qr", "voir_fav", "voir_on", "voir_off",
         "chambre", "chambres", "settings", "update", "question", "claude", "add", "listen", "wallet", "report", "home", "github", "health", "claude_login", "keys", "style", "wall",
         // what the widgets show, by voice too: the choice of the repository, the sessions, the tiles of the settings one by one and their switches
-        "repo", "session", "set_accounts", "set_words", "set_persona", "set_me", "set_voice", "set_papers", "set_model", "set_health", "set_ear", "set_ready", "set_push", "set_bg",
+        "repo", "session", "scan", "trust_open", "trust_close", "set_accounts", "set_words", "set_persona", "set_me", "set_voice", "set_papers", "set_model", "set_health", "set_ear", "set_ready", "set_push", "set_bg",
     )
 
     fun open(context: Context, token: String) {
@@ -69,6 +69,22 @@ object AgentScreens {
             "voir_on" -> com.aiwa.app.voir.VoirSettings.setOn(context, true)
             "voir_off" -> com.aiwa.app.voir.VoirSettings.setOn(context, false)
             "chambre", "chambres" -> go(context, com.aiwa.app.chamber.ChambersActivity::class.java)      // the list: one line per person she called
+            // the profile on the screen: scanned (an opinion by a session, read-only), or its access to the widget given (asked in full first) or taken back
+            "scan" -> {
+                val repo = com.aiwa.app.home.ScreenNow.repo
+                if (repo == null || com.aiwa.app.home.ScreenNow.own) toastOnMain(context, "Aucun profil d'une autre personne à l'écran.")
+                else Thread { try { Aiwa.brain.agentAsk("Scanne cette page ($repo) : lis ses fichiers publics (la page, ses scénarios, les contrats qu'elle cite) et dis-moi si quelque chose est dangereux ou douteux. Lecture seule.") } catch (err: Exception) { } }.start()
+            }
+            "trust_open" -> {
+                val repo = com.aiwa.app.home.ScreenNow.repo
+                if (repo == null || com.aiwa.app.home.ScreenNow.own) toastOnMain(context, "Aucun profil d'une autre personne à l'écran.")
+                else go(context, Intent(context, com.aiwa.app.home.TrustConfirmActivity::class.java).putExtra(com.aiwa.app.home.TrustConfirmActivity.EXTRA_REPO, repo))
+            }
+            "trust_close" -> {
+                val repo = com.aiwa.app.home.ScreenNow.repo
+                if (repo == null || com.aiwa.app.home.ScreenNow.own) toastOnMain(context, "Aucun profil d'une autre personne à l'écran.")
+                else { com.aiwa.app.home.TrustedProfiles.set(context, repo, false); com.aiwa.app.home.ScreenNow.reload?.invoke(); toastOnMain(context, "Accès retiré : la page de $repo est de nouveau fermée.") }
+            }
             "repo" -> go(context, com.aiwa.app.widget.RepoPickerActivity::class.java)
             "session" -> {
                 val repo = com.aiwa.app.widget.FilesScope.repo(context, Aiwa.state.value.status?.repo) ?: Aiwa.state.value.status?.repo

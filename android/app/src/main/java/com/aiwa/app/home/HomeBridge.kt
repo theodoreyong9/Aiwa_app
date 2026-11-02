@@ -40,7 +40,8 @@ import org.json.JSONObject
  */
 object HomeRuntime {
     private var cached: RemoteRuntime.Choice? = null
-    private val ownViews = java.util.WeakHashMap<WebView, Boolean>()      // the pages that are the person's own: only they get her favourites
+    private val ownViews = java.util.WeakHashMap<WebView, Boolean>()
+    private val sources = java.util.WeakHashMap<WebView, () -> String?>()      // the pages that are the person's own: only they get her favourites
 
     /** What is put in the pages: the runtime refreshed from the web when there is a good one, else the one inside the application (see RemoteRuntime). */
     fun choice(context: Context): RemoteRuntime.Choice {
@@ -64,10 +65,13 @@ object HomeRuntime {
      */
     fun attach(web: WebView, own: Boolean, source: () -> String?) {
         ownViews[web] = own
+        sources[web] = source
         if (!WebViewFeature.isFeatureSupported(WebViewFeature.WEB_MESSAGE_LISTENER)) return
         try {
             WebViewCompat.addWebMessageListener(web, "AiwaHomeHost", setOf("*")) { _, message: WebMessageCompat, _, isMainFrame, _ ->
                 if (!isMainFrame) return@addWebMessageListener
+                // a visited profile in the closed zone has no access to the application: whatever its page sends is thrown away
+                if (!own && !TrustedProfiles.isOpen(web.context, source())) return@addWebMessageListener
                 val json = try { JSONObject(message.data ?: return@addWebMessageListener) } catch (err: Exception) { return@addWebMessageListener }
                 when (json.optString("cmd")) {
                     "press" -> HomeActions.press(web.context, json.optString("id"), source(), own)
@@ -79,6 +83,8 @@ object HomeRuntime {
 
     /** Puts the runtime in the page (once it is loaded) and tells it what the buttons show now. */
     fun inject(web: WebView) {
+        // a visited profile in the closed zone gets no runtime: its page has no button of Aiwa (they are drawn by the application, outside of it)
+        if (ownViews[web] != true && !TrustedProfiles.isOpen(web.context, sources[web]?.invoke())) return
         val picked = choice(web.context)
         if (picked.text.isEmpty()) return
         RemoteRuntime.refresh(web.context)
@@ -118,14 +124,26 @@ object HomeRuntime {
     fun release(web: WebView) { web.setTag(com.aiwa.app.R.id.home_pump, false) }
 
     /** Opens the widget over the page (the « Widget » button of the visitor's bar, or of the page). */
-    fun openPanel(web: WebView) { web.evaluateJavascript("(window.aiwa&&window.aiwa.panel)&&window.aiwa.panel()", null) }
+    fun openPanel(web: WebView) {
+        // a page in the closed zone has no runtime: the buttons of Aiwa are shown by a window of the application
+        if (ownViews[web] != true && !TrustedProfiles.isOpen(web.context, sources[web]?.invoke())) { web.context.startActivity(android.content.Intent(web.context, WidgetPanelActivity::class.java).addFlags(android.content.Intent.FLAG_ACTIVITY_NEW_TASK)); return }
+        web.evaluateJavascript("(window.aiwa&&window.aiwa.panel)&&window.aiwa.panel()", null)
+    }
 
     /**
      * The page of someone else: its scripts, its frames and its plugins are forbidden (a policy put first in the page, which the page cannot remove), so that only the design and the words of the page count
      * and a page cannot press a button, read the state of the visitor or send anything out. The runtime of the application is not under this rule (a script run by the application itself).
      */
-    fun lockScripts(html: String): String {
-        val policy = "<meta http-equiv=\"Content-Security-Policy\" content=\"script-src 'none'; frame-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'\">"
+    fun lockScripts(html: String): String = withPolicy(html, "script-src 'none'; frame-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'")
+
+    /**
+     * The closed zone of a visited profile: its own scripts run (an animated, living page), but they reach nothing: no connection of any kind (fetch, sockets, beacons through frames), no frame, no form, no plugin,
+     * and no bridge to the application (see attach). Images, sounds, fonts and styles of https stay.
+     */
+    fun closedZone(html: String): String = withPolicy(html, "default-src 'none'; script-src 'unsafe-inline' https:; style-src 'unsafe-inline' https:; img-src https: data: blob:; media-src https: data: blob:; font-src https: data:; connect-src 'none'; frame-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'")
+
+    private fun withPolicy(html: String, rules: String): String {
+        val policy = "<meta http-equiv=\"Content-Security-Policy\" content=\"$rules\">"
         val head = Regex("<head[^>]*>", RegexOption.IGNORE_CASE).find(html)
         if (head != null) return html.substring(0, head.range.last + 1) + policy + html.substring(head.range.last + 1)
         val root = Regex("<html[^>]*>", RegexOption.IGNORE_CASE).find(html)
