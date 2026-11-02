@@ -139,11 +139,10 @@ object AiwaWidget2 {
         v.setViewVisibility(R.id.w2_photo, if (photo != 0) android.view.View.VISIBLE else android.view.View.GONE)
         v.setViewVisibility(R.id.w2_scrim, if (photo != 0) android.view.View.VISIBLE else android.view.View.GONE)
         if (photo != 0) v.setImageViewResource(R.id.w2_photo, photo)
-        // the tabs: Réglages and Aiwa are the two pages of the grid; the open one is lit; Mise à jour is there only when there is an update
-        v.setOnClickPendingIntent(R.id.w2_tab_settings, tabIntent(context, 1, "settings"))
-        v.setOnClickPendingIntent(R.id.w2_tab_aiwa, tabIntent(context, 2, "aiwa"))
-        v.setInt(R.id.w2_tab_settings, "setBackgroundResource", if (onSettings) R.drawable.w2_tab_on else R.drawable.w2_tab_off)
-        v.setInt(R.id.w2_tab_aiwa, "setBackgroundResource", if (onSettings) R.drawable.w2_tab_off else R.drawable.w2_tab_on)
+        // ONE tab that switches: it shows the page it goes to (Réglages from the grid of Aiwa, Aiwa from the settings); Mise à jour is there only when there is an update
+        v.setOnClickPendingIntent(R.id.w2_tab_settings, tabIntent(context, 1, if (onSettings) "aiwa" else "settings"))
+        v.setImageViewResource(R.id.w2_tab_i, if (onSettings) R.drawable.fw_i_build else R.drawable.fw_i_settings)
+        v.setTextViewText(R.id.w2_tab_t, if (onSettings) "Aiwa" else "Réglages")
         v.setOnClickPendingIntent(R.id.w2_tab_update, activity(context, 21, InstallUpdateActivity::class.java))
         v.setViewVisibility(R.id.w2_tab_update, if (snap.appUpdateReady) android.view.View.VISIBLE else android.view.View.GONE)      // like the first widget: the update tab is there only when there is an update
         v.setInt(R.id.w2_tab_update, "setBackgroundResource", if (snap.appUpdateReady) R.drawable.w2_tab_ready else R.drawable.w2_tab_off)
