@@ -110,6 +110,21 @@ object AiwaWidget {
     /** The first widget as it is now (also what the picker is shown as its preview). */
     fun previewViews(context: Context): RemoteViews = build(context, Aiwa.state.value, WidgetTab.get(context))
 
+    /** The Agent page as the widget draws it on a calm day (nothing to answer), at the size given: the picture the picker shows as the preview (the same drawing, not a copy of it). */
+    fun previewBitmap(context: Context, widthPx: Int, heightPx: Int): android.graphics.Bitmap {
+        val tabs = listOf(
+            WidgetArt.Tab(R.drawable.fw_i_settings, "Réglages", "grey", weight = 0.55f),
+            WidgetArt.Tab(R.drawable.fw_i_build, "Agent", "orange"),
+            WidgetArt.Tab(R.drawable.fw_i_files, "Files", "green"),
+            WidgetArt.Tab(R.drawable.fw_i_game, "Game", "violet"),
+        )
+        val rows = listOf(
+            listOf(WidgetArt.Btn(R.drawable.fw_i_robot, "Super agent", "orange") to 3f, WidgetArt.Btn(R.drawable.fw_i_question, "Question", "grey", true, true) to 1f),
+            listOf(R.drawable.fw_i_claude, R.drawable.fw_i_plus, R.drawable.fw_i_scenario, R.drawable.fw_i_cast, R.drawable.fw_i_diagram).map { WidgetArt.Btn(it, "", "grey", true, true) to 1f },
+        )
+        return WidgetArt.full(context, widthPx, heightPx, false, WidgetBackground.res(context), tabs, 1, rows)
+    }
+
     private fun id(context: Context, name: String): Int = context.resources.getIdentifier(name, "id", context.packageName)
 
     private fun build(context: Context, snap: Snapshot, tab: String): RemoteViews {

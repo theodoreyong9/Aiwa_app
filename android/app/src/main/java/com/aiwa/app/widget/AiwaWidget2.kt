@@ -81,6 +81,7 @@ object AiwaWidget2 {
         if (photo != 0) v.setImageViewResource(R.id.w2_photo, photo)
         v.setOnClickPendingIntent(R.id.w2_tab_settings, activity(context, 20, SettingsActivity::class.java))
         v.setOnClickPendingIntent(R.id.w2_tab_update, activity(context, 21, InstallUpdateActivity::class.java))
+        v.setViewVisibility(R.id.w2_tab_update, if (snap.appUpdateReady) android.view.View.VISIBLE else android.view.View.GONE)      // like the first widget: the update tab is there only when there is an update
         v.setInt(R.id.w2_tab_update, "setBackgroundResource", if (snap.appUpdateReady) R.drawable.w2_tab_ready else R.drawable.w2_tab_off)
         return v
     }
