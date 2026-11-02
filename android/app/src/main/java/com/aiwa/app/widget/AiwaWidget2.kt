@@ -45,6 +45,32 @@ object AiwaWidget2 {
     fun tab(context: Context): String = com.aiwa.app.common.Prefs(context, "aiwa_widget2_tab").string("tab", "aiwa")?.takeIf { it in TABS } ?: "aiwa"
     fun setTab(context: Context, tab: String) { com.aiwa.app.common.Prefs(context, "aiwa_widget2_tab").put("tab", tab); render(context) }
 
+    private var animating = false
+
+    /**
+     * The change of page, feigned as a movement (a widget cannot be animated, but its buttons can be hidden and shown): the grid is four by three, so its anti-diagonals (the column plus the row) hold
+     * 1, 2, 3, 3, 2 and 1 buttons. The buttons of the old page go diagonal after diagonal from the top left corner, then those of the new page come back in the same order, one frame about every 70 ms.
+     */
+    fun switchTo(context: Context, tab: String) {
+        val app = context.applicationContext
+        if (animating || tab == tab(app)) return
+        animating = true
+        val handler = android.os.Handler(android.os.Looper.getMainLooper())
+        val before = tab(app)
+        val step = 70L
+        val last = 5                       // the diagonals are numbered 0 to 5
+        for (k in 0..last) handler.postDelayed({ draw(app, before, hideDiagonal = { d -> d <= k }) }, k * step)
+        handler.postDelayed({ com.aiwa.app.common.Prefs(app, "aiwa_widget2_tab").put("tab", tab) }, (last + 1) * step - 1)
+        for (k in 0..last) handler.postDelayed({ draw(app, tab, hideDiagonal = { d -> d > k }) }, (last + 1 + k) * step)
+        handler.postDelayed({ animating = false; render(app) }, (2 * last + 2) * step + 40)
+    }
+
+    private fun draw(context: Context, page: String, hideDiagonal: (Int) -> Boolean) {
+        val ids = ids(context)
+        if (ids.isEmpty()) return
+        try { AppWidgetManager.getInstance(context).updateAppWidget(ids, views(context, page, hideDiagonal)) } catch (err: Exception) { /* the last frame draws it right */ }
+    }
+
     private val COLORS = mapOf("question" to "#F5C451", "ear" to "#5AC8FA", "files" to "#34D399", "cast" to "#A78BFA", "scenario" to "#F472B6", "swipe" to "#FB923C", "room" to "#60A5FA",
         "fav" to "#FBBF24", "repo" to "#C4B5FD", "session" to "#F59E0B", "wallet" to "#2DD4BF", "search" to "#38BDF8")
 
@@ -77,11 +103,11 @@ object AiwaWidget2 {
     }
 
     /** The widget as it is now (also what the picker is shown as its preview). */
-    fun views(context: Context): RemoteViews {
+    fun views(context: Context, page: String = tab(context), hideDiagonal: (Int) -> Boolean = { false }): RemoteViews {
         val snap = Aiwa.state.value
         val status = snap.status
         val v = RemoteViews(context.packageName, R.layout.widget2)
-        val onSettings = tab(context) == "settings"
+        val onSettings = page == "settings"
         fun voir(code: Int, mode: String) = activity(context, code, Intent(context, WebActivity::class.java).putExtra(WebActivity.EXTRA_PAGE, "voir").putExtra(WebActivity.EXTRA_MODE, mode))
         fun group(code: Int, id: String) = activity(context, code, Intent(context, SettingsActivity::class.java).putExtra(SettingsActivity.EXTRA_GROUP, id))
         val slots: List<Slot> = if (!onSettings) {
@@ -137,6 +163,8 @@ object AiwaWidget2 {
             v.setInt(rid("i"), "setColorFilter", android.graphics.Color.WHITE)
             v.setInt(rid("i"), "setImageAlpha", if (slot.state == 0) 70 else 120)      // the big icon behind: a watermark, clearer when the tile is lit
             v.setTextViewText(rid("t"), slot.label)
+            val diagonal = (i / 4) + (i % 4)                        // the row plus the column: 0 to 5
+            v.setViewVisibility(rid("c"), if (hideDiagonal(diagonal)) android.view.View.INVISIBLE else android.view.View.VISIBLE)
         }
         // the photo chosen in the settings (Fond du widget), the same as the first widget's; none: the deep card alone
         val photo = WidgetBackground.res(context)
@@ -162,7 +190,7 @@ class AiwaWidget2Provider : AppWidgetProvider() {
 
     override fun onReceive(context: Context, intent: Intent) {
         when (intent.action) {
-            AiwaWidget2.ACTION_TAB -> AiwaWidget2.setTab(context, intent.getStringExtra("tab") ?: return)
+            AiwaWidget2.ACTION_TAB -> AiwaWidget2.switchTo(context, intent.getStringExtra("tab") ?: return)
             AiwaWidget2.ACTION_TOGGLE -> AiwaWidget2.flip(context, intent.getStringExtra("what") ?: return)
             else -> super.onReceive(context, intent)
         }
