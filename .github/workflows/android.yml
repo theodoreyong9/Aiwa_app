@@ -42,8 +42,7 @@ jobs:
       - name: A thumbnail of the preview, in the log
         continue-on-error: true
         run: |
-          convert android/app/build/widget-previews/widget1_preview.png -background '#222' -flatten -resize 330x -quality 55 /tmp/thumb.jpg
-          echo "THUMB_B64_START"; base64 -w0 /tmp/thumb.jpg; echo; echo "THUMB_B64_END"
+          echo "THUMB_B64_START"; base64 -w0 android/app/build/widget-previews/thumb.jpg; echo; echo "THUMB_B64_END"
       - uses: actions/upload-artifact@v4
         if: always()
         with:
