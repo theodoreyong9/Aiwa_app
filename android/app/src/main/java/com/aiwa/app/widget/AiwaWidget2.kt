@@ -114,7 +114,7 @@ object AiwaWidget2 {
             val scopeRepo = FilesScope.repo(context, status?.repo) ?: status?.repo
             val roomOpen = com.aiwa.app.chamber.ChamberState.rooms.any { it.optJSONObject("partner") != null || it.optBoolean("knock") }
             // the ear carries the alerts of the first widget's Super agent button (what is missing, what the agent has to say): then it is red and opens the window that answers it
-            val alert = AiwaWidget.agentTarget(context, snap) != AgentToggleActivity::class.java
+            val alert = AiwaWidget.alertInfo(context, snap).alert      // the same alert, the same reasons and the same window as the Super agent button of the first widget
             listOf(
                 Slot(R.drawable.fw_i_question, "Question", COLORS.getValue("question"), activity(context, 1, com.aiwa.app.question.AskActivity::class.java), if (status?.ask != null) 1 else 0, if (status?.ask != null) "En attente" else "Dialogue"),
                 Slot(R.drawable.fw_i_ear, if (alert) CellModels.of(context, snap).getValue("agent").label.take(14) else if (snap.listening) "Écoute" else "Oreille", COLORS.getValue("ear"),

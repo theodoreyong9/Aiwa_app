@@ -150,11 +150,8 @@ object HomeActions {
     fun press(context: Context, id: String, source: String? = null, own: Boolean = true) {
         val snap = Aiwa.state.value
         when (id) {
-            "agent" -> when {
-                snap.link == Link.MISSING -> go(context, com.aiwa.app.brain.InstallHelpActivity::class.java)
-                !hasTermuxPermission(context) -> go(context, com.aiwa.app.brain.SetupActivity::class.java)
-                else -> go(context, AgentToggleActivity::class.java)
-            }
+            // the Super agent button of the widget of the application leads where the one of the widgets of the desktop does (what is missing first, what the agent has to say, what waits for her), with the same reasons listed
+            "agent" -> { com.aiwa.app.widget.AiwaWidget.alertInfo(context, snap); go(context, com.aiwa.app.widget.AiwaWidget.agentTarget(context, snap)) }
             "listen" -> go(context, EarToggleActivity::class.java)
             "plus" -> go(context, AddActivity::class.java)
             "claude" -> if (snap.sessionId != null || snap.status?.lastSession != null) go(context, OpenClaudeActivity::class.java) else toastOnMain(context, "Pas de session Claude pour l'instant.")
