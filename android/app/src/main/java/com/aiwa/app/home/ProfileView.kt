@@ -32,12 +32,17 @@ object ProfileView {
         val context = web.context.applicationContext
         if (repo == null || !valid(repo)) { fallback(web, main, context, own, "Pas de profil : choisis le dépôt du profil dans les Réglages."); return }
         Thread {
+            // the last page known of this profile is shown at once (the favourites and the swipe open without a wait); the page read now replaces it, and nothing flickers when it is the same
+            val key = "profile|$repo"
+            val kept = com.aiwa.app.common.ListCache.read(context, key)
+            if (kept != null) show(web, main, base(repo, sha), if (own) kept else HomeRuntime.lockScripts(kept))
             val html = try {
                 val c = URL(base(repo, sha) + "index.html").openConnection() as HttpURLConnection
                 c.connectTimeout = 10_000; c.readTimeout = 15_000
                 if (c.responseCode == 200) c.inputStream.bufferedReader().use { it.readText() } else null
             } catch (err: Exception) { null }
-            if (html == null) fallback(web, main, context, own, "Le profil de $repo n'est pas encore là (un dossier Profile/ public avec un index.html).")
+            if (html != null) com.aiwa.app.common.ListCache.write(context, key, html)
+            if (html == null) { if (kept == null) fallback(web, main, context, own, "Le profil de $repo n'est pas encore là (un dossier Profile/ public avec un index.html).") }
             else show(web, main, base(repo, sha), if (own) html else HomeRuntime.lockScripts(html))
         }.start()
     }

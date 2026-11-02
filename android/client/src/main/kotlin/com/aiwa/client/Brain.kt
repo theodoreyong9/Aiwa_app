@@ -96,7 +96,9 @@ class Brain(private val net: Transport = HttpTransport()) {
     fun voiceSetup(): Outcome = act("/api/voice/setup")
 
     // ---------- the productions ----------
-    fun files(repo: String? = null): Files? = getJson("/api/files" + (if (repo != null) "?repo=" + java.net.URLEncoder.encode(repo, "UTF-8") else ""))?.let { Files.parse(it) }
+    /** The list as the brain sends it (kept as it is by the phone, to show the last one at once while the next is read). */
+    fun filesJson(repo: String? = null): JSONObject? = getJson("/api/files" + (if (repo != null) "?repo=" + java.net.URLEncoder.encode(repo, "UTF-8") else ""))
+    fun files(repo: String? = null): Files? = filesJson(repo)?.let { Files.parse(it) }
     /** The files ticked for each recipient of a file: {recipient value: ["repo|tag|file", …]}. */
     fun links(repo: String, tag: String, file: String): Map<String, List<String>> {
         val o = getJson("/api/links?repo=" + java.net.URLEncoder.encode(repo, "UTF-8") + "&tag=" + java.net.URLEncoder.encode(tag, "UTF-8") + "&file=" + java.net.URLEncoder.encode(file, "UTF-8"))?.optJSONObject("links") ?: return emptyMap()
