@@ -1,4 +1,4 @@
-/* aiwa-home-runtime api=1 rev=202611021500 */
+/* aiwa-home-runtime api=1 rev=202611021710 */
 /* Aiwa home runtime: fills the SLOTS of a page with the buttons of the application (the widget's buttons), whoever wrote the page.
  *  <div data-aiwa-slot="build"></div>            all the buttons of a group: build (Agent) | files | voir (Game) | chamber | bar      (several groups: "build voir"; "all": every group)
  *  <button data-aiwa-button="docs"></button>     one button (any id of the catalogue below); "widget" is ONE button that opens the widget (its three tabs) over the page
@@ -20,26 +20,28 @@
     ['chamber', [['room', 'Chambre', 'grey'], ['roomtalk', 'Converser', 'green'], ['roomear', 'Écouter', 'violet'], ['roomcreate', 'Create', 'red']]],
     ['bar', [['update', 'Mise à jour', 'grey'], ['settings', 'Réglages', 'grey']]],
     // the twelve tiles of the settings, as a page of the widget (the groups open their window, the switches flip on the spot)
-    ['settings', [['set_accounts', 'Connexions', 'grey'], ['set_words', 'Les mots', 'grey'], ['set_persona', 'Jeu', 'grey'], ['set_me', 'Moi', 'grey'], ['set_voice', 'Voix', 'grey'], ['set_ear', 'Écoute', 'grey'],
-      ['set_papers', 'Papers', 'grey'], ['set_model', 'Modèle', 'grey'], ['set_ready', 'Prêt', 'grey'], ['set_push', 'Push', 'grey'], ['set_bg', 'Fond', 'grey'], ['set_health', 'État', 'grey']]]
+    ['settings', [['set_accounts', 'Connexions', 'grey', 'Comptes'], ['set_words', 'Les mots', 'grey', 'Tes mots'], ['set_persona', 'Jeu', 'grey', 'Points'], ['set_me', 'Moi', 'grey', 'Profil'], ['set_voice', 'Voix', 'grey', 'Parole'], ['set_ear', 'Écoute', 'grey', 'Micro'],
+      ['set_papers', 'Papers', 'grey', 'Tes papers'], ['set_model', 'Modèle', 'grey', 'Choix'], ['set_ready', 'Prêt', 'grey', 'Annonce'], ['set_push', 'Push', 'grey', 'Direct / branche'], ['set_bg', 'Fond', 'grey', 'Photo'], ['set_health', 'État', 'grey', 'Santé']]]
   ];
   var BY = { widget: { id: 'widget', group: 'widget', label: 'Widget', tone: 'violet' } }, GROUPS = {};
   var TABS = [['settings', 'Réglages'], ['build', 'Agent'], ['files', 'Files'], ['voir', 'Game']];
   // the keys that open a window instead of a page of buttons: Question always, Mise à jour only while there is an update
   var ACTIONS = { question: 1, update: 1 };      // Réglages is a page of the widget like the others
   function tabsNow() { var t = TABS.slice(); if (STATE.update && STATE.update.on) t.push(['update', 'Mise à jour']); return t; }
-  CATALOG.forEach(function (g) { GROUPS[g[0]] = g[1].map(function (b) { return b[0]; }); g[1].forEach(function (b) { BY[b[0]] = { id: b[0], group: g[0], label: b[1], tone: b[2] }; }); });
+  CATALOG.forEach(function (g) { GROUPS[g[0]] = g[1].map(function (b) { return b[0]; }); g[1].forEach(function (b) { BY[b[0]] = { id: b[0], group: g[0], label: b[1], tone: b[2], desc: b[3] || '' }; }); });
   var STATE = {};
   // the look of the second widget of the phone: solid tiles of changing shape (the big corners change diagonal), each in the colour of its function, a big icon behind and the name as a subtitle
   var BASE = '.aiwa-btn{--c:#8A93B5;all:unset;box-sizing:border-box;position:relative;overflow:hidden;display:flex;flex-direction:column;justify-content:flex-end;align-items:flex-start;min-height:4.4em;padding:.6em .8em;cursor:pointer;font:inherit;color:var(--aiwa-fg,#fff);' +
     'background:var(--aiwa-bg,linear-gradient(315deg,color-mix(in srgb,var(--c) 38%,#0a0c14),color-mix(in srgb,var(--c) 90%,#fff)));border-radius:var(--aiwa-radius,22px 6px 22px 6px);-webkit-tap-highlight-color:transparent;transition:transform .15s,filter .2s}' +
     '.aiwa-btn:nth-child(even){border-radius:var(--aiwa-radius,6px 22px 6px 22px)}' +
-    '.aiwa-btn:active{transform:scale(.96)}.aiwa-btn svg{position:absolute;top:-.35em;right:-.5em;width:3.7em;height:3.7em;stroke-width:1.7;opacity:.3;pointer-events:none}.aiwa-btn span{position:relative;font-size:.78em;font-weight:700;line-height:1.1;text-align:left}' +
+    '.aiwa-btn:active{transform:scale(.96)}.aiwa-btn svg{position:absolute;top:-.35em;right:-.5em;width:3.7em;height:3.7em;stroke-width:1.7;opacity:.3;pointer-events:none}.aiwa-btn span{position:relative;font-size:.78em;font-weight:700;line-height:1.1;text-align:left}.aiwa-btn small{position:relative;font-size:.6em;opacity:.85;line-height:1.15;text-align:left}' +
     '.aiwa-btn[data-on="1"]{box-shadow:inset 0 0 0 2px #fff;background:var(--aiwa-bg-on,linear-gradient(315deg,color-mix(in srgb,var(--c) 50%,#0a0c14),color-mix(in srgb,var(--c) 100%,#fff)))}.aiwa-btn[data-on="1"] svg{opacity:.5}' +
     '.aiwa-btn[data-tone="orange"]{--c:#E09A7C}.aiwa-btn[data-tone="green"]{--c:#34D399}.aiwa-btn[data-tone="violet"]{--c:#A78BFA}.aiwa-btn[data-tone="blue"]{--c:#60A5FA}.aiwa-btn[data-tone="yellow"]{--c:#FBBF24}' +
     '.aiwa-btn[data-id="question"]{--c:#F5C451}.aiwa-btn[data-id="roomear"]{--c:#5AC8FA}.aiwa-btn[data-id="cast"]{--c:#A78BFA}.aiwa-btn[data-id="scenario"]{--c:#F472B6}.aiwa-btn[data-id="nearby"]{--c:#FB923C}' +
     '.aiwa-btn[data-id="room"],.aiwa-btn[data-id="roomtalk"]{--c:#60A5FA}.aiwa-btn[data-id="favorites"]{--c:#FBBF24}.aiwa-btn[data-id="wallet"]{--c:#2DD4BF}.aiwa-btn[data-id="link"],.aiwa-btn[data-id="qr"]{--c:#38BDF8}' +
     '.aiwa-btn[data-id="claude"]{--c:#F59E0B}.aiwa-btn[data-id="agent"]{--c:#E09A7C}.aiwa-btn[data-id="plus"],.aiwa-btn[data-id="settings"],.aiwa-btn[data-id="report"]{--c:#C4B5FD}.aiwa-btn[data-id="widget"]{--c:#A78BFA}' +
+    '.aiwa-btn[data-id="set_accounts"]{--c:#F5C451}.aiwa-btn[data-id="set_words"]{--c:#5AC8FA}.aiwa-btn[data-id="set_persona"]{--c:#FBBF24}.aiwa-btn[data-id="set_me"]{--c:#34D399}.aiwa-btn[data-id="set_voice"]{--c:#38BDF8}.aiwa-btn[data-id="set_ear"]{--c:#60A5FA}' +
+    '.aiwa-btn[data-id="set_papers"]{--c:#F59E0B}.aiwa-btn[data-id="set_model"]{--c:#FB923C}.aiwa-btn[data-id="set_ready"]{--c:#2DD4BF}.aiwa-btn[data-id="set_push"]{--c:#F472B6}.aiwa-btn[data-id="set_bg"]{--c:#A78BFA}.aiwa-btn[data-id="set_health"]{--c:#C4B5FD}' +
     '.aiwa-btn[data-tone="red"],.aiwa-btn[data-id="roomcreate"]{--c:#F87171}' +
     '.aiwa-btn[data-found="0"]{opacity:.4}.aiwa-slot{display:grid;grid-template-columns:repeat(auto-fill,minmax(5.6em,1fr));gap:var(--aiwa-gap,8px)}.aiwa-btn[data-look="icons"] span{display:none}.aiwa-btn[data-look="icons"]{align-items:center;justify-content:center}.aiwa-btn[data-look="icons"] svg{position:static;width:1.6em;height:1.6em;opacity:1}.aiwa-btn[data-look="labels"] svg{display:none}' +
     '.aiwa-sheet{position:fixed;inset:0;z-index:2147483001;font:15px system-ui,sans-serif;color:#fff}.aiwa-back{position:absolute;inset:0;background:rgba(0,0,0,.5)}' +
@@ -109,7 +111,7 @@
     var b = document.createElement('button'); b.type = 'button'; b.className = 'aiwa-btn'; b.setAttribute('data-id', id); b.setAttribute('data-group', def.group);
     b.setAttribute('data-tone', st.tone || def.tone); if (st.on != null) b.setAttribute('data-on', st.on ? '1' : '0'); if (st.found != null) b.setAttribute('data-found', st.found ? '1' : '0');
     if (look) b.setAttribute('data-look', look); b.title = label; b.setAttribute('aria-label', label);
-    b.innerHTML = svg(st.icon || id) + '<span>' + label.replace(/[<&]/g, '') + '</span>';
+    b.innerHTML = svg(st.icon || id) + '<span>' + label.replace(/[<&]/g, '') + '</span>' + (def.group === 'settings' && def.desc ? '<small>' + def.desc.replace(/[<&]/g, '') + '</small>' : '');      // the short word under the name is for the settings page only
     b.addEventListener('click', function (ev) { ev.preventDefault(); press(id); });
     return b;
   }
