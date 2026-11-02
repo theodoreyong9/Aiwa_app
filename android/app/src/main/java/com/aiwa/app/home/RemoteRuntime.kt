@@ -2,21 +2,19 @@ package com.aiwa.app.home
 
 import android.content.Context
 import com.aiwa.app.common.Prefs
-import com.aiwa.client.RuntimeFile
 import java.io.File
 import java.net.HttpURLConnection
 import java.net.URL
 
 /**
- * The runtime of the widget of the application (aiwa-home.js) refreshed from the web, without a new APK. The address is FIXED: the product's own repository, its main branch, over https; nothing from a profile
- * of anyone is ever taken. A file is used only when it is made for this application (same `api`), newer than the one inside it (`rev`), a script of the right size (see RuntimeFile). The one inside the application
- * stays the fallback: if the file of the web fails to start, it is thrown away, its `rev` is remembered as refused, and the runtime of the application is put in the page instead.
- * The desktop widgets of Android have nothing to do with this: they are in the application and change with it.
+ * The runtime of the widget of the application (aiwa-home.js) follows the web, without a new APK: about every twelve seconds while a page is on the screen, a request that carries the ETag of the last file and so only
+ * brings the file when it changed; the page on the screen starts again with it. The address is FIXED (the product's own repository, its main branch, over https): the runtime is the product's code, never a file of a profile.
+ * Nothing else is checked: the safety net of the whole application is the widgets of the desktop, which are in the application and cannot be changed from here. The runtime inside the application is only what a
+ * page uses until the first file of the web has come.
  */
 object RemoteRuntime {
-    const val API = 1
     private const val URL_RAW = "https://raw.githubusercontent.com/theodoreyong9/Aiwa_app/main/web/home/aiwa-home.js"
-    private const val EVERY_MS = 12_000L          // while a page is on the screen: about every ten seconds, with a request that only brings the file when it changed (ETag)
+    private const val EVERY_MS = 12_000L
     private val lock = Any()
     @Volatile private var fetching = false
     @Volatile private var lastAt = 0L
@@ -27,38 +25,20 @@ object RemoteRuntime {
     /** The runtime of the application (the assets). */
     fun bundled(context: Context): String = try { context.assets.open("web/home/aiwa-home.js").use { String(it.readBytes(), Charsets.UTF_8) } } catch (err: Exception) { "" }
 
-    private fun rejected(context: Context): Set<Long> = (prefs(context).string("rejected") ?: "").split(',').mapNotNull { it.toLongOrNull() }.toSet()
-
-    /** What is put in a page: the file of the web when there is a good one, else the one of the application. `remote` says which (so that a failure can be recovered from). */
-    class Choice(val text: String, val remote: Boolean, val rev: Long)
+    /** What is put in a page: the last file of the web, else the one of the application. `stamp` tells which (the time of the file, 0 for the application's), so that a page knows when a newer one has come. */
+    class Choice(val text: String, val stamp: Long)
 
     fun choose(context: Context): Choice {
-        val inside = bundled(context)
-        val insideRev = RuntimeFile.header(inside)?.rev ?: 0L
         synchronized(lock) {
             val f = file(context)
-            if (f.isFile && f.length() in 1..RuntimeFile.MAX_BYTES) {
-                val text = try { f.readText(Charsets.UTF_8) } catch (err: Exception) { null }
-                if (RuntimeFile.refusal(text, API, insideRev, rejected(context)) == null) return Choice(text!!, true, RuntimeFile.header(text)!!.rev)
-                f.delete()      // an older or refused file is of no use any more (a new application brings a newer one)
+            if (f.isFile && f.length() > 0) {
+                val text = try { f.readText(Charsets.UTF_8) } catch (err: Exception) { "" }
+                if (text.isNotEmpty()) return Choice(text, f.lastModified())
             }
         }
-        return Choice(inside, false, insideRev)
+        return Choice(bundled(context), 0L)
     }
 
-    /** The file of the web did not start in a page: it is thrown away and its revision never tried again. */
-    fun reject(context: Context, rev: Long) {
-        synchronized(lock) {
-            file(context).delete()
-            prefs(context).put("rejected", (rejected(context) + rev).toList().takeLast(20).joinToString(","))
-        }
-        HomeRuntime.forget()
-    }
-
-    /**
-     * Looks for a newer runtime in the background, about every twelve seconds while a page is on the screen (the same rhythm as the profile): a request that carries the ETag of the last file and so only
-     * brings the file when it changed. The address stays the fixed one (a changing query only goes round the cache of the web). The pages on the screen notice the new file on their next beat (HomeRuntime.pump) and start again with it.
-     */
     fun refresh(context: Context) {
         val app = context.applicationContext
         val now = System.currentTimeMillis()
@@ -67,14 +47,13 @@ object RemoteRuntime {
         lastAt = now
         Thread {
             try {
-                val insideRev = RuntimeFile.header(bundled(app))?.rev ?: 0L
-                val c = URL("$URL_RAW?r=${now / 1000}").openConnection() as HttpURLConnection
+                val c = URL("$URL_RAW?r=${now / 1000}").openConnection() as HttpURLConnection      // the query only goes round the cache of the web
                 c.connectTimeout = 8_000; c.readTimeout = 12_000; c.instanceFollowRedirects = false
                 prefs(app).string("etag")?.let { c.setRequestProperty("If-None-Match", it) }
-                if (c.responseCode != 200 || c.contentLength > RuntimeFile.MAX_BYTES) return@Thread       // 304: nothing new
+                if (c.responseCode != 200) return@Thread       // 304: nothing new
                 val etag = c.getHeaderField("ETag")
                 val text = String(c.inputStream.use { it.readBytes() }, Charsets.UTF_8)
-                if (RuntimeFile.refusal(text, API, insideRev, rejected(app)) != null) return@Thread
+                if (text.isEmpty()) return@Thread
                 synchronized(lock) {
                     val tmp = File(app.filesDir, "aiwa-home-remote.js.tmp")
                     tmp.writeText(text, Charsets.UTF_8)

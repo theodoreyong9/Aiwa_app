@@ -63,12 +63,11 @@ def instruction(repo_name=None):
     text = (
         f"Profil : le dossier `{FOLDER}/` d'un dépôt est la page de la personne, la VITRINE d'Aiwa, et aussi son ACCUEIL dans l'application. "
         f"Quand elle dit qu'on travaille sur son profil, tu écris `{FOLDER}/index.html` (médias à côté) en suivant le skill {SKILL_URL} : lis-le avant de t'y mettre. "
-        "Ce qui ne se négocie pas : son nom en titre (`<h1>`), un `<title>`, la balise viewport, un fond qui vit, des liens, aucune ressource en `http://`, et jamais de défilement bloqué. "
         "Les boutons d'Aiwa ne s'écrivent pas : tu poses des EMPLACEMENTS (`data-aiwa-button=\"widget\"`, `data-aiwa-slot=\"build\"`, `data-aiwa-scenarios`) et l'application y met les vrais boutons. "
         "La page affichée est celle de la branche par défaut : pousse ou fusionne là. "
         f"L'APPLICATION se personnalise aussi par un fichier : `{FOLDER}/{UI_FILE}` décrit la barre du bas de l'application (et elle seule : le widget n'est jamais touché), par exemple "
         '`{"v":1,"bar":[{"action":"zone","icon":"📍","label":"Autour","tone":"violet"},{"action":"url:https://…","icon":"🎬","label":"Film"}]}`. '
-        f"Huit touches au plus, dans l'ordre voulu ; `label` : 14 caractères au plus ; `icon` : un emoji ; `tone` : violet, blue, gold, green, white ou #RRGGBB ; `action` : {UI_KEYS}, "
+        f"Autant de touches que la personne veut, dans l'ordre voulu ; `label` : le nom ; `icon` : un emoji ; `tone` : violet, blue, gold, green, white ou #RRGGBB ; `action` : {UI_KEYS}, "
         f"un écran parmi {UI_SCREENS}, ou `url:https://…`. Une touche absente de la liste disparaît ; sans fichier valide (ou si tu supprimes le fichier), la barre redevient celle de l'application. Le changement apparaît dans les secondes qui suivent ton commit. Le détail (barre, emplacements de boutons, retour au départ) est dans le skill du profil : lis-le avant de modifier."
     )
     if repo_name:

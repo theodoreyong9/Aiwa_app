@@ -82,19 +82,8 @@ object HomeRuntime {
         val picked = choice(web.context)
         if (picked.text.isEmpty()) return
         RemoteRuntime.refresh(web.context)
-        web.setTag(com.aiwa.app.R.id.home_rev, picked.rev)
+        web.setTag(com.aiwa.app.R.id.home_rev, picked.stamp)
         web.evaluateJavascript(picked.text, null)
-        if (picked.remote) {
-            // the runtime of the web must start: if it did not (an error in it, a page that blocked it), it is thrown away and the one inside the application takes its place
-            web.postDelayed({
-                web.evaluateJavascript("!!(window.aiwa && window.aiwa.press)") { ok ->
-                    if (ok != "true") {
-                        RemoteRuntime.reject(web.context, picked.rev)
-                        web.evaluateJavascript("window.__aiwaHome=false;" + RemoteRuntime.bundled(web.context), null)
-                    }
-                }
-            }, 1500)
-        }
         pushState(web)
         pump(web)
     }
@@ -114,10 +103,10 @@ object HomeRuntime {
                 if (web.getTag(com.aiwa.app.R.id.home_pump) != true) return
                 if (web.isAttachedToWindow) {
                     pushState(web)
-                    // the runtime changed on the web (or was thrown away): the page on the screen starts again with the new one, by itself
+                    // the runtime changed on the web: the page on the screen starts again with the new one, by itself
                     RemoteRuntime.refresh(web.context)
                     val shown = web.getTag(com.aiwa.app.R.id.home_rev) as? Long
-                    if (shown != null && choice(web.context).rev != shown) web.reload()
+                    if (shown != null && choice(web.context).stamp != shown) web.reload()
                 }
                 web.postDelayed(this, 2500)
             }
