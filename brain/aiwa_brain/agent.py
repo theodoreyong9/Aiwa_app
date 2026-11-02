@@ -96,6 +96,20 @@ def point(report=False):
     return agent_lib.digest(snap)
 
 
+def condense_memory():
+    """When the memory has grown, the oldest notes are condensed by the model (a thread: nothing waits for it). A bad answer changes nothing."""
+    old = memory.to_condense()
+    if not old:
+        return
+    try:
+        answer = _model("Tu condenses des notes de mémoire. Tu réponds en JSON seulement.", [], memory.condense_prompt(old))
+        data = llm_lib.json_in(answer) if answer else None
+        if isinstance(data, dict) and memory.replace(old, data.get("notes")):
+            log(f"mémoire : {len(old)} notes anciennes condensées")
+    except Exception as err:
+        print(f"[{state.ts()}] memory: {err}", flush=True)
+
+
 def _model(system, history, user):
     """One turn through the person's own API key, else through the Claude of the phone (`claude -p`, her own login). The text, or None."""
     if state.llm.state == "ready":
@@ -181,6 +195,8 @@ def _turn(spoken, report, own=False):
         if not report:
             for what in memory.apply(spoken, reply):
                 log("mémoire : " + what)
+            if memory.to_condense():
+                threading.Thread(target=condense_memory, daemon=True).start()
         word = agent_lib.open_intent(spoken) if spoken and not report else None
         if word and isinstance(reply, dict) and not (isinstance(reply.get("do"), dict) and reply["do"].get("open")):
             reply["do"] = {**(reply.get("do") if isinstance(reply.get("do"), dict) else {}), "open": word}      # asked to open a screen: it is opened, whatever the model wrote

@@ -3,11 +3,15 @@ import json
 import re
 import threading
 import time
+import uuid
 
 from . import config
 
 MAX_NOTES = 100
 MAX_CHARS = 300
+CONDENSE_AT = 60      # beyond this many notes, the oldest ones are condensed
+CONDENSE_TAKE = 30    # how many of the oldest are condensed at once
+CONDENSE_INTO = 6     # and what they become, at most
 FILE = config.APP_DIR / "memory.json"
 _lock = threading.Lock()
 
@@ -43,7 +47,7 @@ def add(text):
         all_ = _load()
         if any(n["text"].lower() == text.lower() for n in all_):
             return None
-        note = {"id": f"m{int(time.time() * 1000)}", "text": text, "ts": int(time.time())}
+        note = {"id": "m" + uuid.uuid4().hex[:12], "text": text, "ts": int(time.time())}
         all_.append(note)
         _save(all_[-MAX_NOTES:])
         return note
@@ -95,3 +99,29 @@ def apply(spoken, reply):
         if forget(what if isinstance(what, str) else str(what)):
             done.append("forget")
     return done
+
+
+def to_condense():
+    """The oldest notes to condense (a list of notes), or [] while the memory is small enough."""
+    all_ = notes()
+    return all_[:CONDENSE_TAKE] if len(all_) > CONDENSE_AT else []
+
+
+def condense_prompt(old):
+    return ("Voici des notes anciennes qu'une personne t'a demandé de retenir. Regroupe-les en au plus " + str(CONDENSE_INTO) + " notes courtes (chacune sous " + str(MAX_CHARS) + " caractères) "
+            "sans perdre un fait durable (préférences, projets, noms, dates) ; supprime les doublons et ce qui est périmé. Réponds seulement par du JSON : {\"notes\":[\"…\"]}.\n\n"
+            + "\n".join("- " + n["text"] for n in old))
+
+
+def replace(old, texts):
+    """The old notes are replaced by the condensed ones (placed first, as the oldest). False when the answer is unusable."""
+    texts = [" ".join(str(t).split())[:MAX_CHARS] for t in (texts if isinstance(texts, list) else []) if str(t).strip()][:CONDENSE_INTO]
+    if not texts:
+        return False
+    gone = {n["id"] for n in old}
+    with _lock:
+        rest = [n for n in _load() if n.get("id") not in gone]
+        base = int(old[0].get("ts") or time.time())
+        made = [{"id": "c" + uuid.uuid4().hex[:12], "text": t, "ts": base} for i, t in enumerate(texts)]
+        _save((made + rest)[-MAX_NOTES:])
+    return True

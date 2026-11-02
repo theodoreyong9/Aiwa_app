@@ -30,5 +30,30 @@ class MemoryTest(unittest.TestCase):
         self.assertEqual(memory.forget("all"), memory.MAX_NOTES)
 
 
+class CondenseTest(unittest.TestCase):
+    def setUp(self):
+        memory.FILE = Path(tempfile.mkdtemp()) / "memory.json"
+
+    def test_condense_replaces_the_oldest(self):
+        for i in range(memory.CONDENSE_AT):
+            memory.add(f"note {i}")
+        self.assertEqual(memory.to_condense(), [])
+        memory.add("one more")
+        old = memory.to_condense()
+        self.assertEqual(len(old), memory.CONDENSE_TAKE)
+        self.assertTrue(memory.replace(old, ["résumé a", "résumé b"]))
+        texts = [n["text"] for n in memory.notes()]
+        self.assertEqual(texts[:2], ["résumé a", "résumé b"])
+        self.assertEqual(len(texts), memory.CONDENSE_AT + 1 - memory.CONDENSE_TAKE + 2)
+        self.assertIn("one more", texts)
+
+    def test_bad_answer_changes_nothing(self):
+        for i in range(memory.CONDENSE_AT + 1):
+            memory.add(f"n{i}")
+        old = memory.to_condense()
+        self.assertFalse(memory.replace(old, "nope"))
+        self.assertEqual(len(memory.notes()), memory.CONDENSE_AT + 1)
+
+
 if __name__ == "__main__":
     unittest.main()
