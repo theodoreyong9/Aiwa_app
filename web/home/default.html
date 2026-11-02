@@ -11,12 +11,8 @@ h1{margin:0;align-self:center;font-weight:900;font-size:clamp(64px,22vw,200px);l
 p{margin:6px 0 0;max-width:28em;color:#d7dbff;font-size:clamp(14px,3.6vw,18px)}
 .info{display:grid;gap:12px;min-width:0}
 /* les boutons d'Aiwa : l'application les met dans les emplacements ; ici ils prennent la taille des cellules du widget */
-.desk{display:grid;gap:6px;min-width:0}
-.desk [data-aiwa-button]{display:block}
-.desk .aiwa-btn{--c:var(--violet);all:unset;box-sizing:border-box;width:100%;position:relative;display:flex;align-items:center;justify-content:center;gap:10px;min-height:60px;padding:8px 14px 8px 20px;cursor:pointer;color:var(--ink);font-size:clamp(15px,4.2vw,20px);font-weight:800;text-transform:uppercase;
-  background:linear-gradient(180deg,rgba(255,255,255,.24),rgba(255,255,255,.05));backdrop-filter:blur(8px);clip-path:polygon(12px 0,100% 0,calc(100% - 12px) 100%,0 100%);-webkit-tap-highlight-color:transparent}
-.desk .aiwa-btn::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,color-mix(in srgb,var(--c) 62%,transparent),transparent 92%)}
-.desk .aiwa-btn svg{width:1.4em;height:1.4em;flex:none}
+.desk{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;min-width:0}
+.desk [data-aiwa-button]{display:block}.desk .aiwa-btn{width:100%;min-height:4.8em}
 </style></head><body>
 <main class="stage">
   <div class="bar">Aiwa · accueil</div>
