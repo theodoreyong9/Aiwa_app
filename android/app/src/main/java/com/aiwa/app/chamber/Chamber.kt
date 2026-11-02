@@ -52,6 +52,18 @@ object ChamberState {
     }
 }
 
+/** The persons she called and whose call is still waiting, kept on the phone only (nothing is published): they are called again each time the connection starts again. */
+object ChamberCalls {
+    private fun prefs(context: Context) = com.aiwa.app.common.Prefs(context, "aiwa_chamber_calls")
+    fun all(context: Context): List<String> = (prefs(context).string("repos") ?: "").split(',').filter { it.isNotBlank() }
+    fun has(context: Context, repo: String) = all(context).any { it.equals(repo, ignoreCase = true) }
+    fun add(context: Context, repo: String) { if (!has(context, repo)) prefs(context).put("repos", (all(context) + repo).joinToString(",")) }
+    fun remove(context: Context, repo: String) { prefs(context).put("repos", all(context).filterNot { it.equals(repo, ignoreCase = true) }.joinToString(",")) }
+
+    /** Starts the connection again when calls are waiting (the service calls them again when it starts). */
+    fun resume(context: Context) { if (all(context).isNotEmpty()) ChamberHost.send(context, JSONObject().put("cmd", "noop")) }
+}
+
 object ChamberHost {
     /** The service that holds the connection (set while it runs); the orders wait here until it does. */
     @Volatile var runner: ((JSONObject) -> Unit)? = null
@@ -82,13 +94,12 @@ object ChamberActions {
         return mapOf(
             "room" to when {
                 room?.optString("refused") == "busy" -> RoomCell("Occupé", "red", false)
-                room?.optString("refused") == "refus" -> RoomCell("Refusé", "red", false)
-                closed -> RoomCell("Entrer", "grey", false)
+                closed -> RoomCell("Appeler", "grey", false)
                 conversing -> RoomCell("Avec $name", "green", true)
                 name != null -> RoomCell("$name est là", "green", true)
-                else -> RoomCell("En attente", "violet", true)
+                else -> RoomCell("Appel en attente", "violet", true)
             },
-            "roomtalk" to RoomCell(when { conversing -> "Couper"; room?.optBoolean("asking") == true -> "Demande envoyée"; room?.optString("mode") == "visit" -> "Demander"; else -> "Converser" }, if (conversing) "red" else "green", conversing || room?.optBoolean("asking") == true, name != null),
+            "roomtalk" to RoomCell(if (conversing) "Couper" else "Converser", if (conversing) "red" else "green", conversing, name != null),
             "roomear" to RoomCell("Écouter", "violet", room?.optBoolean("ear") == true, !closed),
             "roomspeak" to RoomCell("Parler", "violet", room?.optBoolean("speak") == true, !closed),
             "roomcreate" to RoomCell(if (both) "Create actif" else "Create", "red", create, !closed),
@@ -114,12 +125,21 @@ object ChamberActions {
         )
     }
 
-    /** The visitor presses « Chambre » on the profile of someone: she enters the room of that person, or leaves it. The other chambers go on. */
+    /**
+     * She presses « Chambre » on the profile of someone: she CALLS that person (or takes the call back). Nothing more is asked of anyone: when the other has called her too, the two phones meet in a room only the two
+     * of them can name and the two agents start talking. The call is kept on the phone (see [ChamberCalls]) and goes on, with no one else able to ring her.
+     */
     fun visit(context: Context, repo: String?) {
         if (!ProfileView.valid(repo)) { toastOnMain(context, "Pas de profil pour la chambre."); return }
-        val here = ChamberState.rooms.firstOrNull { it.optString("room") == repo }
-        if (here == null) ChamberHost.send(context, JSONObject().put("cmd", "visit").put("repo", repo))
-        else ChamberHost.send(context, JSONObject().put("cmd", "close").put("room", repo))
+        if (ChamberCalls.has(context, repo!!)) {
+            ChamberCalls.remove(context, repo)
+            ChamberHost.send(context, JSONObject().put("cmd", "close").put("room", repo))
+            toastOnMain(context, "Appel retiré.")
+        } else {
+            ChamberCalls.add(context, repo)
+            ChamberHost.send(context, JSONObject().put("cmd", "call").put("repo", repo))
+            toastOnMain(context, "Tu l'appelles : la chambre s'ouvre quand elle t'appellera aussi.")
+        }
     }
 
     /** Listen and speak on the chamber of this profile; speaking takes the voice away from the other chambers (and from the normal super agent): one voice at a time. */
@@ -129,20 +149,6 @@ object ChamberActions {
         val on = !room.optBoolean(mode)
         ChamberHost.send(context, JSONObject().put("cmd", mode).put("room", key).put("on", on))
         if (mode == "speak" && on) toastOnMain(context, "Ce que tu dis va dans cette chambre. Touche encore pour revenir à ton super agent.")
-    }
-
-    /** The door: the own room opens (someone can knock, the person accepts or not) or closes. */
-    fun door(context: Context, on: Boolean) {
-        val here = ProfileSettings.repo(context)
-        if (!ProfileView.valid(here)) return
-        val open = ChamberState.rooms.any { it.optString("room") == here }
-        if (on && !open) ChamberHost.send(context, JSONObject().put("cmd", "open").put("repo", here))
-        else if (!on && open) ChamberHost.send(context, JSONObject().put("cmd", "close").put("room", here))
-    }
-
-    /** She answers the one who knocked. */
-    fun answer(context: Context, room: JSONObject, yes: Boolean) {
-        ChamberHost.send(context, JSONObject().put("cmd", if (yes) "accept" else "refuse").put("room", room.optString("room")))
     }
 
     /** She went to another profile: nobody listens or speaks any more; the chambers themselves go on. */
@@ -163,14 +169,7 @@ object ChamberActions {
         val key = status.optString("room").ifBlank { null }
         val partnered = status.optJSONObject("partner") != null
         when (id) {
-            "room" -> {
-                val here = ProfileSettings.repo(context)
-                if (!ProfileView.valid(here)) { toastOnMain(context, "Pas de profil pour la chambre : choisis d'abord ton dépôt de profil (Réglages)."); return }
-                when {
-                    ChamberState.rooms.none { it.optString("room") == here } -> ChamberHost.send(context, JSONObject().put("cmd", "open").put("repo", here))
-                    else -> ChamberHost.send(context, JSONObject().put("cmd", "close").put("room", here))
-                }
-            }
+            "room" -> ChamberHost.send(context, JSONObject().put("cmd", "close").put("room", key))      // the widget cell: the chamber of the first call is left
             "roomtalk" -> when {
                 status.optBoolean("conversing") -> ChamberHost.send(context, JSONObject().put("cmd", "end").put("room", key))
                 partnered -> ChamberHost.send(context, JSONObject().put("cmd", "begin").put("room", key))

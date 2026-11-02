@@ -112,7 +112,7 @@ object AiwaWidget2 {
         fun group(code: Int, id: String) = activity(context, code, Intent(context, SettingsActivity::class.java).putExtra(SettingsActivity.EXTRA_GROUP, id))
         val slots: List<Slot> = if (!onSettings) {
             val scopeRepo = FilesScope.repo(context, status?.repo) ?: status?.repo
-            val roomOpen = com.aiwa.app.chamber.ChamberState.rooms.any { it.optJSONObject("partner") != null || it.optBoolean("knock") }
+            val roomOpen = com.aiwa.app.chamber.ChamberState.rooms.any { it.optJSONObject("partner") != null }
             // the ear carries the alerts of the first widget's Super agent button (what is missing, what the agent has to say): then it is red and opens the window that answers it
             val alert = AiwaWidget.alertInfo(context, snap).alert      // the same alert, the same reasons and the same window as the Super agent button of the first widget
             listOf(

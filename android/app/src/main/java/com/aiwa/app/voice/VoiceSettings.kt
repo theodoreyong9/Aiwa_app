@@ -43,8 +43,4 @@ object ReadySettings {
 object ChamberSettings {
     fun awake(context: Context): Boolean = prefs(context).bool("chamber_awake", true)
     fun setAwake(context: Context, on: Boolean) = prefs(context).put("chamber_awake", on)
-
-    /** The door: the person's own room stays open so that someone can knock; nothing starts until she accepts (her agent is not engaged before). */
-    fun door(context: Context): Boolean = prefs(context).bool("chamber_door", true)
-    fun setDoor(context: Context, on: Boolean) = prefs(context).put("chamber_door", on)
 }

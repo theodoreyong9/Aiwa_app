@@ -20,14 +20,14 @@ class ChamberActivity : FloatActivity() {
     private var offers: JSONArray? = null
     private var shownSignature = ""
     private val visited: String? get() = intent.getStringExtra(EXTRA_REPO)
-    private val mine: String? get() = ProfileSettings.repo(this)
-    /** The profile this window is about: the one shown (never her own room's name unless it is hers). */
-    private val about: String? get() = visited ?: mine
-    private val isOwn: Boolean get() = about == null || about == mine
+    /** The profile this window is about: the one shown. */
+    private val about: String? get() = visited
     private val room: org.json.JSONObject? get() = ChamberState.forRepo(about)
 
     override fun onCreate(savedInstanceState: android.os.Bundle?) {
         super.onCreate(savedInstanceState)
+        // a chamber is with ONE person: without a profile (or on her own), the list of the chambers is shown instead
+        if (visited == null || visited == ProfileSettings.repo(this)) { startActivity(android.content.Intent(this, ChambersActivity::class.java)); finish(); return }
         loop()
     }
 
@@ -49,11 +49,11 @@ class ChamberActivity : FloatActivity() {
         val others = ChamberState.rooms.count { it !== s }
         val tail = if (others > 0) " ($others autre${if (others > 1) "s" else ""} chambre${if (others > 1) "s" else ""} en cours.)" else ""
         val line = when {
-            s == null || s.optString("mode", "closed") == "closed" -> if (isOwn) "Ta chambre est fermée." else "Tu n'es pas dans la chambre de cette personne."
+            s == null || s.optString("mode", "closed") == "closed" -> "Tu ne l'as pas appelé."
             s.optBoolean("speak") -> "Ce que tu dis va dans cette chambre."
             s.optBoolean("conversing") -> "En conversation avec $partner."
             partner != null -> "$partner est là."
-            else -> if (isOwn) "Ta chambre est ouverte : en attente." else "En attente de l'autre : il faut qu'il ouvre sa chambre."
+            else -> "Appel en attente : la chambre s'ouvre quand il t'appellera aussi."
         }
         return line + tail
     }
@@ -61,7 +61,7 @@ class ChamberActivity : FloatActivity() {
     /** Draws the window again only when something it shows changed (the buttons are touched while it is open). */
     private fun redraw() {
         val shown = ChamberActions.cellsFor(room)
-        val signature = statusLine() + "|" + ChamberState.rooms.joinToString { it.optBoolean("knock").toString() } + "|" + shown.entries.joinToString { "${it.key}:${it.value.label}:${it.value.on}" } + "|" + (offers?.toString() ?: "")
+        val signature = statusLine() + "|" + shown.entries.joinToString { "${it.key}:${it.value.label}:${it.value.on}" } + "|" + (offers?.toString() ?: "")
         if (signature != shownSignature) { shownSignature = signature; reload() }
     }
 
@@ -70,16 +70,9 @@ class ChamberActivity : FloatActivity() {
         for (id in listOf("room", "roomtalk", "roomear", "roomspeak", "roomcreate")) {
             val cell = shown[id] ?: continue
             entry(cell.label, null, if (cell.on) Palette.GREEN else Palette.CARD) {
-                if (id == "room" && !isOwn) ChamberActions.visit(this, about) else ChamberActions.press(this, id, repo = about)
+                if (id == "room") ChamberActions.visit(this, about) else ChamberActions.press(this, id, repo = about)
                 main.postDelayed({ redraw() }, 400)
             }
-        }
-        val knocking = ChamberState.rooms.firstOrNull { it.optBoolean("knock") }
-        if (knocking != null) {
-            val who = knocking.optJSONObject("partner")?.optString("name").orEmpty().ifBlank { "Quelqu'un" }
-            note("$who demande à parler avec ton super agent.", Palette.GOLD)
-            entry("Accepter", null, Palette.GREEN) { ChamberActions.answer(this, knocking, true); main.postDelayed({ redraw() }, 400) }
-            entry("Refuser") { ChamberActions.answer(this, knocking, false); main.postDelayed({ redraw() }, 400) }
         }
         note(statusLine())
         val list = offers ?: return
