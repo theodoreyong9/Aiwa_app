@@ -16,9 +16,10 @@ import java.net.URL
 object RemoteRuntime {
     const val API = 1
     private const val URL_RAW = "https://raw.githubusercontent.com/theodoreyong9/Aiwa_app/main/web/home/aiwa-home.js"
-    private const val EVERY_MS = 60 * 60 * 1000L
+    private const val EVERY_MS = 12_000L          // while a page is on the screen: about every ten seconds, with a request that only brings the file when it changed (ETag)
     private val lock = Any()
     @Volatile private var fetching = false
+    @Volatile private var lastAt = 0L
 
     private fun file(context: Context) = File(context.filesDir, "aiwa-home-remote.js")
     private fun prefs(context: Context) = Prefs(context, "aiwa_home_remote")
@@ -54,19 +55,24 @@ object RemoteRuntime {
         HomeRuntime.forget()
     }
 
-    /** Looks for a newer runtime in the background, at most once an hour; it serves from the next page that opens. */
+    /**
+     * Looks for a newer runtime in the background, about every twelve seconds while a page is on the screen (the same rhythm as the profile): a request that carries the ETag of the last file and so only
+     * brings the file when it changed. The address stays the fixed one (a changing query only goes round the cache of the web). The pages on the screen notice the new file on their next beat (HomeRuntime.pump) and start again with it.
+     */
     fun refresh(context: Context) {
         val app = context.applicationContext
         val now = System.currentTimeMillis()
-        if (fetching || now - (prefs(app).string("at")?.toLongOrNull() ?: 0L) < EVERY_MS) return
+        if (fetching || now - lastAt < EVERY_MS) return
         fetching = true
-        prefs(app).put("at", now.toString())
+        lastAt = now
         Thread {
             try {
                 val insideRev = RuntimeFile.header(bundled(app))?.rev ?: 0L
-                val c = URL(URL_RAW).openConnection() as HttpURLConnection
-                c.connectTimeout = 10_000; c.readTimeout = 15_000; c.instanceFollowRedirects = false
-                if (c.responseCode != 200 || c.contentLength > RuntimeFile.MAX_BYTES) return@Thread
+                val c = URL("$URL_RAW?r=${now / 1000}").openConnection() as HttpURLConnection
+                c.connectTimeout = 8_000; c.readTimeout = 12_000; c.instanceFollowRedirects = false
+                prefs(app).string("etag")?.let { c.setRequestProperty("If-None-Match", it) }
+                if (c.responseCode != 200 || c.contentLength > RuntimeFile.MAX_BYTES) return@Thread       // 304: nothing new
+                val etag = c.getHeaderField("ETag")
                 val text = String(c.inputStream.use { it.readBytes() }, Charsets.UTF_8)
                 if (RuntimeFile.refusal(text, API, insideRev, rejected(app)) != null) return@Thread
                 synchronized(lock) {
@@ -74,6 +80,7 @@ object RemoteRuntime {
                     tmp.writeText(text, Charsets.UTF_8)
                     if (!tmp.renameTo(file(app))) { file(app).delete(); tmp.renameTo(file(app)) }
                 }
+                if (etag != null) prefs(app).put("etag", etag)
                 HomeRuntime.forget()
             } catch (err: Exception) {
                 /* no network, or the file is not there: the runtime in use stays */
