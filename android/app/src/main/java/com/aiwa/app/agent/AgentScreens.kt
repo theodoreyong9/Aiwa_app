@@ -68,6 +68,7 @@ object AgentScreens {
             "voir" -> go(context, com.aiwa.app.home.ProfileActivity.homeIntent(context)); "voir_near" -> go(context, com.aiwa.app.home.ProfileActivity.homeIntent(context)); "voir_link" -> voir(context, "lien"); "voir_qr" -> voir(context, "qr"); "voir_fav" -> voir(context, "favoris")
             "voir_on" -> com.aiwa.app.voir.VoirSettings.setOn(context, true)
             "voir_off" -> com.aiwa.app.voir.VoirSettings.setOn(context, false)
+            "memory" -> go(context, com.aiwa.app.settings.MemoryActivity::class.java)
             "chambre", "chambres" -> go(context, com.aiwa.app.chamber.ChambersActivity::class.java)      // the list: one line per person she called
             // the profile on the screen: scanned (an opinion by a session, read-only), or its access to the widget given (asked in full first) or taken back
             "scan" -> {

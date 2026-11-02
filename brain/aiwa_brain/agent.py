@@ -5,7 +5,7 @@ import subprocess
 import threading
 import time
 
-from . import agent_lib, asks, config, diagram, instructions, files, github, llm_lib, profile_lib, repos, scen_lib, sessions, state
+from . import agent_lib, asks, config, diagram, memory, instructions, files, github, llm_lib, profile_lib, repos, scen_lib, sessions, state
 
 _cache = {}      # ("age", repo, branch) / ("ci", repo) -> (time, value): GitHub is asked at most once in two minutes for the same thing
 CACHE_SECONDS = 120
@@ -91,7 +91,7 @@ def point(report=False):
     snap = {
         "pills": {"repo": current_repo, "session": current, "direct": direct, "profile": profile_lib.repo()},
         "sessions": listed, "repos": repos.names(), "productions": files.summary(), "scenarios": [scen_lib.public(s) for s in scen_lib.load(config.SCENARIOS_FILE)],
-        "chamber": chamber, "asks": titles, "extra": extra, "screen": dict(state.screen),
+        "chamber": chamber, "asks": titles, "extra": extra, "screen": dict(state.screen), "memory": memory.digest(),
     }
     return agent_lib.digest(snap)
 
@@ -178,6 +178,9 @@ def _turn(spoken, report, own=False):
             if kept != reply["do"]:
                 log("le modèle voulait changer de dépôt ou de session sans qu'on lui demande : refusé")
                 reply["do"] = kept
+        if not report:
+            for what in memory.apply(spoken, reply):
+                log("mémoire : " + what)
         word = agent_lib.open_intent(spoken) if spoken and not report else None
         if word and isinstance(reply, dict) and not (isinstance(reply.get("do"), dict) and reply["do"].get("open")):
             reply["do"] = {**(reply.get("do") if isinstance(reply.get("do"), dict) else {}), "open": word}      # asked to open a screen: it is opened, whatever the model wrote

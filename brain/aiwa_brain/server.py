@@ -7,7 +7,7 @@ import time
 import urllib.parse
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
-from . import agent, agent_lib, asks, attachments, cast, chamber, claude_cli, config, diagram, files, github, github_login, instructions, links, live, profile, questions, relay, repos, scen_sync, scenarios, sessions, state, studio, update
+from . import agent, agent_lib, asks, attachments, cast, chamber, claude_cli, config, diagram, files, github, github_login, instructions, links, live, memory, profile, questions, relay, repos, scen_sync, scenarios, sessions, state, studio, update
 
 
 def status():
@@ -243,6 +243,7 @@ GET = {
     "/api/scenarios": lambda q: scenarios.scenario_api("/api/scenarios", ""),
     "/api/chamber": lambda q: chamber.chamber_api("/api/chamber", ""),
     "/api/live/events": lambda q: live.live_api("/api/live/events", ""),
+    "/api/memory": lambda q: {"ok": True, "notes": memory.notes()},
     "/api/agent/log": lambda q: {"ok": True, "log": list(state.agent_log)},
     "/api/persona": lambda q: {"ok": True, **state.persona.status()},
     "/api/style": lambda q: {"ok": True, **state.style.status()},
@@ -252,6 +253,7 @@ GET = {
     "/api/profile/seen": lambda q: profile.seen_of((q.get("repo") or [""])[0]),
 }
 POST = {
+    "/api/memory/forget": lambda body, data: {"ok": True, "erased": memory.forget((data or {}).get("id") or (data or {}).get("what") or body.strip())},
     "/api/cloud/message": lambda body, data: sessions.cloud_send(body),
     "/api/cloud/command": lambda body, data: sessions.cloud_send(body, command=True),
     "/api/cloud/select": lambda body, data: _select_session(body.strip()),

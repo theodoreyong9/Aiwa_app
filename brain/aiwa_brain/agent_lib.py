@@ -44,6 +44,7 @@ OPEN_KINDS = {
     "connexions": "set_accounts", "les mots": "set_words", "mes mots": "set_words", "jeu": "set_persona", "le jeu": "set_persona", "personnalite": "set_persona", "personnalité": "set_persona", "moi": "set_me", "ma description": "set_me",
     "voix": "set_voice", "la voix": "set_voice", "papers": "set_papers", "modele": "set_model", "modèle": "set_model", "le modèle": "set_model",
     "ecoute permanente": "set_ear", "écoute permanente": "set_ear", "c'est prêt": "set_ready", "c'est pret": "set_ready", "push": "set_push", "push direct": "set_push", "fond": "set_bg", "fond du widget": "set_bg", "le fond": "set_bg",
+    "mémoire": "memory", "memoire": "memory", "ma mémoire": "memory", "ma memoire": "memory", "la mémoire": "memory", "la memoire": "memory",
 }
 OPEN_SPOKEN = {
     "files": "les productions", "files_docs": "les documents", "files_image": "les images", "files_video": "les vidéos", "files_app": "les apps", "files_page": "les pages",
@@ -51,10 +52,10 @@ OPEN_SPOKEN = {
     "voir_link": "Voir par lien", "voir_qr": "Voir par QR code", "voir_fav": "Voir mes favoris", "chambre": "la chambre", "chambres": "la liste des chambres", "settings": "les réglages", "update": "la mise à jour",
     "question": "la question", "claude": "la conversation Claude", "add": "l'ajout d'un fichier", "listen": "l'écoute permanente (bascule)", "wallet": "le wallet", "report": "le rapport",
     "repo": "le choix du dépôt", "session": "les sessions", "scan": "le scan du profil affiché (un avis, pas une garantie)", "trust_open": "l'accès du profil affiché au widget (je te demande confirmation)", "trust_close": "la fermeture de l'accès du profil affiché", "set_accounts": "les connexions", "set_words": "les mots", "set_persona": "le jeu et la personnalité", "set_me": "mon profil (réglages)", "set_voice": "la voix",
-    "set_papers": "les papers", "set_model": "le modèle", "set_health": "l'état d'Aiwa", "set_ear": "l'écoute permanente (bascule)", "set_ready": "« C'est prêt » (bascule)", "set_push": "le push direct (bascule)", "set_bg": "le fond du widget (change)",
+    "set_papers": "les papers", "set_model": "le modèle", "set_health": "l'état d'Aiwa", "set_ear": "l'écoute permanente (bascule)", "set_ready": "« C'est prêt » (bascule)", "set_push": "le push direct (bascule)", "set_bg": "le fond du widget (change)", "memory": "ta mémoire",
     "build": "le widget", "home": "Aiwa", "github": "la connexion GitHub", "health": "l'état d'Aiwa", "claude_login": "la connexion Claude", "wall": "le mur", "keys": "les clés", "style": "le style",
 }
-OPEN_LIST = "scan, scanne, donne l'accès, retire l'accès, documents, images, videos, apps, pages, fichiers, scenario, cast, voir, visible, cache, zone, lien, qr, favoris, chambre, chambres, depot, sessions, connexions, les mots, jeu, moi, voix, papers, modele, ecoute permanente, c'est prêt, push, fond, reglages, mise a jour, question, claude, ajouter, ecoute, wallet, rapport, accueil, aiwa, swipe, aiwa, swipe, github, etat, connexion claude, mur, cles, style"
+OPEN_LIST = "scan, scanne, donne l'accès, retire l'accès, documents, images, videos, apps, pages, fichiers, scenario, cast, voir, visible, cache, zone, lien, qr, favoris, chambre, chambres, depot, sessions, connexions, les mots, jeu, moi, voix, papers, modele, ecoute permanente, c'est prêt, push, fond, reglages, memoire, mise a jour, question, claude, ajouter, ecoute, wallet, rapport, accueil, aiwa, swipe, aiwa, swipe, github, etat, connexion claude, mur, cles, style"
 
 REPORT_REQUEST = (
     "Fais-moi le rapport de toute mon activité depuis le dernier message que je t'ai envoyé : les sessions, les dépôts, les productions nouvelles, les workflows (pour chaque échec, l'étape en cause "
@@ -67,11 +68,12 @@ def schema():
     return (
         '{"say":"<ce que tu dis à voix haute, une ou deux phrases courtes>",'
         '"send":[{"repo":"<propriétaire/nom du dépôt>","session":"<session_… si tu vises une session précise>","message":"<le message à lui envoyer>"}],'
-        '"do":{"repo":"<propriétaire/nom>","session":"<session_… ou nouvelle>","open":"<' + OPEN_LIST + '>","cast":{"tv":"<nom de la TV, ou vide>","wait":false},"persona":{"style":"<neutre, vanneur, chaleureux ou sec>","game":true,"restart":false},"shot":{"prompt":"<le plan à fabriquer, concret>","source":"<hf, stock ou auto>"},"film":{"kind":"<me, product ou both>","direction":"<ce que la personne veut voir, ses mots>","says":"<ses paroles, ou vide>","seconds":0,"aspect":"<9:16, 16:9 ou 1:1>","me":["<noms des photos jointes qui sont elle>"],"product":["<noms des photos jointes du produit>"]},"extra":"<consigne durable donnée aux sessions, ou vide pour l\'effacer>","rename":{"session":"<session_… ou vide pour la session en cours>","title":"<nouveau nom>"},"model":"<opus, sonnet, haiku, un identifiant, ou auto>","effort":"<low, medium, high, xhigh, max, ou auto>","push":"<direct ou branche>"}}'
+        '"do":{"repo":"<propriétaire/nom>","session":"<session_… ou nouvelle>","open":"<' + OPEN_LIST + '>","cast":{"tv":"<nom de la TV, ou vide>","wait":false},"persona":{"style":"<neutre, vanneur, chaleureux ou sec>","game":true,"restart":false},"shot":{"prompt":"<le plan à fabriquer, concret>","source":"<hf, stock ou auto>"},"film":{"kind":"<me, product ou both>","direction":"<ce que la personne veut voir, ses mots>","says":"<ses paroles, ou vide>","seconds":0,"aspect":"<9:16, 16:9 ou 1:1>","me":["<noms des photos jointes qui sont elle>"],"product":["<noms des photos jointes du produit>"]},"extra":"<consigne durable donnée aux sessions, ou vide pour l\'effacer>","rename":{"session":"<session_… ou vide pour la session en cours>","title":"<nouveau nom>"},"model":"<opus, sonnet, haiku, un identifiant, ou auto>","effort":"<low, medium, high, xhigh, max, ou auto>","push":"<direct ou branche>"},"remember":"<une note courte à garder, seulement si la personne demande de retenir quelque chose, sinon vide>","forget":"<mots de la note à oublier, ou all, seulement si la personne demande d\'oublier>"}'
     )
 
 
 ROLE = (
+    "Tu as une mémoire : quand la personne te demande de retenir quelque chose (« retiens que… », « n'oublie pas… »), mets une note courte dans `remember` ; quand elle demande d'oublier, mets les mots de la note (ou all) dans `forget`. Ce que tu as retenu est dans le point, sous « Mémoire ». Sans demande claire, ne retiens rien. "
     "Tu es un INTERMÉDIAIRE : tu ne fais JAMAIS rien toi-même, ni code, ni dépôt, ni envoi. Tu transmets à des sessions de travail et tu converses. "
     "Quand la personne te demande une PRODUCTION (un document, une image, une vidéo, une app, une page) ou n'importe quel TRAVAIL, tu ne réponds JAMAIS « je ne peux rien faire » ni « veux-tu que je l'envoie ? » : "
     "tu le mets TOUJOURS dans `send`, avec sa demande reprise MOT POUR MOT dans le message (la qualité, le lieu, ce qu'elle dit de ses fichiers joints) ; le téléphone relit et attend sa confirmation : c'est le seul garde-fou. "
@@ -141,6 +143,10 @@ def digest(snap):
     if screen.get("profile"):
         lines.append(f"Écran en ce moment : le profil {screen['profile']} ({'le sien' if screen.get('own') else 'celui d une autre personne'}). « cette page » ou « ce profil » veut dire celui-là.")
         sig.append(("screen", screen["profile"], bool(screen.get("own"))))
+    remembered = snap.get("memory") or []
+    if remembered:
+        lines.append("Mémoire (ce que la personne t'a demandé de retenir) : " + " | ".join(remembered))
+        sig.append(("memory", remembered))
     chamber = snap.get("chamber")
     if chamber:
         lines.append(f"Chambre : {chamber}.")
