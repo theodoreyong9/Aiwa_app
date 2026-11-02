@@ -3,6 +3,7 @@ import json
 import re
 import threading
 import time
+import uuid
 
 from . import config
 
@@ -46,7 +47,7 @@ def add(text):
         all_ = _load()
         if any(n["text"].lower() == text.lower() for n in all_):
             return None
-        note = {"id": f"m{int(time.time() * 1000)}", "text": text, "ts": int(time.time())}
+        note = {"id": "m" + uuid.uuid4().hex[:12], "text": text, "ts": int(time.time())}
         all_.append(note)
         _save(all_[-MAX_NOTES:])
         return note
@@ -121,6 +122,6 @@ def replace(old, texts):
     with _lock:
         rest = [n for n in _load() if n.get("id") not in gone]
         base = int(old[0].get("ts") or time.time())
-        made = [{"id": f"c{int(time.time() * 1000)}{i}", "text": t, "ts": base} for i, t in enumerate(texts)]
+        made = [{"id": "c" + uuid.uuid4().hex[:12], "text": t, "ts": base} for i, t in enumerate(texts)]
         _save((made + rest)[-MAX_NOTES:])
     return True
