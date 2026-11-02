@@ -24,6 +24,10 @@ class WidgetPreviewShot {
         val out = File("build/widget-previews").apply { mkdirs() }
         File(out, "widget1_preview.png").outputStream().use { bitmap.compress(Bitmap.CompressFormat.PNG, 100, it) }
         check(File(out, "widget1_preview.png").length() > 5000) { "the picture is empty" }
+        // a small copy, to look at in the log of the build
+        val small = Bitmap.createScaledBitmap(bitmap, 330, 100, true)
+        val flat = Bitmap.createBitmap(330, 100, Bitmap.Config.ARGB_8888).also { android.graphics.Canvas(it).apply { drawColor(0xFF222222.toInt()); drawBitmap(small, 0f, 0f, null) } }
+        File(out, "thumb.jpg").outputStream().use { flat.compress(Bitmap.CompressFormat.JPEG, 55, it) }
         // and into the resources of the APK about to be built (the build runs this test first): the preview of the picker is this picture
         val res = File("src/main/res/drawable-nodpi")
         if (res.isDirectory) File(res, "widget1_preview.png").outputStream().use { bitmap.compress(Bitmap.CompressFormat.PNG, 100, it) }
