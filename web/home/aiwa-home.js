@@ -15,8 +15,7 @@
   var CATALOG = [
     ['build', [['agent', 'Super agent', 'orange'], ['plus', 'Ajouter', 'grey'], ['claude', 'Claude', 'grey'], ['scenario', 'Scénario', 'grey'], ['cast', 'Cast TV', 'grey'], ['question', 'Question', 'grey']]],
     ['files', [['docs', 'Docs', 'green'], ['image', 'Images', 'green'], ['video', 'Vidéos', 'green'], ['app', 'Apps', 'green'], ['page', 'Pages', 'green']]],
-    ['voir', [['wallet', 'Wallet', 'grey'], ['nearby', 'Zone', 'violet'], ['link', 'Lien', 'grey'], ['qr', 'QR code', 'grey'], ['favorites', 'Favoris', 'grey']]],
-    ['chamber', [['room', 'Chambre', 'grey'], ['roomtalk', 'Converser', 'green'], ['roomear', 'Écouter', 'violet'], ['roomcreate', 'Create', 'red']]],
+    ['voir', [['wallet', 'Wallet', 'grey'], ['nearby', 'Zone', 'violet'], ['room', 'Chambres', 'blue'], ['link', 'Lien', 'grey'], ['qr', 'QR code', 'grey'], ['favorites', 'Favoris', 'grey']]],
     ['bar', [['update', 'Mise à jour', 'grey'], ['settings', 'Réglages', 'grey']]],
     // the twelve tiles of the settings, as a page of the widget (the groups open their window, the switches flip on the spot)
     ['settings', [['set_accounts', 'Connexions', 'grey', 'Comptes'], ['set_words', 'Les mots', 'grey', 'Tes mots'], ['set_persona', 'Jeu', 'grey', 'Points'], ['set_me', 'Moi', 'grey', 'Profil'], ['set_voice', 'Voix', 'grey', 'Parole'], ['set_ear', 'Écoute', 'grey', 'Micro'],

@@ -32,20 +32,27 @@ OPEN_KINDS = {
     "scenario": "scenario", "scénario": "scenario", "scenarios": "scenario", "scénarios": "scenario", "cast": "cast", "tv": "cast", "télé": "cast", "television": "cast", "télévision": "cast",
     "voir": "voir", "les autres": "voir", "visible": "voir_on", "me rendre visible": "voir_on", "cache": "voir_off", "caché": "voir_off", "me cacher": "voir_off", "invisible": "voir_off",
     "zone": "voir_near", "la zone": "voir_near", "proximite": "voir_near", "proximité": "voir_near", "autour": "voir_near", "lien": "voir_link", "par lien": "voir_link", "qr": "voir_qr", "qr code": "voir_qr", "favoris": "voir_fav",
-    "chambre": "chambre", "reglages": "settings", "réglages": "settings", "parametres": "settings", "paramètres": "settings", "mise a jour": "update", "mise à jour": "update",
+    "chambre": "chambres", "chambres": "chambres", "les chambres": "chambres", "mes chambres": "chambres", "reglages": "settings", "réglages": "settings", "parametres": "settings", "paramètres": "settings", "mise a jour": "update", "mise à jour": "update",
     "question": "question", "claude": "claude", "conversation": "claude", "ajouter": "add", "ecoute": "listen", "écoute": "listen", "micro": "listen", "wallet": "wallet", "portefeuille": "wallet",
     "rapport": "report", "build": "build", "accueil": "home", "profil": "home", "aiwa": "home", "l'application": "home", "l'appli": "home", "application": "home", "swipe": "home", "jump": "home", "mon profil": "home",
     "github": "github", "connexion github": "github", "etat": "health", "état": "health", "etat d'aiwa": "health", "état d'aiwa": "health",
     "connexion claude": "claude_login", "mur": "wall", "cles": "keys", "clés": "keys", "style": "style",
+    # the choice of the repository and the sessions, the tiles of the settings one by one and their switches (what the widgets show)
+    "depot": "repo", "dépôt": "repo", "depots": "repo", "dépôts": "repo", "repo": "repo", "repos": "repo", "session": "session", "sessions": "session", "la session": "session", "les sessions": "session",
+    "connexions": "set_accounts", "les mots": "set_words", "mes mots": "set_words", "jeu": "set_persona", "le jeu": "set_persona", "personnalite": "set_persona", "personnalité": "set_persona", "moi": "set_me", "ma description": "set_me",
+    "voix": "set_voice", "la voix": "set_voice", "papers": "set_papers", "modele": "set_model", "modèle": "set_model", "le modèle": "set_model",
+    "ecoute permanente": "set_ear", "écoute permanente": "set_ear", "c'est prêt": "set_ready", "c'est pret": "set_ready", "push": "set_push", "push direct": "set_push", "fond": "set_bg", "fond du widget": "set_bg", "le fond": "set_bg",
 }
 OPEN_SPOKEN = {
     "files": "les productions", "files_docs": "les documents", "files_image": "les images", "files_video": "les vidéos", "files_app": "les apps", "files_page": "les pages",
     "scenario": "les scénarios", "cast": "le choix de la télé", "voir": "la fenêtre Voir", "voir_on": "Voir : visible", "voir_off": "Voir : caché", "voir_near": "la zone",
-    "voir_link": "Voir par lien", "voir_qr": "Voir par QR code", "voir_fav": "Voir mes favoris", "chambre": "la chambre", "settings": "les réglages", "update": "la mise à jour",
+    "voir_link": "Voir par lien", "voir_qr": "Voir par QR code", "voir_fav": "Voir mes favoris", "chambre": "la chambre", "chambres": "la liste des chambres", "settings": "les réglages", "update": "la mise à jour",
     "question": "la question", "claude": "la conversation Claude", "add": "l'ajout d'un fichier", "listen": "l'écoute permanente (bascule)", "wallet": "le wallet", "report": "le rapport",
+    "repo": "le choix du dépôt", "session": "les sessions", "set_accounts": "les connexions", "set_words": "les mots", "set_persona": "le jeu et la personnalité", "set_me": "mon profil (réglages)", "set_voice": "la voix",
+    "set_papers": "les papers", "set_model": "le modèle", "set_health": "l'état d'Aiwa", "set_ear": "l'écoute permanente (bascule)", "set_ready": "« C'est prêt » (bascule)", "set_push": "le push direct (bascule)", "set_bg": "le fond du widget (change)",
     "build": "le widget", "home": "Aiwa", "github": "la connexion GitHub", "health": "l'état d'Aiwa", "claude_login": "la connexion Claude", "wall": "le mur", "keys": "les clés", "style": "le style",
 }
-OPEN_LIST = "documents, images, videos, apps, pages, fichiers, scenario, cast, voir, visible, cache, zone, lien, qr, favoris, chambre, reglages, mise a jour, question, claude, ajouter, ecoute, wallet, rapport, accueil, aiwa, swipe, aiwa, swipe, github, etat, connexion claude, mur, cles, style"
+OPEN_LIST = "documents, images, videos, apps, pages, fichiers, scenario, cast, voir, visible, cache, zone, lien, qr, favoris, chambre, chambres, depot, sessions, connexions, les mots, jeu, moi, voix, papers, modele, ecoute permanente, c'est prêt, push, fond, reglages, mise a jour, question, claude, ajouter, ecoute, wallet, rapport, accueil, aiwa, swipe, aiwa, swipe, github, etat, connexion claude, mur, cles, style"
 
 REPORT_REQUEST = (
     "Fais-moi le rapport de toute mon activité depuis le dernier message que je t'ai envoyé : les sessions, les dépôts, les productions nouvelles, les workflows (pour chaque échec, l'étape en cause "
@@ -281,6 +288,8 @@ def open_intent(spoken):
     for word in OPEN_KINDS:
         if re.search(r"(?<!\w)" + re.escape(word) + r"(?![\w])", text) and (best is None or len(word) > len(best)):
             best = word
+    if best and OPEN_KINDS[best] in ("repo", "session") and re.search(r"[\w.-]+/[\w.-]+", text):
+        return None       # « va sur le dépôt me/app »: a change of repository (the model's), not the opening of the list
     return best
 
 

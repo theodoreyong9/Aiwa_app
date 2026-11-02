@@ -277,7 +277,9 @@ test('a person is in two chambers at once, speaks into one only, and leaving the
   assert.ok(luc.log.turns.some((t) => t.incoming?.human && /associé/.test(t.incoming.text)), 'the agent of Luc hears her human');
   assert.ok(!anna.log.turns.some((t) => t.incoming?.human), 'Anna heard nothing of it');
 
+  await jean.chambers.cmd({ cmd: 'ear', room: 'anna/site', on: true });
   await jean.chambers.cmd({ cmd: 'ear', room: 'luc/site', on: true });
+  assert.deepEqual(jean.chambers.status().map((s) => [s.room, s.ear]).sort(), [['anna/site', false], ['luc/site', true]], 'one ear at a time: listening to Luc switches off Anna');
   await jean.chambers.cmd({ cmd: 'quiet' });
   const after = jean.chambers.status();
   assert.deepEqual(after.map((s) => [s.ear, s.speak]), [[false, false], [false, false]]);

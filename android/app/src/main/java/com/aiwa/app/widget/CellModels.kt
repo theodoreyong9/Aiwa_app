@@ -63,6 +63,9 @@ object CellModels {
         out["qr"] = CellModel("QR code", "grey")
         out["favorites"] = CellModel("Favoris", "grey")
         for ((id, cell) in ChamberActions.cells(snap)) out[id] = CellModel(cell.label, cell.tone, cell.found, cell.on)
+        val calls = com.aiwa.app.chamber.ChamberState.rooms
+        val talking = calls.any { it.optBoolean("conversing") }
+        out["room"] = CellModel(if (calls.isEmpty()) "Chambres" else "Chambres · ${calls.size}", if (talking) "green" else "blue", on = talking)      // the list: one line per person she called
         out["update"] = CellModel("Mise à jour", if (snap.appUpdateReady) "green" else "grey", on = snap.appUpdateReady)
         out["question"] = CellModel("Question", if (status?.ask != null) "red" else "grey", on = status?.ask != null)
         out["settings"] = CellModel("Réglages", "grey")
