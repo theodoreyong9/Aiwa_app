@@ -54,7 +54,7 @@ READ_MAX = 2_000_000        # bytes of the page the brain reads to check it (a l
 UI_FILE = "aiwa-ui.json"
 # What the application's own look may name as an action (keep in step with AgentScreens.TOKENS and the keys of the bar in the Android app).
 UI_KEYS = "favoris, swipe, precedent, give, reseau, match, chambre, cafe, zone, mur, widget, rang"
-UI_SCREENS = ("files_docs, files_image, files_video, files_app, files_page, files, build, scenario, cast, voir, voir_near, voir_link, voir_qr, voir_fav, chambre, settings, update, question, claude, add, "
+UI_SCREENS = ("files_docs, files_image, files_video, files_app, files_page, files, build, scenario, cast, voir, voir_near, voir_link, voir_qr, voir_fav, chambre, chambres, repo, session, set_accounts, set_words, set_persona, set_me, set_voice, set_papers, set_model, set_health, set_ear, set_ready, set_push, set_bg, settings, update, question, claude, add, "
               "listen, wallet, report, home, github, health, claude_login, keys, style, wall")
 
 

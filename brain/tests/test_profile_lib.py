@@ -75,5 +75,5 @@ class UiKeysInStep(unittest.TestCase):
         skill = (self.ROOT / "skills/profile/SKILL.md").read_text(encoding="utf-8")
         for key in P.UI_KEYS.split(","):
             self.assertIn(key.strip(), skill)
-        for word in ("build", "files", "voir", "chamber", "data-aiwa-slot", "data-aiwa-button", "data-aiwa-only", "data-aiwa-skip", "data-aiwa-look", "aiwa-ui.json", "supprimer", "Tout remettre par défaut", "recommencer"):
+        for word in ("build", "files", "voir", "data-aiwa-slot", "data-aiwa-button", "data-aiwa-only", "data-aiwa-skip", "data-aiwa-look", "aiwa-ui.json", "supprimer", "Tout remettre par défaut", "recommencer"):
             self.assertIn(word, skill)

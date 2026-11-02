@@ -15,8 +15,14 @@ class Reading(unittest.TestCase):
     def test_open_reaches_every_screen_of_the_widget(self):
         for word, kind in (("Wallet", "wallet"), ("réglages", "settings"), ("mise à jour", "update"), ("écoute", "listen"), ("me rendre visible", "voir_on"), ("caché", "voir_off"),
                            ("proximité", "voir_near"), ("QR code", "voir_qr"), ("favoris", "voir_fav"), ("par lien", "voir_link"), ("vidéos", "files_video"), ("pages", "files_page"),
-                           ("scénarios", "scenario"), ("télévision", "cast"), ("chambre", "chambre"), ("rapport", "report")):
+                           ("scénarios", "scenario"), ("télévision", "cast"), ("chambre", "chambres"), ("les chambres", "chambres"), ("rapport", "report"), ("dépôt", "repo"), ("les sessions", "session"), ("les mots", "set_words"),
+                           ("modèle", "set_model"), ("fond du widget", "set_bg"), ("push direct", "set_push"), ("c'est prêt", "set_ready"), ("papers", "set_papers")):
             self.assertEqual(A.parse_command({"open": word}, KNOWN), {"open": kind})
+
+    def test_a_repository_named_in_the_sentence_is_a_change_not_the_opening_of_the_list(self):
+        self.assertEqual(A.OPEN_KINDS[A.open_intent("ouvre le dépôt")], "repo")
+        self.assertIsNone(A.open_intent("va sur le dépôt me/app"))
+        self.assertEqual(A.OPEN_KINDS[A.open_intent("montre-moi mes chambres")], "chambres")
 
     def test_what_was_removed_is_not_openable(self):
         for word in ("boucles", "campagne", "mcp", "projet", "store", "robot"):

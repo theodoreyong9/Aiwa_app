@@ -243,6 +243,15 @@ export function createChambers({ join, call, post, me }) {
         await ch.cmd(c);
         break;
       }
+      case 'ear': {
+        // one ear at a time: listening to a chamber switches off the one listened to before
+        const ch = find(c.room);
+        if (!ch) break;
+        const turningOn = c.on === true || (c.on === undefined && !ch.status().ear);
+        if (turningOn) for (const other of rooms.values()) if (other !== ch) await other.cmd({ cmd: 'modes', ear: false });
+        await ch.cmd(c);
+        break;
+      }
       default: { const ch = find(c?.room); if (ch) await ch.cmd(c); }
     }
     emit();

@@ -53,7 +53,9 @@ object AgentScreens {
     /** What `open` knows how to open: also what the file of the application's look may name as an action. */
     val TOKENS = setOf(
         "files_docs", "files_image", "files_video", "files_app", "files_page", "files", "build", "scenario", "cast", "voir", "voir_near", "voir_link", "voir_qr", "voir_fav", "voir_on", "voir_off",
-        "chambre", "settings", "update", "question", "claude", "add", "listen", "wallet", "report", "home", "github", "health", "claude_login", "keys", "style", "wall",
+        "chambre", "chambres", "settings", "update", "question", "claude", "add", "listen", "wallet", "report", "home", "github", "health", "claude_login", "keys", "style", "wall",
+        // what the widgets show, by voice too: the choice of the repository, the sessions, the tiles of the settings one by one and their switches
+        "repo", "session", "set_accounts", "set_words", "set_persona", "set_me", "set_voice", "set_papers", "set_model", "set_health", "set_ear", "set_ready", "set_push", "set_bg",
     )
 
     fun open(context: Context, token: String) {
@@ -66,7 +68,23 @@ object AgentScreens {
             "voir" -> go(context, com.aiwa.app.home.ProfileActivity.homeIntent(context)); "voir_near" -> go(context, com.aiwa.app.home.ProfileActivity.homeIntent(context)); "voir_link" -> voir(context, "lien"); "voir_qr" -> voir(context, "qr"); "voir_fav" -> voir(context, "favoris")
             "voir_on" -> com.aiwa.app.voir.VoirSettings.setOn(context, true)
             "voir_off" -> com.aiwa.app.voir.VoirSettings.setOn(context, false)
-            "chambre" -> go(context, ChamberActivity::class.java)
+            "chambre", "chambres" -> go(context, com.aiwa.app.chamber.ChambersActivity::class.java)      // the list: one line per person she called
+            "repo" -> go(context, com.aiwa.app.widget.RepoPickerActivity::class.java)
+            "session" -> {
+                val repo = com.aiwa.app.widget.FilesScope.repo(context, Aiwa.state.value.status?.repo) ?: Aiwa.state.value.status?.repo
+                if (repo != null) go(context, Intent(context, com.aiwa.app.widget.RepoSessionActivity::class.java).putExtra(com.aiwa.app.widget.RepoSessionActivity.EXTRA_REPO, repo)) else go(context, com.aiwa.app.widget.RepoPickerActivity::class.java)
+            }
+            "set_accounts" -> go(context, Intent(context, SettingsActivity::class.java).putExtra(SettingsActivity.EXTRA_GROUP, "accounts"))
+            "set_words" -> go(context, Intent(context, SettingsActivity::class.java).putExtra(SettingsActivity.EXTRA_GROUP, "words"))
+            "set_me" -> go(context, Intent(context, SettingsActivity::class.java).putExtra(SettingsActivity.EXTRA_GROUP, "me"))
+            "set_voice" -> go(context, Intent(context, SettingsActivity::class.java).putExtra(SettingsActivity.EXTRA_GROUP, "voice"))
+            "set_model" -> go(context, Intent(context, SettingsActivity::class.java).putExtra(SettingsActivity.EXTRA_GROUP, "model"))
+            "set_persona" -> go(context, com.aiwa.app.settings.PersonaActivity::class.java)
+            "set_papers" -> go(context, com.aiwa.app.settings.PapersActivity::class.java)
+            "set_ear" -> com.aiwa.app.widget.AiwaWidget2.flip(context, "ear")
+            "set_ready" -> com.aiwa.app.widget.AiwaWidget2.flip(context, "ready")
+            "set_push" -> com.aiwa.app.widget.AiwaWidget2.flip(context, "push")
+            "set_bg" -> com.aiwa.app.widget.AiwaWidget2.flip(context, "bg")
             "settings" -> go(context, SettingsActivity::class.java)
             "update" -> go(context, InstallUpdateActivity::class.java)
             "question" -> go(context, AskActivity::class.java)
@@ -77,7 +95,7 @@ object AgentScreens {
             "report" -> go(context, ReportActivity::class.java)
             "home" -> go(context, HomeActivity::class.java)
             "github" -> go(context, com.aiwa.app.settings.GithubConnectActivity::class.java)
-            "health" -> go(context, com.aiwa.app.settings.HealthActivity::class.java)
+            "health", "set_health" -> go(context, com.aiwa.app.settings.HealthActivity::class.java)
             "claude_login" -> go(context, com.aiwa.app.settings.ClaudeLoginActivity::class.java)
             "keys" -> go(context, com.aiwa.app.settings.KeysActivity::class.java)
             "style" -> go(context, com.aiwa.app.settings.StyleActivity::class.java)
