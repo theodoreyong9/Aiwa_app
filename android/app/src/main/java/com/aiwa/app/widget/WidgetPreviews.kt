@@ -23,7 +23,8 @@ object WidgetPreviews {
             val manager = AppWidgetManager.getInstance(context)
             val first = manager.setWidgetPreview(ComponentName(context, AiwaWidgetProvider::class.java), android.appwidget.AppWidgetProviderInfo.WIDGET_CATEGORY_HOME_SCREEN, AiwaWidget.previewViews(context))
             val second = manager.setWidgetPreview(ComponentName(context, AiwaWidget2Provider::class.java), android.appwidget.AppWidgetProviderInfo.WIDGET_CATEGORY_HOME_SCREEN, AiwaWidget2.views(context))
-            if (first || second) { prefs.put("version", version); prefs.put("at", System.currentTimeMillis().toString()) }
+            val third = manager.setWidgetPreview(ComponentName(context, AiwaWidget3Provider::class.java), android.appwidget.AppWidgetProviderInfo.WIDGET_CATEGORY_HOME_SCREEN, AiwaWidget3.views(context))
+            if (first || second || third) { prefs.put("version", version); prefs.put("at", System.currentTimeMillis().toString()) }
         } catch (err: Throwable) { /* the system refused (limit): the next start tries again */ }
     }
 }

@@ -105,7 +105,7 @@ object AiwaWidget2 {
     /**
      * What the ear says: the state of the Super agent button of the first widget whenever it says something (« Cerveau en route… », « Autoriser Aiwa », « Connecter Claude »… alert or not), in a few letters; else the ear itself.
      */
-    private fun earLabel(context: Context, snap: com.aiwa.app.brain.Snapshot, alert: Boolean): String {
+    fun earLabel(context: Context, snap: com.aiwa.app.brain.Snapshot, alert: Boolean): String {
         val said = CellModels.of(context, snap).getValue("agent").label
         val short = mapOf(
             "Cerveau en route…" to "Cerveau…", "Installation manquante" to "Installer", "Autoriser Aiwa" to "Autoriser", "Connecter Claude" to "Claude ?", "Connecter GitHub" to "GitHub ?",
