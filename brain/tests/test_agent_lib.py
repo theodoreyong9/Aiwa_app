@@ -24,6 +24,11 @@ class Reading(unittest.TestCase):
         self.assertIsNone(A.open_intent("va sur le dépôt me/app"))
         self.assertEqual(A.OPEN_KINDS[A.open_intent("montre-moi mes chambres")], "chambres")
 
+    def test_the_scan_and_the_access_of_the_profile_on_the_screen_are_reached_by_voice(self):
+        for spoken, kind in (("scanne cette page", "scan"), ("lance le scan", "scan"), ("donne l'accès", "trust_open"), ("retire l'accès", "trust_close"), ("ferme l'accès", "trust_close")):
+            self.assertEqual(A.OPEN_KINDS[A.open_intent(spoken)], kind, spoken)
+        self.assertIsNone(A.open_intent("donne trois points"), "a plain sentence with the verb is not an opening")
+
     def test_what_was_removed_is_not_openable(self):
         for word in ("boucles", "campagne", "mcp", "projet", "store", "robot"):
             self.assertIsNone(A.parse_command({"open": word}, KNOWN), word)

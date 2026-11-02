@@ -35,7 +35,7 @@ object ProfileView {
             // the last page known of this profile is shown at once (the favourites and the swipe open without a wait); the page read now replaces it, and nothing flickers when it is the same
             val key = "profile|$repo"
             val kept = com.aiwa.app.common.ListCache.read(context, key)
-            if (kept != null) show(web, main, base(repo, sha), if (own) kept else HomeRuntime.lockScripts(kept))
+            if (kept != null) show(web, main, base(repo, sha), prepared(context, repo, own, kept))
             val html = try {
                 val c = URL(base(repo, sha) + "index.html").openConnection() as HttpURLConnection
                 c.connectTimeout = 10_000; c.readTimeout = 15_000
@@ -43,9 +43,13 @@ object ProfileView {
             } catch (err: Exception) { null }
             if (html != null) com.aiwa.app.common.ListCache.write(context, key, html)
             if (html == null) { if (kept == null) fallback(web, main, context, own, "Le profil de $repo n'est pas encore là (un dossier Profile/ public avec un index.html).") }
-            else show(web, main, base(repo, sha), if (own) html else HomeRuntime.lockScripts(html))
+            else show(web, main, base(repo, sha), prepared(context, repo, own, html))
         }.start()
     }
+
+    /** The page as it is shown: her own as it is; the one of someone else in the closed zone, or as it is when she gave that profile her trust (see TrustedProfiles). */
+    private fun prepared(context: Context, repo: String, own: Boolean, html: String): String =
+        if (own || TrustedProfiles.isOpen(context, repo)) html else HomeRuntime.closedZone(html)
 
     /** The page shown to the person while she has none of her own: the one of the author of Aiwa (a profile as it can be), under a banner that says how to make hers. */
     const val SHOWCASE = "theodoreyong9/Aiwa_app"

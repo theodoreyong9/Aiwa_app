@@ -155,6 +155,8 @@ class ProfileActivity : ComponentActivity(), com.aiwa.app.nav.VoiceNav {
         "cafe" to ProfileBar.Spec("☕", "Café", ProfileBar.GOLD) { coffee() },
         "zone" to ProfileBar.Spec("⤴", "Jump", ProfileBar.VIOLET) { swipeIn() },
         "mur" to ProfileBar.Spec("🏆", "Mur", ProfileBar.GREEN) { wall() },
+        "scan" to ProfileBar.Spec("🛡", "Scan", ProfileBar.GREEN) { scan() },
+        "confiance" to ProfileBar.Spec("🔒", "Fermé", ProfileBar.WHITE) { toggleTrust() },
         "widget" to ProfileBar.Spec("✦", "Widget", ProfileBar.WHITE) { pages[pager.currentItem]?.let { HomeRuntime.openPanel(it) } },
     ).also { table -> if (urls.size > 1) table["rang"] = ProfileBar.Spec("🏅", "Rang", ProfileBar.GOLD) { ranking() } }
 
@@ -191,7 +193,7 @@ class ProfileActivity : ComponentActivity(), com.aiwa.app.nav.VoiceNav {
         return "Fermé."
     }
 
-    private fun defaultKeys() = if (isOwn()) listOf("favoris", "reseau", "mur", "widget") else listOfNotNull("favoris", "swipe", "reseau", "give", "match", "widget", if (urls.size > 1) "rang" else null)
+    private fun defaultKeys() = if (isOwn()) listOf("favoris", "reseau", "mur", "widget") else listOfNotNull("favoris", "swipe", "scan", "confiance", "match", "widget", if (urls.size > 1) "rang" else null)
 
     private fun applyBar(entries: List<com.aiwa.client.BarEntry>?) {
         val (specs, ids) = BarConfig.resolve(this, entries, builtinKeys(), defaultKeys())
@@ -344,6 +346,7 @@ class ProfileActivity : ComponentActivity(), com.aiwa.app.nav.VoiceNav {
         bar.named["match"]?.label(scores[urls[i]] ?: "Match")
         bar.named["swipe"]?.available(!urls[i].equals(ProfileSettings.repo(this), ignoreCase = true))
         bar.named["favoris"]?.label(if (FavoriteRepos.has(this, urls[i])) "★ Favori" else "☆ Favoris")
+        bar.named["confiance"]?.label(if (TrustedProfiles.isOpen(this, urls[i])) "🔓 Accès" else "🔒 Fermé")
         bar.named["cafe"]?.available(CoffeeSettings.walletConnected(this) && pub.isNotEmpty())
         bar.named["mur"]?.available(pub.isNotEmpty())
         if (pub.isEmpty()) findPub(i)
@@ -403,7 +406,29 @@ class ProfileActivity : ComponentActivity(), com.aiwa.app.nav.VoiceNav {
         if (!::pager.isInitialized) return
         val repo = if (on) urls.getOrNull(pager.currentItem) else null
         val own = on && isOwn()
+        ScreenNow.repo = repo; ScreenNow.own = own
+        ScreenNow.reload = if (on) ({ runOnUiThread { pages[pager.currentItem]?.let { w -> ProfileView.load(w, urls.getOrNull(pager.currentItem)); refreshKeys() } } }) else null
         Thread { try { com.aiwa.app.brain.Aiwa.brain.screen(repo, own) } catch (err: Exception) { } }.start()
+    }
+
+    /** The Scan key: the super agent is asked to read the profile on the screen (its page, its scenarios, the contracts it names) and to say whether something looks dangerous; an opinion, never a guarantee. */
+    private fun scan() {
+        val repo = urls.getOrNull(pager.currentItem)
+        if (!ProfileView.valid(repo) || isOwn()) { toastOnMain(this, "C'est ta propre page : il n'y a rien à scanner."); return }
+        toastOnMain(this, "Scan demandé : l'agent te répond à voix haute.")
+        Thread { try { Aiwa.brain.agentAsk("Scanne cette page ($repo) : lis ses fichiers publics (la page, ses scénarios, les contrats qu'elle cite) et dis-moi si quelque chose est dangereux ou douteux. Lecture seule.") } catch (err: Exception) { } }.start()
+    }
+
+    /** The trust key: closed to open (asked in full first), open to closed (at once). */
+    private fun toggleTrust() {
+        val repo = urls.getOrNull(pager.currentItem)
+        if (!ProfileView.valid(repo) || isOwn()) return
+        if (TrustedProfiles.isOpen(this, repo)) {
+            TrustedProfiles.set(this, repo!!, false)
+            pages[pager.currentItem]?.let { ProfileView.load(it, repo) }
+            refreshKeys()
+            toastOnMain(this, "Accès retiré : la page de $repo est de nouveau fermée.")
+        } else startActivity(android.content.Intent(this, TrustConfirmActivity::class.java).putExtra(TrustConfirmActivity.EXTRA_REPO, repo))
     }
 
     /** Her own page follows her `Profile/` on GitHub: a new commit replaces it on the screen within seconds (a change asked of the super agent shows at once). */
