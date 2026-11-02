@@ -75,7 +75,7 @@ object AiwaWidget2 {
         "fav" to "#FBBF24", "repo" to "#C4B5FD", "session" to "#F59E0B", "wallet" to "#2DD4BF", "search" to "#38BDF8")
 
     /** One of the twelve places of the grid: what it shows (icon, word, colour of its badge, state) and what a touch does. */
-    private class Slot(val icon: Int, val label: String, val color: String, val click: PendingIntent, val state: Int = 0)    // state: 0 plain, 1 on, 2 calls for an answer
+    private class Slot(val icon: Int, val label: String, val color: String, val click: PendingIntent, val state: Int = 0, val desc: String = "")    // state: 0 plain, 1 on, 2 calls for an answer
 
     private fun toggle(context: Context, code: Int, what: String): PendingIntent =
         PendingIntent.getBroadcast(context, 300 + code, Intent(context, AiwaWidget2Provider::class.java).setAction(ACTION_TOGGLE).putExtra("what", what).addFlags(Intent.FLAG_RECEIVER_FOREGROUND), PendingIntent.FLAG_IMMUTABLE or PendingIntent.FLAG_UPDATE_CURRENT)
@@ -116,38 +116,38 @@ object AiwaWidget2 {
             // the ear carries the alerts of the first widget's Super agent button (what is missing, what the agent has to say): then it is red and opens the window that answers it
             val alert = AiwaWidget.agentTarget(context, snap) != AgentToggleActivity::class.java
             listOf(
-                Slot(R.drawable.fw_i_question, "Question", COLORS.getValue("question"), activity(context, 1, com.aiwa.app.question.AskActivity::class.java), if (status?.ask != null) 1 else 0),
+                Slot(R.drawable.fw_i_question, "Question", COLORS.getValue("question"), activity(context, 1, com.aiwa.app.question.AskActivity::class.java), if (status?.ask != null) 1 else 0, if (status?.ask != null) "En attente" else "Dialogue"),
                 Slot(R.drawable.fw_i_ear, if (alert) CellModels.of(context, snap).getValue("agent").label.take(14) else if (snap.listening) "Écoute" else "Oreille", COLORS.getValue("ear"),
-                    activity(context, 2, if (alert) AiwaWidget.agentTarget(context, snap) else EarToggleActivity::class.java), if (alert) 2 else if (snap.listening) 1 else 0),
-                Slot(R.drawable.fw_i_files, "Fichiers", COLORS.getValue("files"), activity(context, 3, FilesHubActivity::class.java)),
-                Slot(R.drawable.fw_i_cast, "Cast", COLORS.getValue("cast"), activity(context, 4, CastActivity::class.java)),
-                Slot(R.drawable.fw_i_scenario, "Scénarios", COLORS.getValue("scenario"), activity(context, 5, ScenariosActivity::class.java)),
-                Slot(R.drawable.fw_i_pin, "Swipe", COLORS.getValue("swipe"), activity(context, 6, com.aiwa.app.home.HomeActivity::class.java)),
-                Slot(R.drawable.fw_i_room, if (roomOpen) "En cours" else "Chambres", COLORS.getValue("room"), activity(context, 7, com.aiwa.app.chamber.ChambersActivity::class.java), if (roomOpen) 1 else 0),
-                Slot(R.drawable.fw_i_star, "Favoris", COLORS.getValue("fav"), voir(8, "favoris")),
-                Slot(R.drawable.fw_i_github, FilesScope.label(context, status?.repo).take(10), COLORS.getValue("repo"), activity(context, 9, RepoPickerActivity::class.java)),
+                    activity(context, 2, if (alert) AiwaWidget.agentTarget(context, snap) else EarToggleActivity::class.java), if (alert) 2 else if (snap.listening) 1 else 0, if (alert) "À traiter" else "Alertes"),
+                Slot(R.drawable.fw_i_files, "Fichiers", COLORS.getValue("files"), activity(context, 3, FilesHubActivity::class.java), 0, "Productions"),
+                Slot(R.drawable.fw_i_cast, "Cast", COLORS.getValue("cast"), activity(context, 4, CastActivity::class.java), 0, "Vers la télé"),
+                Slot(R.drawable.fw_i_scenario, "Scénarios", COLORS.getValue("scenario"), activity(context, 5, ScenariosActivity::class.java), 0, "Automatismes"),
+                Slot(R.drawable.fw_i_pin, "Swipe", COLORS.getValue("swipe"), activity(context, 6, com.aiwa.app.home.HomeActivity::class.java), 0, "Autour"),
+                Slot(R.drawable.fw_i_room, if (roomOpen) "En cours" else "Chambres", COLORS.getValue("room"), activity(context, 7, com.aiwa.app.chamber.ChambersActivity::class.java), if (roomOpen) 1 else 0, if (roomOpen) "Conversation" else "En direct"),
+                Slot(R.drawable.fw_i_star, "Favoris", COLORS.getValue("fav"), voir(8, "favoris"), 0, "Tes préférés"),
+                Slot(R.drawable.fw_i_github, FilesScope.label(context, status?.repo).take(10), COLORS.getValue("repo"), activity(context, 9, RepoPickerActivity::class.java), 0, "Dépôt"),
                 Slot(R.drawable.fw_i_claude, (snap.sessionTitle ?: "Session").take(10), COLORS.getValue("session"),
-                    if (scopeRepo != null) activity(context, 10, Intent(context, RepoSessionActivity::class.java).putExtra(RepoSessionActivity.EXTRA_REPO, scopeRepo)) else activity(context, 10, RepoPickerActivity::class.java)),
-                Slot(R.drawable.fw_i_wallet, "Wallet", COLORS.getValue("wallet"), activity(context, 11, Intent(context, WebActivity::class.java).putExtra(WebActivity.EXTRA_PAGE, "wallet"))),
-                Slot(R.drawable.fw_i_link, "Search", COLORS.getValue("search"), activity(context, 12, SearchHubActivity::class.java)),
+                    if (scopeRepo != null) activity(context, 10, Intent(context, RepoSessionActivity::class.java).putExtra(RepoSessionActivity.EXTRA_REPO, scopeRepo)) else activity(context, 10, RepoPickerActivity::class.java), 0, "Session"),
+                Slot(R.drawable.fw_i_wallet, "Wallet", COLORS.getValue("wallet"), activity(context, 11, Intent(context, WebActivity::class.java).putExtra(WebActivity.EXTRA_PAGE, "wallet")), 0, "Portefeuille"),
+                Slot(R.drawable.fw_i_link, "Search", COLORS.getValue("search"), activity(context, 12, SearchHubActivity::class.java), 0, "Lien · QR"),
             )
         } else {
             // the twelve tiles of the settings window, here: the groups open their window, the switches flip on the spot
             val accountsOk = status?.claudeLogin == "ok" && status.githubToken
             val listen = com.aiwa.app.voice.ListenSettings.enabled(context)
             listOf(
-                Slot(R.drawable.fw_i_key, "Connexions", COLORS.getValue("question"), group(30, "accounts"), if (accountsOk) 0 else 2),
-                Slot(R.drawable.fw_i_talk, "Les mots", COLORS.getValue("ear"), group(31, "words")),
-                Slot(R.drawable.fw_i_trophy, "Jeu", COLORS.getValue("fav"), activity(context, 32, com.aiwa.app.settings.PersonaActivity::class.java)),
-                Slot(R.drawable.fw_i_aiwa, "Moi", COLORS.getValue("files"), group(33, "me")),
-                Slot(R.drawable.fw_i_volume, "Voix", COLORS.getValue("search"), group(34, "voice")),
-                Slot(R.drawable.fw_i_ear, if (listen) "Écoute ✓" else "Écoute", COLORS.getValue("room"), toggle(context, 35, "ear"), if (listen) 1 else 0),
-                Slot(R.drawable.fw_i_papers, "Papers", COLORS.getValue("session"), activity(context, 36, com.aiwa.app.settings.PapersActivity::class.java)),
-                Slot(R.drawable.fw_i_tools, "Modèle", COLORS.getValue("swipe"), group(37, "model")),
-                Slot(R.drawable.fw_i_report, if (com.aiwa.app.voice.ReadySettings.enabled(context)) "Prêt ✓" else "Prêt", COLORS.getValue("wallet"), toggle(context, 38, "ready"), if (com.aiwa.app.voice.ReadySettings.enabled(context)) 1 else 0),
-                Slot(R.drawable.fw_i_swap, if (status?.pushMain ?: true) "Push ✓" else "Push", COLORS.getValue("scenario"), toggle(context, 39, "push"), if (status?.pushMain ?: true) 1 else 0),
-                Slot(R.drawable.fw_i_image, WidgetBackground.label(context).take(10), COLORS.getValue("cast"), toggle(context, 40, "bg")),
-                Slot(R.drawable.fw_i_report, "État", COLORS.getValue("repo"), activity(context, 41, com.aiwa.app.settings.HealthActivity::class.java)),
+                Slot(R.drawable.fw_i_key, "Connexions", COLORS.getValue("question"), group(30, "accounts"), if (accountsOk) 0 else 2, if (accountsOk) "Comptes" else "À relier"),
+                Slot(R.drawable.fw_i_talk, "Les mots", COLORS.getValue("ear"), group(31, "words"), 0, "Tes mots"),
+                Slot(R.drawable.fw_i_trophy, "Jeu", COLORS.getValue("fav"), activity(context, 32, com.aiwa.app.settings.PersonaActivity::class.java), 0, "Points"),
+                Slot(R.drawable.fw_i_aiwa, "Moi", COLORS.getValue("files"), group(33, "me"), 0, "Profil"),
+                Slot(R.drawable.fw_i_volume, "Voix", COLORS.getValue("search"), group(34, "voice"), 0, "Parole"),
+                Slot(R.drawable.fw_i_ear, if (listen) "Écoute ✓" else "Écoute", COLORS.getValue("room"), toggle(context, 35, "ear"), if (listen) 1 else 0, if (listen) "Micro actif" else "Micro coupé"),
+                Slot(R.drawable.fw_i_papers, "Papers", COLORS.getValue("session"), activity(context, 36, com.aiwa.app.settings.PapersActivity::class.java), 0, "Tes papers"),
+                Slot(R.drawable.fw_i_tools, "Modèle", COLORS.getValue("swipe"), group(37, "model"), 0, "Choix"),
+                Slot(R.drawable.fw_i_report, if (com.aiwa.app.voice.ReadySettings.enabled(context)) "Prêt ✓" else "Prêt", COLORS.getValue("wallet"), toggle(context, 38, "ready"), if (com.aiwa.app.voice.ReadySettings.enabled(context)) 1 else 0, "Annonce"),
+                Slot(R.drawable.fw_i_swap, if (status?.pushMain ?: true) "Push ✓" else "Push", COLORS.getValue("scenario"), toggle(context, 39, "push"), if (status?.pushMain ?: true) 1 else 0, if (status?.pushMain ?: true) "Direct main" else "Sur branche"),
+                Slot(R.drawable.fw_i_image, WidgetBackground.label(context).take(10), COLORS.getValue("cast"), toggle(context, 40, "bg"), 0, "Photo"),
+                Slot(R.drawable.fw_i_report, "État", COLORS.getValue("repo"), activity(context, 41, com.aiwa.app.settings.HealthActivity::class.java), 0, "Santé"),
             )
         }
         CELLS.forEachIndexed { i, id ->
@@ -163,6 +163,7 @@ object AiwaWidget2 {
             v.setInt(rid("i"), "setColorFilter", android.graphics.Color.WHITE)
             v.setInt(rid("i"), "setImageAlpha", if (slot.state == 0) 70 else 120)      // the big icon behind: a watermark, clearer when the tile is lit
             v.setTextViewText(rid("t"), slot.label)
+            v.setTextViewText(rid("d"), slot.desc)
             val diagonal = (i / 4) + (i % 4)                        // the row plus the column: 0 to 5
             v.setViewVisibility(rid("c"), if (hideDiagonal(diagonal)) android.view.View.INVISIBLE else android.view.View.VISIBLE)
         }
