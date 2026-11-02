@@ -84,6 +84,7 @@ class SettingsActivity : FloatActivity() {
         entryIcon(R.drawable.fw_i_trophy, "Jeu et personnalité", null, Palette.GOLD,
             if (game?.on == true) (if (game.ended != null) "Manche finie" else "${game.user} · ${game.agent}") else "Arrêté", if (game?.on == true) Palette.GOLD else Palette.DIM) { open(PersonaActivity::class.java) }
         entryIcon(R.drawable.fw_i_aiwa, "Moi", null, MINT) { openGroup("me") }
+        entryIcon(R.drawable.fw_i_talk, "Mémoire", "ce que Aiwa a retenu", MINT) { open(com.aiwa.app.settings.MemoryActivity::class.java) }
         entryIcon(R.drawable.fw_i_volume, "Voix", null, SKY) { openGroup("voice") }
         switchRow(R.drawable.fw_i_ear, "Écoute permanente", "", com.aiwa.app.voice.ListenSettings.enabled(this), PEACH) { on ->
             com.aiwa.app.voice.ListenSettings.setEnabled(this, on)

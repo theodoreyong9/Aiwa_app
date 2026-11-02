@@ -161,6 +161,12 @@ class Brain(private val net: Transport = HttpTransport()) {
         val list = getJson("/api/agent/log")?.optJSONArray("log") ?: return emptyList()
         return (0 until list.length()).map { list.optString(it) }
     }
+    /** What the super agent keeps between two conversations: (id, text) pairs, and the way to erase one or all. */
+    fun memory(): List<Pair<String, String>>? {
+        val list = getJson("/api/memory")?.optJSONArray("notes") ?: return null
+        return (0 until list.length()).map { list.getJSONObject(it).let { n -> n.optString("id") to n.optString("text") } }
+    }
+    fun forgetMemory(what: String): Outcome = act("/api/memory/forget", JSONObject().put("what", what))
     fun persona(): PersonaView? = getJson("/api/persona")?.let { j ->
         val list = j.optJSONArray("styles")
         val g = j.optJSONObject("game") ?: org.json.JSONObject()
