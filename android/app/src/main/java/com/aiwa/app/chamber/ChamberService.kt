@@ -54,7 +54,7 @@ class ChamberService : Service() {
     override fun onCreate() {
         super.onCreate()
         val manager = getSystemService(NotificationManager::class.java)
-        manager.createNotificationChannel(NotificationChannel(CHANNEL, "Chambre", NotificationManager.IMPORTANCE_LOW))
+        manager.createNotificationChannel(NotificationChannel(CHANNEL, "Chambre", NotificationManager.IMPORTANCE_LOW).apply { setShowBadge(false) })      // the door stays open all day: it must not put a dot on the icon
         val notification = notification("Chambre ouverte")
         if (Build.VERSION.SDK_INT >= 34) startForeground(NOTIFICATION, notification, ServiceInfo.FOREGROUND_SERVICE_TYPE_SPECIAL_USE) else startForeground(NOTIFICATION, notification)
         lock = (getSystemService(Context.POWER_SERVICE) as PowerManager).newWakeLock(PowerManager.PARTIAL_WAKE_LOCK, "aiwa:chamber").also { it.setReferenceCounted(false); it.acquire(12 * 60 * 60 * 1000L) }
@@ -172,7 +172,7 @@ class ChamberService : Service() {
     }
 
     companion object {
-        private const val CHANNEL = "aiwa_chamber"
+        private const val CHANNEL = "aiwa_chamber_door"
         private const val CHANNEL_KNOCK = "aiwa_chamber_knock"
         private const val NOTIFICATION = 8301
         private const val ACTION_CLOSE = "com.aiwa.app.CHAMBER_CLOSE"
