@@ -92,6 +92,31 @@ object AiwaWidget {
     /** One cell of a page: what is drawn, its share of the row, and what a tap does (none = nothing). */
     private class Cell(val btn: WidgetArt.Btn, val weight: Float, val click: PendingIntent?, val zone: Int? = null)
 
+    /** Whether the Super agent button is red, and why in words: ONE computation for the two widgets (the ear of the second one carries the same alerts), and the reasons the window that answers it lists. */
+    class AlertInfo(val alert: Boolean, val reasons: List<String>)
+
+    fun alertInfo(context: Context, snap: Snapshot): AlertInfo {
+        val status = snap.status
+        val agent = status?.agent
+        val agentNeeds = agent != null && (agent.proposal != null || (agent.command != null && !agent.command!!.auto))      // red only for what calls for her answer: words to hear or a command already on its way are not that
+        val brainBad = snap.link == Link.DOWN || snap.link == Link.MISSING || status?.claudeLogin == "needed"
+        val waiting = status?.waiting == true || (status?.silenceMinutes ?: 0) > 0
+        val alert = waiting || agentNeeds || !hasTermuxPermission(context) || brainBad
+        val reasons = buildList {
+            if (snap.link == Link.MISSING) add("Termux n'est pas installé : le cerveau ne peut pas tourner.")
+            else if (snap.link == Link.DOWN) add("Le cerveau ne répond pas (Termux est arrêté ou plante).")
+            if (!hasTermuxPermission(context)) add("Aiwa n'a pas l'autorisation de lancer Termux : touche le bouton Super agent ou Oreille pour la donner.")
+            if (status?.claudeLogin == "needed") add("Claude n'est pas relié à ton compte.")
+            if (status?.waiting == true) add("Une session attend ta réponse : touche le bouton Question.")
+            if ((status?.silenceMinutes ?: 0) > 0) add("Une session est silencieuse depuis ${status?.silenceMinutes} minutes.")
+            if (agentNeeds) add("Le super agent attend ta réponse.")
+            val version = status?.version ?: 0
+            if (version in 1 until com.aiwa.app.brain.EXPECTED_BRAIN_VERSION) add("Le cerveau est plus ancien que l'application ($version, il faut ${com.aiwa.app.brain.EXPECTED_BRAIN_VERSION}) : il se met à jour, ça peut prendre quelques minutes.")
+        }
+        WidgetAlert.reasons = reasons
+        return AlertInfo(alert, reasons)
+    }
+
     /** What the Super agent button opens: the window that gives what is missing first, else the switch of the agent. */
     fun agentTarget(context: Context, snap: Snapshot): Class<*> {
         val status = snap.status
@@ -131,21 +156,7 @@ object AiwaWidget {
         val v = RemoteViews(context.packageName, R.layout.fast_widget)
         val status = snap.status
         val agent = status?.agent
-        val agentNeeds = agent != null && (agent.proposal != null || (agent.command != null && !agent.command!!.auto))      // red only for what calls for her answer: words to hear or a command already on its way are not that
-        val brainBad = snap.link == Link.DOWN || snap.link == Link.MISSING || status?.claudeLogin == "needed"
-        val waiting = status?.waiting == true || (status?.silenceMinutes ?: 0) > 0
-        val alert = waiting || agentNeeds || !hasTermuxPermission(context) || brainBad
-        WidgetAlert.reasons = buildList {
-            if (snap.link == Link.MISSING) add("Termux n'est pas installé : le cerveau ne peut pas tourner.")
-            else if (snap.link == Link.DOWN) add("Le cerveau ne répond pas (Termux est arrêté ou plante).")
-            if (!hasTermuxPermission(context)) add("Aiwa n'a pas l'autorisation de lancer Termux : touche le bouton Super agent pour la donner.")
-            if (status?.claudeLogin == "needed") add("Claude n'est pas relié à ton compte.")
-            if (status?.waiting == true) add("Une session attend ta réponse : touche le bouton Question.")
-            if ((status?.silenceMinutes ?: 0) > 0) add("Une session est silencieuse depuis ${status?.silenceMinutes} minutes.")
-            if (agentNeeds) add("Le super agent attend ta réponse.")
-            val version = status?.version ?: 0
-            if (version in 1 until com.aiwa.app.brain.EXPECTED_BRAIN_VERSION) add("Le cerveau est plus ancien que l'application ($version, il faut ${com.aiwa.app.brain.EXPECTED_BRAIN_VERSION}) : il se met à jour, ça peut prendre quelques minutes.")
-        }
+        val alert = alertInfo(context, snap).alert      // the same alert as the ear of the second widget
         // ---- the tabs, then the top bar ----
         val tabs = listOfNotNull(
             WidgetArt.Tab(R.drawable.fw_i_settings, "Réglages", "grey", weight = 0.55f),
