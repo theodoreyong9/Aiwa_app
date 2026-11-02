@@ -74,6 +74,11 @@ object AiwaWidget2 {
             if (id == "ear") v.setTextViewText(text, if (alert) CellModels.of(context, snap).getValue("agent").label.take(14) else if (snap.listening) "Écoute" else "Oreille")
             if (id == "room") v.setTextViewText(text, if (roomOpen) "En cours" else "Chambres")
         }
+        // the photo chosen in the settings (Fond du widget), the same as the first widget's; none: the deep card alone
+        val photo = WidgetBackground.res(context)
+        v.setViewVisibility(R.id.w2_photo, if (photo != 0) android.view.View.VISIBLE else android.view.View.GONE)
+        v.setViewVisibility(R.id.w2_scrim, if (photo != 0) android.view.View.VISIBLE else android.view.View.GONE)
+        if (photo != 0) v.setImageViewResource(R.id.w2_photo, photo)
         v.setOnClickPendingIntent(R.id.w2_tab_settings, activity(context, 20, SettingsActivity::class.java))
         v.setOnClickPendingIntent(R.id.w2_tab_update, activity(context, 21, InstallUpdateActivity::class.java))
         v.setInt(R.id.w2_tab_update, "setBackgroundResource", if (snap.appUpdateReady) R.drawable.w2_tab_ready else R.drawable.w2_tab_off)
