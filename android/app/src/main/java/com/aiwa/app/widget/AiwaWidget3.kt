@@ -11,17 +11,16 @@ import android.widget.RemoteViews
 import com.aiwa.app.R
 import com.aiwa.app.brain.Aiwa
 import com.aiwa.app.brain.wakeAiwa
-import com.aiwa.app.settings.SettingsActivity
 import com.aiwa.app.update.InstallUpdateActivity
 import com.aiwa.app.voice.EarToggleActivity
 import com.aiwa.app.web.WebActivity
 
 /**
- * The third widget: ONE row, in the look of the second one. Oreille (the same state and the same alerts as the Super agent button of the first widget), Wallet, Search (Lien and QR code), Réglages (their window) and,
+ * The third widget: ONE row, in the look of the second one. Oreille (the same state and the same alerts as the Super agent button of the first widget), Wallet, Search (Lien and QR code) and,
  * only while there is an update, Mise à jour. Native views (res/layout/widget3.xml), not resizable.
  */
 object AiwaWidget3 {
-    private val SLOTS = listOf("ear", "wallet", "search", "settings", "update")
+    private val SLOTS = listOf("ear", "wallet", "search", "update")
 
     fun ids(context: Context): IntArray = AppWidgetManager.getInstance(context).getAppWidgetIds(ComponentName(context, AiwaWidget3Provider::class.java))
 
@@ -48,7 +47,6 @@ object AiwaWidget3 {
                 activity(context, 1, if (alert) AiwaWidget.agentTarget(context, snap) else EarToggleActivity::class.java), if (alert) 2 else if (snap.listening) 1 else 0),
             "wallet" to Tile(R.drawable.fw_i_wallet, "Wallet", "wallet", activity(context, 2, Intent(context, WebActivity::class.java).putExtra(WebActivity.EXTRA_PAGE, "wallet"))),
             "search" to Tile(R.drawable.fw_i_link, "Search", "search", activity(context, 3, SearchHubActivity::class.java)),
-            "settings" to Tile(R.drawable.fw_i_settings, "Réglages", "repo", activity(context, 4, SettingsActivity::class.java)),
             "update" to Tile(R.drawable.fw_i_update, "Mise à jour", "files", activity(context, 5, InstallUpdateActivity::class.java), 1),
         )
         var shown = 0
