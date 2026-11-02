@@ -53,7 +53,7 @@ READ_MAX = 2_000_000        # bytes of the page the brain reads to check it (a l
 
 UI_FILE = "aiwa-ui.json"
 # What the application's own look may name as an action (keep in step with AgentScreens.TOKENS and the keys of the bar in the Android app).
-UI_KEYS = "match, chambre, cafe, zone, mur, widget, rang"
+UI_KEYS = "favoris, swipe, precedent, give, reseau, match, chambre, cafe, zone, mur, widget, rang"
 UI_SCREENS = ("files_docs, files_image, files_video, files_app, files_page, files, build, scenario, cast, voir, voir_near, voir_link, voir_qr, voir_fav, chambre, settings, update, question, claude, add, "
               "listen, wallet, report, home, github, health, claude_login, keys, style, wall")
 
@@ -69,7 +69,7 @@ def instruction(repo_name=None):
         f"L'APPLICATION se personnalise aussi par un fichier : `{FOLDER}/{UI_FILE}` décrit la barre du bas de l'application (et elle seule : le widget n'est jamais touché), par exemple "
         '`{"v":1,"bar":[{"action":"zone","icon":"📍","label":"Autour","tone":"violet"},{"action":"url:https://…","icon":"🎬","label":"Film"}]}`. '
         f"Huit touches au plus, dans l'ordre voulu ; `label` : 14 caractères au plus ; `icon` : un emoji ; `tone` : violet, blue, gold, green, white ou #RRGGBB ; `action` : {UI_KEYS}, "
-        f"un écran parmi {UI_SCREENS}, ou `url:https://…`. Une touche absente de la liste disparaît ; sans fichier valide, la barre reste celle de l'application. Le changement apparaît dans les secondes qui suivent ton commit."
+        f"un écran parmi {UI_SCREENS}, ou `url:https://…`. Une touche absente de la liste disparaît ; sans fichier valide (ou si tu supprimes le fichier), la barre redevient celle de l'application. Le changement apparaît dans les secondes qui suivent ton commit. Le détail (barre, emplacements de boutons, retour au départ) est dans le skill du profil : lis-le avant de modifier."
     )
     if repo_name:
         text += f" Son dépôt du profil est {repo_name} : c'est là, et seulement là, que va ce dossier ; tu travailles dans ce dépôt quand elle parle de son profil."

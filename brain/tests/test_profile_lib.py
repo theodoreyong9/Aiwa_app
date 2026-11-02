@@ -58,3 +58,22 @@ class UiFileTest(unittest.TestCase):
         self.assertIn("la barre du bas", text)
         for word in ("match", "zone", "url:https://", "le widget n'est jamais touché"):
             self.assertIn(word, text)
+
+
+class UiKeysInStep(unittest.TestCase):
+    ROOT = Path(__file__).resolve().parents[2]
+
+    def test_the_keys_told_to_sessions_are_the_keys_of_the_bar_of_the_application(self):
+        import re
+        kotlin = (self.ROOT / "android/app/src/main/java/com/aiwa/app/home/ProfileActivity.kt").read_text(encoding="utf-8")
+        block = kotlin[kotlin.index("private fun builtinKeys()"):kotlin.index("private fun isOwn") if "private fun isOwn" in kotlin else None]
+        keys = set(re.findall(r'"([a-z]+)" to ProfileBar\.Spec', block)) | {"rang"}
+        told = {k.strip() for k in P.UI_KEYS.split(",")}
+        self.assertEqual(told, keys, "keep UI_KEYS (what sessions are told) in step with the keys of the bar")
+
+    def test_the_profile_skill_names_every_key_and_every_group(self):
+        skill = (self.ROOT / "skills/profile/SKILL.md").read_text(encoding="utf-8")
+        for key in P.UI_KEYS.split(","):
+            self.assertIn(key.strip(), skill)
+        for word in ("build", "files", "voir", "chamber", "data-aiwa-slot", "data-aiwa-button", "data-aiwa-only", "data-aiwa-skip", "data-aiwa-look", "aiwa-ui.json", "supprimer"):
+            self.assertIn(word, skill)
