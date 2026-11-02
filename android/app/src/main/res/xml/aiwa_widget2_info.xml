@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- The second widget: the tabs and the twelve buttons of Aiwa, four cells wide and three high. -->
-<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android" android:minWidth="250dp" android:minHeight="180dp" android:minResizeHeight="140dp" android:targetCellWidth="4" android:targetCellHeight="3"
-    android:resizeMode="horizontal|vertical" android:updatePeriodMillis="0" android:initialLayout="@layout/widget2" android:previewLayout="@layout/widget2" android:description="@string/widget2_description"
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android" android:minWidth="250dp" android:minHeight="180dp" android:targetCellWidth="4" android:targetCellHeight="3"
+    android:resizeMode="none" android:updatePeriodMillis="0" android:initialLayout="@layout/widget2" android:previewLayout="@layout/widget2" android:description="@string/widget2_description"
     android:widgetCategory="home_screen" />
