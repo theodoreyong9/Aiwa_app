@@ -2,4 +2,7 @@
     <style name="Theme.Aiwa" parent="android:style/Theme.Material.Light.NoActionBar"><item name="android:fontFamily">sans</item></style>
     <!-- The small windows the widget opens (a list, a choice): translucent, no preview window, no transition, so that a tap on the widget shows the window at once. -->
     <style name="Theme.Float" parent="android:style/Theme.Translucent.NoTitleBar"><item name="android:windowDisablePreview">true</item><item name="android:windowAnimationStyle">@null</item></style>
+    <!-- The door of the application and the window of the profiles: the colour of the page from the first instant, no preview with the logo, no transition. -->
+    <style name="Theme.Door" parent="Theme.Aiwa"><item name="android:windowIsTranslucent">true</item><item name="android:windowBackground">@android:color/transparent</item><item name="android:windowDisablePreview">true</item><item name="android:windowAnimationStyle">@null</item></style>
+    <style name="Theme.Profile" parent="Theme.Aiwa"><item name="android:windowBackground">@drawable/profile_bg</item><item name="android:windowDisablePreview">true</item><item name="android:windowAnimationStyle">@null</item></style>
 </resources>

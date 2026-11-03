@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Android 12 and later draw their own starting screen with the icon: here it is the colour of the page, with no icon and no animation. -->
+    <style name="Theme.Door" parent="Theme.Aiwa"><item name="android:windowIsTranslucent">true</item><item name="android:windowBackground">@android:color/transparent</item><item name="android:windowDisablePreview">true</item><item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowSplashScreenBackground">#10132E</item><item name="android:windowSplashScreenAnimatedIcon">@drawable/transparent_icon</item><item name="android:windowSplashScreenAnimationDuration">0</item></style>
+    <style name="Theme.Profile" parent="Theme.Aiwa"><item name="android:windowBackground">@drawable/profile_bg</item><item name="android:windowDisablePreview">true</item><item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowSplashScreenBackground">#10132E</item><item name="android:windowSplashScreenAnimatedIcon">@drawable/transparent_icon</item><item name="android:windowSplashScreenAnimationDuration">0</item></style>
+</resources>
