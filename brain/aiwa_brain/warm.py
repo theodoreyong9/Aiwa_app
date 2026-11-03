@@ -1,7 +1,6 @@
 """A Claude kept running for the super agent (the person's subscription, no key): the program starts cold ONCE (6 to 30 seconds), then every turn is only the model's time.
 It keeps the conversation itself, so a turn sends the point and the sentence, and the history is sent again only when the process is new. Any failure kills it: the caller falls back to a fresh `claude -p`."""
 import json
-import os
 import queue
 import subprocess
 import threading
