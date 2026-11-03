@@ -90,6 +90,22 @@ class Brain(private val net: Transport = HttpTransport()) {
         return said
     }
 
+    /** One turn of the conversation with the super agent: its words arrive sentence by sentence (the first while the rest is still being written). (ok, the error to say when it is not). */
+    fun agentStream(text: String, onSentence: (String) -> Unit): Pair<Boolean, String?> {
+        var ok = true
+        var error: String? = null
+        var done = false
+        try {
+            net.stream("/api/agent_stream", JSONObject().put("text", text).toString(), 3 * 60 * 1000) { line ->
+                val j = try { JSONObject(line) } catch (e: Exception) { return@stream }
+                val s = j.optString("s")
+                if (s.isNotBlank()) onSentence(s)
+                if (j.optBoolean("done")) { done = true; ok = j.optBoolean("ok", true); error = j.optString("error").takeIf { it.isNotBlank() && it != "null" } }
+            }
+        } catch (e: Exception) { return false to "Le cerveau ne répond pas." }
+        return if (done) ok to error else false to "Le cerveau ne répond pas."
+    }
+
     fun liveSet(on: Boolean): Outcome = act("/api/live/set", JSONObject().put("on", on))
     fun liveEvents(): List<String> = getJson("/api/live/events")?.optJSONArray("events").strings()
 

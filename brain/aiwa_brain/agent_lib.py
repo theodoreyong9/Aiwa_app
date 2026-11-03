@@ -73,7 +73,7 @@ def schema():
 
 
 ROLE = (
-    "Tu as une mémoire : quand la personne te demande de retenir quelque chose (« retiens que… », « n'oublie pas… »), mets une note courte dans `remember` ; quand elle demande d'oublier, mets les mots de la note (ou all) dans `forget`. Ce que tu as retenu est dans le point, sous « Mémoire ». Sans demande claire, ne retiens rien. "
+    "Tu as une mémoire : quand la personne te demande de retenir quelque chose (« retiens que… », « n'oublie pas… »), mets une note courte dans `remember` ; quand elle demande d'oublier, mets les mots de la note (ou all) dans `forget`. Les dernières notes sont dans le point, sous « Mémoire » ; quand elle te demande si tu te rappelles, les notes retrouvées sont sous « Notes retrouvées » : réponds avec elles, et si rien ne correspond dis que tu ne sais pas. Sans demande claire, ne retiens rien. "
     "Tu es un INTERMÉDIAIRE : tu ne fais JAMAIS rien toi-même, ni code, ni dépôt, ni envoi. Tu transmets à des sessions de travail et tu converses. "
     "Quand la personne te demande une PRODUCTION (un document, une image, une vidéo, une app, une page) ou n'importe quel TRAVAIL, tu ne réponds JAMAIS « je ne peux rien faire » ni « veux-tu que je l'envoie ? » : "
     "tu le mets TOUJOURS dans `send`, avec sa demande reprise MOT POUR MOT dans le message (la qualité, le lieu, ce qu'elle dit de ses fichiers joints) ; le téléphone relit et attend sa confirmation : c'est le seul garde-fou. "
@@ -144,9 +144,14 @@ def digest(snap):
         lines.append(f"Écran en ce moment : le profil {screen['profile']} ({'le sien' if screen.get('own') else 'celui d une autre personne'}). « cette page » ou « ce profil » veut dire celui-là.")
         sig.append(("screen", screen["profile"], bool(screen.get("own"))))
     remembered = snap.get("memory") or []
+    found = snap.get("memory_found") or []
+    total = snap.get("memory_count") or 0
     if remembered:
-        lines.append("Mémoire (ce que la personne t'a demandé de retenir) : " + " | ".join(remembered))
+        lines.append(f"Mémoire ({total} notes ; les dernières) : " + " | ".join(remembered))
         sig.append(("memory", remembered))
+    if found:
+        lines.append("Notes retrouvées pour sa question (ce qu'elle t'a demandé de retenir) : " + " | ".join(found))
+        sig.append(("found", found))
     chamber = snap.get("chamber")
     if chamber:
         lines.append(f"Chambre : {chamber}.")
@@ -372,3 +377,62 @@ def read_back_all(targets):
 def vocabulary_message(words):
     """The words the person's phone recognises, as one short line for the agent to keep in mind."""
     return "Mots que le téléphone reconnaît : " + "; ".join(f"{label} : " + " / ".join(values) for label, values in words.items() if values) + "."
+
+
+class SayStream:
+    """A reply being written ({"say":"…", "do":{…}}): hands out the sentences of `say` as soon as each one is complete, so the voice starts before the rest of the reply is written."""
+    ESCAPES = {"n": " ", "t": " ", "r": " ", "b": "", "f": ""}
+
+    def __init__(self):
+        self.text = ""          # everything received
+        self.pos = None         # where the value of `say` is being read
+        self.pending = ""       # the words of `say` that do not make a complete sentence yet
+        self.closed = False
+
+    def feed(self, piece):
+        """The sentences that this piece completes."""
+        self.text += piece
+        if self.closed:
+            return []
+        if self.pos is None:
+            found = re.search(r'"say"\s*:\s*"', self.text)
+            if not found:
+                return []
+            self.pos = found.end()
+        i, text = self.pos, self.text
+        while i < len(text):
+            c = text[i]
+            if c == "\\":
+                if i + 1 >= len(text):
+                    break
+                n = text[i + 1]
+                if n == "u":
+                    if i + 6 > len(text):
+                        break
+                    try:
+                        self.pending += chr(int(text[i + 2:i + 6], 16))
+                    except ValueError:
+                        pass
+                    i += 6
+                    continue
+                self.pending += self.ESCAPES.get(n, n)
+                i += 2
+                continue
+            if c == '"':
+                self.closed = True
+                i += 1
+                break
+            self.pending += c
+            i += 1
+        self.pos = i
+        parts = re.split(r"(?<=[.!?…])\s+", self.pending)
+        if self.closed:
+            self.pending = ""
+            return [p.strip() for p in parts if p.strip()]
+        self.pending = parts[-1]
+        return [p.strip() for p in parts[:-1] if p.strip()]
+
+    def finish(self):
+        """What is left when the reply is over (a `say` that was never closed)."""
+        rest, self.pending, self.closed = self.pending.strip(), "", True
+        return [rest] if rest else []

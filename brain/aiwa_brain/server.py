@@ -422,7 +422,9 @@ class Handler(BaseHTTPRequestHandler):
             return
         body = self.rfile.read(length).decode()
         data = _json_of(body)
-        if path == "/api/answer_stream":
+        if path == "/api/agent_stream":
+            self._stream(lambda emit: agent.converse_stream(data.get("text"), emit))
+        elif path == "/api/answer_stream":
             self._stream(lambda emit: {"ok": questions.answer_stream(data.get("question"), emit)})
         elif path == "/api/live_stream":
             self._stream(lambda emit: live.live_stream(data.get("text"), emit))

@@ -86,6 +86,15 @@ class Turn(unittest.TestCase):
         self.assertEqual((state.current_repo, state.current_cloud), ("me/app", "session_A1"))
         self.assertIsNone(agent.snapshot()["command"])
 
+    def test_a_streamed_turn_hands_out_its_sentences_and_marks_them_said(self):
+        heard = []
+        reply = '{"say":"Je m\'en occupe. Voilà.","do":{}}'
+        with unittest.mock.patch.object(agent, "_model", return_value=reply):
+            out = agent.converse_stream("raconte-moi quelque chose", heard.append)
+        self.assertTrue(out["ok"])
+        self.assertEqual(heard, ["Je m'en occupe.", "Voilà."])
+        self.assertIsNone(agent.snapshot()["say"])      # said already while it was written: the phone does not say it again
+
     def test_a_turn_with_no_model_says_so_and_does_not_stay_busy(self):
         self.run_turn(None)
         snap = agent.snapshot()

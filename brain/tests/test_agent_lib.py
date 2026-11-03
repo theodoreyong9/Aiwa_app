@@ -93,6 +93,27 @@ class Point(unittest.TestCase):
             self.assertNotIn(gone, text.lower())
 
 
+class SayStreamTest(unittest.TestCase):
+    def test_sentences_come_out_as_they_are_complete(self):
+        stream = A.SayStream()
+        out = []
+        reply = '{"say":"Je regarde ça. C\\u2019est parti ! Voilà \\"fini\\"","do":{"open":"scan"}}'
+        for i in range(0, len(reply), 7):
+            out += stream.feed(reply[i:i + 7])
+        self.assertEqual(out, ["Je regarde ça.", "C’est parti !", 'Voilà "fini"'])
+        self.assertEqual(stream.finish(), [])
+
+    def test_no_say_nothing_to_say(self):
+        stream = A.SayStream()
+        self.assertEqual(stream.feed('{"send":[]}'), [])
+        self.assertEqual(stream.finish(), [])
+
+    def test_a_say_never_closed_is_said_at_the_end(self):
+        stream = A.SayStream()
+        self.assertEqual(stream.feed('{"say":"Un. Deux'), ["Un."])
+        self.assertEqual(stream.finish(), ["Deux"])
+
+
 if __name__ == "__main__":
     unittest.main()
 

@@ -41,17 +41,4 @@ object AgentVoice {
 
     /** Whether the agent proposes something that waits for the person's word. */
     fun waiting(agent: AgentView?): Boolean = agent != null && (agent.proposal != null || (agent.command != null && !agent.command!!.auto))
-
-    /** Waits (at most `timeoutMs`) for the answer of the turn that was just asked: the brain says it is no longer busy. */
-    suspend fun awaitAnswer(timeoutMs: Long = 120_000L): AgentView? {
-        val deadline = System.currentTimeMillis() + timeoutMs
-        var last: AgentView? = null
-        while (System.currentTimeMillis() < deadline) {
-            val agent = fresh()
-            last = agent
-            if (agent != null && !agent.busy) return agent
-            kotlinx.coroutines.delay(700)
-        }
-        return last
-    }
 }

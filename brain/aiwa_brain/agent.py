@@ -46,7 +46,7 @@ def set_screen(data):
     return {"ok": True}
 
 
-def point(report=False):
+def point(report=False, spoken=None):
     """What the super agent is told before each turn, as (text, signature): the sessions with what GitHub shows of them, the repositories, the productions, the scenarios, the chamber, the questions
     that wait. For a report the workflows of the repositories are read too."""
     with state.lock:
@@ -91,7 +91,7 @@ def point(report=False):
     snap = {
         "pills": {"repo": current_repo, "session": current, "direct": direct, "profile": profile_lib.repo()},
         "sessions": listed, "repos": repos.names(), "productions": files.summary(), "scenarios": [scen_lib.public(s) for s in scen_lib.load(config.SCENARIOS_FILE)],
-        "chamber": chamber, "asks": titles, "extra": extra, "screen": dict(state.screen), "memory": memory.digest(),
+        "chamber": chamber, "asks": titles, "extra": extra, "screen": dict(state.screen), "memory": memory.recent(), "memory_found": memory.search(spoken), "memory_count": memory.count(),
     }
     return agent_lib.digest(snap)
 
@@ -110,17 +110,20 @@ def condense_memory():
         print(f"[{state.ts()}] memory: {err}", flush=True)
 
 
-def _model(system, history, user, keep=True):
+def _model(system, history, user, keep=True, stream=None, emit=None):
     """One turn through the person's own API key, else through the Claude of the phone (`claude -p`, her own login). The text, or None."""
     if state.llm.state == "ready":
         answer = state.llm.ask(system, history + [{"role": "user", "content": user}])
         if answer:
-            return answer
+            return answer      # (the key's answer comes whole: the sentences are handed out by the caller)
     prompt = system + "\n\n" + "\n".join(("Toi : " if m["role"] == "assistant" else "Personne : ") + m["content"] for m in history[-6:]) + "\n\n" + user
     if keep:      # a Claude kept running (her subscription): started once, then only the model's time; it remembers the conversation, so a turn sends the point and the sentence only
-        kept = warm.ask(prompt, system + "\n\n" + user)
+        on_text = (lambda piece: [emit(x) for x in stream.feed(piece)]) if stream is not None and emit else None
+        kept = warm.ask(prompt, system + "\n\n" + user, on_text=on_text)
         if kept:
             return github.clean(kept).strip() or None
+        if stream is not None and stream.text:
+            return None      # some of it was already said aloud: asking again would say it twice
     try:
         done = subprocess.run(["claude", "-p", "--model", "haiku", "--output-format", "text"], input=prompt, capture_output=True, text=True, timeout=120)
     except (OSError, subprocess.SubprocessError):
@@ -129,7 +132,7 @@ def _model(system, history, user, keep=True):
     return out if done.returncode == 0 and out else None
 
 
-def converse(spoken=None, report=False):
+def converse(spoken=None, report=False, emit=None):
     """One turn with the super agent, answered in the background: the reply (what it says, a proposal, a command) waits for the phone in `state.agent`. {"ok", "error"}."""
     delta = state.persona.gift_in(spoken)
     event = state.persona.pop_event()
@@ -138,7 +141,9 @@ def converse(spoken=None, report=False):
         text = event or (f"Merci pour les {delta} points, j'en ai {game.get('agent')}." if delta else "Tu n'as pas de quoi m'en donner.")
         with state.agent_lock:
             state.agent["error"] = None
-            state.agent["say"] = {"id": f"s{int(time.time() * 1000)}", "text": text, "ts": int(time.time()), "spoken": False}
+            state.agent["say"] = {"id": f"s{int(time.time() * 1000)}", "text": text, "ts": int(time.time()), "spoken": bool(emit)}
+        if emit:
+            emit(text)
         if delta is not None:
             return {"ok": True}
     with state.agent_lock:
@@ -149,19 +154,34 @@ def converse(spoken=None, report=False):
     log(("demande : " + str(spoken)[:100]) if spoken else ("tour sans parole (rapport)" if report else "tour à l'initiative de l'agent"))
     word = agent_lib.open_intent(spoken) if spoken and not report and not str(spoken).startswith("[Aiwa") else None
     if word:
-        threading.Thread(target=_open_now, args=(word,), daemon=True).start()      # an order to open a screen does not wait for the model (30 seconds without a key): it is done now
+        if emit:
+            _open_now(word, emit)
+        else:
+            threading.Thread(target=_open_now, args=(word,), daemon=True).start()      # an order to open a screen does not wait for the model (30 seconds without a key): it is done now
         return {"ok": True}
     own = (not spoken and not report) or str(spoken or "").startswith("[Aiwa · chambre]")      # not asked by the person: an initiative of the agent
+    if emit:
+        _turn(spoken, report, own, emit)      # the phone waits on this line, and hears each sentence as it is written
+        with state.agent_lock:
+            error = state.agent["error"]
+        return {"ok": not error, "error": error}
     threading.Thread(target=_turn, args=(spoken, report, own), daemon=True).start()
     return {"ok": True}
 
 
-def _open_now(word):
+def converse_stream(spoken, emit):
+    """One turn of the conversation, the sentences handed to `emit` as they are written. {"ok", "error"}."""
+    return converse(spoken, False, emit)
+
+
+def _open_now(word, emit=None):
     """« ouvre … »: the screen is opened at once, with a short word to say, and no model in between."""
     try:
         name = agent_lib.OPEN_SPOKEN.get(agent_lib.OPEN_KINDS.get(word, ""), word)
         log(f"ordre d'ouvrir « {word} » compris sans le modèle")
-        said(json.dumps({"say": f"J'ouvre {name}.", "do": {"open": word}}))
+        said(json.dumps({"say": f"J'ouvre {name}.", "do": {"open": word}}), spoken=bool(emit))
+        if emit:
+            emit(f"J'ouvre {name}.")
     except Exception as err:
         log(f"échec de l'ouverture : {err}")
     finally:
@@ -169,9 +189,9 @@ def _open_now(word):
             state.agent["busy"] = False
 
 
-def _turn(spoken, report, own=False):
+def _turn(spoken, report, own=False, emit=None):
     try:
-        text, sig = point(report)
+        text, sig = point(report, spoken)
         if spoken and spoken != agent_lib.REPORT_REQUEST and not spoken.startswith("[Aiwa"):
             state.style.observe(spoken)
         user = agent_lib.user_turn(text, spoken=agent_lib.REPORT_REQUEST if report else spoken, stamp=time.strftime("%H:%M"))
@@ -179,7 +199,8 @@ def _turn(spoken, report, own=False):
             history = list(state.agent_chat[-8:])
         mode = "avec clé" if state.llm.state == "ready" else "sans clé (programme Claude du téléphone)"
         t0 = time.time()
-        answer = _model(agent_lib.system("\n".join(n for n in (state.style.note(), state.persona.note()) if n)) + ("\n\n" + diagram.note(live=False) if diagram.is_on() else ""), history, user)
+        stream = agent_lib.SayStream() if emit else None
+        answer = _model(agent_lib.system("\n".join(n for n in (state.style.note(), state.persona.note()) if n)) + ("\n\n" + diagram.note(live=False) if diagram.is_on() else ""), history, user, **({"stream": stream, "emit": emit} if stream is not None else {}))
         if answer is None:
             log(f"le modèle n'a pas répondu ({mode}, {time.time() - t0:.0f} s)")
             with state.agent_lock:
@@ -190,6 +211,11 @@ def _turn(spoken, report, own=False):
             state.agent_chat.extend([{"role": "user", "content": user}, {"role": "assistant", "content": answer}])
             del state.agent_chat[:-16]
             state.agent["sig"], state.agent["last"] = sig, time.time()
+        spoken_aloud = False
+        if stream is not None:
+            for x in (stream.feed(answer) if not stream.text else []) + stream.finish():
+                emit(x)
+            spoken_aloud = bool(stream.text) and stream.pos is not None
         reply = llm_lib.json_in(answer)
         if isinstance(reply, dict) and spoken and not report and not str(spoken).startswith("[Aiwa") and isinstance(reply.get("do"), dict):
             kept = agent_lib.guard_do(spoken, reply["do"])
@@ -209,7 +235,7 @@ def _turn(spoken, report, own=False):
             reply = {"say": "", "do": {"open": word}}
         if reply is not None:
             state.persona.apply_agent(reply.get("game") if isinstance(reply, dict) else None)      # its verdict on a proposal of the person, a gift
-            said(json.dumps(reply), own=own)
+            said(json.dumps(reply), own=own, spoken=spoken_aloud)
     except Exception as err:      # a bad turn must never leave the agent busy
         print(f"[{state.ts()}] agent: {err}", flush=True)
         with state.agent_lock:
@@ -219,7 +245,7 @@ def _turn(spoken, report, own=False):
             state.agent["busy"] = False
 
 
-def said(raw, own=False):
+def said(raw, own=False, spoken=False):
     """The agent's reply: what it says aloud, a proposal when it has one (never sent by itself), the settings it asks for."""
     known = {e["id"] for e in sessions.load_all() if e.get("id")}
     parsed = agent_lib.parse_message(raw, known)
@@ -241,7 +267,7 @@ def said(raw, own=False):
         diagram.show(parsed["diagram"])
     with state.agent_lock:
         if parsed["say"]:
-            state.agent["say"] = {"id": f"s{int(stamp * 1000)}", "text": parsed["say"], "ts": int(stamp), "spoken": False}
+            state.agent["say"] = {"id": f"s{int(stamp * 1000)}", "text": parsed["say"], "ts": int(stamp), "spoken": spoken}
         if parsed["proposal"]:
             state.agent["proposal"] = {"id": f"p{int(stamp * 1000)}", "ts": int(stamp), **parsed["proposal"], **({"own": True} if own else {})}
         if parsed.get("command"):
