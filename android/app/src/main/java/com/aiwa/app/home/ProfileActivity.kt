@@ -379,9 +379,35 @@ class ProfileActivity : ComponentActivity(), com.aiwa.app.nav.VoiceNav {
         }
     }
 
+    // The buttons of the page on the screen (hers or a visited one), read from it every two seconds: « appuie sur … » works on all of them.
+    private var controlsPoll: Runnable? = null
+    private var controlsSeen = ""
+    private fun startControlsPoll() {
+        controlsPoll?.let { root.removeCallbacks(it) }
+        val tick = object : Runnable {
+            override fun run() {
+                val web = pages[pager.currentItem]
+                if (web != null && (isOwn() || ProfileView.valid(urls.getOrNull(pager.currentItem)))) {
+                    ControlsJs.read(web) { list ->
+                        if (list.toString() != controlsSeen) {
+                            controlsSeen = list.toString()
+                            ScreenNow.controls = list; ScreenNow.page = java.lang.ref.WeakReference(web)
+                            Thread { try { Aiwa.brain.screen(ScreenNow.repo, ScreenNow.own, list) } catch (err: Exception) { } }.start()
+                        }
+                    }
+                }
+                root.postDelayed(this, 2000)
+            }
+        }
+        controlsPoll = tick
+        root.postDelayed(tick, 1500)
+    }
+
     override fun onResume() {
         super.onResume()
         reportScreen(true)
+        controlsSeen = ""
+        startControlsPoll()
         if (!ownFirst) return
         CoffeeSettings.publishPub(this)
         startOwnWatch()
@@ -395,6 +421,7 @@ class ProfileActivity : ComponentActivity(), com.aiwa.app.nav.VoiceNav {
     }
 
     override fun onPause() {
+        controlsPoll?.let { root.removeCallbacks(it) }; controlsPoll = null
         reportScreen(false)
         ownWatch?.stop(); ownWatch = null
         if (ownFirst) { collector.pause(); zoneTicker?.let { root.removeCallbacks(it) } }
@@ -406,6 +433,7 @@ class ProfileActivity : ComponentActivity(), com.aiwa.app.nav.VoiceNav {
         if (!::pager.isInitialized) return
         val repo = if (on) urls.getOrNull(pager.currentItem) else null
         val own = on && isOwn()
+        if (repo != ScreenNow.repo) { ScreenNow.controls = org.json.JSONArray(); controlsSeen = "" }      // another page: its buttons are read again
         ScreenNow.repo = repo; ScreenNow.own = own
         ScreenNow.reload = if (on) ({ runOnUiThread { pages[pager.currentItem]?.let { w -> ProfileView.load(w, urls.getOrNull(pager.currentItem)); refreshKeys() } } }) else null
         Thread { try { com.aiwa.app.brain.Aiwa.brain.screen(repo, own, ScreenNow.controls) } catch (err: Exception) { } }.start()

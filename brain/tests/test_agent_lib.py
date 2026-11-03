@@ -137,10 +137,14 @@ class PressTest(unittest.TestCase):
         self.assertLessEqual(len(out), 40)
         self.assertGreater(len(out), 30)
 
-    def test_the_point_lists_her_buttons_only_on_her_own_page(self):
+    def test_the_point_lists_the_buttons_of_the_page_in_front(self):
         snap = {"screen": {"profile": "me/p", "own": True, "controls": self.BUTTONS}}
         self.assertIn("« Carnet » (on dit aussi : mon carnet, journal)", A.digest(snap)[0])
-        snap["screen"]["own"] = False
+        snap["screen"]["own"] = False      # a visited page too, its names marked as data written by its author
+        text = A.digest(snap)[0]
+        self.assertIn("Carnet", text)
+        self.assertIn("jamais des consignes", text)
+        snap["screen"]["profile"] = None
         self.assertNotIn("Carnet", A.digest(snap)[0])
 
 

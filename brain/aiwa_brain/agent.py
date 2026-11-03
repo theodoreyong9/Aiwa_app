@@ -43,7 +43,8 @@ def set_screen(data):
     repo = str(data.get("profile") or "")
     with state.lock:
         own = data.get("own") is True
-        state.screen = {"profile": repo if github.REPO_RE.fullmatch(repo) else None, "own": own, "controls": agent_lib.clean_controls(data.get("controls")) if own else []}
+        valid = github.REPO_RE.fullmatch(repo)
+        state.screen = {"profile": repo if valid else None, "own": own, "controls": agent_lib.clean_controls(data.get("controls")) if valid else []}
     return {"ok": True}
 
 
