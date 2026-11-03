@@ -6,22 +6,19 @@ import android.appwidget.AppWidgetProvider
 import android.content.ComponentName
 import android.content.Context
 import android.content.Intent
-import android.view.View
 import android.widget.RemoteViews
 import com.aiwa.app.R
 import com.aiwa.app.brain.Aiwa
 import com.aiwa.app.brain.wakeAiwa
-import com.aiwa.app.update.InstallUpdateActivity
 import com.aiwa.app.voice.EarToggleActivity
-import com.aiwa.app.web.WebActivity
 
 /**
- * The third widget: ONE row with no background, each button a name at the left and a big coloured icon at the right. Oreille (the same state and the same alerts as the Super agent button of the first widget), Wallet, Search (Lien and QR code) and,
- * only while there is an update, Mise à jour. Native views (res/layout/widget3.xml), not resizable.
+ * The third widget: ONE row with no background, each button a name at the left and a big coloured icon at the right: Question (red when a question waits), Oreille (the same state and the same alerts as the Super agent button
+ * of the first widget), Ajouter and Swipe. Native views (res/layout/widget3.xml), not resizable.
  */
 object AiwaWidget3 {
-    private val SLOTS = listOf("ear", "wallet", "search", "update")
-    private val COLORS = mapOf("ear" to "#5AC8FA", "wallet" to "#2DD4BF", "search" to "#38BDF8", "files" to "#34D399")
+    private val SLOTS = listOf("question", "ear", "add", "swipe")
+    private val COLORS = mapOf("question" to "#F5C451", "ear" to "#5AC8FA", "add" to "#E09A7C", "swipe" to "#FB923C")
 
     fun ids(context: Context): IntArray = AppWidgetManager.getInstance(context).getAppWidgetIds(ComponentName(context, AiwaWidget3Provider::class.java))
 
@@ -41,18 +38,17 @@ object AiwaWidget3 {
         val snap = Aiwa.state.value
         val v = RemoteViews(context.packageName, R.layout.widget3)
         val alert = AiwaWidget.alertInfo(context, snap).alert      // the same alert, the same reasons and the same window as the first widget's Super agent button
-        val update = snap.appUpdateReady
         class Tile(val icon: Int, val label: String, val color: String, val click: PendingIntent, val state: Int = 0)
+        val asked = snap.status?.ask != null      // a question of Claude waits for an answer: the key is red, like the one of the second widget
         val tiles = mapOf(
+            "question" to Tile(R.drawable.fw_i_question, "Question", "question", activity(context, 1, com.aiwa.app.question.AskActivity::class.java), if (asked) 2 else 0),
             "ear" to Tile(R.drawable.fw_i_ear, AiwaWidget2.earLabel(context, snap, alert), "ear",
-                activity(context, 1, if (alert) AiwaWidget.agentTarget(context, snap) else EarToggleActivity::class.java), if (alert) 2 else if (snap.listening) 1 else 0),
-            "wallet" to Tile(R.drawable.fw_i_wallet, "Wallet", "wallet", activity(context, 2, Intent(context, WebActivity::class.java).putExtra(WebActivity.EXTRA_PAGE, "wallet"))),
-            "search" to Tile(R.drawable.fw_i_link, "Search", "search", activity(context, 3, SearchHubActivity::class.java)),
-            "update" to Tile(R.drawable.fw_i_update, "Mise à jour", "files", activity(context, 5, InstallUpdateActivity::class.java), 1),
+                activity(context, 2, if (alert) AiwaWidget.agentTarget(context, snap) else EarToggleActivity::class.java), if (alert) 2 else if (snap.listening) 1 else 0),
+            "add" to Tile(R.drawable.fw_i_plus, "Ajouter", "add", activity(context, 3, AddActivity::class.java)),
+            "swipe" to Tile(R.drawable.fw_i_pin, "Swipe", "swipe", activity(context, 4, com.aiwa.app.home.HomeActivity::class.java)),
         )
         SLOTS.forEach { id ->
             fun rid(prefix: String) = context.resources.getIdentifier("w3_${prefix}_$id", "id", context.packageName)
-            if (id == "update" && !update) { v.setViewVisibility(rid("c"), View.GONE); return@forEach }       // like the others: the update is there only when there is one
             val tile = tiles.getValue(id)
             v.setViewVisibility(rid("c"), View.VISIBLE)
             v.setOnClickPendingIntent(rid("c"), tile.click)
