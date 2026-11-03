@@ -18,7 +18,7 @@ class AiwaApp : Application() {
         wakeAiwa(this)
         updateBrainWithTheBody()
         registerActivityLifecycleCallbacks(object : android.app.Application.ActivityLifecycleCallbacks {
-            override fun onActivityResumed(activity: android.app.Activity) { com.aiwa.app.nav.Navigator.resumed(activity) }
+            override fun onActivityResumed(activity: android.app.Activity) { com.aiwa.app.nav.Navigator.resumed(activity); com.aiwa.app.home.WebWarm.prepare(activity) }
             override fun onActivityPaused(activity: android.app.Activity) { com.aiwa.app.nav.Navigator.paused(activity) }
             override fun onActivityCreated(activity: android.app.Activity, savedInstanceState: android.os.Bundle?) {}
             override fun onActivityStarted(activity: android.app.Activity) {}
@@ -26,10 +26,17 @@ class AiwaApp : Application() {
             override fun onActivitySaveInstanceState(activity: android.app.Activity, outState: android.os.Bundle) {}
             override fun onActivityDestroyed(activity: android.app.Activity) {}
         })
+        // a page engine kept ready for the window of the profiles (see WebWarm), in the process of the screens only
+        if (android.os.Build.VERSION.SDK_INT < 28 || Application.getProcessName() == packageName) com.aiwa.app.home.WebWarm.prepare(this)
         val app = this
         CoroutineScope(Dispatchers.Default).launch { Aiwa.state.sample(300).collect { AiwaWidget.render(app) } }
         // a diagram the super agent has just drawn (when the person turned the option on) is shown at once
         CoroutineScope(Dispatchers.Default).launch { Aiwa.state.collect { com.aiwa.app.web.DiagramShow.maybeOpen(app, it.status) } }
+    }
+
+    override fun onTrimMemory(level: Int) {
+        super.onTrimMemory(level)
+        if (level >= TRIM_MEMORY_BACKGROUND) com.aiwa.app.home.WebWarm.drop()      // the spare page engine is the first thing to give back
     }
 
     /**
