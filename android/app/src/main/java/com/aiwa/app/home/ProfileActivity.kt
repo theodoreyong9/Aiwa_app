@@ -408,19 +408,28 @@ class ProfileActivity : ComponentActivity(), com.aiwa.app.nav.VoiceNav {
         reportScreen(true)
         controlsSeen = ""
         startControlsPoll()
+        resumed = true
         if (!ownFirst) return
-        CoffeeSettings.publishPub(this)
-        startOwnWatch()
-        startEar()
-        collector.start()
-        startZoneTicker()
+        // the page first: what runs behind it (the watch of her page, the ear, the collector) starts once it is on the screen, not in the same instant
+        window.decorView.postDelayed({
+            if (resumed && !isFinishing && !isDestroyed) {
+                CoffeeSettings.publishPub(this)
+                startOwnWatch()
+                startEar()
+                collector.start()
+                startZoneTicker()
+            }
+        }, 1200)
         // The widget is asked for at every opening while there is none (the system's window, one tap on « Ajouter »), once the screen is really in front and has settled.
         window.decorView.postDelayed({ if (!isFinishing && !isDestroyed) WidgetPin.offerOnce(this) }, 800)
         // Claude first (essential), then GitHub: see Onboarding
         window.decorView.postDelayed({ if (!isFinishing && !isDestroyed) Onboarding.next(this) }, 1500)
     }
 
+    @Volatile private var resumed = false
+
     override fun onPause() {
+        resumed = false
         controlsPoll?.let { root.removeCallbacks(it) }; controlsPoll = null
         reportScreen(false)
         ownWatch?.stop(); ownWatch = null
@@ -519,15 +528,11 @@ class ProfileActivity : ComponentActivity(), com.aiwa.app.nav.VoiceNav {
 
         @SuppressLint("SetJavaScriptEnabled")
         override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
-            val web = WebView(parent.context).apply {
+            val web = (WebWarm.take(parent.context) ?: WebView(parent.context).also { WebWarm.configure(it) }).apply {
                 layoutParams = ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT)
-                setBackgroundColor(Color.parseColor("#10132E"))
-                settings.javaScriptEnabled = true       // only for the runtime of the application (evaluateJavascript, not bound by the page's rules): the page's own scripts are forbidden by a policy put first in it
-                settings.allowFileAccess = false
-                settings.allowContentAccess = false
-                settings.mediaPlaybackRequiresUserGesture = false      // the video behind a profile starts by itself (muted)
                 webViewClient = object : WebViewClient() {
                     override fun shouldOverrideUrlLoading(view: WebView, request: WebResourceRequest): Boolean = HomeRuntime.openExternal(view.context, request)
+                    override fun shouldInterceptRequest(view: WebView, request: WebResourceRequest): android.webkit.WebResourceResponse? = MediaCache.intercept(view.context.applicationContext, request)
                     override fun onPageFinished(view: WebView, url: String?) { HomeRuntime.inject(view) }
                 }
             }
