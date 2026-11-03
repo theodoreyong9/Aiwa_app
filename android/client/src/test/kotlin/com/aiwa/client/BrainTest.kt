@@ -16,7 +16,7 @@ class BrainTest {
             "waiting":true,"attachments":2,"attachment_files":[{"name":"a.pdf","size":3}],"silence_minutes":12,"claude_login":"needed","relay_cloud":"ok","github_token":true,
             "ask":{"id":"e1","question":"Quelle couleur ?","options":["rouge","bleu"],"session":"S","count":2},
             "agent":{"busy":false,"error":null,"say":{"id":"s1","text":"Salut","ts":1},"proposal":{"id":"p1","session":null,"repo":"me/app","message":"fais une vidéo","more":[{"session":"session_B","repo":null,"message":"autre"}],"read_back":"J'envoie"},
-                     "command":{"id":"c1","read_back":"J'applique","open":"files_video","cast":{"tv":"Salon","wait":true},"auto":true},"voice":"ready","llm":"ready"},
+                     "command":{"id":"c1","read_back":"J'applique","open":"files_video","press":"Carnet","cast":{"tv":"Salon","wait":true},"auto":true},"voice":"ready","llm":"ready"},
             "chamber":{"active":true,"peer":"anna/profil","name":"Anna"},"llm":{"state":"capped","day":"2026-07-01","used":900,"cap":800},"profile":"me/me"}""")
         val s = brain.status()!!
         assertEquals(200, s.version)
@@ -25,7 +25,7 @@ class BrainTest {
         val agent = s.agent
         assertEquals("Salut", agent.say!!.text)
         assertEquals(listOf("me/app" to null, null to "session_B"), agent.proposal!!.targets.map { it.repo to it.session })
-        assertEquals("files_video", agent.command!!.open); assertEquals("Salon", agent.command!!.castTv); assertTrue(agent.command!!.castWait); assertTrue(agent.command!!.auto)
+        assertEquals("files_video", agent.command!!.open); assertEquals("Carnet", agent.command!!.press); assertEquals("Salon", agent.command!!.castTv); assertTrue(agent.command!!.castWait); assertTrue(agent.command!!.auto)
         assertEquals("Anna", s.chamber.name); assertEquals("capped", s.llm.state); assertEquals(900L, s.llm.used)
     }
 

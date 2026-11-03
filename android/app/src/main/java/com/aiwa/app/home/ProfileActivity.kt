@@ -408,7 +408,7 @@ class ProfileActivity : ComponentActivity(), com.aiwa.app.nav.VoiceNav {
         val own = on && isOwn()
         ScreenNow.repo = repo; ScreenNow.own = own
         ScreenNow.reload = if (on) ({ runOnUiThread { pages[pager.currentItem]?.let { w -> ProfileView.load(w, urls.getOrNull(pager.currentItem)); refreshKeys() } } }) else null
-        Thread { try { com.aiwa.app.brain.Aiwa.brain.screen(repo, own) } catch (err: Exception) { } }.start()
+        Thread { try { com.aiwa.app.brain.Aiwa.brain.screen(repo, own, ScreenNow.controls) } catch (err: Exception) { } }.start()
     }
 
     /** The Scan key: the super agent is asked to read the profile on the screen (its page, its scenarios, the contracts it names) and to say whether something looks dangerous; an opinion, never a guarantee. */

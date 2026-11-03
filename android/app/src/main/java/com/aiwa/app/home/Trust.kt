@@ -22,6 +22,15 @@ object TrustedProfiles {
 object ScreenNow {
     @Volatile var repo: String? = null
     @Volatile var own: Boolean = false
+    /** The buttons of her own page while it is in front (told by the page), and the page to press them in. */
+    @Volatile var controls: org.json.JSONArray = org.json.JSONArray()
+    @Volatile var page: java.lang.ref.WeakReference<android.webkit.WebView>? = null
+
+    /** Presses a button of her page by its name (the page does it: the same tap as a finger). */
+    fun press(name: String) {
+        val web = page?.get()?.takeIf { own } ?: return      // only while her own page is in front
+        web.post { web.evaluateJavascript("(window.aiwa&&window.aiwa.pressByName)&&window.aiwa.pressByName(${org.json.JSONObject.quote(name)})", null) }
+    }
     /** Reads the profile on the screen again (after her trust in it changed): set by the window that shows the profiles. */
     @Volatile var reload: (() -> Unit)? = null
 }

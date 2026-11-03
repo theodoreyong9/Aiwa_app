@@ -3,7 +3,7 @@ import json
 import unittest
 import unittest.mock
 
-from aiwa_brain import agent, config, files, sessions, state, repos
+from aiwa_brain import agent, agent_lib, config, files, sessions, state, repos
 
 
 def fresh():
@@ -95,6 +95,28 @@ class Turn(unittest.TestCase):
         self.assertEqual(heard, ["Je m'en occupe.", "Voilà."])
         self.assertIsNone(agent.snapshot()["say"])      # said already while it was written: the phone does not say it again
 
+    def test_a_button_of_her_page_is_pressed_by_voice_without_the_model(self):
+        agent.set_screen({"profile": "me/app", "own": True, "controls": [{"name": "Carnet", "words": ["journal"]}]})
+        with unittest.mock.patch.object(agent, "_model", side_effect=AssertionError("no model for this")):
+            heard = []
+            self.assertTrue(agent.converse_stream("appuie sur le journal", heard.append)["ok"])
+        self.assertEqual(heard, ["J'appuie sur Carnet."])
+        self.assertEqual(agent.snapshot()["command"]["press"], "Carnet")
+        agent.set_screen({"profile": None, "own": False})      # she leaves the page: nothing to press any more
+        self.assertIsNone(agent_lib.press_intent("appuie sur le journal"))
+
+    def test_the_model_cannot_press_by_itself_or_what_does_not_exist(self):
+        agent.set_screen({"profile": "me/app", "own": True, "controls": [{"name": "Carnet", "words": []}]})
+        reply = '{"say":"ok","do":{"press":"Carnet"}}'
+        with unittest.mock.patch.object(agent, "_model", return_value=reply):
+            agent.converse_stream("raconte-moi quelque chose", lambda s: None)
+            self.assertEqual(agent.snapshot()["command"]["press"], "Carnet")      # she talked: it may
+        fresh()
+        agent.set_screen({"profile": "me/app", "own": True, "controls": [{"name": "Carnet", "words": []}]})
+        with unittest.mock.patch.object(agent, "_model", return_value='{"say":"ok","do":{"press":"Supprimer tout"}}'):
+            agent.converse_stream("raconte-moi quelque chose", lambda s: None)
+        self.assertIsNone(agent.snapshot()["command"])
+
     def test_a_turn_with_no_model_says_so_and_does_not_stay_busy(self):
         self.run_turn(None)
         snap = agent.snapshot()
@@ -155,7 +177,7 @@ class ScreenTest(unittest.TestCase):
     def test_the_profile_on_the_screen_is_told_to_the_agent(self):
         from aiwa_brain import agent, agent_lib, state
         self.assertTrue(agent.set_screen({"profile": "anna/profil", "own": False})["ok"])
-        self.assertEqual(state.screen, {"profile": "anna/profil", "own": False})
+        self.assertEqual(state.screen, {"profile": "anna/profil", "own": False, "controls": []})
         text, sig = agent_lib.digest({"pills": {}, "screen": dict(state.screen)})
         self.assertIn("anna/profil", text)
         self.assertIn("une autre personne", text)
