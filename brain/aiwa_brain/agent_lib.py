@@ -68,11 +68,12 @@ def schema():
     return (
         '{"say":"<ce que tu dis à voix haute, une ou deux phrases courtes>",'
         '"send":[{"repo":"<propriétaire/nom du dépôt>","session":"<session_… si tu vises une session précise>","message":"<le message à lui envoyer>"}],'
-        '"do":{"repo":"<propriétaire/nom>","session":"<session_… ou nouvelle>","open":"<' + OPEN_LIST + '>","cast":{"tv":"<nom de la TV, ou vide>","wait":false},"persona":{"style":"<neutre, vanneur, chaleureux ou sec>","game":true,"restart":false},"shot":{"prompt":"<le plan à fabriquer, concret>","source":"<hf, stock ou auto>"},"film":{"kind":"<me, product ou both>","direction":"<ce que la personne veut voir, ses mots>","says":"<ses paroles, ou vide>","seconds":0,"aspect":"<9:16, 16:9 ou 1:1>","me":["<noms des photos jointes qui sont elle>"],"product":["<noms des photos jointes du produit>"]},"extra":"<consigne durable donnée aux sessions, ou vide pour l\'effacer>","rename":{"session":"<session_… ou vide pour la session en cours>","title":"<nouveau nom>"},"model":"<opus, sonnet, haiku, un identifiant, ou auto>","effort":"<low, medium, high, xhigh, max, ou auto>","push":"<direct ou branche>"},"remember":"<une note courte à garder, seulement si la personne demande de retenir quelque chose, sinon vide>","forget":"<mots de la note à oublier, ou all, seulement si la personne demande d\'oublier>"}'
+        '"do":{"repo":"<propriétaire/nom>","session":"<session_… ou nouvelle>","open":"<' + OPEN_LIST + '>","cast":{"tv":"<nom de la TV, ou vide>","wait":false},"persona":{"style":"<neutre, vanneur, chaleureux ou sec>","game":true,"restart":false},"shot":{"prompt":"<le plan à fabriquer, concret>","source":"<hf, stock ou auto>"},"film":{"kind":"<me, product ou both>","direction":"<ce que la personne veut voir, ses mots>","says":"<ses paroles, ou vide>","seconds":0,"aspect":"<9:16, 16:9 ou 1:1>","me":["<noms des photos jointes qui sont elle>"],"product":["<noms des photos jointes du produit>"]},"extra":"<consigne durable donnée aux sessions, ou vide pour l\'effacer>","rename":{"session":"<session_… ou vide pour la session en cours>","title":"<nouveau nom>"},"model":"<opus, sonnet, haiku, un identifiant, ou auto>","effort":"<low, medium, high, xhigh, max, ou auto>","push":"<direct ou branche>","press":"<nom exact d\'un bouton de sa page, ou vide>"},"remember":"<une note courte à garder, seulement si la personne demande de retenir quelque chose, sinon vide>","forget":"<mots de la note à oublier, ou all, seulement si la personne demande d\'oublier>"}'
     )
 
 
 ROLE = (
+    "Quand sa page est à l'écran, le point liste ses boutons : si elle demande d'en appuyer un, mets son nom exact dans `do.press`. N'appuie jamais de toi-même. "
     "Tu as une mémoire : quand la personne te demande de retenir quelque chose (« retiens que… », « n'oublie pas… »), mets une note courte dans `remember` ; quand elle demande d'oublier, mets les mots de la note (ou all) dans `forget`. Les dernières notes sont dans le point, sous « Mémoire » ; quand elle te demande si tu te rappelles, les notes retrouvées sont sous « Notes retrouvées » : réponds avec elles, et si rien ne correspond dis que tu ne sais pas. Sans demande claire, ne retiens rien. "
     "Tu es un INTERMÉDIAIRE : tu ne fais JAMAIS rien toi-même, ni code, ni dépôt, ni envoi. Tu transmets à des sessions de travail et tu converses. "
     "Quand la personne te demande une PRODUCTION (un document, une image, une vidéo, une app, une page) ou n'importe quel TRAVAIL, tu ne réponds JAMAIS « je ne peux rien faire » ni « veux-tu que je l'envoie ? » : "
@@ -143,6 +144,11 @@ def digest(snap):
     if screen.get("profile"):
         lines.append(f"Écran en ce moment : le profil {screen['profile']} ({'le sien' if screen.get('own') else 'celui d une autre personne'}). « cette page » ou « ce profil » veut dire celui-là.")
         sig.append(("screen", screen["profile"], bool(screen.get("own"))))
+    controls = screen.get("controls") or []
+    if controls and screen.get("own"):
+        lines.append("Boutons de SA page (pour en appuyer un : do.press avec son nom exact, seulement si elle le demande) : " + " ; ".join(
+            "« " + c["name"] + " »" + (" (on dit aussi : " + ", ".join(c["words"]) + ")" if c.get("words") else "") for c in controls) + ".")
+        sig.append(("controls", [c["name"] for c in controls]))
     remembered = snap.get("memory") or []
     found = snap.get("memory_found") or []
     total = snap.get("memory_count") or 0
@@ -236,6 +242,11 @@ def parse_command(raw, known_ids):
             out["effort"] = ""
         elif value in config.EFFORT_LEVELS:
             out["effort"] = value
+    press = raw.get("press")
+    if isinstance(press, str) and press.strip():
+        name = control_named(press)
+        if name:
+            out["press"] = name      # only a button that the page really has
     push = raw.get("push")
     if isinstance(push, bool):
         out["push"] = push
@@ -331,6 +342,8 @@ def command_phrase(command, title_of=lambda x: x):
         spoken.append("nouvelle session" if command["session"].lower() in ("nouvelle", "new") else f"session {title_of(command['session'])}")
     if command.get("open"):
         spoken.append("ouvrir " + OPEN_SPOKEN.get(command["open"], command["open"]))
+    if command.get("press"):
+        spoken.append(f"appuyer sur « {command['press']} »")
     cast = command.get("cast")
     if cast:
         tv = f" « {cast['tv']} »" if cast.get("tv") else ""
@@ -436,3 +449,63 @@ class SayStream:
         """What is left when the reply is over (a `say` that was never closed)."""
         rest, self.pending, self.closed = self.pending.strip(), "", True
         return [rest] if rest else []
+
+
+# ---- the buttons of the page of the person, told by the phone while it is in front
+def plain(text):
+    import unicodedata
+    text = str(text or "").lower().replace("’", "'").replace("œ", "oe")
+    text = "".join(c for c in unicodedata.normalize("NFD", text) if unicodedata.category(c) != "Mn")
+    return " ".join(re.sub(r"[^a-z0-9 ]+", " ", text).split())
+
+
+def clean_controls(raw):
+    """The buttons the page declares ([{"name", "words"}]): few, short, without anything that could pass as an instruction."""
+    out, seen = [], set()
+    for item in (raw if isinstance(raw, list) else [])[:40]:
+        if not isinstance(item, dict):
+            continue
+        name = _clean(item.get("name"), 40)
+        if not name or UNSAFE_RE.search(name) or plain(name) in seen:
+            continue
+        seen.add(plain(name))
+        words = [_clean(w, 30) for w in (item.get("words") if isinstance(item.get("words"), list) else [])[:5]]
+        out.append({"name": name, "words": [w for w in words if w and not UNSAFE_RE.search(w)]})
+    return out
+
+
+def control_named(name, controls=None):
+    """The exact name of the button of the page that `name` designates (its name or one of its words, accents and case aside), or None."""
+    if controls is None:
+        from . import state
+        controls = (state.screen.get("controls") or []) if state.screen.get("own") else []
+    target = plain(name)
+    if not target:
+        return None
+    for c in controls:
+        if target == plain(c["name"]) or target in [plain(w) for w in c.get("words", [])]:
+            return c["name"]
+    return None
+
+
+PRESS_VERB = re.compile(r"^(?:(?:s'il te pla[iî]t|stp|peux tu|tu peux|alors|bon|ok|vas y)\s+)*(?:(?:appuie|appuyer|clique|cliquer|touche|toucher|presse|presser|lance|lancer|active|activer|ouvre|ouvrir|va|vas|aller)\s+(?:sur|dans|a|au|a la|aux)\s+|(?:appuie|clique|touche|presse|lance|active|ouvre)\s+)(?:le |la |les |l |un |une |mon |ma |mes |ce |cette )?(.+)$")
+
+
+def press_intent(spoken, controls=None):
+    """The button of her page that she asked to press (« appuie sur Carnet », or only the word it declares), found here without the model; the exact name, or None.
+    A name that merely appears in a longer sentence does not count."""
+    text = plain(spoken)
+    if not text:
+        return None
+    if controls is None:
+        from . import state
+        controls = (state.screen.get("controls") or []) if state.screen.get("own") else []
+    if not controls:
+        return None
+    found = PRESS_VERB.match(text)
+    if found:
+        return control_named(found.group(1), controls)
+    for c in controls:      # only a word that the page declared for the button, said alone
+        if text in [plain(w) for w in c.get("words", [])]:
+            return c["name"]
+    return None

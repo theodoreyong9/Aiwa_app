@@ -125,6 +125,7 @@ object AgentScreens {
         val out = withContext(Dispatchers.IO) { Aiwa.brain.agentApply(command.id) }
         if (!out.ok) { toastOnMain(context, out.error ?: "Les réglages ne sont plus d'actualité."); return }
         command.open?.let { open(context, it) }
+        command.press?.let { com.aiwa.app.home.ScreenNow.press(it) }
         if (command.cast) withContext(Dispatchers.IO) {
             if (command.castWait) Aiwa.brain.castWish(command.castTv.orEmpty())
             else com.aiwa.app.cast.CastService.startLatest(context, command.castTv.orEmpty())

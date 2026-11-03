@@ -16,7 +16,7 @@ data class Ask(val id: String, val question: String, val options: List<String>, 
 data class Say(val id: String, val text: String)
 data class Target(val session: String?, val repo: String?, val message: String)
 data class Proposal(val id: String, val targets: List<Target>, val readBack: String)
-data class Command(val id: String, val readBack: String, val open: String?, val castTv: String?, val castWait: Boolean, val cast: Boolean, val auto: Boolean, val film: Boolean = false)
+data class Command(val id: String, val readBack: String, val open: String?, val castTv: String?, val castWait: Boolean, val cast: Boolean, val auto: Boolean, val film: Boolean = false, val press: String? = null)
 data class AgentView(val busy: Boolean, val error: String?, val say: Say?, val proposal: Proposal?, val command: Command?, val voice: String?, val llm: String?)
 
 data class CastReady(val tv: String, val name: String, val url: String)
@@ -60,7 +60,7 @@ data class Status(
             }
             val command = a.obj("command")?.let { c ->
                 val cast = c.obj("cast")
-                Command(c.optString("id"), c.optString("read_back"), c.str("open"), cast?.str("tv"), cast?.optBoolean("wait") == true, cast != null, c.optBoolean("auto"), c.optBoolean("film"))
+                Command(c.optString("id"), c.optString("read_back"), c.str("open"), cast?.str("tv"), cast?.optBoolean("wait") == true, cast != null, c.optBoolean("auto"), c.optBoolean("film"), c.str("press"))
             }
             return AgentView(a.optBoolean("busy"), a.str("error"), say, proposal, command, a.str("voice"), a.str("llm"))
         }

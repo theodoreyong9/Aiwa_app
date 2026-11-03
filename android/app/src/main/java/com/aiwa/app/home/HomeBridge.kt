@@ -75,6 +75,12 @@ object HomeRuntime {
                 val json = try { JSONObject(message.data ?: return@addWebMessageListener) } catch (err: Exception) { return@addWebMessageListener }
                 when (json.optString("cmd")) {
                     "press" -> HomeActions.press(web.context, json.optString("id"), source(), own)
+                    "controls" -> if (own) {      // the buttons of HER page, for the voice (never from a visited page)
+                        val list = json.optJSONArray("list") ?: org.json.JSONArray()
+                        ScreenNow.controls = list
+                        ScreenNow.page = java.lang.ref.WeakReference(web)
+                        if (ScreenNow.own) Thread { try { com.aiwa.app.brain.Aiwa.brain.screen(ScreenNow.repo, true, list) } catch (err: Exception) { } }.start()
+                    }
                     "scenario" -> json.optJSONObject("scenario")?.let { HomeActions.scenario(web.context, it, source(), own) }
                 }
             }

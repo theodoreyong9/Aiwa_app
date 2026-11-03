@@ -74,7 +74,7 @@ chamber_lock = threading.Lock()
 chamber_offers = []       # what the others proposed with something attached (a slide, a video…): the person sees it and opens it or not
 chambers = {}             # peer repository -> {"name", "lines"}: one chamber per other person, several at once
 match_cache = {}
-screen = {"profile": None, "own": False}      # the profile on the phone's screen right now (told by the phone), so that the super agent knows what « cette page » is
+screen = {"profile": None, "own": False, "controls": []}      # the profile on the phone's screen right now (told by the phone), so that the super agent knows what « cette page » is
 
 # The scenarios: a prompt under a launch word of the person's own, each one a super agent of its own.
 scenario_lock = threading.Lock()

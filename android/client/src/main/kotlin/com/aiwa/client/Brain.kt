@@ -62,7 +62,9 @@ class Brain(private val net: Transport = HttpTransport()) {
     // ---------- the super agent ----------
     fun agentAsk(text: String): Outcome = act("/api/agent/ask", JSONObject().put("text", text))
     /** The profile on the screen of the phone (none when she is elsewhere), told to the super agent. */
-    fun screen(profile: String?, own: Boolean): Outcome = act("/api/screen", JSONObject().put("profile", profile ?: "").put("own", own))
+    /** `controls`: the buttons of HER page while it is in front (name and the words that call them): the super agent can press one by voice. */
+    fun screen(profile: String?, own: Boolean, controls: JSONArray? = null): Outcome =
+        act("/api/screen", JSONObject().put("profile", profile ?: "").put("own", own).also { if (controls != null) it.put("controls", controls) })
     fun agentReport(): Outcome = act("/api/agent/report")
     fun agentConfirm(id: String): Outcome = act("/api/agent/confirm", JSONObject().put("id", id), 15 * 60 * 1000)
     fun agentApply(id: String): Outcome = act("/api/agent/apply", JSONObject().put("id", id), 30_000)

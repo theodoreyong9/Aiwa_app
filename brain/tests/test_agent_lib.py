@@ -114,6 +114,36 @@ class SayStreamTest(unittest.TestCase):
         self.assertEqual(stream.finish(), ["Deux"])
 
 
+class PressTest(unittest.TestCase):
+    BUTTONS = [{"name": "Carnet", "words": ["mon carnet", "journal"]}, {"name": "Vidéos perso", "words": []}]
+
+    def test_a_button_of_the_page_is_found_by_its_name_or_its_words(self):
+        for said in ("appuie sur Carnet", "clique sur le journal", "touche videos perso", "ouvre le carnet", "journal"):
+            self.assertIn(A.press_intent(said, self.BUTTONS), ("Carnet", "Vidéos perso"), said)
+        self.assertEqual(A.press_intent("clique sur le journal", self.BUTTONS), "Carnet")
+
+    def test_a_name_in_a_longer_sentence_or_an_unknown_button_is_not_pressed(self):
+        for said in ("j'aime mon carnet", "appuie sur autre chose", "carnet", "", "dis-moi quelque chose"):
+            self.assertIsNone(A.press_intent(said, self.BUTTONS), said)
+        self.assertIsNone(A.press_intent("appuie sur Carnet", []))
+
+    def test_the_model_can_only_press_what_the_page_has(self):
+        self.assertEqual(A.control_named("JOURNAL", self.BUTTONS), "Carnet")
+        self.assertIsNone(A.control_named("supprimer le compte", self.BUTTONS))
+
+    def test_the_buttons_told_by_the_page_are_cleaned(self):
+        out = A.clean_controls([{"name": "a<b"}, {"name": "Ok", "words": ["x", "y{"]}, {"name": "ok"}, "bad"] + [{"name": f"b{i}"} for i in range(60)])
+        self.assertEqual(out[0], {"name": "Ok", "words": ["x"]})
+        self.assertLessEqual(len(out), 40)
+        self.assertGreater(len(out), 30)
+
+    def test_the_point_lists_her_buttons_only_on_her_own_page(self):
+        snap = {"screen": {"profile": "me/p", "own": True, "controls": self.BUTTONS}}
+        self.assertIn("« Carnet » (on dit aussi : mon carnet, journal)", A.digest(snap)[0])
+        snap["screen"]["own"] = False
+        self.assertNotIn("Carnet", A.digest(snap)[0])
+
+
 if __name__ == "__main__":
     unittest.main()
 

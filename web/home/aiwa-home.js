@@ -6,6 +6,8 @@
  *  data-aiwa-only="docs,media"  data-aiwa-skip="cast"  keep or drop buttons in a slot;  data-aiwa-look="icons|labels|both"  how a slot draws them.
  * The buttons ARE the application's, never the page's: they act on the account of whoever looks (the visitor on a profile that is not hers). The page styles them
  * with plain CSS (class .aiwa-btn, attributes data-tone, data-on, data-id; variables --aiwa-*); this file brings a base look that any rule of the page beats.
+ *  data-aiwa-voice="mon carnet|journal"  on ANY element of the page (a button, a link, a card): the words by which she can name it to the super agent (« appuie sur le journal »).
+ *  Without it, every visible button or link of HER page is known by its text. The list goes to the application (never from a visited page), and the voice presses by name.
  * The native side listens on AiwaHomeHost (a press is a message {cmd:"press", id}) and calls aiwa.setState({id:{label,tone,on,found,icon}}) every few seconds to say what each
  * button shows now; without it (a preview in a browser) a press raises the event "aiwa-press" on the document. */
 (function () {
@@ -134,6 +136,7 @@
       var panel = dock.lastChild; panel.textContent = ''; CATALOG.forEach(function (g) { var row = document.createElement('div'); row.className = 'aiwa-slot'; g[1].forEach(function (b) { row.appendChild(make(b[0], '')); }); panel.appendChild(row); });
     } else if (dock) { dock.remove(); dock = null; }
     if (sheet) drawPanel();
+    reportControls();
   }
   // the favourites of the person: the application sends them to HER page only (a visitor never sees the visitor's own favourites in someone else's page)
   var FAVS = [];
@@ -150,7 +153,38 @@
   }
   function setFavorites(list) { if (!Array.isArray(list) || JSON.stringify(list) === JSON.stringify(FAVS)) return; FAVS = list; render(); }
   function setState(next) { if (!next || typeof next !== 'object') return; if (JSON.stringify(next) !== JSON.stringify(STATE)) { STATE = next; render(); } }
-  window.aiwa = { press: press, panel: togglePanel, render: render, setState: setState, setFavorites: setFavorites, catalog: BY, groups: GROUPS };
+  // the buttons of the page, by name: what she can ask the super agent to press (the buttons of the application are not among them: it knows them)
+  function plain(t) { return String(t || '').toLowerCase().replace(/\u0153/g, 'oe').normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9 ]+/g, ' ').replace(/\s+/g, ' ').trim(); }
+  function controlNodes() {
+    var out = [], seen = {};
+    [].slice.call(document.querySelectorAll('[data-aiwa-voice],button,a[href],[role="button"],input[type="submit"],input[type="button"],summary')).forEach(function (n) {
+      if (n.closest('.aiwa-slot,.aiwa-sheet,.aiwa-dock,[data-aiwa-slot],[data-aiwa-button]') || n.hasAttribute('data-aiwa-novoice')) return;
+      var words = (n.getAttribute('data-aiwa-voice') || '').split('|').map(function (w) { return w.trim().slice(0, 30); }).filter(Boolean).slice(0, 5);
+      var name = (n.getAttribute('aria-label') || n.textContent || n.value || n.title || words[0] || '').replace(/\s+/g, ' ').trim().slice(0, 40);
+      if (!name || seen[plain(name)]) return;
+      if (!words.length && n.getClientRects().length === 0) return;      // hidden and undeclared
+      seen[plain(name)] = 1; out.push({ node: n, name: name, words: words });
+    });
+    return out.slice(0, 40);
+  }
+  function pressByName(name) {
+    var want = plain(name), hit = null;
+    controlNodes().forEach(function (c) { if (!hit && (plain(c.name) === want || c.words.some(function (w) { return plain(w) === want; }))) hit = c; });
+    if (!hit) return false;
+    try { hit.node.scrollIntoView({ block: 'center' }); } catch (e) { }
+    hit.node.click();
+    return true;
+  }
+  var lastControls = '', controlsTimer = null;
+  function reportControls() {
+    if (controlsTimer) return;
+    controlsTimer = setTimeout(function () {
+      controlsTimer = null;
+      var list = controlNodes().map(function (c) { return { name: c.name, words: c.words }; }), json = JSON.stringify(list);
+      if (json !== lastControls) { lastControls = json; send({ cmd: 'controls', list: list }, 'aiwa-controls'); }
+    }, 600);
+  }
+  window.aiwa = { pressByName: pressByName, controls: function () { return controlNodes().map(function (c) { return { name: c.name, words: c.words }; }); }, press: press, panel: togglePanel, render: render, setState: setState, setFavorites: setFavorites, catalog: BY, groups: GROUPS };
   var queued = false;
   new MutationObserver(function (muts) {
     if (queued) return;

@@ -42,7 +42,8 @@ def set_screen(data):
     """The phone tells which profile is on its screen (none when she is elsewhere): what « cette page » means when she talks to the super agent."""
     repo = str(data.get("profile") or "")
     with state.lock:
-        state.screen = {"profile": repo if github.REPO_RE.fullmatch(repo) else None, "own": data.get("own") is True}
+        own = data.get("own") is True
+        state.screen = {"profile": repo if github.REPO_RE.fullmatch(repo) else None, "own": own, "controls": agent_lib.clean_controls(data.get("controls")) if own else []}
     return {"ok": True}
 
 
@@ -152,7 +153,15 @@ def converse(spoken=None, report=False, emit=None):
         state.agent["busy"] = True
         state.agent["error"] = None
     log(("demande : " + str(spoken)[:100]) if spoken else ("tour sans parole (rapport)" if report else "tour à l'initiative de l'agent"))
-    word = agent_lib.open_intent(spoken) if spoken and not report and not str(spoken).startswith("[Aiwa") else None
+    asked = spoken and not report and not str(spoken).startswith("[Aiwa")
+    button = agent_lib.press_intent(spoken) if asked else None
+    if button:
+        if emit:
+            _press_now(button, emit)
+        else:
+            threading.Thread(target=_press_now, args=(button,), daemon=True).start()
+        return {"ok": True}
+    word = agent_lib.open_intent(spoken) if asked else None
     if word:
         if emit:
             _open_now(word, emit)
@@ -172,6 +181,20 @@ def converse(spoken=None, report=False, emit=None):
 def converse_stream(spoken, emit):
     """One turn of the conversation, the sentences handed to `emit` as they are written. {"ok", "error"}."""
     return converse(spoken, False, emit)
+
+
+def _press_now(button, emit=None):
+    """« appuie sur … »: a button of her page, pressed at once and with no model in between."""
+    try:
+        log(f"ordre d'appuyer sur « {button} » compris sans le modèle")
+        said(json.dumps({"say": f"J'appuie sur {button}.", "do": {"press": button}}), spoken=bool(emit))
+        if emit:
+            emit(f"J'appuie sur {button}.")
+    except Exception as err:
+        log(f"échec de l'appui : {err}")
+    finally:
+        with state.agent_lock:
+            state.agent["busy"] = False
 
 
 def _open_now(word, emit=None):
@@ -222,6 +245,8 @@ def _turn(spoken, report, own=False, emit=None):
             if kept != reply["do"]:
                 log("le modèle voulait changer de dépôt ou de session sans qu'on lui demande : refusé")
                 reply["do"] = kept
+        if isinstance(reply, dict) and isinstance(reply.get("do"), dict) and "press" in reply["do"] and not (spoken and not report and not str(spoken).startswith("[Aiwa")):
+            reply["do"].pop("press")      # a button is pressed only when the person asks
         if not report:
             for what in memory.apply(spoken, reply):
                 log("mémoire : " + what)
@@ -326,7 +351,7 @@ def snapshot():
     out["proposal"] = proposal
     if command:
         items = command["items"]
-        command = {"id": command["id"], "read_back": agent_lib.command_phrase(items, _title_of), "open": items.get("open"), "cast": items.get("cast"), "auto": command.get("auto") is True, "film": bool(items.get("film"))}
+        command = {"id": command["id"], "read_back": agent_lib.command_phrase(items, _title_of), "open": items.get("open"), "press": items.get("press"), "cast": items.get("cast"), "auto": command.get("auto") is True, "film": bool(items.get("film"))}
     out["command"] = command
     return out
 
