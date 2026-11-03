@@ -7,7 +7,7 @@ import time
 import urllib.parse
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
-from . import agent, agent_lib, asks, attachments, cast, chamber, claude_cli, config, diagram, files, github, github_login, instructions, links, live, memory, profile, questions, relay, repos, scen_sync, scenarios, sessions, state, studio, update
+from . import agent, agent_lib, asks, attachments, cast, chamber, claude_cli, config, diagram, files, github, github_login, instructions, links, live, memory, profile, questions, relay, repos, scen_sync, scenarios, sessions, state, studio, update, warm
 
 
 def status():
@@ -472,4 +472,5 @@ def serve():
         threading.Thread(target=scen_sync.startup, daemon=True).start()
         threading.Thread(target=studio.reconcile_loop, daemon=True).start()
     print(f"{time.strftime('%H:%M:%S')} Aiwa brain listening on http://{config.HOST}:{config.PORT}", flush=True)
+    warm.prewarm()      # the Claude of the agent starts now: its cold start is not paid on the first sentence
     ThreadingHTTPServer((config.HOST, config.PORT), Handler).serve_forever()

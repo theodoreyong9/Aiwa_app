@@ -5,7 +5,7 @@ import subprocess
 import threading
 import time
 
-from . import agent_lib, asks, config, diagram, memory, instructions, files, github, llm_lib, profile_lib, repos, scen_lib, sessions, state
+from . import agent_lib, asks, config, diagram, memory, warm, instructions, files, github, llm_lib, profile_lib, repos, scen_lib, sessions, state
 
 _cache = {}      # ("age", repo, branch) / ("ci", repo) -> (time, value): GitHub is asked at most once in two minutes for the same thing
 CACHE_SECONDS = 120
@@ -102,7 +102,7 @@ def condense_memory():
     if not old:
         return
     try:
-        answer = _model("Tu condenses des notes de mémoire. Tu réponds en JSON seulement.", [], memory.condense_prompt(old))
+        answer = _model("Tu condenses des notes de mémoire. Tu réponds en JSON seulement.", [], memory.condense_prompt(old), keep=False)
         data = llm_lib.json_in(answer) if answer else None
         if isinstance(data, dict) and memory.replace(old, data.get("notes")):
             log(f"mémoire : {len(old)} notes anciennes condensées")
@@ -110,13 +110,17 @@ def condense_memory():
         print(f"[{state.ts()}] memory: {err}", flush=True)
 
 
-def _model(system, history, user):
+def _model(system, history, user, keep=True):
     """One turn through the person's own API key, else through the Claude of the phone (`claude -p`, her own login). The text, or None."""
     if state.llm.state == "ready":
         answer = state.llm.ask(system, history + [{"role": "user", "content": user}])
         if answer:
             return answer
     prompt = system + "\n\n" + "\n".join(("Toi : " if m["role"] == "assistant" else "Personne : ") + m["content"] for m in history[-6:]) + "\n\n" + user
+    if keep:      # a Claude kept running (her subscription): started once, then only the model's time; it remembers the conversation, so a turn sends the point and the sentence only
+        kept = warm.ask(prompt, system + "\n\n" + user)
+        if kept:
+            return github.clean(kept).strip() or None
     try:
         done = subprocess.run(["claude", "-p", "--model", "haiku", "--output-format", "text"], input=prompt, capture_output=True, text=True, timeout=120)
     except (OSError, subprocess.SubprocessError):
