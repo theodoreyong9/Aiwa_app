@@ -8,7 +8,7 @@ import time
 
 from . import config
 
-COMMAND = ["claude", "-p", "--model", "haiku", "--input-format", "stream-json", "--output-format", "stream-json", "--verbose"]
+COMMAND = ["claude", "-p", "--model", "haiku", "--input-format", "stream-json", "--output-format", "stream-json", "--include-partial-messages", "--verbose"]
 RECYCLE_AFTER = 12      # turns: the process keeps everything said, it is made again from time to time (and the history is sent again to the new one)
 _lock = threading.Lock()
 _proc = None
@@ -47,7 +47,7 @@ def _start():
     return True
 
 
-def _turn(text, timeout):
+def _turn(text, timeout, on_text=None):
     """One message in, the text of the result out (None on any failure)."""
     try:
         _proc.stdin.write(json.dumps({"type": "user", "message": {"role": "user", "content": text}}) + "\n")
@@ -66,18 +66,22 @@ def _turn(text, timeout):
             event = json.loads(line)
         except ValueError:
             continue
+        if on_text and event.get("type") == "stream_event":
+            delta = (event.get("event") or {}).get("delta") or {}
+            if delta.get("type") == "text_delta" and delta.get("text"):
+                on_text(delta["text"])
         if event.get("type") == "result":
             return None if event.get("is_error") else (str(event.get("result") or "").strip() or None)
 
 
-def ask(first, next_, timeout=120):
+def ask(first, next_, timeout=120, on_text=None):
     """`first`: the whole prompt (with the history), used when the process is new; `next_`: the short one, when it already knows the conversation. The text, or None."""
     global _turns
     with _lock:
         new = _proc is None or _proc.poll() is not None or _turns >= RECYCLE_AFTER
         if new and not _start():
             return None
-        out = _turn(first if new else next_, timeout)
+        out = _turn(first if new else next_, timeout, on_text)
         if out is None:
             _kill()
             return None

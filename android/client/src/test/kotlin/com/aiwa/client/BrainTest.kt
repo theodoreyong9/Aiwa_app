@@ -72,6 +72,18 @@ class BrainTest {
         assertFalse(brain.answerStream("rien", {}))
     }
 
+    @Test fun `a turn of the agent is spoken as it is written and ends with its outcome`() {
+        net.streamLines = listOf("""{"s":"Je regarde."}""", """{"s":"Voilà."}""", """{"done":true,"ok":true,"error":null}""")
+        val said = mutableListOf<String>()
+        assertEquals(true to null, brain.agentStream("ouvre les vidéos", said::add))
+        assertEquals(listOf("Je regarde.", "Voilà."), said)
+        assertEquals("""{"text":"ouvre les vidéos"}""", net.asked.last { it.first == "/api/agent_stream" }.second)
+        net.streamLines = listOf("""{"done":true,"ok":false,"error":"Claude n'a pas répondu"}""")
+        assertEquals(false to "Claude n'a pas répondu", brain.agentStream("rien") {})
+        net.streamLines = emptyList()      // the connection fell before the end
+        assertEquals(false to "Le cerveau ne répond pas.", brain.agentStream("rien") {})
+    }
+
     @Test fun `what is asked of the agent travels as the brain reads it`() {
         net.on("/api/agent/ask", """{"ok":true}""")
         net.on("/api/agent/confirm", """{"ok":true,"sent":["session_A"]}""")

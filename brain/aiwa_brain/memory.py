@@ -7,15 +7,21 @@ import uuid
 
 from . import config
 
-MAX_NOTES = 100
-MAX_CHARS = 300
-CONDENSE_AT = 60      # beyond this many notes, the oldest ones are condensed
-CONDENSE_TAKE = 30    # how many of the oldest are condensed at once
-CONDENSE_INTO = 6     # and what they become, at most
+MAX_NOTES = 2000
+MAX_CHARS = 2000
+CONDENSE_AT = 1000    # beyond this many notes, the oldest ones are condensed
+CONDENSE_TAKE = 100   # how many of the oldest are condensed at once
+CONDENSE_INTO = 10    # and what they become, at most
+RECENT = 5            # the notes always in front of the agent; the others are found when the person asks
+FOUND = 15            # the notes found for a question, at most
+PROMPT_NOTE = 600     # a note, cut to this in the condensing prompt
 FILE = config.APP_DIR / "memory.json"
 _lock = threading.Lock()
 
-REMEMBER_RE = re.compile(r"\b(retiens|retenir|souviens|souvenir|n'oublie pas|n’oublie pas|note que|note bien|mémorise|memorise|garde en mémoire|rappelle-toi)\b", re.I)
+REMEMBER_RE = re.compile(r"\b(retiens|retenir|souviens[- ]toi|n'oublie pas|n’oublie pas|note que|note bien|mémorise|memorise|garde en mémoire|rappelle[- ]toi)\b", re.I)
+RECALL_RE = re.compile(r"\b(te rappelles?|te souviens?|rappelle[- ]moi|ce que je t'ai (dit|demandé|raconté)|qu'est[- ]ce que (tu sais|j'ai dit|je t'ai)|tu retiens|dans ta mémoire|de ma mémoire)\b", re.I)
+WORD_RE = re.compile(r"[a-zà-ÿ0-9]{4,}")
+STOP = {"tout", "tous", "cette", "dans", "pour", "avec", "sans", "elle", "elles", "nous", "vous", "mais", "donc", "quoi", "comme", "plus", "moins", "tres", "bien", "dire", "dit", "demande", "demandé", "rappelles", "rappelle", "souviens", "souvient", "retiens", "t'ai", "sais", "mémoire", "memoire", "ce que", "quand", "alors", "aussi", "fait", "faire", "veux", "peux", "sont", "etait", "était"}
 FORGET_RE = re.compile(r"\b(oublie|oublier|efface|effacer|supprime|supprimer|enl[eè]ve)\b", re.I)
 
 
@@ -69,16 +75,39 @@ def forget(what):
         return len(all_) - len(kept)
 
 
-def digest():
-    """The notes as the agent reads them, newest last, within a limit."""
-    lines = [n["text"] for n in notes()]
-    out, size = [], 0
-    for line in reversed(lines):
-        size += len(line) + 3
-        if size > 1800:
-            break
-        out.append(line)
-    return list(reversed(out))
+def _plain(text):
+    import unicodedata
+    text = str(text).lower().replace("œ", "oe").replace("æ", "ae")
+    return "".join(c for c in unicodedata.normalize("NFD", text) if unicodedata.category(c) != "Mn")
+
+
+def recent():
+    """The last notes: always in front of the agent."""
+    return [n["text"] for n in notes()[-RECENT:]]
+
+
+def search(sentence):
+    """The notes that answer a sentence like « tu te rappelles de mon vélo ? »: the ones that share its words (the best first), or the newest when it asks for everything.
+    [] when the sentence does not ask the agent to remember."""
+    sentence = str(sentence or "")
+    if not RECALL_RE.search(sentence):
+        return []
+    all_ = notes()
+    words = {_plain(w) for w in WORD_RE.findall(sentence.lower())} - {_plain(w) for w in STOP}
+    scored = []
+    for i, n in enumerate(all_):
+        low = _plain(n["text"])
+        hits = sum(1 for w in words if w in low)
+        if hits:
+            scored.append((hits, i, n["text"]))
+    if scored:
+        scored.sort(key=lambda t: (-t[0], -t[1]))
+        return [t[2] for t in scored[:FOUND]]
+    return [n["text"] for n in all_[-FOUND:]]      # no word to look for: what was kept last
+
+
+def count():
+    return len(notes())
 
 
 def apply(spoken, reply):
@@ -110,7 +139,7 @@ def to_condense():
 def condense_prompt(old):
     return ("Voici des notes anciennes qu'une personne t'a demandé de retenir. Regroupe-les en au plus " + str(CONDENSE_INTO) + " notes courtes (chacune sous " + str(MAX_CHARS) + " caractères) "
             "sans perdre un fait durable (préférences, projets, noms, dates) ; supprime les doublons et ce qui est périmé. Réponds seulement par du JSON : {\"notes\":[\"…\"]}.\n\n"
-            + "\n".join("- " + n["text"] for n in old))
+            + "\n".join("- " + n["text"][:PROMPT_NOTE] for n in old))
 
 
 def replace(old, texts):

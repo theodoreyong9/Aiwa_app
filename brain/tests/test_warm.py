@@ -33,6 +33,12 @@ class WarmTest(unittest.TestCase):
         self.assertEqual(warm.ask("again", "b"), "n:1 again")
         self.assertIsNone(warm.ask("ERR", "ERR"))
 
+    def test_the_pieces_are_handed_out_as_they_come(self):
+        got = []
+        self.assertEqual(warm.ask("first", "x", on_text=got.append), "n:1 first")
+        self.assertEqual("".join(got), "n:1 first")
+        self.assertGreater(len(got), 1)
+
     def test_no_program_means_none(self):
         warm.COMMAND = ["/nonexistent/claude"]
         self.assertIsNone(warm.ask("a", "b"))

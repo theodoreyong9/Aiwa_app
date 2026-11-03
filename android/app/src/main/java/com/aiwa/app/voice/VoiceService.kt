@@ -230,7 +230,6 @@ class VoiceService : Service() {
         scenario = pendingScenario; pendingScenario = null
         Aiwa.update { it.copy(agentOpen = true) }
         AiwaWidget.render(applicationContext, force = true)
-        LiveBubble.askOnce(applicationContext)
         QuietSounds.restore(applicationContext)
         scope.launch {
             Speaker.resetInterrupt()
@@ -250,7 +249,6 @@ class VoiceService : Service() {
         scenarioPoll?.cancel(); scenarioPoll = null; scenario = null
         liveWatch?.cancel(); liveWatch = null
         stopBarge()
-        LiveBubble.hide()
         Aiwa.update { it.copy(agentOpen = false) }
         AiwaWidget.render(applicationContext, force = true)
         if (ListenSettings.enabled(this) && model != null) listen() else if (!ListenSettings.enabled(this)) stopSelf()
@@ -325,70 +323,50 @@ class VoiceService : Service() {
         val said = StringBuilder()
         startBarge()
         val speaking = scope.launch { Speaker.speakFlow(applicationContext, sentences) }
-        val ok = withContext(Dispatchers.IO) { Aiwa.brain.answerStream(text) { s -> said.append(s).append(' '); sentences.trySend(s); LiveBubble.said(applicationContext, false, s) } }
+        val ok = withContext(Dispatchers.IO) { Aiwa.brain.answerStream(text) { s -> said.append(s).append(' '); sentences.trySend(s) } }
         sentences.close()
         speaking.join()
         stopBarge()
         if (!ok) Speaker.speakNatural(applicationContext, "Je n'ai pas de réponse : il me faut une clé Claude, ou que Claude soit connecté sur le téléphone.") else showLine(said.toString().trim(), mine = false)
     }
 
-    /** A request for the super agent: it answers with words, and maybe a proposal for a session or settings for the phone. */
+    /** A request for the super agent: its words are said as they are written (the first sentence while the rest is still being made), then what it proposes or asks for is applied. */
     private suspend fun turn(text: String) {
-        val asked = withContext(Dispatchers.IO) { Aiwa.brain.agentAsk(text) }
-        if (!asked.ok) { Speaker.speakNatural(applicationContext, asked.error ?: "Le cerveau ne répond pas."); return }
-        if (!Aiwa.state.value.status?.llm?.state.equals("ready")) showLine("Je réfléchis… (sans clé Anthropic ça peut durer jusqu'à une minute)", mine = false) else showLine("Je réfléchis…", mine = false)
-        val agent = AgentVoice.awaitAnswer()
-        if (agent == null || agent.error != null) { Speaker.speakNatural(applicationContext, agent?.error ?: "Je n'ai pas de réponse."); return }
+        val sentences = kotlinx.coroutines.channels.Channel<String>(kotlinx.coroutines.channels.Channel.UNLIMITED)
+        val said = StringBuilder()
         startBarge()
-        AgentVoice.speakSay(applicationContext, agent)
+        val speaking = scope.launch { Speaker.speakFlow(applicationContext, sentences) }
+        val (ok, error) = withContext(Dispatchers.IO) { Aiwa.brain.agentStream(text) { s -> said.append(s).append(' '); sentences.trySend(s) } }
+        sentences.close()
+        speaking.join()
         stopBarge()
-        agent.say?.let { showLine(it.text, mine = false) }
+        if (!ok) { Speaker.speakNatural(applicationContext, error ?: "Je n'ai pas de réponse."); return }
+        if (said.isNotBlank()) showLine(said.toString().trim(), mine = false)
         resolvePending()
     }
 
-    /**
-     * The mode follows the key, there is only one way to wake the agent: with an Anthropic key the agent discusses (read-back, then the person's word); without one, what the agent proposes for a session goes at once: without it every turn of the super agent goes through the phone's own
-     * Claude program, which starts cold (10 to 30 seconds), and a conversation with a read-back is then painful. The person is told once.
-     */
-    private fun sendsAtOnce(): Boolean {
-        if (Aiwa.state.value.status?.llm?.state == "ready") return false
-        val prefs = getSharedPreferences("aiwa_hints", MODE_PRIVATE)
-        if (!prefs.getBoolean("direct_without_key", false)) {
-            prefs.edit().putBoolean("direct_without_key", true).apply()
-            toastOnMain(applicationContext, "Sans clé Anthropic, le super agent envoie directement : mets ta clé dans Réglages pour discuter avec lui.")
-        }
-        return true
-    }
-
-    /** Settings and proposals the agent made: each is read back and applied or sent only on the person's word (an automatic command, from a master, goes at once). */
+    /** What the agent asked for is done at once, without a read-back (a film, which costs, still waits for the person's word). The agent has said what it does. */
     private suspend fun resolvePending() {
         var agent: AgentView? = AgentVoice.fresh()
         agent?.command?.let { c ->
-            if (c.auto || (!c.film && sendsAtOnce())) AgentScreens.apply(applicationContext, c)      // without an Anthropic key nothing waits for a word (a film, which costs, always does)
+            if (c.auto || !c.film) AgentScreens.apply(applicationContext, c)
             else {
                 showLine(c.readBack + " C'est bon ?", mine = false)
                 val (reply, heard) = if (preConfirmed) Reply.CONFIRM to "" else askAloud(applicationContext, c.readBack + " C'est bon ?")
                 when (reply) {
                     Reply.CONFIRM -> AgentScreens.apply(applicationContext, c)
-                    Reply.OTHER -> if (heard.isNotBlank()) { withContext(Dispatchers.IO) { Aiwa.brain.agentCancel(c.id) }; turn(heard); return } else toastOnMain(applicationContext, "Je n'ai rien entendu : la proposition attend, touche le bouton rouge du widget.")
+                    Reply.OTHER -> if (heard.isNotBlank()) { withContext(Dispatchers.IO) { Aiwa.brain.agentCancel(c.id) }; turn(heard); return } else toastOnMain(applicationContext, "Je n'ai rien entendu : la proposition attend, touche le bouton rouge pour répondre.")
                     else -> withContext(Dispatchers.IO) { Aiwa.brain.agentCancel(c.id) }
                 }
             }
         }
         agent = AgentVoice.fresh()
         agent?.proposal?.let { p ->
-            val direct = sendsAtOnce()
-            showLine(p.readBack + if (direct) "" else " On y va ?", mine = false)
-            val (reply, heard) = if (preConfirmed || direct) { preConfirmed = false; Reply.CONFIRM to "" } else askAloud(applicationContext, p.readBack + " On y va ?")
-            when (reply) {
-                Reply.CONFIRM -> {
-                    Speaker.speakNatural(applicationContext, if (direct) "J'envoie." else "C'est parti.")
-                    sendInBackground(p.id)
-                    closeAgent()      // the order is given: the agent goes back to sleep (the button of the widget with it), the wake word calls it again
-                }
-                Reply.OTHER -> if (heard.isNotBlank()) { withContext(Dispatchers.IO) { Aiwa.brain.agentCancel(p.id) }; turn(heard) } else toastOnMain(applicationContext, "Je n'ai rien entendu : la proposition attend, touche le bouton rouge du widget.")
-                else -> { withContext(Dispatchers.IO) { Aiwa.brain.agentCancel(p.id) }; Speaker.speakNatural(applicationContext, "J'annule.") }
-            }
+            preConfirmed = false
+            showLine(p.readBack, mine = false)
+            sendInBackground(p.id)
+            Speaker.speakNatural(applicationContext, "J'envoie.")
+            closeAgent()      // the order is given: the agent goes back to sleep (the button of the widget with it), the wake word calls it again
         }
     }
 
@@ -413,7 +391,7 @@ class VoiceService : Service() {
         val sentences = kotlinx.coroutines.channels.Channel<String>(kotlinx.coroutines.channels.Channel.UNLIMITED)
         val speaking = scope.launch { Speaker.speakFlow(applicationContext, sentences) }
         startBarge()
-        withContext(Dispatchers.IO) { Aiwa.brain.liveStream(text) { s -> sentences.trySend(s); LiveBubble.said(applicationContext, false, s) } }
+        withContext(Dispatchers.IO) { Aiwa.brain.liveStream(text) { s -> sentences.trySend(s) } }
         sentences.close()
         speaking.join()
         stopBarge()
@@ -474,7 +452,6 @@ class VoiceService : Service() {
         if (text.isBlank()) return
         if (!partial) { convo.addLast(mine to text.trim()); while (convo.size > 4) convo.removeFirst() }
         val lines = convo.map { (me, t) -> (if (me) "▸ " else "◂ ") + t } + (if (partial) listOf("▸ $text …") else emptyList())
-        if (agentMode) { if (partial) LiveBubble.partial(this, text) else LiveBubble.said(this, mine, text.trim()) }
         say(lines.joinToString("\n"))
     }
 
@@ -507,7 +484,7 @@ class VoiceService : Service() {
 
     override fun onDestroy() {
         instance = null
-        listener?.stop(); detector?.stop(); stopBarge(); LiveBubble.hide()
+        listener?.stop(); detector?.stop(); stopBarge()
         try { model?.close() } catch (err: Throwable) { }
         try { speakerModel?.close() } catch (err: Throwable) { }
         try { lock?.takeIf { it.isHeld }?.release() } catch (err: Exception) { }
