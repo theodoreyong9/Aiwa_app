@@ -49,7 +49,16 @@ object ProfileView {
 
     /** The page as it is shown: her own as it is; the one of someone else in the closed zone, or as it is when she gave that profile her trust (see TrustedProfiles). */
     private fun prepared(context: Context, repo: String, own: Boolean, html: String): String =
-        if (own || TrustedProfiles.isOpen(context, repo)) html else HomeRuntime.closedZone(html)
+        quietVideos(if (own || TrustedProfiles.isOpen(context, repo)) html else HomeRuntime.closedZone(html))
+
+    /** A video that starts by itself (autoplay or loop) stays invisible until it really plays, then appears (or after four seconds whatever happens): the page shows its own colour, never a frozen first frame or a play button. */
+    private const val QUIET = "<style>video[autoplay],video[loop]{opacity:0;transition:opacity .3s}video[data-aiwa-on]{opacity:1}</style><script>(function(){function on(v){v.setAttribute('data-aiwa-on','')}document.addEventListener('playing',function(e){if(e.target&&e.target.tagName==='VIDEO')on(e.target)},true);setTimeout(function(){[].forEach.call(document.querySelectorAll('video'),on)},4000);})()</script>"
+
+    internal fun quietVideos(html: String): String {
+        if (!html.contains("<video", ignoreCase = true)) return html
+        val head = Regex("<head[^>]*>", RegexOption.IGNORE_CASE).find(html)
+        return if (head != null) html.replaceRange(head.range.last + 1, head.range.last + 1, QUIET) else QUIET + html
+    }
 
     /** The page shown to the person while she has none of her own: the one of the author of Aiwa (a profile as it can be), under a banner that says how to make hers. */
     const val SHOWCASE = "theodoreyong9/Aiwa_app"
