@@ -34,9 +34,9 @@ def conversation_add(question, answer):
         del state.conversation[:-16]
 
 
-def _answer_context():
+def _answer_context(question=None):
     """What the answer may lean on: the point of the super agent (sessions, repositories, productions, scenarios, chamber, what is waiting) and the README of the repository in use."""
-    parts = [agent.point()[0]]
+    parts = [agent.point(spoken=question)[0]]
     with state.lock:
         repo = state.current_repo
     if repo and github.REPO_RE.fullmatch(repo):
@@ -55,7 +55,7 @@ def answer_question(question):
     if not q:
         return {"ok": False, "error": "question vide"}
     state.style.observe(q)
-    context = _answer_context()
+    context = _answer_context(q)
     talk = conversation_text()
     if talk:
         context = (context + "\n\n" if context else "") + "La conversation jusqu'ici (continue-la naturellement, sans la répéter) :\n" + talk
@@ -109,7 +109,7 @@ def answer_stream(question, emit):
         return False
     if state.llm.state != "ready":
         state.style.observe(q)      # with the key, answer_question below observes it
-    context = _answer_context()
+    context = _answer_context(q)
     talk = conversation_text()
     if talk:
         context = (context + "\n\n" if context else "") + "La conversation jusqu'ici (continue-la naturellement, sans la répéter) :\n" + talk

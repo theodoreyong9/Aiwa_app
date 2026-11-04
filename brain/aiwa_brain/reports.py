@@ -10,6 +10,7 @@ STATES = ("start", "progress", "done", "blocked", "answer")
 SAID = {"start": "a commencé", "progress": "avance", "done": "a terminé", "blocked": "est bloquée", "answer": "répond"}
 TEXT_MAX = 200
 KEEP = 30
+on_answer = None      # called with the text when a session answers a quick question (the agent says it); set by agent.py
 
 
 def report_set(raw, session=None):
@@ -28,6 +29,11 @@ def report_set(raw, session=None):
         who = session or state.current_cloud or state.last_cloud or ""
         kept = [r for r in state.session_reports if r["session"] != who]
         state.session_reports = (kept + [{"session": who, "state": kind, "text": text, "ts": int(time.time())}])[-KEEP:]
+    if kind == "answer" and on_answer:
+        try:
+            on_answer(text)
+        except Exception:
+            pass
     return True
 
 
