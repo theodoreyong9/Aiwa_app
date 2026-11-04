@@ -1,0 +1,89 @@
+"""Looking for profiles on GitHub from a sentence (« des vidéastes qui font du produit »): the model turns it into a few short searches (the words, their synonyms, in French and in English), the brain asks the code search of GitHub for the
+`Profile/index.html` files that contain them (that is the shape of a profile of Aiwa), and the repositories are ranked by how many of the searches found them. Needs the GitHub account of the person (the code search is closed to anonymous callers)."""
+import json
+import re
+import urllib.error
+import urllib.parse
+import urllib.request
+
+from . import agent_lib, github, llm_lib
+
+MAX_TERMS = 5
+MAX_REPOS = 30
+STOP = {"des", "les", "une", "qui", "que", "pour", "avec", "dans", "sur", "sont", "font", "fait", "cherche", "trouve", "profils", "profil", "gens", "personnes", "quelqu", "comme"}
+
+TERMS_SYSTEM = ("Tu prépares une recherche de profils sur GitHub. Tâche ponctuelle, hors de toute conversation : à partir de la demande, donne au plus 5 recherches COURTES (un à trois mots chacune : le mot de la demande, "
+                "ses synonymes, sa traduction anglaise ou française). Réponds seulement par du JSON : {\"terms\":[\"…\"]}.")
+
+
+def fallback_terms(query):
+    words = [w for w in agent_lib.plain(query).split() if len(w) >= 4 and w not in STOP]
+    return words[:MAX_TERMS]
+
+
+def terms(query):
+    """The searches to make for a sentence (the model's, else the words of the sentence)."""
+    try:
+        from . import agent
+        answer = agent._model(TERMS_SYSTEM, [], "Demande : « " + " ".join(str(query).split())[:200] + " »")
+        data = llm_lib.json_in(answer) if answer else None
+        found = data.get("terms") if isinstance(data, dict) else None
+        clean = []
+        for item in (found if isinstance(found, list) else []):
+            text = " ".join(re.sub(r"[^\w' -]", " ", str(item), flags=re.UNICODE).split())[:40]
+            if text and text.lower() not in [c.lower() for c in clean]:
+                clean.append(text)
+        if clean:
+            return clean[:MAX_TERMS]
+    except Exception:
+        pass
+    return fallback_terms(query)
+
+
+def _search(term):
+    """The repositories whose Profile/index.html contains `term` (a list of full names). Raises GithubError-like RuntimeError with a sentence to say."""
+    token = github.token_value()
+    if not token:
+        raise RuntimeError("Connecte ton compte GitHub dans les réglages : la recherche de GitHub est fermée sans lui.")
+    query = (f'"{term}"' if " " in term else term) + " path:Profile filename:index.html"
+    url = f"{github.GITHUB_API}/search/code?per_page=30&q=" + urllib.parse.quote(query)
+    request = urllib.request.Request(url, headers={"User-Agent": "aiwa", "Accept": "application/vnd.github+json", "Authorization": f"Bearer {token}"})
+    try:
+        with urllib.request.urlopen(request, timeout=20) as reply:
+            data = json.loads(reply.read() or b"{}")
+    except urllib.error.HTTPError as err:
+        if err.code in (403, 429):
+            raise RuntimeError("GitHub limite les recherches : réessaie dans une minute.")
+        if err.code == 401:
+            raise RuntimeError("Le jeton GitHub n'est plus valide : reconnecte ton compte.")
+        raise RuntimeError(f"GitHub a refusé la recherche ({err.code}).")
+    except (OSError, ValueError):
+        raise RuntimeError("GitHub ne répond pas.")
+    out = []
+    for item in data.get("items") or []:
+        repo = ((item.get("repository") or {}).get("full_name")) or ""
+        if item.get("path") == "Profile/index.html" and github.REPO_RE.fullmatch(repo) and repo not in out:
+            out.append(repo)
+    return out
+
+
+def find(query):
+    """{"ok", "repos", "terms", "error"}: the profiles found for a sentence, the best first."""
+    query = " ".join(str(query or "").split())[:200]
+    if not query:
+        return {"ok": False, "error": "cherche quoi ?", "repos": [], "terms": []}
+    wanted = terms(query)
+    score, order, failure = {}, [], None
+    for term in wanted:
+        try:
+            for repo in _search(term):
+                if repo not in score:
+                    order.append(repo)
+                score[repo] = score.get(repo, 0) + 1
+        except RuntimeError as err:
+            failure = str(err)
+            break
+    repos = sorted(order, key=lambda r: (-score[r], order.index(r)))[:MAX_REPOS]
+    if not repos and failure:
+        return {"ok": False, "error": failure, "repos": [], "terms": wanted}
+    return {"ok": True, "repos": repos, "terms": wanted, "error": None if repos else "aucun profil trouvé"}

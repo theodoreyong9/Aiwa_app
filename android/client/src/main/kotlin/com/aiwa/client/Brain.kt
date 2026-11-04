@@ -108,6 +108,13 @@ class Brain(private val net: Transport = HttpTransport()) {
         return if (done) ok to error else false to "Le cerveau ne répond pas."
     }
 
+    /** Profiles found on GitHub for a sentence (the brain asks the model for the words and GitHub for the profiles): (the repositories, the sentence to say when there are none). */
+    fun findProfiles(query: String): Pair<List<String>, String?> {
+        val j = try { JSONObject(net.post("/api/find", JSONObject().put("query", query).toString(), 90_000)) } catch (e: Exception) { return emptyList<String>() to "Le cerveau ne répond pas." }
+        val list = j.optJSONArray("repos").strings()
+        return list to (if (list.isEmpty()) j.optString("error").takeIf { it.isNotBlank() && it != "null" } ?: "Aucun profil trouvé." else null)
+    }
+
     fun liveSet(on: Boolean): Outcome = act("/api/live/set", JSONObject().put("on", on))
     fun liveEvents(): List<String> = getJson("/api/live/events")?.optJSONArray("events").strings()
 

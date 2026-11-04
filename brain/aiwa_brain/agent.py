@@ -352,7 +352,7 @@ def snapshot():
     out["proposal"] = proposal
     if command:
         items = command["items"]
-        command = {"id": command["id"], "read_back": agent_lib.command_phrase(items, _title_of), "open": items.get("open"), "press": items.get("press"), "cast": items.get("cast"), "auto": command.get("auto") is True, "film": bool(items.get("film"))}
+        command = {"id": command["id"], "read_back": agent_lib.command_phrase(items, _title_of), "open": items.get("open"), "press": items.get("press"), "find": items.get("find"), "cast": items.get("cast"), "auto": command.get("auto") is True, "film": bool(items.get("film"))}
     out["command"] = command
     return out
 

@@ -126,6 +126,10 @@ object AgentScreens {
         if (!out.ok) { toastOnMain(context, out.error ?: "Les réglages ne sont plus d'actualité."); return }
         command.open?.let { open(context, it) }
         command.press?.let { com.aiwa.app.home.ScreenNow.press(it) }
+        command.find?.let { q ->
+            val now = com.aiwa.app.home.ScreenNow.find
+            if (now != null) now(q) else go(context, com.aiwa.app.home.ProfileActivity.homeIntent(context).putExtra(com.aiwa.app.home.ProfileActivity.EXTRA_FIND, q))
+        }
         if (command.cast) withContext(Dispatchers.IO) {
             if (command.castWait) Aiwa.brain.castWish(command.castTv.orEmpty())
             else com.aiwa.app.cast.CastService.startLatest(context, command.castTv.orEmpty())

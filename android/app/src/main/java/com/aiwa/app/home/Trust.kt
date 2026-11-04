@@ -34,4 +34,6 @@ object ScreenNow {
     }
     /** Reads the profile on the screen again (after her trust in it changed): set by the window that shows the profiles. */
     @Volatile var reload: (() -> Unit)? = null
+    /** Runs a search of profiles in the window that shows them (set while it is in front). */
+    @Volatile var find: ((String) -> Unit)? = null
 }
