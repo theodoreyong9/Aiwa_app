@@ -19,6 +19,9 @@ data class Proposal(val id: String, val targets: List<Target>, val readBack: Str
 data class Command(val id: String, val readBack: String, val open: String?, val castTv: String?, val castWait: Boolean, val cast: Boolean, val auto: Boolean, val film: Boolean = false, val press: String? = null, val find: String? = null)
 data class AgentView(val busy: Boolean, val error: String?, val say: Say?, val proposal: Proposal?, val command: Command?, val voice: String?, val llm: String?)
 
+/** A rule of adaptation of her page, as she said it. */
+data class AdaptRule(val id: String, val text: String, val on: Boolean)
+
 data class CastReady(val tv: String, val name: String, val url: String)
 data class ChamberBrief(val active: Boolean, val peer: String?, val name: String?)
 /** How many questions GitHub still allows, and whether they are asked as the person's own account. */

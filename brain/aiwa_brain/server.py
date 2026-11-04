@@ -243,6 +243,7 @@ GET = {
     "/api/scenarios": lambda q: scenarios.scenario_api("/api/scenarios", ""),
     "/api/chamber": lambda q: chamber.chamber_api("/api/chamber", ""),
     "/api/live/events": lambda q: live.live_api("/api/live/events", ""),
+    "/api/adapt/rules": lambda q: {"ok": True, "rules": adapt.rules()},
     "/api/memory": lambda q: {"ok": True, "notes": memory.notes()},
     "/api/agent/log": lambda q: {"ok": True, "log": list(state.agent_log)},
     "/api/persona": lambda q: {"ok": True, **state.persona.status()},
@@ -253,6 +254,8 @@ GET = {
     "/api/profile/seen": lambda q: profile.seen_of((q.get("repo") or [""])[0]),
 }
 POST = {
+    "/api/adapt/rule/add": lambda body, data: adapt.add_rule((data or {}).get("sentence")),
+    "/api/adapt/rule/change": lambda body, data: adapt.change((data or {}).get("what") or (data or {}).get("id"), (data or {}).get("action") if (data or {}).get("action") in ("on", "off", "remove") else "off"),
     "/api/adapt/derive": lambda body, data: adapt.derive((data or {}).get("description")),
     "/api/adapt/publish": lambda body, data: adapt.publish((data or {}).get("adaptable")),
     "/api/find": lambda body, data: finder.find((data or {}).get("query") or body),

@@ -79,6 +79,9 @@ def point(report=False, spoken=None):
         from . import reports
         if reports.line():
             extra.append(reports.line())
+        from . import adapt
+        if adapt.line():
+            extra.append(adapt.line())
         if studio.film_progress_line():
             extra.append(studio.film_progress_line())
         with state.attach_lock:
@@ -352,7 +355,7 @@ def snapshot():
     out["proposal"] = proposal
     if command:
         items = command["items"]
-        command = {"id": command["id"], "read_back": agent_lib.command_phrase(items, _title_of), "open": items.get("open"), "press": items.get("press"), "find": items.get("find"), "cast": items.get("cast"), "auto": command.get("auto") is True, "film": bool(items.get("film"))}
+        command = {"id": command["id"], "read_back": agent_lib.command_phrase(items, _title_of), "open": items.get("open"), "press": items.get("press"), "find": items.get("find"), "adapt": items.get("adapt"), "cast": items.get("cast"), "auto": command.get("auto") is True, "film": bool(items.get("film"))}
     out["command"] = command
     return out
 
@@ -369,6 +372,8 @@ def apply_command(command_id):
         state.persona.reward(True)
     if "extra" in items:
         instructions.set_extra(items["extra"])
+    if items.get("adapt"):
+        threading.Thread(target=_adapt_job, args=(items["adapt"],), daemon=True).start()      # understanding a rule and writing it takes a few seconds: the agent tells her when it is done
     if "model" in items or "effort" in items or "push" in items:
         from . import server       # the same settings as the widget's: one place decides what is valid
         if "model" in items:
@@ -526,6 +531,28 @@ def spoken(say_id):
         if state.agent["say"] and state.agent["say"]["id"] == say_id:
             state.agent["say"]["spoken"] = True
     return {"ok": True}
+
+
+def _adapt_job(item):
+    """The rules of adaptation said aloud: added, removed, cut or lit again; then the agent says what was done."""
+    from . import adapt
+    done = []
+    try:
+        if item.get("add"):
+            out = adapt.add_rule(item["add"])
+            done.append(("règle écrite : " + out["dit"]) if out["ok"] else ("règle refusée : " + str(out.get("error"))))
+        for key, action, word in (("remove", "remove", "supprimée"), ("off", "off", "coupée"), ("on", "on", "rallumée")):
+            if item.get(key):
+                out = adapt.change(item[key], action)
+                done.append(f"{out.get('count', 0)} règle(s) {word}" if out["ok"] else "aucune règle ne correspond : " + str(out.get("error")))
+    except Exception as err:
+        done.append(f"échec : {err}")
+    for _ in range(40):
+        with state.agent_lock:
+            if not state.agent["busy"]:
+                break
+        time.sleep(0.5)
+    converse("[Aiwa — adaptation de sa page : " + " ; ".join(done)[:300] + ". Dis-le-lui brièvement.]")
 
 
 def session_answered(text):

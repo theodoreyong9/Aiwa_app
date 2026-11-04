@@ -18,7 +18,39 @@ import kotlinx.coroutines.withContext
 class AdaptActivity : FloatActivity() {
     override val title = "Adaptation"
 
-    override fun onResume() { super.onResume(); AdaptSettings.refresh(this); reload() }
+    private var rules: List<com.aiwa.client.AdaptRule>? = null
+
+    override fun onResume() { super.onResume(); AdaptSettings.refresh(this); loadRules(); reload() }
+
+    private fun loadRules() {
+        CoroutineScope(Dispatchers.Main).launch { rules = withContext(Dispatchers.IO) { try { Aiwa.brain.adaptRules() } catch (err: Exception) { null } }; reload() }
+    }
+
+    /** A rule is cut, lit again or removed: the brain writes the files of her repository again (a few seconds). */
+    private fun change(id: String, action: String) {
+        toastOnMain(applicationContext, "Je réécris ton profil…")
+        CoroutineScope(Dispatchers.Main).launch {
+            val out = withContext(Dispatchers.IO) { Aiwa.brain.adaptRuleChange(id, action) }
+            toastOnMain(applicationContext, if (out.ok) "C'est fait." else "Pas écrit : ${out.error}")
+            loadRules()
+        }
+    }
+
+    /** A rule typed (the usual way is to say it to the super agent): understood by the model, kept, written. */
+    private fun typeRule() {
+        val field = android.widget.EditText(this).apply { hint = "Si le visiteur aime le rouge, mon titre devient rouge"; setSingleLine(false); minLines = 3 }
+        android.app.AlertDialog.Builder(this).setTitle("Une règle").setView(field)
+            .setPositiveButton("Ajouter") { _, _ ->
+                val sentence = field.text.toString().trim()
+                if (sentence.isEmpty()) return@setPositiveButton
+                toastOnMain(applicationContext, "Je comprends ta règle et je l'écris…")
+                CoroutineScope(Dispatchers.Main).launch {
+                    val out = withContext(Dispatchers.IO) { Aiwa.brain.adaptRuleAdd(sentence) }
+                    toastOnMain(applicationContext, if (out.ok) "Règle écrite : ${out.json.optString("dit")}" else "Refusée : ${out.error}")
+                    loadRules()
+                }
+            }.setNegativeButton("Annuler", null).show()
+    }
 
     private fun switchRow(label: String, detail: String, on: Boolean, flip: (Boolean) -> Unit) {
         entryIcon(R.drawable.fw_i_swap, label, detail, Palette.GOLD, if (on) "Activé" else "Désactivé", if (on) Palette.GREEN else Palette.DIM) { flip(!on); reload() }
@@ -35,6 +67,14 @@ class AdaptActivity : FloatActivity() {
                 if (!out.ok) { AdaptSettings.setAdaptable(applicationContext, !on); reload() }
             }
         }
+        section("Mes règles")
+        val list = rules
+        when {
+            list == null -> note("…")
+            list.isEmpty() -> note("Aucune règle. Dis par exemple au super agent : « si le visiteur aime le rouge, mon titre devient rouge ». Il la comprend et l'écrit lui-même dans ton profil.")
+            else -> list.forEach { r -> entryWithAction(r.text, if (r.on) "Active · touche pour la couper" else "Coupée · touche pour la rallumer", Palette.CARD, "Supprimer", { change(r.id, if (r.on) "off" else "on") }, { change(r.id, "remove") }) }
+        }
+        entryIcon(R.drawable.fw_i_note, "Écrire une règle", null, Palette.GOLD) { typeRule() }
         section("Ce que les règles peuvent lire de moi")
         AdaptSettings.TRAITS.forEach { trait ->
             switchRow(label(trait), "", AdaptSettings.exposed(this, trait)) { AdaptSettings.setExposed(this, trait, it) }

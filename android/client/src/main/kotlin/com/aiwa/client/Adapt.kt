@@ -10,7 +10,7 @@ import java.text.Normalizer
  * of changes to named zones (a text, a colour, a background, visible or not, the order of the items, a variant), each one allowed or not by the zone's own declaration. The host decides how the visitor's words
  * enter its page (`{traits.themes.0}`, `{description}`); it never learns what matched.
  *
- * aiwa.json  : {"adaptable":true, "traits":{…}, "zones":{"titre":{"modifiable":["texte","couleur"]}, …}}
+ * aiwa.json  : {"adaptable":true, "traits":{…}, "zones":{"titre":{"selecteur":"h1", "modifiable":["texte","couleur"]}, …}}   (a zone is found by its selector, else by data-aiwa-zone="titre")
  * adapt.json : {"regles":[{"si":{"traits.couleurs":{"contient":"rouge"}}, "alors":[{"zone":"titre","couleur":"{traits.couleurs.0}"}]}]}
  */
 object Adapt {
@@ -22,6 +22,7 @@ object Adapt {
         "noir" to "#111111", "blanc" to "#ffffff", "gris" to "#6b7280", "marron" to "#92400e", "turquoise" to "#14b8a6",
         "red" to "#e11d48", "blue" to "#2563eb", "green" to "#16a34a", "yellow" to "#eab308", "purple" to "#7c3aed", "pink" to "#ec4899", "black" to "#111111", "white" to "#ffffff", "gray" to "#6b7280", "brown" to "#92400e")
     private val HEX = Regex("#[0-9a-fA-F]{3,8}")
+    private val SELECTOR = Regex("[a-zA-Z0-9_#. >\\[\\]=\"'-]{1,80}")      // a simple selector of the page (no pseudo-class, no function)
 
     fun plain(text: String): String {
         val folded = Normalizer.normalize(text.lowercase().replace("œ", "oe"), Normalizer.Form.NFD).replace(Regex("\\p{Mn}+"), "")
@@ -128,6 +129,7 @@ object Adapt {
                 if (!ZONE.matches(zone)) continue
                 val allowed = zones.optJSONObject(zone)?.optJSONArray("modifiable")?.strings() ?: continue
                 val entry = result.getOrPut(zone) { JSONObject().put("zone", zone) }
+                zones.optJSONObject(zone)?.optString("selecteur")?.takeIf { SELECTOR.matches(it) }?.let { entry.put("selecteur", it) }
                 for (prop in listOf("texte", "couleur", "fond", "visible", "ordre", "variante")) {
                     if (!action.has(prop) || prop !in allowed) continue
                     when (prop) {
@@ -140,14 +142,14 @@ object Adapt {
                 }
             }
         }
-        return JSONArray(result.values.filter { it.length() > 1 })
+        return JSONArray(result.values.filter { it.length() > (if (it.has("selecteur")) 2 else 1) })
     }
 
     /** The script that applies the changes inside the page: a fixed text of the application with the changes as data (only text content and a few style properties are set, never markup). */
     fun script(ops: JSONArray): String {
         val data = ops.toString().replace("</", "<\\/").replace("\u2028", "\\u2028").replace("\u2029", "\\u2029")
-        return "(function(o){function q(z){return document.querySelectorAll('[data-aiwa-zone=\"'+z+'\"]')}" +
-            "o.forEach(function(p){q(p.zone).forEach(function(e){" +
+        return "(function(o){function q(p){try{return document.querySelectorAll(p.selecteur||('[data-aiwa-zone=\"'+p.zone+'\"]'))}catch(e){return[]}}" +
+            "o.forEach(function(p){q(p).forEach(function(e){" +
             "if(p.texte!=null)e.textContent=p.texte;if(p.couleur)e.style.color=p.couleur;if(p.fond)e.style.background=p.fond;if(p.visible===false)e.style.display='none';" +
             "if(p.variante){[].forEach.call(e.querySelectorAll('[data-aiwa-variant]'),function(v){v.style.display=v.getAttribute('data-aiwa-variant')===p.variante?'':'none'})}" +
             "if(p.ordre){p.ordre.forEach(function(id){var c=e.querySelector('[data-aiwa-item=\"'+id+'\"]');if(c)e.appendChild(c)})}" +

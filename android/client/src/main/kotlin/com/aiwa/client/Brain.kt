@@ -120,6 +120,12 @@ class Brain(private val net: Transport = HttpTransport()) {
     /** « Mon profil est adaptable » written in the `Profile/aiwa.json` of the person (the other keys of the file stay). */
     fun adaptPublish(on: Boolean): Outcome = act("/api/adapt/publish", JSONObject().put("adaptable", on), 60_000)
 
+    /** The rules of adaptation of her page, dictated: the list, and what can be done to one (the brain understands a sentence, writes the files in her repository by itself). */
+    fun adaptRules(): List<AdaptRule>? = getJson("/api/adapt/rules")?.optJSONArray("rules")?.objects()?.map { AdaptRule(it.optString("id"), it.optString("text"), it.optBoolean("on", true)) }
+    fun adaptRuleAdd(sentence: String): Outcome = act("/api/adapt/rule/add", JSONObject().put("sentence", sentence), 150_000)
+    /** `action`: on, off or remove. */
+    fun adaptRuleChange(id: String, action: String): Outcome = act("/api/adapt/rule/change", JSONObject().put("what", id).put("action", action), 120_000)
+
     fun liveSet(on: Boolean): Outcome = act("/api/live/set", JSONObject().put("on", on))
     fun liveEvents(): List<String> = getJson("/api/live/events")?.optJSONArray("events").strings()
 

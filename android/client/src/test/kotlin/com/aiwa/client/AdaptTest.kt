@@ -65,4 +65,14 @@ class AdaptTest {
         assertEquals(1, ops.length())
         assertEquals("offres", ops.getJSONObject(0).getString("zone"))
     }
+
+    @Test fun `a zone is found by the selector of the page when it has one, and a strange selector is not used`() {
+        val withSelector = JSONObject("""{"adaptable":true,"zones":{"titre":{"selecteur":"h1.titre","modifiable":["couleur"]},"intro":{"selecteur":"p:has(script)","modifiable":["couleur"]}}}""")
+        val rules = JSONObject("""{"regles":[{"si":{},"alors":[{"zone":"titre","couleur":"rouge"},{"zone":"intro","couleur":"bleu"}]}]}""")
+        val ops = Adapt.plan(withSelector, rules, JSONObject("{}"))
+        assertEquals(2, ops.length())
+        assertEquals("h1.titre", ops.getJSONObject(0).getString("selecteur"))
+        assertFalse(ops.getJSONObject(1).has("selecteur"))      // the pseudo-class is refused: that zone is found by its attribute instead
+        assertTrue(Adapt.script(ops).contains("p.selecteur"))
+    }
 }

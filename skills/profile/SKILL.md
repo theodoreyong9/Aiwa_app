@@ -34,14 +34,16 @@ Quand la personne demande de rétablir le défaut, de tout remettre à zéro ou 
 
 ## Adapter la page à celui qui la regarde
 
-Une page peut se réécrire pour chaque visiteur, **sur le téléphone du visiteur** (le propriétaire de la page ne voit jamais qui a regardé, ni quelle règle a joué). Trois choses à écrire dans `Profile/` :
+Une page peut se réécrire pour chaque visiteur, **sur le téléphone du visiteur** (le propriétaire de la page ne voit jamais qui a regardé, ni quelle règle a joué).
 
-1. **Les zones** : dans `index.html`, repère ce qui peut changer avec `data-aiwa-zone="titre"` (un nom court : lettres minuscules, chiffres, `-` et `_`). Pour réordonner des éléments, mets `data-aiwa-item="video"` sur chaque enfant ; pour des variantes, `data-aiwa-variant="rouge"` sur les enfants de la zone.
+**En général tu n'as rien à écrire** : la personne dicte ses règles à son super agent, et l'application comprend la phrase, garde la liste (Réglages, Adaptation) et écrit elle-même `Profile/adapt.json` et les zones de `Profile/aiwa.json`. Ne les réécris pas à la main sans qu'on te le demande, et ne supprime jamais les autres clés de `aiwa.json`. Si on te demande de les écrire quand même, voici le format :
+
+1. **Les zones** : une zone est une partie de la page, trouvée par un sélecteur simple (`"selecteur": "h1.titre"`) ou, à défaut, par `data-aiwa-zone="titre"` dans `index.html` (nom court : lettres minuscules, chiffres, `-` et `_`). Pour réordonner des éléments, mets `data-aiwa-item="video"` sur chaque enfant ; pour des variantes, `data-aiwa-variant="rouge"` sur les enfants de la zone.
 2. **`aiwa.json`** (le même fichier que la clé du wallet : ne supprime jamais ses autres clés) :
 ```json
 { "v": 1, "adaptable": true,
   "traits": { "couleurs": ["rouge"], "langues": ["fr"], "themes": ["video"], "roles": ["createur"], "ton": "sobre", "mode": "sombre", "lieu": "Lyon" },
-  "zones": { "titre": { "modifiable": ["texte", "couleur"] }, "intro": { "modifiable": ["texte", "visible"] }, "offres": { "modifiable": ["ordre"] } } }
+  "zones": { "titre": { "selecteur": "h1.titre", "modifiable": ["texte", "couleur"] }, "intro": { "modifiable": ["texte", "visible"] }, "offres": { "modifiable": ["ordre"] } } }
 ```
    `adaptable` est l'interrupteur de la personne (Réglages, Adaptation). `traits` dit qui elle est (clés fixes ; valeurs en minuscules). `zones` dit ce que les règles ont le droit de changer dans chaque zone : `texte`, `couleur`, `fond`, `visible`, `ordre`, `variante`.
 3. **`adapt.json`** : les règles. Chacune a une condition `si` sur ce que le visiteur laisse lire (`traits.couleurs`, `traits.langues`, `traits.themes`, `traits.roles`, `traits.ton`, `traits.mode`, `traits.lieu`, `description`) et des changements `alors`.
@@ -54,4 +56,4 @@ Une page peut se réécrire pour chaque visiteur, **sur le téléphone du visite
 ```
    Opérateurs : `egal`, `contient`, `parmi` (une liste), `present`, `absent` ; combinaisons `et`, `ou`, `non`. Les accents et les majuscules ne comptent pas. `{traits.themes.0}` ou `{description}` insèrent ce que le visiteur laisse lire ; s'il n'a rien laissé à cet endroit, le changement est ignoré. Les couleurs sont des noms (rouge, bleu, vert…) ou `#rrggbb`. Pas de code : seulement ces changements. Une règle qui touche une zone ou une propriété que la zone ne déclare pas est ignorée. Les règles plus bas gagnent sur celles plus haut. Dans la page adaptée, seules les images, polices et styles du dépôt sont chargés : pas de ressource d'un autre site.
 
-Quand la personne dicte une règle (« si le visiteur aime le rouge, mon titre devient rouge »), écris-la dans `adapt.json` (ajoute la zone dans `index.html` et dans `aiwa.json` si elle n'existe pas encore).
+Quand la personne te dicte une règle à toi (« si le visiteur aime le rouge, mon titre devient rouge »), écris-la dans `adapt.json` et déclare sa zone dans `aiwa.json` avec un sélecteur de la page : elle apparaîtra aussi dans la liste de l'application.

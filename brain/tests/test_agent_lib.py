@@ -148,6 +148,14 @@ class PressTest(unittest.TestCase):
         self.assertNotIn("Carnet", A.digest(snap)[0])
 
 
+class AdaptCommandTest(unittest.TestCase):
+    def test_the_rules_said_aloud_become_a_command_and_are_read_back(self):
+        out = A.parse_command({"adapt": {"add": "si le visiteur aime le rouge, mon titre devient rouge", "remove": "x{y}", "off": "rouge"}}, set())
+        self.assertEqual(out["adapt"], {"add": "si le visiteur aime le rouge, mon titre devient rouge", "off": "rouge"})
+        self.assertIn("règle d'adaptation", A.command_phrase(out))
+        self.assertIsNone(A.parse_command({"adapt": {"add": ""}}, set()))
+
+
 if __name__ == "__main__":
     unittest.main()
 

@@ -90,6 +90,18 @@ class BrainTest {
         assertEquals("""{"adaptable":true}""", net.asked.last { it.first == "/api/adapt/publish" }.second)
     }
 
+    @Test fun `the dictated rules are listed and changed by their identifier`() {
+        net.on("/api/adapt/rules", """{"ok":true,"rules":[{"id":"r1","text":"Titre rouge pour ceux qui aiment le rouge","on":true},{"id":"r2","text":"Texte anglais","on":false}]}""")
+        val rules = brain.adaptRules()!!
+        assertEquals(listOf("r1", "r2"), rules.map { it.id })
+        assertEquals(listOf(true, false), rules.map { it.on })
+        net.on("/api/adapt/rule/change", """{"ok":true,"count":1}""")
+        assertTrue(brain.adaptRuleChange("r1", "off").ok)
+        assertEquals("""{"what":"r1","action":"off"}""", net.asked.last { it.first == "/api/adapt/rule/change" }.second)
+        net.on("/api/adapt/rule/add", """{"ok":false,"error":"je n'ai pas compris cette règle"}""")
+        assertEquals("je n'ai pas compris cette règle", brain.adaptRuleAdd("blabla").error)
+    }
+
     @Test fun `a turn of the agent is spoken as it is written and ends with its outcome`() {
         net.streamLines = listOf("""{"s":"Je regarde."}""", """{"s":"Voilà."}""", """{"done":true,"ok":true,"error":null}""")
         val said = mutableListOf<String>()
