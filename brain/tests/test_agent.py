@@ -3,7 +3,7 @@ import json
 import unittest
 import unittest.mock
 
-from aiwa_brain import agent, agent_lib, config, files, sessions, state, repos
+from aiwa_brain import agent, agent_lib, config, docs, reports, files, sessions, state, repos
 
 
 def fresh():
@@ -116,6 +116,34 @@ class Turn(unittest.TestCase):
         with unittest.mock.patch.object(agent, "_model", return_value='{"say":"ok","do":{"press":"Supprimer tout"}}'):
             agent.converse_stream("raconte-moi quelque chose", lambda s: None)
         self.assertIsNone(agent.snapshot()["command"])
+
+    def test_a_question_about_the_application_brings_the_code_and_others_do_not(self):
+        asked = []
+        with unittest.mock.patch.object(docs, "fetch", side_effect=lambda path: f"contenu de {path}"):
+            self.assertEqual([p for p, _ in docs.lookup("comment je crée un scénario ?")][:2], ["skills/profile/SKILL.md", "brain/aiwa_brain/scen_lib.py"])
+            self.assertEqual(docs.lookup("quelle heure est-il"), [])
+            self.assertEqual(docs.lookup("comment ça marche")[0][0], "ARCHITECTURE.md")
+        reply = '{"say":"Voilà."}'
+
+        def model(system, history, user, **kw):
+            asked.append(user)
+            return reply
+        with unittest.mock.patch.object(docs, "fetch", return_value="LE CODE"), unittest.mock.patch.object(agent, "_model", side_effect=model):
+            agent.converse_stream("comment je crée un scénario ?", lambda s: None)
+        self.assertIn("Extraits du code d'Aiwa", asked[0])
+        self.assertIn("LE CODE", asked[0])
+
+    def test_the_answer_of_a_session_is_said_at_once_and_a_busy_agent_leaves_it_to_the_next_point(self):
+        said = []
+        with unittest.mock.patch.object(agent, "converse", side_effect=lambda spoken, *a, **k: said.append(spoken) or {"ok": True}):
+            self.assertTrue(reports.report_set({"state": "answer", "text": "Le mot est dans agent_lib."}, "session_A1"))
+            self.assertIn("Le mot est dans agent_lib.", said[0])
+            reports.report_set({"state": "progress", "text": "avance"}, "session_A1")
+            self.assertEqual(len(said), 1)      # only an answer is said
+            state.agent["busy"] = True
+            reports.report_set({"state": "answer", "text": "autre"}, "session_A1")
+            state.agent["busy"] = False
+            self.assertEqual(len(said), 1)
 
     def test_a_turn_with_no_model_says_so_and_does_not_stay_busy(self):
         self.run_turn(None)

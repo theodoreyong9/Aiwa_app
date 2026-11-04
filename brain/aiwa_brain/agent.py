@@ -5,7 +5,7 @@ import subprocess
 import threading
 import time
 
-from . import agent_lib, asks, config, diagram, memory, warm, instructions, files, github, llm_lib, profile_lib, repos, scen_lib, sessions, state
+from . import agent_lib, asks, config, diagram, docs, memory, warm, instructions, files, github, llm_lib, profile_lib, repos, scen_lib, sessions, state
 
 _cache = {}      # ("age", repo, branch) / ("ci", repo) -> (time, value): GitHub is asked at most once in two minutes for the same thing
 CACHE_SECONDS = 120
@@ -93,7 +93,7 @@ def point(report=False, spoken=None):
     snap = {
         "pills": {"repo": current_repo, "session": current, "direct": direct, "profile": profile_lib.repo()},
         "sessions": listed, "repos": repos.names(), "productions": files.summary(), "scenarios": [scen_lib.public(s) for s in scen_lib.load(config.SCENARIOS_FILE)],
-        "chamber": chamber, "asks": titles, "extra": extra, "screen": dict(state.screen), "memory": memory.recent(), "memory_found": memory.search(spoken), "memory_count": memory.count(),
+        "chamber": chamber, "asks": titles, "extra": extra, "screen": dict(state.screen), "memory": memory.recent(), "memory_found": memory.search(spoken), "memory_count": memory.count(), "docs": docs.lookup(spoken),
     }
     return agent_lib.digest(snap)
 
@@ -526,3 +526,15 @@ def spoken(say_id):
         if state.agent["say"] and state.agent["say"]["id"] == say_id:
             state.agent["say"]["spoken"] = True
     return {"ok": True}
+
+
+def session_answered(text):
+    """A session answered a quick question (« [Aiwa — question rapide] »): the agent says it at once, in its own words. When it is busy, the line is in its next point anyway."""
+    with state.agent_lock:
+        if state.agent["busy"]:
+            return
+    converse("[Aiwa — une session a répondu à ta question rapide : « " + " ".join(str(text).split())[:200] + " ». Dis-le à la personne, brièvement.]")
+
+
+from . import reports  # noqa: E402  (after the function it hands to it)
+reports.on_answer = session_answered
