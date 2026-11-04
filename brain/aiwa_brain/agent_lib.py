@@ -68,11 +68,12 @@ def schema():
     return (
         '{"say":"<ce que tu dis à voix haute, une ou deux phrases courtes>",'
         '"send":[{"repo":"<propriétaire/nom du dépôt>","session":"<session_… si tu vises une session précise>","message":"<le message à lui envoyer>"}],'
-        '"do":{"repo":"<propriétaire/nom>","session":"<session_… ou nouvelle>","open":"<' + OPEN_LIST + '>","cast":{"tv":"<nom de la TV, ou vide>","wait":false},"persona":{"style":"<neutre, vanneur, chaleureux ou sec>","game":true,"restart":false},"shot":{"prompt":"<le plan à fabriquer, concret>","source":"<hf, stock ou auto>"},"film":{"kind":"<me, product ou both>","direction":"<ce que la personne veut voir, ses mots>","says":"<ses paroles, ou vide>","seconds":0,"aspect":"<9:16, 16:9 ou 1:1>","me":["<noms des photos jointes qui sont elle>"],"product":["<noms des photos jointes du produit>"]},"extra":"<consigne durable donnée aux sessions, ou vide pour l\'effacer>","rename":{"session":"<session_… ou vide pour la session en cours>","title":"<nouveau nom>"},"model":"<opus, sonnet, haiku, un identifiant, ou auto>","effort":"<low, medium, high, xhigh, max, ou auto>","push":"<direct ou branche>","press":"<nom exact d\'un bouton de sa page, ou vide>"},"remember":"<une note courte à garder, seulement si la personne demande de retenir quelque chose, sinon vide>","forget":"<mots de la note à oublier, ou all, seulement si la personne demande d\'oublier>"}'
+        '"do":{"repo":"<propriétaire/nom>","session":"<session_… ou nouvelle>","open":"<' + OPEN_LIST + '>","cast":{"tv":"<nom de la TV, ou vide>","wait":false},"persona":{"style":"<neutre, vanneur, chaleureux ou sec>","game":true,"restart":false},"shot":{"prompt":"<le plan à fabriquer, concret>","source":"<hf, stock ou auto>"},"film":{"kind":"<me, product ou both>","direction":"<ce que la personne veut voir, ses mots>","says":"<ses paroles, ou vide>","seconds":0,"aspect":"<9:16, 16:9 ou 1:1>","me":["<noms des photos jointes qui sont elle>"],"product":["<noms des photos jointes du produit>"]},"extra":"<consigne durable donnée aux sessions, ou vide pour l\'effacer>","rename":{"session":"<session_… ou vide pour la session en cours>","title":"<nouveau nom>"},"model":"<opus, sonnet, haiku, un identifiant, ou auto>","effort":"<low, medium, high, xhigh, max, ou auto>","push":"<direct ou branche>","press":"<nom exact d\'un bouton de sa page, ou vide>","find":"<ce qu\'elle cherche comme profils GitHub, ses mots, ou vide>"},"remember":"<une note courte à garder, seulement si la personne demande de retenir quelque chose, sinon vide>","forget":"<mots de la note à oublier, ou all, seulement si la personne demande d\'oublier>"}'
     )
 
 
 ROLE = (
+    "Quand elle te demande de CHERCHER des profils (« trouve-moi des vidéastes », « cherche des gens qui font du produit »), mets ses mots dans `do.find` : le Swipe s'ouvre avec ce qui est trouvé sur GitHub. "
     "Quand elle te pose une question sur l'application elle-même, le point contient des extraits du vrai code d'Aiwa : réponds d'après eux, simplement. Si la question demande une VRAIE enquête que ces extraits ne suffisent pas à régler (pourquoi tu n'as pas compris une phrase, ce qui ne marche pas), `send` à la session en cours (celle des pastilles) une question rapide en lecture seule : « [Aiwa — question rapide] lis le dépôt public theodoreyong9/Aiwa_app (ne modifie rien, ne pousse rien) et réponds en une phrase : … Juste réponds », puis dis seulement que tu réfléchis ; sa réponse te reviendra et tu la diras. "
     "Quand une page est à l'écran, le point liste ses boutons : si elle demande d'en appuyer un, mets son nom exact dans `do.press`. N'appuie jamais de toi-même. "
     "Tu as une mémoire : quand la personne te demande de retenir quelque chose (« retiens que… », « n'oublie pas… »), mets une note courte dans `remember` ; quand elle demande d'oublier, mets les mots de la note (ou all) dans `forget`. Les dernières notes sont dans le point, sous « Mémoire » ; quand elle te demande si tu te rappelles, les notes retrouvées sont sous « Notes retrouvées » : réponds avec elles, et si rien ne correspond dis que tu ne sais pas. Sans demande claire, ne retiens rien. "
@@ -250,6 +251,11 @@ def parse_command(raw, known_ids):
             out["effort"] = ""
         elif value in config.EFFORT_LEVELS:
             out["effort"] = value
+    find = raw.get("find")
+    if isinstance(find, str) and find.strip():
+        text = _clean(find, 120)
+        if not UNSAFE_RE.search(text):
+            out["find"] = text      # a search of profiles for the Swipe
     press = raw.get("press")
     if isinstance(press, str) and press.strip():
         name = control_named(press)
@@ -350,6 +356,8 @@ def command_phrase(command, title_of=lambda x: x):
         spoken.append("nouvelle session" if command["session"].lower() in ("nouvelle", "new") else f"session {title_of(command['session'])}")
     if command.get("open"):
         spoken.append("ouvrir " + OPEN_SPOKEN.get(command["open"], command["open"]))
+    if command.get("find"):
+        spoken.append(f"chercher des profils : {command['find']}")
     if command.get("press"):
         spoken.append(f"appuyer sur « {command['press']} »")
     cast = command.get("cast")

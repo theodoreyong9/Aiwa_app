@@ -72,6 +72,14 @@ class BrainTest {
         assertFalse(brain.answerStream("rien", {}))
     }
 
+    @Test fun `profiles found for a sentence come back as a list or as a sentence to say`() {
+        net.on("/api/find", """{"ok":true,"repos":["a/p","b/p"],"terms":["video"]}""")
+        assertEquals(listOf("a/p", "b/p") to null, brain.findProfiles("des vidéastes"))
+        net.on("/api/find", """{"ok":false,"repos":[],"error":"GitHub limite les recherches"}""")
+        assertEquals(emptyList<String>() to "GitHub limite les recherches", brain.findProfiles("x"))
+        assertEquals("""{"query":"x"}""", net.asked.last { it.first == "/api/find" }.second)
+    }
+
     @Test fun `a turn of the agent is spoken as it is written and ends with its outcome`() {
         net.streamLines = listOf("""{"s":"Je regarde."}""", """{"s":"Voilà."}""", """{"done":true,"ok":true,"error":null}""")
         val said = mutableListOf<String>()

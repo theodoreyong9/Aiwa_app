@@ -104,6 +104,19 @@ class ProfileActivity : ComponentActivity(), com.aiwa.app.nav.VoiceNav {
             background = GradientDrawable().apply { setColor(Color.parseColor("#99000000")); cornerRadius = dp(14).toFloat() }
         }
         root.addView(chip, FrameLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT, Gravity.TOP or Gravity.CENTER_HORIZONTAL).apply { topMargin = dp(8) })
+        searchBox = LinearLayout(this).apply {
+            orientation = LinearLayout.HORIZONTAL; gravity = Gravity.CENTER_VERTICAL; visibility = android.view.View.GONE
+            setPadding(dp(14), dp(4), dp(6), dp(4))
+            background = GradientDrawable().apply { setColor(Color.parseColor("#EE16192F")); cornerRadius = dp(22).toFloat(); setStroke(dp(1), Color.parseColor("#44FFFFFF")) }
+        }
+        searchField = android.widget.EditText(this).apply {
+            hint = "Cherche des profils… (ex. vidéastes qui font du produit)"; setHintTextColor(Color.parseColor("#99FFFFFF")); setTextColor(Color.WHITE); textSize = 15f
+            background = null; setSingleLine(); inputType = android.text.InputType.TYPE_CLASS_TEXT; imeOptions = android.view.inputmethod.EditorInfo.IME_ACTION_SEARCH
+            setOnEditorActionListener { v, action, _ -> if (action == android.view.inputmethod.EditorInfo.IME_ACTION_SEARCH) { runSearch(v.text.toString()); true } else false }
+        }
+        searchBox!!.addView(searchField, LinearLayout.LayoutParams(0, ViewGroup.LayoutParams.WRAP_CONTENT, 1f))
+        searchBox!!.addView(TextView(this).apply { text = "✕"; setTextColor(Color.WHITE); textSize = 16f; setPadding(dp(12), dp(8), dp(12), dp(8)); setOnClickListener { toggleSearch() } })
+        root.addView(searchBox, FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT, Gravity.TOP).apply { setMargins(dp(10), dp(8), dp(10), 0) })
         this.root = root
         collector = com.aiwa.app.voir.ZoneCollector(this, root)
         applyBar(BarConfig.last)
@@ -118,6 +131,7 @@ class ProfileActivity : ComponentActivity(), com.aiwa.app.nav.VoiceNav {
         built = true
         updateChrome()
         refreshKeys()
+        intent.getStringExtra(EXTRA_FIND)?.let { q -> root.post { runSearch(q) } }
         BarConfig.load(ProfileSettings.repo(this), null, builtinKeys().keys) { entries -> runOnUiThread { if (!isFinishing && !isDestroyed) applyBar(entries) } }
         // the profiles of the zone are noted in the background by small groups, nothing is ranked on its own: « Rang » shows what is known
         noteAround()
@@ -140,6 +154,8 @@ class ProfileActivity : ComponentActivity(), com.aiwa.app.nav.VoiceNav {
     }
 
     private lateinit var root: FrameLayout
+    private var searchBox: LinearLayout? = null
+    private var searchField: android.widget.EditText? = null
     private var barView: android.view.View? = null
     private var built = false      // the window is complete: the keys may ask about the profile on the screen
 
@@ -155,6 +171,7 @@ class ProfileActivity : ComponentActivity(), com.aiwa.app.nav.VoiceNav {
         "cafe" to ProfileBar.Spec("☕", "Café", ProfileBar.GOLD) { coffee() },
         "zone" to ProfileBar.Spec("⤴", "Jump", ProfileBar.VIOLET) { swipeIn() },
         "mur" to ProfileBar.Spec("🏆", "Mur", ProfileBar.GREEN) { wall() },
+        "chercher" to ProfileBar.Spec("🔍", "Chercher", ProfileBar.VIOLET) { toggleSearch() },
         "scan" to ProfileBar.Spec("🛡", "Scan", ProfileBar.GREEN) { scan() },
         "confiance" to ProfileBar.Spec("🔒", "Fermé", ProfileBar.WHITE) { toggleTrust() },
         "widget" to ProfileBar.Spec("✦", "Widget", ProfileBar.WHITE) { pages[pager.currentItem]?.let { HomeRuntime.openPanel(it) } },
@@ -193,7 +210,7 @@ class ProfileActivity : ComponentActivity(), com.aiwa.app.nav.VoiceNav {
         return "Fermé."
     }
 
-    private fun defaultKeys() = if (isOwn()) listOf("favoris", "reseau", "mur", "widget") else listOfNotNull("favoris", "swipe", "scan", "confiance", "match", "widget", if (urls.size > 1) "rang" else null)
+    private fun defaultKeys() = if (isOwn()) listOf("chercher", "favoris", "reseau", "mur", "widget") else listOfNotNull("chercher", "favoris", "swipe", "scan", "confiance", "match", "widget", if (urls.size > 1) "rang" else null)
 
     private fun applyBar(entries: List<com.aiwa.client.BarEntry>?) {
         val (specs, ids) = BarConfig.resolve(this, entries, builtinKeys(), defaultKeys())
@@ -202,6 +219,43 @@ class ProfileActivity : ComponentActivity(), com.aiwa.app.nav.VoiceNav {
         barView = bar.view
         root.addView(bar.view, FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT, Gravity.BOTTOM))
         if (built) refreshKeys()
+    }
+
+    /** The search bar of the Swipe: shown or hidden (the keyboard follows). */
+    private fun toggleSearch() {
+        val box = searchBox ?: return
+        val imm = getSystemService(android.view.inputmethod.InputMethodManager::class.java)
+        if (box.visibility == android.view.View.VISIBLE) {
+            box.visibility = android.view.View.GONE
+            imm?.hideSoftInputFromWindow(box.windowToken, 0)
+        } else {
+            box.visibility = android.view.View.VISIBLE
+            searchField?.let { it.requestFocus(); imm?.showSoftInput(it, android.view.inputmethod.InputMethodManager.SHOW_IMPLICIT) }
+        }
+    }
+
+    /** Looks for profiles on GitHub from a sentence (typed in the bar, or said to the super agent) and swipes through what is found; back is the usual right drag. */
+    private fun runSearch(query: String) {
+        val q = query.trim()
+        if (q.isEmpty()) return
+        searchBox?.let { box -> box.visibility = android.view.View.GONE; getSystemService(android.view.inputmethod.InputMethodManager::class.java)?.hideSoftInputFromWindow(box.windowToken, 0) }
+        toastOnMain(this, "Je cherche « $q » sur GitHub…")
+        CoroutineScope(Dispatchers.Main).launch {
+            val (found, said) = withContext(Dispatchers.IO) { try { Aiwa.brain.findProfiles(q) } catch (err: Exception) { emptyList<String>() to "Le cerveau ne répond pas." } }
+            val own = ProfileSettings.repo(this@ProfileActivity)
+            val deck = found.filter { ProfileView.valid(it) && !it.equals(own, ignoreCase = true) }
+            if (deck.isEmpty()) { toastOnMain(this@ProfileActivity, said ?: "Aucun profil trouvé pour « $q »."); return@launch }
+            stack.add(Level(urls, pubs, pager.currentItem))
+            setDeck(deck, MutableList(deck.size) { "" }, 0)
+            updateChrome()
+            toastOnMain(this@ProfileActivity, "${deck.size} profil${if (deck.size > 1) "s" else ""} pour « $q ».")
+        }
+    }
+
+    override fun onNewIntent(intent: Intent) {
+        super.onNewIntent(intent)
+        setIntent(intent)
+        intent.getStringExtra(EXTRA_FIND)?.let { runSearch(it) }
     }
 
     /** The star: the profile on the screen is kept (or let go) among the favourites. */
@@ -444,6 +498,7 @@ class ProfileActivity : ComponentActivity(), com.aiwa.app.nav.VoiceNav {
         val own = on && isOwn()
         if (repo != ScreenNow.repo) { ScreenNow.controls = org.json.JSONArray(); controlsSeen = "" }      // another page: its buttons are read again
         ScreenNow.repo = repo; ScreenNow.own = own
+        ScreenNow.find = if (on) ({ q -> runOnUiThread { runSearch(q) } }) else null
         ScreenNow.reload = if (on) ({ runOnUiThread { pages[pager.currentItem]?.let { w -> ProfileView.load(w, urls.getOrNull(pager.currentItem)); refreshKeys() } } }) else null
         Thread { try { com.aiwa.app.brain.Aiwa.brain.screen(repo, own, ScreenNow.controls) } catch (err: Exception) { } }.start()
     }
@@ -557,6 +612,7 @@ class ProfileActivity : ComponentActivity(), com.aiwa.app.nav.VoiceNav {
         const val EXTRA_URLS = "urls"
         const val EXTRA_INDEX = "index"
         const val EXTRA_PUBS = "pubs"
+        const val EXTRA_FIND = "find"           // a search of profiles to run at once (said to the super agent)
         const val EXTRA_HOME = "home"           // the home of the application: her own profile first, then her zone
         fun homeIntent(context: Context): Intent = Intent(context, ProfileActivity::class.java).putExtra(EXTRA_HOME, true).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP)
         const val EXTRA_FAVORITES = "favorites"     // the deck is the favourites
