@@ -1,0 +1,1035 @@
+{
+  "url": "https://a24.raviklaassens.com/",
+  "at": "2026-10-29T12:55:49.004Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 33226,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 660,
+      "typography": {
+        "families": [
+          [
+            "Ppneuemontreal",
+            6
+          ],
+          [
+            "Ppeiko",
+            2
+          ]
+        ],
+        "weights": [
+          [
+            "500",
+            6
+          ],
+          [
+            "400",
+            2
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            2
+          ]
+        ],
+        "sizeMin": 13.5,
+        "sizeMedian": 13.5,
+        "sizeMax": 72,
+        "sizeMaxVw": 5,
+        "scaleRatio": 5.3,
+        "letterSpacingMean": -0.029,
+        "loadedFonts": [
+          {
+            "family": "Ppneuemontreal",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "Ppmuseum",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Ppeiko",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Ppneuemontreal",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "Ppmuseum",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Ppeiko",
+            "weight": "400",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 8
+      },
+      "color": {
+        "background": "rgb(242, 242, 242)",
+        "backgroundLuminance": 0.8879231178819662,
+        "backgrounds": [
+          [
+            "rgb(242, 242, 242)",
+            1296
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(0, 0, 0)",
+            50
+          ]
+        ],
+        "meanSaturation": 0,
+        "rootVars": {
+          "--_theme---background": "var(--_colors---swatch--white)",
+          "--_paragraphs---paragraph-regular--font": "var(--_fonts---fonts--paragraph)",
+          "--_theme---body-text": "var(--_colors---swatch--black)",
+          "--_paragraphs---paragraph-regular--line-height": "1.4em",
+          "--_paragraphs---paragraph-regular--font-weight": "var(--_fonts---font-weight--medium)",
+          "--_paragraphs---paragraph-regular--letter-spacing": "-.025em",
+          "--_fonts---fonts--heading": "Ppeiko, Arial, sans-serif",
+          "--_headings---heading-xxl--font-size": "var(--_sizes---size--160px)",
+          "--_headings---heading-xxl--line-height": "1em",
+          "--_headings---heading-xxl--font-weight": "var(--_fonts---font-weight--normal)",
+          "--_headings---heading-xxl--letter-spacing": "-.04em",
+          "--_headings---heading-xl--font": "var(--_fonts---fonts--heading)",
+          "--_headings---heading-xl--font-size": "var(--_sizes---size--128px)",
+          "--_headings---heading-xl--font-weight": "var(--_fonts---font-weight--normal)",
+          "--_headings---heading-xl--letter-spacing": "-.04em",
+          "--_headings---heading-l--font": "var(--_fonts---fonts--heading)",
+          "--_headings---heading-l--font-size": "var(--_sizes---size--96px)",
+          "--_headings---heading-xl--line-height": "1.2em",
+          "--_headings---heading-l--font-weight": "var(--_fonts---font-weight--normal)",
+          "--_headings---heading-l--letter-spacing": "-.04em",
+          "--_headings---heading-m--font": "var(--_fonts---fonts--heading)",
+          "--_headings---heading-m--font-size": "var(--_sizes---size--56px)",
+          "--_headings---heading-m--line-height": "1em",
+          "--_headings---heading-m--font-weight": "var(--_fonts---font-weight--normal)",
+          "--_headings---heading-m--letter-spacing": "-.04em",
+          "--_headings---heading-s--font": "var(--_fonts---fonts--heading)",
+          "--_headings---heading-s--font-size": "var(--_sizes---size--40px)",
+          "--_headings---heading-s--line-height": "1.1em",
+          "--_headings---heading-s--font-weight": "var(--_fonts---font-weight--normal)",
+          "--_headings---heading-s--letter-spacing": "-.04em",
+          "--_headings---heading-xs--font": "var(--_fonts---fonts--heading)",
+          "--_headings---heading-xs--font-size": "var(--_sizes---size--28px)",
+          "--_headings---heading-xs--line-height": "1.1em",
+          "--_headings---heading-xs--font-weight": "var(--_fonts---font-weight--normal)",
+          "--_headings---heading-xs--letter-spacing": "-.04em",
+          "--color-mode-default--body-text<deleted|variable-cb61a870-d154-a6fe-c8a0-f25e0e5af2eb>": "var(--swatch--gunmetal\\<deleted\\|variable-7aae26b0-9412-ed86-55f6-0d55abbd998f\\>)",
+          "--_layout---padding-global--page-padding": "2em",
+          "--_layout---padding-global--tablet<deleted|variable-a729b81a-e434-9b17-3dd4-232b48219fba>": "1.5em",
+          "--_layout---padding-global--mobile<deleted|variable-c1796e7f-e37f-9814-266d-d39e03ff04a2>": "1rem",
+          "--_sizes---size--96px": "6em"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 6,
+        "sticky": 0,
+        "fixed": 8,
+        "grid": 7,
+        "flex": 53,
+        "absolute": 50,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 900,
+        "pages": 1,
+        "spacing": [
+          [
+            3,
+            16
+          ],
+          [
+            1,
+            12
+          ],
+          [
+            6,
+            9
+          ],
+          [
+            7,
+            5
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            20,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 1,
+        "animationKinds": [
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 1,
+        "animationDurations": [
+          600
+        ],
+        "easings": [
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            300,
+            276
+          ],
+          [
+            200,
+            14
+          ],
+          [
+            140,
+            12
+          ],
+          [
+            400,
+            7
+          ],
+          [
+            460,
+            4
+          ]
+        ],
+        "keyframes": [
+          "spin",
+          "nav-loading-spin",
+          "grain",
+          "btn-film-jitter",
+          "btn-film-wiggle",
+          "nav-plate-jitter",
+          "nav-text-jitter",
+          "scroll-next-hint"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": true
+      },
+      "hiddenElements": 16,
+      "media": {
+        "canvases": [
+          {
+            "w": 1440,
+            "h": 900,
+            "area": 1
+          }
+        ],
+        "videos": [],
+        "svg": 18,
+        "images": 0,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 2,
+          "2d": 13
+        },
+        "raf": 141,
+        "io": 1,
+        "ro": 3,
+        "mo": 2,
+        "startViewTransition": 0,
+        "workers": 1,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": true,
+        "ScrollTrigger": true,
+        "THREE": true,
+        "Lenis": true,
+        "PIXI": false,
+        "anime": false,
+        "barba": true,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": true,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "A24 — Films",
+      "lang": "en",
+      "description": "Explore A24's acclaimed film catalog featuring award-winning independent cinema from visionary directors. Discover upcoming releases and praised movies."
+    },
+    "featuresBeforeScroll": {
+      "elements": 660,
+      "canvases": 1,
+      "animations": 1,
+      "hidden": 16
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 6,
+      "changed": 0
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 8637252,
+        "layoutCount": 99,
+        "recalcStyleCount": 363,
+        "scriptDuration": 0.792465,
+        "taskDuration": 32.100856,
+        "nodes": 2052
+      },
+      "timing": {
+        "domContentLoaded": 416,
+        "load": 738,
+        "first-paint": 548,
+        "first-contentful-paint": 548
+      }
+    },
+    "network": [
+      {
+        "url": "https://a24.raviklaassens.com/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 8364
+      },
+      {
+        "url": "https://a24.raviklaassens.com/fonts/PPNeueMontreal-Medium.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 84038
+      },
+      {
+        "url": "https://a24.raviklaassens.com/fonts/PPEiko-Regular.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 117461
+      },
+      {
+        "url": "https://cloud.umami.is/script.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4711
+      },
+      {
+        "url": "https://a24.raviklaassens.com/_astro/ExportPage.DV5vD961.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 27781
+      },
+      {
+        "url": "https://a24.raviklaassens.com/_astro/ExportPage.astro_astro_type_script_index_0_lang.DQlUkOwJ.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 552
+      },
+      {
+        "url": "https://a24.raviklaassens.com/_astro/preload-helper.CxFQXtKk.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1229
+      },
+      {
+        "url": "https://a24.raviklaassens.com/_astro/bootstrap.dru0MhUJ.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 67500
+      },
+      {
+        "url": "https://a24.raviklaassens.com/images/noise_1noise.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 36196
+      },
+      {
+        "url": "https://a24.raviklaassens.com/fonts/PPMuseum-Regular.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 51006
+      },
+      {
+        "url": "https://a24.raviklaassens.com/_astro/three.module.CFOTFKy5.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 5099
+      },
+      {
+        "url": "https://a24.raviklaassens.com/_astro/three.module.B1_OyRqk.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 171646
+      },
+      {
+        "url": "https://a24.raviklaassens.com/_astro/RectAreaLightUniformsLib.DJtkkHJU.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 103783
+      },
+      {
+        "url": "https://a24.raviklaassens.com/_astro/main.qdXy8l6N.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 83666
+      },
+      {
+        "url": "blob:https://a24.raviklaassens.com/e8cc1820-3e7f-4a3d-aca3-428817e79ed3",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "https://gateway.umami.is/api/send",
+        "method": "OPTIONS",
+        "type": "OTHER",
+        "initiator": "preflight",
+        "status": 200,
+        "mime": "",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://gateway.umami.is/api/send",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 639
+      },
+      {
+        "url": "https://raviklaassens.b-cdn.net/a24/films/backrooms/disc.webp?v=7",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 185303
+      },
+      {
+        "url": "https://raviklaassens.b-cdn.net/a24/films/the-invite/disc.webp?v=7",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 139726
+      },
+      {
+        "url": "https://raviklaassens.b-cdn.net/a24/films/tony/disc.webp?v=7",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 169006
+      },
+      {
+        "url": "https://raviklaassens.b-cdn.net/a24/films/marty-supreme/disc.webp?v=7",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 168058
+      },
+      {
+        "url": "https://raviklaassens.b-cdn.net/a24/films/the-smashing-machine/disc.webp?v=7",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 86653
+      },
+      {
+        "url": "https://raviklaassens.b-cdn.net/a24/films/the-brutalist/disc.webp?v=7",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 179205
+      },
+      {
+        "url": "https://raviklaassens.b-cdn.net/a24/films/the-zone-of-interest/disc.webp?v=7",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 133690
+      },
+      {
+        "url": "https://a24.raviklaassens.com/production/backrooms",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 16476
+      },
+      {
+        "url": "https://a24.raviklaassens.com/",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 8146
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "grain",
+        "duration": 600,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.32, 0.72, 0, 1)"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0702000FC0E0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x11f400130a00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x11f400130a00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0A02000FC0E0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x11f400130a00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x11f400130a00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+      }
+    ],
+    "exceptions": [],
+    "failed": [],
+    "targets": {
+      "frames": 1,
+      "workers": 1
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 7680,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 660,
+      "typography": {
+        "families": [
+          [
+            "Ppeiko",
+            2
+          ],
+          [
+            "Ppneuemontreal",
+            1
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            2
+          ],
+          [
+            "500",
+            1
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            2
+          ]
+        ],
+        "sizeMin": 13.0271,
+        "sizeMedian": 35.8246,
+        "sizeMax": 35.8246,
+        "sizeMaxVw": 9.2,
+        "scaleRatio": 1,
+        "letterSpacingMean": -0.035,
+        "loadedFonts": [
+          {
+            "family": "Ppneuemontreal",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "Ppmuseum",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Ppeiko",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Ppneuemontreal",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "Ppmuseum",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Ppeiko",
+            "weight": "400",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 3
+      },
+      "color": {
+        "background": "rgb(242, 242, 242)",
+        "backgroundLuminance": 0.8879231178819662,
+        "backgrounds": [
+          [
+            "rgb(242, 242, 242)",
+            329
+          ],
+          [
+            "rgb(255, 255, 255)",
+            8
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(0, 0, 0)",
+            32
+          ]
+        ],
+        "meanSaturation": 0,
+        "rootVars": {
+          "--_theme---background": "var(--_colors---swatch--white)",
+          "--_paragraphs---paragraph-regular--font": "var(--_fonts---fonts--paragraph)",
+          "--_theme---body-text": "var(--_colors---swatch--black)",
+          "--_paragraphs---paragraph-regular--line-height": "1.4em",
+          "--_paragraphs---paragraph-regular--font-weight": "var(--_fonts---font-weight--medium)",
+          "--_paragraphs---paragraph-regular--letter-spacing": "-.025em",
+          "--_fonts---fonts--heading": "Ppeiko, Arial, sans-serif",
+          "--_headings---heading-xxl--font-size": "var(--_sizes---size--160px)",
+          "--_headings---heading-xxl--line-height": "1em",
+          "--_headings---heading-xxl--font-weight": "var(--_fonts---font-weight--normal)",
+          "--_headings---heading-xxl--letter-spacing": "-.04em",
+          "--_headings---heading-xl--font": "var(--_fonts---fonts--heading)",
+          "--_headings---heading-xl--font-size": "var(--_sizes---size--128px)",
+          "--_headings---heading-xl--font-weight": "var(--_fonts---font-weight--normal)",
+          "--_headings---heading-xl--letter-spacing": "-.04em",
+          "--_headings---heading-l--font": "var(--_fonts---fonts--heading)",
+          "--_headings---heading-l--font-size": "var(--_sizes---size--96px)",
+          "--_headings---heading-xl--line-height": "1.2em",
+          "--_headings---heading-l--font-weight": "var(--_fonts---font-weight--normal)",
+          "--_headings---heading-l--letter-spacing": "-.04em",
+          "--_headings---heading-m--font": "var(--_fonts---fonts--heading)",
+          "--_headings---heading-m--font-size": "var(--_sizes---size--56px)",
+          "--_headings---heading-m--line-height": "1em",
+          "--_headings---heading-m--font-weight": "var(--_fonts---font-weight--normal)",
+          "--_headings---heading-m--letter-spacing": "-.04em",
+          "--_headings---heading-s--font": "var(--_fonts---fonts--heading)",
+          "--_headings---heading-s--font-size": "var(--_sizes---size--40px)",
+          "--_headings---heading-s--line-height": "1.1em",
+          "--_headings---heading-s--font-weight": "var(--_fonts---font-weight--normal)",
+          "--_headings---heading-s--letter-spacing": "-.04em",
+          "--_headings---heading-xs--font": "var(--_fonts---fonts--heading)",
+          "--_headings---heading-xs--font-size": "var(--_sizes---size--28px)",
+          "--_headings---heading-xs--line-height": "1.1em",
+          "--_headings---heading-xs--font-weight": "var(--_fonts---font-weight--normal)",
+          "--_headings---heading-xs--letter-spacing": "-.04em",
+          "--color-mode-default--body-text<deleted|variable-cb61a870-d154-a6fe-c8a0-f25e0e5af2eb>": "var(--swatch--gunmetal\\<deleted\\|variable-7aae26b0-9412-ed86-55f6-0d55abbd998f\\>)",
+          "--_layout---padding-global--page-padding": "2em",
+          "--_layout---padding-global--tablet<deleted|variable-a729b81a-e434-9b17-3dd4-232b48219fba>": "1.5em",
+          "--_layout---padding-global--mobile<deleted|variable-c1796e7f-e37f-9814-266d-d39e03ff04a2>": "1rem",
+          "--_sizes---size--96px": "6em"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 6,
+        "sticky": 0,
+        "fixed": 7,
+        "grid": 4,
+        "flex": 53,
+        "absolute": 51,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 844,
+        "pages": 1,
+        "spacing": [
+          [
+            8,
+            16
+          ],
+          [
+            1,
+            12
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            7,
+            5
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            21,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 1,
+        "animationKinds": [
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 1,
+        "animationDurations": [
+          600
+        ],
+        "easings": [
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            300,
+            275
+          ],
+          [
+            200,
+            14
+          ],
+          [
+            140,
+            12
+          ],
+          [
+            400,
+            7
+          ],
+          [
+            460,
+            5
+          ]
+        ],
+        "keyframes": [
+          "spin",
+          "nav-loading-spin",
+          "grain",
+          "btn-film-jitter",
+          "btn-film-wiggle",
+          "nav-plate-jitter",
+          "nav-text-jitter",
+          "scroll-next-hint"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": true
+      },
+      "hiddenElements": 14,
+      "media": {
+        "canvases": [
+          {
+            "w": 585,
+            "h": 1266,
+            "area": 1
+          }
+        ],
+        "videos": [],
+        "svg": 18,
+        "images": 0,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 2,
+          "2d": 12
+        },
+        "raf": 173,
+        "io": 1,
+        "ro": 3,
+        "mo": 2,
+        "startViewTransition": 0,
+        "workers": 1,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": true,
+        "ScrollTrigger": true,
+        "THREE": true,
+        "Lenis": true,
+        "PIXI": false,
+        "anime": false,
+        "barba": true,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": true,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "A24 — Films",
+      "lang": "en",
+      "description": "Explore A24's acclaimed film catalog featuring award-winning independent cinema from visionary directors. Discover upcoming releases and praised movies."
+    },
+    "featuresBeforeScroll": {
+      "elements": 660,
+      "canvases": 1,
+      "animations": 1,
+      "hidden": 14
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 7700372,
+        "layoutCount": 77,
+        "recalcStyleCount": 210,
+        "scriptDuration": 1.00122,
+        "taskDuration": 6.96307,
+        "nodes": 2637
+      },
+      "timing": {
+        "domContentLoaded": 239,
+        "load": 272,
+        "first-paint": 220,
+        "first-contentful-paint": 296
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "grain",
+        "duration": 600,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "width",
+        "duration": 460,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.32, 0.72, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "width",
+        "duration": 460,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.32, 0.72, 0, 1)"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0702000FC0E0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0A02000FC0E0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      }
+    ],
+    "exceptions": [],
+    "failed": [],
+    "targets": {
+      "frames": 1,
+      "workers": 1
+    }
+  }
+}

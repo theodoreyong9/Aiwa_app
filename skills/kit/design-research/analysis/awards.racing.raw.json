@@ -1,0 +1,3755 @@
+{
+  "url": "https://awards.racing/",
+  "at": "2026-10-29T12:55:07.937Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 16189,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 460,
+      "typography": {
+        "families": [
+          [
+            "Druk Wide Cy TT",
+            1
+          ]
+        ],
+        "weights": [
+          [
+            "900",
+            1
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            1
+          ]
+        ],
+        "sizeMin": 138,
+        "sizeMedian": 138,
+        "sizeMax": 138,
+        "sizeMaxVw": 9.6,
+        "scaleRatio": 1,
+        "letterSpacingMean": 0,
+        "loadedFonts": [
+          {
+            "family": "Druk Wide Cy TT",
+            "weight": "900",
+            "style": "italic"
+          },
+          {
+            "family": "Druk Wide Cy TT",
+            "weight": "500",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 1
+      },
+      "color": {
+        "background": "rgb(0, 0, 0)",
+        "backgroundLuminance": 0,
+        "backgrounds": [
+          [
+            "rgb(0, 0, 0)",
+            1920
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(255, 255, 255)",
+            112
+          ]
+        ],
+        "meanSaturation": 0,
+        "rootVars": {
+          "--font-primary": "\"Druk Wide Cy TT\",sans-serif",
+          "--base-font-size": "16px",
+          "--color-theme": "#f00000",
+          "--color-theme-dark": "#c00000",
+          "--color-theme-overlay": "rgba(166,33,55,.44)",
+          "--color-theme-selection": "rgba(255,6,6,.6)",
+          "--color-line-1": "#fff",
+          "--color-line-2": "#f00000",
+          "--color-line-3": "#c60000",
+          "--color-line-4": "#ff6464",
+          "--color-accent": "#ffc500",
+          "--color-text-white": "#fff",
+          "--color-text-black": "#000",
+          "--color-text-gray-light": "silver",
+          "--color-text-gray-dark": "#505050",
+          "--color-text-disabled": "#d9d9d9",
+          "--color-bg-white": "#fff",
+          "--color-bg-black": "#000",
+          "--color-bg-gray-default": "#e9e9e9",
+          "--color-bg-gray-secondary": "#ededed",
+          "--color-bg-gray-light": "#f6f6f6",
+          "--color-border-gray": "#909090",
+          "--color-white": "#fff",
+          "--color-black": "#000",
+          "--ease-out-cubic": "cubic-bezier(.33,1,.68,1)",
+          "--ease-in-out-cubic": "cubic-bezier(.65,0,.35,1)",
+          "--header-height": "54px",
+          "--header-offset-top": "10px",
+          "--header-offset-inline": "16px",
+          "--header-offset-bottom": "6px",
+          "--header-logo-width": "88px"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 2,
+        "sticky": 0,
+        "fixed": 3,
+        "grid": 2,
+        "flex": 7,
+        "absolute": 209,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 900,
+        "pages": 1,
+        "spacing": []
+      },
+      "motion": {
+        "animations": 0,
+        "animationKinds": [],
+        "infiniteAnimations": 0,
+        "animationDurations": [],
+        "easings": [],
+        "transitionDurationsMs": [],
+        "keyframes": [
+          "online-counter-pulse-01f842bc",
+          "welcomeLetterPop",
+          "welcomeTitleFlyOutLeft",
+          "welcomeTitleFlyOutRight",
+          "revealCircle",
+          "share-link-press"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 113,
+      "media": {
+        "canvases": [],
+        "videos": [],
+        "svg": 3,
+        "images": 1,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 1
+        },
+        "raf": 150,
+        "io": 0,
+        "ro": 0,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": true,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Awards Racing",
+      "lang": "en",
+      "description": "Customize your car and race through parody award shows and galleries in Awards Racing (also known as Versus Racing and Versus: Design Grand Prix) - tune your ride, chase the leaderboard, and show off your style."
+    },
+    "featuresBeforeScroll": {
+      "elements": 460,
+      "canvases": 0,
+      "animations": 0,
+      "hidden": 81
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 5,
+      "changed": 0
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 125762440,
+        "layoutCount": 330,
+        "recalcStyleCount": 1393,
+        "scriptDuration": 0.266838,
+        "taskDuration": 3.962472,
+        "nodes": 3524
+      },
+      "timing": {
+        "domContentLoaded": 1968,
+        "load": 1970,
+        "first-paint": 1144,
+        "first-contentful-paint": 2612
+      }
+    },
+    "network": [
+      {
+        "url": "https://awards.racing/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 7396
+      },
+      {
+        "url": "https://awards.racing/_nuxt/entry.BqrIyN9y.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 2902
+      },
+      {
+        "url": "https://awards.racing/_nuxt/index.B6ocAFgr.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1234
+      },
+      {
+        "url": "https://awards.racing/_nuxt/shareState.CxNBlIw1.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 993
+      },
+      {
+        "url": "https://awards.racing/_nuxt/useWaitlistAvailable.C-zekLsB.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1272
+      },
+      {
+        "url": "https://awards.racing/_nuxt/customization.D43yAU3W.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 2629
+      },
+      {
+        "url": "https://awards.racing/_nuxt/index.CQQHJH_V.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 2499
+      },
+      {
+        "url": "https://awards.racing/_nuxt/index.3HeULTnl.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1843
+      },
+      {
+        "url": "https://awards.racing/_nuxt/index.Ds06sNsp.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1890
+      },
+      {
+        "url": "https://awards.racing/_nuxt/index.H1xK-mSa.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 8091
+      },
+      {
+        "url": "https://awards.racing/_payload.json?cd354b8e-c386-43be-bb9c-223846baa9af",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 2650
+      },
+      {
+        "url": "https://awards.racing/_nuxt/VrNLnv5y.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 151651
+      },
+      {
+        "url": "https://awards.racing/_nuxt/CGFEzoEJ.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 62447
+      },
+      {
+        "url": "https://awards.racing/_nuxt/DsldY4uP.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 31146
+      },
+      {
+        "url": "https://awards.racing/_nuxt/vZWh0fAh.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3926
+      },
+      {
+        "url": "https://awards.racing/_nuxt/BP8ABm0N.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1661
+      },
+      {
+        "url": "https://awards.racing/_nuxt/BGRo4OmT.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 52362
+      },
+      {
+        "url": "https://awards.racing/_nuxt/BPZD2l1I.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 12792
+      },
+      {
+        "url": "https://awards.racing/_nuxt/DD77KEKG.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 8497
+      },
+      {
+        "url": "https://awards.racing/_nuxt/CeCbDLZF.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 7205
+      },
+      {
+        "url": "https://awards.racing/_nuxt/BYOTFiwJ.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2058
+      },
+      {
+        "url": "https://awards.racing/_nuxt/BWjUGev6.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2711
+      },
+      {
+        "url": "https://awards.racing/_nuxt/9H7kY-79.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 25637
+      },
+      {
+        "url": "https://awards.racing/_nuxt/Bj9RUSV-.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1280
+      },
+      {
+        "url": "https://awards.racing/_nuxt/INnbnEl3.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 7346
+      },
+      {
+        "url": "https://awards.racing/_nuxt/V_dzih_9.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1488
+      },
+      {
+        "url": "https://awards.racing/_nuxt/yUm76f-F.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3232
+      },
+      {
+        "url": "https://awards.racing/_nuxt/DzWoPB3n.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 965
+      },
+      {
+        "url": "https://awards.racing/_nuxt/CtMOq5QQ.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 18789
+      },
+      {
+        "url": "https://awards.racing/_nuxt/O5FvLoSX.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2959
+      },
+      {
+        "url": "https://awards.racing/_nuxt/CRvg9I3d.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3947
+      },
+      {
+        "url": "https://awards.racing/_nuxt/C4yvpieh.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 6513
+      },
+      {
+        "url": "https://awards.racing/_nuxt/preloader.D8f8SRsg.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 115946
+      },
+      {
+        "url": "https://awards.racing/_nuxt/badge.BN2Lpvov.webp",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 2623
+      },
+      {
+        "url": "https://awards.racing/_nuxt/badge_2x.C3kvCERj.webp",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 5240
+      },
+      {
+        "url": "https://awards.racing/_nuxt/bomb-icon.B3VnK2sk.webp",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 2710
+      },
+      {
+        "url": "https://awards.racing/_nuxt/bomb-icon_2x.DMsAQNYY.webp",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 5695
+      },
+      {
+        "url": "https://awards.racing/_nuxt/build-details.C0YOGVOk.webp",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 28230
+      },
+      {
+        "url": "https://awards.racing/_nuxt/bullet3.DSGmhIht.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 3385
+      },
+      {
+        "url": "https://awards.racing/_nuxt/bust.Das1Oppv.webp",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 2129
+      },
+      {
+        "url": "https://awards.racing/_nuxt/bust_2x.DnuZz_Dp.webp",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 3995
+      },
+      {
+        "url": "https://awards.racing/_nuxt/character-hindu-hand.DpXxWvUh.png",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 13325
+      },
+      {
+        "url": "https://awards.racing/_nuxt/character-hindu.f1hI7ut0.png",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 662154
+      },
+      {
+        "url": "https://awards.racing/_nuxt/crown.DKUO8ea1.webp",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 2698
+      },
+      {
+        "url": "https://awards.racing/_nuxt/crown_2x.Copqozvl.webp",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 7457
+      },
+      {
+        "url": "https://awards.racing/_nuxt/cup.H_H5Qt2u.webp",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 2706
+      },
+      {
+        "url": "https://awards.racing/_nuxt/cup_2x.DIneAvHw.webp",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 5593
+      },
+      {
+        "url": "https://awards.racing/_nuxt/diamond.u20Rpl9u.webp",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 2977
+      },
+      {
+        "url": "https://awards.racing/_nuxt/diamond_2x.zNufJiET.webp",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 6359
+      },
+      {
+        "url": "https://awards.racing/_nuxt/disclaimer-bg.BoDeRDJM.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 951
+      },
+      {
+        "url": "https://awards.racing/_nuxt/eye.Cibb6e76.webp",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 2731
+      },
+      {
+        "url": "https://awards.racing/_nuxt/eye_2x.DPsBoOLW.webp",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 5927
+      },
+      {
+        "url": "https://awards.racing/_nuxt/gsap.Bb-nBxjN.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 2634
+      },
+      {
+        "url": "https://awards.racing/_nuxt/howler.DEYbKC6E.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 9062
+      },
+      {
+        "url": "https://awards.racing/_nuxt/laurel.D4ZEQ5yp.webp",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 3780
+      },
+      {
+        "url": "https://awards.racing/_nuxt/laurel_2x.DyTPWGHY.webp",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 9390
+      },
+      {
+        "url": "https://awards.racing/_nuxt/lightning-icon.BjzvCYPW.webp",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 2375
+      },
+      {
+        "url": "https://awards.racing/_nuxt/lightning-icon_2x.rExHB8a8.webp",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4403
+      },
+      {
+        "url": "https://awards.racing/_nuxt/logo-chrome.DSVCBSGw.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 2947
+      },
+      {
+        "url": "https://awards.racing/_nuxt/logo.BBuSL17e.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 3606
+      },
+      {
+        "url": "https://awards.racing/_nuxt/medal.C5bQ2bhc.webp",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 3003
+      },
+      {
+        "url": "https://awards.racing/_nuxt/medal_2x.DnJFe6jq.webp",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 6730
+      },
+      {
+        "url": "https://awards.racing/_nuxt/nippleJS.BT474CyZ.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 3646
+      },
+      {
+        "url": "https://awards.racing/_nuxt/oscar.hhX4goN1.webp",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 2176
+      },
+      {
+        "url": "https://awards.racing/_nuxt/oscar_2x.D3iruMOa.webp",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4129
+      },
+      {
+        "url": "https://awards.racing/_nuxt/preloader.D8f8SRsg.avif",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 115945
+      },
+      {
+        "url": "https://awards.racing/_nuxt/preloader.C5-RLELa.jpg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 277285
+      },
+      {
+        "url": "https://awards.racing/_nuxt/preloader_2x.DFLf-q6j.avif",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 312885
+      },
+      {
+        "url": "https://awards.racing/_nuxt/preloader_2x.D3CNRBua.jpg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 467316
+      },
+      {
+        "url": "https://awards.racing/_nuxt/rocket-icon.CRQFEdeG.webp",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 2466
+      },
+      {
+        "url": "https://awards.racing/_nuxt/rocket-icon_2x.B6A0gVif.webp",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4725
+      },
+      {
+        "url": "https://awards.racing/_nuxt/shield.BV2W9KYH.webp",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 2728
+      },
+      {
+        "url": "https://awards.racing/_nuxt/shield_2x.Bn30EneY.webp",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 5812
+      },
+      {
+        "url": "https://awards.racing/_nuxt/star.DkSX-Lxm.webp",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 2879
+      },
+      {
+        "url": "https://awards.racing/_nuxt/star_2x.hiCCWCez.webp",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 6458
+      },
+      {
+        "url": "https://awards.racing/_nuxt/summit.BwpgHEQo.webp",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 2854
+      },
+      {
+        "url": "https://awards.racing/_nuxt/summit_2x.JLh83Fd7.webp",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 5346
+      },
+      {
+        "url": "https://awards.racing/_nuxt/temple.TnxWIMS2.webp",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 2736
+      },
+      {
+        "url": "https://awards.racing/_nuxt/temple_2x.BhV5RZl3.webp",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 5830
+      },
+      {
+        "url": "https://awards.racing/_nuxt/three.js.D-ebCNMe.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 5351
+      },
+      {
+        "url": "https://awards.racing/_nuxt/throne.DDg1kOwI.webp",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 3104
+      },
+      {
+        "url": "https://awards.racing/_nuxt/throne_2x.DY3x5Z9m.webp",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 7035
+      },
+      {
+        "url": "https://awards.racing/_nuxt/track-img.CO5DM-9E.png",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 2717
+      },
+      {
+        "url": "https://awards.racing/_nuxt/tweakpane.CujU5XzV.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 5070
+      },
+      {
+        "url": "https://awards.racing/_nuxt/vite.C43ptDZ8.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 3656
+      },
+      {
+        "url": "https://awards.racing/_nuxt/vue.js.CO-EM9R9.svg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 3239
+      },
+      {
+        "url": "https://awards.racing/_nuxt/x-banner.DRgXydDD.webp",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 165633
+      },
+      {
+        "url": "https://awards.racing/_nuxt/youtube-banner.BGIo11t4.webp",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 47497
+      },
+      {
+        "url": "https://awards.racing/_nuxt/evaluation-system.CUNJWtxl.webp",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 236638
+      },
+      {
+        "url": "https://awards.racing/_nuxt/merch-0.B72W0GNo.webp",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 200058
+      },
+      {
+        "url": "https://awards.racing/_nuxt/merch-1.CGLWrF0d.webp",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 75579
+      },
+      {
+        "url": "https://awards.racing/_nuxt/merch-2.Ci5kGQqR.webp",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 206239
+      },
+      {
+        "url": "https://awards.racing/_nuxt/merch-3.CcwHXb9t.webp",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 81692
+      },
+      {
+        "url": "https://awards.racing/_nuxt/preloader.C5-RLELa.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser"
+      },
+      {
+        "url": "https://awards.racing/module.ae3c07ebaf53.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 684521
+      },
+      {
+        "url": "https://awards.racing/_nuxt/DrukWide-HeavyItalic-Cy-Web.-i2-9fKe.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 47734
+      },
+      {
+        "url": "https://awards.racing/_nuxt/DrukWide-Medium-Cy-Web.De633Rvj.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 39202
+      },
+      {
+        "url": "https://api.awards.racing/api/health",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 799
+      },
+      {
+        "url": "https://awards.racing/_nuxt/default.MbULP6aQ.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 14327
+      },
+      {
+        "url": "https://awards.racing/images/.hashes.202609070355.json",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 5591
+      },
+      {
+        "url": "https://awards.racing/images/optimized/.hashes.202609071504.json",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 16356
+      },
+      {
+        "url": "https://awards.racing/manifest.202609021540.json",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 2092
+      },
+      {
+        "url": "https://awards.racing/physics/physics.202608121411.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 17896
+      },
+      {
+        "url": "https://awards.racing/common/tracks/evil-genius-ks-remont-u-sani-1.202608301007.beats",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 1931
+      },
+      {
+        "url": "https://awards.racing/common/tracks/rocket-burst.202608191257.beats",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 2941
+      },
+      {
+        "url": "https://awards.racing/common/tracks/evil-genius-ks-remont-u-sani-1.202608301007.mp3",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 1058686
+      },
+      {
+        "url": "https://awards.racing/common/stickers.atlas.202608191257.json",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 2223
+      },
+      {
+        "url": "https://awards.racing/common/svg/1.202608191259.svg",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 21950
+      },
+      {
+        "url": "https://awards.racing/common/svg/2.202608191301.svg",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 3706
+      },
+      {
+        "url": "https://awards.racing/common/svg/3.202608191257.svg",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 4799
+      },
+      {
+        "url": "https://awards.racing/common/svg/4.202608191257.svg",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 17063
+      },
+      {
+        "url": "https://awards.racing/common/svg/5.202608191257.svg",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 10921
+      },
+      {
+        "url": "https://awards.racing/common/svg/6.202608191257.svg",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 9278
+      },
+      {
+        "url": "https://awards.racing/common/svg/7.202608191257.svg",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 3729
+      },
+      {
+        "url": "https://awards.racing/common/svg/8.202608191257.svg",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 6844
+      },
+      {
+        "url": "https://awards.racing/common/svg/9.202608191257.svg",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 29016
+      },
+      {
+        "url": "https://awards.racing/common/svg/10.202608191257.svg",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 10088
+      },
+      {
+        "url": "https://awards.racing/common/svg/11.202608192039.svg",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1573
+      },
+      {
+        "url": "https://awards.racing/common/svg/12.202608191257.svg",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 4345
+      },
+      {
+        "url": "https://awards.racing/common/svg/13.202608191257.svg",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 13796
+      },
+      {
+        "url": "https://awards.racing/common/svg/14.202608251218.svg",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 4862
+      },
+      {
+        "url": "https://awards.racing/common/svg/15.202608251213.svg",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 14017
+      },
+      {
+        "url": "https://awards.racing/common/svg/16.202608191257.svg",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 2805
+      },
+      {
+        "url": "https://awards.racing/common/svg/17.202608191257.svg",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1168
+      },
+      {
+        "url": "https://awards.racing/common/svg/18.202608251209.svg",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 6218
+      },
+      {
+        "url": "https://awards.racing/common/svg/19.202608191257.svg",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 44267
+      },
+      {
+        "url": "https://awards.racing/common/svg/20.202608191257.svg",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 33234
+      },
+      {
+        "url": "https://awards.racing/common/svg/21.202608251206.svg",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 16241
+      },
+      {
+        "url": "https://awards.racing/common/svg/22.202608251202.svg",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 16565
+      },
+      {
+        "url": "https://awards.racing/common/svg/23.202608251139.svg",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 17684
+      },
+      {
+        "url": "https://awards.racing/common/svg/24.202608251143.svg",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 19507
+      },
+      {
+        "url": "https://awards.racing/common/smaa/area_rg8.202608121411.bin",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 179752
+      },
+      {
+        "url": "https://awards.racing/common/smaa/search_r8.202608121411.bin",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 1456
+      },
+      {
+        "url": "https://awards.racing/common/env/brdf_LUT_512.202608121411.exr",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 350906
+      },
+      {
+        "url": "https://awards.racing/common/env/studio/prefilter/m2_px.202608121411.exr",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 57241
+      },
+      {
+        "url": "https://awards.racing/common/env/studio/prefilter/m2_nx.202608121411.exr",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 61248
+      },
+      {
+        "url": "https://awards.racing/common/env/studio/prefilter/m2_py.202608121411.exr",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 60751
+      },
+      {
+        "url": "https://awards.racing/common/env/studio/prefilter/m2_ny.202608121411.exr",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 43725
+      },
+      {
+        "url": "https://awards.racing/common/env/studio/prefilter/m2_pz.202608121411.exr",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 59534
+      },
+      {
+        "url": "https://awards.racing/common/env/studio/prefilter/m2_nz.202608121411.exr",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 61874
+      },
+      {
+        "url": "https://awards.racing/common/env/studio/prefilter/m3_px.202608121411.exr",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 17524
+      },
+      {
+        "url": "https://awards.racing/common/env/studio/prefilter/m3_nx.202608121411.exr",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 17258
+      },
+      {
+        "url": "https://awards.racing/common/env/studio/prefilter/m3_py.202608121411.exr",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 17219
+      },
+      {
+        "url": "https://awards.racing/common/env/studio/prefilter/m3_ny.202608121411.exr",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 13675
+      },
+      {
+        "url": "https://awards.racing/common/env/studio/prefilter/m3_pz.202608121411.exr",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 17204
+      },
+      {
+        "url": "https://awards.racing/common/env/studio/prefilter/m3_nz.202608121411.exr",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 17353
+      },
+      {
+        "url": "https://awards.racing/common/env/studio/prefilter/m4_px.202608121411.exr",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 5458
+      },
+      {
+        "url": "https://awards.racing/common/env/studio/prefilter/m4_nx.202608121411.exr",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 5325
+      },
+      {
+        "url": "https://awards.racing/common/env/studio/prefilter/m4_py.202608121411.exr",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 5257
+      },
+      {
+        "url": "https://awards.racing/common/env/studio/prefilter/m4_ny.202608121411.exr",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 5026
+      },
+      {
+        "url": "https://awards.racing/common/env/studio/prefilter/m4_pz.202608121411.exr",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 5421
+      },
+      {
+        "url": "https://awards.racing/common/env/studio/prefilter/m4_nz.202608121411.exr",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 5444
+      },
+      {
+        "url": "https://awards.racing/common/env/studio/prefilter/m5_px.202608121411.exr",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 2234
+      },
+      {
+        "url": "https://awards.racing/common/env/studio/prefilter/m5_nx.202608121411.exr",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 2299
+      },
+      {
+        "url": "https://awards.racing/common/env/studio/prefilter/m5_py.202608121411.exr",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 2154
+      },
+      {
+        "url": "https://awards.racing/common/env/studio/prefilter/m5_ny.202608121411.exr",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 2299
+      },
+      {
+        "url": "https://awards.racing/common/env/studio/prefilter/m5_pz.202608121411.exr",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 2299
+      },
+      {
+        "url": "https://awards.racing/common/env/studio/prefilter/m5_nz.202608121411.exr",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 2297
+      },
+      {
+        "url": "https://awards.racing/common/env/studio/irr/i_px.202608121411.exr",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 4396
+      },
+      {
+        "url": "https://awards.racing/common/env/studio/irr/i_nx.202608121411.exr",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 4821
+      },
+      {
+        "url": "https://awards.racing/common/env/studio/irr/i_py.202608121411.exr",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 4043
+      },
+      {
+        "url": "https://awards.racing/common/env/studio/irr/i_ny.202608121411.exr",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 5257
+      },
+      {
+        "url": "https://awards.racing/common/env/studio/irr/i_pz.202608121411.exr",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 4637
+      },
+      {
+        "url": "https://awards.racing/common/env/studio/irr/i_nz.202608121411.exr",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 4761
+      },
+      {
+        "url": "https://awards.racing/common/assets/everything5.202608121411.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "model/gltf-binary",
+        "fromCache": false,
+        "bytes": 1562324
+      },
+      {
+        "url": "https://awards.racing/common/assets/collectables.202608121411.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "model/gltf-binary",
+        "fromCache": false,
+        "bytes": 96040
+      },
+      {
+        "url": "https://awards.racing/common/assets/collectable-2.202608121411.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "model/gltf-binary",
+        "fromCache": false,
+        "bytes": 60495
+      },
+      {
+        "url": "https://awards.racing/common/assets/env.202608121411.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "model/gltf-binary",
+        "fromCache": false,
+        "bytes": 268939
+      },
+      {
+        "url": "https://awards.racing/physics/physics.202608121411.wasm",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/wasm",
+        "fromCache": false,
+        "bytes": 239544
+      },
+      {
+        "url": "https://awards.racing/common/vfx/cross.202608121411.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 3272
+      },
+      {
+        "url": "https://awards.racing/common/vfx/16.202608121411.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 4546
+      },
+      {
+        "url": "https://awards.racing/common/vfx/12.202608121411.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 172957
+      },
+      {
+        "url": "https://awards.racing/common/vfx/heal.202608311056.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 17592
+      },
+      {
+        "url": "https://awards.racing/common/vfx/step3.202608121411.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 8761
+      },
+      {
+        "url": "https://awards.racing/common/road.202608311120.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 45945
+      },
+      {
+        "url": "https://awards.racing/common/vfx/Hit.202608311056.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 22053
+      },
+      {
+        "url": "https://awards.racing/common/vfx/bam1.202608311056.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 239729
+      },
+      {
+        "url": "https://awards.racing/common/vfx/exp.202608121411.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 80718
+      },
+      {
+        "url": "https://awards.racing/common/vfx/wsmoke.202608121411.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 127283
+      },
+      {
+        "url": "https://awards.racing/common/vfx/wsmoke2.202608121411.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 127283
+      },
+      {
+        "url": "https://awards.racing/common/materials/1k/pattern/color1.202608191257.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 74945
+      },
+      {
+        "url": "https://awards.racing/common/materials/1k/pattern/color2.202608191257.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 155582
+      },
+      {
+        "url": "https://awards.racing/common/materials/1k/pattern/color3.202608191257.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 233837
+      },
+      {
+        "url": "https://awards.racing/common/materials/1k/pattern/color4.202608191257.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 185449
+      },
+      {
+        "url": "https://awards.racing/common/materials/1k/pattern/color5.202608191257.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 109672
+      },
+      {
+        "url": "https://awards.racing/common/materials/1k/pattern/roughness.202608191257.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 6127
+      },
+      {
+        "url": "https://awards.racing/common/materials/1k/pattern/normal.202608191257.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 112485
+      },
+      {
+        "url": "https://awards.racing/common/materials/1k/jeans/color.202608191257.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 1314
+      },
+      {
+        "url": "https://awards.racing/common/materials/1k/jeans/roughness.202608191257.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 157479
+      },
+      {
+        "url": "https://awards.racing/common/materials/1k/jeans/normal.202608191257.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 272952
+      },
+      {
+        "url": "https://awards.racing/common/materials/1k/skin/color.202608191257.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 203416
+      },
+      {
+        "url": "https://awards.racing/common/materials/1k/skin/color2.202608191257.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 170213
+      },
+      {
+        "url": "https://awards.racing/common/materials/1k/skin/color3.202608191257.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 224540
+      },
+      {
+        "url": "https://awards.racing/common/materials/1k/skin/color4.202608191257.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 150980
+      },
+      {
+        "url": "https://awards.racing/common/materials/1k/skin/roughness.202608191257.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 18363
+      },
+      {
+        "url": "https://awards.racing/common/materials/1k/skin/normal.202608191257.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 24811
+      },
+      {
+        "url": "https://awards.racing/common/materials/1k/paint/red.202608191257.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 203852
+      },
+      {
+        "url": "https://awards.racing/common/materials/1k/paint/orange.202608191257.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 62786
+      },
+      {
+        "url": "https://awards.racing/common/materials/1k/paint/grey.202608191257.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 76155
+      },
+      {
+        "url": "https://awards.racing/common/materials/1k/paint/blue.202608191257.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 104623
+      },
+      {
+        "url": "https://awards.racing/common/tracks/chrome-vortex.202608301427.beats",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 1956
+      },
+      {
+        "url": "https://awards.racing/common/tracks/rocket-burst.202608300946.mp3",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 1342949
+      },
+      {
+        "url": "https://awards.racing/common/stickers.202608191257.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 818555
+      },
+      {
+        "url": "https://awards.racing/common/svg/images/11.202608192039.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 186864
+      },
+      {
+        "url": "https://awards.racing/_nuxt/builds/meta/cd354b8e-c386-43be-bb9c-223846baa9af.json",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 570
+      },
+      {
+        "url": "https://awards.racing/common/svg/images/12.202608191257.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 68808
+      },
+      {
+        "url": "https://awards.racing/common/svg/images/13.202608191257.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 88374
+      },
+      {
+        "url": "https://awards.racing/common/svg/images/18.202608251207.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 133486
+      },
+      {
+        "url": "https://awards.racing/common/tracks/hot-and-nebula-papapa-1.202608301004.beats",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 1905
+      },
+      {
+        "url": "https://awards.racing/common/svg/images/14.202608251215.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 126465
+      },
+      {
+        "url": "https://awards.racing/common/svg/images/17.202608191257.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 110588
+      },
+      {
+        "url": "https://awards.racing/common/tracks/chrome-vortex.202608301427.mp3",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 1506901
+      },
+      {
+        "url": "https://awards.racing/common/svg/images/16.202608191257.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 54063
+      },
+      {
+        "url": "https://awards.racing/common/svg/images/22.202608251157.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 150122
+      },
+      {
+        "url": "https://awards.racing/common/svg/images/15.202608251213.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 25644
+      },
+      {
+        "url": "https://awards.racing/common/svg/images/21.202608251204.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 131869
+      },
+      {
+        "url": "https://awards.racing/common/svg/images/23.202608211459.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 104860
+      },
+      {
+        "url": "https://awards.racing/common/svg/images/24.202608211459.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 62170
+      },
+      {
+        "url": "https://awards.racing/common/svg/images/19.202608191257.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 41251
+      },
+      {
+        "url": "https://awards.racing/common/tracks/emerald-mechanism.202608301427.beats",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 1573
+      },
+      {
+        "url": "https://awards.racing/common/tracks/hot-and-nebula-papapa-1.202608301004.mp3",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 1058668
+      },
+      {
+        "url": "https://awards.racing/common/tracks/out-of-office.202609021306.beats",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 1853
+      },
+      {
+        "url": "https://awards.racing/common/tracks/emerald-mechanism.202608301427.mp3",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 1138659
+      },
+      {
+        "url": "https://awards.racing/common/tracks/out-of-office.202609021305.mp3",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 1443179
+      },
+      {
+        "url": "https://awards.racing/common/sounds/pickupTrash.202608191257.wav",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 20528
+      },
+      {
+        "url": "https://awards.racing/common/sounds/drift-1.202608191257.wav",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 62345
+      },
+      {
+        "url": "https://awards.racing/common/sounds/drift-2.202608191257.wav",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 69402
+      },
+      {
+        "url": "https://awards.racing/common/sounds/drift-3.202608191257.wav",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 69384
+      },
+      {
+        "url": "https://awards.racing/common/sounds/car-hit-1.202608191257.wav",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 20608
+      },
+      {
+        "url": "https://awards.racing/common/sounds/car-hit-2.202608191257.wav",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 27326
+      },
+      {
+        "url": "https://awards.racing/common/sounds/car-hit-3.202608191257.wav",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 17056
+      },
+      {
+        "url": "https://awards.racing/common/sounds/car-hit-4.202608191257.wav",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 7777
+      },
+      {
+        "url": "https://awards.racing/common/sounds/car-hit-5.202608191257.wav",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 4817
+      },
+      {
+        "url": "https://awards.racing/common/sounds/hitHurt.202608191257.wav",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 9905
+      },
+      {
+        "url": "https://awards.racing/images/optimized/bg_920.202608191001.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 3138
+      },
+      {
+        "url": "https://awards.racing/images/optimized/c6_bg1_920.202609071504.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 4078
+      },
+      {
+        "url": "https://awards.racing/images/optimized/c6_h4_g5_m3_bg1_920.202608191015.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 40763
+      },
+      {
+        "url": "https://awards.racing/images/customising-20.202609070355.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 4531
+      },
+      {
+        "url": "https://awards.racing/images/optimized/100/c6_100.202608191014.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 3021
+      },
+      {
+        "url": "https://awards.racing/images/optimized/100/c1_100.202608191001.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 3577
+      },
+      {
+        "url": "https://awards.racing/images/optimized/100/c2_100.202608191004.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2333
+      },
+      {
+        "url": "https://awards.racing/images/optimized/100/c3_100.202608191007.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 4810
+      },
+      {
+        "url": "https://awards.racing/images/optimized/100/c4_100.202608191009.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 4067
+      },
+      {
+        "url": "https://awards.racing/images/optimized/100/c5_100.202608191012.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 4584
+      },
+      {
+        "url": "https://awards.racing/images/optimized/100/c6_h4_100.202608191015.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1973
+      },
+      {
+        "url": "https://awards.racing/images/optimized/100/c6_h1_100.202608191015.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 3353
+      },
+      {
+        "url": "https://awards.racing/images/optimized/100/c6_h9_100.202608191016.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2328
+      },
+      {
+        "url": "https://awards.racing/images/optimized/100/c6_h13_100.202608191015.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 3471
+      },
+      {
+        "url": "https://awards.racing/images/optimized/100/c6_h14_100.202608241318.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2479
+      },
+      {
+        "url": "https://awards.racing/images/optimized/100/c6_g5_100.202608191015.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 3174
+      },
+      {
+        "url": "https://awards.racing/images/optimized/100/c6_g6_100.202608191015.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2839
+      },
+      {
+        "url": "https://awards.racing/images/optimized/100/c6_g7_100.202608191015.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2171
+      },
+      {
+        "url": "https://awards.racing/images/optimized/100/c6_g8_100.202608251613.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 1662
+      },
+      {
+        "url": "https://awards.racing/images/optimized/100/c6_m3_100.202608191016.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2239
+      },
+      {
+        "url": "https://awards.racing/images/optimized/100/c6_m1_100.202608191016.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2971
+      },
+      {
+        "url": "https://awards.racing/images/optimized/100/c6_m4_100.202608191016.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2242
+      },
+      {
+        "url": "https://awards.racing/images/optimized/100/c6_m5_100.202608211611.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2932
+      },
+      {
+        "url": "https://awards.racing/images/optimized/c2_c2_bg_920.202608191004.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 5591
+      },
+      {
+        "url": "https://awards.racing/images/optimized/c2_c2_920.202608191004.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 57208
+      },
+      {
+        "url": "https://awards.racing/images/optimized/100/c1_c1_menu_100.202608191001.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 3742
+      },
+      {
+        "url": "https://awards.racing/images/optimized/100/c1_c2_menu_100.202608191001.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 3590
+      },
+      {
+        "url": "https://awards.racing/images/optimized/100/c1_c3_menu_100.202608191002.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 3259
+      },
+      {
+        "url": "https://awards.racing/images/optimized/100/c2_c2_menu_100.202608191004.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 3751
+      },
+      {
+        "url": "https://awards.racing/images/optimized/100/c2_c1_menu_100.202608191004.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 3737
+      },
+      {
+        "url": "https://awards.racing/images/optimized/100/c2_c3_menu_100.202608191004.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2902
+      },
+      {
+        "url": "https://awards.racing/images/optimized/100/c3_c1_menu_100.202608191007.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 3086
+      },
+      {
+        "url": "https://awards.racing/images/optimized/100/c3_c2_menu_100.202608191007.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 3815
+      },
+      {
+        "url": "https://awards.racing/images/optimized/100/c3_c3_menu_100.202608191007.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 3988
+      },
+      {
+        "url": "https://awards.racing/images/optimized/100/c4_c1_menu_100.202608191010.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 3495
+      },
+      {
+        "url": "https://awards.racing/images/optimized/100/c4_c2_menu_100.202608191010.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 3510
+      },
+      {
+        "url": "https://awards.racing/images/optimized/100/c4_c3_menu_100.202608191010.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 2980
+      },
+      {
+        "url": "https://awards.racing/images/optimized/100/c5_c1_menu_100.202608211518.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 3503
+      },
+      {
+        "url": "https://awards.racing/images/optimized/100/c5_c2_menu_100.202608211518.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 3995
+      },
+      {
+        "url": "https://awards.racing/images/optimized/100/c5_c3_menu_100.202608211519.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 3900
+      },
+      {
+        "url": "https://awards.racing/common/sounds/collectTrash.202608211016.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 30679
+      },
+      {
+        "url": "https://awards.racing/common/sounds/HealCollected.202608281406.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 25345
+      },
+      {
+        "url": "https://awards.racing/common/sounds/ArmorCollected.202608281406.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 25046
+      },
+      {
+        "url": "https://awards.racing/common/sounds/NitroTurnOn.202608192039.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 33560
+      },
+      {
+        "url": "https://awards.racing/common/sounds/ProjectileShot.202608211016.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 20304
+      },
+      {
+        "url": "https://awards.racing/common/sounds/EnemyProjectileShot.202609021211.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 2645
+      },
+      {
+        "url": "https://awards.racing/common/sounds/GlobalExplosion.202608192039.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 17645
+      },
+      {
+        "url": "https://awards.racing/common/sounds/BossKilled.202608192039.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 62317
+      },
+      {
+        "url": "https://awards.racing/common/sounds/RespawnExplosion.202608281406.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 22359
+      },
+      {
+        "url": "https://awards.racing/common/sounds/ArcPassed.202608281406.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 18763
+      },
+      {
+        "url": "https://awards.racing/common/sounds/click.202608192039.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 4887
+      },
+      {
+        "url": "https://awards.racing/common/sounds/enemy-detected.202608192039.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 60037
+      },
+      {
+        "url": "https://awards.racing/common/sounds/StoryPresent.202608281406.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 34730
+      },
+      {
+        "url": "https://awards.racing/common/sounds/CheckpointPresent.202608281406.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 19235
+      },
+      {
+        "url": "https://awards.racing/common/sounds/FinalCheckpointPresent.202608281406.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 22433
+      },
+      {
+        "url": "https://awards.racing/common/sounds/OrangeLike.202608281406.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 17334
+      },
+      {
+        "url": "https://awards.racing/common/sounds/Goblet.202608281406.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 22433
+      },
+      {
+        "url": "https://awards.racing/common/sounds/Multiplier125.202608281406.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 39809
+      },
+      {
+        "url": "https://awards.racing/common/sounds/HealthUpgrade.202608281406.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 42984
+      },
+      {
+        "url": "https://awards.racing/common/sounds/ShieldUpgrade.202608281406.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 17043
+      },
+      {
+        "url": "https://awards.racing/common/sounds/Energy.202608281406.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 20231
+      },
+      {
+        "url": "https://awards.racing/common/sounds/TimeToCollect.202608281406.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 18346
+      },
+      {
+        "url": "https://awards.racing/common/sounds/StageChanged.202608281406.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 32716
+      },
+      {
+        "url": "https://awards.racing/common/sounds/SessionStart.202608281406.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 36352
+      },
+      {
+        "url": "https://awards.racing/common/sounds/sound-start.202608301216.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 52901
+      },
+      {
+        "url": "https://awards.racing/common/sounds/PlayerDeath.202608281406.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 27903
+      },
+      {
+        "url": "https://awards.racing/common/sounds/EnemyDeath.202608281406.mp3",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "audio/mpeg",
+        "fromCache": false,
+        "bytes": 4257
+      },
+      {
+        "url": "https://awards.racing/_nuxt/disclaimer-bg.BoDeRDJM.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 952
+      },
+      {
+        "url": "https://awards.racing/_nuxt/character-hindu.f1hI7ut0.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 662191
+      },
+      {
+        "url": "https://awards.racing/_nuxt/character-hindu-hand.DpXxWvUh.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 13325
+      },
+      {
+        "url": "https://awards.racing/_nuxt/three.js.D-ebCNMe.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 5357
+      },
+      {
+        "url": "https://awards.racing/_nuxt/bullet3.DSGmhIht.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 3357
+      },
+      {
+        "url": "https://awards.racing/_nuxt/gsap.Bb-nBxjN.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 2625
+      },
+      {
+        "url": "https://awards.racing/_nuxt/vue.js.CO-EM9R9.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 3266
+      },
+      {
+        "url": "https://awards.racing/_nuxt/vite.C43ptDZ8.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 3690
+      },
+      {
+        "url": "https://awards.racing/_nuxt/howler.DEYbKC6E.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 9009
+      },
+      {
+        "url": "https://awards.racing/_nuxt/nippleJS.BT474CyZ.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 3606
+      },
+      {
+        "url": "https://awards.racing/_nuxt/tweakpane.CujU5XzV.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 5092
+      },
+      {
+        "url": "https://awards.racing/_nuxt/logo-chrome.DSVCBSGw.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 2939
+      },
+      {
+        "url": "https://awards.racing/images/device-touch.202608181655.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1207
+      },
+      {
+        "url": "https://awards.racing/images/device-desktop.202608181655.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1452
+      },
+      {
+        "url": "https://awards.racing/images/device-dualsence.202608181655.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 2102
+      },
+      {
+        "url": "https://awards.racing/images/device-xbox.202608181655.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1617
+      },
+      {
+        "url": "https://awards.racing/images/red_back.202608181655.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 215008
+      },
+      {
+        "url": "https://awards.racing/images/red_left_brow.202608181655.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 25016
+      },
+      {
+        "url": "https://awards.racing/images/red_right_brow.202608181655.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 23523
+      },
+      {
+        "url": "https://awards.racing/images/red_eyes.202608181655.avif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 6448
+      },
+      {
+        "url": "https://awards.racing/images/red_mask.202608181655.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1207
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "Failed to create WebGPU Context Provider"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0702000C4110000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0xd240013b000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://awards.racing/_nuxt/preloader.C5-RLELa.jpg",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 6262,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 455,
+      "typography": {
+        "families": [
+          [
+            "Druk Wide Cy TT",
+            1
+          ]
+        ],
+        "weights": [
+          [
+            "900",
+            1
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            1
+          ]
+        ],
+        "sizeMin": 36,
+        "sizeMedian": 36,
+        "sizeMax": 36,
+        "sizeMaxVw": 9.2,
+        "scaleRatio": 1,
+        "letterSpacingMean": 0,
+        "loadedFonts": [
+          {
+            "family": "Druk Wide Cy TT",
+            "weight": "900",
+            "style": "italic"
+          },
+          {
+            "family": "Druk Wide Cy TT",
+            "weight": "500",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 1
+      },
+      "color": {
+        "background": "rgb(0, 0, 0)",
+        "backgroundLuminance": 0,
+        "backgrounds": [
+          [
+            "rgb(0, 0, 0)",
+            541
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(255, 255, 255)",
+            115
+          ]
+        ],
+        "meanSaturation": 0,
+        "rootVars": {
+          "--font-primary": "\"Druk Wide Cy TT\",sans-serif",
+          "--base-font-size": "16px",
+          "--color-theme": "#f00000",
+          "--color-theme-dark": "#c00000",
+          "--color-theme-overlay": "rgba(166,33,55,.44)",
+          "--color-theme-selection": "rgba(255,6,6,.6)",
+          "--color-line-1": "#fff",
+          "--color-line-2": "#f00000",
+          "--color-line-3": "#c60000",
+          "--color-line-4": "#ff6464",
+          "--color-accent": "#ffc500",
+          "--color-text-white": "#fff",
+          "--color-text-black": "#000",
+          "--color-text-gray-light": "silver",
+          "--color-text-gray-dark": "#505050",
+          "--color-text-disabled": "#d9d9d9",
+          "--color-bg-white": "#fff",
+          "--color-bg-black": "#000",
+          "--color-bg-gray-default": "#e9e9e9",
+          "--color-bg-gray-secondary": "#ededed",
+          "--color-bg-gray-light": "#f6f6f6",
+          "--color-border-gray": "#909090",
+          "--color-white": "#fff",
+          "--color-black": "#000",
+          "--ease-out-cubic": "cubic-bezier(.33,1,.68,1)",
+          "--ease-in-out-cubic": "cubic-bezier(.65,0,.35,1)",
+          "--header-height": "54px",
+          "--header-offset-top": "10px",
+          "--header-offset-inline": "16px",
+          "--header-offset-bottom": "6px",
+          "--header-logo-width": "88px"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 2,
+        "sticky": 0,
+        "fixed": 3,
+        "grid": 2,
+        "flex": 7,
+        "absolute": 209,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 844,
+        "pages": 1,
+        "spacing": []
+      },
+      "motion": {
+        "animations": 0,
+        "animationKinds": [],
+        "infiniteAnimations": 0,
+        "animationDurations": [],
+        "easings": [],
+        "transitionDurationsMs": [],
+        "keyframes": [
+          "online-counter-pulse-01f842bc",
+          "welcomeLetterPop",
+          "welcomeTitleFlyOutLeft",
+          "welcomeTitleFlyOutRight",
+          "revealCircle",
+          "share-link-press"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 105,
+      "media": {
+        "canvases": [
+          {
+            "w": 585,
+            "h": 1266,
+            "area": 1
+          }
+        ],
+        "videos": [],
+        "svg": 3,
+        "images": 1,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 3,
+          "2d": 43
+        },
+        "raf": 130,
+        "io": 0,
+        "ro": 0,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": true,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Awards Racing",
+      "lang": "en",
+      "description": "Customize your car and race through parody award shows and galleries in Awards Racing (also known as Versus Racing and Versus: Design Grand Prix) - tune your ride, chase the leaderboard, and show off your style."
+    },
+    "featuresBeforeScroll": {
+      "elements": 454,
+      "canvases": 0,
+      "animations": 0,
+      "hidden": 85
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 116785860,
+        "layoutCount": 430,
+        "recalcStyleCount": 285,
+        "scriptDuration": 0.216628,
+        "taskDuration": 3.483742,
+        "nodes": 1355
+      },
+      "timing": {
+        "domContentLoaded": 2172,
+        "load": 2173,
+        "first-paint": 572,
+        "first-contentful-paint": 2660
+      }
+    },
+    "animationsReported": [],
+    "console": [
+      {
+        "level": "warning",
+        "text": "Failed to create WebGPU Context Provider"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0E08809C4110000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0xd240013b200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://awards.racing/_nuxt/preloader.C5-RLELa.jpg",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  }
+}

@@ -1,0 +1,3203 @@
+{
+  "url": "https://emotion-agency.com/",
+  "at": "2026-10-29T12:59:08.767Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 114036,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 2077,
+      "typography": {
+        "families": [
+          [
+            "IBM Plex Mono",
+            82
+          ],
+          [
+            "Emotion Serif",
+            45
+          ],
+          [
+            "PP Neue Montreal",
+            37
+          ]
+        ],
+        "weights": [
+          [
+            "500",
+            119
+          ],
+          [
+            "300",
+            45
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            106
+          ]
+        ],
+        "sizeMin": 10,
+        "sizeMedian": 14,
+        "sizeMax": 96,
+        "sizeMaxVw": 6.7,
+        "scaleRatio": 6.9,
+        "letterSpacingMean": 0,
+        "loadedFonts": [
+          {
+            "family": "IBM Plex Mono",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "PP Neue Montreal",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "PP Neue Montreal",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "PP Neue Montreal",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "500",
+            "style": "normal"
+          }
+        ],
+        "variableFont": true,
+        "textElements": 164
+      },
+      "color": {
+        "background": "rgb(245, 239, 255)",
+        "backgroundLuminance": 0.883654812433655,
+        "backgrounds": [
+          [
+            "rgba(245, 239, 255, 0.1)",
+            51
+          ],
+          [
+            "rgb(144, 71, 255)",
+            5
+          ],
+          [
+            "rgb(148, 163, 184)",
+            0
+          ],
+          [
+            "rgb(42, 22, 71)",
+            0
+          ],
+          [
+            "rgb(255, 255, 255)",
+            0
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(42, 22, 71)",
+            586
+          ],
+          [
+            "rgb(255, 255, 255)",
+            333
+          ],
+          [
+            "rgb(88, 28, 135)",
+            51
+          ],
+          [
+            "rgb(107, 114, 128)",
+            19
+          ],
+          [
+            "rgb(148, 163, 184)",
+            16
+          ]
+        ],
+        "meanSaturation": 0.33,
+        "rootVars": {
+          "--primary": "#9047ff",
+          "--primary-rgb": "144,71,255",
+          "--primary-active": "#7114ff",
+          "--primary-active-rgb": "113,20,255",
+          "--status-danger": "#ff3b30",
+          "--status-danger-rgb": "255,59,48",
+          "--status-danger-active": "#c91b11",
+          "--status-danger-active-rgb": "201,27,17",
+          "--status-success": "#319f43",
+          "--status-success-rgb": "49,159,67",
+          "--background": "#f5efff",
+          "--background-rgb": "245,239,255",
+          "--foreground": "#2a1647",
+          "--foreground-rgb": "42,22,71",
+          "--foreground-muted": "#64698b",
+          "--foreground-muted-rgb": "100,105,139",
+          "--border": "#e2e4f0",
+          "--border-rgb": "226,228,240",
+          "--card": "#fff",
+          "--card-rgb": "255,255,255",
+          "--muted": "#f1f2f9",
+          "--muted-rgb": "241,242,249",
+          "--contrast": "#000",
+          "--contrast-rgb": "0,0,0",
+          "--glass": "#fff",
+          "--glass-rgb": "255,255,255",
+          "--backdrop": "rgba(0, 0, 0, 0.8)",
+          "--backdrop-rgb": "0,0,0",
+          "--btn-color": "var(--color-purple-900)",
+          "--rounded-sm": "4px",
+          "--rounded-md": "8px",
+          "--rounded-lg": "12px",
+          "--rounded-xl": "16px",
+          "--rounded-xxl": "20px",
+          "--rounded-full": "9999px",
+          "--gradient-opacity": ".2",
+          "--card-shadow-color": "rgba(var(--contrast-rgb),.05)",
+          "--card-shadow-b": "0px 1px 2px 0px var(--card-shadow-color)",
+          "--card-shadow": "0px 1px 2px 0px var(--card-shadow-color),0px -1px 2px 0px var(--card-shadow-color)",
+          "--card-shadow-md": "rgba(14,18,22,.35) 0px 10px 38px -10px,rgba(14,18,22,.2) 0px 10px 20px -15px"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 0,
+        "sticky": 3,
+        "fixed": 11,
+        "grid": 64,
+        "flex": 197,
+        "absolute": 81,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 900,
+        "pages": 1,
+        "spacing": [
+          [
+            4,
+            96
+          ],
+          [
+            16,
+            41
+          ],
+          [
+            8,
+            31
+          ],
+          [
+            12,
+            16
+          ],
+          [
+            6,
+            12
+          ],
+          [
+            10,
+            9
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            28,
+            6
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 2,
+        "animationKinds": [
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 2,
+        "animationDurations": [
+          2000,
+          2000
+        ],
+        "easings": [
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            300,
+            31
+          ],
+          [
+            400,
+            18
+          ],
+          [
+            500,
+            15
+          ],
+          [
+            1000,
+            5
+          ],
+          [
+            200,
+            4
+          ]
+        ],
+        "keyframes": [
+          "dots-33582e99",
+          "applePanelClose",
+          "appleBlobOpen",
+          "appleContentReveal",
+          "appleItemsClip",
+          "appleBlobClose",
+          "appleContentBlurOut",
+          "appleItemsClipClose",
+          "slideUpAndFade",
+          "slideRightAndFade",
+          "slideDownAndFade",
+          "slideLeftAndFade",
+          "ai-bubble-morph-e2f13c5d",
+          "arrow-25a66d7e",
+          "ai-glow-spin-1ad4dabb",
+          "ai-dot-pulse-4802e666",
+          "rotate-5d5662a1",
+          "dash-5d5662a1",
+          "ai-decode-cursor-ba0c6b61",
+          "ai-ring-spin-ae3abfb1"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": true
+      },
+      "hiddenElements": 40,
+      "media": {
+        "canvases": [
+          {
+            "w": 190,
+            "h": 46,
+            "area": 0.01
+          },
+          {
+            "w": 1440,
+            "h": 900,
+            "area": 1
+          },
+          {
+            "w": 32,
+            "h": 16,
+            "area": 0
+          },
+          {
+            "w": 118,
+            "h": 34,
+            "area": 0
+          },
+          {
+            "w": 0,
+            "h": 0,
+            "area": 0
+          },
+          {
+            "w": 0,
+            "h": 0,
+            "area": 0
+          },
+          {
+            "w": 179,
+            "h": 46,
+            "area": 0.01
+          },
+          {
+            "w": 190,
+            "h": 46,
+            "area": 0.01
+          },
+          {
+            "w": 179,
+            "h": 46,
+            "area": 0.01
+          },
+          {
+            "w": 165,
+            "h": 46,
+            "area": 0.01
+          },
+          {
+            "w": 50,
+            "h": 50,
+            "area": 0
+          }
+        ],
+        "videos": [
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://emotion-agency.com/projects/e-promo.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://emotion-agency.com/projects/flshfrm.mp4"
+          }
+        ],
+        "svg": 37,
+        "images": 6,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 2,
+          "2d": 52
+        },
+        "raf": 185,
+        "io": 19,
+        "ro": 23,
+        "mo": 1,
+        "startViewTransition": 0,
+        "workers": 10,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": true,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Emotion Agency — Interfaces People Remember",
+      "lang": "en",
+      "description": "Award-winning websites and digital products for the brands of tomorrow. Design and engineering under one roof since 2018 — 76 international design awards."
+    },
+    "featuresBeforeScroll": {
+      "elements": 2077,
+      "canvases": 11,
+      "animations": 2,
+      "hidden": 40
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 6,
+      "changed": 0
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 21475168,
+        "layoutCount": 179,
+        "recalcStyleCount": 327,
+        "scriptDuration": 1.004854,
+        "taskDuration": 111.028499,
+        "nodes": 4940
+      },
+      "timing": {
+        "domContentLoaded": 509,
+        "load": 548,
+        "first-paint": 380,
+        "first-contentful-paint": 380
+      }
+    },
+    "network": [
+      {
+        "url": "https://emotion-agency.com/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 30796
+      },
+      {
+        "url": "https://emotion-agency.com/_nuxt/entry.CupBdwrZ.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 15412
+      },
+      {
+        "url": "https://emotion-agency.com/_nuxt/AppFooter.CjLOEwFS.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 788
+      },
+      {
+        "url": "https://emotion-agency.com/_nuxt/FooterBottom.D44KseFs.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1466
+      },
+      {
+        "url": "https://emotion-agency.com/_nuxt/InfoLabel.DqyvPKau.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 753
+      },
+      {
+        "url": "https://emotion-agency.com/_nuxt/CustomImage.D5L3UxIA.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 379
+      },
+      {
+        "url": "https://emotion-agency.com/_nuxt/SpecList.CpwytWaT.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 776
+      },
+      {
+        "url": "https://emotion-agency.com/_nuxt/ColorIndicator.DZe-Zk7b.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 293
+      },
+      {
+        "url": "https://emotion-agency.com/_nuxt/useStorytellingPage.CTKY23ca.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 778
+      },
+      {
+        "url": "https://emotion-agency.com/_nuxt/ProgressRing.K3jOXQdM.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 764
+      },
+      {
+        "url": "https://emotion-agency.com/_nuxt/MGdOx5d6.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 613601
+      },
+      {
+        "url": "https://emotion-agency.com/_nuxt/basis_transcoder.o4Hde_L7.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 16371
+      },
+      {
+        "url": "https://emotion-agency.com/fonts/PPNeueMontreal-Medium.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 83826
+      },
+      {
+        "url": "https://emotion-agency.com/fonts/IBMPlexMono-Medium-Latin1.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 18054
+      },
+      {
+        "url": "https://emotion-agency.com/_nuxt/CX_8zZ4O.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 327
+      },
+      {
+        "url": "https://emotion-agency.com/_nuxt/DFJPvhsl.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 9486
+      },
+      {
+        "url": "https://emotion-agency.com/_nuxt/hOsI2ZXX.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 824
+      },
+      {
+        "url": "https://emotion-agency.com/_nuxt/OM97HJzU.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3660
+      },
+      {
+        "url": "https://emotion-agency.com/_nuxt/C2WPA7Jb.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3222
+      },
+      {
+        "url": "https://emotion-agency.com/_nuxt/D-h_aDDo.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 679
+      },
+      {
+        "url": "https://emotion-agency.com/_nuxt/3E8BqcVz.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4072
+      },
+      {
+        "url": "https://emotion-agency.com/_nuxt/CxPU9nx8.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 923
+      },
+      {
+        "url": "https://emotion-agency.com/_nuxt/BZX1RAAw.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1448
+      },
+      {
+        "url": "https://emotion-agency.com/_nuxt/qKIOv2Nj.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3548
+      },
+      {
+        "url": "https://emotion-agency.com/_nuxt/BVfK6aaU.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 286
+      },
+      {
+        "url": "https://emotion-agency.com/_nuxt/B-6JoDl7.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 997
+      },
+      {
+        "url": "https://emotion-agency.com/_nuxt/BuGbOUcK.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 501
+      },
+      {
+        "url": "https://emotion-agency.com/_nuxt/CdOiR2Gx.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1615
+      },
+      {
+        "url": "https://emotion-agency.com/_nuxt/CJhIG00H.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 878
+      },
+      {
+        "url": "https://emotion-agency.com/_nuxt/basis_transcoder.VXdx5NbI.wasm",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/wasm",
+        "fromCache": false,
+        "bytes": 251643
+      },
+      {
+        "url": "https://emotion-agency.com/_nuxt/fallLeaf.DlVBl2Oz.png",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 13305
+      },
+      {
+        "url": "https://emotion-agency.com/fonts/EmotionSerif-Light.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 68625
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='24' height='24'%3E%3Cg fill='none' stroke='black' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'%3E%3Cpath d='m10 15l5 5l5-5'/%3E%3Cpath d='M4 4h7a4 4 0 0 1 4 4v12'/%3E%3C/g%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://emotion-agency.com/fonts/EmotionSerif-LightItalic.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 135475
+      },
+      {
+        "url": "https://emotion-agency.com/_nuxt/index.zOGQ7nS_.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 4436
+      },
+      {
+        "url": "https://emotion-agency.com/audio/background/webm/main.webm",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "video/webm",
+        "fromCache": false,
+        "bytes": 1762931
+      },
+      {
+        "url": "https://emotion-agency.com/audio/effects/webm/transition.webm",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "video/webm",
+        "fromCache": false,
+        "bytes": 12292
+      },
+      {
+        "url": "https://emotion-agency.com/models/mountain.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "model/gltf-binary",
+        "fromCache": false,
+        "bytes": 136235
+      },
+      {
+        "url": "https://emotion-agency.com/models/office.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "model/gltf-binary",
+        "fromCache": false,
+        "bytes": 3032896
+      },
+      {
+        "url": "https://emotion-agency.com/models/duck.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "model/gltf-binary",
+        "fromCache": false,
+        "bytes": 36022
+      },
+      {
+        "url": "https://emotion-agency.com/models/e.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "model/gltf-binary",
+        "fromCache": false,
+        "bytes": 9499
+      },
+      {
+        "url": "https://emotion-agency.com/grass_text/grassbushcc008.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 155628
+      },
+      {
+        "url": "https://emotion-agency.com/grass_text/grassbushcc005.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 118755
+      },
+      {
+        "url": "https://emotion-agency.com/grass_text/grassbushcc006.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 175024
+      },
+      {
+        "url": "https://emotion-agency.com/water_map.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 58666
+      },
+      {
+        "url": "https://emotion-agency.com/water/Water_1_M_Normal.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 62291
+      },
+      {
+        "url": "https://emotion-agency.com/water/Water_2_M_Normal.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 74356
+      },
+      {
+        "url": "https://emotion-agency.com/noise.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 30577
+      },
+      {
+        "url": "https://emotion-agency.com/_nuxt/draco_wasm_wrapper.DxJM36Ib.js",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 12178
+      },
+      {
+        "url": "https://emotion-agency.com/_nuxt/draco_decoder.C32yEggz.wasm",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/wasm",
+        "fromCache": false,
+        "bytes": 84926
+      },
+      {
+        "url": "blob:https://emotion-agency.com/a62fe0c7-c1b9-4c95-827c-edc530d24756",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://emotion-agency.com/basis/basis_transcoder.js",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 16400
+      },
+      {
+        "url": "https://emotion-agency.com/basis/basis_transcoder.wasm",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/wasm",
+        "fromCache": false,
+        "bytes": 251639
+      },
+      {
+        "url": "https://emotion-agency.com/_nuxt/D3a_plWR.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 11678
+      },
+      {
+        "url": "https://emotion-agency.com/_nuxt/CpBOjrB0.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1020
+      },
+      {
+        "url": "https://emotion-agency.com/_nuxt/BUq9ZR5Z.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 581
+      },
+      {
+        "url": "https://emotion-agency.com/_nuxt/about.DhEJUkQ5.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 4415
+      },
+      {
+        "url": "https://emotion-agency.com/_nuxt/RSJQw1y9.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 7799
+      },
+      {
+        "url": "https://emotion-agency.com/_nuxt/index.Cdy_PYs-.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 2277
+      },
+      {
+        "url": "https://emotion-agency.com/_nuxt/builds/meta/8d38ae90-87d1-479b-aba9-25f3e13d6551.json",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 609
+      },
+      {
+        "url": "blob:https://emotion-agency.com/9ff2e115-b7be-4d24-be44-65b0d72fbdca",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://emotion-agency.com/4c3b288c-a88a-43c2-9896-ef8e3aeb7f4b",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://emotion-agency.com/adb1ffca-135b-4ea4-be47-e956582befd8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://emotion-agency.com/99557272-dbdd-4273-9966-fa8a0416de93",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://emotion-agency.com/75622e25-7dcf-4651-9bc0-1fb8adab6c2d",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://emotion-agency.com/f710170b-b437-414a-9527-8b8841d77a09",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://emotion-agency.com/ed9e3726-7540-47eb-9894-76fd81c0af62",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://emotion-agency.com/3bdd3a8d-379c-4750-9b89-5c571e68e7c5",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://emotion-agency.com/30aba99b-fcf6-488f-8fa9-2c7cffa4c1b0",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://emotion-agency.com/b1063d31-0c9b-4d5d-8c19-397cf09807f6",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://emotion-agency.com/4979f2a3-773b-4484-afde-d1ca7afb8942",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://emotion-agency.com/b21ed8cc-9246-4749-bc7f-f7cab34ea69c",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://emotion-agency.com/c9e2ff0a-1b95-4086-9521-b8d4503d3000",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://emotion-agency.com/10759144-2df2-40cc-a733-18d4633d252c",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://emotion-agency.com/cba0a67b-9460-4346-ac4a-d251ed08eea8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://emotion-agency.com/59788ba3-bce9-4a29-b742-128d1e9e21e9",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://emotion-agency.com/aa79778a-58ab-4441-b686-8f97d96f8c48",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://emotion-agency.com/a002bce7-e6c1-4963-aec0-7c1345b75d62",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://emotion-agency.com/9eb565b9-a7cb-4976-b3e9-c83dd1f3d46c",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://emotion-agency.com/9c8202e9-cbaa-4af0-9a9f-b170483eac17",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://emotion-agency.com/58274b56-5e11-4cbc-b6c0-c4d7635a3dc4",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://emotion-agency.com/c153429e-8fb5-4b3d-adf0-68394dda73bb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://emotion-agency.com/e72d5e9a-0ab7-445c-ba24-136b544fdcdc",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://emotion-agency.com/3acd2059-00ee-4f53-a22e-50a8d06e3cc1",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://emotion-agency.com/81361942-157a-4614-b1bb-52a6405b78ba",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://emotion-agency.com/fonts/IBMPlexMono-Medium-Latin1.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "other",
+        "status": 304,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 130
+      },
+      {
+        "url": "https://emotion-agency.com/fonts/PPNeueMontreal-Medium.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "other",
+        "status": 304,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 81
+      },
+      {
+        "url": "blob:https://emotion-agency.com/80f9c424-d7b9-47d8-b93b-34dca3a505cc",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "blob:https://emotion-agency.com/80f9c424-d7b9-47d8-b93b-34dca3a505cc",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "blob:https://emotion-agency.com/80f9c424-d7b9-47d8-b93b-34dca3a505cc",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "blob:https://emotion-agency.com/8fd79458-53aa-43ad-8df0-20f7818e9c61",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "blob:https://emotion-agency.com/8fd79458-53aa-43ad-8df0-20f7818e9c61",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "blob:https://emotion-agency.com/8fd79458-53aa-43ad-8df0-20f7818e9c61",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "blob:https://emotion-agency.com/8fd79458-53aa-43ad-8df0-20f7818e9c61",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "blob:https://emotion-agency.com/80f9c424-d7b9-47d8-b93b-34dca3a505cc",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "https://emotion-agency.com/_nuxt/DfWgQ0O5.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 16502
+      },
+      {
+        "url": "https://emotion-agency.com/_nuxt/contact.DbI0CKbH.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 2290
+      },
+      {
+        "url": "https://emotion-agency.com/fonts/IBMPlexMono-Medium-Latin1.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "other",
+        "status": 304,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 54
+      },
+      {
+        "url": "https://emotion-agency.com/fonts/PPNeueMontreal-Medium.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "other",
+        "status": 304,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 53
+      },
+      {
+        "url": "https://emotion-agency.com/_nuxt/De4f_6zU.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 7127
+      },
+      {
+        "url": "https://emotion-agency.com/_nuxt/oak_ao_1k.Ckw69VRr.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 213612
+      },
+      {
+        "url": "https://emotion-agency.com/_nuxt/oak_color_1k.X86cJ5CF.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 281847
+      },
+      {
+        "url": "https://emotion-agency.com/_nuxt/oak_normal_1k.CeTw_IV2.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 301351
+      },
+      {
+        "url": "https://emotion-agency.com/_nuxt/oak_roughness_1k.CbAHvXCg.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 102303
+      },
+      {
+        "url": "https://emotion-agency.com/models/chair.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "model/gltf-binary",
+        "fromCache": false,
+        "bytes": 274762
+      },
+      {
+        "url": "https://emotion-agency.com/_nuxt/aspen_color.Cpgr1Q0w.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 142351
+      },
+      {
+        "url": "https://emotion-agency.com/_nuxt/fallLeaf.DlVBl2Oz.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://emotion-agency.com/d64299a8-6100-4088-8200-3c1aff2870cd",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://emotion-agency.com/415faf27-befa-4487-828f-0feb0d8e7050",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://emotion-agency.com/0c7a577f-098c-44c4-8352-70074d6442e7",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://emotion-agency.com/90bebd75-998d-4a11-826e-37a5c76518f8",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://emotion-agency.com/73818b1b-db85-4659-8a4c-2879935eb791",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://emotion-agency.com/b2358d79-a571-41be-934b-2eea52c57988",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://emotion-agency.com/_nuxt/tileWorker-gyiVipfF.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "https://emotion-agency.com/_nuxt/particleWorker-ys4WGYTu.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "https://emotion-agency.com/models/awards/awwwards.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "model/gltf-binary",
+        "fromCache": false,
+        "bytes": 10207
+      },
+      {
+        "url": "https://emotion-agency.com/models/awards/cssda.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "model/gltf-binary",
+        "fromCache": false,
+        "bytes": 29168
+      },
+      {
+        "url": "https://emotion-agency.com/models/awards/be.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "model/gltf-binary",
+        "fromCache": false,
+        "bytes": 32176
+      },
+      {
+        "url": "https://emotion-agency.com/models/awards/ca.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "model/gltf-binary",
+        "fromCache": false,
+        "bytes": 25625
+      },
+      {
+        "url": "https://emotion-agency.com/models/awards/codrops.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "model/gltf-binary",
+        "fromCache": false,
+        "bytes": 38859
+      },
+      {
+        "url": "https://emotion-agency.com/models/projects/floor/ktx/painted_concrete_02_diff_1k.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 96461
+      },
+      {
+        "url": "https://emotion-agency.com/models/projects/floor/ktx/painted_concrete_02_nor_gl_1k.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 546369
+      },
+      {
+        "url": "https://emotion-agency.com/models/projects/floor/ktx/painted_concrete_02_rough_1k.ktx2",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/ktx2",
+        "fromCache": false,
+        "bytes": 27375
+      },
+      {
+        "url": "https://emotion-agency.com/projects/e-promo.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 780058
+      },
+      {
+        "url": "https://emotion-agency.com/projects/flshfrm.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 364793
+      },
+      {
+        "url": "blob:https://emotion-agency.com/7dfdb3bd-5e04-4841-b058-732b6329f7df",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://emotion-agency.com/a675ffc8-276d-4700-814b-e697b0f0bffe",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "blob:https://emotion-agency.com/89ad835a-7d37-42bd-8cd8-3d051d09fb56",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 0
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "dots-33582e99",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "arrow-25a66d7e",
+        "duration": 2000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "arrow-25a66d7e",
+        "duration": 2000,
+        "delay": -1000,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "padding-top",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "padding-top",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A07020009C020000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x3ddc0013c400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x3ddc0013c400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x3ddc0013c400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x3ddc0013c400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+      }
+    ],
+    "exceptions": [],
+    "failed": [],
+    "targets": {
+      "frames": 1,
+      "workers": 10
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 31558,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 2145,
+      "typography": {
+        "families": [
+          [
+            "IBM Plex Mono",
+            108
+          ],
+          [
+            "PP Neue Montreal",
+            64
+          ],
+          [
+            "Emotion Serif",
+            49
+          ]
+        ],
+        "weights": [
+          [
+            "500",
+            172
+          ],
+          [
+            "300",
+            49
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            132
+          ]
+        ],
+        "sizeMin": 10,
+        "sizeMedian": 14,
+        "sizeMax": 46,
+        "sizeMaxVw": 11.8,
+        "scaleRatio": 3.3,
+        "letterSpacingMean": 0,
+        "loadedFonts": [
+          {
+            "family": "IBM Plex Mono",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "PP Neue Montreal",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "PP Neue Montreal",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "PP Neue Montreal",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "IBM Plex Mono",
+            "weight": "500",
+            "style": "normal"
+          }
+        ],
+        "variableFont": true,
+        "textElements": 221
+      },
+      "color": {
+        "background": "rgb(245, 239, 255)",
+        "backgroundLuminance": 0.883654812433655,
+        "backgrounds": [
+          [
+            "rgba(245, 239, 255, 0.1)",
+            53
+          ],
+          [
+            "rgb(144, 71, 255)",
+            5
+          ],
+          [
+            "rgb(203, 213, 225)",
+            2
+          ],
+          [
+            "rgb(243, 232, 255)",
+            0
+          ],
+          [
+            "rgb(148, 163, 184)",
+            0
+          ],
+          [
+            "rgb(42, 22, 71)",
+            0
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(42, 22, 71)",
+            628
+          ],
+          [
+            "rgb(255, 255, 255)",
+            117
+          ],
+          [
+            "rgb(88, 28, 135)",
+            51
+          ],
+          [
+            "rgb(148, 163, 184)",
+            16
+          ],
+          [
+            "rgb(107, 114, 128)",
+            15
+          ]
+        ],
+        "meanSaturation": 0.31,
+        "rootVars": {
+          "--primary": "#9047ff",
+          "--primary-rgb": "144,71,255",
+          "--primary-active": "#7114ff",
+          "--primary-active-rgb": "113,20,255",
+          "--status-danger": "#ff3b30",
+          "--status-danger-rgb": "255,59,48",
+          "--status-danger-active": "#c91b11",
+          "--status-danger-active-rgb": "201,27,17",
+          "--status-success": "#319f43",
+          "--status-success-rgb": "49,159,67",
+          "--background": "#f5efff",
+          "--background-rgb": "245,239,255",
+          "--foreground": "#2a1647",
+          "--foreground-rgb": "42,22,71",
+          "--foreground-muted": "#64698b",
+          "--foreground-muted-rgb": "100,105,139",
+          "--border": "#e2e4f0",
+          "--border-rgb": "226,228,240",
+          "--card": "#fff",
+          "--card-rgb": "255,255,255",
+          "--muted": "#f1f2f9",
+          "--muted-rgb": "241,242,249",
+          "--contrast": "#000",
+          "--contrast-rgb": "0,0,0",
+          "--glass": "#fff",
+          "--glass-rgb": "255,255,255",
+          "--backdrop": "rgba(0, 0, 0, 0.8)",
+          "--backdrop-rgb": "0,0,0",
+          "--btn-color": "var(--color-purple-900)",
+          "--rounded-sm": "4px",
+          "--rounded-md": "8px",
+          "--rounded-lg": "12px",
+          "--rounded-xl": "16px",
+          "--rounded-xxl": "20px",
+          "--rounded-full": "9999px",
+          "--gradient-opacity": ".2",
+          "--card-shadow-color": "rgba(var(--contrast-rgb),.05)",
+          "--card-shadow-b": "0px 1px 2px 0px var(--card-shadow-color)",
+          "--card-shadow": "0px 1px 2px 0px var(--card-shadow-color),0px -1px 2px 0px var(--card-shadow-color)",
+          "--card-shadow-md": "rgba(14,18,22,.35) 0px 10px 38px -10px,rgba(14,18,22,.2) 0px 10px 20px -15px"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 0,
+        "sticky": 3,
+        "fixed": 9,
+        "grid": 56,
+        "flex": 228,
+        "absolute": 77,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 844,
+        "pages": 1,
+        "spacing": [
+          [
+            4,
+            97
+          ],
+          [
+            16,
+            47
+          ],
+          [
+            8,
+            32
+          ],
+          [
+            12,
+            19
+          ],
+          [
+            6,
+            11
+          ],
+          [
+            28,
+            11
+          ],
+          [
+            10,
+            9
+          ],
+          [
+            20,
+            7
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 0,
+        "animationKinds": [],
+        "infiniteAnimations": 0,
+        "animationDurations": [],
+        "easings": [],
+        "transitionDurationsMs": [
+          [
+            300,
+            31
+          ],
+          [
+            400,
+            17
+          ],
+          [
+            500,
+            15
+          ],
+          [
+            1000,
+            5
+          ],
+          [
+            200,
+            2
+          ]
+        ],
+        "keyframes": [
+          "dots-33582e99",
+          "applePanelClose",
+          "appleBlobOpen",
+          "appleContentReveal",
+          "appleItemsClip",
+          "appleBlobClose",
+          "appleContentBlurOut",
+          "appleItemsClipClose",
+          "slideUpAndFade",
+          "slideRightAndFade",
+          "slideDownAndFade",
+          "slideLeftAndFade",
+          "ai-bubble-morph-e2f13c5d",
+          "arrow-25a66d7e",
+          "ai-glow-spin-1ad4dabb",
+          "ai-dot-pulse-4802e666",
+          "rotate-5d5662a1",
+          "dash-5d5662a1",
+          "ai-decode-cursor-ba0c6b61",
+          "ai-ring-spin-ae3abfb1"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 66,
+      "media": {
+        "canvases": [
+          {
+            "w": 380,
+            "h": 92,
+            "area": 0.04
+          },
+          {
+            "w": 585,
+            "h": 1266,
+            "area": 1
+          },
+          {
+            "w": 0,
+            "h": 0,
+            "area": 0
+          },
+          {
+            "w": 0,
+            "h": 0,
+            "area": 0
+          },
+          {
+            "w": 286,
+            "h": 92,
+            "area": 0.03
+          },
+          {
+            "w": 76,
+            "h": 76,
+            "area": 0
+          },
+          {
+            "w": 358,
+            "h": 92,
+            "area": 0.03
+          },
+          {
+            "w": 380,
+            "h": 92,
+            "area": 0.04
+          },
+          {
+            "w": 358,
+            "h": 92,
+            "area": 0.04
+          },
+          {
+            "w": 330,
+            "h": 92,
+            "area": 0.03
+          }
+        ],
+        "videos": [
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://emotion-agency.com/projects/e-promo.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://emotion-agency.com/projects/flshfrm.mp4"
+          }
+        ],
+        "svg": 39,
+        "images": 6,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "2d": 51,
+          "webgl2": 1
+        },
+        "raf": 200,
+        "io": 18,
+        "ro": 23,
+        "mo": 1,
+        "startViewTransition": 0,
+        "workers": 10,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": true,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Emotion Agency — Interfaces People Remember",
+      "lang": "en",
+      "description": "Award-winning websites and digital products for the brands of tomorrow. Design and engineering under one roof since 2018 — 76 international design awards."
+    },
+    "featuresBeforeScroll": {
+      "elements": 2145,
+      "canvases": 10,
+      "animations": 0,
+      "hidden": 66
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 31415844,
+        "layoutCount": 245,
+        "recalcStyleCount": 427,
+        "scriptDuration": 0.426607,
+        "taskDuration": 29.103404,
+        "nodes": 4593
+      },
+      "timing": {
+        "domContentLoaded": 502,
+        "load": 536,
+        "first-paint": 464,
+        "first-contentful-paint": 464
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "dots-33582e99",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 120,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A000521C9C020000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      }
+    ],
+    "exceptions": [],
+    "failed": [],
+    "targets": {
+      "frames": 1,
+      "workers": 10
+    }
+  }
+}

@@ -1,0 +1,1957 @@
+{
+  "url": "https://www.esrbespoke.au/",
+  "at": "2026-10-29T12:56:41.025Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 9579,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 1136,
+      "typography": {
+        "families": [
+          [
+            "__headingFont_a39ca7",
+            27
+          ],
+          [
+            "__bodyFont_0f148b",
+            20
+          ]
+        ],
+        "weights": [
+          [
+            "300",
+            27
+          ],
+          [
+            "500",
+            20
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            27
+          ]
+        ],
+        "sizeMin": 14,
+        "sizeMedian": 14,
+        "sizeMax": 92,
+        "sizeMaxVw": 6.4,
+        "scaleRatio": 6.6,
+        "letterSpacingMean": 0.055,
+        "loadedFonts": [
+          {
+            "family": "__bodyFont_0f148b",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "__bodyFont_0f148b",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "__headingFont_a39ca7",
+            "weight": "normal",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 47
+      },
+      "color": {
+        "background": "rgb(255, 255, 255)",
+        "backgroundLuminance": 1,
+        "backgrounds": [
+          [
+            "rgb(255, 255, 255)",
+            6480
+          ],
+          [
+            "rgb(0, 0, 0)",
+            5061
+          ],
+          [
+            "rgb(25, 25, 25)",
+            1296
+          ],
+          [
+            "rgb(95, 123, 169)",
+            47
+          ],
+          [
+            "rgb(43, 43, 43)",
+            3
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(0, 0, 0)",
+            360
+          ],
+          [
+            "rgb(255, 255, 255)",
+            207
+          ]
+        ],
+        "meanSaturation": 0.09,
+        "rootVars": {
+          "--foreground-rgb": "0,0,0",
+          "--background-rgb": "255,255,255",
+          "--border-rgb": "0,0,0",
+          "--scrollbarWidth": "0px"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 2,
+        "sticky": 1,
+        "fixed": 10,
+        "grid": 13,
+        "flex": 39,
+        "absolute": 68,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 6870,
+        "pages": 7.6,
+        "spacing": [
+          [
+            16,
+            15
+          ],
+          [
+            216,
+            12
+          ],
+          [
+            20,
+            8
+          ],
+          [
+            40,
+            6
+          ],
+          [
+            270,
+            5
+          ],
+          [
+            32,
+            3
+          ],
+          [
+            28,
+            2
+          ],
+          [
+            396,
+            1
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 0,
+        "animationKinds": [],
+        "infiniteAnimations": 0,
+        "animationDurations": [],
+        "easings": [],
+        "transitionDurationsMs": [
+          [
+            300,
+            23
+          ],
+          [
+            500,
+            15
+          ],
+          [
+            100,
+            12
+          ]
+        ],
+        "keyframes": [
+          "nprogress-spinner",
+          "pulse"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 21,
+      "media": {
+        "canvases": [
+          {
+            "w": 40,
+            "h": 40,
+            "area": 0.05
+          },
+          {
+            "w": 40,
+            "h": 40,
+            "area": 0.05
+          },
+          {
+            "w": 40,
+            "h": 40,
+            "area": 0.05
+          },
+          {
+            "w": 40,
+            "h": 40,
+            "area": 0.05
+          },
+          {
+            "w": 40,
+            "h": 40,
+            "area": 0.05
+          },
+          {
+            "w": 1440,
+            "h": 900,
+            "area": 1
+          },
+          {
+            "w": 40,
+            "h": 40,
+            "area": 0.04
+          },
+          {
+            "w": 40,
+            "h": 40,
+            "area": 0.04
+          },
+          {
+            "w": 40,
+            "h": 40,
+            "area": 0.04
+          },
+          {
+            "w": 40,
+            "h": 40,
+            "area": 0.04
+          },
+          {
+            "w": 40,
+            "h": 40,
+            "area": 0.04
+          },
+          {
+            "w": 40,
+            "h": 40,
+            "area": 0.04
+          },
+          {
+            "w": 40,
+            "h": 40,
+            "area": 0.04
+          },
+          {
+            "w": 40,
+            "h": 40,
+            "area": 0.04
+          },
+          {
+            "w": 40,
+            "h": 40,
+            "area": 0.04
+          },
+          {
+            "w": 40,
+            "h": 40,
+            "area": 0.04
+          },
+          {
+            "w": 40,
+            "h": 40,
+            "area": 0.04
+          },
+          {
+            "w": 40,
+            "h": 40,
+            "area": 0.04
+          }
+        ],
+        "videos": [
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "blob:https://www.esrbespoke.au/eceafd48-f4f1-46a6-be05-aca0c0c9d7f4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "blob:https://www.esrbespoke.au/8fdd9068-1ca3-465c-a7f6-caa3804c6cca"
+          },
+          {
+            "autoplay": false,
+            "loop": false,
+            "muted": false,
+            "src": "blob:https://www.esrbespoke.au/188cd0e8-6500-47f4-b840-2445328ca552"
+          }
+        ],
+        "svg": 5,
+        "images": 17,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "2d": 18
+        },
+        "raf": 968,
+        "io": 1,
+        "ro": 34,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": true,
+        "nuxt": false,
+        "reactRoot": true,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "ESR",
+      "lang": "en",
+      "description": "Three decades of restoring excellence and reigniting the joy of the drive."
+    },
+    "featuresBeforeScroll": {
+      "elements": 1136,
+      "canvases": 18,
+      "animations": 0,
+      "hidden": 43
+    },
+    "scrollReveal": 22,
+    "hover": {
+      "probed": 6,
+      "changed": 2
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 7953776,
+        "layoutCount": 290,
+        "recalcStyleCount": 897,
+        "scriptDuration": 0.237105,
+        "taskDuration": 2.550169,
+        "nodes": 2611
+      },
+      "timing": {
+        "domContentLoaded": 805,
+        "load": 807,
+        "first-paint": 952,
+        "first-contentful-paint": 952
+      }
+    },
+    "network": [
+      {
+        "url": "https://www.esrbespoke.au/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 15781
+      },
+      {
+        "url": "https://www.esrbespoke.au/_next/static/media/8502d5c4d62e96aa-s.p.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 58234
+      },
+      {
+        "url": "https://www.esrbespoke.au/_next/static/media/5ff020520c816464-s.p.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 58683
+      },
+      {
+        "url": "https://www.esrbespoke.au/_next/static/media/e18653aa310c4642-s.p.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 59405
+      },
+      {
+        "url": "https://www.esrbespoke.au/_next/static/media/2e325ac31a69599d-s.p.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 59987
+      },
+      {
+        "url": "https://www.esrbespoke.au/_next/static/media/e0ac8fe0d2c1027e-s.p.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 42217
+      },
+      {
+        "url": "https://www.esrbespoke.au/_next/static/css/d8ad670185a68a8b.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 7535
+      },
+      {
+        "url": "https://www.esrbespoke.au/_next/static/css/ea7d800c8a680295.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 839
+      },
+      {
+        "url": "https://www.esrbespoke.au/_next/static/chunks/webpack-c4c67869b2eaf6be.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2065
+      },
+      {
+        "url": "https://www.esrbespoke.au/_next/static/chunks/framework-64ad27b21261a9ce.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 46577
+      },
+      {
+        "url": "https://www.esrbespoke.au/_next/static/chunks/main-4b423ec82b590a3f.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 35453
+      },
+      {
+        "url": "https://www.esrbespoke.au/_next/static/chunks/pages/_app-73de1ae2e4fdf2b5.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2791
+      },
+      {
+        "url": "https://www.esrbespoke.au/_next/static/chunks/94726e6d-ea109d70b133db93.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 21313
+      },
+      {
+        "url": "https://www.esrbespoke.au/_next/static/chunks/457-97f8d33e3bf8c638.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 69896
+      },
+      {
+        "url": "https://www.esrbespoke.au/_next/static/chunks/792-c0bbf8f9d8820cfa.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 28092
+      },
+      {
+        "url": "https://www.esrbespoke.au/_next/static/chunks/pages/%5B%5B...slug%5D%5D-18da56d929bfa1ff.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 487
+      },
+      {
+        "url": "https://www.esrbespoke.au/_next/static/9ix10enmKtr8fTCSsfGYS/_buildManifest.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 948
+      },
+      {
+        "url": "https://www.esrbespoke.au/_next/static/9ix10enmKtr8fTCSsfGYS/_ssgManifest.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 308
+      },
+      {
+        "url": "https://www.esrbespoke.au/_next/static/chunks/37a763b4.f70bcb8f24603ffd.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 123157
+      },
+      {
+        "url": "https://cdn.sanity.io/images/ms481rgs/production/ef05187f3464d3517ed035b2285b3d843c011868-3600x2400.jpg?w=2400&q=90&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 129498
+      },
+      {
+        "url": "https://cdn.sanity.io/images/ms481rgs/production/0c5c3873d5a6d12e3d8f346c46fe7bcceadf29c1-1920x1080.png?w=2400&q=90&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 46850
+      },
+      {
+        "url": "https://cdn.sanity.io/images/ms481rgs/production/5597131eb58b9d2bfdf9d5222d79ac9c66ee3056-3600x2400.jpg?w=2400&q=90&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 201608
+      },
+      {
+        "url": "https://cdn.sanity.io/images/ms481rgs/production/4feaa0d8569b35ba50650049d00549cab2c65bc1-11514x7676.jpg?w=2400&q=90&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 154273
+      },
+      {
+        "url": "https://cdn.sanity.io/images/ms481rgs/production/5a5d336f3c221dd38f576b85d33d31b9cb6cf6bc-5152x7728.jpg/Bentley%20doc-1%205.jpg?rect=0,644,5152,6440&w=320&h=400&fit=min&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 11932
+      },
+      {
+        "url": "https://cdn.sanity.io/images/ms481rgs/production/79515ca3f2658363488c30cc70214bbb48664e40-4787x6383.jpg/Partners%20-%201.JPG?rect=0,200,4787,5984&w=320&h=400&fit=min&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 5470
+      },
+      {
+        "url": "https://cdn.sanity.io/images/ms481rgs/production/c5f540cd01be946428e7e25fa5f4bfc08e389b67-5152x7728.jpg/Partners%20-%204.jpg?rect=0,644,5152,6440&w=320&h=400&fit=min&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 5643
+      },
+      {
+        "url": "https://cdn.sanity.io/images/ms481rgs/production/78073c002556a50346c49714fecffa10940b892c-5152x7728.jpg/Bentley%20doc-1%206.JPG?rect=0,644,5152,6440&w=320&h=400&fit=min&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 11882
+      },
+      {
+        "url": "https://cdn.sanity.io/images/ms481rgs/production/0e530f9b78b75ad61911da97c704d6e37be5f20b-5152x7728.jpg/Careers%20-%202.jpg?rect=0,644,5152,6440&w=320&h=400&fit=min&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 5698
+      },
+      {
+        "url": "https://cdn.sanity.io/images/ms481rgs/production/e1dd08ad224401a841c6c217fd72b7ca4d123823-1080x1080.png/4.png?w=320&h=320&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 5307
+      },
+      {
+        "url": "https://cdn.sanity.io/images/ms481rgs/production/a998190a1b1f1e721570842b15724b3d25cd235b-1080x1080.png/5.png?w=320&h=320&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 4973
+      },
+      {
+        "url": "https://cdn.sanity.io/images/ms481rgs/production/3257583715fcbf287897bb08369a6e5a598876a1-1080x1080.png/6.png?w=320&h=320&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 8287
+      },
+      {
+        "url": "https://cdn.sanity.io/images/ms481rgs/production/14473a1abd23b98f403a7c538d95c748473ecaa5-1080x1080.png/7.png?w=320&h=320&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 4895
+      },
+      {
+        "url": "https://cdn.sanity.io/images/ms481rgs/production/175e10d0f6a6c96843731c2232c4f43b87463af5-1080x1080.png/8.png?w=320&h=320&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 6028
+      },
+      {
+        "url": "https://cdn.sanity.io/images/ms481rgs/production/df6b563b1adf1d0844e01fb3f12378ee25b11b21-1080x1080.png/9.png?w=320&h=320&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 5880
+      },
+      {
+        "url": "https://cdn.sanity.io/images/ms481rgs/production/12597d3a5d2b56b408858eafceb1a9d2c4059a3a-1080x1080.png/10.png?w=320&h=320&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 8844
+      },
+      {
+        "url": "https://cdn.sanity.io/images/ms481rgs/production/1d060ee016181c4a69ae5b286579de7f0f2c7c5e-1080x1080.png/11.png?w=320&h=320&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 4139
+      },
+      {
+        "url": "https://cdn.sanity.io/images/ms481rgs/production/2cff2c1ca46d38626e2446cc023e6c90abf17ddf-1080x1080.png/12.png?w=320&h=320&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 5904
+      },
+      {
+        "url": "https://cdn.sanity.io/images/ms481rgs/production/f73a705b4360e6ba1c6715bc1c7814298023de4b-1080x1080.png/14.png?w=320&h=320&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 6440
+      },
+      {
+        "url": "https://cdn.sanity.io/images/ms481rgs/production/1c7ee602ef57c9667249258bf054fa7b99efe535-1080x1080.png/13.png?w=320&h=320&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 3607
+      },
+      {
+        "url": "https://cdn.sanity.io/images/ms481rgs/production/f8afc150e4bb64c662f4375c1614423b6d14c2fc-1080x1080.png/Porsche%20Bentley%20Ferrari%20Rolls-Royce%20Aston%20Martin%20Lamborghini%20McLaren%20Mercedes-AMG%20BMW%20M%20Audi%20RS%20Range%20Rover-2.png?w=320&h=320&auto=format",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/avif",
+        "fromCache": false,
+        "bytes": 7504
+      },
+      {
+        "url": "https://vod-adaptive-ak.vimeocdn.com/exp=1793282187~acl=%2F1dddeba7-a6c0-421a-ae4c-5180c10f52fa%2Fpsid%3D4f488592ff6cb47ec06d167156bac82bff4f72f11793278587%2F%2A~hmac=b09842edb624e1f1ac9043df2a9f8c636eb6a339ea0ac3d6dca0831ff62cdbe6/1dddeba7-a6c0-421a-ae4c-5180c10f52fa/psid=4f488592ff6cb47ec06d167156bac82bff4f72f11793278587/v2/playlist/av/primary/prot/cXNyPTE/playlist.m3u8?omit=opus&pathsig=8c953e4f~zCybQI2s_lSbcBHFMhDlWveJ9lMS0SK-CgdiysuRGEs&qsr=1&r=dXM%3D&rh=1HUrRx&sf=fmp4",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "other",
+        "status": 200,
+        "mime": "application/x-mpegurl",
+        "fromCache": false,
+        "bytes": 1031
+      },
+      {
+        "url": "https://vod-adaptive-ak.vimeocdn.com/exp=1793282187~acl=%2F1dddeba7-a6c0-421a-ae4c-5180c10f52fa%2Fpsid%3Db850fb56f9276c17d8e9586b34ca63827553f9421793278587%2F%2A~hmac=e58678dc38444e0573125d97a93b3edbf7dd5ac4cd38cdfefab59cbae267d497/1dddeba7-a6c0-421a-ae4c-5180c10f52fa/psid=b850fb56f9276c17d8e9586b34ca63827553f9421793278587/v2/playlist/av/primary/prot/cXNyPTE/playlist.m3u8?omit=opus&pathsig=8c953e4f~zCybQI2s_lSbcBHFMhDlWveJ9lMS0SK-CgdiysuRGEs&qsr=1&r=dXM%3D&rh=1HUrRx&sf=fmp4",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "other",
+        "status": 200,
+        "mime": "application/x-mpegurl",
+        "fromCache": false,
+        "bytes": 1031
+      },
+      {
+        "url": "https://vod-adaptive-ak.vimeocdn.com/exp=1793282187~acl=%2F7a8fc8ab-74a4-4bcc-856a-5a9c0301f485%2Fpsid%3Db28186fe4135442081d5b06b6e3d8ffce72abff71793278587%2F%2A~hmac=e06679c587de992e0196e1c75e2458ac5a3aef823da31cd8f34bd83420da6443/7a8fc8ab-74a4-4bcc-856a-5a9c0301f485/psid=b28186fe4135442081d5b06b6e3d8ffce72abff71793278587/v2/playlist/av/primary/sub/304535778-en-x-autogen/prot/cXNyPTE/playlist.m3u8?ext-subs=1&locale=en&omit=opus&pathsig=8c953e4f~9h-3920bwsXML0Xv0K4lrORA0T22lncksvZ0l4q6hBo&qsr=1&r=dXM%3D&rh=4wqiug&sf=fmp4",
+        "method": "GET",
+        "type": "XHR",
+        "initiator": "other",
+        "status": 200,
+        "mime": "application/x-mpegurl",
+        "fromCache": false,
+        "bytes": 1292
+      },
+      {
+        "url": "https://www.esrbespoke.au/_next/data/9ix10enmKtr8fTCSsfGYS/index.json",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 7102
+      },
+      {
+        "url": "https://www.esrbespoke.au/_next/static/css/ea7d800c8a680295.css",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.esrbespoke.au/_next/data/9ix10enmKtr8fTCSsfGYS/services.json?slug=services",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 8774
+      },
+      {
+        "url": "https://www.esrbespoke.au/_next/data/9ix10enmKtr8fTCSsfGYS/partners.json?slug=partners",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 5448
+      },
+      {
+        "url": "https://www.esrbespoke.au/_next/data/9ix10enmKtr8fTCSsfGYS/about.json?slug=about",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 5577
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 0.13156953957238654,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 69.44515457972687,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      }
+    ],
+    "console": [],
+    "exceptions": [],
+    "failed": [],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 4882,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 1135,
+      "typography": {
+        "families": [
+          [
+            "__bodyFont_0f148b",
+            20
+          ],
+          [
+            "__headingFont_a39ca7",
+            16
+          ]
+        ],
+        "weights": [
+          [
+            "500",
+            20
+          ],
+          [
+            "300",
+            16
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            16
+          ]
+        ],
+        "sizeMin": 14,
+        "sizeMedian": 15,
+        "sizeMax": 38,
+        "sizeMaxVw": 9.7,
+        "scaleRatio": 2.5,
+        "letterSpacingMean": 0.042,
+        "loadedFonts": [
+          {
+            "family": "__bodyFont_0f148b",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "__bodyFont_0f148b",
+            "weight": "500",
+            "style": "normal"
+          },
+          {
+            "family": "__headingFont_a39ca7",
+            "weight": "normal",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 36
+      },
+      "color": {
+        "background": "rgb(255, 255, 255)",
+        "backgroundLuminance": 1,
+        "backgrounds": [
+          [
+            "rgb(255, 255, 255)",
+            1635
+          ],
+          [
+            "rgb(0, 0, 0)",
+            961
+          ],
+          [
+            "rgb(25, 25, 25)",
+            329
+          ],
+          [
+            "rgb(153, 188, 214)",
+            8
+          ],
+          [
+            "rgb(43, 43, 43)",
+            3
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(0, 0, 0)",
+            317
+          ],
+          [
+            "rgb(255, 255, 255)",
+            170
+          ]
+        ],
+        "meanSaturation": 0.06,
+        "rootVars": {
+          "--foreground-rgb": "0,0,0",
+          "--background-rgb": "255,255,255",
+          "--border-rgb": "0,0,0",
+          "--scrollbarWidth": "0px"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 2,
+        "sticky": 0,
+        "fixed": 8,
+        "grid": 10,
+        "flex": 41,
+        "absolute": 69,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 4578,
+        "pages": 5.4,
+        "spacing": [
+          [
+            16,
+            21
+          ],
+          [
+            91,
+            12
+          ],
+          [
+            40,
+            6
+          ],
+          [
+            125,
+            5
+          ],
+          [
+            28,
+            2
+          ],
+          [
+            32,
+            2
+          ],
+          [
+            20,
+            2
+          ],
+          [
+            224,
+            1
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 0,
+        "animationKinds": [],
+        "infiniteAnimations": 0,
+        "animationDurations": [],
+        "easings": [],
+        "transitionDurationsMs": [
+          [
+            300,
+            23
+          ],
+          [
+            500,
+            15
+          ],
+          [
+            100,
+            12
+          ]
+        ],
+        "keyframes": [
+          "nprogress-spinner",
+          "pulse"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 18,
+      "media": {
+        "canvases": [
+          {
+            "w": 40,
+            "h": 40,
+            "area": 0
+          },
+          {
+            "w": 40,
+            "h": 40,
+            "area": 0
+          },
+          {
+            "w": 40,
+            "h": 40,
+            "area": 0
+          },
+          {
+            "w": 40,
+            "h": 40,
+            "area": 0
+          },
+          {
+            "w": 40,
+            "h": 40,
+            "area": 0
+          },
+          {
+            "w": 780,
+            "h": 976,
+            "area": 0.58
+          },
+          {
+            "w": 40,
+            "h": 40,
+            "area": 0.03
+          },
+          {
+            "w": 40,
+            "h": 40,
+            "area": 0.03
+          },
+          {
+            "w": 40,
+            "h": 40,
+            "area": 0.03
+          },
+          {
+            "w": 40,
+            "h": 40,
+            "area": 0.03
+          },
+          {
+            "w": 40,
+            "h": 40,
+            "area": 0.03
+          },
+          {
+            "w": 40,
+            "h": 40,
+            "area": 0.03
+          },
+          {
+            "w": 40,
+            "h": 40,
+            "area": 0.03
+          },
+          {
+            "w": 40,
+            "h": 40,
+            "area": 0.03
+          },
+          {
+            "w": 40,
+            "h": 40,
+            "area": 0.03
+          },
+          {
+            "w": 40,
+            "h": 40,
+            "area": 0.03
+          },
+          {
+            "w": 40,
+            "h": 40,
+            "area": 0.03
+          },
+          {
+            "w": 40,
+            "h": 40,
+            "area": 0.03
+          }
+        ],
+        "videos": [
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "blob:https://www.esrbespoke.au/ad548240-8a19-497d-a2ec-d5aa7953fbd7"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "blob:https://www.esrbespoke.au/b372f272-2d15-445d-a931-b295194d3b55"
+          },
+          {
+            "autoplay": false,
+            "loop": false,
+            "muted": false,
+            "src": "blob:https://www.esrbespoke.au/874ad2b6-0ac1-4692-b06a-58ee7102791d"
+          }
+        ],
+        "svg": 5,
+        "images": 17,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "2d": 18
+        },
+        "raf": 839,
+        "io": 2,
+        "ro": 34,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": true,
+        "nuxt": false,
+        "reactRoot": true,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "ESR",
+      "lang": "en",
+      "description": "Three decades of restoring excellence and reigniting the joy of the drive."
+    },
+    "featuresBeforeScroll": {
+      "elements": 1135,
+      "canvases": 18,
+      "animations": 0,
+      "hidden": 33
+    },
+    "scrollReveal": 15,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 7860888,
+        "layoutCount": 260,
+        "recalcStyleCount": 587,
+        "scriptDuration": 0.187321,
+        "taskDuration": 1.070543,
+        "nodes": 2437
+      },
+      "timing": {
+        "domContentLoaded": 215,
+        "load": 216,
+        "first-paint": 184,
+        "first-contentful-paint": 184
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+      }
+    ],
+    "console": [],
+    "exceptions": [],
+    "failed": [],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  }
+}

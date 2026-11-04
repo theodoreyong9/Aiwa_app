@@ -1,0 +1,1527 @@
+{
+  "url": "https://ascension.pegassi.be/",
+  "at": "2026-10-29T13:00:08.375Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 54449,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 356,
+      "typography": {
+        "families": [
+          [
+            "sans",
+            113
+          ]
+        ],
+        "weights": [
+          [
+            "700",
+            62
+          ],
+          [
+            "600",
+            51
+          ]
+        ],
+        "textTransforms": [],
+        "sizeMin": 12.48,
+        "sizeMedian": 16.32,
+        "sizeMax": 48,
+        "sizeMaxVw": 3.3,
+        "scaleRatio": 2.9,
+        "letterSpacingMean": -0.011,
+        "loadedFonts": [
+          {
+            "family": "sans",
+            "weight": "600",
+            "style": "normal"
+          },
+          {
+            "family": "sans",
+            "weight": "700",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 113
+      },
+      "color": {
+        "background": "rgb(0, 0, 0)",
+        "backgroundLuminance": 0,
+        "backgrounds": [
+          [
+            "rgb(0, 0, 0)",
+            1283
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(125, 125, 125)",
+            312
+          ]
+        ],
+        "meanSaturation": 0,
+        "rootVars": {
+          "--size": "402",
+          "--bar-gap": ".6rem",
+          "--menu-button": "7.5rem",
+          "--menu-slot": "calc(var(--menu-button) + var(--bar-gap))"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 8,
+        "sticky": 0,
+        "fixed": 10,
+        "grid": 7,
+        "flex": 48,
+        "absolute": 22,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 5425,
+        "pages": 6,
+        "spacing": [
+          [
+            8,
+            42
+          ],
+          [
+            24,
+            33
+          ],
+          [
+            6,
+            16
+          ],
+          [
+            14,
+            9
+          ],
+          [
+            7,
+            3
+          ],
+          [
+            9,
+            3
+          ],
+          [
+            17,
+            2
+          ],
+          [
+            139,
+            2
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 0,
+        "animationKinds": [],
+        "infiniteAnimations": 0,
+        "animationDurations": [],
+        "easings": [],
+        "transitionDurationsMs": [
+          [
+            500,
+            14
+          ]
+        ],
+        "keyframes": [
+          "platter-2506e3db"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 6,
+      "media": {
+        "canvases": [
+          {
+            "w": 1440,
+            "h": 900,
+            "area": 1
+          }
+        ],
+        "videos": [
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://ascension.pegassi.be/videos/ascension-glitch.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://ascension.pegassi.be/videos/twinflame-awakenings.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": false,
+            "src": ""
+          }
+        ],
+        "svg": 1,
+        "images": 6,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 1,
+          "2d": 1
+        },
+        "raf": 509,
+        "io": 3,
+        "ro": 2,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 1,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": true,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Ascension — Pegassi",
+      "lang": "en",
+      "description": "The debut EP from Belgian electronic artist Pegassi. Four tracks — Ascension, Circles, Forest Walk, Twinflame. Out 4 September 2026."
+    },
+    "featuresBeforeScroll": {
+      "elements": 356,
+      "canvases": 1,
+      "animations": 0,
+      "hidden": 5
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 6,
+      "changed": 0
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 9925492,
+        "layoutCount": 30,
+        "recalcStyleCount": 409,
+        "scriptDuration": 0.55469,
+        "taskDuration": 45.570457,
+        "nodes": 1542
+      },
+      "timing": {
+        "domContentLoaded": 725,
+        "load": 785,
+        "first-paint": 680,
+        "first-contentful-paint": 680
+      }
+    },
+    "network": [
+      {
+        "url": "https://ascension.pegassi.be/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 8026
+      },
+      {
+        "url": "https://ascension.pegassi.be/_nuxt/entry.mTHQBrhg.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 9201
+      },
+      {
+        "url": "https://ascension.pegassi.be/_nuxt/record-disc.BO204g5c.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 778
+      },
+      {
+        "url": "https://ascension.pegassi.be/_nuxt/site-foot.CthBkmXY.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 357
+      },
+      {
+        "url": "https://ascension.pegassi.be/_nuxt/PPNeueMontreal-Bold.l3ulKZJq.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 46609
+      },
+      {
+        "url": "https://ascension.pegassi.be/_nuxt/PPNeueMontreal-Semibold.AAHsuF-J.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 75306
+      },
+      {
+        "url": "https://ascension.pegassi.be/noise-2.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 37614
+      },
+      {
+        "url": "https://ascension.pegassi.be/_nuxt/B3cVYYkG.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 98776
+      },
+      {
+        "url": "https://ascension.pegassi.be/_nuxt/DZDOU0Ql.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 5918
+      },
+      {
+        "url": "https://ascension.pegassi.be/_nuxt/BcL1QBv6.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 35208
+      },
+      {
+        "url": "https://ascension.pegassi.be/_nuxt/igOtRcsy.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2289
+      },
+      {
+        "url": "https://ascension.pegassi.be/_nuxt/H2AGsyCA.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 5675
+      },
+      {
+        "url": "https://ascension.pegassi.be/_nuxt/DAWfc0rX.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2463
+      },
+      {
+        "url": "https://ascension.pegassi.be/_nuxt/CZEyUk1w.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 85929
+      },
+      {
+        "url": "https://ascension.pegassi.be/_nuxt/Cto4mOXT.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 955
+      },
+      {
+        "url": "https://ascension.pegassi.be/_nuxt/BBS_-sb2.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 58735
+      },
+      {
+        "url": "https://ascension.pegassi.be/_nuxt/in1GC_9r.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 6167
+      },
+      {
+        "url": "https://ascension.pegassi.be/_nuxt/CSB_9qOQ.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4976
+      },
+      {
+        "url": "https://ascension.pegassi.be/_nuxt/Co8Gqqe3.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 28613
+      },
+      {
+        "url": "https://ascension.pegassi.be/_nuxt/D-sUVxmB.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2528
+      },
+      {
+        "url": "https://ascension.pegassi.be/_nuxt/Choz-AjC.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 7745
+      },
+      {
+        "url": "https://ascension.pegassi.be/_nuxt/BDNMzG2s.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 395
+      },
+      {
+        "url": "https://ascension.pegassi.be/_nuxt/CH-l6aqP.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1153
+      },
+      {
+        "url": "https://ascension.pegassi.be/_nuxt/CM_jQvtQ.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1087
+      },
+      {
+        "url": "https://ascension.pegassi.be/_nuxt/C6zttlNJ.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 389
+      },
+      {
+        "url": "https://ascension.pegassi.be/_nuxt/DA6JRo_0.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 630
+      },
+      {
+        "url": "https://ascension.pegassi.be/_nuxt/D6ZI4dhh.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1208
+      },
+      {
+        "url": "https://ascension.pegassi.be/_nuxt/BIwriI8u.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 366
+      },
+      {
+        "url": "https://ascension.pegassi.be/_nuxt/Dv-0qj_c.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 6639
+      },
+      {
+        "url": "https://ascension.pegassi.be/_nuxt/B-fLhWWc.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2381
+      },
+      {
+        "url": "https://ascension.pegassi.be/_nuxt/D264p9Xf.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 667
+      },
+      {
+        "url": "https://ascension.pegassi.be/_nuxt/CyL7F4pW.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2054
+      },
+      {
+        "url": "https://ascension.pegassi.be/_nuxt/BOlGCPfG.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 599
+      },
+      {
+        "url": "https://ascension.pegassi.be/_nuxt/DLb29fxS.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 803
+      },
+      {
+        "url": "https://ascension.pegassi.be/hero-stairs.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 50686
+      },
+      {
+        "url": "https://ascension.pegassi.be/logo.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 7423
+      },
+      {
+        "url": "https://ascension.pegassi.be/_nuxt/Df7Aa2yW.js",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3371
+      },
+      {
+        "url": "https://ascension.pegassi.be/_nuxt/CWrLAvN0.js",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 13617
+      },
+      {
+        "url": "https://ascension.pegassi.be/_nuxt/DTxiOSn8.js",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2545
+      },
+      {
+        "url": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://ascension.pegassi.be/videos/ascension-glitch.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 60322
+      },
+      {
+        "url": "https://ascension.pegassi.be/_nuxt/pages.DOlY1asL.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1141
+      },
+      {
+        "url": "https://ascension.pegassi.be/_nuxt/default.Czh4hRha.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1024
+      },
+      {
+        "url": "https://ascension.pegassi.be/videos/home-ascension1.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 41764
+      },
+      {
+        "url": "https://ascension.pegassi.be/videos/home-circles2.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 37446
+      },
+      {
+        "url": "https://ascension.pegassi.be/videos/home-forestwalk2.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 51793
+      },
+      {
+        "url": "https://ascension.pegassi.be/videos/home-twinflame1.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 85890
+      },
+      {
+        "url": "https://ascension.pegassi.be/record.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 41695
+      },
+      {
+        "url": "https://ascension.pegassi.be/cover.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 162357
+      },
+      {
+        "url": "https://ascension.pegassi.be/cover-back.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 76846
+      },
+      {
+        "url": "https://ascension.pegassi.be/wordmark/data.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 662011
+      },
+      {
+        "url": "https://ascension.pegassi.be/about-portrait.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 35097
+      },
+      {
+        "url": "https://ascension.pegassi.be/note-portrait.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 47850
+      },
+      {
+        "url": "https://ascension.pegassi.be/_nuxt/Df7Aa2yW.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://ascension.pegassi.be/_nuxt/CWrLAvN0.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://ascension.pegassi.be/glyphs/sans-600.json",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 5643
+      },
+      {
+        "url": "https://ascension.pegassi.be/glyphs/sans-600.bin",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 279149
+      },
+      {
+        "url": "https://ascension.pegassi.be/glyphs/sans-700.json",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 5506
+      },
+      {
+        "url": "https://ascension.pegassi.be/glyphs/sans-700.bin",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/octet-stream",
+        "fromCache": false,
+        "bytes": 279167
+      },
+      {
+        "url": "https://ascension.pegassi.be/music/pegassi-ascension.mp3",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "audio/mpeg",
+        "fromCache": false
+      },
+      {
+        "url": "https://ascension.pegassi.be/music/pegassi-circles.mp3",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "audio/mpeg",
+        "fromCache": false
+      },
+      {
+        "url": "https://ascension.pegassi.be/music/pegassi-forest-walk.mp3",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "audio/mpeg",
+        "fromCache": false
+      },
+      {
+        "url": "https://ascension.pegassi.be/music/pegassi-twinflame.mp3",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "audio/mpeg",
+        "fromCache": false
+      },
+      {
+        "url": "https://ascension.pegassi.be/wordmark/logo-final.glb",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "model/gltf-binary",
+        "fromCache": false,
+        "bytes": 152275
+      },
+      {
+        "url": "https://ascension.pegassi.be/wordmark/draco/draco_wasm_wrapper.js",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 12258
+      },
+      {
+        "url": "https://ascension.pegassi.be/wordmark/draco/draco_decoder.wasm",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/wasm",
+        "fromCache": false,
+        "bytes": 59984
+      },
+      {
+        "url": "https://ascension.pegassi.be/videos/twinflame-awakenings.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 33988
+      },
+      {
+        "url": "blob:https://ascension.pegassi.be/ad25de6f-0df8-4518-89c2-1eb20fdb3254",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "other"
+      },
+      {
+        "url": "https://ascension.pegassi.be/videos/ascension-glitch.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://ascension.pegassi.be/videos/twinflame-awakenings.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://ascension.pegassi.be/_nuxt/DHdKbHVL.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4673
+      },
+      {
+        "url": "https://ascension.pegassi.be/_nuxt/E4qYJmqP.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1335
+      },
+      {
+        "url": "https://ascension.pegassi.be/_nuxt/DclxVOu-.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1439
+      },
+      {
+        "url": "https://ascension.pegassi.be/_nuxt/about.C7KqZaqK.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 768
+      },
+      {
+        "url": "https://ascension.pegassi.be/_nuxt/-lcwsjYO.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4023
+      },
+      {
+        "url": "https://ascension.pegassi.be/_nuxt/V8avBnwH.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1334
+      },
+      {
+        "url": "https://ascension.pegassi.be/_nuxt/site-legal.CuuLZWVG.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 716
+      },
+      {
+        "url": "https://ascension.pegassi.be/_nuxt/MCtq2Gnp.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3450
+      },
+      {
+        "url": "https://ascension.pegassi.be/_nuxt/CDH52RqK.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 9769
+      },
+      {
+        "url": "https://ascension.pegassi.be/_nuxt/BlVPah3R.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 881
+      },
+      {
+        "url": "https://ascension.pegassi.be/_nuxt/mImz28Mx.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 988
+      },
+      {
+        "url": "https://ascension.pegassi.be/_nuxt/listen.UZVlg-_z.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 945
+      },
+      {
+        "url": "https://ascension.pegassi.be/_nuxt/BnhEQiCF.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3065
+      },
+      {
+        "url": "https://ascension.pegassi.be/_nuxt/sequencer.D5j07bZ6.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1333
+      },
+      {
+        "url": "https://ascension.pegassi.be/_nuxt/D4nJ_i9W.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3504
+      },
+      {
+        "url": "https://ascension.pegassi.be/_nuxt/buy.AKgGmLII.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1077
+      },
+      {
+        "url": "https://ascension.pegassi.be/idle/3.gif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 1288798
+      },
+      {
+        "url": "https://ascension.pegassi.be/idle/7.gif",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/gif",
+        "fromCache": false,
+        "bytes": 83881
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.25, 0.46, 0.45, 0.94)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.25, 0.46, 0.45, 0.94)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear(0 0%, 0.0191 4.166666666666667%, 0.062 8.333333333333332%, 0.1566 12.5%, 0.3378 16.666666666666668%, 0.5335 20.833333333333336%, 0.6892 25%, 0.8 29.166666666666668%, 0.8686 33.333333333333336%, 0.912 37.5%, 0.9469 41.666666666666664%, 0.964 45.83333333333333%, 0.9741 49.99999999999999%, 0.981 54.16666666666666%, 0.9859 58.33333333333333%, 0.9896 62.49999999999999%, 0.9923 66.66666666666666%, 0.9946 70.83333333333333%, 0.9961 75%, 0.9976 79.16666666666667%, 0.9984 83.33333333333334%, 0.9991 87.5%, 0.9996 91.66666666666667%, 0.9998 95.83333333333334%, 1 100%)"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0702000D4210000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x1eac0013c200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x1eac0013c200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x1eac0013c200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x1eac0013c200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://ascension.pegassi.be/music/pegassi-ascension.mp3",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://ascension.pegassi.be/music/pegassi-circles.mp3",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://ascension.pegassi.be/music/pegassi-twinflame.mp3",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://ascension.pegassi.be/music/pegassi-forest-walk.mp3",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://ascension.pegassi.be/videos/ascension-glitch.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://ascension.pegassi.be/videos/twinflame-awakenings.mp4",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 4999,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 405,
+      "typography": {
+        "families": [
+          [
+            "sans",
+            137
+          ]
+        ],
+        "weights": [
+          [
+            "700",
+            78
+          ],
+          [
+            "600",
+            59
+          ]
+        ],
+        "textTransforms": [],
+        "sizeMin": 12.6119,
+        "sizeMedian": 16.4925,
+        "sizeMax": 24.2537,
+        "sizeMaxVw": 6.2,
+        "scaleRatio": 1.5,
+        "letterSpacingMean": -0.01,
+        "loadedFonts": [
+          {
+            "family": "sans",
+            "weight": "600",
+            "style": "normal"
+          },
+          {
+            "family": "sans",
+            "weight": "700",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 137
+      },
+      "color": {
+        "background": "rgb(0, 0, 0)",
+        "backgroundLuminance": 0,
+        "backgrounds": [
+          [
+            "rgb(0, 0, 0)",
+            329
+          ],
+          [
+            "rgb(18, 19, 20)",
+            2
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(125, 125, 125)",
+            352
+          ],
+          [
+            "rgba(255, 255, 255, 0.5)",
+            2
+          ]
+        ],
+        "meanSaturation": 0.05,
+        "rootVars": {
+          "--size": "402",
+          "--bar-gap": ".6rem",
+          "--menu-button": "7.5rem",
+          "--menu-slot": "calc(var(--menu-button) + var(--bar-gap))"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 5,
+        "sticky": 0,
+        "fixed": 7,
+        "grid": 8,
+        "flex": 45,
+        "absolute": 21,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 5393,
+        "pages": 6.4,
+        "spacing": [
+          [
+            12,
+            59
+          ],
+          [
+            8,
+            42
+          ],
+          [
+            6,
+            20
+          ],
+          [
+            10,
+            4
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            44,
+            2
+          ],
+          [
+            68,
+            2
+          ],
+          [
+            15,
+            2
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 0,
+        "animationKinds": [],
+        "infiniteAnimations": 0,
+        "animationDurations": [],
+        "easings": [],
+        "transitionDurationsMs": [
+          [
+            500,
+            14
+          ]
+        ],
+        "keyframes": [
+          "platter-2506e3db"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 5,
+      "media": {
+        "canvases": [],
+        "videos": [
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://ascension.pegassi.be/videos/ascension-glitch.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://ascension.pegassi.be/videos/twinflame-awakenings.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": false,
+            "src": ""
+          }
+        ],
+        "svg": 1,
+        "images": 7,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {},
+        "raf": 858,
+        "io": 3,
+        "ro": 1,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": true,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Ascension — Pegassi",
+      "lang": "en",
+      "description": "The debut EP from Belgian electronic artist Pegassi. Four tracks — Ascension, Circles, Forest Walk, Twinflame. Out 4 September 2026."
+    },
+    "featuresBeforeScroll": {
+      "elements": 405,
+      "canvases": 0,
+      "animations": 0,
+      "hidden": 4
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 6895820,
+        "layoutCount": 17,
+        "recalcStyleCount": 301,
+        "scriptDuration": 0.060736,
+        "taskDuration": 0.285043,
+        "nodes": 1368
+      },
+      "timing": {
+        "domContentLoaded": 255,
+        "load": 298,
+        "first-paint": 304,
+        "first-contentful-paint": 304
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.25, 0.46, 0.45, 0.94)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.25, 0.46, 0.45, 0.94)"
+      }
+    ],
+    "console": [],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://ascension.pegassi.be/music/pegassi-ascension.mp3",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://ascension.pegassi.be/music/pegassi-twinflame.mp3",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://ascension.pegassi.be/music/pegassi-forest-walk.mp3",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://ascension.pegassi.be/music/pegassi-circles.mp3",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://ascension.pegassi.be/videos/ascension-glitch.mp4",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  }
+}

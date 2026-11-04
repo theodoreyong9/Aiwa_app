@@ -1,0 +1,2029 @@
+{
+  "url": "https://www.unbelievablycrap.com/",
+  "at": "2026-10-29T12:48:22.631Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 33572,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 1177,
+      "typography": {
+        "families": [
+          [
+            "PP Supply Sans",
+            530
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            530
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            530
+          ]
+        ],
+        "sizeMin": 10,
+        "sizeMedian": 10,
+        "sizeMax": 64,
+        "sizeMaxVw": 4.4,
+        "scaleRatio": 6.4,
+        "letterSpacingMean": -0.04,
+        "loadedFonts": [
+          {
+            "family": "PP Supply Sans",
+            "weight": "400",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 530
+      },
+      "color": {
+        "background": "rgb(0, 0, 0)",
+        "backgroundLuminance": 0,
+        "backgrounds": [
+          [
+            "rgb(57, 57, 57)",
+            2114
+          ],
+          [
+            "rgb(0, 0, 0)",
+            1296
+          ],
+          [
+            "rgb(232, 39, 28)",
+            1296
+          ],
+          [
+            "rgb(255, 255, 255)",
+            5
+          ],
+          [
+            "rgba(255, 255, 255, 0.1)",
+            5
+          ],
+          [
+            "rgb(217, 217, 217)",
+            0
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(255, 255, 255)",
+            371
+          ],
+          [
+            "rgb(57, 57, 57)",
+            259
+          ],
+          [
+            "rgba(255, 255, 255, 0.55)",
+            240
+          ],
+          [
+            "rgb(200, 200, 200)",
+            40
+          ],
+          [
+            "rgba(255, 255, 255, 0.5)",
+            17
+          ]
+        ],
+        "meanSaturation": 0.15,
+        "rootVars": {
+          "--font-main": "'PP Supply Sans','Neue Haas Grotesk Text','Inter',-apple-system,\n              BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif",
+          "--font-mono": "'PP Supply Mono',ui-monospace,'SF Mono','Roboto Mono',monospace",
+          "--c-white": "#ffffff",
+          "--c-fog": "#afafaf",
+          "--c-slate": "#6e6e6e",
+          "--c-label": "#636363",
+          "--c-fade": "#c3c3c3",
+          "--c-ink": "#393939",
+          "--hud-size": "14px",
+          "--tracking": "-0.04em",
+          "--ui-ink": "#393939",
+          "--ui-dim": "rgba(57,57,57,.5)",
+          "--ui-red": "#e8271c",
+          "--ui-grey": "#c8c8c8",
+          "--ui-bar": "#393939",
+          "--ui-10": "10px",
+          "--ui-14": "14px",
+          "--ui-track": "-0.04em",
+          "--ease-osmo": "cubic-bezier(0.625, 0.05, 0, 1)",
+          "--ease-out": "cubic-bezier(.22, .61, .36, 1)",
+          "--loader-ink": "#ffffff",
+          "--loader-ground": "#000000"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 11,
+        "sticky": 0,
+        "fixed": 10,
+        "grid": 2,
+        "flex": 282,
+        "absolute": 131,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 900,
+        "pages": 1,
+        "spacing": [
+          [
+            6,
+            13
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            16,
+            6
+          ],
+          [
+            10,
+            6
+          ],
+          [
+            32,
+            3
+          ],
+          [
+            64,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            8,
+            2
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 73,
+        "animationKinds": [
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 3,
+        "animationDurations": [
+          850,
+          313,
+          18000,
+          1600,
+          1600,
+          1600,
+          1600,
+          1600,
+          1600,
+          1600,
+          1600,
+          1600,
+          1600,
+          1600,
+          1600,
+          1600,
+          1600,
+          1600,
+          1600,
+          1600
+        ],
+        "easings": [
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            180,
+            7
+          ],
+          [
+            280,
+            1
+          ],
+          [
+            300,
+            1
+          ],
+          [
+            140,
+            1
+          ],
+          [
+            420,
+            1
+          ]
+        ],
+        "keyframes": [
+          "peekIn",
+          "lineIn",
+          "grain",
+          "lineFadeOnly",
+          "hud-hatch",
+          "ftr-run"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": true
+      },
+      "hiddenElements": 6,
+      "media": {
+        "canvases": [
+          {
+            "w": 420,
+            "h": 900,
+            "area": 0.29
+          },
+          {
+            "w": 420,
+            "h": 900,
+            "area": 0.29
+          },
+          {
+            "w": 1440,
+            "h": 900,
+            "area": 1
+          },
+          {
+            "w": 1440,
+            "h": 900,
+            "area": 1
+          },
+          {
+            "w": 1440,
+            "h": 900,
+            "area": 1
+          },
+          {
+            "w": 52,
+            "h": 52,
+            "area": 0
+          },
+          {
+            "w": 64,
+            "h": 128,
+            "area": 0
+          },
+          {
+            "w": 32,
+            "h": 64,
+            "area": 0
+          },
+          {
+            "w": 1440,
+            "h": 900,
+            "area": 1
+          },
+          {
+            "w": 30,
+            "h": 30,
+            "area": 0
+          },
+          {
+            "w": 1440,
+            "h": 900,
+            "area": 1
+          }
+        ],
+        "videos": [],
+        "svg": 19,
+        "images": 13,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "2d": 5,
+          "webgl": 8,
+          "webgl2": 1
+        },
+        "raf": 360,
+        "io": 1,
+        "ro": 0,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": true,
+        "ScrollTrigger": false,
+        "THREE": true,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": true,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Liubomyr Ulytskyi - Digital Designer",
+      "lang": "en",
+      "description": "Liubomyr Ulytskyi — Digital Designer, award-winning UI/UX Designer, art director, conceptualist."
+    },
+    "featuresBeforeScroll": {
+      "elements": 1177,
+      "canvases": 11,
+      "animations": 73,
+      "hidden": 6
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 6,
+      "changed": 0
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 6145236,
+        "layoutCount": 80,
+        "recalcStyleCount": 163,
+        "scriptDuration": 6.508961,
+        "taskDuration": 32.684024,
+        "nodes": 2855
+      },
+      "timing": {
+        "domContentLoaded": 1813,
+        "load": 2897,
+        "first-paint": 400,
+        "first-contentful-paint": 400
+      }
+    },
+    "network": [
+      {
+        "url": "https://www.unbelievablycrap.com/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 17361
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/fonts/PPSupplySans-Regular.woff",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff",
+        "fromCache": false,
+        "bytes": 25225
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/css/base.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 2868
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/css/style.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 3404
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/css/wheel.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1958
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/css/ui.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 6216
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/css/about.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 5875
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/css/hud.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 5773
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/css/block2.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 3343
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/css/tscroll.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 2902
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/css/footer.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 8097
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/css/tunnel.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 2135
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/css/path-gallery.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 3605
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/css/path-map.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1753
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/css/work-grid.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 4408
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/css/lightbox.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 3401
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/css/contact-cta.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1374
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/css/work-arrive.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1198
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/css/crt.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1199
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/css/figure-host.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1787
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/css/transition.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 2448
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/css/loader.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 5124
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/css/mobile.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 3838
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/css/gate.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 2529
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/css/err.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 3545
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/assets/logo.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 913
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/assets/tscroll/num-0039.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1187
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/assets/tscroll/arrow.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 360
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/assets/tscroll/logo-0309.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 1385
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 29885
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/CustomEase.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4173
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/@barba/core@2.10.3/dist/barba.umd.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 10781
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/assets/about/figure.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2647623
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/assets/about/skeleton.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 112259
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/assets/about/head.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 358123
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/assets/about/head-map.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 134896
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/assets/about/skull.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 192936
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/js/gate.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1726
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/js/fps.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 5116
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/js/isolate.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3225
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/js/dissolve-look.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1030
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/js/lifecycle.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3870
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/js/pixelate.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3212
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/js/data.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1890
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/js/main.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1070
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/js/wheel.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 10381
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/js/sphere-gallery.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 11831
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/js/wheel-ui.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2674
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/js/about-text.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 9887
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/js/about-figure.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 32187
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/js/figure-host.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 13794
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/js/about-xray.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 17343
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/js/dormancy.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2668
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/js/mask.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 7086
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/js/hud.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3601
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/js/block2.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 12582
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/js/head-spin.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 5774
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/js/touch-scroll.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2804
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/js/awards.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2454
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/js/tscroll.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2770
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/js/track-switch.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3633
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/js/err.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 10804
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/js/footer.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 8762
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/js/tunnel.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 7456
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/js/path-gallery.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 17402
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/js/path-map.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 8113
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/js/tint.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2235
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/js/work-grid.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 22009
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/js/work-arrive.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3788
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/js/lightbox.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 9508
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/js/crt.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4255
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/js/clock.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3985
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/js/err-console.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3618
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/js/path-console.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 5397
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/js/tunnel-console.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2431
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/js/work-grid-console.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 7188
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/js/mask-scroll.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 29146
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/js/work-cursor.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 23381
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/js/ui.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1899
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/js/line-reveal.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2822
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/js/contact-cta.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 5211
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/js/tuner.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 9837
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/js/wheel-console.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4294
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/js/tune-console.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2651
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/js/about-console.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 17615
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/js/transition-liquid.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 9360
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/js/transition-iris.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 6851
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/js/transition-sheet.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 24876
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/js/transition.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 10013
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/js/loader.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 8315
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/js/err-art.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1924
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/js/err-card.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4259
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/assets/about/figure-lite.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 169965
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/assets/about/logo.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 215389
+      },
+      {
+        "url": "https://cdn.jsdelivr.net/npm/three@0.159.0/build/three.min.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 166332
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/assets/big-logo.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 916
+      },
+      {
+        "url": "https://www.unbelievablycrap.com/assets/grain/noise.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 170461
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "lineIn",
+        "duration": 520,
+        "delay": 378,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "lineIn",
+        "duration": 520,
+        "delay": 168,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "lineIn",
+        "duration": 520,
+        "delay": 504,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "lineIn",
+        "duration": 520,
+        "delay": 336,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "ftr-run",
+        "duration": 18000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "hud-hatch",
+        "duration": 313,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "lineIn",
+        "duration": 520,
+        "delay": 630,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "lineIn",
+        "duration": 520,
+        "delay": 294.00000000000006,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "lineIn",
+        "duration": 520,
+        "delay": 588.0000000000001,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "lineIn",
+        "duration": 520,
+        "delay": 126,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "lineIn",
+        "duration": 520,
+        "delay": 546,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "lineIn",
+        "duration": 520,
+        "delay": 84,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "lineIn",
+        "duration": 520,
+        "delay": 42,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "lineIn",
+        "duration": 520,
+        "delay": 756,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "lineIn",
+        "duration": 520,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "lineIn",
+        "duration": 520,
+        "delay": 840.0000000000001,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "lineIn",
+        "duration": 520,
+        "delay": 252,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "lineIn",
+        "duration": 520,
+        "delay": 462,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "lineIn",
+        "duration": 520,
+        "delay": 210.00000000000003,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "lineIn",
+        "duration": 520,
+        "delay": 420.00000000000006,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "lineIn",
+        "duration": 520,
+        "delay": 672,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "lineIn",
+        "duration": 520,
+        "delay": 714.0000000000001,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "lineIn",
+        "duration": 520,
+        "delay": 798,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 280,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "color",
+        "duration": 180,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1100,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.625, 0.05, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1100,
+        "delay": 280,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.625, 0.05, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1100,
+        "delay": 50,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.625, 0.05, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1100,
+        "delay": 180,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.625, 0.05, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1100,
+        "delay": 240,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.625, 0.05, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1100,
+        "delay": 120,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.625, 0.05, 0, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1100,
+        "delay": 50,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.625, 0.05, 0, 1)"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "grain",
+        "duration": 850,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0702000EC2C0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0A02000EC2C0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0D02000EC2C0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A080CD02EC2C0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0B0CD02EC2C0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x220400138a00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x220400139600]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0E0CD02EC2C0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x220403d92a00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0E08E0CEC2C0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A060910CEC2C0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x220403d93600]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A090910CEC2C0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      }
+    ],
+    "exceptions": [],
+    "failed": [],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 3995,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 1029,
+      "typography": {
+        "families": [
+          [
+            "PP Supply Mono",
+            2
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            2
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            2
+          ]
+        ],
+        "sizeMin": 7.5,
+        "sizeMedian": 7.5,
+        "sizeMax": 7.5,
+        "sizeMaxVw": 1.9,
+        "scaleRatio": 1,
+        "letterSpacingMean": 0,
+        "loadedFonts": [
+          {
+            "family": "PP Supply Mono",
+            "weight": "400",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 2
+      },
+      "color": {
+        "background": "rgb(0, 0, 0)",
+        "backgroundLuminance": 0,
+        "backgrounds": [
+          [
+            "rgb(232, 39, 28)",
+            329
+          ],
+          [
+            "rgb(57, 57, 57)",
+            152
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(200, 200, 200)",
+            7
+          ],
+          [
+            "rgb(255, 255, 255)",
+            2
+          ]
+        ],
+        "meanSaturation": 0.44,
+        "rootVars": {
+          "--font-main": "'PP Supply Sans','Neue Haas Grotesk Text','Inter',-apple-system,\n              BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif",
+          "--font-mono": "'PP Supply Mono',ui-monospace,'SF Mono','Roboto Mono',monospace",
+          "--c-white": "#ffffff",
+          "--c-fog": "#afafaf",
+          "--c-slate": "#6e6e6e",
+          "--c-label": "#636363",
+          "--c-fade": "#c3c3c3",
+          "--c-ink": "#393939",
+          "--hud-size": "14px",
+          "--tracking": "-0.04em",
+          "--ui-ink": "#393939",
+          "--ui-dim": "rgba(57,57,57,.5)",
+          "--ui-red": "#e8271c",
+          "--ui-grey": "#c8c8c8",
+          "--ui-bar": "#393939",
+          "--ui-10": "10px",
+          "--ui-14": "14px",
+          "--ui-track": "-0.04em",
+          "--ease-osmo": "cubic-bezier(0.625, 0.05, 0, 1)",
+          "--ease-out": "cubic-bezier(.22, .61, .36, 1)",
+          "--loader-ink": "#ffffff",
+          "--loader-ground": "#000000"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 4,
+        "sticky": 0,
+        "fixed": 9,
+        "grid": 2,
+        "flex": 231,
+        "absolute": 132,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 844,
+        "pages": 1,
+        "spacing": [
+          [
+            6,
+            14
+          ],
+          [
+            10,
+            8
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            32,
+            3
+          ],
+          [
+            64,
+            3
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            16,
+            3
+          ],
+          [
+            8,
+            2
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 0,
+        "animationKinds": [],
+        "infiniteAnimations": 0,
+        "animationDurations": [],
+        "easings": [],
+        "transitionDurationsMs": [
+          [
+            180,
+            7
+          ],
+          [
+            300,
+            5
+          ],
+          [
+            280,
+            1
+          ],
+          [
+            140,
+            1
+          ],
+          [
+            420,
+            1
+          ]
+        ],
+        "keyframes": [
+          "peekIn",
+          "lineIn",
+          "grain",
+          "lineFadeOnly",
+          "hud-hatch",
+          "ftr-run"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": true
+      },
+      "hiddenElements": 1,
+      "media": {
+        "canvases": [
+          {
+            "w": 780,
+            "h": 1688,
+            "area": 1
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0
+          },
+          {
+            "w": 64,
+            "h": 128,
+            "area": 0
+          },
+          {
+            "w": 64,
+            "h": 128,
+            "area": 0
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0
+          }
+        ],
+        "videos": [],
+        "svg": 19,
+        "images": 13,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl": 1,
+          "2d": 1
+        },
+        "raf": 89,
+        "io": 0,
+        "ro": 0,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": true,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": true,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Liubomyr Ulytskyi - Digital Designer",
+      "lang": "en",
+      "description": "Liubomyr Ulytskyi — Digital Designer, award-winning UI/UX Designer, art director, conceptualist."
+    },
+    "featuresBeforeScroll": {
+      "elements": 1029,
+      "canvases": 8,
+      "animations": 0,
+      "hidden": 1
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 9080096,
+        "layoutCount": 6,
+        "recalcStyleCount": 17,
+        "scriptDuration": 0.02969,
+        "taskDuration": 3.607356,
+        "nodes": 2575
+      },
+      "timing": {
+        "domContentLoaded": 548,
+        "load": 670,
+        "first-paint": 276,
+        "first-contentful-paint": 276
+      }
+    },
+    "animationsReported": [],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0702000EC2C0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      }
+    ],
+    "exceptions": [],
+    "failed": [],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  }
+}

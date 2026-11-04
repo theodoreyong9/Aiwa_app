@@ -1,0 +1,1804 @@
+{
+  "url": "https://brandonyasin.com/",
+  "at": "2026-10-29T12:56:26.427Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 14898,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 685,
+      "typography": {
+        "families": [
+          [
+            "Helvetica Now Variable",
+            23
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            23
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            23
+          ]
+        ],
+        "sizeMin": 12,
+        "sizeMedian": 12,
+        "sizeMax": 12,
+        "sizeMaxVw": 0.8,
+        "scaleRatio": 1,
+        "letterSpacingMean": 0,
+        "loadedFonts": [
+          {
+            "family": "Neue Haas Unica Pro",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Helvetica Now Variable",
+            "weight": "400",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 23
+      },
+      "color": {
+        "background": "rgb(248, 246, 242)",
+        "backgroundLuminance": 0.922787978590746,
+        "backgrounds": [
+          [
+            "rgb(248, 246, 242)",
+            1296
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(17, 17, 17)",
+            99
+          ]
+        ],
+        "meanSaturation": 0.02,
+        "rootVars": {
+          "--color-main": "#111",
+          "--color-bg": "#f8f6f2",
+          "--selection-color": "#111",
+          "--selection-bg": "#44300033",
+          "--focus-bg": "var(--color-main)",
+          "--focus-color": "var(--color-bg)",
+          "--lvh": "1vh",
+          "--svh": "1vh",
+          "--img-over-opacity": "0",
+          "--bg-brightness": "1"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 2,
+        "sticky": 5,
+        "fixed": 6,
+        "grid": 17,
+        "flex": 85,
+        "absolute": 116,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 900,
+        "pages": 1,
+        "spacing": [
+          [
+            2,
+            28
+          ],
+          [
+            10,
+            21
+          ],
+          [
+            15,
+            16
+          ],
+          [
+            8,
+            14
+          ],
+          [
+            30,
+            9
+          ],
+          [
+            27,
+            5
+          ],
+          [
+            64,
+            4
+          ],
+          [
+            11,
+            3
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 1,
+        "animationKinds": [
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 1,
+        "animationDurations": [
+          1000
+        ],
+        "easings": [
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            200,
+            17
+          ],
+          [
+            500,
+            11
+          ],
+          [
+            250,
+            7
+          ],
+          [
+            400,
+            6
+          ],
+          [
+            750,
+            3
+          ]
+        ],
+        "keyframes": [
+          "tick-458dfb20",
+          "rows-trail-7d6b1e40"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": true
+      },
+      "hiddenElements": 8,
+      "media": {
+        "canvases": [],
+        "videos": [
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://brandonyasin.com/_nuxt/RAINS.bsJKHxaJ.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://brandonyasin.com/_nuxt/LV.CkZt_03C.mp4"
+          }
+        ],
+        "svg": 10,
+        "images": 34,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {},
+        "raf": 306,
+        "io": 1,
+        "ro": 21,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": true,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Brandon Yasin — Creative Director & Designer",
+      "lang": "en",
+      "description": "Brand, digital and spatial design within lifestyle and luxury. AI scales the production, not the craft. Based in Denmark, working globally."
+    },
+    "featuresBeforeScroll": {
+      "elements": 685,
+      "canvases": 0,
+      "animations": 1,
+      "hidden": 8
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 6,
+      "changed": 0
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 7964588,
+        "layoutCount": 167,
+        "recalcStyleCount": 1447,
+        "scriptDuration": 0.102301,
+        "taskDuration": 0.748077,
+        "nodes": 1621
+      },
+      "timing": {
+        "domContentLoaded": 565,
+        "load": 714,
+        "first-paint": 508,
+        "first-contentful-paint": 560
+      }
+    },
+    "network": [
+      {
+        "url": "https://brandonyasin.com/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 20324
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/entry.Di9rGxLO.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 6725
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/useSeo.HvQkUdpq.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 2561
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/PageTitle.DBPCFnbI.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 961
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/about.D7v35ChA.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 4486
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/pages.CgE3buDj.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1592
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/archive.BXkogcI_.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 1659
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/VrpCdFoE.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 28370
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/DK3Fl9T5.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 301
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/Dl5gYDe7.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 121677
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/BvBSH_Yw.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 12767
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/Bj_bHxnY.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3233
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/QzyFl61E.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 16449
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/Debw8PUA.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2796
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/DWxpyyhz.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3062
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/DIobxSOC.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 748
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/BT4EVSA-.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 7838
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/DKnY3JGe.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 650
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/BWgPhCFe.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 5039
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/paper_bg_2.BAEFMvQV.jpg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 166650
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/contact_paper_bg_3.l2iqyrfM.jpeg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 535635
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/contact_paper_bg_4.DDK9s8Se.jpeg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 302070
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/thx_paper_bg.hYx5KIjT.png",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 360790
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/thx_paper_bg_dark.D5PiLhWj.png",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 812397
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/image-1.COdZ4MWx.jpg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 150028
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/image-2.BpCnR0nG.jpg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 93773
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/image-3.wH-PVNd2.jpg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 74539
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/bg_1.BAOCfH7J.jpg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 538471
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/bg_2.BFp2NJKx.jpeg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 1134143
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/bg_3.lB4HnVz0.jpeg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 283809
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/by_value-bg_01mob.BuciKNM5.jpg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 235428
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/by_value-bg_02mob.DcABlgiz.jpg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 450145
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/by_value-bg_03mob.WsffMH6d.jpg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 126844
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/sign_1.CHaAfhJ-.jpg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 78788
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/sign_2.C1PfdPOV.jpg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 258060
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/sign_3.Dl-gI4wm.jpg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 37114
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/paper_1.Ds3Rj2pV.jpg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 85730
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/paper_2.CNeJsq_r.jpg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 65317
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/paper_3.ByjeGgfw.jpg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 145614
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/BESTSELLER.BwMYxazI.jpg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 370364
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/COPENHAGEN_FASHION_WEEK.Cif1zX-w.jpg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 400768
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/MALL_OF_THE_EMIRATES.Bj_Dy64E.jpg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 386048
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/RAINS.bsJKHxaJ.mp4",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 1322388
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/RAINS.CPKqRJG-.jpg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 200505
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/LV.CkZt_03C.mp4",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 626752
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/LV.DCogZ-7C.jpg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 59912
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/NINE.6XIRjh36.jpg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 359258
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/archive_01.D6LkIL8i.mp4",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 255855
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/archive_01_poster.DGnZN2Ie.jpg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/archive_02.Dm2AgCPJ.jpg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/archive_03.DRKdGFuF.mp4",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 717125
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/archive_03_poster.C3_N2BZz.jpg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/archive_04.iB60ytpe.jpg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/archive_05.CcLddY82.jpg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/archive_06.C5_Zp-eu.mp4",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 548528
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/archive_06_poster.Ct8863B4.jpg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/archive_07.CEWCwpke.jpg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/archive_08.DRbqwqDK.jpg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/archive_09.DbgvIWZh.mp4",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 1340806
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/archive_09_poster.Ci1Ikljb.jpg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/archive_10.CKmben8j.jpg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/archive_11.Bfwm70R4.jpg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/archive_12.8dzgGLTe.jpg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/archive_13.Nz6IokRg.jpg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/archive_14.DgHzuvb0.jpg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/archive_15.C_NFX1re.jpg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/archive_16.CqiVaxxm.mp4",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 1634704
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/archive_16_poster.CsoMmu0B.jpg",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/archive_02.Dm2AgCPJ.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 135858
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/archive_01_poster.DGnZN2Ie.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 73073
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/archive_11.Bfwm70R4.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 41577
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/archive_03_poster.C3_N2BZz.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 120309
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/archive_05.CcLddY82.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 374720
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/archive_04.iB60ytpe.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 117255
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/archive_08.DRbqwqDK.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 140571
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/archive_09_poster.Ci1Ikljb.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 215149
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/archive_07.CEWCwpke.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 79583
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/archive_10.CKmben8j.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 102430
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/archive_06_poster.Ct8863B4.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 205634
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/archive_13.Nz6IokRg.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 215021
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/archive_12.8dzgGLTe.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 161555
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/archive_16_poster.CsoMmu0B.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 36456
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/archive_14.DgHzuvb0.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 135742
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/archive_15.C_NFX1re.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 137596
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/image-1.COdZ4MWx.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/image-2.BpCnR0nG.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/image-3.wH-PVNd2.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/bg_1.BAOCfH7J.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/bg_2.BFp2NJKx.jpeg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/bg_3.lB4HnVz0.jpeg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/sign_1.CHaAfhJ-.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/paper_1.Ds3Rj2pV.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/sign_2.C1PfdPOV.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/paper_2.CNeJsq_r.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/sign_3.Dl-gI4wm.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/paper_3.ByjeGgfw.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/MALL_OF_THE_EMIRATES.Bj_Dy64E.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/BESTSELLER.BwMYxazI.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/COPENHAGEN_FASHION_WEEK.Cif1zX-w.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/RAINS.CPKqRJG-.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/NINE.6XIRjh36.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/LV.DCogZ-7C.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/RAINS.bsJKHxaJ.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/LV.CkZt_03C.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/thx_paper_bg.hYx5KIjT.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/contact_paper_bg_3.l2iqyrfM.jpeg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/contact_paper_bg_4.DDK9s8Se.jpeg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/paper_bg_2.BAEFMvQV.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/NeueHaasUnicaPro-Regular.CsAGy8LP.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 38507
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/HelveticaNowVar-Regular.BCGr3GKL.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 44903
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/RAINS.bsJKHxaJ.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": true
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/LV.CkZt_03C.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/ClwpwI-v.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 7984
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/_slug_.BZbyhuGP.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 4402
+      },
+      {
+        "url": "https://brandonyasin.com/_nuxt/builds/meta/4e2ac391-9563-4411-89e6-372ce2d4f703.json",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 237
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "tick-458dfb20",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      }
+    ],
+    "console": [],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://brandonyasin.com/_nuxt/RAINS.bsJKHxaJ.mp4",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 3016,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 685,
+      "typography": {
+        "families": [
+          [
+            "Helvetica Now Variable",
+            21
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            21
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            21
+          ]
+        ],
+        "sizeMin": 12,
+        "sizeMedian": 12,
+        "sizeMax": 12,
+        "sizeMaxVw": 3.1,
+        "scaleRatio": 1,
+        "letterSpacingMean": 0,
+        "loadedFonts": [
+          {
+            "family": "Neue Haas Unica Pro",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Helvetica Now Variable",
+            "weight": "400",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 21
+      },
+      "color": {
+        "background": "rgb(248, 246, 242)",
+        "backgroundLuminance": 0.922787978590746,
+        "backgrounds": [
+          [
+            "rgb(248, 246, 242)",
+            329
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(17, 17, 17)",
+            87
+          ]
+        ],
+        "meanSaturation": 0.02,
+        "rootVars": {
+          "--color-main": "#111",
+          "--color-bg": "#f8f6f2",
+          "--selection-color": "#111",
+          "--selection-bg": "#44300033",
+          "--focus-bg": "var(--color-main)",
+          "--focus-color": "var(--color-bg)",
+          "--lvh": "1vh",
+          "--svh": "1vh",
+          "--img-over-opacity": "0",
+          "--bg-brightness": "1"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 2,
+        "sticky": 5,
+        "fixed": 6,
+        "grid": 18,
+        "flex": 89,
+        "absolute": 111,
+        "asymmetricGrids": 1,
+        "splitScreen": false,
+        "scrollHeight": 844,
+        "pages": 1,
+        "spacing": [
+          [
+            8,
+            17
+          ],
+          [
+            10,
+            17
+          ],
+          [
+            15,
+            16
+          ],
+          [
+            2,
+            16
+          ],
+          [
+            16,
+            8
+          ],
+          [
+            24,
+            7
+          ],
+          [
+            64,
+            3
+          ],
+          [
+            11,
+            3
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 1,
+        "animationKinds": [
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 1,
+        "animationDurations": [
+          1000
+        ],
+        "easings": [
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            200,
+            17
+          ],
+          [
+            500,
+            11
+          ],
+          [
+            400,
+            8
+          ],
+          [
+            250,
+            7
+          ],
+          [
+            750,
+            3
+          ]
+        ],
+        "keyframes": [
+          "tick-458dfb20",
+          "rows-trail-7d6b1e40"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": true
+      },
+      "hiddenElements": 8,
+      "media": {
+        "canvases": [],
+        "videos": [
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://brandonyasin.com/_nuxt/RAINS.bsJKHxaJ.mp4"
+          },
+          {
+            "autoplay": false,
+            "loop": true,
+            "muted": true,
+            "src": "https://brandonyasin.com/_nuxt/LV.CkZt_03C.mp4"
+          }
+        ],
+        "svg": 10,
+        "images": 34,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {},
+        "raf": 308,
+        "io": 1,
+        "ro": 19,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": true,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Brandon Yasin — Creative Director & Designer",
+      "lang": "en",
+      "description": "Brand, digital and spatial design within lifestyle and luxury. AI scales the production, not the craft. Based in Denmark, working globally."
+    },
+    "featuresBeforeScroll": {
+      "elements": 685,
+      "canvases": 0,
+      "animations": 1,
+      "hidden": 8
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 6040612,
+        "layoutCount": 162,
+        "recalcStyleCount": 707,
+        "scriptDuration": 0.057511,
+        "taskDuration": 0.438577,
+        "nodes": 1429
+      },
+      "timing": {
+        "domContentLoaded": 448,
+        "load": 643,
+        "first-paint": 416,
+        "first-contentful-paint": 432
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "tick-458dfb20",
+        "duration": 1000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease-out"
+      }
+    ],
+    "console": [],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://brandonyasin.com/_nuxt/RAINS.bsJKHxaJ.mp4",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  }
+}

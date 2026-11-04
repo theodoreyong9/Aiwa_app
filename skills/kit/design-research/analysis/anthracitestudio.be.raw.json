@@ -1,0 +1,2341 @@
+{
+  "url": "https://anthracitestudio.be/",
+  "at": "2026-10-29T13:08:16.286Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 25928,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 1096,
+      "typography": {
+        "families": [
+          [
+            "Sometype Mono",
+            72
+          ],
+          [
+            "Instrument Serif",
+            58
+          ],
+          [
+            "Figtree Variable",
+            34
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            157
+          ],
+          [
+            "500",
+            5
+          ],
+          [
+            "600",
+            1
+          ],
+          [
+            "700",
+            1
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            73
+          ]
+        ],
+        "sizeMin": 10,
+        "sizeMedian": 14,
+        "sizeMax": 86.4,
+        "sizeMaxVw": 6,
+        "scaleRatio": 6.2,
+        "letterSpacingMean": 0.014,
+        "loadedFonts": [
+          {
+            "family": "Figtree Variable",
+            "weight": "300 900",
+            "style": "normal"
+          },
+          {
+            "family": "Sometype Mono",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Sometype Mono",
+            "weight": "700",
+            "style": "normal"
+          },
+          {
+            "family": "Instrument Serif",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Instrument Serif Fallback",
+            "weight": "normal",
+            "style": "normal"
+          }
+        ],
+        "variableFont": true,
+        "textElements": 164
+      },
+      "color": {
+        "background": "rgb(4, 4, 14)",
+        "backgroundLuminance": 0.001443511456447469,
+        "backgrounds": [
+          [
+            "rgb(4, 4, 14)",
+            4842
+          ],
+          [
+            "rgba(255, 255, 255, 0.04)",
+            1599
+          ],
+          [
+            "rgb(255, 255, 255)",
+            130
+          ],
+          [
+            "rgba(0, 0, 0, 0.75)",
+            64
+          ],
+          [
+            "rgba(0, 0, 0, 0.6)",
+            36
+          ],
+          [
+            "rgb(0, 4, 235)",
+            15
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(255, 255, 255)",
+            510
+          ],
+          [
+            "rgb(4, 4, 14)",
+            42
+          ],
+          [
+            "rgb(0, 0, 238)",
+            17
+          ],
+          [
+            "rgba(255, 255, 255, 0.6)",
+            14
+          ],
+          [
+            "rgba(255, 255, 255, 0.5)",
+            13
+          ]
+        ],
+        "meanSaturation": 0.29,
+        "rootVars": {
+          "--container-min": "992px",
+          "--container-max": "100svw",
+          "--container": "clamp(var(--container-min), 92vw, var(--container-max))",
+          "--unit": "1rem",
+          "--font-body": "\"Figtree Variable\", \"Figtree\", sans-serif",
+          "--font-title": "\"Instrument Serif\", \"Instrument Serif Fallback\", Georgia, serif",
+          "--font-display": "\"Sometype Mono\", monospace",
+          "--primary": "#0004eb",
+          "--secondary": "#f6beb1",
+          "--lightprimary": "#838dff",
+          "--electric": "#3d4bff",
+          "--electric-text": "#5c68ff",
+          "--white": "#fff",
+          "--white-gray": "#fafafa",
+          "--dark": "#04040e",
+          "--anim-duration": ".6s",
+          "--anim-delay": ".2s"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 8,
+        "sticky": 1,
+        "fixed": 9,
+        "grid": 31,
+        "flex": 138,
+        "absolute": 37,
+        "asymmetricGrids": 15,
+        "splitScreen": false,
+        "scrollHeight": 10378,
+        "pages": 11.5,
+        "spacing": [
+          [
+            10,
+            27
+          ],
+          [
+            5,
+            24
+          ],
+          [
+            24,
+            21
+          ],
+          [
+            8,
+            19
+          ],
+          [
+            6,
+            17
+          ],
+          [
+            16,
+            16
+          ],
+          [
+            20,
+            15
+          ],
+          [
+            12,
+            12
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 14,
+        "animationKinds": [
+          "CSSTransition",
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 0,
+        "animationDurations": [
+          300,
+          500,
+          300,
+          600,
+          300,
+          600,
+          1100,
+          0,
+          1100,
+          0,
+          1100,
+          0,
+          1100,
+          0
+        ],
+        "easings": [
+          "ease",
+          "cubic-bezier(0.25, 1, 0.5, 1)",
+          "cubic-bezier(0.625, 0.05, 0, 1)",
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            250,
+            129
+          ],
+          [
+            350,
+            37
+          ],
+          [
+            300,
+            33
+          ],
+          [
+            800,
+            16
+          ],
+          [
+            500,
+            14
+          ]
+        ],
+        "keyframes": [
+          "astroFadeInOut",
+          "astroFadeIn",
+          "astroFadeOut",
+          "astroSlideFromRight",
+          "astroSlideFromLeft",
+          "astroSlideToRight",
+          "astroSlideToLeft",
+          "br-bar",
+          "br-show",
+          "reveal-bar",
+          "reveal-show",
+          "fp-bar",
+          "fp-show",
+          "fp-row-in"
+        ],
+        "viewTransitionCss": true,
+        "scrollTimelineCss": true
+      },
+      "hiddenElements": 66,
+      "media": {
+        "canvases": [
+          {
+            "w": 1440,
+            "h": 900,
+            "area": 1
+          },
+          {
+            "w": 288,
+            "h": 360,
+            "area": 0.08
+          },
+          {
+            "w": 1800,
+            "h": 520,
+            "area": 0.46
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 1
+          }
+        ],
+        "videos": [],
+        "svg": 21,
+        "images": 24,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "2d": 72,
+          "webgl2": 1
+        },
+        "raf": 1417,
+        "io": 12,
+        "ro": 28,
+        "mo": 3,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Web designer & développeur en Wallonie | Anthracite Studio",
+      "lang": "fr",
+      "description": "Alexandre Huet, web designer et développeur en Wallonie et au Luxembourg : sites WordPress sur mesure, SEO, visibilité dans les IA et automatisations."
+    },
+    "featuresBeforeScroll": {
+      "elements": 971,
+      "canvases": 4,
+      "animations": 2,
+      "hidden": 92
+    },
+    "scrollReveal": 26,
+    "hover": {
+      "probed": 6,
+      "changed": 0
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 6974588,
+        "layoutCount": 588,
+        "recalcStyleCount": 1747,
+        "scriptDuration": 2.405449,
+        "taskDuration": 20.864262,
+        "nodes": 3404
+      },
+      "timing": {
+        "domContentLoaded": 1410,
+        "load": 1457,
+        "first-paint": 1204,
+        "first-contentful-paint": 1204
+      }
+    },
+    "network": [
+      {
+        "url": "https://anthracitestudio.be/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 15413
+      },
+      {
+        "url": "https://anthracitestudio.be/_astro/instrument-serif-latin-400-normal.DnYpCC2O.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 21383
+      },
+      {
+        "url": "https://anthracitestudio.be/_astro/ClientRouter.astro_astro_type_script_index_0_lang.EEa29Pnn.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1229
+      },
+      {
+        "url": "https://anthracitestudio.be/_astro/BaseLayout.C9js0L-m.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 21191
+      },
+      {
+        "url": "https://anthracitestudio.be/_astro/page.2wkAwi-V.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 425
+      },
+      {
+        "url": "https://anthracitestudio.be/_astro/hero-intro.DXoeliZQ_ZspbIs.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 92939
+      },
+      {
+        "url": "https://anthracitestudio.be/_astro/PixelLensHero.astro_astro_type_script_index_0_lang.NlrHob9N.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1049
+      },
+      {
+        "url": "https://anthracitestudio.be/_astro/HomeHero.astro_astro_type_script_index_0_lang.lXeE8KSz.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1715
+      },
+      {
+        "url": "https://anthracitestudio.be/_astro/ClientsWall.astro_astro_type_script_index_0_lang.B__VwUts.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2006
+      },
+      {
+        "url": "https://anthracitestudio.be/_astro/alexandre.CvMhspaC_Z19eW3p.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 28157
+      },
+      {
+        "url": "https://anthracitestudio.be/_astro/Manifesto.astro_astro_type_script_index_0_lang.Do1LNmDw.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 706
+      },
+      {
+        "url": "https://anthracitestudio.be/_astro/FeaturedProjects.astro_astro_type_script_index_0_lang.Dfr1GNk8.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1444
+      },
+      {
+        "url": "https://anthracitestudio.be/_astro/Testimonials.astro_astro_type_script_index_0_lang.BlymJGJ6.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 5307
+      },
+      {
+        "url": "https://anthracitestudio.be/_astro/Footer.astro_astro_type_script_index_0_lang.BIkN7chj.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3173
+      },
+      {
+        "url": "https://anthracitestudio.be/_astro/Screensaver.astro_astro_type_script_index_0_lang.DA592Wcq.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2553
+      },
+      {
+        "url": "https://anthracitestudio.be/_astro/BaseLayout.astro_astro_type_script_index_0_lang.DWo3OWVZ.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 14822
+      },
+      {
+        "url": "https://anthracitestudio.be/_astro/prefetch.BoYiCO3V.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1554
+      },
+      {
+        "url": "https://anthracitestudio.be/_astro/preload-helper.oCYlU9a4.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1225
+      },
+      {
+        "url": "https://anthracitestudio.be/_astro/client.6LGsxA60.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4720
+      },
+      {
+        "url": "https://anthracitestudio.be/_astro/gsap.CvDoa17S.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 27381
+      },
+      {
+        "url": "https://anthracitestudio.be/_astro/ScrollTrigger.CDDhF-DF.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 17802
+      },
+      {
+        "url": "https://anthracitestudio.be/_astro/pixel-reveal.E7-o1X3z.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1393
+      },
+      {
+        "url": "https://anthracitestudio.be/_astro/manifesto.DvhTFCXd.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 910
+      },
+      {
+        "url": "https://anthracitestudio.be/_astro/figtree-latin-wght-normal.D_ZTVpCC.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 20507
+      },
+      {
+        "url": "https://anthracitestudio.be/_astro/sometype-mono-latin-400-normal.DbqYDHio.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 10097
+      },
+      {
+        "url": "https://anthracitestudio.be/_astro/nmc.BTIvhNkf.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 3836
+      },
+      {
+        "url": "https://anthracitestudio.be/_astro/sabca.gCeWWn42.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 6281
+      },
+      {
+        "url": "https://anthracitestudio.be/_astro/amos.CpADuZGS.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 2532
+      },
+      {
+        "url": "https://anthracitestudio.be/_astro/wallonie-sante.JQqovRXk.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 5151
+      },
+      {
+        "url": "https://anthracitestudio.be/_astro/balteau.qk66MdH_.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 6309
+      },
+      {
+        "url": "https://anthracitestudio.be/_astro/novatill.BDU9uIsq.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 2999
+      },
+      {
+        "url": "https://anthracitestudio.be/_astro/cover.CJu2v3X7_1SrqW0.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 134530
+      },
+      {
+        "url": "https://anthracitestudio.be/_astro/cover.Sl-jX1Yp_XL79I.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 48256
+      },
+      {
+        "url": "https://anthracitestudio.be/_astro/cards-motion.DZ8oj4as.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1820
+      },
+      {
+        "url": "https://anthracitestudio.be/_astro/page-title.DImmcHNI.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 785
+      },
+      {
+        "url": "https://anthracitestudio.be/_astro/scramble.CbXq7Pjg.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3045
+      },
+      {
+        "url": "https://anthracitestudio.be/_astro/screen.CWh0q8tw.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 588
+      },
+      {
+        "url": "https://anthracitestudio.be/_astro/scroll-config.B12i-TFT.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 547
+      },
+      {
+        "url": "https://anthracitestudio.be/_astro/sub-bar.BYj1PeSO.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1396
+      },
+      {
+        "url": "https://anthracitestudio.be/_astro/analytics.DflRTZhx.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 1708
+      },
+      {
+        "url": "https://anthracitestudio.be/_astro/pixel-lens.C_KoliPy.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 133376
+      },
+      {
+        "url": "https://anthracitestudio.be/_astro/sometype-mono-latin-700-normal.Ua3i_c-N.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 10017
+      },
+      {
+        "url": "https://anthracitestudio.be/_astro/alexandre.CvMhspaC_20Nfuk.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 169050
+      },
+      {
+        "url": "https://anthracitestudio.be/_astro/footer-sample.CYEYLWPN_12vcqP.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 37840
+      },
+      {
+        "url": "https://anthracitestudio.be/_astro/hands-field.zHoWi4jH.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4051
+      },
+      {
+        "url": "https://anthracitestudio.be/_astro/cover.DGEHWtlD_Z1W1RJA.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 91294
+      },
+      {
+        "url": "https://anthracitestudio.be/_astro/grain-de-soleil.C1Sry3Pn.svg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 26648
+      },
+      {
+        "url": "https://anthracitestudio.be/_astro/cover.BeadEJdf_esVBY.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 53359
+      },
+      {
+        "url": "https://anthracitestudio.be/_astro/pierre-francois-noel.DFPLmrxB_Z1N7oXi.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 5938
+      },
+      {
+        "url": "https://anthracitestudio.be/_astro/laurent-serre.CyAA4JlR_ZeuMbl.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 12134
+      },
+      {
+        "url": "https://anthracitestudio.be/_astro/noah-claes.uHG85WZq_1hKshA.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 6288
+      },
+      {
+        "url": "https://anthracitestudio.be/_astro/as-du-volant.BYW1UuAz_fDFAt.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 4602
+      },
+      {
+        "url": "https://anthracitestudio.be/_astro/thomas-jeanmart.Cp8gcCqN_Z23b3Wa.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 9433
+      },
+      {
+        "url": "https://anthracitestudio.be/_astro/caroline-lamblotte.NQ1UQpRt_ZjWi2m.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 6678
+      },
+      {
+        "url": "https://anthracitestudio.be/_astro/luna-tornabene.sZCSSFfU_1op9b3.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 15610
+      },
+      {
+        "url": "https://anthracitestudio.be/_astro/arnaud-marbehant.Bo_8lDZR_RLkBC.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 7250
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "translate",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.25, 1, 0.5, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "translate",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.25, 1, 0.5, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "translate",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.25, 1, 0.5, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-size",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.65, 0, 0.35, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-size",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.65, 0, 0.35, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-size",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.65, 0, 0.35, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 250,
+        "delay": 659.9999999999999,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 250,
+        "delay": 480,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 250,
+        "delay": 360,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 250,
+        "delay": 659.9999999999999,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 250,
+        "delay": 720,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 250,
+        "delay": 840.0000000000001,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 250,
+        "delay": 960,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 800,
+        "delay": 270,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "translate",
+        "duration": 1000,
+        "delay": 270,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.25, 1, 0.5, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 800,
+        "delay": 510,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "translate",
+        "duration": 1000,
+        "delay": 510,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.25, 1, 0.5, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 250,
+        "delay": 839.9999999999999,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 250,
+        "delay": 840.0000000000001,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 250,
+        "delay": 659.9999999999999,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 250,
+        "delay": 779.9999999999999,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "transform",
+        "duration": 1200,
+        "delay": 360,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.77, 0, 0.18, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 250,
+        "delay": 780,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 250,
+        "delay": 480,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 250,
+        "delay": 899.9999999999999,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 250,
+        "delay": 600,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 250,
+        "delay": 660,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 250,
+        "delay": 1020,
+        "iterations": 1,
+        "easing": "ease"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0702000CC370000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x37dc00145600]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x37dc00145600]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x37dc00145600]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x37dc00145600]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+      }
+    ],
+    "exceptions": [],
+    "failed": [],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 7816,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 1234,
+      "typography": {
+        "families": [
+          [
+            "Sometype Mono",
+            68
+          ],
+          [
+            "Instrument Serif",
+            51
+          ],
+          [
+            "Figtree Variable",
+            32
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            145
+          ],
+          [
+            "500",
+            5
+          ],
+          [
+            "700",
+            1
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            69
+          ]
+        ],
+        "sizeMin": 11,
+        "sizeMedian": 14,
+        "sizeMax": 48,
+        "sizeMaxVw": 12.3,
+        "scaleRatio": 3.4,
+        "letterSpacingMean": 0.015,
+        "loadedFonts": [
+          {
+            "family": "Figtree Variable",
+            "weight": "300 900",
+            "style": "normal"
+          },
+          {
+            "family": "Sometype Mono",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Sometype Mono",
+            "weight": "700",
+            "style": "normal"
+          },
+          {
+            "family": "Instrument Serif",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Instrument Serif Fallback",
+            "weight": "normal",
+            "style": "normal"
+          }
+        ],
+        "variableFont": true,
+        "textElements": 151
+      },
+      "color": {
+        "background": "rgb(4, 4, 14)",
+        "backgroundLuminance": 0.001443511456447469,
+        "backgrounds": [
+          [
+            "rgb(4, 4, 14)",
+            1195
+          ],
+          [
+            "rgba(255, 255, 255, 0.04)",
+            687
+          ],
+          [
+            "rgb(255, 255, 255)",
+            123
+          ],
+          [
+            "rgba(0, 0, 0, 0.75)",
+            48
+          ],
+          [
+            "rgba(0, 0, 0, 0.6)",
+            28
+          ],
+          [
+            "rgb(0, 4, 235)",
+            8
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(255, 255, 255)",
+            574
+          ],
+          [
+            "rgb(61, 75, 255)",
+            96
+          ],
+          [
+            "rgb(4, 4, 14)",
+            40
+          ],
+          [
+            "rgba(255, 255, 255, 0.6)",
+            16
+          ],
+          [
+            "rgba(255, 255, 255, 0.55)",
+            13
+          ]
+        ],
+        "meanSaturation": 0.29,
+        "rootVars": {
+          "--container-min": "992px",
+          "--container-max": "100svw",
+          "--container": "clamp(var(--container-min), 92vw, var(--container-max))",
+          "--unit": "1rem",
+          "--font-body": "\"Figtree Variable\", \"Figtree\", sans-serif",
+          "--font-title": "\"Instrument Serif\", \"Instrument Serif Fallback\", Georgia, serif",
+          "--font-display": "\"Sometype Mono\", monospace",
+          "--primary": "#0004eb",
+          "--secondary": "#f6beb1",
+          "--lightprimary": "#838dff",
+          "--electric": "#3d4bff",
+          "--electric-text": "#5c68ff",
+          "--white": "#fff",
+          "--white-gray": "#fafafa",
+          "--dark": "#04040e",
+          "--anim-duration": ".6s",
+          "--anim-delay": ".2s"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 11,
+        "sticky": 1,
+        "fixed": 9,
+        "grid": 22,
+        "flex": 129,
+        "absolute": 33,
+        "asymmetricGrids": 9,
+        "splitScreen": false,
+        "scrollHeight": 10743,
+        "pages": 12.7,
+        "spacing": [
+          [
+            6,
+            30
+          ],
+          [
+            10,
+            26
+          ],
+          [
+            5,
+            24
+          ],
+          [
+            8,
+            17
+          ],
+          [
+            40,
+            16
+          ],
+          [
+            16,
+            15
+          ],
+          [
+            20,
+            14
+          ],
+          [
+            12,
+            11
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 6,
+        "animationKinds": [
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 0,
+        "animationDurations": [
+          1100,
+          0,
+          1100,
+          0,
+          1100,
+          0
+        ],
+        "easings": [
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            250,
+            129
+          ],
+          [
+            350,
+            37
+          ],
+          [
+            300,
+            29
+          ],
+          [
+            800,
+            16
+          ],
+          [
+            500,
+            14
+          ]
+        ],
+        "keyframes": [
+          "astroFadeInOut",
+          "astroFadeIn",
+          "astroFadeOut",
+          "astroSlideFromRight",
+          "astroSlideFromLeft",
+          "astroSlideToRight",
+          "astroSlideToLeft",
+          "br-bar",
+          "br-show",
+          "reveal-bar",
+          "reveal-show",
+          "fp-bar",
+          "fp-show",
+          "fp-row-in"
+        ],
+        "viewTransitionCss": true,
+        "scrollTimelineCss": true
+      },
+      "hiddenElements": 87,
+      "media": {
+        "canvases": [
+          {
+            "w": 780,
+            "h": 1688,
+            "area": 1
+          },
+          {
+            "w": 490,
+            "h": 613,
+            "area": 0.23
+          },
+          {
+            "w": 975,
+            "h": 282,
+            "area": 0.13
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 1
+          }
+        ],
+        "videos": [],
+        "svg": 21,
+        "images": 20,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "2d": 11
+        },
+        "raf": 1562,
+        "io": 12,
+        "ro": 28,
+        "mo": 3,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Web designer & développeur en Wallonie | Anthracite Studio",
+      "lang": "fr",
+      "description": "Alexandre Huet, web designer et développeur en Wallonie et au Luxembourg : sites WordPress sur mesure, SEO, visibilité dans les IA et automatisations."
+    },
+    "featuresBeforeScroll": {
+      "elements": 983,
+      "canvases": 4,
+      "animations": 0,
+      "hidden": 103
+    },
+    "scrollReveal": 16,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 4079708,
+        "layoutCount": 468,
+        "recalcStyleCount": 1607,
+        "scriptDuration": 0.237785,
+        "taskDuration": 1.383704,
+        "nodes": 2159
+      },
+      "timing": {
+        "domContentLoaded": 1170,
+        "load": 1214,
+        "first-paint": 956,
+        "first-contentful-paint": 956
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "translate",
+        "duration": 500,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.25, 1, 0.5, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-size",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.65, 0, 0.35, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-size",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.65, 0, 0.35, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-size",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.65, 0, 0.35, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 350,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "reveal-bar",
+        "duration": 1200,
+        "delay": 80,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "reveal-show",
+        "duration": 0,
+        "delay": 559.9999999999999,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "reveal-show",
+        "duration": 0,
+        "delay": 480,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "reveal-bar",
+        "duration": 1200,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 250,
+        "delay": 659.9999999999999,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 250,
+        "delay": 480,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 250,
+        "delay": 360,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 250,
+        "delay": 659.9999999999999,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 250,
+        "delay": 720,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 250,
+        "delay": 840.0000000000001,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 250,
+        "delay": 960,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 800,
+        "delay": 270,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "translate",
+        "duration": 1000,
+        "delay": 270,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.25, 1, 0.5, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 800,
+        "delay": 510,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "translate",
+        "duration": 1000,
+        "delay": 510,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.25, 1, 0.5, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 250,
+        "delay": 839.9999999999999,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 250,
+        "delay": 840.0000000000001,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 250,
+        "delay": 659.9999999999999,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 250,
+        "delay": 779.9999999999999,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 250,
+        "delay": 780,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 250,
+        "delay": 480,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 250,
+        "delay": 899.9999999999999,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 250,
+        "delay": 600,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 250,
+        "delay": 660,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 250,
+        "delay": 1020,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "opacity",
+        "duration": 250,
+        "delay": 360,
+        "iterations": 1,
+        "easing": "ease"
+      }
+    ],
+    "console": [],
+    "exceptions": [],
+    "failed": [],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  }
+}

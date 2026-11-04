@@ -1,0 +1,1603 @@
+{
+  "url": "https://guillaumecolombel.fr/",
+  "at": "2026-10-29T12:54:45.331Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 306147,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 209,
+      "typography": {
+        "families": [
+          [
+            "Neue Montreal",
+            33
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            32
+          ],
+          [
+            "600",
+            1
+          ]
+        ],
+        "textTransforms": [],
+        "sizeMin": 10,
+        "sizeMedian": 12,
+        "sizeMax": 14,
+        "sizeMaxVw": 1,
+        "scaleRatio": 1.2,
+        "letterSpacingMean": 0.029,
+        "loadedFonts": [
+          {
+            "family": "Neue Montreal",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Neue Montreal",
+            "weight": "500",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 33
+      },
+      "color": {
+        "background": "rgb(5, 4, 4)",
+        "backgroundLuminance": 0.0012786377708978328,
+        "backgrounds": [
+          [
+            "rgba(255, 214, 176, 0.32)",
+            0
+          ]
+        ],
+        "texts": [
+          [
+            "rgba(244, 242, 238, 0.55)",
+            33
+          ],
+          [
+            "rgb(255, 255, 255)",
+            29
+          ],
+          [
+            "rgba(244, 242, 238, 0.92)",
+            13
+          ],
+          [
+            "rgba(244, 242, 238, 0.62)",
+            6
+          ],
+          [
+            "rgba(0, 0, 0, 0)",
+            1
+          ]
+        ],
+        "meanSaturation": 0.31,
+        "rootVars": {
+          "--black": "#050404",
+          "--ivory": "#f0ebe2"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 1,
+        "sticky": 0,
+        "fixed": 11,
+        "grid": 3,
+        "flex": 36,
+        "absolute": 21,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 900,
+        "pages": 1,
+        "spacing": [
+          [
+            10,
+            21
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            24,
+            5
+          ],
+          [
+            13,
+            4
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            18,
+            1
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            108,
+            1
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 0,
+        "animationKinds": [],
+        "infiniteAnimations": 0,
+        "animationDurations": [],
+        "easings": [],
+        "transitionDurationsMs": [
+          [
+            250,
+            11
+          ],
+          [
+            600,
+            4
+          ],
+          [
+            350,
+            3
+          ],
+          [
+            400,
+            2
+          ],
+          [
+            160,
+            2
+          ]
+        ],
+        "keyframes": [
+          "sound-pop-on",
+          "sound-pop-off",
+          "stele-ui-in",
+          "visit-rule",
+          "visit-ne-out",
+          "visit-ne-in",
+          "arrow-leave",
+          "arrow-erase",
+          "arrow-draw",
+          "arrow-undraw",
+          "lost-in",
+          "lost-arrow-leave",
+          "lost-arrow-erase",
+          "lost-arrow-draw",
+          "lost-arrow-undraw"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 9,
+      "media": {
+        "canvases": [
+          {
+            "w": 1440,
+            "h": 900,
+            "area": 1
+          },
+          {
+            "w": 1,
+            "h": 1,
+            "area": 0
+          }
+        ],
+        "videos": [],
+        "svg": 4,
+        "images": 0,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 1,
+          "2d": 5
+        },
+        "raf": 47,
+        "io": 1,
+        "ro": 2,
+        "mo": 1,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": true,
+        "reactRoot": false,
+        "vue": true,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Guillaume Colombel — Freelance Interactive Developer",
+      "lang": "en",
+      "description": "Freelance Interactive Developer specializing in immersive web experiences and creative websites. Based in Paris, available worldwide."
+    },
+    "featuresBeforeScroll": {
+      "elements": 209,
+      "canvases": 2,
+      "animations": 0,
+      "hidden": 9
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 6,
+      "changed": 0
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 12341008,
+        "layoutCount": 56,
+        "recalcStyleCount": 118,
+        "scriptDuration": 1.833242,
+        "taskDuration": 305.777254,
+        "nodes": 555
+      },
+      "timing": {
+        "domContentLoaded": 326,
+        "load": 327,
+        "first-paint": 276,
+        "first-contentful-paint": 276
+      }
+    },
+    "network": [
+      {
+        "url": "https://guillaumecolombel.fr/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 8707
+      },
+      {
+        "url": "https://guillaumecolombel.fr/assets/fonts/integral-msdf.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 197631
+      },
+      {
+        "url": "https://guillaumecolombel.fr/assets/fonts/integral-msdf.json",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 4105
+      },
+      {
+        "url": "https://guillaumecolombel.fr/assets/fonts/NeueMontreal-Medium.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 24864
+      },
+      {
+        "url": "https://guillaumecolombel.fr/_payload.json?_b=4d34585f-908b-4abe-ab37-fe6648c821c9",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 154
+      },
+      {
+        "url": "https://guillaumecolombel.fr/_nuxt/BegnV_pG.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 106833
+      },
+      {
+        "url": "https://guillaumecolombel.fr/_nuxt/im-Em6LF.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 668
+      },
+      {
+        "url": "https://guillaumecolombel.fr/_nuxt/CFcAeC4a.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 627
+      },
+      {
+        "url": "https://cloud.umami.is/script.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4702
+      },
+      {
+        "url": "https://guillaumecolombel.fr/_nuxt/ZcAlFalt.js",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 9787
+      },
+      {
+        "url": "https://guillaumecolombel.fr/_nuxt/q85zufTc.js",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 310832
+      },
+      {
+        "url": "https://guillaumecolombel.fr/_nuxt/C0u6vjcG.js",
+        "method": "GET",
+        "type": "OTHER",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 3016
+      },
+      {
+        "url": "https://guillaumecolombel.fr/assets/fonts/NeueMontreal-Regular.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 23637
+      },
+      {
+        "url": "https://gateway.umami.is/api/send",
+        "method": "OPTIONS",
+        "type": "OTHER",
+        "initiator": "preflight",
+        "status": 200,
+        "mime": "",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://gateway.umami.is/api/send",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 610
+      },
+      {
+        "url": "https://guillaumecolombel.fr/_nuxt/q85zufTc.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 41
+      },
+      {
+        "url": "https://guillaumecolombel.fr/_nuxt/DyApX3F_.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 731
+      },
+      {
+        "url": "https://guillaumecolombel.fr/_nuxt/builds/meta/4d34585f-908b-4abe-ab37-fe6648c821c9.json",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 506
+      },
+      {
+        "url": "https://guillaumecolombel.fr/assets/noise/bluenoise64.png",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/png",
+        "fromCache": false,
+        "bytes": 7212
+      },
+      {
+        "url": "https://guillaumecolombel.fr/_payload.json?_b=4d34585f-908b-4abe-ab37-fe6648c821c9",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": true,
+        "bytes": 0
+      },
+      {
+        "url": "https://guillaumecolombel.fr/about/_payload.json?_b=4d34585f-908b-4abe-ab37-fe6648c821c9",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/json",
+        "fromCache": false,
+        "bytes": 180
+      },
+      {
+        "url": "https://guillaumecolombel.fr/assets/covers/clarte.webp",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 43346
+      },
+      {
+        "url": "https://guillaumecolombel.fr/assets/covers/ousmane-ballon-dor.webp",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 91350
+      },
+      {
+        "url": "https://guillaumecolombel.fr/assets/covers/axel-vanhessche.webp",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 275773
+      },
+      {
+        "url": "https://guillaumecolombel.fr/_nuxt/ZcAlFalt.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "script",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 201
+      },
+      {
+        "url": "https://guillaumecolombel.fr/assets/covers/kaizen.webp",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 23025
+      },
+      {
+        "url": "https://guillaumecolombel.fr/assets/covers/magical-pantry.webp",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 37210
+      },
+      {
+        "url": "https://guillaumecolombel.fr/assets/covers/portfolio-2024.webp",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 244393
+      },
+      {
+        "url": "https://guillaumecolombel.fr/assets/covers/clarte.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "other",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 1831375
+      },
+      {
+        "url": "https://guillaumecolombel.fr/assets/covers/jean-dawson.webp",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 72154
+      },
+      {
+        "url": "https://guillaumecolombel.fr/assets/covers/salomon-ligthelm.webp",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 21307
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "sound-pop-off",
+        "duration": 420,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke-dashoffset",
+        "duration": 160,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke-dashoffset",
+        "duration": 400,
+        "delay": 200,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "sound-pop-on",
+        "duration": 420,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke-dashoffset",
+        "duration": 160,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke-dashoffset",
+        "duration": 400,
+        "delay": 100,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.165, 0.84, 0.44, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke-dashoffset",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke-dashoffset",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke-dashoffset",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke-dashoffset",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke-dashoffset",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke-dashoffset",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke-dashoffset",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke-dashoffset",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke-dashoffset",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke-dashoffset",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke-dashoffset",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke-dashoffset",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke-dashoffset",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke-dashoffset",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke-dashoffset",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke-dashoffset",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke-dashoffset",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke-dashoffset",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke-dashoffset",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke-dashoffset",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke-dashoffset",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke-dashoffset",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke-dashoffset",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke-dashoffset",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke-dashoffset",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke-dashoffset",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke-dashoffset",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke-dashoffset",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-left-color",
+        "duration": 250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-right-color",
+        "duration": 250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-top-color",
+        "duration": 250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-bottom-color",
+        "duration": 250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-left-color",
+        "duration": 250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-right-color",
+        "duration": 250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-top-color",
+        "duration": 250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-bottom-color",
+        "duration": 250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-left-color",
+        "duration": 250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-right-color",
+        "duration": 250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-top-color",
+        "duration": 250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-bottom-color",
+        "duration": 250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-left-color",
+        "duration": 250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-right-color",
+        "duration": 250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-top-color",
+        "duration": 250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "border-bottom-color",
+        "duration": 250,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "stele-ui-in",
+        "duration": 900,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "stele-ui-in",
+        "duration": 900,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "Failed to create WebGPU Context Provider"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A07020009C290000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x217400135000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x217400135000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x217400135000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x217400135000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+      }
+    ],
+    "exceptions": [],
+    "failed": [],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 71150,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 219,
+      "typography": {
+        "families": [
+          [
+            "Neue Montreal",
+            33
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            32
+          ],
+          [
+            "600",
+            1
+          ]
+        ],
+        "textTransforms": [],
+        "sizeMin": 10,
+        "sizeMedian": 12,
+        "sizeMax": 14,
+        "sizeMaxVw": 3.6,
+        "scaleRatio": 1.2,
+        "letterSpacingMean": 0.029,
+        "loadedFonts": [
+          {
+            "family": "Neue Montreal",
+            "weight": "400",
+            "style": "normal"
+          },
+          {
+            "family": "Neue Montreal",
+            "weight": "500",
+            "style": "normal"
+          }
+        ],
+        "variableFont": false,
+        "textElements": 33
+      },
+      "color": {
+        "background": "rgb(5, 4, 4)",
+        "backgroundLuminance": 0.0012786377708978328,
+        "backgrounds": [
+          [
+            "rgba(255, 214, 176, 0.32)",
+            0
+          ]
+        ],
+        "texts": [
+          [
+            "rgba(244, 242, 238, 0.55)",
+            33
+          ],
+          [
+            "rgb(255, 255, 255)",
+            29
+          ],
+          [
+            "rgba(244, 242, 238, 0.92)",
+            13
+          ],
+          [
+            "rgba(244, 242, 238, 0.62)",
+            1
+          ],
+          [
+            "rgba(0, 0, 0, 0)",
+            1
+          ]
+        ],
+        "meanSaturation": 0.31,
+        "rootVars": {
+          "--black": "#050404",
+          "--ivory": "#f0ebe2"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 1,
+        "sticky": 0,
+        "fixed": 11,
+        "grid": 2,
+        "flex": 36,
+        "absolute": 21,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 844,
+        "pages": 1,
+        "spacing": [
+          [
+            10,
+            21
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            24,
+            5
+          ],
+          [
+            13,
+            4
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            8,
+            2
+          ],
+          [
+            16,
+            2
+          ],
+          [
+            14,
+            1
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 0,
+        "animationKinds": [],
+        "infiniteAnimations": 0,
+        "animationDurations": [],
+        "easings": [],
+        "transitionDurationsMs": [
+          [
+            250,
+            11
+          ],
+          [
+            600,
+            4
+          ],
+          [
+            350,
+            3
+          ],
+          [
+            400,
+            2
+          ],
+          [
+            160,
+            2
+          ]
+        ],
+        "keyframes": [
+          "sound-pop-on",
+          "sound-pop-off",
+          "stele-ui-in",
+          "visit-rule",
+          "visit-ne-out",
+          "visit-ne-in",
+          "arrow-leave",
+          "arrow-erase",
+          "arrow-draw",
+          "arrow-undraw",
+          "lost-in",
+          "lost-arrow-leave",
+          "lost-arrow-erase",
+          "lost-arrow-draw",
+          "lost-arrow-undraw"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 9,
+      "media": {
+        "canvases": [
+          {
+            "w": 682,
+            "h": 1477,
+            "area": 1
+          },
+          {
+            "w": 1,
+            "h": 1,
+            "area": 0
+          }
+        ],
+        "videos": [],
+        "svg": 4,
+        "images": 0,
+        "iframes": 0,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 1,
+          "2d": 5
+        },
+        "raf": 55,
+        "io": 1,
+        "ro": 2,
+        "mo": 1,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": true,
+        "reactRoot": false,
+        "vue": true,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "Guillaume Colombel — Freelance Interactive Developer",
+      "lang": "en",
+      "description": "Freelance Interactive Developer specializing in immersive web experiences and creative websites. Based in Paris, available worldwide."
+    },
+    "featuresBeforeScroll": {
+      "elements": 219,
+      "canvases": 2,
+      "animations": 0,
+      "hidden": 9
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 10911732,
+        "layoutCount": 51,
+        "recalcStyleCount": 95,
+        "scriptDuration": 1.771975,
+        "taskDuration": 66.921521,
+        "nodes": 446
+      },
+      "timing": {
+        "domContentLoaded": 363,
+        "load": 364,
+        "first-paint": 284,
+        "first-contentful-paint": 284
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSTransition",
+        "name": "stroke-dashoffset",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke-dashoffset",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke-dashoffset",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke-dashoffset",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke-dashoffset",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke-dashoffset",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke-dashoffset",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke-dashoffset",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke-dashoffset",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke-dashoffset",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke-dashoffset",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke-dashoffset",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke-dashoffset",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke-dashoffset",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke-dashoffset",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke-dashoffset",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke-dashoffset",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke-dashoffset",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke-dashoffset",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke-dashoffset",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke-dashoffset",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke-dashoffset",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke-dashoffset",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke-dashoffset",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke-dashoffset",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke-dashoffset",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke-dashoffset",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "stroke-dashoffset",
+        "duration": 600,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.22, 1, 0.36, 1)"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "stele-ui-in",
+        "duration": 900,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "linear"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "Failed to create WebGPU Context Provider"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A07020009C290000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      }
+    ],
+    "exceptions": [],
+    "failed": [],
+    "targets": {
+      "frames": 1,
+      "workers": 0
+    }
+  }
+}

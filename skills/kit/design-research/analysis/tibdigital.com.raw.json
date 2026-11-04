@@ -1,0 +1,1934 @@
+{
+  "url": "https://tibdigital.com/",
+  "at": "2026-10-29T13:01:07.692Z",
+  "desktop": {
+    "mobile": false,
+    "status": 200,
+    "ms": 14852,
+    "features": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "elements": 1825,
+      "typography": {
+        "families": [
+          [
+            "Geist",
+            86
+          ],
+          [
+            "Geist Mono",
+            31
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            117
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            35
+          ]
+        ],
+        "sizeMin": 14.4,
+        "sizeMedian": 14.4,
+        "sizeMax": 126,
+        "sizeMaxVw": 8.8,
+        "scaleRatio": 8.8,
+        "letterSpacingMean": -0.038,
+        "loadedFonts": [
+          {
+            "family": "Geist",
+            "weight": "100 900",
+            "style": "normal"
+          },
+          {
+            "family": "Geist Mono",
+            "weight": "100 900",
+            "style": "normal"
+          }
+        ],
+        "variableFont": true,
+        "textElements": 117
+      },
+      "color": {
+        "background": "rgb(10, 12, 16)",
+        "backgroundLuminance": 0.0036488419110923855,
+        "backgrounds": [
+          [
+            "rgb(233, 236, 235)",
+            8968
+          ],
+          [
+            "rgb(10, 12, 16)",
+            5184
+          ],
+          [
+            "rgb(11, 12, 16)",
+            1296
+          ],
+          [
+            "rgba(255, 255, 255, 0.45)",
+            550
+          ],
+          [
+            "rgb(255, 255, 255)",
+            445
+          ],
+          [
+            "rgb(55, 57, 60)",
+            124
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(20, 27, 35)",
+            246
+          ],
+          [
+            "rgb(217, 217, 217)",
+            216
+          ],
+          [
+            "rgb(255, 255, 255)",
+            197
+          ],
+          [
+            "rgb(0, 255, 133)",
+            78
+          ],
+          [
+            "rgba(0, 0, 0, 0)",
+            15
+          ]
+        ],
+        "meanSaturation": 0.13,
+        "rootVars": {
+          "--pl-dark": "#0b0c10",
+          "--pl-green": "#00ff85",
+          "--pl-ink": "#e9eceb",
+          "--swiper-theme-color": "#007aff",
+          "--swiper-navigation-size": "44px",
+          "--size": "268",
+          "--lightningcss-light": "",
+          "--lightningcss-dark": "initial",
+          "--bg": "#0a0c10",
+          "--text": "#fff",
+          "--green": "#00ff85",
+          "--green-dim": "#00ff8526",
+          "--grey": "#1f2128",
+          "--background": "var(--bg)",
+          "--foreground": "var(--text)"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 10,
+        "sticky": 0,
+        "fixed": 7,
+        "grid": 13,
+        "flex": 264,
+        "absolute": 469,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 27491,
+        "pages": 30.5,
+        "spacing": [
+          [
+            4,
+            43
+          ],
+          [
+            36,
+            27
+          ],
+          [
+            22,
+            21
+          ],
+          [
+            43,
+            16
+          ],
+          [
+            29,
+            10
+          ],
+          [
+            7,
+            6
+          ],
+          [
+            21,
+            6
+          ],
+          [
+            18,
+            5
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 1,
+        "animationKinds": [
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 1,
+        "animationDurations": [
+          9000
+        ],
+        "easings": [
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            300,
+            108
+          ],
+          [
+            400,
+            19
+          ],
+          [
+            500,
+            7
+          ],
+          [
+            150,
+            4
+          ],
+          [
+            700,
+            1
+          ]
+        ],
+        "keyframes": [
+          "pl-grain-drift",
+          "pl-grain-float",
+          "swiper-preloader-spin"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 65,
+      "media": {
+        "canvases": [
+          {
+            "w": 800,
+            "h": 500,
+            "area": 1
+          },
+          {
+            "w": 1440,
+            "h": 900,
+            "area": 1
+          },
+          {
+            "w": 720,
+            "h": 450,
+            "area": 1
+          },
+          {
+            "w": 806,
+            "h": 900,
+            "area": 0.56
+          },
+          {
+            "w": 1440,
+            "h": 900,
+            "area": 1
+          },
+          {
+            "w": 720,
+            "h": 450,
+            "area": 1
+          },
+          {
+            "w": 424,
+            "h": 397,
+            "area": 0.13
+          },
+          {
+            "w": 1440,
+            "h": 900,
+            "area": 1
+          },
+          {
+            "w": 1440,
+            "h": 900,
+            "area": 1
+          }
+        ],
+        "videos": [
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://www.tibdigital.com/video/why-did1.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://www.tibdigital.com/video/why-did2.mp4"
+          }
+        ],
+        "svg": 27,
+        "images": 15,
+        "iframes": 1,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 9,
+          "webgl": 2,
+          "2d": 11
+        },
+        "raf": 773,
+        "io": 8,
+        "ro": 15,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "TIB Digital | Designed by Humans, Powered by AI",
+      "lang": "en",
+      "description": "TIB Digital is an Austin and Hong Kong product studio building AI-powered web, mobile and platform software for founders and agencies. Realistic IT, delivered."
+    },
+    "featuresBeforeScroll": {
+      "elements": 1585,
+      "canvases": 6,
+      "animations": 2,
+      "hidden": 67
+    },
+    "scrollReveal": 2,
+    "hover": {
+      "probed": 6,
+      "changed": 0
+    },
+    "shots": {
+      "desktop": "desktop.jpg",
+      "fullpage": "fullpage.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 15452040,
+        "layoutCount": 454,
+        "recalcStyleCount": 1441,
+        "scriptDuration": 1.436968,
+        "taskDuration": 10.158651,
+        "nodes": 3439
+      },
+      "timing": {
+        "domContentLoaded": 405,
+        "load": 1205,
+        "first-paint": 556,
+        "first-contentful-paint": 556
+      }
+    },
+    "network": [
+      {
+        "url": "https://www.tibdigital.com/",
+        "method": "GET",
+        "type": "DOCUMENT",
+        "initiator": "other",
+        "status": 200,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 20558
+      },
+      {
+        "url": "https://www.tibdigital.com/_next/static/media/07a39a8a4660cc7c-s.p.0r6juujl39pe6.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 23427
+      },
+      {
+        "url": "https://www.tibdigital.com/_next/static/media/605ce01b664af129-s.p.0wgildi0cnwt9.woff2",
+        "method": "GET",
+        "type": "FONT",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "font/woff2",
+        "fromCache": false,
+        "bytes": 29695
+      },
+      {
+        "url": "https://www.tibdigital.com/_next/static/chunks/2un0t5ea85h0i.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 4556
+      },
+      {
+        "url": "https://www.tibdigital.com/_next/static/chunks/2aiceze0m-prs.css",
+        "method": "GET",
+        "type": "CSS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "text/css",
+        "fromCache": false,
+        "bytes": 12949
+      },
+      {
+        "url": "https://www.tibdigital.com/_next/static/chunks/17bjncdmp88yk.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 8045
+      },
+      {
+        "url": "https://www.tibdigital.com/_next/static/chunks/34yg_2nbdclsc.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 48768
+      },
+      {
+        "url": "https://www.tibdigital.com/_next/static/chunks/1zg-wc2e8ng36.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 71991
+      },
+      {
+        "url": "https://www.tibdigital.com/_next/static/chunks/turbopack-3-ry682tkyiqk.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 4221
+      },
+      {
+        "url": "https://www.tibdigital.com/_next/static/chunks/3kkz_ok_4r4rk.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 5171
+      },
+      {
+        "url": "https://www.tibdigital.com/_next/static/chunks/24tqtko80tu4l.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 322244
+      },
+      {
+        "url": "https://www.tibdigital.com/_next/static/chunks/0oak_1_dmvwip.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 22758
+      },
+      {
+        "url": "https://www.tibdigital.com/_next/static/chunks/1b-9aj2kvzi0l.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 2834
+      },
+      {
+        "url": "https://www.tibdigital.com/_next/static/chunks/1-h5rzaqlvsn5.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 59201
+      },
+      {
+        "url": "https://www.tibdigital.com/_next/static/chunks/35elq-rc0zvb8.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 8608
+      },
+      {
+        "url": "https://www.tibdigital.com/_next/static/chunks/29bwtm532dvnk.js",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 6820
+      },
+      {
+        "url": "https://www.googletagmanager.com/gtag/js?id=G-JHEZ293ZJQ",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 181402
+      },
+      {
+        "url": "https://www.tibdigital.com/video/why-did1.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://www.tibdigital.com/video/why-did2.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false
+      },
+      {
+        "url": "https://www.tibdigital.com/cdn-cgi/challenge-platform/h/g/scripts/jsd/c787ce48cf6b/main.js?",
+        "method": "GET",
+        "type": "JS",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "application/javascript",
+        "fromCache": false,
+        "bytes": 17064
+      },
+      {
+        "url": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)' opacity='0.55'/%3E%3C/svg%3E",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "parser",
+        "status": 200,
+        "mime": "image/svg+xml",
+        "fromCache": false,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.tibdigital.com/video/why-did2.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 39010
+      },
+      {
+        "url": "https://www.tibdigital.com/cdn-cgi/challenge-platform/h/g/jsd/oneshot/c787ce48cf6b/0.17464597715879404:1793275620:8q9ZqCh0-c8pNgI2eCRnYG0fOLDvHaLKN9i7CDteNyM/a5225d5fd92c8901",
+        "method": "POST",
+        "type": "XHR",
+        "initiator": "script",
+        "status": 200,
+        "mime": "text/plain",
+        "fromCache": false,
+        "bytes": 1529
+      },
+      {
+        "url": "https://www.tibdigital.com/video/why-did1.mp4",
+        "method": "GET",
+        "type": "VIDEO",
+        "initiator": "parser",
+        "status": 206,
+        "mime": "video/mp4",
+        "fromCache": false,
+        "bytes": 39515
+      },
+      {
+        "url": "https://www.tibdigital.com/?_rsc=5CB68i4pnAekjehf",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 403,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 5179
+      },
+      {
+        "url": "https://www.tibdigital.com/projects?_rsc=5CB68i4pnAekjehf",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 403,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 5176
+      },
+      {
+        "url": "https://www.tibdigital.com/about?_rsc=5CB68i4pnAekjehf",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 403,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 5178
+      },
+      {
+        "url": "https://www.tibdigital.com/agencies?_rsc=5CB68i4pnAekjehf",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 403,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 5176
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-JHEZ293ZJQ&gtm=45je6ar1v9137985424za208zd9137985424xf1&_p=1793278843372&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1751601180.1793278844&frm=0&ngs=1&pscdl=noapi&rcb=7&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=1&tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120412526~120469145~120469153~121246026~121246034&sid=1793278843&sct=1&seg=0&dl=https%3A%2F%2Fwww.tibdigital.com%2F&dt=TIB%20Digital%20%7C%20Designed%20by%20Humans%2C%20Powered%20by%20AI&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1094",
+        "method": "POST",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 204,
+        "mime": "text/plain",
+        "fromCache": false
+      },
+      {
+        "url": "https://www.tibdigital.com/contact?_rsc=5CB68i4pnAekjehf",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 403,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 5176
+      },
+      {
+        "url": "https://www.tibdigital.com/images/texture.jpg",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/jpeg",
+        "fromCache": false,
+        "bytes": 159739
+      },
+      {
+        "url": "https://www.tibdigital.com/images/projects/loot/loot-main.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 52784
+      },
+      {
+        "url": "https://www.tibdigital.com/images/projects/fenix360/fenix360-main.webp",
+        "method": "GET",
+        "type": "IMAGE",
+        "initiator": "other",
+        "status": 200,
+        "mime": "image/webp",
+        "fromCache": false,
+        "bytes": 60500
+      },
+      {
+        "url": "https://www.tibdigital.com/?_rsc=5CB68i4pnAekjehf",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 403,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 5174
+      },
+      {
+        "url": "https://www.tibdigital.com/agencies?_rsc=5CB68i4pnAekjehf",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 403,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 5174
+      },
+      {
+        "url": "https://www.tibdigital.com/projects?_rsc=5CB68i4pnAekjehf",
+        "method": "GET",
+        "type": "FETCH",
+        "initiator": "script",
+        "status": 403,
+        "mime": "text/html",
+        "fromCache": false,
+        "bytes": 5168
+      }
+    ],
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "pl-grain-float",
+        "duration": 9000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "pl-grain-drift",
+        "duration": 700,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "box-shadow",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A07020004C3D0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0A020004C3D0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x199400142800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x199400142200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "error",
+        "text": "Failed to load resource: the server responded with a status of 403 ()"
+      },
+      {
+        "level": "error",
+        "text": "Failed to load resource: the server responded with a status of 403 ()"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x199400142800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "level": "error",
+        "text": "Failed to load resource: the server responded with a status of 403 ()"
+      },
+      {
+        "level": "error",
+        "text": "Failed to load resource: the server responded with a status of 403 ()"
+      },
+      {
+        "level": "warning",
+        "text": "[.WebGL-0x199400142200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+      },
+      {
+        "level": "error",
+        "text": "Failed to load resource: the server responded with a status of 403 ()"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0A020004C3D0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A07020004C3D0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0D020004C3D0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0203A054C3D0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A06085054C3D0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A07000064C3D0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0C015064C3D0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A05016064C3D0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A030941A4C3D0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://www.tibdigital.com/video/why-did2.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.tibdigital.com/video/why-did1.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-JHEZ293ZJQ&gtm=45je6ar1v9137985424za208zd9137985424xf1&_p=1793278843372&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1751601180.1793278844&frm=0&ngs=1&pscdl=noapi&rcb=7&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=1&tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120412526~120469145~120469153~121246026~121246034&sid=1793278843&sct=1&seg=0&dl=https%3A%2F%2Fwww.tibdigital.com%2F&dt=TIB%20Digital%20%7C%20Designed%20by%20Humans%2C%20Powered%20by%20AI&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1094",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 2,
+      "workers": 0
+    }
+  },
+  "mobile": {
+    "mobile": true,
+    "status": 200,
+    "ms": 10173,
+    "features": {
+      "viewport": {
+        "w": 390,
+        "h": 844
+      },
+      "elements": 1826,
+      "typography": {
+        "families": [
+          [
+            "Geist",
+            90
+          ],
+          [
+            "Geist Mono",
+            31
+          ]
+        ],
+        "weights": [
+          [
+            "400",
+            121
+          ]
+        ],
+        "textTransforms": [
+          [
+            "uppercase",
+            35
+          ]
+        ],
+        "sizeMin": 12.7332,
+        "sizeMedian": 12.7332,
+        "sizeMax": 109.142,
+        "sizeMaxVw": 28,
+        "scaleRatio": 8.6,
+        "letterSpacingMean": -0.039,
+        "loadedFonts": [
+          {
+            "family": "Geist",
+            "weight": "100 900",
+            "style": "normal"
+          },
+          {
+            "family": "Geist Mono",
+            "weight": "100 900",
+            "style": "normal"
+          }
+        ],
+        "variableFont": true,
+        "textElements": 121
+      },
+      "color": {
+        "background": "rgb(10, 12, 16)",
+        "backgroundLuminance": 0.0036488419110923855,
+        "backgrounds": [
+          [
+            "rgba(255, 255, 255, 0.45)",
+            2492
+          ],
+          [
+            "rgb(233, 236, 235)",
+            1813
+          ],
+          [
+            "rgb(10, 12, 16)",
+            1316
+          ],
+          [
+            "rgb(255, 255, 255)",
+            519
+          ],
+          [
+            "rgb(11, 12, 16)",
+            329
+          ],
+          [
+            "rgb(55, 57, 60)",
+            47
+          ]
+        ],
+        "texts": [
+          [
+            "rgb(20, 27, 35)",
+            346
+          ],
+          [
+            "rgb(255, 255, 255)",
+            193
+          ],
+          [
+            "rgb(217, 217, 217)",
+            124
+          ],
+          [
+            "rgb(0, 255, 133)",
+            78
+          ],
+          [
+            "rgb(10, 12, 16)",
+            20
+          ]
+        ],
+        "meanSaturation": 0.13,
+        "rootVars": {
+          "--pl-dark": "#0b0c10",
+          "--pl-green": "#00ff85",
+          "--pl-ink": "#e9eceb",
+          "--swiper-theme-color": "#007aff",
+          "--swiper-navigation-size": "44px",
+          "--size": "268",
+          "--lightningcss-light": "",
+          "--lightningcss-dark": "initial",
+          "--bg": "#0a0c10",
+          "--text": "#fff",
+          "--green": "#00ff85",
+          "--green-dim": "#00ff8526",
+          "--grey": "#1f2128",
+          "--background": "var(--bg)",
+          "--foreground": "var(--text)"
+        }
+      },
+      "layout": {
+        "fullscreenSections": 11,
+        "sticky": 0,
+        "fixed": 8,
+        "grid": 12,
+        "flex": 267,
+        "absolute": 467,
+        "asymmetricGrids": 0,
+        "splitScreen": false,
+        "scrollHeight": 22777,
+        "pages": 27,
+        "spacing": [
+          [
+            6,
+            41
+          ],
+          [
+            15,
+            34
+          ],
+          [
+            22,
+            32
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            11,
+            7
+          ],
+          [
+            36,
+            6
+          ],
+          [
+            38,
+            6
+          ],
+          [
+            95,
+            4
+          ]
+        ]
+      },
+      "motion": {
+        "animations": 1,
+        "animationKinds": [
+          "CSSAnimation"
+        ],
+        "infiniteAnimations": 1,
+        "animationDurations": [
+          9000
+        ],
+        "easings": [
+          "linear"
+        ],
+        "transitionDurationsMs": [
+          [
+            300,
+            108
+          ],
+          [
+            400,
+            19
+          ],
+          [
+            500,
+            7
+          ],
+          [
+            150,
+            4
+          ],
+          [
+            700,
+            1
+          ]
+        ],
+        "keyframes": [
+          "pl-grain-drift",
+          "pl-grain-float",
+          "swiper-preloader-spin"
+        ],
+        "viewTransitionCss": false,
+        "scrollTimelineCss": false
+      },
+      "hiddenElements": 84,
+      "media": {
+        "canvases": [
+          {
+            "w": 369,
+            "h": 800,
+            "area": 1
+          },
+          {
+            "w": 780,
+            "h": 1688,
+            "area": 1
+          },
+          {
+            "w": 195,
+            "h": 422,
+            "area": 1
+          },
+          {
+            "w": 780,
+            "h": 708,
+            "area": 0.42
+          },
+          {
+            "w": 780,
+            "h": 1688,
+            "area": 1
+          },
+          {
+            "w": 195,
+            "h": 422,
+            "area": 1
+          },
+          {
+            "w": 300,
+            "h": 150,
+            "area": 0
+          },
+          {
+            "w": 585,
+            "h": 1180,
+            "area": 0.93
+          },
+          {
+            "w": 780,
+            "h": 1688,
+            "area": 1
+          }
+        ],
+        "videos": [
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://www.tibdigital.com/video/why-did1.mp4"
+          },
+          {
+            "autoplay": true,
+            "loop": true,
+            "muted": true,
+            "src": "https://www.tibdigital.com/video/why-did2.mp4"
+          }
+        ],
+        "svg": 27,
+        "images": 15,
+        "iframes": 1,
+        "customCursor": false
+      },
+      "runtime": {
+        "contexts": {
+          "webgl2": 8,
+          "webgl": 2,
+          "2d": 9
+        },
+        "raf": 863,
+        "io": 8,
+        "ro": 16,
+        "mo": 0,
+        "startViewTransition": 0,
+        "workers": 0,
+        "wasm": 0
+      },
+      "globals": {
+        "gsap": false,
+        "ScrollTrigger": false,
+        "THREE": false,
+        "Lenis": false,
+        "PIXI": false,
+        "anime": false,
+        "barba": false,
+        "Swiper": false,
+        "Matter": false,
+        "p5": false,
+        "BABYLON": false,
+        "lottie": false,
+        "Webflow": false,
+        "jQuery": false,
+        "Alpine": false,
+        "Vue": false,
+        "React": false,
+        "ReactDOM": false,
+        "Locomotive": false,
+        "LocomotiveScroll": false,
+        "SplitType": false,
+        "SplitText": false,
+        "Rive": false,
+        "OGL": false,
+        "regl": false,
+        "PhaserGame": false,
+        "Phaser": false,
+        "motion": false,
+        "framerMotion": false
+      },
+      "markers": {
+        "next": false,
+        "nuxt": false,
+        "reactRoot": false,
+        "vue": false,
+        "svelte": false,
+        "astro": false,
+        "webflow": false,
+        "wordpress": false,
+        "framer": false,
+        "shopify": false,
+        "wix": false,
+        "squarespace": false
+      },
+      "metaTitle": "TIB Digital | Designed by Humans, Powered by AI",
+      "lang": "en",
+      "description": "TIB Digital is an Austin and Hong Kong product studio building AI-powered web, mobile and platform software for founders and agencies. Realistic IT, delivered."
+    },
+    "featuresBeforeScroll": {
+      "elements": 1585,
+      "canvases": 6,
+      "animations": 2,
+      "hidden": 76
+    },
+    "scrollReveal": 0,
+    "hover": {
+      "probed": 0,
+      "changed": 0
+    },
+    "shots": {
+      "mobile": "mobile.jpg"
+    },
+    "performance": {
+      "metrics": {
+        "jsHeapUsedSize": 19333060,
+        "layoutCount": 301,
+        "recalcStyleCount": 869,
+        "scriptDuration": 1.185129,
+        "taskDuration": 8.920422,
+        "nodes": 3582
+      },
+      "timing": {
+        "domContentLoaded": 244,
+        "load": 852,
+        "first-paint": 320,
+        "first-contentful-paint": 320
+      }
+    },
+    "animationsReported": [
+      {
+        "type": "CSSAnimation",
+        "name": "pl-grain-drift",
+        "duration": 700,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSAnimation",
+        "name": "pl-grain-float",
+        "duration": 9000,
+        "delay": 0,
+        "iterations": null,
+        "easing": "linear"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "box-shadow",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "background-color",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "ease"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 700,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 400,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.16, 1, 0.3, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      {
+        "type": "CSSTransition",
+        "name": "visibility",
+        "duration": 300,
+        "delay": 0,
+        "iterations": 1,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)"
+      }
+    ],
+    "console": [
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A07020004C3D0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0A020004C3D0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "error",
+        "text": "Failed to load resource: the server responded with a status of 403 ()"
+      },
+      {
+        "level": "error",
+        "text": "Failed to load resource: the server responded with a status of 403 ()"
+      },
+      {
+        "level": "error",
+        "text": "Failed to load resource: the server responded with a status of 403 ()"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0A020004C3D0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A07020004C3D0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0D020004C3D0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0A0C3074C3D0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0D0C3074C3D0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0203A054C3D0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A0204D024C3D0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      },
+      {
+        "level": "warning",
+        "text": "[GroupMarkerNotSet(crbug.com/242999)!:A040D91B4C3D0000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag"
+      }
+    ],
+    "exceptions": [],
+    "failed": [
+      {
+        "url": "https://www.tibdigital.com/video/why-did1.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.tibdigital.com/video/why-did2.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.tibdigital.com/video/why-did1.mp4",
+        "error": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-JHEZ293ZJQ&gtm=45je6ar1h1v9137985424za208zd9137985424xf1&_p=1793278858091&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1926925128.1793278858&frm=0&ngs=1&pscdl=noapi&rcb=15&sr=390x844&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=1&uap=Windows&uapv=&uaw=0&ul=en-us%40posix&_s=1&tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034~123620777&sid=1793278858&sct=1&seg=0&dl=https%3A%2F%2Fwww.tibdigital.com%2F&dt=TIB%20Digital%20%7C%20Designed%20by%20Humans%2C%20Powered%20by%20AI&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=848",
+        "error": "net::ERR_ABORTED"
+      }
+    ],
+    "targets": {
+      "frames": 2,
+      "workers": 0
+    }
+  }
+}
