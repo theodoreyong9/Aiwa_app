@@ -20,11 +20,18 @@ class ProfilePubTest(unittest.TestCase):
         profile_lib.PROFILE_FILE.write_text(json.dumps({"repo": "me/me"}), encoding="utf-8")
 
     def test_written_once(self):
-        with mock.patch("aiwa_brain.profile.github.put_file") as put:
+        with mock.patch("aiwa_brain.profile.github.put_file") as put, mock.patch.object(profile, "read_aiwa", return_value={}):
             self.assertTrue(profile.publish_pub(PUB)["ok"])
             self.assertTrue(profile.publish_pub(PUB)["unchanged"])
         self.assertEqual(put.call_count, 1)
         self.assertEqual(put.call_args[0][:2], ("me/me", "Profile/aiwa.json"))
+
+    def test_the_other_keys_of_the_file_are_kept(self):
+        old = {"v": 1, "adaptable": True, "traits": {"couleurs": ["rouge"]}}
+        with mock.patch("aiwa_brain.profile.github.put_file") as put, mock.patch.object(profile, "read_aiwa", return_value=old):
+            self.assertTrue(profile.publish_pub(PUB)["ok"])
+        written = json.loads(put.call_args[0][2])
+        self.assertEqual((written["pub"], written["adaptable"], written["traits"]), (PUB, True, {"couleurs": ["rouge"]}))
 
     def test_refuses_a_bad_key_and_no_repo(self):
         self.assertFalse(profile.publish_pub("zz")["ok"])

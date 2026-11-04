@@ -117,6 +117,7 @@ class SettingsActivity : FloatActivity() {
     private fun me() {
         entryIcon(R.drawable.fw_i_note, "Ma description", null, MINT) { open(DescriptionActivity::class.java) }
         entryIcon(R.drawable.fw_i_aiwa, "Mon profil", null, LILAC) { chooseProfile() }
+        entryIcon(R.drawable.fw_i_swap, "Adaptation", null, LILAC) { open(AdaptActivity::class.java) }
         switchRow(R.drawable.fw_i_voir, "Se cacher", "", !VoirSettings.on(this), LILAC) { VoirSettings.setOn(this, !it) }
         switchRow(R.drawable.fw_i_room, "Chambre ouverte écran éteint", "", ChamberSettings.awake(this), SKY) { ChamberSettings.setAwake(this, it) }
     }

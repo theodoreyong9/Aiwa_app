@@ -115,6 +115,11 @@ class Brain(private val net: Transport = HttpTransport()) {
         return list to (if (list.isEmpty()) j.optString("error").takeIf { it.isNotBlank() && it != "null" } ?: "Aucun profil trouvé." else null)
     }
 
+    /** The traits a model draws from a description (once; the phone keeps them): the object, or null. */
+    fun adaptDerive(description: String): JSONObject? = try { JSONObject(net.post("/api/adapt/derive", JSONObject().put("description", description).toString(), 90_000)).takeIf { it.optBoolean("ok") }?.optJSONObject("traits") } catch (e: Exception) { null }
+    /** « Mon profil est adaptable » written in the `Profile/aiwa.json` of the person (the other keys of the file stay). */
+    fun adaptPublish(on: Boolean): Outcome = act("/api/adapt/publish", JSONObject().put("adaptable", on), 60_000)
+
     fun liveSet(on: Boolean): Outcome = act("/api/live/set", JSONObject().put("on", on))
     fun liveEvents(): List<String> = getJson("/api/live/events")?.optJSONArray("events").strings()
 

@@ -172,6 +172,7 @@ class ProfileActivity : ComponentActivity(), com.aiwa.app.nav.VoiceNav {
         "zone" to ProfileBar.Spec("⤴", "Jump", ProfileBar.VIOLET) { swipeIn() },
         "mur" to ProfileBar.Spec("🏆", "Mur", ProfileBar.GREEN) { wall() },
         "chercher" to ProfileBar.Spec("🔍", "Chercher", ProfileBar.VIOLET) { toggleSearch() },
+        "original" to ProfileBar.Spec("🪞", "Original", ProfileBar.WHITE) { toggleOriginal() },
         "scan" to ProfileBar.Spec("🛡", "Scan", ProfileBar.GREEN) { scan() },
         "confiance" to ProfileBar.Spec("🔒", "Fermé", ProfileBar.WHITE) { toggleTrust() },
         "widget" to ProfileBar.Spec("✦", "Widget", ProfileBar.WHITE) { pages[pager.currentItem]?.let { HomeRuntime.openPanel(it) } },
@@ -210,7 +211,7 @@ class ProfileActivity : ComponentActivity(), com.aiwa.app.nav.VoiceNav {
         return "Fermé."
     }
 
-    private fun defaultKeys() = if (isOwn()) listOf("chercher", "favoris", "reseau", "mur", "widget") else listOfNotNull("chercher", "favoris", "swipe", "scan", "confiance", "match", "widget", if (urls.size > 1) "rang" else null)
+    private fun defaultKeys() = if (isOwn()) listOf("chercher", "favoris", "reseau", "mur", "widget") else listOfNotNull("chercher", "favoris", "swipe", "original", "scan", "confiance", "match", "widget", if (urls.size > 1) "rang" else null)
 
     private fun applyBar(entries: List<com.aiwa.client.BarEntry>?) {
         val (specs, ids) = BarConfig.resolve(this, entries, builtinKeys(), defaultKeys())
@@ -219,6 +220,18 @@ class ProfileActivity : ComponentActivity(), com.aiwa.app.nav.VoiceNav {
         barView = bar.view
         root.addView(bar.view, FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT, Gravity.BOTTOM))
         if (built) refreshKeys()
+    }
+
+    /** « Original »: the profile on the screen is shown as its author wrote it (or adapted to her again): the adaptation is a choice, never a trap. */
+    private fun toggleOriginal() {
+        val repo = urls.getOrNull(pager.currentItem) ?: return
+        if (isOwn()) return
+        val web = pages[pager.currentItem] ?: return
+        val adapted = ProfileView.isAdapted(web)
+        if (!adapted && repo !in ProfileView.originals) { toastOnMain(this, "Cette page n'est pas adaptée pour toi."); return }
+        if (repo in ProfileView.originals) ProfileView.originals.remove(repo) else ProfileView.originals.add(repo)
+        toastOnMain(this, if (repo in ProfileView.originals) "La page telle que son auteur l'a écrite." else "La page adaptée pour toi.")
+        ProfileView.load(web, repo)
     }
 
     /** The search bar of the Swipe: shown or hidden (the keyboard follows). */
@@ -460,6 +473,7 @@ class ProfileActivity : ComponentActivity(), com.aiwa.app.nav.VoiceNav {
     override fun onResume() {
         super.onResume()
         reportScreen(true)
+        AdaptSettings.refresh(this)
         controlsSeen = ""
         startControlsPoll()
         resumed = true
@@ -587,7 +601,8 @@ class ProfileActivity : ComponentActivity(), com.aiwa.app.nav.VoiceNav {
                 layoutParams = ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT)
                 webChromeClient = QuietChrome()
                 webViewClient = object : WebViewClient() {
-                    override fun shouldOverrideUrlLoading(view: WebView, request: WebResourceRequest): Boolean = HomeRuntime.openExternal(view.context, request)
+                    override fun shouldOverrideUrlLoading(view: WebView, request: WebResourceRequest): Boolean =
+                        (ProfileView.isAdapted(view) && !request.hasGesture()) || HomeRuntime.openExternal(view.context, request)      // a page written for its visitor goes nowhere by itself
                     override fun shouldInterceptRequest(view: WebView, request: WebResourceRequest): android.webkit.WebResourceResponse? = MediaCache.intercept(view.context.applicationContext, request)
                     override fun onPageFinished(view: WebView, url: String?) { HomeRuntime.inject(view) }
                 }

@@ -44,7 +44,7 @@ OPEN_KINDS = {
     "connexions": "set_accounts", "les mots": "set_words", "mes mots": "set_words", "jeu": "set_persona", "le jeu": "set_persona", "personnalite": "set_persona", "personnalité": "set_persona", "moi": "set_me", "ma description": "set_me",
     "voix": "set_voice", "la voix": "set_voice", "papers": "set_papers", "modele": "set_model", "modèle": "set_model", "le modèle": "set_model",
     "ecoute permanente": "set_ear", "écoute permanente": "set_ear", "c'est prêt": "set_ready", "c'est pret": "set_ready", "push": "set_push", "push direct": "set_push", "fond": "set_bg", "fond du widget": "set_bg", "le fond": "set_bg",
-    "mémoire": "memory", "memoire": "memory", "ma mémoire": "memory", "ma memoire": "memory", "la mémoire": "memory", "la memoire": "memory",
+    "adaptation": "adapt", "l'adaptation": "adapt", "adapter": "adapt", "mémoire": "memory", "memoire": "memory", "ma mémoire": "memory", "ma memoire": "memory", "la mémoire": "memory", "la memoire": "memory",
 }
 OPEN_SPOKEN = {
     "files": "les productions", "files_docs": "les documents", "files_image": "les images", "files_video": "les vidéos", "files_app": "les apps", "files_page": "les pages",
@@ -52,10 +52,10 @@ OPEN_SPOKEN = {
     "voir_link": "Voir par lien", "voir_qr": "Voir par QR code", "voir_fav": "Voir mes favoris", "chambre": "la chambre", "chambres": "la liste des chambres", "settings": "les réglages", "update": "la mise à jour",
     "question": "la question", "claude": "la conversation Claude", "add": "l'ajout d'un fichier", "listen": "l'écoute permanente (bascule)", "wallet": "le wallet", "report": "le rapport",
     "repo": "le choix du dépôt", "session": "les sessions", "scan": "le scan du profil affiché (un avis, pas une garantie)", "trust_open": "l'accès du profil affiché au widget (je te demande confirmation)", "trust_close": "la fermeture de l'accès du profil affiché", "set_accounts": "les connexions", "set_words": "les mots", "set_persona": "le jeu et la personnalité", "set_me": "mon profil (réglages)", "set_voice": "la voix",
-    "set_papers": "les papers", "set_model": "le modèle", "set_health": "l'état d'Aiwa", "set_ear": "l'écoute permanente (bascule)", "set_ready": "« C'est prêt » (bascule)", "set_push": "le push direct (bascule)", "set_bg": "le fond du widget (change)", "memory": "ta mémoire",
+    "set_papers": "les papers", "set_model": "le modèle", "set_health": "l'état d'Aiwa", "set_ear": "l'écoute permanente (bascule)", "set_ready": "« C'est prêt » (bascule)", "set_push": "le push direct (bascule)", "set_bg": "le fond du widget (change)", "memory": "ta mémoire", "adapt": "l'adaptation",
     "build": "le widget", "home": "Aiwa", "github": "la connexion GitHub", "health": "l'état d'Aiwa", "claude_login": "la connexion Claude", "wall": "le mur", "keys": "les clés", "style": "le style",
 }
-OPEN_LIST = "scan, scanne, donne l'accès, retire l'accès, documents, images, videos, apps, pages, fichiers, scenario, cast, voir, visible, cache, zone, lien, qr, favoris, chambre, chambres, depot, sessions, connexions, les mots, jeu, moi, voix, papers, modele, ecoute permanente, c'est prêt, push, fond, reglages, memoire, mise a jour, question, claude, ajouter, ecoute, wallet, rapport, accueil, aiwa, swipe, aiwa, swipe, github, etat, connexion claude, mur, cles, style"
+OPEN_LIST = "scan, scanne, donne l'accès, retire l'accès, documents, images, videos, apps, pages, fichiers, scenario, cast, voir, visible, cache, zone, lien, qr, favoris, chambre, chambres, depot, sessions, connexions, les mots, jeu, moi, voix, papers, modele, ecoute permanente, c'est prêt, push, fond, reglages, memoire, adaptation, mise a jour, question, claude, ajouter, ecoute, wallet, rapport, accueil, aiwa, swipe, aiwa, swipe, github, etat, connexion claude, mur, cles, style"
 
 REPORT_REQUEST = (
     "Fais-moi le rapport de toute mon activité depuis le dernier message que je t'ai envoyé : les sessions, les dépôts, les productions nouvelles, les workflows (pour chaque échec, l'étape en cause "

@@ -53,7 +53,7 @@ object AgentScreens {
     /** What `open` knows how to open: also what the file of the application's look may name as an action. */
     val TOKENS = setOf(
         "files_docs", "files_image", "files_video", "files_app", "files_page", "files", "build", "scenario", "cast", "voir", "voir_near", "voir_link", "voir_qr", "voir_fav", "voir_on", "voir_off",
-        "chambre", "chambres", "settings", "update", "question", "claude", "add", "listen", "wallet", "report", "home", "github", "health", "claude_login", "keys", "style", "wall",
+        "adapt", "chambre", "chambres", "settings", "update", "question", "claude", "add", "listen", "wallet", "report", "home", "github", "health", "claude_login", "keys", "style", "wall",
         // what the widgets show, by voice too: the choice of the repository, the sessions, the tiles of the settings one by one and their switches
         "repo", "session", "scan", "trust_open", "trust_close", "set_accounts", "set_words", "set_persona", "set_me", "set_voice", "set_papers", "set_model", "set_health", "set_ear", "set_ready", "set_push", "set_bg",
     )
@@ -69,6 +69,7 @@ object AgentScreens {
             "voir_on" -> com.aiwa.app.voir.VoirSettings.setOn(context, true)
             "voir_off" -> com.aiwa.app.voir.VoirSettings.setOn(context, false)
             "memory" -> go(context, com.aiwa.app.settings.MemoryActivity::class.java)
+            "adapt" -> go(context, com.aiwa.app.settings.AdaptActivity::class.java)
             "chambre", "chambres" -> go(context, com.aiwa.app.chamber.ChambersActivity::class.java)      // the list: one line per person she called
             // the profile on the screen: scanned (an opinion by a session, read-only), or its access to the widget given (asked in full first) or taken back
             "scan" -> {

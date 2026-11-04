@@ -1,4 +1,5 @@
 """The person's profile: the repository whose `Profile/` folder is her page (the page itself is the work of a session), and the check of what falls short."""
+import base64
 import hashlib
 import json
 import re
@@ -32,6 +33,32 @@ def profile_apply(data):
     return profile_state()
 
 
+def read_aiwa(repo):
+    """The `Profile/aiwa.json` of a repository as it is now (read through the API: a copy a few minutes old would erase a recent change), {} when there is none."""
+    try:
+        old = github.api(f"/repos/{repo}/contents/{profile_lib.FOLDER}/{PUB_FILE}")
+        data = json.loads(base64.b64decode(old["content"]).decode("utf-8"))
+        return data if isinstance(data, dict) else {}
+    except (github.GithubError, KeyError, TypeError, ValueError):
+        return {}
+
+
+def update_aiwa(changes, message):
+    """Changes some keys of `Profile/aiwa.json` and keeps all the others (the key of the wallet, the traits, the zones, the switch of adaptation): one file, several writers. {"ok", "unchanged"?, "error"?}."""
+    repo = profile_lib.repo()
+    if not repo:
+        return {"ok": False, "error": "pas de dépôt de profil"}
+    current = read_aiwa(repo)
+    merged = {**current, **changes}
+    if merged == current:
+        return {"ok": True, "unchanged": True}
+    try:
+        github.put_file(repo, f"{profile_lib.FOLDER}/{PUB_FILE}", json.dumps(merged, ensure_ascii=False, indent=1).encode("utf-8"), message)
+    except github.GithubError as err:
+        return {"ok": False, "error": str(err)}
+    return {"ok": True}
+
+
 def publish_pub(pub):
     """Leaves the public key of the wallet in `Profile/aiwa.json` of her profile repository (public by nature), once: nothing is written again while it is the same."""
     pub = str(pub or "").strip().lower()
@@ -44,10 +71,9 @@ def publish_pub(pub):
     mark = f"{repo.lower()}:{pub}"
     if data.get("pub_sent") == mark:
         return {"ok": True, "unchanged": True}
-    try:
-        github.put_file(repo, f"{profile_lib.FOLDER}/{PUB_FILE}", json.dumps({"v": 1, "pub": pub}).encode(), "Aiwa : la clé du wallet (pour recevoir un café)")
-    except github.GithubError as err:
-        return {"ok": False, "error": str(err)}
+    done = update_aiwa({"v": 1, "pub": pub}, "Aiwa : la clé du wallet (pour recevoir un café)")
+    if not done["ok"]:
+        return done
     data["pub_sent"] = mark
     profile_lib.PROFILE_FILE.write_text(json.dumps(data), encoding="utf-8")
     return {"ok": True}

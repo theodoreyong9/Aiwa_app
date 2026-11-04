@@ -148,6 +148,12 @@ object HomeRuntime {
      */
     fun closedZone(html: String): String = withPolicy(html, "default-src 'none'; script-src 'unsafe-inline' https:; style-src 'unsafe-inline' https:; img-src https: data: blob:; media-src https: data: blob:; font-src https: data:; connect-src 'none'; frame-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'")
 
+    /**
+     * A visited page rewritten for its visitor (see AdaptPlan): what the adaptation put in it comes from the visitor's own data, so the page must not be able to send it anywhere. No connection, no script from outside, and
+     * pictures, sounds, fonts and styles only from the files of GitHub (a request to GitHub tells the page's author nothing). A page that reaches for another place loses that part, and nothing leaves.
+     */
+    fun adaptedZone(html: String): String = withPolicy(html, "default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline' https://raw.githubusercontent.com; img-src https://raw.githubusercontent.com data: blob:; media-src https://raw.githubusercontent.com data: blob:; font-src https://raw.githubusercontent.com data:; connect-src 'none'; frame-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'")
+
     private fun withPolicy(html: String, rules: String): String {
         val policy = "<meta http-equiv=\"Content-Security-Policy\" content=\"$rules\">"
         val head = Regex("<head[^>]*>", RegexOption.IGNORE_CASE).find(html)

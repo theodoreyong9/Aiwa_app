@@ -80,6 +80,16 @@ class BrainTest {
         assertEquals("""{"query":"x"}""", net.asked.last { it.first == "/api/find" }.second)
     }
 
+    @Test fun `the traits of a description and the switch of adaptation travel as the brain reads them`() {
+        net.on("/api/adapt/derive", """{"ok":true,"traits":{"couleurs":["rouge"]}}""")
+        assertEquals("rouge", brain.adaptDerive("J'aime le rouge")!!.getJSONArray("couleurs").getString(0))
+        net.on("/api/adapt/derive", """{"ok":false,"error":"Claude n'a pas répondu"}""")
+        assertEquals(null, brain.adaptDerive("x"))
+        net.on("/api/adapt/publish", """{"ok":true}""")
+        assertTrue(brain.adaptPublish(true).ok)
+        assertEquals("""{"adaptable":true}""", net.asked.last { it.first == "/api/adapt/publish" }.second)
+    }
+
     @Test fun `a turn of the agent is spoken as it is written and ends with its outcome`() {
         net.streamLines = listOf("""{"s":"Je regarde."}""", """{"s":"Voilà."}""", """{"done":true,"ok":true,"error":null}""")
         val said = mutableListOf<String>()

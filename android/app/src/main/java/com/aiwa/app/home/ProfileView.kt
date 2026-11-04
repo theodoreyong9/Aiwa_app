@@ -22,6 +22,10 @@ object ProfileView {
     fun base(repo: String, sha: String? = null): String = "https://raw.githubusercontent.com/$repo/${sha ?: "HEAD"}/Profile/"
 
     private val shown = java.util.WeakHashMap<WebView, Int>()
+    /** The windows whose page is rewritten for the visitor (they may not navigate by themselves), and the profiles she asked to see as they are. */
+    private val adaptedViews = java.util.WeakHashMap<WebView, Boolean>()
+    val originals: MutableSet<String> = java.util.Collections.synchronizedSet(HashSet())
+    fun isAdapted(web: WebView): Boolean = adaptedViews[web] == true
 
     /**
      * Reads the page in the background and shows it. `own`: the page of the person (scripts allowed; when there is none yet, the home of the application, with every button, is shown instead);
@@ -35,7 +39,7 @@ object ProfileView {
             // the last page known of this profile is shown at once (the favourites and the swipe open without a wait); the page read now replaces it, and nothing flickers when it is the same
             val key = "profile|$repo"
             val kept = com.aiwa.app.common.ListCache.read(context, key)
-            if (kept != null) show(web, main, base(repo, sha), prepared(context, repo, own, kept))
+            if (kept != null) prepared(context, repo, own, kept, sha).let { show(web, main, base(repo, sha), it.first, it.second) }
             val html = try {
                 val c = URL(base(repo, sha) + "index.html").openConnection() as HttpURLConnection
                 c.connectTimeout = 10_000; c.readTimeout = 15_000
@@ -43,13 +47,20 @@ object ProfileView {
             } catch (err: Exception) { null }
             if (html != null) com.aiwa.app.common.ListCache.write(context, key, html)
             if (html == null) { if (kept == null) fallback(web, main, context, own, "Le profil de $repo n'est pas encore là (un dossier Profile/ public avec un index.html).") }
-            else show(web, main, base(repo, sha), prepared(context, repo, own, html))
+            else prepared(context, repo, own, html, sha).let { show(web, main, base(repo, sha), it.first, it.second) }
         }.start()
     }
 
     /** The page as it is shown: her own as it is; the one of someone else in the closed zone, or as it is when she gave that profile her trust (see TrustedProfiles). */
-    private fun prepared(context: Context, repo: String, own: Boolean, html: String): String =
-        quietVideos(if (own || TrustedProfiles.isOpen(context, repo)) html else HomeRuntime.closedZone(html))
+    private fun prepared(context: Context, repo: String, own: Boolean, html: String, sha: String?): Pair<String, Boolean> {
+        val open = own || TrustedProfiles.isOpen(context, repo)
+        if (!open && repo !in originals) {
+            // adapted to the visitor when she wants it, the profile is adaptable and a rule matches: rewritten here, in a zone that lets nothing out
+            val ops = try { AdaptPlan.ops(context, repo, sha) } catch (err: Exception) { org.json.JSONArray() }
+            if (ops.length() > 0) return quietVideos(HomeRuntime.adaptedZone(AdaptPlan.inject(html, ops))) to true
+        }
+        return quietVideos(if (open) html else HomeRuntime.closedZone(html)) to false
+    }
 
     /** A video that starts by itself (autoplay or loop) stays invisible until it really plays, then appears (or after four seconds whatever happens): the page shows its own colour, never a frozen first frame or a play button. */
     private const val QUIET = "<style>video[autoplay],video[loop]{opacity:0;transition:opacity .3s}video[data-aiwa-on]{opacity:1}</style><script>(function(){function on(v){v.setAttribute('data-aiwa-on','')}document.addEventListener('playing',function(e){if(e.target&&e.target.tagName==='VIDEO')on(e.target)},true);setTimeout(function(){[].forEach.call(document.querySelectorAll('video'),on)},4000);})()</script>"
@@ -84,12 +95,13 @@ object ProfileView {
         }.start()
     }
 
-    private fun show(web: WebView, main: Handler, base: String?, page: String) {
+    private fun show(web: WebView, main: Handler, base: String?, page: String, adapted: Boolean = false) {
         main.post {
             try {
                 val key = page.hashCode()
                 if (shown[web] == key) return@post
                 shown[web] = key
+                adaptedViews[web] = adapted
                 web.loadDataWithBaseURL(base ?: "about:blank", page, "text/html", "utf-8", null)
             } catch (err: Exception) { }
         }

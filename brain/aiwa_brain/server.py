@@ -7,7 +7,7 @@ import time
 import urllib.parse
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
-from . import agent, agent_lib, asks, attachments, cast, chamber, claude_cli, config, diagram, files, github, github_login, finder, instructions, links, live, memory, profile, questions, relay, repos, scen_sync, scenarios, sessions, state, studio, update, warm
+from . import adapt, agent, agent_lib, asks, attachments, cast, chamber, claude_cli, config, diagram, files, github, github_login, finder, instructions, links, live, memory, profile, questions, relay, repos, scen_sync, scenarios, sessions, state, studio, update, warm
 
 
 def status():
@@ -253,6 +253,8 @@ GET = {
     "/api/profile/seen": lambda q: profile.seen_of((q.get("repo") or [""])[0]),
 }
 POST = {
+    "/api/adapt/derive": lambda body, data: adapt.derive((data or {}).get("description")),
+    "/api/adapt/publish": lambda body, data: adapt.publish((data or {}).get("adaptable")),
     "/api/find": lambda body, data: finder.find((data or {}).get("query") or body),
     "/api/memory/forget": lambda body, data: {"ok": True, "erased": memory.forget((data or {}).get("id") or (data or {}).get("what") or body.strip())},
     "/api/cloud/message": lambda body, data: sessions.cloud_send(body),
