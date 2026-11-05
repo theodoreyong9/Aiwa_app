@@ -1,0 +1,20 @@
+[
+ {"id": "wake",    "who": "U", "text": "Aïwa."},
+ {"id": "listen",  "who": "A", "text": "Je t'écoute."},
+ {"id": "tv",      "who": "U", "text": "Mets-toi sur la télé."},
+ {"id": "tvdone",  "who": "A", "text": "C'est fait. Je suis sur la télé."},
+ {"id": "order",   "who": "U", "text": "Prends mon CV, et fais une campagne de candidature : un document par cible, en liant mon profil. Montre-les-moi quand c'est fait."},
+ {"id": "ack",     "who": "A", "text": "Compris. Je m'en occupe."},
+ {"id": "ready",   "who": "A", "text": "Douze documents sont prêts."},
+ {"id": "list",    "who": "A", "text": "Voici la liste de tes documents."},
+ {"id": "open",    "who": "U", "text": "Ouvre."},
+ {"id": "next",    "who": "U", "text": "Suivant."},
+ {"id": "mail",    "who": "A", "text": "J'ai rédigé le mail, avec la pièce jointe."},
+ {"id": "improve", "who": "U", "text": "Améliore mon profil avec ce que tu as appris de ma cible. Et remplace la barre de navigation de l'application par un système de suivi de ma campagne. On va travailler dessus."},
+ {"id": "improve2","who": "A", "text": "Je m'en occupe."},
+ {"id": "scenario","who": "U", "text": "Utilise tout ça pour créer le scénario Job. Ça ira plus vite la prochaine fois."},
+ {"id": "scenario2","who": "A", "text": "Scénario Job créé."},
+ {"id": "match",   "who": "A", "text": "C'est un match."},
+ {"id": "scan",    "who": "A", "text": "Profil scanné : rien de dangereux."},
+ {"id": "chamber", "who": "U", "text": "Je propose une chambre."}
+]

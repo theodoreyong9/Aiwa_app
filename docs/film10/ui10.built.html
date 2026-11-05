@@ -1,0 +1,299 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><title>Aiwa film 10 — the screens</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:100%;height:100%;overflow:hidden;background:#05060f}
+body{font-family:Inter,'Inter Display',sans-serif;color:#f2f4ff;position:relative;-webkit-font-smoothing:antialiased}
+#root{position:absolute;left:0;top:0;transform-origin:0 0}
+.mono{font-family:'DejaVu Sans Mono',monospace}
+.abs{position:absolute}
+.cell{position:absolute;display:flex;align-items:center;justify-content:center;gap:14px;font-weight:650;color:#fff;clip-path:polygon(var(--s) 0,100% 0,calc(100% - var(--s)) 100%,0 100%);box-shadow:inset 0 0 0 2px #ffffff40}
+.cell svg{width:var(--ic);height:var(--ic);fill:none;stroke:#fff;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex:none}
+.card{position:absolute;border-radius:28px;background:linear-gradient(180deg,#ffffff16,#ffffff08);border:2px solid #ffffff22;box-shadow:0 20px 60px #0008}
+.page{position:absolute;background:#fbfbf8;color:#1b1d27;border-radius:10px;box-shadow:0 30px 90px #000a;overflow:hidden}
+.bar{position:absolute;border-radius:99px;background:#ffffff1f;overflow:hidden}
+.bar>i{position:absolute;left:0;top:0;bottom:0;border-radius:99px}
+.chip{position:absolute;border-radius:99px;padding:0 26px;display:flex;align-items:center;font-weight:600;white-space:nowrap}
+</style></head><body>
+<div id="root"></div>
+<script>
+const Q=new URLSearchParams(location.search),MODE=Q.get('m')||'tv0';
+const TL={
+ "fps": 24, "total": 110.0, "width": 1920, "height": 1080,
+ "title": [0.0, 3.4],
+ "voice": {"wake": 3.9, "listen": 5.1, "tv": 7.0, "tvdone": 9.0, "order": 12.8, "ack": 20.3, "ready": 25.6, "list": 32.2, "open": 35.5, "next": 37.8,
+           "mail": 54.6, "improve": 66.6, "improve2": 76.0, "scenario": 81.6, "scenario2": 87.0, "match": 91.2, "scan": 93.0, "chamber": 98.0},
+ "R0":  {"in": 3.4, "push": [3.4, 9.6], "zoom": [9.6, 12.6], "tvOn": [8.5, 9.2]},
+ "TV0": {"splash": [8.5, 12.6], "order": [12.8, 20.0], "work": [20.3, 25.6], "ready": 25.6, "doc": 27.0},
+ "R1":  {"back": [28.0, 31.5], "handoff": [28.0, 29.2], "dive": [32.2, 34.2], "out": [39.0, 41.2]},
+ "P1":  {"list": 32.6, "open": 35.5, "next": 37.8},
+ "R2":  {"out": [40.6, 43.8], "pick": [44.3, 45.8], "toNative": [45.8, 47.0]},
+ "P2":  {"tapTargets": 47.6, "list": 47.9, "openTarget": 50.0, "target": 50.2, "mail": 52.5, "back": [52.6, 54.4], "dive": [55.4, 56.8], "tapAttach": 57.8, "attach": 58.0, "out": [60.4, 62.4]},
+ "R3":  {"out": [62.0, 64.6]},
+ "P3":  {"video": 64.6, "toNative": [65.0, 66.4], "improve": [66.6, 75.6], "tracker": [71.0, 74.5], "back": [77.6, 80.8], "dive": [81.0, 82.4],
+         "scenario": [81.6, 88.4], "swipe": [89.0, 97.6], "match": 91.2, "scan": [93.0, 95.4], "send": 95.8, "chamber": 98.0, "door": 100.4, "passage": [100.4, 104.5], "fill": [100.4, 103.6], "stop": 104.5},
+ "end": {"black": [104.5, 105.6], "card": [105.6, 110.0]}
+}
+,V=TL.voice,D={
+ "wake": 0.69,
+ "listen": 1.09,
+ "tv": 1.3,
+ "tvdone": 2.16,
+ "order": 7.19,
+ "ack": 1.69,
+ "ready": 1.6,
+ "list": 2.02,
+ "open": 0.83,
+ "next": 0.83,
+ "mail": 2.9,
+ "improve": 9.01,
+ "improve2": 1.17,
+ "scenario": 4.89,
+ "scenario2": 1.37,
+ "match": 1.16,
+ "scan": 2.37,
+ "chamber": 1.66
+};
+const clamp=(x,a=0,b=1)=>Math.max(a,Math.min(b,x)),ramp=(t,a,b)=>clamp((t-a)/(b-a)),eo=x=>1-Math.pow(1-x,3),eio=x=>x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2,mix=(a,b,k)=>a+(b-a)*k;
+const $=id=>document.getElementById(id);
+const rnd=i=>{const s=Math.sin(i*127.1+311.7)*43758.5453;return s-Math.floor(s)};
+const typed=(s,t,a,b)=>s.slice(0,Math.round(s.length*clamp((t-a)/(b-a))));
+const IC={doc:'M7 3h7l5 5v13H7z M14 3v5h5 M9.5 13h6 M9.5 17h6',target:'M12 3a9 9 0 1 0 0 18a9 9 0 0 0 0-18z M12 8a4 4 0 1 0 0 8a4 4 0 0 0 0-8z M12 11.2a.8.8 0 1 0 0 1.6a.8.8 0 0 0 0-1.6',mail:'M3 6h18v12H3z M3 7l9 6.5L21 7',clip:'M16.5 8.5l-7 7a2.5 2.5 0 0 1-3.5-3.5l8-8a4 4 0 0 1 5.7 5.7l-8.2 8.2',shield:'M12 3l8 3v6c0 5-3.4 8-8 9c-4.6-1-8-4-8-9V6z M8.5 12l2.5 2.5L16 9.5',heart:'M12 20s-7-4.6-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.4-7 10-7 10z',star:'M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9z',search:'M11 4a7 7 0 1 0 0 14a7 7 0 0 0 0-14z M16.5 16.5L21 21',jump:'M7 17L17 7 M9 7h8v8',widget:'M4 4h7v7H4z M13 4h7v7h-7z M4 13h7v7H4z M13 13h7v7h-7z',mic:'M12 3a3 3 0 0 0-3 3v5a3 3 0 0 0 6 0V6a3 3 0 0 0-3-3z M6 11a6 6 0 0 0 12 0 M12 17v4',check:'M5 12.5l4.5 4.5L19 7.5',door:'M6 21V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v16 M4 21h16 M14.5 12.5v.5',cast:'M3 8V6a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-5 M3 12a8 8 0 0 1 8 8 M3 16a4 4 0 0 1 4 4 M3 20h.01',list:'M8 6h12 M8 12h12 M8 18h12 M4 6h.01 M4 12h.01 M4 18h.01',chart:'M4 20V10 M10 20V4 M16 20v-8 M22 20H2',scenario:'M5 5h14v14H5z M9 9l6 3-6 3z',send:'M3 11l18-8-8 18-2-8z'};
+const svg=n=>`<svg viewBox="0 0 24 24"><path d="${IC[n]||''}"/></svg>`;
+const TONE={blue:['#6b9bf5','#2f5db8'],green:['#3fa37e','#22664a'],orange:['#e09a7c','#b5603f'],violet:['#a77bd6','#6f4a9e'],grey:['#ffffff','#ffffff'],red:['#e5605b','#a8302d'],yellow:['#e8c14a','#a9831c'],teal:['#34d6b0','#12806a']};
+function cell(x,y,w,h,tone,icon,label,o={}){const t=TONE[tone]||TONE.grey,a=tone==='grey'?['#ffffff3a','#ffffff14']:[t[0]+'d0',t[1]+'a0'];const s=o.skew??h*.2,ic=o.ic??h*.42;
+ const press=o.press?`transform:scale(${1-.05*o.press});filter:brightness(${1+.4*o.press});`:'';
+ return `<div class="cell" style="left:${x}px;top:${y}px;width:${w}px;height:${h}px;--s:${s}px;--ic:${ic}px;background:linear-gradient(180deg,${a[0]},${a[1]});font-size:${o.fs||h*.3}px;opacity:${o.op??1};${press}${o.style||''}">${icon?svg(icon):''}${label?`<span>${label}</span>`:''}</div>`}
+const wave=(x,y,w,h,t,amp=1,n=44,col='#9db8ff')=>{let s='';if(amp<.03)return s;for(let i=0;i<n;i++){const k=(i/(n-1)),env=Math.sin(Math.PI*k),v=Math.abs(Math.sin(t*7+i*.7)*.6+Math.sin(t*11.3+i*1.3)*.4)*env*amp;const bh=Math.max(4,h*v);s+=`<div class="abs" style="left:${x+i*(w/n)}px;top:${y+(h-bh)/2}px;width:${w/n*.55}px;height:${bh}px;border-radius:9px;background:${col}"></div>`}return s};
+const wall=(W,H,hue=0)=>`<div class="abs" style="inset:0;background:radial-gradient(${W*.9}px ${H*.8}px at 18% 10%,#26358a,transparent 62%),radial-gradient(${W*.8}px ${H*.7}px at 92% 96%,#5a2a86,transparent 60%),radial-gradient(${W*.5}px ${H*.5}px at 62% 44%,#0d6a6a44,transparent 60%),#070a1e"></div>`;
+const status=(W,t0='08:55')=>`<div class="abs" style="left:46px;top:30px;font-size:34px;font-weight:600">${t0}</div><div class="abs" style="right:46px;top:34px;font-size:28px;color:#cfd3ff">5G &nbsp; 90 %</div>`;
+
+// ---------------------------------------------------------------------------------------------------------------- the documents
+const FIRMS=['Maison Lumen','Atelier Nord','Studio Kōri','Vector & Fils','Nova Lab','Orbital','Palette','Quartz Média','Fabrique Verte','Helio','Mosaïque','Cerf-Volant'];
+const HOOK=['votre manière de relier le design et le code','votre travail sur les outils créatifs','la place que vous donnez aux petites équipes','vos produits pensés pour la voix','votre exigence sur le détail','votre lecture ouverte des données','votre goût pour les ateliers courts','votre approche éditoriale du produit','votre engagement sur l’impact','votre manière de lancer vite et bien','votre catalogue vivant','votre ton direct et chaleureux'];
+function docPage(i,x,y,w,h,o={}){const f=FIRMS[i%12],s=w/760;
+ const ln=(wd,hh=14,c='#c9ccd8')=>`<div style="height:${hh*s}px;width:${wd}%;background:${c};border-radius:${6*s}px;margin-bottom:${13*s}px"></div>`;
+ return `<div class="page" style="left:${x}px;top:${y}px;width:${w}px;height:${h}px;${o.style||''}"><div style="position:absolute;inset:0;padding:${52*s}px ${56*s}px">
+  <div style="display:flex;justify-content:space-between;align-items:flex-start"><div><div style="font-size:${34*s}px;font-weight:700;letter-spacing:-.02em">Léa Dupont</div><div style="font-size:${17*s}px;color:#5a5f78;margin-top:${6*s}px">Cheffe de produit · design &amp; code</div></div>
+   <div style="text-align:right;font-size:${14*s}px;color:#6a6f88;line-height:1.5">lea@exemple.fr<br>06 00 00 00 00<br>Lyon</div></div>
+  <div style="height:${3*s}px;background:linear-gradient(90deg,#6a5cff,#1ac8a0);margin:${26*s}px 0 ${30*s}px"></div>
+  <div style="font-size:${21*s}px;font-weight:650;margin-bottom:${8*s}px">Candidature — ${f}</div>
+  <div style="font-size:${15*s}px;color:#6a6f88;margin-bottom:${26*s}px">Objet : poste de cheffe de produit</div>
+  <div style="font-size:${16*s}px;line-height:1.55;color:#2a2d3c;margin-bottom:${18*s}px">Madame, Monsieur,<br><br>J’ai lu avec attention ${HOOK[i%12]}, et j’aimerais vous montrer comment mon parcours peut y répondre.</div>
+  ${ln(100)}${ln(96)}${ln(100)}${ln(62)}<div style="height:${14*s}px"></div>${ln(100)}${ln(92)}${ln(100)}${ln(88)}${ln(40)}
+  <div style="position:absolute;left:${56*s}px;right:${56*s}px;bottom:${46*s}px;display:flex;justify-content:space-between;align-items:center"><div style="font-size:${15*s}px;color:#6a6f88">Cordialement, Léa Dupont</div>
+   <div style="display:flex;align-items:center;gap:${8*s}px;font-size:${13*s}px;color:#3a3fa0;background:#e7e9ff;border-radius:99px;padding:${7*s}px ${14*s}px"><span style="width:${9*s}px;height:${9*s}px;border-radius:50%;background:#34d6b0"></span>profil lié · aiwa/lea</div></div>
+ </div></div>`}
+
+// ---------------------------------------------------------------------------------------------------------------- the television (the agent)
+function tv0(t){const W=1920,H=1080;let h=wall(W,H);
+ const sp=t-TL.TV0.splash[0],pr=ramp(t,TL.TV0.splash[0],TL.TV0.splash[0]+.7);
+ if(t<TL.TV0.splash[0]+3.3){ // the first sight of the television: Aiwa takes the screen, the phone icon and a cast ripple
+  const k=eo(ramp(sp,0,.9));
+  h+=`<div class="abs" style="left:${W/2-130}px;top:${H/2-200}px;width:260px;height:260px;border-radius:70px;background:radial-gradient(circle at 38% 32%,#f7e27a,#f2b705 55%,#6a5200);box-shadow:0 0 ${120*k}px #f2b70599;transform:scale(${.6+.4*k});opacity:${k};display:flex;align-items:center;justify-content:center;font-size:150px;font-weight:700;color:#2a2000">A</div>`;
+  for(let r=0;r<3;r++){const q=((sp*.55+r/3)%1);h+=`<div class="abs" style="left:${W/2-130-q*360}px;top:${H/2-200-q*360}px;width:${260+q*720}px;height:${260+q*720}px;border-radius:${70+q*360}px;border:3px solid #f2b705;opacity:${(1-q)*.6*k}"></div>`}
+  h+=`<div class="abs" style="left:0;right:0;top:${H/2+100}px;text-align:center;font-size:62px;font-weight:600;letter-spacing:-.02em;opacity:${k}">Aiwa est sur la télé</div><div class="abs mono" style="left:0;right:0;top:${H/2+190}px;text-align:center;font-size:26px;letter-spacing:.3em;color:#9db8ff;opacity:${k}">LE TÉLÉPHONE RESTE ÉTEINT</div>`;
+ }
+ const a=TL.TV0.splash[0]+3.3; // the agent screen
+ const lab=ramp(t,a,a+.6);
+ if(t>=a){
+  h=wall(W,H);
+  h+=`<div class="abs" style="left:70px;top:48px;font-size:34px;font-weight:650;opacity:${lab}">Aiwa</div><div class="abs mono" style="right:70px;top:56px;font-size:24px;color:#9db8ff;letter-spacing:.2em;opacity:${lab}">SUPER AGENT · SUR LA TÉLÉ</div>`;
+  // the transcript: what is said, as it is said
+  const order="Prends mon CV, et fais une campagne de candidature : un document par cible, en liant mon profil. Montre-les-moi quand c'est fait.";
+  const t0=TL.voice.order,t1=t0+D.order,ack0=TL.voice.ack;
+  const listen=ramp(t,a,a+.5)*(1-ramp(t,t1+.1,t1+.5));
+  h+=wave(560,300,800,170,t,listen*(t>t0?1:.35),56,'#9db8ff');
+  h+=`<div class="abs" style="left:300px;right:300px;top:560px;text-align:center;font-size:54px;line-height:1.28;font-weight:550;letter-spacing:-.015em;opacity:${ramp(t,t0-.1,t0+.4)*(1-ramp(t,ack0+.3,ack0+.9))}">${typed(order,t,t0,t1-.3)}<span style="opacity:${t<t1?(Math.sin(t*14)>0?1:0):0};color:#9db8ff">▍</span></div>`;
+  h+=`<div class="abs" style="left:0;right:0;top:420px;text-align:center;font-size:40px;color:#cfd8ff;opacity:${ramp(t,a+.3,a+.9)*(1-ramp(t,t0-.1,t0+.3))}">J’écoute<span style="color:#34d6b0">.</span></div>`;
+  // the work: the CV, the profile, the targets, twelve documents appear
+  const w0=TL.TV0.work[0],w1=TL.TV0.work[1],wk=ramp(t,w0,w0+.6),pg=clamp((t-w0-.6)/(w1-w0-1.0));
+  if(t>=ack0){
+   h+=`<div class="abs" style="left:0;right:0;top:110px;text-align:center;font-size:44px;font-weight:600;opacity:${wk*(1-ramp(t,TL.TV0.ready+1.0,TL.TV0.ready+1.4))}">Campagne de candidature</div>`;
+   h+=`<div class="card" style="left:120px;top:190px;width:380px;height:210px;opacity:${wk};transform:translateY(${(1-eo(wk))*40}px)"><div class="abs" style="left:34px;top:30px;width:70px;height:88px">${docPage(0,0,0,70,88,{style:'border-radius:6px'})}</div><div class="abs" style="left:130px;top:34px;font-size:30px;font-weight:650">CV_Léa_Dupont.pdf</div><div class="abs mono" style="left:130px;top:82px;font-size:20px;color:#9db8ff">lu · 2 pages</div><div class="abs" style="left:34px;top:146px;right:34px;font-size:22px;color:#7ae0c0">${svg('check').replace('<svg','<svg style="width:22px;height:22px;stroke:#7ae0c0;vertical-align:-3px"')} profil lié</div></div>`;
+   h+=`<div class="card" style="left:120px;top:430px;width:380px;height:210px;opacity:${ramp(t,w0+.5,w0+1.1)}"><div class="abs" style="left:34px;top:26px;font-size:30px;font-weight:650">12 cibles</div>${FIRMS.slice(0,5).map((f,i)=>`<div class="abs" style="left:34px;top:${72+i*26}px;font-size:21px;color:#cfd8ff;opacity:${ramp(t,w0+.8+i*.15,w0+1.1+i*.15)}">${f}</div>`).join('')}</div>`;
+   const n=Math.floor(pg*12+.0001);
+   for(let i=0;i<12;i++){const col=i%4,row=Math.floor(i/4),show=eo(ramp(pg*12,i,i+.9)),X=700+col*270,Y=210+row*250;
+    h+=`<div class="abs" style="left:${X}px;top:${Y}px;width:236px;height:220px;opacity:${show};transform:translateY(${(1-show)*50}px) scale(${.92+.08*show})">${docPage(i,0,0,170,220,{style:'left:33px;border-radius:8px'})}<div class="abs" style="left:0;right:0;bottom:-30px;text-align:center;font-size:20px;color:#cfd8ff">${FIRMS[i]}</div></div>`}
+   h+=`<div class="bar" style="left:700px;width:1050px;top:980px;height:14px;opacity:${wk}"><i style="width:${pg*100}%;background:linear-gradient(90deg,#8b7bff,#34d6b0)"></i></div><div class="abs mono" style="left:700px;top:940px;font-size:22px;color:#9db8ff;opacity:${wk}">${Math.min(12,n)} / 12 documents</div>`;
+  }
+  const rd=ramp(t,TL.TV0.ready,TL.TV0.ready+.5);
+  if(rd>0&&t<TL.TV0.doc){h+=`<div class="abs" style="left:0;right:0;top:880px;text-align:center;font-size:56px;font-weight:650;color:#7ae0c0;opacity:${rd}">${svg('check').replace('<svg','<svg style="width:56px;height:56px;stroke:#7ae0c0;vertical-align:-8px"')} 12 documents prêts</div>`}
+  // the first document opens
+  if(t>=TL.TV0.doc-.6){const o=eo(ramp(t,TL.TV0.doc-.6,TL.TV0.doc+.6));h+=`<div class="abs" style="inset:0;background:#05060fcc;opacity:${o}"></div>`+docPage(0,mix(960-190,960-300,0),mix(60,40,o),600,1000,{style:`left:${660}px;opacity:${o};transform:translateY(${(1-o)*60}px)`})}
+ }
+ return h}
+
+// ---------------------------------------------------------------------------------------------------------------- the phone of the desk (documents)
+function p1(t){const W=1080,H=2400;let h=wall(W,H)+status(W);
+ const L=TL.P1;
+ const showDoc=t<L.list-.4, back=ramp(t,L.list-.4,L.list+.3);
+ const open=ramp(t,L.open,L.open+.55),nxt=ramp(t,L.next,L.next+.5);
+ // doc screen (the first document, the one the television showed)
+ if(t<L.list+.4){h+=docPage(0,70,330,940,1420,{style:`opacity:${1-back};transform:translateX(${-back*140}px)`});h+=`<div class="abs" style="left:70px;top:200px;font-size:42px;font-weight:650;opacity:${1-back}">Maison Lumen</div>`}
+ // the list
+ if(t>=L.list-.4){
+  const s=eo(back);
+  h+=`<div class="abs" style="left:56px;top:150px;font-size:66px;font-weight:700;letter-spacing:-.025em;opacity:${s}">Mes documents</div><div class="abs mono" style="left:60px;top:240px;font-size:28px;letter-spacing:.2em;color:#9db8ff;opacity:${s}">12 · CAMPAGNE DE CANDIDATURE</div>`;
+  for(let i=0;i<7;i++){const y=340+i*258,sel=(i===0?1:0),a=ramp(t,L.list+i*.06,L.list+.5+i*.06);
+   h+=`<div class="card" style="left:56px;right:56px;top:${y}px;height:226px;opacity:${a*s};transform:translateX(${(1-eo(a))*90}px);${sel?'border-color:#8b7bffcc;background:linear-gradient(180deg,#8b7bff30,#8b7bff10)':''}"><div class="abs" style="left:34px;top:28px;width:130px;height:170px">${docPage(i,0,0,130,170,{style:'border-radius:6px'})}</div><div class="abs" style="left:200px;top:46px;font-size:46px;font-weight:650">${FIRMS[i]}</div><div class="abs" style="left:200px;top:118px;font-size:30px;color:#a8b3e8">Lettre · profil lié</div><div class="abs mono" style="left:200px;top:164px;font-size:24px;color:#6f7ab0">prêt · il y a 1 min</div></div>`}
+  h+=`<div class="abs" style="left:0;right:0;bottom:130px;text-align:center;font-size:30px;color:#9db8ff;opacity:${s*(1-open)}">Dis « ouvre » · « suivant »</div>`;
+ }
+ // « ouvre »: the selected document opens; « suivant »: the next one
+ if(t>=L.open){h+=`<div class="abs" style="inset:0;background:#05060fe6;opacity:${eo(open)}"></div>`;
+   const x0=(1-eo(open))*1100,sl=eo(nxt);
+   h+=docPage(0,70+x0-sl*1100,230,940,1420,{});h+=docPage(1,70+x0+(1-sl)*1100,230,940,1420,{});
+   h+=`<div class="abs" style="left:70px;top:110px;font-size:44px;font-weight:650;opacity:${eo(open)}">${nxt>.5?FIRMS[1]:FIRMS[0]}</div><div class="abs mono" style="right:70px;top:122px;font-size:30px;color:#9db8ff;opacity:${eo(open)}">${nxt>.5?'2':'1'} / 12</div>`}
+ // the listening mark when a word is said
+ const hear=(a,d)=>ramp(t,a-.1,a)*(1-ramp(t,a+d,a+d+.3));
+ const h1=Math.max(hear(V.open,D.open),hear(V.next,D.next));
+ if(h1>0)h+=`<div class="abs" style="left:0;right:0;bottom:60px;display:flex;justify-content:center;opacity:${h1}"><div style="padding:18px 46px;border-radius:99px;background:#101640ee;border:2px solid #8b7bff88;font-size:44px;font-weight:600">${t<L.next-.3?'Ouvre':'Suivant'}<span style="color:#34d6b0">.</span></div></div>`;
+ return h}
+
+// ---------------------------------------------------------------------------------------------------------------- the phone taken from the console (targets, mail, attachment)
+const BOTTOM=(a,press)=>`${[['doc','Documents','blue'],['target','Cibles','orange'],['mail','Mails','green'],['chart','Suivi','violet']].map((c,i)=>cell(46+i*252,2210,236,118,a===i?c[2]:'grey',c[0],c[1],{fs:28,ic:44,press:press===i?1:0})).join('')}`;
+function p2(t){const W=1080,H=2400,L=TL.P2;let h=wall(W,H)+status(W);
+ const tap=ramp(t,L.tapTargets,L.tapTargets+.12)*(1-ramp(t,L.tapTargets+.12,L.tapTargets+.35));
+ const inTargets=t>=L.tapTargets&&t<L.mail, tList=ramp(t,L.list,L.list+.5);
+ if(t<L.tapTargets+.2){ // home of the app: the documents just made
+  h+=`<div class="abs" style="left:56px;top:150px;font-size:66px;font-weight:700;letter-spacing:-.025em">Aiwa</div><div class="abs mono" style="left:60px;top:240px;font-size:28px;letter-spacing:.2em;color:#9db8ff">12 DOCUMENTS · PRÊTS</div>`;
+  for(let i=0;i<4;i++)h+=`<div class="card" style="left:56px;right:56px;top:${360+i*250}px;height:220px"><div class="abs" style="left:34px;top:26px;width:122px;height:168px">${docPage(i,0,0,122,168,{style:'border-radius:6px'})}</div><div class="abs" style="left:190px;top:44px;font-size:44px;font-weight:650">${FIRMS[i]}</div><div class="abs" style="left:190px;top:112px;font-size:30px;color:#a8b3e8">Lettre · profil lié</div></div>`;
+  h+=BOTTOM(0,tap>0?1:-1);
+ }
+ if(inTargets){
+  const s=eo(ramp(t,L.tapTargets+.12,L.tapTargets+.7)),tg=eo(ramp(t,L.openTarget,L.openTarget+.6));
+  h=wall(W,H)+status(W)+`<div class="abs" style="left:56px;top:150px;font-size:66px;font-weight:700;letter-spacing:-.025em;opacity:${s}">Cibles</div><div class="abs mono" style="left:60px;top:240px;font-size:28px;letter-spacing:.2em;color:#9db8ff;opacity:${s}">12 ENTREPRISES · CLASSÉES PAR AFFINITÉ</div>`;
+  const pct=[92,88,86,81,79,74,71];
+  for(let i=0;i<7;i++){const a=ramp(t,L.list+i*.07,L.list+.45+i*.07),sel=i===0&&t>L.openTarget-.5;
+   h+=`<div class="card" style="left:56px;right:56px;top:${340+i*258}px;height:226px;opacity:${a*(1-tg*.0)};transform:translateX(${(1-eo(a))*90}px);${sel?'border-color:#e09a7ccc;background:linear-gradient(180deg,#e09a7c30,#e09a7c10)':''}"><div class="abs" style="left:34px;top:36px;width:150px;height:150px;border-radius:36px;background:linear-gradient(135deg,hsl(${i*47+210},60%,48%),hsl(${i*47+250},55%,30%));display:flex;align-items:center;justify-content:center;font-size:70px;font-weight:700">${FIRMS[i][0]}</div><div class="abs" style="left:220px;top:48px;font-size:46px;font-weight:650">${FIRMS[i]}</div><div class="abs" style="left:220px;top:120px;font-size:30px;color:#a8b3e8">Cheffe de produit · Lyon</div><div class="abs" style="right:40px;top:50px;font-size:62px;font-weight:700;color:#7ae0c0">${pct[i]}<span style="font-size:32px">%</span></div></div>`}
+  h+=BOTTOM(1,-1);
+  if(tg>0){ // the target page: what Aiwa learned about them
+   h+=`<div class="abs" style="inset:0;opacity:${tg}">${wall(W,H)}${status(W)}</div><div class="abs" style="left:56px;right:56px;top:150px;opacity:${tg};transform:translateY(${(1-tg)*60}px)">
+    <div style="display:flex;align-items:center;gap:36px"><div style="width:170px;height:170px;border-radius:40px;background:linear-gradient(135deg,hsl(210,60%,48%),hsl(250,55%,30%));display:flex;align-items:center;justify-content:center;font-size:84px;font-weight:700">M</div><div><div style="font-size:66px;font-weight:700;letter-spacing:-.02em">Maison Lumen</div><div style="font-size:32px;color:#a8b3e8;margin-top:8px">Cheffe de produit · Lyon · 92 %</div></div></div>
+    <div class="mono" style="margin-top:80px;font-size:28px;letter-spacing:.22em;color:#9db8ff">CE QUE J’AI APPRIS</div>
+    ${[['Cherche','automatisation créative, équipes courtes'],['Ton','direct, chaleureux, peu de jargon'],['Valeurs','impact, détail, ateliers courts'],['Contact','Camille R., responsable recrutement'],['Atout','ton profil lie design et code']].map((r,i)=>{const a=ramp(t,L.target+.5+i*.28,L.target+.9+i*.28);return `<div class="card" style="position:relative;margin-top:26px;height:150px;opacity:${a};transform:translateX(${(1-eo(a))*70}px)"><div class="abs" style="left:38px;top:26px;font-size:28px;color:#9db8ff">${r[0]}</div><div class="abs" style="left:38px;top:70px;font-size:40px;font-weight:600">${r[1]}</div></div>`}).join('')}</div>`}
+ }
+ if(t>=L.mail){ // the mail, written, with its attachment
+  const m=eo(ramp(t,L.mail,L.mail+.6)),at=ramp(t,L.tapAttach,L.tapAttach+.12)*(1-ramp(t,L.tapAttach+.12,L.tapAttach+.35)),ap=eo(ramp(t,L.attach,L.attach+.6));
+  h=wall(W,H)+status(W)+`<div class="abs" style="inset:0;background:#080b1f"></div>`;
+  h+=`<div class="abs" style="left:56px;top:150px;font-size:60px;font-weight:700;letter-spacing:-.02em;opacity:${m}">Nouveau mail</div><div class="chip" style="right:56px;top:156px;height:76px;background:#34d6b0;color:#052;font-size:34px;opacity:${m}">Envoyer</div>`;
+  const rows=[['À','recrutement@maison-lumen.exemple'],['Objet','Candidature — Léa Dupont']];
+  rows.forEach((r,i)=>{h+=`<div class="abs" style="left:56px;right:56px;top:${300+i*118}px;height:100px;border-bottom:2px solid #ffffff22;opacity:${m}"><span class="mono" style="font-size:28px;color:#9db8ff;line-height:100px">${r[0]}</span><span style="position:absolute;left:170px;top:0;line-height:100px;font-size:38px;font-weight:550">${r[1]}</span></div>`});
+  const body='Bonjour Camille,\n\nJ’ai lu avec attention votre manière de relier le design et le code, et j’aimerais vous montrer comment mon parcours peut y répondre. Ma lettre est en pièce jointe.\n\nBien cordialement,\nLéa Dupont';
+  h+=`<div class="abs" style="left:56px;right:56px;top:560px;font-size:40px;line-height:1.5;color:#e6e9ff;white-space:pre-wrap;opacity:${m}">${typed(body,t,L.mail+.3,L.mail+2.4)}</div>`;
+  h+=`<div class="card" style="left:56px;right:56px;top:1280px;height:170px;opacity:${eo(ramp(t,L.mail+2.0,L.mail+2.6))};border-color:${at>0?'#8b7bff':'#ffffff22'};transform:scale(${1-.03*at})"><div class="abs" style="left:34px;top:34px;width:78px;height:102px">${docPage(0,0,0,78,102,{style:'border-radius:5px'})}</div><div class="abs" style="left:150px;top:36px;font-size:40px;font-weight:650">Candidature_Maison-Lumen.pdf</div><div class="abs mono" style="left:150px;top:96px;font-size:26px;color:#9db8ff">212 Ko · pièce jointe</div></div>`;
+  if(ap>0){h+=`<div class="abs" style="inset:0;background:#05060f;opacity:${ap}"></div>`+docPage(0,70,150+(1-ap)*80,940,1500,{style:`opacity:${ap}`})+`<div class="abs" style="left:70px;top:70px;font-size:40px;font-weight:650;opacity:${ap}">Candidature_Maison-Lumen.pdf</div>`}
+ }
+ // a finger: a ripple where it taps
+ const ripple=(x,y,a)=>a>0?`<div class="abs" style="left:${x-90}px;top:${y-90}px;width:180px;height:180px;border-radius:50%;background:radial-gradient(circle,#ffffffaa,#ffffff00 70%);opacity:${a};transform:scale(${1.4-.4*a})"></div>`:'';
+ h+=ripple(46+252*1+118,2269,tap)+ripple(540,1365,at_(t,L));
+ return h}
+function at_(t,L){return ramp(t,L.tapAttach,L.tapAttach+.12)*(1-ramp(t,L.tapAttach+.12,L.tapAttach+.35))}
+
+// ---------------------------------------------------------------------------------------------------------------- the swipe view (profile, tracker, scenario, deck, match, scan, chamber, passage)
+const FRAMES_BG=Q.get('bg')||'/bg';
+function bgImg(t){const i=Math.max(0,Math.min(Math.round(t*TL.fps),Math.round(TL.total*TL.fps)));return `${FRAMES_BG}/${String(i).padStart(5,'0')}.jpg`}
+const KEYS=[['star','Favoris','yellow'],['jump','Jump','violet'],['search','Chercher','blue'],['shield','Scan','green'],['heart','Match','violet'],['widget','Widget','grey']];
+function keysBar(t,m,a=1){let s='';KEYS.forEach((k,i)=>s+=cell(40+i*164,2236,170,110,k[2],k[0],'',{ic:48,op:a*(1-m),style:`transform:translateY(${m*80}px)`}));return s}
+function tracker(t,m){ // the bar of the application becomes the follow-up of the campaign
+ const st=[['Envoyées',12,'#8b7bff'],['Ouvertes',7,'#34d6b0'],['Réponses',3,'#f4c24d'],['Entretiens',1,'#e5605b']];
+ let s=`<div class="card" style="left:36px;right:36px;top:${2036+(1-m)*260}px;height:300px;opacity:${m}"><div class="abs mono" style="left:40px;top:26px;font-size:26px;letter-spacing:.22em;color:#9db8ff">SUIVI DE LA CAMPAGNE</div>`;
+ st.forEach((r,i)=>{const a=eo(ramp(t,TL.P3.tracker[0]+.5+i*.25,TL.P3.tracker[0]+1.4+i*.25));s+=`<div class="abs" style="left:${40+i*250}px;top:84px;width:230px"><div style="font-size:76px;font-weight:700;color:${r[2]}">${Math.round(r[1]*a)}</div><div style="font-size:28px;color:#cfd8ff;margin-top:-4px">${r[0]}</div><div class="bar" style="position:relative;margin-top:16px;height:12px"><i style="width:${a*r[1]/12*100}%;background:${r[2]}"></i></div></div>`});
+ return s+`<div class="abs" style="left:40px;right:40px;bottom:30px;height:46px">${[3,4,6,8,9,11,12].map((v,i)=>`<div class="abs" style="left:${i*(940/7)}px;bottom:0;width:90px;height:${v*3.2*eo(ramp(t,TL.P3.tracker[0]+1.5,TL.P3.tracker[0]+2.4))}px;border-radius:8px;background:linear-gradient(180deg,#8b7bffcc,#8b7bff44)"></div>`).join('')}</div></div>`}
+function profile(t,W,H,improve){ // the profile page: the video of the swipe on top, the profile under
+ const imp=improve;let s='';
+ s+=`<div class="abs" style="left:0;top:0;width:${W}px;height:${W*9/16}px;background:#000 url(${bgImg(t)}) center/cover"></div>`;
+ s+=`<div class="abs" style="left:0;top:${W*9/16-90}px;width:${W}px;height:90px;background:linear-gradient(180deg,#0000,#070a1e)"></div>`;
+ const y0=W*9/16+10;
+ s+=`<div class="abs" style="left:46px;top:${y0}px;width:150px;height:150px;border-radius:50%;background:linear-gradient(135deg,#8b7bff,#34d6b0);border:6px solid #070a1e;display:flex;align-items:center;justify-content:center;font-size:70px;font-weight:700">L</div>`;
+ s+=`<div class="abs" style="left:226px;top:${y0+20}px;font-size:56px;font-weight:700;letter-spacing:-.02em">Léa Dupont</div><div class="abs" style="left:228px;top:${y0+92}px;font-size:30px;color:#a8b3e8">Cheffe de produit · Lyon</div>`;
+ s+=`<div class="abs" style="left:46px;right:46px;top:${y0+190}px;font-size:36px;line-height:1.45;color:#e0e4ff">Je relie le design et le code pour lancer des produits qui se montrent d’eux-mêmes.</div>`;
+ ['design','code','voix','produit'].forEach((c,i)=>s+=`<div class="chip" style="left:${46+i*190}px;top:${y0+380}px;height:62px;background:#8b7bff30;border:2px solid #8b7bff77;font-size:28px">${c}</div>`);
+ // the profile gets better, with what was learned about the target
+ const sec=[['Pour Maison Lumen','Automatisation créative : trois projets en lien'],['Ce que j’apporte','Ton direct, ateliers courts, détail soigné'],['Projet en cours','Un outil de lancement piloté à la voix']];
+ sec.forEach((r,i)=>{const a=eo(ramp(imp,.12+i*.2,.34+i*.2));s+=`<div class="card" style="left:46px;right:46px;top:${y0+490+i*190}px;height:166px;opacity:${a};transform:translateX(${(1-a)*120}px);border-color:${a>.2&&a<.98?'#34d6b0aa':'#ffffff22'}"><div class="abs" style="left:34px;top:24px;font-size:26px;color:#7ae0c0">${r[0]}</div><div class="abs" style="left:34px;top:70px;right:30px;font-size:36px;font-weight:600">${r[1]}</div></div>`});
+ return s}
+function scenarioCard(t,W,H){const L=TL.P3.scenario;const a=eo(ramp(t,L[0]+.8,L[0]+1.5)),out=ramp(t,L[1]-.4,L[1]+.2);
+ const steps=['Lire le CV et le profil','Choisir les cibles','Rédiger un document par cible','Joindre au mail','Suivre les réponses'];
+ let s=`<div class="abs" style="inset:0;background:#05060fee;opacity:${a*(1-out)}"></div><div class="abs" style="left:56px;right:56px;top:240px;opacity:${a*(1-out)};transform:translateY(${(1-a)*60}px)"><div class="mono" style="font-size:28px;letter-spacing:.22em;color:#9db8ff">NOUVEAU SCÉNARIO</div><div style="font-size:90px;font-weight:700;letter-spacing:-.03em;margin-top:18px">Job</div><div style="font-size:34px;color:#a8b3e8;margin-top:6px">à partir de ce que je viens de faire</div>`;
+ steps.forEach((r,i)=>{const b=eo(ramp(t,L[0]+1.8+i*.55,L[0]+2.3+i*.55)),c=ramp(t,L[0]+2.2+i*.55,L[0]+2.6+i*.55);
+  s+=`<div class="card" style="position:relative;margin-top:30px;height:150px;opacity:${b};transform:translateX(${(1-b)*90}px)"><div class="abs" style="left:34px;top:40px;width:70px;height:70px;border-radius:50%;background:${c>.5?'#34d6b0':'#ffffff22'};display:flex;align-items:center;justify-content:center">${c>.5?svg('check').replace('<svg','<svg style="width:40px;height:40px;stroke:#052"'):''}</div><div class="abs" style="left:136px;top:42px;font-size:40px;font-weight:600">${r}</div></div>`});
+ s+=`</div>`;
+ const T2=TL.voice.scenario2,toast=eo(ramp(t,T2,T2+.4))*(1-ramp(t,T2+1.9,T2+2.3));
+ if(toast>0)s+=`<div class="abs" style="left:0;right:0;top:1000px;display:flex;justify-content:center;opacity:${toast};transform:translateY(${(1-toast)*40}px)"><div style="padding:34px 70px;border-radius:99px;background:#34d6b0;color:#04281c;font-size:56px;font-weight:700;display:flex;gap:20px;align-items:center">${svg('check').replace('<svg','<svg style="width:60px;height:60px;stroke:#04281c"')} Scénario Job créé</div></div>`;
+ return s}
+const PEOPLE=[['Samir','Motion designer','Paris'],['Inès','Développeuse','Nantes'],['Théo','Réalisateur','Lyon'],['Camille','Recrutement · Maison Lumen','Lyon']];
+function deck(t,W,H){const L=TL.P3.swipe;const a=ramp(t,L[0]-.4,L[0]+.3);let s=`<div class="abs" style="inset:0;background:#070a1e;opacity:${a}"></div>`;
+ const k=(t-L[0])/ (TL.P3.match-L[0]); // 0..1 : cards pass, then Camille's card stays
+ for(let i=0;i<4;i++){const start=L[0]+i*.55,pass=ramp(t,start+.35,start+.8);if(i<3&&pass>=1)continue;const stay=i===3;
+   const x=stay?0:eo(pass)*(i%2?-1:1)*1400,rot=stay?0:eo(pass)*(i%2?-1:1)*18,vis=ramp(t,start-.05,start+.2);
+   s+=`<div class="abs" style="left:70px;top:230px;width:940px;height:1500px;border-radius:44px;overflow:hidden;opacity:${vis*a};transform:translateX(${x}px) rotate(${rot}deg) scale(${stay?1:.98});background:linear-gradient(180deg,hsl(${i*70+230},50%,32%),hsl(${i*70+270},45%,16%));box-shadow:0 40px 100px #000a">
+     <div class="abs" style="left:0;right:0;top:0;height:900px;background:radial-gradient(circle at 50% 38%,hsl(${i*70+200},60%,55%),transparent 60%)"></div>
+     <div class="abs" style="left:56px;bottom:320px;font-size:84px;font-weight:700;letter-spacing:-.02em">${PEOPLE[i][0]}</div><div class="abs" style="left:58px;bottom:240px;font-size:38px;color:#dfe4ff">${PEOPLE[i][1]} · ${PEOPLE[i][2]}</div>
+     <div class="abs" style="left:56px;bottom:130px;right:56px;font-size:32px;color:#b9c2f2">${i===3?'Cherche une cheffe de produit qui relie design et code':'Profil du Swipe'}</div></div>`}
+ // the match
+ const mT=TL.P3.match,mt=eo(ramp(t,mT,mT+.5))*(1-ramp(t,mT+1.6,mT+2.0));
+ if(mt>0)s+=`<div class="abs" style="left:0;right:0;top:700px;text-align:center;opacity:${mt};transform:scale(${.7+.3*mt})"><div style="display:inline-flex;gap:0;align-items:center"><div style="width:230px;height:230px;border-radius:50%;background:linear-gradient(135deg,#8b7bff,#34d6b0);display:flex;align-items:center;justify-content:center;font-size:110px;font-weight:700;border:8px solid #070a1e">L</div><div style="width:230px;height:230px;border-radius:50%;margin-left:-40px;background:linear-gradient(135deg,#e09a7c,#a77bd6);display:flex;align-items:center;justify-content:center;font-size:110px;font-weight:700;border:8px solid #070a1e">C</div></div><div style="font-size:110px;font-weight:700;margin-top:30px;letter-spacing:-.03em">Match</div></div>`;
+ // the scan
+ const S0=TL.P3.scan[0],S1=TL.P3.scan[1],sc=ramp(t,S0,S0+.4)*(1-ramp(t,S1,S1+.4));
+ if(sc>0){const y=230+eo(ramp(t,S0+.2,S1-.5))*1500;s+=`<div class="abs" style="left:70px;top:230px;width:940px;height:1500px;border-radius:44px;overflow:hidden;opacity:${sc}"><div class="abs" style="left:0;right:0;top:${y-230-60}px;height:120px;background:linear-gradient(180deg,#0000,#34d6b0aa,#0000)"></div></div><div class="abs" style="left:0;right:0;top:1780px;display:flex;justify-content:center;opacity:${sc}"><div style="padding:26px 60px;border-radius:99px;background:#101640ee;border:2px solid #34d6b0;font-size:44px;font-weight:600;display:flex;gap:18px;align-items:center">${svg('shield').replace('<svg','<svg style="width:52px;height:52px;stroke:#34d6b0"')}${ramp(t,S0+1.4,S1)>.5?'Rien de dangereux':'Scan du profil…'}</div></div>`}
+ // the aiwa sent
+ const Sd=TL.P3.send,sd=ramp(t,Sd,Sd+.9);
+ if(sd>0&&t<TL.P3.chamber+.3){const p=eo(sd);for(let i=0;i<14;i++){const ang=i/14*Math.PI*2+rnd(i)*.5,r=p*(220+rnd(i+9)*220);s+=`<div class="abs" style="left:${540+Math.cos(ang)*r-14}px;top:${980+Math.sin(ang)*r-14}px;width:28px;height:28px;border-radius:50%;background:${i%2?'#8b7bff':'#34d6b0'};opacity:${(1-sd)*.9}"></div>`}
+   s+=`<div class="abs" style="left:0;right:0;top:880px;text-align:center;opacity:${Math.min(1,sd*3)*(1-ramp(t,TL.P3.chamber-.2,TL.P3.chamber+.3))};transform:scale(${.8+.4*p})"><div style="width:200px;height:200px;margin:0 auto;border-radius:60px;background:radial-gradient(circle at 40% 35%,#f7e27a,#f2b705 55%,#6a5200);display:flex;align-items:center;justify-content:center;font-size:120px;font-weight:700;color:#2a2000;box-shadow:0 0 120px #f2b705aa">A</div><div style="font-size:60px;font-weight:700;margin-top:30px">Aiwa envoyé</div></div>`}
+ return s}
+function chamber(t,W,H){const C=TL.P3.chamber,a=eo(ramp(t,C-.3,C+.5)),d=ramp(t,TL.P3.door,TL.P3.door+1.2);let s=`<div class="abs" style="inset:0;background:radial-gradient(1200px 1400px at 50% 60%,#2a1a6a,#070a1e 70%);opacity:${a}"></div>`;
+ if(a>0){s+=`<div class="abs" style="left:0;right:0;top:160px;text-align:center;font-size:60px;font-weight:700;opacity:${a}">Chambre avec Camille</div><div class="abs mono" style="left:0;right:0;top:250px;text-align:center;font-size:28px;letter-spacing:.24em;color:#9db8ff;opacity:${a}">${d<.05?'EN ATTENTE DE SA RÉPONSE':'ELLE A RÉPONDU'}</div>`;
+  // the door (an arch) in the middle: it opens on the passage
+  const DW=420,DH=700,DX=540-DW/2,DY=900;
+  s+=`<div class="abs" style="left:${DX-26}px;top:${DY-26}px;width:${DW+52}px;height:${DH+26}px;border-radius:${DW/2+26}px ${DW/2+26}px 0 0;background:linear-gradient(180deg,#3a3f78,#1b1e48);opacity:${a};box-shadow:0 0 ${60+120*d}px ${d>0?'#8b7bff':'#0000'}"></div>`;
+  s+=`<div class="abs" style="left:${DX}px;top:${DY}px;width:${DW}px;height:${DH}px;border-radius:${DW/2}px ${DW/2}px 0 0;overflow:hidden;background:#05060f;opacity:${a}">`;
+  const lit=eo(d);
+  s+=`<div class="abs" style="left:${DW/2*(1-lit)}px;top:0;width:${DW*lit}px;height:${DH}px;background:radial-gradient(ellipse at 50% 55%,#fff,#bfb3ff 25%,#6a4cff 55%,#1a0f60 90%)"></div>`;
+  s+=`</div>`;
+  s+=`<div class="abs" style="left:0;right:0;top:1710px;text-align:center;font-size:36px;color:#a8b3e8;opacity:${a*(1-d)}">Elle accepte la chambre…</div>`;
+  const b=ramp(t,C+.2,C+.8);s+=cell(210,2060,660,150,'violet','door','Proposer une chambre',{fs:42,ic:56,op:a*(1-d),press:ramp(t,C+.6,C+.8)*(1-ramp(t,C+.8,C+1.1))});}
+ return s}
+function passage(t,W,H){const P=TL.P3.passage,u=ramp(t,P[0],P[1]),fillv=eo(ramp(t,TL.P3.fill[0],TL.P3.fill[1]));let s='';
+ if(u<=0)return s;
+ const cx=540,cy=1250;
+ // the screen turns into the passage: a corridor of arches that recede, a light at the end, motes in the air
+ s+=`<div class="abs" style="inset:0;background:#02030a;opacity:${eo(ramp(t,P[0]+.6,P[0]+1.6))}"></div>`;
+ const n=14;
+ for(let i=0;i<n;i++){const z=((i/n)+t*.22)%1,sc=Math.pow(z,2.4)*5.4+.02,w=420*sc,h=700*sc,op=Math.min(1,z*3)*(1-Math.pow(z,6));
+  s+=`<div class="abs" style="left:${cx-w/2}px;top:${cy+h*.22-h}px;width:${w}px;height:${h}px;border-radius:${w/2}px ${w/2}px 0 0;border:${Math.max(2,5*sc)}px solid hsla(${250+z*60},90%,${60+z*20}%,${op*.9});box-shadow:0 0 ${40*sc}px hsla(${250+z*60},90%,60%,${op*.5}) inset;opacity:${eo(ramp(t,P[0]+.8,P[0]+2))}"></div>`}
+ s+=`<div class="abs" style="left:${cx-130}px;top:${cy-210}px;width:260px;height:420px;border-radius:130px 130px 0 0;background:radial-gradient(ellipse at 50% 60%,#fff,#d8d0ff 30%,#8b7bff55 70%,#0000);opacity:${eo(ramp(t,P[0]+.8,P[0]+2))};filter:blur(${6-4*fillv}px)"></div>`;
+ for(let i=0;i<60;i++){const z=((rnd(i)+t*.18)%1),x=cx+(rnd(i+5)-.5)*1200*z,y=cy+(rnd(i+9)-.5)*1600*z,sz=2+z*9;s+=`<div class="abs" style="left:${x}px;top:${y}px;width:${sz}px;height:${sz}px;border-radius:50%;background:#e8e2ff;opacity:${(1-z)*.8*eo(ramp(t,P[0]+1,P[0]+2))}"></div>`}
+ return s}
+function p3(t){const W=1080,H=2400,L=TL.P3;
+ let h=`<div class="abs" style="inset:0;background:#070a1e"></div>`;
+ const imp=ramp(t,L.improve[0]+1.6,L.improve[1]-1.2),m=eo(ramp(t,L.tracker[0],L.tracker[1]));
+ h+=profile(t,W,H,imp);
+ h+=status(W);
+ // the keys of the application become the follow-up of the campaign
+ h+=keysBar(t,m)+tracker(t,m);
+ // the voice is heard: a listening chip
+ const hear=(a,d)=>ramp(t,a-.1,a)*(1-ramp(t,a+d,a+d+.3));
+ const hv=Math.max(hear(V.improve,D.improve),hear(V.scenario,D.scenario),hear(V.chamber,D.chamber));
+ if(hv>0)h+=`<div class="abs" style="left:56px;right:56px;top:300px;height:110px;border-radius:99px;background:#101640f0;border:2px solid #8b7bff88;opacity:${hv}">${wave(150,22,780,66,t,hv,36,'#9db8ff')}<div class="abs" style="left:34px;top:30px;width:50px;height:50px;border-radius:50%;background:#e5605b"></div></div>`;
+ h+=scenarioCard(t,W,H);
+ h+=deck(t,W,H);
+ h+=chamber(t,W,H);
+ h+=passage(t,W,H);
+ return h}
+
+// ---------------------------------------------------------------------------------------------------------------- the end card
+function endcard(t){const W=1920,H=1080,a=eo(ramp(t,TL.end.card[0],TL.end.card[0]+1.2));
+ return `<div class="abs" style="inset:0;background:radial-gradient(1400px 900px at 50% 55%,#1c1450,#04050d 70%)"></div><div class="abs" style="left:0;right:0;top:330px;text-align:center;font-size:96px;font-weight:650;letter-spacing:-.03em;opacity:${a};transform:translateY(${(1-a)*30}px)">Un univers,<br><span style="color:#b9a8ff">de multiples réalités.</span></div><div class="abs mono" style="left:0;right:0;top:760px;text-align:center;font-size:30px;letter-spacing:.5em;color:#9db8ff;opacity:${ramp(t,TL.end.card[0]+1.2,TL.end.card[0]+2)}">AIWA</div>`}
+function titlecard(t){const W=1920,H=1080,a=eo(ramp(t,.3,1.2))*(1-ramp(t,TL.title[1]-.5,TL.title[1]));
+ return `<div class="abs" style="inset:0;background:#02030a"></div><div class="abs" style="left:0;right:0;top:420px;text-align:center;font-size:70px;font-weight:600;letter-spacing:-.025em;opacity:${a};transform:translateY(${(1-a)*20}px)">${typed('Discover the next-gen vibecoding network.',t,.4,2.4)}</div>`}
+
+const SIZES={tv0:[1920,1080],p1:[1080,2400],p2:[1080,2400],p3:[1080,2400],end:[1920,1080],title:[1920,1080]};
+let inited=false;
+window.render=async function(t){
+ const [W,H]=SIZES[MODE];
+ if(!inited){document.documentElement.style.width=W+'px';document.documentElement.style.height=H+'px';$('root').style.width=W+'px';$('root').style.height=H+'px';inited=true}
+ const fn={tv0,p1,p2,p3,end:endcard,title:titlecard}[MODE];
+ $('root').innerHTML=fn(t);
+ await Promise.all([...document.images].map(i=>i.decode().catch(()=>{})));
+};
+</script></body></html>

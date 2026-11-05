@@ -1,0 +1,16 @@
+{
+ "fps": 24, "total": 110.0, "width": 1920, "height": 1080,
+ "title": [0.0, 3.4],
+ "voice": {"wake": 3.9, "listen": 5.1, "tv": 7.0, "tvdone": 9.0, "order": 12.8, "ack": 20.3, "ready": 25.6, "list": 32.2, "open": 35.5, "next": 37.8,
+           "mail": 54.6, "improve": 66.6, "improve2": 76.0, "scenario": 81.6, "scenario2": 87.0, "match": 91.2, "scan": 93.0, "chamber": 98.0},
+ "R0":  {"in": 3.4, "push": [3.4, 9.6], "zoom": [9.6, 12.6], "tvOn": [8.5, 9.2]},
+ "TV0": {"splash": [8.5, 12.6], "order": [12.8, 20.0], "work": [20.3, 25.6], "ready": 25.6, "doc": 27.0},
+ "R1":  {"back": [28.0, 31.5], "handoff": [28.0, 29.2], "dive": [32.2, 34.2], "out": [39.0, 41.2]},
+ "P1":  {"list": 32.6, "open": 35.5, "next": 37.8},
+ "R2":  {"out": [40.6, 43.8], "pick": [44.3, 45.8], "toNative": [45.8, 47.0]},
+ "P2":  {"tapTargets": 47.6, "list": 47.9, "openTarget": 50.0, "target": 50.2, "mail": 52.5, "back": [52.6, 54.4], "dive": [55.4, 56.8], "tapAttach": 57.8, "attach": 58.0, "out": [60.4, 62.4]},
+ "R3":  {"out": [62.0, 64.6]},
+ "P3":  {"video": 64.6, "toNative": [65.0, 66.4], "improve": [66.6, 75.6], "tracker": [71.0, 74.5], "back": [77.6, 80.8], "dive": [81.0, 82.4],
+         "scenario": [81.6, 88.4], "swipe": [89.0, 97.6], "match": 91.2, "scan": [93.0, 95.4], "send": 95.8, "chamber": 98.0, "door": 100.4, "passage": [100.4, 104.5], "fill": [100.4, 103.6], "stop": 104.5},
+ "end": {"black": [104.5, 105.6], "card": [105.6, 110.0]}
+}
