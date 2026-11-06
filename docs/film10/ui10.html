@@ -38,19 +38,19 @@ const HOOK=['votre manière de relier le design et le code','votre travail sur l
 function docPage(i,x,y,w,h,o={}){const f=FIRMS[i%12],s=w/760;
  const ln=(wd,hh=14,c='#c9ccd8')=>`<div style="height:${hh*s}px;width:${wd}%;background:${c};border-radius:${6*s}px;margin-bottom:${13*s}px"></div>`;
  return `<div class="page" style="left:${x}px;top:${y}px;width:${w}px;height:${h}px;${o.style||''}"><div style="position:absolute;inset:0;padding:${52*s}px ${56*s}px">
-  <div style="display:flex;justify-content:space-between;align-items:flex-start"><div><div style="font-size:${34*s}px;font-weight:700;letter-spacing:-.02em">Léa Dupont</div><div style="font-size:${17*s}px;color:#5a5f78;margin-top:${6*s}px">Cheffe de produit · design &amp; code</div></div>
-   <div style="text-align:right;font-size:${14*s}px;color:#6a6f88;line-height:1.5">lea@exemple.fr<br>06 00 00 00 00<br>Lyon</div></div>
+  <div style="display:flex;justify-content:space-between;align-items:flex-start"><div><div style="font-size:${34*s}px;font-weight:700;letter-spacing:-.02em">Théodore Yong</div><div style="font-size:${17*s}px;color:#5a5f78;margin-top:${6*s}px">Créateur d’Aiwa</div></div>
+   <div style="text-align:right;font-size:${14*s}px;color:#6a6f88;line-height:1.5">github.com/theodoreyong9</div></div>
   <div style="height:${3*s}px;background:linear-gradient(90deg,#6a5cff,#1ac8a0);margin:${26*s}px 0 ${30*s}px"></div>
   <div style="font-size:${21*s}px;font-weight:650;margin-bottom:${8*s}px">Candidature — ${f}</div>
   <div style="font-size:${15*s}px;color:#6a6f88;margin-bottom:${26*s}px">Objet : poste de cheffe de produit</div>
   <div style="font-size:${16*s}px;line-height:1.55;color:#2a2d3c;margin-bottom:${18*s}px">Madame, Monsieur,<br><br>J’ai lu avec attention ${HOOK[i%12]}, et j’aimerais vous montrer comment mon parcours peut y répondre.</div>
   ${ln(100)}${ln(96)}${ln(100)}${ln(62)}<div style="height:${14*s}px"></div>${ln(100)}${ln(92)}${ln(100)}${ln(88)}${ln(40)}
-  <div style="position:absolute;left:${56*s}px;right:${56*s}px;bottom:${46*s}px;display:flex;justify-content:space-between;align-items:center"><div style="font-size:${15*s}px;color:#6a6f88">Cordialement, Léa Dupont</div>
-   <div style="display:flex;align-items:center;gap:${8*s}px;font-size:${13*s}px;color:#3a3fa0;background:#e7e9ff;border-radius:99px;padding:${7*s}px ${14*s}px"><span style="width:${9*s}px;height:${9*s}px;border-radius:50%;background:#34d6b0"></span>profil lié · aiwa/lea</div></div>
+  <div style="position:absolute;left:${56*s}px;right:${56*s}px;bottom:${46*s}px;display:flex;justify-content:space-between;align-items:center"><div style="font-size:${15*s}px;color:#6a6f88">Cordialement, Théodore Yong</div>
+   <div style="display:flex;align-items:center;gap:${8*s}px;font-size:${13*s}px;color:#3a3fa0;background:#e7e9ff;border-radius:99px;padding:${7*s}px ${14*s}px"><span style="width:${9*s}px;height:${9*s}px;border-radius:50%;background:#34d6b0"></span>profil lié · aiwa/theodoreyong9</div></div>
  </div></div>`}
 
 // ---------------------------------------------------------------------------------------------------------------- the television (the agent)
-function tv0(t){const W=1920,H=1080;let h=wall(W,H);
+function tv0(t){const W=1920,H=1080;if(t<TL.TV0.splash[0])return `<div class="abs" style="inset:0;background:#000"></div>`;let h=wall(W,H);
  const sp=t-TL.TV0.splash[0],pr=ramp(t,TL.TV0.splash[0],TL.TV0.splash[0]+.7);
  if(t<TL.TV0.splash[0]+3.3){ // the first sight of the television: Aiwa takes the screen, the phone icon and a cast ripple
   const k=eo(ramp(sp,0,.9));
@@ -74,7 +74,7 @@ function tv0(t){const W=1920,H=1080;let h=wall(W,H);
   const w0=TL.TV0.work[0],w1=TL.TV0.work[1],wk=ramp(t,w0,w0+.6),pg=clamp((t-w0-.6)/(w1-w0-1.0));
   if(t>=ack0){
    h+=`<div class="abs" style="left:0;right:0;top:110px;text-align:center;font-size:44px;font-weight:600;opacity:${wk*(1-ramp(t,TL.TV0.ready+1.0,TL.TV0.ready+1.4))}">Campagne de candidature</div>`;
-   h+=`<div class="card" style="left:120px;top:190px;width:380px;height:210px;opacity:${wk};transform:translateY(${(1-eo(wk))*40}px)"><div class="abs" style="left:34px;top:30px;width:70px;height:88px">${docPage(0,0,0,70,88,{style:'border-radius:6px'})}</div><div class="abs" style="left:130px;top:34px;font-size:30px;font-weight:650">CV_Léa_Dupont.pdf</div><div class="abs mono" style="left:130px;top:82px;font-size:20px;color:#9db8ff">lu · 2 pages</div><div class="abs" style="left:34px;top:146px;right:34px;font-size:22px;color:#7ae0c0">${svg('check').replace('<svg','<svg style="width:22px;height:22px;stroke:#7ae0c0;vertical-align:-3px"')} profil lié</div></div>`;
+   h+=`<div class="card" style="left:120px;top:190px;width:380px;height:210px;opacity:${wk};transform:translateY(${(1-eo(wk))*40}px)"><div class="abs" style="left:34px;top:30px;width:70px;height:88px">${docPage(0,0,0,70,88,{style:'border-radius:6px'})}</div><div class="abs" style="left:130px;top:34px;font-size:30px;font-weight:650">CV_Théodore_Yong.pdf</div><div class="abs mono" style="left:130px;top:82px;font-size:20px;color:#9db8ff">lu · 2 pages</div><div class="abs" style="left:34px;top:146px;right:34px;font-size:22px;color:#7ae0c0">${svg('check').replace('<svg','<svg style="width:22px;height:22px;stroke:#7ae0c0;vertical-align:-3px"')} profil lié</div></div>`;
    h+=`<div class="card" style="left:120px;top:430px;width:380px;height:210px;opacity:${ramp(t,w0+.5,w0+1.1)}"><div class="abs" style="left:34px;top:26px;font-size:30px;font-weight:650">12 cibles</div>${FIRMS.slice(0,5).map((f,i)=>`<div class="abs" style="left:34px;top:${72+i*26}px;font-size:21px;color:#cfd8ff;opacity:${ramp(t,w0+.8+i*.15,w0+1.1+i*.15)}">${f}</div>`).join('')}</div>`;
    const n=Math.floor(pg*12+.0001);
    for(let i=0;i<12;i++){const col=i%4,row=Math.floor(i/4),show=eo(ramp(pg*12,i,i+.9)),X=700+col*270,Y=210+row*250;
@@ -89,68 +89,52 @@ function tv0(t){const W=1920,H=1080;let h=wall(W,H);
  return h}
 
 // ---------------------------------------------------------------------------------------------------------------- the phone of the desk (documents)
-function p1(t){const W=1080,H=2400;let h=wall(W,H)+status(W);
- const L=TL.P1;
- const showDoc=t<L.list-.4, back=ramp(t,L.list-.4,L.list+.3);
- const open=ramp(t,L.open,L.open+.55),nxt=ramp(t,L.next,L.next+.5);
- // doc screen (the first document, the one the television showed)
- if(t<L.list+.4){h+=docPage(0,70,330,940,1420,{style:`opacity:${1-back};transform:translateX(${-back*140}px)`});h+=`<div class="abs" style="left:70px;top:200px;font-size:42px;font-weight:650;opacity:${1-back}">Maison Lumen</div>`}
- // the list
- if(t>=L.list-.4){
-  const s=eo(back);
-  h+=`<div class="abs" style="left:56px;top:150px;font-size:66px;font-weight:700;letter-spacing:-.025em;opacity:${s}">Mes documents</div><div class="abs mono" style="left:60px;top:240px;font-size:28px;letter-spacing:.2em;color:#9db8ff;opacity:${s}">12 · CAMPAGNE DE CANDIDATURE</div>`;
-  for(let i=0;i<7;i++){const y=340+i*258,sel=(i===0?1:0),a=ramp(t,L.list+i*.06,L.list+.5+i*.06);
-   h+=`<div class="card" style="left:56px;right:56px;top:${y}px;height:226px;opacity:${a*s};transform:translateX(${(1-eo(a))*90}px);${sel?'border-color:#8b7bffcc;background:linear-gradient(180deg,#8b7bff30,#8b7bff10)':''}"><div class="abs" style="left:34px;top:28px;width:130px;height:170px">${docPage(i,0,0,130,170,{style:'border-radius:6px'})}</div><div class="abs" style="left:200px;top:46px;font-size:46px;font-weight:650">${FIRMS[i]}</div><div class="abs" style="left:200px;top:118px;font-size:30px;color:#a8b3e8">Lettre · profil lié</div><div class="abs mono" style="left:200px;top:164px;font-size:24px;color:#6f7ab0">prêt · il y a 1 min</div></div>`}
-  h+=`<div class="abs" style="left:0;right:0;bottom:130px;text-align:center;font-size:30px;color:#9db8ff;opacity:${s*(1-open)}">Dis « ouvre » · « suivant »</div>`;
- }
- // « ouvre »: the selected document opens; « suivant »: the next one
- if(t>=L.open){h+=`<div class="abs" style="inset:0;background:#05060fe6;opacity:${eo(open)}"></div>`;
-   const x0=(1-eo(open))*1100,sl=eo(nxt);
-   h+=docPage(0,70+x0-sl*1100,230,940,1420,{});h+=docPage(1,70+x0+(1-sl)*1100,230,940,1420,{});
-   h+=`<div class="abs" style="left:70px;top:110px;font-size:44px;font-weight:650;opacity:${eo(open)}">${nxt>.5?FIRMS[1]:FIRMS[0]}</div><div class="abs mono" style="right:70px;top:122px;font-size:30px;color:#9db8ff;opacity:${eo(open)}">${nxt>.5?'2':'1'} / 12</div>`}
- // the listening mark when a word is said
- const hear=(a,d)=>ramp(t,a-.1,a)*(1-ramp(t,a+d,a+d+.3));
- const h1=Math.max(hear(V.open,D.open),hear(V.next,D.next));
- if(h1>0)h+=`<div class="abs" style="left:0;right:0;bottom:60px;display:flex;justify-content:center;opacity:${h1}"><div style="padding:18px 46px;border-radius:99px;background:#101640ee;border:2px solid #8b7bff88;font-size:44px;font-weight:600">${t<L.next-.3?'Ouvre':'Suivant'}<span style="color:#34d6b0">.</span></div></div>`;
+// ---- the real windows of the application (rebuilt from the Kotlin: FloatActivity, FilesActivity, CiblesActivity, PjActivity, PageActivity; Palette BACK #10132E, CARD #1D2250, DIM #9DB8FF, GOLD #E8C14A, GREEN #52D6A0). 1 dp = U px.
+const U=1080/412,dp=x=>x*U;
+const PAL={back:'#10132E',card:'#1D2250',dim:'#9DB8FF',gold:'#E8C14A',green:'#52D6A0',red:'#F27A75'};
+const rip=(id,a)=>a>0.01?`<div class="rip" data-at="${id}" style="position:absolute;width:180px;height:180px;border-radius:50%;background:radial-gradient(circle,#ffffffaa,#ffffff00 70%);opacity:${a};transform:scale(${1.4-.4*a});left:-999px;top:0"></div>`:'';
+const aBtn=(txt,o={})=>`<div ${o.id?`data-id="${o.id}"`:''} style="padding:${dp(8)}px ${dp(14)}px;margin-left:${dp(6)}px;border-radius:${dp(6)}px;background:#ffffff${o.press?'40':'1c'};color:${o.color||'#fff'};font-size:${dp(13)}px;font-weight:500">${txt}</div>`;
+function aRow(label,detail,o={}){return `<div ${o.id?`data-id="${o.id}"`:''} style="margin-top:${dp(8)}px;background:${PAL.card};border-radius:${dp(14)}px;padding:${dp(11)}px ${dp(14)}px ${dp(o.btns?8:11)}px;opacity:${o.alpha??1};${o.sel?`outline:${dp(2)}px solid ${PAL.gold};outline-offset:${dp(-1)}px;`:''}${o.style||''}"><div style="font-size:${dp(16)}px;line-height:1.25">${label}</div>${detail?`<div style="font-size:${dp(13)}px;color:${PAL.dim};line-height:1.35;margin-top:2px;white-space:pre-line">${detail}</div>`:''}${o.btns?`<div style="display:flex;justify-content:flex-end;margin-top:${dp(4)}px">${o.btns}</div>`:''}</div>`}
+function aWin(title,inner,o={}){ // the floating window: dark backdrop, a card with rounded corners and a fine edge
+ return `<div class="abs" style="inset:0;background:#000000aa"></div><div class="abs" style="left:${dp(18)}px;right:${dp(18)}px;top:${dp(40)}px;${o.style||''}"><div style="background:${PAL.back};border-radius:${dp(22)}px;border:${dp(1)}px solid #ffffff47;padding:${dp(14)}px ${dp(16)}px ${dp(16)}px"><div style="font-size:${dp(20)}px;font-weight:700;padding-bottom:${dp(8)}px">${title}</div>${inner}</div></div>`}
+const aNote=(s,c=PAL.dim)=>`<div style="font-size:${dp(14)}px;color:${c};padding:${dp(4)}px 0;line-height:1.3">${s}</div>`;
+// the files of the campaign: what the brain wrote and put in a release of the repository
+const REPO='theodoreyong9/candidatures',WHEN='6 nov. 2026';
+const KO=[148,152,146,151,149,153,147];
+function docRows(sel,o={}){let s='';for(let i=0;i<7;i++){s+=aRow(`Candidature — ${FIRMS[i]}`,`${WHEN} · ${KO[i]} Ko`,{btns:aBtn(i===0?'Cibles (3)':'Cibles (2)',{color:PAL.green,id:i===0?'cib0':'',press:i===0&&o.pressCib})+aBtn('Partager')+aBtn('Supprimer'),sel:i===sel})}return s}
+// the page of a document (PageActivity: the page on the back of the window)
+function docView(i,x,y,w,hh,o){return docPage(i,x,y,w,hh,o)}
+function p1(t){const W=1080,H=2400,L=TL.P1;let h=`<div class="abs" style="inset:0;background:${PAL.back}"></div>`+status(W);
+ const back=ramp(t,L.list-.4,L.list+.3),open=ramp(t,L.open,L.open+.55),nxt=ramp(t,L.next,L.next+.5);
+ if(t<L.list+.4)h+=docView(0,70,330,940,1420,{style:`opacity:${1-back};transform:translateX(${-back*140}px)`});
+ if(t>=L.list-.4){ // « Documents »: the window of the files, the voice cursor (gold edge) on the first line
+  const s=eo(back);h+=`<div class="abs" style="inset:0;background:radial-gradient(${W*.9}px ${H*.8}px at 18% 10%,#26358a,transparent 62%),#070a1e;opacity:${s}"></div><div class="abs" style="inset:0;opacity:${s}">${aWin('Documents',aNote(REPO,PAL.gold)+docRows(t>=L.list+.9?0:-1))}</div>`}
+ if(t>=L.open){h+=`<div class="abs" style="inset:0;background:${PAL.back};opacity:${eo(open)}"></div>`;const x0=(1-eo(open))*1100,sl=eo(nxt);
+  h+=docView(0,70+x0-sl*1100,230,940,1420,{})+docView(1,70+x0+(1-sl)*1100,230,940,1420,{})}
+ const hear=(a,d)=>ramp(t,a-.1,a)*(1-ramp(t,a+d,a+d+.3)),h1=Math.max(hear(V.open,D.open),hear(V.next,D.next));
+ if(h1>0)h+=`<div class="abs" style="left:0;right:0;bottom:60px;display:flex;justify-content:center;opacity:${h1}"><div style="padding:18px 46px;border-radius:99px;background:${PAL.card};border:2px solid #9db8ff55;font-size:34px;color:${PAL.dim}">${t<V.next-.1?'« ouvre »':'« suivant »'}</div></div>`;
  return h}
-
-// ---------------------------------------------------------------------------------------------------------------- the phone taken from the console (targets, mail, attachment)
-const BOTTOM=(a,press)=>`${[['doc','Documents','blue'],['target','Cibles','orange'],['mail','Mails','green'],['chart','Suivi','violet']].map((c,i)=>cell(46+i*252,2210,236,118,a===i?c[2]:'grey',c[0],c[1],{fs:28,ic:44,press:press===i?1:0})).join('')}`;
-function p2(t){const W=1080,H=2400,L=TL.P2;let h=wall(W,H)+status(W);
- const tap=ramp(t,L.tapTargets,L.tapTargets+.12)*(1-ramp(t,L.tapTargets+.12,L.tapTargets+.35));
- const inTargets=t>=L.tapTargets&&t<L.mail, tList=ramp(t,L.list,L.list+.5);
- if(t<L.tapTargets+.2){ // home of the app: the documents just made
-  h+=`<div class="abs" style="left:56px;top:150px;font-size:66px;font-weight:700;letter-spacing:-.025em">Aiwa</div><div class="abs mono" style="left:60px;top:240px;font-size:28px;letter-spacing:.2em;color:#9db8ff">12 DOCUMENTS · PRÊTS</div>`;
-  for(let i=0;i<4;i++)h+=`<div class="card" style="left:56px;right:56px;top:${360+i*250}px;height:220px"><div class="abs" style="left:34px;top:26px;width:122px;height:168px">${docPage(i,0,0,122,168,{style:'border-radius:6px'})}</div><div class="abs" style="left:190px;top:44px;font-size:44px;font-weight:650">${FIRMS[i]}</div><div class="abs" style="left:190px;top:112px;font-size:30px;color:#a8b3e8">Lettre · profil lié</div></div>`;
-  h+=BOTTOM(0,tap>0?1:-1);
- }
- if(inTargets){
-  const s=eo(ramp(t,L.tapTargets+.12,L.tapTargets+.7)),tg=eo(ramp(t,L.openTarget,L.openTarget+.6));
-  h=wall(W,H)+status(W)+`<div class="abs" style="left:56px;top:150px;font-size:66px;font-weight:700;letter-spacing:-.025em;opacity:${s}">Cibles</div><div class="abs mono" style="left:60px;top:240px;font-size:28px;letter-spacing:.2em;color:#9db8ff;opacity:${s}">12 ENTREPRISES · CLASSÉES PAR AFFINITÉ</div>`;
-  const pct=[92,88,86,81,79,74,71];
-  for(let i=0;i<7;i++){const a=ramp(t,L.list+i*.07,L.list+.45+i*.07),sel=i===0&&t>L.openTarget-.5;
-   h+=`<div class="card" style="left:56px;right:56px;top:${340+i*258}px;height:226px;opacity:${a*(1-tg*.0)};transform:translateX(${(1-eo(a))*90}px);${sel?'border-color:#e09a7ccc;background:linear-gradient(180deg,#e09a7c30,#e09a7c10)':''}"><div class="abs" style="left:34px;top:36px;width:150px;height:150px;border-radius:36px;background:linear-gradient(135deg,hsl(${i*47+210},60%,48%),hsl(${i*47+250},55%,30%));display:flex;align-items:center;justify-content:center;font-size:70px;font-weight:700">${FIRMS[i][0]}</div><div class="abs" style="left:220px;top:48px;font-size:46px;font-weight:650">${FIRMS[i]}</div><div class="abs" style="left:220px;top:120px;font-size:30px;color:#a8b3e8">Cheffe de produit · Lyon</div><div class="abs" style="right:40px;top:50px;font-size:62px;font-weight:700;color:#7ae0c0">${pct[i]}<span style="font-size:32px">%</span></div></div>`}
-  h+=BOTTOM(1,-1);
-  if(tg>0){ // the target page: what Aiwa learned about them
-   h+=`<div class="abs" style="inset:0;opacity:${tg}">${wall(W,H)}${status(W)}</div><div class="abs" style="left:56px;right:56px;top:150px;opacity:${tg};transform:translateY(${(1-tg)*60}px)">
-    <div style="display:flex;align-items:center;gap:36px"><div style="width:170px;height:170px;border-radius:40px;background:linear-gradient(135deg,hsl(210,60%,48%),hsl(250,55%,30%));display:flex;align-items:center;justify-content:center;font-size:84px;font-weight:700">M</div><div><div style="font-size:66px;font-weight:700;letter-spacing:-.02em">Maison Lumen</div><div style="font-size:32px;color:#a8b3e8;margin-top:8px">Cheffe de produit · Lyon · 92 %</div></div></div>
-    <div class="mono" style="margin-top:80px;font-size:28px;letter-spacing:.22em;color:#9db8ff">CE QUE J’AI APPRIS</div>
-    ${[['Cherche','automatisation créative, équipes courtes'],['Ton','direct, chaleureux, peu de jargon'],['Valeurs','impact, détail, ateliers courts'],['Contact','Camille R., responsable recrutement'],['Atout','ton profil lie design et code']].map((r,i)=>{const a=ramp(t,L.target+.5+i*.28,L.target+.9+i*.28);return `<div class="card" style="position:relative;margin-top:26px;height:150px;opacity:${a};transform:translateX(${(1-eo(a))*70}px)"><div class="abs" style="left:38px;top:26px;font-size:28px;color:#9db8ff">${r[0]}</div><div class="abs" style="left:38px;top:70px;font-size:40px;font-weight:600">${r[1]}</div></div>`}).join('')}</div>`}
- }
- if(t>=L.mail){ // the mail, written, with its attachment
-  const m=eo(ramp(t,L.mail,L.mail+.6)),at=ramp(t,L.tapAttach,L.tapAttach+.12)*(1-ramp(t,L.tapAttach+.12,L.tapAttach+.35)),ap=eo(ramp(t,L.attach,L.attach+.6));
-  h=wall(W,H)+status(W)+`<div class="abs" style="inset:0;background:#080b1f"></div>`;
-  h+=`<div class="abs" style="left:56px;top:150px;font-size:60px;font-weight:700;letter-spacing:-.02em;opacity:${m}">Nouveau mail</div><div class="chip" style="right:56px;top:156px;height:76px;background:#34d6b0;color:#052;font-size:34px;opacity:${m}">Envoyer</div>`;
-  const rows=[['À','recrutement@maison-lumen.exemple'],['Objet','Candidature — Léa Dupont']];
-  rows.forEach((r,i)=>{h+=`<div class="abs" style="left:56px;right:56px;top:${300+i*118}px;height:100px;border-bottom:2px solid #ffffff22;opacity:${m}"><span class="mono" style="font-size:28px;color:#9db8ff;line-height:100px">${r[0]}</span><span style="position:absolute;left:170px;top:0;line-height:100px;font-size:38px;font-weight:550">${r[1]}</span></div>`});
-  const body='Bonjour Camille,\n\nJ’ai lu avec attention votre manière de relier le design et le code, et j’aimerais vous montrer comment mon parcours peut y répondre. Ma lettre est en pièce jointe.\n\nBien cordialement,\nLéa Dupont';
-  h+=`<div class="abs" style="left:56px;right:56px;top:560px;font-size:40px;line-height:1.5;color:#e6e9ff;white-space:pre-wrap;opacity:${m}">${typed(body,t,L.mail+.3,L.mail+2.4)}</div>`;
-  h+=`<div class="card" style="left:56px;right:56px;top:1280px;height:170px;opacity:${eo(ramp(t,L.mail+2.0,L.mail+2.6))};border-color:${at>0?'#8b7bff':'#ffffff22'};transform:scale(${1-.03*at})"><div class="abs" style="left:34px;top:34px;width:78px;height:102px">${docPage(0,0,0,78,102,{style:'border-radius:5px'})}</div><div class="abs" style="left:150px;top:36px;font-size:40px;font-weight:650">Candidature_Maison-Lumen.pdf</div><div class="abs mono" style="left:150px;top:96px;font-size:26px;color:#9db8ff">212 Ko · pièce jointe</div></div>`;
-  if(ap>0){h+=`<div class="abs" style="inset:0;background:#05060f;opacity:${ap}"></div>`+docPage(0,70,150+(1-ap)*80,940,1500,{style:`opacity:${ap}`})+`<div class="abs" style="left:70px;top:70px;font-size:40px;font-weight:650;opacity:${ap}">Candidature_Maison-Lumen.pdf</div>`}
- }
- // a finger: a ripple where it taps
- const ripple=(x,y,a)=>a>0?`<div class="abs" style="left:${x-90}px;top:${y-90}px;width:180px;height:180px;border-radius:50%;background:radial-gradient(circle,#ffffffaa,#ffffff00 70%);opacity:${a};transform:scale(${1.4-.4*a})"></div>`:'';
- h+=ripple(46+252*1+118,2269,tap)+ripple(540,1365,at_(t,L));
+const MAILS=[['Camille R. · Maison Lumen','recrutement@maison-lumen.exemple','Source : page « Équipe » du site, jointe au profil'],['Atelier Nord','contact@atelier-nord.exemple','Source : offre publiée le 3 nov.'],['Studio Kōri','jobs@studio-kori.exemple','Source : page « Carrières »']];
+function p2(t){const W=1080,H=2400,L=TL.P2;let h=`<div class="abs" style="inset:0;background:radial-gradient(${W*.9}px ${H*.8}px at 18% 10%,#26358a,transparent 62%),#070a1e"></div>`+status(W);
+ const tap=ramp(t,L.tapTargets,L.tapTargets+.12)*(1-ramp(t,L.tapTargets+.12,L.tapTargets+.35)),inT=t>=L.tapTargets+.2&&t<L.mail,pickT=ramp(t,L.openTarget-.2,L.openTarget)*(1-ramp(t,L.openTarget+.25,L.openTarget+.45));
+ if(!inT&&t<L.mail)h+=aWin('Documents',aNote(REPO,PAL.gold)+docRows(-1,{pressCib:tap>.3}))+rip('cib0',tap);
+ if(inT){ // « Cibles »: who it could be sent to, with where each one was found
+  let inner=aNote('Touche une cible : un mail ouvre ta messagerie avec l’objet et le texte déjà écrits. Les cibles pâles n’ont pas de source : à vérifier.');
+  MAILS.forEach((m,i)=>{inner+=aRow('✉  '+m[0],m[1]+'\n'+m[2],{id:'t'+i,alpha:i===0?1:.78,btns:aBtn('PJ (2)',{color:PAL.green})+aBtn('Texte',{id:i===0?'txt0':''}),style:i===0&&pickT>.3?'filter:brightness(1.35)':''})});
+  inner+=aRow('＋ Chercher d’autres cibles','Je demande à la session d’en trouver et d’écrire la fiche. Personne n’est contacté.');
+  h+=aWin('Cibles',inner);
+  const tx=ramp(t,L.target,L.target+.3)*(1-ramp(t,L.mail-.3,L.mail));
+  if(tx>0)h+=`<div class="abs" style="inset:0;background:#000000aa;opacity:${tx}"></div><div class="abs" style="left:${dp(28)}px;right:${dp(28)}px;top:${dp(150)}px;opacity:${tx};transform:translateY(${(1-tx)*40}px);background:#2b2f4d;border-radius:${dp(28)}px;padding:${dp(24)}px"><div style="font-size:${dp(20)}px;font-weight:600">Candidature — Théodore Yong</div><div style="font-size:${dp(15)}px;color:#d6dcf5;line-height:1.5;margin-top:${dp(14)}px;white-space:pre-line">Bonjour Camille,\n\nJ’ai lu votre manière de relier le design et le code. Je construis Aiwa, un assistant à la voix : j’aimerais vous montrer comment mon parcours peut servir votre équipe. Mon CV et ma lettre sont joints.\n\nBien cordialement,\nThéodore Yong</div><div style="display:flex;justify-content:flex-end;gap:${dp(24)}px;margin-top:${dp(18)}px;font-size:${dp(14)}px;font-weight:600;color:#aebdff"><span>FERMER</span><span>COPIER</span></div></div>`;
+  h+=rip('t0',pickT)}
+ if(t>=L.mail){ // the mail of the phone opens, written, with the files that were ticked
+  const m=eo(ramp(t,L.mail,L.mail+.45)),at=at_(t,L),ap=eo(ramp(t,L.attach,L.attach+.6));
+  h=`<div class="abs" style="inset:0;background:#0f1117"></div>`+status(W);
+  h+=`<div class="abs" style="left:0;right:0;top:0;padding:${dp(40)}px ${dp(16)}px 0;opacity:${m}"><div style="display:flex;align-items:center;gap:${dp(18)}px;height:${dp(56)}px;font-size:${dp(20)}px"><span style="font-size:${dp(26)}px">←</span><span style="flex:1">Nouveau message</span><span style="color:#9db8ff;font-size:${dp(24)}px">➤</span></div>
+   ${[['De','theodoreyong9@…'],['À',MAILS[0][1]],['Objet','Candidature — Théodore Yong']].map(r=>`<div style="display:flex;gap:${dp(14)}px;border-bottom:1px solid #ffffff22;padding:${dp(14)}px 0;font-size:${dp(15)}px"><span style="color:#8a90a8;width:${dp(44)}px">${r[0]}</span><span>${r[1]}</span></div>`).join('')}
+   <div style="font-size:${dp(15)}px;line-height:1.55;color:#e6e9f5;margin-top:${dp(16)}px;white-space:pre-wrap;min-height:${dp(300)}px">${typed('Bonjour Camille,\n\nJ’ai lu votre manière de relier le design et le code. Je construis Aiwa, un assistant à la voix : j’aimerais vous montrer comment mon parcours peut servir votre équipe. Mon CV et ma lettre sont joints.\n\nBien cordialement,\nThéodore Yong',t,L.mail+.2,L.mail+2.2)}</div>
+   <div data-id="att" style="display:flex;align-items:center;gap:${dp(12)}px;margin-top:${dp(10)}px;width:${dp(250)}px;padding:${dp(10)}px ${dp(14)}px;border-radius:${dp(12)}px;background:${at>0?'#3a3f66':'#232634'};opacity:${eo(ramp(t,L.mail+1.6,L.mail+2.2))}"><span style="font-size:${dp(20)}px">📄</span><span style="font-size:${dp(13.5)}px;line-height:1.3">Candidature — Maison Lumen<br><span style="color:#8a90a8">PDF · 148 Ko</span></span></div></div>`;
+  if(ap>0)h+=`<div class="abs" style="inset:0;background:${PAL.back};opacity:${ap}"></div>`+docView(0,70,150+(1-ap)*80,940,1500,{style:`opacity:${ap}`});
+  h+=rip('att',at)}
  return h}
 function at_(t,L){return ramp(t,L.tapAttach,L.tapAttach+.12)*(1-ramp(t,L.tapAttach+.12,L.tapAttach+.35))}
 
@@ -170,7 +154,7 @@ function profile(t,W,H,improve){ // the profile page: the video of the swipe on 
  s+=`<div class="abs" style="left:0;top:${W*9/16-90}px;width:${W}px;height:90px;background:linear-gradient(180deg,#0000,#070a1e)"></div>`;
  const y0=W*9/16+10;
  s+=`<div class="abs" style="left:46px;top:${y0}px;width:150px;height:150px;border-radius:50%;background:linear-gradient(135deg,#8b7bff,#34d6b0);border:6px solid #070a1e;display:flex;align-items:center;justify-content:center;font-size:70px;font-weight:700">L</div>`;
- s+=`<div class="abs" style="left:226px;top:${y0+20}px;font-size:56px;font-weight:700;letter-spacing:-.02em">Léa Dupont</div><div class="abs" style="left:228px;top:${y0+92}px;font-size:30px;color:#a8b3e8">Cheffe de produit · Lyon</div>`;
+ s+=`<div class="abs" style="left:226px;top:${y0+20}px;font-size:56px;font-weight:700;letter-spacing:-.02em">Théodore Yong</div><div class="abs" style="left:228px;top:${y0+92}px;font-size:30px;color:#a8b3e8">Cheffe de produit · Lyon</div>`;
  s+=`<div class="abs" style="left:46px;right:46px;top:${y0+190}px;font-size:36px;line-height:1.45;color:#e0e4ff">Je relie le design et le code pour lancer des produits qui se montrent d’eux-mêmes.</div>`;
  ['design','code','voix','produit'].forEach((c,i)=>s+=`<div class="chip" style="left:${46+i*190}px;top:${y0+380}px;height:62px;background:#8b7bff30;border:2px solid #8b7bff77;font-size:28px">${c}</div>`);
  // the profile gets better, with what was learned about the target
@@ -187,14 +171,7 @@ function scenarioCard(t,W,H){const L=TL.P3.scenario;const a=eo(ramp(t,L[0]+.8,L[
  if(toast>0)s+=`<div class="abs" style="left:0;right:0;top:1000px;display:flex;justify-content:center;opacity:${toast};transform:translateY(${(1-toast)*40}px)"><div style="padding:34px 70px;border-radius:99px;background:#34d6b0;color:#04281c;font-size:56px;font-weight:700;display:flex;gap:20px;align-items:center">${svg('check').replace('<svg','<svg style="width:60px;height:60px;stroke:#04281c"')} Scénario Job créé</div></div>`;
  return s}
 const PEOPLE=[['Samir','Motion designer','Paris'],['Inès','Développeuse','Nantes'],['Théo','Réalisateur','Lyon'],['Camille','Recrutement · Maison Lumen','Lyon']];
-function deck(t,W,H){const L=TL.P3.swipe;const a=ramp(t,L[0]-.4,L[0]+.3);let s=`<div class="abs" style="inset:0;background:#070a1e;opacity:${a}"></div>`;
- const k=(t-L[0])/ (TL.P3.match-L[0]); // 0..1 : cards pass, then Camille's card stays
- for(let i=0;i<4;i++){const start=L[0]+i*.55,pass=ramp(t,start+.35,start+.8);if(i<3&&pass>=1)continue;const stay=i===3;
-   const x=stay?0:eo(pass)*(i%2?-1:1)*1400,rot=stay?0:eo(pass)*(i%2?-1:1)*18,vis=ramp(t,start-.05,start+.2);
-   s+=`<div class="abs" style="left:70px;top:230px;width:940px;height:1500px;border-radius:44px;overflow:hidden;opacity:${vis*a};transform:translateX(${x}px) rotate(${rot}deg) scale(${stay?1:.98});background:linear-gradient(180deg,hsl(${i*70+230},50%,32%),hsl(${i*70+270},45%,16%));box-shadow:0 40px 100px #000a">
-     <div class="abs" style="left:0;right:0;top:0;height:900px;background:radial-gradient(circle at 50% 38%,hsl(${i*70+200},60%,55%),transparent 60%)"></div>
-     <div class="abs" style="left:56px;bottom:320px;font-size:84px;font-weight:700;letter-spacing:-.02em">${PEOPLE[i][0]}</div><div class="abs" style="left:58px;bottom:240px;font-size:38px;color:#dfe4ff">${PEOPLE[i][1]} · ${PEOPLE[i][2]}</div>
-     <div class="abs" style="left:56px;bottom:130px;right:56px;font-size:32px;color:#b9c2f2">${i===3?'Cherche une cheffe de produit qui relie design et code':'Profil du Swipe'}</div></div>`}
+function deck(t,W,H){const L=TL.P3.swipe;let s='';
  // the match
  const mT=TL.P3.match,mt=eo(ramp(t,mT,mT+.5))*(1-ramp(t,mT+1.6,mT+2.0));
  if(mt>0)s+=`<div class="abs" style="left:0;right:0;top:700px;text-align:center;opacity:${mt};transform:scale(${.7+.3*mt})"><div style="display:inline-flex;gap:0;align-items:center"><div style="width:230px;height:230px;border-radius:50%;background:linear-gradient(135deg,#8b7bff,#34d6b0);display:flex;align-items:center;justify-content:center;font-size:110px;font-weight:700;border:8px solid #070a1e">L</div><div style="width:230px;height:230px;border-radius:50%;margin-left:-40px;background:linear-gradient(135deg,#e09a7c,#a77bd6);display:flex;align-items:center;justify-content:center;font-size:110px;font-weight:700;border:8px solid #070a1e">C</div></div><div style="font-size:110px;font-weight:700;margin-top:30px;letter-spacing:-.03em">Match</div></div>`;
@@ -230,9 +207,8 @@ function passage(t,W,H){const P=TL.P3.passage,u=ramp(t,P[0],P[1]),fillv=eo(ramp(
  for(let i=0;i<60;i++){const z=((rnd(i)+t*.18)%1),x=cx+(rnd(i+5)-.5)*1200*z,y=cy+(rnd(i+9)-.5)*1600*z,sz=2+z*9;s+=`<div class="abs" style="left:${x}px;top:${y}px;width:${sz}px;height:${sz}px;border-radius:50%;background:#e8e2ff;opacity:${(1-z)*.8*eo(ramp(t,P[0]+1,P[0]+2))}"></div>`}
  return s}
 function p3(t){const W=1080,H=2400,L=TL.P3;
- let h=`<div class="abs" style="inset:0;background:#070a1e"></div>`;
+ let h='';
  const imp=ramp(t,L.improve[0]+1.6,L.improve[1]-1.2),m=eo(ramp(t,L.tracker[0],L.tracker[1]));
- h+=profile(t,W,H,imp);
  h+=status(W);
  // the keys of the application become the follow-up of the campaign
  h+=keysBar(t,m)+tracker(t,m);
@@ -252,13 +228,53 @@ function endcard(t){const W=1920,H=1080,a=eo(ramp(t,TL.end.card[0],TL.end.card[0
 function titlecard(t){const W=1920,H=1080,a=eo(ramp(t,.3,1.2))*(1-ramp(t,TL.title[1]-.5,TL.title[1]));
  return `<div class="abs" style="inset:0;background:#02030a"></div><div class="abs" style="left:0;right:0;top:420px;text-align:center;font-size:70px;font-weight:600;letter-spacing:-.025em;opacity:${a};transform:translateY(${(1-a)*20}px)">${typed('Discover the next-gen vibecoding network.',t,.4,2.4)}</div>`}
 
+
+// ---------------------------------------------------------------------------------------------------------------- the real profile page (Profile/index.html, as the application shows it), kept alive between frames
+const NAMES=[['sa<br>mir','Motion designer · Paris'],['i<br>nès','Développeuse · Nantes'],['théo<br>fil','Réalisateur · Lyon'],['cam<br>ille','Recrutement · Maison Lumen · Lyon']];
+let REAL=null;
+async function realInit(){
+ const host=document.createElement('div');host.id='real';host.style.cssText='position:absolute;left:0;top:0;width:1080px;height:2400px;overflow:hidden;background:#05060f';document.body.insertBefore(host,$('root'));$('root').style.zIndex=2;$('root').style.pointerEvents='none';
+ const U=1080/412,fr=[],TOP=70,HH=(2400-TOP-170)/U;
+ for(let i=0;i<5;i++){const w=document.createElement('div');w.style.cssText=`position:absolute;left:0;top:${TOP}px;width:412px;height:${HH}px;transform-origin:0 0;transform:scale(${U})`;const f=document.createElement('iframe');f.style.cssText=`border:0;width:412px;height:${HH}px;background:#05060f`;f.src='/Profile/index.html';w.appendChild(f);host.appendChild(w);fr.push({w,f})}
+ await Promise.all(fr.map(x=>new Promise(r=>x.f.addEventListener('load',r))));
+ await new Promise(r=>setTimeout(r,3200));
+ fr.forEach((x,i)=>{const d=x.f.contentDocument,F=d.querySelector('.frame');
+  d.querySelectorAll('video.bg').forEach(v=>{v.pause()});
+  if(i===0){F.style.aspectRatio='16/9';F.innerHTML='<img id="bgf" style="width:100%;height:100%;object-fit:cover;display:block">';
+   const say=d.querySelector('.say');const imp=d.createElement('section');imp.id='imp';imp.style.cssText='display:grid;gap:8px;margin:6px 0';
+   [['Pour Maison Lumen','Automatisation créative : trois projets en lien'],['Ce que j’apporte','Ton direct, ateliers courts, détail soigné'],['Projet en cours','Un outil de lancement piloté à la voix']].forEach(r=>{const c=d.createElement('div');c.className='imp1';c.style.cssText='border-radius:14px;padding:10px 14px;background:linear-gradient(180deg,rgba(255,255,255,.2),rgba(255,255,255,.05));backdrop-filter:blur(8px);border:1px solid rgba(52,214,176,.6);opacity:0';c.innerHTML=`<div style="font:600 11px 'DejaVu Sans Mono',monospace;letter-spacing:.16em;color:#9db8ff;text-transform:uppercase">${r[0]}</div><div style="font-size:15px;margin-top:3px">${r[1]}</div>`;imp.appendChild(c)});
+   say.after(imp);
+  }else{const nm=NAMES[i-1];d.querySelector('.name').innerHTML=nm[0].split('<br>').map(x=>`<span>${x}</span>`).join('<br>');F.innerHTML=`<div style="width:100%;height:100%;background:linear-gradient(135deg,hsl(${i*70+200},55%,38%),hsl(${i*70+250},50%,16%))"></div>`;d.querySelector('.say').textContent=nm[1];d.documentElement.style.filter=`hue-rotate(${i*55}deg)`;}
+ });
+ REAL=fr;
+ const r=fr[0].f.contentDocument.querySelector('.frame').getBoundingClientRect();window.__frameRect=[r.left*U,TOP+r.top*U,r.width*U,r.height*U];
+}
+function realUpdate(t,imp){
+ const mm=eo(ramp(t,TL.P3.tracker[0],TL.P3.tracker[1]));REAL.forEach(x=>{const dk=x.f.contentDocument.querySelector('.dock');if(dk)dk.style.opacity=1-mm});
+ const L=TL.P3,sw=L.swipe;const d0=REAL[0].f.contentDocument;
+ const img=d0.getElementById('bgf');if(img){const tt=Math.min(t,TL.R3.out[1]),i=Math.round(tt*TL.fps);const src=`/bgframes/${String(i).padStart(5,'0')}.jpg`;if(img.getAttribute('src')!==src)img.setAttribute('src',src)}
+ d0.scrollingElement.scrollTop=eo(ramp(imp,.2,.9))*Math.max(0,d0.scrollingElement.scrollHeight-d0.documentElement.clientHeight);d0.querySelectorAll('.imp1').forEach((c,i)=>{const a=eo(ramp(imp,.12+i*.2,.34+i*.2));c.style.opacity=a;c.style.transform=`translateX(${(1-a)*60}px)`});
+ const a=ramp(t,sw[0]-.4,sw[0]+.3);
+ REAL[0].w.style.opacity=1;
+ for(let i=1;i<5;i++){const w=REAL[i].w;
+  const k=i-1,start=sw[0]+k*.55,pass=ramp(t,start+.35,start+.8),stay=k===3-0&&false;
+  const last=k===3; // the last card stays (Camille)
+  const x=last?0:eo(pass)*(k%2?-1:1)*1400,rot=last?0:eo(pass)*(k%2?-1:1)*18,vis=ramp(t,start-.05,start+.2)*a;
+  const gone=!last&&pass>=1;
+  w.style.opacity=gone?0:vis;w.style.transform=`translateX(${x}px) rotate(${rot}deg) scale(${(1080/412)*1})`;w.style.transformOrigin='540px 1200px';
+  w.style.transform=`translateX(${x}px) rotate(${rot}deg) scale(${1080/412})`;w.style.transformOrigin='0 0'}
+}
+
 const SIZES={tv0:[1920,1080],p1:[1080,2400],p2:[1080,2400],p3:[1080,2400],end:[1920,1080],title:[1920,1080]};
 let inited=false;
 window.render=async function(t){
  const [W,H]=SIZES[MODE];
  if(!inited){document.documentElement.style.width=W+'px';document.documentElement.style.height=H+'px';$('root').style.width=W+'px';$('root').style.height=H+'px';inited=true}
  const fn={tv0,p1,p2,p3,end:endcard,title:titlecard}[MODE];
+ if(MODE==='p3'&&!REAL)await realInit();
+ if(MODE==='p3'){const L=TL.P3;realUpdate(t,ramp(t,L.improve[0]+1.6,L.improve[1]-1.2))}
  $('root').innerHTML=fn(t);
+ document.querySelectorAll('.rip').forEach(r=>{const e=document.querySelector('[data-id="'+r.dataset.at+'"]');if(e){const b=e.getBoundingClientRect();r.style.left=(b.left+b.width/2-90)+'px';r.style.top=(b.top+b.height/2-90)+'px'}});
  await Promise.all([...document.images].map(i=>i.decode().catch(()=>{})));
 };
 </script></body></html>
