@@ -174,6 +174,8 @@ class Station:
         loc = np.stack([X, Y, -self.Z, np.ones_like(X)]).reshape(4, -1)
         self.P = (self.Mw @ loc)[:3].astype(np.float32)                     # the world points of the picture
         self.col = self.img.reshape(-1, 3)
+        full = np.asarray(Image.open(os.path.join(ST, tag + '.png')).convert('RGB'))
+        self.PADN = 1300; self.full = Image.fromarray(np.pad(full, ((self.PADN, self.PADN), (self.PADN, self.PADN), (0, 0)), mode='edge'))
     def project(self, Mt, pts):
         Ti = np.linalg.inv(Mt); out = []
         for p in pts:
@@ -268,9 +270,26 @@ def paint_screens(base_img, st, Mt, items):
         out = out * (1 - m) + pad * m
     return out
 
+def plane_blend(st, Mt, dev, splat):
+    """Near the screen the surroundings are magnified a lot: there, the room is taken as a plane (the plane of the screen) and the picture is simply enlarged (clean), while far from it the depth moves things apart (parallax)."""
+    sc = st.j['screens'][dev]; k = OW / st.j['width']
+    q_src = [(x * 1.0, y * 1.0) for x, y in sc['px']]; q_t = st.project(Mt, sc['world'])
+    m = area_scale(q_t) / max(1e-6, area_scale(q_src) * k)
+    w = smooth(ramp(m, 1.12, 1.5))
+    if w <= 0: return splat
+    sx = sum(p[0] for p in q_src) / 4; sy = sum(p[1] for p in q_src) / 4; tx = sum(p[0] for p in q_t) / 4; ty = sum(p[1] for p in q_t) / 4
+    sc_ = m * k                                                    # source pixels -> frame pixels (a zoom about the screen: no perspective, so a tilted screen does not stretch the room)
+    P = st.PADN
+    plane_img = st.full.transform((OW, OH), Image.AFFINE, (1 / sc_, 0, sx + P - tx / sc_, 0, 1 / sc_, sy + P - ty / sc_), Image.BICUBIC)
+    plane_img = plane_img.filter(ImageFilter.GaussianBlur(10 + 8 * w))                         # a shallow field: what is around the screen is soft, as it would be with a lens this close
+    plane = np.asarray(plane_img, np.float32)
+    yy, xx = np.mgrid[0:OH, 0:OW]; vig = np.clip(1 - .55 * (((xx - tx) / (OW * .62)) ** 2 + ((yy - ty) / (OH * .62)) ** 2), .3, 1)[..., None]
+    plane = plane * (1 - w + w * vig * .8)
+    return splat * (1 - w) + plane * w
+
 def station_frame(i, t, devs=None):
     st = get_station('S%d' % i); Mt = station_pose(i, t)
-    base = st.reproject(Mt)
+    base = plane_blend(st, Mt, CONF['S%d' % i][0], st.reproject(Mt))
     devs = devs or [d for d in st.j['screens']]
     items = [(d, content_for(i, d, t)) for d in devs]
     return Image.fromarray(np.clip(paint_screens(base, st, Mt, items), 0, 255).astype(np.uint8))

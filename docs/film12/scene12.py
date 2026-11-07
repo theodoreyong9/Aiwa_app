@@ -13,6 +13,7 @@ A = kit.args
 SHOT, OUT = A('shot', 'S1'), A('out', '/tmp/os12/st')
 W, H, SAMPLES = A('width', 3840, int), A('height', 2160, int), A('samples', 128, int)
 VARIANT, FRAME, MASK = A('variant', 'on'), A('frame', -1, int), A('mask', 1, int)
+JSON_ONLY = A('json_only', 0, int)
 ASSETS = A('assets', '/tmp/ph')
 NFRAMES = 36                                   # the phone taken from the console: frames 0..35
 
@@ -177,7 +178,7 @@ def make_camera(loc, target, lens=50, fstop=2.2, focus=None, shift=(0, 0), roll=
 def corners_px(obj, cam):
     """The four corners of a screen in pixels of the picture: top-left, top-right, bottom-right, bottom-left (as the picture shows them)."""
     bpy.context.view_layer.update()
-    w, h = obj.dimensions.x, obj.dimensions.z
+    xs = [v.co.x for v in obj.data.vertices]; zs = [v.co.z for v in obj.data.vertices]; w, h = max(xs) - min(xs), max(zs) - min(zs)
     pts = []
     for p in ((-w / 2, 0, h / 2), (w / 2, 0, h / 2), (w / 2, 0, -h / 2), (-w / 2, 0, -h / 2)):
         co = world_to_camera_view(S, cam, obj.matrix_world @ V(p)); pts.append((co.x * W, (1 - co.y) * H))
@@ -332,7 +333,7 @@ def export_screens(cam, names=None):
     for n, o in SCREENS.items():
         if names and n not in names: continue
         if o.name not in bpy.context.scene.objects: continue
-        bpy.context.view_layer.update(); M = o.matrix_world; w, h = o.dimensions.x, o.dimensions.z
+        bpy.context.view_layer.update(); M = o.matrix_world; xs = [v.co.x for v in o.data.vertices]; zs = [v.co.z for v in o.data.vertices]; w, h = max(xs) - min(xs), max(zs) - min(zs)
         loc = [(-w / 2, 0, h / 2), (w / 2, 0, h / 2), (w / 2, 0, -h / 2), (-w / 2, 0, -h / 2)]
         world = [list(M @ V(p)) for p in loc]
         px = corners_px(o, cam)
@@ -343,11 +344,12 @@ def export_screens(cam, names=None):
 ZMAX = 48.0
 def render_passes(tag, cam, info_extra):
     os.makedirs(OUT, exist_ok=True)
-    S.render.filepath = os.path.join(OUT, tag + '.png'); bpy.ops.render.render(write_still=True)
+    if not JSON_ONLY: S.render.filepath = os.path.join(OUT, tag + '.png'); bpy.ops.render.render(write_still=True)
     K = {'fx': cam.data.lens / cam.data.sensor_width * W, 'fy': cam.data.lens / cam.data.sensor_width * W, 'cx': W / 2, 'cy': H / 2}
     info = {'width': W, 'height': H, 'K': K, 'cam': [list(r) for r in cam.matrix_world], 'zmax': ZMAX, 'screens': export_screens(cam, info_extra.get('devices'))}
     info.update({k: v for k, v in info_extra.items() if k in ('lens', 'k', 'accent', 'device', 'devices', 'cam_local', 'look_local')})
     json.dump(info, open(os.path.join(OUT, tag + '.json'), 'w'))
+    if JSON_ONLY: return
     # the mask (white = the screens) and the depth (the distance along the axis of the camera, over ZMAX, 16 bits)
     wh = emissive('mwhite', '#ffffff', 1.0); bk = emissive('mblack', '#000000', 1.0)
     dm = bpy.data.materials.new('depthm'); dm.use_nodes = True; nt = dm.node_tree
