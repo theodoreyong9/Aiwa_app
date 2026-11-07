@@ -148,14 +148,24 @@ def slerp(q0, q1, s):
 def lerp_pose(A, B, s):
     q = slerp(quat_from_matrix(A[:3, :3]), quat_from_matrix(B[:3, :3]), s); M = np.eye(4); M[:3, :3] = matrix_from_quat(q); M[:3, 3] = A[:3, 3] * (1 - s) + B[:3, 3] * s; return M
 
+def load_depth(tag):
+    """The depth pass is a 16 bit PNG (PIL reads only 8 bits of it): read with pypng once, kept as a .npy next to it."""
+    p = os.path.join(ST, tag + '_depth.npy')
+    if os.path.exists(p): return np.load(p)
+    import png
+    w, h, rows, info = png.Reader(os.path.join(ST, tag + '_depth.png')).read()
+    a = np.vstack([np.array(r, dtype=np.uint16) for r in rows]).reshape(h, w, info['planes'])[..., 0]
+    try: np.save(p, a)
+    except Exception: pass
+    return a
+
 _st = {}
 class Station:
     def __init__(self, tag):
         j = json.load(open(os.path.join(ST, tag + '.json'))); self.tag = tag; self.j = j
         im = Image.open(os.path.join(ST, tag + '.png')).convert('RGB').resize((OW, OH), Image.LANCZOS); self.img = np.asarray(im, np.float32)
-        dp = Image.open(os.path.join(ST, tag + '_depth.png')); d = np.asarray(dp.convert('I;16') if dp.mode != 'I;16' else dp, np.float32)
-        if d.ndim == 3: d = d[..., 0]
-        d = np.asarray(Image.fromarray(d).resize((OW, OH), Image.BILINEAR), np.float32)
+        d = load_depth(tag)
+        d = np.asarray(Image.fromarray(d.astype(np.float32)).resize((OW, OH), Image.BILINEAR), np.float32)
         self.Z = np.maximum(d / 65535.0 * j['zmax'], .05)
         sx = OW / j['width']; self.fx = j['K']['fx'] * sx; self.fy = j['K']['fy'] * sx; self.cx = OW / 2; self.cy = OH / 2
         self.Mw = np.array(j['cam'], float)
