@@ -245,7 +245,7 @@ def with_overlay(img, t):
         t0 = V['n_s%d' % i]
         if t0 - .25 <= t <= t0 + 7:
             try: img = Image.alpha_composite(img.convert('RGBA'), ui('ov', t, 'png', True)).convert('RGB')
-            except Exception as e: print('overlay', e, file=sys.stderr)
+            except Exception: pass
             break
     return img
 
