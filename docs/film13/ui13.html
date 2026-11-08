@@ -177,7 +177,7 @@ function endcard(t){let bg=`<div class="abs" style="inset:0;background:#02030a">
 function film(t){let seg;
  if(t<BT[0].s0)seg=(t<Vv.q1-.1)?[`<div class="abs" style="inset:0;background:#000"></div>`,'']:hook(t);
  else if(t<BT[0].end)seg=beat2(t);else if(t<BT[1].end)seg=beat3(t);else if(t<BT[2].end)seg=beat4(t);
- else seg=t<EN.black+.7?[`<div class="abs" style="inset:0;background:#000"></div>`,'']:endcard(t);
+ else seg=t<EN.black+.7?(()=>{const u=t-EN.black,p=ramp(u,0,.7);return [aurora(t,.22,0),`<div class="abs" style="left:${W/2-6}px;top:${H/2-6}px;width:12px;height:12px;border-radius:50%;background:#cfd8ff;box-shadow:0 0 ${30+60*p}px ${8+20*p}px #8b7bffcc;opacity:${.35+.65*p}"></div><div class="abs" style="left:${W/2-600*p}px;top:${H/2-2}px;width:${1200*p}px;height:4px;background:linear-gradient(90deg,#0000,#9db8ff,#0000);opacity:${p*(1-p)*3}"></div>`]})():endcard(t);
  const [dx,dy,rot,fl]=shakeAt(t);
  return {bg:seg[0],html:`<div class="abs" style="inset:0;transform:translate(${dx}px,${dy}px) rotate(${rot}deg) scale(1.03)">${seg[1]}</div>`+(fl>0?`<div class="abs" style="inset:0;background:#fff;opacity:${fl}"></div>`:'')+grain()}}
 let inited=false;
