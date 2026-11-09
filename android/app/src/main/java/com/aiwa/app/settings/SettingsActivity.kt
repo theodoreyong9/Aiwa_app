@@ -124,6 +124,19 @@ class SettingsActivity : FloatActivity() {
 
     private fun voice() {
         switchRow(R.drawable.fw_i_volume, "Voix naturelle", "", NaturalVoice.enabled(this), SKY) { NaturalVoice.setEnabled(this, it) }
+        // the engine of the natural voice: « Léger » (Piper: fast, about 80 MB) or « Plus naturel » (Kokoro: heavier, about 350 MB, downloaded when chosen; it speaks only while it keeps up, else the light one takes back)
+        val st = Aiwa.state.value.status
+        val wanted = st?.voiceEngine ?: "piper"
+        val engineLabel = when {
+            wanted != "kokoro" -> "Léger"
+            st?.voiceKokoro == "installing" -> "Plus naturel (téléchargement…)"
+            st?.voiceKokoro == "error" -> "Plus naturel (échec)"
+            st?.voiceActive == "kokoro" -> "Plus naturel"
+            else -> "Plus naturel (en attente)"
+        }
+        entryIcon(R.drawable.fw_i_volume, "Moteur de la voix", st?.voiceNote, SKY, engineLabel, Palette.DIM) {
+            cycle(listOf("piper", "kokoro"), wanted) { e -> Aiwa.brain.voiceEngine(e ?: "piper") }
+        }
         switchRow(R.drawable.fw_i_create, "Création à la volée", "", LiveSettings.enabled(this), PEACH) { LiveSettings.set(this, it) }
         entryIcon(R.drawable.fw_i_ear, "Ma voix", null, Palette.GOLD) { open(VoicePrintActivity::class.java) }
         entryIcon(R.drawable.fw_i_note, "Mon style", null, LILAC) { open(StyleActivity::class.java) }

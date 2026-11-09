@@ -132,6 +132,8 @@ class Brain(private val net: Transport = HttpTransport()) {
     /** The natural voice's sound for a text, or null (not installed yet, or an error: the phone's own voice then speaks). */
     fun say(text: String): ByteArray? = try { net.postBytes("/api/voice/say", JSONObject().put("text", text).toString()) } catch (e: Exception) { null }
     fun voiceSetup(): Outcome = act("/api/voice/setup")
+    /** `engine`: "piper" (light, fast) or "kokoro" (more natural, heavy: downloaded on request, and the light one speaks until it is there). */
+    fun voiceEngine(engine: String): Outcome = act("/api/voice/engine", JSONObject().put("engine", engine))
 
     // ---------- the productions ----------
     /** The list as the brain sends it (kept as it is by the phone, to show the last one at once while the next is read). */

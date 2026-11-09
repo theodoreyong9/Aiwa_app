@@ -28,7 +28,7 @@ def status():
         "self_update": dict(state.self_update_last), "alert_last": last_ping, "silence_minutes": relay.silence_minutes(), "cast": cast.ready(),
         "github_error": problem, "repo_access_missing": missing_access, "github_app_url": config.GITHUB_APP_URL, "github_token": github.token_value() is not None, "github_user": github.connected_user(), "session_error": state.session_error, "github_rate": github.rate(),
         "claude_login": claude_cli.login_state(), "relay_cloud": relay.cloud_state(), "ask": asks.snapshot(), "agent": agent.snapshot(), "diagram": diagram.snapshot(),
-        "chamber": room, "llm": {"state": state.llm.state, **state.llm.usage()}, "voice": state.voice.state, "voice_error": (state.voice.error or "")[:300] if state.voice.state == "error" else None, "profile": profile.profile_state().get("repo"),
+        "chamber": room, "llm": {"state": state.llm.state, **state.llm.usage()}, "voice": state.voice.state, "voice_error": (state.voice.error or "")[:300] if state.voice.state == "error" else None, "voice_engine": state.voice.engine, "voice_active": state.voice.active(), "voice_kokoro": state.voice.kokoro, "voice_note": state.voice.note, "profile": profile.profile_state().get("repo"),
     }
 
 
@@ -306,6 +306,7 @@ POST = {
     "/api/github/login/start": lambda body, data: github_login.start(),
     "/api/github/login/cancel": lambda body, data: github_login.cancel(),
     "/api/voice/setup": lambda body, data: (state.voice.install(), {"ok": True, "state": state.voice.state})[1],
+    "/api/voice/engine": lambda body, data: state.voice.set_engine(str(data.get("engine", ""))),
     "/api/screen": lambda body, data: agent.set_screen(data),
 }
 POST_PREFIX = (

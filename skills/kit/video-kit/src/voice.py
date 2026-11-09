@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 """A voice-over track from a list of cues, with a local text-to-speech engine. No account, no network, no licence question.
 
-  voice.py cues.json out.wav SECONDS [--lang=fr] [--speed=150] [--voice=NAME]
+  voice.py cues.json out.wav SECONDS [--lang=fr|en] [--engine=piper|kokoro] [--speed=150] [--voice=NAME]
 
   cues.json: [ { "at": 3.2, "text": "Salut, je suis Yo." }, … ]    each line is spoken from its `at` second; the track is SECONDS long
-  Engines, in order: piper (PIPER_BIN and PIPER_MODEL set), sherpa (the Piper voice "siwis medium", French, natural: run `sh voice-setup.sh` once; the speed
-  is --kspeed=1.0), kokoro (`sh voice-setup.sh --with-kokoro`: another neural voice, French and English), espeak-ng (`apt-get install -y espeak-ng`:
+  Engines, in order: piper (PIPER_BIN and PIPER_MODEL set), sherpa (the Piper voice "siwis medium", French, natural: run `sh voice-setup.sh` once; in English the Piper voice
+  "ryan high", `sh voice-setup.sh --with-english`; the speed is --kspeed=1.0), sherpa-kokoro (`sh voice-setup.sh --with-kokoro`: the Kokoro voice, French "ff_siwis" and English,
+  more natural but about five times slower: fine for a film, too slow for a live conversation; chosen first with --engine=kokoro), kokoro (the kokoro-onnx package, if it is there already), espeak-ng (`apt-get install -y espeak-ng`:
   intelligible, robotic), flite. Every voice goes through the same light mastering (equaliser, soft compression, a little room) so that it sits in a mix.
   The engine used and the duration of each line are printed as JSON, so that a line which runs into the next one can be seen and shortened.
   Honest limit: espeak-ng is robotic; the neural voices are far more natural, but they are not a studio narrator. Say which engine spoke.
@@ -28,10 +29,26 @@ def load_kokoro():
         return None
 
 
-def load_sherpa():
-    """The Piper voice "siwis medium" through sherpa-onnx, or None (see voice-setup.sh; SHERPA_VOICE_DIR overrides the place)."""
-    d = os.environ.get('SHERPA_VOICE_DIR') or os.path.join(os.path.expanduser('~'), '.cache', 'aiwa-video', 'vits-piper-fr_FR-siwis-medium')
-    onnx = os.path.join(d, 'fr_FR-siwis-medium.onnx')
+def load_sherpa_kokoro(lang):
+    """The Kokoro voice (multi-lang v1.0) through sherpa-onnx, or None (see voice-setup.sh --with-kokoro; KOKORO_SHERPA_DIR overrides the place). Its speaker ids: 30 = ff_siwis (French), 3 = af_heart (English)."""
+    d = os.environ.get('KOKORO_SHERPA_DIR') or os.path.join(os.path.expanduser('~'), '.cache', 'aiwa-video', 'kokoro-multi-lang-v1_0')
+    if not os.path.exists(os.path.join(d, 'model.onnx')):
+        return None
+    try:
+        import soundfile  # noqa: F401
+        import sherpa_onnx as so
+        k = so.OfflineTtsKokoroModelConfig(model=os.path.join(d, 'model.onnx'), voices=os.path.join(d, 'voices.bin'), tokens=os.path.join(d, 'tokens.txt'), data_dir=os.path.join(d, 'espeak-ng-data'),
+                                           dict_dir=os.path.join(d, 'dict'), lexicon=os.path.join(d, 'lexicon-us-en.txt') + ',' + os.path.join(d, 'lexicon-zh.txt'), lang={'fr': 'fr', 'en': 'en-us'}.get(lang, lang))
+        return so.OfflineTts(so.OfflineTtsConfig(model=so.OfflineTtsModelConfig(kokoro=k, num_threads=4), max_num_sentences=1))
+    except Exception:
+        return None
+
+
+def load_sherpa(lang='fr'):
+    """The Piper voice through sherpa-onnx (French "siwis medium", English "ryan high"), or None (see voice-setup.sh; SHERPA_VOICE_DIR overrides the place)."""
+    name, file = ('vits-piper-en_US-ryan-high', 'en_US-ryan-high.onnx') if lang == 'en' else ('vits-piper-fr_FR-siwis-medium', 'fr_FR-siwis-medium.onnx')
+    d = os.environ.get('SHERPA_VOICE_DIR') or os.path.join(os.path.expanduser('~'), '.cache', 'aiwa-video', name)
+    onnx = os.path.join(d, file)
     if not os.path.exists(onnx):
         return None
     try:
@@ -56,11 +73,16 @@ def main():
     ffmpeg = os.environ.get('FFMPEG') or 'ffmpeg'
     cues = json.load(open(cues_file))
     tmp = tempfile.mkdtemp(prefix='vo-')
-    engine, kokoro, sherpa = None, None, None
-    if os.environ.get('PIPER_BIN') and os.environ.get('PIPER_MODEL'):
+    engine, kokoro, sherpa, skokoro = None, None, None, None
+    want = opt.get('engine', '')
+    if want == 'kokoro' and (skokoro := load_sherpa_kokoro(lang)):
+        engine = 'sherpa-kokoro'
+    elif os.environ.get('PIPER_BIN') and os.environ.get('PIPER_MODEL'):
         engine = 'piper'
-    elif lang == 'fr' and not voice and (sherpa := load_sherpa()):
+    elif lang in ('fr', 'en') and not voice and (sherpa := load_sherpa(lang)):
         engine = 'sherpa'
+    elif (skokoro := load_sherpa_kokoro(lang)):
+        engine = 'sherpa-kokoro'
     elif (kokoro := load_kokoro()):
         engine = 'kokoro'
     elif shutil.which('espeak-ng'):
@@ -79,6 +101,10 @@ def main():
         elif engine == 'sherpa':
             import soundfile as sf
             audio = sherpa.generate(text, sid=0, speed=float(opt.get('kspeed', 1.0)))
+            sf.write(wav, audio.samples, audio.sample_rate)
+        elif engine == 'sherpa-kokoro':
+            import soundfile as sf
+            audio = skokoro.generate(text, sid=int(opt.get('sid', {'fr': 30, 'en': 3}.get(lang, 30))), speed=float(opt.get('kspeed', 1.0)))
             sf.write(wav, audio.samples, audio.sample_rate)
         elif engine == 'kokoro':
             import soundfile as sf
