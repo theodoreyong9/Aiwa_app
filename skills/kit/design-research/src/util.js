@@ -23,9 +23,15 @@ export function readJsonl(path) {
   return readFileSync(path, 'utf8').split('\n').filter(Boolean).map((line) => JSON.parse(line));
 }
 
+/** Strings that look like a secret (a token, a key) can be in a page we visit (a script, a config left in the source). They are never kept: GitHub refuses a push that holds one, and nothing here needs them. */
+const SECRET = /\b(?:gh[pousr]_[A-Za-z0-9]{30,}|github_pat_[A-Za-z0-9_]{20,}|AKIA[0-9A-Z]{16}|xox[baprs]-[A-Za-z0-9-]{10,}|(?:sk|rk)_live_[A-Za-z0-9]{16,}|AIza[0-9A-Za-z_-]{30,}|sk-ant-[A-Za-z0-9_-]{20,}|sk-[A-Za-z0-9]{32,})\b|-----BEGIN [A-Z ]*PRIVATE KEY-----[\s\S]*?-----END [A-Z ]*PRIVATE KEY-----/g;
+export function redactSecrets(text) {
+  return String(text).replace(SECRET, '[secret removed]');
+}
+
 export function writeJsonl(path, rows) {
   mkdirSync(dirname(path), { recursive: true });
-  writeFileSync(path, rows.map((row) => JSON.stringify(row)).join('\n') + (rows.length ? '\n' : ''));
+  writeFileSync(path, redactSecrets(rows.map((row) => JSON.stringify(row)).join('\n') + (rows.length ? '\n' : '')));
 }
 
 export function readJson(path, fallback) {
@@ -34,7 +40,7 @@ export function readJson(path, fallback) {
 
 export function writeJson(path, value) {
   mkdirSync(dirname(path), { recursive: true });
-  writeFileSync(path, JSON.stringify(value, null, 2) + '\n');
+  writeFileSync(path, redactSecrets(JSON.stringify(value, null, 2) + '\n'));
 }
 
 export const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));

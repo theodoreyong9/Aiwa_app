@@ -46,6 +46,18 @@ jobs:
           if (dead.length) console.error('::warning::no project found at: ' + dead.map(([n]) => n).join(', '));
           if (dead.length === Object.keys(s.registries).length) { console.error('no project found at: ' + dead.map(([n]) => n).join(', ') + '\n' + s.errors.slice(0, 10).join('\n')); process.exit(1); }
           "
+      - name: Scrub secrets (GitHub refuses a push that holds a token found in a visited page)
+        if: always()
+        run: |
+          node --input-type=module -e "
+          import { readdirSync, readFileSync, writeFileSync, statSync } from 'node:fs';
+          import { join } from 'node:path';
+          import { redactSecrets } from './skills/kit/design-research/src/util.js';
+          let n = 0;
+          const walk = (d) => { for (const f of readdirSync(d)) { const p = join(d, f); if (statSync(p).isDirectory()) { if (f !== 'node_modules' && f !== 'screenshots') walk(p); } else if (/\.jsonl?\$/.test(f)) { const t = readFileSync(p, 'utf8'), r = redactSecrets(t); if (r !== t) { writeFileSync(p, r); n++; console.log('scrubbed ' + p); } } } };
+          walk('skills/kit/design-research');
+          console.log(n + ' file(s) scrubbed');
+          "
       - name: Commit the catalogue
         if: always()
         run: |

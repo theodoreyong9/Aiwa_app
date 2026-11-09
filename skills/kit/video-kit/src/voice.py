@@ -4,9 +4,10 @@
   voice.py cues.json out.wav SECONDS [--lang=fr|en] [--engine=piper|kokoro] [--speed=150] [--voice=NAME]
 
   cues.json: [ { "at": 3.2, "text": "Salut, je suis Yo." }, … ]    each line is spoken from its `at` second; the track is SECONDS long
-  Engines, in order: piper (PIPER_BIN and PIPER_MODEL set), sherpa (the Piper voice "siwis medium", French, natural: run `sh voice-setup.sh` once; in English the Piper voice
-  "ryan high", `sh voice-setup.sh --with-english`; the speed is --kspeed=1.0), sherpa-kokoro (`sh voice-setup.sh --with-kokoro`: the Kokoro voice, French "ff_siwis" and English,
-  more natural but about five times slower: fine for a film, too slow for a live conversation; chosen first with --engine=kokoro), kokoro (the kokoro-onnx package, if it is there already), espeak-ng (`apt-get install -y espeak-ng`:
+  Engines, in order: piper (PIPER_BIN and PIPER_MODEL set), then by language: in English the Kokoro voice first (sherpa-kokoro: more natural than Piper, about five times slower,
+  fine for a film, too slow for a live conversation), then the Piper voice "ryan high"; in French the Piper voice "siwis medium" first (as good as Kokoro's French, lighter and faster),
+  then Kokoro; --engine=kokoro puts Kokoro first in any language, --engine=piper puts Piper first. The voices are installed by themselves the first time (`sh voice-setup.sh`, once;
+  AIWA_NO_AUTOSETUP=1 forbids it); the speed is --kspeed=1.0. Then kokoro (the kokoro-onnx package, if it is there already), espeak-ng (`apt-get install -y espeak-ng`:
   intelligible, robotic), flite. Every voice goes through the same light mastering (equaliser, soft compression, a little room) so that it sits in a mix.
   The engine used and the duration of each line are printed as JSON, so that a line which runs into the next one can be seen and shortened.
   Honest limit: espeak-ng is robotic; the neural voices are far more natural, but they are not a studio narrator. Say which engine spoke.
@@ -65,6 +66,27 @@ def load_sherpa(lang='fr'):
 MASTER = 'highpass=f=70,equalizer=f=3000:t=q:w=1.2:g=2.5,equalizer=f=200:t=q:w=1:g=-1.5,acompressor=threshold=-20dB:ratio=3:attack=8:release=120:makeup=3,aecho=0.85:0.4:35|70:0.12|0.06'
 
 
+def _have(name, file):
+    base = os.environ.get('SHERPA_VOICE_DIR') or os.path.join(os.path.expanduser('~'), '.cache', 'aiwa-video', name)
+    return os.path.exists(os.path.join(base, file))
+
+
+def autosetup(lang, want):
+    """Installs the voices once when the one that is needed is missing (a film made in a fresh environment must not speak with a robot because nobody ran the setup)."""
+    if os.environ.get('AIWA_NO_AUTOSETUP'):
+        return
+    kokoro = os.environ.get('KOKORO_SHERPA_DIR') or os.path.join(os.path.expanduser('~'), '.cache', 'aiwa-video', 'kokoro-multi-lang-v1_0')
+    need_kokoro = want == 'kokoro' or (lang == 'en' and want != 'piper')
+    missing = (need_kokoro and not os.path.exists(os.path.join(kokoro, 'model.onnx'))) or (lang == 'fr' and want != 'kokoro' and not _have('vits-piper-fr_FR-siwis-medium', 'fr_FR-siwis-medium.onnx'))
+    if not missing:
+        return
+    print('voice: installing the voices (once)…', file=sys.stderr, flush=True)
+    try:
+        subprocess.run(['sh', os.path.join(os.path.dirname(os.path.abspath(__file__)), 'voice-setup.sh')] + (['--with-english'] if lang == 'en' and want == 'piper' else []), check=False, stdout=sys.stderr, stderr=sys.stderr, timeout=1800)
+    except (OSError, subprocess.SubprocessError) as err:
+        print(f'voice: the installation failed ({err})', file=sys.stderr)
+
+
 def main():
     pos = [a for a in sys.argv[1:] if not a.startswith('--')]
     opt = dict(a[2:].partition('=')[::2] for a in sys.argv[1:] if a.startswith('--'))
@@ -75,13 +97,16 @@ def main():
     tmp = tempfile.mkdtemp(prefix='vo-')
     engine, kokoro, sherpa, skokoro = None, None, None, None
     want = opt.get('engine', '')
-    if want == 'kokoro' and (skokoro := load_sherpa_kokoro(lang)):
-        engine = 'sherpa-kokoro'
-    elif os.environ.get('PIPER_BIN') and os.environ.get('PIPER_MODEL'):
+    if not voice and not (os.environ.get('PIPER_BIN') and os.environ.get('PIPER_MODEL')):
+        autosetup(lang, want)
+    kokoro_first = want == 'kokoro' or (lang == 'en' and want != 'piper')
+    if os.environ.get('PIPER_BIN') and os.environ.get('PIPER_MODEL'):
         engine = 'piper'
+    elif kokoro_first and not voice and (skokoro := load_sherpa_kokoro(lang)):
+        engine = 'sherpa-kokoro'
     elif lang in ('fr', 'en') and not voice and (sherpa := load_sherpa(lang)):
         engine = 'sherpa'
-    elif (skokoro := load_sherpa_kokoro(lang)):
+    elif not voice and (skokoro := load_sherpa_kokoro(lang)):
         engine = 'sherpa-kokoro'
     elif (kokoro := load_kokoro()):
         engine = 'kokoro'

@@ -9,6 +9,7 @@ import { Catalog, fetchRemoteSites } from '../src/catalog/store.js';
 import { discover } from '../src/registry/index.js';
 import { sync, homeDirs, reclassify } from '../src/pipeline.js';
 import { plan } from '../src/retrieval/plan.js';
+import { redactSecrets, writeJson } from '../src/util.js';
 import { search } from '../src/retrieval/search.js';
 import { buildPack } from '../src/pack.js';
 import { siteId, cleanUrl, robotsAllows } from '../src/util.js';
@@ -191,4 +192,17 @@ test('a session without the repository reads the published catalogue and its scr
   assert.deepEqual(refs.references[0].screenshots.desktop, ['screenshots/r.com-desktop-desktop.jpg']);
   assert.ok(existsSync(join(out, 'screenshots', 'r.com-desktop-desktop.jpg')));
   await assert.rejects(fetchRemoteSites('https://example.test/none', async () => ({ ok: false, status: 404 })), /HTTP 404/);
+});
+
+test('a secret found in a visited page is never written to the catalogue (GitHub would refuse the push)', () => {
+  const token = 'ghs_' + 'a1B2c3D4e5F6g7H8i9J0k1L2m3N4o5P6q7R8';          // the shape of a GitHub App token, made up
+  const aws = 'AKIA' + 'ABCDEFGHIJKLMNOP';
+  assert.equal(redactSecrets(`x ${token} y ${aws} z`), 'x [secret removed] y [secret removed] z');
+  assert.equal(redactSecrets('rien à cacher : ghs_court et une phrase'), 'rien à cacher : ghs_court et une phrase');
+  const dir = mkdtempSync(join(tmpdir(), 'dr-secret-'));
+  writeJson(join(dir, 'raw.json'), { script: `var t = "${token}";`, ok: 'visible' });
+  const written = readFileSync(join(dir, 'raw.json'), 'utf8');
+  assert.ok(!written.includes(token));
+  assert.ok(written.includes('visible'));
+  JSON.parse(written);                                   // still valid JSON
 });
