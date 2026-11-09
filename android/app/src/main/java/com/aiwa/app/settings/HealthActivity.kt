@@ -67,7 +67,8 @@ class HealthActivity : FloatActivity() {
             }
             line(status.githubToken, "GitHub : " + if (status.githubToken) "connecté" + (status.githubUser?.let { " ($it)" } ?: "") else "pas connecté (dépôts publics seulement)")
             if (!status.githubToken) entry("Connecter GitHub") { startActivity(android.content.Intent(this, GithubConnectActivity::class.java)) }
-            line(status.voice == "ready", "Voix naturelle : " + when (status.voice) { "ready" -> "prête"; "installing" -> "installation en cours…"; "error" -> "erreur" + (status.voiceError?.let { " : $it" } ?: ""); else -> "pas installée" })
+            line(status.voice == "ready", "Voix naturelle : " + when (status.voice) { "ready" -> "prête" + (if (status.voiceActive == "kokoro") " (plus naturelle)" else " (légère)"); "installing" -> "installation en cours…"; "error" -> "erreur" + (status.voiceError?.let { " : $it" } ?: ""); else -> "pas installée" })
+            status.voiceNote?.let { line(false, "Voix : $it") }
             if (status.voice == "error" || status.voice == "none") entry("Réinstaller la voix naturelle", "Télécharge de nouveau la voix (environ 80 Mo)") {
                 kotlinx.coroutines.CoroutineScope(kotlinx.coroutines.Dispatchers.IO).launch { Aiwa.brain.voiceSetup(); com.aiwa.app.brain.BrainSync.refresh() }
                 toastOnMain(this, "Installation de la voix demandée")

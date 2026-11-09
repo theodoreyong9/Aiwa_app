@@ -141,6 +141,17 @@ class BrainTest {
         assertEquals(listOf("o1"), view.offers.map { it.id })
     }
 
+    @Test fun `the voice engine is read from the status and chosen through the brain`() {
+        net.on("/api/status", """{"version":272,"voice":"ready","voice_engine":"kokoro","voice_active":"piper","voice_kokoro":"installing","voice_note":"télécharge"}""")
+        val s = brain.status()!!
+        assertEquals("kokoro", s.voiceEngine); assertEquals("piper", s.voiceActive); assertEquals("installing", s.voiceKokoro); assertEquals("télécharge", s.voiceNote)
+        net.on("/api/status", """{"version":272,"voice":"ready"}""")
+        val d = brain.status()!!
+        assertEquals("piper", d.voiceEngine); assertEquals("none", d.voiceKokoro); assertNull(d.voiceNote)      // an older brain: the light engine
+        net.on("/api/voice/engine", """{"ok":true,"engine":"kokoro","active":"piper","kokoro":"installing"}""")
+        assertTrue(brain.voiceEngine("kokoro").ok)
+    }
+
     @Test fun `the natural voice is bytes or nothing`() {
         assertNull(brain.say("bonjour"))
         net.bytes = byteArrayOf(1, 2, 3)

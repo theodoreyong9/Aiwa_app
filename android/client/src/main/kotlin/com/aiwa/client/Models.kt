@@ -35,6 +35,8 @@ data class Status(
     val selfUpdate: String?, val silenceMinutes: Int, val cast: CastReady?, val githubError: String?, val repoAccessMissing: String?, val githubAppUrl: String?,
     val githubToken: Boolean, val claudeLogin: String, val relayCloud: String, val ask: Ask?, val agent: AgentView, val chamber: ChamberBrief, val llm: LlmView, val voice: String?, val profile: String?,
     val githubUser: String? = null, val sessionError: String? = null, val lastSend: String? = null, val voiceError: String? = null,
+    /** The voice engine wanted ("piper", the light one, or "kokoro", the more natural and heavier one), the one speaking now, the state of the heavy one's download, and why the voice is not the one wanted. */
+    val voiceEngine: String = "piper", val voiceActive: String? = null, val voiceKokoro: String = "none", val voiceNote: String? = null,
     val githubRate: GithubRate? = null,
     val diagramOn: Boolean = false, val diagramId: Long = 0, val diagramCode: String = "",
 ) {
@@ -51,7 +53,7 @@ data class Status(
             agent = parseAgent(o.obj("agent")),
             chamber = o.obj("chamber")?.let { ChamberBrief(it.optBoolean("active"), it.str("peer"), it.str("name")) } ?: ChamberBrief(false, null, null),
             llm = o.obj("llm")?.let { LlmView(it.optString("state", "none"), it.optLong("used"), it.optLong("cap")) } ?: LlmView("none", 0, 0),
-            voice = o.str("voice"), profile = o.str("profile"), githubUser = o.str("github_user"), sessionError = o.str("session_error"), voiceError = o.str("voice_error"), lastSend = o.obj("last_send")?.let { l -> (if (l.optBoolean("ok")) "parti" else "ÉCHEC : " + l.optString("error")) + " (" + l.optDouble("seconds") + " s, il y a " + ((System.currentTimeMillis() / 1000 - l.optLong("at")) / 60) + " min)" }, diagramOn = o.obj("diagram")?.optBoolean("on") ?: false, diagramId = o.obj("diagram")?.optLong("id") ?: 0, diagramCode = o.obj("diagram")?.optString("code").orEmpty(), githubRate = o.obj("github_rate")?.let { GithubRate(it.optLong("limit"), it.optLong("remaining"), it.optBoolean("account")) },
+            voice = o.str("voice"), profile = o.str("profile"), githubUser = o.str("github_user"), sessionError = o.str("session_error"), voiceError = o.str("voice_error"), voiceEngine = o.optString("voice_engine", "piper").ifBlank { "piper" }, voiceActive = o.str("voice_active"), voiceKokoro = o.optString("voice_kokoro", "none"), voiceNote = o.str("voice_note"), lastSend = o.obj("last_send")?.let { l -> (if (l.optBoolean("ok")) "parti" else "ÉCHEC : " + l.optString("error")) + " (" + l.optDouble("seconds") + " s, il y a " + ((System.currentTimeMillis() / 1000 - l.optLong("at")) / 60) + " min)" }, diagramOn = o.obj("diagram")?.optBoolean("on") ?: false, diagramId = o.obj("diagram")?.optLong("id") ?: 0, diagramCode = o.obj("diagram")?.optString("code").orEmpty(), githubRate = o.obj("github_rate")?.let { GithubRate(it.optLong("limit"), it.optLong("remaining"), it.optBoolean("account")) },
         )
 
         fun parseAgent(a: JSONObject?): AgentView {
