@@ -80,7 +80,10 @@ class BrainTest {
         assertEquals("""{"query":"x"}""", net.asked.last { it.first == "/api/find" }.second)
         net.on("/api/find", """{"ok":true,"repos":["c/p"],"contracts":{"c/p":2}}""")
         assertEquals(listOf("c/p") to null, brain.findProfiles("", "creators", listOf("f/p")))
-        assertEquals("""{"query":"","filter":"creators","favorites":["f/p"]}""", net.asked.last { it.first == "/api/find" }.second)
+        val sent = org.json.JSONObject(net.asked.last { it.first == "/api/find" }.second)      // the order of the keys is not guaranteed
+        assertEquals("", sent.getString("query"))
+        assertEquals("creators", sent.getString("filter"))
+        assertEquals("f/p", sent.getJSONArray("favorites").getString(0))
     }
 
     @Test fun `the traits of a description and the switch of adaptation travel as the brain reads them`() {
