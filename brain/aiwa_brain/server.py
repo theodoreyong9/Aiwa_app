@@ -7,7 +7,7 @@ import time
 import urllib.parse
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
-from . import adapt, agent, agent_lib, asks, attachments, cast, chamber, claude_cli, config, diagram, files, github, github_login, finder, instructions, links, live, memory, profile, questions, relay, repos, scen_sync, scenarios, sessions, state, studio, update, warm
+from . import adapt, agent, agent_lib, asks, attachments, cast, chamber, claude_cli, config, creators, diagram, files, github, github_login, finder, instructions, links, live, memory, profile, questions, relay, repos, scen_sync, scenarios, sessions, state, studio, update, warm
 
 
 def status():
@@ -250,6 +250,7 @@ GET = {
     "/api/style": lambda q: {"ok": True, **state.style.status()},
     "/api/profile": lambda q: profile.profile_state(),
     "/api/profile/check": lambda q: profile.profile_check(),
+    "/api/profile/creator": lambda q: creators.of((q.get("repo") or [""])[0]),
     "/api/profile/pub": lambda q: profile.pub_of((q.get("repo") or [""])[0]),
     "/api/profile/seen": lambda q: profile.seen_of((q.get("repo") or [""])[0]),
 }
@@ -258,7 +259,7 @@ POST = {
     "/api/adapt/rule/change": lambda body, data: adapt.change((data or {}).get("what") or (data or {}).get("id"), (data or {}).get("action") if (data or {}).get("action") in ("on", "off", "remove") else "off"),
     "/api/adapt/derive": lambda body, data: adapt.derive((data or {}).get("description")),
     "/api/adapt/publish": lambda body, data: adapt.publish((data or {}).get("adaptable")),
-    "/api/find": lambda body, data: finder.find((data or {}).get("query") or body),
+    "/api/find": lambda body, data: finder.find((data.get("query") if isinstance(data, dict) else body) or "", data.get("filter") if isinstance(data, dict) else "", data.get("favorites") if isinstance(data, dict) else None),
     "/api/memory/forget": lambda body, data: {"ok": True, "erased": memory.forget((data or {}).get("id") or (data or {}).get("what") or body.strip())},
     "/api/cloud/message": lambda body, data: sessions.cloud_send(body),
     "/api/cloud/command": lambda body, data: sessions.cloud_send(body, command=True),

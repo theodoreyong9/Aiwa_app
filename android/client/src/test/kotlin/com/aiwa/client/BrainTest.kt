@@ -78,6 +78,9 @@ class BrainTest {
         net.on("/api/find", """{"ok":false,"repos":[],"error":"GitHub limite les recherches"}""")
         assertEquals(emptyList<String>() to "GitHub limite les recherches", brain.findProfiles("x"))
         assertEquals("""{"query":"x"}""", net.asked.last { it.first == "/api/find" }.second)
+        net.on("/api/find", """{"ok":true,"repos":["c/p"],"contracts":{"c/p":2}}""")
+        assertEquals(listOf("c/p") to null, brain.findProfiles("", "creators", listOf("f/p")))
+        assertEquals("""{"query":"","filter":"creators","favorites":["f/p"]}""", net.asked.last { it.first == "/api/find" }.second)
     }
 
     @Test fun `the traits of a description and the switch of adaptation travel as the brain reads them`() {

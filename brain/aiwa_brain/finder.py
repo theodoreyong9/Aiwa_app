@@ -6,7 +6,7 @@ import urllib.error
 import urllib.parse
 import urllib.request
 
-from . import agent_lib, github, llm_lib
+from . import agent_lib, creators, github, llm_lib
 
 MAX_TERMS = 5
 MAX_REPOS = 30
@@ -67,23 +67,59 @@ def _search(term):
     return out
 
 
-def find(query):
-    """{"ok", "repos", "terms", "error"}: the profiles found for a sentence, the best first."""
+FILTERS = ("creators", "network")
+
+
+def _network(favorites):
+    """The people this person is connected to: her favourites and what her favourites keep and jumped into."""
+    from . import profile
+    mine = [r for r in (favorites if isinstance(favorites, list) else []) if isinstance(r, str)]
+    try:
+        reached = profile.network(mine).get("deck") or []
+    except Exception:
+        reached = []
+    return list(dict.fromkeys(mine + list(reached)))
+
+
+def find(query, creator_filter="", favorites=None):
+    """{"ok", "repos", "terms", "error", "contracts"}: the profiles found for a sentence, the best first. `creator_filter` keeps only the creators (profiles whose wallet distributed at least one contract, checked):
+    "creators" among everything found, "network" among the people she is connected to. Without a sentence the filter alone lists them."""
     query = " ".join(str(query or "").split())[:200]
-    if not query:
+    mode = creator_filter if creator_filter in FILTERS else ""
+    if not query and not mode:
         return {"ok": False, "error": "cherche quoi ?", "repos": [], "terms": []}
-    wanted = terms(query)
-    score, order, failure = {}, [], None
-    for term in wanted:
-        try:
-            for repo in _search(term):
-                if repo not in score:
-                    order.append(repo)
-                score[repo] = score.get(repo, 0) + 1
-        except RuntimeError as err:
-            failure = str(err)
-            break
-    repos = sorted(order, key=lambda r: (-score[r], order.index(r)))[:MAX_REPOS]
-    if not repos and failure:
-        return {"ok": False, "error": failure, "repos": [], "terms": wanted}
-    return {"ok": True, "repos": repos, "terms": wanted, "error": None if repos else "aucun profil trouvé"}
+    wanted, failure, repos = [], None, []
+    if query:
+        wanted = terms(query)
+        score, order = {}, []
+        for term in wanted:
+            try:
+                for repo in _search(term):
+                    if repo not in score:
+                        order.append(repo)
+                    score[repo] = score.get(repo, 0) + 1
+            except RuntimeError as err:
+                failure = str(err)
+                break
+        repos = sorted(order, key=lambda r: (-score[r], order.index(r)))[:MAX_REPOS]
+    if not mode:
+        if not repos and failure:
+            return {"ok": False, "error": failure, "repos": [], "terms": wanted}
+        return {"ok": True, "repos": repos, "terms": wanted, "error": None if repos else "aucun profil trouvé"}
+    try:
+        if mode == "network":
+            net = {r.lower() for r in _network(favorites)}
+            pool = [r for r in repos if r.lower() in net] if query else _network(favorites)
+            pairs = creators.creators_among(pool)
+        elif query:
+            pairs = creators.creators_among(repos)
+        else:
+            pairs = creators.listed()
+    except RuntimeError as err:
+        return {"ok": False, "error": str(err), "repos": [], "terms": wanted}
+    out = [r for r, _ in pairs][:MAX_REPOS]
+    counts = {r: len(c) for r, c in pairs if r in out}
+    if not out:
+        why = failure or ("aucun créateur dans ton réseau" if mode == "network" else "aucun créateur trouvé")
+        return {"ok": bool(not failure), "error": why, "repos": [], "terms": wanted, "contracts": {}}
+    return {"ok": True, "repos": out, "terms": wanted, "error": None, "contracts": counts}

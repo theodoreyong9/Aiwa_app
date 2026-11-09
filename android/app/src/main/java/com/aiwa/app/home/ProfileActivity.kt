@@ -115,6 +115,12 @@ class ProfileActivity : ComponentActivity(), com.aiwa.app.nav.VoiceNav {
             setOnEditorActionListener { v, action, _ -> if (action == android.view.inputmethod.EditorInfo.IME_ACTION_SEARCH) { runSearch(v.text.toString()); true } else false }
         }
         searchBox!!.addView(searchField, LinearLayout.LayoutParams(0, ViewGroup.LayoutParams.WRAP_CONTENT, 1f))
+        filterChip = TextView(this).apply {
+            setTextColor(Color.WHITE); textSize = 12f; setPadding(dp(10), dp(5), dp(10), dp(5))
+            setOnClickListener { searchFilter = FILTERS[(FILTERS.indexOfFirst { it.first == searchFilter } + 1) % FILTERS.size].first; showFilter() }
+        }
+        searchBox!!.addView(filterChip, LinearLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT))
+        showFilter()
         searchBox!!.addView(TextView(this).apply { text = "✕"; setTextColor(Color.WHITE); textSize = 16f; setPadding(dp(12), dp(8), dp(12), dp(8)); setOnClickListener { toggleSearch() } })
         root.addView(searchBox, FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT, Gravity.TOP).apply { setMargins(dp(10), dp(8), dp(10), 0) })
         this.root = root
@@ -156,6 +162,17 @@ class ProfileActivity : ComponentActivity(), com.aiwa.app.nav.VoiceNav {
     private lateinit var root: FrameLayout
     private var searchBox: LinearLayout? = null
     private var searchField: android.widget.EditText? = null
+    private var filterChip: TextView? = null
+    private var searchFilter = ""      // "" everyone, "creators" (their wallet distributed a contract), "network" (creators among her people)
+
+    /** The label of the filter on the search bar: one tap goes to the next. */
+    private fun showFilter() {
+        val chip = filterChip ?: return
+        val on = searchFilter.isNotEmpty()
+        chip.text = FILTERS.first { it.first == searchFilter }.second
+        chip.background = GradientDrawable().apply { setColor(Color.parseColor(if (on) "#7C5CFF" else "#33FFFFFF")); cornerRadius = dp(14).toFloat() }
+        searchField?.hint = if (on) "Un mot pour affiner (ou rien : toute la liste)" else "Cherche des profils… (ex. vidéastes qui font du produit)"
+    }
     private var barView: android.view.View? = null
     private var built = false      // the window is complete: the keys may ask about the profile on the screen
 
@@ -250,18 +267,19 @@ class ProfileActivity : ComponentActivity(), com.aiwa.app.nav.VoiceNav {
     /** Looks for profiles on GitHub from a sentence (typed in the bar, or said to the super agent) and swipes through what is found; back is the usual right drag. */
     private fun runSearch(query: String) {
         val q = query.trim()
-        if (q.isEmpty()) return
+        val filter = searchFilter
+        if (q.isEmpty() && filter.isEmpty()) return
         searchBox?.let { box -> box.visibility = android.view.View.GONE; getSystemService(android.view.inputmethod.InputMethodManager::class.java)?.hideSoftInputFromWindow(box.windowToken, 0) }
-        toastOnMain(this, "Je cherche « $q » sur GitHub…")
+        toastOnMain(this, if (filter.isEmpty()) "Je cherche « $q » sur GitHub…" else "Je cherche les créateurs${if (q.isEmpty()) "" else " « $q »"}…")
         CoroutineScope(Dispatchers.Main).launch {
-            val (found, said) = withContext(Dispatchers.IO) { try { Aiwa.brain.findProfiles(q) } catch (err: Exception) { emptyList<String>() to "Le cerveau ne répond pas." } }
+            val (found, said) = withContext(Dispatchers.IO) { try { Aiwa.brain.findProfiles(q, filter, if (filter == "network") FavoriteRepos.all(this@ProfileActivity) else emptyList()) } catch (err: Exception) { emptyList<String>() to "Le cerveau ne répond pas." } }
             val own = ProfileSettings.repo(this@ProfileActivity)
             val deck = found.filter { ProfileView.valid(it) && !it.equals(own, ignoreCase = true) }
-            if (deck.isEmpty()) { toastOnMain(this@ProfileActivity, said ?: "Aucun profil trouvé pour « $q »."); return@launch }
+            if (deck.isEmpty()) { toastOnMain(this@ProfileActivity, said ?: "Aucun profil trouvé${if (q.isEmpty()) "." else " pour « $q »."}"); return@launch }
             stack.add(Level(urls, pubs, pager.currentItem))
             setDeck(deck, MutableList(deck.size) { "" }, 0)
             updateChrome()
-            toastOnMain(this@ProfileActivity, "${deck.size} profil${if (deck.size > 1) "s" else ""} pour « $q ».")
+            toastOnMain(this@ProfileActivity, (if (filter.isEmpty()) "${deck.size} profil${if (deck.size > 1) "s" else ""} pour « $q »." else "${deck.size} créateur${if (deck.size > 1) "s" else ""}${if (q.isEmpty()) "" else " pour « $q »"} : ils ont distribué au moins un contrat."))
         }
     }
 
@@ -627,6 +645,7 @@ class ProfileActivity : ComponentActivity(), com.aiwa.app.nav.VoiceNav {
         const val EXTRA_URLS = "urls"
         const val EXTRA_INDEX = "index"
         const val EXTRA_PUBS = "pubs"
+        private val FILTERS = listOf("" to "Tous", "creators" to "Créateurs", "network" to "Créateurs du réseau")
         const val EXTRA_FIND = "find"           // a search of profiles to run at once (said to the super agent)
         const val EXTRA_HOME = "home"           // the home of the application: her own profile first, then her zone
         fun homeIntent(context: Context): Intent = Intent(context, ProfileActivity::class.java).putExtra(EXTRA_HOME, true).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP)
