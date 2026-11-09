@@ -196,7 +196,7 @@ function endcard(t){let bg=`<div class="abs" style="inset:0;background:#02030a">
  h+=`<img src="/ui13/logo.png" class="abs" style="left:${W/2-150}px;top:${H/2-390}px;width:300px;height:300px;opacity:${a};transform:scale(${.7+.3*a});filter:drop-shadow(0 0 60px #8b7bff)">`;
  h+=`<div class="abs" style="left:0;right:0;top:${H/2-60}px;text-align:center;font-size:170px;font-weight:800;letter-spacing:.18em;opacity:${a};padding-left:.18em">AIWA</div>`;
  const P=EN.promise,b=eo(ramp(t,P,P+.5));
- h+=`<div class="abs" style="left:0;right:0;top:${H/2+170}px;text-align:center;font-size:76px;font-weight:600;letter-spacing:-.02em;opacity:${b};transform:translateY(${(1-b)*30}px)"><span style="color:#cfd8ff">${word(t,P,'Ton univers.')}</span> <span style="background:linear-gradient(90deg,#6b9bf5,#e56ac0,#34d6b0);-webkit-background-clip:text;color:transparent;font-weight:800">${word(t,P+.55,'Ta volonté.')}</span></div>`;
+ h+=`<div class="abs" style="left:0;right:0;top:${H/2+170}px;text-align:center;font-size:76px;font-weight:600;letter-spacing:-.02em;opacity:${b};transform:translateY(${(1-b)*30}px)"><span style="color:#cfd8ff">${word(t,P,'Ton univers.')}</span> ${word(t,P+.55,'Ta volonté.',{style:'background:linear-gradient(90deg,#6b9bf5,#e56ac0,#34d6b0);-webkit-background-clip:text;color:transparent;font-weight:800'})}</div>`;
  const c=ramp(t,P+1.4,P+2.0);h+=`<div class="abs mono" style="left:0;right:0;bottom:44px;text-align:center;font-size:18px;letter-spacing:.14em;color:#6f7aa8;opacity:${c}">MUSIQUE · « HIDING YOUR REALITY », KEVIN MACLEOD (INCOMPETECH.COM) · CC BY 4.0</div>`;
  return [bg,h]}
 

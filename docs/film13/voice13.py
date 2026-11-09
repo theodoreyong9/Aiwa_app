@@ -4,8 +4,9 @@ import json, os, subprocess, sys, wave
 import soundfile as sf
 import sherpa_onnx as so
 cues = json.load(open(sys.argv[1])); out = sys.argv[2]; os.makedirs(out, exist_ok=True)
-d = os.path.join(os.path.expanduser('~'), '.cache', 'aiwa-video', 'vits-piper-fr_FR-siwis-medium')
-cfg = so.OfflineTtsConfig(model=so.OfflineTtsModelConfig(vits=so.OfflineTtsVitsModelConfig(model=os.path.join(d, 'fr_FR-siwis-medium.onnx'), tokens=os.path.join(d, 'tokens.txt'), data_dir=os.path.join(d, 'espeak-ng-data')), num_threads=2), max_num_sentences=1)
+d = os.environ.get('VOICE_DIR', os.path.join(os.path.expanduser('~'), '.cache', 'aiwa-video', 'vits-piper-fr_FR-siwis-medium'))
+ONNX = [f for f in os.listdir(d) if f.endswith('.onnx')][0]
+cfg = so.OfflineTtsConfig(model=so.OfflineTtsModelConfig(vits=so.OfflineTtsVitsModelConfig(model=os.path.join(d, ONNX), tokens=os.path.join(d, 'tokens.txt'), data_dir=os.path.join(d, 'espeak-ng-data')), num_threads=2), max_num_sentences=1)
 tts = so.OfflineTts(cfg)
 MASTER = {
     # the narrator: deep, slow, warm, a long room (the voice of the film)

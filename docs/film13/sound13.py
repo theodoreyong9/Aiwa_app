@@ -5,7 +5,7 @@ import numpy as np
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, HERE)
 import sfxlib as L
 SR = L.SR
-TL = json.load(open(os.path.join(HERE, 'timeline13.json'))); V = TL['voice']; HK = TL['hook']; BT = TL['beats']; EN = TL['end']; SL = TL['slam']
+TL = json.load(open(os.path.join(HERE, os.environ.get('TIMELINE', 'timeline13.json')))); V = TL['voice']; HK = TL['hook']; BT = TL['beats']; EN = TL['end']; SL = TL['slam']
 vdir, odir = sys.argv[1], sys.argv[2]; os.makedirs(odir, exist_ok=True)
 N = TL['total'] + 1.5
 def read(p):

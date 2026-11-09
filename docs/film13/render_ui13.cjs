@@ -9,7 +9,7 @@ const { chromium } = require('playwright'); const fs = require('fs');
     window.__tick = ms => { vt += ms; const cbs = q; q = []; cbs.forEach(cb => { try { cb(vt); } catch (e) {} }); }; });
   const p = await ctx.newPage(); p.on('pageerror', e => console.log('ERR', e.message));
   const tick = ms => p.evaluate(ms => { window.__tick && window.__tick(ms); document.querySelectorAll('iframe').forEach(f => { try { f.contentWindow.__tick && f.contentWindow.__tick(ms); } catch (e) {} }); }, ms);
-  await p.goto(`http://127.0.0.1:${process.env.PORT || 8099}/ui13/ui13.built.html`);
+  await p.goto(`http://127.0.0.1:${process.env.PORT || 8099}/ui13/${process.env.PAGE || 'ui13.built.html'}`);
   await p.waitForFunction(() => typeof window.render === 'function');
   const a = Math.round(+t0 * fps), z = Math.round(+t1 * fps);
   await p.evaluate(t => window.render(t), a / fps);
